@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_BANAMA103_01224_SEQ_00<tab>Fibubb Gah seeks aid to replenish the Brotherhood's stock of healing salves.","TEXT_BANAMA103_01224_SEQ_00<tab>灰の陣営のフィブブ・ガーは、冒険者に頼みがあるようだ。","","False","0x00000000","",""
 "","TEXT_BANAMA103_01224_SEQ_01<tab>Fibubb Gah explains that a true warrior needs to be as concerned with the arts of healing as with the arts of war. Seek out succulents within Zanr'ak and harvest their rejuvenating sap.","TEXT_BANAMA103_01224_SEQ_01<tab>フィブブ・ガーの依頼を受けた。ザンラクの「<var 28 ((EObj)) F61E902301 /var>」から「<var 28 ((EventItem)) F61E88F201 /var>」を入手しよう。","","False","0x00000001","",""
 "","TEXT_BANAMA103_01224_SEQ_02<tab>You have obtained a supply of rejuvenating sap. Return to the Ring of Ash and deliver the healing salve to Fibubb Gah.","TEXT_BANAMA103_01224_SEQ_02<tab><var 28 ((EventItem)) F61E88F201 /var>を入手した。灰の陣営の「フィブブ・ガー」に「<var 28 ((EventItem)) F61E88F201 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,10 +47,23 @@
 "","TEXT_BANAMA103_01224_TODO_21<tab>","TEXT_BANAMA103_01224_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_BANAMA103_01224_TODO_22<tab>","TEXT_BANAMA103_01224_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_BANAMA103_01224_TODO_23<tab>","TEXT_BANAMA103_01224_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_BANAMA103_01224_FIBUBBGAH_000_001<tab>We of the Brotherhood of Ash are proud soldiers all. Yet even the greatest soldier can starve without sustenance, or be crippled by injury.","TEXT_BANAMA103_01224_FIBUBBGAH_000_001<tab>我ら「灰の一党」は、一騎当千の兵（つわもの）なり。<br>……されど、飢不択食。<br>我らとて食事もすれば怪我もする。","","False","0x00000030","",""
-"","TEXT_BANAMA103_01224_FIBUBBGAH_000_002<tab>We bear our battle wounds as badges of honor, but a festering cut can take one's life as surely as the blade of one's foe. A true warrior neglects not the arts of healing.","TEXT_BANAMA103_01224_FIBUBBGAH_000_002<tab>刻まれた傷は戦士の勲章。<br>しかれども、傷治らなく死に至れば、これすなわち敗北。<br>癒しの術を軽んじる輩に、真なる戦士なし。","","False","0x00000031","",""
-"","TEXT_BANAMA103_01224_FIBUBBGAH_000_003<tab>My task for you, honored ally, is simple yet needful: gather from the desert plants of Zanr'ak the rejuvenating sap we use to salve our hurts.","TEXT_BANAMA103_01224_FIBUBBGAH_000_003<tab>そこで強き者よ、実践躬行。<br>ザンラクの大地に生える<var 28 ((EObj)) F61E902301 /var>より、<br>丸薬の元となる「<var 28 ((EventItem)) F61E88F201 /var>」を集めよ。","","False","0x00000032","",""
-"","TEXT_BANAMA103_01224_FIBUBBGAH_000_004<tab>Though our foes make no use of such remedies, they will nevertheless be loath to relinquish them to you. Have a care you do not sustain such injuries that you fail to return!","TEXT_BANAMA103_01224_FIBUBBGAH_000_004<tab>真の戦士にあらざるザンラクの一党に、<br>癒しの術を譲る道理もなし……。<br>迅速なる収集で、汝の真なる戦士たるを示さん。","","False","0x00000033","",""
-"","TEXT_BANAMA103_01224_FIBUBBGAH_000_011<tab>Gather the clear sap of the Zanr'ak desert plants, and aid us in keeping our warriors hale.","TEXT_BANAMA103_01224_FIBUBBGAH_000_011<tab>ザンラクの大地に生える<var 28 ((EObj)) F61E902301 /var>より、<br>丸薬の元となる「<var 28 ((EventItem)) F61E88F201 /var>」集めてはもらえぬか。<br>迅速なる収集で、汝の真なる戦士たるを示さん。","","False","0x00000034","",""
-"","TEXT_BANAMA103_01224_FIBUBBGAH_000_021<tab>Welcome, honored ally. Have you the sap we require?","TEXT_BANAMA103_01224_FIBUBBGAH_000_021<tab>御苦労であった、強き者よ。<br>「<var 28 ((EventItem)) F61E88F201 /var>」は集め終わりしか？","","False","0x00000035","",""
-"","TEXT_BANAMA103_01224_FIBUBBGAH_000_022<tab>Yes, this will allow our wounded to return to the front lines of battle where a glorious death awaits. No true warrior wishes to wither away on a sickbed...","TEXT_BANAMA103_01224_FIBUBBGAH_000_022<tab>……確かに「<var 28 ((EventItem)) F61E88F201 /var>」。<br>不撓不屈、これあらば、我らが戦を続けること難くなし。<br>我、貴公の働きに、真なる戦士の資質を見出さん。","","False","0x00000036","",""
+"","TEXT_BANAMA103_01224_FIBUBBGAH_000_001<tab>We of the Brotherhood of Ash are proud soldiers all. Yet even the greatest soldier can starve without sustenance, or be crippled by injury.","TEXT_BANAMA103_01224_FIBUBBGAH_000_001<tab>我ら「灰の一党」は、一騎当千の兵（つわもの）なり。
+……されど、飢不択食。
+我らとて食事もすれば怪我もする。","","False","0x00000030","",""
+"","TEXT_BANAMA103_01224_FIBUBBGAH_000_002<tab>We bear our battle wounds as badges of honor, but a festering cut can take one's life as surely as the blade of one's foe. A true warrior neglects not the arts of healing.","TEXT_BANAMA103_01224_FIBUBBGAH_000_002<tab>刻まれた傷は戦士の勲章。
+しかれども、傷治らなく死に至れば、これすなわち敗北。
+癒しの術を軽んじる輩に、真なる戦士なし。","","False","0x00000031","",""
+"","TEXT_BANAMA103_01224_FIBUBBGAH_000_003<tab>My task for you, honored ally, is simple yet needful: gather from the desert plants of Zanr'ak the rejuvenating sap we use to salve our hurts.","TEXT_BANAMA103_01224_FIBUBBGAH_000_003<tab>そこで強き者よ、実践躬行。
+ザンラクの大地に生える<var 28 ((EObj)) F61E902301 /var>より、
+丸薬の元となる「<var 28 ((EventItem)) F61E88F201 /var>」を集めよ。","","False","0x00000032","",""
+"","TEXT_BANAMA103_01224_FIBUBBGAH_000_004<tab>Though our foes make no use of such remedies, they will nevertheless be loath to relinquish them to you. Have a care you do not sustain such injuries that you fail to return!","TEXT_BANAMA103_01224_FIBUBBGAH_000_004<tab>真の戦士にあらざるザンラクの一党に、
+癒しの術を譲る道理もなし……。
+迅速なる収集で、汝の真なる戦士たるを示さん。","","False","0x00000033","",""
+"","TEXT_BANAMA103_01224_FIBUBBGAH_000_011<tab>Gather the clear sap of the Zanr'ak desert plants, and aid us in keeping our warriors hale.","TEXT_BANAMA103_01224_FIBUBBGAH_000_011<tab>ザンラクの大地に生える<var 28 ((EObj)) F61E902301 /var>より、
+丸薬の元となる「<var 28 ((EventItem)) F61E88F201 /var>」集めてはもらえぬか。
+迅速なる収集で、汝の真なる戦士たるを示さん。","","False","0x00000034","",""
+"","TEXT_BANAMA103_01224_FIBUBBGAH_000_021<tab>Welcome, honored ally. Have you the sap we require?","TEXT_BANAMA103_01224_FIBUBBGAH_000_021<tab>御苦労であった、強き者よ。
+「<var 28 ((EventItem)) F61E88F201 /var>」は集め終わりしか？","","False","0x00000035","",""
+"","TEXT_BANAMA103_01224_FIBUBBGAH_000_022<tab>Yes, this will allow our wounded to return to the front lines of battle where a glorious death awaits. No true warrior wishes to wither away on a sickbed...","TEXT_BANAMA103_01224_FIBUBBGAH_000_022<tab>……確かに「<var 28 ((EventItem)) F61E88F201 /var>」。
+不撓不屈、これあらば、我らが戦を続けること難くなし。
+我、貴公の働きに、真なる戦士の資質を見出さん。","","False","0x00000036","",""

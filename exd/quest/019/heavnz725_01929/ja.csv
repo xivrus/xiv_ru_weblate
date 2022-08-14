@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ725_01929_SEQ_00<tab>Gullinkambi utters a growl, but not from her mouth.","TEXT_HEAVNZ725_01929_SEQ_00<tab>不浄の三塔のグリンカムビは、辛そうな唸りをあげている。","","False","0x00000000","",""
 "","TEXT_HEAVNZ725_01929_SEQ_01<tab>Gullinkambi spends countless moons atop the tower of Anyx Trine guarding her eggs. For lack of time to hunt, she has grown hungry and craves bandersnatch for her next meal. Travel to the cave near the Iron Feast and slay three bandersnatches for their meat.","TEXT_HEAVNZ725_01929_SEQ_01<tab>グリンカムビの話を聞いた。高地ドラヴァニアの悲嘆の飛泉付近で、「<var 28 ((BNpcName)) F20E0401 /var>」を討伐し、「<var 28 ((EventItem)) F61E8B0B01 /var>」を3つ入手しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ725_01929_SEQ_02<tab>You slay three bandersnatches and obtain their meat. Deliver the meat to Gullinkambi, that she may satisfy her cravings.","TEXT_HEAVNZ725_01929_SEQ_02<tab><var 28 ((EventItem)) F61E8B0B01 /var>を入手した。不浄の三塔の「グリンカムビ」に「<var 28 ((EventItem)) F61E8B0B01 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,8 +47,18 @@
 "","TEXT_HEAVNZ725_01929_TODO_21<tab>","TEXT_HEAVNZ725_01929_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ725_01929_TODO_22<tab>","TEXT_HEAVNZ725_01929_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ725_01929_TODO_23<tab>","TEXT_HEAVNZ725_01929_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_000<tab>My stomach roils, it longs for sustenance. I must feed to maintain my strength and guard these eggs.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_000<tab>腹が減った……あぁ、腹が減ってしまってしょうがない！<br>タマゴを温め続けるためには、体力がいるっていうのに……。<br>……悪いけど、新鮮な肉でも取ってきてくれないかい？","","False","0x00000030","",""
-"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_001<tab>Only the most succulent of meats can satisfy my cravings. I must have the bandersnatch. Bring me three chunks of their flesh from the cave near the Iron Feast.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_001<tab>悲嘆の飛泉の辺りに棲む「<var 28 ((BNpcName)) F20E0401 /var>」は、<br>この辺りでは一番に美味いからねぇ。<br>わかったら、「<var 28 ((EventItem)) F61E8B0B01 /var>」を3匹分ほど頼んだよ。","","False","0x00000031","",""
-"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_010<tab>Too long has it been since I feasted on the bandersnatch. No less than three chunks of their flesh will fill my belly.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_010<tab>悲嘆の飛泉の辺りに棲む「<var 28 ((BNpcName)) F20E0401 /var>」は、<br>この辺りでは一番に美味いからねぇ。<br>わかったら、「<var 28 ((EventItem)) F61E8B0B01 /var>」を3匹分ほど頼んだよ。","","False","0x00000032","",""
-"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_020<tab><sniff> <sniff> That savor... Give it to me. I must have it.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_020<tab>悲嘆の飛泉の辺りに棲む「<var 28 ((BNpcName)) F20E0401 /var>」は、<br>この辺りでは一番に美味いからねぇ。<br>わかったら、「<var 28 ((EventItem)) F61E8B0B01 /var>」を3匹分ほど頼んだよ。","","False","0x00000033","",""
-"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_021<tab><gulp> Ah, yes, there is no flesh better than that of bandersnatch. Thank you. The solitude of this tower can prove vexing, but a sated stomach makes my duties more bearable.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_021<tab>……いい香りだ、ありがとうね。<br>タマゴを温めるのはヒマでねぇ……時々、苛ついてしまうのさ。<br>空腹も満たされれば、少しは落ち着くはずだよ。","","False","0x00000034","",""
+"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_000<tab>My stomach roils, it longs for sustenance. I must feed to maintain my strength and guard these eggs.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_000<tab>腹が減った……あぁ、腹が減ってしまってしょうがない！
+タマゴを温め続けるためには、体力がいるっていうのに……。
+……悪いけど、新鮮な肉でも取ってきてくれないかい？","","False","0x00000030","",""
+"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_001<tab>Only the most succulent of meats can satisfy my cravings. I must have the bandersnatch. Bring me three chunks of their flesh from the cave near the Iron Feast.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_001<tab>悲嘆の飛泉の辺りに棲む「<var 28 ((BNpcName)) F20E0401 /var>」は、
+この辺りでは一番に美味いからねぇ。
+わかったら、「<var 28 ((EventItem)) F61E8B0B01 /var>」を3匹分ほど頼んだよ。","","False","0x00000031","",""
+"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_010<tab>Too long has it been since I feasted on the bandersnatch. No less than three chunks of their flesh will fill my belly.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_010<tab>悲嘆の飛泉の辺りに棲む「<var 28 ((BNpcName)) F20E0401 /var>」は、
+この辺りでは一番に美味いからねぇ。
+わかったら、「<var 28 ((EventItem)) F61E8B0B01 /var>」を3匹分ほど頼んだよ。","","False","0x00000032","",""
+"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_020<tab><sniff> <sniff> That savor... Give it to me. I must have it.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_020<tab>悲嘆の飛泉の辺りに棲む「<var 28 ((BNpcName)) F20E0401 /var>」は、
+この辺りでは一番に美味いからねぇ。
+わかったら、「<var 28 ((EventItem)) F61E8B0B01 /var>」を3匹分ほど頼んだよ。","","False","0x00000033","",""
+"","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_021<tab><gulp> Ah, yes, there is no flesh better than that of bandersnatch. Thank you. The solitude of this tower can prove vexing, but a sated stomach makes my duties more bearable.","TEXT_HEAVNZ725_01929_GULLINKAMBI_000_021<tab>……いい香りだ、ありがとうね。
+タマゴを温めるのはヒマでねぇ……時々、苛ついてしまうのさ。
+空腹も満たされれば、少しは落ち着くはずだよ。","","False","0x00000034","",""

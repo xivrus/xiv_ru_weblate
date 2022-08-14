@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_BANKOB101_01325_SEQ_00<tab>789th Order Dustman Bo Zu is half-starved and can't be arsed to do much about it.","TEXT_BANKOB101_01325_SEQ_00<tab>第789洞穴団の採掘地のダストマン789 ボ・ズは、冒険者に頼みごとがあるようだ。","","False","0x00000000","",""
 "","TEXT_BANKOB101_01325_SEQ_01<tab>After much racking of his hunger<var 1F /var>addled brain, Bo Zu has hit upon a plan to procure sustenance with minimal<var 1F /var>to<var 1F /var>no effort on his own part. To wit: you will bring ore to Camp Overlook under the pretense that you confiscated it from the kobolds' stock, requesting spare rations as reward for your efforts. As the dustman himself has no intention of parting with his own meager mining haul, travel to Iron Lake and acquire the necessary ore in his stead.","TEXT_BANKOB101_01325_SEQ_01<tab>ダストマン789 ボ・ズから、コボルド族の資源を奪ったふりをして黒渦団の補給兵に渡し、食料と交換してもらうよう依頼を受けた。アイアンレイクで「<var 28 ((EventItem)) F61E895F01 /var>」を3個集めよう。","","False","0x00000001","",""
 "","TEXT_BANKOB101_01325_SEQ_02<tab>You have managed to acquire only a few chunks of the shabbiest-looking ore you have ever seen. Bring them to Camp Overlook, hoping that the quartermaster will pity you enough to offer some scant reward.","TEXT_BANKOB101_01325_SEQ_02<tab><var 28 ((EventItem)) F61E895F01 /var>を集めた。キャンプ・オーバールックの「黒渦団の補給兵」に「<var 28 ((EventItem)) F61E895F01 /var>」を渡し、食料をもらおう。","","False","0x00000002","",""
@@ -24,7 +24,8 @@
 "","TEXT_BANKOB101_01325_SEQ_22<tab>","TEXT_BANKOB101_01325_SEQ_22<tab>","","False","0x00000016","",""
 "","TEXT_BANKOB101_01325_SEQ_23<tab>","TEXT_BANKOB101_01325_SEQ_23<tab>","","False","0x00000017","",""
 "","TEXT_BANKOB101_01325_TODO_00<tab>Collect worthless ore around Iron Lake.","TEXT_BANKOB101_01325_TODO_00<tab>アイアンレイクの<var 28 ((EventItem)) F61E895F01 /var>を入手","","False","0x00000018","",""
-"","TEXT_BANKOB101_01325_TODO_01<tab>Deliver worthless ore to the quartermaster at Camp Overlook.","TEXT_BANKOB101_01325_TODO_01<tab>キャンプ・オーバールックの黒渦団の補給兵に<br><var 28 ((EventItem)) F61E895F01 /var>を渡す","","False","0x00000019","",""
+"","TEXT_BANKOB101_01325_TODO_01<tab>Deliver worthless ore to the quartermaster at Camp Overlook.","TEXT_BANKOB101_01325_TODO_01<tab>キャンプ・オーバールックの黒渦団の補給兵に
+<var 28 ((EventItem)) F61E895F01 /var>を渡す","","False","0x00000019","",""
 "","TEXT_BANKOB101_01325_TODO_02<tab>Deliver the rotting vegetables to Bo Zu.","TEXT_BANKOB101_01325_TODO_02<tab>ダストマン789 ボ・ズに<var 28 ((EventItem)) F61E896001 /var>を渡す","","False","0x0000001A","",""
 "","TEXT_BANKOB101_01325_TODO_03<tab>","TEXT_BANKOB101_01325_TODO_03<tab>","","False","0x0000001B","",""
 "","TEXT_BANKOB101_01325_TODO_04<tab>","TEXT_BANKOB101_01325_TODO_04<tab>","","False","0x0000001C","",""
@@ -47,13 +48,32 @@
 "","TEXT_BANKOB101_01325_TODO_21<tab>","TEXT_BANKOB101_01325_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_BANKOB101_01325_TODO_22<tab>","TEXT_BANKOB101_01325_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_BANKOB101_01325_TODO_23<tab>","TEXT_BANKOB101_01325_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_BANKOB101_01325_BOZU_000_000<tab>Zo Ga is true to his word. He has halved─yes, yes, cut in two─the 789th's ration allotment as punishment for our low yield. I am starving─ravenous, famished, starving! What, oh what, is a hungry kobold to do?","TEXT_BANKOB101_01325_BOZU_000_000<tab>ハ　ハラが減ったーど。<br>もう何日か　メシを食べてないんだーど。<br>ハラが減って　一歩も動きたくないんだーど……。","","False","0x00000030","",""
-"","TEXT_BANKOB101_01325_BOZU_000_001<tab>Work harder, you say? But that sounds so tiring─grueling, taxing, tiring. I have a better plan. Yes, yes, a better plan, I have. Scraps of ore near Iron Lake, I saw. I was too tired to pick them up, but not you. No, no, not you.","TEXT_BANKOB101_01325_BOZU_000_001<tab>オイーラ　いいこと考えたーど。<br>キャンプ・オーバールックの「黒渦団の補給兵」を<br>ちょっくら　利用してやるんだーど。","","False","0x00000031","",""
-"","TEXT_BANKOB101_01325_BOZU_000_002<tab>You should gather them and take them to Camp Overlook, yes, yes. Tell the officer there you stole them from the naughty, naughty kobolds. As reward, you'll get tasty food, which you can bring to Bo Zu. Then we'll <var 1A 02 /var>feast<var 1A 01 /var>─gobble, gorge, feast!","TEXT_BANKOB101_01325_BOZU_000_002<tab>「<var 28 ((EventItem)) F61E895F01 /var>」を集めて　オイーラたちから奪ったと言えーば<br>きっとご褒美に　何かと交換してくれるんだーど。<br>そん時　オイーラのために　メシをもらってほしいんだーど！","","False","0x00000032","",""
-"","TEXT_BANKOB101_01325_BOZU_000_003<tab>No food yet? Do hurry─my belly is rumbling─grumbling, mumbling, rumbling. You bring ore to Camp Overlook, then bring back food in return. You will do this for Bo Zu, yes? Yes, yes, you will.","TEXT_BANKOB101_01325_BOZU_000_003<tab>「<var 28 ((EventItem)) F61E895F01 /var>」を集めて　オイーラたちから奪ったと言えーば<br>きっとご褒美に　何かと交換してくれるんだーど。<br>そん時　オイーラのために　メシをもらってほしいんだーど！","","False","0x00000033","",""
-"","TEXT_BANKOB101_01325_KOKKADAN01_100_010<tab>What's that? Plundered some precious metals from the kobolds that ye'd donate to our cause?","TEXT_BANKOB101_01325_KOKKADAN01_100_010<tab>……コボルド族から物資を奪ってきたって？<br>どれ、見せてみな。","","False","0x00000034","",""
-"","TEXT_BANKOB101_01325_KOKKADAN01_000_010<tab>Aye, the Maelstrom is fortunate indeed to 'ave capable allies like─<br>...Byregot's buttocks! These must be the sorriest dregs of ore I've ever 'ad the misfortune of layin' me eyes on.","TEXT_BANKOB101_01325_KOKKADAN01_000_010<tab>……アンタも中々やるじゃないか……って、オイオイ！？<br>こりゃ、ただの<var 28 ((EventItem)) F61E895F01 /var>じゃないか。<br>モグラ野郎どもを出し抜こうってな心意気は買うがね……。","","False","0x00000035","",""
-"","TEXT_BANKOB101_01325_KOKKADAN01_000_011<tab>Yer <var 1A 02 /var>reward<var 1A 01 /var>!? How about this: I'll give ye some leftover scraps from last night's dinner, and you'll promise to go away and not waste any more of me time. Deal?","TEXT_BANKOB101_01325_KOKKADAN01_000_011<tab>交換で何か食い物がほしいって？<br>いいけど……「<var 28 ((EventItem)) F61E896001 /var>」くらいしか渡せないぞ？<br>それでよければ持っていきな。","","False","0x00000036","",""
-"","TEXT_BANKOB101_01325_KOKKADAN01_000_012<tab>Beggin' for slop doesn't become ye, friend. If this adventurin' thing doesn't work out for ye, the Maelstrom is always lookin' for a few good <var 08 E905 ((women)) ((men)) /var>. It's a hard life, but at least ye always know where yer next meal is comin' from.","TEXT_BANKOB101_01325_KOKKADAN01_000_012<tab><var 28 ((EventItem)) F61E896001 /var>なんか、どうするつもりだ？<br>……も、もしかして、食うのか！？<br>やめとけ……さすがに腹をこわすぞ……。","","False","0x00000037","",""
-"","TEXT_BANKOB101_01325_BOZU_000_020<tab>You have brought my meal!? Yes, yes, tell me you have! Bo Zu's belly rumbles, rumbles so loud that it almost caused a cave-in─a collapse, a rockfall, a cave-in!","TEXT_BANKOB101_01325_BOZU_000_020<tab>おおおー！　待ってたーど！<br>助かったーど　メシにありつけるーど！","","False","0x00000038","",""
-"","TEXT_BANKOB101_01325_BOZU_000_021<tab>Oh, this will be a meal to savor─relish, delight, savor! Yes, yes, it is as Gi Gu always says─no treat is tastier than that earned by the efforts of others.","TEXT_BANKOB101_01325_BOZU_000_021<tab>こんな　いいメシを　くれるとーか<br>ヒトにも　物の価値　わかるやついるんだーど。<br>これからも　ちょくちょく　この手でいくどー！","","False","0x00000039","",""
+"","TEXT_BANKOB101_01325_BOZU_000_000<tab>Zo Ga is true to his word. He has halved─yes, yes, cut in two─the 789th's ration allotment as punishment for our low yield. I am starving─ravenous, famished, starving! What, oh what, is a hungry kobold to do?","TEXT_BANKOB101_01325_BOZU_000_000<tab>ハ　ハラが減ったーど。
+もう何日か　メシを食べてないんだーど。
+ハラが減って　一歩も動きたくないんだーど……。","","False","0x00000030","",""
+"","TEXT_BANKOB101_01325_BOZU_000_001<tab>Work harder, you say? But that sounds so tiring─grueling, taxing, tiring. I have a better plan. Yes, yes, a better plan, I have. Scraps of ore near Iron Lake, I saw. I was too tired to pick them up, but not you. No, no, not you.","TEXT_BANKOB101_01325_BOZU_000_001<tab>オイーラ　いいこと考えたーど。
+キャンプ・オーバールックの「黒渦団の補給兵」を
+ちょっくら　利用してやるんだーど。","","False","0x00000031","",""
+"","TEXT_BANKOB101_01325_BOZU_000_002<tab>You should gather them and take them to Camp Overlook, yes, yes. Tell the officer there you stole them from the naughty, naughty kobolds. As reward, you'll get tasty food, which you can bring to Bo Zu. Then we'll <var 1A 02 /var>feast<var 1A 01 /var>─gobble, gorge, feast!","TEXT_BANKOB101_01325_BOZU_000_002<tab>「<var 28 ((EventItem)) F61E895F01 /var>」を集めて　オイーラたちから奪ったと言えーば
+きっとご褒美に　何かと交換してくれるんだーど。
+そん時　オイーラのために　メシをもらってほしいんだーど！","","False","0x00000032","",""
+"","TEXT_BANKOB101_01325_BOZU_000_003<tab>No food yet? Do hurry─my belly is rumbling─grumbling, mumbling, rumbling. You bring ore to Camp Overlook, then bring back food in return. You will do this for Bo Zu, yes? Yes, yes, you will.","TEXT_BANKOB101_01325_BOZU_000_003<tab>「<var 28 ((EventItem)) F61E895F01 /var>」を集めて　オイーラたちから奪ったと言えーば
+きっとご褒美に　何かと交換してくれるんだーど。
+そん時　オイーラのために　メシをもらってほしいんだーど！","","False","0x00000033","",""
+"","TEXT_BANKOB101_01325_KOKKADAN01_100_010<tab>What's that? Plundered some precious metals from the kobolds that ye'd donate to our cause?","TEXT_BANKOB101_01325_KOKKADAN01_100_010<tab>……コボルド族から物資を奪ってきたって？
+どれ、見せてみな。","","False","0x00000034","",""
+"","TEXT_BANKOB101_01325_KOKKADAN01_000_010<tab>Aye, the Maelstrom is fortunate indeed to 'ave capable allies like─
+...Byregot's buttocks! These must be the sorriest dregs of ore I've ever 'ad the misfortune of layin' me eyes on.","TEXT_BANKOB101_01325_KOKKADAN01_000_010<tab>……アンタも中々やるじゃないか……って、オイオイ！？
+こりゃ、ただの<var 28 ((EventItem)) F61E895F01 /var>じゃないか。
+モグラ野郎どもを出し抜こうってな心意気は買うがね……。","","False","0x00000035","",""
+"","TEXT_BANKOB101_01325_KOKKADAN01_000_011<tab>Yer <var 1A 02 /var>reward<var 1A 01 /var>!? How about this: I'll give ye some leftover scraps from last night's dinner, and you'll promise to go away and not waste any more of me time. Deal?","TEXT_BANKOB101_01325_KOKKADAN01_000_011<tab>交換で何か食い物がほしいって？
+いいけど……「<var 28 ((EventItem)) F61E896001 /var>」くらいしか渡せないぞ？
+それでよければ持っていきな。","","False","0x00000036","",""
+"","TEXT_BANKOB101_01325_KOKKADAN01_000_012<tab>Beggin' for slop doesn't become ye, friend. If this adventurin' thing doesn't work out for ye, the Maelstrom is always lookin' for a few good <var 08 E905 ((women)) ((men)) /var>. It's a hard life, but at least ye always know where yer next meal is comin' from.","TEXT_BANKOB101_01325_KOKKADAN01_000_012<tab><var 28 ((EventItem)) F61E896001 /var>なんか、どうするつもりだ？
+……も、もしかして、食うのか！？
+やめとけ……さすがに腹をこわすぞ……。","","False","0x00000037","",""
+"","TEXT_BANKOB101_01325_BOZU_000_020<tab>You have brought my meal!? Yes, yes, tell me you have! Bo Zu's belly rumbles, rumbles so loud that it almost caused a cave-in─a collapse, a rockfall, a cave-in!","TEXT_BANKOB101_01325_BOZU_000_020<tab>おおおー！　待ってたーど！
+助かったーど　メシにありつけるーど！","","False","0x00000038","",""
+"","TEXT_BANKOB101_01325_BOZU_000_021<tab>Oh, this will be a meal to savor─relish, delight, savor! Yes, yes, it is as Gi Gu always says─no treat is tastier than that earned by the efforts of others.","TEXT_BANKOB101_01325_BOZU_000_021<tab>こんな　いいメシを　くれるとーか
+ヒトにも　物の価値　わかるやついるんだーど。
+これからも　ちょくちょく　この手でいくどー！","","False","0x00000039","",""

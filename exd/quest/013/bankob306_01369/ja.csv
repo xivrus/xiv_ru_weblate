@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_BANKOB306_01369_SEQ_00<tab>789th Order Dustman Bo Bu would have a taste of luxury, if only for a day.","TEXT_BANKOB306_01369_SEQ_00<tab>第789洞穴団の採掘地のダストマン789 ボ・ブは、欲しいものがあるようだ。","","False","0x00000000","",""
 "","TEXT_BANKOB306_01369_SEQ_01<tab>The indomitable Bo Bu expresses his envy for the 13th Order─not for their wealth or prestige so much as for the sumptuous feasts afforded them by their fugleman Zo Ga. Bo Bu has no intention of betraying his friends at the dig, but he would slake his curiosity regarding the delicacies in which his more accomplished peers delight. Pay a visit to the most approachable member of Zo Ga's order─the alchemist Ga Zi─to see what might be done.","TEXT_BANKOB306_01369_SEQ_01<tab>ダストマン789 ボ・ブは、第13洞穴団の食事を羨んでいるらしい。食事をしまっている<var 28 ((EObj)) F61E93E901 /var>を開ける方法を、アイアンレイクの「アルケミスト13 ガ・ジ」に聞こう。","","False","0x00000001","",""
 "","TEXT_BANKOB306_01369_SEQ_02<tab>Harboring no great affection for Zo Ga's overbearing ways, Ga Zi willingly reveals the location of the food stores, as well as the means by which to acquire one of the necessary keys. As a growing young kobold's stomach hangs in the balance, delve into U'Ghamaro and locate one of the keyholder pots, slaying any patrolman fool enough to interfere.","TEXT_BANKOB306_01369_SEQ_02<tab>アルケミスト13 ガ・ジから、<var 28 ((EObj)) F61E93E901 /var>を開けるには鍵が必要であることを聞いた。まずは、ウ・ガマロ武装鉱山の「<var 28 ((EObj)) F61E93DA01 /var>」に触れて、見張りの「<var 28 ((BNpcName)) F20A9501 /var>」を討伐しよう。","","False","0x00000002","",""
@@ -47,22 +47,46 @@
 "","TEXT_BANKOB306_01369_TODO_21<tab>","TEXT_BANKOB306_01369_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_BANKOB306_01369_TODO_22<tab>","TEXT_BANKOB306_01369_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_BANKOB306_01369_TODO_23<tab>","TEXT_BANKOB306_01369_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_BANKOB306_01369_BOBU_000_000<tab>My glasses, my cap, the fur off my back─yes, yes, what I would not give to join the 13th Order for a day!","TEXT_BANKOB306_01369_BOBU_000_000<tab>ワガハイ　声を大にしーて　いいたいのであーる。<br>ゾ・ガの手下たちーが　羨ましいーと！","","False","0x00000030","",""
-"","TEXT_BANKOB306_01369_BOBU_000_001<tab>Do not take me wrong! No affection for Zo Ga do I bear─no love, no fondness, no affection. No, no, it is only my stomach that harbors such ambitions.","TEXT_BANKOB306_01369_BOBU_000_001<tab>ゾ・ガの手下に　なりたいのではなーい！<br>奴らが喰っているメシが　気になるのであーる！<br>いいもの喰ってるーに　違いないのであーる！","","False","0x00000031","",""
-"","TEXT_BANKOB306_01369_BOBU_000_002<tab>The 789th Order dines on dirt and dry coblyn husks...when we dine at all. Meanwhile, Zo Ga fills his belly with the tastiest treats the tunnels have to offer.","TEXT_BANKOB306_01369_BOBU_000_002<tab>しかーしヤツーラ　メシを大事に<br>「<var 28 ((EObj)) F61E93E901 /var>」に隠しておーり<br>ワガハイたちにーは　見せもしないのであーる！","","False","0x00000032","",""
-"","TEXT_BANKOB306_01369_BOBU_000_003<tab>Bo Bu would never think of betraying his friends─no, no─but loyalty is much more easily maintained on a full stomach, yes? Yes, yes, we both know this is so.","TEXT_BANKOB306_01369_BOBU_000_003<tab>悔しいーが　ワガハイでは金壺を開けるどころーか<br>近づくこともできないのであーる……。<br>されーどワガハイ　ひとつ手がかりを耳にしたのであーる！","","False","0x00000033","",""
-"","TEXT_BANKOB306_01369_BOBU_000_004<tab>The alchemist Ga Zi serves Zo Ga, but not willingly. Yes, perhaps he could be persuaded─convinced, enticed, persuaded─to share a secret or two about his master's food stash. You are curious too, yes? You will go, yes?","TEXT_BANKOB306_01369_BOBU_000_004<tab>「アルケミスト13 ガ・ジ」……アヤーツこそ鍵。<br>どうも　金壺についーて　知っているようなのであーる。<br>アヤーツに　詳しい話を聞いてみるのであーる。","","False","0x00000034","",""
-"","TEXT_BANKOB306_01369_BOBU_000_005<tab>The alchemist Ga Zi serves Zo Ga, but not willingly. Yes, perhaps he could be persuaded─convinced, enticed, persuaded─to share a secret or two about his master's food stash. You are curious too, yes? You will go, yes?","TEXT_BANKOB306_01369_BOBU_000_005<tab>「アルケミスト13 ガ・ジ」に話を聞いーて<br>「<var 28 ((EObj)) F61E93E901 /var>」の中身を<br>ワガハイに　よこすのであーる！","","False","0x00000035","",""
+"","TEXT_BANKOB306_01369_BOBU_000_000<tab>My glasses, my cap, the fur off my back─yes, yes, what I would not give to join the 13th Order for a day!","TEXT_BANKOB306_01369_BOBU_000_000<tab>ワガハイ　声を大にしーて　いいたいのであーる。
+ゾ・ガの手下たちーが　羨ましいーと！","","False","0x00000030","",""
+"","TEXT_BANKOB306_01369_BOBU_000_001<tab>Do not take me wrong! No affection for Zo Ga do I bear─no love, no fondness, no affection. No, no, it is only my stomach that harbors such ambitions.","TEXT_BANKOB306_01369_BOBU_000_001<tab>ゾ・ガの手下に　なりたいのではなーい！
+奴らが喰っているメシが　気になるのであーる！
+いいもの喰ってるーに　違いないのであーる！","","False","0x00000031","",""
+"","TEXT_BANKOB306_01369_BOBU_000_002<tab>The 789th Order dines on dirt and dry coblyn husks...when we dine at all. Meanwhile, Zo Ga fills his belly with the tastiest treats the tunnels have to offer.","TEXT_BANKOB306_01369_BOBU_000_002<tab>しかーしヤツーラ　メシを大事に
+「<var 28 ((EObj)) F61E93E901 /var>」に隠しておーり
+ワガハイたちにーは　見せもしないのであーる！","","False","0x00000032","",""
+"","TEXT_BANKOB306_01369_BOBU_000_003<tab>Bo Bu would never think of betraying his friends─no, no─but loyalty is much more easily maintained on a full stomach, yes? Yes, yes, we both know this is so.","TEXT_BANKOB306_01369_BOBU_000_003<tab>悔しいーが　ワガハイでは金壺を開けるどころーか
+近づくこともできないのであーる……。
+されーどワガハイ　ひとつ手がかりを耳にしたのであーる！","","False","0x00000033","",""
+"","TEXT_BANKOB306_01369_BOBU_000_004<tab>The alchemist Ga Zi serves Zo Ga, but not willingly. Yes, perhaps he could be persuaded─convinced, enticed, persuaded─to share a secret or two about his master's food stash. You are curious too, yes? You will go, yes?","TEXT_BANKOB306_01369_BOBU_000_004<tab>「アルケミスト13 ガ・ジ」……アヤーツこそ鍵。
+どうも　金壺についーて　知っているようなのであーる。
+アヤーツに　詳しい話を聞いてみるのであーる。","","False","0x00000034","",""
+"","TEXT_BANKOB306_01369_BOBU_000_005<tab>The alchemist Ga Zi serves Zo Ga, but not willingly. Yes, perhaps he could be persuaded─convinced, enticed, persuaded─to share a secret or two about his master's food stash. You are curious too, yes? You will go, yes?","TEXT_BANKOB306_01369_BOBU_000_005<tab>「アルケミスト13 ガ・ジ」に話を聞いーて
+「<var 28 ((EObj)) F61E93E901 /var>」の中身を
+ワガハイに　よこすのであーる！","","False","0x00000035","",""
 "","TEXT_BANKOB306_01369_BALLOON_KOBOLD_006<tab>Thief! Filcher, pilferer, thief!","TEXT_BANKOB306_01369_BALLOON_KOBOLD_006<tab>このカギ　わたさなーい！","","False","0x00000036","",""
-"","TEXT_BANKOB306_01369_GAJI_000_010<tab>Yunz have a mind to fill yunz's tummy with Zo Ga's yum-yums? That sounds like bugger for Zo Ga─and what's bugger for Zo Ga is bully for Ga Zi. A few too many 'splosions between us─booms, bwoms, 'splosions, that sort of thing.","TEXT_BANKOB306_01369_GAJI_000_010<tab>「<var 28 ((EObj)) F61E93E901 /var>」を　開けるーの？<br>あれーは　とても大事なもーの。<br>開けるーの　結構大変だーよ？","","False","0x00000037","",""
-"","TEXT_BANKOB306_01369_GAJI_000_011<tab>Now yunz be listening, 'cause I's going to direct yunz straight to Zo Ga's yummiest yum-yums.","TEXT_BANKOB306_01369_GAJI_000_011<tab>開けるためーの　「<var 28 ((EventItem)) F61E898201 /var>」は<br>「<var 28 ((EObj)) F61E93DA01 /var>」に入ってて　隠されてるーよ。<br>「ウ・ガマロ武装鉱山」を隅々　探すことだーね。","","False","0x00000038","",""
-"","TEXT_BANKOB306_01369_GAJI_000_012<tab>Firstly, yunz'll be needing a key─any one will do. Zo Ga keeps 'em in dingy old pots deep in U'Ghamaro, thinking they're safe there like the bugger-brain he is. Like as not, his bootlickers are guarding the place, but yunz shouldn't have a problem relieving them of their duties, nuh-uh, nuh-uh.","TEXT_BANKOB306_01369_GAJI_000_012<tab>たしーか　「<var 28 ((EObj)) F61E93DA01 /var>」には　見張り番いるーよ。<br>そいつやっつけないーと　きっと開けられなーい。","","False","0x00000039","",""
-"","TEXT_BANKOB306_01369_GAJI_000_013<tab>Yunz take the key, go searching for one of Zo Ga's stash pots. Yunz should find them quickly, on account of them being all gold and shiny─glossy, sheeny, shiny, that sort of thing. Now, that bugger Zo Ga likes his yum-yums, so his stashes might be guarded a bit more heavily. But that's yunz's problem, uh-huh, uh-huh.","TEXT_BANKOB306_01369_GAJI_000_013<tab>それーに　「<var 28 ((EObj)) F61E93E901 /var>」も<br>「<var 28 ((BNpcName)) F20A9601 /var>」が　守ってるはずーよ。<br>やっつけないーと　落ち着いて開けられないーよ。","","False","0x0000003A","",""
+"","TEXT_BANKOB306_01369_GAJI_000_010<tab>Yunz have a mind to fill yunz's tummy with Zo Ga's yum-yums? That sounds like bugger for Zo Ga─and what's bugger for Zo Ga is bully for Ga Zi. A few too many 'splosions between us─booms, bwoms, 'splosions, that sort of thing.","TEXT_BANKOB306_01369_GAJI_000_010<tab>「<var 28 ((EObj)) F61E93E901 /var>」を　開けるーの？
+あれーは　とても大事なもーの。
+開けるーの　結構大変だーよ？","","False","0x00000037","",""
+"","TEXT_BANKOB306_01369_GAJI_000_011<tab>Now yunz be listening, 'cause I's going to direct yunz straight to Zo Ga's yummiest yum-yums.","TEXT_BANKOB306_01369_GAJI_000_011<tab>開けるためーの　「<var 28 ((EventItem)) F61E898201 /var>」は
+「<var 28 ((EObj)) F61E93DA01 /var>」に入ってて　隠されてるーよ。
+「ウ・ガマロ武装鉱山」を隅々　探すことだーね。","","False","0x00000038","",""
+"","TEXT_BANKOB306_01369_GAJI_000_012<tab>Firstly, yunz'll be needing a key─any one will do. Zo Ga keeps 'em in dingy old pots deep in U'Ghamaro, thinking they're safe there like the bugger-brain he is. Like as not, his bootlickers are guarding the place, but yunz shouldn't have a problem relieving them of their duties, nuh-uh, nuh-uh.","TEXT_BANKOB306_01369_GAJI_000_012<tab>たしーか　「<var 28 ((EObj)) F61E93DA01 /var>」には　見張り番いるーよ。
+そいつやっつけないーと　きっと開けられなーい。","","False","0x00000039","",""
+"","TEXT_BANKOB306_01369_GAJI_000_013<tab>Yunz take the key, go searching for one of Zo Ga's stash pots. Yunz should find them quickly, on account of them being all gold and shiny─glossy, sheeny, shiny, that sort of thing. Now, that bugger Zo Ga likes his yum-yums, so his stashes might be guarded a bit more heavily. But that's yunz's problem, uh-huh, uh-huh.","TEXT_BANKOB306_01369_GAJI_000_013<tab>それーに　「<var 28 ((EObj)) F61E93E901 /var>」も
+「<var 28 ((BNpcName)) F20A9601 /var>」が　守ってるはずーよ。
+やっつけないーと　落ち着いて開けられないーよ。","","False","0x0000003A","",""
 "","TEXT_BANKOB306_01369_GAJI_000_014<tab>deleted","TEXT_BANKOB306_01369_GAJI_000_014<tab>（★未使用／削除予定★）","","False","0x0000003B","",""
 "","TEXT_BANKOB306_01369_GAJI_000_015<tab>deleted","TEXT_BANKOB306_01369_GAJI_000_015<tab>（★未使用／削除予定★）","","False","0x0000003C","",""
-"","TEXT_BANKOB306_01369_BOBU_000_020<tab><sniff> <sniff> What is this scrumptious aroma─this scent, this savor, this aroma!?","TEXT_BANKOB306_01369_BOBU_000_020<tab>とってきたのであーる？<br>さすがオヌーシ！　でかしたのであーる！<br>ワガハイに　中身をよこすのであーる！！","","False","0x0000003D","",""
-"","TEXT_BANKOB306_01369_BOBU_000_021<tab>C-Could it be...!? Yes, yes, it could! A gold wriggler, still wriggling with life. A meal fit for kobold kings, but today it is for Bo Bu!","TEXT_BANKOB306_01369_BOBU_000_021<tab>こ　これーは……なんと「黄金ミミズ」！？<br>全コボルド族垂涎の　食材なのであーる！！<br>……ムシャムシャ……ウマイ　ウマイのであーる！","","False","0x0000003E","",""
-"","TEXT_BANKOB306_01369_BOBU_000_022<tab>Om nom nom nom... <gulp> Oh, it still wriggles in my belly─worms, writhes, wriggles. The gall of Zo Ga, hoarding such delights as we go hungry. He will pay for his covetousness─yes, yes, pay he will!","TEXT_BANKOB306_01369_BOBU_000_022<tab>信じられんのであーる！<br>こんなウマイものーを　独占しておったなーど……<br>ゾ・ガの一味を　ますます許せなくなったのであーる！！","","False","0x0000003F","",""
+"","TEXT_BANKOB306_01369_BOBU_000_020<tab><sniff> <sniff> What is this scrumptious aroma─this scent, this savor, this aroma!?","TEXT_BANKOB306_01369_BOBU_000_020<tab>とってきたのであーる？
+さすがオヌーシ！　でかしたのであーる！
+ワガハイに　中身をよこすのであーる！！","","False","0x0000003D","",""
+"","TEXT_BANKOB306_01369_BOBU_000_021<tab>C-Could it be...!? Yes, yes, it could! A gold wriggler, still wriggling with life. A meal fit for kobold kings, but today it is for Bo Bu!","TEXT_BANKOB306_01369_BOBU_000_021<tab>こ　これーは……なんと「黄金ミミズ」！？
+全コボルド族垂涎の　食材なのであーる！！
+……ムシャムシャ……ウマイ　ウマイのであーる！","","False","0x0000003E","",""
+"","TEXT_BANKOB306_01369_BOBU_000_022<tab>Om nom nom nom... <gulp> Oh, it still wriggles in my belly─worms, writhes, wriggles. The gall of Zo Ga, hoarding such delights as we go hungry. He will pay for his covetousness─yes, yes, pay he will!","TEXT_BANKOB306_01369_BOBU_000_022<tab>信じられんのであーる！
+こんなウマイものーを　独占しておったなーど……
+ゾ・ガの一味を　ますます許せなくなったのであーる！！","","False","0x0000003F","",""
 "","TEXT_BANKOB306_01369_POPMESSAGE_000_000<tab>You sense a hostile presence!","TEXT_BANKOB306_01369_POPMESSAGE_000_000<tab>敵の気配を感じた！！","","False","0x00000040","",""
 "","TEXT_BANKOB306_01369_POPMESSAGE_000_001<tab>The enemy is still about!","TEXT_BANKOB306_01369_POPMESSAGE_000_001<tab>その行動は出現した敵を倒さないと実行できません","","False","0x00000041","",""
 "","TEXT_BANKOB306_01369_POP_MESSAGE<tab>","TEXT_BANKOB306_01369_POP_MESSAGE<tab>（★未使用／削除予定★）","","False","0x00000042","",""

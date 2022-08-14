@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_BANSAH109_01387_SEQ_00<tab>Fyuu wishes you to raid the raiders.","TEXT_BANSAH109_01387_SEQ_00<tab>ノォヴの育成地のフュウは、冒険者に頼みたいことがあるようだ。","","False","0x00000000","",""
 "","TEXT_BANSAH109_01387_SEQ_01<tab>Word has reached Fyuu that another trading vessel has fallen prey to the Coral Tridents. Though the crew managed to flee unscathed using a landing skiff, their valuable cargo yet remains on the captured ship. Novv's spawnling asks that you attempt to liberate this cargo from the claws of his zealous kin. Borrow an elbst from Pahh, and locate the crates on the deck of the merchantman.","TEXT_BANSAH109_01387_SEQ_01<tab>フュウから、「珊瑚の銛」によって奪われた、商船の荷物を取り返してくるよう依頼を受けた。洋上の商船に乗り込み、敵の妨害を退けて「<var 28 ((EObj)) F61E942201 /var>」を3つ回収しよう。洋上の商船へ行くためのエルブストは、ノォヴの育成地の「海獣使いのパァア」が手配してくれるそうだ。","","False","0x00000001","",""
 "","TEXT_BANSAH109_01387_SEQ_02<tab>You have relieved the Coral Tridents on the trading vessel of their ill-gotten cargo. Return to Novv's Nursery and deliver the crates to Fyuu.","TEXT_BANSAH109_01387_SEQ_02<tab><var 28 ((EventItem)) F61E898B01 /var>を回収した。ノォヴの育成地の「フュウ」に回収した「<var 28 ((EventItem)) F61E898B01 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,20 +47,33 @@
 "","TEXT_BANSAH109_01387_TODO_21<tab>","TEXT_BANSAH109_01387_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_BANSAH109_01387_TODO_22<tab>","TEXT_BANSAH109_01387_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_BANSAH109_01387_TODO_23<tab>","TEXT_BANSAH109_01387_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_BANSAH109_01387_FYUU_000_000<tab>Pshhh... The piracy of the Coral Tridentsss continues unabated─they have ssstruck another trading vessel.","TEXT_BANSAH109_01387_FYUU_000_000<tab>フスィーッ……ヒレナシの商船が襲われた。<br>犯人は、もちろん「珊瑚の銛」の連中だ！","","False","0x00000030","",""
-"","TEXT_BANSAH109_01387_FYUU_000_001<tab>The merchantman's captain and crew were able to essscape in a landing ssskiff, but they were forced to abandon their shhhip─and its cargo─to their attackers.","TEXT_BANSAH109_01387_FYUU_000_001<tab>商船の乗員どもは小舟で逃げ出したようだが、<br>運搬中の「<var 28 ((EventItem)) F61E898B01 /var>」は、船に残したままのようだ。","","False","0x00000031","",""
-"","TEXT_BANSAH109_01387_FYUU_000_002<tab>I am of a mind to sssee this cargo returned to the shhhorewalkers. Pshhh... Perhapsss it is time you practiced a little piracy of your own! Ssspeak with Pahh and borrow an elbssst─his ssseabeast will sssoon catch up to your burdened target.","TEXT_BANSAH109_01387_FYUU_000_002<tab>せめて、「<var 28 ((EventItem)) F61E898B01 /var>」を回収してやってくれねぇか？<br>洋上の商船には、エルブストに乗れば追いつけるはずだぜ！","","False","0x00000032","",""
-"","TEXT_BANSAH109_01387_FYUU_000_003<tab>Take an elbssst, and make your way to the Trident-infesssted merchantman. Let us sssee what cargo you can retrieve for the shhhorewalkers.","TEXT_BANSAH109_01387_FYUU_000_003<tab>「珊瑚の銛」に襲われた商船から、<br>「<var 28 ((EventItem)) F61E898B01 /var>」を回収してやってくれねぇか？<br>洋上の商船には、エルブストに乗れば追いつけるぜ！","","False","0x00000033","",""
-"","TEXT_BANSAH109_01387_TAMER01376_000_010<tab>Pshhh... The captured merchantman? My elbssst will have you sssnapping at its rudder before you've sssettled in the sssaddle.","TEXT_BANSAH109_01387_TAMER01376_000_010<tab>フスィーッ……拿捕された商船を追いたいのか？<br>エルブストのスピードがあれば、大丈夫だ。","","False","0x00000034","",""
+"","TEXT_BANSAH109_01387_FYUU_000_000<tab>Pshhh... The piracy of the Coral Tridentsss continues unabated─they have ssstruck another trading vessel.","TEXT_BANSAH109_01387_FYUU_000_000<tab>フスィーッ……ヒレナシの商船が襲われた。
+犯人は、もちろん「珊瑚の銛」の連中だ！","","False","0x00000030","",""
+"","TEXT_BANSAH109_01387_FYUU_000_001<tab>The merchantman's captain and crew were able to essscape in a landing ssskiff, but they were forced to abandon their shhhip─and its cargo─to their attackers.","TEXT_BANSAH109_01387_FYUU_000_001<tab>商船の乗員どもは小舟で逃げ出したようだが、
+運搬中の「<var 28 ((EventItem)) F61E898B01 /var>」は、船に残したままのようだ。","","False","0x00000031","",""
+"","TEXT_BANSAH109_01387_FYUU_000_002<tab>I am of a mind to sssee this cargo returned to the shhhorewalkers. Pshhh... Perhapsss it is time you practiced a little piracy of your own! Ssspeak with Pahh and borrow an elbssst─his ssseabeast will sssoon catch up to your burdened target.","TEXT_BANSAH109_01387_FYUU_000_002<tab>せめて、「<var 28 ((EventItem)) F61E898B01 /var>」を回収してやってくれねぇか？
+洋上の商船には、エルブストに乗れば追いつけるはずだぜ！","","False","0x00000032","",""
+"","TEXT_BANSAH109_01387_FYUU_000_003<tab>Take an elbssst, and make your way to the Trident-infesssted merchantman. Let us sssee what cargo you can retrieve for the shhhorewalkers.","TEXT_BANSAH109_01387_FYUU_000_003<tab>「珊瑚の銛」に襲われた商船から、
+「<var 28 ((EventItem)) F61E898B01 /var>」を回収してやってくれねぇか？
+洋上の商船には、エルブストに乗れば追いつけるぜ！","","False","0x00000033","",""
+"","TEXT_BANSAH109_01387_TAMER01376_000_010<tab>Pshhh... The captured merchantman? My elbssst will have you sssnapping at its rudder before you've sssettled in the sssaddle.","TEXT_BANSAH109_01387_TAMER01376_000_010<tab>フスィーッ……拿捕された商船を追いたいのか？
+エルブストのスピードがあれば、大丈夫だ。","","False","0x00000034","",""
 "","TEXT_BANSAH109_01387_Q1_000_000<tab>Ride the elbst to the merchantman?","TEXT_BANSAH109_01387_Q1_000_000<tab>エルブストに乗り「洋上の商船」へ行きますか？","","False","0x00000035","",""
 "","TEXT_BANSAH109_01387_A1_000_001<tab>Yes","TEXT_BANSAH109_01387_A1_000_001<tab>はい","","False","0x00000036","",""
 "","TEXT_BANSAH109_01387_A1_000_002<tab>No","TEXT_BANSAH109_01387_A1_000_002<tab>いいえ","","False","0x00000037","",""
-"","TEXT_BANSAH109_01387_FYUU_000_020<tab>Shhhorewalker, were you able to sssteal back the cargo?","TEXT_BANSAH109_01387_FYUU_000_020<tab>フスィーッ……。<br><var 28 ((EventItem)) F61E898B01 /var>を奪い返してこれたか？","","False","0x00000038","",""
-"","TEXT_BANSAH109_01387_FYUU_000_025<tab>Pshhh... Thank you. We will deliver these cratesss ourssselves.","TEXT_BANSAH109_01387_FYUU_000_025<tab>フスィーッ……さすがだな！<br>この荷物は、俺たちがヒレナシどもに届けておこう。","","False","0x00000039","",""
-"","TEXT_BANSAH109_01387_FYUU_000_026<tab>The crew of the merchantman may be alarmed by our appearance, but we mussst make an effort to teach them that not all Sssahagin desire conflict and chaosss.","TEXT_BANSAH109_01387_FYUU_000_026<tab>襲われた連中は、サハギン族を憎んでいるだろうが……。<br>共存を望むサハギン族もいるんだって、<br>教えてやらねぇとな！","","False","0x0000003A","",""
+"","TEXT_BANSAH109_01387_FYUU_000_020<tab>Shhhorewalker, were you able to sssteal back the cargo?","TEXT_BANSAH109_01387_FYUU_000_020<tab>フスィーッ……。
+<var 28 ((EventItem)) F61E898B01 /var>を奪い返してこれたか？","","False","0x00000038","",""
+"","TEXT_BANSAH109_01387_FYUU_000_025<tab>Pshhh... Thank you. We will deliver these cratesss ourssselves.","TEXT_BANSAH109_01387_FYUU_000_025<tab>フスィーッ……さすがだな！
+この荷物は、俺たちがヒレナシどもに届けておこう。","","False","0x00000039","",""
+"","TEXT_BANSAH109_01387_FYUU_000_026<tab>The crew of the merchantman may be alarmed by our appearance, but we mussst make an effort to teach them that not all Sssahagin desire conflict and chaosss.","TEXT_BANSAH109_01387_FYUU_000_026<tab>襲われた連中は、サハギン族を憎んでいるだろうが……。
+共存を望むサハギン族もいるんだって、
+教えてやらねぇとな！","","False","0x0000003A","",""
 "","TEXT_BANSAH109_01387_POPMESSAGE_000_000<tab>A watchful surftooth sentry attempts to prevent you from taking the crate!","TEXT_BANSAH109_01387_POPMESSAGE_000_000<tab>敵の気配を感じた！！","","False","0x0000003B","",""
 "","TEXT_BANSAH109_01387_POP_MESSAGE<tab>（★未使用／削除予定★）","TEXT_BANSAH109_01387_POP_MESSAGE<tab>（★未使用／削除予定★）","","False","0x0000003C","",""
 "","TEXT_BANSAH109_01387_POPMESSAGE_000_001<tab>The enemy is still about!","TEXT_BANSAH109_01387_POPMESSAGE_000_001<tab>その行動は出現した敵を倒さないと実行できません","","False","0x0000003D","",""
-"","TEXT_BANSAH109_01387_BALLOON_000_030<tab>Pshhh! You will not have our shhhpoils!","TEXT_BANSAH109_01387_BALLOON_000_030<tab>フスィーッ！<br>そいつは俺たちのだっ！","","False","0x0000003E","",""
-"","TEXT_BANSAH109_01387_BALLOON_000_031<tab>Pshhh! I'll take your thieving hands!","TEXT_BANSAH109_01387_BALLOON_000_031<tab>フスィーッ！<br>切り刻んでやる！","","False","0x0000003F","",""
-"","TEXT_BANSAH109_01387_BALLOON_000_032<tab>Shhhneaky, trickshhhy shhhorewalker!","TEXT_BANSAH109_01387_BALLOON_000_032<tab>フスィーッ！<br>毛の生えたヒレナシめ！","","False","0x00000040","",""
+"","TEXT_BANSAH109_01387_BALLOON_000_030<tab>Pshhh! You will not have our shhhpoils!","TEXT_BANSAH109_01387_BALLOON_000_030<tab>フスィーッ！
+そいつは俺たちのだっ！","","False","0x0000003E","",""
+"","TEXT_BANSAH109_01387_BALLOON_000_031<tab>Pshhh! I'll take your thieving hands!","TEXT_BANSAH109_01387_BALLOON_000_031<tab>フスィーッ！
+切り刻んでやる！","","False","0x0000003F","",""
+"","TEXT_BANSAH109_01387_BALLOON_000_032<tab>Shhhneaky, trickshhhy shhhorewalker!","TEXT_BANSAH109_01387_BALLOON_000_032<tab>フスィーッ！
+毛の生えたヒレナシめ！","","False","0x00000040","",""

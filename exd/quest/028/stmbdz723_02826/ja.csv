@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_STMBDZ723_02826_SEQ_00<tab>M'zhet Tia is ready to get into shape.","TEXT_STMBDZ723_02826_SEQ_00<tab>ギラバニア辺境地帯のメ・ゼト・ティアは、強くなりたいようだ。","","False","0x00000000","",""
 "","TEXT_STMBDZ723_02826_SEQ_01<tab>M'zhet Tia is determined to defeat M'rahz Nunh. Believing he has found the means to harden himself for battle, he bids you follow him to where he has been keeping to a safe location for training.","TEXT_STMBDZ723_02826_SEQ_01<tab>メ・ゼト・ティアは、強い「ヌン」となって孤独を脱するため、もう一度修行をつけてほしいようだ。「メ・ゼト・ティア」を追いかけよう。","","False","0x00000001","",""
 "","TEXT_STMBDZ723_02826_SEQ_02<tab>You arrive at your destination and notice a case that looks strangely familiar. M'zhet Tia tells you it contains grenades which he intends to use for training. Shocking though it may seem, he asks you to hurl the explosives at him. He braces himself as you take a grenade from the container.","TEXT_STMBDZ723_02826_SEQ_02<tab>メ・ゼト・ティアは、帝国軍の部隊が残していった兵器を使って、修行を行うという。ギラバニア辺境地帯のパイクフォールズにいるメ・ゼト・ティアに向かって、「<var 28 ((EventItem)) F61E8D6201 /var>」を当てよう。","","False","0x00000002","",""
@@ -48,21 +48,35 @@
 "","TEXT_STMBDZ723_02826_TODO_22<tab>","TEXT_STMBDZ723_02826_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_STMBDZ723_02826_TODO_23<tab>","TEXT_STMBDZ723_02826_TODO_23<tab>","","False","0x0000002F","",""
 "","TEXT_STMBDZ723_02826_MZHETTIA_000_001<tab>Are you ready to whip me into shape?","TEXT_STMBDZ723_02826_MZHETTIA_000_001<tab>それじゃ、修行を再開しましょう。","","False","0x00000030","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_002<tab>I've been thinking about how I need to improve, and I'm fairly certain fending off attacks is my weak point. After all, both you and M'rahz bested me with a single blow.","TEXT_STMBDZ723_02826_MZHETTIA_000_002<tab>どうもオレには、強靱さが欠けているような気がします。<br>「ヌン」にも師匠にも、一撃でやられるぐらいだし……。","","False","0x00000031","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_003<tab>I think I have just the thing to practice defending myself. Follow me!","TEXT_STMBDZ723_02826_MZHETTIA_000_003<tab>そこで、オレに秘策があります！<br>師匠、ついてきてください！","","False","0x00000032","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_010<tab>Look what I found─Mark XLII grenades left behind by the Garleans. Can you believe it?","TEXT_STMBDZ723_02826_MZHETTIA_000_010<tab>見てください、帝国軍の部隊が残していった、<br>「<var 28 ((EventItem)) F61E8D6201 /var>」です！","","False","0x00000033","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_011<tab>Word has it you've dealt with them before, so I'm sure you know what these can do.","TEXT_STMBDZ723_02826_MZHETTIA_000_011<tab>師匠は、何度も帝国と戦ったことがあるそうですね。<br>メ族の奴らが噂しているのを、耳にしたんです。","","False","0x00000034","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_012<tab>They'll be perfect for practicing my guard.","TEXT_STMBDZ723_02826_MZHETTIA_000_012<tab>なら、帝国の兵器を扱うことぐらい、わけないですよね！<br>こいつを使って、強靱さを鍛える修行を行います！","","False","0x00000035","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_013<tab>Now, take these grenades, and throw them at me. No need to worry─I've already emptied out most of their explosive powder.","TEXT_STMBDZ723_02826_MZHETTIA_000_013<tab>さあ、オレに向かって投げてください！<br>大丈夫です、火薬を少し抜いておきましたから！<br>まともに食らっても、死にはしませんって！","","False","0x00000036","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_020<tab>Should've...<cough> <cough>...emptied them out a little more...","TEXT_STMBDZ723_02826_MZHETTIA_000_020<tab>ぐおっ……！？<br>も、もっと火薬を……抜いて……おくべきだった……。","","False","0x00000037","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_021<tab>Erm, I mean. That was nothing! Go ahead, toss another!","TEXT_STMBDZ723_02826_MZHETTIA_000_021<tab>な、なんのこれしき！<br>さあ、もう一回「<var 28 ((EventItem)) F61E8D6201 /var>」を投げてください！","","False","0x00000038","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_002<tab>I've been thinking about how I need to improve, and I'm fairly certain fending off attacks is my weak point. After all, both you and M'rahz bested me with a single blow.","TEXT_STMBDZ723_02826_MZHETTIA_000_002<tab>どうもオレには、強靱さが欠けているような気がします。
+「ヌン」にも師匠にも、一撃でやられるぐらいだし……。","","False","0x00000031","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_003<tab>I think I have just the thing to practice defending myself. Follow me!","TEXT_STMBDZ723_02826_MZHETTIA_000_003<tab>そこで、オレに秘策があります！
+師匠、ついてきてください！","","False","0x00000032","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_010<tab>Look what I found─Mark XLII grenades left behind by the Garleans. Can you believe it?","TEXT_STMBDZ723_02826_MZHETTIA_000_010<tab>見てください、帝国軍の部隊が残していった、
+「<var 28 ((EventItem)) F61E8D6201 /var>」です！","","False","0x00000033","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_011<tab>Word has it you've dealt with them before, so I'm sure you know what these can do.","TEXT_STMBDZ723_02826_MZHETTIA_000_011<tab>師匠は、何度も帝国と戦ったことがあるそうですね。
+メ族の奴らが噂しているのを、耳にしたんです。","","False","0x00000034","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_012<tab>They'll be perfect for practicing my guard.","TEXT_STMBDZ723_02826_MZHETTIA_000_012<tab>なら、帝国の兵器を扱うことぐらい、わけないですよね！
+こいつを使って、強靱さを鍛える修行を行います！","","False","0x00000035","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_013<tab>Now, take these grenades, and throw them at me. No need to worry─I've already emptied out most of their explosive powder.","TEXT_STMBDZ723_02826_MZHETTIA_000_013<tab>さあ、オレに向かって投げてください！
+大丈夫です、火薬を少し抜いておきましたから！
+まともに食らっても、死にはしませんって！","","False","0x00000036","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_020<tab>Should've...<cough> <cough>...emptied them out a little more...","TEXT_STMBDZ723_02826_MZHETTIA_000_020<tab>ぐおっ……！？
+も、もっと火薬を……抜いて……おくべきだった……。","","False","0x00000037","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_021<tab>Erm, I mean. That was nothing! Go ahead, toss another!","TEXT_STMBDZ723_02826_MZHETTIA_000_021<tab>な、なんのこれしき！
+さあ、もう一回「<var 28 ((EventItem)) F61E8D6201 /var>」を投げてください！","","False","0x00000038","",""
 "","TEXT_STMBDZ723_02826_MZHETTIA_000_025<tab>No need to worry. I can take it.","TEXT_STMBDZ723_02826_MZHETTIA_000_025<tab>耐えてみせる……！","","False","0x00000039","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_030<tab><cough> Ugh! I think that one had more powder than the last one...","TEXT_STMBDZ723_02826_MZHETTIA_000_030<tab>ぐぼあぁぁぁ……！！<br>はぁ……はぁ……これ、本当に火薬……抜けてる……？","","False","0x0000003A","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_031<tab>N-Not that that's a bad thing, mind you! Hit me with another. I can take it!","TEXT_STMBDZ723_02826_MZHETTIA_000_031<tab>い、いや……弱音を吐くな、オレ！<br>さあ、もっと「<var 28 ((EventItem)) F61E8D6201 /var>」を！","","False","0x0000003B","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_030<tab><cough> Ugh! I think that one had more powder than the last one...","TEXT_STMBDZ723_02826_MZHETTIA_000_030<tab>ぐぼあぁぁぁ……！！
+はぁ……はぁ……これ、本当に火薬……抜けてる……？","","False","0x0000003A","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_031<tab>N-Not that that's a bad thing, mind you! Hit me with another. I can take it!","TEXT_STMBDZ723_02826_MZHETTIA_000_031<tab>い、いや……弱音を吐くな、オレ！
+さあ、もっと「<var 28 ((EventItem)) F61E8D6201 /var>」を！","","False","0x0000003B","",""
 "","TEXT_STMBDZ723_02826_MZHETTIA_000_035<tab>(I hope the next one is empty. That hurt!)","TEXT_STMBDZ723_02826_MZHETTIA_000_035<tab>これ、思ってたよりずっと痛い……。","","False","0x0000003C","",""
 "","TEXT_STMBDZ723_02826_MZHETTIA_000_040<tab>Graaagh!","TEXT_STMBDZ723_02826_MZHETTIA_000_040<tab>ぐにゃあああぁぁぁぁぁ！！","","False","0x0000003D","",""
 "","TEXT_STMBDZ723_02826_MZHETTIA_000_041<tab>...","TEXT_STMBDZ723_02826_MZHETTIA_000_041<tab>…………。","","False","0x0000003E","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_042<tab>I... I must have forgotten to empty out the powder...","TEXT_STMBDZ723_02826_MZHETTIA_000_042<tab>あ、これ、確実に抜けてない……。<br>火薬、一粒も抜けてないって、たった今、確信しました……。","","False","0x0000003F","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_045<tab><pant> <pant> You can do this, M'zhet. You can do this!","TEXT_STMBDZ723_02826_MZHETTIA_000_045<tab>はぁ……はぁ……。<br>ちょっと……タンマ……。","","False","0x00000040","",""
-"","TEXT_STMBDZ723_02826_MZHETTIA_000_043<tab>B-But that just means the training will make me tougher! Why, I bet I could defeat M'rahz right now if I wanted.","TEXT_STMBDZ723_02826_MZHETTIA_000_043<tab>……でもこれで、強靱な肉体を手に入れることができたはず……。<br>これなら、「ヌン」にも勝てる！","","False","0x00000041","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_042<tab>I... I must have forgotten to empty out the powder...","TEXT_STMBDZ723_02826_MZHETTIA_000_042<tab>あ、これ、確実に抜けてない……。
+火薬、一粒も抜けてないって、たった今、確信しました……。","","False","0x0000003F","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_045<tab><pant> <pant> You can do this, M'zhet. You can do this!","TEXT_STMBDZ723_02826_MZHETTIA_000_045<tab>はぁ……はぁ……。
+ちょっと……タンマ……。","","False","0x00000040","",""
+"","TEXT_STMBDZ723_02826_MZHETTIA_000_043<tab>B-But that just means the training will make me tougher! Why, I bet I could defeat M'rahz right now if I wanted.","TEXT_STMBDZ723_02826_MZHETTIA_000_043<tab>……でもこれで、強靱な肉体を手に入れることができたはず……。
+これなら、「ヌン」にも勝てる！","","False","0x00000041","",""
 "","TEXT_STMBDZ723_02826_MZHETTIA_000_044<tab>Or perhaps...after a short break.","TEXT_STMBDZ723_02826_MZHETTIA_000_044<tab>けど……ちょっとだけ……休ませてください……。","","False","0x00000042","",""

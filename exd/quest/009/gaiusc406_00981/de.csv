@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSC406_00981_SEQ_00<tab>Ser Pierremons wants to share with you what he knows of the two fugitives.","TEXT_GAIUSC406_00981_SEQ_00<tab>Pierremons kann dir weitere Einzelheiten zur Notlandung des garleischen Schiffes berichten.","","False","0x00000000","",""
 "","TEXT_GAIUSC406_00981_SEQ_01<tab>At the entrance to the Aurum Vale, Ser Pierremons confirms that two prisoners escaped from the airship when it made its forced landing. Evidence strongly suggests that the pair came in this direction. Search the area for footprints.","TEXT_GAIUSC406_00981_SEQ_01<tab>Die garleischen Soldaten waren in großer Aufruhr, weil ihnen augenscheinlich einige Gefangene entwischt sind. Pierremons Männer sind in der Nähe der Goldklamm auf Spuren von mindestens zwei Flüchtlingen gestoßen. Seither hat es nicht geschneit, die Spuren müssten also weiterhin sichtbar sein. Sieh nach, ob sie dich zu jemandem führen.","","False","0x00000001","",""
 "","TEXT_GAIUSC406_00981_SEQ_02<tab>You have found a set of footprints. Search the area for another.","TEXT_GAIUSC406_00981_SEQ_02<tab>Du hast eine Spur im Schnee gefunden. Untersuche sie und halte dann nach weiteren Spuren Ausschau.","","False","0x00000002","",""
@@ -51,11 +51,21 @@
 "","TEXT_GAIUSC406_00981_PIERREMONS_000_001<tab>The Garleans who were deployed formed search parties and proceeded to scour the wilderness. In order to alert our forces, I returned to my post...","TEXT_GAIUSC406_00981_PIERREMONS_000_001<tab>Sie haben sofort einen Suchtrupp ausgeschickt, der die ganze Gegend durchkämmt hat. Anscheinend erfolglos, denn während ich die Notlandestelle inspiziert habe, sind die Entlaufenen zumindest bis zu dieser Klamm gekommen. Das haben uns Spuren im Schnee verraten.","","False","0x00000031","",""
 "","TEXT_GAIUSC406_00981_PIERREMONS_000_002<tab>...To find evidence that someone had been here in my absence. Whoever they were, they tried the door to no avail, and decided to go elsewhere.","TEXT_GAIUSC406_00981_PIERREMONS_000_002<tab>Die Klamm ist verriegelt, gibt als Versteck also nicht viel her. Vermutlich sind die Flüchtlinge schnell weitergezogen.","","False","0x00000032","",""
 "","TEXT_GAIUSC406_00981_PIERREMONS_000_003<tab>In all, I marked two sets of footprints─one large and one small. If you search the area, mayhap you will be able to follow the prints to their owners.","TEXT_GAIUSC406_00981_PIERREMONS_000_003<tab>Den Fußspuren konnten wir entnehmen, dass es mindestens zwei waren. Wenn du dich in der Gegend umschaust, stößt du vielleicht auf weitere Spuren.","","False","0x00000033","",""
-"","TEXT_GAIUSC406_00981_DUMMY_000_010<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_010<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　１<br>オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導<br>最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000034","",""
-"","TEXT_GAIUSC406_00981_DUMMY_000_011<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_011<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　２<br>オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導<br>最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000035","",""
-"","TEXT_GAIUSC406_00981_DUMMY_000_012<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_012<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　３<br>オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導<br>最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000036","",""
-"","TEXT_GAIUSC406_00981_DUMMY_000_013<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_013<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　４<br>オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導<br>最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000037","",""
-"","TEXT_GAIUSC406_00981_DUMMY_000_014<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_014<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　５<br>オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導<br>最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000038","",""
+"","TEXT_GAIUSC406_00981_DUMMY_000_010<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_010<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　１
+オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導
+最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000034","",""
+"","TEXT_GAIUSC406_00981_DUMMY_000_011<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_011<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　２
+オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導
+最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000035","",""
+"","TEXT_GAIUSC406_00981_DUMMY_000_012<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_012<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　３
+オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導
+最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000036","",""
+"","TEXT_GAIUSC406_00981_DUMMY_000_013<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_013<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　４
+オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導
+最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000037","",""
+"","TEXT_GAIUSC406_00981_DUMMY_000_014<tab>//: /lookout for footprints.","TEXT_GAIUSC406_00981_DUMMY_000_014<tab>Eobj足跡の付近でエモート「見渡す」を使用×５　５
+オーラムヴェイル→巨石郡→巨石郡北西の橋を順に誘導
+最後の地点で見渡したら、橋の下にウェッジＰＯＰ","","False","0x00000038","",""
 "","TEXT_GAIUSC406_00981_WEDGE_000_020<tab>Brrr... So...c-c-cold... I w-w-want to go home...","TEXT_GAIUSC406_00981_WEDGE_000_020<tab>Brrr ... <bibber> ... W-Wie kann es nur s-s-so kalt sein ... <klapper> ... Und B-B-Biggs, wo steckst du nur?","","False","0x00000039","",""
 "","TEXT_GAIUSC406_00981_WEDGE_000_021<tab>Uwaaaaaah! P-Please don't eat me! I'm not nearly as succulent as I look! It's all skin and bones underneath, I swear!","TEXT_GAIUSC406_00981_WEDGE_000_021<tab>Hi-Hiiilfeee! B-Bleib weg von mir! Ich schm-m-mecke auch gar nicht!","","False","0x0000003A","",""
 "","TEXT_GAIUSC406_00981_WEDGE_000_022<tab><gasp> <var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>, it's you! Thank goodness you're here! It's been...it's been <var 1A 02 /var>awful<var 1A 01 /var>!","TEXT_GAIUSC406_00981_WEDGE_000_022<tab>Ach du bist's, <var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>! Sag das doch gleich! Du hast mich ja zu Tode erschreckt!","","False","0x0000003B","",""

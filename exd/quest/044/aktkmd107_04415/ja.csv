@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_AKTKMD107_04415_SEQ_00<tab>Alisaie is gazing out intently between the trees.","TEXT_AKTKMD107_04415_SEQ_00<tab>プルシャ寺院のアリゼーは、木立の先に目を凝らしている。","","True","0x00000000","",""
 "","TEXT_AKTKMD107_04415_SEQ_01<tab>As she surveyed the dense jungle, Alisaie caught sight of someone being pursued by a great beast. Whether or not that person is Mehvan remains to be seen, but regardless, you must give chase.","TEXT_AKTKMD107_04415_SEQ_01<tab>アリゼーが見た人影と獣を追うことになった。サベネア島のマーヤーの幻泉にある「<var 28 ((EObj)) F61EB42F01 /var>」で見渡そう。","","True","0x00000001","",""
 "","TEXT_AKTKMD107_04415_SEQ_02<tab>The figure Alisaie spied was indeed Mehvan, but before you and the twins can slay her pursuer, the beast seizes the poor woman and casts her into the dark waters, along with her infant child. Without hesitation, you dive into the water after the pair.","TEXT_AKTKMD107_04415_SEQ_02<tab>メヴァンを見つけたが、獣に捕まった彼女は、水の中へと放り込まれてしまった。マーヤーの幻泉の水中で「メヴァン」を探そう。","","True","0x00000002","",""
@@ -48,22 +48,38 @@
 "","TEXT_AKTKMD107_04415_TODO_22<tab>","TEXT_AKTKMD107_04415_TODO_22<tab>","","True","0x0000002E","",""
 "","TEXT_AKTKMD107_04415_TODO_23<tab>","TEXT_AKTKMD107_04415_TODO_23<tab>","","True","0x0000002F","",""
 "","TEXT_AKTKMD107_04415_ALPHINAUD_000_000<tab>We must go after them at once!","TEXT_AKTKMD107_04415_ALPHINAUD_000_000<tab>くっ、急いで加勢にいこう……！","","True","0x00000030","",""
-"","TEXT_AKTKMD107_04415_MATSYA_000_005<tab>Wh-What!? Was that Mehvan!?","TEXT_AKTKMD107_04415_MATSYA_000_005<tab>ど、どこ！？<br>メヴァンだすか……！？","","True","0x00000031","",""
-"","TEXT_AKTKMD107_04415_ALISAIE_000_010<tab>Over there! My view was blocked by the trees, but I'm sure I saw someone being chased by a beast!","TEXT_AKTKMD107_04415_ALISAIE_000_010<tab>追われているのを見たのは、西の方角よ！<br>でも、すぐに木立に紛れて見えなくなった……。","","True","0x00000032","",""
-"","TEXT_AKTKMD107_04415_ALISAIE_000_011<tab><var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>, go with Matsya and search along the river! Alphinaud and I will circle around from the south!","TEXT_AKTKMD107_04415_ALISAIE_000_011<tab><var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>とマトシャは、<br>川沿いに探していって！<br>私とアルフィノは、南側から回ってみる！","","True","0x00000033","",""
-"","TEXT_AKTKMD107_04415_MATSYA_000_020<tab>We've reached the Font of Maya... Maybe they're hiding in the ruins?","TEXT_AKTKMD107_04415_MATSYA_000_020<tab>ここも「マーヤーの幻泉」っていう遺跡だす！<br>アリゼーが言ってた人が、どこかに隠れてるかも……！","","True","0x00000034","",""
-"","TEXT_AKTKMD107_04415_SYSTEM_000_030<tab>Mehvan's lifeless body floats before you, battered and broken. Her death no doubt came swiftly.","TEXT_AKTKMD107_04415_SYSTEM_000_030<tab>……首の骨が折れている。<br>投げ落とされた際の衝撃で、即死だったようだ。","","True","0x00000035","",""
-"","TEXT_AKTKMD107_04415_SYSTEM_000_031<tab>Her infant daughter, however, is nowhere to be seen...","TEXT_AKTKMD107_04415_SYSTEM_000_031<tab>抱いていたはずの赤ん坊がいない。<br>急いで探さなくては……！","","True","0x00000036","",""
-"","TEXT_AKTKMD107_04415_SYSTEM_000_035<tab>There is nothing more you can do for the ill-fated Mehvan. Her child, however, may yet be saved...","TEXT_AKTKMD107_04415_SYSTEM_000_035<tab>……すでに事切れている。<br>急いで赤ん坊を探さなくては……！","","True","0x00000037","",""
-"","TEXT_AKTKMD107_04415_SYSTEM_000_040<tab>You take the babe into your arms. If she yet lives, you cannot tell, but she will surely not survive unless you carry her to the surface at once.","TEXT_AKTKMD107_04415_SYSTEM_000_040<tab>メヴァンたちの赤ん坊を抱き上げた。<br>早く水上に出よう……！","","True","0x00000038","",""
+"","TEXT_AKTKMD107_04415_MATSYA_000_005<tab>Wh-What!? Was that Mehvan!?","TEXT_AKTKMD107_04415_MATSYA_000_005<tab>ど、どこ！？
+メヴァンだすか……！？","","True","0x00000031","",""
+"","TEXT_AKTKMD107_04415_ALISAIE_000_010<tab>Over there! My view was blocked by the trees, but I'm sure I saw someone being chased by a beast!","TEXT_AKTKMD107_04415_ALISAIE_000_010<tab>追われているのを見たのは、西の方角よ！
+でも、すぐに木立に紛れて見えなくなった……。","","True","0x00000032","",""
+"","TEXT_AKTKMD107_04415_ALISAIE_000_011<tab><var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>, go with Matsya and search along the river! Alphinaud and I will circle around from the south!","TEXT_AKTKMD107_04415_ALISAIE_000_011<tab><var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>とマトシャは、
+川沿いに探していって！
+私とアルフィノは、南側から回ってみる！","","True","0x00000033","",""
+"","TEXT_AKTKMD107_04415_MATSYA_000_020<tab>We've reached the Font of Maya... Maybe they're hiding in the ruins?","TEXT_AKTKMD107_04415_MATSYA_000_020<tab>ここも「マーヤーの幻泉」っていう遺跡だす！
+アリゼーが言ってた人が、どこかに隠れてるかも……！","","True","0x00000034","",""
+"","TEXT_AKTKMD107_04415_SYSTEM_000_030<tab>Mehvan's lifeless body floats before you, battered and broken. Her death no doubt came swiftly.","TEXT_AKTKMD107_04415_SYSTEM_000_030<tab>……首の骨が折れている。
+投げ落とされた際の衝撃で、即死だったようだ。","","True","0x00000035","",""
+"","TEXT_AKTKMD107_04415_SYSTEM_000_031<tab>Her infant daughter, however, is nowhere to be seen...","TEXT_AKTKMD107_04415_SYSTEM_000_031<tab>抱いていたはずの赤ん坊がいない。
+急いで探さなくては……！","","True","0x00000036","",""
+"","TEXT_AKTKMD107_04415_SYSTEM_000_035<tab>There is nothing more you can do for the ill-fated Mehvan. Her child, however, may yet be saved...","TEXT_AKTKMD107_04415_SYSTEM_000_035<tab>……すでに事切れている。
+急いで赤ん坊を探さなくては……！","","True","0x00000037","",""
+"","TEXT_AKTKMD107_04415_SYSTEM_000_040<tab>You take the babe into your arms. If she yet lives, you cannot tell, but she will surely not survive unless you carry her to the surface at once.","TEXT_AKTKMD107_04415_SYSTEM_000_040<tab>メヴァンたちの赤ん坊を抱き上げた。
+早く水上に出よう……！","","True","0x00000038","",""
 "","TEXT_AKTKMD107_04415_SYSTEM_000_045<tab>It is too late for Mehvan, but perhaps not for her child...","TEXT_AKTKMD107_04415_SYSTEM_000_045<tab>今は赤ん坊を水上に連れていくことが優先だ……！","","True","0x00000039","",""
 "","TEXT_AKTKMD107_04415_ALISAIE_000_050<tab>So? Where are they!?","TEXT_AKTKMD107_04415_ALISAIE_000_050<tab>獣は倒したわ！　そっちは！？","","True","0x0000003A","",""
-"","TEXT_AKTKMD107_04415_MATSYA_000_055<tab>Oh no, no, no... Wh-What do we do? What do we do!?","TEXT_AKTKMD107_04415_MATSYA_000_055<tab>あわわわわ……！<br>どどど、どど、どうしよう……！","","True","0x0000003B","",""
-"","TEXT_AKTKMD107_04415_ALPHINAUD_000_060<tab>Did you find Mehvan and the child!?","TEXT_AKTKMD107_04415_ALPHINAUD_000_060<tab>手こずってすまない！<br>メヴァンと赤ん坊は……！","","True","0x0000003C","",""
+"","TEXT_AKTKMD107_04415_MATSYA_000_055<tab>Oh no, no, no... Wh-What do we do? What do we do!?","TEXT_AKTKMD107_04415_MATSYA_000_055<tab>あわわわわ……！
+どどど、どど、どうしよう……！","","True","0x0000003B","",""
+"","TEXT_AKTKMD107_04415_ALPHINAUD_000_060<tab>Did you find Mehvan and the child!?","TEXT_AKTKMD107_04415_ALPHINAUD_000_060<tab>手こずってすまない！
+メヴァンと赤ん坊は……！","","True","0x0000003C","",""
 "","TEXT_AKTKMD107_04415_ALPHINAUD_000_061<tab>Damn it all...","TEXT_AKTKMD107_04415_ALPHINAUD_000_061<tab>……くっ……やっと見つけたというのに…………！","","True","0x0000003D","",""
-"","TEXT_AKTKMD107_04415_ALPHINAUD_000_062<tab>You have the child!? Let me see her!","TEXT_AKTKMD107_04415_ALPHINAUD_000_062<tab>赤ん坊だけでも、絶対に死なせない！<br>すぐに治癒を……！","","True","0x0000003E","",""
+"","TEXT_AKTKMD107_04415_ALPHINAUD_000_062<tab>You have the child!? Let me see her!","TEXT_AKTKMD107_04415_ALPHINAUD_000_062<tab>赤ん坊だけでも、絶対に死なせない！
+すぐに治癒を……！","","True","0x0000003E","",""
 "","TEXT_AKTKMD107_04415_ALISAIE_000_070<tab>...","TEXT_AKTKMD107_04415_ALISAIE_000_070<tab>………………。","","True","0x0000003F","",""
-"","TEXT_AKTKMD107_04415_ESTINIEN_000_075<tab>Go. I will keep watch until your work is done.","TEXT_AKTKMD107_04415_ESTINIEN_000_075<tab>……俺に遠慮するな。<br>こいつらとお前の、気の済むようにすればいいさ。","","True","0x00000040","",""
-"","TEXT_AKTKMD107_04415_ALPHINAUD_000_080<tab>We have done what we can. 'Tis for the villagers of Palaka's Stand to perform the funeral rites.","TEXT_AKTKMD107_04415_ALPHINAUD_000_080<tab>私たちにできるのは、これくらいだね……。<br>あとは、パーラカの里の人々に、彼らを弔ってもらおう……。","","True","0x00000041","",""
-"","TEXT_AKTKMD107_04415_ALPHINAUD_000_081<tab>If nothing else, Mehvan and Qerasaf died as they lived─as themselves, and not as beasts. Their souls will find peace in the aetherial sea.","TEXT_AKTKMD107_04415_ALPHINAUD_000_081<tab>……ふたりは、獣になることなく、人のまま亡くなった。<br>その魂は、星海に還っていくだろう。","","True","0x00000042","",""
-"","TEXT_AKTKMD107_04415_ALPHINAUD_000_082<tab>To think the day would come when even that smallest of solaces would be this comforting...","TEXT_AKTKMD107_04415_ALPHINAUD_000_082<tab>そんな当たり前のことを……<br>今日ほど噛みしめたことはないよ……。","","True","0x00000043","",""
+"","TEXT_AKTKMD107_04415_ESTINIEN_000_075<tab>Go. I will keep watch until your work is done.","TEXT_AKTKMD107_04415_ESTINIEN_000_075<tab>……俺に遠慮するな。
+こいつらとお前の、気の済むようにすればいいさ。","","True","0x00000040","",""
+"","TEXT_AKTKMD107_04415_ALPHINAUD_000_080<tab>We have done what we can. 'Tis for the villagers of Palaka's Stand to perform the funeral rites.","TEXT_AKTKMD107_04415_ALPHINAUD_000_080<tab>私たちにできるのは、これくらいだね……。
+あとは、パーラカの里の人々に、彼らを弔ってもらおう……。","","True","0x00000041","",""
+"","TEXT_AKTKMD107_04415_ALPHINAUD_000_081<tab>If nothing else, Mehvan and Qerasaf died as they lived─as themselves, and not as beasts. Their souls will find peace in the aetherial sea.","TEXT_AKTKMD107_04415_ALPHINAUD_000_081<tab>……ふたりは、獣になることなく、人のまま亡くなった。
+その魂は、星海に還っていくだろう。","","True","0x00000042","",""
+"","TEXT_AKTKMD107_04415_ALPHINAUD_000_082<tab>To think the day would come when even that smallest of solaces would be this comforting...","TEXT_AKTKMD107_04415_ALPHINAUD_000_082<tab>そんな当たり前のことを……
+今日ほど噛みしめたことはないよ……。","","True","0x00000043","",""

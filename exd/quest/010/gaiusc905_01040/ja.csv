@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSC905_01040_SEQ_00<tab>Spiraling Path needs you to journey down the road.","TEXT_GAIUSC905_01040_SEQ_00<tab>キャンプ・ブルーフォグのスパイラリング・パス闘軍曹は、何やら慌てているようだ。","","False","0x00000000","",""
 "","TEXT_GAIUSC905_01040_SEQ_01<tab>A covert supply troupe disguised as miners has left without a crate of scimitars. Spiraling Path bids you see the blades safely to their hands.","TEXT_GAIUSC905_01040_SEQ_01<tab>輸送隊が物資を忘れて出発してしまったそうだ。東方監視塔の方向に進んだ彼らを追いかけ「<var 28 ((EventItem)) F61E879301 /var>」を渡そう。","","False","0x00000001","",""
 "","TEXT_GAIUSC905_01040_SEQ_02<tab>Dodoroba thanks you for bringing the crate of scimitars. Return to Camp Bluefog and inform Spiraling Path of your success.","TEXT_GAIUSC905_01040_SEQ_02<tab>無事に<var 28 ((EventItem)) F61E879301 /var>を渡すことができた。キャンプ・ブルーフォグに戻り「スパイラリング・パス闘軍曹」に報告しよう。","","False","0x00000002","",""
@@ -47,11 +47,25 @@
 "","TEXT_GAIUSC905_01040_TODO_21<tab>","TEXT_GAIUSC905_01040_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_GAIUSC905_01040_TODO_22<tab>","TEXT_GAIUSC905_01040_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_GAIUSC905_01040_TODO_23<tab>","TEXT_GAIUSC905_01040_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_000<tab>The key to victory is the element of surprise, and the key to surprise is secrecy. We don the guises of miners to cloak our supply movements from the Garlean sentinels.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_000<tab>我々不滅隊では、ガレマール帝国側に動きを悟られぬよう、<br>アマジナ鉱山社の輸送隊に偽装して<br>糧食や武器などを運搬しています。","","False","0x00000030","",""
-"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_001<tab>The last shipment to leave us, however, appears to be short a crate of arms, which could prove an unfortunate surprise for the brigade expecting it.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_001<tab>しかし、先ほど出発した輸送隊が、<br>肝心の武器をひと箱忘れて出発してしまったようなのです。","","False","0x00000031","",""
-"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_002<tab>The troupe makes its way to the eastern watchtower. It is my hope you might catch them and deliver these scimitars.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_002<tab>輸送隊は、ここから北の東方監視塔に向かっております。<br>申し訳ありませんが、輸送隊を追いかけて、<br>この「<var 28 ((EventItem)) F61E879301 /var>」を渡していただけませんか？","","False","0x00000032","",""
-"","TEXT_GAIUSC905_01040_ENPC_000_010<tab>As you can plainly see, we are miners hauling a load of ore, and haven't the time for small talk.","TEXT_GAIUSC905_01040_ENPC_000_010<tab>我々はアマジナ鉱山社の輸送隊である。<br>現在、鉱石を運搬中だ。<br>用がないなら話しかけないでいただこう。","","False","0x00000033","",""
-"","TEXT_GAIUSC905_01040_ENPC_000_020<tab>Ah! These scimitars were supposed to be part of the load!","TEXT_GAIUSC905_01040_ENPC_000_020<tab>……これは「<var 28 ((EventItem)) F61E879301 /var>」か！？<br>肝心要の武器を忘れて出発してしまうとは不覚。<br>冒険者殿、あなたの手助け感謝いたします。","","False","0x00000034","",""
-"","TEXT_GAIUSC905_01040_ENPC_000_021<tab>It was wise of them not to send a Flame, as it would've drawn unwanted attention. Thank you, adventurer.","TEXT_GAIUSC905_01040_ENPC_000_021<tab>不滅隊の者が届けに来ると、目立ちますからね。<br>冒険者殿、ご助力感謝いたします。","","False","0x00000035","",""
-"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_030<tab>I am relieved you have returned safely to us, and that the weapons will reach their destination unhindered.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_030<tab>ご苦労さまです、助かりました。<br>……無事に武器を届けられたようですね。<br>大事に至らなくて本当によかった。","","False","0x00000036","",""
-"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_031<tab>Movements to and around the borderlands of Thanalan fall under constant scrutiny. One misstep could spark a fire that will consume all the realm.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_031<tab>この北ザナラーンには、ガレマール帝国の支配地域と<br>我がウルダハの支配地域の境界があります。<br>ゆえに作戦行動には、細心の注意が要求されるのです。","","False","0x00000037","",""
+"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_000<tab>The key to victory is the element of surprise, and the key to surprise is secrecy. We don the guises of miners to cloak our supply movements from the Garlean sentinels.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_000<tab>我々不滅隊では、ガレマール帝国側に動きを悟られぬよう、
+アマジナ鉱山社の輸送隊に偽装して
+糧食や武器などを運搬しています。","","False","0x00000030","",""
+"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_001<tab>The last shipment to leave us, however, appears to be short a crate of arms, which could prove an unfortunate surprise for the brigade expecting it.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_001<tab>しかし、先ほど出発した輸送隊が、
+肝心の武器をひと箱忘れて出発してしまったようなのです。","","False","0x00000031","",""
+"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_002<tab>The troupe makes its way to the eastern watchtower. It is my hope you might catch them and deliver these scimitars.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_002<tab>輸送隊は、ここから北の東方監視塔に向かっております。
+申し訳ありませんが、輸送隊を追いかけて、
+この「<var 28 ((EventItem)) F61E879301 /var>」を渡していただけませんか？","","False","0x00000032","",""
+"","TEXT_GAIUSC905_01040_ENPC_000_010<tab>As you can plainly see, we are miners hauling a load of ore, and haven't the time for small talk.","TEXT_GAIUSC905_01040_ENPC_000_010<tab>我々はアマジナ鉱山社の輸送隊である。
+現在、鉱石を運搬中だ。
+用がないなら話しかけないでいただこう。","","False","0x00000033","",""
+"","TEXT_GAIUSC905_01040_ENPC_000_020<tab>Ah! These scimitars were supposed to be part of the load!","TEXT_GAIUSC905_01040_ENPC_000_020<tab>……これは「<var 28 ((EventItem)) F61E879301 /var>」か！？
+肝心要の武器を忘れて出発してしまうとは不覚。
+冒険者殿、あなたの手助け感謝いたします。","","False","0x00000034","",""
+"","TEXT_GAIUSC905_01040_ENPC_000_021<tab>It was wise of them not to send a Flame, as it would've drawn unwanted attention. Thank you, adventurer.","TEXT_GAIUSC905_01040_ENPC_000_021<tab>不滅隊の者が届けに来ると、目立ちますからね。
+冒険者殿、ご助力感謝いたします。","","False","0x00000035","",""
+"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_030<tab>I am relieved you have returned safely to us, and that the weapons will reach their destination unhindered.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_030<tab>ご苦労さまです、助かりました。
+……無事に武器を届けられたようですね。
+大事に至らなくて本当によかった。","","False","0x00000036","",""
+"","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_031<tab>Movements to and around the borderlands of Thanalan fall under constant scrutiny. One misstep could spark a fire that will consume all the realm.","TEXT_GAIUSC905_01040_SPIRALINGPATH_000_031<tab>この北ザナラーンには、ガレマール帝国の支配地域と
+我がウルダハの支配地域の境界があります。
+ゆえに作戦行動には、細心の注意が要求されるのです。","","False","0x00000037","",""

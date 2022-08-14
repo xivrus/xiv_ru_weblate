@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ726_01930_SEQ_00<tab>The Vath fleetfoot is looking at you expectantly.","TEXT_HEAVNZ726_01930_SEQ_00<tab>ヴァスの塚のイダテンは、冒険者を期待の眼差しで見ているようだ。","","False","0x00000000","",""
 "","TEXT_HEAVNZ726_01930_SEQ_01<tab>The Vath fleetfoot is worried by news of an impending Gnath assault on Loth ast Vath. The Vath are ill prepared to deal with a direct, all-out offensive from the much larger Gnath hive. Their only option is a preemptive assault, weakening the enemy before it can finish mobilizing.","TEXT_HEAVNZ726_01930_SEQ_01<tab>イダテンは、グナースの塚のグナース族が攻めてくるのを知ったようだ。高地ドラヴァニアのグナースの塚で、「<var 28 ((BNpcName)) F20E0601 /var>」、「<var 28 ((BNpcName)) F20E0701 /var>」、「<var 28 ((BNpcName)) F20E0801 /var>」のいずれかを4体討伐しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ726_01930_SEQ_02<tab>You slay the Gnath as instructed, hopefully stymieing their plans of an attack on the Vath. Report back to the Vath fleetfoot with news of the completion of your mission.","TEXT_HEAVNZ726_01930_SEQ_02<tab>グナース兵を討伐した。ヴァスの塚の「イダテン」に報告しよう。","","False","0x00000002","",""
@@ -47,9 +47,20 @@
 "","TEXT_HEAVNZ726_01930_TODO_21<tab>","TEXT_HEAVNZ726_01930_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ726_01930_TODO_22<tab>","TEXT_HEAVNZ726_01930_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ726_01930_TODO_23<tab>","TEXT_HEAVNZ726_01930_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ726_01930_IDATEN_000_000<tab>We bear dire news. We have been informed that the Gnath plan to launch a devastating attack on Loth ast Vath. They are currently mobilizing their forces.","TEXT_HEAVNZ726_01930_IDATEN_000_000<tab>シシシ……とんでもない情報を手に入れた。<br>どうやら、「グナースの塚」の奴らが攻めてくるようだ。<br>……まだ準備段階みたいだがな。","","False","0x00000030","",""
-"","TEXT_HEAVNZ726_01930_IDATEN_000_001<tab>We cannot withstand a direct assault. Generous hunter, we must ask you to perform a preemptive strike upon the Gnath. Please slay four of them. Weaken their forces and bring a stop to their attack before it can begin.","TEXT_HEAVNZ726_01930_IDATEN_000_001<tab>狩人よ、先制攻撃して、出鼻を挫いてくれないか。<br>「ロス」と名乗る戦士階級の奴を、4体ほど討ち倒せば、<br>奴らのもくろみも頓挫するだろう。","","False","0x00000031","",""
-"","TEXT_HEAVNZ726_01930_IDATEN_000_010<tab>Generous hunter. Please slay four Gnath. We would not be able to survive a direct assault from the Gnath hive.","TEXT_HEAVNZ726_01930_IDATEN_000_010<tab>狩人よ、先制攻撃して、出鼻を挫いてくれないか。<br>「ロス」と名乗る戦士階級の奴を、4体ほど討ち倒せば、<br>奴らのもくろみも頓挫するだろう。","","False","0x00000032","",""
-"","TEXT_HEAVNZ726_01930_IDATEN_000_020<tab>That went just as well as we could have hoped. Your preemptive assault has put them on the defensive. We thank you.","TEXT_HEAVNZ726_01930_IDATEN_000_020<tab>シシシ……上手くいったみたいだな。<br>先制攻撃されて、奴らも驚いただろう。<br>感謝するぞ、狩人よ。","","False","0x00000033","",""
-"","TEXT_HEAVNZ726_01930_IDATEN_000_021<tab>The Gnath all hear each other's thoughts, while we who live here─the Vath─do not. But that is not to say that we <var 1A 02 /var>never<var 1A 01 /var> hear the thoughts of others. The link to the Onemind is not severed completely.","TEXT_HEAVNZ726_01930_IDATEN_000_021<tab>我ら「分かたれし者」は、精神感応の力が弱く、<br>「繋がりし者たち」と精神が連結されていない……。","","False","0x00000034","",""
-"","TEXT_HEAVNZ726_01930_IDATEN_000_022<tab>Some of us, sometimes, can descry the thoughts of the Onemind. We suspect they are unaware that we are occasionally privy to their plans.","TEXT_HEAVNZ726_01930_IDATEN_000_022<tab>だが、稀にではあるが、<br>奴らの「意思の囁き」を掴む者がいる……。<br>そうして掴んだ機密を利用すれば、不意を打てるのだ！","","False","0x00000035","",""
+"","TEXT_HEAVNZ726_01930_IDATEN_000_000<tab>We bear dire news. We have been informed that the Gnath plan to launch a devastating attack on Loth ast Vath. They are currently mobilizing their forces.","TEXT_HEAVNZ726_01930_IDATEN_000_000<tab>シシシ……とんでもない情報を手に入れた。
+どうやら、「グナースの塚」の奴らが攻めてくるようだ。
+……まだ準備段階みたいだがな。","","False","0x00000030","",""
+"","TEXT_HEAVNZ726_01930_IDATEN_000_001<tab>We cannot withstand a direct assault. Generous hunter, we must ask you to perform a preemptive strike upon the Gnath. Please slay four of them. Weaken their forces and bring a stop to their attack before it can begin.","TEXT_HEAVNZ726_01930_IDATEN_000_001<tab>狩人よ、先制攻撃して、出鼻を挫いてくれないか。
+「ロス」と名乗る戦士階級の奴を、4体ほど討ち倒せば、
+奴らのもくろみも頓挫するだろう。","","False","0x00000031","",""
+"","TEXT_HEAVNZ726_01930_IDATEN_000_010<tab>Generous hunter. Please slay four Gnath. We would not be able to survive a direct assault from the Gnath hive.","TEXT_HEAVNZ726_01930_IDATEN_000_010<tab>狩人よ、先制攻撃して、出鼻を挫いてくれないか。
+「ロス」と名乗る戦士階級の奴を、4体ほど討ち倒せば、
+奴らのもくろみも頓挫するだろう。","","False","0x00000032","",""
+"","TEXT_HEAVNZ726_01930_IDATEN_000_020<tab>That went just as well as we could have hoped. Your preemptive assault has put them on the defensive. We thank you.","TEXT_HEAVNZ726_01930_IDATEN_000_020<tab>シシシ……上手くいったみたいだな。
+先制攻撃されて、奴らも驚いただろう。
+感謝するぞ、狩人よ。","","False","0x00000033","",""
+"","TEXT_HEAVNZ726_01930_IDATEN_000_021<tab>The Gnath all hear each other's thoughts, while we who live here─the Vath─do not. But that is not to say that we <var 1A 02 /var>never<var 1A 01 /var> hear the thoughts of others. The link to the Onemind is not severed completely.","TEXT_HEAVNZ726_01930_IDATEN_000_021<tab>我ら「分かたれし者」は、精神感応の力が弱く、
+「繋がりし者たち」と精神が連結されていない……。","","False","0x00000034","",""
+"","TEXT_HEAVNZ726_01930_IDATEN_000_022<tab>Some of us, sometimes, can descry the thoughts of the Onemind. We suspect they are unaware that we are occasionally privy to their plans.","TEXT_HEAVNZ726_01930_IDATEN_000_022<tab>だが、稀にではあるが、
+奴らの「意思の囁き」を掴む者がいる……。
+そうして掴んだ機密を利用すれば、不意を打てるのだ！","","False","0x00000035","",""

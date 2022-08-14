@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSC611_01011_SEQ_00<tab>Kerrich just wants to have some fun.","TEXT_GAIUSC611_01011_SEQ_00<tab>クォーリーミルのケリッヒは、冒険者に相手をしてもらいたいようだ。","","False","0x00000000","",""
 "","TEXT_GAIUSC611_01011_SEQ_01<tab>The dread Ser Kerrich, Dark Rider of the Shroud, stands before you. Cower and /kneel before him.","TEXT_GAIUSC611_01011_SEQ_01<tab>恐ろしい亡霊騎士ケリッヒに、エモート「ひざまずく」をして許しを請おう。","","False","0x00000001","",""
 "","TEXT_GAIUSC611_01011_SEQ_02<tab>The dread Ser Kerrich, Dark Rider of the Shroud, would accept you as his vassal, but first demands that you prove your loyalty by doing his bidding. Fetch the wings from three keds as your master commands.","TEXT_GAIUSC611_01011_SEQ_02<tab>亡霊騎士ケリッヒから新たな命令が下された。「<var 28 ((BNpcName)) 0901 /var>」から「<var 28 ((EventItem)) F61E878601 /var>」を3枚入手しよう。","","False","0x00000002","",""
@@ -47,15 +47,32 @@
 "","TEXT_GAIUSC611_01011_TODO_21<tab>","TEXT_GAIUSC611_01011_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_GAIUSC611_01011_TODO_22<tab>","TEXT_GAIUSC611_01011_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_GAIUSC611_01011_TODO_23<tab>","TEXT_GAIUSC611_01011_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_000<tab>Boooooo～oooooo! I am the Dark Rider of the Shroud! Ooooooooo! Thou art scaredeth of me, art thou noteth!? If thou art not, thou art a fool! <var 48 F201F4 /var><var 49 F201F5 /var>Kneel<var 49 01 /var><var 48 01 /var>eth before me! Noweth!","TEXT_GAIUSC611_01011_KERRICH_000_000<tab>ふはははは、わたしは亡霊騎士さまであるぞ！<br>わたしの魔法にかかれば、貴様などひとひねりなのだー！<br>こわかったら「ひざまずいて」許しをこうのだー！","","False","0x00000030","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_010<tab>Thou art scaredeth of me, art thou noteth!? If thou art not, thou art a fool! <var 48 F201F4 /var><var 49 F201F5 /var>Kneel<var 49 01 /var><var 48 01 /var>eth before me! Noweth!","TEXT_GAIUSC611_01011_KERRICH_000_010<tab>どうだー！　わたしは亡霊騎士さまであるぞ！<br>わたしに「ひざまずいて」許しをこう気になったかー！","","False","0x00000031","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_015<tab>Ahahaha! Yes, thou art wise to feareth me, adventurer! But the Dark Rider dost not forgiveth fools so easilyeth.","TEXT_GAIUSC611_01011_KERRICH_000_015<tab>うむ、くるしゅうないぞ！<br>よーし、貴様は今からわたしのケライだ！","","False","0x00000032","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_016<tab>If thou wouldst serveth me, thou must doeth mine bidding! Doeth mine bidding, or I shall slayeth you for trees-on and insub...insub...not-doingeth-what-thy-master-telleth-you-to-doeth!","TEXT_GAIUSC611_01011_KERRICH_000_016<tab>ケライはジョウシのために仕事をするものだー！<br>ジョウシを喜ばせたらキュウリョウがあがるぞ！<br>さあ、荷運びチョコボみたいに働けー！","","False","0x00000033","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_017<tab>The Dark Rider dost desireth three ked wings! ...Why!? It is not thine place to asketh why! Three ked wings! Not two, and not four─thou had best remembereth well, or I shall haveth your head!","TEXT_GAIUSC611_01011_KERRICH_000_017<tab>いいか、ケライ！<br>「<var 28 ((BNpcName)) 0901 /var>」を3匹倒して、<br>「<var 28 ((EventItem)) F61E878601 /var>」をもいでくるのだー！","","False","0x00000034","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_020<tab>Dost thou mocketh me!? Mocketh me again, and I shalt have thy head! Now <var 48 F201F4 /var><var 49 F201F5 /var>kneel<var 49 01 /var><var 48 01 /var>eth! <var 48 F201F4 /var><var 49 F201F5 /var>Kneel<var 49 01 /var><var 48 01 /var>eth and beggeth thy master's forgiveness!","TEXT_GAIUSC611_01011_KERRICH_000_020<tab>貴様ー、おじけづいたかー！<br>亡霊騎士さまの許しがほしければ「ひざまずく」のだー！","","False","0x00000035","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_000<tab>Boooooo～oooooo! I am the Dark Rider of the Shroud! Ooooooooo! Thou art scaredeth of me, art thou noteth!? If thou art not, thou art a fool! <var 48 F201F4 /var><var 49 F201F5 /var>Kneel<var 49 01 /var><var 48 01 /var>eth before me! Noweth!","TEXT_GAIUSC611_01011_KERRICH_000_000<tab>ふはははは、わたしは亡霊騎士さまであるぞ！
+わたしの魔法にかかれば、貴様などひとひねりなのだー！
+こわかったら「ひざまずいて」許しをこうのだー！","","False","0x00000030","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_010<tab>Thou art scaredeth of me, art thou noteth!? If thou art not, thou art a fool! <var 48 F201F4 /var><var 49 F201F5 /var>Kneel<var 49 01 /var><var 48 01 /var>eth before me! Noweth!","TEXT_GAIUSC611_01011_KERRICH_000_010<tab>どうだー！　わたしは亡霊騎士さまであるぞ！
+わたしに「ひざまずいて」許しをこう気になったかー！","","False","0x00000031","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_015<tab>Ahahaha! Yes, thou art wise to feareth me, adventurer! But the Dark Rider dost not forgiveth fools so easilyeth.","TEXT_GAIUSC611_01011_KERRICH_000_015<tab>うむ、くるしゅうないぞ！
+よーし、貴様は今からわたしのケライだ！","","False","0x00000032","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_016<tab>If thou wouldst serveth me, thou must doeth mine bidding! Doeth mine bidding, or I shall slayeth you for trees-on and insub...insub...not-doingeth-what-thy-master-telleth-you-to-doeth!","TEXT_GAIUSC611_01011_KERRICH_000_016<tab>ケライはジョウシのために仕事をするものだー！
+ジョウシを喜ばせたらキュウリョウがあがるぞ！
+さあ、荷運びチョコボみたいに働けー！","","False","0x00000033","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_017<tab>The Dark Rider dost desireth three ked wings! ...Why!? It is not thine place to asketh why! Three ked wings! Not two, and not four─thou had best remembereth well, or I shall haveth your head!","TEXT_GAIUSC611_01011_KERRICH_000_017<tab>いいか、ケライ！
+「<var 28 ((BNpcName)) 0901 /var>」を3匹倒して、
+「<var 28 ((EventItem)) F61E878601 /var>」をもいでくるのだー！","","False","0x00000034","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_020<tab>Dost thou mocketh me!? Mocketh me again, and I shalt have thy head! Now <var 48 F201F4 /var><var 49 F201F5 /var>kneel<var 49 01 /var><var 48 01 /var>eth! <var 48 F201F4 /var><var 49 F201F5 /var>Kneel<var 49 01 /var><var 48 01 /var>eth and beggeth thy master's forgiveness!","TEXT_GAIUSC611_01011_KERRICH_000_020<tab>貴様ー、おじけづいたかー！
+亡霊騎士さまの許しがほしければ「ひざまずく」のだー！","","False","0x00000035","",""
 "","TEXT_GAIUSC611_01011_DUMMY_000_000<tab>//: kill keds, get wings","TEXT_GAIUSC611_01011_DUMMY_000_000<tab>ケッドを三体倒し、羽をゲット","","False","0x00000036","",""
 "","TEXT_GAIUSC611_01011_TODO_000_000<tab>","TEXT_GAIUSC611_01011_TODO_000_000<tab>（★未使用／削除予定★）","","False","0x00000037","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_030<tab>The Dark Rider dost desireth ked wings! Are thou too weak to slayeth mere keds?","TEXT_GAIUSC611_01011_KERRICH_000_030<tab>おい、ケライ！<br>亡霊騎士さまは待ちくたびれたぞ！<br>「<var 28 ((EventItem)) F61E878601 /var>」はまだかー！","","False","0x00000038","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_040<tab>Wow! Are those really ked wings!? I can't wait to show them off to Father─er, ahem.","TEXT_GAIUSC611_01011_KERRICH_000_040<tab>やったー！<br>ぼくの「百蟲図鑑」にかざろっとー！<br>……あっ。","","False","0x00000039","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_041<tab>Ahem! Thou hast proven thy loyalty well! The Dark Rider of the Shroud hereby nameth you his loyal squire! That means you can come play with─er, that means thou canst <var 1A 02 /var>serveth<var 1A 01 /var> me whenever thou likest!","TEXT_GAIUSC611_01011_KERRICH_000_041<tab>……ゴッホン！<br>ケライのものはジョウシのもの！<br><var 28 ((EventItem)) F61E878601 /var>は、この亡霊騎士さまがもらっておくぞ！","","False","0x0000003A","",""
-"","TEXT_GAIUSC611_01011_KERRICH_000_042<tab>Who knew it was so easy to boss around an adventurer? Methinks my spineless dad could learn a thing or two from me!","TEXT_GAIUSC611_01011_KERRICH_000_042<tab>……ジョウシってすげー。<br>万年ケライのとーちゃんも、<br>早くジョウシになればいいのに。","","False","0x0000003B","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_030<tab>The Dark Rider dost desireth ked wings! Are thou too weak to slayeth mere keds?","TEXT_GAIUSC611_01011_KERRICH_000_030<tab>おい、ケライ！
+亡霊騎士さまは待ちくたびれたぞ！
+「<var 28 ((EventItem)) F61E878601 /var>」はまだかー！","","False","0x00000038","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_040<tab>Wow! Are those really ked wings!? I can't wait to show them off to Father─er, ahem.","TEXT_GAIUSC611_01011_KERRICH_000_040<tab>やったー！
+ぼくの「百蟲図鑑」にかざろっとー！
+……あっ。","","False","0x00000039","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_041<tab>Ahem! Thou hast proven thy loyalty well! The Dark Rider of the Shroud hereby nameth you his loyal squire! That means you can come play with─er, that means thou canst <var 1A 02 /var>serveth<var 1A 01 /var> me whenever thou likest!","TEXT_GAIUSC611_01011_KERRICH_000_041<tab>……ゴッホン！
+ケライのものはジョウシのもの！
+<var 28 ((EventItem)) F61E878601 /var>は、この亡霊騎士さまがもらっておくぞ！","","False","0x0000003A","",""
+"","TEXT_GAIUSC611_01011_KERRICH_000_042<tab>Who knew it was so easy to boss around an adventurer? Methinks my spineless dad could learn a thing or two from me!","TEXT_GAIUSC611_01011_KERRICH_000_042<tab>……ジョウシってすげー。
+万年ケライのとーちゃんも、
+早くジョウシになればいいのに。","","False","0x0000003B","",""

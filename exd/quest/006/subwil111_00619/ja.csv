@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_SUBWIL111_00619_SEQ_00<tab>Isembard aims to turn his investigation to the commonfolk.","TEXT_SUBWIL111_00619_SEQ_00<tab>キャンプ・ドライボーンの顔役イセムバードは、次は貧民についての調査を勧めている。","","False","0x00000000","",""
 "","TEXT_SUBWIL111_00619_SEQ_01<tab>Isembard has told you of someone who knows the most about the commonfolk and their ways. Seek out Ungust and show him the note Isembard has given you.","TEXT_SUBWIL111_00619_SEQ_01<tab>ドライボーン周辺の貧民事情に詳しい人物を紹介してくれた。「ウグスト」に「イセムバードの紹介状」を渡そう。","","False","0x00000001","",""
 "","TEXT_SUBWIL111_00619_SEQ_02<tab>Ungust tells you that the commonfolk are as vigilant a folk as any, and more than most. Speak with them yourself to see if he speaks the truth.","TEXT_SUBWIL111_00619_SEQ_02<tab>ウグストによると、貧民は警戒心が強いらしい。試しにドライボーン内の貧民達から直接話を聞いてみよう。","","False","0x00000002","",""
@@ -47,18 +47,36 @@
 "","TEXT_SUBWIL111_00619_TODO_21<tab>","TEXT_SUBWIL111_00619_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_SUBWIL111_00619_TODO_22<tab>","TEXT_SUBWIL111_00619_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_SUBWIL111_00619_TODO_23<tab>","TEXT_SUBWIL111_00619_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_SUBWIL111_00619_ISEMBARD_000_1<tab>What say we turn an eye to the commonfolk themselves? It may be among them that we find the reasons for these vanishings, Twelve forbid it be so.","TEXT_SUBWIL111_00619_ISEMBARD_000_1<tab>次は、貧民について調べてみたらどうだ？<br>彼らが煙のように消えてゆく理由……<br>共謀者に繋がるヒントが、わかるかもしれない。","","False","0x00000030","",""
-"","TEXT_SUBWIL111_00619_ISEMBARD_000_2<tab>There is a merchant by the name of Ungust who was born here in Drybone and grew up in the Golden Bazaar. A...rough character, but he knows the people here better than anyone else.","TEXT_SUBWIL111_00619_ISEMBARD_000_2<tab>貧民の動向なら、「ウグスト」という商人に聞くといい。<br>ウグストはドライボーン生まれのゴールドバザー育ち、<br>気性は荒いやつだが、付近の人間については私より詳しい。","","False","0x00000031","",""
-"","TEXT_SUBWIL111_00619_ISEMBARD_000_3<tab>I'd wager he's at the inn, quaffing away the day's earnings. Here, I'll write a note for you to show him, else he's not like to speak to you.","TEXT_SUBWIL111_00619_ISEMBARD_000_3<tab>今ならウグストは近くの酒場で、酒を飲んでるよ。<br>奴に話を聞くなら、私が紹介状を書いてやろう。","","False","0x00000032","",""
-"","TEXT_SUBWIL111_00619_UNGUST_000_10<tab><belch> Well, gods be damned! You're that bloody adventurer who threatened me back in Ul'dah! What in the seven hells do you want with me now!?","TEXT_SUBWIL111_00619_UNGUST_000_10<tab>げっ……てめぇはウルダハで会ったクソ冒険者……！<br>お、俺の地元にまで、何しに来やがった！","","False","0x00000033","",""
-"","TEXT_SUBWIL111_00619_UNGUST_000_11<tab>“Dear friend... <belch> Missing people... Please help... <hiccup> Yours, Isembard.”","TEXT_SUBWIL111_00619_UNGUST_000_11<tab>ちっ……イセムバードの紹介かよ。<br>えーと、貧民の行方を調べてるから教えてやれ……だと？","","False","0x00000034","",""
-"","TEXT_SUBWIL111_00619_UNGUST_000_12<tab>Folk around here are as wary as they come. They'll turn tail and run if you so much as pass wind nearby. Played them all for fools and coaxed some hard labor out of them, I did.","TEXT_SUBWIL111_00619_UNGUST_000_12<tab>フン、ここらの貧民は警戒心が強くてね、<br>人が近づいたらビビって逃げちまうくらいだぜ？<br>ま、俺みたいな奴が昔、騙して重労働させまくったからな。","","False","0x00000035","",""
-"","TEXT_SUBWIL111_00619_UNGUST_000_13<tab>If anything, they're even <var 1A 02 /var>more<var 1A 01 /var> timid than before, what with all the disappearances. You can go talk to 'em yourself if you don't believe me.","TEXT_SUBWIL111_00619_UNGUST_000_13<tab>今は誘拐事件もあるし、より一層警戒心が悪化してるぜ。<br>嘘だと思うなら、てめぇで貧民に話しかけてみろよ。","","False","0x00000036","",""
+"","TEXT_SUBWIL111_00619_ISEMBARD_000_1<tab>What say we turn an eye to the commonfolk themselves? It may be among them that we find the reasons for these vanishings, Twelve forbid it be so.","TEXT_SUBWIL111_00619_ISEMBARD_000_1<tab>次は、貧民について調べてみたらどうだ？
+彼らが煙のように消えてゆく理由……
+共謀者に繋がるヒントが、わかるかもしれない。","","False","0x00000030","",""
+"","TEXT_SUBWIL111_00619_ISEMBARD_000_2<tab>There is a merchant by the name of Ungust who was born here in Drybone and grew up in the Golden Bazaar. A...rough character, but he knows the people here better than anyone else.","TEXT_SUBWIL111_00619_ISEMBARD_000_2<tab>貧民の動向なら、「ウグスト」という商人に聞くといい。
+ウグストはドライボーン生まれのゴールドバザー育ち、
+気性は荒いやつだが、付近の人間については私より詳しい。","","False","0x00000031","",""
+"","TEXT_SUBWIL111_00619_ISEMBARD_000_3<tab>I'd wager he's at the inn, quaffing away the day's earnings. Here, I'll write a note for you to show him, else he's not like to speak to you.","TEXT_SUBWIL111_00619_ISEMBARD_000_3<tab>今ならウグストは近くの酒場で、酒を飲んでるよ。
+奴に話を聞くなら、私が紹介状を書いてやろう。","","False","0x00000032","",""
+"","TEXT_SUBWIL111_00619_UNGUST_000_10<tab><belch> Well, gods be damned! You're that bloody adventurer who threatened me back in Ul'dah! What in the seven hells do you want with me now!?","TEXT_SUBWIL111_00619_UNGUST_000_10<tab>げっ……てめぇはウルダハで会ったクソ冒険者……！
+お、俺の地元にまで、何しに来やがった！","","False","0x00000033","",""
+"","TEXT_SUBWIL111_00619_UNGUST_000_11<tab>“Dear friend... <belch> Missing people... Please help... <hiccup> Yours, Isembard.”","TEXT_SUBWIL111_00619_UNGUST_000_11<tab>ちっ……イセムバードの紹介かよ。
+えーと、貧民の行方を調べてるから教えてやれ……だと？","","False","0x00000034","",""
+"","TEXT_SUBWIL111_00619_UNGUST_000_12<tab>Folk around here are as wary as they come. They'll turn tail and run if you so much as pass wind nearby. Played them all for fools and coaxed some hard labor out of them, I did.","TEXT_SUBWIL111_00619_UNGUST_000_12<tab>フン、ここらの貧民は警戒心が強くてね、
+人が近づいたらビビって逃げちまうくらいだぜ？
+ま、俺みたいな奴が昔、騙して重労働させまくったからな。","","False","0x00000035","",""
+"","TEXT_SUBWIL111_00619_UNGUST_000_13<tab>If anything, they're even <var 1A 02 /var>more<var 1A 01 /var> timid than before, what with all the disappearances. You can go talk to 'em yourself if you don't believe me.","TEXT_SUBWIL111_00619_UNGUST_000_13<tab>今は誘拐事件もあるし、より一層警戒心が悪化してるぜ。
+嘘だと思うなら、てめぇで貧民に話しかけてみろよ。","","False","0x00000036","",""
 "","TEXT_SUBWIL111_00619_UNGUST_000_20<tab>The folk around here are more timid now than ever before, what with all the disappearances. You can go talk to 'em yourself if you don't believe me.","TEXT_SUBWIL111_00619_UNGUST_000_20<tab>嘘だと思うなら、てめぇで貧民に話しかけてみればいい。","","False","0x00000037","",""
-"","TEXT_SUBWIL111_00619_POVERTY1_000_30<tab>Wh-What do you want from me!? I d<var 1F /var>don't know anything, I swear! Please don't kill me!","TEXT_SUBWIL111_00619_POVERTY1_000_30<tab>ひっ！　……た、助けてくれ！<br>俺は知らない！　何も知らない！！<br>だから拐っていかないでくれ！","","False","0x00000038","",""
-"","TEXT_SUBWIL111_00619_POVERTY2_000_31<tab>I've nothing to say but this: Thal take who─or <var 1A 02 /var>what<var 1A 01 /var>ever's been feeding off us low folk.","TEXT_SUBWIL111_00619_POVERTY2_000_31<tab>話すことなんか何もねえよ。<br>人を食い物にする奴らめ、ザル神の「あの世」に行っちまえ！","","False","0x00000039","",""
-"","TEXT_SUBWIL111_00619_POVERTY3_000_32<tab>P-Please, <var 08 E905 ((miss)) ((sir)) /var>, just leave me be...","TEXT_SUBWIL111_00619_POVERTY3_000_32<tab>ぼ、冒険者も俺達をいじめるんだろう。<br>俺達に優しくするのは、司祭様たちぐらいだからな……。","","False","0x0000003A","",""
-"","TEXT_SUBWIL111_00619_UNGUST_000_40<tab>Just as I told you, wasn't it? The whole lot of them are terrified. <hiccup>","TEXT_SUBWIL111_00619_UNGUST_000_40<tab>どうだ、貧民たちは警戒心が強い事がわかっただろ？<br>ケッ、あいつらが心開くのは、神様くらいだぜ。","","False","0x0000003B","",""
-"","TEXT_SUBWIL111_00619_UNGUST_000_41<tab>There's been talk of folk getting abducted, but if you ask me, they simply up and moved on to a better place. This place isn't exactly Costa del Sol, if you know what I'm saying.","TEXT_SUBWIL111_00619_UNGUST_000_41<tab>だいたい貧民の誘拐事件つったって、本当なのかねぇ。<br>案外、別の集落に移動して、よろしくやってんじゃねえの？","","False","0x0000003C","",""
-"","TEXT_SUBWIL111_00619_ISEMBARD_000_50<tab>Welcome back, <var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>. Have you learned aught of import?","TEXT_SUBWIL111_00619_ISEMBARD_000_50<tab>調査は進んでいるか？<br>……そうか、ウグストがそんなことを言っていたか。","","False","0x0000003D","",""
-"","TEXT_SUBWIL111_00619_ISEMBARD_000_51<tab>I see... I suppose I should have expected as much from Ungust. Well, another thought occurred to me in your absence. The commonfolk are nothing if not fervent in their religious beliefs. Perhaps if they speak freely to their gods, then the clergy may know something of use.","TEXT_SUBWIL111_00619_ISEMBARD_000_51<tab>貧民が信じているのが神様なら、<br>司祭様に話を聞いたほうがいいかもしれんな……。","","False","0x0000003E","",""
+"","TEXT_SUBWIL111_00619_POVERTY1_000_30<tab>Wh-What do you want from me!? I d<var 1F /var>don't know anything, I swear! Please don't kill me!","TEXT_SUBWIL111_00619_POVERTY1_000_30<tab>ひっ！　……た、助けてくれ！
+俺は知らない！　何も知らない！！
+だから拐っていかないでくれ！","","False","0x00000038","",""
+"","TEXT_SUBWIL111_00619_POVERTY2_000_31<tab>I've nothing to say but this: Thal take who─or <var 1A 02 /var>what<var 1A 01 /var>ever's been feeding off us low folk.","TEXT_SUBWIL111_00619_POVERTY2_000_31<tab>話すことなんか何もねえよ。
+人を食い物にする奴らめ、ザル神の「あの世」に行っちまえ！","","False","0x00000039","",""
+"","TEXT_SUBWIL111_00619_POVERTY3_000_32<tab>P-Please, <var 08 E905 ((miss)) ((sir)) /var>, just leave me be...","TEXT_SUBWIL111_00619_POVERTY3_000_32<tab>ぼ、冒険者も俺達をいじめるんだろう。
+俺達に優しくするのは、司祭様たちぐらいだからな……。","","False","0x0000003A","",""
+"","TEXT_SUBWIL111_00619_UNGUST_000_40<tab>Just as I told you, wasn't it? The whole lot of them are terrified. <hiccup>","TEXT_SUBWIL111_00619_UNGUST_000_40<tab>どうだ、貧民たちは警戒心が強い事がわかっただろ？
+ケッ、あいつらが心開くのは、神様くらいだぜ。","","False","0x0000003B","",""
+"","TEXT_SUBWIL111_00619_UNGUST_000_41<tab>There's been talk of folk getting abducted, but if you ask me, they simply up and moved on to a better place. This place isn't exactly Costa del Sol, if you know what I'm saying.","TEXT_SUBWIL111_00619_UNGUST_000_41<tab>だいたい貧民の誘拐事件つったって、本当なのかねぇ。
+案外、別の集落に移動して、よろしくやってんじゃねえの？","","False","0x0000003C","",""
+"","TEXT_SUBWIL111_00619_ISEMBARD_000_50<tab>Welcome back, <var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>. Have you learned aught of import?","TEXT_SUBWIL111_00619_ISEMBARD_000_50<tab>調査は進んでいるか？
+……そうか、ウグストがそんなことを言っていたか。","","False","0x0000003D","",""
+"","TEXT_SUBWIL111_00619_ISEMBARD_000_51<tab>I see... I suppose I should have expected as much from Ungust. Well, another thought occurred to me in your absence. The commonfolk are nothing if not fervent in their religious beliefs. Perhaps if they speak freely to their gods, then the clergy may know something of use.","TEXT_SUBWIL111_00619_ISEMBARD_000_51<tab>貧民が信じているのが神様なら、
+司祭様に話を聞いたほうがいいかもしれんな……。","","False","0x0000003E","",""

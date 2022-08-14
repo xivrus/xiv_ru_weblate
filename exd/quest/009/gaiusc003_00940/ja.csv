@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSC003_00940_SEQ_00<tab>Alphinaud is determined to discover Inquisitor Guillaime's true identity.","TEXT_GAIUSC003_00940_SEQ_00<tab>アルフィノは冒険者に、偽者のギイェームを追い詰める手助けをしてほしいようだ。","","False","0x00000000","",""
 "","TEXT_GAIUSC003_00940_SEQ_01<tab>Although you have discovered proof that Inquisitor Guillaime is an impostor, Alphinaud wishes to determine his true identity before speaking with Lord Drillemont. Confront Ser Joellaut with the bloody encyclical and see what he has to say.","TEXT_GAIUSC003_00940_SEQ_01<tab>冒険者の手に入れた証拠だけで、ギイェームが偽者だと証明することは難しいようだ。「ホワイトブリム前哨地」の負傷兵「ジョエロー」に<var 28 ((EventItem)) F61E87E201 /var>を渡して話を聞いてみよう。","","False","0x00000001","",""
 "","TEXT_GAIUSC003_00940_SEQ_02<tab>Ser Joellaut refuses to consider the possibility that Inquisitor Guillaime is not who he claims to be. He bids you speak with Ser Prunilla, the knight who helped the inquisitor carry his unconscious body to the infirmary that night, if you still doubt his story.","TEXT_GAIUSC003_00940_SEQ_02<tab>ジョエローは着任当夜にしか異端審問官の顔を見ていないという。「ホワイトブリム前哨地」の「プルニヤ」に<var 28 ((EventItem)) F61E87E201 /var>を渡して話を聞いてみよう。","","False","0x00000002","",""
@@ -47,29 +47,70 @@
 "","TEXT_GAIUSC003_00940_TODO_21<tab>","TEXT_GAIUSC003_00940_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_GAIUSC003_00940_TODO_22<tab>","TEXT_GAIUSC003_00940_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_GAIUSC003_00940_TODO_23<tab>","TEXT_GAIUSC003_00940_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_GAIUSC003_00940_ALPHINAUD_000_000<tab>Since Lord Drillemont has already been turned against us, I fear that this encyclical alone will not serve to convince him of our claims.","TEXT_GAIUSC003_00940_ALPHINAUD_000_000<tab>異端審問官の正体は、おおよそ明らかになった。<br>問題は、これをどうやってドリユモン卿に信じさせるかだ。","","False","0x00000030","",""
-"","TEXT_GAIUSC003_00940_ALPHINAUD_000_001<tab>But what might persuade a man so quick to disregard the endorsements of two High Houses?","TEXT_GAIUSC003_00940_ALPHINAUD_000_001<tab>なにせ、四大名家からの紹介状すら通らなかったのだ。<br>任命書だけでは、決め手に欠けるだろう……。","","False","0x00000031","",""
-"","TEXT_GAIUSC003_00940_ALPHINAUD_000_002<tab>The cook did say that the lord listens to and respects the opinions of his knights. If a certain knight were to provide testimony that supports our claim...","TEXT_GAIUSC003_00940_ALPHINAUD_000_002<tab>しかし、打つ手がないわけではない。<br>クルザスを巡る旅の中で、<br>君は何度も、あの異端審問官と関わってきたはず。","","False","0x00000032","",""
-"","TEXT_GAIUSC003_00940_ALPHINAUD_000_003<tab>Yes, mayhap that is the only way left to us. Confront Ser Joellaut with the evidence you discovered and see if it helps him to recall the truth of that night.","TEXT_GAIUSC003_00940_ALPHINAUD_000_003<tab>さあ、最後の欠片を埋めようじゃないか。<br>そうだな、任命書がドリユモン卿に効かずとも、<br>例の負傷兵ならどうだろうか？","","False","0x00000033","",""
-"","TEXT_GAIUSC003_00940_ALPHINAUD_000_004<tab>As a man of faith, he may find it difficult to cope with such a horrifying revelation. Nevertheless, we must do everything within our power to secure the <var 1A 02 /var>Enterprise<var 1A 01 /var>.","TEXT_GAIUSC003_00940_ALPHINAUD_000_004<tab>飛空艇「エンタープライズ」と、<br>その先に待ち構える蛮神「ガルーダ」。<br>……もうすぐだ、気合いを入れよう。","","False","0x00000034","",""
-"","TEXT_GAIUSC003_00940_JOELLAUT_000_010<tab>Oh, you have returned. Is there something else you wanted to ask?","TEXT_GAIUSC003_00940_JOELLAUT_000_010<tab>ああ、この前の冒険者じゃないか。<br>また雑談でも？","","False","0x00000035","",""
-"","TEXT_GAIUSC003_00940_JOELLAUT_000_011<tab>The inquisitor is an impostor? Don't be preposterous, that could not possibly be true!","TEXT_GAIUSC003_00940_JOELLAUT_000_011<tab>異端審問官様が偽者？<br>おいおい、俺は本人の顔を見てるんだぜ？<br>そんなわけ……。","","False","0x00000036","",""
-"","TEXT_GAIUSC003_00940_JOELLAUT_000_012<tab>He is a paragon of virtue, a dedicated servant of the Fury! You would have me believe that is all a lie!?","TEXT_GAIUSC003_00940_JOELLAUT_000_012<tab>……いや、たしかに、見たのは着任当夜だけだ。<br>この病院に入れられてから、<br>俺は一度も異端審問官様に会ってない……だからって！","","False","0x00000037","",""
-"","TEXT_GAIUSC003_00940_JOELLAUT_000_013<tab>If you are so certain that your ludicrous story is true, then go and speak with Ser Prunilla! She was at the eastern gate that night, and she helped the inquisitor carry me here. But I will <var 1A 02 /var>never<var 1A 01 /var> speak against the man who saved my life!","TEXT_GAIUSC003_00940_JOELLAUT_000_013<tab>俺の記憶が信じられないなら、広場を警備してる<br>「プルニヤ」って女騎兵に聞いてみればいい！<br>あの日の夜番は……俺と彼女だったんだ。","","False","0x00000038","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_020<tab><var 1A 02 /var>You<var 1A 01 /var>! I...I do not believe I know you, <var 08 E905 ((madam)) ((sir)) /var>. Pray move along and trouble me no more.","TEXT_GAIUSC003_00940_PRUNILLA_000_020<tab>あなたは……！<br>な、何の用ですか。<br>よそ者にお話しすることなんてありません。","","False","0x00000039","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_021<tab>Are you in the habit of handing bloody documents to strangers? Why would you show me such a dreadful thing? I know naught of it, naught at all!","TEXT_GAIUSC003_00940_PRUNILLA_000_021<tab>…………！<br>そ、そんな汚れた紙切れ知りません！<br>私は何も知らないんです……ッ！","","False","0x0000003A","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_030<tab>...What? Do you <var 48 F201F4 /var><var 49 F201F5 /var>doubt<var 49 01 /var><var 48 01 /var> my words? Away with you─I will suffer your slander no more.","TEXT_GAIUSC003_00940_PRUNILLA_000_030<tab>近寄らないでください……。<br>わ、私はデュランデル家の騎兵ですから……。<br>……でも「問い詰め」られでもしたら、ううっ。","","False","0x0000003B","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_040<tab>You <var 1A 02 /var>know<var 1A 01 /var>, don't you? Fury take me, I prayed this day would come...","TEXT_GAIUSC003_00940_PRUNILLA_000_040<tab>ああ、ううっ……！<br>すべて……ご存じなのですね……。","","False","0x0000003C","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_041<tab>When Ser Joellaut gave chase, I followed close behind. He didn't fall─one of those Dravanian abominations lashed out at him, nearly killed him right then and there. I drew my sword and rushed to his side, straining to see the enemy. But what came from the dark was not a beast, but a voice.","TEXT_GAIUSC003_00940_PRUNILLA_000_041<tab>……あなたの言うとおり、あの異端審問官は偽者です。<br>私たちは、あの夜、本物が殺されるのを見てしまいました。","","False","0x0000003D","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_042<tab>He...he <var 1A 02 /var>knew<var 1A 01 /var> things about me, about my family. Secrets I had never told another. He said that if I kept his confidence, Ser Joellaut and I would be spared. But, if I defied him...everyone I loved would suffer unimaginable horrors before they died.","TEXT_GAIUSC003_00940_PRUNILLA_000_042<tab>ジョエローの記憶は混乱しているみたいだけど、<br>彼の怪我、本当はあいつのドラゴンにやられたんです。<br>あいつ……偽の審問官こそが「異端者」だから……。","","False","0x0000003E","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_043<tab>When at last I agreed to his terms, the man came forward. His robes marked him as an inquisitor, but I knew him to be false. Together, we carried Ser Joellaut to the infirmary, and on his first night in Whitebrim Front “Inquisitor Guillaime” was heralded as a hero...","TEXT_GAIUSC003_00940_PRUNILLA_000_043<tab>私は、従わなければジョエローを殺すと言われ、<br>偽の審問官に言われるまま「竜眼の祈鎖」を撒きました。","","False","0x0000003F","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_044<tab>Soon after came the accusations─countless men and women of good moral standing, seized whilst in possession of draconian rosaries. As I feared, he was condemning the innocent to death. I wanted to confess to Lord Drillemont, wanted to put an end to the madness─but then I would remember the inquisitor's threats. And so I did nothing...until Lord Francel was accused.","TEXT_GAIUSC003_00940_PRUNILLA_000_044<tab>でも、アインハルト家のご子息に嫌疑がかかって怖くなった。<br>だから、誰かが真実に気付くようにと、<br>鎖を手当たり次第に荷物へ……！","","False","0x00000040","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_045<tab>Some time ago, I followed the inquisitor and found that he kept draconian rosaries in a chest hidden southeast of Whitebrim Front. So, I took several from his chest and planted them in shipments bound for Skyfire Locks. As I hoped, they were discovered and considered evidence of a conspiracy against House Haillenarte, thus exonerating Lord Francel and casting doubt on the other recent trials. And that is the entire truth, I swear. Halone forgive me for not acting sooner...","TEXT_GAIUSC003_00940_PRUNILLA_000_045<tab>ごめんなさい……本当に、ごめんなさい……！<br>残りの祈鎖は、南東の岩の隙間に隠してあります。<br>ドリユモン隊長に見せ、私を……裁いてください……。","","False","0x00000041","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_050<tab>Whatever is the matter with you? Can you not take a <var 1A 02 /var>hint<var 1A 01 /var>? I do not care if you <var 48 F201F4 /var><var 49 F201F5 /var>doubt<var 49 01 /var><var 48 01 /var> my words, stranger. I told you, I know naught of that encyclical. Now, away with you!","TEXT_GAIUSC003_00940_PRUNILLA_000_050<tab>や、やめてください。<br>私は何も知りません、仕事の邪魔をしないで！<br>……でも「問い詰め」られでもしたら、ううっ。","","False","0x00000042","",""
-"","TEXT_GAIUSC003_00940_PRUNILLA_000_051<tab>Do not make me say it aloud again, I beg of you. Even now he could be watching, listening to every word. It may already be too late for us...","TEXT_GAIUSC003_00940_PRUNILLA_000_051<tab>彼に生きていてほしかった……。<br>でも、神を裏切るべきではなかったんです。<br>私の魂は穢れてしまった……ああ……。","","False","0x00000043","",""
-"","TEXT_GAIUSC003_00940_DUMMY_000_060<tab>","TEXT_GAIUSC003_00940_DUMMY_000_060<tab>（ホワイトブリム周辺のEobj盛り上がった雪にアクセス<br>Eobj竜眼の鎖が詰まった箱が出現）","","False","0x00000044","",""
+"","TEXT_GAIUSC003_00940_ALPHINAUD_000_000<tab>Since Lord Drillemont has already been turned against us, I fear that this encyclical alone will not serve to convince him of our claims.","TEXT_GAIUSC003_00940_ALPHINAUD_000_000<tab>異端審問官の正体は、おおよそ明らかになった。
+問題は、これをどうやってドリユモン卿に信じさせるかだ。","","False","0x00000030","",""
+"","TEXT_GAIUSC003_00940_ALPHINAUD_000_001<tab>But what might persuade a man so quick to disregard the endorsements of two High Houses?","TEXT_GAIUSC003_00940_ALPHINAUD_000_001<tab>なにせ、四大名家からの紹介状すら通らなかったのだ。
+任命書だけでは、決め手に欠けるだろう……。","","False","0x00000031","",""
+"","TEXT_GAIUSC003_00940_ALPHINAUD_000_002<tab>The cook did say that the lord listens to and respects the opinions of his knights. If a certain knight were to provide testimony that supports our claim...","TEXT_GAIUSC003_00940_ALPHINAUD_000_002<tab>しかし、打つ手がないわけではない。
+クルザスを巡る旅の中で、
+君は何度も、あの異端審問官と関わってきたはず。","","False","0x00000032","",""
+"","TEXT_GAIUSC003_00940_ALPHINAUD_000_003<tab>Yes, mayhap that is the only way left to us. Confront Ser Joellaut with the evidence you discovered and see if it helps him to recall the truth of that night.","TEXT_GAIUSC003_00940_ALPHINAUD_000_003<tab>さあ、最後の欠片を埋めようじゃないか。
+そうだな、任命書がドリユモン卿に効かずとも、
+例の負傷兵ならどうだろうか？","","False","0x00000033","",""
+"","TEXT_GAIUSC003_00940_ALPHINAUD_000_004<tab>As a man of faith, he may find it difficult to cope with such a horrifying revelation. Nevertheless, we must do everything within our power to secure the <var 1A 02 /var>Enterprise<var 1A 01 /var>.","TEXT_GAIUSC003_00940_ALPHINAUD_000_004<tab>飛空艇「エンタープライズ」と、
+その先に待ち構える蛮神「ガルーダ」。
+……もうすぐだ、気合いを入れよう。","","False","0x00000034","",""
+"","TEXT_GAIUSC003_00940_JOELLAUT_000_010<tab>Oh, you have returned. Is there something else you wanted to ask?","TEXT_GAIUSC003_00940_JOELLAUT_000_010<tab>ああ、この前の冒険者じゃないか。
+また雑談でも？","","False","0x00000035","",""
+"","TEXT_GAIUSC003_00940_JOELLAUT_000_011<tab>The inquisitor is an impostor? Don't be preposterous, that could not possibly be true!","TEXT_GAIUSC003_00940_JOELLAUT_000_011<tab>異端審問官様が偽者？
+おいおい、俺は本人の顔を見てるんだぜ？
+そんなわけ……。","","False","0x00000036","",""
+"","TEXT_GAIUSC003_00940_JOELLAUT_000_012<tab>He is a paragon of virtue, a dedicated servant of the Fury! You would have me believe that is all a lie!?","TEXT_GAIUSC003_00940_JOELLAUT_000_012<tab>……いや、たしかに、見たのは着任当夜だけだ。
+この病院に入れられてから、
+俺は一度も異端審問官様に会ってない……だからって！","","False","0x00000037","",""
+"","TEXT_GAIUSC003_00940_JOELLAUT_000_013<tab>If you are so certain that your ludicrous story is true, then go and speak with Ser Prunilla! She was at the eastern gate that night, and she helped the inquisitor carry me here. But I will <var 1A 02 /var>never<var 1A 01 /var> speak against the man who saved my life!","TEXT_GAIUSC003_00940_JOELLAUT_000_013<tab>俺の記憶が信じられないなら、広場を警備してる
+「プルニヤ」って女騎兵に聞いてみればいい！
+あの日の夜番は……俺と彼女だったんだ。","","False","0x00000038","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_020<tab><var 1A 02 /var>You<var 1A 01 /var>! I...I do not believe I know you, <var 08 E905 ((madam)) ((sir)) /var>. Pray move along and trouble me no more.","TEXT_GAIUSC003_00940_PRUNILLA_000_020<tab>あなたは……！
+な、何の用ですか。
+よそ者にお話しすることなんてありません。","","False","0x00000039","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_021<tab>Are you in the habit of handing bloody documents to strangers? Why would you show me such a dreadful thing? I know naught of it, naught at all!","TEXT_GAIUSC003_00940_PRUNILLA_000_021<tab>…………！
+そ、そんな汚れた紙切れ知りません！
+私は何も知らないんです……ッ！","","False","0x0000003A","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_030<tab>...What? Do you <var 48 F201F4 /var><var 49 F201F5 /var>doubt<var 49 01 /var><var 48 01 /var> my words? Away with you─I will suffer your slander no more.","TEXT_GAIUSC003_00940_PRUNILLA_000_030<tab>近寄らないでください……。
+わ、私はデュランデル家の騎兵ですから……。
+……でも「問い詰め」られでもしたら、ううっ。","","False","0x0000003B","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_040<tab>You <var 1A 02 /var>know<var 1A 01 /var>, don't you? Fury take me, I prayed this day would come...","TEXT_GAIUSC003_00940_PRUNILLA_000_040<tab>ああ、ううっ……！
+すべて……ご存じなのですね……。","","False","0x0000003C","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_041<tab>When Ser Joellaut gave chase, I followed close behind. He didn't fall─one of those Dravanian abominations lashed out at him, nearly killed him right then and there. I drew my sword and rushed to his side, straining to see the enemy. But what came from the dark was not a beast, but a voice.","TEXT_GAIUSC003_00940_PRUNILLA_000_041<tab>……あなたの言うとおり、あの異端審問官は偽者です。
+私たちは、あの夜、本物が殺されるのを見てしまいました。","","False","0x0000003D","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_042<tab>He...he <var 1A 02 /var>knew<var 1A 01 /var> things about me, about my family. Secrets I had never told another. He said that if I kept his confidence, Ser Joellaut and I would be spared. But, if I defied him...everyone I loved would suffer unimaginable horrors before they died.","TEXT_GAIUSC003_00940_PRUNILLA_000_042<tab>ジョエローの記憶は混乱しているみたいだけど、
+彼の怪我、本当はあいつのドラゴンにやられたんです。
+あいつ……偽の審問官こそが「異端者」だから……。","","False","0x0000003E","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_043<tab>When at last I agreed to his terms, the man came forward. His robes marked him as an inquisitor, but I knew him to be false. Together, we carried Ser Joellaut to the infirmary, and on his first night in Whitebrim Front “Inquisitor Guillaime” was heralded as a hero...","TEXT_GAIUSC003_00940_PRUNILLA_000_043<tab>私は、従わなければジョエローを殺すと言われ、
+偽の審問官に言われるまま「竜眼の祈鎖」を撒きました。","","False","0x0000003F","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_044<tab>Soon after came the accusations─countless men and women of good moral standing, seized whilst in possession of draconian rosaries. As I feared, he was condemning the innocent to death. I wanted to confess to Lord Drillemont, wanted to put an end to the madness─but then I would remember the inquisitor's threats. And so I did nothing...until Lord Francel was accused.","TEXT_GAIUSC003_00940_PRUNILLA_000_044<tab>でも、アインハルト家のご子息に嫌疑がかかって怖くなった。
+だから、誰かが真実に気付くようにと、
+鎖を手当たり次第に荷物へ……！","","False","0x00000040","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_045<tab>Some time ago, I followed the inquisitor and found that he kept draconian rosaries in a chest hidden southeast of Whitebrim Front. So, I took several from his chest and planted them in shipments bound for Skyfire Locks. As I hoped, they were discovered and considered evidence of a conspiracy against House Haillenarte, thus exonerating Lord Francel and casting doubt on the other recent trials. And that is the entire truth, I swear. Halone forgive me for not acting sooner...","TEXT_GAIUSC003_00940_PRUNILLA_000_045<tab>ごめんなさい……本当に、ごめんなさい……！
+残りの祈鎖は、南東の岩の隙間に隠してあります。
+ドリユモン隊長に見せ、私を……裁いてください……。","","False","0x00000041","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_050<tab>Whatever is the matter with you? Can you not take a <var 1A 02 /var>hint<var 1A 01 /var>? I do not care if you <var 48 F201F4 /var><var 49 F201F5 /var>doubt<var 49 01 /var><var 48 01 /var> my words, stranger. I told you, I know naught of that encyclical. Now, away with you!","TEXT_GAIUSC003_00940_PRUNILLA_000_050<tab>や、やめてください。
+私は何も知りません、仕事の邪魔をしないで！
+……でも「問い詰め」られでもしたら、ううっ。","","False","0x00000042","",""
+"","TEXT_GAIUSC003_00940_PRUNILLA_000_051<tab>Do not make me say it aloud again, I beg of you. Even now he could be watching, listening to every word. It may already be too late for us...","TEXT_GAIUSC003_00940_PRUNILLA_000_051<tab>彼に生きていてほしかった……。
+でも、神を裏切るべきではなかったんです。
+私の魂は穢れてしまった……ああ……。","","False","0x00000043","",""
+"","TEXT_GAIUSC003_00940_DUMMY_000_060<tab>","TEXT_GAIUSC003_00940_DUMMY_000_060<tab>（ホワイトブリム周辺のEobj盛り上がった雪にアクセス
+Eobj竜眼の鎖が詰まった箱が出現）","","False","0x00000044","",""
 "","TEXT_GAIUSC003_00940_DUMMY_000_070<tab>","TEXT_GAIUSC003_00940_DUMMY_000_070<tab>（竜眼の祈鎖が詰まった箱にアクセス、入手）","","False","0x00000045","",""
-"","TEXT_GAIUSC003_00940_DRILLEMONT_000_080<tab>Why do you persist in this folly? I will <var 1A 02 /var>not<var 1A 01 /var> grant you three access to the Stone Vigil. Do not make me repeat myself.","TEXT_GAIUSC003_00940_DRILLEMONT_000_080<tab>私に告発したいことがある？<br>……悪あがきに付きあうつもりはないぞ。","","False","0x00000046","",""
-"","TEXT_GAIUSC003_00940_DRILLEMONT_000_081<tab>There had better be a <var 1A 02 /var>very<var 1A 01 /var> good explanation for why you were carrying these rosaries. And where did you find this papal encyclical?","TEXT_GAIUSC003_00940_DRILLEMONT_000_081<tab>これは……！<br>お前は、ギイェームが偽の異端審問官だというのか！？","","False","0x00000047","",""
-"","TEXT_GAIUSC003_00940_DRILLEMONT_000_082<tab>Fury take me, the inquisitor is a <var 1A 02 /var>heretic<var 1A 01 /var>!? Never before have I heard such an unbelievable tale...but this evidence and your testimony could have no other explanation...","TEXT_GAIUSC003_00940_DRILLEMONT_000_082<tab>とても信じられん……！<br>だがしかし、これらの証拠はたしかに……<br>ああ、私はなんという過ちを……！","","False","0x00000048","",""
-"","TEXT_GAIUSC003_00940_DRILLEMONT_000_083<tab>I have misjudged you and your friends, <var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>, and for that I deeply apologize. I will permit you to enter the outpost─but first, I must needs beg your assistance. Help me and my knights bring this infernal impostor to justice!","TEXT_GAIUSC003_00940_DRILLEMONT_000_083<tab>冒険者よ、これまでの非礼は後で必ずお詫びしよう。<br>だがまずは、これ以上の惨事を避けなければ……<br>どうか力を貸してほしい。","","False","0x00000049","",""
+"","TEXT_GAIUSC003_00940_DRILLEMONT_000_080<tab>Why do you persist in this folly? I will <var 1A 02 /var>not<var 1A 01 /var> grant you three access to the Stone Vigil. Do not make me repeat myself.","TEXT_GAIUSC003_00940_DRILLEMONT_000_080<tab>私に告発したいことがある？
+……悪あがきに付きあうつもりはないぞ。","","False","0x00000046","",""
+"","TEXT_GAIUSC003_00940_DRILLEMONT_000_081<tab>There had better be a <var 1A 02 /var>very<var 1A 01 /var> good explanation for why you were carrying these rosaries. And where did you find this papal encyclical?","TEXT_GAIUSC003_00940_DRILLEMONT_000_081<tab>これは……！
+お前は、ギイェームが偽の異端審問官だというのか！？","","False","0x00000047","",""
+"","TEXT_GAIUSC003_00940_DRILLEMONT_000_082<tab>Fury take me, the inquisitor is a <var 1A 02 /var>heretic<var 1A 01 /var>!? Never before have I heard such an unbelievable tale...but this evidence and your testimony could have no other explanation...","TEXT_GAIUSC003_00940_DRILLEMONT_000_082<tab>とても信じられん……！
+だがしかし、これらの証拠はたしかに……
+ああ、私はなんという過ちを……！","","False","0x00000048","",""
+"","TEXT_GAIUSC003_00940_DRILLEMONT_000_083<tab>I have misjudged you and your friends, <var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>, and for that I deeply apologize. I will permit you to enter the outpost─but first, I must needs beg your assistance. Help me and my knights bring this infernal impostor to justice!","TEXT_GAIUSC003_00940_DRILLEMONT_000_083<tab>冒険者よ、これまでの非礼は後で必ずお詫びしよう。
+だがまずは、これ以上の惨事を避けなければ……
+どうか力を貸してほしい。","","False","0x00000049","",""

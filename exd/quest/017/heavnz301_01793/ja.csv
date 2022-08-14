@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ301_01793_SEQ_00<tab>The voracious Vath is staring towards the southern sky.","TEXT_HEAVNZ301_01793_SEQ_00<tab>ヴァスの塚のナンカイーターは、遠い目で南の方を見ているようだ。","","False","0x00000000","",""
 "","TEXT_HEAVNZ301_01793_SEQ_01<tab>The voracious Vath has asked you to collect four yellow pebbles for him. Such pebbles can be found in the craters to the south of Anyx Trine.","TEXT_HEAVNZ301_01793_SEQ_01<tab>ナンカイーターに<var 28 ((EventItem)) F61E8AD401 /var>を拾ってくるよう頼まれた。高地ドラヴァニアのアヴァロニア・フォールンで「<var 28 ((EventItem)) F61E8AD401 /var>」を4つ入手しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ301_01793_SEQ_02<tab>You successfully obtain the requested stones. Take them back to the voracious Vath at Loth ast Vath.","TEXT_HEAVNZ301_01793_SEQ_02<tab><var 28 ((EventItem)) F61E8AD401 /var>を入手した。ヴァスの塚の「ナンカイーター」に「<var 28 ((EventItem)) F61E8AD401 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,9 +47,19 @@
 "","TEXT_HEAVNZ301_01793_TODO_21<tab>","TEXT_HEAVNZ301_01793_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ301_01793_TODO_22<tab>","TEXT_HEAVNZ301_01793_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ301_01793_TODO_23<tab>","TEXT_HEAVNZ301_01793_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ301_01793_NANKAEATER_000_000<tab>Are you looking for work, hunter? You come at a good time. We have work for you. We would like you to bring us some materials.","TEXT_HEAVNZ301_01793_NANKAEATER_000_000<tab>シシシシシ……気前のいい狩人よ、また仕事をするか？<br>ある鉱物を調達してもらいたいのだ。","","False","0x00000030","",""
-"","TEXT_HEAVNZ301_01793_NANKAEATER_000_001<tab>To the south of the place men call Anyx Trine, there are craters. In these craters are yellow pebbles. Please collect four yellow pebbles from these craters. Please collect these pebbles and bring them to me.","TEXT_HEAVNZ301_01793_NANKAEATER_000_001<tab>ヒトが「不浄の三塔」と呼ぶ場所の南に、<br>「<var 28 ((EventItem)) F61E8AD401 /var>」が落ちているはずだ……。<br>それを4個ほど、拾ってきてほしい……シシシシシ。","","False","0x00000031","",""
-"","TEXT_HEAVNZ301_01793_NANKAEATER_000_010<tab>The yellow pebbles should be in the craters. The craters are south of Anyx Trine.","TEXT_HEAVNZ301_01793_NANKAEATER_000_010<tab>ヒトが「不浄の三塔」と呼ぶ場所の南に、<br>「<var 28 ((EventItem)) F61E8AD401 /var>」が落ちているはずだ……。<br>それを4個ほど、拾ってきてほしい……シシシシシ。","","False","0x00000032","",""
-"","TEXT_HEAVNZ301_01793_NANKAEATER_000_020<tab>Do you have the pebbles, hunter?","TEXT_HEAVNZ301_01793_NANKAEATER_000_020<tab>ヒトが「不浄の三塔」と呼ぶ場所の南に、<br>「<var 28 ((EventItem)) F61E8AD401 /var>」が落ちているはずだ……。<br>それを4個ほど、拾ってきてほしい……シシシシシ。","","False","0x00000033","",""
-"","TEXT_HEAVNZ301_01793_NANKAEATER_000_021<tab>Thank you, generous hunter. You waste no time.","TEXT_HEAVNZ301_01793_NANKAEATER_000_021<tab>シシシシシ……速やかな仕事ぶりだな。<br>そして、相変わらずの気前の良さ……感謝するぞ。","","False","0x00000034","",""
-"","TEXT_HEAVNZ301_01793_NANKAEATER_000_022<tab>These stones are used to make Gnathic firesand. We grind the stones and mix them with our...errr... <click> <click> <click> <click> Actually, we would prefer not to go into details. ","TEXT_HEAVNZ301_01793_NANKAEATER_000_022<tab>この黄色い石に付着している「硫黄」は、<br>我らが手銃に用いる火薬の材料のひとつ……。<br>その他の材料は秘密だ……恥ずかしいからな……。","","False","0x00000035","",""
+"","TEXT_HEAVNZ301_01793_NANKAEATER_000_000<tab>Are you looking for work, hunter? You come at a good time. We have work for you. We would like you to bring us some materials.","TEXT_HEAVNZ301_01793_NANKAEATER_000_000<tab>シシシシシ……気前のいい狩人よ、また仕事をするか？
+ある鉱物を調達してもらいたいのだ。","","False","0x00000030","",""
+"","TEXT_HEAVNZ301_01793_NANKAEATER_000_001<tab>To the south of the place men call Anyx Trine, there are craters. In these craters are yellow pebbles. Please collect four yellow pebbles from these craters. Please collect these pebbles and bring them to me.","TEXT_HEAVNZ301_01793_NANKAEATER_000_001<tab>ヒトが「不浄の三塔」と呼ぶ場所の南に、
+「<var 28 ((EventItem)) F61E8AD401 /var>」が落ちているはずだ……。
+それを4個ほど、拾ってきてほしい……シシシシシ。","","False","0x00000031","",""
+"","TEXT_HEAVNZ301_01793_NANKAEATER_000_010<tab>The yellow pebbles should be in the craters. The craters are south of Anyx Trine.","TEXT_HEAVNZ301_01793_NANKAEATER_000_010<tab>ヒトが「不浄の三塔」と呼ぶ場所の南に、
+「<var 28 ((EventItem)) F61E8AD401 /var>」が落ちているはずだ……。
+それを4個ほど、拾ってきてほしい……シシシシシ。","","False","0x00000032","",""
+"","TEXT_HEAVNZ301_01793_NANKAEATER_000_020<tab>Do you have the pebbles, hunter?","TEXT_HEAVNZ301_01793_NANKAEATER_000_020<tab>ヒトが「不浄の三塔」と呼ぶ場所の南に、
+「<var 28 ((EventItem)) F61E8AD401 /var>」が落ちているはずだ……。
+それを4個ほど、拾ってきてほしい……シシシシシ。","","False","0x00000033","",""
+"","TEXT_HEAVNZ301_01793_NANKAEATER_000_021<tab>Thank you, generous hunter. You waste no time.","TEXT_HEAVNZ301_01793_NANKAEATER_000_021<tab>シシシシシ……速やかな仕事ぶりだな。
+そして、相変わらずの気前の良さ……感謝するぞ。","","False","0x00000034","",""
+"","TEXT_HEAVNZ301_01793_NANKAEATER_000_022<tab>These stones are used to make Gnathic firesand. We grind the stones and mix them with our...errr... <click> <click> <click> <click> Actually, we would prefer not to go into details. ","TEXT_HEAVNZ301_01793_NANKAEATER_000_022<tab>この黄色い石に付着している「硫黄」は、
+我らが手銃に用いる火薬の材料のひとつ……。
+その他の材料は秘密だ……恥ずかしいからな……。","","False","0x00000035","",""

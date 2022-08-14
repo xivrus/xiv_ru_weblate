@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSA805_00789_SEQ_00<tab>Godwin of the Wood Wailers has a report that requires urgent delivery.","TEXT_GAIUSA805_00789_SEQ_00<tab>フォールゴウドの鬼哭隊の隊士ゴッドウィンは、冒険者に届けてほしいものがあるようだ。","","False","0x00000000","",""
 "","TEXT_GAIUSA805_00789_SEQ_01<tab>Godwin has entrusted you with a classified report on recent happenings in the vicinity of Fallgourd Float. Deliver it to Vortefaurt of the Twin Adder with due haste.","TEXT_GAIUSA805_00789_SEQ_01<tab>フォールゴウド西のフロランテル監視哨にいる「ヴォルトゥフォール少牙士」に「<var 28 ((EventItem)) F61E86EB01 /var>」を渡そう。","","False","0x00000001","",""
 "","TEXT_GAIUSA805_00789_SEQ_02<tab>Godwin's report relayed sightings of a masked man that have stirred alarm in Fallgourd Float. Might the menacing figure described be an Ascian?","TEXT_GAIUSA805_00789_SEQ_02<tab><var 28 ((EventItem)) F61E86EB01 /var>には、フォールゴウド付近の治安状況が記されていたようだ。しかし、目撃が相次いでいるという仮面の男とは、アシエンのことなのだろうか……。","","False","0x00000002","",""
@@ -47,9 +47,20 @@
 "","TEXT_GAIUSA805_00789_TODO_21<tab>","TEXT_GAIUSA805_00789_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_GAIUSA805_00789_TODO_22<tab>","TEXT_GAIUSA805_00789_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_GAIUSA805_00789_TODO_23<tab>","TEXT_GAIUSA805_00789_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_GAIUSA805_00789_GODWIN_000_000<tab>Hail, adventurer. If you would not be averse to courier duty, I have a report that must be delivered to Florentel's Spire with all haste.","TEXT_GAIUSA805_00789_GODWIN_000_000<tab>西へ行くと「フロランテル監視哨」があるのだが、<br>そこに「双蛇党」のヴォルトゥフォール少牙士がいる。","","False","0x00000030","",""
-"","TEXT_GAIUSA805_00789_GODWIN_000_001<tab>Mind you, this information is highly classified. I trust you to deliver it directly to the hands of Serpent Lieutenant Vortefaurt─<var 1A 02 /var>without<var 1A 01 /var> sneaking a peek for yourself.","TEXT_GAIUSA805_00789_GODWIN_000_001<tab>彼に、この「<var 28 ((EventItem)) F61E86EB01 /var>」を<br>届けてくれないか？<br>鬼哭隊のゴッドウィンからだと言えば伝わるはずだ。","","False","0x00000031","",""
-"","TEXT_GAIUSA805_00789_VORTEFAURT_000_010<tab>These parts abound with particularly ferocious beasts. You'd do well to keep a wide berth, adventurer, lest I be left to clean your carcass off the forest floor.","TEXT_GAIUSA805_00789_VORTEFAURT_000_010<tab>……ん？　冒険者か。<br>危険な魔物には、近づきすぎぬように。<br>死体を片付けるのも一苦労だからな。","","False","0x00000032","",""
-"","TEXT_GAIUSA805_00789_VORTEFAURT_000_015<tab>A report from Godwin, you say? Very well, let us see... Traveling merchant waylaid by Qiqirn bandits, adventurer's hand bitten clean off by feral ziz, et cetera, et cetera... <sigh> The usual banalities.","TEXT_GAIUSA805_00789_VORTEFAURT_000_015<tab>フォールゴウド付近の治安状況について……？<br>そうか、ゴッドウィンから頼まれたのだな。<br>ジズ被害3件、キキルン族とイクサル族の被害が1件ずつ……。","","False","0x00000033","",""
-"","TEXT_GAIUSA805_00789_VORTEFAURT_000_016<tab>Hm? What's this? Sightings of a masked man...? “No casualties yet reported, but due vigilance should be exercised.”","TEXT_GAIUSA805_00789_VORTEFAURT_000_016<tab>うん？　備考欄にも記述があるな。<br>……不審な仮面の男の目撃相次ぐ、注意されたし……。<br>ふうむ、直接の被害はないようだが……不審者か。","","False","0x00000034","",""
-"","TEXT_GAIUSA805_00789_VORTEFAURT_000_017<tab>Troubling news, indeed─these parts are perilous enough without some masked marauder stirring up trouble. Thank you, friend. Rest assured that the Adder will be on the lookout for this interloper.","TEXT_GAIUSA805_00789_VORTEFAURT_000_017<tab>冒険者よ、貴重な情報を届けていただき、感謝する。<br>聞いてのとおり、周辺の治安はけっして良いとは言えない。<br>つまらぬことで死体にならぬよう、気を引き締めるのだぞ。","","False","0x00000035","",""
+"","TEXT_GAIUSA805_00789_GODWIN_000_000<tab>Hail, adventurer. If you would not be averse to courier duty, I have a report that must be delivered to Florentel's Spire with all haste.","TEXT_GAIUSA805_00789_GODWIN_000_000<tab>西へ行くと「フロランテル監視哨」があるのだが、
+そこに「双蛇党」のヴォルトゥフォール少牙士がいる。","","False","0x00000030","",""
+"","TEXT_GAIUSA805_00789_GODWIN_000_001<tab>Mind you, this information is highly classified. I trust you to deliver it directly to the hands of Serpent Lieutenant Vortefaurt─<var 1A 02 /var>without<var 1A 01 /var> sneaking a peek for yourself.","TEXT_GAIUSA805_00789_GODWIN_000_001<tab>彼に、この「<var 28 ((EventItem)) F61E86EB01 /var>」を
+届けてくれないか？
+鬼哭隊のゴッドウィンからだと言えば伝わるはずだ。","","False","0x00000031","",""
+"","TEXT_GAIUSA805_00789_VORTEFAURT_000_010<tab>These parts abound with particularly ferocious beasts. You'd do well to keep a wide berth, adventurer, lest I be left to clean your carcass off the forest floor.","TEXT_GAIUSA805_00789_VORTEFAURT_000_010<tab>……ん？　冒険者か。
+危険な魔物には、近づきすぎぬように。
+死体を片付けるのも一苦労だからな。","","False","0x00000032","",""
+"","TEXT_GAIUSA805_00789_VORTEFAURT_000_015<tab>A report from Godwin, you say? Very well, let us see... Traveling merchant waylaid by Qiqirn bandits, adventurer's hand bitten clean off by feral ziz, et cetera, et cetera... <sigh> The usual banalities.","TEXT_GAIUSA805_00789_VORTEFAURT_000_015<tab>フォールゴウド付近の治安状況について……？
+そうか、ゴッドウィンから頼まれたのだな。
+ジズ被害3件、キキルン族とイクサル族の被害が1件ずつ……。","","False","0x00000033","",""
+"","TEXT_GAIUSA805_00789_VORTEFAURT_000_016<tab>Hm? What's this? Sightings of a masked man...? “No casualties yet reported, but due vigilance should be exercised.”","TEXT_GAIUSA805_00789_VORTEFAURT_000_016<tab>うん？　備考欄にも記述があるな。
+……不審な仮面の男の目撃相次ぐ、注意されたし……。
+ふうむ、直接の被害はないようだが……不審者か。","","False","0x00000034","",""
+"","TEXT_GAIUSA805_00789_VORTEFAURT_000_017<tab>Troubling news, indeed─these parts are perilous enough without some masked marauder stirring up trouble. Thank you, friend. Rest assured that the Adder will be on the lookout for this interloper.","TEXT_GAIUSA805_00789_VORTEFAURT_000_017<tab>冒険者よ、貴重な情報を届けていただき、感謝する。
+聞いてのとおり、周辺の治安はけっして良いとは言えない。
+つまらぬことで死体にならぬよう、気を引き締めるのだぞ。","","False","0x00000035","",""

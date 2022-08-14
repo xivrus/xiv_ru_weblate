@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ021_01746_SEQ_00<tab>Redwald wants to make the next move in his investigation.","TEXT_HEAVNZ021_01746_SEQ_00<tab>レッドワルドは、次の一手を打つべく動き出そうとしている。","","False","0x00000000","",""
 "","TEXT_HEAVNZ021_01746_SEQ_01<tab>Redwald wants you to go to Auriaune and show her the bottle that contained the poisoned wine. She is in charge of logistics at Falcon's Nest and should be able to determine who would have had chance to poison the wine.","TEXT_HEAVNZ021_01746_SEQ_01<tab>レッドワルドと話した。ファルコンネストにいる「オリオーヌ」に「<var 28 ((EventItem)) F61E8B4B01 /var>」を渡そう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ021_01746_SEQ_02<tab>Auriaune realizes that the poisoned wine was in the crate of stolen supplies that you previously recovered for her. She posits that the thieves poisoned the wine under the assumption that the crate would be recovered. It has since come to light that these men were not working alone. They had accomplices who have been sighted several times at Camp Riversmeet. Go there, find these heretics, and question them.","TEXT_HEAVNZ021_01746_SEQ_02<tab>オリオーヌに<var 28 ((EventItem)) F61E8B4B01 /var>を渡した。謎の急病の原因となった毒は、奪還した物資に、異端者が仕込んでいたものだったようだ。クルザス西部高地のキャンプ・リバーズミートで異端者を探し、情報を引き出そう。","","False","0x00000002","",""
@@ -47,15 +47,37 @@
 "","TEXT_HEAVNZ021_01746_TODO_21<tab>","TEXT_HEAVNZ021_01746_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ021_01746_TODO_22<tab>","TEXT_HEAVNZ021_01746_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ021_01746_TODO_23<tab>","TEXT_HEAVNZ021_01746_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ021_01746_REDWALD_000_000<tab>We may have confirmed that poison was causing the illness that struck the fort, but there's still one thing left to do─find those responsible for this reprehensible crime and bring them to justice.","TEXT_HEAVNZ021_01746_REDWALD_000_000<tab>病の出処は掴めた。<br>となれば、次にするべきことはひとつしかない……。<br>そう、これを仕込んだ犯人を突き止めることだ。","","False","0x00000030","",""
-"","TEXT_HEAVNZ021_01746_REDWALD_000_001<tab>Auriaune is in charge of logistics here. I suspect that if you show her this bottle, she should be able to tell you where it came from.","TEXT_HEAVNZ021_01746_REDWALD_000_001<tab>ファルコンネストの物流管理は、オリオーヌに任せてある。<br>彼女に問題の酒瓶を渡し、<br>ワインの出処を調査してみてくれないだろうか？","","False","0x00000031","",""
-"","TEXT_HEAVNZ021_01746_REDWALD_000_016<tab>Show that bottle to Auriaune. She should be able to find out where it came from.","TEXT_HEAVNZ021_01746_REDWALD_000_016<tab>ファルコンネストの物流管理は、オリオーヌに任せてある。<br>彼女に先ほどの酒瓶を渡し、<br>ワインの出処を調査してみてくれないだろうか？","","False","0x00000032","",""
+"","TEXT_HEAVNZ021_01746_REDWALD_000_000<tab>We may have confirmed that poison was causing the illness that struck the fort, but there's still one thing left to do─find those responsible for this reprehensible crime and bring them to justice.","TEXT_HEAVNZ021_01746_REDWALD_000_000<tab>病の出処は掴めた。
+となれば、次にするべきことはひとつしかない……。
+そう、これを仕込んだ犯人を突き止めることだ。","","False","0x00000030","",""
+"","TEXT_HEAVNZ021_01746_REDWALD_000_001<tab>Auriaune is in charge of logistics here. I suspect that if you show her this bottle, she should be able to tell you where it came from.","TEXT_HEAVNZ021_01746_REDWALD_000_001<tab>ファルコンネストの物流管理は、オリオーヌに任せてある。
+彼女に問題の酒瓶を渡し、
+ワインの出処を調査してみてくれないだろうか？","","False","0x00000031","",""
+"","TEXT_HEAVNZ021_01746_REDWALD_000_016<tab>Show that bottle to Auriaune. She should be able to find out where it came from.","TEXT_HEAVNZ021_01746_REDWALD_000_016<tab>ファルコンネストの物流管理は、オリオーヌに任せてある。
+彼女に先ほどの酒瓶を渡し、
+ワインの出処を調査してみてくれないだろうか？","","False","0x00000032","",""
 "","TEXT_HEAVNZ021_01746_AURIAUNE_000_010<tab>Hello there. Is there something I can help you with?","TEXT_HEAVNZ021_01746_AURIAUNE_000_010<tab>おや、どうしたんだい？","","False","0x00000033","",""
-"","TEXT_HEAVNZ021_01746_AURIAUNE_000_011<tab>What? The wine that was in this bottle was the cause of the sickness plaguing the fortress!? Our records should show where this came from, who handled it, and─wait!","TEXT_HEAVNZ021_01746_AURIAUNE_000_011<tab>……なんだって！？<br>この酒瓶に入っていたワインが、近ごろの病の原因だった！？<br>待ってくれ、納品記録から調べれば……わかったぞ！","","False","0x00000034","",""
-"","TEXT_HEAVNZ021_01746_AURIAUNE_000_012<tab>The crate of supplies that you recovered for me previously─the one that had been stolen by heretics─it was full of wine. I'm almost certain that this bottle was in that crate. I'd wager that those heretics poisoned the wine, counting on us recovering it.","TEXT_HEAVNZ021_01746_AURIAUNE_000_012<tab>以前、君に奪還してもらった物資があるだろう？<br>あの木箱の中身こそ、この酒瓶のワインだったんだ。<br>異端者の奴ら、回収される前提で毒を盛っていたのか……。","","False","0x00000035","",""
-"","TEXT_HEAVNZ021_01746_AURIAUNE_000_013<tab>As a matter of fact, I've been looking into that case lately. It seems that the culprits had accomplices. They've been seen several times at Camp Riversmeet lately.","TEXT_HEAVNZ021_01746_AURIAUNE_000_013<tab>実は、先日の物資強奪犯の背後関係を洗っていたんだが、<br>さらなる仲間の存在が明らかになってきてね……。<br>キャンプ・リバーズミートで、たびたび奴らが目撃されている。","","False","0x00000036","",""
-"","TEXT_HEAVNZ021_01746_AURIAUNE_000_014<tab>I wouldn't be surprised if they're still looking for another opportunity to poison us. See if you can't press them for any information. Report to Redwald with anything you're able to find out.","TEXT_HEAVNZ021_01746_AURIAUNE_000_014<tab>もしかしたら、また毒を仕込もうと隙を覗っているのかも……。<br>異端者に、仕込んだ毒について問い詰めてくれないか？<br>事が済んだら、「レッドワルド」様に報告を頼む！","","False","0x00000037","",""
-"","TEXT_HEAVNZ021_01746_AURIAUNE_000_021<tab>Try questioning the heretics' accomplices at Camp Riversmeet. Report back to Redwald with whatever you find out.","TEXT_HEAVNZ021_01746_AURIAUNE_000_021<tab>キャンプ・リバーズミートで、たびたび異端者が目撃されている。<br>さらなる被害が出ないよう、奴らを問い詰めてくれないか？<br>事が済んだら、「レッドワルド」様に報告を頼む！","","False","0x00000038","",""
-"","TEXT_HEAVNZ021_01746_HERETIC_000_020<tab>Ahah! So you found out about the poison and came here looking for answers? Well, give up! The poison is made from dragon venom. There is no antidote. Everyone who drank it will die...and so will you!","TEXT_HEAVNZ021_01746_HERETIC_000_020<tab>……毒に気付いて、慌てて調べに来たか。<br>諦めな、あれはドラゴン族の分泌液から作った毒薬だ。<br>解毒は適わず、死が待つのみ……貴様もここで死ねぇっ！","","False","0x00000039","",""
-"","TEXT_HEAVNZ021_01746_REDWALD_000_030<tab>Greetings, <var 08 E905 ((Mistress)) ((Master)) /var> <var 2C ((<var 29 EB02 /var>)) (( )) 03 /var>. Auriaune has already apprised me of the situation. She tells me you might have information regarding the poisonings?","TEXT_HEAVNZ021_01746_REDWALD_000_030<tab>オリオーヌから話は聞いたぞ。<br>異端者に毒について聞きにいってくれたそうだが……<br>結果はどうであった？","","False","0x0000003A","",""
-"","TEXT_HEAVNZ021_01746_REDWALD_000_031<tab>I see. So it was the heretics after all. And poison made from dragon venom? This is very bad indeed. We will need to find an antidote as quickly as possible...","TEXT_HEAVNZ021_01746_REDWALD_000_031<tab>なるほど、やはり異端者の仕業であったか……！<br>ドラゴン族の分泌液から作った毒薬だったとは……。<br>……早急に治療法を検討しなければならんな。","","False","0x0000003B","",""
+"","TEXT_HEAVNZ021_01746_AURIAUNE_000_011<tab>What? The wine that was in this bottle was the cause of the sickness plaguing the fortress!? Our records should show where this came from, who handled it, and─wait!","TEXT_HEAVNZ021_01746_AURIAUNE_000_011<tab>……なんだって！？
+この酒瓶に入っていたワインが、近ごろの病の原因だった！？
+待ってくれ、納品記録から調べれば……わかったぞ！","","False","0x00000034","",""
+"","TEXT_HEAVNZ021_01746_AURIAUNE_000_012<tab>The crate of supplies that you recovered for me previously─the one that had been stolen by heretics─it was full of wine. I'm almost certain that this bottle was in that crate. I'd wager that those heretics poisoned the wine, counting on us recovering it.","TEXT_HEAVNZ021_01746_AURIAUNE_000_012<tab>以前、君に奪還してもらった物資があるだろう？
+あの木箱の中身こそ、この酒瓶のワインだったんだ。
+異端者の奴ら、回収される前提で毒を盛っていたのか……。","","False","0x00000035","",""
+"","TEXT_HEAVNZ021_01746_AURIAUNE_000_013<tab>As a matter of fact, I've been looking into that case lately. It seems that the culprits had accomplices. They've been seen several times at Camp Riversmeet lately.","TEXT_HEAVNZ021_01746_AURIAUNE_000_013<tab>実は、先日の物資強奪犯の背後関係を洗っていたんだが、
+さらなる仲間の存在が明らかになってきてね……。
+キャンプ・リバーズミートで、たびたび奴らが目撃されている。","","False","0x00000036","",""
+"","TEXT_HEAVNZ021_01746_AURIAUNE_000_014<tab>I wouldn't be surprised if they're still looking for another opportunity to poison us. See if you can't press them for any information. Report to Redwald with anything you're able to find out.","TEXT_HEAVNZ021_01746_AURIAUNE_000_014<tab>もしかしたら、また毒を仕込もうと隙を覗っているのかも……。
+異端者に、仕込んだ毒について問い詰めてくれないか？
+事が済んだら、「レッドワルド」様に報告を頼む！","","False","0x00000037","",""
+"","TEXT_HEAVNZ021_01746_AURIAUNE_000_021<tab>Try questioning the heretics' accomplices at Camp Riversmeet. Report back to Redwald with whatever you find out.","TEXT_HEAVNZ021_01746_AURIAUNE_000_021<tab>キャンプ・リバーズミートで、たびたび異端者が目撃されている。
+さらなる被害が出ないよう、奴らを問い詰めてくれないか？
+事が済んだら、「レッドワルド」様に報告を頼む！","","False","0x00000038","",""
+"","TEXT_HEAVNZ021_01746_HERETIC_000_020<tab>Ahah! So you found out about the poison and came here looking for answers? Well, give up! The poison is made from dragon venom. There is no antidote. Everyone who drank it will die...and so will you!","TEXT_HEAVNZ021_01746_HERETIC_000_020<tab>……毒に気付いて、慌てて調べに来たか。
+諦めな、あれはドラゴン族の分泌液から作った毒薬だ。
+解毒は適わず、死が待つのみ……貴様もここで死ねぇっ！","","False","0x00000039","",""
+"","TEXT_HEAVNZ021_01746_REDWALD_000_030<tab>Greetings, <var 08 E905 ((Mistress)) ((Master)) /var> <var 2C ((<var 29 EB02 /var>)) (( )) 03 /var>. Auriaune has already apprised me of the situation. She tells me you might have information regarding the poisonings?","TEXT_HEAVNZ021_01746_REDWALD_000_030<tab>オリオーヌから話は聞いたぞ。
+異端者に毒について聞きにいってくれたそうだが……
+結果はどうであった？","","False","0x0000003A","",""
+"","TEXT_HEAVNZ021_01746_REDWALD_000_031<tab>I see. So it was the heretics after all. And poison made from dragon venom? This is very bad indeed. We will need to find an antidote as quickly as possible...","TEXT_HEAVNZ021_01746_REDWALD_000_031<tab>なるほど、やはり異端者の仕業であったか……！
+ドラゴン族の分泌液から作った毒薬だったとは……。
+……早急に治療法を検討しなければならんな。","","False","0x0000003B","",""

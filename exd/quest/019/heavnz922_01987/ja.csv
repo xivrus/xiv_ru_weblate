@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ922_01987_SEQ_00<tab>The Allagan logistics node is spinning frantically.","TEXT_HEAVNZ922_01987_SEQ_00<tab>ガンマ管区の輸送システムは、静かに佇んでいる。","","False","0x00000000","",""
 "","TEXT_HEAVNZ922_01987_SEQ_01<tab>The Allagan logistics node informs you that several freight-handling units never received deactivation commands and have been operating continuously for over five thousand years. Lacking the ability to remotely deactivate these units itself, the logistics node authorizes you to do so in its stead. Find and deactivate four adamantite claws.","TEXT_HEAVNZ922_01987_SEQ_01<tab>輸送システムから、未登録の浮行型運送端末が動作しているので停止させてほしいと聞いた。ガンマ管区の「<var 28 ((BNpcName)) F20DE001 /var>」を4体討伐しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ922_01987_SEQ_02<tab>You have successfully destroyed the adamantite claws. Report your success to the logistics node.","TEXT_HEAVNZ922_01987_SEQ_02<tab><var 28 ((BNpcName)) F20DE001 /var>を破壊した。ガンマ管区の「輸送システム」に報告しよう。","","False","0x00000002","",""
@@ -47,8 +47,18 @@
 "","TEXT_HEAVNZ922_01987_TODO_21<tab>","TEXT_HEAVNZ922_01987_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ922_01987_TODO_22<tab>","TEXT_HEAVNZ922_01987_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ922_01987_TODO_23<tab>","TEXT_HEAVNZ922_01987_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_000<tab><var 09 E948 ((Hyur)) ((Elezen)) ((Lalafell)) ((Miqo'te)) ((Roegadyn)) ((Au Ra)) ((Hrothgar)) ((Viera)) /var>, please help! The freight-handling subsystem never received a deactivation command and has been running for five thousand and twelve years, eight months, and two days.","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_000<tab>ザ……ザザ……問題が発生。<br>未登録の浮行型運送端末を、複数確認しました。<br>停止命令を送ったものの、これに従う様子がありません。","","False","0x00000030","",""
-"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_001<tab>Unfortunately, I do not have direct control over that subsystem and cannot issue an override command to deactivate it. Due to the severity of the situation, I am authorizing you to deactivate the affected units. At least four adamantite claws must be deactivated.","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_001<tab>輸送を管理する本システムとしては、まことに遺憾な状況です。<br>至急、未登録のクロータイプ輸送端末を停止させてください。<br>ザザ……ひとりにつき、4体停止すれば……ザザ……。","","False","0x00000031","",""
-"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_010<tab><var 09 E948 ((Hyur)) ((Elezen)) ((Lalafell)) ((Miqo'te)) ((Roegadyn)) ((Au Ra)) ((Hrothgar)) ((Viera)) /var>, please find and deactivate four of the non-responsive adamantite claws.","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_010<tab>輸送を管理する本システムとしては、まことに遺憾な状況です。<br>至急、未登録のクロータイプ輸送端末を停止させてください。<br>ザザ……ひとりにつき、4体停止すれば……ザザ……。","","False","0x00000032","",""
-"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_020<tab><beep> <beep> Freight-handling units confirmed destroyed. <var 09 E948 ((Hyur)) ((Elezen)) ((Lalafell)) ((Miqo'te)) ((Roegadyn)) ((Au Ra)) ((Hrothgar)) ((Viera)) /var>, you were authorized to deactivate these units. You were not authorized to destroy them!","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_020<tab>ザ……ザザ……浮行型運送端末の反応消失を確認。<br>破壊活動が行われた模様です……ザザ……。<br>監視システムにより、貴方の犯行と確認されました。","","False","0x00000033","",""
-"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_021<tab>Your authorization has been revoked and your crimes have been registered with the central justice authority.","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_021<tab>当システムが要望したのは停止であり、破壊ではありません。<br>あなたの権限の剥奪を運輸部に要求します。<br>繰り返します……ザザ……。","","False","0x00000034","",""
+"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_000<tab><var 09 E948 ((Hyur)) ((Elezen)) ((Lalafell)) ((Miqo'te)) ((Roegadyn)) ((Au Ra)) ((Hrothgar)) ((Viera)) /var>, please help! The freight-handling subsystem never received a deactivation command and has been running for five thousand and twelve years, eight months, and two days.","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_000<tab>ザ……ザザ……問題が発生。
+未登録の浮行型運送端末を、複数確認しました。
+停止命令を送ったものの、これに従う様子がありません。","","False","0x00000030","",""
+"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_001<tab>Unfortunately, I do not have direct control over that subsystem and cannot issue an override command to deactivate it. Due to the severity of the situation, I am authorizing you to deactivate the affected units. At least four adamantite claws must be deactivated.","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_001<tab>輸送を管理する本システムとしては、まことに遺憾な状況です。
+至急、未登録のクロータイプ輸送端末を停止させてください。
+ザザ……ひとりにつき、4体停止すれば……ザザ……。","","False","0x00000031","",""
+"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_010<tab><var 09 E948 ((Hyur)) ((Elezen)) ((Lalafell)) ((Miqo'te)) ((Roegadyn)) ((Au Ra)) ((Hrothgar)) ((Viera)) /var>, please find and deactivate four of the non-responsive adamantite claws.","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_010<tab>輸送を管理する本システムとしては、まことに遺憾な状況です。
+至急、未登録のクロータイプ輸送端末を停止させてください。
+ザザ……ひとりにつき、4体停止すれば……ザザ……。","","False","0x00000032","",""
+"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_020<tab><beep> <beep> Freight-handling units confirmed destroyed. <var 09 E948 ((Hyur)) ((Elezen)) ((Lalafell)) ((Miqo'te)) ((Roegadyn)) ((Au Ra)) ((Hrothgar)) ((Viera)) /var>, you were authorized to deactivate these units. You were not authorized to destroy them!","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_020<tab>ザ……ザザ……浮行型運送端末の反応消失を確認。
+破壊活動が行われた模様です……ザザ……。
+監視システムにより、貴方の犯行と確認されました。","","False","0x00000033","",""
+"","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_021<tab>Your authorization has been revoked and your crimes have been registered with the central justice authority.","TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_021<tab>当システムが要望したのは停止であり、破壊ではありません。
+あなたの権限の剥奪を運輸部に要求します。
+繰り返します……ザザ……。","","False","0x00000034","",""

@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ411_01829_SEQ_00<tab>This manic moogle looks too busy to attend to his own matters.","TEXT_HEAVNZ411_01829_SEQ_00<tab>白亜の宮殿のあくせくモーグリは、忙しそうにしている。","","False","0x00000000","",""
 "","TEXT_HEAVNZ411_01829_SEQ_01<tab>The moogle on botanical duty near Zenith has asked you to deliver rich blackloam from the area to his friend in Moghome. Collect the soil from the clay pot.","TEXT_HEAVNZ411_01829_SEQ_01<tab>あくせくモーグリから、壷の中の土を運ぶよう頼まれた。白亜の宮殿で<var 28 ((EObj)) F61E9AB301 /var>から「<var 28 ((EventItem)) F61E8AE201 /var>」を入手しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ411_01829_SEQ_02<tab>You have collected the rich blackloam, and you can smell why it is so precious. Deliver it to Mogomo at Moghome.","TEXT_HEAVNZ411_01829_SEQ_02<tab><var 28 ((EventItem)) F61E8AE201 /var>を入手した。モグモグホームの「モグモモ」に「<var 28 ((EventItem)) F61E8AE201 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,15 +47,31 @@
 "","TEXT_HEAVNZ411_01829_TODO_21<tab>","TEXT_HEAVNZ411_01829_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ411_01829_TODO_22<tab>","TEXT_HEAVNZ411_01829_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ411_01829_TODO_23<tab>","TEXT_HEAVNZ411_01829_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ411_01829_SEEKERMOG01828_000_000<tab>The mean old gardener won't let us play hide-and-seek, kupo!","TEXT_HEAVNZ411_01829_SEEKERMOG01828_000_000<tab>あくせくモーグリに、かくれんぼで遊んでたことが、<br>ばれちゃったくぽ～……。","","False","0x00000030","",""
-"","TEXT_HEAVNZ411_01829_HIDINGMOGD01828_000_001<tab>The gardener told us to help clean, kupo! And we just wanted to play hide-and-seek.","TEXT_HEAVNZ411_01829_HIDINGMOGD01828_000_001<tab>あくせくモーグリに、掃除するように言われたくぽ。<br>かくれんぼしてる場合じゃなかったくぽ……。","","False","0x00000031","",""
-"","TEXT_HEAVNZ411_01829_HIDINGMOGE01828_000_002<tab>Gardening is hard, kupo... Maybe I'll just go home.","TEXT_HEAVNZ411_01829_HIDINGMOGE01828_000_002<tab>う～……疲れたくぽ～。<br>帰れると思ったのにくぽ～……。","","False","0x00000032","",""
-"","TEXT_HEAVNZ411_01829_HIDINGMOGAF01828_000_003<tab>Lugging dirt isn't nearly as fun as hide-and-seek. What a bore, kupo!","TEXT_HEAVNZ411_01829_HIDINGMOGAF01828_000_003<tab>土を運ぶのも楽じゃないくぽ……。<br>あくせくモーグリは真面目くぽ……。","","False","0x00000033","",""
-"","TEXT_HEAVNZ411_01829__BOTANISTMOG01829_000_010<tab><sigh> There's so much work to be done, and so many moogles do nothing but play! Say... You look like a serious sort. Would you deliver something to Moghome for me, kupo?","TEXT_HEAVNZ411_01829__BOTANISTMOG01829_000_010<tab>んもう！　ただでさえ忙しいのに、みんな遊んでばかりくぽ！<br>そこのヒトさん、手伝いをお願いしていいくぽ？","","False","0x00000034","",""
-"","TEXT_HEAVNZ411_01829__BOTANISTMOG01829_000_011<tab>I have a pot here filled with rich blackloam from the surrounding area. Please deliver it to my friend Mogomo in Moghome─he'll be ever so happy! ","TEXT_HEAVNZ411_01829__BOTANISTMOG01829_000_011<tab>そこの<var 28 ((EObj)) F61E9AB301 /var>に「<var 28 ((EventItem)) F61E8AE201 /var>」が入ってるくぽ。<br>それをモグモグホームの「モグモモ」に届けて、<br>喜ばせてあげてほしいくぽ！","","False","0x00000035","",""
-"","TEXT_HEAVNZ411_01829_BOTANISTMOG01829_000_020<tab>The soil from this area is richer than most you'll find in this region. Mogomo will flutter with joy when he receives it!","TEXT_HEAVNZ411_01829_BOTANISTMOG01829_000_020<tab><var 28 ((EObj)) F61E9AB301 /var>に「<var 28 ((EventItem)) F61E8AE201 /var>」が入ってるくぽ。<br>それをモグモグホームの「モグモモ」に届けて、<br>喜ばせてあげてほしいくぽ！","","False","0x00000036","",""
-"","TEXT_HEAVNZ411_01829_BOTANISTMOG01829_000_030<tab>My friend Mogomo in Moghome will be elated at the delivery─there's no soil richer!","TEXT_HEAVNZ411_01829_BOTANISTMOG01829_000_030<tab><var 28 ((EObj)) F61E9AB301 /var>に「<var 28 ((EventItem)) F61E8AE201 /var>」が入ってるくぽ。<br>それをモグモグホームの「モグモモ」に届けて、<br>喜ばせてあげてほしいくぽ！","","False","0x00000037","",""
+"","TEXT_HEAVNZ411_01829_SEEKERMOG01828_000_000<tab>The mean old gardener won't let us play hide-and-seek, kupo!","TEXT_HEAVNZ411_01829_SEEKERMOG01828_000_000<tab>あくせくモーグリに、かくれんぼで遊んでたことが、
+ばれちゃったくぽ～……。","","False","0x00000030","",""
+"","TEXT_HEAVNZ411_01829_HIDINGMOGD01828_000_001<tab>The gardener told us to help clean, kupo! And we just wanted to play hide-and-seek.","TEXT_HEAVNZ411_01829_HIDINGMOGD01828_000_001<tab>あくせくモーグリに、掃除するように言われたくぽ。
+かくれんぼしてる場合じゃなかったくぽ……。","","False","0x00000031","",""
+"","TEXT_HEAVNZ411_01829_HIDINGMOGE01828_000_002<tab>Gardening is hard, kupo... Maybe I'll just go home.","TEXT_HEAVNZ411_01829_HIDINGMOGE01828_000_002<tab>う～……疲れたくぽ～。
+帰れると思ったのにくぽ～……。","","False","0x00000032","",""
+"","TEXT_HEAVNZ411_01829_HIDINGMOGAF01828_000_003<tab>Lugging dirt isn't nearly as fun as hide-and-seek. What a bore, kupo!","TEXT_HEAVNZ411_01829_HIDINGMOGAF01828_000_003<tab>土を運ぶのも楽じゃないくぽ……。
+あくせくモーグリは真面目くぽ……。","","False","0x00000033","",""
+"","TEXT_HEAVNZ411_01829__BOTANISTMOG01829_000_010<tab><sigh> There's so much work to be done, and so many moogles do nothing but play! Say... You look like a serious sort. Would you deliver something to Moghome for me, kupo?","TEXT_HEAVNZ411_01829__BOTANISTMOG01829_000_010<tab>んもう！　ただでさえ忙しいのに、みんな遊んでばかりくぽ！
+そこのヒトさん、手伝いをお願いしていいくぽ？","","False","0x00000034","",""
+"","TEXT_HEAVNZ411_01829__BOTANISTMOG01829_000_011<tab>I have a pot here filled with rich blackloam from the surrounding area. Please deliver it to my friend Mogomo in Moghome─he'll be ever so happy! ","TEXT_HEAVNZ411_01829__BOTANISTMOG01829_000_011<tab>そこの<var 28 ((EObj)) F61E9AB301 /var>に「<var 28 ((EventItem)) F61E8AE201 /var>」が入ってるくぽ。
+それをモグモグホームの「モグモモ」に届けて、
+喜ばせてあげてほしいくぽ！","","False","0x00000035","",""
+"","TEXT_HEAVNZ411_01829_BOTANISTMOG01829_000_020<tab>The soil from this area is richer than most you'll find in this region. Mogomo will flutter with joy when he receives it!","TEXT_HEAVNZ411_01829_BOTANISTMOG01829_000_020<tab><var 28 ((EObj)) F61E9AB301 /var>に「<var 28 ((EventItem)) F61E8AE201 /var>」が入ってるくぽ。
+それをモグモグホームの「モグモモ」に届けて、
+喜ばせてあげてほしいくぽ！","","False","0x00000036","",""
+"","TEXT_HEAVNZ411_01829_BOTANISTMOG01829_000_030<tab>My friend Mogomo in Moghome will be elated at the delivery─there's no soil richer!","TEXT_HEAVNZ411_01829_BOTANISTMOG01829_000_030<tab><var 28 ((EObj)) F61E9AB301 /var>に「<var 28 ((EventItem)) F61E8AE201 /var>」が入ってるくぽ。
+それをモグモグホームの「モグモモ」に届けて、
+喜ばせてあげてほしいくぽ！","","False","0x00000037","",""
 "","TEXT_HEAVNZ411_01829_MOGOMO_000_040<tab>Oh, the adventurer is back! What do you need, kupo?","TEXT_HEAVNZ411_01829_MOGOMO_000_040<tab>モグモモに、なにかご用くぽ？","","False","0x00000038","",""
-"","TEXT_HEAVNZ411_01829_MOGOMO_000_041<tab>...Soil from Zenith!? My friend knows exactly what I like! You see, this soil is especially rich because of all the flowers in the area. It'll be perfect for my garden, kupo!","TEXT_HEAVNZ411_01829_MOGOMO_000_041<tab><var 28 ((EventItem)) F61E8AE201 /var>くぽ！？　とってもうれしいくぽ！<br>白亜の宮殿周辺は、花が残ってる貴重な土地くぽ。<br>この土は、大事に使うくぽ～！","","False","0x00000039","",""
-"","TEXT_HEAVNZ411_01829_MOGOMO_000_042<tab>So how was Zenith─majestic, as always? Us moogles are in charge of keeping it spick-and-span for Hraesvelgr.","TEXT_HEAVNZ411_01829_MOGOMO_000_042<tab>そういえば、宮殿は綺麗だったくぽ？<br>モグモモたちは、聖竜様とのお約束に従って、<br>宮殿をキレイに保つお仕事を、任されているくぽ。","","False","0x0000003A","",""
-"","TEXT_HEAVNZ411_01829_MOGOMO_000_043<tab>In return the great wyrm advises us when we run into trouble with the vicious dragons serving Nidhogg!","TEXT_HEAVNZ411_01829_MOGOMO_000_043<tab>その代わり、乱暴者のドラゴン族に襲われたときとか、<br>困ったことがあったら、聖竜様が相談に乗ってくれるくぽ！","","False","0x0000003B","",""
+"","TEXT_HEAVNZ411_01829_MOGOMO_000_041<tab>...Soil from Zenith!? My friend knows exactly what I like! You see, this soil is especially rich because of all the flowers in the area. It'll be perfect for my garden, kupo!","TEXT_HEAVNZ411_01829_MOGOMO_000_041<tab><var 28 ((EventItem)) F61E8AE201 /var>くぽ！？　とってもうれしいくぽ！
+白亜の宮殿周辺は、花が残ってる貴重な土地くぽ。
+この土は、大事に使うくぽ～！","","False","0x00000039","",""
+"","TEXT_HEAVNZ411_01829_MOGOMO_000_042<tab>So how was Zenith─majestic, as always? Us moogles are in charge of keeping it spick-and-span for Hraesvelgr.","TEXT_HEAVNZ411_01829_MOGOMO_000_042<tab>そういえば、宮殿は綺麗だったくぽ？
+モグモモたちは、聖竜様とのお約束に従って、
+宮殿をキレイに保つお仕事を、任されているくぽ。","","False","0x0000003A","",""
+"","TEXT_HEAVNZ411_01829_MOGOMO_000_043<tab>In return the great wyrm advises us when we run into trouble with the vicious dragons serving Nidhogg!","TEXT_HEAVNZ411_01829_MOGOMO_000_043<tab>その代わり、乱暴者のドラゴン族に襲われたときとか、
+困ったことがあったら、聖竜様が相談に乗ってくれるくぽ！","","False","0x0000003B","",""

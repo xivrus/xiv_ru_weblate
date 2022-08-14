@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_BANAMA204_01235_SEQ_00<tab>Narujj Boh wishes to entrust you with a tiresome─but necessary─task.","TEXT_BANAMA204_01235_SEQ_00<tab>灰の陣営のナルジ・ボーは、冒険者に頼みがあるようだ。","","False","0x00000000","",""
 "","TEXT_BANAMA204_01235_SEQ_01<tab>Though the Brotherhood of Ash strives to destroy the fiery talismans of its foe whenever they appear, it lacks the numbers to match the zealous pace of the Flamefangs. Take the sacks of ash given to you by Narujj Boh, and smother all the beacons you find within the Zanr'ak encampment. Be prepared to defend yourself against any retaliation your efforts incur.","TEXT_BANAMA204_01235_SEQ_01<tab>ナルジ・ボーの依頼を受けた。ザンラク脇本陣周辺の「<var 28 ((EObj)) F61E917B01 /var>」に「<var 28 ((EventItem)) F61E892601 /var>」を使おう。また、火を消すと「炎牙衆」の手の者が襲ってくる可能性があるらしい。現れた「<var 28 ((BNpcName)) F208FA01 /var>」を討伐しよう。","","False","0x00000001","",""
 "","TEXT_BANAMA204_01235_SEQ_02<tab>You have extinguished all the Amalj'aa beacons within the encampment. Return to the Ring of Ash and report to Narujj Boh.","TEXT_BANAMA204_01235_SEQ_02<tab><var 28 ((EObj)) F61E917B01 /var>に<var 28 ((EventItem)) F61E892601 /var>を使った。灰の陣営の「ナルジ・ボー」に報告しよう。","","False","0x00000002","",""
@@ -23,7 +23,8 @@
 "","TEXT_BANAMA204_01235_SEQ_21<tab>","TEXT_BANAMA204_01235_SEQ_21<tab>","","False","0x00000015","",""
 "","TEXT_BANAMA204_01235_SEQ_22<tab>","TEXT_BANAMA204_01235_SEQ_22<tab>","","False","0x00000016","",""
 "","TEXT_BANAMA204_01235_SEQ_23<tab>","TEXT_BANAMA204_01235_SEQ_23<tab>","","False","0x00000017","",""
-"","TEXT_BANAMA204_01235_TODO_00<tab><var 08 E3E802E804 ((Use smothering ash to extinguish Amalj'aa beacons.)) ((Use smothering ash to extinguish the last beacon, and defeat any Flamefangs that appear.)) /var>","TEXT_BANAMA204_01235_TODO_00<tab><var 08 E3E802E804 ((ザンラク脇本陣周辺の4つの<var 28 ((EObj)) F61E917B01 /var>に<var 28 ((EventItem)) F61E892601 /var>を使う)) ((4つ目の<var 28 ((EObj)) F61E917B01 /var>に<var 28 ((EventItem)) F61E892601 /var>を使い<br>炎牙衆の手先が現れれば討伐)) /var>","","False","0x00000018","",""
+"","TEXT_BANAMA204_01235_TODO_00<tab><var 08 E3E802E804 ((Use smothering ash to extinguish Amalj'aa beacons.)) ((Use smothering ash to extinguish the last beacon, and defeat any Flamefangs that appear.)) /var>","TEXT_BANAMA204_01235_TODO_00<tab><var 08 E3E802E804 ((ザンラク脇本陣周辺の4つの<var 28 ((EObj)) F61E917B01 /var>に<var 28 ((EventItem)) F61E892601 /var>を使う)) ((4つ目の<var 28 ((EObj)) F61E917B01 /var>に<var 28 ((EventItem)) F61E892601 /var>を使い
+炎牙衆の手先が現れれば討伐)) /var>","","False","0x00000018","",""
 "","TEXT_BANAMA204_01235_TODO_01<tab>Report to Narujj Boh.","TEXT_BANAMA204_01235_TODO_01<tab>ナルジ・ボーに報告","","False","0x00000019","",""
 "","TEXT_BANAMA204_01235_TODO_02<tab>","TEXT_BANAMA204_01235_TODO_02<tab>","","False","0x0000001A","",""
 "","TEXT_BANAMA204_01235_TODO_03<tab>","TEXT_BANAMA204_01235_TODO_03<tab>","","False","0x0000001B","",""
@@ -47,14 +48,29 @@
 "","TEXT_BANAMA204_01235_TODO_21<tab>","TEXT_BANAMA204_01235_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_BANAMA204_01235_TODO_22<tab>","TEXT_BANAMA204_01235_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_BANAMA204_01235_TODO_23<tab>","TEXT_BANAMA204_01235_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_BANAMA204_01235_NARUJIBOH_000_000<tab>Attend me, honored ally. Our Zahar'ak foes yet shelter the potent flames of Ifrit, and fuel their endless rites with his unholy fire.","TEXT_BANAMA204_01235_NARUJIBOH_000_000<tab>聞かれよ、強き者。<br>以前よりザハラク戦陣の者どもは、<br>焔神の吹いた炎を「聖火」と称し、儀式に用いてきた。","","False","0x00000030","",""
-"","TEXT_BANAMA204_01235_NARUJIBOH_000_001<tab>Once more do they erect blazing beacons within their camp, in a bid to forever dwell under the heat of their deity's savage blessing. How many times must we topple these foul talismans?","TEXT_BANAMA204_01235_NARUJIBOH_000_001<tab>頃来、「聖火」を灯した「<var 28 ((EObj)) F61E917B01 /var>」を、<br>陣内に乱立させ、焔神の加護を得ようと躍起らしい。<br>これまで幾度か篝火台に灯された聖火を潰してきたが……","","False","0x00000031","",""
-"","TEXT_BANAMA204_01235_NARUJIBOH_000_002<tab>We have not the numbers to prevent their constant reappearance. Thus, again, I must turn to you for aid.","TEXT_BANAMA204_01235_NARUJIBOH_000_002<tab>繰り返しの儀式に、手が足りぬのが実情。<br>お主の力、今一度借り受けたい。","","False","0x00000032","",""
-"","TEXT_BANAMA204_01235_NARUJIBOH_000_003<tab>I would have you slip inside the boundaries of the encampment with this smothering ash, and extinguish all the beacons you can find.","TEXT_BANAMA204_01235_NARUJIBOH_000_003<tab>ザンラク脇本陣に潜入し、<br>4つの「<var 28 ((EObj)) F61E917B01 /var>」を見つけ出すべし。<br>そして「<var 28 ((EventItem)) F61E892601 /var>」を用いて、火を消されたし。","","False","0x00000033","",""
-"","TEXT_BANAMA204_01235_NARUJIBOH_000_004<tab>The Flamefangs have, however, grown wary of our incursions, and posted veteran sentinels to guard against our attacks. Expect your efforts to be met with furious retaliation.","TEXT_BANAMA204_01235_NARUJIBOH_000_004<tab>「<var 28 ((EObj)) F61E917B01 /var>」は、奴らの精神的主柱なり。<br>聖火を消せば「炎牙衆」の手の者がお主を襲うはず……。<br>気をつけられよ、お主の武運を祈る。","","False","0x00000034","",""
-"","TEXT_BANAMA204_01235_NARUJIBOH_000_010<tab>As of this moment, our scouts report four beacons within the Zanr'ak encampment. Take with you the sacks of smothering ash, and put out these flames spawned of Ifrit's searing breath!","TEXT_BANAMA204_01235_NARUJIBOH_000_010<tab>ザンラク脇本陣に4カ所設置されている、<br>「<var 28 ((EObj)) F61E917B01 /var>」を探し「<var 28 ((EventItem)) F61E892601 /var>」を用いて、<br>焔神の聖火を消すべし！","","False","0x00000035","",""
-"","TEXT_BANAMA204_01235_NARUJIBOH_000_020<tab>The unholy flames of Ifrit no longer wink at us in the darkness. You have once more deprived our foe of a potent source of strength.","TEXT_BANAMA204_01235_NARUJIBOH_000_020<tab>うむ、焔神の聖火を消し去ってくれたようだな。<br>曲突徙薪。<br>かたじけないお主の助力に感謝する。","","False","0x00000036","",""
-"","TEXT_BANAMA204_01235_NARUJIBOH_000_021<tab>I wish only that your victory were more permanent─the Flamefangs will respond, doubtless with their characteristic zealotry. But the Brotherhood of Ash cannot─<var 1A 02 /var>will not<var 1A 01 /var>─be swayed from its path!","TEXT_BANAMA204_01235_NARUJIBOH_000_021<tab>……これからもこのようなことは続くはず。<br>「炎牙衆」も、より一層激しく策動することとなろう。<br>だが、我ら「灰の一党」とて負けるわけにはいかぬのだ！","","False","0x00000037","",""
+"","TEXT_BANAMA204_01235_NARUJIBOH_000_000<tab>Attend me, honored ally. Our Zahar'ak foes yet shelter the potent flames of Ifrit, and fuel their endless rites with his unholy fire.","TEXT_BANAMA204_01235_NARUJIBOH_000_000<tab>聞かれよ、強き者。
+以前よりザハラク戦陣の者どもは、
+焔神の吹いた炎を「聖火」と称し、儀式に用いてきた。","","False","0x00000030","",""
+"","TEXT_BANAMA204_01235_NARUJIBOH_000_001<tab>Once more do they erect blazing beacons within their camp, in a bid to forever dwell under the heat of their deity's savage blessing. How many times must we topple these foul talismans?","TEXT_BANAMA204_01235_NARUJIBOH_000_001<tab>頃来、「聖火」を灯した「<var 28 ((EObj)) F61E917B01 /var>」を、
+陣内に乱立させ、焔神の加護を得ようと躍起らしい。
+これまで幾度か篝火台に灯された聖火を潰してきたが……","","False","0x00000031","",""
+"","TEXT_BANAMA204_01235_NARUJIBOH_000_002<tab>We have not the numbers to prevent their constant reappearance. Thus, again, I must turn to you for aid.","TEXT_BANAMA204_01235_NARUJIBOH_000_002<tab>繰り返しの儀式に、手が足りぬのが実情。
+お主の力、今一度借り受けたい。","","False","0x00000032","",""
+"","TEXT_BANAMA204_01235_NARUJIBOH_000_003<tab>I would have you slip inside the boundaries of the encampment with this smothering ash, and extinguish all the beacons you can find.","TEXT_BANAMA204_01235_NARUJIBOH_000_003<tab>ザンラク脇本陣に潜入し、
+4つの「<var 28 ((EObj)) F61E917B01 /var>」を見つけ出すべし。
+そして「<var 28 ((EventItem)) F61E892601 /var>」を用いて、火を消されたし。","","False","0x00000033","",""
+"","TEXT_BANAMA204_01235_NARUJIBOH_000_004<tab>The Flamefangs have, however, grown wary of our incursions, and posted veteran sentinels to guard against our attacks. Expect your efforts to be met with furious retaliation.","TEXT_BANAMA204_01235_NARUJIBOH_000_004<tab>「<var 28 ((EObj)) F61E917B01 /var>」は、奴らの精神的主柱なり。
+聖火を消せば「炎牙衆」の手の者がお主を襲うはず……。
+気をつけられよ、お主の武運を祈る。","","False","0x00000034","",""
+"","TEXT_BANAMA204_01235_NARUJIBOH_000_010<tab>As of this moment, our scouts report four beacons within the Zanr'ak encampment. Take with you the sacks of smothering ash, and put out these flames spawned of Ifrit's searing breath!","TEXT_BANAMA204_01235_NARUJIBOH_000_010<tab>ザンラク脇本陣に4カ所設置されている、
+「<var 28 ((EObj)) F61E917B01 /var>」を探し「<var 28 ((EventItem)) F61E892601 /var>」を用いて、
+焔神の聖火を消すべし！","","False","0x00000035","",""
+"","TEXT_BANAMA204_01235_NARUJIBOH_000_020<tab>The unholy flames of Ifrit no longer wink at us in the darkness. You have once more deprived our foe of a potent source of strength.","TEXT_BANAMA204_01235_NARUJIBOH_000_020<tab>うむ、焔神の聖火を消し去ってくれたようだな。
+曲突徙薪。
+かたじけないお主の助力に感謝する。","","False","0x00000036","",""
+"","TEXT_BANAMA204_01235_NARUJIBOH_000_021<tab>I wish only that your victory were more permanent─the Flamefangs will respond, doubtless with their characteristic zealotry. But the Brotherhood of Ash cannot─<var 1A 02 /var>will not<var 1A 01 /var>─be swayed from its path!","TEXT_BANAMA204_01235_NARUJIBOH_000_021<tab>……これからもこのようなことは続くはず。
+「炎牙衆」も、より一層激しく策動することとなろう。
+だが、我ら「灰の一党」とて負けるわけにはいかぬのだ！","","False","0x00000037","",""
 "","TEXT_BANAMA204_01235_POP_MESSAGE<tab>You sense a hostile presence!","TEXT_BANAMA204_01235_POP_MESSAGE<tab>敵の気配を感じた！！","","False","0x00000038","",""
 "","TEXT_BANAMA204_01235_POP_MESSAGE_000_000<tab>The enemy is still about!","TEXT_BANAMA204_01235_POP_MESSAGE_000_000<tab>その行動は出現した敵を倒さないと実行できません","","False","0x00000039","",""
 "","TEXT_BANAMA204_01235_POP_BALLOON<tab>You violate the sacred flame, unbeliever!","TEXT_BANAMA204_01235_POP_BALLOON<tab>この聖火は消させん！","","False","0x0000003A","",""

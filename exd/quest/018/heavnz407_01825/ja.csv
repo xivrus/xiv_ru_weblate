@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ407_01825_SEQ_00<tab>Mogson is gazing at the adventurer with an awed expression.","TEXT_HEAVNZ407_01825_SEQ_00<tab>アサー天空廊のモグソンは、ヒトの遺跡に興味津々のようだ。","","False","0x00000000","",""
 "","TEXT_HEAVNZ407_01825_SEQ_01<tab>Mogson is astounded that something from the surface is walking amongst the Churning Mists. After recovering from his fluster, he comments that he forgot three baskets around the Four Arms. Help this connoisseur of landlord artifacts find his missing items.","TEXT_HEAVNZ407_01825_SEQ_01<tab>モグソンは<var 28 ((EventItem)) F61E8AE101 /var>を忘れてきてしまったようだ。ドラヴァニア雲海のフォーアームズで「<var 28 ((EventItem)) F61E8AE101 /var>」を3つ回収しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ407_01825_SEQ_02<tab>You have recovered the woven baskets, although their importance remains a mystery. Deliver them to Mogson.","TEXT_HEAVNZ407_01825_SEQ_02<tab><var 28 ((EventItem)) F61E8AE101 /var>を回収した。アサー天空廊の「モグソン」に「<var 28 ((EventItem)) F61E8AE101 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,9 +47,19 @@
 "","TEXT_HEAVNZ407_01825_TODO_21<tab>","TEXT_HEAVNZ407_01825_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ407_01825_TODO_22<tab>","TEXT_HEAVNZ407_01825_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ407_01825_TODO_23<tab>","TEXT_HEAVNZ407_01825_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ407_01825_MOGSON_000_000<tab>Is...is that a creature from the <var 1A 02 /var>surface<var 1A 01 /var>!? I was sure their existence was just the stuff of legends, kupo! I never thought I'd see one in the flesh...","TEXT_HEAVNZ407_01825_MOGSON_000_000<tab>ももも、もしかして、ヒトなのくぽ！？<br>はじめて見たくぽ～、伝説上の生き物じゃなかったくぽ！<br>お願いを何でもかなえてくれる、親切な生き物って聞いてるくぽ。","","False","0x00000030","",""
-"","TEXT_HEAVNZ407_01825_MOGSON_000_001<tab>...But where was I? Oh yes, I was looking for three baskets I seem to have misplaced. Mayhaps I forgot them near the Four Arms...","TEXT_HEAVNZ407_01825_MOGSON_000_001<tab>……ひとつ、お願いしてみてもいいくぽ？<br>「フォーアームズ」に「<var 28 ((EventItem)) F61E8AE101 /var>」を3つ忘れてきちゃったのくぽ！<br>モグのために、取ってきてくれるくぽ？","","False","0x00000031","",""
-"","TEXT_HEAVNZ407_01825_MOGSON_000_010<tab>Now where were those baskets? Last time I remember seeing them was when I was around the Four Arms...","TEXT_HEAVNZ407_01825_MOGSON_000_010<tab>「フォーアームズ」に「<var 28 ((EventItem)) F61E8AE101 /var>」を3つ忘れてきちゃったのくぽ！<br>モグのために、取ってきてくれるくぽ？","","False","0x00000032","",""
-"","TEXT_HEAVNZ407_01825_MOGSON_000_020<tab>Where could those baskets be, kupo? Do you have any idea?","TEXT_HEAVNZ407_01825_MOGSON_000_020<tab>「フォーアームズ」に「<var 28 ((EventItem)) F61E8AE101 /var>」を忘れてきちゃったのくぽ！<br>モグのために、取ってきてくれるくぽ？","","False","0x00000033","",""
-"","TEXT_HEAVNZ407_01825_MOGSON_000_030<tab>My baskets! Did you actually go looking for them? The legends say nothing about creatures from the surface being so kind.","TEXT_HEAVNZ407_01825_MOGSON_000_030<tab>わぁ、モグの<var 28 ((EventItem)) F61E8AE101 /var>くぽ！<br>本当に、探してきてくれるなんてびっくりくぽ！<br>感謝くぽ！　ヒトって優しいくぽ！","","False","0x00000034","",""
-"","TEXT_HEAVNZ407_01825_MOGSON_000_031<tab>Exploring the ruins of the landlords and collecting the treasures scattered about is a hobby of mine, but I never dreamt I'd actually meet someone from the surface! I could not hope to find an artifact even half as valuable as our meeting, kupo!","TEXT_HEAVNZ407_01825_MOGSON_000_031<tab>モグはこのカゴで、ヒトの遺跡にある珍しいものを集めてたくぽ。<br>でもまさか、言い伝えに聞く「ヒト」に会えるなんて、<br>珍しいものを見つけるより嬉しいくぽ！","","False","0x00000035","",""
+"","TEXT_HEAVNZ407_01825_MOGSON_000_000<tab>Is...is that a creature from the <var 1A 02 /var>surface<var 1A 01 /var>!? I was sure their existence was just the stuff of legends, kupo! I never thought I'd see one in the flesh...","TEXT_HEAVNZ407_01825_MOGSON_000_000<tab>ももも、もしかして、ヒトなのくぽ！？
+はじめて見たくぽ～、伝説上の生き物じゃなかったくぽ！
+お願いを何でもかなえてくれる、親切な生き物って聞いてるくぽ。","","False","0x00000030","",""
+"","TEXT_HEAVNZ407_01825_MOGSON_000_001<tab>...But where was I? Oh yes, I was looking for three baskets I seem to have misplaced. Mayhaps I forgot them near the Four Arms...","TEXT_HEAVNZ407_01825_MOGSON_000_001<tab>……ひとつ、お願いしてみてもいいくぽ？
+「フォーアームズ」に「<var 28 ((EventItem)) F61E8AE101 /var>」を3つ忘れてきちゃったのくぽ！
+モグのために、取ってきてくれるくぽ？","","False","0x00000031","",""
+"","TEXT_HEAVNZ407_01825_MOGSON_000_010<tab>Now where were those baskets? Last time I remember seeing them was when I was around the Four Arms...","TEXT_HEAVNZ407_01825_MOGSON_000_010<tab>「フォーアームズ」に「<var 28 ((EventItem)) F61E8AE101 /var>」を3つ忘れてきちゃったのくぽ！
+モグのために、取ってきてくれるくぽ？","","False","0x00000032","",""
+"","TEXT_HEAVNZ407_01825_MOGSON_000_020<tab>Where could those baskets be, kupo? Do you have any idea?","TEXT_HEAVNZ407_01825_MOGSON_000_020<tab>「フォーアームズ」に「<var 28 ((EventItem)) F61E8AE101 /var>」を忘れてきちゃったのくぽ！
+モグのために、取ってきてくれるくぽ？","","False","0x00000033","",""
+"","TEXT_HEAVNZ407_01825_MOGSON_000_030<tab>My baskets! Did you actually go looking for them? The legends say nothing about creatures from the surface being so kind.","TEXT_HEAVNZ407_01825_MOGSON_000_030<tab>わぁ、モグの<var 28 ((EventItem)) F61E8AE101 /var>くぽ！
+本当に、探してきてくれるなんてびっくりくぽ！
+感謝くぽ！　ヒトって優しいくぽ！","","False","0x00000034","",""
+"","TEXT_HEAVNZ407_01825_MOGSON_000_031<tab>Exploring the ruins of the landlords and collecting the treasures scattered about is a hobby of mine, but I never dreamt I'd actually meet someone from the surface! I could not hope to find an artifact even half as valuable as our meeting, kupo!","TEXT_HEAVNZ407_01825_MOGSON_000_031<tab>モグはこのカゴで、ヒトの遺跡にある珍しいものを集めてたくぽ。
+でもまさか、言い伝えに聞く「ヒト」に会えるなんて、
+珍しいものを見つけるより嬉しいくぽ！","","False","0x00000035","",""

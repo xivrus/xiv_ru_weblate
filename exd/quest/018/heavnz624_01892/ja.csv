@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ624_01892_SEQ_00<tab>Margyt wants to know where Ayleth is.","TEXT_HEAVNZ624_01892_SEQ_00<tab>聖フィネア連隊の露営地のマーギットは、アイレスの居場所が気になっている。","","False","0x00000000","",""
 "","TEXT_HEAVNZ624_01892_SEQ_01<tab>Ayleth never returned to the Convictory after you gave her the dragon fang and Margyt is getting worried. Return to Red Rim, where you last saw her, and see if she is still in the area.","TEXT_HEAVNZ624_01892_SEQ_01<tab>竜の牙を持って先に帰ったはずのアイレスが、まだ露営地に戻っていないという。マーギットと手分けして、彼女を探すことになった。クルザス西部高地のレッドリムにある「<var 28 ((EObj)) F61E9C0301 /var>」のそばで周囲を見渡し、敵が現れたら討伐しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ624_01892_SEQ_02<tab>You do not see Ayleth, but there are plenty of dragons, which you dispatch in short order. Continue looking for the missing girl.","TEXT_HEAVNZ624_01892_SEQ_02<tab>現れた<var 28 ((BNpcName)) F20FD701 /var>を討伐した。レッドリムの「<var 28 ((EObj)) F61E9CA501 /var>」のそばで、再び周囲を見渡そう。","","False","0x00000002","",""
@@ -47,11 +47,22 @@
 "","TEXT_HEAVNZ624_01892_TODO_21<tab>","TEXT_HEAVNZ624_01892_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ624_01892_TODO_22<tab>","TEXT_HEAVNZ624_01892_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ624_01892_TODO_23<tab>","TEXT_HEAVNZ624_01892_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ624_01892_MARGYT_000_000<tab>So, where is Ayleth, anyway? You said you found her, but I still haven't seen her.","TEXT_HEAVNZ624_01892_MARGYT_000_000<tab>さて、それでアイレスはどこへ行ったのかしら？<br>姿が見えないのだけど。","","False","0x00000030","",""
-"","TEXT_HEAVNZ624_01892_MARGYT_000_001<tab>Huh? She took the dragon fang and headed back here before you? Well...she never came back here. What's she playing at this time!?","TEXT_HEAVNZ624_01892_MARGYT_000_001<tab>え、<var 28 ((EventItem)) F61E8B5601 /var>を持って、先に帰った？<br>ウソ……まだ戻ってきてないわよ……！？<br>……あの娘ったら、まだ何か企んでるんじゃ！？","","False","0x00000031","",""
-"","TEXT_HEAVNZ624_01892_MARGYT_000_002<tab>Please, head back to Red Rim. It's the last place she was sighted. Maybe she's still around there somewhere. Please hurry!","TEXT_HEAVNZ624_01892_MARGYT_000_002<tab>冒険者さんは、レッドリムの「<var 28 ((EObj)) F61E9CA501 /var>」の周囲を探して！<br>敵がまだうろついてたら、倒してもらうしかないわね……。<br>私は、ほかの心当たりを回ってみるから！","","False","0x00000032","",""
-"","TEXT_HEAVNZ624_01892_MARGYT_000_011<tab>Please go back to Red Rim and see if Ayleth is still there.","TEXT_HEAVNZ624_01892_MARGYT_000_011<tab>冒険者さんは、レッドリムの「<var 28 ((EObj)) F61E9CA501 /var>」の周囲を探して！<br>敵がまだうろついてたら、倒してもらうしかないわね……。<br>私は、ほかの心当たりを回ってみるから！","","False","0x00000033","",""
-"","TEXT_HEAVNZ624_01892_SYSTEM_000_010<tab>There is no sign of Ayleth.","TEXT_HEAVNZ624_01892_SYSTEM_000_010<tab>アイレスの姿は見当たらない。<br>この周辺に、彼女はいないようだ……。","","False","0x00000034","",""
-"","TEXT_HEAVNZ624_01892_MARGYT_000_030<tab>Did you find Ayleth? Was she there!?","TEXT_HEAVNZ624_01892_MARGYT_000_030<tab>冒険者さん！<br>アイレスは見つかった！？","","False","0x00000035","",""
-"","TEXT_HEAVNZ624_01892_MARGYT_000_031<tab>No sign of her? Hmmm. I see. What in the seven hells is she thinking...?","TEXT_HEAVNZ624_01892_MARGYT_000_031<tab>そう……こっちもダメだったわ。<br>あの娘ったら、何を考えているのかしら……。","","False","0x00000036","",""
-"","TEXT_HEAVNZ624_01892_SOLDIER01892_000_032<tab>After a day on patrol, ain't nothin' better than a nice cold glass of ale─even in this weather.","TEXT_HEAVNZ624_01892_SOLDIER01892_000_032<tab>ふぅ……。<br>巡回後の一杯は格別だぜ……。","","False","0x00000037","",""
+"","TEXT_HEAVNZ624_01892_MARGYT_000_000<tab>So, where is Ayleth, anyway? You said you found her, but I still haven't seen her.","TEXT_HEAVNZ624_01892_MARGYT_000_000<tab>さて、それでアイレスはどこへ行ったのかしら？
+姿が見えないのだけど。","","False","0x00000030","",""
+"","TEXT_HEAVNZ624_01892_MARGYT_000_001<tab>Huh? She took the dragon fang and headed back here before you? Well...she never came back here. What's she playing at this time!?","TEXT_HEAVNZ624_01892_MARGYT_000_001<tab>え、<var 28 ((EventItem)) F61E8B5601 /var>を持って、先に帰った？
+ウソ……まだ戻ってきてないわよ……！？
+……あの娘ったら、まだ何か企んでるんじゃ！？","","False","0x00000031","",""
+"","TEXT_HEAVNZ624_01892_MARGYT_000_002<tab>Please, head back to Red Rim. It's the last place she was sighted. Maybe she's still around there somewhere. Please hurry!","TEXT_HEAVNZ624_01892_MARGYT_000_002<tab>冒険者さんは、レッドリムの「<var 28 ((EObj)) F61E9CA501 /var>」の周囲を探して！
+敵がまだうろついてたら、倒してもらうしかないわね……。
+私は、ほかの心当たりを回ってみるから！","","False","0x00000032","",""
+"","TEXT_HEAVNZ624_01892_MARGYT_000_011<tab>Please go back to Red Rim and see if Ayleth is still there.","TEXT_HEAVNZ624_01892_MARGYT_000_011<tab>冒険者さんは、レッドリムの「<var 28 ((EObj)) F61E9CA501 /var>」の周囲を探して！
+敵がまだうろついてたら、倒してもらうしかないわね……。
+私は、ほかの心当たりを回ってみるから！","","False","0x00000033","",""
+"","TEXT_HEAVNZ624_01892_SYSTEM_000_010<tab>There is no sign of Ayleth.","TEXT_HEAVNZ624_01892_SYSTEM_000_010<tab>アイレスの姿は見当たらない。
+この周辺に、彼女はいないようだ……。","","False","0x00000034","",""
+"","TEXT_HEAVNZ624_01892_MARGYT_000_030<tab>Did you find Ayleth? Was she there!?","TEXT_HEAVNZ624_01892_MARGYT_000_030<tab>冒険者さん！
+アイレスは見つかった！？","","False","0x00000035","",""
+"","TEXT_HEAVNZ624_01892_MARGYT_000_031<tab>No sign of her? Hmmm. I see. What in the seven hells is she thinking...?","TEXT_HEAVNZ624_01892_MARGYT_000_031<tab>そう……こっちもダメだったわ。
+あの娘ったら、何を考えているのかしら……。","","False","0x00000036","",""
+"","TEXT_HEAVNZ624_01892_SOLDIER01892_000_032<tab>After a day on patrol, ain't nothin' better than a nice cold glass of ale─even in this weather.","TEXT_HEAVNZ624_01892_SOLDIER01892_000_032<tab>ふぅ……。
+巡回後の一杯は格別だぜ……。","","False","0x00000037","",""

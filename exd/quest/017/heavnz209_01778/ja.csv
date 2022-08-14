@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ209_01778_SEQ_00<tab>Virgeaume needs someone to help him with his new trap.","TEXT_HEAVNZ209_01778_SEQ_00<tab>テイルフェザーのヴィルジョームは、人手を探しているようだ。","","False","0x00000000","",""
 "","TEXT_HEAVNZ209_01778_SEQ_01<tab>Virgeaume has designed a new chocobo trap, and needs you to obtain a key component. Take yourself to the caves to the south and look for a lampshade mushroom.","TEXT_HEAVNZ209_01778_SEQ_01<tab>ヴィルジョームに<var 28 ((EventItem)) F61E8AC701 /var>を採ってくるよう頼まれた。高地ドラヴァニアの南の洞窟に向かい、「<var 28 ((EventItem)) F61E8AC701 /var>」を入手しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ209_01778_SEQ_02<tab>You have obtained the lampshade mushroom. Deliver it to Virgeaume, who awaits you at Tailfeather.","TEXT_HEAVNZ209_01778_SEQ_02<tab><var 28 ((EventItem)) F61E8AC701 /var>を入手した。テイルフェザーの「ヴィルジョーム」に「<var 28 ((EventItem)) F61E8AC701 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,14 +47,31 @@
 "","TEXT_HEAVNZ209_01778_TODO_21<tab>","TEXT_HEAVNZ209_01778_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ209_01778_TODO_22<tab>","TEXT_HEAVNZ209_01778_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ209_01778_TODO_23<tab>","TEXT_HEAVNZ209_01778_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_000<tab>Ah, you've come at the perfect time. I've designed a new trap that's sure to snare even the cleverest of chocobos, and I need someone to help me with the final step.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_000<tab>お、あんた……いいところにきてくれた。<br>チョコボを捕まえるための新たな罠を思いついてね。<br>そこで、採ってきてほしいものがあるんだ。","","False","0x00000030","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_001<tab>Do you know the caves south of here? Rare glowing mushrooms called lampshades grow there, and they are essential to my trap. Could you fetch me one while I work on the finishing touches?","TEXT_HEAVNZ209_01778_VIRGEAUME_000_001<tab>南の洞窟に行ったことはあるか？<br>あそこに生えてる「<var 28 ((EventItem)) F61E8AC701 /var>」を採ってきてほしい。<br>俺は次の準備をしておくから、頼んだよ。","","False","0x00000031","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_010<tab>The mushrooms I need grow in the caves to the south. Please fetch me one while I see to the finishing touches on my trap.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_010<tab>南の洞窟に行ったことはあるか？<br>あそこに生えてる「<var 28 ((EventItem)) F61E8AC701 /var>」を採ってきてほしい。<br>俺は次の準備をしておくから、頼んだよ。","","False","0x00000032","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_030<tab>There you are. Do you have the mushroom?","TEXT_HEAVNZ209_01778_VIRGEAUME_000_030<tab>南の洞窟に行ったことはあるか？<br>あそこに生えてる「<var 28 ((EventItem)) F61E8AC701 /var>」を採ってきてほしい。<br>俺は次の準備をしておくから、頼んだよ。","","False","0x00000033","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_031<tab>Yes, this glow is unmistakable! Now I have but to chop it up and mix it with some gysahl greens...","TEXT_HEAVNZ209_01778_VIRGEAUME_000_031<tab>……これで間違いない。<br>ちょうど、こっちの準備もできたぞ。<br>こいつの胞子を、ギサールの野菜にまぶしてっと……。","","False","0x00000034","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_032<tab>And with that, the bait is ready! Seeing as you're already here, might I ask you for one more favor? A short distance upstream, you'll find a bed of straw. I need you to put these <var 1A 02 /var>special<var 1A 01 /var> gysahl greens on top of it.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_032<tab>よし、ついでにもうひとつ頼まれてくれるか？<br>ウィロームリバーの上流までひとっ走りして、<br>この「<var 28 ((EventItem)) F61E8AC801 /var>」を置いてきてくれ。","","False","0x00000035","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_040<tab>A short distance upstream, you'll find a bed of straw. I need you to put the <var 1A 02 /var>special<var 1A 01 /var> gysahl greens on top of it.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_040<tab>よし、ついでにもうひとつ頼まれてくれるか？<br>ウィロームリバーの上流までひとっ走りして、<br>この「<var 28 ((EventItem)) F61E8AC801 /var>」を置いてきてくれ。","","False","0x00000036","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_000<tab>Ah, you've come at the perfect time. I've designed a new trap that's sure to snare even the cleverest of chocobos, and I need someone to help me with the final step.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_000<tab>お、あんた……いいところにきてくれた。
+チョコボを捕まえるための新たな罠を思いついてね。
+そこで、採ってきてほしいものがあるんだ。","","False","0x00000030","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_001<tab>Do you know the caves south of here? Rare glowing mushrooms called lampshades grow there, and they are essential to my trap. Could you fetch me one while I work on the finishing touches?","TEXT_HEAVNZ209_01778_VIRGEAUME_000_001<tab>南の洞窟に行ったことはあるか？
+あそこに生えてる「<var 28 ((EventItem)) F61E8AC701 /var>」を採ってきてほしい。
+俺は次の準備をしておくから、頼んだよ。","","False","0x00000031","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_010<tab>The mushrooms I need grow in the caves to the south. Please fetch me one while I see to the finishing touches on my trap.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_010<tab>南の洞窟に行ったことはあるか？
+あそこに生えてる「<var 28 ((EventItem)) F61E8AC701 /var>」を採ってきてほしい。
+俺は次の準備をしておくから、頼んだよ。","","False","0x00000032","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_030<tab>There you are. Do you have the mushroom?","TEXT_HEAVNZ209_01778_VIRGEAUME_000_030<tab>南の洞窟に行ったことはあるか？
+あそこに生えてる「<var 28 ((EventItem)) F61E8AC701 /var>」を採ってきてほしい。
+俺は次の準備をしておくから、頼んだよ。","","False","0x00000033","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_031<tab>Yes, this glow is unmistakable! Now I have but to chop it up and mix it with some gysahl greens...","TEXT_HEAVNZ209_01778_VIRGEAUME_000_031<tab>……これで間違いない。
+ちょうど、こっちの準備もできたぞ。
+こいつの胞子を、ギサールの野菜にまぶしてっと……。","","False","0x00000034","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_032<tab>And with that, the bait is ready! Seeing as you're already here, might I ask you for one more favor? A short distance upstream, you'll find a bed of straw. I need you to put these <var 1A 02 /var>special<var 1A 01 /var> gysahl greens on top of it.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_032<tab>よし、ついでにもうひとつ頼まれてくれるか？
+ウィロームリバーの上流までひとっ走りして、
+この「<var 28 ((EventItem)) F61E8AC801 /var>」を置いてきてくれ。","","False","0x00000035","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_040<tab>A short distance upstream, you'll find a bed of straw. I need you to put the <var 1A 02 /var>special<var 1A 01 /var> gysahl greens on top of it.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_040<tab>よし、ついでにもうひとつ頼まれてくれるか？
+ウィロームリバーの上流までひとっ走りして、
+この「<var 28 ((EventItem)) F61E8AC801 /var>」を置いてきてくれ。","","False","0x00000036","",""
 "","TEXT_HEAVNZ209_01778_SYSTEM_000_051<tab>The gysahl greens have been placed.","TEXT_HEAVNZ209_01778_SYSTEM_000_051<tab>藁の上には<var 28 ((EventItem)) F61E8AC801 /var>が置かれている……。","","False","0x00000037","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_060<tab>...You've placed the bait? Good! Now, you're doubtless curious as to how the trap works. It is truly simple: the mushroom you brought induces drowsiness in chocobos.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_060<tab>やってきてくれたか、ありがとうよ！<br><var 28 ((EventItem)) F61E8AC701 /var>の胞子は、チョコボにはちょっとした毒でな。<br>食べると体が痺れて、動きが鈍くなるんだ。","","False","0x00000038","",""
-"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_061<tab>This will allow us to capture the birds without risk of causing them injury. Far gentler than pitfalls, wouldn't you say?","TEXT_HEAVNZ209_01778_VIRGEAUME_000_061<tab>これなら傷つけずに捕まえられるだろ？<br>落とし穴は失敗に終わったが、今度こそ成功させてやるぜ！","","False","0x00000039","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_060<tab>...You've placed the bait? Good! Now, you're doubtless curious as to how the trap works. It is truly simple: the mushroom you brought induces drowsiness in chocobos.","TEXT_HEAVNZ209_01778_VIRGEAUME_000_060<tab>やってきてくれたか、ありがとうよ！
+<var 28 ((EventItem)) F61E8AC701 /var>の胞子は、チョコボにはちょっとした毒でな。
+食べると体が痺れて、動きが鈍くなるんだ。","","False","0x00000038","",""
+"","TEXT_HEAVNZ209_01778_VIRGEAUME_000_061<tab>This will allow us to capture the birds without risk of causing them injury. Far gentler than pitfalls, wouldn't you say?","TEXT_HEAVNZ209_01778_VIRGEAUME_000_061<tab>これなら傷つけずに捕まえられるだろ？
+落とし穴は失敗に終わったが、今度こそ成功させてやるぜ！","","False","0x00000039","",""
 "","TEXT_HEAVNZ209_01778_SYSTEM_000_041<tab>This appears to be the bed of straw Virgeaume mentioned. Place the gysahl greens on top.","TEXT_HEAVNZ209_01778_SYSTEM_000_041<tab>（★未使用／削除予定★）","","False","0x0000003A","",""

@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ307_01799_SEQ_00<tab>You notice the sound of Toh Y Thrah's grumbling stomach.","TEXT_HEAVNZ307_01799_SEQ_00<tab>不浄の三塔のトー・イスラは、何やら涎を垂らしているようだ。","","False","0x00000000","",""
 "","TEXT_HEAVNZ307_01799_SEQ_01<tab>After hearing tales from his kin of miacid meat and its savory taste, Toh Y Thrah wishes to taste it for himself. However, he is not yet strong enough to hunt them without severe repercussions. Slay any miacids you come across in the wilds and obtain three chunks of their meat.","TEXT_HEAVNZ307_01799_SEQ_01<tab>トー・イスラの話を聞いた。高地ドラヴァニアのアヴァロニア・フォールンで、「<var 28 ((BNpcName)) F20DF901 /var>」を討伐し「<var 28 ((EventItem)) F61E8AD701 /var>」を3個入手しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ307_01799_SEQ_02<tab>You slay three miacids and obtain their meat. Take them to Toh Y Thrah, that he may sate both his hunger and curiosity.","TEXT_HEAVNZ307_01799_SEQ_02<tab><var 28 ((EventItem)) F61E8AD701 /var>を入手した。不浄の三塔の「トー・イスラ」に「<var 28 ((EventItem)) F61E8AD701 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,10 +47,21 @@
 "","TEXT_HEAVNZ307_01799_TODO_21<tab>","TEXT_HEAVNZ307_01799_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ307_01799_TODO_22<tab>","TEXT_HEAVNZ307_01799_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ307_01799_TODO_23<tab>","TEXT_HEAVNZ307_01799_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_000<tab>Have you ever tasted the flesh of a miacid? My brothers tell me it's a most delectable creature.","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_000<tab>ねぇねぇ、ヒトさん！<br>「<var 28 ((BNpcName)) F20DF901 /var>」って食べたことある！？<br>あいつら美味しそうだよねぇ？","","False","0x00000030","",""
-"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_001<tab>Would that I had the strength to hunt them myself. If you encounter miacids outside of the tower, could you bring me their meat?","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_001<tab>でもボク、まだあいつら狩れないから、食べたことないんだ。<br>ヒトさん、代わりに狩ってきてくれない？","","False","0x00000031","",""
-"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_002<tab>Bring three chunks of their flesh. I wish to know what they taste like.","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_002<tab>「<var 28 ((BNpcName)) F20DF901 /var>」を狩って、<br>「<var 28 ((EventItem)) F61E8AD701 /var>」を3体ぶん持ってきておくれよ！","","False","0x00000032","",""
-"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_010<tab>I have not hunted this day and I grow quite hungry. Three chunks of miacid flesh should do to fill my stomach.","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_010<tab>「<var 28 ((BNpcName)) F20DF901 /var>」を狩って、<br>「<var 28 ((EventItem)) F61E8AD701 /var>」を3体ぶん持ってきておくれよ！","","False","0x00000033","",""
-"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_020<tab>Have you seen the miacids? Do you come with their flesh?","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_020<tab>「<var 28 ((BNpcName)) F20DF901 /var>」を狩って、<br>「<var 28 ((EventItem)) F61E8AD701 /var>」を3体ぶん持ってきておくれよ！","","False","0x00000034","",""
-"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_030<tab>So this is the meat of the miacid. At last I will know why my kin hunt them so hungrily...<gulp><br>This...this is...","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_030<tab>これが「<var 28 ((EventItem)) F61E8AD701 /var>」なんだ……！<br>ありがと！　いっただきまーす！<br>ん……こ、これは……！？","","False","0x00000035","",""
-"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_031<tab>So flavorful, so tender! I look forward to the day I can gorge on this beast at my leisure.","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_031<tab>ふおおおおお！　超おいしいぃぃぃ！！<br>早く自分で狩れるようになって、いっぱい食べたいな！<br>ありがとね、ヒトさん！","","False","0x00000036","",""
+"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_000<tab>Have you ever tasted the flesh of a miacid? My brothers tell me it's a most delectable creature.","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_000<tab>ねぇねぇ、ヒトさん！
+「<var 28 ((BNpcName)) F20DF901 /var>」って食べたことある！？
+あいつら美味しそうだよねぇ？","","False","0x00000030","",""
+"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_001<tab>Would that I had the strength to hunt them myself. If you encounter miacids outside of the tower, could you bring me their meat?","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_001<tab>でもボク、まだあいつら狩れないから、食べたことないんだ。
+ヒトさん、代わりに狩ってきてくれない？","","False","0x00000031","",""
+"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_002<tab>Bring three chunks of their flesh. I wish to know what they taste like.","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_002<tab>「<var 28 ((BNpcName)) F20DF901 /var>」を狩って、
+「<var 28 ((EventItem)) F61E8AD701 /var>」を3体ぶん持ってきておくれよ！","","False","0x00000032","",""
+"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_010<tab>I have not hunted this day and I grow quite hungry. Three chunks of miacid flesh should do to fill my stomach.","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_010<tab>「<var 28 ((BNpcName)) F20DF901 /var>」を狩って、
+「<var 28 ((EventItem)) F61E8AD701 /var>」を3体ぶん持ってきておくれよ！","","False","0x00000033","",""
+"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_020<tab>Have you seen the miacids? Do you come with their flesh?","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_020<tab>「<var 28 ((BNpcName)) F20DF901 /var>」を狩って、
+「<var 28 ((EventItem)) F61E8AD701 /var>」を3体ぶん持ってきておくれよ！","","False","0x00000034","",""
+"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_030<tab>So this is the meat of the miacid. At last I will know why my kin hunt them so hungrily...<gulp>
+This...this is...","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_030<tab>これが「<var 28 ((EventItem)) F61E8AD701 /var>」なんだ……！
+ありがと！　いっただきまーす！
+ん……こ、これは……！？","","False","0x00000035","",""
+"","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_031<tab>So flavorful, so tender! I look forward to the day I can gorge on this beast at my leisure.","TEXT_HEAVNZ307_01799_TOHYTHRAH_000_031<tab>ふおおおおお！　超おいしいぃぃぃ！！
+早く自分で狩れるようになって、いっぱい食べたいな！
+ありがとね、ヒトさん！","","False","0x00000036","",""

@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSA811_00795_SEQ_00<tab>Gogolata has a confession to make.","TEXT_GAIUSA811_00795_SEQ_00<tab>ゴゴラタがウルダハに帰らないのは、理由があるようだ。","","False","0x00000000","",""
 "","TEXT_GAIUSA811_00795_SEQ_01<tab>Gogolata confesses to you the true reason he is reluctant to return to Ul'dah: his wares were stolen by Qiqirn bandits, and he will bear the full brunt of his wife's wrath if he returns without them. Gogolata suspects the thieves have taken the loot to their hideout south of Fallgourd Float. Retrieve them to spare the merchant a dire fate.","TEXT_GAIUSA811_00795_SEQ_01<tab>ゴゴラタは、商品をキキルン族に奪われてしまったらしい。フォールゴウドの南にあるキキルン野営地に行き、「<var 28 ((EventItem)) F61E86F101 /var>」を取ってきてあげよう。","","False","0x00000001","",""
 "","TEXT_GAIUSA811_00795_SEQ_02<tab>You have recovered the stolen wares. Return them to Gogolata at the Bobbing Cork.","TEXT_GAIUSA811_00795_SEQ_02<tab><var 28 ((EventItem)) F61E86F101 /var>を取り返すことができた。フォールゴウドの浮かぶコルク亭にいる「ゴゴラタ」に届けよう。","","False","0x00000002","",""
@@ -47,10 +47,21 @@
 "","TEXT_GAIUSA811_00795_TODO_21<tab>","TEXT_GAIUSA811_00795_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_GAIUSA811_00795_TODO_22<tab>","TEXT_GAIUSA811_00795_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_GAIUSA811_00795_TODO_23<tab>","TEXT_GAIUSA811_00795_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_GAIUSA811_00795_GOGOLATA_000_000<tab>In all truth, friend, I would like nothing more than to return home to Ul'dah where my loving wife awaits. That is, were it not for a small complicating matter...","TEXT_GAIUSA811_00795_GOGOLATA_000_000<tab>迎えの者にも言ったのだがね、<br>私だって、好んで宿泊しているのではないのだよ。<br>商品を盗んだ、キキルン族が悪いのだ！","","False","0x00000030","",""
-"","TEXT_GAIUSA811_00795_GOGOLATA_000_001<tab>My wares, you see, were stolen from me by the positively frightful band of Qiqirn thieves encamped to the south. Why, were I to return home empty-handed, my wife's wrath would make the Calamity look like a minor brushfire. No, I fear I have no choice but to prolong my stay...","TEXT_GAIUSA811_00795_GOGOLATA_000_001<tab>キキルン族に持ち去られた商品があれば、<br>今すぐにでもウルダハへ戻るのだが……いや、無念。<br>商品が戻ってくるまでは、ここで待つしかあるまい。","","False","0x00000031","",""
+"","TEXT_GAIUSA811_00795_GOGOLATA_000_000<tab>In all truth, friend, I would like nothing more than to return home to Ul'dah where my loving wife awaits. That is, were it not for a small complicating matter...","TEXT_GAIUSA811_00795_GOGOLATA_000_000<tab>迎えの者にも言ったのだがね、
+私だって、好んで宿泊しているのではないのだよ。
+商品を盗んだ、キキルン族が悪いのだ！","","False","0x00000030","",""
+"","TEXT_GAIUSA811_00795_GOGOLATA_000_001<tab>My wares, you see, were stolen from me by the positively frightful band of Qiqirn thieves encamped to the south. Why, were I to return home empty-handed, my wife's wrath would make the Calamity look like a minor brushfire. No, I fear I have no choice but to prolong my stay...","TEXT_GAIUSA811_00795_GOGOLATA_000_001<tab>キキルン族に持ち去られた商品があれば、
+今すぐにでもウルダハへ戻るのだが……いや、無念。
+商品が戻ってくるまでは、ここで待つしかあるまい。","","False","0x00000031","",""
 "","TEXT_GAIUSA811_00795_GOGOLATA_000_010<tab>//: retrieve goods from Qiqirn bandit","TEXT_GAIUSA811_00795_GOGOLATA_000_010<tab>キキルン野営地でゴゴラタの商売道具×1を回収","","False","0x00000032","",""
-"","TEXT_GAIUSA811_00795_GOGOLATA_000_020<tab>Oh woe, woe is me! A merchant without his wares is not worth a lump of opo<var 1F /var>opo dung! How can I ever show my face to my dearest wife again?","TEXT_GAIUSA811_00795_GOGOLATA_000_020<tab>いや、無念。<br>商品が戻ってくるまでは、ウルダハに帰れんな。","","False","0x00000033","",""
-"","TEXT_GAIUSA811_00795_GOGOLATA_000_025<tab>M-My wares! Why, wherever did you find them? The Qiqirn camp...exactly as I told you? Preposterous! Why, I didn't think you'd <var 1A 02 /var>actually<var 1A 01 /var>─er, ah!","TEXT_GAIUSA811_00795_GOGOLATA_000_025<tab>こ、これは私の商品！？　なんて余計な真似を！<br>ゴホン……いやいや、こっちの話だ。<br>……そ、そういえば、冒険者だったら知ってるだろう！","","False","0x00000034","",""
-"","TEXT_GAIUSA811_00795_GOGOLATA_000_026<tab>Ahem! That is to say, I am in your debt once again, friend! Thanks to you, I can at long last return to Ul'dah, where my loving wife awaits!","TEXT_GAIUSA811_00795_GOGOLATA_000_026<tab>以前この辺りで、多くの他殺体が発見されたことを！<br>なんでも、女ばかりが襲われたらしいが、<br>これからは男も狙われるかもしれん！","","False","0x00000035","",""
-"","TEXT_GAIUSA811_00795_GOGOLATA_000_027<tab>...Then again, there are those nasty rumors going around of late. A masked man, was it? Indeed, the roads may not yet be safe. Though it pains me so, I fear I've no recourse but to sojourn here a while longer...","TEXT_GAIUSA811_00795_GOGOLATA_000_027<tab>となれば、あと5年はこの宿で様子を見たほうがいいな。<br>事件がなければ、すぐにでもウルダハへ戻るのだがねぇ。<br>いやぁ、無念だ！！","","False","0x00000036","",""
+"","TEXT_GAIUSA811_00795_GOGOLATA_000_020<tab>Oh woe, woe is me! A merchant without his wares is not worth a lump of opo<var 1F /var>opo dung! How can I ever show my face to my dearest wife again?","TEXT_GAIUSA811_00795_GOGOLATA_000_020<tab>いや、無念。
+商品が戻ってくるまでは、ウルダハに帰れんな。","","False","0x00000033","",""
+"","TEXT_GAIUSA811_00795_GOGOLATA_000_025<tab>M-My wares! Why, wherever did you find them? The Qiqirn camp...exactly as I told you? Preposterous! Why, I didn't think you'd <var 1A 02 /var>actually<var 1A 01 /var>─er, ah!","TEXT_GAIUSA811_00795_GOGOLATA_000_025<tab>こ、これは私の商品！？　なんて余計な真似を！
+ゴホン……いやいや、こっちの話だ。
+……そ、そういえば、冒険者だったら知ってるだろう！","","False","0x00000034","",""
+"","TEXT_GAIUSA811_00795_GOGOLATA_000_026<tab>Ahem! That is to say, I am in your debt once again, friend! Thanks to you, I can at long last return to Ul'dah, where my loving wife awaits!","TEXT_GAIUSA811_00795_GOGOLATA_000_026<tab>以前この辺りで、多くの他殺体が発見されたことを！
+なんでも、女ばかりが襲われたらしいが、
+これからは男も狙われるかもしれん！","","False","0x00000035","",""
+"","TEXT_GAIUSA811_00795_GOGOLATA_000_027<tab>...Then again, there are those nasty rumors going around of late. A masked man, was it? Indeed, the roads may not yet be safe. Though it pains me so, I fear I've no recourse but to sojourn here a while longer...","TEXT_GAIUSA811_00795_GOGOLATA_000_027<tab>となれば、あと5年はこの宿で様子を見たほうがいいな。
+事件がなければ、すぐにでもウルダハへ戻るのだがねぇ。
+いやぁ、無念だ！！","","False","0x00000036","",""

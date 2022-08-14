@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSB405_00861_SEQ_00<tab>Commander Bloeidin has something on his mind.","TEXT_GAIUSB405_00861_SEQ_00<tab>キャンプ・オーバールックのブルーエイディン少甲佐は、作戦を練っているようだ。","","False","0x00000000","",""
 "","TEXT_GAIUSB405_00861_SEQ_01<tab>The kobolds plan to create an army of golems, and this cannot come to pass. It is time to fight fire with fire, or clay with clay. Go to the Floating City and seize a soulstone from a golem.","TEXT_GAIUSB405_00861_SEQ_01<tab>ブルーエイディン少甲佐は、コボルド族がゴーレムを作るのを止めたいらしい。まずはニーム浮遊遺跡付近にいる「<var 28 ((BNpcName)) F2016D01 /var>」から「<var 28 ((EventItem)) F61E871C01 /var>」を入手しよう。","","False","0x00000001","",""
 "","TEXT_GAIUSB405_00861_SEQ_02<tab>With a soulstone in your possession, it is time to set a trap at a likely spot.","TEXT_GAIUSB405_00861_SEQ_02<tab><var 28 ((EventItem)) F61E871C01 /var>を手に入れた。コボルド族をおびき寄せるため、指定地点に<var 28 ((EventItem)) F61E871C01 /var>を置こう。","","False","0x00000002","",""
@@ -47,16 +47,28 @@
 "","TEXT_GAIUSB405_00861_TODO_21<tab>","TEXT_GAIUSB405_00861_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_GAIUSB405_00861_TODO_22<tab>","TEXT_GAIUSB405_00861_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_GAIUSB405_00861_TODO_23<tab>","TEXT_GAIUSB405_00861_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_GAIUSB405_00861_BLOEIDIN_000_000<tab>Don't let the looks fool you; the kobolds make a bad enemy. They've forgotten more about smelting and alchemy than some of the lot on our side have ever known. All that matters is, the kobolds can make golems. And war's a thing that kicks down the door between <var 1A 02 /var>can<var 1A 01 /var> and <var 1A 02 /var>do<var 1A 01 /var>.","TEXT_GAIUSB405_00861_BLOEIDIN_000_000<tab>オレたちが戦ってるコボルド族ってのは、<br>やっかいなことに、冶金技術と錬金術に長けていてな。<br>ゴーレムを作り出す秘術を会得してやがるんだ。","","False","0x00000030","",""
-"","TEXT_GAIUSB405_00861_BLOEIDIN_000_001<tab>You know about the ancient golems up in the Floating City of Nym? The scouts tell me the moles are gathering material in the ruins. Once they make more golems and send 'em against us, we're as good as done.","TEXT_GAIUSB405_00861_BLOEIDIN_000_001<tab>奴らは、古代のゴーレムが徘徊してる<br>「ニーム浮遊遺跡」で秘術の材料を集めていやがる。<br>大量に作られちまったら、さすがにやっかいだ。","","False","0x00000031","",""
-"","TEXT_GAIUSB405_00861_BLOEIDIN_000_002<tab>I got no men to spare, and you're not the worst I've seen. Put a stop to their shopping trip before it starts raining golems. Here's how this water's going to run:","TEXT_GAIUSB405_00861_BLOEIDIN_000_002<tab>……お前、少しは戦えるようだな。オレに協力しろ。<br>ゴーレムが量産される前に、奴らの補給を断つんだ。<br>いいか、作戦はこうだ。","","False","0x00000032","",""
-"","TEXT_GAIUSB405_00861_BLOEIDIN_000_003<tab>You find a golem and get its soulstone. You put that on a likely spot as bait, and put an end to any kobolds that show up. ","TEXT_GAIUSB405_00861_BLOEIDIN_000_003<tab>まずは「<var 28 ((BNpcName)) F2016D01 /var>」から、秘術の材料を奪う。<br>次に、こいつを適当に設置して罠にするんだ。<br>材料集めに来ているコボルド族を発見したらブチのめせ！","","False","0x00000033","",""
-"","TEXT_GAIUSB405_00861_BLOEIDIN_000_004<tab>And here, take these bottles of water. My boys tell me they didn't like the look of the kobolds' armor, but you know alchemy─it'll wash.","TEXT_GAIUSB405_00861_BLOEIDIN_000_004<tab>それから「<var 28 ((EventItem)) F61E884001 /var>」を持っていけ。<br>材料回収役のコボルドは、錬金薬で力を強化していやがる。<br>こいつで洗い流してやんな！","","False","0x00000034","",""
+"","TEXT_GAIUSB405_00861_BLOEIDIN_000_000<tab>Don't let the looks fool you; the kobolds make a bad enemy. They've forgotten more about smelting and alchemy than some of the lot on our side have ever known. All that matters is, the kobolds can make golems. And war's a thing that kicks down the door between <var 1A 02 /var>can<var 1A 01 /var> and <var 1A 02 /var>do<var 1A 01 /var>.","TEXT_GAIUSB405_00861_BLOEIDIN_000_000<tab>オレたちが戦ってるコボルド族ってのは、
+やっかいなことに、冶金技術と錬金術に長けていてな。
+ゴーレムを作り出す秘術を会得してやがるんだ。","","False","0x00000030","",""
+"","TEXT_GAIUSB405_00861_BLOEIDIN_000_001<tab>You know about the ancient golems up in the Floating City of Nym? The scouts tell me the moles are gathering material in the ruins. Once they make more golems and send 'em against us, we're as good as done.","TEXT_GAIUSB405_00861_BLOEIDIN_000_001<tab>奴らは、古代のゴーレムが徘徊してる
+「ニーム浮遊遺跡」で秘術の材料を集めていやがる。
+大量に作られちまったら、さすがにやっかいだ。","","False","0x00000031","",""
+"","TEXT_GAIUSB405_00861_BLOEIDIN_000_002<tab>I got no men to spare, and you're not the worst I've seen. Put a stop to their shopping trip before it starts raining golems. Here's how this water's going to run:","TEXT_GAIUSB405_00861_BLOEIDIN_000_002<tab>……お前、少しは戦えるようだな。オレに協力しろ。
+ゴーレムが量産される前に、奴らの補給を断つんだ。
+いいか、作戦はこうだ。","","False","0x00000032","",""
+"","TEXT_GAIUSB405_00861_BLOEIDIN_000_003<tab>You find a golem and get its soulstone. You put that on a likely spot as bait, and put an end to any kobolds that show up. ","TEXT_GAIUSB405_00861_BLOEIDIN_000_003<tab>まずは「<var 28 ((BNpcName)) F2016D01 /var>」から、秘術の材料を奪う。
+次に、こいつを適当に設置して罠にするんだ。
+材料集めに来ているコボルド族を発見したらブチのめせ！","","False","0x00000033","",""
+"","TEXT_GAIUSB405_00861_BLOEIDIN_000_004<tab>And here, take these bottles of water. My boys tell me they didn't like the look of the kobolds' armor, but you know alchemy─it'll wash.","TEXT_GAIUSB405_00861_BLOEIDIN_000_004<tab>それから「<var 28 ((EventItem)) F61E884001 /var>」を持っていけ。
+材料回収役のコボルドは、錬金薬で力を強化していやがる。
+こいつで洗い流してやんな！","","False","0x00000034","",""
 "","TEXT_GAIUSB405_00861_DUMMY_000_010<tab>","TEXT_GAIUSB405_00861_DUMMY_000_010<tab>ゴーレムを倒し、<var 28 ((EventItem)) F61E871C01 /var>を入手×1","","False","0x00000035","",""
 "","TEXT_GAIUSB405_00861_TODO_000_010<tab>","TEXT_GAIUSB405_00861_TODO_000_010<tab>（★未使用／削除予定★）","","False","0x00000036","",""
 "","TEXT_GAIUSB405_00861_DUMMY_000_020<tab>","TEXT_GAIUSB405_00861_DUMMY_000_020<tab>指定地点に<var 28 ((EventItem)) F61E871C01 /var>を設置","","False","0x00000037","",""
 "","TEXT_GAIUSB405_00861_TODO_000_020<tab>","TEXT_GAIUSB405_00861_TODO_000_020<tab>（★未使用／削除予定★）","","False","0x00000038","",""
 "","TEXT_GAIUSB405_00861_DUMMY_000_030<tab>","TEXT_GAIUSB405_00861_DUMMY_000_030<tab>待機地点で待つと、コボルド族がpopするのでアイテム使って倒す×1","","False","0x00000039","",""
 "","TEXT_GAIUSB405_00861_TODO_000_030<tab>","TEXT_GAIUSB405_00861_TODO_000_030<tab>（★未使用／削除予定★）","","False","0x0000003A","",""
-"","TEXT_GAIUSB405_00861_BLOEIDIN_000_040<tab>Sweetly done, adventurer. We won't have to look over our shoulder for an army of golems now. Risking little blood now saves wallows of it later.","TEXT_GAIUSB405_00861_BLOEIDIN_000_040<tab>うーっし、よくやった！　作戦成功だぜ！！<br>相手の補給を阻止するのも、有効な戦術だ。<br>これで、後の戦いが少しばかり楽になるってもんだ！","","False","0x0000003B","",""
+"","TEXT_GAIUSB405_00861_BLOEIDIN_000_040<tab>Sweetly done, adventurer. We won't have to look over our shoulder for an army of golems now. Risking little blood now saves wallows of it later.","TEXT_GAIUSB405_00861_BLOEIDIN_000_040<tab>うーっし、よくやった！　作戦成功だぜ！！
+相手の補給を阻止するのも、有効な戦術だ。
+これで、後の戦いが少しばかり楽になるってもんだ！","","False","0x0000003B","",""
 "","TEXT_GAIUSB405_00861_POP_MESSAGE_000<tab>You sense a hostile presence!","TEXT_GAIUSB405_00861_POP_MESSAGE_000<tab>敵の気配を感じた！！","","False","0x0000003C","",""

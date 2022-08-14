@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSA403_00745_SEQ_00<tab>Knolexia wishes to show you her immense gratitude.","TEXT_GAIUSA403_00745_SEQ_00<tab>シルフの仮宿にいるノレクシアは、冒険者に大変感謝しているようだ。","","False","0x00000000","",""
 "","TEXT_GAIUSA403_00745_SEQ_01<tab>Knolexia wishes to present you with a gift, but first asks that you bring her three bottles of djigga blood. Do so by using the bottles she provided you with on weakened swollen djiggas.","TEXT_GAIUSA403_00745_SEQ_01<tab>ノレクシアは冒険者に、なにかお礼がしたいらしい。「<var 28 ((BNpcName)) F2088B01 /var>」の体力を減らしてから「<var 28 ((EventItem)) F61E86D501 /var>」を使い、「<var 28 ((EventItem)) F61E86D601 /var>」を3つ、手に入れよう。","","False","0x00000001","",""
 "","TEXT_GAIUSA403_00745_SEQ_02<tab>You have procured the three bottles of djigga blood Knolexia requested. Deliver them to her at Little Solace.","TEXT_GAIUSA403_00745_SEQ_02<tab><var 28 ((EventItem)) F61E86D601 /var>を無事、手に入れることができた。シルフの仮宿へ戻り「ノレクシア」に「<var 28 ((EventItem)) F61E86D601 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,12 +47,26 @@
 "","TEXT_GAIUSA403_00745_TODO_21<tab>","TEXT_GAIUSA403_00745_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_GAIUSA403_00745_TODO_22<tab>","TEXT_GAIUSA403_00745_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_GAIUSA403_00745_TODO_23<tab>","TEXT_GAIUSA403_00745_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_GAIUSA403_00745_KNOLEXIA_000_000<tab>This one wishes to thank the adventuring one. Adventuring one saved the elder one.","TEXT_GAIUSA403_00745_KNOLEXIA_000_000<tab>あなたには、長老様を助けてもらったでふっち。<br>あたちの仲間も、いっぱいお世話になったのでふっち。<br>何か、お礼したいでふっちけど……。","","False","0x00000030","",""
-"","TEXT_GAIUSA403_00745_KNOLEXIA_000_001<tab>But this one must ask a favor first. Will adventuring one bring three bottles of fresh blood? Is morbid favor, this one knows. But must have fresh blood from vile ones known as djiggas.","TEXT_GAIUSA403_00745_KNOLEXIA_000_001<tab>ちょうなのでふっち！<br>あなた、<var 28 ((BNpcName)) F2088B01 /var>から<br>「<var 28 ((EventItem)) F61E86D601 /var>」を3つ、手に入れてくるでふっち！","","False","0x00000031","",""
-"","TEXT_GAIUSA403_00745_KNOLEXIA_000_002<tab>Here, adventuring one take blood bottles. Use on almost dead vile ones to take fresh blood. ","TEXT_GAIUSA403_00745_KNOLEXIA_000_002<tab>「<var 28 ((EventItem)) F61E86D501 /var>」をあげるのでふっち。<br><var 28 ((BNpcName)) F2088B01 /var>をペチペチちて弱らせたら、<br>これを使って「<var 28 ((EventItem)) F61E86D601 /var>」を手に入れるでふっち！","","False","0x00000032","",""
-"","TEXT_GAIUSA403_00745_TODO_000_010<tab>Obtain three vials of fresh blood from djiggas.<br>(Use the empty vial on a djigga with only 25% or less HP remaining.)","TEXT_GAIUSA403_00745_TODO_000_010<tab>チゴーを3匹討伐>「チゴーの鮮血」を入手<br>（チゴーのＨＰを４分の１以下にし、<br>イベントアイテム「ビン」を使うと入手できる）","","False","0x00000033","",""
+"","TEXT_GAIUSA403_00745_KNOLEXIA_000_000<tab>This one wishes to thank the adventuring one. Adventuring one saved the elder one.","TEXT_GAIUSA403_00745_KNOLEXIA_000_000<tab>あなたには、長老様を助けてもらったでふっち。
+あたちの仲間も、いっぱいお世話になったのでふっち。
+何か、お礼したいでふっちけど……。","","False","0x00000030","",""
+"","TEXT_GAIUSA403_00745_KNOLEXIA_000_001<tab>But this one must ask a favor first. Will adventuring one bring three bottles of fresh blood? Is morbid favor, this one knows. But must have fresh blood from vile ones known as djiggas.","TEXT_GAIUSA403_00745_KNOLEXIA_000_001<tab>ちょうなのでふっち！
+あなた、<var 28 ((BNpcName)) F2088B01 /var>から
+「<var 28 ((EventItem)) F61E86D601 /var>」を3つ、手に入れてくるでふっち！","","False","0x00000031","",""
+"","TEXT_GAIUSA403_00745_KNOLEXIA_000_002<tab>Here, adventuring one take blood bottles. Use on almost dead vile ones to take fresh blood. ","TEXT_GAIUSA403_00745_KNOLEXIA_000_002<tab>「<var 28 ((EventItem)) F61E86D501 /var>」をあげるのでふっち。
+<var 28 ((BNpcName)) F2088B01 /var>をペチペチちて弱らせたら、
+これを使って「<var 28 ((EventItem)) F61E86D601 /var>」を手に入れるでふっち！","","False","0x00000032","",""
+"","TEXT_GAIUSA403_00745_TODO_000_010<tab>Obtain three vials of fresh blood from djiggas.
+(Use the empty vial on a djigga with only 25% or less HP remaining.)","TEXT_GAIUSA403_00745_TODO_000_010<tab>チゴーを3匹討伐>「チゴーの鮮血」を入手
+（チゴーのＨＰを４分の１以下にし、
+イベントアイテム「ビン」を使うと入手できる）","","False","0x00000033","",""
 "","TEXT_GAIUSA403_00745_KNOLEXIA_000_020<tab>Did adventuring one bring blood from vile ones?","TEXT_GAIUSA403_00745_KNOLEXIA_000_020<tab><var 28 ((BNpcName)) F2088B01 /var>、ペチペチちてきたでふっち？","","False","0x00000034","",""
-"","TEXT_GAIUSA403_00745_KNOLEXIA_000_021<tab>This goes here, and that there... Then stitch like this... Then put that together...","TEXT_GAIUSA403_00745_KNOLEXIA_000_021<tab>……えっと、これをこうちて……<br>糸と一緒に……組みあわちて……。","","False","0x00000035","",""
-"","TEXT_GAIUSA403_00745_KNOLEXIA_000_022<tab>Done! This one has made a garment for adventuring one.","TEXT_GAIUSA403_00745_KNOLEXIA_000_022<tab>できたのでふっち！<br>あたち特製のお守りのお洋服なのでふっち～！","","False","0x00000036","",""
-"","TEXT_GAIUSA403_00745_KNOLEXIA_000_023<tab>Is enchanted garment. Will protect adventuring one from scary ones.","TEXT_GAIUSA403_00745_KNOLEXIA_000_023<tab>あなた、冒険者でふっち？<br>このお守りを身に着けてれば、<br>怖いの怖いの飛んでくのでふっち！","","False","0x00000037","",""
-"","TEXT_GAIUSA403_00745_KNOLEXIA_000_024<tab>And is token of this one's thanks. These ones owe adventuring one many, many thanks.","TEXT_GAIUSA403_00745_KNOLEXIA_000_024<tab>感謝の気持ち、いっぱい込めたのでふっち。<br>ぜひ、受け取ってほちいでふっち！","","False","0x00000038","",""
+"","TEXT_GAIUSA403_00745_KNOLEXIA_000_021<tab>This goes here, and that there... Then stitch like this... Then put that together...","TEXT_GAIUSA403_00745_KNOLEXIA_000_021<tab>……えっと、これをこうちて……
+糸と一緒に……組みあわちて……。","","False","0x00000035","",""
+"","TEXT_GAIUSA403_00745_KNOLEXIA_000_022<tab>Done! This one has made a garment for adventuring one.","TEXT_GAIUSA403_00745_KNOLEXIA_000_022<tab>できたのでふっち！
+あたち特製のお守りのお洋服なのでふっち～！","","False","0x00000036","",""
+"","TEXT_GAIUSA403_00745_KNOLEXIA_000_023<tab>Is enchanted garment. Will protect adventuring one from scary ones.","TEXT_GAIUSA403_00745_KNOLEXIA_000_023<tab>あなた、冒険者でふっち？
+このお守りを身に着けてれば、
+怖いの怖いの飛んでくのでふっち！","","False","0x00000037","",""
+"","TEXT_GAIUSA403_00745_KNOLEXIA_000_024<tab>And is token of this one's thanks. These ones owe adventuring one many, many thanks.","TEXT_GAIUSA403_00745_KNOLEXIA_000_024<tab>感謝の気持ち、いっぱい込めたのでふっち。
+ぜひ、受け取ってほちいでふっち！","","False","0x00000038","",""

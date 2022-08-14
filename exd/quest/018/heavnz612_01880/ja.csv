@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ612_01880_SEQ_00<tab>Maenne's wounds seem to have healed somewhat.","TEXT_HEAVNZ612_01880_SEQ_00<tab>飛竜泊のマエヌは、冒険者に未知の怪物の正体を調べてほしいようだ。","","False","0x00000000","",""
 "","TEXT_HEAVNZ612_01880_SEQ_01<tab>Maenne informs you that she was attacked suddenly while investigating the lower layer of the Rookery by a type of dragon she has never seen before. She worries that leaving the beast be will only result in more injured dragoons, and bids you slay it before any more come to harm. She also asks that you bring something from that battle that might help identify the true nature of such a dragon. Make your way to the lower layer of the Rookery and slay the dragon if you find it.","TEXT_HEAVNZ612_01880_SEQ_01<tab>マエヌは、飛竜泊の下層で、見たこともない怪物に襲われたという。ドラヴァニア雲海の飛竜泊の下層で未知の怪物を討伐し、その一部を入手しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ612_01880_SEQ_02<tab>You encounter the enormous dragon and slay it after a violent struggle, recovering a piece of ancient and rusty armor from its corpse. Give the armor to Maenne to see if she can glean any knowledge from it.","TEXT_HEAVNZ612_01880_SEQ_02<tab><var 28 ((BNpcName)) F210C701 /var>を討伐し、<var 28 ((EventItem)) F61E8B1401 /var>を入手した。飛竜泊の「マエヌ」に「<var 28 ((EventItem)) F61E8B1401 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,13 +47,27 @@
 "","TEXT_HEAVNZ612_01880_TODO_21<tab>","TEXT_HEAVNZ612_01880_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ612_01880_TODO_22<tab>","TEXT_HEAVNZ612_01880_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ612_01880_TODO_23<tab>","TEXT_HEAVNZ612_01880_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ612_01880_AIRPORTINVESTIGATOR01871_000_000<tab>Maenne said she had never seen such a dragon before... If only I had been there, mayhap she would not have come to harm...","TEXT_HEAVNZ612_01880_AIRPORTINVESTIGATOR01871_000_000<tab>見たこともない怪物……。<br>私が遭遇していたら、怪我どころではすまなかったでしょう。","","False","0x00000030","",""
-"","TEXT_HEAVNZ612_01880_MAENNE_000_000<tab><var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>, the potion is doing its work, and before long I'll be fully recovered. I was investigating the lower layer of the Rookery, when a hulking shadow blotted my vision...","TEXT_HEAVNZ612_01880_MAENNE_000_000<tab>ふぅ……なんとか錬金薬が効いてきたようだ……。<br>ここ「飛竜泊」の下層を調べようと、立ち入ったのだが、<br>巨大な影に不意を突かれてな……。","","False","0x00000031","",""
-"","TEXT_HEAVNZ612_01880_MAENNE_000_001<tab>I managed to fight the beast off and escape, but I fear it still stalks this place. 'Twould be a grievous error to let it live─more dragoons could come to harm. I would ask you to slay the beast for us.","TEXT_HEAVNZ612_01880_MAENNE_000_001<tab>どうにか応戦して脱出したものの、仕留められなかった。<br>ヤツを放置すれば、部下に被害が出る可能性は高い。<br>ぜひ<var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>殿に、始末してもらいたい。","","False","0x00000032","",""
-"","TEXT_HEAVNZ612_01880_MAENNE_000_002<tab>Once the deed is done, bring something from the beast... Anything that would aid in identifying the true nature of the dragon.","TEXT_HEAVNZ612_01880_MAENNE_000_002<tab>怪物を倒したら、その一部を持って帰ってきてくれないか？<br>ヤツの正体を確かめておきたいのだ……。","","False","0x00000033","",""
-"","TEXT_HEAVNZ612_01880_MAENNE_000_005<tab>I would try and ascertain the true nature of the dragon that attacked me. Pray bring me something that could help me do so.","TEXT_HEAVNZ612_01880_MAENNE_000_005<tab>怪物を倒したら、その一部を持って帰ってきてくれないか？<br>ヤツの正体を確かめておきたいのだ……。","","False","0x00000034","",""
+"","TEXT_HEAVNZ612_01880_AIRPORTINVESTIGATOR01871_000_000<tab>Maenne said she had never seen such a dragon before... If only I had been there, mayhap she would not have come to harm...","TEXT_HEAVNZ612_01880_AIRPORTINVESTIGATOR01871_000_000<tab>見たこともない怪物……。
+私が遭遇していたら、怪我どころではすまなかったでしょう。","","False","0x00000030","",""
+"","TEXT_HEAVNZ612_01880_MAENNE_000_000<tab><var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>, the potion is doing its work, and before long I'll be fully recovered. I was investigating the lower layer of the Rookery, when a hulking shadow blotted my vision...","TEXT_HEAVNZ612_01880_MAENNE_000_000<tab>ふぅ……なんとか錬金薬が効いてきたようだ……。
+ここ「飛竜泊」の下層を調べようと、立ち入ったのだが、
+巨大な影に不意を突かれてな……。","","False","0x00000031","",""
+"","TEXT_HEAVNZ612_01880_MAENNE_000_001<tab>I managed to fight the beast off and escape, but I fear it still stalks this place. 'Twould be a grievous error to let it live─more dragoons could come to harm. I would ask you to slay the beast for us.","TEXT_HEAVNZ612_01880_MAENNE_000_001<tab>どうにか応戦して脱出したものの、仕留められなかった。
+ヤツを放置すれば、部下に被害が出る可能性は高い。
+ぜひ<var 2C ((<var 29 EB02 /var>)) (( )) 02 /var>殿に、始末してもらいたい。","","False","0x00000032","",""
+"","TEXT_HEAVNZ612_01880_MAENNE_000_002<tab>Once the deed is done, bring something from the beast... Anything that would aid in identifying the true nature of the dragon.","TEXT_HEAVNZ612_01880_MAENNE_000_002<tab>怪物を倒したら、その一部を持って帰ってきてくれないか？
+ヤツの正体を確かめておきたいのだ……。","","False","0x00000033","",""
+"","TEXT_HEAVNZ612_01880_MAENNE_000_005<tab>I would try and ascertain the true nature of the dragon that attacked me. Pray bring me something that could help me do so.","TEXT_HEAVNZ612_01880_MAENNE_000_005<tab>怪物を倒したら、その一部を持って帰ってきてくれないか？
+ヤツの正体を確かめておきたいのだ……。","","False","0x00000034","",""
 "","TEXT_HEAVNZ612_01880_MAENNE_000_010<tab>I cannot in good conscience let our dragoons scout the area while that beast still lives. Were you able to track it down?","TEXT_HEAVNZ612_01880_MAENNE_000_010<tab>どうだ、怪物を始末できたか……？","","False","0x00000035","",""
-"","TEXT_HEAVNZ612_01880_MAENNE_000_011<tab>You pulled <var 1A 02 /var>this<var 1A 01 /var> from the beast's corpse? Hmmm...this armor dates back to before any of us were born, but there can be no mistake─it was forged in Ishgard!","TEXT_HEAVNZ612_01880_MAENNE_000_011<tab>……この金属片が、ヤツの身体から？<br>こ……これは……かなり古い年代のものだが、<br>確かにイシュガルド様式の甲冑の一部だ！","","False","0x00000036","",""
-"","TEXT_HEAVNZ612_01880_MAENNE_000_012<tab>This must mean that dragon was once a heretic, and drank of the dragon blood until he...","TEXT_HEAVNZ612_01880_MAENNE_000_012<tab>そうか……。<br>あの怪物の正体は、異端者の成れの果てということか。<br>竜の血を飲み、あのような姿に……。","","False","0x00000037","",""
-"","TEXT_HEAVNZ612_01880_MAENNE_000_013<tab>The gilding on the armor indicates it's hundreds of years old... What would drive a man to choose to become...<var 1A 02 /var>that<var 1A 01 /var>? To a heretic, does such a transformation indicate transcendence?","TEXT_HEAVNZ612_01880_MAENNE_000_013<tab>甲冑の様式から見て、数百年以上は前の人物だろう。<br>彼はなぜ怪物となることを選んだのだろうか。<br>異形として最期を遂げることが、本懐だったとでも？","","False","0x00000038","",""
-"","TEXT_HEAVNZ612_01880_MAENNE_000_014<tab>Mayhap 'tis not for me to understand the mind of a heretic. Nevertheless, we owe you our thanks for ridding us of that abomination.","TEXT_HEAVNZ612_01880_MAENNE_000_014<tab>……わからない、私にはわからないよ。<br>ともかく、討伐してくれて助かった、ありがとう。","","False","0x00000039","",""
+"","TEXT_HEAVNZ612_01880_MAENNE_000_011<tab>You pulled <var 1A 02 /var>this<var 1A 01 /var> from the beast's corpse? Hmmm...this armor dates back to before any of us were born, but there can be no mistake─it was forged in Ishgard!","TEXT_HEAVNZ612_01880_MAENNE_000_011<tab>……この金属片が、ヤツの身体から？
+こ……これは……かなり古い年代のものだが、
+確かにイシュガルド様式の甲冑の一部だ！","","False","0x00000036","",""
+"","TEXT_HEAVNZ612_01880_MAENNE_000_012<tab>This must mean that dragon was once a heretic, and drank of the dragon blood until he...","TEXT_HEAVNZ612_01880_MAENNE_000_012<tab>そうか……。
+あの怪物の正体は、異端者の成れの果てということか。
+竜の血を飲み、あのような姿に……。","","False","0x00000037","",""
+"","TEXT_HEAVNZ612_01880_MAENNE_000_013<tab>The gilding on the armor indicates it's hundreds of years old... What would drive a man to choose to become...<var 1A 02 /var>that<var 1A 01 /var>? To a heretic, does such a transformation indicate transcendence?","TEXT_HEAVNZ612_01880_MAENNE_000_013<tab>甲冑の様式から見て、数百年以上は前の人物だろう。
+彼はなぜ怪物となることを選んだのだろうか。
+異形として最期を遂げることが、本懐だったとでも？","","False","0x00000038","",""
+"","TEXT_HEAVNZ612_01880_MAENNE_000_014<tab>Mayhap 'tis not for me to understand the mind of a heretic. Nevertheless, we owe you our thanks for ridding us of that abomination.","TEXT_HEAVNZ612_01880_MAENNE_000_014<tab>……わからない、私にはわからないよ。
+ともかく、討伐してくれて助かった、ありがとう。","","False","0x00000039","",""

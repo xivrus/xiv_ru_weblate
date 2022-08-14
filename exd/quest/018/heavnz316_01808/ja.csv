@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ316_01808_SEQ_00<tab>The Vath fleetfoot stares at the ground, a look of concern clear upon his face.","TEXT_HEAVNZ316_01808_SEQ_00<tab>ヴァスの塚のイダテンは、困ったように地面を見つめている。","","False","0x00000000","",""
 "","TEXT_HEAVNZ316_01808_SEQ_01<tab>Vath scouts have told the Vath fleetfoot that the Gnath are gathering supplies in the Smoldering Wastes, creating a staging area from which to attack Loth ast Vath. In an attempt to forestall these attacks, he provisions you with a flint stone, asking you to find the supplies and destroy them.","TEXT_HEAVNZ316_01808_SEQ_01<tab>イダテンに<var 28 ((EObj)) F61E9AA301 /var>を焼き払うよう頼まれた。高地ドラヴァニアのスモーキングウェイストにある「<var 28 ((EObj)) F61E9AA301 /var>」に「<var 28 ((EventItem)) F61E8ADC01 /var>」を使い、3つ燃やそう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ316_01808_SEQ_02<tab>You find the war equipment and set it ablaze. Report to the fleetfoot with news of your success.","TEXT_HEAVNZ316_01808_SEQ_02<tab><var 28 ((EObj)) F61E9AA301 /var>を燃やした。ヴァスの塚の「イダテン」に報告しよう。","","False","0x00000002","",""
@@ -47,11 +47,21 @@
 "","TEXT_HEAVNZ316_01808_TODO_21<tab>","TEXT_HEAVNZ316_01808_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ316_01808_TODO_22<tab>","TEXT_HEAVNZ316_01808_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ316_01808_TODO_23<tab>","TEXT_HEAVNZ316_01808_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ316_01808_IDATEN_000_000<tab>We recently heard back from one of our scouts. The Gnath are gathering supplies in the Smoldering Wastes, intending to launch incursions against us from there. This creates a hazardous situation for us. We need your help, hunter.","TEXT_HEAVNZ316_01808_IDATEN_000_000<tab>シシシシシ……先ほど斥候からの報告で、<br>「繋がりし者たち」が、物資を集積していることがわかった。<br>……前哨地を築き、こちらに攻め入るつもりのようだ。","","False","0x00000030","",""
-"","TEXT_HEAVNZ316_01808_IDATEN_000_001<tab>Take this flint stone and locate their supply wagons, somewhere between here and the Gnath hive. Set them alight. Reduce their supplies to ashes. This is no easy task, but you have proven yourself capable.","TEXT_HEAVNZ316_01808_IDATEN_000_001<tab>「スモーキングウェイスト」に置かれた「<var 28 ((EObj)) F61E9AA301 /var>」を、<br>この「<var 28 ((EventItem)) F61E8ADC01 /var>」を使って、焼き払ってくれまいか？<br>危険な役目だが頼むぞ、狩人よ……シシシシシ。","","False","0x00000031","",""
-"","TEXT_HEAVNZ316_01808_IDATEN_000_010<tab>Find the Gnath supply wagons in the Smoldering Wastes and burn them to ashes.","TEXT_HEAVNZ316_01808_IDATEN_000_010<tab>「スモーキングウェイスト」に置かれた「<var 28 ((EObj)) F61E9AA301 /var>」を、<br>この「<var 28 ((EventItem)) F61E8ADC01 /var>」を使って、焼き払ってくれまいか？<br>危険な役目だが頼むぞ、狩人よ……シシシシシ。","","False","0x00000032","",""
-"","TEXT_HEAVNZ316_01808_IDATEN_000_030<tab>You do not disappoint, hunter. We are glad to see that you have returned unharmed.","TEXT_HEAVNZ316_01808_IDATEN_000_030<tab>シシシシシ……期待していたとおりだ、狩人よ。<br>何度礼を言っても足りない。<br>無事に帰ってきたことに安心している。","","False","0x00000033","",""
-"","TEXT_HEAVNZ316_01808_IDATEN_000_031<tab>We cannot thank you enough. With this staging point destroyed, we should be safe from attacks for some time. We should use this opportunity to strengthen our defenses.","TEXT_HEAVNZ316_01808_IDATEN_000_031<tab>物資を焼き払われたとなれば、<br>「繋がりし者たち」も慎重にならざるを得ないだろう。<br>これからは、さらに警戒を強めるつもりだ……シシシシシ。","","False","0x00000034","",""
+"","TEXT_HEAVNZ316_01808_IDATEN_000_000<tab>We recently heard back from one of our scouts. The Gnath are gathering supplies in the Smoldering Wastes, intending to launch incursions against us from there. This creates a hazardous situation for us. We need your help, hunter.","TEXT_HEAVNZ316_01808_IDATEN_000_000<tab>シシシシシ……先ほど斥候からの報告で、
+「繋がりし者たち」が、物資を集積していることがわかった。
+……前哨地を築き、こちらに攻め入るつもりのようだ。","","False","0x00000030","",""
+"","TEXT_HEAVNZ316_01808_IDATEN_000_001<tab>Take this flint stone and locate their supply wagons, somewhere between here and the Gnath hive. Set them alight. Reduce their supplies to ashes. This is no easy task, but you have proven yourself capable.","TEXT_HEAVNZ316_01808_IDATEN_000_001<tab>「スモーキングウェイスト」に置かれた「<var 28 ((EObj)) F61E9AA301 /var>」を、
+この「<var 28 ((EventItem)) F61E8ADC01 /var>」を使って、焼き払ってくれまいか？
+危険な役目だが頼むぞ、狩人よ……シシシシシ。","","False","0x00000031","",""
+"","TEXT_HEAVNZ316_01808_IDATEN_000_010<tab>Find the Gnath supply wagons in the Smoldering Wastes and burn them to ashes.","TEXT_HEAVNZ316_01808_IDATEN_000_010<tab>「スモーキングウェイスト」に置かれた「<var 28 ((EObj)) F61E9AA301 /var>」を、
+この「<var 28 ((EventItem)) F61E8ADC01 /var>」を使って、焼き払ってくれまいか？
+危険な役目だが頼むぞ、狩人よ……シシシシシ。","","False","0x00000032","",""
+"","TEXT_HEAVNZ316_01808_IDATEN_000_030<tab>You do not disappoint, hunter. We are glad to see that you have returned unharmed.","TEXT_HEAVNZ316_01808_IDATEN_000_030<tab>シシシシシ……期待していたとおりだ、狩人よ。
+何度礼を言っても足りない。
+無事に帰ってきたことに安心している。","","False","0x00000033","",""
+"","TEXT_HEAVNZ316_01808_IDATEN_000_031<tab>We cannot thank you enough. With this staging point destroyed, we should be safe from attacks for some time. We should use this opportunity to strengthen our defenses.","TEXT_HEAVNZ316_01808_IDATEN_000_031<tab>物資を焼き払われたとなれば、
+「繋がりし者たち」も慎重にならざるを得ないだろう。
+これからは、さらに警戒を強めるつもりだ……シシシシシ。","","False","0x00000034","",""
 "","TEXT_HEAVNZ316_01808_SYSTEM_000_011<tab>","TEXT_HEAVNZ316_01808_SYSTEM_000_011<tab>（★未使用／削除予定★）","","False","0x00000035","",""
 "","TEXT_HEAVNZ316_01808_SYSTEM_000_012<tab>","TEXT_HEAVNZ316_01808_SYSTEM_000_012<tab>（★未使用／削除予定★）","","False","0x00000036","",""
 "","TEXT_HEAVNZ316_01808_SYSTEM_000_013<tab>","TEXT_HEAVNZ316_01808_SYSTEM_000_013<tab>（★未使用／削除予定★）","","False","0x00000037","",""

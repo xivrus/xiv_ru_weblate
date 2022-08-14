@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_BANSAH309_01408_SEQ_00<tab>Seww would ask you to swim softly and carry a big stone.","TEXT_BANSAH309_01408_SEQ_00<tab>ノォヴの育成地のセェウは、冒険者に依頼したいことがあるようだ。","","False","0x00000000","",""
 "","TEXT_BANSAH309_01408_SEQ_01<tab>Seww has word that the ill-gotten cargo of the Serpent Reavers is now vulnerable on the deck of their pirate vessel. In order to prevent the pillaged goods from supplying the bloody schemes of the Coral Tridents, the spawnling asks that you set fire to the pitch-caulked chests of the tattooed thugs. Borrow an elbst from his clutchmate Pahh, and use the small flint stone to strike sparks aboard the Reavers' ship.","TEXT_BANSAH309_01408_SEQ_01<tab>セェウから、「海蛇の舌」が貯めこんでいる大量の物資を焼き払うように頼まれた。洋上の海賊船に乗りこみ、4つの「<var 28 ((EObj)) F61E943001 /var>」に「<var 28 ((EventItem)) F61E898C01 /var>」を使い、火をつけよう。洋上の海賊船へ行くためのエルブストは、ノォヴの育成地の「海獣使いのパァア」が手配してくれるそうだ。","","False","0x00000001","",""
 "","TEXT_BANSAH309_01408_SEQ_02<tab>You have ignited the plundered cargo of the Serpent Reavers. Return to Novv's Nursery and report to Seww.","TEXT_BANSAH309_01408_SEQ_02<tab><var 28 ((EObj)) F61E943001 /var>を焼き払った。ノォヴの育成地の「セェウ」に報告しよう。","","False","0x00000002","",""
@@ -47,15 +47,28 @@
 "","TEXT_BANSAH309_01408_TODO_21<tab>","TEXT_BANSAH309_01408_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_BANSAH309_01408_TODO_22<tab>","TEXT_BANSAH309_01408_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_BANSAH309_01408_TODO_23<tab>","TEXT_BANSAH309_01408_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_BANSAH309_01408_SEWW_000_000<tab>Pshhh... It appears that the Shhherpent Reavers have dragged shhheveral chests of pillaged goods onto the deck of their shhhip. The better to examine their haul? I know not.","TEXT_BANSAH309_01408_SEWW_000_000<tab>フスィーッ……「海蛇の舌」は、自分たちの海賊船に、<br>大量の物資を貯めこんでいるらしい。<br>もちろん、略奪により得た品々だ。","","False","0x00000030","",""
-"","TEXT_BANSAH309_01408_SEWW_000_001<tab>What I do know is that thishhh plunder will directly shhhupply the war effortshhh of the Coral Tridentshhh. And that, we cannot allow.","TEXT_BANSAH309_01408_SEWW_000_001<tab>しかもそれらは、「珊瑚の銛」に流れ、<br>奴らの軍備増強に繋がっている。<br>フスィーッ……見過ごせない話だ。","","False","0x00000031","",""
-"","TEXT_BANSAH309_01408_SEWW_000_002<tab>It is fortunate, then, that they caulk their loot boxes with pitch─a highly flammable shhhubstance. One rarely has the need to fear open flames in the middle of the ocean, but, armed with a shhhimple flint shhhtone, the Reavers will shhhoon learn to fear you!<br>Have Pahh lend you a shhheabeast, and make your way to the pirates' shhhip as shhhoon as you are able.","TEXT_BANSAH309_01408_SEWW_000_002<tab>「洋上の海賊船」に乗りこんで、敵を撃退しつつ、<br>「<var 28 ((EObj)) F61E943001 /var>」を「<var 28 ((EventItem)) F61E898C01 /var>」で焼き払え！<br>海賊船には、例によってエルブストを使って向かうんだ。","","False","0x00000032","",""
-"","TEXT_BANSAH309_01408_SEWW_000_005<tab>Shhhetting fires on a shhhip will not go unnoticed, but the Reavers' plunder mushhht not reach the hands of the Tridentshhh. Take one of Pahh's elbshhht to the pirates' vessel, and make good use of that flint shhhtone!","TEXT_BANSAH309_01408_SEWW_000_005<tab>「洋上の海賊船」に乗りこんで、敵を撃退しつつ、<br>「<var 28 ((EObj)) F61E943001 /var>」を「<var 28 ((EventItem)) F61E898C01 /var>」で焼き払え！<br>海賊船には、例によってエルブストを使って向かうんだ。","","False","0x00000033","",""
-"","TEXT_BANSAH309_01408_TAMER01376_000_010<tab>Pshhh... The Reavers' shhhip? It is ssswift, but my elbssst can catch her.","TEXT_BANSAH309_01408_TAMER01376_000_010<tab>フスィーッ……洋上の海賊船に行きたいのか？<br>エルブストは、今日も元気だぜ。","","False","0x00000034","",""
+"","TEXT_BANSAH309_01408_SEWW_000_000<tab>Pshhh... It appears that the Shhherpent Reavers have dragged shhheveral chests of pillaged goods onto the deck of their shhhip. The better to examine their haul? I know not.","TEXT_BANSAH309_01408_SEWW_000_000<tab>フスィーッ……「海蛇の舌」は、自分たちの海賊船に、
+大量の物資を貯めこんでいるらしい。
+もちろん、略奪により得た品々だ。","","False","0x00000030","",""
+"","TEXT_BANSAH309_01408_SEWW_000_001<tab>What I do know is that thishhh plunder will directly shhhupply the war effortshhh of the Coral Tridentshhh. And that, we cannot allow.","TEXT_BANSAH309_01408_SEWW_000_001<tab>しかもそれらは、「珊瑚の銛」に流れ、
+奴らの軍備増強に繋がっている。
+フスィーッ……見過ごせない話だ。","","False","0x00000031","",""
+"","TEXT_BANSAH309_01408_SEWW_000_002<tab>It is fortunate, then, that they caulk their loot boxes with pitch─a highly flammable shhhubstance. One rarely has the need to fear open flames in the middle of the ocean, but, armed with a shhhimple flint shhhtone, the Reavers will shhhoon learn to fear you!
+Have Pahh lend you a shhheabeast, and make your way to the pirates' shhhip as shhhoon as you are able.","TEXT_BANSAH309_01408_SEWW_000_002<tab>「洋上の海賊船」に乗りこんで、敵を撃退しつつ、
+「<var 28 ((EObj)) F61E943001 /var>」を「<var 28 ((EventItem)) F61E898C01 /var>」で焼き払え！
+海賊船には、例によってエルブストを使って向かうんだ。","","False","0x00000032","",""
+"","TEXT_BANSAH309_01408_SEWW_000_005<tab>Shhhetting fires on a shhhip will not go unnoticed, but the Reavers' plunder mushhht not reach the hands of the Tridentshhh. Take one of Pahh's elbshhht to the pirates' vessel, and make good use of that flint shhhtone!","TEXT_BANSAH309_01408_SEWW_000_005<tab>「洋上の海賊船」に乗りこんで、敵を撃退しつつ、
+「<var 28 ((EObj)) F61E943001 /var>」を「<var 28 ((EventItem)) F61E898C01 /var>」で焼き払え！
+海賊船には、例によってエルブストを使って向かうんだ。","","False","0x00000033","",""
+"","TEXT_BANSAH309_01408_TAMER01376_000_010<tab>Pshhh... The Reavers' shhhip? It is ssswift, but my elbssst can catch her.","TEXT_BANSAH309_01408_TAMER01376_000_010<tab>フスィーッ……洋上の海賊船に行きたいのか？
+エルブストは、今日も元気だぜ。","","False","0x00000034","",""
 "","TEXT_BANSAH309_01408_Q1_000_000<tab>Ride the elbst to the pirate vessel?","TEXT_BANSAH309_01408_Q1_000_000<tab>エルブストに乗り「洋上の海賊船」へ行きますか？","","False","0x00000035","",""
 "","TEXT_BANSAH309_01408_A1_000_001<tab>Yes","TEXT_BANSAH309_01408_A1_000_001<tab>はい","","False","0x00000036","",""
 "","TEXT_BANSAH309_01408_A1_000_002<tab>No","TEXT_BANSAH309_01408_A1_000_002<tab>いいえ","","False","0x00000037","",""
-"","TEXT_BANSAH309_01408_SEWW_000_020<tab>Pshhh... How the Reavers mushhht howl at the loss of their loot! You have done well, shhhorewalker.","TEXT_BANSAH309_01408_SEWW_000_020<tab>首尾は上々だったようだな！<br>物資を失って、「海蛇の舌」も参っているだろう。<br>フスィーッ……いい気味だ。","","False","0x00000038","",""
-"","TEXT_BANSAH309_01408_SEWW_000_021<tab>Without the shhhupplies of their finless allies, the war effortshhh of the Tridentshhh will be shhhlowed to a crawl. And the less they are able to antagonize the shhhorewalkers, the better it will be for my people...","TEXT_BANSAH309_01408_SEWW_000_021<tab>「珊瑚の銛」も、蓄えがなければ戦いはおぼつかない。<br>ヒレナシへの挑発も、おいそれとはできないはずだ。","","False","0x00000039","",""
+"","TEXT_BANSAH309_01408_SEWW_000_020<tab>Pshhh... How the Reavers mushhht howl at the loss of their loot! You have done well, shhhorewalker.","TEXT_BANSAH309_01408_SEWW_000_020<tab>首尾は上々だったようだな！
+物資を失って、「海蛇の舌」も参っているだろう。
+フスィーッ……いい気味だ。","","False","0x00000038","",""
+"","TEXT_BANSAH309_01408_SEWW_000_021<tab>Without the shhhupplies of their finless allies, the war effortshhh of the Tridentshhh will be shhhlowed to a crawl. And the less they are able to antagonize the shhhorewalkers, the better it will be for my people...","TEXT_BANSAH309_01408_SEWW_000_021<tab>「珊瑚の銛」も、蓄えがなければ戦いはおぼつかない。
+ヒレナシへの挑発も、おいそれとはできないはずだ。","","False","0x00000039","",""
 "","TEXT_BANSAH309_01408_POP_MESSAGE<tab>（★未使用／削除予定★）","TEXT_BANSAH309_01408_POP_MESSAGE<tab>（★未使用／削除予定★）","","False","0x0000003A","",""
 "","TEXT_BANSAH309_01408_POPMESSAGE_000_000<tab>A sentry is summoned by the smoke and flames!","TEXT_BANSAH309_01408_POPMESSAGE_000_000<tab>敵の気配を感じた！！","","False","0x0000003B","",""

@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_GAIUSA902_00797_SEQ_00<tab>Ademar is in the dark and needs an adventurer's aid.","TEXT_GAIUSA902_00797_SEQ_00<tab>山師の岩窟の山師アデマルは、夜間作業の必需品を調達してきて欲しいようだ。","","False","0x00000000","",""
 "","TEXT_GAIUSA902_00797_SEQ_01<tab>Ademar has exhausted his supply of lantern oil, making it impossible for him to prospect at night. Procure an alternate light source for him by weakening bright balloons and then capturing them with his lamps.","TEXT_GAIUSA902_00797_SEQ_01<tab>夜を徹しての作業の前に、ランプが切れてしまったらしい。<var 28 ((BNpcName)) F2088D01 /var>を弱らせてから「<var 28 ((EventItem)) F61E86F301 /var>」を使い、「<var 28 ((EventItem)) F61E86F401 /var>」を入手しよう。","","False","0x00000001","",""
 "","TEXT_GAIUSA902_00797_SEQ_02<tab>You have successfully fashioned two balloon lamps. Deliver them to Ademar.","TEXT_GAIUSA902_00797_SEQ_02<tab><var 28 ((EventItem)) F61E86F401 /var>を手に入れることができた。山師の岩窟の「アデマル」に渡そう。","","False","0x00000002","",""
@@ -47,9 +47,16 @@
 "","TEXT_GAIUSA902_00797_TODO_21<tab>","TEXT_GAIUSA902_00797_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_GAIUSA902_00797_TODO_22<tab>","TEXT_GAIUSA902_00797_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_GAIUSA902_00797_TODO_23<tab>","TEXT_GAIUSA902_00797_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_GAIUSA902_00797_ADEMAR_000_000<tab>Pray help me, friend. I've run clean out o' lantern fuel, and I'm afeared I won't make it <var 08 E3E90C0D ((<var 08 E3E90C05 ((through the night)) ((long past sundown)) /var>)) ((<var 08 E3E90C12 ((long past sundown)) ((through the night)) /var>)) /var>.","TEXT_GAIUSA902_00797_ADEMAR_000_000<tab>これから夜通し作業するのに、ランプの油が切れちまってね。<br>そこで思ったんだ、「<var 28 ((BNpcName)) F2088D01 /var>」を、<br>捕まえてくれば油要らずだってね。","","False","0x00000030","",""
-"","TEXT_GAIUSA902_00797_ADEMAR_000_001<tab>I've not tried it meself, but I've heard that ye can fashion makeshift lanterns by sealin' those flying balloons inside these here lamps. 'Course, it might take some coercin' before they goes in, if ye know what I mean.","TEXT_GAIUSA902_00797_ADEMAR_000_001<tab>「<var 28 ((BNpcName)) F2088D01 /var>」を適度に弱らせてから、<br>この「<var 28 ((EventItem)) F61E86F301 /var>」に閉じこめてくれ。<br>2体ぶんでいいからさ、お前さん、ちょっと頼まれてくれよ。","","False","0x00000031","",""
+"","TEXT_GAIUSA902_00797_ADEMAR_000_000<tab>Pray help me, friend. I've run clean out o' lantern fuel, and I'm afeared I won't make it <var 08 E3E90C0D ((<var 08 E3E90C05 ((through the night)) ((long past sundown)) /var>)) ((<var 08 E3E90C12 ((long past sundown)) ((through the night)) /var>)) /var>.","TEXT_GAIUSA902_00797_ADEMAR_000_000<tab>これから夜通し作業するのに、ランプの油が切れちまってね。
+そこで思ったんだ、「<var 28 ((BNpcName)) F2088D01 /var>」を、
+捕まえてくれば油要らずだってね。","","False","0x00000030","",""
+"","TEXT_GAIUSA902_00797_ADEMAR_000_001<tab>I've not tried it meself, but I've heard that ye can fashion makeshift lanterns by sealin' those flying balloons inside these here lamps. 'Course, it might take some coercin' before they goes in, if ye know what I mean.","TEXT_GAIUSA902_00797_ADEMAR_000_001<tab>「<var 28 ((BNpcName)) F2088D01 /var>」を適度に弱らせてから、
+この「<var 28 ((EventItem)) F61E86F301 /var>」に閉じこめてくれ。
+2体ぶんでいいからさ、お前さん、ちょっと頼まれてくれよ。","","False","0x00000031","",""
 "","TEXT_GAIUSA902_00797_DUMMY_000_010<tab>//: fight balloons, get balloon lamp","TEXT_GAIUSA902_00797_DUMMY_000_010<tab><var 28 ((BNpcName)) F2088D01 /var>のHPが減っている時に、「<var 28 ((EventItem)) F61E86F301 /var>」を使って燃料を手に入れる×2","","False","0x00000032","",""
 "","TEXT_GAIUSA902_00797_ADEMAR_000_010<tab>","TEXT_GAIUSA902_00797_ADEMAR_000_010<tab>（★未使用／削除予定★）","","False","0x00000033","",""
-"","TEXT_GAIUSA902_00797_ADEMAR_000_020<tab>Were ye able to fashion some lamps for me, friend?","TEXT_GAIUSA902_00797_ADEMAR_000_020<tab>どうだい？<br><var 28 ((BNpcName)) F2088D01 /var>をランプに閉じこめることはできたかい？","","False","0x00000034","",""
-"","TEXT_GAIUSA902_00797_ADEMAR_000_025<tab>Yer a godssend. Thanks to you, <var 08 E3E90C0D ((<var 08 E3E90C05 ((I can get back to me diggin')) ((I'll be diggin' long past sundown tonight)) /var>)) ((<var 08 E3E90C12 ((I'll be diggin' long past sundown tonight)) ((I can get back to me diggin')) /var>)) /var>. Them's gold in thar hills, high-ho!♪","TEXT_GAIUSA902_00797_ADEMAR_000_025<tab>ありがてぇ、助かったよ。<br>こいつさえあれば、夜の採掘も油要らずだな！<br>落石落盤に気を付けて～エンヤコラ～っと。","","False","0x00000035","",""
+"","TEXT_GAIUSA902_00797_ADEMAR_000_020<tab>Were ye able to fashion some lamps for me, friend?","TEXT_GAIUSA902_00797_ADEMAR_000_020<tab>どうだい？
+<var 28 ((BNpcName)) F2088D01 /var>をランプに閉じこめることはできたかい？","","False","0x00000034","",""
+"","TEXT_GAIUSA902_00797_ADEMAR_000_025<tab>Yer a godssend. Thanks to you, <var 08 E3E90C0D ((<var 08 E3E90C05 ((I can get back to me diggin')) ((I'll be diggin' long past sundown tonight)) /var>)) ((<var 08 E3E90C12 ((I'll be diggin' long past sundown tonight)) ((I can get back to me diggin')) /var>)) /var>. Them's gold in thar hills, high-ho!♪","TEXT_GAIUSA902_00797_ADEMAR_000_025<tab>ありがてぇ、助かったよ。
+こいつさえあれば、夜の採掘も油要らずだな！
+落石落盤に気を付けて～エンヤコラ～っと。","","False","0x00000035","",""

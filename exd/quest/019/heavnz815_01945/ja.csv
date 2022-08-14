@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ815_01945_SEQ_00<tab>Halfsix is fidgeting.","TEXT_HEAVNZ815_01945_SEQ_00<tab>イディルシャイアのハーフシクスは、点検作業が進められずに困っている。","","False","0x00000000","",""
 "","TEXT_HEAVNZ815_01945_SEQ_01<tab>It seems the Idyllshire aetheryte may be growing unstable, and is in need of a proper inspection. However, Halfsix lacks the necessary aetherflow distributors to make his analysis. As with many things in the burgeoning settlement, it appears these, too, are located somewhere within the Arkhitekton. Thus, Halfsix bids that you make your way there and search the Illuminati pots for three of these tools.","TEXT_HEAVNZ815_01945_SEQ_01<tab>ハーフシクスから話を聞いた。エーテライトを保守点検するための部品が足りないようだ。低地ドラヴァニアの大工房アーキテクトンで、「<var 28 ((EObj)) F61E9B7501 /var>」から「<var 28 ((EventItem)) F61E8B2001 /var>」を入手しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ815_01945_SEQ_02<tab>You obtain three aetherflow distributors, and dispatch a number of Illuminati as well. Return with them to Halfsix in Idyllshire now.","TEXT_HEAVNZ815_01945_SEQ_02<tab><var 28 ((EventItem)) F61E8B2001 /var>を入手した。イディルシャイアの「ハーフシクス」に「<var 28 ((EventItem)) F61E8B2001 /var>」を渡そう。","","False","0x00000002","",""
@@ -47,10 +47,23 @@
 "","TEXT_HEAVNZ815_01945_TODO_21<tab>","TEXT_HEAVNZ815_01945_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ815_01945_TODO_22<tab>","TEXT_HEAVNZ815_01945_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ815_01945_TODO_23<tab>","TEXT_HEAVNZ815_01945_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ815_01945_HALFSIX_000_000<tab>Pshkohhh... Halfsix has very important task for trusty uplander, must be done with fastness!","TEXT_HEAVNZ815_01945_HALFSIX_000_000<tab>シュコォ……シュコォ……<br>頼れる　しっかり冒険者　ひとつ仕事を　頼みたい～！<br>大事な仕事を　頼みたい～！","","False","0x00000030","",""
-"","TEXT_HEAVNZ815_01945_HALFSIX_000_001<tab>Aetheryte of Idyllshire needs of inspection, maybe needs upkeep too. If gobbies do not take a look and fix little problems, its spinnings may shudder and stop─or there is very big boom! But Halfsix does not have the right tools...","TEXT_HEAVNZ815_01945_HALFSIX_000_001<tab>エーテライトの　保守点検　やらなきゃ大変　大事故発生～！<br>それにはつまり　部品が必要～！","","False","0x00000031","",""
-"","TEXT_HEAVNZ815_01945_HALFSIX_000_002<tab>Uplander, there is no time to waste! Halfsix needs aetherflow distributors. The nearest are in base of Illuminati! Come, come, raid their store pots!","TEXT_HEAVNZ815_01945_HALFSIX_000_002<tab>急げや急げ　「大工房アーキテクトン」！<br>必要なのは　「<var 28 ((EventItem)) F61E8B2001 /var>」　全部で3個！<br>「<var 28 ((EObj)) F61E9B7501 /var>」　探せば　見つかる　よろしくな～！","","False","0x00000032","",""
-"","TEXT_HEAVNZ815_01945_HALFSIX_000_010<tab>Hurry, uplander! Aetherflow distributors are somewhere in the Arkhitekton!","TEXT_HEAVNZ815_01945_HALFSIX_000_010<tab>急げや急げ　「大工房アーキテクトン」！<br>必要なのは　「<var 28 ((EventItem)) F61E8B2001 /var>」　全部で3個！<br>「<var 28 ((EObj)) F61E9B7501 /var>」　探せば　見つかる　よろしくな～！","","False","0x00000033","",""
-"","TEXT_HEAVNZ815_01945_HALFSIX_000_020<tab>Has uplander found aetherflow distributors?","TEXT_HEAVNZ815_01945_HALFSIX_000_020<tab>急げや急げ　「大工房アーキテクトン」！<br>必要なのは　「<var 28 ((EventItem)) F61E8B2001 /var>」　全部で3個！<br>「<var 28 ((EObj)) F61E9B7501 /var>」　探せば　見つかる　よろしくな～！","","False","0x00000034","",""
-"","TEXT_HEAVNZ815_01945_HALFSIX_000_021<tab>Pshkohhh... Thank you, uplander! With these, Halfsix can do upkeep!","TEXT_HEAVNZ815_01945_HALFSIX_000_021<tab>シュコォ……シュコォ……<br>これさえあれば　保守点検　ばっちり　しっかり　問題なし！<br>礼を言わせて　もらいたい～！","","False","0x00000035","",""
-"","TEXT_HEAVNZ815_01945_HALFSIX_000_022<tab>Uplanders of Sharlayan are making aetherytes to whirl, using tricksy ancient knowings. If gobbieflock uses tools and parts left by old uplanders, then aetheryte of Idyllshire will stay spinning for many, many years!","TEXT_HEAVNZ815_01945_HALFSIX_000_022<tab>エーテライトは　古代の知識の応用技術～！<br>シャーレアン人　解明し　大工房で　作ってた～！<br>古い部品を　再利用　そうすりゃ　自前で維持できる～！","","False","0x00000036","",""
+"","TEXT_HEAVNZ815_01945_HALFSIX_000_000<tab>Pshkohhh... Halfsix has very important task for trusty uplander, must be done with fastness!","TEXT_HEAVNZ815_01945_HALFSIX_000_000<tab>シュコォ……シュコォ……
+頼れる　しっかり冒険者　ひとつ仕事を　頼みたい～！
+大事な仕事を　頼みたい～！","","False","0x00000030","",""
+"","TEXT_HEAVNZ815_01945_HALFSIX_000_001<tab>Aetheryte of Idyllshire needs of inspection, maybe needs upkeep too. If gobbies do not take a look and fix little problems, its spinnings may shudder and stop─or there is very big boom! But Halfsix does not have the right tools...","TEXT_HEAVNZ815_01945_HALFSIX_000_001<tab>エーテライトの　保守点検　やらなきゃ大変　大事故発生～！
+それにはつまり　部品が必要～！","","False","0x00000031","",""
+"","TEXT_HEAVNZ815_01945_HALFSIX_000_002<tab>Uplander, there is no time to waste! Halfsix needs aetherflow distributors. The nearest are in base of Illuminati! Come, come, raid their store pots!","TEXT_HEAVNZ815_01945_HALFSIX_000_002<tab>急げや急げ　「大工房アーキテクトン」！
+必要なのは　「<var 28 ((EventItem)) F61E8B2001 /var>」　全部で3個！
+「<var 28 ((EObj)) F61E9B7501 /var>」　探せば　見つかる　よろしくな～！","","False","0x00000032","",""
+"","TEXT_HEAVNZ815_01945_HALFSIX_000_010<tab>Hurry, uplander! Aetherflow distributors are somewhere in the Arkhitekton!","TEXT_HEAVNZ815_01945_HALFSIX_000_010<tab>急げや急げ　「大工房アーキテクトン」！
+必要なのは　「<var 28 ((EventItem)) F61E8B2001 /var>」　全部で3個！
+「<var 28 ((EObj)) F61E9B7501 /var>」　探せば　見つかる　よろしくな～！","","False","0x00000033","",""
+"","TEXT_HEAVNZ815_01945_HALFSIX_000_020<tab>Has uplander found aetherflow distributors?","TEXT_HEAVNZ815_01945_HALFSIX_000_020<tab>急げや急げ　「大工房アーキテクトン」！
+必要なのは　「<var 28 ((EventItem)) F61E8B2001 /var>」　全部で3個！
+「<var 28 ((EObj)) F61E9B7501 /var>」　探せば　見つかる　よろしくな～！","","False","0x00000034","",""
+"","TEXT_HEAVNZ815_01945_HALFSIX_000_021<tab>Pshkohhh... Thank you, uplander! With these, Halfsix can do upkeep!","TEXT_HEAVNZ815_01945_HALFSIX_000_021<tab>シュコォ……シュコォ……
+これさえあれば　保守点検　ばっちり　しっかり　問題なし！
+礼を言わせて　もらいたい～！","","False","0x00000035","",""
+"","TEXT_HEAVNZ815_01945_HALFSIX_000_022<tab>Uplanders of Sharlayan are making aetherytes to whirl, using tricksy ancient knowings. If gobbieflock uses tools and parts left by old uplanders, then aetheryte of Idyllshire will stay spinning for many, many years!","TEXT_HEAVNZ815_01945_HALFSIX_000_022<tab>エーテライトは　古代の知識の応用技術～！
+シャーレアン人　解明し　大工房で　作ってた～！
+古い部品を　再利用　そうすりゃ　自前で維持できる～！","","False","0x00000036","",""

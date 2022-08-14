@@ -1,4 +1,4 @@
-﻿"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
+"location","source","target","id","fuzzy","context","translator_comments","developer_comments"
 "","TEXT_HEAVNZ516_01851_SEQ_00<tab>Mogzun is staring down his surroundings with all of his might.","TEXT_HEAVNZ516_01851_SEQ_00<tab>グロン・レイのモグズンは、辺りの様子を伺っているようだ。","","False","0x00000000","",""
 "","TEXT_HEAVNZ516_01851_SEQ_01<tab>Mogzun's assignment is to slay the meliae infesting the area─but first he needs someone to show him how to do it. Slay three meliae and bring Mogzun branches pulled from their corpses as proof. ","TEXT_HEAVNZ516_01851_SEQ_01<tab>モグズンは<var 28 ((BNpcName)) F20E5401 /var>の討伐を目標としているようだ。グロン・レイの「<var 28 ((BNpcName)) F20E5401 /var>」から「<var 28 ((EventItem)) F61E8AEF01 /var>」を3個入手しよう。","","False","0x00000001","",""
 "","TEXT_HEAVNZ516_01851_SEQ_02<tab>The meliae have been slain and their branches are in your possession. Deliver them to Mogzun.","TEXT_HEAVNZ516_01851_SEQ_02<tab><var 28 ((EventItem)) F61E8AEF01 /var>を入手した。グロン・レイの「モグズン」に報告しよう。","","False","0x00000002","",""
@@ -47,9 +47,19 @@
 "","TEXT_HEAVNZ516_01851_TODO_21<tab>","TEXT_HEAVNZ516_01851_TODO_21<tab>","","False","0x0000002D","",""
 "","TEXT_HEAVNZ516_01851_TODO_22<tab>","TEXT_HEAVNZ516_01851_TODO_22<tab>","","False","0x0000002E","",""
 "","TEXT_HEAVNZ516_01851_TODO_23<tab>","TEXT_HEAVNZ516_01851_TODO_23<tab>","","False","0x0000002F","",""
-"","TEXT_HEAVNZ516_01851_MOGZUN_000_000<tab>Ah, I spy a melia right over there! As that's my assigned beast, I'd best slay it before it scurries away in fright, kupo.","TEXT_HEAVNZ516_01851_MOGZUN_000_000<tab>あそこに<var 28 ((BNpcName)) F20E5401 /var>がいるくぽ？<br>モグの目標は、あいつを倒すことくぽ！","","False","0x00000030","",""
-"","TEXT_HEAVNZ516_01851_MOGZUN_000_001<tab>Of course, I can't do battle without instruction. If you cut down three meliae and bring me a branch from each, that should be enough to inspire me!","TEXT_HEAVNZ516_01851_MOGZUN_000_001<tab>参考にしたいから、教官から戦ってほしいくぽ。<br><var 28 ((BNpcName)) F20E5401 /var>から「<var 28 ((EventItem)) F61E8AEF01 /var>」を3個、<br>持ってくるところが見たいくぽ！","","False","0x00000031","",""
-"","TEXT_HEAVNZ516_01851_MOGZUN_000_010<tab>I'll follow your lead, Commander! Get to chopping that wood, kupo!","TEXT_HEAVNZ516_01851_MOGZUN_000_010<tab>参考にしたいから、教官から戦ってほしいくぽ。<br><var 28 ((BNpcName)) F20E5401 /var>から「<var 28 ((EventItem)) F61E8AEF01 /var>」を3個、<br>持ってくるところが見たいくぽ！","","False","0x00000032","",""
-"","TEXT_HEAVNZ516_01851_MOGZUN_000_020<tab>There's no better way than to learn by seeing. Did you bring the melia branches, kupo?","TEXT_HEAVNZ516_01851_MOGZUN_000_020<tab>参考にしたいから、教官から戦ってほしいくぽ。<br><var 28 ((BNpcName)) F20E5401 /var>から「<var 28 ((EventItem)) F61E8AEF01 /var>」を3個、<br>持ってくるところが見たいくぽ！","","False","0x00000033","",""
-"","TEXT_HEAVNZ516_01851_MOGZUN_000_021<tab>Ah, yes...these are indeed melia branches─I trust you gave them a sound thrashing. Your fighting inspires me to new heights, Commander!","TEXT_HEAVNZ516_01851_MOGZUN_000_021<tab>おお、間違いなく<var 28 ((EventItem)) F61E8AEF01 /var>くぽ！<br>教官の戦い、とっても参考になったくぽ！","","False","0x00000034","",""
-"","TEXT_HEAVNZ516_01851_MOGZUN_000_022<tab>I am so inspired, in fact, that I'm already quite tuckered out! A trainee must not overexert himself too early. Rest is when we can reflect upon lessons learned. Drill over, kupo!","TEXT_HEAVNZ516_01851_MOGZUN_000_022<tab>でも、今日は見学に集中しすぎて疲れたくぽ。<br>無理するのは良くないくぽ！<br>適度に休むのも仕事くぽ、訓練終了くぽ！","","False","0x00000035","",""
+"","TEXT_HEAVNZ516_01851_MOGZUN_000_000<tab>Ah, I spy a melia right over there! As that's my assigned beast, I'd best slay it before it scurries away in fright, kupo.","TEXT_HEAVNZ516_01851_MOGZUN_000_000<tab>あそこに<var 28 ((BNpcName)) F20E5401 /var>がいるくぽ？
+モグの目標は、あいつを倒すことくぽ！","","False","0x00000030","",""
+"","TEXT_HEAVNZ516_01851_MOGZUN_000_001<tab>Of course, I can't do battle without instruction. If you cut down three meliae and bring me a branch from each, that should be enough to inspire me!","TEXT_HEAVNZ516_01851_MOGZUN_000_001<tab>参考にしたいから、教官から戦ってほしいくぽ。
+<var 28 ((BNpcName)) F20E5401 /var>から「<var 28 ((EventItem)) F61E8AEF01 /var>」を3個、
+持ってくるところが見たいくぽ！","","False","0x00000031","",""
+"","TEXT_HEAVNZ516_01851_MOGZUN_000_010<tab>I'll follow your lead, Commander! Get to chopping that wood, kupo!","TEXT_HEAVNZ516_01851_MOGZUN_000_010<tab>参考にしたいから、教官から戦ってほしいくぽ。
+<var 28 ((BNpcName)) F20E5401 /var>から「<var 28 ((EventItem)) F61E8AEF01 /var>」を3個、
+持ってくるところが見たいくぽ！","","False","0x00000032","",""
+"","TEXT_HEAVNZ516_01851_MOGZUN_000_020<tab>There's no better way than to learn by seeing. Did you bring the melia branches, kupo?","TEXT_HEAVNZ516_01851_MOGZUN_000_020<tab>参考にしたいから、教官から戦ってほしいくぽ。
+<var 28 ((BNpcName)) F20E5401 /var>から「<var 28 ((EventItem)) F61E8AEF01 /var>」を3個、
+持ってくるところが見たいくぽ！","","False","0x00000033","",""
+"","TEXT_HEAVNZ516_01851_MOGZUN_000_021<tab>Ah, yes...these are indeed melia branches─I trust you gave them a sound thrashing. Your fighting inspires me to new heights, Commander!","TEXT_HEAVNZ516_01851_MOGZUN_000_021<tab>おお、間違いなく<var 28 ((EventItem)) F61E8AEF01 /var>くぽ！
+教官の戦い、とっても参考になったくぽ！","","False","0x00000034","",""
+"","TEXT_HEAVNZ516_01851_MOGZUN_000_022<tab>I am so inspired, in fact, that I'm already quite tuckered out! A trainee must not overexert himself too early. Rest is when we can reflect upon lessons learned. Drill over, kupo!","TEXT_HEAVNZ516_01851_MOGZUN_000_022<tab>でも、今日は見学に集中しすぎて疲れたくぽ。
+無理するのは良くないくぽ！
+適度に休むのも仕事くぽ、訓練終了くぽ！","","False","0x00000035","",""
