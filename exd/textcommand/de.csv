@@ -2915,7 +2915,7 @@ Entfernt alle Ergänzenden Kommandos.<tab>/ergkmd<tab><tab>/additionalaction<tab
 USAGE:
 　/gaction ""action name"" [placeholder]
 
-→Uses the specified general action on the specified target. The target name can be omitted when the target is yourself. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+→Uses the specified general action on the specified target. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>, gtoff
@@ -2931,7 +2931,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　on the specified target.)<tab><tab><tab>/generalaction<tab>/gaction","/allgkom, /generalaction, /gaction
 VERWENDUNG:
 allgkom ""[Kommando]"" [Variable zur Zielbestimmung]
-→ Wendet das Kommando auf das Ziel an. Bei auf sich selbst anwendbaren Kommandos kann die Zielangabe entfallen.
+→ Wendet das Kommando auf das Ziel an.
 >>Zielbestimmung:
   <var 48 F201FA /var><var 49 F201FB /var><1>-<8><var 49 01 /var><var 48 01 /var>  Führt das Kommando auf Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied 1 - 8 aus.
   <var 48 F201FA /var><var 49 F201FB /var><t>, <target><var 49 01 /var><var 48 01 /var>  Führt das Kommando auf das anvisierte Ziel aus. Bei Bodenziel-Kommandos wird das Kommando am Standort des Ziels ausgelöst.
@@ -2970,23 +2970,9 @@ VERWENDUNG:
 Entfernt den Status Lanzenschärfung.<tab>/statusaus<tab><tab>/statusoff<tab>","","False","0x00000113","",""
 "","ALIASES:
 　/addpvpaction, /apa
-USAGE:
-　/apa ""action name 1"" ""action name 2""
-
-→Set the specified actions as additional PvP actions. This command requires that you specify two actions.
-
->>Example:
-　/addpvpaction ""Weapon Throw"" ""Full Swing""
-　(Sets Weapon Throw and
-　Full Swing as additional
-　PvP actions.)<tab><tab><tab>/addpvpaction<tab>/apa","/pluspvpkmd, /pluspvp, /addpvpaction, /apa
-VERWENDUNG:
-/pluspvp [Kommando] [Kommando]
-→ Legt zwei ergänzende PvP-Kommandos fest. Zwei Angaben nötig.
-
->>Beispiel:
-/pluspvp ""Waffenwurf"" ""Voller Schwinger""
-Legt „Waffenwurf“ und „Voller Schwinger“ als PvP-Kommandos fest.<tab>/pluspvpkmd<tab>/pluspvp<tab>/addpvpaction<tab>/apa","","False","0x00000114","",""
+A command previously believed to set specified actions as additional PvP actions.
+※This text command is no longer in use.<tab><tab><tab>/addpvpaction<tab>/apa","/pluspvpkmd, /pluspvp, /addpvpaction, /apa
+** Dieses Kommando wurde deaktiviert. **<tab>/pluspvpkmd<tab>/pluspvp<tab>/addpvpaction<tab>/apa","","False","0x00000114","",""
 "","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
@@ -3399,7 +3385,7 @@ Bei fehlendem Typ wird zwischen „alle“ und „aus“ gewechselt.<tab>/kampfe
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditionalEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -7233,6 +7219,22 @@ VERWENDUNG:
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/kopffassen<tab><tab>/clutchhead<tab>","","False","0x0000027A","",""
 "","ALIASES:
+　/eatchocolate, /choco
+USAGE:
+　/eatchocolate [subcommand]
+
+→Snack on Valentione's chocolate.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatchocolate<tab>/choco","/schokoladeessen, /schoko, /eatchocolate, /choco
+VERWENDUNG:
+/schokoladeessen [Unterbefehl]
+→ Du isst ein Stück Schokolade.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/schokoladeessen<tab>/schoko<tab>/eatchocolate<tab>/choco","","False","0x0000027B","",""
+"","ALIASES:
 　/eategg, /egg
 USAGE:
 　/eategg [subcommand]
@@ -7347,3 +7349,52 @@ VERWENDUNG:
 → Du zeigst nach links.
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/linkszeigen<tab><tab>/showleft<tab>","","False","0x00000283","",""
+"","ALIASES:
+　/deride, /pagaga
+USAGE:
+　/deride [subcommand]
+
+→Bare your teeth derisively.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/verhöhnen, /deride
+VERWENDUNG:
+/verhöhnen [Unterbefehl]
+→ Du machst eine Geste der Verhöhnung.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/verhöhnen<tab><tab>/deride<tab>/pagaga","","False","0x00000286","",""
+"","ALIASES:
+　/eatpumpkincookie, /cookie
+USAGE:
+　/eatpumpkincookie [subcommand]
+
+→Nibble on a pumpkin cookie.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/kürbiskeksessen, /kürbiskeks
+VERWENDUNG:
+/kürbiskeksessen [Unterbefehl]
+→ Du isst einen Kürbiskeks.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/kürbiskeksessen<tab>/kürbiskeks<tab>/eatpumpkincookie<tab>/cookie","","False","0x00000288","",""
+"","USAGE:
+　/spirit [subcommand]
+
+→Show off your team spirit.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/spirit<tab>","/oleoleoleole, /ole, /spirit
+VERWENDUNG:
+/oleoleoleole [Unterbefehl]
+→ Du gibst motivierende Zurufe von dir.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/oleoleoleole<tab>/ole<tab>/spirit<tab>","","False","0x00000289","",""
+

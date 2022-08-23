@@ -62,7 +62,7 @@
 "","Remove from Blacklist","Убрать из чёрного списка","","False","0x0000003C","",""
 "","Send Friend Request","Отправить запрос в друзья","","False","0x0000003D","",""
 "","Cancel Friend Request","Отменить запрос в друзья","","False","0x0000003E","",""
-"","Accept Friend Request","Принять запрос в друзья","","False","0x0000003F","",""
+"","Respond to Friend Request","3F_Respond to Friend Request","","True","0x0000003F","",""
 "","Decline Friend Request","Отклонить запрос в друзья","","False","0x00000040","",""
 "","Remove from Friend List","Убрать из списка друзей","","False","0x00000041","",""
 "","View","Посмотреть","","False","0x00000042","",""
@@ -133,9 +133,9 @@
 "","Disband party?","Распустить группу?","","False","0x0000007B","",""
 "","Add <var 29 EA02 /var> to your blacklist?","Добавить <var 29 EA02 /var> в ваш чёрный список?","","False","0x0000007C","",""
 "","Remove <var 29 EA02 /var> from your blacklist?","Убрать <var 29 EA02 /var> из вашего чёрного списка?","","False","0x0000007D","",""
-"","Accept friend request from <var 29 EA02 /var>?
-※You may choose to accept later by selecting Wait.","Принять запрос в список друзей от <var 29 EA02 /var>?
-※Вы можете сделать выбор потом, нажав кнопку «Принять».","","False","0x0000007E","",""
+"","Accept friend request from <var 29 EA02 /var>? 
+※Pending friend requests will be rendered void after a certain period of time. Responding to an expired request will remove the sender's name from your friend list, regardless of the option you choose.","7E_Accept friend request from <var 29 EA02 /var>? 
+※Pending friend requests will be rendered void after a certain period of time. Responding to an expired request will remove the sender's name from your friend list, regardless of the option you choose.","","True","0x0000007E","",""
 "","Decline friend request from <var 29 EA02 /var>?","Отклонить запрос в список друзей от <var 29 EA02 /var>?","","False","0x0000007F","",""
 "","Cancel friend request to <var 29 EA02 /var>?","Отменить ваш запрос в список друзей <var 29 EA02 /var>?","","False","0x00000080","",""
 "","Remove <var 29 EA02 /var> from your friend list?","Убрать <var 29 EA02 /var> из вашего списка друзей?","","False","0x00000081","",""
@@ -295,7 +295,7 @@ Current Gil: <var 22 E802 ((,)) /var>","BB_Выберите конечную т�
 "","Magic Defense","Защита от магии","","False","0x00000117","",""
 "","Skip","Пропустить","","False","0x00000118","",""
 "","Skip cutscene?","Пропустить кат-сцену?","","False","0x00000119","",""
-"","<var 1E 0B /var> Delete<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","11A_<var 1E 0B /var> Delete<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","","True","0x0000011A","",""
+"","<var 1E 0B /var> Delete<var 08 E95F ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","11A_<var 1E 0B /var> Delete<var 08 E95F ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","","True","0x0000011A","",""
 "","♀","♀","","False","0x0000011B","",""
 "","♂","♂","","False","0x0000011C","",""
 "","Physical Damage","Физический урон","","False","0x0000011D","",""
@@ -619,7 +619,7 @@ The following can be used to adjust speed in unvoiced cutscenes:
 "","Unable to commence levequest. One or more party members are too far away.","24A_Невозможно начать поручение. Один или более членов группы слишком далеко.","","False","0x0000024A","",""
 "","You do not have any more leve allowances. You will earn your next allowance in <var 08 E802 ((<var 08 E4E80202 ((<var 20 E802 /var> hour and )) ((<var 20 E802 /var> hours and )) /var>)) (()) /var><var 20 E803 /var> <var 08 E4E80302 ((minute)) ((minutes)) /var>.","24B_Вы больше не можете выполнять поручения. Следующие вы получите через <var 08 E802 ((<var 08 E4E80202 ((<var 20 E802 /var> час и )) ((<var 20 E802 /var> часа и )) /var>)) (()) /var><var 20 E803 /var> <var 08 E4E80302 ((минуту)) ((минуты)) /var>.","","False","0x0000024B","",""
 "","You cannot accept any more levequests.","Вы не можете принять больше поручений.","","False","0x0000024C","",""
-"","Levemete","Поручения","","False","0x0000024D","",""
+"","<var 08 E1E802F2270F ((9,999+)) ((<var 22 E802 ((,)) /var>)) /var>/<var 22 E803 ((,)) /var>","24D_<var 08 E1E802F2270F ((9,999+)) ((<var 22 E802 ((,)) /var>)) /var>/<var 22 E803 ((,)) /var>","","True","0x0000024D","",""
 "","Levequests","Поручения","","False","0x0000024E","",""
 "","","","","False","0x0000024F","",""
 "","Leve History","250_Leve History","","True","0x00000250","",""
@@ -880,11 +880,11 @@ The following can be used to adjust speed in unvoiced cutscenes:
 "","Company Seals","Печати Компании","","False","0x0000033F","",""
 "","Other","340_Other","","True","0x00000340","",""
 "","<var 22 E802 ((,)) /var>/<var 22 E803 ((,)) /var>","<var 22 E802 (( )) /var>/<var 22 E803 (( )) /var>","","False","0x00000341","",""
-"","Wolf Marks","Волчьи марки","","False","0x00000342","",""
+"","PvP","342_PvP","","True","0x00000342","",""
 "","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var>","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var>","","False","0x00000343","",""
 "","Select a new name.","Введите новое название.","","False","0x00000344","",""
 "","Select a new number.","Введите новое число.","","False","0x00000345","",""
-"","Seals & Nuts","Печати и трофеи","","False","0x00000346","",""
+"","The Hunt","346_The Hunt","","True","0x00000346","",""
 "","Available","Доступно","","False","0x00000347","",""
 "","Disable all active help windows.","Отключить все окна Быстрой помощи.","","False","0x00000348","",""
 "","※Active Help windows can be disabled in UI Settings, located under Character Configuration.","※Окна Быстрой помощи можно отключить в Настройках UI, находящиеся в Конфигурации персонажа.","","False","0x00000349","",""
@@ -1234,7 +1234,7 @@ A notification will be given <var 20 E805 /var> <var 08 E4E80502 ((minute)) ((mi
 "","Party List Settings","Настройки списка группы","","False","0x00000483","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>When joining as a party, you will be joined as a cross-world party.<var 49 01 /var><var 48 01 /var>","<var 48 F201FA /var><var 49 F201FB /var>Если вы присоединитесь группой, то вы попадёте в межмировую группу.<var 49 01 /var><var 48 01 /var>","","False","0x00000484","",""
 "","?","?","","False","0x00000485","",""
-"","<var 29 EA02 /var><var 29 EA03 /var>","<var 29 EA02 /var><var 29 EA03 /var>","","False","0x00000486","",""
+"","<var 2B ((<var 29 EA02 /var>)) /var><var 29 EA03 /var>","486_<var 2B ((<var 29 EA02 /var>)) /var><var 29 EA03 /var>","","True","0x00000486","",""
 "","","","","False","0x00000487","",""
 "","Alliance D","488_Alliance D","","True","0x00000488","",""
 "","Alliance E","489_Alliance E","","True","0x00000489","",""
@@ -1424,6 +1424,8 @@ Specify the keyboard you are currently using.","Инициализация на�
 "","<var 1E 0B /var>Subcommands  <var 1E 0C /var>Select Item","548_<var 1E 0B /var>Subcommands  <var 1E 0C /var>Select Item","","True","0x00000548","",""
 "","<var 1E 09 /var> Put up for Sale  <var 1E 0B /var> Subcommands","549_<var 1E 09 /var> Put up for Sale  <var 1E 0B /var> Subcommands","","True","0x00000549","",""
 "","<var 1E 09 /var><var 1E 0B /var> Subcommands  <var 1E 0C /var> Select Item","54A_<var 1E 09 /var><var 1E 0B /var> Subcommands  <var 1E 0C /var> Select Item","","True","0x0000054A","",""
+"","Accept","54B_Accept","","True","0x0000054B","",""
+"","Decline","54C_Decline","","True","0x0000054C","",""
 "","Color Palette","Цветовая палитра","","False","0x0000054E","",""
 "","","","","False","0x0000054F","",""
 "","<var 09 E802 ((<var 28 ((GCRankLimsaMaleText)) E80301 /var>)) ((<var 28 ((GCRankGridaniaMaleText)) E80301 /var>)) ((<var 28 ((GCRankUldahMaleText)) E80301 /var>)) /var>","550_<var 09 E802 ((<var 28 ((GCRankLimsaMaleText)) E80301 /var>)) ((<var 28 ((GCRankGridaniaMaleText)) E80301 /var>)) ((<var 28 ((GCRankUldahMaleText)) E80301 /var>)) /var>","","True","0x00000550","",""
@@ -1753,6 +1755,8 @@ You may decide who will carry the bouquet during the ceremony. The bearer of the
  ( <var 26 E8030B ((.)) /var>  , <var 26 E8040B ((.)) /var> )","<var 29 EA02 /var>
  ( <var 26 E8030B ((,)) /var>  , <var 26 E8040B ((,)) /var> )","","False","0x00000665","",""
 "","<var 2B EA02 /var>","668_<var 2B EA02 /var>","","True","0x00000668","",""
+"","<var 07 E802 /var><var 20 DB /var>:<var 24 DA /var>","66B_<var 07 E802 /var><var 20 DB /var>:<var 24 DA /var>","","True","0x0000066B","",""
+"","<var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D (()) (()) /var>","66C_<var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D (()) (()) /var>","","True","0x0000066C","",""
 "","A Realm Reborn","A Realm Reborn","","False","0x0000066D","",""
 "","Heavensward","Heavensward","","False","0x0000066E","",""
 "","Stormblood","Stormblood","","False","0x0000066F","",""
@@ -1802,7 +1806,7 @@ You may decide who will carry the bouquet during the ceremony. The bearer of the
 "","Shop Selling Price<var 08 E1E80301 (()) (( (NQ))) /var>: <var 22 E802 ((,)) /var> (Restricted)","Цена у купцов<var 08 E1E80301 (()) (( (NQ))) /var>: <var 22 E802 (( )) /var> (Ограничено)","","False","0x0000069E","",""
 "","Displaying: <var 2B ((<var 29 EA02 /var>)) /var>","Отображено: <var 2B ((<var 29 EA02 /var>)) /var>","","False","0x0000069F","",""
 "","Groups: <var 20 E802 /var>","6A0_Groups: <var 20 E802 /var>","","True","0x000006A0","",""
-"","Linkshells will become inoperable when visiting other World servers.","При посещении других миров нельзя будет взаимодействовать с линкшеллами.","","False","0x000006A1","",""
+"","Linkshells will become inoperable while visiting other Worlds or data centers.","6A1_Linkshells will become inoperable while visiting other Worlds or data centers.","","True","0x000006A1","",""
 "","Recipe Search","Поиск рецептов","","False","0x000006A4","",""
 "","History","История","","False","0x000006A5","",""
 "","Nothing to display.","Нечего показать.","","False","0x000006A6","",""
@@ -3084,9 +3088,9 @@ Full soul resonance is almost complete!","","True","0x00000BDF","",""
 "","Recorder Manual","Руководство по Записи миссий","","False","0x00000BFC","",""
 "","","","","False","0x00000BFD","",""
 "","<var 20 E802 /var>/2","<var 20 E802 /var>/2","","False","0x00000BFE","",""
-"","・<var 2B ((<var 28 ((ContentFinderCondition)) F2012727 /var>)) /var>","・<var 2B ((<var 28 ((ContentFinderCondition)) F2012727 /var>)) /var>","","False","0x00000BFF","",""
+"","・<var 2B ((<var 28 ((ContentFinderCondition)) F2012728 /var>)) /var>","BFF_・<var 2B ((<var 28 ((ContentFinderCondition)) F2012728 /var>)) /var>","","True","0x00000BFF","",""
 "","<var 48 F20202 /var>Recordable Duties<var 48 01 /var>","<var 48 F20202 /var>Recordable Duties<var 48 01 /var>","","False","0x00000C00","",""
-"","・<var 2B ((<var 28 ((ContentFinderCondition)) E80227 /var>)) /var>","・<var 2B ((<var 28 ((ContentFinderCondition)) E80227 /var>)) /var>","","False","0x00000C01","",""
+"","・<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","C01_・<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","","True","0x00000C01","",""
 "","There are no recorded duties.","Нет записанных миссий.","","False","0x00000C02","",""
 "","・Locked","C03_・Locked","","True","0x00000C03","",""
 "","[<var 20 E802 /var>] <var 50 E80303 /var>:<var 50 E80403 /var>:<var 50 E80503 /var> <var 08 E1E80601 ((<var 09 E806 ((Start/Restart)) ((Event Cutscene)) /var>)) ((Countdown)) /var>","[<var 20 E802 /var>] <var 50 E80303 /var>:<var 50 E80403 /var>:<var 50 E80503 /var> <var 08 E1E80601 ((<var 09 E806 ((Старт/рестарт)) ((Кат-сцена)) /var>)) ((Обратный отсчёт)) /var>","","False","0x00000C07","",""
@@ -3969,6 +3973,11 @@ Progress: <var 20 E803 /var>%","Расстояние до цели: <var 20 E802
 "","Full","Полная","","False","0x00001040","",""
 "","Simple","Простая","","False","0x00001041","",""
 "","Off","Отключена","","False","0x00001042","",""
+"","Resolution","1043_Resolution","","True","0x00001043","",""
+"","Enable dynamic resolution.","1044_Enable dynamic resolution.","","True","0x00001044","",""
+"","Automatically adjusts resolution levels for optimum performance.
+<var 08 E4E94F04 ((<var 12 40 /var>Currently unavailable for the Mac version of FINAL FANTASY XIV.)) ((※Beta Version)) /var>","1045_Automatically adjusts resolution levels for optimum performance.
+<var 08 E4E94F04 ((<var 12 40 /var>Currently unavailable for the Mac version of FINAL FANTASY XIV.)) ((※Beta Version)) /var>","","True","0x00001045","",""
 "","Display Settings","Настройки дисплея","","False","0x0000104A","",""
 "","Sound Settings","Настройки звука","","False","0x0000104B","",""
 "","Graphics Settings","Настройки графики","","False","0x0000104C","",""
@@ -4226,6 +4235,7 @@ Settings will be restored in <var 20 E802 /var> <var 08 E4E80202 ((second)) ((se
 "","<var 20 E802 /var>%","<var 20 E802 /var>%","","False","0x00001138","",""
 "","You have no extractable items.","У вас нет предметов, из которых можно было бы создать материю.","","False","0x00001139","",""
 "","The spiritbond with an item must be complete before extracting a materia.","Материзация должна быть завершена, чтобы создать материю.","","False","0x0000113A","",""
+"","Edit Portrait","113B_Edit Portrait","","True","0x0000113B","",""
 "","Extract from unique/untradable item.","Создать из уникальной/личной вещи.","","False","0x0000113D","",""
 "","Extract from materia-augmented item.","Создать из вещи, улучшенной материей.","","False","0x0000113E","",""
 "","Once a materia has been extracted from an item, its spiritbond will be reduced to 1%. Proceed?","После создания материи из предмета его материзация будет уменьшена до 1%. Продолжить?","","False","0x0000113F","",""
@@ -4474,7 +4484,7 @@ Do you still wish to proceed?","Внимание: вы не сможете по�
 "","Item Type","Тип предметов","","False","0x00001227","",""
 "","Company Seals","Печати Компании","","False","0x00001228","",""
 "","This item is part of a registered gear set. Are you sure you wish to proceed?","Этот предмет является частью комплекта снаряжения. Вы точно хотите продолжить?","","False","0x00001229","",""
-"","Placing <var 31 ((Item)) 03E8020202 /var> in the armoire will reset its spiritbond to 0% and condition to 100%, as well as remove all customization. Proceed?","Если положить <var 31 ((Item)) 03E8020202 /var> в шкаф снаряжения, то материзация предмета сбросится до 0%, прочность — до 100% и будет потеряна вся кастомизация. Продолжить?","","False","0x0000122A","",""
+"","Placing <var 31 ((Item)) 03E8020202 /var> in the armoire will reset its spiritbond to 0%, as well as remove all customization. Gear with condition below 100% cannot be stored. Proceed?","122A_Placing <var 31 ((Item)) 03E8020202 /var> in the armoire will reset its spiritbond to 0%, as well as remove all customization. Gear with condition below 100% cannot be stored. Proceed?","","True","0x0000122A","",""
 "","Yes","Да","","False","0x0000122B","",""
 "","No","Нет","","False","0x0000122C","",""
 "","Unable to meld this materia to an item with materia already attached.","Нельзя вставить материю в предмет, в котором уже есть материя.","","False","0x0000122E","",""
@@ -5312,6 +5322,7 @@ Results may take longer to display.<var 49 01 /var><var 48 01 /var>","Искат
 "","This quest has already been completed.
 You will not receive a reward.","Это задание уже был завершено.
 Вы не получите награду.","","False","0x0000157A","",""
+"","Return Timer","157B_Return Timer","","True","0x0000157B","",""
 "","Open the FINAL FANTASY XIV Lodestone playguide in your default web browser?","Открыть игровой гид в FINAL FANTASY XIV Lodestone в вашем браузере по умолчанию?","","False","0x0000157C","",""
 "","Yes","Да","","False","0x0000157D","",""
 "","No","Нет","","False","0x0000157E","",""
@@ -5568,7 +5579,7 @@ Proceed?","Не удастся получить следующие предме�
 "","<var 48 F201FC /var><var 49 F201FD /var>Unable to apply glamours. Insufficient prisms.<var 49 01 /var><var 48 01 /var>","<var 48 F201FC /var><var 49 F201FD /var>Не удалось зачаровать гламур. Недостаточно призм.<var 49 01 /var><var 48 01 /var>","","False","0x00001672","",""
 "","Glamoured gear will be bound to you.","Снаряжение с гламуром будет привязано к вам.","","False","0x00001673","",""
 "","Tribal","Племенная","","False","0x00001676","",""
-"","Beastman Currency","Валюта диких племён","","False","0x00001677","",""
+"","Tribal Currency","1677_Tribal Currency","","True","0x00001677","",""
 "","A Realm Reborn","1678_A Realm Reborn","","True","0x00001678","",""
 "","Heavensward","1679_Heavensward","","True","0x00001679","",""
 "","Stormblood","167A_Stormblood","","True","0x0000167A","",""
@@ -5586,6 +5597,14 @@ Proceed?","Не удастся получить следующие предме�
 "","None","Нет","","False","0x00001686","",""
 "","Default HUD Currency","Показывать эту валюту","","False","0x00001687","",""
 "","FATE","FATE","","False","0x00001688","",""
+"","Rotation","1689_Rotation","","True","0x00001689","",""
+"","Default","168A_Default","","True","0x0000168A","",""
+"","The above currency will display on the HUD by default. Right-click on the currency icon to cycle through currencies in your rotation. The order in which they display can be changed via the arrows to the right of each rotation slot.","168B_The above currency will display on the HUD by default. Right-click on the currency icon to cycle through currencies in your rotation. The order in which they display can be changed via the arrows to the right of each rotation slot.","","True","0x0000168B","",""
+"","1.","168C_1.","","True","0x0000168C","",""
+"","2.","168D_2.","","True","0x0000168D","",""
+"","3.","168E_3.","","True","0x0000168E","",""
+"","4.","168F_4.","","True","0x0000168F","",""
+"","5.","1690_5.","","True","0x00001690","",""
 "","UI Element Settings","Настройки элемента интерфейса","","False","0x00001694","",""
 "","","","","False","0x00001695","",""
 "","Current Element","Текущий элемент","","False","0x00001696","",""
@@ -5719,69 +5738,91 @@ Do you still wish to proceed?","У вас уже есть следующий м�
 "","Initiate Movement","Начать движение у всех","","False","0x0000171E","",""
 "","Reset Movement","Сбросить движение у всех","","False","0x0000171F","",""
 "","Face Camera:
-Keyboard: <var 08 E4E94F04 ((space)) ((Space)) /var> Key
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0C /var> Button","Смотреть в камеру:
-Клавиатура: <var 08 E4E94F04 ((Пробел)) ((Пробел)) /var>
-<var 08 E1E94C01 ((Контроллер)) ((Геймпад)) /var>: Кнопка <var 1E 0C /var>","","False","0x00001720","",""
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Jump)) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0C /var> Button","1720_Face Camera:
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Jump)) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0C /var> Button","","True","0x00001720","",""
 "","Disable/Enable Camera Lighting 1:
-Keyboard: X Key
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","Включить/отключить освещение камеры 1:
-Клавиатура: Клавиша X
-<var 08 E1E94C01 ((Контроллер)) ((Геймпад)) /var>: Кнопка <var 1E 0E /var>","","False","0x00001721","",""
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Target Filters)) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","1721_Disable/Enable Camera Lighting 1:
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Target Filters)) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","","True","0x00001721","",""
 "","Disable/Enable Target Motion
-Keyboard: 2 Key
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 10 /var> Button","Остановить/возобновить движения цели
-Клавиатура: Клавиша 2
-<var 08 E1E94C01 ((Контроллер)) ((Геймпад)) /var>: Кнопка <var 1E 10 /var>","","False","0x00001722","",""
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+#1 - Slot [#2])) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 10 /var> Button","1722_Disable/Enable Target Motion
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+#1 - Slot [#2])) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 10 /var> Button","","True","0x00001722","",""
 "","Disable/Enable All Motion
-Keyboard: 1 Key
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0F /var> Button","Остановить/возобновить все движения
-Клавиатура: Клавиша 1
-<var 08 E1E94C01 ((Контроллер)) ((Геймпад)) /var>: Кнопка <var 1E 0F /var>","","False","0x00001723","",""
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+#1 - Slot [#1])) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0F /var> Button","1723_Disable/Enable All Motion
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+#1 - Slot [#1])) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0F /var> Button","","True","0x00001723","",""
 "","Disable/Enable Camera Angle Toggle:
 Mouse:  Left Click
-Keyboard: NUM0
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Confirm)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 09 /var> Button","1724_Disable/Enable Camera Angle Toggle:
 Mouse:  Left Click
-Keyboard: NUM0
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Confirm)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 09 /var> Button","","True","0x00001724","",""
 "","Toggle Camera Angle:
-Keyboard: <var 08 E4E94F04 ((tab)) ((Tab)) /var> Key
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Cycle Tabs =Forward)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 07 /var> Directional Buttons","1725_Toggle Camera Angle:
-Keyboard: <var 08 E4E94F04 ((tab)) ((Tab)) /var> Key
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Cycle Tabs =Forward)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 07 /var> Directional Buttons","","True","0x00001725","",""
 "","Reset Camera Angle:
-Keyboard: Z Key
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
 Camera Controls:
-Keyboard: Q, W, E, A, S, D Keys
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","Сбросить угол камеры:
-Клавиатура: Клавиша Z
-<var 08 E1E94C01 ((Контроллер)) ((Геймпад)) /var>: Кнопка <var 12 11 /var>
-Управление камерой:
-Клавиатура: Клавиши Q, W, E, A, S, D
-<var 08 E1E94C01 ((Контроллер)) ((Геймпад)) /var>: <var 08 E1E94C01 ((Джойстик)) ((Мини-джойстик)) /var> <var 1E 15 /var>","","False","0x00001726","",""
+ ・Direction: Movement Keys
+ ・Rotation: Strafe Left/Right
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","1726_Reset Camera Angle:
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
+Camera Controls:
+ ・Direction: Movement Keys
+ ・Rotation: Strafe Left/Right
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","True","0x00001726","",""
 "","Reset Camera Angle:
-Keyboard: Z Key
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
 Camera Controls:
-Keyboard: W, A, S, D Keys
+Keyboard: Movement Keys
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","1727_Reset Camera Angle:
-Keyboard: Z Key
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
 Camera Controls:
-Keyboard: W, A, S, D Keys
+Keyboard: Movement Keys
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","True","0x00001727","",""
 "","Reset Camera Angle:
-Keyboard: Z Key
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
 Camera Controls:
-Keyboard: Q, W, E, A, S, D Keys
+ ・Direction: Movement Keys
+ ・Rotation: Strafe Left/Right
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","1728_Reset Camera Angle:
-Keyboard: Z Key
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
 Camera Controls:
-Keyboard: Q, W, E, A, S, D Keys
+ ・Direction: Movement Keys
+ ・Rotation: Strafe Left/Right
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","True","0x00001728","",""
 "","Reset Limb Darkening","Сбросить затемнение краёв","","False","0x00001729","",""
 "","Level","Уровень","","False","0x0000172A","",""
@@ -5803,10 +5844,12 @@ Keyboard: Q, W, E, A, S, D Keys
 "","Apply Status to All","Применить статус на всех","","False","0x00001735","",""
 "","Reset Status","Сбросить статус","","False","0x00001736","",""
 "","Disable/Enable Camera Lighting 1:
-Keyboard: X Key
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","Отключить/включить освещение камеры 1:
-Клавиатура: Клавиша X
-<var 08 E1E94C01 ((Контроллер)) ((Геймпад)) /var>: Кнопка <var 1E 0E /var>","","False","0x00001737","",""
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Target Filters)) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","1737_Disable/Enable Camera Lighting 1:
+Keyboard: <var 08 E4EA02EB01 ((Not Set
+ Default: Target Filters)) ((<var 29 EA02 /var>)) /var>
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","","True","0x00001737","",""
 "","Apply Lighting 2 to Camera Position","Применить освещение 2 к позиции камеры","","False","0x00001738","",""
 "","Apply Lighting 3 to Camera Position","Применить освещение 3 к позиции камеры","","False","0x00001739","",""
 "","Reset Lighting Settings","Сбросить настройки освещения","","False","0x0000173A","",""
@@ -7055,7 +7098,7 @@ Proceed with these components?
 "","<var 09 E802 ((Available to free companies.)) ((Unavailable to free companies.)) /var>","<var 09 E802 ((Доступно для вольных компаний.)) ((Недоступно для вольных компаний.)) /var>","","False","0x00001B80","",""
 "","<var 09 E802 ((Available to private buyers.)) ((Unavailable to private buyers.)) /var>","<var 09 E802 ((Доступно для частной покупки.)) ((Недоступно для частной покупки.)) /var>","","False","0x00001B81","",""
 ""," "," ","","False","0x00001B82","",""
-"","<var 09 E802 ((Selling on a first-come, first-served basis.)) ((Selling via lottery. (Current participants: <var 20 E803 /var>))) ((Currently unavailable for purchase.)) /var>","<var 09 E802 ((Будет сразу продано первому покупателю.)) ((Продажа через лотерею. (Текущие участники: <var 20 E803 /var>))) ((На данный момент недоступно для покупки.)) /var>","","False","0x00001B83","",""
+"","<var 09 E802 ((Selling on a first-come-first-served basis.)) ((Selling via lottery. (Current participants: <var 20 E803 /var>))) ((Currently unavailable for purchase.)) /var>","1B83_<var 09 E802 ((Selling on a first-come-first-served basis.)) ((Selling via lottery. (Current participants: <var 20 E803 /var>))) ((Currently unavailable for purchase.)) /var>","","True","0x00001B83","",""
 "","<var 09 E803 ((Accepting entries until <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Results period ends <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) /var>.","<var 09 E803 ((Заявки принимаются до <var 07 E802 /var><var 20 DB /var>:<var 24 DA /var> <var 08 E4E94E04 ((<var 20 DC /var>.<var 20 DE /var>.<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Период показа результатов завершится в <var 07 E802 /var><var 20 DB /var>:<var 24 DA /var> <var 08 E4E94E04 ((<var 20 DC /var>.<var 20 DE /var>.<var 20 DF /var>)) ((<var 20 DE /var>.<var 20 DC /var>.<var 20 DF /var>)) /var>)) /var>.","","False","0x00001B84","",""
 "","Enter Lottery","Войти в лотерею","","False","0x00001B85","",""
 "","Do you wish to deposit <var 22 E802 ((,)) /var> gil to enter the lottery for this plot of land? Please note that you may only enter the lottery for one plot of land during each lottery period.
@@ -7635,6 +7678,9 @@ Waymarks can only be saved and loaded during certain duties.","Метки мож
 "","Engaged Enemies","Нападающие враги","","False","0x00001EE5","",""
 "","Custom","Особое","","False","0x00001EE6","",""
 "","Others","Другие","","False","0x00001EE7","",""
+"","Recast Timer Position","1EE8_Recast Timer Position","","True","0x00001EE8","",""
+"","Type 1: Bottom Left","1EE9_Type 1: Bottom Left","","True","0x00001EE9","",""
+"","Type 2: Centered","1EEA_Type 2: Centered","","True","0x00001EEA","",""
 "","Ctrl","1EEB_Ctrl","","True","0x00001EEB","",""
 "","Alt","1EEC_Alt","","True","0x00001EEC","",""
 "","Shift","1EED_Shift","","True","0x00001EED","",""
@@ -8562,7 +8608,7 @@ Accept?","","True","0x0000215A","",""
 "","300% (Available only in 4K resolution)","2234_300% (Available only in 4K resolution)","","True","0x00002234","",""
 "","Enlarge system UI.","2235_Enlarge system UI.","","True","0x00002235","",""
 "","※ Only increases scale for certain system-related UI elements.","2236_※ Only increases scale for certain system-related UI elements.","","True","0x00002236","",""
-"","DualSense/DUALSHOCK 4 Settings <var 09 E94F (((<var 12 40 /var>DirectX 11/Windows required.))) /var>","Настройки DualSense/DUALSHOCK 4 <var 09 E94F (((<var 12 40 /var>Требуется DirectX 11/Windows.))) /var>","","False","0x00002237","",""
+"","DualSense/DUALSHOCK 4 Settings <var 09 E94F (((<var 12 40 /var>DirectX 11 required.))) (()) (((<var 12 40 /var>Windows required.))) /var>","2237_DualSense/DUALSHOCK 4 Settings <var 09 E94F (((<var 12 40 /var>DirectX 11 required.))) (()) (((<var 12 40 /var>Windows required.))) /var>","","True","0x00002237","",""
 "","Spatial Audio <var 09 E94F (((<var 12 40 /var>DirectX 11 is required to enable this feature.))) (()) (((<var 12 40 /var>This feature is only available on Windows.))) /var>","Пространственный звук <var 09 E94F (((<var 12 40 /var>Требуется DirectX 11.))) (()) (((<var 12 40 /var>Только в Windows.))) /var>","","False","0x00002238","",""
 "","Enable Immerse Spatial Audio","Включить пространственный звук Immerse","","False","0x00002239","",""
 "","Learn more about Immerse Spatial Audio","Узнать больше про пространственный звук Immerse","","False","0x0000223A","",""
@@ -8578,8 +8624,12 @@ Accept?","","True","0x0000215A","",""
 "","Immerse Gamepack is not installed. Select the website button to download.","Immerse Gamepack не установлен. Нажмите выше на кнопку перехода на сайт для загрузки Immerse Gamepack.","","False","0x0000223E","",""
 "","<var 12 40 /var>Profile incomplete. Please launch the Immerse Gamepack FINAL FANTASY XIV Edition app.","<var 12 40 /var>Настройка профиля не завершена. Откройте приложение Immerse Gamepack FINAL FANTASY XIV Edition, чтобы её завершить.","","False","0x0000223F","",""
 "","<var 12 40 /var>Profile incomplete. Please launch the Immerse Gamepack FINAL FANTASY XIV Edition app.","<var 12 40 /var>Настройка профиля не завершена. Откройте приложение Immerse Gamepack FINAL FANTASY XIV Edition, чтобы её завершить.","","False","0x00002240","",""
-"","Immerse Spatial Audio is ready.","Пространственный звук Immerse готов.","","False","0x00002241","",""
-"","Immerse Spatial Audio is on.","Пространственный звук Immerse включён.","","False","0x00002242","",""
+"","Immerse Spatial Audio is ready.
+Adjusting Listening Position may further enhance audio quality.","2241_Immerse Spatial Audio is ready.
+Adjusting Listening Position may further enhance audio quality.","","True","0x00002241","",""
+"","Immerse Spatial Audio is on.
+Adjusting Listening Position may further enhance audio quality.","2242_Immerse Spatial Audio is on.
+Adjusting Listening Position may further enhance audio quality.","","True","0x00002242","",""
 "","<var 12 40 /var>There is an error. Please launch the Immerse Gamepack FINAL FANTASY XIV Edition app.","<var 12 40 /var>Произошла ошибка. Откройте приложение Immerse Gamepack FINAL FANTASY XIV Edition.","","False","0x00002243","",""
 "","<var 12 40 /var>Waiting for a response from the Immerse Gamepack.","<var 12 40 /var>Ожидание ответа от Immerse Gamepack.","","False","0x00002244","",""
 "","<var 12 40 /var>Update available. Download now in the Immerse Gamepack FINAL FANTASY XIV Edition app.","<var 12 40 /var>Доступно обновление. Загрузите и установите его в приложении Immerse Gamepack FINAL FANTASY XIV Edition.","","False","0x00002245","",""
@@ -8607,7 +8657,7 @@ Accept?","","True","0x0000215A","",""
 "","※Auto-demolition canceled upon owner arrival.","※Автоматический снос будет отменён, если в участок зайдёт его владелец.","","False","0x00002265","",""
 "","Mission available.","2266_Mission available.","","True","0x00002266","",""
 "","<var 08 E1E80264 ((99+)) ((<var 20 E802 /var>)) /var><var 08 E804 ((/<var 08 E1E80364 ((99+)) ((<var 20 E803 /var>)) /var>)) (()) /var>","<var 08 E1E80264 ((99+)) ((<var 20 E802 /var>)) /var><var 08 E804 ((/<var 08 E1E80364 ((99+)) ((<var 20 E803 /var>)) /var>)) (()) /var>","","False","0x00002267","",""
-"","Next Beast Tribe Daily Quest Allowance","Ежедневные задания зверолюдей","","False","0x00002268","",""
+"","Next Tribal Daily Quest Allowance","2268_Next Tribal Daily Quest Allowance","","True","0x00002268","",""
 "","Today's Remaining Allowances: <var 20 E802 /var>","Осталось допусков на сегодня: <var 20 E802 /var>","","False","0x00002269","",""
 "","Custom Deliveries","Особые доставки","","False","0x0000226A","",""
 "","Confirm current delivery status.","Посмотреть статус текущих особых доставок.","","False","0x0000226B","",""
@@ -8856,8 +8906,8 @@ Taken","Получено
 "","After","После","","False","0x00002357","",""
 "","Once a chocobo is put out to pasture it cannot be re-registered as a race chocobo. Proceed?","Как только вы отпустите скакового чокобо на пастбище, его нельзя будет вернуть себе обратно. Продолжить?","","False","0x00002358","",""
 "","Retire chocobo.","Отпустить чокобо.","","False","0x00002359","",""
-"","A race chocobo less than rank 40 cannot be retired. Proceed and <var 2B EA02 /var> will become property of the Manderville Gold Saucer.","Нельзя отпустить на пастбище скакового чокобо, у которого ранг меньше 40. Если продолжить, то <var 2B EA02 /var> станет собственностью «Золотого Блюдца Мандервилля».","","False","0x0000235A","",""
-"","Bid your chocobo farewell.","Попрощаться со своим чокобо.","","False","0x0000235B","",""
+"","You cannot receive a retired chocobo registration form for race chocobos less than rank 40. Proceed and <var 2B EA02 /var> will become property of the Manderville Gold Saucer.","235A_You cannot receive a retired chocobo registration form for race chocobos less than rank 40. Proceed and <var 2B EA02 /var> will become property of the Manderville Gold Saucer.","","True","0x0000235A","",""
+"","Forgo retirement registration. Beat it, bird!","235B_Forgo retirement registration. Beat it, bird!","","True","0x0000235B","",""
 "","Naming","Кличка","","False","0x0000235E","",""
 "","","","","False","0x0000235F","",""
 "","Choose a name for your race chocobo. You may select one word or a combination of two words from the list of available terms.","Выберите кличку для своего скакового чокобо. Можно выбрать либо одно слово, либо комбинацию из двух слов строго из списка доступных слов.","","False","0x00002360","",""
@@ -9616,11 +9666,11 @@ Proceed with this deck?","Карты нельзя будет поменять п
 "","Display unowned cards only","Показать карты, которых у меня нет","","False","0x00002632","",""
 "","No cards match current filter settings.","Нет карт, подходящих текущему фильтру.","","False","0x00002633","",""
 "","Triple Triad tutorial.","Обучение Тройному Трио.","","False","0x00002634","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80227 /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E80227 /var>)) /var>","","False","0x00002635","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80227 /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E80227 /var>)) /var>","","False","0x00002636","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80327 /var>)) /var>
-<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E80327 /var>)) /var>
-<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","","False","0x00002637","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","2635_<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","","True","0x00002635","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","2636_<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","","True","0x00002636","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E80328 /var>)) /var>
+<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","2637_<var 2B ((<var 28 ((ContentFinderCondition)) E80328 /var>)) /var>
+<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","","True","0x00002637","",""
 "","<var 2B ((<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80306 /var>)) 01 /var>)) /var>
 <var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 2B ((<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80306 /var>)) 01 /var>)) /var>
 <var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","","False","0x00002638","",""
@@ -9640,9 +9690,9 @@ Place in top rankings.","<var 2B ((<var 28 ((TripleTriadCompetition)) E80201 /va
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","<var 61 E803 /var>
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","False","0x0000263D","",""
 "","<var 2B ((<var 28 ((Achievement)) E80202 /var>)) /var>","<var 2B ((<var 28 ((Achievement)) E80202 /var>)) /var>","","False","0x0000263E","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80227 /var>)) /var>
-Happy bunny treasure hunt.","<var 2B ((<var 28 ((ContentFinderCondition)) E80227 /var>)) /var>
-Охота за сокровищами с весёлым кроликом.","","False","0x0000263F","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>
+Happy bunny treasure hunt.","263F_<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>
+Happy bunny treasure hunt.","","True","0x0000263F","",""
 "","???","???","","False","0x00002640","",""
 "","Final Rankings","Финальные результаты","","False","0x00002641","",""
 "","CHAMPION","2642_CHAMPION","","False","0x00002642","",""
@@ -10791,7 +10841,7 @@ Proceed?","","True","0x000029E5","",""
 "","Match Count","2A37_Match Count","","True","0x00002A37","",""
 "","Tournament Entry","Регистрация на турнир","","False","0x00002A38","",""
 "","Tournament Registration Period","2A39_Tournament Registration Period","","True","0x00002A39","",""
-"","<var 28 ((ContentFinderCondition)) E80227 /var>","<var 28 ((ContentFinderCondition)) E80227 /var>","","False","0x00002A3A","",""
+"","<var 28 ((ContentFinderCondition)) E80228 /var>","2A3A_<var 28 ((ContentFinderCondition)) E80228 /var>","","True","0x00002A3A","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>※The “Duty Complete” option is only available for previously
 　completed duties.
 ※Practice phase selection does not entail the actual skipping of
@@ -11122,7 +11172,7 @@ Attempts remaining: <var 20 E803 /var>","Открыть <var 31 ((Item)) 03E8020
 "","Thank you.<var 60 0262 /var>","Спасибо.<var 60 0262 /var>","","False","0x00002B18","",""
 "","Nice job!<var 60 0262 /var>","Хорошая работа!<var 60 0262 /var>","","False","0x00002B19","",""
 "","<var 2B ((<var 28 ((Action)) E80201 /var>)) /var> <var 08 E4E80301 ((ready!<var 60 0263 /var>)) ((ready in <var 20 E803 /var>s!<var 60 0264 /var>)) /var>","<var 2B ((<var 28 ((Action)) E80201 /var>)) /var> <var 08 E4E80301 ((готово!<var 60 0263 /var>)) ((будет готово через <var 20 E803 /var> с.!<var 60 0264 /var>)) /var>","","False","0x00002B1A","",""
-"","Limit break <var 08 E4E80265 ((ready!<var 60 0263 /var>)) ((at <var 20 E802 /var>%!<var 60 0264 /var>)) /var>","Запредельная способность <var 08 E4E80265 ((готова!<var 60 0263 /var>)) ((на <var 20 E802 /var>%!<var 60 0264 /var>)) /var>","","False","0x00002B1B","",""
+"","<var 2B ((<var 28 ((ClassJob)) E80301 /var>)) /var>: Limit break <var 08 E4E80265 ((ready!<var 60 0263 /var>)) ((at <var 20 E802 /var>%!<var 60 0264 /var>)) /var>","2B1B_<var 2B ((<var 28 ((ClassJob)) E80301 /var>)) /var>: Limit break <var 08 E4E80265 ((ready!<var 60 0263 /var>)) ((at <var 20 E802 /var>%!<var 60 0264 /var>)) /var>","","True","0x00002B1B","",""
 "","Collecting offensive supplies!<var 60 0265 /var>","2B1C_Collecting offensive supplies!<var 60 0265 /var>","","True","0x00002B1C","",""
 "","Collecting defensive supplies!<var 60 0265 /var>","2B1D_Collecting defensive supplies!<var 60 0265 /var>","","True","0x00002B1D","",""
 "","Collecting adrenaline supplies!<var 60 0265 /var>","2B1E_Collecting adrenaline supplies!<var 60 0265 /var>","","True","0x00002B1E","",""
@@ -11409,8 +11459,8 @@ High Score
 "","Promotion Qualifier Available","2C68_Promotion Qualifier Available","","True","0x00002C68","",""
 "","<var 08 E4E80201 ((Until Promotion:)) ((Until Qualifier:)) /var>","2C69_<var 08 E4E80201 ((Until Promotion:)) ((Until Qualifier:)) /var>","","True","0x00002C69","",""
 "","A gobtank has emerged near the core.
-Adrenaline, ceruleum, and Soaring effects are increased for all team members.","2C6A_A gobtank has emerged near the core.
-Adrenaline, ceruleum, and Soaring effects are increased for all team members.","","True","0x00002C6A","",""
+Limit gauge, ceruleum, and Soaring effects are increased for all team members.","2C6A_A gobtank has emerged near the core.
+Limit gauge, ceruleum, and Soaring effects are increased for all team members.","","True","0x00002C6A","",""
 "","Team","Команда","","False","0x00002C6B","",""
 "","<var 09 E802 ((Falcon Tower)) ((Raven Tower)) /var> <var 20 E804 /var>
 Integrity: <var 20 E803 /var>%","2C6C_<var 09 E802 ((Falcon Tower)) ((Raven Tower)) /var> <var 20 E804 /var>
@@ -11441,7 +11491,7 @@ awaiting deployment (<var 20 E803 /var>:<var 24 E804 /var>).)) /var>","","True",
 Soaring effect is increased for all team members.","2C77_A gobtank has emerged near the core.
 Soaring effect is increased for all team members.","","True","0x00002C77","",""
 "","Ceruleum and Soaring effects are increased for all team members.","2C78_Ceruleum and Soaring effects are increased for all team members.","","True","0x00002C78","",""
-"","Adrenaline and Soaring effects are increased for all team members.","2C79_Adrenaline and Soaring effects are increased for all team members.","","True","0x00002C79","",""
+"","Limit gauge and Soaring effects are increased for all team members.","2C79_Limit gauge and Soaring effects are increased for all team members.","","True","0x00002C79","",""
 "","Unable to mount machina.","2C7A_Unable to mount machina.","","True","0x00002C7A","",""
 "","Another party member has already mounted.","2C7B_Another party member has already mounted.","","True","0x00002C7B","",""
 "","Ceruleum is depleted.","2C7C_Ceruleum is depleted.","","True","0x00002C7C","",""
@@ -11769,7 +11819,7 @@ Activate a logos action to convert <var 08 E1E80202 ((the two mnemes)) ((the mne
 "","Sorry!<var 60 0264 /var>","Извините!<var 60 0264 /var>","","False","0x00002DC1","",""
 "","I'm going on ahead!<var 60 0269 /var>","Выдвигаюсь вперёд!<var 60 0269 /var>","","False","0x00002DC2","",""
 "","Falling back!<var 60 0264 /var>","Отступаем!<var 60 0264 /var>","","False","0x00002DC3","",""
-"","Moving the crystal now!<var 60 0266 /var>","Двигаю кристалл!<var 60 0266 /var>","","False","0x00002DC4","",""
+"","<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Moving the crystal now!<var 60 0266 /var>","2DC4_<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Moving the crystal now!<var 60 0266 /var>","","True","0x00002DC4","",""
 "","Push the crystal!<var 60 0269 /var>","Двигайте кристалл!<var 60 0269 /var>","","False","0x00002DC5","",""
 "","Covering <var 28 ((ClassJob)) E80201 /var>!<var 60 0263 /var>","Прикрываю <var 28 ((ClassJob)) E80201 /var>!<var 60 0263 /var>","","False","0x00002DC6","",""
 "","PvP Team Board","2DC8_PvP Team Board","","True","0x00002DC8","",""
@@ -11789,7 +11839,8 @@ To create a PvP team, the following conditions must be met:
 ・Members cannot be part of another PvP team
 ・Parties must have 4-6 members (cross-world allowed)
 ・All members must have unlocked PvP
-・Players on free trial accounts are not allowed","2DCF_PvP teams are adventurers who, rather than have their companions
+・Players on free trial accounts are not allowed
+・All members must have Home Worlds in the current data center","2DCF_PvP teams are adventurers who, rather than have their companions
 chosen at random, join together to take on Crystalline Conflict and other PvP duties in custom-made parties of their own creation.
 
 To create a PvP team, the following conditions must be met:
@@ -11797,7 +11848,8 @@ To create a PvP team, the following conditions must be met:
 ・Members cannot be part of another PvP team
 ・Parties must have 4-6 members (cross-world allowed)
 ・All members must have unlocked PvP
-・Players on free trial accounts are not allowed","","True","0x00002DCF","",""
+・Players on free trial accounts are not allowed
+・All members must have Home Worlds in the current data center","","True","0x00002DCF","",""
 "","Team Rating","2DD0_Team Rating","","True","0x00002DD0","",""
 "","Team rating is a numerical value that indicates the relative strength of
 a PvP team. This value will increase or decrease based on performance
@@ -12580,6 +12632,7 @@ Tactical Rating","<var 08 E1E80301 ((★)) ((　)) /var><var 09 E802 ((<var 12 3
 "","Ranking and rate are shared between full and quick match types.
 Please bear this in mind before choosing to reset.","Рейтинг и ранг — общие в полных и быстрых матчах.
 Имейте это в виду, принимая решение сбросить их.","","False","0x00003097","",""
+"","Rating","3098_Rating","","True","0x00003098","",""
 "","Complete","Выполнено","","False","0x00003099","",""
 "","Not Complete","Не выполнено","","False","0x0000309A","",""
 "","Complete","Выполнено","","False","0x0000309B","",""
@@ -12632,7 +12685,7 @@ Please bear this in mind before choosing to reset.","Рейтинг и ранг 
 "","Lv. <var 20 E802 /var>","Ур. <var 20 E802 /var>","","False","0x000030CA","",""
 "","Stage Results","30CB_Stage Results","","False","0x000030CB","",""
 "","Stage","30CC_Stage","","False","0x000030CC","",""
-"","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E80327 /var>","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E80327 /var>","","False","0x000030CD","",""
+"","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E80328 /var>","30CD_<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E80328 /var>","","True","0x000030CD","",""
 "","Clear Time","30CE_Clear Time","","False","0x000030CE","",""
 "","<var 20 E802 /var>m <var 24 E803 /var>s","30CF_<var 20 E802 /var>m <var 24 E803 /var>s","","True","0x000030CF","",""
 "","Bonus","30D0_Bonus","","False","0x000030D0","",""
@@ -12691,7 +12744,9 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Linkshells cannot be created or joined
 
 <var 08 E1E80201 ((<var 48 F20202 /var>PvP Teams<var 48 01 /var>
-　・All functions for PvP teams, including chat, are inaccessible
+　・PvP teams cannot be used
+　・PvP team information cannot be viewed
+　・PvP teams cannot be created or joined
 
 <var 48 F20202 /var>Fellowships<var 48 01 /var>
 　・All functions for fellowships, excluding recruitment search, are inaccessible
@@ -12710,7 +12765,7 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Others' ceremonies cannot be attended
 
 <var 48 F20202 /var>Duties/Features<var 48 01 /var>
-<var 08 E1E80201 ((　・PvP results will not influence ranking
+<var 08 E1E80201 ((　・Crystalline Conflict ranked matches cannot be entered
 )) (()) /var>　・Lord of Verminion tournaments cannot be entered
 　・Triple Triad tournaments cannot be entered
 　・Cactpot tickets cannot be purchased
@@ -12719,73 +12774,75 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Friendship circlet and eternal bonding teleportation is
 　　available only if both parties are on the same World
 　・Legendary and unspoiled gathering nodes are inaccessible
-","<var 08 E4E80203 ((　　　　　　　　　　<var 48 F20202 /var>Система посещения дата-центров<var 48 01 /var>
-Система посещения дата-центров — это расширение функции посещения миров, позволяющая путешествовать по мирам внутри других дата-центров. Помимо существующих ограничений при посещении миров будут накладываться ещё дополнительные ограничения.
+","30E2_<var 08 E4E80203 ((　　　　　　　　　　<var 48 F20202 /var>Data Center Travel System<var 48 01 /var>
+The Data Center Travel system is an extension of the World Visit system, and allows you to temporarily visit Worlds in other data centers. Certain restrictions apply to data center travel, including those dictated by the World Visit system.
 
-　　　　　　　<var 48 F20202 /var>Посещение других дата-центров<var 48 01 /var>
-　・Посещение другого дата-центра может занять до 30 минут в зависимости от переполненности сервера.
-　・Вы не сможете отменить посещение другого дата-центра после начала этого процесса. Ваш аккаунт будет временно заблокирован для того, чтобы нельзя было войти за какого-либо персонажа до завершения процесса посещения.
-　・После подачи запроса на посещение другого дата-центра вы попадёте на главный экран. По завершении процесса посещения выберите интересующий дата-центр и войдите в игру.
-　・Пока вы не вернётесь обратно в свой дата-центр, вы не сможете входить или проводить какие-либо действия с персонажами в вашем Домашнем мире.
-　・Другие дата-центры можно посещать только из вашего Домашнего дата-центра. То есть если вы, будучи не в Домашнем дата-центре, захотите перейти на другой дата-центр, который тоже не является вашим Домашним, вам необходимо сначала вернуться в Домашний дата-центр, а потом из него подать запрос на переход в интересующий дата-центр.
+　　　　　　　<var 48 F20202 /var>Visiting other Data Centers<var 48 01 /var>
+　・Depending on server congestion, travel to other data centers may take up to thirty minutes.
+　・You may not cancel data center travel while it is in progress. Your account will be temporarily locked, preventing you from logging in with any character until travel has been completed.
+　・After submitting a Data Center Visit request, you will be returned to the title screen. Once travel has been successfully completed, select the appropriate data center and log in.
+　・Until you have returned from visiting another data center, you may not log in or perform other actions with characters in your Home World.
+　・You may only travel to other data centers from your Home Data Center. If you wish to travel to a data center different from the one you are currently visiting, you must first return to your Home Data Center and submit a Data Center Visit request from there.
 
-)) (()) /var><var 08 E3E80203 ((　　　　　　　　　　<var 48 F20202 /var>Система посещения миров<var 48 01 /var>
-Система посещения миров позволяет вам перейти из <var 08 E4E80201 ((вашего Домашнего мира)) ((мира, в котором вы сейчас гостите,)) /var> в другие миры в пределах одного дата-центра. В них вы можете встречаться с друзьями, выполнять вместе различные миссии, покупать предметы на рынке и прочее.
+)) (()) /var><var 08 E3E80203 ((　　　　　　　　　　<var 48 F20202 /var>World Visit System<var 48 01 /var>
+The World Visit System allows you to travel from <var 08 E4E80201 ((your Home World)) ((the World you are currently visiting)) /var> to different World servers within the same data center. While visiting different Worlds, you may party with friends, purchase items, tackle duties, and more.
 
-　　　　　　　　　　<var 48 F20202 /var>Посещение других миров<var 48 01 /var>
-Перемещение в интересующий мир может занимать несколько минут и зависит от переполненности этого мира. Как только подготовка к перемещению будет завершена, оно автоматически начнётся. Это остановит все текущие действия и миссии.
+　　　　　　　　　　<var 48 F20202 /var>Visiting Other Worlds<var 48 01 /var>
+Depending on the congestion of the target World, travel may take several minutes. Once preparations have been completed, travel will occur automatically and cancel all current actions/duties.
 
-)) (()) /var>　　　　　　　　　<var 48 F20202 /var>Ограничения при посещении других <var 08 E1E80201 ((дата-центров)) ((миров)) /var><var 48 01 /var>
-<var 08 E4E80202 ((Вы сейчас находитесь не в своём Домашнем дата-центре. )) (()) /var>При игре в другом <var 08 E1E80201 ((дата-центре)) ((мире)) /var> накладываются следующие ограничения:
+)) (()) /var>　　　　　　　　　<var 48 F20202 /var>Restrictions While Visiting <var 08 E1E80201 ((Other Data Centers)) ((Other Worlds)) /var><var 48 01 /var>
+<var 08 E4E80202 ((You are currently outside your Home Data Center. )) (()) /var>The following restrictions apply when playing <var 08 E1E80201 ((in another data center)) ((on other World servers)) /var>:
 
-<var 08 E1E80201 ((<var 48 F20202 /var>Список друзей<var 48 01 /var>
-　・Друзья из разных дата-центров не могут общаться друг с другом
-　・Нельзя сформировать группу с друзьями из других дата-центров
+<var 08 E1E80201 ((<var 48 F20202 /var>Friend List<var 48 01 /var>
+　・Friends in different data centers cannot communicate
+　・Parties cannot be formed with friends in different data centers
 
-)) (()) /var><var 48 F20202 /var>Вольные компании<var 48 01 /var>
-　・Нельзя создать вольную компанию или присоединиться к существующей
-　・Нельзя посмотреть информацию о вашей вольной компании
-　・Кредиты компании не будут зарабатываться
+)) (()) /var><var 48 F20202 /var>Free Companies<var 48 01 /var>
+　・Free companies cannot be formed or joined
+　・Free company information cannot be viewed
+　・Company credits cannot be earned
 
-<var 08 E1E80201 ((<var 48 F20202 /var>Межмировые линкшеллы<var 48 01 /var>
-　・Нельзя создать межмировые линкшеллы
-　・Нельзя получить роль хозяина межмирового линкшелла
+<var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
+　・Cross-world linkshells cannot be created
+　・Cross-world linkshell master privileges cannot be attained
 
-)) (()) /var><var 48 F20202 /var>Линкшеллы<var 48 01 /var>
-　・Нельзя использовать линкшеллы
-　・Нельзя посмотреть информацию о линкшеллах
-　・Нельзя создавать линкшеллы или присоединяться к существующим
+)) (()) /var><var 48 F20202 /var>Linkshells<var 48 01 /var>
+　・Linkshells cannot be used
+　・Linkshell information cannot be viewed
+　・Linkshells cannot be created or joined
 
-<var 08 E1E80201 ((<var 48 F20202 /var>Команды PvP<var 48 01 /var>
-　・Все функции, связанные с командами PvP, включая чат, недоступны
+<var 08 E1E80201 ((<var 48 F20202 /var>PvP Teams<var 48 01 /var>
+　・PvP teams cannot be used
+　・PvP team information cannot be viewed
+　・PvP teams cannot be created or joined
 
-<var 48 F20202 /var>Сообщества<var 48 01 /var>
-　・Все функции, связанные с сообществами, недоступны. Исключение: окно «Поиск сообществ»
+<var 48 F20202 /var>Fellowships<var 48 01 /var>
+　・All functions for fellowships, excluding recruitment search, are inaccessible
 
-)) (()) /var><var 48 F20202 /var>Слуги<var 48 01 /var>
-　・Нельзя призывать, нанимать и отпускать слуг
-　・Нельзя выставлять предметы на продажу на рынок, но при этом выставленные предметы можно покупать
+)) (()) /var><var 48 F20202 /var>Retainers<var 48 01 /var>
+　・Retainers cannot be summoned, hired, or released from service
+　・Items cannot be put up to market (but can be purchased)
 
-<var 48 F20202 /var>Жилая площадь<var 48 01 /var>
-　・Нельзя купить квартиру или участок
-　・Общий доступ к резиденции недоступен
+<var 48 F20202 /var>Housing<var 48 01 /var>
+　・Land and apartments cannot be purchased
+　・Residence sharing is unavailable
 
-<var 48 F20202 /var>Вечные Узы<var 48 01 /var>
-　・Церемонии Вечных Уз недоступны
-　・Задания Вечных Уз недоступны
-　・Нельзя принимать участие в чужих церемониях
+<var 48 F20202 /var>Eternal Bonding<var 48 01 /var>
+　・Ceremonies of Eternal Bonding are unavailable
+　・Eternal Bonding quests are unavailable
+　・Others' ceremonies cannot be attended
 
-<var 48 F20202 /var>Миссии и функции<var 48 01 /var>
-<var 08 E1E80201 ((　・Результаты PvP не будут влиять на рейтинговые таблицы
-)) (()) /var>　・Нельзя вступать в турниры Повелителя Верминьона
-　・Нельзя вступать в турниры Тройного Трио
-　・Нельзя покупать билеты Горшков
-　・Почтовая служба муглов недоступна
-　・Результаты глубоких подземелий не будут сохранены в таблицу результатов
-　・Циркуль дружбы и телепортация Вечных Уз будут работать только тогда,
-　　когда обе стороны находятся в одном мире
-　・Недоступны легендарные и нетронутые точки собирательства
-","","False","0x000030E2","",""
+<var 48 F20202 /var>Duties/Features<var 48 01 /var>
+<var 08 E1E80201 ((　・Crystalline Conflict ranked matches cannot be entered
+)) (()) /var>　・Lord of Verminion tournaments cannot be entered
+　・Triple Triad tournaments cannot be entered
+　・Cactpot tickets cannot be purchased
+　・The Moogle Delivery Service is unavailable
+　・Deep Dungeon results will not be saved to the leaderboards
+　・Friendship circlet and eternal bonding teleportation is
+　　available only if both parties are on the same World
+　・Legendary and unspoiled gathering nodes are inaccessible
+","","True","0x000030E2","",""
 "","Home World","Домашний мир","","False","0x000030E3","",""
 "","Current World","30E4_Current World","","True","0x000030E4","",""
 "","Unavailable World","30E5_Unavailable World","","True","0x000030E5","",""
@@ -13730,6 +13787,7 @@ Increases to <var 48 F201FA /var><var 49 F201FB /var>progress<var 49 01 /var><va
 "","Potential Conditions List","Список возможных статусов","","False","0x00003490","",""
 "","Potential Conditions List","Список возможных статусов","","False","0x00003491","",""
 "","","","","False","0x00003492","",""
+"","Quality Required for Synthesis: <var 20 E802 /var>","3493_Quality Required for Synthesis: <var 20 E802 /var>","","True","0x00003493","",""
 "","Resource Control","Контроль за ресурсами","","False","0x00003494","",""
 "","","","","False","0x00003495","",""
 "","Auto-submit","Предоставить","","False","0x00003496","",""
@@ -13926,10 +13984,17 @@ You will be rewarded only once regardless of the number of materia used.","Ва�
 "","Add to Hotbar","Добавить на хотбар","","False","0x0000356D","",""
 "","Use","Использовать","","False","0x0000356E","",""
 "","Accessory-specific stances are available via the Change Pose emote.","Особые позы аксессуаров доступны через эмоцию «Сменить позу».","","False","0x0000356F","",""
+"","Obtained with the Performance ability.","35BC_Obtained with the Performance ability.","","True","0x000035BC","",""
+"","Obtained from <var 31 ((Item)) 04E8020302 /var>, available as a PvP Series reward.","35BD_Obtained from <var 31 ((Item)) 04E8020302 /var>, available as a PvP Series reward.","","True","0x000035BD","",""
+"","Obtained as a Crystalline Conflict seasonal reward.
+<var 61 E803 /var>
+<var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","35BE_Obtained as a Crystalline Conflict seasonal reward.
+<var 61 E803 /var>
+<var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","True","0x000035BE","",""
 "","Obtained from <var 31 ((Item)) 04E8020302 /var>.","Доступно из <var 31 ((Item)) 04E8020302 /var>.","","False","0x000035BF","",""
 "","Standard element.","Стандартный элемент.","","False","0x000035C0","",""
 "","Obtained by completing the quest “<var 28 ((Quest)) E80201 /var>.”","Доступно при прохождении задания «<var 28 ((Quest)) E80201 /var>».","","False","0x000035C1","",""
-"","Obtained from <var 28 ((ContentFinderCondition)) E80227 /var>.","35C2_Obtained from <var 28 ((ContentFinderCondition)) E80227 /var>.","","True","0x000035C2","",""
+"","Obtained from <var 28 ((ContentFinderCondition)) E80228 /var>.","35C2_Obtained from <var 28 ((ContentFinderCondition)) E80228 /var>.","","True","0x000035C2","",""
 "","Obtained from <var 31 ((Item)) 04E8040302 /var>.
 <var 61 E803 /var>
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","Доступно из <var 31 ((Item)) 04E8040302 /var>.
@@ -14336,6 +14401,10 @@ Rate:
 "","Help","Помощь","","False","0x0000375F","",""
 "","Collectable Help","Помощь по добыче ценностей","","False","0x00003760","",""
 "","","","","False","0x00003761","",""
+"","Sublime Rate","3762_Sublime Rate","","True","0x00003762","",""
+"","<var 20 E802 /var>％","3763_<var 20 E802 /var>％","","True","0x00003763","",""
+"","Collectability","3764_Collectability","","True","0x00003764","",""
+"","<var 20 E802 /var>","3765_<var 20 E802 /var>","","True","0x00003765","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are normal.","Обычная прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var>.","","False","0x00003778","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 1.5 times higher than normal.","Прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var> в 1,5 раза выше, чем обычно.","","False","0x00003779","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 4 times higher than normal.","Прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var> в 4 раза выше, чем обычно.","","False","0x0000377A","",""
@@ -14347,6 +14416,141 @@ Rate:
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>progress<var 49 01 /var><var 48 01 /var> are 1.5 times higher than normal.","Прибавка к <var 48 F201FA /var><var 49 F201FB /var>прогрессу<var 49 01 /var><var 48 01 /var> в 1,5 раза выше, чем обычно.","","False","0x00003780","",""
 "","Required Collectability","Требуемая коллекционность","","False","0x00003781","",""
 "","<var 20 E802 /var>～","<var 20 E802 /var>～","","False","0x00003782","",""
+"","Quality Required for Synthesis","3783_Quality Required for Synthesis","","True","0x00003783","",""
+"","Master Recipes","3784_Master Recipes","","True","0x00003784","",""
+"","Mode","37AA_Mode","","True","0x000037AA","",""
+"","Item","37AB_Item","","True","0x000037AB","",""
+"","Sanctuary Rank:","37AC_Sanctuary Rank:","","True","0x000037AC","",""
+"","Island EXP:","37AD_Island EXP:","","True","0x000037AD","",""
+"","<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>�)) 07022003E8020303)) /<var 20 E803 /var>","37AE_<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>�)) 07022003E8020303)) /<var 20 E803 /var>","","True","0x000037AE","",""
+"","-/-","37AF_-/-","","True","0x000037AF","",""
+"","（-<var 22 E802 ((,)) /var>/day）","37B0_（-<var 22 E802 ((,)) /var>/day）","","True","0x000037B0","",""
+"","Isleventory","37B1_Isleventory","","True","0x000037B1","",""
+"","Manage Hideaway","37B2_Manage Hideaway","","True","0x000037B2","",""
+"","Sanctuary Crafting Log","37B3_Sanctuary Crafting Log","","True","0x000037B3","",""
+"","Sanctuary Gathering Log","37B4_Sanctuary Gathering Log","","True","0x000037B4","",""
+"","Manage Minions","37B5_Manage Minions","","True","0x000037B5","",""
+"","Guide","37B7_Guide","","True","0x000037B7","",""
+"","Construction","37B8_Construction","","True","0x000037B8","",""
+"","","37B9_","","True","0x000037B9","",""
+"","Cozy Cabin","37BA_Cozy Cabin","","True","0x000037BA","",""
+"","Workshops","37BB_Workshops","","True","0x000037BB","",""
+"","Granaries","37BC_Granaries","","True","0x000037BC","",""
+"","Landmarks","37BD_Landmarks","","True","0x000037BD","",""
+"","Built: <var 20 E802 /var>/<var 20 E803 /var>","37BE_Built: <var 20 E802 /var>/<var 20 E803 /var>","","True","0x000037BE","",""
+"","Time Required:","37BF_Time Required:","","True","0x000037BF","",""
+""," <var 08 E1E80201 ((<var 20 E802 /var>-<var 20 E803 /var> hours)) (( None)) /var>","37C0_ <var 08 E1E80201 ((<var 20 E802 /var>-<var 20 E803 /var> hours)) (( None)) /var>","","True","0x000037C0","",""
+"","Materials","37C1_Materials","","True","0x000037C1","",""
+"","Req.","37C2_Req.","","True","0x000037C2","",""
+"","Inventory","37C3_Inventory","","True","0x000037C3","",""
+"","Construct","37C4_Construct","","True","0x000037C4","",""
+"","Renovate","37C5_Renovate","","True","0x000037C5","",""
+"","Under Construction","37C6_Under Construction","","True","0x000037C6","",""
+"","","37C7_","","True","0x000037C7","",""
+"","Time of Completion:","37C8_Time of Completion:","","True","0x000037C8","",""
+"","Isleventory","37C9_Isleventory","","True","0x000037C9","",""
+"","","37CA_","","True","0x000037CA","",""
+"","Materials","37CB_Materials","","True","0x000037CB","",""
+"","Produce","37CC_Produce","","True","0x000037CC","",""
+"","Stock Stores","37CD_Stock Stores","","True","0x000037CD","",""
+"","Tools","37CE_Tools","","True","0x000037CE","",""
+"","<var 20 E802 /var>/<var 20 E803 /var>","37CF_<var 20 E802 /var>/<var 20 E803 /var>","","True","0x000037CF","",""
+"","Sort by Time","37D0_Sort by Time","","True","0x000037D0","",""
+"","Sort by Category","37D1_Sort by Category","","True","0x000037D1","",""
+"","<var 20 E802 /var> <var 08 E4E80202 ((Hour)) ((Hours)) /var>","37D2_<var 20 E802 /var> <var 08 E4E80202 ((Hour)) ((Hours)) /var>","","True","0x000037D2","",""
+"","<var 20 E802 /var> <var 08 E4E80202 ((hour)) ((hours)) /var>","37D3_<var 20 E802 /var> <var 08 E4E80202 ((hour)) ((hours)) /var>","","True","0x000037D3","",""
+"","There are items in this agenda already in production. Are you sure you wish to delete it?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Materials that have already been used will not be returned.<var 49 01 /var><var 48 01 /var>","37D4_There are items in this agenda already in production. Are you sure you wish to delete it?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Materials that have already been used will not be returned.<var 49 01 /var><var 48 01 /var>","","True","0x000037D4","",""
+"","Efficiency Bonus!","37D5_Efficiency Bonus!","","True","0x000037D5","",""
+"","Sanctuary Crafting Log","37D6_Sanctuary Crafting Log","","True","0x000037D6","",""
+"","","37D7_","","True","0x000037D7","",""
+"","Warning: You will not be able to receive all the items. Do you still wish to proceed?","37D8_Warning: You will not be able to receive all the items. Do you still wish to proceed?","","True","0x000037D8","",""
+"","Island EXP","37D9_Island EXP","","True","0x000037D9","",""
+"","Seafarer's Cowrie","37DA_Seafarer's Cowrie","","True","0x000037DA","",""
+"","Materials","37DB_Materials","","True","0x000037DB","",""
+"","Bag","37DC_Bag","","True","0x000037DC","",""
+"","Select","37DD_Select","","True","0x000037DD","",""
+"","Quantity","37DE_Quantity","","True","0x000037DE","",""
+"","Inventory","37DF_Inventory","","True","0x000037DF","",""
+"","Craft","37E0_Craft","","True","0x000037E0","",""
+"","Sanctuary Gathering Log","37E1_Sanctuary Gathering Log","","True","0x000037E1","",""
+"","","37E2_","","True","0x000037E2","",""
+"","This material has not been gathered yet.","37E3_This material has not been gathered yet.","","True","0x000037E3","",""
+"","Tool Required:","37E4_Tool Required:","","True","0x000037E4","",""
+"","Location:","37E5_Location:","","True","0x000037E5","",""
+"","Cropland Management","37E6_Cropland Management","","True","0x000037E6","",""
+"","","37E7_","","True","0x000037E7","",""
+"","Plot","37E8_Plot","","True","0x000037E8","",""
+"","Crop","37E9_Crop","","True","0x000037E9","",""
+"","Water","37EA_Water","","True","0x000037EA","",""
+"","Growth","37EB_Growth","","True","0x000037EB","",""
+"","Gardener's Log","37EC_Gardener's Log","","True","0x000037EC","",""
+"","Seed","37ED_Seed","","True","0x000037ED","",""
+"","State","37EE_State","","True","0x000037EE","",""
+"","Yield","37EF_Yield","","True","0x000037EF","",""
+"","Under Care","37F0_Under Care","","True","0x000037F0","",""
+"","Care Halted","37F1_Care Halted","","True","0x000037F1","",""
+"","<var 20 E802 /var>","37F2_<var 20 E802 /var>","","True","0x000037F2","",""
+"","Daily Care Fee:","37F3_Daily Care Fee:","","True","0x000037F3","",""
+"","Gardening Services","37F4_Gardening Services","","True","0x000037F4","",""
+"","","37F5_","","True","0x000037F5","",""
+"","The produce producer requires a daily fee of <var 20 E802 /var> seafarer's cowries to provide gardening services, which will be collected at the time of request and then at <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> (Earth time) each day thereafter. Daily fees are only charged once.
+
+A team of mammets will sow seeds, water plants, and collect a yield of up to 50 per crop.
+
+Entrust the produce producer with care of the following crop?
+
+※The produce producer will halt care under the following circumstances:
+<var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
+　・Yields have reached the maximum of 50.<var 49 01 /var><var 48 01 /var>
+※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","37F6_The produce producer requires a daily fee of <var 20 E802 /var> seafarer's cowries to provide gardening services, which will be collected at the time of request and then at <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> (Earth time) each day thereafter. Daily fees are only charged once.
+
+A team of mammets will sow seeds, water plants, and collect a yield of up to 50 per crop.
+
+Entrust the produce producer with care of the following crop?
+
+※The produce producer will halt care under the following circumstances:
+<var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
+　・Yields have reached the maximum of 50.<var 49 01 /var><var 48 01 /var>
+※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","","True","0x000037F6","",""
+"","Confirm","37F7_Confirm","","True","0x000037F7","",""
+"","Cancel","37F8_Cancel","","True","0x000037F8","",""
+"","<var 20 E803 /var> <var 08 E4E80302 ((<var 31 ((Item)) 04E8020202 /var>)) ((<var 31 ((Item)) 04E8020302 /var>)) /var> will be collected. Proceed?
+
+Amount currently held: <var 20 E804 /var>","37F9_<var 20 E803 /var> <var 08 E4E80302 ((<var 31 ((Item)) 04E8020202 /var>)) ((<var 31 ((Item)) 04E8020302 /var>)) /var> will be collected. Proceed?
+
+Amount currently held: <var 20 E804 /var>","","True","0x000037F9","",""
+"","Warning: You will not be able to receive the entire yield of the <var 31 ((Item)) 04E8020202 /var> crop. Do you still wish to proceed?
+
+Amount currently held: <var 20 E804 /var>","37FA_Warning: You will not be able to receive the entire yield of the <var 31 ((Item)) 04E8020202 /var> crop. Do you still wish to proceed?
+
+Amount currently held: <var 20 E804 /var>","","True","0x000037FA","",""
+"","Foraging Expeditions","37FB_Foraging Expeditions","","True","0x000037FB","",""
+"","","37FC_","","True","0x000037FC","",""
+"","Expedition Area","37FD_Expedition Area","","True","0x000037FD","",""
+"","Resources","37FE_Resources","","True","0x000037FE","",""
+"","Rare Resources","37FF_Rare Resources","","True","0x000037FF","",""
+"","Next Return: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","3800_Next Return: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","","True","0x00003800","",""
+"","Collect","3801_Collect","","True","0x00003801","",""
+"","This granary has not been constructed yet.","3802_This granary has not been constructed yet.","","True","0x00003802","",""
+"","Accept materials gathered from the expedition?","3803_Accept materials gathered from the expedition?","","True","0x00003803","",""
+"","Warning: You will not be able to receive all of the items. Those exceeding the limit will be discarded.
+
+Do you still wish to proceed?","3804_Warning: You will not be able to receive all of the items. Those exceeding the limit will be discarded.
+
+Do you still wish to proceed?","","True","0x00003804","",""
+"","Expedition Area","3805_Expedition Area","","True","0x00003805","",""
+"","","3806_","","True","0x00003806","",""
+"","Terrain","3807_Terrain","","True","0x00003807","",""
+"","Resources","3808_Resources","","True","0x00003808","",""
+"","Rare Resources","3809_Rare Resources","","True","0x00003809","",""
+"","Days","380A_Days","","True","0x0000380A","",""
+"","Max","380B_Max","","True","0x0000380B","",""
+"","Cost","380C_Cost","","True","0x0000380C","",""
+"","Confirm","380D_Confirm","","True","0x0000380D","",""
 "","Release Selection","Выбор отпускаемой рыбы","","False","0x0000380E","",""
 "","","","","False","0x0000380F","",""
 "","Average-sized","Средняя рыба","","False","0x00003810","",""
@@ -14389,7 +14593,7 @@ Up to 10 results are displayed.","Поиск в списке эмоций.
 "","Astra","Астра","","False","0x00003857","",""
 "","Umbra","Умбра","","False","0x00003858","",""
 "","Rising Stars <var 08 E1E80201 (((Streak Bonus Active!))) (( )) /var>","Восходящие звёзды <var 08 E1E80201 (((Активен бонус за череду побед!))) (( )) /var>","","False","0x00003859","",""
-"","<var 29 EA02 /var> <var 08 E1E80301 ((<var 20 E803 /var>)) (()) /var> <var 09 E804 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var> → <var 29 EA05 /var>  <var 08 E4E80601 ((<var 08 E1E80701 ((<var 20 E807 /var>)) (()) /var> <var 09 E808 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var>","<var 29 EA02 /var> <var 08 E1E80301 ((<var 20 E803 /var>)) (()) /var> <var 09 E804 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var> → <var 29 EA05 /var>  <var 08 E4E80601 ((<var 08 E1E80701 ((<var 20 E807 /var>)) (()) /var> <var 09 E808 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var>","","False","0x0000385A","",""
+"","<var 29 EA02 /var> <var 08 E4E80301 ((<var 08 E1E80401 ((<var 20 E804 /var>)) (()) /var> <var 09 E805 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var> → <var 29 EA06 /var> <var 08 E4E80701 ((<var 08 E1E80801 ((<var 20 E808 /var>)) (()) /var> <var 09 E809 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var>","385A_<var 29 EA02 /var> <var 08 E4E80301 ((<var 08 E1E80401 ((<var 20 E804 /var>)) (()) /var> <var 09 E805 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var> → <var 29 EA06 /var> <var 08 E4E80701 ((<var 08 E1E80801 ((<var 20 E808 /var>)) (()) /var> <var 09 E809 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var>","","True","0x0000385A","",""
 "","Crystal Credit","385B_Crystal Credit","","True","0x0000385B","",""
 "","<var 20 E802 /var> → <var 20 E803 /var>","385C_<var 20 E802 /var> → <var 20 E803 /var>","","True","0x0000385C","",""
 "","Current Arena: <var 28 ((PlaceName)) E80201 /var> (<var 08 E4E80501 ((<var 07 E803 /var><var 20 DB /var>:<var 24 DA /var> to <var 07 E804 /var><var 20 DB /var>:<var 24 DA /var>)) ((<var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E3DB0D ((a.m.)) ((p.m.)) /var> to <var 07 E804 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E3DB0D ((a.m.)) ((p.m.)) /var>)) /var>) (Earth time)
@@ -14414,11 +14618,29 @@ Up to 10 results are displayed.","Поиск в списке эмоций.
 "","<var 09 E802 ((Faculty of Archaeology)) ((Faculty of Astronomy)) ((Faculty of Medicine)) ((Faculty of Anthropology)) ((Faculty of Aetherology)) /var>: <var 29 EA03 /var>","<var 09 E802 ((Факультет археологии)) ((Факультет астрономии)) ((Факультет медицины)) ((Факультет антропологии)) ((Факультет эфирологии)) /var>: <var 29 EA03 /var>","","False","0x0000386E","",""
 "","<var 20 E802 /var>","<var 20 E802 /var>","","False","0x0000386F","",""
 "","Display Studium Deliveries help.","Открыть помощь по доставкам Студиума.","","False","0x00003870","",""
+"","Stance-based Weaponskills","387C_Stance-based Weaponskills","","True","0x0000387C","",""
+"","A particular martial stance is required to execute, or apply the additional effects of, these actions.","387D_A particular martial stance is required to execute, or apply the additional effects of, these actions.","","True","0x0000387D","",""
+"","Opo-opo Form","387E_Opo-opo Form","","True","0x0000387E","",""
+"","Raptor Form","387F_Raptor Form","","True","0x0000387F","",""
+"","Coeurl Form","3880_Coeurl Form","","True","0x00003880","",""
+"","Actions registered high on the list are upgraded to those below them with the acquisition of traits.","3881_Actions registered high on the list are upgraded to those below them with the acquisition of traits.","","True","0x00003881","",""
+"","Compact View","3882_Compact View","","True","0x00003882","",""
 "","Dispel Glamour","Рассеять гламур","","False","0x00003886","",""
 "","Glamour 1","Гламур 1","","False","0x00003887","",""
 "","Glamour 2","Гламур 2","","False","0x00003888","",""
 "","Below Lv. <var 20 E802 /var>","Ниже Ур. <var 20 E802 /var>","","False","0x0000388B","",""
 "","Above Lv. <var 20 E802 /var>","Выше Ур. <var 20 E802 /var>","","False","0x0000388C","",""
+"","Combo Weaponskills","3893_Combo Weaponskills","","True","0x00003893","",""
+"","Weaponskills","3894_Weaponskills","","True","0x00003894","",""
+"","Abilities","3895_Abilities","","True","0x00003895","",""
+"","Spells","3896_Spells","","True","0x00003896","",""
+"","ACTIONS (UNASSIGNABLE)","3897_ACTIONS (UNASSIGNABLE)","","True","0x00003897","",""
+"","PET ACTIONS","3898_PET ACTIONS","","True","0x00003898","",""
+"","Upgrades","3899_Upgrades","","True","0x00003899","",""
+"","","389A_","","True","0x0000389A","",""
+"","Upgrades (<var 20 E802 /var>)","389B_Upgrades (<var 20 E802 /var>)","","True","0x0000389B","",""
+"","ACTIONS","389C_ACTIONS","","True","0x0000389C","",""
+"","Combo Spells","389D_Combo Spells","","True","0x0000389D","",""
 "","Unbinding in <var 20 E802 /var>s...","Кристалл освободится через <var 20 E802 /var> с.","","False","0x0000389E","",""
 "","<var 20 E802 /var>s until eruption!","<var 20 E802 /var> с. до извержения!","","False","0x0000389F","",""
 "","Eruption ends in <var 20 E802 /var>s...","Извержение закончится через <var 20 E802 /var> с.","","False","0x000038A0","",""
@@ -14455,10 +14677,10 @@ Up to 10 results are displayed.","Поиск в списке эмоций.
 "","There are no items to display.","Нет предметов для отображения.","","False","0x00003938","",""
 "","Finish Dreamfitting and wake up?","Закончить и проснуться?","","False","0x00003939","",""
 "","Portraits","Портреты","","False","0x0000393A","",""
-"","Beta Version","Бета-версия","","False","0x0000393B","",""
+"","","393B_","","True","0x0000393B","",""
 "","<var 20 E802 /var>/<var 20 E803 /var>","<var 20 E802 /var>/<var 20 E803 /var>","","False","0x0000393C","",""
 "","Character Options","Персонаж","","False","0x0000393D","",""
-"","Decorative Options","Декорации","","False","0x0000393E","",""
+"","Design Options","393E_Design Options","","True","0x0000393E","",""
 "","バックグラウンド","393F_バックグラウンド","","True","0x0000393F","",""
 "","フレーム","3940_フレーム","","True","0x00003940","",""
 "","オーナメント","3941_オーナメント","","True","0x00003941","",""
@@ -14486,7 +14708,7 @@ Up to 10 results are displayed.","Поиск в списке эмоций.
 "","Change Portrait Title","Переименовать портрет","","False","0x00003957","",""
 "","Enter a new title for this portrait.","Введите новое название этого портрета.","","False","0x00003958","",""
 "","Edit Portrait","Редактирование портрета","","False","0x00003959","",""
-"","Beta Version","Бета-версия","","False","0x0000395A","",""
+"","","395A_","","True","0x0000395A","",""
 "","Save","Сохранить","","False","0x0000395B","",""
 "","Design","Декорации","","False","0x0000395C","",""
 "","Character","Персонаж","","False","0x0000395D","",""
@@ -14538,19 +14760,50 @@ Up to 10 results are displayed.","Поиск в списке эмоций.
 "","Reset Ambient Lighting","Сбросить окружающее освещение","","False","0x0000398B","",""
 "","Reset Directional Lighting","Сбросить направленное освещение","","False","0x0000398C","",""
 "","Edit","Редактировать","","False","0x0000398D","",""
-"","The portrait feature allows you to use a variety of poses, motions, and framing options to compose the perfect portrait of the Warrior of Light.
+"","The portrait feature allows you to use a variety of poses, motions, and framing options to compose the perfect portrait of your character.
 
-Different portraits can be displayed on your adventurer plate and prior to Crystalline Conflict PvP matches, so don't hesitate to create a full gallery!
+You may create a different portrait for each gear set, to be displayed at the beginning of certain competitive content like Crystalline Conflict PvP matches or Doman mahjong.
 
-Additional information is available in the portrait guide, accessible from the Portraits window.","В этом окне вы можете сочетать различные позы, движения и декорации, чтобы составить идеальный портрет Воина Света.
+Additional information is available in the portrait guide, accessible from the Portraits window.","398E_The portrait feature allows you to use a variety of poses, motions, and framing options to compose the perfect portrait of your character.
 
-В вашей карточке авантюриста и перед матчами в Кристальном конфликте могут показываться разные портреты, так что можно создать из них целую галерею!
+You may create a different portrait for each gear set, to be displayed at the beginning of certain competitive content like Crystalline Conflict PvP matches or Doman mahjong.
 
-Больше информации доступно в помощи, доступной из окна «Портреты».","","False","0x0000398E","",""
+Additional information is available in the portrait guide, accessible from the Portraits window.","","True","0x0000398E","",""
 "","Gear depicted in instant portrait inconsistent with current gear set configuration.","Снаряжение в «быстром» портрете не соответствует текущему комплекту снаряжения.","","False","0x0000398F","",""
 "","If edited, portrait will change to reflect your current gear. Proceed?","При изменении в портрете будет отображаться ваше текущее снаряжение. Продолжить?","","False","0x00003990","",""
+"","Unable to retrieve glamour plate data. You must be in a city or sanctuary to edit or display portraits of gear sets linked to glamour plates.","3991_Unable to retrieve glamour plate data. You must be in a city or sanctuary to edit or display portraits of gear sets linked to glamour plates.","","True","0x00003991","",""
+"","Updated gear set does not match portrait data. You must edit this portrait in order to use it.","3992_Updated gear set does not match portrait data. You must edit this portrait in order to use it.","","True","0x00003992","",""
+"","Current character appearance does not match portrait data. You must edit this portrait in order to use it.","3993_Current character appearance does not match portrait data. You must edit this portrait in order to use it.","","True","0x00003993","",""
+"","A Game Master has flagged you for inappropriate content. You must edit this portrait accordingly before you may use it.","3994_A Game Master has flagged you for inappropriate content. You must edit this portrait accordingly before you may use it.","","True","0x00003994","",""
+"","Portrait settings incompatible with current character. You must use the subcommand “Reset Default Settings” to edit and use this portrait.","3995_Portrait settings incompatible with current character. You must use the subcommand “Reset Default Settings” to edit and use this portrait.","","True","0x00003995","",""
+"","Restore Default Settings","3996_Restore Default Settings","","True","0x00003996","",""
+"","Import Settings","3997_Import Settings","","True","0x00003997","",""
+"","Settings for all portrait elements will be copied and imported.
+Select the portrait with settings you wish to copy.
+
+※Poses that are incompatible due to class/job will be reverted to the default.","3998_Settings for all portrait elements will be copied and imported.
+Select the portrait with settings you wish to copy.
+
+※Poses that are incompatible due to class/job will be reverted to the default.","","True","0x00003998","",""
+"","Source Portrait","3999_Source Portrait","","True","0x00003999","",""
+"","Target Portrait","399A_Target Portrait","","True","0x0000399A","",""
+"","Use as Instant Portrait has been disabled, so this portrait will not automatically be applied when its gear set is equipped. Enable this function to use this image as an Instant Portrait.","399B_Use as Instant Portrait has been disabled, so this portrait will not automatically be applied when its gear set is equipped. Enable this function to use this image as an Instant Portrait.","","True","0x0000399B","",""
+"","Restore all portrait elements to default settings?","399C_Restore all portrait elements to default settings?","","True","0x0000399C","",""
+"","Use as Instant Portrait","399D_Use as Instant Portrait","","True","0x0000399D","",""
+"","Use as Instant Portrait: On
+Portrait will automatically be applied as Instant Portrait when gear set is equipped.","399E_Use as Instant Portrait: On
+Portrait will automatically be applied as Instant Portrait when gear set is equipped.","","True","0x0000399E","",""
+"","Use as Instant Portrait: Off
+Portrait will not be automatically applied when gear set is equipped, and Instant Portrait will reflect default settings.","399F_Use as Instant Portrait: Off
+Portrait will not be automatically applied when gear set is equipped, and Instant Portrait will reflect default settings.","","True","0x0000399F","",""
+"","Reflect Current Gear","39A0_Reflect Current Gear","","True","0x000039A0","",""
+"","Currently equipped gear will be reflected in portrait. Pose will revert to the default if current gear belongs to a different class/job.","39A2_Currently equipped gear will be reflected in portrait. Pose will revert to the default if current gear belongs to a different class/job.","","True","0x000039A2","",""
+"","Confirm","39A3_Confirm","","True","0x000039A3","",""
+"","Cancel","39A4_Cancel","","True","0x000039A4","",""
+"","<var 50 E80203 /var> <var 29 EA03 /var>","39A5_<var 50 E80203 /var> <var 29 EA03 /var>","","True","0x000039A5","",""
+"","Settings cannot be saved while performing motions.","39A6_Settings cannot be saved while performing motions.","","True","0x000039A6","",""
 "","Enter <var 28 ((InstanceContent)) E80204 /var> with a party of other players","Начать миссию «<var 28 ((InstanceContent)) E80204 /var>» в группе с другими игроками","","False","0x000039D0","",""
-"","Enter <var 28 ((ContentFinderCondition)) E80227 /var> with a party of NPCs","Начать миссию «<var 28 ((ContentFinderCondition)) E80227 /var>» в группе с дружескими NPC","","False","0x000039D1","",""
+"","Enter <var 28 ((ContentFinderCondition)) E80228 /var> with a party of NPCs","39D1_Enter <var 28 ((ContentFinderCondition)) E80228 /var> with a party of NPCs","","True","0x000039D1","",""
 "","Party Selection","Выбор членов группы","","False","0x000039D2","",""
 "","<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var> )) (()) /var><var 08 E1E80301 ((
 Item Level Sync: <var 20 E803 /var>)) (()) /var>","<var 08 E1E80201 ((Средний уровень снаряжения: <var 20 E802 /var> )) (()) /var><var 08 E1E80301 ((
@@ -14566,13 +14819,15 @@ Additional information is available in the portrait guide, accessible from the P
 "","","","","False","0x000039DC","",""
 "","Display Duty Finder help.","Показать руководство по Поиску миссий.","","False","0x000039DD","",""
 "","Member Selection Available","Можно изменить группу","","False","0x000039DE","",""
+"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E80228 /var> in a future update","39DF_NPC party support will be added for <var 28 ((ContentFinderCondition)) E80228 /var> in a future update","","True","0x000039DF","",""
+"","The Duty Support option will become available in a future update.","39E0_The Duty Support option will become available in a future update.","","True","0x000039E0","",""
 "","The Unending Codex","Нескончаемый кодекс","","False","0x00003A03","",""
 "","","Нескончаемый кодекс","","False","0x00003A04","",""
 "","All","Все","","False","0x00003A05","",""
 "","Persons","Персонажи","","False","0x00003A06","",""
 "","Concepts","Общие понятия","","False","0x00003A07","",""
 "","Obtaining data...","Получение данных...","","False","0x00003A08","",""
-"","<var 1E 19 /var> Scroll","<var 1E 19 /var> Прокрутка","","False","0x00003A09","",""
+"","Switch View","3A09_Switch View","","True","0x00003A09","",""
 "","Series Level: ","Уровень серии: ","","False","0x00003A0C","",""
 "","Total: <var 20 E802 /var>","Всего: <var 20 E802 /var>","","False","0x00003A0D","",""
 "","Next: <var 08 E1E80301 ((<var 20 E802 /var>/<var 20 E803 /var>)) ((<var 1F /var>/<var 1F /var>)) /var>","Прогресс: <var 08 E1E80301 ((<var 20 E802 /var>/<var 20 E803 /var>)) ((<var 1F /var>/<var 1F /var>)) /var>","","False","0x00003A0E","",""
@@ -14588,7 +14843,7 @@ Additional information is available in the portrait guide, accessible from the P
 "","Team Astra","Команда Astra","","False","0x00003A18","",""
 "","Team Umbra","Команда Umbra","","False","0x00003A19","",""
 "","Progress: ","Прогресс: ","","False","0x00003A1A","",""
-"","Time: ","Время на объекте","","False","0x00003A1B","",""
+"","Time on Crystal","3A1B_Time on Crystal","","True","0x00003A1B","",""
 "","Series EXP","Очки опыта серии","","False","0x00003A1C","",""
 "","K: <var 20 E802 /var>","У: <var 20 E802 /var>","","False","0x00003A1D","",""
 "","D: <var 20 E802 /var>","С: <var 20 E802 /var>","","False","0x00003A1E","",""
@@ -14619,6 +14874,38 @@ Additional information is available in the portrait guide, accessible from the P
 "","Series Malmstones","Награды серии","","False","0x00003A35","",""
 "","","","","False","0x00003A36","",""
 "","Unable to obtain combatant data.","Не удалось получить информацию о бойце.","","False","0x00003A37","",""
+"","<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Executing a limit break!<var 60 0263 /var>","3A38_<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Executing a limit break!<var 60 0263 /var>","","True","0x00003A38","",""
+"","Everyone, group up!<var 60 0264 /var>","3A39_Everyone, group up!<var 60 0264 /var>","","True","0x00003A39","",""
+"","Coffer Manifest","3A3E_Coffer Manifest","","True","0x00003A3E","",""
+"","","3A3F_","","True","0x00003A3F","",""
+"","Selection:","3A40_Selection:","","True","0x00003A40","",""
+"","Contents:","3A41_Contents:","","True","0x00003A41","",""
+"","Close","3A42_Close","","True","0x00003A42","",""
+"","View Manifest","3A43_View Manifest","","True","0x00003A43","",""
+"","Manifest Available","3A44_Manifest Available","","True","0x00003A44","",""
+"","Request Repair","3A48_Request Repair","","True","0x00003A48","",""
+"","Repair Request","3A49_Repair Request","","True","0x00003A49","",""
+"","","3A4A_","","True","0x00003A4A","",""
+"","Select All","3A4B_Select All","","True","0x00003A4B","",""
+"","Deselect All","3A4C_Deselect All","","True","0x00003A4C","",""
+"","Item","3A4D_Item","","True","0x00003A4D","",""
+"","Durability","3A4E_Durability","","True","0x00003A4E","",""
+"","Dark Matter","3A4F_Dark Matter","","True","0x00003A4F","",""
+"","<var 08 E4E80204 ((Quantity)) ((Quantity for Request)) /var>","3A50_<var 08 E4E80204 ((Quantity)) ((Quantity for Request)) /var>","","True","0x00003A50","",""
+"","<var 20 E802 /var>%","3A51_<var 20 E802 /var>%","","True","0x00003A51","",""
+"","Grade <var 20 E802 /var>","3A52_Grade <var 20 E802 /var>","","True","0x00003A52","",""
+"","<var 20 E802 /var>","3A53_<var 20 E802 /var>","","True","0x00003A53","",""
+"","<var 08 E1E80264 ((99+)) ((<var 20 E802 /var>)) /var>","3A54_<var 08 E1E80264 ((99+)) ((<var 20 E802 /var>)) /var>","","True","0x00003A54","",""
+"","Set Reward","3A55_Set Reward","","True","0x00003A55","",""
+"","","3A56_","","True","0x00003A56","",""
+"","Submit Request","3A57_Submit Request","","True","0x00003A57","",""
+"","Return","3A58_Return","","True","0x00003A58","",""
+"","Remove Request","3A59_Remove Request","","True","0x00003A59","",""
+"","<var 22 E802 ((,)) /var>","3A5A_<var 22 E802 ((,)) /var>","","True","0x00003A5A","",""
+"","Repair","3A5B_Repair","","True","0x00003A5B","",""
+"","Cancel","3A5C_Cancel","","True","0x00003A5C","",""
+"","G<var 20 E802 /var>:","3A5D_G<var 20 E802 /var>:","","True","0x00003A5D","",""
+"","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","3A5E_<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","True","0x00003A5E","",""
 "","Check the current status of the housing lottery.","Посмотреть на текущий статус лотереи жилой площади.","","False","0x00003A66","",""
 "","Hotbar Sorting","Сортировка хотбара","","False","0x00003A8E","",""
 "","","Сортировка хотбара","","False","0x00003A8F","",""
@@ -14730,6 +15017,375 @@ Proceed?","","True","0x00003AD3","",""
 "","Everyone","Всем","","False","0x00003AEF","",""
 "","No One","Никому","","False","0x00003AF0","",""
 "","Advanced Settings","Дополнительные настройки","","False","0x00003AF1","",""
+"","Invert Portrait Placement","3AF2_Invert Portrait Placement","","True","0x00003AF2","",""
+"","Adventurer plates allow you to share character information on a profile of your own design. Other adventurers' plates can be viewed by accessing subcommands via targeting a character or right-clicking their name in your friend list.","3AF3_Adventurer plates allow you to share character information on a profile of your own design. Other adventurers' plates can be viewed by accessing subcommands via targeting a character or right-clicking their name in your friend list.","","True","0x00003AF3","",""
+"","Your adventurer plate cannot be viewed by other players, because you have not created it yet.
+※Make your plate public by updating its appearance or settings.","3AF4_Your adventurer plate cannot be viewed by other players, because you have not created it yet.
+※Make your plate public by updating its appearance or settings.","","True","0x00003AF4","",""
+"","Your adventurer plate cannot be viewed by other players, because your portraits were reset after using Fantasia.
+※Make your plate public by updating its appearance or settings.","3AF5_Your adventurer plate cannot be viewed by other players, because your portraits were reset after using Fantasia.
+※Make your plate public by updating its appearance or settings.","","True","0x00003AF5","",""
+"","Edit Search Comment","3AF6_Edit Search Comment","","True","0x00003AF6","",""
+"","","3AF7_","","True","0x00003AF7","",""
+"","Edit Search Comment","3AF8_Edit Search Comment","","True","0x00003AF8","",""
+"","Edit Portrait","3AF9_Edit Portrait","","True","0x00003AF9","",""
+"","Mission Complete","3AFC_Mission Complete","","True","0x00003AFC","",""
+"","Island Sanctuary <var 12 75 /var>","3AFD_Island Sanctuary <var 12 75 /var>","","True","0x00003AFD","",""
+"","<color2 #FFFFFF><var 14 FAFFCC22 /var><var 29 EA02 /var></glow2></color2>","3AFE_<color2 #FFFFFF><var 14 FAFFCC22 /var><var 29 EA02 /var></glow2></color2>","","True","0x00003AFE","",""
+"","Gather <var 31 ((Item)) 04E8020302 /var>","3AFF_Gather <var 31 ((Item)) 04E8020302 /var>","","True","0x00003AFF","",""
+"","Isleworks Agenda","3B00_Isleworks Agenda","","True","0x00003B00","",""
+"","","3B01_","","True","0x00003B01","",""
+"","Groove: <var 20 E802 /var>/<var 20 E803 /var>","3B02_Groove: <var 20 E802 /var>/<var 20 E803 /var>","","True","0x00003B02","",""
+"","Current Season","3B03_Current Season","","True","0x00003B03","",""
+"","Next Season","3B04_Next Season","","True","0x00003B04","",""
+"","Cycle start: <var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","3B05_Cycle start: <var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","","True","0x00003B05","",""
+"","In production.","3B06_In production.","","True","0x00003B06","",""
+"","Insufficient materials.","3B07_Insufficient materials.","","True","0x00003B07","",""
+"","Shipped.","3B08_Shipped.","","True","0x00003B08","",""
+"","This workshop is unavailable.","3B09_This workshop is unavailable.","","True","0x00003B09","",""
+"","Set Agenda","3B0A_Set Agenda","","True","0x00003B0A","",""
+"","Clear Item","3B0B_Clear Item","","True","0x00003B0B","",""
+"","Select Preset","3B0C_Select Preset","","True","0x00003B0C","",""
+"","Register Preset","3B0D_Register Preset","","True","0x00003B0D","",""
+"","Review Materials","3B0E_Review Materials","","True","0x00003B0E","",""
+"","Set Rest Cycles","3B0F_Set Rest Cycles","","True","0x00003B0F","",""
+"","Review Supply & Demand","3B10_Review Supply & Demand","","True","0x00003B10","",""
+"","Clear Agenda","3B11_Clear Agenda","","True","0x00003B11","",""
+"","Set Agenda","3B12_Set Agenda","","True","0x00003B12","",""
+"","","3B13_","","True","0x00003B13","",""
+"","Time:","3B14_Time:","","True","0x00003B14","",""
+"","Quantity:","3B15_Quantity:","","True","0x00003B15","",""
+"","Value:","3B16_Value:","","True","0x00003B16","",""
+"","Category:","3B17_Category:","","True","0x00003B17","",""
+"","Materials","3B18_Materials","","True","0x00003B18","",""
+"","Required","3B19_Required","","True","0x00003B19","",""
+"","Inventory","3B1A_Inventory","","True","0x00003B1A","",""
+"","Schedule","3B1B_Schedule","","True","0x00003B1B","",""
+"","<var 20 E802 /var> (<var 20 E803 /var>)","3B1C_<var 20 E802 /var> (<var 20 E803 /var>)","","True","0x00003B1C","",""
+"","All scheduling information for the current cycle will be lost. Proceed?","3B1D_All scheduling information for the current cycle will be lost. Proceed?","","True","0x00003B1D","",""
+"","Clear Agenda","3B1E_Clear Agenda","","True","0x00003B1E","",""
+"","Agenda Presets","3B1F_Agenda Presets","","True","0x00003B1F","",""
+"","","3B20_","","True","0x00003B20","",""
+"","No.","3B21_No.","","True","0x00003B21","",""
+"","Time","3B22_Time","","True","0x00003B22","",""
+"","Details","3B23_Details","","True","0x00003B23","",""
+"","<var 20 E802 /var> hrs.","3B24_<var 20 E802 /var> hrs.","","True","0x00003B24","",""
+"","Use Preset","3B25_Use Preset","","True","0x00003B25","",""
+"","Cancel","3B26_Cancel","","True","0x00003B26","",""
+"","Delete Preset","3B27_Delete Preset","","True","0x00003B27","",""
+"","Rest Cycle Settings","3B28_Rest Cycle Settings","","True","0x00003B28","",""
+"","","3B29_","","True","0x00003B29","",""
+"","Select two rest cycles for this season and next season respectively.
+
+Cycles that have already passed cannot be selected.","3B2A_Select two rest cycles for this season and next season respectively.
+
+Cycles that have already passed cannot be selected.","","True","0x00003B2A","",""
+"","Rest Cycles for Current Season (Began at <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> on <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)","3B2B_Rest Cycles for Current Season (Began at <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> on <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)","","True","0x00003B2B","",""
+"","Rest Cycles for Next Season (Begins at <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> on <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)","3B2C_Rest Cycles for Next Season (Begins at <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> on <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)","","True","0x00003B2C","",""
+"","Confirm","3B2D_Confirm","","True","0x00003B2D","",""
+"","Cancel","3B2E_Cancel","","True","0x00003B2E","",""
+"","Proceed with the following rest cycle schedule?
+All scheduling information for the cycles below will be lost.","3B2F_Proceed with the following rest cycle schedule?
+All scheduling information for the cycles below will be lost.","","True","0x00003B2F","",""
+"","Current Season: Cycles <var 20 E802 /var><var 08 E1E80401 (( & <var 20 E803 /var>)) (()) /var>","3B30_Current Season: Cycles <var 20 E802 /var><var 08 E1E80401 (( & <var 20 E803 /var>)) (()) /var>","","True","0x00003B30","",""
+"","Next Season: Cycles <var 20 E802 /var><var 08 E1E80401 (( & <var 20 E803 /var>)) (()) /var>","3B31_Next Season: Cycles <var 20 E802 /var><var 08 E1E80401 (( & <var 20 E803 /var>)) (()) /var>","","True","0x00003B31","",""
+"","Material Allocation","3B32_Material Allocation","","True","0x00003B32","",""
+"","","3B33_","","True","0x00003B33","",""
+"","Current Cycle","3B34_Current Cycle","","True","0x00003B34","",""
+"","Current Season","3B35_Current Season","","True","0x00003B35","",""
+"","Current & Next Season","3B36_Current & Next Season","","True","0x00003B36","",""
+"","Materials","3B37_Materials","","True","0x00003B37","",""
+"","Required","3B38_Required","","True","0x00003B38","",""
+"","Inventory","3B39_Inventory","","True","0x00003B39","",""
+"","Deficit","3B3A_Deficit","","True","0x00003B3A","",""
+"","No items in production.","3B3B_No items in production.","","True","0x00003B3B","",""
+"","Supply & Demand","3B3C_Supply & Demand","","True","0x00003B3C","",""
+"","","3B3D_","","True","0x00003B3D","",""
+"","Filter Settings","3B3E_Filter Settings","","True","0x00003B3E","",""
+"","Category","3B3F_Category","","True","0x00003B3F","",""
+"","Popularity","3B40_Popularity","","True","0x00003B40","",""
+"","Supply","3B41_Supply","","True","0x00003B41","",""
+"","Demand Shift","3B42_Demand Shift","","True","0x00003B42","",""
+"","Predicted Demand","3B43_Predicted Demand","","True","0x00003B43","",""
+"","Product","3B44_Product","","True","0x00003B44","",""
+"","Popularity","3B45_Popularity","","True","0x00003B45","",""
+"","Supply","3B46_Supply","","True","0x00003B46","",""
+"","Demand Shift","3B47_Demand Shift","","True","0x00003B47","",""
+"","Predicted Demand","3B48_Predicted Demand","","True","0x00003B48","",""
+"","Very High","3B49_Very High","","True","0x00003B49","",""
+"","High","3B4A_High","","True","0x00003B4A","",""
+"","Average","3B4B_Average","","True","0x00003B4B","",""
+"","Low","3B4C_Low","","True","0x00003B4C","",""
+"","Overflowing","3B4D_Overflowing","","True","0x00003B4D","",""
+"","Surplus","3B4E_Surplus","","True","0x00003B4E","",""
+"","Sufficient","3B4F_Sufficient","","True","0x00003B4F","",""
+"","Insufficient","3B50_Insufficient","","True","0x00003B50","",""
+"","Nonexistent","3B51_Nonexistent","","True","0x00003B51","",""
+"","Skyrocketing","3B52_Skyrocketing","","True","0x00003B52","",""
+"","Increasing","3B53_Increasing","","True","0x00003B53","",""
+"","None","3B54_None","","True","0x00003B54","",""
+"","Decreasing","3B55_Decreasing","","True","0x00003B55","",""
+"","Plummeting","3B56_Plummeting","","True","0x00003B56","",""
+"","Nothing to display.","3B57_Nothing to display.","","True","0x00003B57","",""
+"","Earnings Report","3B58_Earnings Report","","True","0x00003B58","",""
+"","","3B59_","","True","0x00003B59","",""
+"","Current Season:","3B5A_Current Season:","","True","0x00003B5A","",""
+"","Previous Season:","3B5B_Previous Season:","","True","0x00003B5B","",""
+"","Highest Recorded:","3B5C_Highest Recorded:","","True","0x00003B5C","",""
+"","Current Season's Earnings by Cycle","3B5D_Current Season's Earnings by Cycle","","True","0x00003B5D","",""
+"","Product","3B5E_Product","","True","0x00003B5E","",""
+"","Qty.","3B5F_Qty.","","True","0x00003B5F","",""
+"","Value","3B60_Value","","True","0x00003B60","",""
+"","Cycle <var 20 E802 /var> Total:","3B61_Cycle <var 20 E802 /var> Total:","","True","0x00003B61","",""
+"","No reportable earnings.","3B62_No reportable earnings.","","True","0x00003B62","",""
+"","Show All","3B63_Show All","","True","0x00003B63","",""
+"","Pasture Management","3B64_Pasture Management","","True","0x00003B64","",""
+"","","3B65_","","True","0x00003B65","",""
+"","No.","3B66_No.","","True","0x00003B66","",""
+"","Nickname","3B67_Nickname","","True","0x00003B67","",""
+"","Mood","3B68_Mood","","True","0x00003B68","",""
+"","Food","3B69_Food","","True","0x00003B69","",""
+"","Leavings","3B6A_Leavings","","True","0x00003B6A","",""
+"","Caretaker's Log","3B6B_Caretaker's Log","","True","0x00003B6B","",""
+"","Feed","3B6C_Feed","","True","0x00003B6C","",""
+"","Inventory","3B6D_Inventory","","True","0x00003B6D","",""
+"","State","3B6E_State","","True","0x00003B6E","",""
+"","Leavings","3B6F_Leavings","","True","0x00003B6F","",""
+"","Capacity: <var 20 E802 /var>/<var 20 E803 /var>","3B70_Capacity: <var 20 E802 /var>/<var 20 E803 /var>","","True","0x00003B70","",""
+"","Daily Care Fee:","3B71_Daily Care Fee:","","True","0x00003B71","",""
+"","Change Nickname","3B72_Change Nickname","","True","0x00003B72","",""
+"","Entrust to Caretaker","3B73_Entrust to Caretaker","","True","0x00003B73","",""
+"","Dismiss Caretaker","3B74_Dismiss Caretaker","","True","0x00003B74","",""
+"","Collect Leavings & Resume Caretaking Services","3B75_Collect Leavings & Resume Caretaking Services","","True","0x00003B75","",""
+"","Release","3B76_Release","","True","0x00003B76","",""
+"","The creature comforter requires a daily fee of <var 22 E802 ((,)) /var> seafarer's cowries to provide caretaking services, which will be collected at the time of request and then at <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> (Earth time) each day thereafter. Daily fees are only charged once.
+
+A team of mammets will administer feed and collect up to 20 leavings per animal.
+
+Entrust the creature comforter with care of this animal using the following feed?
+
+※The creature comforter will halt care under the following circumstances:
+<var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
+　・Leavings have reached the maximum of 20.<var 49 01 /var><var 48 01 /var>
+※Care will resume automatically once the required conditions have been met, and collection of the daily fee will resume accordingly.","3B77_The creature comforter requires a daily fee of <var 22 E802 ((,)) /var> seafarer's cowries to provide caretaking services, which will be collected at the time of request and then at <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> (Earth time) each day thereafter. Daily fees are only charged once.
+
+A team of mammets will administer feed and collect up to 20 leavings per animal.
+
+Entrust the creature comforter with care of this animal using the following feed?
+
+※The creature comforter will halt care under the following circumstances:
+<var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
+　・Leavings have reached the maximum of 20.<var 49 01 /var><var 48 01 /var>
+※Care will resume automatically once the required conditions have been met, and collection of the daily fee will resume accordingly.","","True","0x00003B77","",""
+"","Confirm","3B78_Confirm","","True","0x00003B78","",""
+"","Cancel","3B79_Cancel","","True","0x00003B79","",""
+"","Accept the following items?","3B7A_Accept the following items?","","True","0x00003B7A","",""
+"","Warning: You will not be able to receive all of the items. Those exceeding the limit will be discarded.
+
+Do you still wish to proceed?","3B7B_Warning: You will not be able to receive all of the items. Those exceeding the limit will be discarded.
+
+Do you still wish to proceed?","","True","0x00003B7B","",""
+"","<var 29 EA02 /var> will be released from the pasture. Proceed?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","3B7C_<var 29 EA02 /var> will be released from the pasture. Proceed?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","","True","0x00003B7C","",""
+"","Release Animal","3B7D_Release Animal","","True","0x00003B7D","",""
+"","Animal cannot be released because it is either under care, or has leavings available to retrieve.","3B7E_Animal cannot be released because it is either under care, or has leavings available to retrieve.","","True","0x00003B7E","",""
+"","The captured <var 29 EA02 /var> will be released. Proceed?","3B7F_The captured <var 29 EA02 /var> will be released. Proceed?","","True","0x00003B7F","",""
+"","Specify a nickname.","3B80_Specify a nickname.","","True","0x00003B80","",""
+"","The following punctuation marks are allowed:
+<var 48 F201FC /var><var 49 F201FD /var>'<var 1D /var>. , : ; ! ? & - _<var 49 01 /var><var 48 01 /var>
+• Double spaces/underscores are not allowed.
+• A space cannot be used before or after the name.
+• Names consisting solely of punctuation marks are prohibited.","3B81_The following punctuation marks are allowed:
+<var 48 F201FC /var><var 49 F201FD /var>'<var 1D /var>. , : ; ! ? & - _<var 49 01 /var><var 48 01 /var>
+• Double spaces/underscores are not allowed.
+• A space cannot be used before or after the name.
+• Names consisting solely of punctuation marks are prohibited.","","True","0x00003B81","",""
+"","Current Nickname: <var 29 EA02 /var>","3B82_Current Nickname: <var 29 EA02 /var>","","True","0x00003B82","",""
+"","Default","3B83_Default","","True","0x00003B83","",""
+"","Confirm","3B84_Confirm","","True","0x00003B84","",""
+"","Cancel","3B85_Cancel","","True","0x00003B85","",""
+"","The name “<var 29 EA02 /var>” will be applied. Proceed? ","3B86_The name “<var 29 EA02 /var>” will be applied. Proceed? ","","True","0x00003B86","",""
+"","<var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","3B87_<var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","","True","0x00003B87","",""
+"","Close","3B88_Close","","True","0x00003B88","",""
+"","Hideaway Customization","3B89_Hideaway Customization","","True","0x00003B89","",""
+"","","3B8A_","","True","0x00003B8A","",""
+"","Paths","3B8B_Paths","","True","0x00003B8B","",""
+"","Slopes","3B8C_Slopes","","True","0x00003B8C","",""
+"","Grounds","3B8D_Grounds","","True","0x00003B8D","",""
+"","Apply","3B8E_Apply","","True","0x00003B8E","",""
+"","Change the appearance of your hideaway?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Renovating the cozy cabin will remove all glamour effects.<var 49 01 /var><var 48 01 /var>","3B8F_Change the appearance of your hideaway?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Renovating the cozy cabin will remove all glamour effects.<var 49 01 /var><var 48 01 /var>","","True","0x00003B8F","",""
+"","Change the facility's appearance?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Performing a renovation will remove all glamour effects.<var 49 01 /var><var 48 01 /var>","3B90_Change the facility's appearance?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Performing a renovation will remove all glamour effects.<var 49 01 /var><var 48 01 /var>","","True","0x00003B90","",""
+"","Move Facility","3B91_Move Facility","","True","0x00003B91","",""
+"","","3B92_","","True","0x00003B92","",""
+"","Current Position: <var 29 EA02 /var>","3B93_Current Position: <var 29 EA02 /var>","","True","0x00003B93","",""
+"","Processing Facilities","3B94_Processing Facilities","","True","0x00003B94","",""
+"","Landmarks","3B95_Landmarks","","True","0x00003B95","",""
+"","Information","3B96_Information","","True","0x00003B96","",""
+"","Appearance","3B97_Appearance","","True","0x00003B97","",""
+"","Default","3B98_Default","","True","0x00003B98","",""
+"","<var 29 EA02 /var>","3B99_<var 29 EA02 /var>","","True","0x00003B99","",""
+"","<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Construction Complete)) /var>","3B9A_<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Construction Complete)) /var>","","True","0x00003B9A","",""
+"","Hideaway Management","3B9B_Hideaway Management","","True","0x00003B9B","",""
+"","","3B9C_","","True","0x00003B9C","",""
+"","Cabin & Fields","3B9D_Cabin & Fields","","True","0x00003B9D","",""
+"","Review","3B9E_Review","","True","0x00003B9E","",""
+"","Exports","3B9F_Exports","","True","0x00003B9F","",""
+"","","3BA0_","","True","0x00003BA0","",""
+"","Materials","3BA1_Materials","","True","0x00003BA1","",""
+"","Rare Materials","3BA2_Rare Materials","","True","0x00003BA2","",""
+"","Produce","3BA3_Produce","","True","0x00003BA3","",""
+"","Leavings","3BA4_Leavings","","True","0x00003BA4","",""
+"","Item","3BA5_Item","","True","0x00003BA5","",""
+"","Value","3BA6_Value","","True","0x00003BA6","",""
+"","Inventory","3BA7_Inventory","","True","0x00003BA7","",""
+"","Allocated","3BA8_Allocated","","True","0x00003BA8","",""
+"","Surplus","3BA9_Surplus","","True","0x00003BA9","",""
+"","You have no items available for export.","3BAA_You have no items available for export.","","True","0x00003BAA","",""
+"","Sell all items held in excess of the value below.","3BAB_Sell all items held in excess of the value below.","","True","0x00003BAB","",""
+"","Bulk Shipment","3BAC_Bulk Shipment","","True","0x00003BAC","",""
+"","Confirm Shipment","3BAD_Confirm Shipment","","True","0x00003BAD","",""
+"","","3BAE_","","True","0x00003BAE","",""
+"","Value","3BAF_Value","","True","0x00003BAF","",""
+"","Quantity","3BB0_Quantity","","True","0x00003BB0","",""
+"","Total","3BB1_Total","","True","0x00003BB1","",""
+"","Confirm","3BB2_Confirm","","True","0x00003BB2","",""
+"","Cancel","3BB3_Cancel","","True","0x00003BB3","",""
+"","Warning: You will not be able to receive all the cowries. Do you still wish to proceed?","3BB4_Warning: You will not be able to receive all the cowries. Do you still wish to proceed?","","True","0x00003BB4","",""
+"","Warning: One item or more is being used in the workshop. Do you still wish to proceed?","3BB5_Warning: One item or more is being used in the workshop. Do you still wish to proceed?","","True","0x00003BB5","",""
+"","Bulk Shipment","3BB6_Bulk Shipment","","True","0x00003BB6","",""
+"","","3BB7_","","True","0x00003BB7","",""
+"","Sell items with an inventory exceeding <var 20 E802 /var>?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Be mindful of items with inventory allocated towards the production of handicrafts.<var 49 01 /var><var 48 01 /var>","3BB8_Sell items with an inventory exceeding <var 20 E802 /var>?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Be mindful of items with inventory allocated towards the production of handicrafts.<var 49 01 /var><var 48 01 /var>","","True","0x00003BB8","",""
+"","Item","3BB9_Item","","True","0x00003BB9","",""
+"","Value","3BBA_Value","","True","0x00003BBA","",""
+"","Qty.","3BBB_Qty.","","True","0x00003BBB","",""
+"","Total","3BBC_Total","","True","0x00003BBC","",""
+"","Confirm","3BBD_Confirm","","True","0x00003BBD","",""
+"","Cancel","3BBE_Cancel","","True","0x00003BBE","",""
+"","Island EXP","3BBF_Island EXP","","True","0x00003BBF","",""
+"","Under Care","3BC0_Under Care","","True","0x00003BC0","",""
+"","Care Halted","3BC1_Care Halted","","True","0x00003BC1","",""
+"","<var 20 E802 /var>","3BC2_<var 20 E802 /var>","","True","0x00003BC2","",""
+"","<var 29 EA02 /var>","3BC3_<var 29 EA02 /var>","","True","0x00003BC3","",""
+"","Caretaking Service","3BC4_Caretaking Service","","True","0x00003BC4","",""
+"","","3BC5_","","True","0x00003BC5","",""
+"","Select Destination","3BC6_Select Destination","","True","0x00003BC6","",""
+"","","3BC7_","","True","0x00003BC7","",""
+"","Are you sure you wish to reconstruct this landmark?","3BC8_Are you sure you wish to reconstruct this landmark?","","True","0x00003BC8","",""
+"","<var 12 75 /var><var 29 EA02 /var>","3BC9_<var 12 75 /var><var 29 EA02 /var>","","True","0x00003BC9","",""
+"","Material Allocation","3BCA_Material Allocation","","True","0x00003BCA","",""
+"","Display players whose islands you are permitted to visit at the top.","3BCB_Display players whose islands you are permitted to visit at the top.","","True","0x00003BCB","",""
+"","<var 20 E802 /var>/<var 20 E803 /var>","3BCC_<var 20 E802 /var>/<var 20 E803 /var>","","True","0x00003BCC","",""
+"","No members to display.","3BCD_No members to display.","","True","0x00003BCD","",""
+"","Travel to <var 29 EA02 /var>'s island?","3BCE_Travel to <var 29 EA02 /var>'s island?","","True","0x00003BCE","",""
+"","There are no animals grazing in the pasture.","3BCF_There are no animals grazing in the pasture.","","True","0x00003BCF","",""
+"","Free-range Minions","3BD0_Free-range Minions","","True","0x00003BD0","",""
+"","","3BD1_","","True","0x00003BD1","",""
+"","Area","3BD2_Area","","True","0x00003BD2","",""
+"","Recall All Minions","3BD3_Recall All Minions","","True","0x00003BD3","",""
+"","All minions currently roaming the island will be recalled. Proceed?","3BD4_All minions currently roaming the island will be recalled. Proceed?","","True","0x00003BD4","",""
+"","Total: <var 20 E802 /var>/<var 20 E803 /var>","3BD5_Total: <var 20 E802 /var>/<var 20 E803 /var>","","True","0x00003BD5","",""
+"","Select Terrain","3BD6_Select Terrain","","True","0x00003BD6","",""
+"","Select Minions","3BD7_Select Minions","","True","0x00003BD7","",""
+"","Retrieve Minion","3BD8_Retrieve Minion","","True","0x00003BD8","",""
+"","Island Minion Guide","3BD9_Island Minion Guide","","True","0x00003BD9","",""
+"","","3BDA_","","True","0x00003BDA","",""
+"","Movement","3BDB_Movement","","True","0x00003BDB","",""
+"","Walking","3BDC_Walking","","True","0x00003BDC","",""
+"","Resting","3BDD_Resting","","True","0x00003BDD","",""
+"","Current Position","3BDE_Current Position","","True","0x00003BDE","",""
+"","Following","3BDF_Following","","True","0x00003BDF","",""
+"","Home","3BE0_Home","","True","0x00003BE0","",""
+"","Release Minion","3BE1_Release Minion","","True","0x00003BE1","",""
+"","Retrieve Minion","3BE2_Retrieve Minion","","True","0x00003BE2","",""
+"","Release <var 31 ((Companion)) 03E8020202 /var> in the following area?
+Area: <var 29 EA03 /var>","3BE3_Release <var 31 ((Companion)) 03E8020202 /var> in the following area?
+Area: <var 29 EA03 /var>","","True","0x00003BE3","",""
+"","Move <var 31 ((Companion)) 03E8020202 /var> from the following area?
+Area: <var 29 EA03 /var>","3BE4_Move <var 31 ((Companion)) 03E8020202 /var> from the following area?
+Area: <var 29 EA03 /var>","","True","0x00003BE4","",""
+"","<var 2B ((<var 31 ((Companion)) 03E8020202 /var>)) /var> is currently following you. Release anyway?
+
+Release Area: <var 29 EA03 /var>
+
+<var 48 F201FA /var><var 49 F201FB /var>※The summoned minion will be released to roam about the designated location.<var 49 01 /var><var 48 01 /var>","3BE5_<var 2B ((<var 31 ((Companion)) 03E8020202 /var>)) /var> is currently following you. Release anyway?
+
+Release Area: <var 29 EA03 /var>
+
+<var 48 F201FA /var><var 49 F201FB /var>※The summoned minion will be released to roam about the designated location.<var 49 01 /var><var 48 01 /var>","","True","0x00003BE5","",""
+"","<var 2B ((<var 31 ((Companion)) 03E8020202 /var>)) /var> is already roaming about the designated area. Do you still wish to proceed?","3BE6_<var 2B ((<var 31 ((Companion)) 03E8020202 /var>)) /var> is already roaming about the designated area. Do you still wish to proceed?","","True","0x00003BE6","",""
+"","<var 20 E802 /var>/<var 20 E803 /var> Minions Roaming the Isle","3BE7_<var 20 E802 /var>/<var 20 E803 /var> Minions Roaming the Isle","","True","0x00003BE7","",""
+"","Spend <var 20 E802 /var> seafarer's cowries to dispatch an expedition to <var 29 EA03 /var>?","3BE8_Spend <var 20 E802 /var> seafarer's cowries to dispatch an expedition to <var 29 EA03 /var>?","","True","0x00003BE8","",""
+"","Entrust to Gardener","3BE9_Entrust to Gardener","","True","0x00003BE9","",""
+"","Dismiss Gardener","3BEA_Dismiss Gardener","","True","0x00003BEA","",""
+"","Collect Yield & Resume Gardening Services","3BEB_Collect Yield & Resume Gardening Services","","True","0x00003BEB","",""
+"","Sanctuary Settings","3BEC_Sanctuary Settings","","True","0x00003BEC","",""
+"","","3BED_","","True","0x00003BED","",""
+"","Permit the following entry:","3BEE_Permit the following entry:","","True","0x00003BEE","",""
+"","Friends","3BEF_Friends","","True","0x00003BEF","",""
+"","Free Company Members","3BF0_Free Company Members","","True","0x00003BF0","",""
+"","Party Members","3BF1_Party Members","","True","0x00003BF1","",""
+"","Apply","3BF2_Apply","","True","0x00003BF2","",""
+"","Close","3BF3_Close","","True","0x00003BF3","",""
+"","Name","3BF4_Name","","True","0x00003BF4","",""
+"","Class/Job","3BF5_Class/Job","","True","0x00003BF5","",""
+"","Location","3BF6_Location","","True","0x00003BF6","",""
+"","Location","3BF7_Location","","True","0x00003BF7","",""
+"","Company","3BF8_Company","","True","0x00003BF8","",""
+"","Rank","3BF9_Rank","","True","0x00003BF9","",""
+"","Lang.","3BFA_Lang.","","True","0x00003BFA","",""
+"","Visitors","3BFB_Visitors","","True","0x00003BFB","",""
+"","Change expedition area to the <var 29 EA02 /var>?","3BFC_Change expedition area to the <var 29 EA02 /var>?","","True","0x00003BFC","",""
+"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition?","3BFD_Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition?","","True","0x00003BFD","",""
+"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to the <var 29 EA03 /var>?","3BFE_Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to the <var 29 EA03 /var>?","","True","0x00003BFE","",""
+"","Select Expedition Area","3BFF_Select Expedition Area","","True","0x00003BFF","",""
+"","Register the agenda beginning with this item as a preset?","3C00_Register the agenda beginning with this item as a preset?","","True","0x00003C00","",""
+"","Sanctuary Settings","3C01_Sanctuary Settings","","True","0x00003C01","",""
+"","Move this building to the indicated location?
+
+<var 48 F201FA /var><var 49 F201FB /var>※If there is already a building erected upon the indicated location, the two buildings will switch places.<var 49 01 /var><var 48 01 /var>","3C02_Move this building to the indicated location?
+
+<var 48 F201FA /var><var 49 F201FB /var>※If there is already a building erected upon the indicated location, the two buildings will switch places.<var 49 01 /var><var 48 01 /var>","","True","0x00003C02","",""
+"","Are you sure you wish to remove and discard the <var 28 ((Item)) E80201 /var> crop? (Growth state: <var 29 EA03 /var>)","3C03_Are you sure you wish to remove and discard the <var 28 ((Item)) E80201 /var> crop? (Growth state: <var 29 EA03 /var>)","","True","0x00003C03","",""
+"","Remove and Discard","3C04_Remove and Discard","","True","0x00003C04","",""
+"","Selected","3C05_Selected","","True","0x00003C05","",""
+"","Review Manual","3C06_Review Manual","","True","0x00003C06","",""
+"","Inventory","3C07_Inventory","","True","0x00003C07","",""
+"","Collect Yield & End Gardening Services","3C08_Collect Yield & End Gardening Services","","True","0x00003C08","",""
+"","Collect Leavings & End Caretaking Services","3C09_Collect Leavings & End Caretaking Services","","True","0x00003C09","",""
+"","The Coziest of Cabins","3C0A_The Coziest of Cabins","","True","0x00003C0A","",""
+"","Top Crops","3C0B_Top Crops","","True","0x00003C0B","",""
+"","Adorable Animals","3C0C_Adorable Animals","","True","0x00003C0C","",""
+"","A Workshop of Wonders","3C0D_A Workshop of Wonders","","True","0x00003C0D","",""
+"","The Perfect Paradise","3C0E_The Perfect Paradise","","True","0x00003C0E","",""
+"","Requisite Materials","3C0F_Requisite Materials","","True","0x00003C0F","",""
+"","","3C10_","","True","0x00003C10","",""
+"","Materials","3C11_Materials","","True","0x00003C11","",""
+"","Required","3C12_Required","","True","0x00003C12","",""
+"","Inventory","3C13_Inventory","","True","0x00003C13","",""
+"","Close","3C14_Close","","True","0x00003C14","",""
+"","Review Requisite Materials","3C15_Review Requisite Materials","","True","0x00003C15","",""
+"","Set According to Demand","3C16_Set According to Demand","","True","0x00003C16","",""
+"","Set Agenda According to Supply & Demand","3C17_Set Agenda According to Supply & Demand","","True","0x00003C17","",""
+"","","3C18_","","True","0x00003C18","",""
+"","Click here to change the mode to <var 29 EA02 /var>.","3C19_Click here to change the mode to <var 29 EA02 /var>.","","True","0x00003C19","",""
+"","Delete the selected preset?","3C1A_Delete the selected preset?","","True","0x00003C1A","",""
+"","Catalyst","3C1B_Catalyst","","True","0x00003C1B","",""
+"","<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","3C1C_<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","","True","0x00003C1C","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Подкоманды","","False","0x00018A88","",""
 "","<var 1E 0C /var>","<var 1E 0C /var>","","False","0x00018A89","",""
 "","<var 1E 14 /var> Select","<var 1E 14 /var> Переключиться","","False","0x00018A8A","",""
@@ -14747,8 +15403,8 @@ Proceed?","","True","0x00003AD3","",""
 "","<var 1E 0B /var> Subcommands  <var 1E 02 /var> Select Log  <var 1E 03 /var> Toggle Tabs  <var 1E 0C /var> Expand Log","18AA9_<var 1E 0B /var> Subcommands  <var 1E 02 /var> Select Log  <var 1E 03 /var> Toggle Tabs  <var 1E 0C /var> Expand Log","","True","0x00018AA9","",""
 "","<var 1E 0B /var> Subcommands  <var 1E 0A /var> Chat Input  <var 1E 0C /var> Expand Log","18AAA_<var 1E 0B /var> Subcommands  <var 1E 0A /var> Chat Input  <var 1E 0C /var> Expand Log","","True","0x00018AAA","",""
 "","<var 1E 0B /var> Subcommands  <var 1E 0A /var> Chat Input  <var 1E 0C /var> Restore Log Size","18AAB_<var 1E 0B /var> Subcommands  <var 1E 0A /var> Chat Input  <var 1E 0C /var> Restore Log Size","","True","0x00018AAB","",""
-"","<var 1E 06 /var> History  <var 1E 0B /var> Delete  <var 1E 0E /var> Auto-translate<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var> ","18AAC_<var 1E 06 /var> History  <var 1E 0B /var> Delete  <var 1E 0E /var> Auto-translate<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var> ","","True","0x00018AAC","",""
-"","<var 1E 04 /var> Previous  <var 1E 05 /var> Next  <var 1E 0E /var> Auto-translate<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var> ","18AAD_<var 1E 04 /var> Previous  <var 1E 05 /var> Next  <var 1E 0E /var> Auto-translate<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var> ","","True","0x00018AAD","",""
+"","<var 1E 06 /var> History  <var 1E 0B /var> Delete  <var 1E 0E /var> Auto-translate<var 08 E1E95F01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var> ","18AAC_<var 1E 06 /var> History  <var 1E 0B /var> Delete  <var 1E 0E /var> Auto-translate<var 08 E1E95F01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var> ","","True","0x00018AAC","",""
+"","<var 1E 04 /var> Previous  <var 1E 05 /var> Next  <var 1E 0E /var> Auto-translate<var 08 E1E95F01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var> ","18AAD_<var 1E 04 /var> Previous  <var 1E 05 /var> Next  <var 1E 0E /var> Auto-translate<var 08 E1E95F01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var> ","","True","0x00018AAD","",""
 "","<var 1E 0B /var> Subcommands  <var 1E 0C /var> Apply","18AAE_<var 1E 0B /var> Subcommands  <var 1E 0C /var> Apply","","True","0x00018AAE","",""
 "","<var 1E 0C /var> Apply  <var 1E 0B /var> Delete Settings　","18AAF_<var 1E 0C /var> Apply  <var 1E 0B /var> Delete Settings　","","True","0x00018AAF","",""
 "","<var 1E 0C /var> Save Settings","18AB0_<var 1E 0C /var> Save Settings","","True","0x00018AB0","",""
@@ -14793,8 +15449,8 @@ Proceed?","","True","0x00003AD3","",""
 "","<var 1E 0B /var> Return Item","18AD7_<var 1E 0B /var> Return Item","","True","0x00018AD7","",""
 "","<var 1E 09 /var> Select Item","18AD8_<var 1E 09 /var> Select Item","","True","0x00018AD8","",""
 "","<var 1E 06 /var> Scroll","18AD9_<var 1E 06 /var> Scroll","","True","0x00018AD9","",""
-"","<var 1E 0B /var> Delete <var 1E 0E /var> Auto-translate<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","18ADA_<var 1E 0B /var> Delete <var 1E 0E /var> Auto-translate<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","","True","0x00018ADA","",""
-"","<var 1E 04 /var> Previous  <var 1E 05 /var> Next  <var 1E 0E /var> Auto-translate<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","18ADB_<var 1E 04 /var> Previous  <var 1E 05 /var> Next  <var 1E 0E /var> Auto-translate<var 08 E1E94C01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","","True","0x00018ADB","",""
+"","<var 1E 0B /var> Delete <var 1E 0E /var> Auto-translate<var 08 E1E95F01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","18ADA_<var 1E 0B /var> Delete <var 1E 0E /var> Auto-translate<var 08 E1E95F01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","","True","0x00018ADA","",""
+"","<var 1E 04 /var> Previous  <var 1E 05 /var> Next  <var 1E 0E /var> Auto-translate<var 08 E1E95F01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","18ADB_<var 1E 04 /var> Previous  <var 1E 05 /var> Next  <var 1E 0E /var> Auto-translate<var 08 E1E95F01 ((  <var 1E 0C /var> Keyboard)) ((<var 1D /var>)) /var>","","True","0x00018ADB","",""
 "","<var 1E 0B /var> Subcommands  <var 1E 0C /var> Select Item","18ADC_<var 1E 0B /var> Subcommands  <var 1E 0C /var> Select Item","","True","0x00018ADC","",""
 "","<var 1E 08 /var> Move  <var 1E 09 /var> Select  <var 1E 0A /var> Cancel","18ADD_<var 1E 08 /var> Move  <var 1E 09 /var> Select  <var 1E 0A /var> Cancel","","True","0x00018ADD","",""
 "","","18ADE_","","True","0x00018ADE","",""
@@ -15078,8 +15734,8 @@ Proceed?","","True","0x00003AD3","",""
 "","Required Class/Job: <var 2B ((<var 28 ((ClassJobCategory)) E80201 /var>)) /var>","Требуемый класс/профессия: <var 2B ((<var 28 ((ClassJobCategory)) E80201 /var>)) /var>","","False","0x00018F73","",""
 "","Level Requirement: Lv. <var 20 E802 /var>","Требуемый уровень: Ур. <var 20 E802 /var>","","False","0x00018F74","",""
 "","Dungeon Requirement: <var 2B ((<var 28 ((InstanceContent)) E80204 /var>)) /var>","Требуемое пройденное подземелье: <var 2B ((<var 28 ((InstanceContent)) E80204 /var>)) /var>","","False","0x00018F75","",""
-"","No daily beast tribe quests accepted prior to today may be active.","Нельзя принять сегодняшние задания заверолюдей, пока активны задания, принятые в один из предыдущих дней.","","False","0x00018F76","",""
-"","No remaining daily beast tribe quest allowances.","Больше не осталось допусков к заданиям зверолюдей.","","False","0x00018F77","",""
+"","No tribal daily quests accepted prior to today may be active.","18F76_No tribal daily quests accepted prior to today may be active.","","True","0x00018F76","",""
+"","No remaining tribal daily quest allowances.","18F77_No remaining tribal daily quest allowances.","","True","0x00018F77","",""
 "","Only available during the seasonal event.","Доступно только во время сезонного события.","","False","0x00018F78","",""
 "","Must own an apartment or an estate, or be sharing an estate.
 
@@ -15252,7 +15908,7 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 "","Reputation","Репутация","","False","0x00019070","",""
 "","Player Commendation","Похвалы от игроков","","False","0x00019071","",""
 "","<var 20 E802 /var>","19072_<var 20 E802 /var>","","True","0x00019072","",""
-"","Beast Tribe Relations","Отношения с дикими племенами","","False","0x00019073","",""
+"","Tribal Relations","19073_Tribal Relations","","True","0x00019073","",""
 "","<var 29 EA02 /var>","19074_<var 29 EA02 /var>","","True","0x00019074","",""
 "","<var 2D ((<var 28 ((BeastTribe)) E8020A /var>)) /var>","<var 2D ((<var 28 ((BeastTribe)) E8020A /var>)) /var>","","False","0x00019075","",""
 "","<var 48 E803 /var><var 20 E802 /var>. <var 08 E4E80401 ((<var 28 ((BeastReputationRank)) E80202 /var>)) ((<var 28 ((BeastReputationRank)) E80203 /var>)) /var><var 48 01 /var>","<var 48 E803 /var><var 20 E802 /var>. <var 08 E4E80401 ((<var 28 ((BeastReputationRank)) E80202 /var>)) ((<var 28 ((BeastReputationRank)) E80203 /var>)) /var><var 48 01 /var>","","False","0x00019076","",""
@@ -15298,6 +15954,10 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 "","OK","ОК","","False","0x000190AD","",""
 "","Cancel","Отмена","","False","0x000190AE","",""
 "","Player Commendation","Похвала игрока","","False","0x000190AF","",""
+"","Withdrawing from a duty via the withdraw button or allowing the timer to run out will incur a temporary penalty preventing you from registering for duty.
+Proceed?","190B2_Withdrawing from a duty via the withdraw button or allowing the timer to run out will incur a temporary penalty preventing you from registering for duty.
+Proceed?","","True","0x000190B2","",""
+"","<var 29 EA02 /var>","190B3_<var 29 EA02 /var>","","True","0x000190B3","",""
 "","Duty Roulette","190B4_Duty Roulette","","True","0x000190B4","",""
 "","Adventurer in Need (<var 29 EA02 /var>)","Востребованная роль (<var 29 EA02 /var>)","","False","0x000190B5","",""
 "","<var 48 F201F4 /var><var 49 F201F5 /var>Item already received<var 49 01 /var><var 48 01 /var>","190B6_<var 48 F201F4 /var><var 49 F201F5 /var>Item already received<var 49 01 /var><var 48 01 /var>","","True","0x000190B6","",""
@@ -15442,3 +16102,4 @@ Withdraw that application and apply for membership with <var 29 EA02 /var>?","В
 "","Yes","Да","","False","0x0001911F","",""
 "","No","Нет","","False","0x00019120","",""
 "","Small Talk","Поговорить","","False","0x0001912C","",""
+

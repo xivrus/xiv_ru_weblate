@@ -1985,7 +1985,7 @@ Toggle between on and off when no subcommand is specified.
 USAGE:
 　/gaction ""action name"" [placeholder]
 
-→Uses the specified general action on the specified target. The target name can be omitted when the target is yourself. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+→Uses the specified general action on the specified target. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>, gtoff
@@ -1998,7 +1998,25 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 
 　/gaction “Duty Action I” <t>
 　(Executes a duty-specific action
-　on the specified target.)<tab><tab><tab>/generalaction<tab>/gaction","","","False","0x00000111","",""
+　on the specified target.)<tab><tab><tab>/generalaction<tab>/gaction","ALIASES:
+　/generalaction, /gaction
+USAGE:
+　/gaction ""action name"" [placeholder]
+
+→Uses the specified general action on the specified target. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>, gtoff
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Examples:
+　/gaction ""Mount Roulette""
+　(Executes the Mount Roulette.)
+
+　/gaction “Duty Action I” <t>
+　(Executes a duty-specific action
+　on the specified target.)<tab><tab><tab>/generalaction<tab>/gaction","","True","0x00000111","",""
 "","USAGE:
 　/minion ""minion name""
 
@@ -2018,16 +2036,11 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　(Removes Bloodbath.)<tab><tab><tab>/statusoff<tab>","","","False","0x00000113","",""
 "","ALIASES:
 　/addpvpaction, /apa
-USAGE:
-　/apa ""action name 1"" ""action name 2""
-
-→Set the specified actions as additional PvP actions. This command requires that you specify two actions.
-
->>Example:
-　/addpvpaction ""Weapon Throw"" ""Full Swing""
-　(Sets Weapon Throw and
-　Full Swing as additional
-　PvP actions.)<tab><tab><tab>/addpvpaction<tab>/apa","","","False","0x00000114","",""
+A command previously believed to set specified actions as additional PvP actions.
+※This text command is no longer in use.<tab><tab><tab>/addpvpaction<tab>/apa","ALIASES:
+　/addpvpaction, /apa
+A command previously believed to set specified actions as additional PvP actions.
+※This text command is no longer in use.<tab><tab><tab>/addpvpaction<tab>/apa","","True","0x00000114","",""
 "","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
@@ -2303,7 +2316,7 @@ Toggles between all and off when no setting is specified.<tab>/battleeffect<tab>
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditionalEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -2333,7 +2346,84 @@ Toggles between all and off when no setting is specified.<tab>/battleeffect<tab>
 　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>        Show element.
 　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>        Hide element.
 
-Toggle between on/off when no subcommand is specified.<tab><tab><tab>/hud<tab>","","","False","0x0000013A","",""
+Toggle between on/off when no subcommand is specified.<tab><tab><tab>/hud<tab>","USAGE:
+　/hud [UI element] [subcommand]
+
+→Toggle on/off various UI elements.
+
+>>UI Elements:
+　Target Bar
+　　<var 48 F201FA /var><var 49 F201FB /var>TargetBar<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>tbar<var 49 01 /var><var 48 01 /var>
+　Target Info (HP)
+　　<var 48 F201FA /var><var 49 F201FB /var>TInfoHP<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>tihp<var 49 01 /var><var 48 01 /var>
+　Target Info (Progress)
+　　<var 48 F201FA /var><var 49 F201FB /var>TInfoProgress<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>tiprog<var 49 01 /var><var 48 01 /var>
+　Target Info (Status)
+　　<var 48 F201FA /var><var 49 F201FB /var>TInfoStatus<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>tistat<var 49 01 /var><var 48 01 /var>
+　Focus Target Bar
+　　<var 48 F201FA /var><var 49 F201FB /var>FocusTarget<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ftarget<var 49 01 /var><var 48 01 /var>
+　Party List
+　　<var 48 F201FA /var><var 49 F201FB /var>PartyList<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>plist<var 49 01 /var><var 48 01 /var>
+　Enemy List
+　　<var 48 F201FA /var><var 49 F201FB /var>EnemyList<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>elist<var 49 01 /var><var 48 01 /var>
+　Parameter Bar
+　　<var 48 F201FA /var><var 49 F201FB /var>ParamBar<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>param<var 49 01 /var><var 48 01 /var>
+　Minimap
+　　<var 48 F201FA /var><var 49 F201FB /var>Minimap<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>mmap<var 49 01 /var><var 48 01 /var>
+　Main Menu
+　　<var 48 F201FA /var><var 49 F201FB /var>MainMenu<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>mmenu<var 49 01 /var><var 48 01 /var>
+　Server Info
+　　<var 48 F201FA /var><var 49 F201FB /var>ServerInfo<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>server<var 49 01 /var><var 48 01 /var>
+　Gil
+　　<var 48 F201FA /var><var 49 F201FB /var>Gil<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>gil<var 49 01 /var><var 48 01 /var>
+　Inventory Grid
+　　<var 48 F201FA /var><var 49 F201FB /var>InventoryGrid<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>igrid<var 49 01 /var><var 48 01 /var>
+　Duty List
+　　<var 48 F201FA /var><var 49 F201FB /var>DutyList<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>dlist<var 49 01 /var><var 48 01 /var>
+　Item Help
+　　<var 48 F201FA /var><var 49 F201FB /var>ItemHelp<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ihelp<var 49 01 /var><var 48 01 /var>
+　Action Help
+　　<var 48 F201FA /var><var 49 F201FB /var>ActionHelp<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ahelp<var 49 01 /var><var 48 01 /var>
+　Limit Gauge
+　　<var 48 F201FA /var><var 49 F201FB /var>LimitGauge<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>lgauge<var 49 01 /var><var 48 01 /var>
+　Experience Bar
+　　<var 48 F201FA /var><var 49 F201FB /var>ExpBar<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ebar<var 49 01 /var><var 48 01 /var>
+　Status Effects
+　　<var 48 F201FA /var><var 49 F201FB /var>StatusEffects<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sfx<var 49 01 /var><var 48 01 /var>
+　Status Info (Enhancements)
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
+　Status Info (Conditional Enhancements)
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　Status Info (Enfeeblements)
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
+　Status Info (Other)
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoOther<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>siother<var 49 01 /var><var 48 01 /var>
+　Alliance List 1
+　　<var 48 F201FA /var><var 49 F201FB /var>AllianceList1<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>alist1<var 49 01 /var><var 48 01 /var>
+　Alliance List 2
+　　<var 48 F201FA /var><var 49 F201FB /var>AllianceList2<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>alist2<var 49 01 /var><var 48 01 /var>
+　<var 08 E4E94C02 (()) ((Hotbars
+　　<var 48 F201FA /var><var 49 F201FB /var>Hotbar1...Hotbar10<var 49 01 /var><var 48 01 /var>
+)) /var>　Cross Hotbar
+　　<var 48 F201FA /var><var 49 F201FB /var>Crosshotbar<var 49 01 /var><var 48 01 /var>
+　Scenario Guide
+　　<var 48 F201FA /var><var 49 F201FB /var>ScenarioGuide<var 49 01 /var><var 48 01 /var>
+　Compressed Aether
+　　<var 48 F201FA /var><var 49 F201FB /var>CompressedAether<var 49 01 /var><var 48 01 /var>
+　Battle High Gauge
+　　<var 48 F201FA /var><var 49 F201FB /var>BattleHighGauge<var 49 01 /var><var 48 01 /var>
+　Rival Wings Alliance List
+　　<var 48 F201FA /var><var 49 F201FB /var>RWAlliance<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwa<var 49 01 /var><var 48 01 /var>
+　Rival Wings Station Info
+　　<var 48 F201FA /var><var 49 F201FB /var>RWStation<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwst<var 49 01 /var><var 48 01 /var>
+　Rival Wings Mercenary Info
+　　<var 48 F201FA /var><var 49 F201FB /var>RWMerc<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwmrc<var 49 01 /var><var 48 01 /var>
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>        Show element.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>        Hide element.
+
+Toggle between on/off when no subcommand is specified.<tab><tab><tab>/hud<tab>","","True","0x0000013A","",""
 "","USAGE:
 　/hotbar [subcommand]
 
@@ -4768,6 +4858,27 @@ Both text and motion will be displayed when no subcommand is specified.<tab><tab
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/clutchhead<tab>","","","False","0x0000027A","",""
 "","ALIASES:
+　/eatchocolate, /choco
+USAGE:
+　/eatchocolate [subcommand]
+
+→Snack on Valentione's chocolate.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatchocolate<tab>/choco","ALIASES:
+　/eatchocolate, /choco
+USAGE:
+　/eatchocolate [subcommand]
+
+→Snack on Valentione's chocolate.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatchocolate<tab>/choco","","True","0x0000027B","",""
+"","ALIASES:
 　/eategg, /egg
 USAGE:
 　/eategg [subcommand]
@@ -4842,3 +4953,67 @@ Both text and motion will be displayed when no subcommand is specified.<tab><tab
 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/showleft<tab>","","","False","0x00000283","",""
+"","ALIASES:
+　/deride, /pagaga
+USAGE:
+　/deride [subcommand]
+
+→Bare your teeth derisively.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","ALIASES:
+　/deride, /pagaga
+USAGE:
+　/deride [subcommand]
+
+→Bare your teeth derisively.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","","True","0x00000286","",""
+"","ALIASES:
+　/eatpumpkincookie, /cookie
+USAGE:
+　/eatpumpkincookie [subcommand]
+
+→Nibble on a pumpkin cookie.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","ALIASES:
+　/eatpumpkincookie, /cookie
+USAGE:
+　/eatpumpkincookie [subcommand]
+
+→Nibble on a pumpkin cookie.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","","True","0x00000288","",""
+"","USAGE:
+　/spirit [subcommand]
+
+→Show off your team spirit.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/spirit<tab>","USAGE:
+　/spirit [subcommand]
+
+→Show off your team spirit.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/spirit<tab>","","True","0x00000289","",""
+

@@ -2981,7 +2981,7 @@ off
 USAGE:
 　/gaction ""action name"" [placeholder]
 
-→Uses the specified general action on the specified target. The target name can be omitted when the target is yourself. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+→Uses the specified general action on the specified target. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>, gtoff
@@ -2995,7 +2995,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　/gaction “Duty Action I” <t>
 　(Executes a duty-specific action
 　on the specified target.)<tab><tab><tab>/generalaction<tab>/gaction","/generalaction(/gaction) “ジェネラルアクション名” 代名詞
-指定したキャラクターに指定したジェネラルアクションを実行する。自分を対象にできるジェネラルアクションの場合は、代名詞を省略可能。ジェネラルアクションが行えない環境のとき、あるいは覚えていないジェネラルアクションのときは実行できない。
+指定したキャラクターに指定したジェネラルアクションを実行する。ジェネラルアクションが行えない環境のとき、あるいは覚えていないジェネラルアクションのときは実行できない。
 
 グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
 代名詞
@@ -3037,21 +3037,10 @@ gtoff
 　…バフステータス「捨身」を解除する。<tab><tab><tab>/statusoff<tab>","","False","0x00000113","",""
 "","ALIASES:
 　/addpvpaction, /apa
-USAGE:
-　/apa ""action name 1"" ""action name 2""
-
-→Set the specified actions as additional PvP actions. This command requires that you specify two actions.
-
->>Example:
-　/addpvpaction ""Weapon Throw"" ""Full Swing""
-　(Sets Weapon Throw and
-　Full Swing as additional
-　PvP actions.)<tab><tab><tab>/addpvpaction<tab>/apa","/addpvpaction(/apa) “PvPアディショナルアクション1” “PvPアディショナルアクション2”
-PvPアディショナルアクションを設定する。設定するアクションは2つ同時に設定する必要がある。
-
-実行例
-/addpvpaction ウェポンスロー フルスイング
-　…「ウェポンスロー」「フルスイング」の2つのアクションを設定する。<tab><tab><tab>/addpvpaction<tab>/apa","","False","0x00000114","",""
+A command previously believed to set specified actions as additional PvP actions.
+※This text command is no longer in use.<tab><tab><tab>/addpvpaction<tab>/apa","/addpvpaction(/apa) 
+PvPアディショナルアクションを設定できると信じられていた機能。
+※システム改修により現在は利用できません。<tab><tab><tab>/addpvpaction<tab>/apa","","False","0x00000114","",""
 "","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
@@ -3491,7 +3480,7 @@ off
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditionalEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -7531,6 +7520,23 @@ motion
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/clutchhead<tab>","","False","0x0000027A","",""
 "","ALIASES:
+　/eatchocolate, /choco
+USAGE:
+　/eatchocolate [subcommand]
+
+→Snack on Valentione's chocolate.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatchocolate<tab>/choco","/eatchocolate(/choco) サブコマンド
+ヴァレンティオンチョコを食べる。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/eatchocolate<tab>/choco","","False","0x0000027B","",""
+"","ALIASES:
 　/eategg, /egg
 USAGE:
 　/eategg [subcommand]
@@ -7653,3 +7659,55 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/showleft<tab>","","False","0x00000283","",""
+"","ALIASES:
+　/deride, /pagaga
+USAGE:
+　/deride [subcommand]
+
+→Bare your teeth derisively.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/deride(/pagaga) サブコマンド
+反骨精神を示す。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/deride<tab>/pagaga","","False","0x00000286","",""
+"","ALIASES:
+　/eatpumpkincookie, /cookie
+USAGE:
+　/eatpumpkincookie [subcommand]
+
+→Nibble on a pumpkin cookie.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/eatpumpkincookie(/cookie) サブコマンド
+パンプキンクッキーを食べる。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/eatpumpkincookie<tab>/cookie","","False","0x00000288","",""
+"","USAGE:
+　/spirit [subcommand]
+
+→Show off your team spirit.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/spirit<tab>","/spirit サブコマンド
+観戦する。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/spirit<tab>","","False","0x00000289","",""
+

@@ -23,9 +23,13 @@ Wir empfehlen eine Auflösung von 720p.<tab><tab>","","False","0x0000000D","",""
 "","Select the features you wish to change from the list on the right. Those marked with ??? have yet to be confirmed.<tab><tab>","Wähle die Merkmale, die du ändern möchtest, aus der Liste rechts aus. „???“ stehen für unbestätigte Merkmale.<tab><tab>","","False","0x00000011","",""
 "","Select the features you wish to change from the list on the right and press OK to reflect the changes.<tab><tab>","Wähle die Merkmale, die du ändern möchtest, aus der Liste rechts aus und bestätige sie mit OK.<tab><tab>","","False","0x00000012","",""
 "","Select the features you wish to change from the list on the right. Those marked with ??? have yet to be confirmed.<tab><tab>","Wähle die Merkmale, die du ändern möchtest, aus der Liste rechts aus. „???“ stehen für unbestätigte Merkmale. Bestätige das Aussehen, um die Anpassungen zu über<var 16 /var>nehmen.<tab><tab>","","False","0x00000013","",""
-"","Delete<tab><tab>","Löschen<tab><tab>","","False","0x00000014","",""
-"","Delete <var 29 EA02 /var>?<tab><tab>","<var 29 EA02 /var> löschen?<tab><tab>","","False","0x00000015","",""
-"","Yes.<tab><tab>","Ja, Schutz aufheben.<tab><tab>","","False","0x00000016","",""
+"","Delete Character<tab><tab>","Charakter löschen<tab><tab>","","False","0x00000014","",""
+"","Delete <var 29 EA02 /var>?
+Please be aware that if you delete this character, you will lose all items, gil, and hired retainers in their possession.
+If this character is master of a free company for which there is no eligible successor, the free company will be automatically disbanded, causing company estates and all items within the company chest to be deleted as well.<tab><tab>","<var 29 EA02 /var> löschen?
+Bitte beachte, dass im Falle einer Löschung alle Gegenstände, Gil und angeheuerte Gehilfen, die noch im Besitz dieses Charakters sind, verloren gehen.
+Sollte es sich bei dem Charakter um einen Meister einer Freien Ge<var 16 /var>sell<var 16 /var>schaft handeln und kein rechtmäßiger Nachfolger existieren, wird die Freie Ge<var 16 /var>sell<var 16 /var>schaft automatisch aufgelöst und alle mit ihr assoziierten Grundstücke und Besitztümer gehen ebenfalls verloren.<tab><tab>","","False","0x00000015","",""
+"","I understand and wish to delete this character.<tab><tab>","Ja, mit der Löschung fortfahren.<tab><tab>","","False","0x00000016","",""
 "","Change Name<tab><tab>","Namen ändern<tab><tab>","","False","0x00000017","",""
 "","Change Retainer Name<tab><tab>","Namen des Gehilfen ändern<tab><tab>","","False","0x00000018","",""
 "","Log in with <var 29 EA02 /var>?<tab><tab>","Mit <var 29 EA02 /var> einloggen?<tab><tab>","","False","0x00000019","",""
@@ -1461,7 +1465,7 @@ Bis die Reise vollzogen ist, kann nicht mit anderen Charakteren eingeloggt werde
 ※Travel times may take longer during periods of server congestion.<tab><tab>","Der Charakter befindet sich gerade im Reiseprozess auf ein anderes Datenzentrum. Bitte warte, bis der Prozess abgeschlossen ist.
 ※ Zu Stoßzeiten kann der Prozess unter Umständen länger dauern.<tab><tab>","","False","0x00000495","",""
 "","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> has arrived safely on <var 29 EA05 /var> in the <var 29 EA04 /var> data center!<tab><tab>","Der Charakter <var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> hat die Reise auf die Welt <var 29 EA05 /var> des Datenzentrums <var 29 EA04 /var> erfolgreich hinter sich gebracht!<tab><tab>","","False","0x00000496","",""
-"","This character is currently visiting another data center.<tab><tab>","Dieser Charakter besucht gerade ein anderes Datenzentrum.<tab><tab>","","False","0x00000497","",""
+"","This character is currently visiting the <var 29 EA02 /var> data center.<tab><tab>","Dieser Charakter ist gerade auf dem Datenzentrum <var 29 EA02 /var> zu Besuch.<tab><tab>","","False","0x00000497","",""
 "","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","Um dich mit diesem Charakter einloggen zu können, musst du seinen Namen ändern. Kehre dafür zu seiner Stammwelt zurück.<tab><tab>","","False","0x00000498","",""
 "","A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.<tab><tab>","Um dich mit diesem Charakter einzuloggen, musst du zunächst den Namen deines Gehilfen ändern. Kehre dafür zu seiner Stammwelt zurück.<tab><tab>","","False","0x00000499","",""
 "","You may perform any necessary name changes by returning to your Home World.
@@ -1532,7 +1536,7 @@ Bis die Reise vollzogen ist, kann nicht mit anderen Charakteren eingeloggt werde
 [<var 20 E802 /var>])) (()) /var><tab><tab>","Während der Server-Anfrage ist ein Fehler aufgetreten. <var 08 E1E80201 ((
 (<var 20 E802 /var>))) (()) /var><tab><tab>","","False","0x000004C4","",""
 "","Unable to <var 08 E1E80201 ((return to Home Data Center)) ((visit another data center)) /var> while in a party.<tab><tab>","<var 08 E1E80201 ((Keine Rückkehr zum ursprünglichen Datenzentrum)) ((Keine Reise auf ein anderes Datenzentrum)) /var> möglich, solange du einer Gruppe angehörst.<tab><tab>","","False","0x000004C5","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004C6","",""
+"","More Subcommands<tab><tab>","Weitere Optionen<tab><tab>","","False","0x000004C6","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004C7","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004C8","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004C9","",""
@@ -2111,7 +2115,7 @@ Bis die Reise vollzogen ist, kann nicht mit anderen Charakteren eingeloggt werde
 "","<tab><tab>","<tab><tab>","","False","0x00000706","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000707","",""
 "","Are you certain you wish to leave the queue?<tab><tab>","Den Login-Prozess abbrechen?<tab><tab>","","False","0x00000708","",""
-"","<tab><tab>","<tab><tab>","","False","0x00000709","",""
+"","You were automatically logged out due to extended inactivity.<tab><tab>","Du wurdest aufgrund längerer Inaktivität automatisch ausgeloggt.<tab><tab>","","False","0x00000709","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070A","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070B","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070C","",""
@@ -2514,3 +2518,4 @@ Could not load.<tab><tab>","Die Datei ist beschädigt oder hat das falsche Forma
 "","<tab><tab>","<tab><tab>","","False","0x00000896","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000897","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000898","",""
+

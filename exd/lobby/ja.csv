@@ -23,9 +23,14 @@ The recommended setting is High (720p).<tab><tab>","<var 48 F201F4 /var><var 49 
 "","Select the features you wish to change from the list on the right. Those marked with ??? have yet to be confirmed.<tab><tab>","変更したい項目を右の一覧から選んで編集してください。???の項目はまだ未決定です。<tab><tab>","","False","0x00000011","",""
 "","Select the features you wish to change from the list on the right and press OK to reflect the changes.<tab><tab>","変更したい項目を右の一覧から選んで編集してください。終了したら一番下のOKで決定すると変更が反映されます。<tab><tab>","","False","0x00000012","",""
 "","Select the features you wish to change from the list on the right. Those marked with ??? have yet to be confirmed.<tab><tab>","変更したい項目を右の一覧から選んで編集してください。???の項目はまだ未決定です。LOOKSを決定すると容姿作成を終了します。<tab><tab>","","False","0x00000013","",""
-"","Delete<tab><tab>","削除<tab><tab>","","False","0x00000014","",""
-"","Delete <var 29 EA02 /var>?<tab><tab>","「<var 29 EA02 /var>」を削除しますか？<tab><tab>","","False","0x00000015","",""
-"","Yes.<tab><tab>","はい。削除します。<tab><tab>","","False","0x00000016","",""
+"","Delete Character<tab><tab>","キャラクターを削除<tab><tab>","","False","0x00000014","",""
+"","Delete <var 29 EA02 /var>?
+Please be aware that if you delete this character, you will lose all items, gil, and hired retainers in their possession.
+If this character is master of a free company for which there is no eligible successor, the free company will be automatically disbanded, causing company estates and all items within the company chest to be deleted as well.<tab><tab>","「<var 29 EA02 /var>」を削除しますか？
+キャラクターを削除すると、所有するアイテムやギル・雇用中のリテイナーも削除されます。
+もしフリーカンパニーのマスターだった場合、他に新マスターになれる条件を満たすメンバーがいないと、フリーカンパニーが解散となります。
+カンパニーが所有するハウスやカンパニーチェストのアイテムなども無くなってしまいますので、ご注意ください。<tab><tab>","","False","0x00000015","",""
+"","I understand and wish to delete this character.<tab><tab>","はい。注意事項を了承し、削除します。<tab><tab>","","False","0x00000016","",""
 "","Change Name<tab><tab>","名前を変更<tab><tab>","","False","0x00000017","",""
 "","Change Retainer Name<tab><tab>","リテイナー名を変更<tab><tab>","","False","0x00000018","",""
 "","Log in with <var 29 EA02 /var>?<tab><tab>","「<var 29 EA02 /var>」でログインします。
@@ -1531,7 +1536,7 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 ※混雑時には移動時間が長くなる場合があります<tab><tab>","","False","0x00000495","",""
 "","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> has arrived safely on <var 29 EA05 /var> in the <var 29 EA04 /var> data center!<tab><tab>","キャラクター「<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var>」の
 データセンター「<var 29 EA04 /var>」所属ワールド「<var 29 EA05 /var>」への移動が完了しました！<tab><tab>","","False","0x00000496","",""
-"","This character is currently visiting another data center.<tab><tab>","このキャラクターは現在他のデータセンターに遊びに行っています。<tab><tab>","","False","0x00000497","",""
+"","This character is currently visiting the <var 29 EA02 /var> data center.<tab><tab>","このキャラクターは現在他のデータセンター<var 29 EA02 /var>へ遊びに行っています。<tab><tab>","","False","0x00000497","",""
 "","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","このキャラクターでログインするには名前の変更が必要です。名前の変更のためホームワールドに戻ってください。<tab><tab>","","False","0x00000498","",""
 "","A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.<tab><tab>","このキャラクターでログインするにはリテイナー名の変更が必要です。リテイナー名の変更のためホームワールドに戻ってください。<tab><tab>","","False","0x00000499","",""
 "","You may perform any necessary name changes by returning to your Home World.
@@ -1613,7 +1618,7 @@ After changing names, logging in will place your character at the aetheryte of y
 [<var 20 E802 /var>])) (()) /var><tab><tab>","サーバーへの処理のリクエストでエラーが発生しました。<var 08 E1E80201 ((
 [<var 20 E802 /var>])) (()) /var><tab><tab>","","False","0x000004C4","",""
 "","Unable to <var 08 E1E80201 ((return to Home Data Center)) ((visit another data center)) /var> while in a party.<tab><tab>","パーティを組んだ状態のため、<var 08 E1E80201 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理を実行できません。<tab><tab>","","False","0x000004C5","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004C6","",""
+"","More Subcommands<tab><tab>","その他の操作<tab><tab>","","False","0x000004C6","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004C7","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004C8","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004C9","",""
@@ -2192,7 +2197,7 @@ After changing names, logging in will place your character at the aetheryte of y
 "","<tab><tab>","<tab><tab>","","False","0x00000706","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000707","",""
 "","Are you certain you wish to leave the queue?<tab><tab>","ログイン処理を中断してもよろしいですか？<tab><tab>","","False","0x00000708","",""
-"","<tab><tab>","<tab><tab>","","False","0x00000709","",""
+"","You were automatically logged out due to extended inactivity.<tab><tab>","一定時間操作が行われなかったため、自動的にログアウトされました。<tab><tab>","","False","0x00000709","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070A","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070B","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070C","",""
@@ -2610,3 +2615,4 @@ Could not load.<tab><tab>","ファイルの形式が違うか、ファイルが�
 "","<tab><tab>","<tab><tab>","","False","0x00000896","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000897","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000898","",""
+

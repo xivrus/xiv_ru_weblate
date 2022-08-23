@@ -27,8 +27,10 @@
 物理攻撃力が高いほど、物理攻撃で与えるダメージが大きくなります。","","False","0x00000014","",""
 "","Defense<tab>Affects the amount of damage taken by physical attacks. The higher the value, the less damage taken.","物理防御力<tab>物理攻撃を受けた際のダメージを軽減します。
 物理防御力が高いほど、物理攻撃によって受けるダメージが小さくなります。","","False","0x00000015","",""
-"","Direct Hit Rate<tab>Affects the rate at which your physical and magic attacks land direct hits, slightly dealing more damage than normal hits. The higher the value, the higher the frequency with which your hits will be direct.","ダイレクトヒット<tab>物理・魔法攻撃により与えるダメージ量が一定割合増加します。
-ダイレクトヒットが高いほど、ダイレクトヒットが発生しやすくなります。","","False","0x00000016","",""
+"","Direct Hit Rate<tab>Affects the rate at which your physical and magic attacks land direct hits, dealing slightly more damage than normal hits. The higher the value, the higher the frequency with which your hits will be direct. Higher values will also result in greater damage for actions which guarantee direct hits.","ダイレクトヒット<tab>物理・魔法攻撃により与えるダメージ量が一定割合増加します。
+ダイレクトヒットが高いほど、ダイレクトヒットが発生しやすくなります。
+ダイレクトヒットの発生が確定となるアクションを実行する場合は、与えるダメージ量に影響を与えます。
+その際にはダイレクトヒットが高いほどダメージ量が増加します。","","False","0x00000016","",""
 "","Evasion<tab>","回避力<tab>","","False","0x00000017","",""
 "","Magic Defense<tab>Affects the amount of damage taken by magic attacks. The higher the value, the less damage taken.","魔法防御力<tab>攻撃魔法を受けた際のダメージを軽減します。
 魔法防御力が高いほど、魔法攻撃によって受けるダメージが小さくなります。","","False","0x00000018","",""
@@ -96,3 +98,4 @@
 技術力が高いほど、入手量が多くなります。
 漁師の魚の入手サイズに影響します。
 技術力が高いほど、大きいサイズを入手しやすくなります。","","False","0x00000049","",""
+

@@ -2861,7 +2861,7 @@ désactivé (off)   Retire l'action.
 USAGE:
 　/gaction ""action name"" [placeholder]
 
-→Uses the specified general action on the specified target. The target name can be omitted when the target is yourself. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+→Uses the specified general action on the specified target. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>, gtoff
@@ -2877,7 +2877,6 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　on the specified target.)<tab><tab><tab>/generalaction<tab>/gaction","/actiongénérale, /actgén, /generalaction, /gaction
 Utilisation<var 1D /var>: /actiongénérale ""[nom d'action]"" [argument de ciblage]
 Permet d'effectuer une action générale sur la cible spécifiée.
-Si l'action générale peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage].
 Exécution impossible si l'action générale n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
 >> Exemples<var 1D /var>:
@@ -2914,21 +2913,11 @@ Annule l'effet bénéfique désigné.
   Annule l'effet Du sang pour du sang.<tab>/annuleffet<tab>/anneffet<tab>/statusoff<tab>","","False","0x00000113","",""
 "","ALIASES:
 　/addpvpaction, /apa
-USAGE:
-　/apa ""action name 1"" ""action name 2""
-
-→Set the specified actions as additional PvP actions. This command requires that you specify two actions.
-
->>Example:
-　/addpvpaction ""Weapon Throw"" ""Full Swing""
-　(Sets Weapon Throw and
-　Full Swing as additional
-　PvP actions.)<tab><tab><tab>/addpvpaction<tab>/apa","/ajoutactionjcj, /aaj, /addpvpaction, /apa
+A command previously believed to set specified actions as additional PvP actions.
+※This text command is no longer in use.<tab><tab><tab>/addpvpaction<tab>/apa","/ajoutactionjcj, /aaj, /addpvpaction, /apa
 Utilisation<var 1D /var>: /ajouteractionjcj ""[talent 1]"" ""[talent 2]""
 Enregistre des actions dans les talents du JcJ. Nécessite d'enregistrer les deux d'un coup.
->> Exemples<var 1D /var>:
-/ajoutactionjcj ""Jet d'arme"" ""Plein élan""
-  Enregistre Jet d'arme et Plein élan.<tab>/ajoutactionjcj<tab>/aaj<tab>/addpvpaction<tab>/apa","","False","0x00000114","",""
+* Cette commande est ac<var 16 /var>tu<var 16 /var>el<var 16 /var>le<var 16 /var>ment indisponible en raison d'un remaniement du système.<tab>/ajoutactionjcj<tab>/aaj<tab>/addpvpaction<tab>/apa","","False","0x00000114","",""
 "","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
@@ -3317,7 +3306,7 @@ Si aucun type n'est spécifié, alterne entre ""tous"" et ""désactivé"".<tab>/
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditionalEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -7081,6 +7070,22 @@ Se tient la tête en se contorsionnant de douleur.
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/setenirlatête<tab>/tenirtête<tab>/clutchhead<tab>","","False","0x0000027A","",""
 "","ALIASES:
+　/eatchocolate, /choco
+USAGE:
+　/eatchocolate [subcommand]
+
+→Snack on Valentione's chocolate.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatchocolate<tab>/choco","/mangerunchocolat, /mangchocolat, /eatchocolate, /choco
+Utilisation<var 1D /var>: /mangerunchocolat [sous-commande]
+Mange un chocolat de la Valention.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/mangerunchocolat<tab>/mangchocolat<tab>/eatchocolate<tab>/choco","","False","0x0000027B","",""
+"","ALIASES:
 　/eategg, /egg
 USAGE:
 　/eategg [subcommand]
@@ -7195,3 +7200,52 @@ Exhibe ce qui se trouve à sa gauche.
 >> Sous-commande<var 1D /var>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/montrergauche<tab>/montreg<tab>/showleft<tab>","","False","0x00000283","",""
+"","ALIASES:
+　/deride, /pagaga
+USAGE:
+　/deride [subcommand]
+
+→Bare your teeth derisively.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/montrersoncôtérebelle, /rebelle, /deride, /pagaga
+Utilisation<var 1D /var>: /montrersoncôtérebelle [sous-commande]
+Montre son côté rebelle.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/montrersoncôtérebelle<tab>/rebelle<tab>/deride<tab>/pagaga","","False","0x00000286","",""
+"","ALIASES:
+　/eatpumpkincookie, /cookie
+USAGE:
+　/eatpumpkincookie [subcommand]
+
+→Nibble on a pumpkin cookie.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/mangerunbiscuitcitrouille, /mangbiscuitcitrouille, /eatpumpkincookie, /cookie
+Utilisation<var 1D /var>: /mangerunbiscuitcitrouille [sous-commande]
+Mange un biscuit citrouille.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/mangerunbiscuitcitrouille<tab>/mangbiscuitcitrouille<tab>/eatpumpkincookie<tab>/cookie","","False","0x00000288","",""
+"","USAGE:
+　/spirit [subcommand]
+
+→Show off your team spirit.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/spirit<tab>","/apprécierlespectacle, /apprécispectacle, /spirit
+Utilisation<var 1D /var>: /apprécierlespectacle [sous-commande]
+Apprécie le spectacle.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/apprécierlespectacle<tab>/apprécispectacle<tab>/spirit<tab>","","False","0x00000289","",""
+
