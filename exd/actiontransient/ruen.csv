@@ -4578,13 +4578,15 @@ Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 4
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>9s
 Consumes <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> upon execution.
 Shuts down when time expires or upon execution of <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overdrive<var 49 01 /var><var 48 01 /var>.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overdrive<var 49 01 /var><var 48 01 /var>.","Deploys a single-target battle turret which attacks using <var 48 F201F4 /var><var 49 F201F5 /var>Volley Fire<var 49 01 /var><var 48 01 /var>, dealing damage with a potency of 35.
-Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 75.
-<var 48 F201F8 /var><var 49 F201F9 /var>Battery Gauge Cost: <var 49 01 /var><var 48 01 /var>50
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>9s
-Consumes <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> upon execution.
-Shuts down when time expires or upon execution of <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overdrive<var 49 01 /var><var 48 01 /var>.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overdrive<var 49 01 /var><var 48 01 /var>.","","True","0x00000B30","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overdrive<var 49 01 /var><var 48 01 /var>.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Установка Авто-турели<var 49 01 /var><var 48 01 /var>.
+Устанавливает автоматическую турель для выполнения поставленной боевой задачи.
+Авто-турель ведет <var 48 F201F4 /var><var 49 F201F5 /var>Volley Fire<var 49 01 /var><var 48 01 /var> по одной цели, нанося физический урон с силой 35, в случае обнаружения противника.
+Сила увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание, вплоть до 75.
+<var 48 F201F8 /var><var 49 F201F9 /var>Расход Battery Gauge: <var 49 01 /var><var 48 01 /var>50
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>9 с
+Полностью расходует <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> после использования.
+Авто-турель отключается после использования вами <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overdrive<var 49 01 /var><var 48 01 /var> или после окончания действия своего эффекта.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overdrive<var 49 01 /var><var 48 01 /var>.","","False","0x00000B30","",""
 "","Deploys an area of effect battle turret which will deliver auto-attacks to enemies within range with a potency of 60 for the first enemy, 10% less for the second, 20% less for the third, 30% less for the fourth, 40% less for the fifth, and 50% less for all remaining enemies.<var 08 E0E9491F ((<var 08 E4E94520 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Hypercharge Potency:<var 49 01 /var><var 48 01 /var> 90
 <var 48 F201F8 /var><var 49 F201F9 /var>Hypercharge Effect:<var 49 01 /var><var 48 01 /var> Increases target's damage taken by 5%
@@ -4640,11 +4642,11 @@ Can only be executed when target's HP is below 20%.","","True","0x00000B3B","","
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 5s
 Increases damage dealt when under an effect that raises critical hit rate or direct hit rate.
 This action does not affect damage over time effects.<var 08 E4E94520 ((<var 08 E0E94955 ((
-<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2)) (()) /var>)) (()) /var>","Guarantees that next weaponskill is a critical direct hit.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 5s
-Increases damage dealt when under an effect that raises critical hit rate or direct hit rate.
-This action does not affect damage over time effects.<var 08 E4E94520 ((<var 08 E0E94955 ((
-<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2)) (()) /var>)) (()) /var>","","True","0x00000B3C","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2)) (()) /var>)) (()) /var>","Гарантирует что следующее умение нанесет критический урон.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 5 с.
+Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit или direct hit.
+Это действие не влияет на периодический урон.<var 08 E4E94520 ((<var 08 E0E94955 ((
+<var 48 F201F8 /var><var 49 F201F9 /var>Максимум зарядов:<var 49 01 /var><var 48 01 /var> 2)) (()) /var>)) (()) /var>","","False","0x00000B3C","",""
 "","Afflicts target with <var 48 F201FA /var><var 49 F201FB /var>Heavy<var 49 01 /var><var 48 01 /var> +40%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 12s (PvP 8s)<var 08 E0E94917 ((<var 08 E4E94520 ((
 Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Foot Graze<var 49 01 /var><var 48 01 /var>.)) (()) /var>)) (()) /var>","Afflicts target with <var 48 F201FA /var><var 49 F201FB /var>Heavy<var 49 01 /var><var 48 01 /var> +40%.
@@ -10410,10 +10412,11 @@ Can only be executed when <var 48 F201FA /var><var 49 F201FB /var>Straight Shot 
 "","Delivers an attack with a potency of 180.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Reduces the recast time of both <var 48 F201F4 /var><var 49 F201F5 /var>Gauss Round<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Ricochet<var 49 01 /var><var 48 01 /var> by 15s
 Can only be executed when firearm is <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.
-This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.","Delivers an attack with a potency of 180.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Reduces the recast time of both <var 48 F201F4 /var><var 49 F201F5 /var>Gauss Round<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Ricochet<var 49 01 /var><var 48 01 /var> by 15s
-Can only be executed when firearm is <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.
-This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.","","True","0x00001CF2","",""
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Раскаленный выстрел<var 49 01 /var><var 48 01 /var>.
+Наносит физический урон с силой 180.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Уменьшает время восстановления <var 48 F201F4 /var><var 49 F201F5 /var>Gauss Round<var 49 01 /var><var 48 01 /var> и <var 48 F201F4 /var><var 49 F201F5 /var>Ricochet<var 49 01 /var><var 48 01 /var> на 15 с.
+Возможно использовать только под действием <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.
+Не влияет на время восстановления прочих действий. После применения время восстановления этого действия будет применено для всех остальных умений и магических действий.","","False","0x00001CF2","",""
 "","Delivers an attack with a potency of <var 08 E4E94520 ((<var 08 E0E94955C9B5 /var>)) B5 /var>.<var 08 E4E94520 ((<var 08 E0E9491F ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increases <var 48 F201F4 /var><var 49 F201F5 /var>Heat Gauge<var 49 01 /var><var 48 01 /var> by 5)) (()) /var>)) (()) /var>","Наносит физический урон с силой <var 08 E4E94520 ((<var 08 E0E94955C9B5 /var>)) B5 /var>.<var 08 E4E94520 ((<var 08 E0E9491F ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Пополняет <var 48 F201F4 /var><var 49 F201F5 /var>Heat Gauge<var 49 01 /var><var 48 01 /var> на 5)) (()) /var>)) (()) /var>","","False","0x00001CF3","",""
@@ -10440,20 +10443,24 @@ Can only be executed while in combat.","Пополняет <var 48 F201F4 /var><
 <var 48 F201F8 /var><var 49 F201F9 /var>Rook Overload Potency: <var 49 01 /var><var 48 01 /var>160
 Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 320.
 The rook autoturret shuts down after execution. If this action is not used manually while the rook autoturret is active, it will be triggered automatically immediately before shutting down.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Rook Autoturret<var 49 01 /var><var 48 01 /var>.","Orders the rook autoturret to use <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overload<var 49 01 /var><var 48 01 /var>.
-<var 48 F201F8 /var><var 49 F201F9 /var>Rook Overload Potency: <var 49 01 /var><var 48 01 /var>160
-Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 320.
-The rook autoturret shuts down after execution. If this action is not used manually while the rook autoturret is active, it will be triggered automatically immediately before shutting down.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Rook Autoturret<var 49 01 /var><var 48 01 /var>.","","True","0x00001CF7","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Rook Autoturret<var 49 01 /var><var 48 01 /var>.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Перегрузка Авто-турели<var 49 01 /var><var 48 01 /var>.
+Отправляет команду Авто-турели использовать <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overload<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Сила Rook Overload:<var 49 01 /var><var 48 01 /var> 160.
+Сила увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание, вплоть до 320.
+Авто-турель отключается после использования действия.
+Действие применяется автоматически перед отключением Авто-турели, даже если не было использовано вами.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Rook Autoturret<var 49 01 /var><var 48 01 /var>.","","False","0x00001CF7","",""
 "","Delivers an attack with a potency of 160.
 Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 320.
 The rook autoturret shuts down after execution. If this action is not used manually while the rook autoturret is active, it will be triggered automatically immediately before shutting down.
 
-※This action cannot be assigned to a hotbar.","Delivers an attack with a potency of 160.
-Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 320.
-The rook autoturret shuts down after execution. If this action is not used manually while the rook autoturret is active, it will be triggered automatically immediately before shutting down.
+※This action cannot be assigned to a hotbar.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Артобстрел<var 49 01 /var><var 48 01 /var>.
+Наносит физический урон с силой 160.
+ила увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание, вплоть до 320.
+Авто-турель отключается после использования действия.
+Действие применяется автоматически перед отключением Авто-турели, даже если вы не использовали <var 48 F201F4 /var><var 49 F201F5 /var>Rook Overdrive<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","","True","0x00001CF8","",""
+※Это действие нельзя назначить на хотбар.","","False","0x00001CF8","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>Bishop Autoturret<var 49 01 /var><var 48 01 /var> under the effect of <var 48 F201FA /var><var 49 F201FB /var>Bishop Overdrive<var 49 01 /var><var 48 01 /var> deals damage with a potency of 600 to all nearby enemies. Autoturret is removed from the battlefield after execution.
 
 ※This action cannot be assigned to a hotbar.","<var 48 F201FA /var><var 49 F201FB /var>Bishop Autoturret<var 49 01 /var><var 48 01 /var> under the effect of <var 48 F201FA /var><var 49 F201FB /var>Bishop Overdrive<var 49 01 /var><var 48 01 /var> deals damage with a potency of 600 to all nearby enemies. Autoturret is removed from the battlefield after execution.
@@ -23013,9 +23020,10 @@ Potency increases up to 500 as <var 48 F201F4 /var><var 49 F201F5 /var>Soul Voic
 ※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Blast Arrow<var 49 01 /var><var 48 01 /var> пока персонаж находится под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Blast Arrow Ready<var 49 01 /var><var 48 01 /var>.)) (()) /var>)) (()) /var>","","False","0x00004070","",""
 "","Delivers an attack with a potency of 140 to all enemies in a cone before you.
 Can only be executed when firearm is <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.
-This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.","Delivers an attack with a potency of 140 to all enemies in a cone before you.
-Can only be executed when firearm is <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.
-This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.","","True","0x00004071","",""
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Баллиста<var 49 01 /var><var 48 01 /var>.
+Наносит физический урон с силой 140 всем противникам в конусе перед вами.
+Возможно использовать только под действием <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.
+Не влияет на время восстановления прочих действий. После применения время восстановления этого действия будет применено для всех остальных умений и магических действий.","","False","0x00004071","",""
 "","Delivers an attack with a potency of 580.
 <var 08 E4E94520 ((<var 08 E0E94949 ((Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Bioblaster<var 49 01 /var><var 48 01 /var>.)) ((This weaponskill does not share a recast timer with any other actions.)) /var>)) ((This weaponskill does not share a recast timer with any other actions.)) /var>","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Бур<var 49 01 /var><var 48 01 /var>.
 Наносит физический урон с силой 580.
@@ -23041,38 +23049,44 @@ Potency of Automaton Queen actions increases as <var 48 F201F4 /var><var 49 F201
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>12s
 Consumes <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> upon execution.
 Shuts down when time expires or upon execution of <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var>.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var>.","Deploys an Automaton Queen to fight at your side.
-Potency of Automaton Queen actions increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment.
-<var 48 F201F8 /var><var 49 F201F9 /var>Battery Gauge Cost: <var 49 01 /var><var 48 01 /var>50
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>12s
-Consumes <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> upon execution.
-Shuts down when time expires or upon execution of <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var>.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var>.","","True","0x00004075","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var>.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Королева-Автоматон<var 49 01 /var><var 48 01 /var>.
+Вызывает Automaton Queen для разрешения конфликта на поле боя.
+Сила действий Automaton Queen увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание.
+<var 48 F201F8 /var><var 49 F201F9 /var>Расход Battery Gauge: <var 49 01 /var><var 48 01 /var>50
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>12 с.
+Полностью расходует <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> после использования.
+Automaton Queen отключается после использования вами <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var> или после окончания действия своего эффекта.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var>.","","False","0x00004075","",""
 "","Orders the Automaton Queen to use <var 48 F201F4 /var><var 49 F201F5 /var>Pile Bunker<var 49 01 /var><var 48 01 /var>.
 <var 48 F201F8 /var><var 49 F201F9 /var>Pile Bunker Potency: <var 49 01 /var><var 48 01 /var>340
 Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 680.
 The Automaton Queen shuts down after execution. If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Automaton Queen<var 49 01 /var><var 48 01 /var>.","Orders the Automaton Queen to use <var 48 F201F4 /var><var 49 F201F5 /var>Pile Bunker<var 49 01 /var><var 48 01 /var>.
-<var 48 F201F8 /var><var 49 F201F9 /var>Pile Bunker Potency: <var 49 01 /var><var 48 01 /var>340
-Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 680.
-The Automaton Queen shuts down after execution. If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Automaton Queen<var 49 01 /var><var 48 01 /var>.","","True","0x00004076","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Automaton Queen<var 49 01 /var><var 48 01 /var>.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Перегрузка Богини<var 49 01 /var><var 48 01 /var>.
+Отправляет команду Automaton Queen использовать <var 48 F201F4 /var><var 49 F201F5 /var>Pile Bunker<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Сила Pile Bunker:<var 49 01 /var><var 48 01 /var> 340.
+Сила увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание, вплоть до 680.
+Automaton Queen отключается после использования.
+Действие применяется автоматически перед отключением Automaton Queen, даже если не было использовано вами.
+Имеет общее время восстановления с действием <var 48 F201F4 /var><var 49 F201F5 /var>Automaton Queen<var 49 01 /var><var 48 01 /var>.","","False","0x00004076","",""
 "","Delivers an attack with a potency of 340.
 Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 680.
 <var 08 E4E94520 ((<var 08 E0E94957 (()) ((The Automaton Queen shuts down after execution. )) /var>)) ((The Automaton Queen shuts down after execution. )) /var>If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
 
-※This action cannot be assigned to a hotbar.","Delivers an attack with a potency of 340.
-Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 680.
-<var 08 E4E94520 ((<var 08 E0E94957 (()) ((The Automaton Queen shuts down after execution. )) /var>)) ((The Automaton Queen shuts down after execution. )) /var>If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
+※This action cannot be assigned to a hotbar.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Отбойный молоток<var 49 01 /var><var 48 01 /var>.
+Наносит физический урон с силой 340.
+Сила увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание, вплоть до 680.
+<var 08 E4E94520 ((<var 08 E0E94957 (()) ((Automaton Queen отключается после использования.
+)) /var>)) ((Automaton Queen отключается после использования.
+)) /var>Действие применяется автоматически перед отключением Automaton Queen, даже если вы не использовали <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","","True","0x00004077","",""
+※Это действие нельзя назначить на хотбар.","","False","0x00004077","",""
 "","Delivers an attack with a potency of 120.
 Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 240.
 
-※This action cannot be assigned to a hotbar.","Delivers an attack with a potency of 120.
-Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 240.
+※This action cannot be assigned to a hotbar.","Наносит физический урон с силой 120.
+Сила увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание, вплоть до 240.
 
-※This action cannot be assigned to a hotbar.","","True","0x00004078","",""
+※Это действие нельзя назначить на хотбар.","","False","0x00004078","",""
 "","Deals fire damage with a potency of 340.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Astral Fire III<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>15s
@@ -24301,10 +24315,10 @@ Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201F
 "","Rushes target and delivers an attack with a potency of 240.
 Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 480.
 
-※This action cannot be assigned to a hotbar.","Rushes target and delivers an attack with a potency of 240.
-Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 480.
+※This action cannot be assigned to a hotbar.","Совершает рывок к цели, нанося физический урон с силой 240.
+Сила увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание, вплоть до 480.
 
-※This action cannot be assigned to a hotbar.","","True","0x00004336","",""
+※Это действие нельзя назначить на хотбар.","","False","0x00004336","",""
 "","","","","False","0x00004337","",""
 "","","","","False","0x00004338","",""
 "","Releases the energy building in your firearm, causing it to become <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>, increasing the potency of single-target weaponskills by 20.
@@ -36406,11 +36420,13 @@ Can only be executed when at least 1 coda is active.","Увеличивает у
 Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 780.
 The Automaton Queen shuts down after execution. If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
 
-※This action cannot be assigned to a hotbar.","Delivers an attack with a potency of 390.
-Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> exceeds required cost at time of deployment, up to a maximum of 780.
-The Automaton Queen shuts down after execution. If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
+※This action cannot be assigned to a hotbar.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Таранный удар<var 49 01 /var><var 48 01 /var>.
+Наносит физический урон с силой 390.
+Сила увеличивается пропорционально расходу <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> свыше требуемой стоимости на развертывание, вплоть до 780.
+Automaton Queen отключается после использования.
+Действие применяется автоматически перед отключением Automaton Queen, даже если вы не использовали <var 48 F201F4 /var><var 49 F201F5 /var>Queen Overdrive<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","","True","0x000064BB","",""
+※Это действие нельзя назначить на хотбар.","","False","0x000064BB","",""
 "","Delivers an attack to all enemies in a straight line before you with a potency of 580 for the first enemy, and 65% less for all remaining enemies.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 49 01 /var><var 48 01 /var> by 20
 This weaponskill does not share a recast timer with any other actions.","※<var 48 F201F8 /var><var 49 F201F9 /var>RUS:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Циркулярная пила<var 49 01 /var><var 48 01 /var>.
