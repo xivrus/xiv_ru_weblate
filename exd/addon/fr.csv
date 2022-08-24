@@ -161,7 +161,7 @@
 ""," "," ","","False","0x00000096","",""
 "","Are you certain you wish to use the collectable?","Voulez-vous vraiment utiliser cet objet collectionnable<var 1D /var>?","","False","0x00000097","",""
 "","Discard collectable.","Jeter l'objet collectionnable","","False","0x00000098","",""
-"","<var 48 F201FC /var><var 49 F201FD /var>Discard <var 31 ((Item)) 03E8020202 /var><var 08 E1E80301 (( (Collectability Rating: <var 20 E803 /var>))) (()) /var>?<var 49 01 /var><var 48 01 /var>","<var 48 F201FC /var><var 49 F201FD /var>Jeter <var 49 01 /var><var 48 01 /var><var 33 ((Item)) 03E8020202 /var><var 48 F201FC /var><var 49 F201FD /var><var 08 E1E80301 (( de valeur de collection <var 20 E803 /var>)) (()) /var><var 1D /var>?<var 49 01 /var><var 48 01 /var>","","False","0x00000099","",""
+"","<var 48 F201FC /var><var 49 F201FD /var>Discard <var 31 ((Item)) 03E8020202 /var><var 08 E1E80301 (( (Collectability Rating: <var 20 E803 /var>))) (()) /var>?<var 49 01 /var><var 48 01 /var>","<var 48 F201FC /var><var 49 F201FD /var>Jeter <var 33 ((Item)) 03E8020202 /var><var 08 E1E80301 (( de valeur de collection <var 20 E803 /var>)) (()) /var><var 1D /var>?<var 49 01 /var><var 48 01 /var>","","False","0x00000099","",""
 "","Lower Quality","Baisser la qualité","","False","0x0000009A","",""
 "","<var 48 F201FC /var><var 49 F201FD /var>Lower the quality of <var 08 E4E80302 ((<var 31 ((Item)) 03E8020202 /var>)) ((<var 20 E803 /var> <var 31 ((Item)) 04E802E80302 /var>)) /var> resulting in the following:<var 49 01 /var><var 48 01 /var>","Baisser la qualité <var 08 E4E80302 ((<var 33 ((Item)) 0AE8020202 /var>)) ((des <var 20 E803 /var> <var 33 ((Item)) 0DE802E80302 /var>)) /var> pour le résultat suivant<var 1D /var>?","","False","0x0000009B","",""
 "","<var 48 F201FC /var><var 49 F201FD /var>Lower the quality of <var 31 ((Item)) 03E8020202 /var> (Collectability Rating: <var 20 E803 /var>) resulting in the following:<var 49 01 /var><var 48 01 /var>","Baisser la qualité <var 33 ((Item)) 0AE8020202 /var> (valeur de collection <var 20 E803 /var>) pour le résultat suivant<var 1D /var>?","","False","0x0000009C","",""
@@ -7191,8 +7191,7 @@ Appliquer quand même les changements<var 1D /var>?
  - Si l'achat n'est pas finalisé durant la période de publication des résultats, le droit d'acquisition du terrain est au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment perdu. En outre, en guise de mesure visant à empêcher divers abus, seule la moitié des frais de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion est remboursée.
  - La période de remboursement des frais de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion, quel que soit leur montant, est de 90 jours après la fin de la publication des résultats. Aucun remboursement ne sera accordé au-delà de cette période.
  - Il est impossible de participer à un autre tirage au sort tant qu'une procédure d'achat ou de remboursement est en cours.
- - Attention<var 1D /var>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum.  Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.
-<var 49 01 /var><var 48 01 /var>","","False","0x00001B86","",""
+ - Attention<var 1D /var>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum. Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.<var 49 01 /var><var 48 01 /var>","","False","0x00001B86","",""
 "","I understand and wish to proceed.","Accepter les conditions de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion","","False","0x00001B87","",""
 "","Confirm","Oui","","False","0x00001B88","",""
 "","Cancel","Non","","False","0x00001B89","",""
@@ -7686,7 +7685,7 @@ Elles ne peuvent être sauvegardées et chargées que dans certaines missions.",
 "","Display both the pet hotbar and the cross hotbar.","Afficher la barre et la croix de raccourcis","","False","0x00001EA6","",""
 "","Display only the cross hotbar.","Afficher la croix de raccourcis uniquement","","False","0x00001EA7","",""
 "","Display only the pet hotbar.","Afficher la barre de raccourcis uniquement","","False","0x00001EA8","",""
-"","Automatically replace cross hotbar 1 with pet hotbar when mounted.","Remplacer la barre n°1 par celle de monture quand disponible","","False","0x00001EA9","",""
+"","Automatically replace cross hotbar 1 with pet hotbar when mounted.","Substituer la barre de raccourcis spéciale à la n°1 si disponible","","False","0x00001EA9","",""
 "","Customize<var 08 E1E80201 (( L1)) (( LB)) /var> (<var 12 0D /var>)","<var 12 0D /var> Configuration <var 08 E1E80201 ((de la touche L1)) ((de la gâchette LB)) /var>","","False","0x00001EAA","",""
 "","Customize<var 08 E1E80201 (( L2)) (( LT)) /var> (<var 12 0F /var>)","<var 12 0F /var> Configuration <var 08 E1E80201 ((de la touche L2)) ((de la gâchette LT)) /var>","","False","0x00001EAB","",""
 "","Customize<var 08 E1E80201 (( L3)) (( Left Thumb-click)) /var> (<var 12 11 /var>)","<var 12 11 /var> Configuration <var 08 E1E80201 ((de la touche L3)) ((du bouton stick gauche)) /var>","","False","0x00001EAC","",""
@@ -10372,7 +10371,7 @@ Proceed?","Vous êtes sur le point de refuser l'état en ligne “Rappelé(e)”
 "","Yes","Participer","","False","0x000027E6","",""
 "","Cancel","Annuler","","False","0x000027E7","",""
 "","Mentors can rejoin the Novice Network at any time by using the text command via the Novice Network List or by using the text command <var 48 F201FA /var><var 49 F201FB /var>/novicenetwork on<var 49 01 /var><var 48 01 /var>.","Vous êtes sur le point de quitter le réseau des novices.
-<var 48 F201FA /var><var 49 F201FB /var>* Vous pourrez y participer à nouveau en cliquant sur l'icone correspondant de la fenêtre de log ou avec la commande texte “<var 28 FF0C54657874436F6D6D616E64F0ED09 /var>”.<var 49 01 /var><var 48 01 /var>","","False","0x000027E8","",""
+<var 48 F201FA /var><var 49 F201FB /var>* Vous pourrez y participer à nouveau en cliquant sur l'icone correspondant de la fenêtre de log ou avec la commande texte “<var 28 ((TextCommand)) F0ED09 /var>”.<var 49 01 /var><var 48 01 /var>","","False","0x000027E8","",""
 "","Leave","Quitter","","False","0x000027E9","",""
 "","Cancel","Annuler","","False","0x000027EA","",""
 "","Display control guide.","Afficher les <var 08 E1E94C01 ((touches)) ((boutons)) /var>","","False","0x000027EC","",""
@@ -10558,7 +10557,7 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 
 <var 48 F201FC /var><var 49 F201FD /var>※Data cannot be restored once deleted.<var 49 01 /var><var 48 01 /var>","Effacer la sauvegarde afin de recommencer depuis le début<var 1D /var>?
 
-<var 48 F201FA /var><var 49 F201FB /var>Ce choix réinitialisera la progression et le niveau, mais les degrés d'amélioration du <var 2F FF07022903EA0203 /var> et du <var 2F ((<var 29 EA03 /var>)) /var> seront conservés.<var 49 01 /var><var 48 01 /var>
+<var 48 F201FA /var><var 49 F201FB /var>Ce choix réinitialisera la progression et le niveau, mais les degrés d'amélioration du <var 2F ((<var 29 EA02 /var>)) /var> et du <var 2F ((<var 29 EA03 /var>)) /var> seront conservés.<var 49 01 /var><var 48 01 /var>
 
 <var 48 F201FC /var><var 49 F201FD /var>* Attention<var 1D /var>: la suppression d'une sauvegarde ne peut pas être annulée.<var 49 01 /var><var 48 01 /var>","","False","0x000028AC","",""
 "","Accept terms and delete data.","Accepter et effacer la sauvegarde","","False","0x000028AD","",""
@@ -10935,7 +10934,7 @@ Il suffit qu'un des joueurs adverses quitte l'instance pour mettre fin aux af<va
 "","Time Elapsed: <var 20 E802 /var>:<var 24 E803 /var>/Average Wait Time: <var 29 EA04 /var>","Temps écoulé<var 1D /var>: <var 20 E802 /var>:<var 24 E803 /var>/Délai d'attente moyen<var 1D /var>: <var 29 EA04 /var>","","False","0x00002A41","",""
 "","Role Waiting List Number: <var 29 EA02 /var>","Ordre d'attente pour le rôle choisi<var 1D /var>: <var 29 EA02 /var>","","False","0x00002A42","",""
 "","Time Elapsed: <var 20 E802 /var>:<var 24 E803 /var>","Temps écoulé<var 1D /var>: <var 20 E802 /var>:<var 24 E803 /var>","","False","0x00002A43","",""
-"","<var 2B ((<var 28 ((ContentType)) E80201 /var>)) /var> (ARR, Heavensward, Stormblood, Shadowbringers)","<var 28 ((ContentType)) E80201 /var> (ARR/Heavensward/Stormblood/ Shadowbringers)","","False","0x00002A44","",""
+"","<var 2B ((<var 28 ((ContentType)) E80201 /var>)) /var> (ARR, Heavensward, Stormblood, Shadowbringers)","<var 28 ((ContentType)) E80201 /var> (ARR à Shadowbringers)","","False","0x00002A44","",""
 "","Regular Duty","Missions normales","","False","0x00002A45","",""
 "","High-end Duty","Missions à difficulté élevée","","False","0x00002A46","",""
 "","Unable to participate in duty while looking for a party.
@@ -11264,8 +11263,8 @@ Ce mini-jeu est disponible auprès du “président” une fois le défi termin�
 "","Stopping ranged DPS!<var 60 0267 /var>","J'immobilise le DPS à distance<var 1D /var>!<var 60 0267 /var>","","False","0x00002B27","",""
 "","Collecting medals!<var 60 0268 /var>","Je récupère les médailles<var 1D /var>!<var 60 0268 /var>","","False","0x00002B28","",""
 "","Get the medals!<var 60 0268 /var>","Récupérez les médailles<var 1D /var>!<var 60 0268 /var>","","False","0x00002B29","",""
-"","Everyone, attack!<var 60 0269 /var>","Tout le monde à l'attaque<var 1D /var>!<var 60 0269 /var>","","False","0x00002B2A","",""
-"","Fall back and regroup!<var 60 0264 /var>","Regroupons-nous<var 1D /var>!<var 60 0264 /var>","","False","0x00002B2B","",""
+"","Everyone, attack!<var 60 0269 /var>","À l'attaque<var 1D /var>!<var 60 0269 /var>","","False","0x00002B2A","",""
+"","Fall back and regroup!<var 60 0264 /var>","Replions-nous<var 1D /var>!<var 60 0264 /var>","","False","0x00002B2B","",""
 "","MP at <var 20 E802 /var>%!<var 60 0264 /var>","PM<var 1D /var>: <var 20 E802 /var>%<var 1D /var>!<var 60 0263 /var>","","False","0x00002B2C","",""
 "","TP at <var 20 E802 /var>%!<var 60 0264 /var>","PT<var 1D /var>: <var 20 E802 /var>%<var 1D /var>!<var 60 0263 /var>","","False","0x00002B2D","",""
 "","Attacking <var 2F ((<var 28 ((ClassJob)) E80201 /var>)) /var>! <var 60 0266 /var>","J'attaque l'adversaire suivant<var 1D /var>: <var 28 ((ClassJob)) E80201 /var><var 1D /var>!<var 60 0266 /var>","","False","0x00002B2E","",""
@@ -11770,7 +11769,7 @@ Le récupérer quand même<var 1D /var>?","","False","0x00002CFB","",""
 "","Reclaim <var 31 ((Item)) 03E8020302 /var>?
 <var 48 F201FA /var><var 49 F201FB /var>※Gratuity price has been updated to include a small transaction fee.
 ※Reclaimed items will no longer contribute to the enclave's reconstruction.
-※Reclaiming donations will not increase or otherwise affect the weekly budget.<var 48 F201FA /var><var 49 F201FB /var>","Récupérer <var 33 ((Item)) 03E802 ((<var 08 E1E803020302 /var>)) 02 /var><var 1D /var>?
+※Reclaiming donations will not increase or otherwise affect the weekly budget.<var 48 F201FA /var><var 49 F201FB /var>","Récupérer <var 33 ((Item)) 03E802FF0B020807E1E8030203020302 /var><var 1D /var>?
 
 <var 48 F201FA /var><var 49 F201FB /var>* Des frais de procédure sont ajoutés à la somme en gils à restituer.<var 49 01 /var><var 48 01 /var>
 <var 48 F201FA /var><var 49 F201FB /var>* Le budget du Shazenkai restera au même niveau de progression, mais les travaux de recon<var 16 /var>struc<var 16 /var>tion n'avanceront pas à moins de faire un autre don de valeur équivalente.<var 49 01 /var><var 48 01 /var>","","False","0x00002D46","",""
@@ -11857,7 +11856,7 @@ Activate a logos action to convert <var 08 E1E80202 ((the two mnemes)) ((the mne
 "","OK","OK","","False","0x00002D84","",""
 "","Replace","Remplacer","","False","0x00002D85","",""
 "","Destroy","Jeter","","False","0x00002D86","",""
-"","Replace “<var 28 ((Action)) E80201 /var>”<var 08 E1E80301 (( and “<var 28 ((Action)) E80301 /var>”)) (()) /var> with the recently acquired mneme, transforming it into a new logos action?","Êtes-vous sûr<var 08 E905 ((e)) (()) /var> de vouloir remplacer le set composé de l'action <var 48 F201FA /var><var 49 F201FB /var><var 28 FF07416374696F6EE80201 /var><var 49 01 /var><var 48 01 /var><var 08 E1E80301 (( et de l'action <var 48 F201FA /var><var 49 F201FB /var><var 28 FF07416374696F6EE80301 /var><var 49 01 /var><var 48 01 /var>)) (()) /var> par celui que vous venez de créer<var 1D /var>?","","False","0x00002D87","",""
+"","Replace “<var 28 ((Action)) E80201 /var>”<var 08 E1E80301 (( and “<var 28 ((Action)) E80301 /var>”)) (()) /var> with the recently acquired mneme, transforming it into a new logos action?","Êtes-vous sûr<var 08 E905 ((e)) (()) /var> de vouloir remplacer le set composé de l'action <var 48 F201FA /var><var 49 F201FB /var><var 28 ((Action)) E80201 /var><var 49 01 /var><var 48 01 /var><var 08 E1E80301 (( et de l'action <var 48 F201FA /var><var 49 F201FB /var><var 28 ((Action)) E80301 /var><var 49 01 /var><var 48 01 /var>)) (()) /var> par celui que vous venez de créer<var 1D /var>?","","False","0x00002D87","",""
 "","Are you certain you wish to delete the mneme?","Êtes-vous sûr<var 08 E905 ((e)) (()) /var> de vouloir vous débarrasser du résultat de votre extraction<var 1D /var>?","","False","0x00002D88","",""
 "","Set in Astral Array","Ajouter au réacteur astral","","False","0x00002D89","",""
 "","Set in Umbral Array","Ajouter au réacteur ombral","","False","0x00002D8A","",""
@@ -11889,7 +11888,7 @@ Activate a logos action to convert <var 08 E1E80202 ((the two mnemes)) ((the mne
 "","Parameters Extracted","Les bonus additionnels suivants ont été extraits.","","False","0x00002DA1","",""
 "","Final Adjustment","Écran de comparaison","","False","0x00002DA2","",""
 "","Replace the following logos action<var 08 E1E80301 ((s)) (()) /var>?
-""<var 28 ((Action)) E80201 /var>""<var 08 E1E80301 (( and “<var 28 ((Action)) E80301 /var>”)) (()) /var>","Êtes-vous sûr<var 08 E905 ((e)) (()) /var> de vouloir vous débarrasser <var 08 E1E80301 ((des actions Logos <var 48 F201FA /var><var 49 F201FB /var><var 28 FF07416374696F6EE80201 /var><var 49 01 /var><var 48 01 /var> et <var 48 F201FA /var><var 49 F201FB /var><var 28 FF07416374696F6EE80301 /var><var 49 01 /var><var 48 01 /var>)) ((de l'action Logos <var 48 F201FA /var><var 49 F201FB /var><var 28 FF07416374696F6EE80201 /var><var 49 01 /var><var 48 01 /var>)) /var><var 1D /var>?","","False","0x00002DA3","",""
+""<var 28 ((Action)) E80201 /var>""<var 08 E1E80301 (( and “<var 28 ((Action)) E80301 /var>”)) (()) /var>","Êtes-vous sûr<var 08 E905 ((e)) (()) /var> de vouloir vous débarrasser <var 08 E1E80301 ((des actions Logos <var 48 F201FA /var><var 49 F201FB /var><var 28 ((Action)) E80201 /var><var 49 01 /var><var 48 01 /var> et <var 48 F201FA /var><var 49 F201FB /var><var 28 ((Action)) E80301 /var><var 49 01 /var><var 48 01 /var>)) ((de l'action Logos <var 48 F201FA /var><var 49 F201FB /var><var 28 ((Action)) E80201 /var><var 49 01 /var><var 48 01 /var>)) /var><var 1D /var>?","","False","0x00002DA3","",""
 "","Exploring Dungeon","Personnages affrontant des monstres","","False","0x00002DA4","",""
 "","Prioritize By","Priorité d'affichage","","False","0x00002DA5","",""
 "","+<var 20 E802 /var>","+<var 20 E802 /var>","","False","0x00002DA6","",""
@@ -12450,7 +12449,7 @@ désigné parmi les membres restants.<var 49 01 /var><var 48 01 /var>","","False
 "","Change Cross-world Linkshell Number","Changer le numéro","","False","0x00002F81","",""
 "","Assign a new number to CWLS-<var 20 E802 /var>.
 Swaps numbers that have already been assigned.","Veuillez sélectionner un nouveau numéro pour cette LSIM. Si ce numéro est déjà attribué, les deux LSIM seront interverties.","","False","0x00002F82","",""
-"","CWLS [<var 20 E802 /var>]: <var 29 EA03 /var>","<var 09 E802 ((<var 13 E924 /var>)) ((<var 13 E955 /var>)) ((<var 13 E956 /var>)) ((<var 13 E957 /var>)) ((<var 13 E958 /var>)) ((<var 13 E959 /var>)) ((<var 13 E95A /var>)) ((<var 13 E95B /var>)) /var>LSIM <var 20 E802 /var><var 1D /var>: <var 29 EA03 /var><var 13 EC /var>","","False","0x00002F83","",""
+"","CWLS [<var 20 E802 /var>]: <var 29 EA03 /var>","<var 09 E802 ((<color2 E924>)) ((<color2 E955>)) ((<color2 E956>)) ((<color2 E957>)) ((<color2 E958>)) ((<color2 E959>)) ((<color2 E95A>)) ((<color2 E95B>)) /var>LSIM <var 20 E802 /var><var 1D /var>: <var 29 EA03 /var></color2>","","False","0x00002F83","",""
 "","Invite to CWLS-<var 20 E802 /var>: <var 29 EA03 /var>","Inviter dans la linkshell inter-Monde n°<var 20 E802 /var> “<var 29 EA03 /var>”","","False","0x00002F84","",""
 "","List","Liste","","False","0x00002F85","",""
 "","Master","Chef","","False","0x00002F86","",""
@@ -13038,13 +13037,13 @@ Le niveau de fréquentation du Monde choisi au moment de confirmer votre demande
 <var 48 F201FA /var><var 49 F201FB /var>Please be advised you must be playing solo or in a cross-world party for your transfer to be processed.<var 49 01 /var><var 48 01 /var>","Voulez-vous vraiment visiter “<var 29 EA02 /var>”<var 1D /var>?
 <var 48 F201FA /var><var 49 F201FB /var>Vous ne pouvez pas utiliser le voyage inter-Monde en faisant partie d'une équipe standard.
 Vous pouvez néanmoins faire partie d'une équipe inter-Monde ou être en cours de recherche d'équipe.<var 49 01 /var><var 48 01 /var>","","False","0x00003150","",""
-"","Traveler","Traveler","","False","0x00003151","",""
+"","Traveler","<var 08 E4E80202 ((Baroudeuse)) ((Baroudeur)) /var>","","False","0x00003151","",""
 "","Letter notifications are unavailable outside of your Home Data Center.","Vous ne pourrez pas recevoir de notification de nouveau courrier si votre Monde d'origine et celui vers lequel vous voyagez ne partagent pas le même centre de traitement de données.","","False","0x00003152","",""
 "","One-nut Clan Marks","Contrats du clan Kupo (débutant)","","False","0x00003156","",""
 "","Two-nut Clan Marks","Contrats du clan Kupo (intermédiaire)","","False","0x00003157","",""
 "","Three-nut Clan Marks","Contrats du clan Kupo (avancé)","","False","0x00003158","",""
 "","Elite Clan Nutsy Marks","Contrats d'élite du clan Kupo","","False","0x00003159","",""
-"","<var 08 E1E80401 ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts / <var 22 E804 ((,)) /var> EXP)) ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts)) /var>","<var 08 E1E80401 ((<var 22 E802 ((<var 1D /var>)) /var> gil<var 08 E2E80202 (()) ((s)) /var> / <var 22 E803 ((<var 1D /var>)) /var> insigne<var 08 E2E80302 (()) ((s)) /var> Kupo / <var 22 E804 ((<var 1D /var>)) /var> Exp)) ((<var 22 E802 ((<var 1D /var>)) /var> gil<var 08 E2E80202 (()) ((s)) /var> / <var 22 E803 ((<var 1D /var>)) /var> insigne<var 08 E2E80302 (()) ((s)) /var> Kupo)) /var>","","False","0x0000315A","",""
+"","<var 08 E1E80401 ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts / <var 22 E804 ((,)) /var> EXP)) ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts)) /var>","<var 08 E1E80401 ((<var 22 E802 ((<var 1D /var>)) /var> gil<var 08 E2E80202 (()) ((s)) /var> / <var 22 E803 ((<var 1D /var>)) /var> insigne<var 08 E2E80302 (()) ((s)) /var> de chasse / <var 22 E804 ((<var 1D /var>)) /var> Exp)) ((<var 22 E802 ((<var 1D /var>)) /var> gil<var 08 E2E80202 (()) ((s)) /var> / <var 22 E803 ((<var 1D /var>)) /var> insigne<var 08 E2E80302 (()) ((s)) /var> de chasse)) /var>","","False","0x0000315A","",""
 "","Clan Nutsy","Clan Kupo","","False","0x0000315B","",""
 "","<var 09 E802 ((One-nut Clan Marks)) ((Two-nut Clan Marks)) ((Three-nut Clan Marks)) ((Elite Clan Nutsy Marks)) /var>（<var 29 EA03 /var>）","<var 09 E802 ((Contrat du clan Kupo (débutant))) ((Contrat du clan Kupo (intermédiaire))) ((Contrat du clan Kupo (avancé))) ((Contrat d'élite du clan Kupo)) /var> (<var 29 EA03 /var>)","","False","0x0000315C","",""
 "","<var 09 E802 ((Level 1 Clan Marks)) ((Level 2 Clan Marks)) ((Level 3 Clan Marks)) ((Elite Clan Marks)) /var>（<var 29 EA03 /var>）","<var 09 E802 ((Contrat du clan (débutant))) ((Contrat du clan (intermédiaire))) ((Contrat du clan (avancé))) ((Contrat d'élite du clan)) /var> (<var 29 EA03 /var>)","","False","0x0000315D","",""
@@ -13151,8 +13150,8 @@ Il est recommandé d'essayer d'autres langues si les délais d'accès aux missio
 "","Scenario","Épopée","","False","0x000031A4","",""
 "","Scenario","Épopée","","False","0x000031A5","",""
 "","Trust EXP","Expérience (adjuration)","","False","0x000031A6","",""
-"","Display Trust help.","Afficher une explication","","False","0x000031A7","",""
-"","Trust Help","Description du système d'adjuration","","False","0x000031AE","",""
+"","Display Trust help.","Afficher l'aide","","False","0x000031A7","",""
+"","Trust Help","Aide du système d'adjuration","","False","0x000031AE","",""
 "","","","","False","0x000031AF","",""
 "","Insufficient Level","Niveau insuffisant","","False","0x000031B0","",""
 "","Not a Disciple of War or Magic","Classe non combattante","","False","0x000031B1","",""
@@ -13455,7 +13454,7 @@ de mentor a pris fin.","","False","0x000032D7","",""
 If you wish to regain your mentor status, speak with a Smith once you have fulfilled the updated requirements.","Vous n'avez pas renouvelé votre accréditation de mentor durant la période impartie et avez donc perdu ce statut.
 Pour l'obtenir à nouveau, parlez à un chef instructeur après avoir rempli toutes les nouvelles conditions d'obtention.","","False","0x000032D8","",""
 "","Close","Fermer","","False","0x000032D9","",""
-"","5: Complete any level <var 20 E802 /var> melee DPS or ranged DPS role quest.","5. Accomplir une des deux quêtes de rôle de DPS (physique ou magique) de niveau <var 20 E802 /var>.","","False","0x000032DA","",""
+"","5: Complete any level <var 20 E802 /var> melee DPS or ranged DPS role quest.","5. Accomplir une des trois quêtes de rôle de DPS (physique ou magique) de niveau <var 20 E802 /var>.","","False","0x000032DA","",""
 "","2: Synthesize 100 collectables.","2. Synthétiser 100 objets collectionnables.","","False","0x000032DB","",""
 "","3: Reach level <var 20 E802 /var> in any Disciple of the Land class.","3. Atteindre le niveau <var 20 E802 /var> dans l'une des disciplines de la terre.","","False","0x000032DC","",""
 "","4: Reach level <var 20 E802 /var> in any Disciple of the Hand class.","4. Atteindre le niveau <var 20 E802 /var> dans l'une des disciplines de la main.","","False","0x000032DD","",""
@@ -14079,8 +14078,7 @@ Utiliser l'objet “<var 28 ((Item)) E8020A /var>”","","False","0x000035BD",""
 "","Obtained from <var 31 ((Item)) 04E8040302 /var>.
 <var 61 E803 /var>
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","Utiliser l'objet “<var 28 ((Item)) E8040A /var>”
-Échange de devises<var 1D /var>: <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>
-<var 61 E803 /var>","","False","0x000035C3","",""
+Échange de devises<var 1D /var>: <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>, <var 61 E803 /var>","","False","0x000035C3","",""
 "","Obtained from <var 31 ((Item)) 04E8020302 /var>.
 <var 08 E5E95D01 ((<var 09 E95D ((<var 61 F63DEC88 /var>
 Storm Quartermaster)) ((<var 61 F63CA772 /var>
@@ -14502,7 +14500,7 @@ Rate:
 "","Item","Objet","","False","0x000037AB","",""
 "","Sanctuary Rank:","Rang de félicité","","False","0x000037AC","",""
 "","Island EXP:","EXP insulaire","","False","0x000037AD","",""
-"","<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>�)) 07022003E8020303)) /<var 20 E803 /var>","<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>�)) 07022003E8020303)) /<var 20 E803 /var>","","False","0x000037AE","",""
+"","<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>)) ((<var 20 E802 /var>)) /var>/<var 20 E803 /var>","<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>)) ((<var 20 E802 /var>)) /var>/<var 20 E803 /var>","","False","0x000037AE","",""
 "","-/-","-/-","","False","0x000037AF","",""
 "","（-<var 22 E802 ((,)) /var>/day）","（-<var 22 E802 ((,)) /var>/jour）","","False","0x000037B0","",""
 "","Isleventory","Sacoche","","False","0x000037B1","",""
@@ -14675,7 +14673,7 @@ Up to 10 results are displayed.","Recherche d'emote
 "","Umbra","Umbra","","False","0x00003858","",""
 "","Rising Stars <var 08 E1E80201 (((Streak Bonus Active!))) (( )) /var>","Étoiles de victoire<var 08 E1E80201 (( (bonus de victoires consécutives actif))) (( )) /var>","","False","0x00003859","",""
 "","<var 29 EA02 /var> <var 08 E4E80301 ((<var 08 E1E80401 ((<var 20 E804 /var>)) (()) /var> <var 09 E805 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var> → <var 29 EA06 /var> <var 08 E4E80701 ((<var 08 E1E80801 ((<var 20 E808 /var>)) (()) /var> <var 09 E809 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var>","<var 29 EA02 /var><var 08 E4E80301 ((<var 08 E1E80401 (( <var 20 E804 /var>)) (()) /var><var 09 E805 (( ☆☆☆)) (( ★☆☆)) (( ★★☆)) (( ★★★)) /var>)) (()) /var>　→　<var 29 EA06 /var><var 08 E4E80701 ((<var 08 E1E80801 (( <var 20 E808 /var>)) (()) /var><var 09 E809 (( ☆☆☆)) (( ★☆☆)) (( ★★☆)) (( ★★★)) /var>)) (()) /var>","","False","0x0000385A","",""
-"","Crystal Credit","Points Crystal","","False","0x0000385B","",""
+"","Crystal Credit","Points de cristal","","False","0x0000385B","",""
 "","<var 20 E802 /var> → <var 20 E803 /var>","<var 20 E802 /var> → <var 20 E803 /var>","","False","0x0000385C","",""
 "","Current Arena: <var 28 ((PlaceName)) E80201 /var> (<var 08 E4E80501 ((<var 07 E803 /var><var 20 DB /var>:<var 24 DA /var> to <var 07 E804 /var><var 20 DB /var>:<var 24 DA /var>)) ((<var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E3DB0D ((a.m.)) ((p.m.)) /var> to <var 07 E804 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E3DB0D ((a.m.)) ((p.m.)) /var>)) /var>) (Earth time)
 ","Carte actuelle<var 1D /var>: <var 28 ((PlaceName)) E80201 /var> (<var 08 E4E80501 ((<var 07 E803 /var><var 20 DB /var>:<var 24 DA /var> à <var 07 E804 /var><var 20 DB /var>:<var 24 DA /var>)) ((<var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E3DB0D ((am)) ((pm)) /var> à <var 07 E804 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E3DB0D ((am)) ((pm)) /var>)) /var>)
@@ -14908,7 +14906,7 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès.",""
 "","Concepts","Termes récurrents","","False","0x00003A07","",""
 "","Obtaining data...","Obtention des données...","","False","0x00003A08","",""
 "","Switch View","Changer l'affichage","","False","0x00003A09","",""
-"","Series Level: ","Niveau de série<var 1D /var>:","","False","0x00003A0C","",""
+"","Series Level: ","Niveau de série<var 1D /var>: ","","False","0x00003A0C","",""
 "","Total: <var 20 E802 /var>","TOTAL:<var 20 E802 /var>","","False","0x00003A0D","",""
 "","Next: <var 08 E1E80301 ((<var 20 E802 /var>/<var 20 E803 /var>)) ((<var 1F /var>/<var 1F /var>)) /var>","Prochain<var 1D /var>: <var 08 E1E80301 ((<var 20 E802 /var>/<var 20 E803 /var>)) ((--/--)) /var>","","False","0x00003A0E","",""
 "","Crystalline Conflict","Crystalline Conflict","","False","0x00003A0F","",""
@@ -14943,7 +14941,7 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès.",""
 "","No","Non","","False","0x00003A2A","",""
 "","∞","∞","","False","0x00003A2B","",""
 "","Streak bonus!","Bonus de victoires consécutives actif","","False","0x00003A2C","",""
-"","New Crystal Credit record!","Nouveau record de points Crystal<var 1D /var>!","","False","0x00003A2D","",""
+"","New Crystal Credit record!","Nouveau record de points de cristal<var 1D /var>!","","False","0x00003A2D","",""
 "","Bronze","Bronze","","False","0x00003A2E","",""
 "","Silver","Argent","","False","0x00003A2F","",""
 "","Gold","Or","","False","0x00003A30","",""
@@ -15070,7 +15068,7 @@ Proceed?","Charger le préréglage<var 1D /var>? L'agencement actuel sera perdu.
 "","LEVEL <var 20 E802 /var>","NIVEAU <var 20 E802 /var>","","False","0x00003ADD","",""
 "","Weekdays","Semaine","","False","0x00003ADE","",""
 "","Weekends","Week-end","","False","0x00003ADF","",""
-"","<var 08 E4E80402 ((<var 20 E802 /var>)) ((<var 08 E4E802010D ((<var 20 E802 /var>)) /var>)) /var>:<var 24 E803 /var> <var 09 E804 (()) ((a.m.)) ((p.m.)) /var>","<var 08 E4E80402 ((<var 20 E802 /var>)) ((<var 08 E4E802010D ((<var 20 E802 /var>)) /var>)) /var>:<var 24 E803 /var> <var 09 E804 (()) ((a.m.)) ((p.m.)) /var>","","False","0x00003AE0","",""
+"","<var 08 E4E80402 ((<var 20 E802 /var>)) ((<var 08 E4E802010D ((<var 20 E802 /var>)) /var>)) /var>:<var 24 E803 /var> <var 09 E804 (()) ((a.m.)) ((p.m.)) /var>","<var 08 E4E80402 ((<var 20 E802 /var>)) ((<var 08 E4E802010D ((<var 20 E802 /var>)) /var>)) /var>:<var 24 E803 /var> <var 09 E804 (()) ((am)) ((pm)) /var>","","False","0x00003AE0","",""
 "","Current Class/Job","Classe/Job actuel","","False","0x00003AE1","",""
 "","Save","Sauvegarder","","False","0x00003AE2","",""
 "","Close","Fermer","","False","0x00003AE3","",""
@@ -15080,7 +15078,7 @@ Proceed?","Charger le préréglage<var 1D /var>? L'agencement actuel sera perdu.
 "","","","","False","0x00003AE7","",""
 "","Playstyle Selection","Activités","","False","0x00003AE8","",""
 "","","","","False","0x00003AE9","",""
-"","Help","Afficher l'aide de la carte de personnage","","False","0x00003AEA","",""
+"","Help","Afficher l'aide","","False","0x00003AEA","",""
 "","View Adventurer Plate","Voir la carte de personnage","","False","0x00003AEB","",""
 "","Adventurer plates allow you to share character information on a profile of your own design. Other adventurers' plates can be viewed by accessing subcommands via targeting a character or right-clicking their name in the friend list, etc.
 ※Your plate is not currently visible to other players. Make it public by changing its appearance or settings.","Personnalisez votre carte de personnage pour que les autres puissent la consulter et en apprendre plus sur vous<var 1D /var>!
@@ -15878,7 +15876,7 @@ Continuer<var 1D /var>?","","False","0x00018FC3","",""
 
 <var 48 F201FA /var><var 49 F201FB /var>* Cette bataille est sujette à la synchronisation de quête.
 Si les ca<var 16 /var>rac<var 16 /var>té<var 16 /var>ris<var 16 /var>ti<var 16 /var>ques de votre personnage dépassent un certain niveau, elles seront ajustées de la façon suivante<var 1D /var>:
-Niveau<var 1D /var>: <var 28 FF0C5175657374426174746C65E80304 /var><var 08 E1E80401 ((
+Niveau<var 1D /var>: <var 28 ((QuestBattle)) E80304 /var><var 08 E1E80401 ((
 Niveau d'objet moyen<var 1D /var>: <var 20 E804 /var>)) (()) /var><var 49 01 /var><var 48 01 /var>","","False","0x00019015","",""
 "","Proceed","Continuer","","False","0x00019016","",""
 "","Leave","Annuler","","False","0x00019017","",""
