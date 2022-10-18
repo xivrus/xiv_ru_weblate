@@ -732,6 +732,7 @@ USAGE:
 
 →Opens and closes your adventurer plate.<tab><tab><tab>/adventurerplate<tab>/myplate","/adventurerplate(/myplate)
 自分のアドベンチャラープレートを開く。<tab><tab><tab>/adventurerplate<tab>/myplate","","False","0x00000026","",""
+"","<tab><tab><tab>//resetSettingCWLS<tab>","<tab><tab><tab>//resetSettingCWLS<tab>","","False","0x00000027","",""
 "","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -7667,8 +7668,7 @@ USAGE:
 →Bare your teeth derisively.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
-　　Display motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/deride(/pagaga) サブコマンド
 反骨精神を示す。
@@ -7677,6 +7677,21 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/deride<tab>/pagaga","","False","0x00000286","",""
+"","USAGE:
+　/wow [subcommand]
+
+→Sparkle with amazement.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/wow<tab>","/wow サブコマンド
+目を輝かせる。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/wow<tab>","","False","0x00000287","",""
 "","ALIASES:
 　/eatpumpkincookie, /cookie
 USAGE:
@@ -7685,8 +7700,7 @@ USAGE:
 →Nibble on a pumpkin cookie.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
-　　Display motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/eatpumpkincookie(/cookie) サブコマンド
 パンプキンクッキーを食べる。

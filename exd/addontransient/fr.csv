@@ -1040,15 +1040,15 @@ Exit playback.","- Pause
 - Activer/Désactiver la cible focalisée
 - Fin du visionnage","","False","0x000001C2","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Sous-menu","","False","0x000001C3","",""
-"","","","","False","0x000001C4","",""
-"","","","","False","0x000001C5","",""
-"","","","","False","0x000001C6","",""
+"","<var 1E 19 /var> Scroll","<var 1E 19 /var> Défiler","","False","0x000001C4","",""
+"","<var 1E 09 /var> Open","<var 1E 09 /var> Ouvrir","","False","0x000001C5","",""
+"","<var 1E 19 /var> Scroll","<var 1E 19 /var> Défiler","","False","0x000001C6","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Sous-menu","","False","0x000001C7","",""
 "","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands  <var 1E 0C /var> Move","<var 1E 09 /var> Choisir<var 1E 0B /var> Sous-menu<var 1E 0C /var> Déplacer une mascotte","","False","0x000001C8","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Sous-menu","","False","0x000001C9","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Sous-menu","","False","0x000001CA","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Sous-menu","","False","0x000001CB","",""
-"","","","","False","0x000001CC","",""
+"","<var 1E 0B /var> Subcommands  <var 1E 19 /var> Scroll","<var 1E 0B /var> Sous-menu  <var 1E 19 /var> Défiler","","False","0x000001CC","",""
 "","<var 1E 06 /var> Move  <var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands","<var 1E 06 /var> Déplacer<var 1E 09 /var> Choisir<var 1E 0B /var>Sous-menu","","False","0x000001CD","",""
 "","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands","<var 1E 09 /var> Choisir<var 1E 0B /var> Sous-menu","","False","0x000001CE","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Sous-menu","","False","0x000001CF","",""
@@ -1519,18 +1519,53 @@ Plus la ca<var 16 /var>rac<var 16 /var>té<var 16 /var>ris<var 16 /var>ti<var 16
 "","","","","False","0x00000417","",""
 "","","","","False","0x00000418","",""
 "","","","","False","0x00000419","",""
-"","","","","False","0x0000041A","",""
-"","","","","False","0x0000041B","",""
-"","","","","False","0x0000041C","",""
-"","","","","False","0x0000041D","",""
-"","","","","False","0x0000041E","",""
-"","","","","False","0x0000041F","",""
-"","","","","False","0x00000420","",""
-"","","","","False","0x00000421","",""
-"","","","","False","0x00000422","",""
-"","","","","False","0x00000423","",""
-"","","","","False","0x00000424","",""
-"","","","","False","0x00000425","",""
+"","Entering V&C Dungeons","La fenêtre des donjons spéciaux","","False","0x0000041A","",""
+"","You can enter a variant or criterion dungeon via the V&C Dungeon Finder window, which is accessed by speaking with the NPC at the dungeon entrance, or by selecting the option from <var 48 F201FA /var><var 49 F201FB /var>Duty<var 49 01 /var><var 48 01 /var> in the main menu.
+
+This window features all the necessary information regarding dungeon entry, as well as the dungeon-specific settings.","Pour explorer un donjon spécial, enregistrez-vous via la fenêtre dédiée. Ouvrez-la en parlant au PNJ correspondant, ou en choisissant <var 48 F201FA /var><var 49 F201FB /var>Donjons spéciaux<var 49 01 /var><var 48 01 /var> dans la rubrique Missions du menu principal.
+
+Les in<var 16 /var>for<var 16 /var>ma<var 16 /var>tions et paramètres de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion sont contenus dans cette même fenêtre.","","False","0x0000041B","",""
+"","Variant Dungeons","Les donjons à embranchements","","False","0x0000041C","",""
+"","The difficulty of a <var 48 F201FA /var><var 49 F201FB /var>variant dungeon<var 49 01 /var><var 48 01 /var> is automatically adjusted to provide a challenge for parties of between one to four players. Victory will require effort and attention, but it is entirely possible to complete these dungeons alone. 
+
+If you wish to enter as a solo player or with your current party members, be sure to uncheck the <var 48 F201FA /var><var 49 F201FB /var>Enable party matching<var 49 01 /var><var 48 01 /var> option (disabled by default). Conversely, enabling this option will match you with other adventurers to tackle the dungeon in a four-player party.","Les <var 48 F201FA /var><var 49 F201FB /var>donjons à embranchements<var 49 01 /var><var 48 01 /var> sont des donjons spéciaux jouables de un à quatre joueurs dont la difficulté <var 48 F201FA /var><var 49 F201FB /var>s'adapte au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment<var 49 01 /var><var 48 01 /var> au nombre de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pants. Il est possible, mais difficile, de les explorer en solo.
+
+Pour participer seul(e) ou uniquement avec vos équipiers actuels, décochez l'option <var 48 F201FA /var><var 49 F201FB /var>Grouper si l'équipe compte moins de 4 joueurs<var 49 01 /var><var 48 01 /var> (désactivée par défaut).
+
+Cochez-la si vous voulez compléter votre équipe.","","False","0x0000041D","",""
+"","Variant Actions","Les actions embranchées","","False","0x0000041E","",""
+"","To allow for greater freedom in role choices, variant dungeons grant players the use of special <var 48 F201FA /var><var 49 F201FB /var>variant actions<var 49 01 /var><var 48 01 /var>.
+
+These actions mimic existing abilities such as <var 48 F201FA /var><var 49 F201FB /var>Cure<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Rampart<var 49 01 /var><var 48 01 /var>, alleviating the need for dedicated tanks, DPS, or healers. Each player has two actions available for use during the dungeon, and these can be changed <var 48 F201FA /var><var 49 F201FB /var>at any time<var 49 01 /var><var 48 01 /var> via the <var 48 F201FA /var><var 49 F201FB /var>Set Actions<var 49 01 /var><var 48 01 /var> button in the V&C Dungeon Finder window.","Utilisables au sein des donjons à embranchements, les <var 48 F201FA /var><var 49 F201FB /var>actions embranchées<var 49 01 /var><var 48 01 /var> permettent de pallier les faiblesses d'une équipe, aucune structure n'étant imposée pour ce type de missions.
+
+Par exemple, un tank ou un DPS pourra jouer le rôle de soigneur à l'aide d'actions comme <var 48 F201FA /var><var 49 F201FB /var>Soin embranché<var 49 01 /var><var 48 01 /var> ou <var 48 F201FA /var><var 49 F201FB /var>Vie embranchée<var 49 01 /var><var 48 01 /var>.
+
+Vous pouvez choisir jusqu'à deux actions embranchées, et en changer à tout moment durant la mission en appuyant sur le bouton <var 48 F201FA /var><var 49 F201FB /var>Modifier<var 49 01 /var><var 48 01 /var> de la fenêtre des donjons spéciaux.","","False","0x0000041F","",""
+"","Unraveling the Story","Les fragments d'histoire","","False","0x00000420","",""
+"","Variant dungeons feature <var 48 F201FA /var><var 49 F201FB /var>branching paths<var 49 01 /var><var 48 01 /var>, and by exploring these choices alongside the quest character will you reveal new elements of the overarching story.
+
+Upon completing each path, a new entry will be added to the journal or expedition log associated with the dungeon. Simply open the V&C Dungeon Finder window and select the character portrait to browse the completed entries.","Les donjons à embranchements offrent de <var 48 F201FA /var><var 49 F201FB /var>multiples chemins<var 49 01 /var><var 48 01 /var> à parcourir en compagnie d'un personnage clef. En les explorant, vous découvrirez des <var 48 F201FA /var><var 49 F201FB /var>fragments d'histoire<var 49 01 /var><var 48 01 /var> à col<var 16 /var>lec<var 16 /var>tion<var 16 /var>ner.
+
+Vos découvertes seront consignées dans un journal d'exploration.
+
+Pour l'ouvrir, sélectionnez le portrait du personnage dans la fenêtre des donjons spéciaux. Choisissez ensuite l'entrée que vous souhaitez consulter.","","False","0x00000421","",""
+"","Criterion Dungeons","Les donjons alternatifs","","False","0x00000422","",""
+"","You have unlocked <var 48 F201FA /var><var 49 F201FB /var>criterion dungeons<var 49 01 /var><var 48 01 /var>, a tier of higher difficulties which can be accessed by switching the tab at the top of the V&C Dungeon Finder window. 
+
+Criterion dungeons have no accompanying NPC or branching paths to explore. In place of newly discovered story elements, the tab will instead display a list of available dungeons, as well as the amount of <var 48 F201FA /var><var 49 F201FB /var>special currency<var 49 01 /var><var 48 01 /var> earned from completing these more punishing challenges.","Les <var 48 F201FA /var><var 49 F201FB /var>donjons alternatifs<var 49 01 /var><var 48 01 /var> sont des donjons spéciaux à la difficulté par<var 16 /var>ti<var 16 /var>cu<var 16 /var>liè<var 16 /var>rement élevée.
+
+Pour vous enregistrer, rendez-vous dans l'onglet <var 48 F201FA /var><var 49 F201FB /var>Donjons alternatifs<var 49 01 /var><var 48 01 /var>, en haut de la fenêtre des donjons spéciaux.
+
+Il n'y a pas de PNJ accompagnateur, d'embranchements ou de fragments d'histoire à col<var 16 /var>lec<var 16 /var>tion<var 16 /var>ner dans les donjons alternatifs. L'onglet affiche d'autres in<var 16 /var>for<var 16 /var>ma<var 16 /var>tions comme la <var 48 F201FA /var><var 49 F201FB /var>liste des donjons<var 49 01 /var><var 48 01 /var> disponibles ou les <var 48 F201FA /var><var 49 F201FB /var>devises<var 49 01 /var><var 48 01 /var> qu'il est possible d'obtenir en récompense.","","False","0x00000423","",""
+"","Criterion Dungeon Restrictions","Les donjons alternatifs - restrictions","","False","0x00000424","",""
+"","Unlike variant dungeons, criterion dungeons <var 48 F201FA /var><var 49 F201FB /var>do not allow job changes<var 49 01 /var><var 48 01 /var>. Resurrection via Raise or other abilities is also restricted, being permitted only through use of the special action Variant Raise II.
+
+Criterion dungeons of <var 48 F201FA /var><var 49 F201FB /var>Savage<var 49 01 /var><var 48 01 /var> difficulty disable the use of variant actions completely, and must be attempted by preformed four-player parties meeting the entry requirements.","Con<var 16 /var>trai<var 16 /var>re<var 16 /var>ment aux donjons à embranchements, les donjons alternatifs <var 48 F201FA /var><var 49 F201FB /var>n'autorisent pas le changement de job<var 49 01 /var><var 48 01 /var> en cours de mission.
+Par ailleurs, les actions de résurrection classiques comme Vie y sont interdites, vous obligeant à user d'actions embranchées équivalentes.
+
+Les actions embranchées <var 48 F201FA /var><var 49 F201FB /var>ne sont pas disponibles<var 49 01 /var><var 48 01 /var> dans les versions <var 48 F201FA /var><var 49 F201FB /var>sadiques<var 49 01 /var><var 48 01 /var> de ces donjons.
+
+Enfin, les versions sadiques sont uniquement accessibles en équipe préformée de 4 joueurs remplissant les conditions requises.","","False","0x00000425","",""
 "","","","","False","0x00000426","",""
 "","","","","False","0x00000427","",""
 "","","","","False","0x00000428","",""

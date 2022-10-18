@@ -732,6 +732,7 @@ USAGE:
 
 →Opens and closes your adventurer plate.<tab><tab><tab>/adventurerplate<tab>/myplate","/abenteurerpass, /meinpass, /adventurerplate, /myplate
 → Öffnet deinen Abenteurerpass.<tab>/abenteurerpass<tab>/meinpass<tab>/adventurerplate<tab>/myplate","","False","0x00000026","",""
+"","<tab><tab><tab>//resetSettingCWLS<tab>","<tab><tab><tab>//resetSettingCWLS<tab>","","False","0x00000027","",""
 "","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -7357,8 +7358,7 @@ USAGE:
 →Bare your teeth derisively.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
-　　Display motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/verhöhnen, /deride
 VERWENDUNG:
@@ -7366,6 +7366,20 @@ VERWENDUNG:
 → Du machst eine Geste der Verhöhnung.
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/verhöhnen<tab><tab>/deride<tab>/pagaga","","False","0x00000286","",""
+"","USAGE:
+　/wow [subcommand]
+
+→Sparkle with amazement.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/wow<tab>","/entzückt, /wow
+VERWENDUNG:
+/entzückt [Unterbefehl]
+→ Du zeigst mit Mimik und Gestik dein Entzücken.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/entzückt<tab><tab>/wow<tab>","","False","0x00000287","",""
 "","ALIASES:
 　/eatpumpkincookie, /cookie
 USAGE:
@@ -7374,8 +7388,7 @@ USAGE:
 →Nibble on a pumpkin cookie.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
-　　Display motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/kürbiskeksessen, /kürbiskeks
 VERWENDUNG:

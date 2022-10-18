@@ -13788,6 +13788,7 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Free companies cannot be formed or joined
 　・Free company information cannot be viewed
 　・Company credits cannot be earned
+　・Should the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member
 
 <var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
 　・Cross-world linkshells cannot be created
@@ -13864,6 +13865,8 @@ Depending on the congestion of the target World, travel may take several minutes
 　・フリーカンパニーの結成や加入はできません。
 　・加入しているフリーカンパニーの情報を確認することができません。
 　・カンパニークレジットは、他のワールドでの活動では増えません。
+　・フリーカンパニーのマスターがホームワールドから移動したまま
+　 35日が経過すると、マスターの権限が他のメンバーに委譲されます。
 
 <var 08 E1E80201 ((<var 48 F20202 /var>「クロスワールドリンクシェル」<var 48 01 /var>に以下の制限が加わります。
 　・クロスワールドリンクシェルの新規作成ができません。
@@ -16490,7 +16493,7 @@ Do you still wish to proceed?","受け取るアイテムで所持上限を超え
 "","Release Animal","動物を逃がす","","False","0x00003B7D","",""
 "","Animal cannot be released because it is either under care, or has leavings available to retrieve.","飼育委託依頼中か、採集済素材が残っているため、
 動物を逃がすことができません。","","False","0x00003B7E","",""
-"","The captured <var 29 EA02 /var> will be released. Proceed?","今、捕獲した「<var 29 EA02 /var>」を逃がします。
+"","The captured <var 31 ((BNpcName)) 04E8020202 /var> will be released. Proceed?","今、捕獲した「<var 28 ((BNpcName)) E80201 /var>」を逃がします。
 よろしいですか？","","False","0x00003B7F","",""
 "","Specify a nickname.","動物のニックネームを決めてください。","","False","0x00003B80","",""
 "","The following punctuation marks are allowed:
@@ -16550,7 +16553,13 @@ Do you still wish to proceed?","受け取るアイテムで所持上限を超え
 "","Review","情報を確認","","False","0x00003B9E","",""
 "","Exports","SHIPPING","","False","0x00003B9F","",""
 "","","出荷","","False","0x00003BA0","",""
-"","Materials","開拓素材","","False","0x00003BA1","",""
+"","<var 2B ((<var 31 ((BNpcName)) 03E8020202 /var>)) /var> will be released from the pasture. Proceed?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","「<var 28 ((BNpcName)) E80201 /var>」を逃がします。
+よろしいですか？
+
+<var 48 F201FA /var><var 49 F201FB /var>※逃がした動物はもう戻ってきません。
+<var 49 01 /var><var 48 01 /var>","","False","0x00003BA1","",""
 "","Rare Materials","希少開拓素材","","False","0x00003BA2","",""
 "","Produce","開拓作物","","False","0x00003BA3","",""
 "","Leavings","畜産素材","","False","0x00003BA4","",""
@@ -16715,6 +16724,72 @@ Release Area: <var 29 EA03 /var>
 よろしいですか？","","False","0x00003C1A","",""
 "","Catalyst","消費触媒","","False","0x00003C1B","",""
 "","<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","状態/<var 08 E1E80201 ((拡張中：<var 07 E802 /var><var 20 DF /var>/<var 20 DE /var>/<var 20 DC /var> <var 20 DB /var>:<var 24 DA /var>)) ((確認待ち)) /var>","","False","0x00003C1C","",""
+"","V&C Dungeon Finder","SPECIAL DUNGEON FINDER","","False","0x00003C28","",""
+"","","特殊ダンジョン探索","","False","0x00003C29","",""
+"","Variant Dungeons","ヴァリアントダンジョン","","False","0x00003C2A","",""
+"","Criterion Dungeons","アナザーダンジョン","","False","0x00003C2B","",""
+"","Recruit Members","パーティ募集の登録","","False","0x00003C2C","",""
+"","View Parties That Meet Conditions","該当するパーティ募集を見る","","False","0x00003C2D","",""
+"","<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var>～
+)) (()) /var><var 08 E1E80301 ((Item Level Sync: <var 20 E803 /var>
+)) (()) /var><var 08 E1E80401 ((<var 09 E804 ((Job Change Permitted)) ((Job Change Prohibited
+Resurrection Restricted)) ((Job Change Prohibited
+Resurrection Restricted
+Instance Reset on Party KO)) /var>)) (()) /var>","<var 08 E1E80201 ((平均アイテムレベル <var 20 E802 /var>～
+)) (()) /var><var 08 E1E80301 ((アイテムレベルシンク：<var 20 E803 /var>
+)) (()) /var><var 08 E1E80401 ((<var 09 E804 ((コンテンツ内ジョブチェンジ可)) ((コンテンツ内ジョブチェンジ不可　蘇生制限)) ((コンテンツ内ジョブチェンジ不可　蘇生制限
+全滅時コンテンツリセット)) /var>)) (()) /var>","","False","0x00003C2E","",""
+"","Following requirements not met:","以下の条件を満たしていないため参加できません。","","False","0x00003C2F","",""
+"","Variant Actions
+(Select two)","ヴァリアントアクション
+(2種セット可能)","","False","0x00003C30","",""
+"","Variant Actions
+(Preset only)","ヴァリアントアクション
+(1種固定)","","False","0x00003C31","",""
+"","Variant Actions
+(Unavailable)","ヴァリアントアクション
+(使用不可)","","False","0x00003C32","",""
+"","Can only be set by Disciples of War or Magic
+(excluding limited jobs)","リミテッドジョブ・非バトルクラスのため
+設定できません","","False","0x00003C33","",""
+"","Set Actions","ヴァリアントアクションを設定","","False","0x00003C34","",""
+"","Variant Actions","VARIANT ACTION","","False","0x00003C35","",""
+"","","ヴァリアントアクション","","False","0x00003C36","",""
+"","Action I","ヴァリアントアクション1","","False","0x00003C37","",""
+"","Action II","ヴァリアントアクション2","","False","0x00003C38","",""
+"","Confirm","決定","","False","0x00003C39","",""
+"","Cancel","キャンセル","","False","0x00003C3A","",""
+"","Enable party matching.","パーティが4人に満たない場合マッチングを利用する","","False","0x00003C3B","",""
+"","Party matching will be used to form four-player parties.","パーティが4人に満たない場合マッチングが利用されます","","False","0x00003C3C","",""
+"","Please form a party of four players.","4人パーティを編成してください","","False","0x00003C3D","",""
+"","Register for Duty","突入","","False","0x00003C3E","",""
+"","Entries <var 20 E802 /var>/<var 20 E803 /var>","TOTAL <var 20 E802 /var>/<var 20 E803 /var>","","False","0x00003C3F","",""
+"","This entry has yet to be written...","このページにはまだ何も書かれていない…","","False","0x00003C40","",""
+"","Blank Page","白紙のページ","","False","0x00003C41","",""
+"","Read entry.","発見した物語を読む","","False","0x00003C42","",""
+"","Display V&C Dungeon Finder help.","特殊ダンジョン探索の解説を表示","","False","0x00003C43","",""
+"","V&C Dungeon Finder Help","SPECIAL DUNGEON FINDER HELP","","False","0x00003C44","",""
+"","","特殊ダンジョン探索の解説","","False","0x00003C45","",""
+"","Enter dungeon as a solo player?","本当にひとりで突入しますか？","","False","0x00003C46","",""
+"","","","","False","0x00003C47","",""
+"","","","","False","0x00003C48","",""
+"","","","","False","0x00003C49","",""
+"","","","","False","0x00003C4A","",""
+"","","","","False","0x00003C4B","",""
+"","","","","False","0x00003C4C","",""
+"","","","","False","0x00003C4D","",""
+"","","","","False","0x00003C4E","",""
+"","","","","False","0x00003C4F","",""
+"","","","","False","0x00003C50","",""
+"","","","","False","0x00003C51","",""
+"","","","","False","0x00003C52","",""
+"","","","","False","0x00003C53","",""
+"","","","","False","0x00003C54","",""
+"","","","","False","0x00003C55","",""
+"","","","","False","0x00003C56","",""
+"","","","","False","0x00003C57","",""
+"","","","","False","0x00003C58","",""
+"","","","","False","0x00003C59","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var>サブコマンド","","False","0x00018A88","",""
 "","<var 1E 0C /var>","<var 1E 0C /var>","","False","0x00018A89","",""
 "","<var 1E 14 /var> Select","<var 1E 14 /var>選択","","False","0x00018A8A","",""

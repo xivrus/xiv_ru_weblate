@@ -12822,6 +12822,7 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Free companies cannot be formed or joined
 　・Free company information cannot be viewed
 　・Company credits cannot be earned
+　・Should the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member
 
 <var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
 　・Cross-world linkshells cannot be created
@@ -12892,6 +12893,7 @@ Le niveau de fréquentation du Monde choisi au moment de confirmer votre demande
 - Impossible d'en créer ou d'en rejoindre
 - Impossible de consulter les in<var 16 /var>for<var 16 /var>ma<var 16 /var>tions de sa compagnie libre
 - Impossible d'augmenter le nombre des crédits de compagnie grâce aux activités dans les Mondes visités
+- Statut de chef au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment cédé à un autre membre après 35 jours d'absence
 
 <var 08 E1E80201 ((<var 48 F20202 /var>Linkshells inter-Monde<var 48 01 /var>
 - Impossible d'en créer de nouvelles
@@ -15269,7 +15271,7 @@ Voulez-vous tout de même accepter les objets<var 1D /var>?","","False","0x00003
 * Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage. ","","False","0x00003B7C","",""
 "","Release Animal","Relâcher","","False","0x00003B7D","",""
 "","Animal cannot be released because it is either under care, or has leavings available to retrieve.","Impossible de relâcher l'animal. Il est soit confié à un curateur, soit dispose d'une ressource animalière à collecter.","","False","0x00003B7E","",""
-"","The captured <var 29 EA02 /var> will be released. Proceed?","Voulez-vous relâcher l'animal suivant<var 1D /var>: <var 29 EA02 /var><var 1D /var>?","","False","0x00003B7F","",""
+"","The captured <var 31 ((BNpcName)) 04E8020202 /var> will be released. Proceed?","Voulez-vous relâcher <var 33 ((BNpcName)) 03E8020202 /var><var 1D /var>?","","False","0x00003B7F","",""
 "","Specify a nickname.","Choisissez un surnom pour votre animal","","False","0x00003B80","",""
 "","The following punctuation marks are allowed:
 <var 48 F201FC /var><var 49 F201FD /var>'<var 1D /var>. , : ; ! ? & - _<var 49 01 /var><var 48 01 /var>
@@ -15320,7 +15322,11 @@ Voulez-vous appliquer le changement<var 1D /var>?","","False","0x00003B86","",""
 "","Review","Consulter","","False","0x00003B9E","",""
 "","Exports","Envois","","False","0x00003B9F","",""
 "","","","","False","0x00003BA0","",""
-"","Materials","Matériaux","","False","0x00003BA1","",""
+"","<var 2B ((<var 31 ((BNpcName)) 03E8020202 /var>)) /var> will be released from the pasture. Proceed?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","Voulez-vous relâcher <var 33 ((BNpcName)) 03E8020202 /var><var 1D /var>?
+
+<var 48 F201FA /var><var 49 F201FB /var>* Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage.<var 49 01 /var><var 48 01 /var>","","False","0x00003BA1","",""
 "","Rare Materials","Raretés","","False","0x00003BA2","",""
 "","Produce","Cultures","","False","0x00003BA3","",""
 "","Leavings","Ressources animalières","","False","0x00003BA4","",""
@@ -15463,6 +15469,74 @@ Release Area: <var 29 EA03 /var>
 "","Delete the selected preset?","Voulez-vous vraiment supprimer ce set prédéfini<var 1D /var>?","","False","0x00003C1A","",""
 "","Catalyst","Catalyseur","","False","0x00003C1B","",""
 "","<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","Fin de la rénovation<var 1D /var>: le <var 08 E1E80201 ((<var 07 E802 /var><var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var> à <var 20 DB /var>h<var 24 DA /var>)) ((rénovation terminée)) /var>","","False","0x00003C1C","",""
+"","V&C Dungeon Finder","Donjons spéciaux","","False","0x00003C28","",""
+"","","","","False","0x00003C29","",""
+"","Variant Dungeons","Donjons à embranchements","","False","0x00003C2A","",""
+"","Criterion Dungeons","Donjons alternatifs","","False","0x00003C2B","",""
+"","Recruit Members","Recruter des équipiers","","False","0x00003C2C","",""
+"","View Parties That Meet Conditions","Voir les recrutements","","False","0x00003C2D","",""
+"","<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var>～
+)) (()) /var><var 08 E1E80301 ((Item Level Sync: <var 20 E803 /var>
+)) (()) /var><var 08 E1E80401 ((<var 09 E804 ((Job Change Permitted)) ((Job Change Prohibited
+Resurrection Restricted)) ((Job Change Prohibited
+Resurrection Restricted
+Instance Reset on Party KO)) /var>)) (()) /var>","<var 08 E1E80201 ((Nv. d'objet moyen<var 1D /var>: <var 20 E802 /var> ou plus
+)) (()) /var><var 08 E1E80301 ((Nv. d'objet synchronisé<var 1D /var>: <var 20 E803 /var>
+)) (()) /var><var 08 E1E80401 ((<var 09 E804 ((Changement de job en cours de mission possible)) ((Changement de job en cours de mission impossible
+Anti-résurrection)) ((Changement de job en cours de mission impossible
+Anti-résurrection
+Réinitialisation de la mission en cas défaite)) /var>)) (()) /var>","","False","0x00003C2E","",""
+"","Following requirements not met:","Ces conditions ne sont pas remplies<var 1D /var>:","","False","0x00003C2F","",""
+"","Variant Actions
+(Select two)","Actions embranchées
+(modifiables)","","False","0x00003C30","",""
+"","Variant Actions
+(Preset only)","Action embranchée
+(non modifiable)","","False","0x00003C31","",""
+"","Variant Actions
+(Unavailable)","Action embranchée
+(indisponible)","","False","0x00003C32","",""
+"","Can only be set by Disciples of War or Magic
+(excluding limited jobs)","Réservées aux combattants et mages
+(sauf jobs restreints)","","False","0x00003C33","",""
+"","Set Actions","Modifier","","False","0x00003C34","",""
+"","Variant Actions","Actions embranchées","","False","0x00003C35","",""
+"","","","","False","0x00003C36","",""
+"","Action I","Action 1","","False","0x00003C37","",""
+"","Action II","Action 2","","False","0x00003C38","",""
+"","Confirm","Confirmer","","False","0x00003C39","",""
+"","Cancel","Annuler","","False","0x00003C3A","",""
+"","Enable party matching.","Grouper si l'équipe compte moins de 4 joueurs","","False","0x00003C3B","",""
+"","Party matching will be used to form four-player parties.","Groupage activé pour les équipes de moins de 4 joueurs","","False","0x00003C3C","",""
+"","Please form a party of four players.","Équipe de quatre joueurs obligatoire","","False","0x00003C3D","",""
+"","Register for Duty","Participer","","False","0x00003C3E","",""
+"","Entries <var 20 E802 /var>/<var 20 E803 /var>","Pages débloquées<var 1D /var>: <var 20 E802 /var>/<var 20 E803 /var>","","False","0x00003C3F","",""
+"","This entry has yet to be written...","Cette page est encore vierge...","","False","0x00003C40","",""
+"","Blank Page","Page blanche","","False","0x00003C41","",""
+"","Read entry.","Ouvrir le journal","","False","0x00003C42","",""
+"","Display V&C Dungeon Finder help.","Afficher l'aide","","False","0x00003C43","",""
+"","V&C Dungeon Finder Help","Aide de la fenêtre des donjons spéciaux","","False","0x00003C44","",""
+"","","","","False","0x00003C45","",""
+"","Enter dungeon as a solo player?","Explorer le donjon en solo<var 1D /var>?","","False","0x00003C46","",""
+"","","","","False","0x00003C47","",""
+"","","","","False","0x00003C48","",""
+"","","","","False","0x00003C49","",""
+"","","","","False","0x00003C4A","",""
+"","","","","False","0x00003C4B","",""
+"","","","","False","0x00003C4C","",""
+"","","","","False","0x00003C4D","",""
+"","","","","False","0x00003C4E","",""
+"","","","","False","0x00003C4F","",""
+"","","","","False","0x00003C50","",""
+"","","","","False","0x00003C51","",""
+"","","","","False","0x00003C52","",""
+"","","","","False","0x00003C53","",""
+"","","","","False","0x00003C54","",""
+"","","","","False","0x00003C55","",""
+"","","","","False","0x00003C56","",""
+"","","","","False","0x00003C57","",""
+"","","","","False","0x00003C58","",""
+"","","","","False","0x00003C59","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Sous-menu","","False","0x00018A88","",""
 "","<var 1E 0C /var>","<var 1E 0C /var>","","False","0x00018A89","",""
 "","<var 1E 14 /var> Select","<var 1E 14 /var> Sélectionner","","False","0x00018A8A","",""

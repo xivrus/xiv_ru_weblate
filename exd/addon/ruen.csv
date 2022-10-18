@@ -11879,6 +11879,7 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Free companies cannot be formed or joined
 　・Free company information cannot be viewed
 　・Company credits cannot be earned
+　・Should the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member
 
 <var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
 　・Cross-world linkshells cannot be created
@@ -11920,75 +11921,7 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Friendship circlet and eternal bonding teleportation is
 　　available only if both parties are on the same World
 　・Legendary and unspoiled gathering nodes are inaccessible
-","30E2_<var 08 E4E80203 ((　　　　　　　　　　<var 48 F20202 /var>Data Center Travel System<var 48 01 /var>
-The Data Center Travel system is an extension of the World Visit system, and allows you to temporarily visit Worlds in other data centers. Certain restrictions apply to data center travel, including those dictated by the World Visit system.
-
-　　　　　　　<var 48 F20202 /var>Visiting other Data Centers<var 48 01 /var>
-　・Depending on server congestion, travel to other data centers may take up to thirty minutes.
-　・You may not cancel data center travel while it is in progress. Your account will be temporarily locked, preventing you from logging in with any character until travel has been completed.
-　・After submitting a Data Center Visit request, you will be returned to the title screen. Once travel has been successfully completed, select the appropriate data center and log in.
-　・Until you have returned from visiting another data center, you may not log in or perform other actions with characters in your Home World.
-　・You may only travel to other data centers from your Home Data Center. If you wish to travel to a data center different from the one you are currently visiting, you must first return to your Home Data Center and submit a Data Center Visit request from there.
-
-)) (()) /var><var 08 E3E80203 ((　　　　　　　　　　<var 48 F20202 /var>World Visit System<var 48 01 /var>
-The World Visit System allows you to travel from <var 08 E4E80201 ((your Home World)) ((the World you are currently visiting)) /var> to different World servers within the same data center. While visiting different Worlds, you may party with friends, purchase items, tackle duties, and more.
-
-　　　　　　　　　　<var 48 F20202 /var>Visiting Other Worlds<var 48 01 /var>
-Depending on the congestion of the target World, travel may take several minutes. Once preparations have been completed, travel will occur automatically and cancel all current actions/duties.
-
-)) (()) /var>　　　　　　　　　<var 48 F20202 /var>Restrictions While Visiting <var 08 E1E80201 ((Other Data Centers)) ((Other Worlds)) /var><var 48 01 /var>
-<var 08 E4E80202 ((You are currently outside your Home Data Center. )) (()) /var>The following restrictions apply when playing <var 08 E1E80201 ((in another data center)) ((on other World servers)) /var>:
-
-<var 08 E1E80201 ((<var 48 F20202 /var>Friend List<var 48 01 /var>
-　・Friends in different data centers cannot communicate
-　・Parties cannot be formed with friends in different data centers
-
-)) (()) /var><var 48 F20202 /var>Free Companies<var 48 01 /var>
-　・Free companies cannot be formed or joined
-　・Free company information cannot be viewed
-　・Company credits cannot be earned
-
-<var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
-　・Cross-world linkshells cannot be created
-　・Cross-world linkshell master privileges cannot be attained
-
-)) (()) /var><var 48 F20202 /var>Linkshells<var 48 01 /var>
-　・Linkshells cannot be used
-　・Linkshell information cannot be viewed
-　・Linkshells cannot be created or joined
-
-<var 08 E1E80201 ((<var 48 F20202 /var>PvP Teams<var 48 01 /var>
-　・PvP teams cannot be used
-　・PvP team information cannot be viewed
-　・PvP teams cannot be created or joined
-
-<var 48 F20202 /var>Fellowships<var 48 01 /var>
-　・All functions for fellowships, excluding recruitment search, are inaccessible
-
-)) (()) /var><var 48 F20202 /var>Retainers<var 48 01 /var>
-　・Retainers cannot be summoned, hired, or released from service
-　・Items cannot be put up to market (but can be purchased)
-
-<var 48 F20202 /var>Housing<var 48 01 /var>
-　・Land and apartments cannot be purchased
-　・Residence sharing is unavailable
-
-<var 48 F20202 /var>Eternal Bonding<var 48 01 /var>
-　・Ceremonies of Eternal Bonding are unavailable
-　・Eternal Bonding quests are unavailable
-　・Others' ceremonies cannot be attended
-
-<var 48 F20202 /var>Duties/Features<var 48 01 /var>
-<var 08 E1E80201 ((　・Crystalline Conflict ranked matches cannot be entered
-)) (()) /var>　・Lord of Verminion tournaments cannot be entered
-　・Triple Triad tournaments cannot be entered
-　・Cactpot tickets cannot be purchased
-　・The Moogle Delivery Service is unavailable
-　・Deep Dungeon results will not be saved to the leaderboards
-　・Friendship circlet and eternal bonding teleportation is
-　　available only if both parties are on the same World
-　・Legendary and unspoiled gathering nodes are inaccessible
-","","True","0x000030E2","",""
+","","","True","0x000030E2","",""
 "","Home World","","","True","0x000030E3","",""
 "","Current World","","","True","0x000030E4","",""
 "","Unavailable World","","","True","0x000030E5","",""
@@ -14217,7 +14150,7 @@ Do you still wish to proceed?","","True","0x00003B7B","",""
 <var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","","True","0x00003B7C","",""
 "","Release Animal","3B7D_Release Animal","","True","0x00003B7D","",""
 "","Animal cannot be released because it is either under care, or has leavings available to retrieve.","3B7E_Animal cannot be released because it is either under care, or has leavings available to retrieve.","","True","0x00003B7E","",""
-"","The captured <var 29 EA02 /var> will be released. Proceed?","3B7F_The captured <var 29 EA02 /var> will be released. Proceed?","","True","0x00003B7F","",""
+"","The captured <var 31 ((BNpcName)) 04E8020202 /var> will be released. Proceed?","","","True","0x00003B7F","",""
 "","Specify a nickname.","3B80_Specify a nickname.","","True","0x00003B80","",""
 "","The following punctuation marks are allowed:
 <var 48 F201FC /var><var 49 F201FD /var>'<var 1D /var>. , : ; ! ? & - _<var 49 01 /var><var 48 01 /var>
@@ -14267,7 +14200,9 @@ Do you still wish to proceed?","","True","0x00003B7B","",""
 "","Review","3B9E_Review","","True","0x00003B9E","",""
 "","Exports","3B9F_Exports","","True","0x00003B9F","",""
 "","","3BA0_","","True","0x00003BA0","",""
-"","Materials","3BA1_Materials","","True","0x00003BA1","",""
+"","<var 2B ((<var 31 ((BNpcName)) 03E8020202 /var>)) /var> will be released from the pasture. Proceed?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","","","True","0x00003BA1","",""
 "","Rare Materials","3BA2_Rare Materials","","True","0x00003BA2","",""
 "","Produce","3BA3_Produce","","True","0x00003BA3","",""
 "","Leavings","3BA4_Leavings","","True","0x00003BA4","",""
@@ -14411,6 +14346,65 @@ Release Area: <var 29 EA03 /var>
 "","Delete the selected preset?","3C1A_Delete the selected preset?","","True","0x00003C1A","",""
 "","Catalyst","3C1B_Catalyst","","True","0x00003C1B","",""
 "","<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","3C1C_<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","","True","0x00003C1C","",""
+"","V&C Dungeon Finder","","","True","0x00003C28","",""
+"","","","","True","0x00003C29","",""
+"","Variant Dungeons","","","True","0x00003C2A","",""
+"","Criterion Dungeons","","","True","0x00003C2B","",""
+"","Recruit Members","","","True","0x00003C2C","",""
+"","View Parties That Meet Conditions","","","True","0x00003C2D","",""
+"","<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var>～
+)) (()) /var><var 08 E1E80301 ((Item Level Sync: <var 20 E803 /var>
+)) (()) /var><var 08 E1E80401 ((<var 09 E804 ((Job Change Permitted)) ((Job Change Prohibited
+Resurrection Restricted)) ((Job Change Prohibited
+Resurrection Restricted
+Instance Reset on Party KO)) /var>)) (()) /var>","","","True","0x00003C2E","",""
+"","Following requirements not met:","","","True","0x00003C2F","",""
+"","Variant Actions
+(Select two)","","","True","0x00003C30","",""
+"","Variant Actions
+(Preset only)","","","True","0x00003C31","",""
+"","Variant Actions
+(Unavailable)","","","True","0x00003C32","",""
+"","Can only be set by Disciples of War or Magic
+(excluding limited jobs)","","","True","0x00003C33","",""
+"","Set Actions","","","True","0x00003C34","",""
+"","Variant Actions","","","True","0x00003C35","",""
+"","","","","True","0x00003C36","",""
+"","Action I","","","True","0x00003C37","",""
+"","Action II","","","True","0x00003C38","",""
+"","Confirm","","","True","0x00003C39","",""
+"","Cancel","","","True","0x00003C3A","",""
+"","Enable party matching.","","","True","0x00003C3B","",""
+"","Party matching will be used to form four-player parties.","","","True","0x00003C3C","",""
+"","Please form a party of four players.","","","True","0x00003C3D","",""
+"","Register for Duty","","","True","0x00003C3E","",""
+"","Entries <var 20 E802 /var>/<var 20 E803 /var>","","","True","0x00003C3F","",""
+"","This entry has yet to be written...","","","True","0x00003C40","",""
+"","Blank Page","","","True","0x00003C41","",""
+"","Read entry.","","","True","0x00003C42","",""
+"","Display V&C Dungeon Finder help.","","","True","0x00003C43","",""
+"","V&C Dungeon Finder Help","","","True","0x00003C44","",""
+"","","","","True","0x00003C45","",""
+"","Enter dungeon as a solo player?","","","True","0x00003C46","",""
+"","","","","True","0x00003C47","",""
+"","","","","True","0x00003C48","",""
+"","","","","True","0x00003C49","",""
+"","","","","True","0x00003C4A","",""
+"","","","","True","0x00003C4B","",""
+"","","","","True","0x00003C4C","",""
+"","","","","True","0x00003C4D","",""
+"","","","","True","0x00003C4E","",""
+"","","","","True","0x00003C4F","",""
+"","","","","True","0x00003C50","",""
+"","","","","True","0x00003C51","",""
+"","","","","True","0x00003C52","",""
+"","","","","True","0x00003C53","",""
+"","","","","True","0x00003C54","",""
+"","","","","True","0x00003C55","",""
+"","","","","True","0x00003C56","",""
+"","","","","True","0x00003C57","",""
+"","","","","True","0x00003C58","",""
+"","","","","True","0x00003C59","",""
 "","<var 1E 0B /var> Subcommands","","","False","0x00018A88","",""
 "","<var 1E 0C /var>","","","False","0x00018A89","",""
 "","<var 1E 14 /var> Select","","","True","0x00018A8A","",""
@@ -15084,3 +15078,4 @@ Withdraw that application and apply for membership with <var 29 EA02 /var>?","В
 "","Yes","","","True","0x0001911F","",""
 "","No","","","True","0x00019120","",""
 "","Small Talk","","","True","0x0001912C","",""
+

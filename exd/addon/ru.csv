@@ -12734,6 +12734,7 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Free companies cannot be formed or joined
 　・Free company information cannot be viewed
 　・Company credits cannot be earned
+　・Should the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member
 
 <var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
 　・Cross-world linkshells cannot be created
@@ -12802,6 +12803,7 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Free companies cannot be formed or joined
 　・Free company information cannot be viewed
 　・Company credits cannot be earned
+　・Should the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member
 
 <var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
 　・Cross-world linkshells cannot be created
@@ -15196,7 +15198,7 @@ Do you still wish to proceed?","","True","0x00003B7B","",""
 <var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","","True","0x00003B7C","",""
 "","Release Animal","3B7D_Release Animal","","True","0x00003B7D","",""
 "","Animal cannot be released because it is either under care, or has leavings available to retrieve.","3B7E_Animal cannot be released because it is either under care, or has leavings available to retrieve.","","True","0x00003B7E","",""
-"","The captured <var 29 EA02 /var> will be released. Proceed?","3B7F_The captured <var 29 EA02 /var> will be released. Proceed?","","True","0x00003B7F","",""
+"","The captured <var 31 ((BNpcName)) 04E8020202 /var> will be released. Proceed?","3B7F_The captured <var 31 ((BNpcName)) 04E8020202 /var> will be released. Proceed?","","True","0x00003B7F","",""
 "","Specify a nickname.","3B80_Specify a nickname.","","True","0x00003B80","",""
 "","The following punctuation marks are allowed:
 <var 48 F201FC /var><var 49 F201FD /var>'<var 1D /var>. , : ; ! ? & - _<var 49 01 /var><var 48 01 /var>
@@ -15246,7 +15248,11 @@ Do you still wish to proceed?","","True","0x00003B7B","",""
 "","Review","3B9E_Review","","True","0x00003B9E","",""
 "","Exports","3B9F_Exports","","True","0x00003B9F","",""
 "","","3BA0_","","True","0x00003BA0","",""
-"","Materials","3BA1_Materials","","True","0x00003BA1","",""
+"","<var 2B ((<var 31 ((BNpcName)) 03E8020202 /var>)) /var> will be released from the pasture. Proceed?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","3BA1_<var 2B ((<var 31 ((BNpcName)) 03E8020202 /var>)) /var> will be released from the pasture. Proceed?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","","True","0x00003BA1","",""
 "","Rare Materials","3BA2_Rare Materials","","True","0x00003BA2","",""
 "","Produce","3BA3_Produce","","True","0x00003BA3","",""
 "","Leavings","3BA4_Leavings","","True","0x00003BA4","",""
@@ -15390,6 +15396,74 @@ Release Area: <var 29 EA03 /var>
 "","Delete the selected preset?","3C1A_Delete the selected preset?","","True","0x00003C1A","",""
 "","Catalyst","3C1B_Catalyst","","True","0x00003C1B","",""
 "","<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","3C1C_<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","","True","0x00003C1C","",""
+"","V&C Dungeon Finder","3C28_V&C Dungeon Finder","","True","0x00003C28","",""
+"","","3C29_","","True","0x00003C29","",""
+"","Variant Dungeons","3C2A_Variant Dungeons","","True","0x00003C2A","",""
+"","Criterion Dungeons","3C2B_Criterion Dungeons","","True","0x00003C2B","",""
+"","Recruit Members","3C2C_Recruit Members","","True","0x00003C2C","",""
+"","View Parties That Meet Conditions","3C2D_View Parties That Meet Conditions","","True","0x00003C2D","",""
+"","<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var>～
+)) (()) /var><var 08 E1E80301 ((Item Level Sync: <var 20 E803 /var>
+)) (()) /var><var 08 E1E80401 ((<var 09 E804 ((Job Change Permitted)) ((Job Change Prohibited
+Resurrection Restricted)) ((Job Change Prohibited
+Resurrection Restricted
+Instance Reset on Party KO)) /var>)) (()) /var>","3C2E_<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var>～
+)) (()) /var><var 08 E1E80301 ((Item Level Sync: <var 20 E803 /var>
+)) (()) /var><var 08 E1E80401 ((<var 09 E804 ((Job Change Permitted)) ((Job Change Prohibited
+Resurrection Restricted)) ((Job Change Prohibited
+Resurrection Restricted
+Instance Reset on Party KO)) /var>)) (()) /var>","","True","0x00003C2E","",""
+"","Following requirements not met:","3C2F_Following requirements not met:","","True","0x00003C2F","",""
+"","Variant Actions
+(Select two)","3C30_Variant Actions
+(Select two)","","True","0x00003C30","",""
+"","Variant Actions
+(Preset only)","3C31_Variant Actions
+(Preset only)","","True","0x00003C31","",""
+"","Variant Actions
+(Unavailable)","3C32_Variant Actions
+(Unavailable)","","True","0x00003C32","",""
+"","Can only be set by Disciples of War or Magic
+(excluding limited jobs)","3C33_Can only be set by Disciples of War or Magic
+(excluding limited jobs)","","True","0x00003C33","",""
+"","Set Actions","3C34_Set Actions","","True","0x00003C34","",""
+"","Variant Actions","3C35_Variant Actions","","True","0x00003C35","",""
+"","","3C36_","","True","0x00003C36","",""
+"","Action I","3C37_Action I","","True","0x00003C37","",""
+"","Action II","3C38_Action II","","True","0x00003C38","",""
+"","Confirm","3C39_Confirm","","True","0x00003C39","",""
+"","Cancel","3C3A_Cancel","","True","0x00003C3A","",""
+"","Enable party matching.","3C3B_Enable party matching.","","True","0x00003C3B","",""
+"","Party matching will be used to form four-player parties.","3C3C_Party matching will be used to form four-player parties.","","True","0x00003C3C","",""
+"","Please form a party of four players.","3C3D_Please form a party of four players.","","True","0x00003C3D","",""
+"","Register for Duty","3C3E_Register for Duty","","True","0x00003C3E","",""
+"","Entries <var 20 E802 /var>/<var 20 E803 /var>","3C3F_Entries <var 20 E802 /var>/<var 20 E803 /var>","","True","0x00003C3F","",""
+"","This entry has yet to be written...","3C40_This entry has yet to be written...","","True","0x00003C40","",""
+"","Blank Page","3C41_Blank Page","","True","0x00003C41","",""
+"","Read entry.","3C42_Read entry.","","True","0x00003C42","",""
+"","Display V&C Dungeon Finder help.","3C43_Display V&C Dungeon Finder help.","","True","0x00003C43","",""
+"","V&C Dungeon Finder Help","3C44_V&C Dungeon Finder Help","","True","0x00003C44","",""
+"","","3C45_","","True","0x00003C45","",""
+"","Enter dungeon as a solo player?","3C46_Enter dungeon as a solo player?","","True","0x00003C46","",""
+"","","3C47_","","True","0x00003C47","",""
+"","","3C48_","","True","0x00003C48","",""
+"","","3C49_","","True","0x00003C49","",""
+"","","3C4A_","","True","0x00003C4A","",""
+"","","3C4B_","","True","0x00003C4B","",""
+"","","3C4C_","","True","0x00003C4C","",""
+"","","3C4D_","","True","0x00003C4D","",""
+"","","3C4E_","","True","0x00003C4E","",""
+"","","3C4F_","","True","0x00003C4F","",""
+"","","3C50_","","True","0x00003C50","",""
+"","","3C51_","","True","0x00003C51","",""
+"","","3C52_","","True","0x00003C52","",""
+"","","3C53_","","True","0x00003C53","",""
+"","","3C54_","","True","0x00003C54","",""
+"","","3C55_","","True","0x00003C55","",""
+"","","3C56_","","True","0x00003C56","",""
+"","","3C57_","","True","0x00003C57","",""
+"","","3C58_","","True","0x00003C58","",""
+"","","3C59_","","True","0x00003C59","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Подкоманды","","False","0x00018A88","",""
 "","<var 1E 0C /var>","<var 1E 0C /var>","","False","0x00018A89","",""
 "","<var 1E 14 /var> Select","<var 1E 14 /var> Переключиться","","False","0x00018A8A","",""
@@ -16106,3 +16180,4 @@ Withdraw that application and apply for membership with <var 29 EA02 /var>?","В
 "","Yes","Да","","False","0x0001911F","",""
 "","No","Нет","","False","0x00019120","",""
 "","Small Talk","Поговорить","","False","0x0001912C","",""
+

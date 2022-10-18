@@ -22834,7 +22834,7 @@ Attacke-Wert: 130
 Bei <var 48 F201FA /var><var 49 F201FB /var>Requiescat<var 49 01 /var><var 48 01 /var>: 300<var 08 E4E94514 ((<var 08 E0E94955 ((
 Zusatzeffekt: Regeneriert eigene LP.
 Heilpotenzial: 400)) (()) /var>)) (()) /var>","","False","0x0000404A","",""
-"","Deals unaspected damage with a potency of 1000 to target and all enemies nearby it.
+"","Deals unaspected damage with a potency of 1,000 to target and all enemies nearby it.
 <var 08 E4E94514 ((<var 08 E0E94955 ((<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Restores own HP
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>400
 )) (()) /var>)) (()) /var>Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Requiescat<var 49 01 /var><var 48 01 /var>. Effect fades upon execution.","Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
@@ -40584,14 +40584,14 @@ Dauer: 30 Sekunden","","False","0x00006F17","",""
 "","","","","False","0x00006F5B","",""
 "","","","","False","0x00006F5C","",""
 "","Places a healing blossom at the designated location and grants 5 stacks of <var 48 F201FA /var><var 49 F201FB /var>Liturgy of the Bell<var 49 01 /var><var 48 01 /var> to self.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>15s
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>20s
 Taking damage will expend 1 stack of <var 48 F201FA /var><var 49 F201FB /var>Liturgy of the Bell<var 49 01 /var><var 48 01 /var> to heal self and all party members within a radius of 20 yalms.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>400
 The effect of this action can only be triggered once per second.
 Any remaining stacks of <var 48 F201FA /var><var 49 F201FB /var>Liturgy of the Bell<var 49 01 /var><var 48 01 /var> will trigger an additional healing effect when time expires or upon executing this action a second time.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>200 for every remaining stack of <var 48 F201FA /var><var 49 F201FB /var>Liturgy of the Bell<var 49 01 /var><var 48 01 /var>
 This action does not share a recast timer with any other actions.","Du erschaffst eine weißmagische Blume und erhältst 5 Stapel <var 48 F201FA /var><var 49 F201FB /var>Glockenspiel<var 49 01 /var><var 48 01 /var>.
-Dauer: 15 Sekunden
+Dauer: 20 Sekunden
 Effekt von <var 48 F201FA /var><var 49 F201FB /var>Glockenspiel<var 49 01 /var><var 48 01 /var>: Bei erhaltenem Schaden wird ein Stapel verbraucht. Jeder so verbrauchte Stapel regeneriert in einem Umkreis von 20 Yalmen um das Glockenspiel bei dir und allen Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>gliedern LP.
 Heilpotenzial: 400
 Dieser Effekt kann nur einmal pro Sekunde ausgelöst werden. Sind bei Ablauf der Wirkdauer noch Stapel übrig oder wird das Kommando abermals ausgeführt, werden sie verbraucht und ihr dem<var 16 /var>ent<var 16 /var>spre<var 16 /var>chender Effekt ausgelöst.
@@ -41233,7 +41233,9 @@ Kann nicht während <var 48 F201F4 /var><var 49 F201F5 /var>Fessel<var 49 01 /va
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Take all damage intended for the targeted party member
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s
 Can only be executed when member is closer than 10 yalms.
-Cannot be executed while bound.","Du bewegst dich augenblicklich vor dein anvisiertes Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied und nimmst allen Schaden auf dich, der das Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied treffen sollte.
+Cannot be executed while bound.
+Has no effect on targets interacting with an object.","Du bewegst dich augenblicklich vor dein anvisiertes Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied und nimmst allen Schaden auf dich, der das Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied treffen sollte.
+Interagiert das Ziel jedoch mit einem Objekt, hat das Kommando keinen Effekt.
 Dauer: 10 Sekunden
 Bedingung: Du darfst dich nicht weiter als 10 Yalme vom geschützten Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied entfernen.
 Kann nicht während <var 48 F201F4 /var><var 49 F201F5 /var>Fessel<var 49 01 /var><var 48 01 /var> ausgeführt werden.","","False","0x0000718A","",""
@@ -44856,11 +44858,13 @@ Heilpotenzial: 15000","","False","0x0000740F","",""
 "","","","","False","0x00007413","",""
 "","対象の被ダメージを10％増加させ、ガードの被ダメージ軽減効果を25％減少させる。　<var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>10秒","対象の被ダメージを10％増加させ、ガードの被ダメージ軽減効果を25％減少させる。　<var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>10秒","","False","0x00007414","",""
 "","","","","False","0x00007415","",""
-"","","","","False","0x00007416","",""
-"","","","","False","0x00007417","",""
-"","プレゼントの幻影を見せる。
-※演出用アクション。特に効果は発生しない。","プレゼントの幻影を見せる。
-※演出用アクション。特に効果は発生しない。","","False","0x00007418","",""
+"","Unleashes an energetic blast of lightning.","Lässt Knisterstrom fließen.","","False","0x00007416","",""
+"","Unleashes an energetic blast of lightning.
+※Has no effect in battle.","Lässt Knisterstrom fließen.
+(Nur visueller Effekt, keine Wirkung.)","","False","0x00007417","",""
+"","Weave a miraculous illusion of seasonal whimsy.
+※Has no effect in battle.","Du hüllst dich in eine Wolke aus Geschenken.
+(Nur visueller Effekt, keine Wirkung.)","","False","0x00007418","",""
 "","","","","False","0x00007419","",""
 "","","","","False","0x0000741A","",""
 "","","","","False","0x0000741B","",""
@@ -44869,12 +44873,46 @@ Heilpotenzial: 15000","","False","0x0000740F","",""
 "","","","","False","0x0000741E","",""
 "","","","","False","0x0000741F","",""
 "","","","","False","0x00007420","",""
-"","","","","False","0x00007421","",""
-"","","","","False","0x00007422","",""
-"","","","","False","0x00007423","",""
-"","","","","False","0x00007424","",""
-"","","","","False","0x00007425","",""
-"","","","","False","0x00007426","",""
+"","Restores target's HP.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 14,000
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Regen<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4,200
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15s
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Cure potency is doubled when target is under the effect of <var 48 F201FA /var><var 49 F201FB /var>Rehabilitation<var 49 01 /var><var 48 01 /var>
+This action is not affected by attributes.","Du regenerierst LP des Ziels.
+Heilpotenzial: 14000
+Zusatzeffekt: Regeneriert stetig LP des Ziels.
+Heilpotenzial: 4200
+Dauer: 15 Sekunden
+Zusatzeffekt: Wirkt <var 48 F201FA /var><var 49 F201FB /var>Rehabilitation<var 49 01 /var><var 48 01 /var> auf dem Ziel, verdoppelt sich das Heilpozenzial.
+Die Effekte dieses Kommandos werden nicht von Parametern beeinflusst.","","False","0x00007421","",""
+"","Places yourself at the top of nearby enemies' enmity list and increases enmity generation.
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 4s
+Additionally, significantly increases enmity generation.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Du setzt dich an die erste Stelle der Feindseligkeitsliste der umstehenden Gegner und erhöhst die Feindseligkeit gegen dich noch weiter.
+Zusatzeffekt: <var 48 F201FA /var><var 49 F201FB /var>Betäubung<var 49 01 /var><var 48 01 /var>
+Dauer: 4 Sekunden
+Zusatzeffekt: Erhöht Feindseligkeit gegen dich immens.
+Dauer: 30 Sekunden","","False","0x00007422","",""
+"","Resurrects target to a weakened state.
+This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Du belebst das Ziel wieder, wonach es für gewisse Zeit unter <var 48 F201FA /var><var 49 F201FB /var>Schwäche<var 49 01 /var><var 48 01 /var> leidet.
+Eigener Reaktivierungs-Timer, der nicht durch andere Reaktivierungs-Timer beeinflusst wird.","","False","0x00007423","",""
+"","Deals damage over time to target and all enemies nearby it.
+<var 48 F201F8 /var><var 49 F201F9 /var>Potency:<var 49 01 /var><var 48 01 /var> 2,040
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s
+This action is not affected by attributes or enhancing effects.","Du belegst das Ziel und die Gegner in seiner Nähe mit Schaden über Zeit.
+Attacke-Wert: 2040
+Dauer: 30 Sekunden
+Der Effekt dieses Kommandos wird nicht von Parametern oder Statuseffekten beeinflusst.","","False","0x00007424","",""
+"","Reduces damage taken by 20%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s
+Creates a barrier around self that absorbs damage equivalent to a heal of 21,000 potency.","Du verringerst deinen erlittenen Schaden um 20<var 1D /var>%.
+Dauer: 60 Sekunden
+Zusatzeffekt: Errichtet eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 21000 absorbiert.
+Dauer: 8 Sekunden","","False","0x00007425","",""
+"","Resurrects target to a weakened state. Resurrection restrictions do not apply.","Du belebst das Ziel wieder, wonach es für gewisse Zeit unter <var 48 F201FA /var><var 49 F201FB /var>Schwäche<var 49 01 /var><var 48 01 /var> leidet.
+Dieses Kommando ist nicht von Wiederbelebungsbegrenzungen betroffen.","","False","0x00007426","",""
 "","Reduces damage taken by 90% and grants immunity to <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Heavy<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Bind<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Silence<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Half-asleep<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Sleep<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Deep Freeze<var 49 01 /var><var 48 01 /var>, and knockback and draw-in effects.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>5s
 Movement speed is reduced by 50% for the duration of this effect.
@@ -45864,7 +45902,7 @@ Kann nicht im Kommandomenü angelegt werden.","","False","0x00007458","",""
 "","","","","False","0x000077DA","",""
 "","","","","False","0x000077DB","",""
 "","","","","False","0x000077DC","",""
-"","","","","False","0x000077DD","",""
+"","AA","AA","","False","0x000077DD","",""
 "","","","","False","0x000077DE","",""
 "","","","","False","0x000077DF","",""
 "","","","","False","0x000077E0","",""
@@ -46292,7 +46330,7 @@ Kann nicht im Kommandomenü angelegt werden.","","False","0x00007458","",""
 "","","","","False","0x00007982","",""
 "","","","","False","0x00007983","",""
 "","","","","False","0x00007984","",""
-"","","","","False","0x00007985","",""
+"","AA","AA","","False","0x00007985","",""
 "","","","","False","0x00007986","",""
 "","","","","False","0x00007987","",""
 "","","","","False","0x00007988","",""

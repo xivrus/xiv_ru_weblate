@@ -1034,15 +1034,15 @@ Die Kamera kann auf ein beliebiges Grup<var 16 /var>pen<var 16 /var>mit<var 16 /
 <var 48 F201FA /var><var 49 F201FB /var>Rückblende beenden<var 49 01 /var><var 48 01 /var>
 Beendet die Wiedergabe der Rückblende.","","False","0x000001C2","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001C3","",""
-"","","","","False","0x000001C4","",""
-"","","","","False","0x000001C5","",""
-"","","","","False","0x000001C6","",""
+"","<var 1E 19 /var> Scroll","<var 1E 19 /var> Umblättern","","False","0x000001C4","",""
+"","<var 1E 09 /var> Open","<var 1E 09 /var> Öffnen","","False","0x000001C5","",""
+"","<var 1E 19 /var> Scroll","<var 1E 19 /var> Scrollen","","False","0x000001C6","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001C7","",""
 "","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands  <var 1E 0C /var> Move","<var 1E 09 /var> Begleiter aussetzen <var 1E 0B /var> Untermenü <var 1E 0C /var> Begleiter wechseln","","False","0x000001C8","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001C9","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001CA","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001CB","",""
-"","","","","False","0x000001CC","",""
+"","<var 1E 0B /var> Subcommands  <var 1E 19 /var> Scroll","<var 1E 0B /var> Untermenü <var 1E 19 /var> Scrollen","","False","0x000001CC","",""
 "","<var 1E 06 /var> Move  <var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands","<var 1E 06 /var> Bewegen <var 1E 09 /var> Begleiter aussetzen <var 1E 0B /var> Untermenü","","False","0x000001CD","",""
 "","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands","<var 1E 09 /var> Begleiter aussetzen <var 1E 0B /var> Untermenü","","False","0x000001CE","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001CF","",""
@@ -1507,18 +1507,52 @@ Die Wahr<var 16 /var>schein<var 16 /var>lich<var 16 /var>keit, dass ein flüchti
 "","","","","False","0x00000417","",""
 "","","","","False","0x00000418","",""
 "","","","","False","0x00000419","",""
-"","","","","False","0x0000041A","",""
-"","","","","False","0x0000041B","",""
-"","","","","False","0x0000041C","",""
-"","","","","False","0x0000041D","",""
-"","","","","False","0x0000041E","",""
-"","","","","False","0x0000041F","",""
-"","","","","False","0x00000420","",""
-"","","","","False","0x00000421","",""
-"","","","","False","0x00000422","",""
-"","","","","False","0x00000423","",""
-"","","","","False","0x00000424","",""
-"","","","","False","0x00000425","",""
+"","Entering V&C Dungeons","Die Gewölbesuche nutzen","","False","0x0000041A","",""
+"","You can enter a variant or criterion dungeon via the V&C Dungeon Finder window, which is accessed by speaking with the NPC at the dungeon entrance, or by selecting the option from <var 48 F201FA /var><var 49 F201FB /var>Duty<var 49 01 /var><var 48 01 /var> in the main menu.
+
+This window features all the necessary information regarding dungeon entry, as well as the dungeon-specific settings.","Das unstete und kuriose Gewölbe kannst du entweder betreten, indem du mit einem entsprechenden NPC sprichst, oder aber die <var 48 F201F4 /var><var 49 F201F5 /var>Gewölbesuche<var 49 01 /var><var 48 01 /var> im Hauptmenü unter „Spielinhalte“ nutzt.
+
+In der Gewölbesuche werden alle Informationen zur Teilnahme angezeigt. Auch kannst du hier diverse Einstellungen vornehmen, ehe du einen Inhalt betrittst.","","False","0x0000041B","",""
+"","Variant Dungeons","Das unstete Gewölbe betreten","","False","0x0000041C","",""
+"","The difficulty of a <var 48 F201FA /var><var 49 F201FB /var>variant dungeon<var 49 01 /var><var 48 01 /var> is automatically adjusted to provide a challenge for parties of between one to four players. Victory will require effort and attention, but it is entirely possible to complete these dungeons alone. 
+
+If you wish to enter as a solo player or with your current party members, be sure to uncheck the <var 48 F201FA /var><var 49 F201FB /var>Enable party matching<var 49 01 /var><var 48 01 /var> option (disabled by default). Conversely, enabling this option will match you with other adventurers to tackle the dungeon in a four-player party.","Das unstete Gewölbe nutzt eine spezielle Mechanik, die seine Schwierigkeit <var 48 F201F4 /var><var 49 F201F5 /var>automatisch auf eine Gruppengröße zwischen einem und vier Spielern anpasst<var 49 01 /var><var 48 01 /var>. Es mag zwar eine Heraus<var 16 /var>forde<var 16 /var>rung sein, aber ein unstetes Gewölbe kann durchaus alleine bezwungen werden.
+
+Willst du es alleine oder nur mit Freunden versuchen, stelle sicher, dass du die <var 48 F201F4 /var><var 49 F201F5 /var>Suche nach einer zufälligen Gruppe<var 49 01 /var><var 48 01 /var> nicht aktiviert hast, ehe du dich zur Teilnahme registrierst.
+
+Gleichzeitig bietet dir diese Option die Möglichkeit, eine zufällige Gruppe aus vier Spielern zu<var 16 /var>sammen<var 16 /var>zustellen und das unstete Gewölbe gemeinsam zu bestreiten.","","False","0x0000041D","",""
+"","Variant Actions","Das unstete Gewölbe bestreiten","","False","0x0000041E","",""
+"","To allow for greater freedom in role choices, variant dungeons grant players the use of special <var 48 F201FA /var><var 49 F201FB /var>variant actions<var 49 01 /var><var 48 01 /var>.
+
+These actions mimic existing abilities such as <var 48 F201FA /var><var 49 F201FB /var>Cure<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Rampart<var 49 01 /var><var 48 01 /var>, alleviating the need for dedicated tanks, DPS, or healers. Each player has two actions available for use during the dungeon, and these can be changed <var 48 F201FA /var><var 49 F201FB /var>at any time<var 49 01 /var><var 48 01 /var> via the <var 48 F201FA /var><var 49 F201FB /var>Set Actions<var 49 01 /var><var 48 01 /var> button in the V&C Dungeon Finder window.","Im unsteten Gewölbe können sogenannte unstete Kommandos eingesetzt werden, damit eine Gruppe nicht an eine bestimmte Komposition aus Rollen und Jobs gebunden ist.
+
+Verteidiger und Angreifer erhalten beispielsweise besondere Heilung und Wiederbelebung - derlei <var 48 F201F4 /var><var 49 F201F5 /var>spezielle Kommandos<var 49 01 /var><var 48 01 /var> sind für jede Rolle verfügbar.
+
+Zwei dieser Kommandos können im unsteten Gewölbe genutzt werden. Welche du mit in den Inhalt nehmen möchtest, lässt sich direkt in der Gewölbesuche festlegen.","","False","0x0000041F","",""
+"","Unraveling the Story","Der Erkundungsbericht","","False","0x00000420","",""
+"","Variant dungeons feature <var 48 F201FA /var><var 49 F201FB /var>branching paths<var 49 01 /var><var 48 01 /var>, and by exploring these choices alongside the quest character will you reveal new elements of the overarching story.
+
+Upon completing each path, a new entry will be added to the journal or expedition log associated with the dungeon. Simply open the V&C Dungeon Finder window and select the character portrait to browse the completed entries.","Das unstete Gewölbe bietet verschiedene Abzweigungen, die du mit eben jenen Charakteren erkunden kannst, die mit ihrer Geschichte verflochten sind. Sie wird im <var 48 F201F4 /var><var 49 F201F5 /var>Erkundungsbericht<var 49 01 /var><var 48 01 /var> niedergeschrieben.
+
+Im Inhalt wirst du einzelne Seiten finden, die dem Bericht hinzugefügt werden und die Geschichte eines unsteten Gewölbes nach und nach enthüllen.
+
+Du öffnest den Erkundungsbericht, indem du in der Gewölbesuche das große Charakterportrait auswählst.","","False","0x00000421","",""
+"","Criterion Dungeons","Das kuriose Gewölbe bestreiten","","False","0x00000422","",""
+"","You have unlocked <var 48 F201FA /var><var 49 F201FB /var>criterion dungeons<var 49 01 /var><var 48 01 /var>, a tier of higher difficulties which can be accessed by switching the tab at the top of the V&C Dungeon Finder window. 
+
+Criterion dungeons have no accompanying NPC or branching paths to explore. In place of newly discovered story elements, the tab will instead display a list of available dungeons, as well as the amount of <var 48 F201FA /var><var 49 F201FB /var>special currency<var 49 01 /var><var 48 01 /var> earned from completing these more punishing challenges.","Das kuriose Gewölbe ist eine schwierige Heraus<var 16 /var>forde<var 16 /var>rung, die allerlei Taktik und Geschick erfordert.
+
+In der Gewölbesuche kann oben zwischen unsteten und kuriosen Gewölben gewechselt werden.
+
+Im kuriosen Gewölbe gibt es keine Charaktere, die die Spielergruppe begleiten, keine Abzweigungen und auch keine Seiten zu entdecken. Dafür werden in der Gewölbesuche andere Elemente angezeigt, wie die spezielle Währung.","","False","0x00000423","",""
+"","Criterion Dungeon Restrictions","Ein<var 16 /var>schrän<var 16 /var>kungen","","False","0x00000424","",""
+"","Unlike variant dungeons, criterion dungeons <var 48 F201FA /var><var 49 F201FB /var>do not allow job changes<var 49 01 /var><var 48 01 /var>. Resurrection via Raise or other abilities is also restricted, being permitted only through use of the special action Variant Raise II.
+
+Criterion dungeons of <var 48 F201FA /var><var 49 F201FB /var>Savage<var 49 01 /var><var 48 01 /var> difficulty disable the use of variant actions completely, and must be attempted by preformed four-player parties meeting the entry requirements.","Im Gegensatz zum unsteten Gewölbe, kannst du im kuriosen Gewölbe deinen <var 48 F201F4 /var><var 49 F201F5 /var>Job nicht wechseln<var 49 01 /var><var 48 01 /var>. Auch die Wiederbelebung durch reguläre Kommandos ist beschränkt - lediglich unstete Kommandos können dafür eingesetzt werden.
+
+In der epischen Version des kuriosen Gewölbes können allerdings auch <var 48 F201F4 /var><var 49 F201F5 /var>keine unsteten Kommandos<var 49 01 /var><var 48 01 /var> eingesetzt werden und ihr seid komplett auf euch gestellt.
+
+Das kuriose Gewölbe (episch) kann außerdem nur eine Gruppe aus vier Spielern betreten, die alle Anforderungen erfüllt.","","False","0x00000425","",""
 "","","","","False","0x00000426","",""
 "","","","","False","0x00000427","",""
 "","","","","False","0x00000428","",""

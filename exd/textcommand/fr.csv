@@ -711,6 +711,7 @@ USAGE:
 
 →Opens and closes your adventurer plate.<tab><tab><tab>/adventurerplate<tab>/myplate","/cartepersonnage, /cartep, /adventurerplate, /myplate
 Affiche la carte de personnage.<tab>/cartepersonnage<tab>/cartep<tab>/adventurerplate<tab>/myplate","","False","0x00000026","",""
+"","<tab><tab><tab>//resetSettingCWLS<tab>","<tab><tab><tab>//resetSettingCWLS<tab>","","False","0x00000027","",""
 "","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -7208,8 +7209,7 @@ USAGE:
 →Bare your teeth derisively.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
-　　Display motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/montrersoncôtérebelle, /rebelle, /deride, /pagaga
 Utilisation<var 1D /var>: /montrersoncôtérebelle [sous-commande]
@@ -7217,6 +7217,20 @@ Montre son côté rebelle.
 >> Sous-commande<var 1D /var>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/montrersoncôtérebelle<tab>/rebelle<tab>/deride<tab>/pagaga","","False","0x00000286","",""
+"","USAGE:
+　/wow [subcommand]
+
+→Sparkle with amazement.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/wow<tab>","/avoirdesétoilesdanslesyeux, /fana, /wow
+Utilisation<var 1D /var>: /avoirdesétoilesdanslesyeux [sous-commande]
+A des étoiles dans les yeux.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/avoirdesétoilesdanslesyeux<tab>/fana<tab>/wow<tab>","","False","0x00000287","",""
 "","ALIASES:
 　/eatpumpkincookie, /cookie
 USAGE:
@@ -7225,8 +7239,7 @@ USAGE:
 →Nibble on a pumpkin cookie.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>
-　　Display motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/mangerunbiscuitcitrouille, /mangbiscuitcitrouille, /eatpumpkincookie, /cookie
 Utilisation<var 1D /var>: /mangerunbiscuitcitrouille [sous-commande]

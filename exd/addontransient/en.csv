@@ -1055,15 +1055,15 @@ Displays focus target information for the selected target.
 <var 48 F201FA /var><var 49 F201FB /var>Exit<var 49 01 /var><var 48 01 /var>
 Exit playback.","","False","0x000001C2","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Subcommands","","False","0x000001C3","",""
-"","","","","False","0x000001C4","",""
-"","","","","False","0x000001C5","",""
-"","","","","False","0x000001C6","",""
+"","<var 1E 19 /var> Scroll","<var 1E 19 /var> Scroll","","False","0x000001C4","",""
+"","<var 1E 09 /var> Open","<var 1E 09 /var> Open","","False","0x000001C5","",""
+"","<var 1E 19 /var> Scroll","<var 1E 19 /var> Scroll","","False","0x000001C6","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Subcommands","","False","0x000001C7","",""
 "","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands  <var 1E 0C /var> Move","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands  <var 1E 0C /var> Move","","False","0x000001C8","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Subcommands","","False","0x000001C9","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Subcommands","","False","0x000001CA","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Subcommands","","False","0x000001CB","",""
-"","","","","False","0x000001CC","",""
+"","<var 1E 0B /var> Subcommands  <var 1E 19 /var> Scroll","<var 1E 0B /var> Subcommands  <var 1E 19 /var> Scroll","","False","0x000001CC","",""
 "","<var 1E 06 /var> Move  <var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands","<var 1E 06 /var> Move  <var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands","","False","0x000001CD","",""
 "","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands","","False","0x000001CE","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Subcommands","","False","0x000001CF","",""
@@ -1546,18 +1546,42 @@ A higher gathering rate increases your chances of a prime collectable becoming s
 "","","","","False","0x00000417","",""
 "","","","","False","0x00000418","",""
 "","","","","False","0x00000419","",""
-"","","","","False","0x0000041A","",""
-"","","","","False","0x0000041B","",""
-"","","","","False","0x0000041C","",""
-"","","","","False","0x0000041D","",""
-"","","","","False","0x0000041E","",""
-"","","","","False","0x0000041F","",""
-"","","","","False","0x00000420","",""
-"","","","","False","0x00000421","",""
-"","","","","False","0x00000422","",""
-"","","","","False","0x00000423","",""
-"","","","","False","0x00000424","",""
-"","","","","False","0x00000425","",""
+"","Entering V&C Dungeons","Entering V&C Dungeons","","False","0x0000041A","",""
+"","You can enter a variant or criterion dungeon via the V&C Dungeon Finder window, which is accessed by speaking with the NPC at the dungeon entrance, or by selecting the option from <var 48 F201FA /var><var 49 F201FB /var>Duty<var 49 01 /var><var 48 01 /var> in the main menu.
+
+This window features all the necessary information regarding dungeon entry, as well as the dungeon-specific settings.","You can enter a variant or criterion dungeon via the V&C Dungeon Finder window, which is accessed by speaking with the NPC at the dungeon entrance, or by selecting the option from <var 48 F201FA /var><var 49 F201FB /var>Duty<var 49 01 /var><var 48 01 /var> in the main menu.
+
+This window features all the necessary information regarding dungeon entry, as well as the dungeon-specific settings.","","False","0x0000041B","",""
+"","Variant Dungeons","Variant Dungeons","","False","0x0000041C","",""
+"","The difficulty of a <var 48 F201FA /var><var 49 F201FB /var>variant dungeon<var 49 01 /var><var 48 01 /var> is automatically adjusted to provide a challenge for parties of between one to four players. Victory will require effort and attention, but it is entirely possible to complete these dungeons alone. 
+
+If you wish to enter as a solo player or with your current party members, be sure to uncheck the <var 48 F201FA /var><var 49 F201FB /var>Enable party matching<var 49 01 /var><var 48 01 /var> option (disabled by default). Conversely, enabling this option will match you with other adventurers to tackle the dungeon in a four-player party.","The difficulty of a <var 48 F201FA /var><var 49 F201FB /var>variant dungeon<var 49 01 /var><var 48 01 /var> is automatically adjusted to provide a challenge for parties of between one to four players. Victory will require effort and attention, but it is entirely possible to complete these dungeons alone. 
+
+If you wish to enter as a solo player or with your current party members, be sure to uncheck the <var 48 F201FA /var><var 49 F201FB /var>Enable party matching<var 49 01 /var><var 48 01 /var> option (disabled by default). Conversely, enabling this option will match you with other adventurers to tackle the dungeon in a four-player party.","","False","0x0000041D","",""
+"","Variant Actions","Variant Actions","","False","0x0000041E","",""
+"","To allow for greater freedom in role choices, variant dungeons grant players the use of special <var 48 F201FA /var><var 49 F201FB /var>variant actions<var 49 01 /var><var 48 01 /var>.
+
+These actions mimic existing abilities such as <var 48 F201FA /var><var 49 F201FB /var>Cure<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Rampart<var 49 01 /var><var 48 01 /var>, alleviating the need for dedicated tanks, DPS, or healers. Each player has two actions available for use during the dungeon, and these can be changed <var 48 F201FA /var><var 49 F201FB /var>at any time<var 49 01 /var><var 48 01 /var> via the <var 48 F201FA /var><var 49 F201FB /var>Set Actions<var 49 01 /var><var 48 01 /var> button in the V&C Dungeon Finder window.","To allow for greater freedom in role choices, variant dungeons grant players the use of special <var 48 F201FA /var><var 49 F201FB /var>variant actions<var 49 01 /var><var 48 01 /var>.
+
+These actions mimic existing abilities such as <var 48 F201FA /var><var 49 F201FB /var>Cure<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Rampart<var 49 01 /var><var 48 01 /var>, alleviating the need for dedicated tanks, DPS, or healers. Each player has two actions available for use during the dungeon, and these can be changed <var 48 F201FA /var><var 49 F201FB /var>at any time<var 49 01 /var><var 48 01 /var> via the <var 48 F201FA /var><var 49 F201FB /var>Set Actions<var 49 01 /var><var 48 01 /var> button in the V&C Dungeon Finder window.","","False","0x0000041F","",""
+"","Unraveling the Story","Unraveling the Story","","False","0x00000420","",""
+"","Variant dungeons feature <var 48 F201FA /var><var 49 F201FB /var>branching paths<var 49 01 /var><var 48 01 /var>, and by exploring these choices alongside the quest character will you reveal new elements of the overarching story.
+
+Upon completing each path, a new entry will be added to the journal or expedition log associated with the dungeon. Simply open the V&C Dungeon Finder window and select the character portrait to browse the completed entries.","Variant dungeons feature <var 48 F201FA /var><var 49 F201FB /var>branching paths<var 49 01 /var><var 48 01 /var>, and by exploring these choices alongside the quest character will you reveal new elements of the overarching story.
+
+Upon completing each path, a new entry will be added to the journal or expedition log associated with the dungeon. Simply open the V&C Dungeon Finder window and select the character portrait to browse the completed entries.","","False","0x00000421","",""
+"","Criterion Dungeons","Criterion Dungeons","","False","0x00000422","",""
+"","You have unlocked <var 48 F201FA /var><var 49 F201FB /var>criterion dungeons<var 49 01 /var><var 48 01 /var>, a tier of higher difficulties which can be accessed by switching the tab at the top of the V&C Dungeon Finder window. 
+
+Criterion dungeons have no accompanying NPC or branching paths to explore. In place of newly discovered story elements, the tab will instead display a list of available dungeons, as well as the amount of <var 48 F201FA /var><var 49 F201FB /var>special currency<var 49 01 /var><var 48 01 /var> earned from completing these more punishing challenges.","You have unlocked <var 48 F201FA /var><var 49 F201FB /var>criterion dungeons<var 49 01 /var><var 48 01 /var>, a tier of higher difficulties which can be accessed by switching the tab at the top of the V&C Dungeon Finder window. 
+
+Criterion dungeons have no accompanying NPC or branching paths to explore. In place of newly discovered story elements, the tab will instead display a list of available dungeons, as well as the amount of <var 48 F201FA /var><var 49 F201FB /var>special currency<var 49 01 /var><var 48 01 /var> earned from completing these more punishing challenges.","","False","0x00000423","",""
+"","Criterion Dungeon Restrictions","Criterion Dungeon Restrictions","","False","0x00000424","",""
+"","Unlike variant dungeons, criterion dungeons <var 48 F201FA /var><var 49 F201FB /var>do not allow job changes<var 49 01 /var><var 48 01 /var>. Resurrection via Raise or other abilities is also restricted, being permitted only through use of the special action Variant Raise II.
+
+Criterion dungeons of <var 48 F201FA /var><var 49 F201FB /var>Savage<var 49 01 /var><var 48 01 /var> difficulty disable the use of variant actions completely, and must be attempted by preformed four-player parties meeting the entry requirements.","Unlike variant dungeons, criterion dungeons <var 48 F201FA /var><var 49 F201FB /var>do not allow job changes<var 49 01 /var><var 48 01 /var>. Resurrection via Raise or other abilities is also restricted, being permitted only through use of the special action Variant Raise II.
+
+Criterion dungeons of <var 48 F201FA /var><var 49 F201FB /var>Savage<var 49 01 /var><var 48 01 /var> difficulty disable the use of variant actions completely, and must be attempted by preformed four-player parties meeting the entry requirements.","","False","0x00000425","",""
 "","","","","False","0x00000426","",""
 "","","","","False","0x00000427","",""
 "","","","","False","0x00000428","",""
