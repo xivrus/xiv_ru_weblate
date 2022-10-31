@@ -451,14 +451,14 @@ The following can be used to adjust speed in unvoiced cutscenes:
 "","Number of letters with attachments from friends. Up to 20 attachments are saved.","","","True","0x000001B7","",""
 "","Letter Editor","","","True","0x000001B8","",""
 "","","","","True","0x000001B9","",""
-"","Edit","1BA_Edit","","True","0x000001BA","",""
+"","Edit","","","False","0x000001BA","",""
 "","Send","","","True","0x000001BB","",""
 "","","","","True","0x000001BC","",""
 "","Body","","","True","0x000001BD","",""
 "","<var 2E 07F2026A /var>","","","True","0x000001BE","",""
 "","Discard the letter and return any attached items or gil to your inventory?","","","False","0x000001BF","",""
-"","<var 1E 09 /var> Target Attachment","1C0_<var 1E 09 /var> Target Attachment","","True","0x000001C0","",""
-"","<var 1E 0B /var> Prioritize in Duty List <var 1E 19 /var> Scroll","1C1_<var 1E 0B /var> Prioritize in Duty List <var 1E 19 /var> Scroll","","True","0x000001C1","",""
+"","<var 1E 09 /var> Target Attachment","","","False","0x000001C0","",""
+"","<var 1E 0B /var> Prioritize in Duty List <var 1E 19 /var> Scroll","","","False","0x000001C1","",""
 "","Journal","","","True","0x000001C2","",""
 "","","","","False","0x000001C3","",""
 "","Current","","","True","0x000001C4","",""
@@ -5496,47 +5496,28 @@ Do you still wish to proceed?","","","False","0x000016D2","",""
 "","Face Camera:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Jump)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0C /var> Button","1720_Face Camera:
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Jump)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0C /var> Button","","True","0x00001720","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0C /var> Button","","","False","0x00001720","",""
 "","Disable/Enable Camera Lighting 1:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Target Filters)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","1721_Disable/Enable Camera Lighting 1:
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Target Filters)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","","True","0x00001721","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","","","False","0x00001721","",""
 "","Disable/Enable Target Motion
 Keyboard: <var 08 E4EA02EB01 ((Not Set
 #1 - Slot [#2])) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 10 /var> Button","1722_Disable/Enable Target Motion
-Keyboard: <var 08 E4EA02EB01 ((Not Set
-#1 - Slot [#2])) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 10 /var> Button","","True","0x00001722","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 10 /var> Button","","","False","0x00001722","",""
 "","Disable/Enable All Motion
 Keyboard: <var 08 E4EA02EB01 ((Not Set
 #1 - Slot [#1])) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0F /var> Button","1723_Disable/Enable All Motion
-Keyboard: <var 08 E4EA02EB01 ((Not Set
-#1 - Slot [#1])) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0F /var> Button","","True","0x00001723","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0F /var> Button","","","False","0x00001723","",""
 "","Disable/Enable Camera Angle Toggle:
 Mouse:  Left Click
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Confirm)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 09 /var> Button","1724_Disable/Enable Camera Angle Toggle:
-Mouse:  Left Click
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Confirm)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 09 /var> Button","","True","0x00001724","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 09 /var> Button","","","False","0x00001724","",""
 "","Toggle Camera Angle:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Cycle Tabs =Forward)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 07 /var> Directional Buttons","1725_Toggle Camera Angle:
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Cycle Tabs =Forward)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 07 /var> Directional Buttons","","True","0x00001725","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 07 /var> Directional Buttons","","","False","0x00001725","",""
 "","Reset Camera Angle:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
@@ -5544,27 +5525,14 @@ Keyboard: <var 08 E4EA02EB01 ((Not Set
 Camera Controls:
  ・Direction: Movement Keys
  ・Rotation: Strafe Left/Right
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","1726_Reset Camera Angle:
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
-Camera Controls:
- ・Direction: Movement Keys
- ・Rotation: Strafe Left/Right
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","True","0x00001726","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","","False","0x00001726","",""
 "","Reset Camera Angle:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
 <var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
 Camera Controls:
 Keyboard: Movement Keys
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","1727_Reset Camera Angle:
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
-Camera Controls:
-Keyboard: Movement Keys
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","True","0x00001727","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","","False","0x00001727","",""
 "","Reset Camera Angle:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
@@ -5572,14 +5540,7 @@ Keyboard: <var 08 E4EA02EB01 ((Not Set
 Camera Controls:
  ・Direction: Movement Keys
  ・Rotation: Strafe Left/Right
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","1728_Reset Camera Angle:
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 12 11 /var> Button
-Camera Controls:
- ・Direction: Movement Keys
- ・Rotation: Strafe Left/Right
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","True","0x00001728","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 15 /var> Stick","","","False","0x00001728","",""
 "","Reset Limb Darkening","","","True","0x00001729","",""
 "","Level","","","True","0x0000172A","",""
 "","Aspect Ratio","","","True","0x0000172B","",""
@@ -5601,10 +5562,7 @@ Camera Controls:
 "","Disable/Enable Camera Lighting 1:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Target Filters)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","1737_Disable/Enable Camera Lighting 1:
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Target Filters)) ((<var 29 EA02 /var>)) /var>
-<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","","True","0x00001737","",""
+<var 08 E1E94C01 ((Controller)) ((Gamepad)) /var>: <var 1E 0E /var> Button","","","False","0x00001737","",""
 "","Apply Lighting 2 to Camera Position","","","True","0x00001738","",""
 "","Apply Lighting 3 to Camera Position","","","True","0x00001739","",""
 "","Reset Lighting Settings","","","True","0x0000173A","",""
@@ -6756,7 +6714,7 @@ Proceed with these components?
 "","<var 09 E802 ((Available to free companies.)) ((Unavailable to free companies.)) /var>","<var 09 E802 ((Доступно для free company.)) ((Недоступно для free company.)) /var>","","False","0x00001B80","",""
 "","<var 09 E802 ((Available to private buyers.)) ((Unavailable to private buyers.)) /var>","","","False","0x00001B81","",""
 ""," ","","","False","0x00001B82","",""
-"","<var 09 E802 ((Selling on a first-come-first-served basis.)) ((Selling via lottery. (Current participants: <var 20 E803 /var>))) ((Currently unavailable for purchase.)) /var>","1B83_<var 09 E802 ((Selling on a first-come-first-served basis.)) ((Selling via lottery. (Current participants: <var 20 E803 /var>))) ((Currently unavailable for purchase.)) /var>","","True","0x00001B83","",""
+"","<var 09 E802 ((Selling on a first-come-first-served basis.)) ((Selling via lottery. (Current participants: <var 20 E803 /var>))) ((Currently unavailable for purchase.)) /var>","","","False","0x00001B83","",""
 "","<var 09 E803 ((Accepting entries until <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Results period ends <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) /var>.","","","False","0x00001B84","",""
 "","Enter Lottery","","","False","0x00001B85","",""
 "","Do you wish to deposit <var 22 E802 ((,)) /var> gil to enter the lottery for this plot of land? Please note that you may only enter the lottery for one plot of land during each lottery period.
@@ -8138,11 +8096,9 @@ Accept?","","","True","0x0000215A","",""
 "","<var 12 40 /var>Profile incomplete. Please launch the Immerse Gamepack FINAL FANTASY XIV Edition app.","","","False","0x0000223F","",""
 "","<var 12 40 /var>Profile incomplete. Please launch the Immerse Gamepack FINAL FANTASY XIV Edition app.","","","False","0x00002240","",""
 "","Immerse Spatial Audio is ready.
-Adjusting Listening Position may further enhance audio quality.","2241_Immerse Spatial Audio is ready.
-Adjusting Listening Position may further enhance audio quality.","","True","0x00002241","",""
+Adjusting Listening Position may further enhance audio quality.","","","False","0x00002241","",""
 "","Immerse Spatial Audio is on.
-Adjusting Listening Position may further enhance audio quality.","2242_Immerse Spatial Audio is on.
-Adjusting Listening Position may further enhance audio quality.","","True","0x00002242","",""
+Adjusting Listening Position may further enhance audio quality.","","","False","0x00002242","",""
 "","<var 12 40 /var>There is an error. Please launch the Immerse Gamepack FINAL FANTASY XIV Edition app.","","","False","0x00002243","",""
 "","<var 12 40 /var>Waiting for a response from the Immerse Gamepack.","","","True","0x00002244","",""
 "","<var 12 40 /var>Update available. Download now in the Immerse Gamepack FINAL FANTASY XIV Edition app.","","","False","0x00002245","",""
@@ -8403,8 +8359,8 @@ Taken","","","False","0x00002307","",""
 "","After","","","True","0x00002357","",""
 "","Once a chocobo is put out to pasture it cannot be re-registered as a race chocobo. Proceed?","","","False","0x00002358","",""
 "","Retire chocobo.","","","True","0x00002359","",""
-"","You cannot receive a retired chocobo registration form for race chocobos less than rank 40. Proceed and <var 2B EA02 /var> will become property of the Manderville Gold Saucer.","235A_You cannot receive a retired chocobo registration form for race chocobos less than rank 40. Proceed and <var 2B EA02 /var> will become property of the Manderville Gold Saucer.","","True","0x0000235A","",""
-"","Forgo retirement registration. Beat it, bird!","235B_Forgo retirement registration. Beat it, bird!","","True","0x0000235B","",""
+"","You cannot receive a retired chocobo registration form for race chocobos less than rank 40. Proceed and <var 2B EA02 /var> will become property of the Manderville Gold Saucer.","","","False","0x0000235A","",""
+"","Forgo retirement registration. Beat it, bird!","","","False","0x0000235B","",""
 "","Naming","","","True","0x0000235E","",""
 "","","","","True","0x0000235F","",""
 "","Choose a name for your race chocobo. You may select one word or a combination of two words from the list of available terms.","","","True","0x00002360","",""
@@ -10697,8 +10653,7 @@ High Score
 "","Promotion Qualifier Available","","","True","0x00002C68","",""
 "","<var 08 E4E80201 ((Until Promotion:)) ((Until Qualifier:)) /var>","","","True","0x00002C69","",""
 "","A gobtank has emerged near the core.
-Limit gauge, ceruleum, and Soaring effects are increased for all team members.","2C6A_A gobtank has emerged near the core.
-Limit gauge, ceruleum, and Soaring effects are increased for all team members.","","True","0x00002C6A","",""
+Limit gauge, ceruleum, and Soaring effects are increased for all team members.","","","False","0x00002C6A","",""
 "","Team","","","False","0x00002C6B","",""
 "","<var 09 E802 ((Falcon Tower)) ((Raven Tower)) /var> <var 20 E804 /var>
 Integrity: <var 20 E803 /var>%","","","True","0x00002C6C","",""
@@ -10721,7 +10676,7 @@ awaiting deployment (<var 20 E803 /var>:<var 24 E804 /var>).)) /var>","","","Tru
 "","A gobtank has emerged near the core.
 Soaring effect is increased for all team members.","","","True","0x00002C77","",""
 "","Ceruleum and Soaring effects are increased for all team members.","","","True","0x00002C78","",""
-"","Limit gauge and Soaring effects are increased for all team members.","2C79_Limit gauge and Soaring effects are increased for all team members.","","True","0x00002C79","",""
+"","Limit gauge and Soaring effects are increased for all team members.","","","False","0x00002C79","",""
 "","Unable to mount machina.","","","True","0x00002C7A","",""
 "","Another party member has already mounted.","","","True","0x00002C7B","",""
 "","Ceruleum is depleted.","","","True","0x00002C7C","",""
@@ -11045,16 +11000,7 @@ To create a PvP team, the following conditions must be met:
 ・Parties must have 4-6 members (cross-world allowed)
 ・All members must have unlocked PvP
 ・Players on free trial accounts are not allowed
-・All members must have Home Worlds in the current data center","2DCF_PvP teams are adventurers who, rather than have their companions
-chosen at random, join together to take on Crystalline Conflict and other PvP duties in custom-made parties of their own creation.
-
-To create a PvP team, the following conditions must be met:
-・Only a party leader can create a team
-・Members cannot be part of another PvP team
-・Parties must have 4-6 members (cross-world allowed)
-・All members must have unlocked PvP
-・Players on free trial accounts are not allowed
-・All members must have Home Worlds in the current data center","","True","0x00002DCF","",""
+・All members must have Home Worlds in the current data center","","","False","0x00002DCF","",""
 "","Team Rating","","","True","0x00002DD0","",""
 "","Team rating is a numerical value that indicates the relative strength of
 a PvP team. This value will increase or decrease based on performance
@@ -11778,7 +11724,7 @@ Tactical Rating","","","True","0x00002FA3","",""
 "","Ranking and rate are shared between full and quick match types.
 Please bear this in mind before choosing to reset.","Рейтинг и ранг — общие в полных и быстрых матчах.
 Имейте это в виду, принимая решение сбросить их.","","True","0x00003097","",""
-"","Rating","3098_Rating","","True","0x00003098","",""
+"","Rating","","","False","0x00003098","",""
 "","Complete","","","False","0x00003099","",""
 "","Not Complete","","","False","0x0000309A","",""
 "","Complete","","","False","0x0000309B","",""
@@ -12866,7 +12812,7 @@ Increases to <var 48 F201FA /var><var 49 F201FB /var>progress<var 49 01 /var><va
 "","Potential Conditions List","","","True","0x00003490","",""
 "","Potential Conditions List","","","True","0x00003491","",""
 "","","","","True","0x00003492","",""
-"","Quality Required for Synthesis: <var 20 E802 /var>","3493_Quality Required for Synthesis: <var 20 E802 /var>","","True","0x00003493","",""
+"","Quality Required for Synthesis: <var 20 E802 /var>","","","False","0x00003493","",""
 "","Resource Control","","","True","0x00003494","",""
 "","","","","True","0x00003495","",""
 "","Auto-submit","","","True","0x00003496","",""
@@ -13049,17 +12995,15 @@ You will be rewarded only once regardless of the number of materia used.","","",
 "","Add to Hotbar","","","True","0x0000356D","",""
 "","Use","","","True","0x0000356E","",""
 "","Accessory-specific stances are available via the Change Pose emote.","Особые позы аксессуаров доступны через эмоцию «Change Pose».","","False","0x0000356F","",""
-"","Obtained with the Performance ability.","35BC_Obtained with the Performance ability.","","True","0x000035BC","",""
+"","Obtained with the Performance ability.","","","False","0x000035BC","",""
 "","Obtained from <var 31 ((Item)) 04E8020302 /var>, available as a PvP Series reward.","","","False","0x000035BD","",""
 "","Obtained as a Crystalline Conflict seasonal reward.
 <var 61 E803 /var>
-<var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","35BE_Obtained as a Crystalline Conflict seasonal reward.
-<var 61 E803 /var>
-<var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","True","0x000035BE","",""
+<var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","","False","0x000035BE","",""
 "","Obtained from <var 31 ((Item)) 04E8020302 /var>.","","","False","0x000035BF","",""
 "","Standard element.","","","False","0x000035C0","",""
 "","Obtained by completing the quest “<var 28 ((Quest)) E80201 /var>.”","","","False","0x000035C1","",""
-"","Obtained from <var 28 ((ContentFinderCondition)) E80228 /var>.","35C2_Obtained from <var 28 ((ContentFinderCondition)) E80228 /var>.","","True","0x000035C2","",""
+"","Obtained from <var 28 ((ContentFinderCondition)) E80228 /var>.","","","False","0x000035C2","",""
 "","Obtained from <var 31 ((Item)) 04E8040302 /var>.
 <var 61 E803 /var>
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","","False","0x000035C3","",""
@@ -13443,10 +13387,10 @@ Rate:
 "","Help","","","True","0x0000375F","",""
 "","Collectable Help","","","True","0x00003760","",""
 "","","","","False","0x00003761","",""
-"","Sublime Rate","3762_Sublime Rate","","True","0x00003762","",""
-"","<var 20 E802 /var>％","3763_<var 20 E802 /var>％","","True","0x00003763","",""
-"","Collectability","3764_Collectability","","True","0x00003764","",""
-"","<var 20 E802 /var>","3765_<var 20 E802 /var>","","True","0x00003765","",""
+"","Sublime Rate","","","False","0x00003762","",""
+"","<var 20 E802 /var>％","","","False","0x00003763","",""
+"","Collectability","","","False","0x00003764","",""
+"","<var 20 E802 /var>","","","False","0x00003765","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are normal.","","","True","0x00003778","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 1.5 times higher than normal.","","","True","0x00003779","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 4 times higher than normal.","","","True","0x0000377A","",""
@@ -13458,87 +13402,85 @@ Rate:
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>progress<var 49 01 /var><var 48 01 /var> are 1.5 times higher than normal.","","","True","0x00003780","",""
 "","Required Collectability","","","False","0x00003781","",""
 "","<var 20 E802 /var>～","","","False","0x00003782","",""
-"","Quality Required for Synthesis","3783_Quality Required for Synthesis","","True","0x00003783","",""
+"","Quality Required for Synthesis","","","False","0x00003783","",""
 "","Master Recipes","","","False","0x00003784","",""
-"","Mode","37AA_Mode","","True","0x000037AA","",""
-"","Item","37AB_Item","","True","0x000037AB","",""
-"","Sanctuary Rank:","37AC_Sanctuary Rank:","","True","0x000037AC","",""
-"","Island EXP:","37AD_Island EXP:","","True","0x000037AD","",""
-"","<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>)) ((<var 20 E802 /var>)) /var>/<var 20 E803 /var>","37AE_<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>)) ((<var 20 E802 /var>)) /var>/<var 20 E803 /var>","","True","0x000037AE","",""
-"","-/-","37AF_-/-","","True","0x000037AF","",""
-"","（-<var 22 E802 ((,)) /var>/day）","37B0_（-<var 22 E802 ((,)) /var>/day）","","True","0x000037B0","",""
-"","Isleventory","37B1_Isleventory","","True","0x000037B1","",""
-"","Manage Hideaway","37B2_Manage Hideaway","","True","0x000037B2","",""
-"","Sanctuary Crafting Log","37B3_Sanctuary Crafting Log","","True","0x000037B3","",""
-"","Sanctuary Gathering Log","37B4_Sanctuary Gathering Log","","True","0x000037B4","",""
-"","Manage Minions","37B5_Manage Minions","","True","0x000037B5","",""
-"","Guide","37B7_Guide","","True","0x000037B7","",""
-"","Construction","37B8_Construction","","True","0x000037B8","",""
-"","","37B9_","","True","0x000037B9","",""
-"","Cozy Cabin","37BA_Cozy Cabin","","True","0x000037BA","",""
-"","Workshops","37BB_Workshops","","True","0x000037BB","",""
-"","Granaries","37BC_Granaries","","True","0x000037BC","",""
-"","Landmarks","37BD_Landmarks","","True","0x000037BD","",""
-"","Built: <var 20 E802 /var>/<var 20 E803 /var>","37BE_Built: <var 20 E802 /var>/<var 20 E803 /var>","","True","0x000037BE","",""
-"","Time Required:","37BF_Time Required:","","True","0x000037BF","",""
-""," <var 08 E1E80201 ((<var 20 E802 /var>-<var 20 E803 /var> hours)) (( None)) /var>","37C0_ <var 08 E1E80201 ((<var 20 E802 /var>-<var 20 E803 /var> hours)) (( None)) /var>","","True","0x000037C0","",""
-"","Materials","37C1_Materials","","True","0x000037C1","",""
-"","Req.","37C2_Req.","","True","0x000037C2","",""
-"","Inventory","37C3_Inventory","","True","0x000037C3","",""
-"","Construct","37C4_Construct","","True","0x000037C4","",""
-"","Renovate","37C5_Renovate","","True","0x000037C5","",""
-"","Under Construction","37C6_Under Construction","","True","0x000037C6","",""
-"","","37C7_","","True","0x000037C7","",""
-"","Time of Completion:","37C8_Time of Completion:","","True","0x000037C8","",""
-"","Isleventory","37C9_Isleventory","","True","0x000037C9","",""
-"","","37CA_","","True","0x000037CA","",""
-"","Materials","37CB_Materials","","True","0x000037CB","",""
-"","Produce","37CC_Produce","","True","0x000037CC","",""
-"","Stock Stores","37CD_Stock Stores","","True","0x000037CD","",""
-"","Tools","37CE_Tools","","True","0x000037CE","",""
-"","<var 20 E802 /var>/<var 20 E803 /var>","37CF_<var 20 E802 /var>/<var 20 E803 /var>","","True","0x000037CF","",""
-"","Sort by Time","37D0_Sort by Time","","True","0x000037D0","",""
-"","Sort by Category","37D1_Sort by Category","","True","0x000037D1","",""
-"","<var 20 E802 /var> <var 08 E4E80202 ((Hour)) ((Hours)) /var>","37D2_<var 20 E802 /var> <var 08 E4E80202 ((Hour)) ((Hours)) /var>","","True","0x000037D2","",""
-"","<var 20 E802 /var> <var 08 E4E80202 ((hour)) ((hours)) /var>","37D3_<var 20 E802 /var> <var 08 E4E80202 ((hour)) ((hours)) /var>","","True","0x000037D3","",""
+"","Mode","","","False","0x000037AA","",""
+"","Item","","","False","0x000037AB","",""
+"","Sanctuary Rank:","","","False","0x000037AC","",""
+"","Island EXP:","","","False","0x000037AD","",""
+"","<var 08 E1E80401 ((<var 13 FDFFC030 /var><var 1B 01 /var><var 20 E802 /var></color2>)) ((<var 20 E802 /var>)) /var>/<var 20 E803 /var>","","","False","0x000037AE","",""
+"","-/-","","","False","0x000037AF","",""
+"","（-<var 22 E802 ((,)) /var>/day）","","","False","0x000037B0","",""
+"","Isleventory","","","False","0x000037B1","",""
+"","Manage Hideaway","","","False","0x000037B2","",""
+"","Sanctuary Crafting Log","","","False","0x000037B3","",""
+"","Sanctuary Gathering Log","","","False","0x000037B4","",""
+"","Manage Minions","","","False","0x000037B5","",""
+"","Guide","","","False","0x000037B7","",""
+"","Construction","","","False","0x000037B8","",""
+"","","","","False","0x000037B9","",""
+"","Cozy Cabin","","","False","0x000037BA","",""
+"","Workshops","","","False","0x000037BB","",""
+"","Granaries","","","False","0x000037BC","",""
+"","Landmarks","","","False","0x000037BD","",""
+"","Built: <var 20 E802 /var>/<var 20 E803 /var>","","","False","0x000037BE","",""
+"","Time Required:","","","False","0x000037BF","",""
+""," <var 08 E1E80201 ((<var 20 E802 /var>-<var 20 E803 /var> hours)) (( None)) /var>","","","False","0x000037C0","",""
+"","Materials","","","False","0x000037C1","",""
+"","Req.","","","False","0x000037C2","",""
+"","Inventory","","","False","0x000037C3","",""
+"","Construct","","","False","0x000037C4","",""
+"","Renovate","","","False","0x000037C5","",""
+"","Under Construction","","","False","0x000037C6","",""
+"","","","","False","0x000037C7","",""
+"","Time of Completion:","","","False","0x000037C8","",""
+"","Isleventory","","","False","0x000037C9","",""
+"","","","","False","0x000037CA","",""
+"","Materials","","","False","0x000037CB","",""
+"","Produce","","","False","0x000037CC","",""
+"","Stock Stores","","","False","0x000037CD","",""
+"","Tools","","","False","0x000037CE","",""
+"","<var 20 E802 /var>/<var 20 E803 /var>","","","False","0x000037CF","",""
+"","Sort by Time","","","False","0x000037D0","",""
+"","Sort by Category","","","False","0x000037D1","",""
+"","<var 20 E802 /var> <var 08 E4E80202 ((Hour)) ((Hours)) /var>","","","False","0x000037D2","",""
+"","<var 20 E802 /var> <var 08 E4E80202 ((hour)) ((hours)) /var>","","","False","0x000037D3","",""
 "","There are items in this agenda already in production. Are you sure you wish to delete it?
 
-<var 48 F201FA /var><var 49 F201FB /var>※Materials that have already been used will not be returned.<var 49 01 /var><var 48 01 /var>","37D4_There are items in this agenda already in production. Are you sure you wish to delete it?
-
-<var 48 F201FA /var><var 49 F201FB /var>※Materials that have already been used will not be returned.<var 49 01 /var><var 48 01 /var>","","True","0x000037D4","",""
-"","Efficiency Bonus!","37D5_Efficiency Bonus!","","True","0x000037D5","",""
-"","Sanctuary Crafting Log","37D6_Sanctuary Crafting Log","","True","0x000037D6","",""
-"","","37D7_","","True","0x000037D7","",""
-"","Warning: You will not be able to receive all the items. Do you still wish to proceed?","37D8_Warning: You will not be able to receive all the items. Do you still wish to proceed?","","True","0x000037D8","",""
-"","Island EXP","37D9_Island EXP","","True","0x000037D9","",""
-"","Seafarer's Cowrie","37DA_Seafarer's Cowrie","","True","0x000037DA","",""
-"","Materials","37DB_Materials","","True","0x000037DB","",""
-"","Bag","37DC_Bag","","True","0x000037DC","",""
-"","Select","37DD_Select","","True","0x000037DD","",""
-"","Quantity","37DE_Quantity","","True","0x000037DE","",""
-"","Inventory","37DF_Inventory","","True","0x000037DF","",""
-"","Craft","37E0_Craft","","True","0x000037E0","",""
-"","Sanctuary Gathering Log","37E1_Sanctuary Gathering Log","","True","0x000037E1","",""
-"","","37E2_","","True","0x000037E2","",""
-"","This material has not been gathered yet.","37E3_This material has not been gathered yet.","","True","0x000037E3","",""
-"","Tool Required:","37E4_Tool Required:","","True","0x000037E4","",""
-"","Location:","37E5_Location:","","True","0x000037E5","",""
-"","Cropland Management","37E6_Cropland Management","","True","0x000037E6","",""
-"","","37E7_","","True","0x000037E7","",""
-"","Plot","37E8_Plot","","True","0x000037E8","",""
-"","Crop","37E9_Crop","","True","0x000037E9","",""
-"","Water","37EA_Water","","True","0x000037EA","",""
-"","Growth","37EB_Growth","","True","0x000037EB","",""
-"","Gardener's Log","37EC_Gardener's Log","","True","0x000037EC","",""
-"","Seed","37ED_Seed","","True","0x000037ED","",""
-"","State","37EE_State","","True","0x000037EE","",""
-"","Yield","37EF_Yield","","True","0x000037EF","",""
-"","Under Care","37F0_Under Care","","True","0x000037F0","",""
-"","Care Halted","37F1_Care Halted","","True","0x000037F1","",""
-"","<var 20 E802 /var>","37F2_<var 20 E802 /var>","","True","0x000037F2","",""
-"","Daily Care Fee:","37F3_Daily Care Fee:","","True","0x000037F3","",""
-"","Gardening Services","37F4_Gardening Services","","True","0x000037F4","",""
-"","","37F5_","","True","0x000037F5","",""
+<var 48 F201FA /var><var 49 F201FB /var>※Materials that have already been used will not be returned.<var 49 01 /var><var 48 01 /var>","","","False","0x000037D4","",""
+"","Efficiency Bonus!","","","False","0x000037D5","",""
+"","Sanctuary Crafting Log","","","False","0x000037D6","",""
+"","","","","False","0x000037D7","",""
+"","Warning: You will not be able to receive all the items. Do you still wish to proceed?","","","False","0x000037D8","",""
+"","Island EXP","","","False","0x000037D9","",""
+"","Seafarer's Cowrie","","","False","0x000037DA","",""
+"","Materials","","","False","0x000037DB","",""
+"","Bag","","","False","0x000037DC","",""
+"","Select","","","False","0x000037DD","",""
+"","Quantity","","","False","0x000037DE","",""
+"","Inventory","","","False","0x000037DF","",""
+"","Craft","","","False","0x000037E0","",""
+"","Sanctuary Gathering Log","","","False","0x000037E1","",""
+"","","","","False","0x000037E2","",""
+"","This material has not been gathered yet.","","","False","0x000037E3","",""
+"","Tool Required:","","","False","0x000037E4","",""
+"","Location:","","","False","0x000037E5","",""
+"","Cropland Management","","","False","0x000037E6","",""
+"","","","","False","0x000037E7","",""
+"","Plot","","","False","0x000037E8","",""
+"","Crop","","","False","0x000037E9","",""
+"","Water","","","False","0x000037EA","",""
+"","Growth","","","False","0x000037EB","",""
+"","Gardener's Log","","","False","0x000037EC","",""
+"","Seed","","","False","0x000037ED","",""
+"","State","","","False","0x000037EE","",""
+"","Yield","","","False","0x000037EF","",""
+"","Under Care","","","False","0x000037F0","",""
+"","Care Halted","","","False","0x000037F1","",""
+"","<var 20 E802 /var>","","","False","0x000037F2","",""
+"","Daily Care Fee:","","","False","0x000037F3","",""
+"","Gardening Services","","","False","0x000037F4","",""
+"","","","","False","0x000037F5","",""
 "","The produce producer requires a daily fee of <var 20 E802 /var> seafarer's cowries to provide gardening services, which will be collected at the time of request and then at <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> (Earth time) each day thereafter. Daily fees are only charged once.
 
 A team of mammets will sow seeds, water plants, and collect a yield of up to 50 per crop.
@@ -13548,51 +13490,36 @@ Entrust the produce producer with care of the following crop?
 ※The produce producer will halt care under the following circumstances:
 <var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
 　・Yields have reached the maximum of 50.<var 49 01 /var><var 48 01 /var>
-※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","37F6_The produce producer requires a daily fee of <var 20 E802 /var> seafarer's cowries to provide gardening services, which will be collected at the time of request and then at <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> (Earth time) each day thereafter. Daily fees are only charged once.
-
-A team of mammets will sow seeds, water plants, and collect a yield of up to 50 per crop.
-
-Entrust the produce producer with care of the following crop?
-
-※The produce producer will halt care under the following circumstances:
-<var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
-　・Yields have reached the maximum of 50.<var 49 01 /var><var 48 01 /var>
-※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","","True","0x000037F6","",""
-"","Confirm","37F7_Confirm","","True","0x000037F7","",""
-"","Cancel","37F8_Cancel","","True","0x000037F8","",""
+※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","","","False","0x000037F6","",""
+"","Confirm","","","False","0x000037F7","",""
+"","Cancel","","","False","0x000037F8","",""
 "","<var 20 E803 /var> <var 08 E4E80302 ((<var 31 ((Item)) 04E8020202 /var>)) ((<var 31 ((Item)) 04E8020302 /var>)) /var> will be collected. Proceed?
 
-Amount currently held: <var 20 E804 /var>","37F9_<var 20 E803 /var> <var 08 E4E80302 ((<var 31 ((Item)) 04E8020202 /var>)) ((<var 31 ((Item)) 04E8020302 /var>)) /var> will be collected. Proceed?
-
-Amount currently held: <var 20 E804 /var>","","True","0x000037F9","",""
+Amount currently held: <var 20 E804 /var>","","","False","0x000037F9","",""
 "","Warning: You will not be able to receive the entire yield of the <var 31 ((Item)) 04E8020202 /var> crop. Do you still wish to proceed?
 
-Amount currently held: <var 20 E804 /var>","37FA_Warning: You will not be able to receive the entire yield of the <var 31 ((Item)) 04E8020202 /var> crop. Do you still wish to proceed?
-
-Amount currently held: <var 20 E804 /var>","","True","0x000037FA","",""
-"","Foraging Expeditions","37FB_Foraging Expeditions","","True","0x000037FB","",""
-"","","37FC_","","True","0x000037FC","",""
-"","Expedition Area","37FD_Expedition Area","","True","0x000037FD","",""
-"","Resources","37FE_Resources","","True","0x000037FE","",""
-"","Rare Resources","37FF_Rare Resources","","True","0x000037FF","",""
-"","Next Return: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","3800_Next Return: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","","True","0x00003800","",""
-"","Collect","3801_Collect","","True","0x00003801","",""
-"","This granary has not been constructed yet.","3802_This granary has not been constructed yet.","","True","0x00003802","",""
-"","Accept materials gathered from the expedition?","3803_Accept materials gathered from the expedition?","","True","0x00003803","",""
+Amount currently held: <var 20 E804 /var>","","","False","0x000037FA","",""
+"","Foraging Expeditions","","","False","0x000037FB","",""
+"","","","","False","0x000037FC","",""
+"","Expedition Area","","","False","0x000037FD","",""
+"","Resources","","","False","0x000037FE","",""
+"","Rare Resources","","","False","0x000037FF","",""
+"","Next Return: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","","","False","0x00003800","",""
+"","Collect","","","False","0x00003801","",""
+"","This granary has not been constructed yet.","","","False","0x00003802","",""
+"","Accept materials gathered from the expedition?","","","False","0x00003803","",""
 "","Warning: You will not be able to receive all of the items. Those exceeding the limit will be discarded.
 
-Do you still wish to proceed?","3804_Warning: You will not be able to receive all of the items. Those exceeding the limit will be discarded.
-
-Do you still wish to proceed?","","True","0x00003804","",""
-"","Expedition Area","3805_Expedition Area","","True","0x00003805","",""
-"","","3806_","","True","0x00003806","",""
-"","Terrain","3807_Terrain","","True","0x00003807","",""
-"","Resources","3808_Resources","","True","0x00003808","",""
-"","Rare Resources","3809_Rare Resources","","True","0x00003809","",""
-"","Days","380A_Days","","True","0x0000380A","",""
-"","Max","380B_Max","","True","0x0000380B","",""
-"","Cost","380C_Cost","","True","0x0000380C","",""
-"","Confirm","380D_Confirm","","True","0x0000380D","",""
+Do you still wish to proceed?","","","False","0x00003804","",""
+"","Expedition Area","","","False","0x00003805","",""
+"","","","","False","0x00003806","",""
+"","Terrain","","","False","0x00003807","",""
+"","Resources","","","False","0x00003808","",""
+"","Rare Resources","","","False","0x00003809","",""
+"","Days","","","False","0x0000380A","",""
+"","Max","","","False","0x0000380B","",""
+"","Cost","","","False","0x0000380C","",""
+"","Confirm","","","False","0x0000380D","",""
 "","Release Selection","","","True","0x0000380E","",""
 "","","","","False","0x0000380F","",""
 "","Average-sized","","","True","0x00003810","",""
@@ -13634,7 +13561,7 @@ Up to 10 results are displayed.","","","True","0x00003844","",""
 "","Astra","Astra","","False","0x00003857","",""
 "","Umbra","Umbra","","False","0x00003858","",""
 "","Rising Stars <var 08 E1E80201 (((Streak Bonus Active!))) (( )) /var>","","","False","0x00003859","",""
-"","<var 29 EA02 /var> <var 08 E4E80301 ((<var 08 E1E80401 ((<var 20 E804 /var>)) (()) /var> <var 09 E805 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var> → <var 29 EA06 /var> <var 08 E4E80701 ((<var 08 E1E80801 ((<var 20 E808 /var>)) (()) /var> <var 09 E809 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var>","385A_<var 29 EA02 /var> <var 08 E4E80301 ((<var 08 E1E80401 ((<var 20 E804 /var>)) (()) /var> <var 09 E805 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var> → <var 29 EA06 /var> <var 08 E4E80701 ((<var 08 E1E80801 ((<var 20 E808 /var>)) (()) /var> <var 09 E809 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var>","","True","0x0000385A","",""
+"","<var 29 EA02 /var> <var 08 E4E80301 ((<var 08 E1E80401 ((<var 20 E804 /var>)) (()) /var> <var 09 E805 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var> → <var 29 EA06 /var> <var 08 E4E80701 ((<var 08 E1E80801 ((<var 20 E808 /var>)) (()) /var> <var 09 E809 ((☆☆☆)) ((★☆☆)) ((★★☆)) ((★★★)) /var>)) (()) /var>","","","False","0x0000385A","",""
 "","Crystal Credit","","","True","0x0000385B","",""
 "","<var 20 E802 /var> → <var 20 E803 /var>","","","True","0x0000385C","",""
 "","Current Arena: <var 28 ((PlaceName)) E80201 /var> (<var 08 E4E80501 ((<var 07 E803 /var><var 20 DB /var>:<var 24 DA /var> to <var 07 E804 /var><var 20 DB /var>:<var 24 DA /var>)) ((<var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E3DB0D ((a.m.)) ((p.m.)) /var> to <var 07 E804 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E3DB0D ((a.m.)) ((p.m.)) /var>)) /var>) (Earth time)
@@ -13825,7 +13752,7 @@ Select the portrait with settings you wish to copy.
 "","Source Portrait","","","False","0x00003999","",""
 "","Target Portrait","","","False","0x0000399A","",""
 "","Use as Instant Portrait has been disabled, so this portrait will not automatically be applied when its gear set is equipped. Enable this function to use this image as an Instant Portrait.","","","False","0x0000399B","",""
-"","Restore all portrait elements to default settings?","399C_Restore all portrait elements to default settings?","","True","0x0000399C","",""
+"","Restore all portrait elements to default settings?","","","False","0x0000399C","",""
 "","Use as Instant Portrait","","","False","0x0000399D","",""
 "","Use as Instant Portrait: On
 Portrait will automatically be applied as Instant Portrait when gear set is equipped.","","","False","0x0000399E","",""
@@ -13836,7 +13763,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Confirm","","","False","0x000039A3","",""
 "","Cancel","","","False","0x000039A4","",""
 "","<var 50 E80203 /var> <var 29 EA03 /var>","","","False","0x000039A5","",""
-"","Settings cannot be saved while performing motions.","39A6_Settings cannot be saved while performing motions.","","True","0x000039A6","",""
+"","Settings cannot be saved while performing motions.","","","False","0x000039A6","",""
 "","Enter <var 28 ((InstanceContent)) E80204 /var> with a party of other players","","","False","0x000039D0","",""
 "","Enter <var 28 ((ContentFinderCondition)) E80228 /var> with a party of NPCs","Начать миссию «<var 28 ((ContentFinderCondition)) E80228 /var>» в группе с дружескими NPC","","False","0x000039D1","",""
 "","Party Selection","","","True","0x000039D2","",""
@@ -13853,7 +13780,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","","","","False","0x000039DC","",""
 "","Display Duty Finder help.","Показать руководство по Duty Finder.","","False","0x000039DD","",""
 "","Member Selection Available","","","False","0x000039DE","",""
-"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E80228 /var> in a future update","39DF_NPC party support will be added for <var 28 ((ContentFinderCondition)) E80228 /var> in a future update","","True","0x000039DF","",""
+"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E80228 /var> in a future update","","","False","0x000039DF","",""
 "","The Duty Support option will become available in a future update.","Duty Support для этой миссии станет доступен в одном из будущих обновлений игры.","","False","0x000039E0","",""
 "","The Unending Codex","","","True","0x00003A03","",""
 "","","","","False","0x00003A04","",""
@@ -13877,7 +13804,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Team Astra","","","False","0x00003A18","",""
 "","Team Umbra","","","False","0x00003A19","",""
 "","Progress: ","","","False","0x00003A1A","",""
-"","Time on Crystal","3A1B_Time on Crystal","","True","0x00003A1B","",""
+"","Time on Crystal","","","False","0x00003A1B","",""
 "","Series EXP","","","False","0x00003A1C","",""
 "","K: <var 20 E802 /var>","","","False","0x00003A1D","",""
 "","D: <var 20 E802 /var>","","","False","0x00003A1E","",""
@@ -13907,8 +13834,8 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Series Malmstones","","","True","0x00003A35","",""
 "","","","","False","0x00003A36","",""
 "","Unable to obtain combatant data.","","","True","0x00003A37","",""
-"","<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Executing a limit break!<var 60 0263 /var>","3A38_<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Executing a limit break!<var 60 0263 /var>","","True","0x00003A38","",""
-"","Everyone, group up!<var 60 0264 /var>","3A39_Everyone, group up!<var 60 0264 /var>","","True","0x00003A39","",""
+"","<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Executing a limit break!<var 60 0263 /var>","","","False","0x00003A38","",""
+"","Everyone, group up!<var 60 0264 /var>","","","False","0x00003A39","",""
 "","Coffer Manifest","","","False","0x00003A3E","",""
 "","","","","False","0x00003A3F","",""
 "","Selection:","","","False","0x00003A40","",""
@@ -13918,27 +13845,27 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Manifest Available","","","False","0x00003A44","",""
 "","Request Repair","","","False","0x00003A48","",""
 "","Repair Request","","","False","0x00003A49","",""
-"","","3A4A_","","True","0x00003A4A","",""
-"","Select All","3A4B_Select All","","True","0x00003A4B","",""
-"","Deselect All","3A4C_Deselect All","","True","0x00003A4C","",""
-"","Item","3A4D_Item","","True","0x00003A4D","",""
-"","Durability","3A4E_Durability","","True","0x00003A4E","",""
-"","Dark Matter","3A4F_Dark Matter","","True","0x00003A4F","",""
-"","<var 08 E4E80204 ((Quantity)) ((Quantity for Request)) /var>","3A50_<var 08 E4E80204 ((Quantity)) ((Quantity for Request)) /var>","","True","0x00003A50","",""
-"","<var 20 E802 /var>%","3A51_<var 20 E802 /var>%","","True","0x00003A51","",""
-"","Grade <var 20 E802 /var>","3A52_Grade <var 20 E802 /var>","","True","0x00003A52","",""
-"","<var 20 E802 /var>","3A53_<var 20 E802 /var>","","True","0x00003A53","",""
-"","<var 08 E1E80264 ((99+)) ((<var 20 E802 /var>)) /var>","3A54_<var 08 E1E80264 ((99+)) ((<var 20 E802 /var>)) /var>","","True","0x00003A54","",""
-"","Set Reward","3A55_Set Reward","","True","0x00003A55","",""
-"","","3A56_","","True","0x00003A56","",""
-"","Submit Request","3A57_Submit Request","","True","0x00003A57","",""
-"","Return","3A58_Return","","True","0x00003A58","",""
-"","Remove Request","3A59_Remove Request","","True","0x00003A59","",""
-"","<var 22 E802 ((,)) /var>","3A5A_<var 22 E802 ((,)) /var>","","True","0x00003A5A","",""
-"","Repair","3A5B_Repair","","True","0x00003A5B","",""
-"","Cancel","3A5C_Cancel","","True","0x00003A5C","",""
-"","G<var 20 E802 /var>:","3A5D_G<var 20 E802 /var>:","","True","0x00003A5D","",""
-"","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","3A5E_<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","True","0x00003A5E","",""
+"","","","","False","0x00003A4A","",""
+"","Select All","","","False","0x00003A4B","",""
+"","Deselect All","","","False","0x00003A4C","",""
+"","Item","","","False","0x00003A4D","",""
+"","Durability","","","False","0x00003A4E","",""
+"","Dark Matter","","","False","0x00003A4F","",""
+"","<var 08 E4E80204 ((Quantity)) ((Quantity for Request)) /var>","","","False","0x00003A50","",""
+"","<var 20 E802 /var>%","","","False","0x00003A51","",""
+"","Grade <var 20 E802 /var>","","","False","0x00003A52","",""
+"","<var 20 E802 /var>","","","False","0x00003A53","",""
+"","<var 08 E1E80264 ((99+)) ((<var 20 E802 /var>)) /var>","","","False","0x00003A54","",""
+"","Set Reward","","","False","0x00003A55","",""
+"","","","","False","0x00003A56","",""
+"","Submit Request","","","False","0x00003A57","",""
+"","Return","","","False","0x00003A58","",""
+"","Remove Request","","","False","0x00003A59","",""
+"","<var 22 E802 ((,)) /var>","","","False","0x00003A5A","",""
+"","Repair","","","False","0x00003A5B","",""
+"","Cancel","","","False","0x00003A5C","",""
+"","G<var 20 E802 /var>:","","","False","0x00003A5D","",""
+"","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","","False","0x00003A5E","",""
 "","The requested repairs will be carried out using dark matter of a higher grade than is required. Proceed?","У вас нет dark matter подходящего уровня, в связи с чем будет использован dark matter более высокого уровня. Продолжить?","","False","0x00003A5F","",""
 "","Check the current status of the housing lottery.","","","True","0x00003A66","",""
 "","Hotbar Sorting","","","False","0x00003A8E","",""
@@ -14044,50 +13971,48 @@ Proceed?","","","True","0x00003AD3","",""
 "","No One","","","False","0x00003AF0","",""
 "","Advanced Settings","","","False","0x00003AF1","",""
 "","Invert Portrait Placement","","","False","0x00003AF2","",""
-"","Adventurer plates allow you to share character information on a profile of your own design. Other adventurers' plates can be viewed by accessing subcommands via targeting a character or right-clicking their name in your friend list.","3AF3_Adventurer plates allow you to share character information on a profile of your own design. Other adventurers' plates can be viewed by accessing subcommands via targeting a character or right-clicking their name in your friend list.","","True","0x00003AF3","",""
+"","Adventurer plates allow you to share character information on a profile of your own design. Other adventurers' plates can be viewed by accessing subcommands via targeting a character or right-clicking their name in your friend list.","","","False","0x00003AF3","",""
 "","Your adventurer plate cannot be viewed by other players, because you have not created it yet.
-※Make your plate public by updating its appearance or settings.","3AF4_Your adventurer plate cannot be viewed by other players, because you have not created it yet.
-※Make your plate public by updating its appearance or settings.","","True","0x00003AF4","",""
+※Make your plate public by updating its appearance or settings.","","","False","0x00003AF4","",""
 "","Your adventurer plate cannot be viewed by other players, because your portraits were reset after using Fantasia.
-※Make your plate public by updating its appearance or settings.","3AF5_Your adventurer plate cannot be viewed by other players, because your portraits were reset after using Fantasia.
-※Make your plate public by updating its appearance or settings.","","True","0x00003AF5","",""
+※Make your plate public by updating its appearance or settings.","","","False","0x00003AF5","",""
 "","Edit Search Comment","","","False","0x00003AF6","",""
 "","","","","False","0x00003AF7","",""
 "","Edit Search Comment","","","False","0x00003AF8","",""
 "","Edit Portrait","","","False","0x00003AF9","",""
-"","Mission Complete","3AFC_Mission Complete","","True","0x00003AFC","",""
-"","Island Sanctuary <var 12 75 /var>","3AFD_Island Sanctuary <var 12 75 /var>","","True","0x00003AFD","",""
-"","<color2 #FFFFFF><var 14 FAFFCC22 /var><var 29 EA02 /var></glow2></color2>","3AFE_<color2 #FFFFFF><var 14 FAFFCC22 /var><var 29 EA02 /var></glow2></color2>","","True","0x00003AFE","",""
-"","Gather <var 31 ((Item)) 04E8020302 /var>","3AFF_Gather <var 31 ((Item)) 04E8020302 /var>","","True","0x00003AFF","",""
-"","Isleworks Agenda","3B00_Isleworks Agenda","","True","0x00003B00","",""
-"","","3B01_","","True","0x00003B01","",""
-"","Groove: <var 20 E802 /var>/<var 20 E803 /var>","3B02_Groove: <var 20 E802 /var>/<var 20 E803 /var>","","True","0x00003B02","",""
-"","Current Season","3B03_Current Season","","True","0x00003B03","",""
-"","Next Season","3B04_Next Season","","True","0x00003B04","",""
-"","Cycle start: <var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","3B05_Cycle start: <var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","","True","0x00003B05","",""
-"","In production.","3B06_In production.","","True","0x00003B06","",""
-"","Insufficient materials.","3B07_Insufficient materials.","","True","0x00003B07","",""
-"","Shipped.","3B08_Shipped.","","True","0x00003B08","",""
-"","This workshop is unavailable.","3B09_This workshop is unavailable.","","True","0x00003B09","",""
-"","Set Agenda","3B0A_Set Agenda","","True","0x00003B0A","",""
-"","Clear Item","3B0B_Clear Item","","True","0x00003B0B","",""
-"","Select Preset","3B0C_Select Preset","","True","0x00003B0C","",""
-"","Register Preset","3B0D_Register Preset","","True","0x00003B0D","",""
-"","Review Materials","3B0E_Review Materials","","True","0x00003B0E","",""
-"","Set Rest Cycles","3B0F_Set Rest Cycles","","True","0x00003B0F","",""
-"","Review Supply & Demand","3B10_Review Supply & Demand","","True","0x00003B10","",""
-"","Clear Agenda","3B11_Clear Agenda","","True","0x00003B11","",""
-"","Set Agenda","3B12_Set Agenda","","True","0x00003B12","",""
-"","","3B13_","","True","0x00003B13","",""
-"","Time:","3B14_Time:","","True","0x00003B14","",""
-"","Quantity:","3B15_Quantity:","","True","0x00003B15","",""
-"","Value:","3B16_Value:","","True","0x00003B16","",""
-"","Category:","3B17_Category:","","True","0x00003B17","",""
-"","Materials","3B18_Materials","","True","0x00003B18","",""
-"","Required","3B19_Required","","True","0x00003B19","",""
-"","Inventory","3B1A_Inventory","","True","0x00003B1A","",""
-"","Schedule","3B1B_Schedule","","True","0x00003B1B","",""
-"","<var 20 E802 /var> (<var 20 E803 /var>)","3B1C_<var 20 E802 /var> (<var 20 E803 /var>)","","True","0x00003B1C","",""
+"","Mission Complete","","","False","0x00003AFC","",""
+"","Island Sanctuary <var 12 75 /var>","Island Sanctuary <var 12 75 /var>","","False","0x00003AFD","",""
+"","<color2 #FFFFFF><var 14 FAFFCC22 /var><var 29 EA02 /var></glow2></color2>","","","False","0x00003AFE","",""
+"","Gather <var 31 ((Item)) 04E8020302 /var>","","","False","0x00003AFF","",""
+"","Isleworks Agenda","","","False","0x00003B00","",""
+"","","","","False","0x00003B01","",""
+"","Groove: <var 20 E802 /var>/<var 20 E803 /var>","","","False","0x00003B02","",""
+"","Current Season","","","False","0x00003B03","",""
+"","Next Season","","","False","0x00003B04","",""
+"","Cycle start: <var 07 E803 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>","","","False","0x00003B05","",""
+"","In production.","","","False","0x00003B06","",""
+"","Insufficient materials.","","","False","0x00003B07","",""
+"","Shipped.","","","False","0x00003B08","",""
+"","This workshop is unavailable.","","","False","0x00003B09","",""
+"","Set Agenda","","","False","0x00003B0A","",""
+"","Clear Item","","","False","0x00003B0B","",""
+"","Select Preset","","","False","0x00003B0C","",""
+"","Register Preset","","","False","0x00003B0D","",""
+"","Review Materials","","","False","0x00003B0E","",""
+"","Set Rest Cycles","","","False","0x00003B0F","",""
+"","Review Supply & Demand","","","False","0x00003B10","",""
+"","Clear Agenda","","","False","0x00003B11","",""
+"","Set Agenda","","","False","0x00003B12","",""
+"","","","","False","0x00003B13","",""
+"","Time:","","","False","0x00003B14","",""
+"","Quantity:","","","False","0x00003B15","",""
+"","Value:","","","False","0x00003B16","",""
+"","Category:","","","False","0x00003B17","",""
+"","Materials","","","False","0x00003B18","",""
+"","Required","","","False","0x00003B19","",""
+"","Inventory","","","False","0x00003B1A","",""
+"","Schedule","","","False","0x00003B1B","",""
+"","<var 20 E802 /var> (<var 20 E803 /var>)","","","False","0x00003B1C","",""
 "","All scheduling information for the current cycle will be lost. Proceed?","3B1D_All scheduling information for the current cycle will be lost. Proceed?","","True","0x00003B1D","",""
 "","Clear Agenda","3B1E_Clear Agenda","","True","0x00003B1E","",""
 "","Agenda Presets","3B1F_Agenda Presets","","True","0x00003B1F","",""
