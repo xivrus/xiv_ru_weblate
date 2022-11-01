@@ -41339,13 +41339,13 @@ Can only be executed when the limit gauge is full.
 ※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Terminal Trigger<var 49 01 /var><var 48 01 /var> upon execution.","Использует клинок для нанесения шквала ударов по ближайшим противникам, нанося периодический урон с силой 4 000 и снижая получаемый урон на 25% до окончания действия эффекта.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>4 с.
 Активирует <var 48 F201F4 /var><var 49 F201F5 /var>Финальный триггер<var 49 01 /var><var 48 01 /var> по истечению срока действия эффекта.
-<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Наносит цели <var 48 F201FA /var><var 49 F201FB /var>Беспощадные увечья<var 49 01 /var><var 48 01 /var>, увеличивающие получаемый ею урон на 4% за каждый заряд.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Наносит цели <var 48 F201FA /var><var 49 F201FB /var>Беспощадные увечья<var 49 01 /var><var 48 01 /var>, уменьшающие наносимый целью урон на 4% а так же увеличивающие получаемый ею урон на 4% за каждый заряд.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>5 с.
 <var 48 F201F8 /var><var 49 F201F9 /var>Максимум зарядов: <var 49 01 /var><var 48 01 /var>5
 Может выполняться во время движения.
 Возможно использовать только при заполненной шкале Запредельной Способности.
 
-※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Финальный триггер<var 49 01 /var><var 48 01 /var> после использования.","","True","0x000071CA","",""
+※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Финальный триггер<var 49 01 /var><var 48 01 /var> после использования.","","False","0x000071CA","",""
 "","","","","True","0x000071CB","",""
 "","","","","True","0x000071CC","",""
 "","","","","True","0x000071CD","",""
@@ -42244,25 +42244,25 @@ Potency is increased by 4,000 for each of your own attack actions you land prior
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases target's damage taken by 10%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Creates a barrier that absorbs damage equivalent to a heal of 6,000 potency
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s","Deploys an area of effect battle turret which will deliver auto-attacks to enemies within range with a potency of 6,000.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases target's damage taken by 10%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Creates a barrier that absorbs damage equivalent to a heal of 6,000 potency
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s","","True","0x000072E4","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s","Размещает в указанном месте боевую турель которая автоматически производит атаки дальнего боя, наносящие физический урон с силой 6 000.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>10 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Увеличивает получаемый целью урон на 10%
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>7 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Создает защитный барьер, равный исцелению с силой 6 000.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>7 с.","","False","0x000072E4","",""
 "","Deals unaspected damage with a potency of 6,000 to all nearby enemies.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases target's damage taken by 10%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Creates a barrier that absorbs damage equivalent to a heal of 6,000 potency
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s
 
-※This action cannot be assigned to a hotbar.","Deals unaspected damage with a potency of 6,000 to all nearby enemies.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases target's damage taken by 10%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Creates a barrier that absorbs damage equivalent to a heal of 6,000 potency
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>7s
+※This action cannot be assigned to a hotbar.","Наносит магический урон всем ближайшим противникам с силой 6 000.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Увеличивает получаемый целью урон на 10%
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>7 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Создает защитный барьер, равный исцелению с силой 6 000.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>7 с.
 
-※This action cannot be assigned to a hotbar.","","True","0x000072E5","",""
+※Это действие нельзя назначить на хотбар.","","False","0x000072E5","",""
 "","Grants additional effects to <var 48 F201F4 /var><var 49 F201F5 /var>Drill<var 49 01 /var><var 48 01 /var>, <var 48 F201F4 /var><var 49 F201F5 /var>Bioblaster<var 49 01 /var><var 48 01 /var>, <var 48 F201F4 /var><var 49 F201F5 /var>Air Anchor<var 49 01 /var><var 48 01 /var>, and <var 48 F201F4 /var><var 49 F201F5 /var>Chain Saw<var 49 01 /var><var 48 01 /var> when these weaponskills are executed.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s
 <var 48 F201F8 /var><var 49 F201F9 /var>Drill Additional Effect: <var 49 01 /var><var 48 01 /var>Potency is increased to 200%
@@ -42356,16 +42356,16 @@ Executes <var 48 F201F4 /var><var 49 F201F5 /var>Honing Ovation<var 49 01 /var><
 Can be executed while moving.
 This weaponskill does not share a recast timer with any other actions.
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Honing Ovation<var 49 01 /var><var 48 01 /var> upon execution.","Unleashes a flurry of chakram strikes on nearby enemies, dealing damage over time with a potency of 4,000 and decreasing damage taken by 25% until effect expires.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>3s
-Executes <var 48 F201F4 /var><var 49 F201F5 /var>Honing Ovation<var 49 01 /var><var 48 01 /var> when effect duration expires.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants a stack of <var 48 F201FA /var><var 49 F201FB /var>Acclaim<var 49 01 /var><var 48 01 /var>, up to a maximum of 4
-<var 48 F201F8 /var><var 49 F201F9 /var>Acclaim Effect: <var 49 01 /var><var 48 01 /var>Increases the damage and effect potency of <var 48 F201F4 /var><var 49 F201F5 /var>Honing Ovation<var 49 01 /var><var 48 01 /var>
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>5s
-Can be executed while moving.
-This weaponskill does not share a recast timer with any other actions.
+※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Honing Ovation<var 49 01 /var><var 48 01 /var> upon execution.","Использует чакрамы для нанесения шквала ударов ближайшим противникам, нанося периодический урон с силой 4 000 и снижая получаемый урон на 25% до окончания действия эффекта.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>3 с.
+Использует <var 48 F201F4 /var><var 49 F201F5 /var>Овации Танцу клинков<var 49 01 /var><var 48 01 /var> по истечению срока действия периодического урона.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Активирует заряды <var 48 F201FA /var><var 49 F201FB /var>Оваций<var 49 01 /var><var 48 01 /var>, вплоть до 4
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Оваций: <var 49 01 /var><var 48 01 /var>Увеличивает урон и силу эффекта <var 48 F201F4 /var><var 49 F201F5 /var>Овации Танцу клинков<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>5 с.
+Может быть выполнено во время движения.
+Не влияет на время восстановления прочих действий.
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Honing Ovation<var 49 01 /var><var 48 01 /var> upon execution.","","True","0x000072EE","",""
+※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Овации Танцу клинков<var 49 01 /var><var 48 01 /var> после использования.","","False","0x000072EE","",""
 "","Delivers an attack to nearby enemies and erects a magicked barrier around nearby party members.
 Potency of both the attack and barrier varies with the number of stacks of <var 48 F201FA /var><var 49 F201FB /var>Acclaim<var 49 01 /var><var 48 01 /var> accumulated at time of execution.
 Potency of both the attack and barrier doubles when targets are within 5 yalms.
@@ -42605,11 +42605,11 @@ Potency of both the attack and barrier doubles when targets are within 5 yalms.
 <var 48 F201F8 /var><var 49 F201F9 /var>Combo Action: <var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>True Strike<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Extends <var 48 F201FA /var><var 49 F201FB /var>Wind Resonance<var 49 01 /var><var 48 01 /var> duration by 5s to a maximum of 15s
 
-※This action cannot be assigned to a hotbar.","Delivers an attack with a potency of 6,000.
-<var 48 F201F8 /var><var 49 F201F9 /var>Combo Action: <var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>True Strike<var 49 01 /var><var 48 01 /var>
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Extends <var 48 F201FA /var><var 49 F201FB /var>Wind Resonance<var 49 01 /var><var 48 01 /var> duration by 5s to a maximum of 15s
+※This action cannot be assigned to a hotbar.","Наносит физический урон с силой 6 000.
+<var 48 F201F8 /var><var 49 F201F9 /var>Комбо от действия: <var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>Верный удар<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Продлевает время действия <var 48 F201FA /var><var 49 F201FB /var>Резонанса ветра<var 49 01 /var><var 48 01 /var> на 5 с., вплость до 15 с.
 
-※This action cannot be assigned to a hotbar.","","True","0x00007322","",""
+※Это действие нельзя назначить на хотбар.","","False","0x00007322","",""
 "","Delivers an attack with a potency of 3,000.
 <var 48 F201F8 /var><var 49 F201F9 /var>Combo Action: <var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>Snap Punch<var 49 01 /var><var 48 01 /var>
 
@@ -42628,11 +42628,11 @@ Potency of both the attack and barrier doubles when targets are within 5 yalms.
 <var 48 F201F8 /var><var 49 F201F9 /var>Combo Action: <var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>Twin Snakes<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Extends <var 48 F201FA /var><var 49 F201FB /var>Wind Resonance<var 49 01 /var><var 48 01 /var> duration by 5s to a maximum of 15s
 
-※This action cannot be assigned to a hotbar.","Delivers an attack with a potency of 6,000.
-<var 48 F201F8 /var><var 49 F201F9 /var>Combo Action: <var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>Twin Snakes<var 49 01 /var><var 48 01 /var>
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Extends <var 48 F201FA /var><var 49 F201FB /var>Wind Resonance<var 49 01 /var><var 48 01 /var> duration by 5s to a maximum of 15s
+※This action cannot be assigned to a hotbar.","Наносит физический урон с силой 6 000.
+<var 48 F201F8 /var><var 49 F201F9 /var>Комбо от действия: <var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>Змеиный укус<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Продлевает время действия <var 48 F201FA /var><var 49 F201FB /var>Резонанс ветра<var 49 01 /var><var 48 01 /var> на 5 с., вплость до 15 с.
 
-※This action cannot be assigned to a hotbar.","","True","0x00007325","",""
+※Это действие нельзя назначить на хотбар.","","False","0x00007325","",""
 "","Delivers an attack with a potency of 10,000 to target and all enemies nearby it.
 <var 48 F201F8 /var><var 49 F201F9 /var>Combo Action: <var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>Demolish<var 49 01 /var><var 48 01 /var>
 
@@ -42986,15 +42986,15 @@ Effect ends upon use of any action or upon taking damage from an enemy.
 Cannot be executed while bound.
 
 ※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Doton<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Three Mudra<var 49 01 /var><var 48 01 /var>.
-※<var 48 F201F4 /var><var 49 F201F5 /var>Aeolian Edge Combo<var 49 01 /var><var 48 01 /var> changes to <var 48 F201F4 /var><var 49 F201F5 /var>Assassinate<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Hidden<var 49 01 /var><var 48 01 /var>.","Move quickly to the specified location.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Hidden<var 49 01 /var><var 48 01 /var>
-<var 48 F201F8 /var><var 49 F201F9 /var>Hidden Effect: <var 49 01 /var><var 48 01 /var>Blend in with your surroundings, making it impossible for enemies to see or target you
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>4s
-Effect ends upon use of any action or upon taking damage from an enemy.
-Cannot be executed while bound.
+※<var 48 F201F4 /var><var 49 F201F5 /var>Aeolian Edge Combo<var 49 01 /var><var 48 01 /var> changes to <var 48 F201F4 /var><var 49 F201F5 /var>Assassinate<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Hidden<var 49 01 /var><var 48 01 /var>.","Совершает шаг сквозь тень в указанную точку.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Скрытность<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Скрытности: <var 49 01 /var><var 48 01 /var> Делает вас менее заметным для противников, не давая им возможности вас заметить или выбрать в качестве цели. 
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>4 с.
+Эффект прекращается при использовании любого действия, или при получении урона от противника.
+Невозможно использовать под эффектами, сковывающими движение.
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Doton<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Three Mudra<var 49 01 /var><var 48 01 /var>.
-※<var 48 F201F4 /var><var 49 F201F5 /var>Aeolian Edge Combo<var 49 01 /var><var 48 01 /var> changes to <var 48 F201F4 /var><var 49 F201F5 /var>Assassinate<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Hidden<var 49 01 /var><var 48 01 /var>.","","True","0x00007349","",""
+※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Дотон<var 49 01 /var><var 48 01 /var> под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Трёх Ручных Печатей<var 49 01 /var><var 48 01 /var>.
+※<var 48 F201F4 /var><var 49 F201F5 /var>Комбо Эоловой дуги<var 49 01 /var><var 48 01 /var> сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Скрытное убийство<var 49 01 /var><var 48 01 /var> под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Скрытности<var 49 01 /var><var 48 01 /var>.","","False","0x00007349","",""
 "","Creates a patch of corrupted earth under your feet, dealing damage with a potency of 2,000 to any enemies who enter.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10s
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Three Mudra<var 49 01 /var><var 48 01 /var>.
@@ -43684,12 +43684,12 @@ Duration increases by 3s for each additional stack of <var 48 F201FA /var><var 4
 <var 48 F201F8 /var><var 49 F201F9 /var>Polyglot Effect: <var 49 01 /var><var 48 01 /var>Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Foul<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Reduces the recast time of <var 48 F201F4 /var><var 49 F201F5 /var>Superflare<var 49 01 /var><var 48 01 /var> by 15 seconds
-Can only be executed when the limit gauge is full.","Grants 6 stacks of <var 48 F201FA /var><var 49 F201FB /var>Soul Resonance<var 49 01 /var><var 48 01 /var>, upgrading <var 48 F201F4 /var><var 49 F201F5 /var>Fire<var 49 01 /var><var 48 01 /var> to <var 48 F201F4 /var><var 49 F201F5 /var>Flare<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Blizzard<var 49 01 /var><var 48 01 /var> to <var 48 F201F4 /var><var 49 F201F5 /var>Freeze<var 49 01 /var><var 48 01 /var>.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Polyglot<var 49 01 /var><var 48 01 /var>
-<var 48 F201F8 /var><var 49 F201F9 /var>Polyglot Effect: <var 49 01 /var><var 48 01 /var>Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Foul<var 49 01 /var><var 48 01 /var>
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60s
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Reduces the recast time of <var 48 F201F4 /var><var 49 F201F5 /var>Superflare<var 49 01 /var><var 48 01 /var> by 15 seconds
-Can only be executed when the limit gauge is full.","","True","0x000073DE","",""
+Can only be executed when the limit gauge is full.","Активирует 6 зарядов эффекта <var 48 F201FA /var><var 49 F201FB /var>Резонанс душ<var 49 01 /var><var 48 01 /var>, улучшая <var 48 F201F4 /var><var 49 F201F5 /var>Искру<var 49 01 /var><var 48 01 /var> до <var 48 F201F4 /var><var 49 F201F5 /var>Всполоха<var 49 01 /var><var 48 01 /var> и <var 48 F201F4 /var><var 49 F201F5 /var>Метель<var 49 01 /var><var 48 01 /var> до <var 48 F201F4 /var><var 49 F201F5 /var>Заморозки<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Полиглот<var 49 01 /var><var 48 01 /var> 
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Полиглота: <var 49 01 /var><var 48 01 /var>Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Сквернословие<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>60 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Снижает время восстановления <var 48 F201F4 /var><var 49 F201F5 /var>Супервсполох<var 49 01 /var><var 48 01 /var> на 15 секунд.
+Возможно использовать только при заполненной шкале Запредельной Способности.","","False","0x000073DE","",""
 "","Deals unaspected damage with a potency of 8,000.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases target's stacks of <var 48 F201FA /var><var 49 F201FB /var>Astral Warmth<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Umbral Freeze<var 49 01 /var><var 48 01 /var> to maximum
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>15s
@@ -43700,24 +43700,24 @@ This action does not share a recast timer with any other actions.","Наноси
 "","Deals unaspected damage with a potency of 5,000.
 
 ※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Astral Impulse<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Dreadwyrm Trance<var 49 01 /var><var 48 01 /var>.
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Fountain of Fire<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Firebird Trance<var 49 01 /var><var 48 01 /var>.","Deals unaspected damage with a potency of 5,000.
+※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Fountain of Fire<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Firebird Trance<var 49 01 /var><var 48 01 /var>.","Наносит магический урон с силой 5 000.
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Astral Impulse<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Dreadwyrm Trance<var 49 01 /var><var 48 01 /var>.
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Fountain of Fire<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Firebird Trance<var 49 01 /var><var 48 01 /var>.","","True","0x000073E0","",""
+※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Астральный Импульс<var 49 01 /var><var 48 01 /var> под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Транс Бахамута<var 49 01 /var><var 48 01 /var>.
+※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Фонтан Пламени<var 49 01 /var><var 48 01 /var> под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Транс Феникса<var 49 01 /var><var 48 01 /var>.","","False","0x000073E0","",""
 "","Deals unaspected damage with a potency of 7,500.
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Dreadwyrm Trance<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","Deals unaspected damage with a potency of 7,500.
-Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Dreadwyrm Trance<var 49 01 /var><var 48 01 /var>.
+※This action cannot be assigned to a hotbar.","Наносит магический урон с силой 7 500.
+Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Транс Бахамута<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","","True","0x000073E1","",""
+※Это действие нельзя назначить на хотбар.","","False","0x000073E1","",""
 "","Deals fire damage with a potency of 5,000.
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Firebird Trance<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","Deals fire damage with a potency of 5,000.
-Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Firebird Trance<var 49 01 /var><var 48 01 /var>.
+※This action cannot be assigned to a hotbar.","Наносит магический урон огнем с силой 5 000.
+Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Транс Феникса<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","","True","0x000073E2","",""
+※Это действие нельзя назначить на хотбар.","","False","0x000073E2","",""
 "","Rushes forward and delivers a fire attack with a potency of 8,000 to target and all enemies nearby it.
 Cannot be executed while bound.
 This action does not share a recast timer with any other actions.
@@ -44067,23 +44067,23 @@ This action does not share a recast timer with any other actions.","","True","0x
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>White Shift<var 49 01 /var><var 48 01 /var>.
 Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Frazzle<var 49 01 /var><var 48 01 /var>.
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Frazzle<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Black Shift<var 49 01 /var><var 48 01 /var>.","Reduces damage taken by self and nearby party members by 10%, while increasing HP recovered via healing actions by 10%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>8s
-Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>White Shift<var 49 01 /var><var 48 01 /var>.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Frazzle<var 49 01 /var><var 48 01 /var>.
+※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Frazzle<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Black Shift<var 49 01 /var><var 48 01 /var>.","Снижает урон, получаемый вами и ближайшими членами группы на 10%, а так же увеличивает получаемое от действий исцеление на 10%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>8 с.
+Возможно использовать только под действием эффекта<var 48 F201FA /var><var 49 F201FB /var>Белый сдвиг<var 49 01 /var><var 48 01 /var>.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Изматыванием<var 49 01 /var><var 48 01 /var>.
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Frazzle<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Black Shift<var 49 01 /var><var 48 01 /var>.","","True","0x00007401","",""
+※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Изматывание<var 49 01 /var><var 48 01 /var> под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Черный сдвиг<var 49 01 /var><var 48 01 /var>.","","False","0x00007401","",""
 "","Increases damage taken by nearby enemies by 10%, while reducing HP recovered via healing actions by 10%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>8s
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Black Shift<var 49 01 /var><var 48 01 /var>.
 Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Magick Barrier<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","Increases damage taken by nearby enemies by 10%, while reducing HP recovered via healing actions by 10%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>8s
-Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Black Shift<var 49 01 /var><var 48 01 /var>.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Magick Barrier<var 49 01 /var><var 48 01 /var>.
+※This action cannot be assigned to a hotbar.","Увеличивает урон получаемый ближайшими противниками на 10%, так же снижая получаемое исцеление от действий на 10%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>8 с.
+Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Черный сдвиг<var 49 01 /var><var 48 01 /var>.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Магическим барьером<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","","True","0x00007402","",""
+※Это действие нельзя назначить на хотбар.","","False","0x00007402","",""
 "","Rushes target and delivers an attack with a potency of 4,000.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Afflicts target with <var 48 F201FA /var><var 49 F201FB /var>Monomachy<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Monomachy Effect: <var 49 01 /var><var 48 01 /var>Increases damage dealt to target by 10% while lowering damage taken from target by 10%
