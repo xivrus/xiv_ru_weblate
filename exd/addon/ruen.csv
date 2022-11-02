@@ -13455,7 +13455,7 @@ Rate:
 "","","","","False","0x000037D7","",""
 "","Warning: You will not be able to receive all the items. Do you still wish to proceed?","","","False","0x000037D8","",""
 "","Island EXP","","","False","0x000037D9","",""
-"","Seafarer's Cowrie","","","False","0x000037DA","",""
+"","Seafarer's Cowrie","Seafarer's Cowrie","","False","0x000037DA","",""
 "","Materials","","","False","0x000037DB","",""
 "","Bag","","","False","0x000037DC","",""
 "","Select","","","False","0x000037DD","",""
@@ -13492,7 +13492,14 @@ Entrust the produce producer with care of the following crop?
 ※The produce producer will halt care under the following circumstances:
 <var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
 　・Yields have reached the maximum of 50.<var 49 01 /var><var 48 01 /var>
-※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","","","False","0x000037F6","",""
+※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","Производитель продукции требует ежедневную плату в размере <var 20 E802 /var> seafarer's cowries для предоставления услуг садоводства, которая будет взиматься в момент запроса и затем в <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> (по реальному времени) каждый последующий день. Ежедневная плата взимается только один раз.
+
+Команда мамметов будет сеять семена, поливать растения и собирать урожай до 50 штук с каждой культуры.
+
+Производитель продукции прекратит уход при следующих обстоятельствах:
+<var 48 F201FA /var><var 49 F201FB /var>　・Не хватает seafarer's cowries.
+　・Урожайность достигла максимума в 50.<var 49 01 /var><var 48 01 /var>
+※ Уход и сбор ежедневной платы автоматически возобновятся, как только будут достигнуты необходимые условия для ухода.","","False","0x000037F6","",""
 "","Confirm","","","False","0x000037F7","",""
 "","Cancel","","","False","0x000037F8","",""
 "","<var 20 E803 /var> <var 08 E4E80302 ((<var 31 ((Item)) 04E8020202 /var>)) ((<var 31 ((Item)) 04E8020302 /var>)) /var> will be collected. Proceed?
@@ -15038,4 +15045,3 @@ Withdraw that application and apply for membership with <var 29 EA02 /var>?","В
 "","Yes","","","True","0x0001911F","",""
 "","No","","","True","0x00019120","",""
 "","Small Talk","","","True","0x0001912C","",""
-
