@@ -1083,7 +1083,7 @@ Crafting Catalyst","
 "","<var 08 E802 (( <var 08 E1E80301 ((+)) (()) /var><var 20 E803 /var>% (Max <var 20 E804 /var>))) (( <var 08 E1E80301 ((+)) (()) /var><var 20 E803 /var>)) /var>","<var 08 E802 (( <var 08 E1E80301 ((+)) (()) /var><var 20 E803 /var>% (макс. <var 20 E804 /var>))) (( <var 08 E1E80301 ((+)) (()) /var><var 20 E803 /var>)) /var>","","False","0x000003F8","",""
 "","Meal Benefits (EXP +<var 20 E802 /var>%)","Бонус сытости (+<var 20 E802 /var>% опыта)","","False","0x000003F9","",""
 "","<var 20 E802 /var>","<var 20 E802 /var>","","False","0x000003FA","",""
-"","<var 08 E804 ((<var 28 ((ClassJob)) E80302 /var>  <var 12 3F /var><var 1A 02 /var><var 29 EA02 /var><var 1A 01 /var>)) ((<var 28 ((ClassJob)) E80302 /var>  <var 29 EA02 /var>)) /var>    <var 08 E1E80801 ((EXP <var 1F /var>/<var 1F /var>)) ((<var 08 E1E80701 ((<var 12 4D /var><var 48 F20203 /var><var 49 F20204 /var>EXP <var 22 E805 ((,)) /var>/<var 22 E806 ((,)) /var><var 49 01 /var><var 48 01 /var>)) ((EXP <var 22 E805 ((,)) /var>/<var 22 E806 ((,)) /var>)) /var>)) /var>","<var 08 E804 ((<var 28 ((ClassJob)) E80302 /var>  <var 12 3F /var><var 1A 02 /var><var 29 EA02 /var><var 1A 01 /var>)) ((<var 28 ((ClassJob)) E80302 /var>  <var 29 EA02 /var>)) /var>    <var 08 E1E80801 ((EXP <var 1F /var>/<var 1F /var>)) ((<var 08 E1E80701 ((<var 12 4D /var><var 48 F20203 /var><var 49 F20204 /var>ОПЫТ <var 22 E805 (( )) /var>/<var 22 E806 (( )) /var><var 49 01 /var><var 48 01 /var>)) ((EXP <var 22 E805 (( )) /var>/<var 22 E806 (( )) /var>)) /var>)) /var>","","False","0x000003FB","",""
+"","<var 08 E804 ((<var 28 ((ClassJob)) E80302 /var>  <var 12 3F /var><var 1A 02 /var><var 29 EA02 /var><var 1A 01 /var>)) ((<var 28 ((ClassJob)) E80302 /var>  <var 29 EA02 /var>)) /var>    <var 08 E1E80801 ((EXP <var 1F /var>/<var 1F /var>)) ((<var 08 E1E80701 ((<var 12 4D /var><var 48 F20203 /var><var 49 F20204 /var>EXP <var 22 E805 ((,)) /var>/<var 22 E806 ((,)) /var><var 49 01 /var><var 48 01 /var>)) ((EXP <var 22 E805 ((,)) /var>/<var 22 E806 ((,)) /var>)) /var>)) /var>","<var 08 E804 ((<var 28 ((ClassJob)) E80302 /var>  <var 12 3F /var><var 1A 02 /var><var 29 EA02 /var><var 1A 01 /var>)) ((<var 28 ((ClassJob)) E80302 /var>  <var 29 EA02 /var>)) /var>    <var 08 E1E80801 ((EXP <var 1F /var>/<var 1F /var>)) ((<var 08 E1E80701 ((<var 12 4D /var><var 48 F20203 /var><var 49 F20204 /var>Опыт <var 22 E805 (( )) /var>/<var 22 E806 (( )) /var><var 49 01 /var><var 48 01 /var>)) ((Опыт <var 22 E805 (( )) /var>/<var 22 E806 (( )) /var>)) /var>)) /var>","","False","0x000003FB","",""
 "","Full Party","3FC_Full Party","","True","0x000003FC","",""
 "","Light Party","3FD_Light Party","","True","0x000003FD","",""
 "","Solo","3FE_Solo","","True","0x000003FE","",""
@@ -11075,11 +11075,11 @@ The Returner's Bounty consists of the following:
   EXP bonus when partying with a <var 12 4F /var>Mentor (up to Lv. 80)
   Returner online status icon<var 49 01 /var><var 48 01 /var>
 
-Returner status is removed after accumulating 72 hours of gameplay after accepting the Bounty, or by using the text command <var 48 F201FA /var><var 49 F201FB /var><var 28 ((TextCommand)) F0EE09 /var><var 49 01 /var><var 48 01 /var>.","Статус <var 12 60 /var>вернувшегося присваивается игрокам, которые имеют хотя бы один класс 50-го уровня или выше, но не посещали Эорзию более 45 дней и приняли награду Вернувшегося.
+Returner status is removed after accumulating 72 hours of gameplay after accepting the Bounty, or by using the text command <var 48 F201FA /var><var 49 F201FB /var><var 28 ((TextCommand)) F0EE09 /var><var 49 01 /var><var 48 01 /var>.","Статус <var 12 60 /var>вернувшегося присваивается игрокам, которые имеют хотя бы один класс 50-го уровня или выше, не посещали Эорзию более 45 дней и приняли награду Вернувшегося.
 
 Награда за возвращение состоит из следующего:
-  <var 48 F201FA /var><var 49 F201FB /var> Доступ к сети новичков
-  бонус ОПЫТА при общении с наставником <var 12 4F /var> (до 80 Ур.)
+  <var 48 F201FA /var><var 49 F201FB /var> Доступ к Сети новичков
+  бонус к опыту, будучи в группе с ментором <var 12 4F /var> (до 80-го ур.)
   Иконка статуса Вернувшегося<var 49 01 /var><var 48 01 /var>
 
 Статус Вернувшегося снимается после истечения 72 часов игры после принятия этого предложения или при использовании текстовой команды <var 48 F201FA /var><var 49 F201FB /var><var 28 ((TextCommand)) F0EE09 /var><var 49 01 /var><var 48 01 /var>.","","False","0x00002AD1","",""
@@ -15177,7 +15177,7 @@ Entrust the creature comforter with care of this animal using the following feed
 
 Команда мамметов будет раздавать корм и собирать до 20 материалов с каждого животного.
 
-※ Смотритель существ прекратит уход при следующих обстоятельствах:
+※Смотритель существ прекратит уход при следующих обстоятельствах:
 <var 48 F201FA /var><var 49 F201FB /var> ・Недостаточно морских каури.
 　・Материалы достигли максимума в 20.<var 49 01 /var><var 48 01 /var>
 ※ Уход и сбор ежедневной платы автоматически возобновятся, как только будут выполнены все необходимые условия.","","False","0x00003B77","",""
@@ -15225,7 +15225,7 @@ Do you still wish to proceed?","Предупреждение: вы не смож
 
 <var 48 F201FA /var><var 49 F201FB /var>※Renovating the cozy cabin will remove all glamour effects.<var 49 01 /var><var 48 01 /var>","Изменить внешний вид своего убежища?
 
-<var 48 F201FA /var><var 49 F201FB /var>※Обновление уютного домика снимет все эффекты гламура.<var 49 01 /var><var 48 01 /var>","","False","0x00003B8F","",""
+<var 48 F201FA /var><var 49 F201FB /var>※Обновление уютной зижины снимет все эффекты гламура.<var 49 01 /var><var 48 01 /var>","","False","0x00003B8F","",""
 "","Change the facility's appearance?
 
 <var 48 F201FA /var><var 49 F201FB /var>※Performing a renovation will remove all glamour effects.<var 49 01 /var><var 48 01 /var>","Изменить внешний вид объекта?
