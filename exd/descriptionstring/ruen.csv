@@ -1978,7 +1978,7 @@ The use of the following is prohibited while participating in Crystalline Confli
 "","Foraging Expeditions","","","False","0x00000299","",""
 "","Accepting Materials","","","False","0x0000029A","",""
 "","Releasing Minions","","","False","0x0000029B","",""
-"","Island Sanctuary allows you to create your own personal paradise amidst the natural beauty of the Cieldalaes.","","","False","0x0000029C","",""
+"","Island Sanctuary allows you to create your own personal paradise amidst the natural beauty of the Cieldalaes.","Убежище на острове позволяет вам создать свой личный рай среди природной красоты Cieldalaes.","","False","0x0000029C","",""
 "","Island endeavors are primarily solo experiences, and can be enjoyed at your own pace.
 
 Once you have taken steps to ready your island for visitors, you may invite friends, party members, and members of your free company to spend time in your sanctuary.
@@ -2020,7 +2020,7 @@ Islander's cowries are another Cieldalaes-specific currency. The amount you poss
 ■Ранг
 Посмотрите свой текущий местный ранг на острове, проверив данные в нижней части основного меню на табличке острова.
 
-■Островной ОПЫТ
+■Островной опыт
 Количество накопленного вами опыта на острове также отображается вместе с рангом вашего святилища.
 
 ■Seafarer's Cowries
@@ -2032,7 +2032,10 @@ Islander's Cowries — ещё одна валюта, характерная дл
 "","Gather materials on your island by enabling Gather mode from the islekeep's index and interacting with the resources you encounter.
 
 While some materials may be collected with your bare hands, they are limited in variety and utility.<var 48 F201FA /var><var 49 F201FB /var> For others, tools are required.<var 49 01 /var><var 48 01 /var> The islekeep's stone hatchet, for example, will enable you to gather timber.
-<var 48 F201FA /var><var 49 F201FB /var>※Some resources may be interacted with even if you have no tool in hand, so go forth and gather!<var 49 01 /var><var 48 01 /var>","","","False","0x000002A4","",""
+<var 48 F201FA /var><var 49 F201FB /var>※Some resources may be interacted with even if you have no tool in hand, so go forth and gather!<var 49 01 /var><var 48 01 /var>","Собирайте материалы на своём острове, включив режим «Собрать» на основной табличке острова и взаимодействуйте со встречающимися ресурсами.
+
+Хоть некоторые материалы можно собирать голыми руками, их разнообразие и полезность ограничены.<var 48 F201FA /var><var 49 F201FB /var> Для других необходимы инструменты.<var 49 01 /var><var 48 01 /var> Islekeep's stone hatchet, например, позволит вам собирать древесину.
+<var 48 F201FA /var><var 49 F201FB /var>※С некоторыми ресурсами можно работать, даже если у вас нет под рукой инструмента, так что идите и начинайте собирать!<var 49 01 /var><var 48 01 /var>","","False","0x000002A4","",""
 "","Gathered materials will be recorded in the Sanctuary Gathering Log.","","","False","0x000002A5","",""
 "","Access the Sanctuary Gathering Log from the islekeep's index to confirm resource locations and necessary tools.","","","False","0x000002A6","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>The Sanctuary Crafting Log enables you to create certain items, such as tools, from the materials you gather on your island.<var 49 01 /var><var 48 01 /var>","","","False","0x000002A7","",""
@@ -2237,7 +2240,42 @@ Improves an animal's mood by <var 48 F201FA /var><var 49 F201FB /var>two levels.
 ・Premium Island Greenfeed
 Improves an animal's mood by <var 48 F201FA /var><var 49 F201FB /var>two levels.<var 49 01 /var><var 48 01 /var> Can improve the mood up to <var 48 F201FA /var><var 49 F201FB /var>gleeful<var 49 01 /var><var 48 01 /var>.
 
-Speak with the creature comforter near the pasture to access the Pasture Management menu.","","","False","0x000002C9","",""
+Speak with the creature comforter near the pasture to access the Pasture Management menu.","<var 48 F201FA /var><var 49 F201FB /var>Вы можете взаимодействовать с животными, пасущимися на пастбище, различными способами, включая их кормление.<var 49 01 /var><var 48 01 /var>
+
+Для начала включите режим «Кормить» основном меню острова, затем подойдите к животному на пастбище, снабженному выбранным вами кормом для животных, чтобы дать ему заслуженное лакомство.
+
+Кормление животного улучшит его настроение и утолит аппетит.
+
+■Корм
+Существует три различных типа корма для животных:
+island sweetfeed, island greenfeed и premium island greenfeed.
+
+Каждый вид корма можно изготовить через журнал ремесел в святилище, а для изготовления обоих видов корма требуются продукты, получаемые с пахотных земель.
+
+■Еда
+Животные имеют следующие четыре стадии аппетита:
+<var 48 F201FA /var><var 49 F201FB /var> «Сытый», «Удовлетворённый», «Голодный» и «Страдающий».<var 49 01 /var><var 48 01 /var>
+Аппетит животного со временем увеличивается, и вместе с ним ухудшается его настроение.
+
+Любой вид корма может насытить животное, пока оно не наестся, а если животное уже наелось, его нельзя накормить.
+
+■Настроение
+У животных есть следующие пять настроений:
+<var 48 F201FA /var><var 49 F201FB /var> «Враждебное», «Недовольное», «Довольное», «Бодрое» и «Радостное». <var 49 01 /var><var 48 01 /var>
+Когда животное голодает, его настроение становится враждебным. Накормите животных, находящихся на вашем попечении, едой, чтобы улучшить их настроение, и вы сможете получить взамен больше материалов!
+
+В отличие от аппетита, на настроение животного влияет вид корма, который ему дают.
+
+・Island Sweetfeed
+Улучшает настроение животного на <var 48 F201FA /var><var 49 F201FB /var>один уровень.<var 49 01 /var><var 48 01 /var> Может улучшить настроение до <var 48 F201FA /var><var 49 F201FB /var>довольного<var 49 01 /var><var 48 01 /var>.
+
+・Island Greenfeed
+Улучшает настроение животного на <var 48 F201FA /var><var 49 F201FB /var>два уровня.<var 49 01 /var><var 48 01 /var> Может улучшить настроение до <var 48 F201FA /var><var 49 F201FB /var>бодрого<var 49 01 /var><var 48 01 /var>.
+
+・Premium Island Greenfeed
+Улучшает настроение животного на <var 48 F201FA /var><var 49 F201FB /var>два уровня.<var 49 01 /var><var 48 01 /var> Может улучшить настроение до <var 48 F201FA /var><var 49 F201FB /var>радостного<var 49 01 /var><var 48 01 /var>.
+
+Поговорите с creature comforter около пастбища, чтобы получить доступ к меню «Управление пастбищем».","","False","0x000002C9","",""
 "","On the Pasture Management menu, each animal's current condition will be displayed under “Mood” and “Food” with the following icons: ","","","False","0x000002CA","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>When used in the pasture, Gather mode allows you to collect materials shed by the animals in your custody.<var 49 01 /var><var 48 01 /var>
 
@@ -2258,10 +2296,16 @@ Once an animal reaches your current location, it will remain in that general vic
 
 To do this, speak to the creature comforter to access the Pasture Management menu. After selecting the animal you wish to part with, choose the “Release” subcommand.
 
-Please note that you cannot recover specific animals after they have been released.","","","False","0x000002CE","",""
+Please note that you cannot recover specific animals after they have been released.","Вы можете выпустить животных с пастбища на волю, если хотите вернуть их в естественную среду обитания.
+
+Для этого поговорите с creature comforter'ом, чтобы открыть меню «Управление пастбищем». Выбрав животное, с которым вы хотите расстаться, выберите команду «Выпустить».
+
+Обратите внимание, что вы не сможете вернуть обратно этих животных после их освобождения.","","False","0x000002CE","",""
 "","You may change the names of animals in your pasture.
 
-To do this, speak to the creature comforter to access the Pasture Management menu. After selecting the animal you wish to name, choose the “Change Nickname” subcommand and follow the on-screen prompts.","","","False","0x000002CF","",""
+To do this, speak to the creature comforter to access the Pasture Management menu. After selecting the animal you wish to name, choose the “Change Nickname” subcommand and follow the on-screen prompts.","Вы можете изменять имена животных на вашем пастбище.
+
+Для этого поговорите с creature comforter'ом, чтобы войти в меню «Управление пастбищем». После выбора животного, которому вы хотите дать имя, выберите команду «Изменить прозвище» и следуйте подсказкам на экране.","","False","0x000002CF","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>You may entrust the care of your animals to the caretaker, who will arrange for a team of kind-hearted mammets to feed your animals and gather their leavings in your stead.<var 49 01 /var><var 48 01 /var>
 
 Speak with the creature comforter after obtaining the appropriate mammet-sized tool to get started.
@@ -2585,7 +2629,21 @@ If you do not possess the required materials by the time production is scheduled
 
 So, if you did not have enough island palm leaves or islewort when you scheduled the isleworks potion, be sure to gather two of each by the time production is scheduled to start. Don't be the Warrior of Light who made a mammet cry.
 
-You can keep track of what materials will be expended during current or upcoming production by clicking the Review Materials button.","","","False","0x00000308","",""
+You can keep track of what materials will be expended during current or upcoming production by clicking the Review Materials button.","■Экспортируйте свои изделия и пожинайте плоды!
+Теперь, когда вы определились с планом действий, ваша верная команда умелых мамметов будет создавать и экспортировать все заказанные вами изделия, пока вы греетесь на солнышке и пьёте освежающие жидкости.
+
+<var 48 F201FA /var><var 49 F201FB /var>К примеру на изготовление isleworks potion уходит четыре часа (реального времени).<var 49 01 /var><var 48 01 /var>Помните: те, кто осуждает маммета за долгое время работы, затраченное на изготовление изделий, недостойны этого доброго маммета.
+
+По истечении назначенного времени отложите свой напиток, чтобы ещё раз поговорить с tactful taskmaster, и ваши карманы наполнятся доходами от вашего последнего экспорта!
+
+■Управление материалами
+<var 48 F201FA /var><var 49 F201FB /var>Материалы, используемые для создания ремесла, истощаются в начале производства.
+
+Если у вас не будет необходимых материалов к началу производства, ваши мамметы не смогут создать заказанное вами изделие.<var 49 01 /var><var 48 01 /var> Они могут даже заплакать из-за чувства неполноценности.
+
+Поэтому, если у вас не было достаточно island palm leaves или islewort, когда вы планировали создать isleworks potion, обязательно соберите по две штуки к моменту начала производства. Не будьте тем Воином Света, который заставил плакать маммета.
+
+Вы можете следить за тем, какие материалы будут израсходованы в ходе текущего или предстоящего производства, нажав кнопку «Просмотр материалов».","","False","0x00000308","",""
 "","Reviewing Materials","","","False","0x00000309","",""
 "","Reviewing Earnings","","","False","0x0000030A","",""
 "","Tricks of the Trade","","","False","0x0000030B","",""
