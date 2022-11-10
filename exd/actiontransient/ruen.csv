@@ -44369,22 +44369,38 @@ Cannot be executed while bound.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4,200
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Cure potency is doubled when target is under the effect of <var 48 F201FA /var><var 49 F201FB /var>Rehabilitation<var 49 01 /var><var 48 01 /var>
-This action is not affected by attributes.","","","True","0x00007421","",""
+This action is not affected by attributes.","Восстанавливает HP цели.
+<var 48 F201F8 /var><var 49 F201F9 /var>Сила исцеления:<var 49 01 /var><var 48 01 /var> 14,000
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Regen<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Сила исцеления:<var 49 01 /var><var 48 01 /var> 4,200
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 15 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Сила исцеления удваивается, когда цель находиться под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Rehabilitation<var 49 01 /var><var 48 01 /var>
+На это действие не влияют атрибуты.","","False","0x00007421","",""
 "","Places yourself at the top of nearby enemies' enmity list and increases enmity generation.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 4s
 Additionally, significantly increases enmity generation.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","","","True","0x00007422","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Помещает вас на первое место в списке враждебности у ближайших противников и увеличивает ее накопление.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 4 с.
+Дополнительно, значительно увеличивает накопление враждебности.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x00007422","",""
 "","Resurrects target to a weakened state.
-This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","","","True","0x00007423","",""
+This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Возвращает цель к жизни в ослабленном состоянии.
+Не влияет на время восстановления прочих действий. Кроме того, на время восстановления не могут повлиять другие действия.","","False","0x00007423","",""
 "","Deals damage over time to target and all enemies nearby it.
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency:<var 49 01 /var><var 48 01 /var> 2,040
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s
-This action is not affected by attributes or enhancing effects.","","","True","0x00007424","",""
+This action is not affected by attributes or enhancing effects.","Наносит периодический урон цели и всем противникам рядом с ней.
+<var 48 F201F8 /var><var 49 F201F9 /var>Сила:<var 49 01 /var><var 48 01 /var> 2,040
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.
+На это действие не влияют атрибуты или усиливающие эффекты.","","False","0x00007424","",""
 "","Reduces damage taken by 20%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s
-Creates a barrier around self that absorbs damage equivalent to a heal of 21,000 potency.","","","True","0x00007425","",""
-"","Resurrects target to a weakened state. Resurrection restrictions do not apply.","","","True","0x00007426","",""
+Creates a barrier around self that absorbs damage equivalent to a heal of 21,000 potency.","Снижает получаемый урон на 20%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 60 с.
+Создает защитный барьер, поглощающий урон, равный исцелению с силой 21,000.","","False","0x00007425","",""
+"","Resurrects target to a weakened state. Resurrection restrictions do not apply.","Возвращает цель к жизни в ослабленном состоянии. Ограничения на воскрешение не действуют.","","False","0x00007426","",""
 "","Reduces damage taken by 90% and grants immunity to <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Heavy<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Bind<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Silence<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Half-asleep<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Sleep<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Deep Freeze<var 49 01 /var><var 48 01 /var>, and knockback and draw-in effects.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>5s
 Movement speed is reduced by 50% for the duration of this effect.
