@@ -2,7 +2,7 @@ EN: This is a repository for Weblate server that contains all of the game files 
 
 RU: Этот репозиторий предназначен для сервера Weblate и хранит в себе все игровые файлы и файлы перевода. Pull request'ы не будут приниматься - просьба всё делать через сервер. Он доступен по следующему адресу:
 
-https://host6450.hnt.ru
+https://translate.xivrus.ru
 
 EN: Currently only the following languages are supported:
 
@@ -18,7 +18,7 @@ WARNING! There are spoilers everywhere for all of the current content and maybe 
 
 By participating in translation to your language you agree that your translation may be licensed and become property of SQUARE ENIX according to FINAL FANTASY XIV Material Usage License.
 
-Web site https://host6450.hnt.ru contains extracted content from FINAL FANTASY XIV which is an intellectual property of SQUARE ENIX.
+Web site https://translate.xivrus.ru contains extracted content from FINAL FANTASY XIV which is an intellectual property of SQUARE ENIX.
 
 Weblate and GitHub is not affiliated with our activity in any way, shape, or form.
 
@@ -32,7 +32,7 @@ RU:
 
 Принимая участие в переводе на Ваш язык, Вы соглашаетесь, что Ваш перевод может оказаться лицензированным и перейти во владение SQUARE ENIX в соответствие с Лицензией об использовании материалов FINAL FANTASY XIV.
 
-Сайт https://host6450.hnt.ru содержит в себе извлечённый контент из FINAL FANTASY XIV, который является интеллектуальной собственностью SQUARE ENIX.
+Сайт https://translate.xivrus.ru содержит в себе извлечённый контент из FINAL FANTASY XIV, который является интеллектуальной собственностью SQUARE ENIX.
 
 Weblate и GitHub никак не связаны с нашей активностью.
 
