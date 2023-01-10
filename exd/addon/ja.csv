@@ -733,7 +733,7 @@ HUDレイアウト設定がすべて初期化されます。
 "","Actions","Actions","","False","0x000002AB","",""
 "","Job","Job","","False","0x000002AC","",""
 "","Traits","Traits","","False","0x000002AD","",""
-"","Additional","Additional","","False","0x000002AE","",""
+"","Gatherer Role","Gatherer Role","","False","0x000002AE","",""
 "","General","General","","False","0x000002AF","",""
 "","Additional Actions","ADDITIONAL ACTIONS","","False","0x000002B0","",""
 "","<var 2D ((<var 28 ((ActStr)) E80201 /var>)) /var>
@@ -2281,7 +2281,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 このリストは自分だけが確認することができ、
 ホームワールド以外でも利用が可能です。","","False","0x00000824","",""
 "","Unobtained/Unregistered Only","未修得/未登録のみ表示","","False","0x00000825","",""
-"","There are no unobtained or unregistered items available.","このページに未修得/未登録のアイテムはありません。","","False","0x00000826","",""
+"","There are no unobtained or unregistered items to display on this page.","このページに未修得/未登録のアイテムはありません。","","False","0x00000826","",""
 "","To reduce congestion, the area you are about to enter has been divided into multiple identical instances. Select a destination.","移動先のエリア「<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80206 /var>)) 01 /var>」は混雑緩和のため、複数のインスタンスにわけられています。
 移動したいインスタンスを選んでください。（どのインスタンスでも内容に違いはありません。）","","False","0x0000082A","",""
 "","No preference.","おまかせ（自動選択）","","False","0x0000082B","",""
@@ -2481,7 +2481,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 "","Deep Dungeon","ディープダンジョン","","False","0x00000900","",""
 "","The Forbidden Land, Eureka","禁断の地 エウレカ","","False","0x00000901","",""
 "","Gathering Forays","採集活動","","False","0x00000902","",""
-"","Adventuring Forays","特殊フィールド探索","","False","0x00000903","",""
+"","Field Operations","特殊フィールド探索","","False","0x00000903","",""
 "","<var 29 EA02 /var>. (Contract suspended)","<var 29 EA02 /var>　　[契約切れ]","","False","0x00000906","",""
 ""," <var 20 E802 /var>-<var 20 E803 /var>.","  <var 20 E802 /var>～<var 20 E803 /var>","","False","0x00000907","",""
 "","Select a level range.","依頼するベンチャーのレベル帯を選んでください","","False","0x00000908","",""
@@ -2587,6 +2587,8 @@ Select an option.","何をする？　[所持ベンチャースクリップ：<v
 "","<var 20 E802 /var> of a possible <var 20 E803 /var> coffers will pop. Proceed?","宝箱の出現数<var 20 E802 /var>/<var 20 E803 /var>個で確定してもよろしいですか？","","False","0x00000962","",""
 "","Yes","はい","","False","0x00000964","",""
 "","No","いいえ","","False","0x00000965","",""
+"","Cast glamours.","リテイナーの武具投影","","False","0x00000966","",""
+"","Dye items.","リテイナーのアイテム染色","","False","0x00000967","",""
 "","Vote Coffer Pop","宝箱確定投票","","False","0x00000968","",""
 "","Disable Dye Preview","染色プレビューを解除する","","False","0x0000096B","",""
 "","Enable Dye Preview","染色プレビューする","","False","0x0000096C","",""
@@ -2622,6 +2624,7 @@ Proceed with the transaction?","クラスやレベル、装備状態があわな
 "","You will never be able to equip this item.
 Proceed with the transaction?","専用装備のため、このアイテムを装備することはできませんが交換しますか？","","False","0x00000985","",""
 "","Proceed","装備できなくても交換する","","False","0x00000986","",""
+"","Try On Retainer","リテイナー装備試着","","False","0x00000987","",""
 "","Return","戻る","","False","0x00000988","",""
 "","Aether Currents","AETHER CURRENT","","False","0x0000098D","",""
 "","","風脈の泉交感情報","","False","0x0000098E","",""
@@ -3255,9 +3258,9 @@ Full soul resonance is almost complete!","非常に強い「<var 28 ((Relic6Magi
 "","Recorder Manual","REPLAY HELP","","False","0x00000BFC","",""
 "","","リプレイヘルプ","","False","0x00000BFD","",""
 "","<var 20 E802 /var>/2","<var 20 E802 /var>/2","","False","0x00000BFE","",""
-"","・<var 2B ((<var 28 ((ContentFinderCondition)) F2012728 /var>)) /var>","・<var 28 ((ContentFinderCondition)) F2012728 /var>","","False","0x00000BFF","",""
+"","・<var 2B ((<var 28 ((ContentFinderCondition)) F201272A /var>)) /var>","・<var 28 ((ContentFinderCondition)) F201272A /var>","","False","0x00000BFF","",""
 "","<var 48 F20202 /var>Recordable Duties<var 48 01 /var>","<var 48 F20202 /var>コンテンツリプレイ対象コンテンツ<var 48 01 /var>","","False","0x00000C00","",""
-"","・<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","・<var 28 ((ContentFinderCondition)) E80228 /var>","","False","0x00000C01","",""
+"","・<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","・<var 28 ((ContentFinderCondition)) E8022A /var>","","False","0x00000C01","",""
 "","There are no recorded duties.","現在は対象コンテンツがありません。","","False","0x00000C02","",""
 "","・Locked","・未開放コンテンツ","","False","0x00000C03","",""
 "","[<var 20 E802 /var>] <var 50 E80303 /var>:<var 50 E80403 /var>:<var 50 E80503 /var> <var 08 E1E80601 ((<var 09 E806 ((Start/Restart)) ((Event Cutscene)) /var>)) ((Countdown)) /var>","[<var 20 E802 /var>] <var 50 E80303 /var>:<var 50 E80403 /var>:<var 50 E80503 /var> <var 08 E1E80601 ((<var 09 E806 ((スタート／リスタート)) ((バトルイベント)) /var>)) ((戦闘開始カウント)) /var>","","False","0x00000C07","",""
@@ -3779,6 +3782,7 @@ Furthermore, each time you earn an achievement, you will gain achievement points
 "","note name","音階名","","False","0x00000E39","",""
 "","quick chat name","クイックチャット名","","False","0x00000E3A","",""
 "","accessory name","ファッションアクセサリー名","","False","0x00000E3B","",""
+"","target","ターゲット","","False","0x00000E3C","",""
 "","Items","所持品","","False","0x00000E42","",""
 "","Key Items & Crystals","イベントアイテム・クリスタル","","False","0x00000E43","",""
 "","Items 1-100","所持品(1-100)","","False","0x00000E44","",""
@@ -3855,6 +3859,10 @@ Furthermore, each time you earn an achievement, you will gain achievement points
 "","<var 2B ((<var 31 ((Item)) 03E8020202 /var>)) /var> will be bound to you.","<var 28 ((Item)) E80201 /var>を投影するとBIND属性が付加されます。","","False","0x00000E90","",""
 "","Glamours will only be visible if your current class, job, race, or gender can equip both items.","装備できないアイテムを投影しようとしています。
 装備できない場合は投影が反映されません。","","False","0x00000E91","",""
+"","Equipped by Retainer","リテイナー装備中","","False","0x00000E92","",""
+"","Retainer Inventory","リテイナー所持品","","False","0x00000E93","",""
+"","Inventory/Armoury Chest/Equipped","所持品/アーマリーチェスト/装備中","","False","0x00000E94","",""
+"","Equipped by Retainer/Retainer Inventory","リテイナー装備中/リテイナー所持品","","False","0x00000E95","",""
 "","Restore all settings for <var 28 ((Hud)) E802 ((ADDONHUD_NAME)) /var> to their default?","<var 28 ((Hud)) E802 ((ADDONHUD_NAME)) /var>の
 レイアウト設定を初期化します。
 よろしいですか？","","False","0x00000E9C","",""
@@ -3928,16 +3936,19 @@ Special Conditions: <var 09 E804 ((Yes)) ((None)) ((???)) /var>","天候条件�
 "","Toggle between fishing and spearfishing.","釣り/銛表示切り替え","","False","0x00000EE8","",""
 "","Fish Guide","FISH GUIDE","","False","0x00000EEC","",""
 "","","魚類図鑑","","False","0x00000EED","",""
-"","Fish Caught: <var 20 E802 /var>","TOTAL <var 22 E802 ((,)) /var>","","False","0x00000EEE","",""
+"","<var 08 E4E80301 ((Successful Fishing Endeavors)) ((Fish Caught)) /var>: <var 22 E802 ((,)) /var>","<var 08 E4E80301 ((釣りに成功した回数)) ((刺突漁で獲得した魚の数)) /var> <var 22 E802 ((,)) /var>","","False","0x00000EEE","",""
 "","Prime Locations","代表的な釣り場","","False","0x00000EEF","",""
-"","<var 29 EA02 /var>
-<var 29 EA03 /var>","<var 29 EA02 /var>
-<var 29 EA03 /var>","","False","0x00000EF0","",""
+"","<var 08 E4E80501 ((???)) ((<var 29 EA02 /var>
+<var 29 EA03 /var>
+<var 08 E4E80601 ((???)) ((<var 29 EA04 /var>)) /var>)) /var>","<var 08 E4E80501 ((？？？？)) ((<var 29 EA02 /var>
+<var 29 EA03 /var>
+<var 08 E4E80601 ((？？？？)) ((<var 29 EA04 /var>)) /var>)) /var>","","False","0x00000EF0","",""
 "","There is nothing to display.","魚を釣っていないため
 情報がありません","","False","0x00000EF1","",""
 "","Additional Information","追加情報","","False","0x00000EF2","",""
 "","Collectable","収集品採集可能","","False","0x00000EF3","",""
 "","Required to Gather: <var 08 E4E80401 ((Tome of Regional Folklore)) ((<var 28 ((Item)) E8020A /var> (<var 08 E4E80301 ((Not Owned)) ((Owned)) /var>))) /var>","採集時必須：<var 08 E4E80401 ((魚類伝承録:？？？？)) ((<var 28 ((Item)) E80201 /var>（<var 08 E4E80301 ((未入手)) ((入手済)) /var>）)) /var>","","False","0x00000EF4","",""
+"","<var 28 ((GatheringSubCategory)) E80206 /var> (<var 08 E4E80301 ((Unobtained)) ((Obtained)) /var>)","<var 28 ((GatheringSubCategory)) E80206 /var>（<var 08 E4E80301 ((未入手)) ((入手済)) /var>）","","False","0x00000EF5","",""
 "","Records","RECORDS","","False","0x00000EF6","",""
 "","","釣果記録","","False","0x00000EF7","",""
 "","There is nothing to display.","未開拓カテゴリのため
@@ -4237,13 +4248,13 @@ Progress: <var 20 E803 /var>%","侵攻距離:<var 20 E802 /var>%
 よろしいですか？","","False","0x0000105F","",""
 "","Yes","はい","","False","0x00001060","",""
 "","No","いいえ","","False","0x00001061","",""
-"","An example of the classic theme.","クラシックタイプのサンプルです。","","False","0x00001062","",""
+"","An example of the classic FF theme.","FFクラシックタイプのサンプルです。","","False","0x00001062","",""
 "","Apply this resolution?
 Settings will be restored in <var 20 E802 /var> <var 08 E4E80202 ((second)) ((seconds)) /var>.","現在の解像度設定を適用しますか？
 <var 20 E802 /var>秒後に前の設定に戻ります。","","False","0x00001063","",""
 "","Yes","はい","","False","0x00001064","",""
 "","No","いいえ","","False","0x00001065","",""
-"","クラシック","クラシック","","False","0x00001066","",""
+"","An example of the clear blue theme.","クリアブルータイプのサンプルです。","","False","0x00001066","",""
 "","Maximum","最高品質","","False","0x00001068","",""
 "","High","高品質","","False","0x00001069","",""
 "","Standard","標準品質","","False","0x0000106A","",""
@@ -4270,10 +4281,11 @@ Settings will be restored in <var 20 E802 /var> <var 08 E4E80202 ((second)) ((se
 "","Weak","弱く","","False","0x00001087","",""
 "","Dark","ダーク","","False","0x00001088","",""
 "","Light","ライト","","False","0x00001089","",""
-"","Classic","クラシック","","False","0x0000108A","",""
-"","Anisotropic","異方性","","False","0x0000108B","",""
-"","Trilinear","トリリニア","","False","0x0000108C","",""
-"","Bilinear","バイリニア","","False","0x0000108D","",""
+"","Classic FF","FFクラシック","","False","0x0000108A","",""
+"","Clear Blue","クリアブルー","","False","0x0000108B","",""
+"","Anisotropic","異方性","","False","0x0000108C","",""
+"","Trilinear","トリリニア","","False","0x0000108D","",""
+"","Bilinear","バイリニア","","False","0x0000108E","",""
 "","x16","x16","","False","0x00001090","",""
 "","x8","x8","","False","0x00001091","",""
 "","x4","x4","","False","0x00001092","",""
@@ -4775,6 +4787,8 @@ Do you still wish to proceed?","以下の報酬のすべてを受け取ること
 "","Inventory: Gear","所持品：装備品","","False","0x00001249","",""
 "","Inventory: Fixtures/Furnishings","所持品：外装/庭具/調度品","","False","0x0000124A","",""
 "","HOUSING","HOUSING ITEM","","False","0x0000124B","",""
+"","Retainer Inventory: Gear","リテイナー所持品：装備品","","False","0x0000124D","",""
+"","Retainer Inventory: Fixtures/Furnishings","リテイナー所持品：外装/庭具/調度品","","False","0x0000124E","",""
 "","Apply","試着に反映","","False","0x0000124F","",""
 "","Select Another","別のアイテムを選択","","False","0x00001250","",""
 "","<var 08 E1E80201 ((<var 48 F201FC /var><var 49 F201FD /var>Requires completion of the duty “<var 29 EA03 /var>.”<var 49 01 /var><var 48 01 /var>)) ((<var 48 F201F6 /var><var 49 F201F7 /var>Quest requirements met.<var 49 01 /var><var 48 01 /var>)) /var>","染色条件：「<var 29 EA03 /var>」のコンプリート
@@ -5853,7 +5867,7 @@ Allegiance can be changed at a later date.)) ((Select the path you wish to take 
 "","<var 20 E802 /var>","<var 20 E802 /var>～","","False","0x0000164A","",""
 "","Qty.","所持数","","False","0x0000164B","",""
 "","<var 20 E802 /var>","<var 20 E802 /var>","","False","0x0000164C","",""
-"","Details","Returnning Afavor","","False","0x0000164D","",""
+"","Custom Deliveries (<var 29 EA02 /var>)","お得意様取引（<var 29 EA02 /var>）","","False","0x0000164D","",""
 "","Collectability","収集価値","","False","0x0000164E","",""
 "","<var 20 E802 /var><var 08 E4E803E802 (()) ((～<var 08 E4E80301 (()) ((<var 20 E803 /var>)) /var>)) /var>","<var 20 E802 /var><var 08 E4E803E802 (()) ((～<var 08 E4E80301 (()) ((<var 20 E803 /var>)) /var>)) /var>","","False","0x0000164F","",""
 "","Time Remaining: <var 20 E802 /var>h <var 20 E803 /var>m <var 07 E804 /var>[<var 20 DE /var>/<var 20 DC /var> <var 20 DB /var>:<var 24 DA /var>]","納品期限 : <var 20 E802 /var>時間<var 20 E803 /var>分後<var 07 E804 /var>[<var 20 DE /var>/<var 20 DC /var> <var 20 DB /var>:<var 24 DA /var>]","","False","0x00001650","",""
@@ -5909,6 +5923,9 @@ Proceed?","以下のものが上限に達するため、
 よろしいですか？","","False","0x00001671","",""
 "","<var 48 F201FC /var><var 49 F201FD /var>Unable to apply glamours. Insufficient prisms.<var 49 01 /var><var 48 01 /var>","<var 48 F201FC /var><var 49 F201FD /var>触媒が不足しているため、選択した武具投影を反映することができません。<var 49 01 /var><var 48 01 /var>","","False","0x00001672","",""
 "","Glamoured gear will be bound to you.","投影する各装備品にはBIND属性が付加されます。","","False","0x00001673","",""
+"","Display Location","入手場所の表示","","False","0x00001674","",""
+"","<var 08 E4E80301 ((Fishing Hole)) ((Spearfishing Area)) /var>
+Deliver to: <var 28 ((ENpcResident)) E80201 /var>","<var 08 E4E80301 (([釣り])) (([銛])) /var> お得意様取引：<var 28 ((ENpcResident)) E80201 /var>","","False","0x00001675","",""
 "","Tribal","友好部族","","False","0x00001676","",""
 "","Tribal Currency","Tribal Currency","","False","0x00001677","",""
 "","A Realm Reborn","新生エオルゼア","","False","0x00001678","",""
@@ -7313,7 +7330,7 @@ Discard the following item and replace it with another?","<var 48 F201FA /var><v
 "","Preview","PREVIEW","","False","0x00001AA7","",""
 "","","プレビュー","","False","0x00001AA8","",""
 "","Close","閉じる","","False","0x00001AA9","",""
-"","<var 08 E4E80202 ((Sightseeing Log)) ((<var 08 E4E80203 ((Landscapes)) (()) /var>)) /var>","<var 08 E4E80202 ((SIGHTSEEING LOG)) ((<var 08 E4E80203 ((LANDSCAPE)) (()) /var>)) /var>","","False","0x00001AAA","",""
+"","<var 08 E4E80202 ((Sightseeing Log)) ((<var 08 E4E80203 ((Landscapes)) ((<var 08 E4E80204 ((Portraits)) (()) /var>)) /var>)) /var>","<var 08 E4E80202 ((SIGHTSEEING LOG)) ((<var 08 E4E80203 ((LANDSCAPE)) ((<var 08 E4E80204 ((PORTRAIT)) (()) /var>)) /var>)) /var>","","False","0x00001AAA","",""
 "","Frame <var 31 ((Item)) 03E8020202 /var>?","<var 28 ((Item)) E80201 /var>を
 使用します。よろしいですか？","","False","0x00001AAB","",""
 "","The same painting is already framed. Proceed and the following item will be lost:","<var 48 F201FA /var><var 49 F201FB /var>現在、設定されているアイテムと同じです。<var 49 01 /var><var 48 01 /var>
@@ -7634,7 +7651,7 @@ Proceed with these components?
 "","<var 09 E802 ((Selling on a first-come-first-served basis.)) ((Selling via lottery. (Current participants: <var 20 E803 /var>))) ((Currently unavailable for purchase.)) /var>","<var 09 E802 ((先着販売)) ((抽選販売　（現在の参加人数：<var 20 E803 /var>）)) ((整備中)) /var>","","False","0x00001B83","",""
 "","<var 09 E803 ((Accepting entries until <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Results period ends <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) /var>.","<var 09 E803 ((抽選販売参加受付中：<var 07 E802 /var><var 20 DF /var>/<var 20 DE /var>/<var 20 DC /var> <var 20 DB /var>:<var 24 DA /var>まで)) ((抽選結果発表期間中：<var 07 E802 /var><var 20 DF /var>/<var 20 DE /var>/<var 20 DC /var> <var 20 DB /var>:<var 24 DA /var>まで)) /var>","","False","0x00001B84","",""
 "","Enter Lottery","抽選に参加する","","False","0x00001B85","",""
-"","Do you wish to deposit <var 22 E802 ((,)) /var> gil to enter the lottery for this plot of land? Please note that you may only enter the lottery for one plot of land during each lottery period.
+"","Do you wish to deposit <var 22 E802 ((,)) /var> gil to enter the lottery for this <var 08 E4E80304 ((<var 08 E4E80401 ((<var 48 F201FA /var><var 49 F201FB /var>personal plot<var 49 01 /var><var 48 01 /var>)) ((<var 48 F201FA /var><var 49 F201FB /var>free company plot<var 49 01 /var><var 48 01 /var>)) /var>)) ((plot of land)) /var>? Please note that you may only enter the lottery for one plot of land during each lottery period.
 
 <var 48 F201FA /var><var 49 F201FB /var>・This land is currently available for purchase by <var 09 E803 ((free companies only)) ((private buyers only)) ((free companies and private buyers)) /var>.
 ・Once submitted, a lottery entry may not be withdrawn.
@@ -7644,8 +7661,8 @@ Proceed with these components?
 ・Should you fail to claim your plot of land during the results period despite having won the lottery, your claim will be forfeit and a 50% cancellation fee will be deducted from the deposit made at entry. You will be refunded the remaining 50% upon accessing this placard.
 ・Regardless of lottery results, any and all refunds for a given lottery period expire 90 days (Earth time) after the results period. Please be sure to access this placard within the allotted time to receive any applicable refunds.
 ・You may not apply for another plot of land until all outstanding properties/refunds have been claimed.
-・You may not purchase land on behalf of your free company for thirty days after joining. Should you leave your free company after entering the lottery, you will be unable to claim any land won, even if you re-enter the same free company.<var 49 01 /var><var 48 01 /var>","抽選には同時に１つの土地のみ参加可能です。
-<var 22 E802 ((,)) /var>ギルを支払って、この土地の抽選に参加します。
+<var 08 E4E80302 ((・You may not purchase land on behalf of your free company for thirty days after joining. Should you leave your free company after entering the lottery, you will be unable to claim any land won, even if you re-enter the same free company.)) ((<var 08 E4E80304 ((<var 08 E4E80402 ((・You may not purchase land on behalf of your free company for thirty days after joining. Should you leave your free company after entering the lottery, you will be unable to claim any land won, even if you re-enter the same free company.)) (()) /var>)) (()) /var>)) /var><var 49 01 /var><var 48 01 /var>","抽選には同時に１つの土地のみ参加可能です。
+<var 22 E802 ((,)) /var>ギルを支払って、この土地の抽選に<var 08 E4E80304 ((<var 08 E4E80401 ((<var 48 F201FA /var><var 49 F201FB /var>個人用<var 49 01 /var><var 48 01 /var>)) ((<var 48 F201FA /var><var 49 F201FB /var>フリーカンパニー用<var 49 01 /var><var 48 01 /var>)) /var>で)) (()) /var>参加します。
 本当によろしいですか？
 
 <var 48 F201FA /var><var 49 F201FB /var>・この土地は現在「<var 09 E803 ((フリーカンパニー限定)) ((個人宅限定)) ((購入制限なし)) /var>」に指定されています。
@@ -7658,9 +7675,11 @@ Proceed with these components?
 　50％のキャンセル料が発生し、このサインボードから50%のギルが返還されます。
 ・当落の結果に関わらず、ギルの返還期限は結果発表から90日で、以降は返還されません。
 ・土地の取得/ギルの返還処理が完了するまで他の土地への応募はできません。
-・フリーカンパニー加入後30日間は土地を購入できません。
+<var 08 E4E80302 ((・フリーカンパニー加入後30日間は土地を購入できません。
 　応募後にフリーカンパニーを脱退した場合、再加入しても
-　期間中に土地を購入できませんのでご注意ください。<var 49 01 /var><var 48 01 /var>","","False","0x00001B86","",""
+　期間中に土地を購入できませんのでご注意ください。)) ((<var 08 E4E80304 ((<var 08 E4E80402 ((・フリーカンパニー加入後30日間は土地を購入できません。
+　応募後にフリーカンパニーを脱退した場合、再加入しても
+　期間中に土地を購入できませんのでご注意ください。)) (()) /var>)) (()) /var>)) /var><var 49 01 /var><var 48 01 /var>","","False","0x00001B86","",""
 "","I understand and wish to proceed.","注意事項に同意し、土地の抽選に参加する","","False","0x00001B87","",""
 "","Confirm","はい","","False","0x00001B88","",""
 "","Cancel","いいえ","","False","0x00001B89","",""
@@ -7731,8 +7750,8 @@ Proceed with these components?
 "","Category: <var 29 EA02 /var>","カテゴリ：<var 29 EA02 /var>","","False","0x00001BC4","",""
 "","Track: <var 29 EA02 /var>","楽曲名：<var 29 EA02 /var>","","False","0x00001BC5","",""
 "","Play","試聴する","","False","0x00001BC6","",""
-"","Play in Estate","室内に再生する","","False","0x00001BC7","",""
-"","Stop Playing in Estate","再生中の曲を停止する","","False","0x00001BC8","",""
+"","Play on Loop","室内に再生する","","False","0x00001BC7","",""
+"","Stop Looping","再生中の曲を停止する","","False","0x00001BC8","",""
 "","Stop","試聴中の曲を停止する","","False","0x00001BC9","",""
 "","Change the entire estate's background music to <var 1A 02 /var><var 29 EA02 /var><var 1A 01 /var>?","「<var 29 EA02 /var>」
 を室内に再生します。よろしいですか？
@@ -7800,6 +7819,7 @@ Waymarks can only be saved and loaded during certain duties.","フィールド�
 一部のバトルコンテンツのみ利用できます。","","False","0x00001BE1","",""
 "","Overwrite","スロットを上書きして保存する","","False","0x00001BE2","",""
 "","Delete","スロットを削除する","","False","0x00001BE3","",""
+"","<var 20 E802 /var>/<var 20 E803 /var>","<var 20 E802 /var>/<var 20 E803 /var>","","False","0x00001BE4","",""
 "","Start","スタート","","False","0x00001BE5","",""
 "","Retry","リトライ","","False","0x00001BE6","",""
 "","Close","閉じる","","False","0x00001BE7","",""
@@ -7948,6 +7968,7 @@ Waymarks can only be saved and loaded during certain duties.","フィールド�
 "","Auto-sheathe weapon when not in battle.","メインアームの自動納刀を有効にする","","False","0x00001DB4","",""
 "","Auto-sheathe Delay","自動納刀までの時間","","False","0x00001DB5","",""
 "","Inventory Settings","所持品設定","","False","0x00001DB6","",""
+"","Disable camera pivot.","カメラの補正を固定する","","False","0x00001DB7","",""
 "","Store all newly obtained items in the Armoury Chest.","装備品入手時はアーマリーチェストに収納する","","False","0x00001DB8","",""
 "","Store all newly crafted items in your Inventory.","製作した装備品は所持品に収納する","","False","0x00001DB9","",""
 "","Shop Settings","ショップ設定","","False","0x00001DBA","",""
@@ -10478,10 +10499,10 @@ Proceed with this deck?","上記のデッキで対戦を行います。
 "","Display unowned cards only","未入手カードのみ表示","","False","0x00002632","",""
 "","No cards match current filter settings.","絞り込み条件に該当するカードはありません。","","False","0x00002633","",""
 "","Triple Triad tutorial.","チュートリアルにて配布","","False","0x00002634","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","<var 28 ((ContentFinderCondition)) E80228 /var>","","False","0x00002635","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","<var 28 ((ContentFinderCondition)) E80228 /var>","","False","0x00002636","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80328 /var>)) /var>
-<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 28 ((ContentFinderCondition)) E80328 /var>
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","<var 28 ((ContentFinderCondition)) E8022A /var>","","False","0x00002635","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","<var 28 ((ContentFinderCondition)) E8022A /var>","","False","0x00002636","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8032A /var>)) /var>
+<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 28 ((ContentFinderCondition)) E8032A /var>
 <var 28 ((Fate)) E80201 /var>","","False","0x00002637","",""
 "","<var 2B ((<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80306 /var>)) 01 /var>)) /var>
 <var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80306 /var>)) 01 /var>
@@ -10502,8 +10523,8 @@ Place in top rankings.","<var 28 ((TripleTriadCompetition)) E80201 /var>
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","<var 61 E803 /var>
 通貨交換：<var 28 ((ObjStr)) E80201 /var>","","False","0x0000263D","",""
 "","<var 2B ((<var 28 ((Achievement)) E80202 /var>)) /var>","<var 28 ((Achievement)) E80202 /var>","","False","0x0000263E","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>
-Happy bunny treasure hunt.","<var 28 ((ContentFinderCondition)) E80228 /var>
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>
+Happy bunny treasure hunt.","<var 28 ((ContentFinderCondition)) E8022A /var>
 しあわせうさぎの財宝探索より入手","","False","0x0000263F","",""
 "","???","？？？？","","False","0x00002640","",""
 "","Final Rankings","FINAL RESULTS","","False","0x00002641","",""
@@ -11274,6 +11295,14 @@ Proceed?","リターナー支援を辞退します。
 "","Open All (Not Available w/ DX9)","全展開：DX9環境では利用できません","","False","0x0000284F","",""
 "","Open All (Not Available on Mac)","全展開：Mac環境では利用できません","","False","0x00002850","",""
 "","Display character portraits with battle dialogue widget.","バトルトークに話者アイコンを表示する","","False","0x00002851","",""
+"","Instant Portraits","コンテンツ用ポートレート","","False","0x00002852","",""
+"","Show party member portraits at the start of duty.","コンテンツ開始時にパーティメンバー紹介を表示する","","False","0x00002853","",""
+"","Display portraits in the player commendation window.","MIP推薦にポートレートを表示する","","False","0x00002854","",""
+"","Display party member portraits notification.","パーティメンバー紹介の通知を表示する","","False","0x00002855","",""
+"","Disable right-click selection of player characters.","右クリックでのPC選択を除外する","","False","0x00002856","",""
+"","Disable right-click selection of non-player characters in battle.","右クリックでの敵・味方NPC選択を除外する","","False","0x00002857","",""
+"","Display remaining time of status effects.","バフ・デバフの残り時間を表示する","","False","0x00002858","",""
+"","Disable right-click selection of minions.","右クリックでのミニオン選択を除外する","","False","0x00002859","",""
 "","Yo-kai Medallium","YO-KAI MEDALLIUM","","False","0x0000286E","",""
 "","","妖怪大辞典","","False","0x0000286F","",""
 "","Open Minion Guide.","ミニオンリストを開きます。","","False","0x00002870","",""
@@ -11447,6 +11476,8 @@ Progress will not count towards solo completion achievements.","突入階層が<
 "","Party KO count for this save data is more than zero. Later floors will not be accessible. Proceed?","このセーブデータは全滅回数が1以上のため、深層への
 挑戦はできませんが突入しますか？","","False","0x000028F3","",""
 "","Continue with current save data.","このセーブデータで続ける。","","False","0x000028F4","",""
+"","Lodestone Playguide","プレイガイド(Lodestone)","","False","0x000028FA","",""
+"","View the deep dungeon guide.","ディープダンジョンの説明を見る","","False","0x000028FB","",""
 "","Register via Duty Support","コンテンツサポーターで攻略","","False","0x00002904","",""
 "","Register via Trust","フェイスで攻略","","False","0x00002905","",""
 "","/","/","","False","0x0000290B","",""
@@ -11739,7 +11770,7 @@ Proceed?","カスタムマッチから退出します。
 "","Match Count","対戦可能回数","","False","0x00002A37","",""
 "","Tournament Entry","大会エントリー","","False","0x00002A38","",""
 "","Tournament Registration Period","大会対戦受付期間","","False","0x00002A39","",""
-"","<var 28 ((ContentFinderCondition)) E80228 /var>","<var 28 ((ContentFinderCondition)) E80228 /var>","","False","0x00002A3A","",""
+"","<var 28 ((ContentFinderCondition)) E8022A /var>","<var 28 ((ContentFinderCondition)) E8022A /var>","","False","0x00002A3A","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>※The “Duty Complete” option is only available for previously
 　completed duties.
 ※Practice phase selection does not entail the actual skipping of
@@ -12504,7 +12535,7 @@ Should you wish to try your luck, two cards will appear─one hidden, one reveal
 "","Rewards","REWARD","","False","0x00002CA5","",""
 "","","リワード","","False","0x00002CA6","",""
 "","Available Items","受け取れるアイテム","","False","0x00002CA7","",""
-"","Display Only Recently Added Items","最近追加されたアイテムのみを表示","","False","0x00002CA8","",""
+"","Show only recently added items.","最近追加されたアイテムのみを表示","","False","0x00002CA8","",""
 "","Available","受け取り可能","","False","0x00002CA9","",""
 "","Owned","入手済み","","False","0x00002CAA","",""
 "","There is nothing to display.","受取れるものがありません","","False","0x00002CAB","",""
@@ -13117,6 +13148,8 @@ readying for deployment.","ゴブリン・マーシナリー
 "","Destroy the selected item image?","ミラージュドレッサーに保管されている
 <var 28 ((Item)) E80201 /var>の幻影を
 破棄します。よろしいですか？","","False","0x00002E8B","",""
+"","Ascending","昇順","","False","0x00002E8C","",""
+"","Descending","降順","","False","0x00002E8D","",""
 "","Glamour Creation","MIRAGE CONVERSION","","False","0x00002E8E","",""
 "","","幻影化","","False","0x00002E8F","",""
 "","Equipment Selection","EQUIPMENT SELECT","","False","0x00002E90","",""
@@ -13129,8 +13162,17 @@ readying for deployment.","ゴブリン・マーシナリー
 "","Armoury Chest (Wrists/Fingers)","アーマリーチェスト：腕/指","","False","0x00002E97","",""
 "","Glamour Prisms: <var 20 E802 /var>","ミラージュプリズム所持数:<var 20 E802 /var>","","False","0x00002E98","",""
 "","Hide items registered to gear sets.","ギアセット登録アイテムを除外する","","False","0x00002E99","",""
+"","Sort by item level per category.","アイテムを昇順・降順で並び替えます。","","False","0x00002E9A","",""
+"","Item Search","アイテム検索","","False","0x00002E9B","",""
+"","Search","SEARCH","","False","0x00002E9C","",""
+"","Type in the full or partial name of an item
+and press Enter to commence the search.","入力した文字列でアイテムを検索します。
+文字列を入力して決定操作を行ってください。
+検索には時間がかかる場合がありますので
+ご注意ください。","","False","0x00002E9D","",""
+"","No matching items found.","該当するアイテムは見つかりませんでした。","","False","0x00002E9E","",""
 "","There are no glamour-ready items.","幻影化できるアイテムがありません。","","False","0x00002E9F","",""
-"","Execute","幻影化する","","False","0x00002EA0","",""
+"","Store as Glamour","幻影化する","","False","0x00002EA0","",""
 "","Glamour Plate Creation","MIRAGE PLATE EDIT","","False","0x00002EA3","",""
 "","","ミラージュプレート編集","","False","0x00002EA4","",""
 "","Save","保存する","","False","0x00002EA5","",""
@@ -13418,6 +13460,12 @@ Swaps numbers that have already been assigned.","CWLS-<var 20 E802 /var>の新�
 "","Prioritize online members.","オンラインメンバーを上に表示する","","False","0x00002F8D","",""
 "","Channel Reallocation","CHANNEL REMAP","","False","0x00002F8E","",""
 "","","チャンネル番号変更","","False","0x00002F8F","",""
+"","Reset channel order.","チャンネル番号の並び順をリセット","","False","0x00002F90","",""
+"","The current order of cross-world linkshell channels will be reset. Channel numbers may change as a result. Please keep this in mind when accessing them via text command.
+All affiliated cross-world linkshell channels, regardless of data center, will be affected. Proceed?","現在のプレイ環境に保存されているクロスワールドリンクシェルの並び順をリセットします。
+リセット後はチャンネル番号が変わる可能性がありますので、テキストコマンドでのチャンネル指定にご注意ください。
+この操作は加入しているすべてのデータセンターのクロスワールドリンクシェルに適用されます。","","False","0x00002F91","",""
+"","Reset","リセット","","False","0x00002F92","",""
 "","Glamour Removal","MIRAGE DISPELLER SELECT","","False","0x00002F94","",""
 "","","武具投影解除部位選択","","False","0x00002F95","",""
 "","Glamour Plate","ミラージュプレート","","False","0x00002F96","",""
@@ -13743,7 +13791,7 @@ Please bear this in mind before choosing to reset.","段位/レートは半荘�
 "","Lv. <var 20 E802 /var>","LEVEL <var 20 E802 /var>","","False","0x000030CA","",""
 "","Stage Results","STAGE RESULT","","False","0x000030CB","",""
 "","Stage","STAGE","","False","0x000030CC","",""
-"","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E80328 /var>","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E80328 /var>","","False","0x000030CD","",""
+"","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E8032A /var>","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E8032A /var>","","False","0x000030CD","",""
 "","Clear Time","CLEAR TIME","","False","0x000030CE","",""
 "","<var 20 E802 /var>m <var 24 E803 /var>s","<var 20 E802 /var>:<var 24 E803 /var>","","False","0x000030CF","",""
 "","Bonus","BONUS","","False","0x000030D0","",""
@@ -14849,8 +14897,8 @@ Proceed?","中断しているデータを削除します。
 Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are normal.","通常
 通常の状態。","","False","0x00003458","",""
 "","Good
-Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 1.5 times higher than normal.","高品質
-品質の上昇量が通常の1.5倍になっている状態。","","False","0x00003459","",""
+Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","高品質
+品質の上昇量が通常の<var 26 E80265 ((.)) 01 /var>倍になっている状態。","","False","0x00003459","",""
 "","Excellent
 Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 4 times higher than normal.","最高品質
 品質の上昇量が通常の4倍になっている状態。","","False","0x0000345A","",""
@@ -14996,6 +15044,25 @@ Retainer's current gil: <var 22 E802 ((,)) /var>
 
 リテイナー所持ギル：<var 22 E802 ((,)) /var>
 ","","False","0x000034D1","",""
+"","Entrust Duplicates","アイテム一括受け渡し","","False","0x000034D2","",""
+"","Items identical to those already possessed by your retainer may be collectively entrusted from your inventory.
+
+<var 48 F201FA /var><var 49 F201FB /var>※Only applies to stackable items.
+※You may exempt items by unchecking them.
+※Entrusting a wide variety of items may take time.<var 49 01 /var><var 48 01 /var>","あなたの所持品から、すでにリテイナーに預けているアイテムと同じアイテムを見つけ、
+まとめてリテイナーへ預けることができます。
+
+<var 48 F201FA /var><var 49 F201FB /var>※スタック可能なアイテムが対象です。
+※チェックをはずすことで、一括受け渡し対象から除外することができます。
+※預けるアイテムの種類が多いと、時間がかかることがあります。<var 49 01 /var><var 48 01 /var>","","False","0x000034D3","",""
+"","Types of Items: <var 20 E802 /var>","対象アイテム：<var 20 E802 /var>種","","False","0x000034D4","",""
+"","Confirm","決定","","False","0x000034D5","",""
+"","Cancel","キャンセル","","False","0x000034D6","",""
+"","Entrusting items...","アイテム一括受け渡し中","","False","0x000034D7","",""
+"","Successfully entrusted items.","アイテムの一括受け渡しが完了しました。","","False","0x000034D8","",""
+"","Cancel","中止する","","False","0x000034D9","",""
+"","Close Window","終了する","","False","0x000034DA","",""
+"","Items identical to those already possessed by your retainer may be collectively entrusted from your inventory.","あなたの所持品から、すでにリテイナーに預けているアイテムと同じアイテムを見つけ、まとめてリテイナーへ預けることができます。","","False","0x000034DB","",""
 "","Small","小さな絵柄","","False","0x000034EE","",""
 "","Appears Rarely","まれにある","","False","0x000034EF","",""
 "","Medium","中くらいの絵柄","","False","0x000034F0","",""
@@ -15143,6 +15210,37 @@ You will be rewarded only once regardless of the number of materia used.","相�
 "","Use","実行する","","False","0x0000356E","",""
 "","Accessory-specific stances are available via the Change Pose emote.","エモートアクション「ポーズを変える」が
 ファッションアクセサリーに応じたポーズになります。","","False","0x0000356F","",""
+"","Enable Auto-umbrella","雨天時に自動使用する","","False","0x00003570","",""
+"","Disable Auto-umbrella","自動使用の登録を解除する","","False","0x00003571","",""
+"","Umbrella accessories may be used automatically in <var 48 F201FA /var><var 49 F201FB /var>applicable areas<var 49 01 /var><var 48 01 /var>. Enable this feature via any umbrella's subcommand, and your character will open it when in the rain and put it away upon entering a sheltered area or once the rain has stopped.
+※Only one umbrella may be set for automatic use at a time.
+
+<var 48 F201FA /var><var 49 F201FB /var>Applicable Areas<var 49 01 /var><var 48 01 /var>:
+・Large settlements
+・Residential districts
+・The Firmament
+・Island sanctuaries","サブコマンドから<var 48 F201FA /var><var 49 F201FB /var>対象エリア<var 49 01 /var><var 48 01 /var>で自動使用するパラソルを登録できます。
+雨が降ると、登録したパラソルを自動でさすようになり、雨が止んだとき、または屋内や雨が降っていないエリアに移動すると、自動でしまうようになります。
+※登録できるパラソルは1件のみです。
+
+<var 48 F201FA /var><var 49 F201FB /var>＜対象エリア＞<var 49 01 /var><var 48 01 /var>
+・都市
+・ハウジングエリア
+・蒼天街
+・無人島","","False","0x00003572","",""
+"","Obtained from <var 31 ((Item)) 04E8040302 /var> found in <var 28 ((ContentFinderCondition)) E8022A /var>.","「<var 28 ((Item)) E80401 /var>」から修得
+コンテンツ「<var 28 ((ContentFinderCondition)) E8022A /var>」で入手","","False","0x000035BA","",""
+"","Obtained from <var 31 ((Item)) 04E8020302 /var>.
+<var 09 E947 ((<var 61 F63F38E6 /var>
+Bango Zango)) ((<var 61 F6227367 /var>
+Maisenta)) ((<var 61 F63E116C /var>
+Roarich)) /var>","「<var 28 ((Item)) E80201 /var>」から修得<var 09 E947 ((
+<var 61 F63F38E6 /var>
+通貨交換：ブルゲール商会 バンゴ・ザンゴ)) ((
+<var 61 F6227367 /var>
+通貨交換：黒兎堂 マイセンタ)) ((
+<var 61 F63E116C /var>
+通貨交換：アシュガナ貿易 ロリッヒ)) /var>","","False","0x000035BB","",""
 "","Obtained with the Performance ability.","「楽器演奏」を修得","","False","0x000035BC","",""
 "","Obtained from <var 31 ((Item)) 04E8020302 /var>, available as a PvP Series reward.","PvPシリーズ報酬
 「<var 28 ((Item)) E80201 /var>」から修得","","False","0x000035BD","",""
@@ -15154,7 +15252,7 @@ You will be rewarded only once regardless of the number of materia used.","相�
 "","Obtained from <var 31 ((Item)) 04E8020302 /var>.","「<var 28 ((Item)) E80201 /var>」から修得","","False","0x000035BF","",""
 "","Standard element.","初めから使用可能","","False","0x000035C0","",""
 "","Obtained by completing the quest “<var 28 ((Quest)) E80201 /var>.”","クエスト「<var 28 ((Quest)) E80201 /var>」を達成","","False","0x000035C1","",""
-"","Obtained from <var 28 ((ContentFinderCondition)) E80228 /var>.","コンテンツ「<var 28 ((ContentFinderCondition)) E80228 /var>」を攻略","","False","0x000035C2","",""
+"","Obtained from <var 28 ((ContentFinderCondition)) E8022A /var>.","コンテンツ「<var 28 ((ContentFinderCondition)) E8022A /var>」を攻略","","False","0x000035C2","",""
 "","Obtained from <var 31 ((Item)) 04E8040302 /var>.
 <var 61 E803 /var>
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","「<var 28 ((Item)) E80401 /var>」から修得
@@ -15528,7 +15626,7 @@ Proceed?","このまま復元すると、現在の状態が破棄されます。
 "","Display Level","レベルを表示する","","False","0x0000371D","",""
 "","Coordinates","エリア座標","","False","0x0000371E","",""
 "","Copyright","コピーライト","","False","0x0000371F","",""
-"","<var 29 EA02 /var> <var 12 59 /var> <var 29 EA03 /var>","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var>","","False","0x00003720","",""
+"","<var 29 EA02 /var> <var 12 59 /var> <var 29 EA03 /var> <var 08 E0E80465 (()) (([<var 28 ((WorldDCGroupType)) E804 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var><var 08 E0E80465 (()) (( [<var 28 ((WorldDCGroupType)) E804 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003720","",""
 "","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var>","<var 28 ((ClassJob)) E80201 /var>","","False","0x00003721","",""
 "","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var> <var 29 EA03 /var>","<var 28 ((ClassJob)) E80201 /var> <var 29 EA03 /var>","","False","0x00003722","",""
 "","Role-playing","ロールプレイ","","False","0x00003723","",""
@@ -15587,7 +15685,7 @@ Rate:
 "","Collectability","必要収集価値","","False","0x00003764","",""
 "","<var 20 E802 /var>","<var 20 E802 /var>～","","False","0x00003765","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are normal.","通常の状態。","","False","0x00003778","",""
-"","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 1.5 times higher than normal.","品質の上昇量が通常の1.5倍になっている状態。","","False","0x00003779","",""
+"","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","品質の上昇量が通常の<var 26 E80265 ((.)) 01 /var>倍になっている状態。","","False","0x00003779","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 4 times higher than normal.","品質の上昇量が通常の4倍になっている状態。","","False","0x0000377A","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are halved.","品質の上昇量が通常から半減している状態。","","False","0x0000377B","",""
 "","Increases action success rate by 25%.","アクションの成功確率が25%上昇している状態。","","False","0x0000377C","",""
@@ -15688,15 +15786,17 @@ A team of mammets will sow seeds, water plants, and collect a yield of up to 50 
 
 Entrust the produce producer with care of the following crop?
 
-※The produce producer will halt care under the following circumstances:
+※Care will be halted in the following circumstances:
 <var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
 　・Yields have reached the maximum of 50.<var 49 01 /var><var 48 01 /var>
-※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","栽培委託の依頼には、
+※Care and associated fees will resume automatically once required conditions have been met.
+※Yields harvested via the gardening service will not provide island EXP.","栽培委託の依頼には、
 1日毎にシェルダレースクリップ:青船貨<var 20 E802 /var>枚がかかります。
-栽培委託中は種まきから収穫までを魔法人形が行い、
+栽培委託中は、種まきから収穫までを魔法人形が行い、
 最大で50個の収穫物をストックしておくことができます。
-費用は、依頼時と<var 06 12 /var><var 08 E0DB0D ((午後)) ((午前)) /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var>)) 01 /var>時毎に自動的に支払われます。
-すでに当日分が支払われていた場合、追加費用はかかりません。
+費用は、依頼時と（地球時間）<var 06 12 /var><var 08 E0DB0D ((午後)) ((午前)) /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var>)) 01 /var>時毎に、
+自動的に支払われます。
+※すでに当日分が支払われていた場合、追加費用はかかりません。
 
 栽培委託を依頼してよろしいですか？
 
@@ -15706,7 +15806,9 @@ Entrust the produce producer with care of the following crop?
 　　費用の支払いができなかった場合
 　・収穫数が50個に達した場合
 ※再開が可能な状態になると、自動で栽培委託は再開され、
-　再開時に費用が支払われます。<var 49 01 /var><var 48 01 /var>","","False","0x000037F6","",""
+　再開時に費用が支払われます。
+※栽培委託により、魔法人形が収穫を行った場合は、
+　開拓経験値を獲得することはできません。<var 49 01 /var><var 48 01 /var>","","False","0x000037F6","",""
 "","Confirm","決定","","False","0x000037F7","",""
 "","Cancel","キャンセル","","False","0x000037F8","",""
 "","<var 20 E803 /var> <var 08 E4E80302 ((<var 31 ((Item)) 04E8020202 /var>)) ((<var 31 ((Item)) 04E8020302 /var>)) /var> will be collected. Proceed?
@@ -15759,6 +15861,33 @@ Do you still wish to proceed?","受け取るアイテムで所持上限を超え
 "","[Large]","[Large]","","False","0x0000381C","",""
 "","No fish have been caught.","獲得した魚はいません。","","False","0x0000381D","",""
 "","The fish flee!","FINISH!","","False","0x0000381E","",""
+"","<var 08 E4E80201 ((Preferred Bait)) ((Silhouette Size)) /var>","<var 08 E4E80201 ((代表的な釣り餌)) ((シルエットサイズ)) /var>","","False","0x0000381F","",""
+"","<var 29 EA02 /var>","<var 29 EA02 /var>","","False","0x00003820","",""
+"","Filter Settings","フィルター設定","","False","0x00003821","",""
+"","Filter Settings","FILTER SETTING","","False","0x00003822","",""
+"","","フィルター設定","","False","0x00003823","",""
+"","Filter By:","フィルター条件","","False","0x00003824","",""
+"","Region","リージョン","","False","0x00003825","",""
+"","All Areas","全エリア","","False","0x00003826","",""
+"","Regional Folklore","伝承録","","False","0x00003827","",""
+"","Not Specified","設定なし","","False","0x00003828","",""
+"","Big Fish","ヌシ","","False","0x00003829","",""
+"","Collectable","収集品","","False","0x0000382A","",""
+"","Reset Criteria","条件をリセット","","False","0x0000382C","",""
+"","Apply","この条件で決定","","False","0x0000382D","",""
+"","Cancel","キャンセル","","False","0x0000382E","",""
+"","Type in the full or partial name of a fish and press Enter to commence the search. Up to 100 results will be displayed.","入力した文字列で検索を行います。
+文字列を入力して検索操作を行ってください。
+最大で先頭100件まで表示されます。
+カーソル上下操作で履歴が表示されます。","","False","0x0000382F","",""
+"","No matching fish were found.","該当する魚は見つかりませんでした。","","False","0x00003830","",""
+"","","","","False","0x00003831","",""
+"","Mooching","泳がせ釣り","","False","0x00003832","",""
+"","Small","小型","","False","0x00003833","",""
+"","Medium","中型","","False","0x00003834","",""
+"","Large","大型","","False","0x00003835","",""
+"","???","？？？？","","False","0x00003836","",""
+"","???","？？？？","","False","0x00003837","",""
 "","Sort by ID","ID順に並び替え","","False","0x00003841","",""
 "","Sort by Name","文字列順に並び替え","","False","0x00003842","",""
 "","Search","Search","","False","0x00003843","",""
@@ -16061,8 +16190,17 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Cancel","キャンセル","","False","0x000039A4","",""
 "","<var 50 E80203 /var> <var 29 EA03 /var>","<var 50 E80203 /var> <var 29 EA03 /var>","","False","0x000039A5","",""
 "","Settings cannot be saved while performing motions.","モーション再生中は設定を保存できません。","","False","0x000039A6","",""
+"","Import Settings from Adventurer Plate","アドベンチャラープレートから設定をコピーする","","False","0x000039A7","",""
+"","All adventurer plate portrait settings will be copied and imported.
+
+※Poses that are incompatible due to class/job will be reverted to the default.","アドベンチャラープレートに設定された
+ポートレートから各種設定をコピーします。
+
+※コピー先のクラス・ジョブで利用できない
+　モーションの場合は一部設定が初期化されます。","","False","0x000039A8","",""
+"","Adventurer Plate","アドベンチャラープレート","","False","0x000039A9","",""
 "","Enter <var 28 ((InstanceContent)) E80204 /var> with a party of other players","<var 28 ((InstanceContent)) E80204 /var> に、他のプレイヤーと突入","","False","0x000039D0","",""
-"","Enter <var 28 ((ContentFinderCondition)) E80228 /var> with a party of NPCs","<var 28 ((ContentFinderCondition)) E80228 /var> に、サポートNPCと突入","","False","0x000039D1","",""
+"","Enter <var 28 ((ContentFinderCondition)) E8022A /var> with a party of NPCs","<var 28 ((ContentFinderCondition)) E8022A /var> に、サポートNPCと突入","","False","0x000039D1","",""
 "","Party Selection","MEMBER SELECTION","","False","0x000039D2","",""
 "","<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var> )) (()) /var><var 08 E1E80301 ((
 Item Level Sync: <var 20 E803 /var>)) (()) /var>","<var 08 E1E80201 ((平均アイテムレベル <var 20 E802 /var>～　)) (()) /var><var 08 E1E80301 ((
@@ -16078,7 +16216,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","","コンテンツファインダー解説","","False","0x000039DC","",""
 "","Display Duty Finder help.","コンテンツファインダー解説を表示します。","","False","0x000039DD","",""
 "","Member Selection Available","メンバー入れ替え可能","","False","0x000039DE","",""
-"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E80228 /var> in a future update","<var 28 ((ContentFinderCondition)) E80228 /var> は、サポートNPCに対応予定","","False","0x000039DF","",""
+"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E8022A /var> in a future update","<var 28 ((ContentFinderCondition)) E8022A /var> は、サポートNPCに対応予定","","False","0x000039DF","",""
 "","The Duty Support option will become available in a future update.","今後のアップデートで
 コンテンツサポーターに対応予定です。","","False","0x000039E0","",""
 "","The Unending Codex","THE UNENDING CODEX","","False","0x00003A03","",""
@@ -16138,6 +16276,10 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 取得できませんでした。","","False","0x00003A37","",""
 "","<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Executing a limit break!<var 60 0263 /var>","<var 28 ((ClassJob)) E80201 /var> - リミットブレイクを撃ちます！<var 60 0263 /var>","","False","0x00003A38","",""
 "","Everyone, group up!<var 60 0264 /var>","集合しましょう！<var 60 0264 /var>","","False","0x00003A39","",""
+"","The pneumatic parade begins in <var 20 E802 /var>s!","からくり祭り開始まで<var 20 E802 /var>秒！","","False","0x00003A3A","",""
+"","The pneumatic parade is underway!","からくり祭りが始まった！","","False","0x00003A3B","",""
+"","Season <var 20 E802 /var>","シーズン<var 20 E802 /var>開催中","","False","0x00003A3C","",""
+"","Preseason","プレシーズン開催中","","False","0x00003A3D","",""
 "","Coffer Manifest","CHECK THE CONTENTS","","False","0x00003A3E","",""
 "","","中身を確認する","","False","0x00003A3F","",""
 "","Selection:","選択中のアイテム","","False","0x00003A40","",""
@@ -16145,6 +16287,12 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Close","閉じる","","False","0x00003A42","",""
 "","View Manifest","中身を確認する","","False","0x00003A43","",""
 "","Manifest Available","[中身の確認が可能]","","False","0x00003A44","",""
+"","Current Season: <var 20 E802 /var>
+","シーズン<var 20 E802 /var>開催中
+","","False","0x00003A46","",""
+"","Current Season: Preseason
+","プレシーズン開催中
+","","False","0x00003A47","",""
 "","Request Repair","装備品の修理依頼","","False","0x00003A48","",""
 "","Repair Request","REPAIR REQUEST","","False","0x00003A49","",""
 "","","修理依頼","","False","0x00003A4A","",""
@@ -16167,9 +16315,16 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Repair","修理依頼を実行","","False","0x00003A5B","",""
 "","Cancel","取引中止","","False","0x00003A5C","",""
 "","G<var 20 E802 /var>:","G<var 20 E802 /var>:","","False","0x00003A5D","",""
-"","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003A5E","",""
+"","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003A5E","",""
 "","The requested repairs will be carried out using dark matter of a higher grade than is required. Proceed?","<var 48 F201F4 /var><var 49 F201F5 /var>必要な触媒を持っていないため、代わりに上位の触媒が消費されます。<var 49 01 /var><var 48 01 /var>
 よろしいですか？","","False","0x00003A5F","",""
+"","Display Party Member Portraits","パーティメンバー紹介表示","","False","0x00003A61","",""
+"","Party Members","PARTY MEMBER INFORMATION","","False","0x00003A62","",""
+"","Party Member Portraits","パーティメンバー紹介","","False","0x00003A63","",""
+"","Duty Menu","コンテンツメニュー","","False","0x00003A64","",""
+"","Display party member portraits and access related settings.
+<var 48 F201FA /var><var 49 F201FB /var>※Unavailable during certain duties.<var 49 01 /var><var 48 01 /var>","コンテンツ開始時に表示するパーティメンバー紹介を編集モードで表示します。
+※一部のコンテンツでは使用することができません。","","False","0x00003A65","",""
 "","Check the current status of the housing lottery.","ハウスの抽選応募状況を確認できます。","","False","0x00003A66","",""
 "","Hotbar Sorting","EX HOTBAR SORT","","False","0x00003A8E","",""
 "","","EXホットバー並び替え","","False","0x00003A8F","",""
@@ -16182,7 +16337,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 よろしいですか？","","False","0x00003A95","",""
 "","All changes will be lost. Proceed?","変更した内容が破棄されます。
 よろしいですか？","","False","0x00003A96","",""
-"","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003A98","",""
+"","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003A98","",""
 "","Display Search Info","サーチ情報の表示","","False","0x00003A99","",""
 "","Edit Plate Design","プレートデザインを編集","","False","0x00003A9A","",""
 "","Edit Profile","プロフィールを編集","","False","0x00003A9B","",""
@@ -16461,14 +16616,17 @@ A team of mammets will administer feed and collect up to 20 leavings per animal.
 
 Entrust the creature comforter with care of this animal using the following feed?
 
-※The creature comforter will halt care under the following circumstances:
+※Care will be halted in the following circumstances:
 <var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
 　・Leavings have reached the maximum of 20.<var 49 01 /var><var 48 01 /var>
-※Care will resume automatically once the required conditions have been met, and collection of the daily fee will resume accordingly.","飼育委託の依頼には、1日毎にシェルダレースクリップ:青船貨<var 20 E802 /var>枚がかかります。
+※Care and associated fees will resume automatically once required conditions have been met.
+※Leavings collected via the caretaking service will not provide island EXP.","飼育委託の依頼には、
+1日毎にシェルダレースクリップ:青船貨<var 20 E802 /var>枚がかかります。
 飼育委託中は、餌やりと畜産素材採集を魔法人形が行い、
 最大で20個の畜産素材をストックしておくことができます。
-費用は、依頼時と<var 06 12 /var><var 08 E0DB0D ((午後)) ((午前)) /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var>)) 01 /var>時に自動的に支払われます。
-※すでに当日の分が支払われていた場合、費用はかかりません。
+費用は、依頼時と（地球時間）<var 06 12 /var><var 08 E0DB0D ((午後)) ((午前)) /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var>)) 01 /var>時毎に、
+自動的に支払われます。
+※すでに当日分が支払われていた場合、追加費用はかかりません。
 
 飼育委託を依頼してよろしいですか？
 
@@ -16477,7 +16635,9 @@ Entrust the creature comforter with care of this animal using the following feed
 　　費用の支払いができなかった場合
 　・採集済畜産素材数が20個に達した場合
 ※再開が可能な状態になると、自動で飼育委託は再開され、
-　再開時に費用が支払われます。<var 49 01 /var><var 48 01 /var>","","False","0x00003B77","",""
+　再開時に費用が支払われます。
+※飼育委託により、魔法人形が採集を行った場合は、
+　開拓経験値を獲得することはできません。<var 49 01 /var><var 48 01 /var>","","False","0x00003B77","",""
 "","Confirm","決定","","False","0x00003B78","",""
 "","Cancel","キャンセル","","False","0x00003B79","",""
 "","Accept the following items?","以下のアイテムを受け取ります。
@@ -16488,7 +16648,7 @@ Do you still wish to proceed?","受け取るアイテムで所持上限を超え
 持ちきれなかった分は破棄されますが、よろしいですか？","","False","0x00003B7B","",""
 "","<var 29 EA02 /var> will be released from the pasture. Proceed?
 
-<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","「<var 29 EA02 /var>」を逃がします。
+<var 48 F201FA /var><var 49 F201FB /var>※Released creatures cannot be retrieved.<var 49 01 /var><var 48 01 /var>","「<var 29 EA02 /var>」を逃がします。
 よろしいですか？
 
 <var 48 F201FA /var><var 49 F201FB /var>※逃がした動物はもう戻ってきません。
@@ -16558,12 +16718,12 @@ Do you still wish to proceed?","受け取るアイテムで所持上限を超え
 "","","出荷","","False","0x00003BA0","",""
 "","<var 2B ((<var 31 ((BNpcName)) 03E8020202 /var>)) /var> will be released from the pasture. Proceed?
 
-<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","「<var 28 ((BNpcName)) E80201 /var>」を逃がします。
+<var 48 F201FA /var><var 49 F201FB /var>※Released creatures cannot be retrieved.<var 49 01 /var><var 48 01 /var>","「<var 28 ((BNpcName)) E80201 /var>」を逃がします。
 よろしいですか？
 
 <var 48 F201FA /var><var 49 F201FB /var>※逃がした動物はもう戻ってきません。
 <var 49 01 /var><var 48 01 /var>","","False","0x00003BA1","",""
-"","Rare Materials","希少開拓素材","","False","0x00003BA2","",""
+"","Passionate Pioneering","開拓者として高みを目指そう","","False","0x00003BA2","",""
 "","Produce","開拓作物","","False","0x00003BA3","",""
 "","Leavings","畜産素材","","False","0x00003BA4","",""
 "","Item","アイテム名","","False","0x00003BA5","",""
@@ -16727,6 +16887,18 @@ Release Area: <var 29 EA03 /var>
 よろしいですか？","","False","0x00003C1A","",""
 "","Catalyst","消費触媒","","False","0x00003C1B","",""
 "","<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","状態/<var 08 E1E80201 ((拡張中：<var 07 E802 /var><var 20 DF /var>/<var 20 DE /var>/<var 20 DC /var> <var 20 DB /var>:<var 24 DA /var>)) ((確認待ち)) /var>","","False","0x00003C1C","",""
+"","Access the facility's logboard to complete construction. ","開拓工房の管理板にアクセスして、
+建築を完了してください。","","False","0x00003C1D","",""
+"","Access the facility's logboard to complete construction. ","グラナリーオフィスの管理板にアクセスして、建築を完了してください。","","False","0x00003C1E","",""
+"","Gathering","開拓採集","","False","0x00003C1F","",""
+"","Entry","入場許可","","False","0x00003C20","",""
+"","Minimap Settings","採集物のナビマップ表示設定","","False","0x00003C21","",""
+"","Display vegetation.","植物系のアイコンを表示する","","False","0x00003C22","",""
+"","Display trees.","木材系のアイコンを表示する","","False","0x00003C23","",""
+"","Display rocks and mineral deposits.","岩／鉱石系のアイコンを表示する","","False","0x00003C24","",""
+"","Display soils.","土山系のアイコンを表示する","","False","0x00003C25","",""
+"","Display aquatic resources.","水産物系のアイコンを表示する","","False","0x00003C26","",""
+"","Value Change","価格変動値","","False","0x00003C27","",""
 "","V&C Dungeon Finder","SPECIAL DUNGEON FINDER","","False","0x00003C28","",""
 "","","特殊ダンジョン探索","","False","0x00003C29","",""
 "","Variant Dungeons","ヴァリアントダンジョン","","False","0x00003C2A","",""
@@ -16774,8 +16946,8 @@ Instance Reset on Party KO)) /var>)) (()) /var>","<var 08 E1E80201 ((平均�
 "","V&C Dungeon Finder Help","SPECIAL DUNGEON FINDER HELP","","False","0x00003C44","",""
 "","","特殊ダンジョン探索の解説","","False","0x00003C45","",""
 "","Enter dungeon as a solo player?","本当にひとりで突入しますか？","","False","0x00003C46","",""
-"","","","","False","0x00003C47","",""
-"","","","","False","0x00003C48","",""
+"","Variant actions cannot be changed during battle or while the recast timer is on cooldown.","戦闘中およびヴァリアントアクションのリキャスト中は別のヴァリアントアクションへの切り替えはできません。","","False","0x00003C47","",""
+"","To read this entry, you must first complete the quest “<var 28 ((Quest)) E80201 /var>.”","発見した物語を読むには、クエスト「<var 28 ((Quest)) E80201 /var>」をコンプリートする必要があります。","","False","0x00003C48","",""
 "","","","","False","0x00003C49","",""
 "","","","","False","0x00003C4A","",""
 "","","","","False","0x00003C4B","",""
@@ -16793,6 +16965,76 @@ Instance Reset on Party KO)) /var>)) (()) /var>","<var 08 E1E80201 ((平均�
 "","","","","False","0x00003C57","",""
 "","","","","False","0x00003C58","",""
 "","","","","False","0x00003C59","",""
+"","Party Member Portrait Settings","パーティメンバー紹介の設定","","False","0x00003C6E","",""
+"","Show party member portraits at the start of duty.","コンテンツ開始時にパーティメンバー紹介を表示する","","False","0x00003C6F","",""
+"","Display party member portraits notification.","パーティメンバー紹介の通知を表示する","","False","0x00003C70","",""
+"","Align portraits to bottom of window.","ポートレートの表示を下詰めにする","","False","0x00003C71","",""
+"","Confirm","決定","","False","0x00003C72","",""
+"","Cancel","キャンセル","","False","0x00003C73","",""
+"","Display Party Member Portrait help.","パーティメンバー紹介のヘルプを表示します。","","False","0x00003C74","",""
+"","Settings","設定を開く","","False","0x00003C75","",""
+"","Collect All","まとめて受け取る","","False","0x00003C8C","",""
+"","Are you sure you wish to collect all of the leavings gathered by the creature comforter?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Caretaking services will continue after collection.<var 49 01 /var><var 48 01 /var>","飼育委託で収穫された素材をすべて受け取ります。
+よろしいですか？
+
+※受け取り後も飼育委託は継続されます。","","False","0x00003C8D","",""
+"","Warning: You will not be able to receive all of the items. Those that cannot fit in your isleventory will be discarded.
+
+Do you still wish to proceed?","一部の素材が所持上限を超えます。
+持ちきれなかった分は破棄されますが
+よろしいですか？","","False","0x00003C8E","",""
+"","Dismiss the caretaker and release <var 29 EA02 /var> from the pasture?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Available leavings not exceeding isleventory capacity will be collected.
+※Released creatures cannot be retrieved.<var 49 01 /var><var 48 01 /var>","「<var 29 EA02 /var>」の飼育委託を終了して逃がします。よろしいですか？
+（採集済素材は自動的に回収されますが、持ちきれなかった分は破棄されます。）
+
+<var 48 F201FA /var><var 49 F201FB /var>※逃がした動物はもう戻ってきません。
+<var 49 01 /var><var 48 01 /var>","","False","0x00003C8F","",""
+"","Collect All","まとめて受け取る","","False","0x00003C90","",""
+"","Are you sure you wish to collect all of the yields harvested by the produce producer?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Gardening services will continue after collection.<var 49 01 /var><var 48 01 /var>","栽培委託で収穫された作物を全て受け取ります。
+よろしいですか？
+
+<var 48 F201FA /var><var 49 F201FB /var>※受け取り後も栽培委託は継続されます。<var 49 01 /var><var 48 01 /var>","","False","0x00003C91","",""
+"","Warning: You will not be able to receive all of the items. Those that cannot fit in your isleventory will be discarded.
+
+Do you still wish to proceed?","一部の作物は所持上限を超えます。
+持ちきれなかった分は破棄されますが
+よろしいですか？","","False","0x00003C92","",""
+"","Time","所要時間","","False","0x00003C93","",""
+"","Popularity:","人気度：","","False","0x00003C94","",""
+"","Supply:","需要：","","False","0x00003C95","",""
+"","Demand Shift:","需要変化：","","False","0x00003C96","",""
+"","Predicted Popularity:","来期の人気度予測：","","False","0x00003C97","",""
+"","Dismiss the caretaker and release <var 31 ((BNpcName)) 03E8020202 /var> from the pasture?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Available leavings not exceeding isleventory capacity will be collected.
+※Released creatures cannot be retrieved.<var 49 01 /var><var 48 01 /var>","「<var 28 ((BNpcName)) E80201 /var>」の飼育委託を終了して逃がします。よろしいですか？
+（採集済素材は自動的に回収されますが、持ちきれなかった分は破棄されます。）
+
+<var 48 F201FA /var><var 49 F201FB /var>※逃がした動物はもう戻ってきません。
+<var 49 01 /var><var 48 01 /var>","","False","0x00003C98","",""
+"","Play on Loop","開拓拠点周辺に再生する","","False","0x00003C99","",""
+"","Filter Settings","FILTER SETTING","","False","0x00003CF0","",""
+"","","フィルター設定","","False","0x00003CF1","",""
+"","Filter By:","フィルター条件","","False","0x00003CF2","",""
+"","Required Level","装備レベルを設定","","False","0x00003CF3","",""
+"","Lv.","Lv","","False","0x00003CF4","",""
+"","Lv. 1","Lv 1","","False","0x00003CF5","",""
+"","Gender","性別を設定","","False","0x00003CF6","",""
+"","Not Specified","設定なし","","False","0x00003CF7","",""
+"","Male","男性","","False","0x00003CF8","",""
+"","Female","女性","","False","0x00003CF9","",""
+"","Name/Keyword","文字列を設定","","False","0x00003CFA","",""
+"","Reset Criteria","条件をリセット","","False","0x00003CFB","",""
+"","Apply","決定","","False","0x00003CFC","",""
+"","Cancel","キャンセル","","False","0x00003CFD","",""
+"","Filter displayed items by specified criteria.","アイテムの表示フィルターを設定できます。","","False","0x00003CFE","",""
+"","Current Gender","現在の性別に合わせる","","False","0x00003CFF","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var>サブコマンド","","False","0x00018A88","",""
 "","<var 1E 0C /var>","<var 1E 0C /var>","","False","0x00018A89","",""
 "","<var 1E 14 /var> Select","<var 1E 14 /var>選択","","False","0x00018A8A","",""
@@ -17343,6 +17585,8 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 "","https://sqex.to/dCSwT","https://sqex.to/dCSwT","","False","0x00019092","",""
 "","Visit Website","アクセス","","False","0x00019093","",""
 "","Community Finder","コミュニティを探す","","False","0x00019094","",""
+"","Player Commendation Settings","MIP SETTING","","False","0x00019095","",""
+"","","MIP推薦設定","","False","0x00019096","",""
 "","Vote Dismiss","投票除名","","False","0x00019097","",""
 "","Nominate <var 29 EA02 /var> for dismissal.","<var 29 EA02 /var>の投票除名を開始します。","","False","0x00019098","",""
 "","Select reason for dismissal.","除名する理由を選択してください。","","False","0x00019099","",""
@@ -17360,12 +17604,19 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 "","No","いいえ","","False","0x000190A5","",""
 "","<var 48 F201FC /var><var 49 F201FD /var>Warning: Unjustified usage of vote dismiss is a punishable act.<var 49 01 /var><var 48 01 /var>","<var 48 F201FC /var><var 49 F201FD /var>正当な理由なく投票除名を行った場合は、
 あなたが処罰対象になる可能性があります。<var 49 01 /var><var 48 01 /var>","","False","0x000190A6","",""
+"","Settings","設定を開く","","False","0x000190A7","",""
+"","Enable portraits in commendations window?
+※If all party members have left, settings will be reflected during the next duty.","MIP推薦時にポートレートを表示するか、設定できます。
+※すでに他のメンバーが退出している場合は、次回から反映されます。","","False","0x000190A8","",""
+"","Yes, display portraits.","MIP推薦にポートレートを表示する","","False","0x000190A9","",""
 "","Player Commendation","PLAYER COMMENDATION","","False","0x000190AA","",""
 "","","MIP推薦","","False","0x000190AB","",""
 "","Commend the player who left a positive impression upon you.","一緒にプレイできて良かった！ と思った1人にMIP推薦が行えます。","","False","0x000190AC","",""
 "","OK","決定","","False","0x000190AD","",""
 "","Cancel","キャンセル","","False","0x000190AE","",""
 "","Player Commendation","MIP推薦","","False","0x000190AF","",""
+"","Confirm","決定","","False","0x000190B0","",""
+"","Cancel","キャンセル","","False","0x000190B1","",""
 "","Withdrawing from a duty via the withdraw button or allowing the timer to run out will incur a temporary penalty preventing you from registering for duty.
 Proceed?","マッチング後に辞退ボタンの押下、もしくは時間切れに
 よる辞退を行うと、ペナルティが適用され、

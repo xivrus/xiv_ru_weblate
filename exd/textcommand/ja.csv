@@ -732,7 +732,66 @@ USAGE:
 
 →Opens and closes your adventurer plate.<tab><tab><tab>/adventurerplate<tab>/myplate","/adventurerplate(/myplate)
 自分のアドベンチャラープレートを開く。<tab><tab><tab>/adventurerplate<tab>/myplate","","False","0x00000026","",""
-"","<tab><tab><tab>//resetSettingCWLS<tab>","<tab><tab><tab>//resetSettingCWLS<tab>","","False","0x00000027","",""
+"","USAGE:
+　/rclickpc [subcommand]
+
+→Sets right-click selection to allow or ignore PC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for PCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for PCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickpc<tab>","/rclickpc サブコマンド
+キャラクターコンフィグ「右クリックでのPC選択を除外する」を設定する。
+>>サブコマンド
+on
+　…除外設定を有効にする。
+off
+　…除外設定を無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え<tab><tab><tab>/rclickpc<tab>","","False","0x00000027","",""
+"","USAGE:
+　/rclickbattlenpc [subcommand]
+
+→Sets right-click selection to allow or ignore battle NPC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for battle NPCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for battle NPCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickbattlenpc<tab>","/rclickbattlenpc サブコマンド
+キャラクターコンフィグ「右クリックでの敵・味方NPC選択を除外する」を設定する。
+>>サブコマンド
+on
+　…除外設定を有効にする。
+off
+　…除外設定を無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え<tab><tab><tab>/rclickbattlenpc<tab>","","False","0x00000028","",""
+"","USAGE:
+　/rclickminion [subcommand]
+
+→Sets right-click selection to allow or ignore minion targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for minions.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for minions.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickminion<tab>","/rclickminion サブコマンド
+キャラクターコンフィグ「右クリックでのミニオン選択を除外する」を設定する。
+>>サブコマンド
+on
+　…除外設定を有効にする。
+off
+　…除外設定を無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え<tab><tab><tab>/rclickminion<tab>","","False","0x00000029","",""
 "","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -1561,12 +1620,12 @@ USAGE:
 　　Place or remove waymark 3. Overwrites existing waymark if target is specified.
 　<var 48 F201FA /var><var 49 F201FB /var>4<var 49 01 /var><var 48 01 /var>
 　　Place or remove waymark 4. Overwrites existing waymark if target is specified.
- 　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear <var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>
 　　Remove all waymarks.
- 　<var 48 F201FA /var><var 49 F201FB /var>save 1-5<var 49 01 /var><var 48 01 /var>
-　　Save waymark placements to slots 1-5 of the Waymarks menu.
-　 <var 48 F201FA /var><var 49 F201FB /var>preset 1-5<var 49 01 /var><var 48 01 /var>
-　　Load waymark placements from slots 1-5 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>save 1-30<var 49 01 /var><var 48 01 /var>
+　　Save waymark placements to slots 1-30 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>preset 1-30<var 49 01 /var><var 48 01 /var>
+　　Load waymark placements from slots 1-30 of the Waymarks menu.
 
 You will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.
 
@@ -1599,9 +1658,9 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　…マーカーを現在のカーソル位置に直接設置する
 clear(off)
 　…マーカーをすべて解除する。
-save スロット番号(1-5)
+save スロット番号(1-30)
 　…設置状態のマーカー情報を保存する。
-preset スロット番号(1-5)
+preset スロット番号(1-30)
 　…保存されたマーカー情報を復元する。
 ※マーカー名省略
 　…Aから順番に、未使用のマーカーを設置する。すべてのマーカーが設置済みの場合は使用できない。代名詞が指定されている場合は、マーカー名は省略できない。
@@ -1980,7 +2039,7 @@ Gear set list will be displayed when no subcommand is specified.
 <tab><tab><tab>/gearset<tab>/gs","/gearset(/gs) サブコマンド
 ギアセットに関する操作を行う。
 >>サブコマンド
-change ギアセット名／番号 ミラージュプレート番号(1-15)
+change ギアセット名／番号 ミラージュプレート番号(1-20)
 　…指定したギアセットに保存した装備に変更する。ミラージュプレートの設定がされていたらあわせて投影する。ミラージュプレート番号は省略可能。
 view ギアセット名／番号
 　…指定したギアセットに保存した装備アイテムのリストを表示する。
@@ -2176,13 +2235,13 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<var 1E 0B /var>, R, NUM*, Mouse Wheel
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Mouse Wheel
 
 　Toggle group view on camera
-　<var 1E 0C /var>, Spacebar
+　<var 1E 0C /var>, <var 08 E4E94F04 ((spacebar)) ((Spacebar)) /var>
 
 　Toggle camera lighting
-　<var 1E 0E /var>, X
+　<var 1E 0E /var>, <var 08 E4E94F04 ((x)) ((X)) /var>
 
 　Toggle all character motions
 　<var 1E 0F /var>, 1 Key
@@ -2191,32 +2250,32 @@ USAGE:
 　<var 1E 10 /var>, 2 Key
 
 　Change focus of camera
-　<var 1E 07 /var>, Tab, Shift+Tab
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
 
 　Adjust frame composition
- 　<var 1E 15 /var>, W, A, S, D, Q, E
+ 　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 
 　Reset frame composition
-　<var 12 11 /var>, Z<tab><tab><tab>/grouppose<tab>/gpose","/grouppose(/gpose)
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var><tab><tab><tab>/grouppose<tab>/gpose","/grouppose(/gpose)
 グループポーズ（フォトモード）を実行する。
 
 >>機能内操作
 カメラ設定ウィンドウの表示
-　…<var 1E 0B /var>／【R】キー、テンキー【*】／ホイールボタン
+　…<var 1E 0B /var>／【<var 08 E4E94F04 ((r)) ((R)) /var>】キー、テンキー【*】／ホイールボタン
 カメラ方向への視線送りON/OFF
-　…<var 1E 0C /var>／【Space】キー
+　…<var 1E 0C /var>／【<var 08 E4E94F04 ((space)) ((Space)) /var>】キー
 カメラ位置に照明を設置
-　…<var 1E 0E /var>／【X】キー
+　…<var 1E 0E /var>／【<var 08 E4E94F04 ((x)) ((X)) /var>】キー
 モーションストップ（全体）
 　…<var 1E 0F /var>／【1】キー
 モーションストップ（選択対象）
 　…<var 1E 10 /var>／【2】キー
 注視キャラクターの切り替え
-　…<var 1E 07 /var>／【Tab,Shift+Tab】キー
+　…<var 1E 07 /var>／【<var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>】キー
 カメラの操作
-　…<var 1E 15 /var>／【W,A,S,D,Q,E】キー
+　…<var 1E 15 /var>／【<var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>】キー
 カメラリセット
-　…<var 12 11 /var>／【Z】キー <tab><tab><tab>/grouppose<tab>/gpose","","False","0x000000DB","",""
+　…<var 12 11 /var>／【<var 08 E4E94F04 ((z)) ((Z)) /var>】キー <tab><tab><tab>/grouppose<tab>/gpose","","False","0x000000DB","",""
 "","ALIASES:
 　/itemsearch, /isearch
 USAGE:
@@ -2244,19 +2303,19 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<var 1E 0B /var>, R, NUM*, Wheel Button
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Wheel Button
 
 　Pause/unpause camera
 　<var 1E 09 /var>, NUM0, left-click
 
 　Skip scene
-　<var 1E 07 /var>, Tab, Shift+Tab
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
 
 　Adjust frame composition
-　<var 1E 15 /var>, W, A, S, D, Q, E
+　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 
 　Reset frame composition
-　<var 12 11 /var>, Z
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var>
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
@@ -2268,15 +2327,15 @@ A full list of placeholders can be found on the Lodestone Play Guide.<tab><tab><
 
 >>機能内操作
 カメラ設定ウィンドウの表示
-　…<var 1E 0B /var>／【R】キー、テンキー【*】／ホイールボタン
+　…<var 1E 0B /var>／【<var 08 E4E94F04 ((r)) ((R)) /var>】キー、テンキー【*】／ホイールボタン
 カメラアングル切り替え一時停止・再開
 　…<var 1E 09 /var>／テンキー【0】／左クリック 
 シーンスキップ
-　…<var 1E 07 /var>／【Tab,Shift+Tab】キー
+　…<var 1E 07 /var>／【<var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>】キー
 カメラの操作
-　…<var 1E 15 /var>／【W,A,S,D,Q,E】キー
+　…<var 1E 15 /var>／【<var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>】キー
 カメラリセット
-　…<var 12 11 /var>／【Z】キー
+　…<var 12 11 /var>／【<var 08 E4E94F04 ((z)) ((Z)) /var>】キー
 
 実行例
 /idlingcamera
@@ -2688,7 +2747,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　/action ""Earthly Star"" gtoff
 　(Executes Earthly Star at
 　mouse cursor's location.)<tab><tab><tab>/action<tab>/ac","/action(/ac) “アクション名” 代名詞
-指定したキャラクターに指定したアクションを実行する。自分を対象にできるアクションの場合は、代名詞を省略可能。アクションが行えない環境のとき、あるいは覚えていないアクションのときは実行できない。
+指定したキャラクターに指定したアクションを実行する。アクションが行えない環境のとき、あるいは覚えていないアクションのときは実行できない。
 
 グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
 代名詞
@@ -2948,35 +3007,10 @@ off
 USAGE:
 　/aaction ""action name"" [subcommand]
 
-→Set the specified action as an additional action for your current gatherer class. This command cannot be used with Disciples of War or Magic.
-
->>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>　Set additional action.
-　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>　Remove additional action.
-　<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>　Remove all additional actions.
-
-Toggle between on and off when no subcommand is specified.
-
->>Examples:
-　/aaction ""Triangulate""
-　(Sets Triangulate as an additional action.)
-
-　/aaction clear
-　(Removes all additional actions.)<tab><tab><tab>/additionalaction<tab>/aaction","/additionalaction(/aaction) “アクション名” サブコマンド
-指定したアクションを「アディショナルアクション」として設定する。ギャザラーのみ使用可能。アクション名の代わりに“clear”を指定した場合、現在設定しているすべての選択アクションを解除する。
->>サブコマンド
-on 
-　…指定したアクションを設定する。
-off 
-　…指定したアクションを解除する。
-※サブコマンド省略
-　…設定／解除のスイッチ切り替え。
-
-実行例
-/additionalaction トライアングレート on
-　…アディショナルアクションに「トライアングレート」を設定する。
-/additionalaction clear
-　…アディショナルアクションに設定したアクションを解除する。<tab><tab><tab>/additionalaction<tab>/aaction","","False","0x00000110","",""
+A command previously believed to set the specified action as an additional action for your current gatherer class.
+※This text command is no longer in use.<tab><tab><tab>/additionalaction<tab>/aaction","/additionalaction(/aaction)
+アディショナルアクションを設定できると信じられていた機能。
+※システム改修により現在は利用できません。<tab><tab><tab>/additionalaction<tab>/aaction","","False","0x00000110","",""
 "","ALIASES:
 　/generalaction, /gaction
 USAGE:
@@ -3058,7 +3092,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　/pvpaction ""Storm's Path"" <t>
 　(Executes Storm's Path
 　on current target.)<tab><tab><tab>/pvpaction<tab>/pvpac","/pvpaction(/pvpac) “PvPアクション名” 代名詞
-指定したキャラクターに指定したPvPアクションを実行する。自分を対象にできるアクションの場合は、代名詞を省略可能。敵対的なアクションの場合は代名詞指定のみ可能。アクションが行えない環境のとき、あるいは修得していないアクションのときは実行できない。
+指定したキャラクターに指定したPvPアクションを実行する。アクションが行えない環境のとき、あるいは修得していないアクションのときは実行できない。
 
 グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
 代名詞
@@ -3087,7 +3121,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　/blueaction “Water Cannon” <t>
 　(Executes Water Cannon on
 　the specified target.)<tab><tab><tab>/blueaction<tab>","/blueaction “青魔法名” 代名詞
-指定したキャラクターに指定した青魔法を実行する。
+指定したキャラクターに指定した青魔法を実行する。アクションが行えない環境のとき、あるいはラーニングしていないアクションのときは実行できない。
 
 グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
 代名詞
@@ -3481,7 +3515,8 @@ off
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -6794,7 +6829,7 @@ motion
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.<tab><tab><tab>/leftwink<tab>","/leftwink サブコマンド
-ウィンクをする。
+ウィンク（左）をする。
 >>サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
@@ -7668,7 +7703,7 @@ USAGE:
 →Bare your teeth derisively.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/deride(/pagaga) サブコマンド
 反骨精神を示す。
@@ -7700,7 +7735,7 @@ USAGE:
 →Nibble on a pumpkin cookie.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/eatpumpkincookie(/cookie) サブコマンド
 パンプキンクッキーを食べる。
@@ -7724,4 +7759,51 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/spirit<tab>","","False","0x00000289","",""
+"","ALIASES:
+　/littleladiesdance, /ladance
+USAGE:
+　/ladance [subcommand]
+
+→Perform the Little Ladies' Dance.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/littleladiesdance<tab>/ladance","/littleladiesdance(/ladance) サブコマンド
+姫の舞踊を踊る。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/littleladiesdance<tab>/ladance","","False","0x0000028B","",""
+"","USAGE:
+　/linkpearl [subcommand]
+
+→Make a linkpearl call.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/linkpearl<tab>","/linkpearl サブコマンド
+リンクパール通信をする。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/linkpearl<tab>","","False","0x0000028C","",""
+"","USAGE:
+　/frighten [subcommand]
+
+→Attempt to appear menacing.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/frighten<tab>","/frighten サブコマンド
+驚かす。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/frighten<tab>","","False","0x00000291","",""
 

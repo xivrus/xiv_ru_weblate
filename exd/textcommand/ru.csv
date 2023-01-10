@@ -433,7 +433,75 @@ USAGE:
 　/myplate
 
 →Opens and closes your adventurer plate.<tab><tab><tab>/adventurerplate<tab>/myplate","","","False","0x00000026","",""
-"","<tab><tab><tab>//resetSettingCWLS<tab>","<tab><tab><tab>//resetSettingCWLS<tab>","","True","0x00000027","",""
+"","USAGE:
+　/rclickpc [subcommand]
+
+→Sets right-click selection to allow or ignore PC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for PCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for PCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickpc<tab>","USAGE:
+　/rclickpc [subcommand]
+
+→Sets right-click selection to allow or ignore PC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for PCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for PCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickpc<tab>","","True","0x00000027","",""
+"","USAGE:
+　/rclickbattlenpc [subcommand]
+
+→Sets right-click selection to allow or ignore battle NPC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for battle NPCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for battle NPCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickbattlenpc<tab>","USAGE:
+　/rclickbattlenpc [subcommand]
+
+→Sets right-click selection to allow or ignore battle NPC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for battle NPCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for battle NPCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickbattlenpc<tab>","","True","0x00000028","",""
+"","USAGE:
+　/rclickminion [subcommand]
+
+→Sets right-click selection to allow or ignore minion targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for minions.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for minions.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickminion<tab>","USAGE:
+　/rclickminion [subcommand]
+
+→Sets right-click selection to allow or ignore minion targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for minions.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for minions.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickminion<tab>","","True","0x00000029","",""
 "","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -1046,12 +1114,12 @@ USAGE:
 　　Place or remove waymark 3. Overwrites existing waymark if target is specified.
 　<var 48 F201FA /var><var 49 F201FB /var>4<var 49 01 /var><var 48 01 /var>
 　　Place or remove waymark 4. Overwrites existing waymark if target is specified.
- 　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear <var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>
 　　Remove all waymarks.
- 　<var 48 F201FA /var><var 49 F201FB /var>save 1-5<var 49 01 /var><var 48 01 /var>
-　　Save waymark placements to slots 1-5 of the Waymarks menu.
-　 <var 48 F201FA /var><var 49 F201FB /var>preset 1-5<var 49 01 /var><var 48 01 /var>
-　　Load waymark placements from slots 1-5 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>save 1-30<var 49 01 /var><var 48 01 /var>
+　　Save waymark placements to slots 1-30 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>preset 1-30<var 49 01 /var><var 48 01 /var>
+　　Load waymark placements from slots 1-30 of the Waymarks menu.
 
 You will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.
 
@@ -1072,7 +1140,57 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 
 　/waymark A gtoff
 　(Places waymark A at the
-　mouse cursor's location.)<tab>/waymark<tab>/wmark<tab>/waymark<tab>/wmark","","","False","0x000000B2","",""
+　mouse cursor's location.)<tab>/waymark<tab>/wmark<tab>/waymark<tab>/wmark","ALIASES:
+　/waymark, /wmark
+USAGE:
+　/wmark [subcommand] [placeholder]
+
+→Place a waymark on the ground below a target. If no target is specified, you will enter ground targeting mode ready to place a waymark.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>a <var 49 01 /var><var 48 01 /var>
+　　Place or remove waymark A. Overwrites existing waymark if target is specified.
+　<var 48 F201FA /var><var 49 F201FB /var>b <var 49 01 /var><var 48 01 /var>
+　　Place or remove waymark B. Overwrites existing waymark if target is specified.
+　<var 48 F201FA /var><var 49 F201FB /var>c <var 49 01 /var><var 48 01 /var>
+　　Place or remove waymark C. Overwrites existing waymark if target is specified.
+　<var 48 F201FA /var><var 49 F201FB /var>d<var 49 01 /var><var 48 01 /var>
+　　Place or remove waymark D. Overwrites existing waymark if target is specified.
+　<var 48 F201FA /var><var 49 F201FB /var>1<var 49 01 /var><var 48 01 /var>
+　　Place or remove waymark 1. Overwrites existing waymark if target is specified.
+　<var 48 F201FA /var><var 49 F201FB /var>2<var 49 01 /var><var 48 01 /var>
+　　Place or remove waymark 2. Overwrites existing waymark if target is specified.
+　<var 48 F201FA /var><var 49 F201FB /var>3<var 49 01 /var><var 48 01 /var>
+　　Place or remove waymark 3. Overwrites existing waymark if target is specified.
+　<var 48 F201FA /var><var 49 F201FB /var>4<var 49 01 /var><var 48 01 /var>
+　　Place or remove waymark 4. Overwrites existing waymark if target is specified.
+　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>
+　　Remove all waymarks.
+　<var 48 F201FA /var><var 49 F201FB /var>save 1-30<var 49 01 /var><var 48 01 /var>
+　　Save waymark placements to slots 1-30 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>preset 1-30<var 49 01 /var><var 48 01 /var>
+　　Load waymark placements from slots 1-30 of the Waymarks menu.
+
+You will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>, gtoff
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Examples:
+　/waymark A
+　(Enters ground targeting
+　mode ready to place
+　waymark A.)
+
+　/waymark A <t>
+　(Places waymark A at the
+　selected target's location.)
+
+　/waymark A gtoff
+　(Places waymark A at the
+　mouse cursor's location.)<tab>/waymark<tab>/wmark<tab>/waymark<tab>/wmark","","True","0x000000B2","",""
 "","ALIASES:
 　/fishguide, /fg
 USAGE:
@@ -1477,13 +1595,13 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<var 1E 0B /var>, R, NUM*, Mouse Wheel
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Mouse Wheel
 
 　Toggle group view on camera
-　<var 1E 0C /var>, Spacebar
+　<var 1E 0C /var>, <var 08 E4E94F04 ((spacebar)) ((Spacebar)) /var>
 
 　Toggle camera lighting
-　<var 1E 0E /var>, X
+　<var 1E 0E /var>, <var 08 E4E94F04 ((x)) ((X)) /var>
 
 　Toggle all character motions
 　<var 1E 0F /var>, 1 Key
@@ -1492,13 +1610,43 @@ USAGE:
 　<var 1E 10 /var>, 2 Key
 
 　Change focus of camera
-　<var 1E 07 /var>, Tab, Shift+Tab
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
 
 　Adjust frame composition
- 　<var 1E 15 /var>, W, A, S, D, Q, E
+ 　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 
 　Reset frame composition
-　<var 12 11 /var>, Z<tab><tab><tab>/grouppose<tab>/gpose","","","False","0x000000DB","",""
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var><tab><tab><tab>/grouppose<tab>/gpose","ALIASES:
+　/grouppose, /gpose
+USAGE:
+　/gpose
+
+→Pose as a group.
+
+>>Controls
+　Open the Camera Settings interface
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Mouse Wheel
+
+　Toggle group view on camera
+　<var 1E 0C /var>, <var 08 E4E94F04 ((spacebar)) ((Spacebar)) /var>
+
+　Toggle camera lighting
+　<var 1E 0E /var>, <var 08 E4E94F04 ((x)) ((X)) /var>
+
+　Toggle all character motions
+　<var 1E 0F /var>, 1 Key
+
+　Toggle target character motions
+　<var 1E 10 /var>, 2 Key
+
+　Change focus of camera
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
+
+　Adjust frame composition
+ 　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
+
+　Reset frame composition
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var><tab><tab><tab>/grouppose<tab>/gpose","","True","0x000000DB","",""
 "","ALIASES:
 　/itemsearch, /isearch
 USAGE:
@@ -1520,24 +1668,50 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<var 1E 0B /var>, R, NUM*, Wheel Button
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Wheel Button
 
 　Pause/unpause camera
 　<var 1E 09 /var>, NUM0, left-click
 
 　Skip scene
-　<var 1E 07 /var>, Tab, Shift+Tab
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
 
 　Adjust frame composition
-　<var 1E 15 /var>, W, A, S, D, Q, E
+　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 
 　Reset frame composition
-　<var 12 11 /var>, Z
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var>
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
 
-A full list of placeholders can be found on the Lodestone Play Guide.<tab><tab><tab>/idlingcamera<tab>/icam","","","False","0x000000DD","",""
+A full list of placeholders can be found on the Lodestone Play Guide.<tab><tab><tab>/idlingcamera<tab>/icam","ALIASES:
+　/idlingcamera, /icam
+USAGE:
+　/icam [placeholder]
+
+→Activate the idling camera. Target does not need to be specified. If a target is specified, the camera will switch between camera angles focusing on that target. If the specified target cannot be focused on, then a random subject will be chosen.
+
+>>Controls
+　Open the Camera Settings interface
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Wheel Button
+
+　Pause/unpause camera
+　<var 1E 09 /var>, NUM0, left-click
+
+　Skip scene
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
+
+　Adjust frame composition
+　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
+
+　Reset frame composition
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var>
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.<tab><tab><tab>/idlingcamera<tab>/icam","","True","0x000000DD","",""
 "","USAGE:
 　/duelswitch [subcommand]
 
@@ -1966,21 +2140,14 @@ Toggle between on and off when no subcommand is specified.<tab><tab><tab>/levels
 USAGE:
 　/aaction ""action name"" [subcommand]
 
-→Set the specified action as an additional action for your current gatherer class. This command cannot be used with Disciples of War or Magic.
+A command previously believed to set the specified action as an additional action for your current gatherer class.
+※This text command is no longer in use.<tab><tab><tab>/additionalaction<tab>/aaction","ALIASES:
+　/additionalaction, /aaction
+USAGE:
+　/aaction ""action name"" [subcommand]
 
->>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>　Set additional action.
-　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>　Remove additional action.
-　<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>　Remove all additional actions.
-
-Toggle between on and off when no subcommand is specified.
-
->>Examples:
-　/aaction ""Triangulate""
-　(Sets Triangulate as an additional action.)
-
-　/aaction clear
-　(Removes all additional actions.)<tab><tab><tab>/additionalaction<tab>/aaction","","","False","0x00000110","",""
+A command previously believed to set the specified action as an additional action for your current gatherer class.
+※This text command is no longer in use.<tab><tab><tab>/additionalaction<tab>/aaction","","True","0x00000110","",""
 "","ALIASES:
 　/generalaction, /gaction
 USAGE:
@@ -2317,7 +2484,8 @@ Toggles between all and off when no setting is specified.<tab>/battleeffect<tab>
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -2394,7 +2562,8 @@ Toggle between on/off when no subcommand is specified.<tab><tab><tab>/hud<tab>",
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -4962,7 +5131,7 @@ USAGE:
 →Bare your teeth derisively.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","ALIASES:
 　/deride, /pagaga
@@ -4972,7 +5141,7 @@ USAGE:
 →Bare your teeth derisively.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","","True","0x00000286","",""
 "","USAGE:
@@ -5000,7 +5169,7 @@ USAGE:
 →Nibble on a pumpkin cookie.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","ALIASES:
 　/eatpumpkincookie, /cookie
@@ -5010,7 +5179,7 @@ USAGE:
 →Nibble on a pumpkin cookie.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","","True","0x00000288","",""
 "","USAGE:
@@ -5030,4 +5199,59 @@ Both text and motion will be displayed when no subcommand is specified.<tab><tab
  　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/spirit<tab>","","True","0x00000289","",""
+"","ALIASES:
+　/littleladiesdance, /ladance
+USAGE:
+　/ladance [subcommand]
+
+→Perform the Little Ladies' Dance.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/littleladiesdance<tab>/ladance","ALIASES:
+　/littleladiesdance, /ladance
+USAGE:
+　/ladance [subcommand]
+
+→Perform the Little Ladies' Dance.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/littleladiesdance<tab>/ladance","","True","0x0000028B","",""
+"","USAGE:
+　/linkpearl [subcommand]
+
+→Make a linkpearl call.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/linkpearl<tab>","USAGE:
+　/linkpearl [subcommand]
+
+→Make a linkpearl call.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/linkpearl<tab>","","True","0x0000028C","",""
+"","USAGE:
+　/frighten [subcommand]
+
+→Attempt to appear menacing.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/frighten<tab>","USAGE:
+　/frighten [subcommand]
+
+→Attempt to appear menacing.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/frighten<tab>","","True","0x00000291","",""
 

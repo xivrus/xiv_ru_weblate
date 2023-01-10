@@ -674,7 +674,7 @@ Trabantenliste: Begleiter-Verzeichnis","","False","0x000000BB","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x00000151","",""
 "","<var 1E 0B /var> Subcommands  <var 1E 09 /var> Select","<var 1E 0B /var> Untermenü <var 1E 09 /var> Auswählen","","False","0x00000152","",""
 "","<var 1E 0C /var> Apply","<var 1E 0C /var> Anwenden","","False","0x00000153","",""
-"","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x00000154","",""
+"","<var 1E 0B /var> Subcommands <var 1E 0D /var><var 1E 0E /var> Change Page","<var 1E 0B /var> Untermenü  <var 1E 0D /var><var 1E 0E /var> Umblättern","","False","0x00000154","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x00000155","",""
 "","<var 1E 0A /var> Return to Toy Chest","<var 1E 0A /var> Zurück zur Spielkiste","","False","0x00000156","",""
 "","<var 1E 0A /var> Target Close Button","<var 1E 0A /var> Zu „Schließen“ springen","","False","0x00000157","",""
@@ -825,16 +825,16 @@ Inhalte, die du bereits abgeschlossen hast, kannst du beliebig oft wiederholen, 
 W, A, S, D Keys (Movement)/<var 1E 15 /var> Stick
 
 <var 48 F201FA /var><var 49 F201FB /var>Reset Camera<var 49 01 /var><var 48 01 /var>
-　Z Key (Draw Weapon)/<var 12 11 /var> Button
+Z Key (Draw Weapon)/<var 12 11 /var> Button
 
 <var 48 F201FA /var><var 49 F201FB /var>Change Target Character<var 49 01 /var><var 48 01 /var>
-　<var 08 E4E94F04 ((tab, shift+tab)) ((Tab, Shift+Tab)) /var> Keys/<var 1E 08 /var> Buttons
+<var 08 E4E94F04 ((tab, shift+tab)) ((Tab, Shift+Tab)) /var> Keys/<var 1E 08 /var> Buttons
 
 <var 48 F201FA /var><var 49 F201FB /var>Pause/Play<var 49 01 /var><var 48 01 /var>
-　<var 08 E4E94F04 ((space bar)) ((Space Bar)) /var> (Jump)/<var 1E 0C /var> Button
+<var 08 E4E94F04 ((space bar)) ((Space Bar)) /var> (Jump)/<var 1E 0C /var> Button
 
 <var 48 F201FA /var><var 49 F201FB /var>Open/Close Controls<var 49 01 /var><var 48 01 /var>
-　R Key or  Button (Auto Run)/<var 1E 0B /var> Button)) /var>","※ Liste basiert auf Standardeinstellungen für Tastatur/Maus.
+R Key or  Button (Auto Run)/<var 1E 0B /var> Button)) /var>","※ Liste basiert auf Standardeinstellungen für Tastatur/Maus.
 <var 48 F201FA /var><var 49 F201FB /var>Kamera bewegen<var 49 01 /var><var 48 01 /var>
 <var 1E 15 /var> / W, A, S, D (Bewegungstasten)
 
@@ -950,16 +950,16 @@ Aufzeichnungsdaten können nach einer Aktualisierung des Clients (inkl. Patches 
 W, A, S, D Keys (Movement)/<var 1E 15 /var> Stick
 
 <var 48 F201FA /var><var 49 F201FB /var>Reset Camera<var 49 01 /var><var 48 01 /var>
-　Z Key (Draw Weapon)/<var 12 11 /var> Button
+Z Key (Draw Weapon)/<var 12 11 /var> Button
 
 <var 48 F201FA /var><var 49 F201FB /var>Change Target Character<var 49 01 /var><var 48 01 /var>
-　<var 08 E4E94F04 ((tab, shift+tab)) ((Tab, Shift+Tab)) /var> Keys/<var 1E 08 /var> Buttons
+<var 08 E4E94F04 ((tab, shift+tab)) ((Tab, Shift+Tab)) /var> Keys/<var 1E 08 /var> Buttons
 
 <var 48 F201FA /var><var 49 F201FB /var>Pause/Play<var 49 01 /var><var 48 01 /var>
-　<var 08 E4E94F04 ((space bar)) ((Space Bar)) /var> (Jump)/<var 1E 0C /var> Button
+<var 08 E4E94F04 ((space bar)) ((Space Bar)) /var> (Jump)/<var 1E 0C /var> Button
 
 <var 48 F201FA /var><var 49 F201FB /var>Open/Close Controls<var 49 01 /var><var 48 01 /var>
-　R Key or  Button (Auto Run)/<var 1E 0B /var> Button)) /var>","※ Liste basiert auf Standardeinstellungen für Tastatur/Maus.
+R Key or  Button (Auto Run)/<var 1E 0B /var> Button)) /var>","※ Liste basiert auf Standardeinstellungen für Tastatur/Maus.
 <var 48 F201FA /var><var 49 F201FB /var>Kamera bewegen<var 49 01 /var><var 48 01 /var>
 <var 1E 15 /var> / W, A, S, D (Bewegungstasten)
 
@@ -1035,7 +1035,7 @@ Die Kamera kann auf ein beliebiges Grup<var 16 /var>pen<var 16 /var>mit<var 16 /
 Beendet die Wiedergabe der Rückblende.","","False","0x000001C2","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001C3","",""
 "","<var 1E 19 /var> Scroll","<var 1E 19 /var> Umblättern","","False","0x000001C4","",""
-"","<var 1E 09 /var> Open","<var 1E 09 /var> Öffnen","","False","0x000001C5","",""
+"","<var 1E 09 /var> Open  <var 1E 19 /var> Scroll","<var 1E 09 /var> Öffnen <var 1E 19 /var> Scrollen","","False","0x000001C5","",""
 "","<var 1E 19 /var> Scroll","<var 1E 19 /var> Scrollen","","False","0x000001C6","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001C7","",""
 "","<var 1E 09 /var> Release Minion  <var 1E 0B /var> Subcommands  <var 1E 0C /var> Move","<var 1E 09 /var> Begleiter aussetzen <var 1E 0B /var> Untermenü <var 1E 0C /var> Begleiter wechseln","","False","0x000001C8","",""
@@ -1056,12 +1056,12 @@ Beendet die Wiedergabe der Rückblende.","","False","0x000001C2","",""
 "","","","","False","0x000001D7","",""
 "","","","","False","0x000001D8","",""
 "","","","","False","0x000001D9","",""
-"","","","","False","0x000001DA","",""
-"","","","","False","0x000001DB","",""
-"","","","","False","0x000001DC","",""
-"","","","","False","0x000001DD","",""
-"","","","","False","0x000001DE","",""
-"","","","","False","0x000001DF","",""
+"","<var 1E 0C /var> Confirm","<var 1E 0C /var> Ausschicken","","False","0x000001DA","",""
+"","<var 1E 0B /var> Set to Hotbar  <var 1E 0D /var><var 1E 0E /var> Change Page","<var 1E 0B /var> Im Kommandomenü anlegen  <var 1E 0D /var><var 1E 0E /var> Umblättern","","False","0x000001DB","",""
+"","<var 1E 0D /var><var 1E 0E /var> Change Page","<var 1E 0D /var><var 1E 0E /var> Umblättern","","False","0x000001DC","",""
+"","<var 1E 09 /var> Display Locations","<var 1E 09 /var> Vorkommen anzeigen","","False","0x000001DD","",""
+"","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001DE","",""
+"","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Untermenü","","False","0x000001DF","",""
 "","","","","False","0x000001E0","",""
 "","","","","False","0x000001E1","",""
 "","","","","False","0x000001E2","",""
@@ -1504,8 +1504,14 @@ Hat man den Wert flüchtiger Sammlerstücke durch Sammeln auf das Maximum gebrac
 Das Raffinieren erhabener Sammlerstücke gewährt in jedem Fall wertwolle und seltene Gegenstände.
 
 Die Wahr<var 16 /var>schein<var 16 /var>lich<var 16 /var>keit, dass ein flüchtiges Sammlerstück zu einem erhabenen Sammlerstück wird, erhöht sich mit steigendem Sammlergeschick des Spielers.","","False","0x00000416","",""
-"","","","","False","0x00000417","",""
-"","","","","False","0x00000418","",""
+"","Collectability","Sammlerwert","","False","0x00000417","",""
+"","The collectability of an item is another means of measuring its intrinsic quality.
+
+Collectability required to deliver an item can be confirmed at the top right of the interface.
+
+When breaking down items via aetherial reduction, this rating indicates the collectability required to obtain items other than crystals.","Jedes Sammlerstück wird anhand seines Sammlerwertes gemessen. Bei Aufträgen wird ein bestimmter Sammlerwert vorgegeben, den ein Gegenstand besitzen muss, damit er abgegeben werden kann. Beim Sammeln sollte also immer auf diesen Wert hingearbeitet werden.
+
+※ Bei Sammlerstücken, die raffiniert werden können, beschreibt der benötigte Sammlerwert den Schwellenwert, ab dem andere Gegenstände als nur Kristalle erhalten werden können.","","False","0x00000418","",""
 "","","","","False","0x00000419","",""
 "","Entering V&C Dungeons","Die Gewölbesuche nutzen","","False","0x0000041A","",""
 "","You can enter a variant or criterion dungeon via the V&C Dungeon Finder window, which is accessed by speaking with the NPC at the dungeon entrance, or by selecting the option from <var 48 F201FA /var><var 49 F201FB /var>Duty<var 49 01 /var><var 48 01 /var> in the main menu.

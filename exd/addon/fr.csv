@@ -720,7 +720,7 @@ Commencer le mandat<var 1D /var>?","","False","0x00000260","",""
 "","Actions","Actions","","False","0x000002AB","",""
 "","Job","Jobs","","False","0x000002AC","",""
 "","Traits","Traits","","False","0x000002AD","",""
-"","Additional","Talents","","False","0x000002AE","",""
+"","Gatherer Role","Récolte","","False","0x000002AE","",""
 "","General","Général","","False","0x000002AF","",""
 "","Additional Actions","Talents","","False","0x000002B0","",""
 "","<var 2D ((<var 28 ((ActStr)) E80201 /var>)) /var>
@@ -2186,7 +2186,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 "","Up to 100 items can be added to your favorites. Though they cannot be viewed by other players, you may access them while you are visiting another World.","Vous pouvez enregistrer jusqu'à 100 objets.
 Vous seul<var 08 E905 ((e)) (()) /var> pouvez consulter cette liste, y compris lorsque vous voyagez dans d'autres Mondes.","","False","0x00000824","",""
 "","Unobtained/Unregistered Only","Afficher tout / Seulement les éléments pas encore obtenus ou enregistrés","","False","0x00000825","",""
-"","There are no unobtained or unregistered items available.","Vous avez déjà obtenu tous les éléments de cette catégorie.","","False","0x00000826","",""
+"","There are no unobtained or unregistered items to display on this page.","Vous avez déjà obtenu tous les éléments de cette catégorie.","","False","0x00000826","",""
 "","To reduce congestion, the area you are about to enter has been divided into multiple identical instances. Select a destination.","La zone “<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80206 /var>)) 01 /var>” est divisée en plusieurs instances pour éviter une surcharge.
 Veuillez choisir l'instance de destination.
 (Elles sont toutes identiques en contenu.)","","False","0x0000082A","",""
@@ -2385,7 +2385,7 @@ Veuillez choisir l'instance de destination.
 "","Deep Dungeon","Donjon sans fond","","False","0x00000900","",""
 "","The Forbidden Land, Eureka","Eurêka","","False","0x00000901","",""
 "","Gathering Forays","Récolte","","False","0x00000902","",""
-"","Adventuring Forays","Missions d'exploration","","False","0x00000903","",""
+"","Field Operations","Missions d'exploration","","False","0x00000903","",""
 "","<var 29 EA02 /var>. (Contract suspended)","<var 29 EA02 /var>  [abonnement terminé]","","False","0x00000906","",""
 ""," <var 20 E802 /var>-<var 20 E803 /var>."," <var 20 E802 /var> à <var 20 E803 /var>","","False","0x00000907","",""
 "","Select a level range.","Choisissez une fourchette de niveau.","","False","0x00000908","",""
@@ -2489,6 +2489,8 @@ Si vous souhaitez passer à l'obtention du butin, choisissez “Oui”. Si vous 
 "","<var 20 E802 /var> of a possible <var 20 E803 /var> coffers will pop. Proceed?","Accepter l'obtention de <var 20 E802 /var> coffre<var 08 E4E80202 (()) ((s)) /var> sur <var 20 E803 /var> maximum<var 1D /var>?","","False","0x00000962","",""
 "","Yes","Oui","","False","0x00000964","",""
 "","No","Non","","False","0x00000965","",""
+"","Cast glamours.","Appliquer des mirages","","False","0x00000966","",""
+"","Dye items.","Teindre des objets","","False","0x00000967","",""
 "","Vote Coffer Pop","Vote d'attribution du butin","","False","0x00000968","",""
 "","Disable Dye Preview","Défaire la teinture","","False","0x0000096B","",""
 "","Enable Dye Preview","Visualiser une teinture","","False","0x0000096C","",""
@@ -2524,6 +2526,7 @@ Procéder tout de même à l'échange<var 1D /var>?","","False","0x00000984","",
 Proceed with the transaction?","Vous ne pourrez pas vous équiper de cet objet.
 Procéder quand même à l'échange<var 1D /var>?","","False","0x00000985","",""
 "","Proceed","Confirmer","","False","0x00000986","",""
+"","Try On Retainer","Essayage pour servant","","False","0x00000987","",""
 "","Return","Retour","","False","0x00000988","",""
 "","Aether Currents","Vents éthérés","","False","0x0000098D","",""
 "","","","","False","0x0000098E","",""
@@ -3086,9 +3089,9 @@ L'enregistrement ne se fera pas même si les conditions sont remplies.","","Fals
 "","Recorder Manual","Aide de visionnage","","False","0x00000BFC","",""
 "","","","","False","0x00000BFD","",""
 "","<var 20 E802 /var>/2","<var 20 E802 /var>/2","","False","0x00000BFE","",""
-"","・<var 2B ((<var 28 ((ContentFinderCondition)) F2012728 /var>)) /var>","・<var 2B ((<var 28 ((ContentFinderCondition)) F2012728 /var>)) /var>","","False","0x00000BFF","",""
+"","・<var 2B ((<var 28 ((ContentFinderCondition)) F201272A /var>)) /var>","・<var 2B ((<var 28 ((ContentFinderCondition)) F201272A /var>)) /var>","","False","0x00000BFF","",""
 "","<var 48 F20202 /var>Recordable Duties<var 48 01 /var>","<var 48 F20202 /var>Missions enregistrables<var 48 01 /var>","","False","0x00000C00","",""
-"","・<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","・<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","","False","0x00000C01","",""
+"","・<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","・<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","False","0x00000C01","",""
 "","There are no recorded duties.","Aucune","","False","0x00000C02","",""
 "","・Locked","・Mission non débloquée","","False","0x00000C03","",""
 "","[<var 20 E802 /var>] <var 50 E80303 /var>:<var 50 E80403 /var>:<var 50 E80503 /var> <var 08 E1E80601 ((<var 09 E806 ((Start/Restart)) ((Event Cutscene)) /var>)) ((Countdown)) /var>","[<var 20 E802 /var>] <var 50 E80303 /var>:<var 50 E80403 /var>:<var 50 E80503 /var> <var 08 E1E80601 ((<var 09 E806 ((Lecture ou reprise)) ((Cinématique)) /var>)) ((Compte à rebours)) /var>","","False","0x00000C07","",""
@@ -3575,6 +3578,7 @@ Les majuscules/minuscules sont prises en compte lors de la recherche.","","False
 "","note name","nom de la note","","False","0x00000E39","",""
 "","quick chat name","nom de l'expression figée","","False","0x00000E3A","",""
 "","accessory name","nom de l'accessoire de mode","","False","0x00000E3B","",""
+"","target","cible","","False","0x00000E3C","",""
 "","Items","Inventaire","","False","0x00000E42","",""
 "","Key Items & Crystals","Objets-clefs/Cristaux","","False","0x00000E43","",""
 "","Items 1-100","Inventaire (1-100)","","False","0x00000E44","",""
@@ -3649,6 +3653,10 @@ Les majuscules/minuscules sont prises en compte lors de la recherche.","","False
 "","You do not possess the proper catalyst to dispel this glamour.","Vous ne possédez pas le catalyseur nécessaire pour effacer le mirage.","","False","0x00000E8F","",""
 "","<var 2B ((<var 31 ((Item)) 03E8020202 /var>)) /var> will be bound to you.","<var 2B ((<var 33 ((Item)) 03E8020202 /var>)) /var> vous sera lié<var 08 ((<var 28 ((Item)) E80207 /var>)) ((e)) (()) /var>.","","False","0x00000E90","",""
 "","Glamours will only be visible if your current class, job, race, or gender can equip both items.","Le mirage n'est visible que si vous pouvez vous équiper des deux objets avec votre classe actuelle.","","False","0x00000E91","",""
+"","Equipped by Retainer","Équipement du servant","","False","0x00000E92","",""
+"","Retainer Inventory","Inventaire du servant","","False","0x00000E93","",""
+"","Inventory/Armoury Chest/Equipped","Inventaire / Arsenal / Équipement","","False","0x00000E94","",""
+"","Equipped by Retainer/Retainer Inventory","Équipement / Inventaire du servant","","False","0x00000E95","",""
 "","Restore all settings for <var 28 ((Hud)) E802 ((ADDONHUD_NAME)) /var> to their default?","Voulez-vous réinitialiser la position de l'élément “<var 28 ((Hud)) E802 ((ADDONHUD_NAME)) /var>”<var 1D /var>?","","False","0x00000E9C","",""
 "","Default","Réinitialiser","","False","0x00000E9F","",""
 "","HUD Layout Settings","Copie de configuration ATH","","False","0x00000EAC","",""
@@ -3716,15 +3724,18 @@ Autres conditions：<var 09 E804 ((oui)) ((non)) ((???)) /var>","","False","0x00
 "","Toggle between fishing and spearfishing.","Pêche/Pêche au harpon","","False","0x00000EE8","",""
 "","Fish Guide","Nomenclature","","False","0x00000EEC","",""
 "","","","","False","0x00000EED","",""
-"","Fish Caught: <var 20 E802 /var>","Total<var 1D /var>: <var 22 E802 ((<var 1D /var>)) /var>","","False","0x00000EEE","",""
+"","<var 08 E4E80301 ((Successful Fishing Endeavors)) ((Fish Caught)) /var>: <var 22 E802 ((,)) /var>","<var 08 E4E80301 ((Prises pêchées à la ligne)) ((Prises pêchées au harpon)) /var><var 1D /var>: <var 22 E802 ((,)) /var>","","False","0x00000EEE","",""
 "","Prime Locations","Bons coins","","False","0x00000EEF","",""
-"","<var 29 EA02 /var>
-<var 29 EA03 /var>","<var 29 EA02 /var>
-<var 29 EA03 /var>","","False","0x00000EF0","",""
+"","<var 08 E4E80501 ((???)) ((<var 29 EA02 /var>
+<var 29 EA03 /var>
+<var 08 E4E80601 ((???)) ((<var 29 EA04 /var>)) /var>)) /var>","<var 08 E4E80501 ((???)) ((<var 29 EA02 /var>
+<var 29 EA03 /var>
+<var 08 E4E80601 ((???)) ((<var 29 EA04 /var>)) /var>)) /var>","","False","0x00000EF0","",""
 "","There is nothing to display.","Vous n'avez pas encore pêché ce poisson.","","False","0x00000EF1","",""
 "","Additional Information","Information sup<var 16 /var>plé<var 16 /var>men<var 16 /var>tai<var 16 /var>re","","False","0x00000EF2","",""
 "","Collectable","Collectionnable","","False","0x00000EF3","",""
 "","Required to Gather: <var 08 E4E80401 ((Tome of Regional Folklore)) ((<var 28 ((Item)) E8020A /var> (<var 08 E4E80301 ((Not Owned)) ((Owned)) /var>))) /var>","Objet requis<var 1D /var>: <var 08 E4E80401 ((Légendes ichtyologiques de<var 1D /var>???)) ((<var 28 ((Item)) E8020A /var> (<var 08 E4E80301 ((non )) (()) /var>acquis))) /var>","","False","0x00000EF4","",""
+"","<var 28 ((GatheringSubCategory)) E80206 /var> (<var 08 E4E80301 ((Unobtained)) ((Obtained)) /var>)","<var 28 ((GatheringSubCategory)) E80206 /var> (<var 08 E4E80301 ((non obtenu)) ((obtenu)) /var>)","","False","0x00000EF5","",""
 "","Records","Palmarès","","False","0x00000EF6","",""
 "","","","","False","0x00000EF7","",""
 "","There is nothing to display.","Vous n'avez pêché aucun poisson de cette catégorie.","","False","0x00000EF8","",""
@@ -4012,13 +4023,13 @@ Recommandés uniquement pour les configurations haut de gamme.)) /var>","","Fals
 "","Restore all category settings to their default?","Tous les paramètres de cette catégorie retrouveront leurs valeurs par défaut. Confirmer<var 1D /var>?","","False","0x0000105F","",""
 "","Yes","Oui","","False","0x00001060","",""
 "","No","Non","","False","0x00001061","",""
-"","An example of the classic theme.","Aperçu du thème classique","","False","0x00001062","",""
+"","An example of the classic FF theme.","Aperçu du thème FF classique","","False","0x00001062","",""
 "","Apply this resolution?
 Settings will be restored in <var 20 E802 /var> <var 08 E4E80202 ((second)) ((seconds)) /var>.","Voulez-vous conserver cette résolution<var 1D /var>?
 Les paramètres précédents seront rétablis dans <var 20 E802 /var> <var 08 E2E80202 ((seconde)) ((secondes)) /var>.","","False","0x00001063","",""
 "","Yes","Oui","","False","0x00001064","",""
 "","No","Non","","False","0x00001065","",""
-"","クラシック","クラシック","","False","0x00001066","",""
+"","An example of the clear blue theme.","Aperçu du thème bleu clair","","False","0x00001066","",""
 "","Maximum","Maximums","","False","0x00001068","",""
 "","High","Élevés","","False","0x00001069","",""
 "","Standard","Moyens","","False","0x0000106A","",""
@@ -4044,10 +4055,11 @@ Les paramètres précédents seront rétablis dans <var 20 E802 /var> <var 08 E2
 "","Weak","Faible","","False","0x00001087","",""
 "","Dark","Sombre","","False","0x00001088","",""
 "","Light","Clair","","False","0x00001089","",""
-"","Classic","Classique","","False","0x0000108A","",""
-"","Anisotropic","Anisotrope","","False","0x0000108B","",""
-"","Trilinear","Trilinéaire","","False","0x0000108C","",""
-"","Bilinear","Bilinéaire","","False","0x0000108D","",""
+"","Classic FF","FF classique","","False","0x0000108A","",""
+"","Clear Blue","Bleu clair","","False","0x0000108B","",""
+"","Anisotropic","Anisotrope","","False","0x0000108C","",""
+"","Trilinear","Trilinéaire","","False","0x0000108D","",""
+"","Bilinear","Bilinéaire","","False","0x0000108E","",""
 "","x16","x16","","False","0x00001090","",""
 "","x8","x8","","False","0x00001091","",""
 "","x4","x4","","False","0x00001092","",""
@@ -4526,6 +4538,8 @@ Continuer tout de même<var 1D /var>?","","False","0x0000122A","",""
 "","Inventory: Gear","Inventaire<var 1D /var>: équipement","","False","0x00001249","",""
 "","Inventory: Fixtures/Furnishings","Inventaire<var 1D /var>: mobilier","","False","0x0000124A","",""
 "","HOUSING","Éléments de logement","","False","0x0000124B","",""
+"","Retainer Inventory: Gear","Inventaire du servant<var 1D /var>: équipement","","False","0x0000124D","",""
+"","Retainer Inventory: Fixtures/Furnishings","Inventaire du servant<var 1D /var>: mobilier","","False","0x0000124E","",""
 "","Apply","Appliquer","","False","0x0000124F","",""
 "","Select Another","Autre objet","","False","0x00001250","",""
 "","<var 08 E1E80201 ((<var 48 F201FC /var><var 49 F201FD /var>Requires completion of the duty “<var 29 EA03 /var>.”<var 49 01 /var><var 48 01 /var>)) ((<var 48 F201F6 /var><var 49 F201F7 /var>Quest requirements met.<var 49 01 /var><var 48 01 /var>)) /var>","Accomplir “<var 29 EA03 /var>”
@@ -5561,7 +5575,7 @@ Allegiance can be changed at a later date.)) ((Select the path you wish to take 
 "","<var 20 E802 /var>","≧ <var 20 E802 /var>","","False","0x0000164A","",""
 "","Qty.","Qté","","False","0x0000164B","",""
 "","<var 20 E802 /var>","<var 20 E802 /var>","","False","0x0000164C","",""
-"","Details","Détails","","False","0x0000164D","",""
+"","Custom Deliveries (<var 29 EA02 /var>)","Commandes spéciales (<var 29 EA02 /var>)","","False","0x0000164D","",""
 "","Collectability","Valeur de collection","","False","0x0000164E","",""
 "","<var 20 E802 /var><var 08 E4E803E802 (()) ((～<var 08 E4E80301 (()) ((<var 20 E803 /var>)) /var>)) /var>","<var 08 E4E803E802 (()) ((<var 08 E4E80301 ((≧ )) (()) /var>)) /var><var 20 E802 /var><var 08 E4E803E802 (()) ((<var 08 E4E80301 (()) (( à <var 20 E803 /var>)) /var>)) /var>","","False","0x0000164F","",""
 "","Time Remaining: <var 20 E802 /var>h <var 20 E803 /var>m <var 07 E804 /var>[<var 20 DE /var>/<var 20 DC /var> <var 20 DB /var>:<var 24 DA /var>]","Temps restant<var 1D /var>: <var 20 E802 /var> <var 08 E2E80202 ((heure)) ((heures)) /var> <var 20 E803 /var> <var 08 E2E80302 ((minute)) ((minutes)) /var> <var 07 E804 /var>[<var 20 DC /var>.<var 20 DE /var> à <var 20 DB /var>h<var 24 DA /var>]","","False","0x00001650","",""
@@ -5611,6 +5625,10 @@ Continuer<var 1D /var>?","","False","0x00001657","",""
 "","<var 48 F201FC /var><var 49 F201FD /var>Unable to apply glamours. Insufficient prisms.<var 49 01 /var><var 48 01 /var>","<var 48 F201FC /var><var 49 F201FD /var>Nombre de catalyseurs insuffisant.
 Impossible d'appliquer les changements.<var 49 01 /var><var 48 01 /var>","","False","0x00001672","",""
 "","Glamoured gear will be bound to you.","Toutes les pièces utilisées comme mirage vous seront liées.","","False","0x00001673","",""
+"","Display Location","Lieu de pêche","","False","0x00001674","",""
+"","<var 08 E4E80301 ((Fishing Hole)) ((Spearfishing Area)) /var>
+Deliver to: <var 28 ((ENpcResident)) E80201 /var>","<var 08 E4E80301 (([Pêche])) (([Pêche au harpon])) /var>
+Commandes spéciales<var 1D /var>: <var 28 ((ENpcResident)) E80201 /var>","","False","0x00001675","",""
 "","Tribal","Tribus","","False","0x00001676","",""
 "","Tribal Currency","Monnaies tribales","","False","0x00001677","",""
 "","A Realm Reborn","A Realm Reborn","","False","0x00001678","",""
@@ -6902,7 +6920,7 @@ Confirmer la cession de l'appartement<var 1D /var>?","","False","0x00001A7C","",
 "","Preview","Aperçu de la peinture","","False","0x00001AA7","",""
 "","","","","False","0x00001AA8","",""
 "","Close","Fermer","","False","0x00001AA9","",""
-"","<var 08 E4E80202 ((Sightseeing Log)) ((<var 08 E4E80203 ((Landscapes)) (()) /var>)) /var>","<var 08 E4E80202 ((Carnet d'exploration)) ((<var 08 E4E80203 ((Paysage)) (()) /var>)) /var>","","False","0x00001AAA","",""
+"","<var 08 E4E80202 ((Sightseeing Log)) ((<var 08 E4E80203 ((Landscapes)) ((<var 08 E4E80204 ((Portraits)) (()) /var>)) /var>)) /var>","<var 08 E4E80202 ((Carnet d'exploration)) ((<var 08 E4E80203 ((Paysage)) ((<var 08 E4E80204 ((Portrait)) (()) /var>)) /var>)) /var>","","False","0x00001AAA","",""
 "","Frame <var 31 ((Item)) 03E8020202 /var>?","Mettre la peinture “<var 28 ((Item)) E8020A /var>” dans le cadre<var 1D /var>?","","False","0x00001AAB","",""
 "","The same painting is already framed. Proceed and the following item will be lost:","<var 48 F201FA /var><var 49 F201FB /var>Une peinture identique est déjà placée dans le cadre.<var 49 01 /var><var 48 01 /var>
 Jeter l'objet ci-dessous et le remplacer par l'autre<var 1D /var>?","","False","0x00001AAC","",""
@@ -7171,7 +7189,7 @@ Appliquer quand même les changements<var 1D /var>?
 "","<var 09 E802 ((Selling on a first-come-first-served basis.)) ((Selling via lottery. (Current participants: <var 20 E803 /var>))) ((Currently unavailable for purchase.)) /var>","<var 09 E802 ((Vente au premier arrivé)) ((Vente par tirage au sort (nombre actuel de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pants<var 1D /var>: <var 20 E803 /var>))) ((En cours de traitement)) /var>","","False","0x00001B83","",""
 "","<var 09 E803 ((Accepting entries until <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Results period ends <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) /var>.","<var 09 E803 ((Période de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion<var 1D /var>: jusqu'au <var 07 E802 /var><var 20 DC /var>.<var 20 DE /var>.<var 20 DF /var> à <var 20 DB /var>h<var 24 DA /var>)) ((Période des résultats<var 1D /var>: jusqu'au <var 07 E802 /var><var 20 DC /var>.<var 20 DE /var>.<var 20 DF /var> à <var 20 DB /var>h<var 24 DA /var>)) /var>","","False","0x00001B84","",""
 "","Enter Lottery","Participer","","False","0x00001B85","",""
-"","Do you wish to deposit <var 22 E802 ((,)) /var> gil to enter the lottery for this plot of land? Please note that you may only enter the lottery for one plot of land during each lottery period.
+"","Do you wish to deposit <var 22 E802 ((,)) /var> gil to enter the lottery for this <var 08 E4E80304 ((<var 08 E4E80401 ((<var 48 F201FA /var><var 49 F201FB /var>personal plot<var 49 01 /var><var 48 01 /var>)) ((<var 48 F201FA /var><var 49 F201FB /var>free company plot<var 49 01 /var><var 48 01 /var>)) /var>)) ((plot of land)) /var>? Please note that you may only enter the lottery for one plot of land during each lottery period.
 
 <var 48 F201FA /var><var 49 F201FB /var>・This land is currently available for purchase by <var 09 E803 ((free companies only)) ((private buyers only)) ((free companies and private buyers)) /var>.
 ・Once submitted, a lottery entry may not be withdrawn.
@@ -7181,7 +7199,7 @@ Appliquer quand même les changements<var 1D /var>?
 ・Should you fail to claim your plot of land during the results period despite having won the lottery, your claim will be forfeit and a 50% cancellation fee will be deducted from the deposit made at entry. You will be refunded the remaining 50% upon accessing this placard.
 ・Regardless of lottery results, any and all refunds for a given lottery period expire 90 days (Earth time) after the results period. Please be sure to access this placard within the allotted time to receive any applicable refunds.
 ・You may not apply for another plot of land until all outstanding properties/refunds have been claimed.
-・You may not purchase land on behalf of your free company for thirty days after joining. Should you leave your free company after entering the lottery, you will be unable to claim any land won, even if you re-enter the same free company.<var 49 01 /var><var 48 01 /var>","Il n'est possible de participer qu'à un seul tirage au sort à la fois. Voulez-vous confirmer votre par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion à celui-ci pour la somme de <var 22 E802 ((<var 1D /var>)) /var> <var 08 E2E80202 ((gil)) ((gils)) /var><var 1D /var>?
+<var 08 E4E80302 ((・You may not purchase land on behalf of your free company for thirty days after joining. Should you leave your free company after entering the lottery, you will be unable to claim any land won, even if you re-enter the same free company.)) ((<var 08 E4E80304 ((<var 08 E4E80402 ((・You may not purchase land on behalf of your free company for thirty days after joining. Should you leave your free company after entering the lottery, you will be unable to claim any land won, even if you re-enter the same free company.)) (()) /var>)) (()) /var>)) /var><var 49 01 /var><var 48 01 /var>","Il n'est possible de participer qu'à un seul tirage au sort à la fois. Voulez-vous confirmer votre par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion à celui-ci pour la somme de <var 22 E802 ((<var 1D /var>)) /var> <var 08 E2E80202 ((gil)) ((gils)) /var><var 1D /var>?
 
 <var 48 F201FA /var><var 49 F201FB /var> - Ce lot <var 09 E803 ((est ac<var 16 /var>tu<var 16 /var>el<var 16 /var>le<var 16 /var>ment réservé aux compagnies libres)) ((est ac<var 16 /var>tu<var 16 /var>el<var 16 /var>le<var 16 /var>ment réservé aux particuliers)) ((n'est ac<var 16 /var>tu<var 16 /var>el<var 16 /var>le<var 16 /var>ment soumis à aucune restriction d'achat)) /var>.
  - La par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion au tirage au sort ne peut en aucun cas être annulée.
@@ -7191,7 +7209,7 @@ Appliquer quand même les changements<var 1D /var>?
  - Si l'achat n'est pas finalisé durant la période de publication des résultats, le droit d'acquisition du terrain est au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment perdu. En outre, en guise de mesure visant à empêcher divers abus, seule la moitié des frais de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion est remboursée.
  - La période de remboursement des frais de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion, quel que soit leur montant, est de 90 jours après la fin de la publication des résultats. Aucun remboursement ne sera accordé au-delà de cette période.
  - Il est impossible de participer à un autre tirage au sort tant qu'une procédure d'achat ou de remboursement est en cours.
- - Attention<var 1D /var>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum. Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.<var 49 01 /var><var 48 01 /var>","","False","0x00001B86","",""
+<var 08 E4E80302 (( - Attention<var 1D /var>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum. Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.)) ((<var 08 E4E80304 ((<var 08 E4E80402 (( - Attention<var 1D /var>: en cas d'achat de maison de compagnie libre, il est nécessaire d'avoir rejoint celle-ci depuis 30 jours minimum. Par conséquent, un changement de compagnie libre après avoir participé à un tirage au sort réinitialise cette période et rend tout achat impossible.)) (()) /var>)) (()) /var>)) /var><var 49 01 /var><var 48 01 /var>","","False","0x00001B86","",""
 "","I understand and wish to proceed.","Accepter les conditions de par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion","","False","0x00001B87","",""
 "","Confirm","Oui","","False","0x00001B88","",""
 "","Cancel","Non","","False","0x00001B89","",""
@@ -7259,8 +7277,8 @@ Appliquer quand même les changements<var 1D /var>?
 "","Category: <var 29 EA02 /var>","Catégorie<var 1D /var>: <var 29 EA02 /var>","","False","0x00001BC4","",""
 "","Track: <var 29 EA02 /var>","Titre<var 1D /var>: <var 29 EA02 /var>","","False","0x00001BC5","",""
 "","Play","Écouter","","False","0x00001BC6","",""
-"","Play in Estate","Jouer avec l'orchestrion","","False","0x00001BC7","",""
-"","Stop Playing in Estate","Ne plus jouer avec l'orchestrion","","False","0x00001BC8","",""
+"","Play on Loop","Jouer avec l'orchestrion","","False","0x00001BC7","",""
+"","Stop Looping","Ne plus jouer avec l'orchestrion","","False","0x00001BC8","",""
 "","Stop","Arrêter","","False","0x00001BC9","",""
 "","Change the entire estate's background music to <var 1A 02 /var><var 29 EA02 /var><var 1A 01 /var>?","Jouer “<var 29 EA02 /var>” avec l'orchestrion<var 1D /var>?
 
@@ -7308,6 +7326,7 @@ Waymarks can only be saved and loaded during certain duties.","Les marques au so
 Elles ne peuvent être sauvegardées et chargées que dans certaines missions.","","False","0x00001BE1","",""
 "","Overwrite","Écraser l'ancienne sauvegarde","","False","0x00001BE2","",""
 "","Delete","Supprimer","","False","0x00001BE3","",""
+"","<var 20 E802 /var>/<var 20 E803 /var>","<var 20 E802 /var>/<var 20 E803 /var>","","False","0x00001BE4","",""
 "","Start","Commencer","","False","0x00001BE5","",""
 "","Retry","Réessayer","","False","0x00001BE6","",""
 "","Close","Fermer","","False","0x00001BE7","",""
@@ -7445,6 +7464,7 @@ Elles ne peuvent être sauvegardées et chargées que dans certaines missions.",
 "","Auto-sheathe weapon when not in battle.","Rengainer au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment l'arme de la main directrice","","False","0x00001DB4","",""
 "","Auto-sheathe Delay","Délai avant de rengainer","","False","0x00001DB5","",""
 "","Inventory Settings","Paramètres de l'inventaire","","False","0x00001DB6","",""
+"","Disable camera pivot.","Verrouiller la correction caméra","","False","0x00001DB7","",""
 "","Store all newly obtained items in the Armoury Chest.","Ranger les équipements obtenus dans l'arsenal","","False","0x00001DB8","",""
 "","Store all newly crafted items in your Inventory.","Ranger les équipements synthétisés dans l'inventaire","","False","0x00001DB9","",""
 "","Shop Settings","Paramètres liés aux marchands","","False","0x00001DBA","",""
@@ -9770,10 +9790,10 @@ Continuer<var 1D /var>?","","False","0x0000261D","",""
 "","Display unowned cards only","Cartes non possédées","","False","0x00002632","",""
 "","No cards match current filter settings.","Aucune carte ne correspond aux critères choisis.","","False","0x00002633","",""
 "","Triple Triad tutorial.","Tutoriel de Triple Triade","","False","0x00002634","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","","False","0x00002635","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>","","False","0x00002636","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80328 /var>)) /var>
-<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E80328 /var>)) /var>
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","False","0x00002635","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","False","0x00002636","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8032A /var>)) /var>
+<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 2B ((<var 28 ((ContentFinderCondition)) E8032A /var>)) /var>
 <var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","","False","0x00002637","",""
 "","<var 2B ((<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80306 /var>)) 01 /var>)) /var>
 <var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 2B ((<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80306 /var>)) 01 /var>)) /var>
@@ -9794,8 +9814,8 @@ Place in top rankings.","Classement élevé<var 1D /var>:
 <var 61 E803 /var>","","False","0x0000263D","",""
 "","<var 2B ((<var 28 ((Achievement)) E80202 /var>)) /var>","Haut fait<var 1D /var>:
 <var 2B ((<var 28 ((Achievement)) E80202 /var>)) /var>","","False","0x0000263E","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>
-Happy bunny treasure hunt.","<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>
+Happy bunny treasure hunt.","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>
 Chasse au trésor du lapin du bonheur","","False","0x0000263F","",""
 "","???","???","","False","0x00002640","",""
 "","Final Rankings","RÉSULTATS","","False","0x00002641","",""
@@ -10476,6 +10496,14 @@ Proceed?","Vous êtes sur le point de refuser l'état en ligne “Rappelé(e)”
 "","Open All (Not Available w/ DX9)","Ouvrir tout<var 1D /var>: indisp. avec DX9","","False","0x0000284F","",""
 "","Open All (Not Available on Mac)","Ouvrir tout<var 1D /var>: indisp. sur Mac","","False","0x00002850","",""
 "","Display character portraits with battle dialogue widget.","Afficher le portrait des personnages qui parlent en combat","","False","0x00002851","",""
+"","Instant Portraits","Portraits instantanés","","False","0x00002852","",""
+"","Show party member portraits at the start of duty.","Afficher les portraits des équipiers en début de mission","","False","0x00002853","",""
+"","Display portraits in the player commendation window.","Afficher les portraits des équipiers dans la fenêtre d'honneurs","","False","0x00002854","",""
+"","Display party member portraits notification.","Afficher la notification des portaits des équipiers","","False","0x00002855","",""
+"","Disable right-click selection of player characters.","Désactiver le ciblage des PJ par clic droit","","False","0x00002856","",""
+"","Disable right-click selection of non-player characters in battle.","Désactiver le ciblage des PNJ par clic droit","","False","0x00002857","",""
+"","Display remaining time of status effects.","Afficher le temps restant des effets bénéfiques/néfastes","","False","0x00002858","",""
+"","Disable right-click selection of minions.","Désactiver le ciblage des mascottes par clic droit","","False","0x00002859","",""
 "","Yo-kai Medallium","Médallium des Yo-kai","","False","0x0000286E","",""
 "","","","","False","0x0000286F","",""
 "","Open Minion Guide.","Ouvre l'encyclopédie des mascottes.","","False","0x00002870","",""
@@ -10636,6 +10664,8 @@ Progress will not count towards solo completion achievements.","L'incursion n'ay
 pour l'obtention de hauts faits en solo.","","False","0x000028F2","",""
 "","Party KO count for this save data is more than zero. Later floors will not be accessible. Proceed?","Toute progression au plus profond du donjon sans fond est impossible avec cette sauvegarde, car une ou plusieurs défaites ont été enregistrées. Souhaitez-vous quand même l'utiliser<var 1D /var>?","","False","0x000028F3","",""
 "","Continue with current save data.","Utiliser cette sauvegarde.","","False","0x000028F4","",""
+"","Lodestone Playguide","Guides de jeu (The Lodestone)","","False","0x000028FA","",""
+"","View the deep dungeon guide.","En savoir plus sur les donjons sans fond","","False","0x000028FB","",""
 "","Register via Duty Support","Participer avec des PNJ alliés","","False","0x00002904","",""
 "","Register via Trust","Participer avec l'adjuration","","False","0x00002905","",""
 "","/","/","","False","0x0000290B","",""
@@ -10917,7 +10947,7 @@ Il suffit qu'un des joueurs adverses quitte l'instance pour mettre fin aux af<va
 "","Match Count","Nombre de batailles restantes du tournoi","","False","0x00002A37","",""
 "","Tournament Entry","Inscription au tournoi","","False","0x00002A38","",""
 "","Tournament Registration Period","Tournoi en cours","","False","0x00002A39","",""
-"","<var 28 ((ContentFinderCondition)) E80228 /var>","<var 28 ((ContentFinderCondition)) E80228 /var>","","False","0x00002A3A","",""
+"","<var 28 ((ContentFinderCondition)) E8022A /var>","<var 28 ((ContentFinderCondition)) E8022A /var>","","False","0x00002A3A","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>※The “Duty Complete” option is only available for previously
 　completed duties.
 ※Practice phase selection does not entail the actual skipping of
@@ -11626,7 +11656,7 @@ Si vous décidez de relever le défi, vous devrez deviner si la carte cachée a 
 "","Rewards","Récompenses","","False","0x00002CA5","",""
 "","","","","False","0x00002CA6","",""
 "","Available Items","Objets disponibles","","False","0x00002CA7","",""
-"","Display Only Recently Added Items","Afficher uniquement les objets récemment ajoutés","","False","0x00002CA8","",""
+"","Show only recently added items.","Afficher uniquement les objets récemment ajoutés","","False","0x00002CA8","",""
 "","Available","Disponible","","False","0x00002CA9","",""
 "","Owned","Récupéré","","False","0x00002CAA","",""
 "","There is nothing to display.","Aucun objet disponible.","","False","0x00002CAB","",""
@@ -12178,6 +12208,8 @@ Sur le point d'apparaître...","","False","0x00002E74","",""
 "","<var 20 E802 /var>/<var 20 E803 /var>","<var 20 E802 /var>/<var 20 E803 /var>","","False","0x00002E89","",""
 "","Destroy","Effacer","","False","0x00002E8A","",""
 "","Destroy the selected item image?","Effacer le mirage <var 33 ((Item)) 0AE8020202 /var> sauvegardé dans la coiffeuse mirage<var 1D /var>?","","False","0x00002E8B","",""
+"","Ascending","Ordre croissant","","False","0x00002E8C","",""
+"","Descending","Ordre décroissant","","False","0x00002E8D","",""
 "","Glamour Creation","Transformation en mirage","","False","0x00002E8E","",""
 "","","","","False","0x00002E8F","",""
 "","Equipment Selection","Sélection d'équipement","","False","0x00002E90","",""
@@ -12190,8 +12222,15 @@ Sur le point d'apparaître...","","False","0x00002E74","",""
 "","Armoury Chest (Wrists/Fingers)","Arsenal (poignets/bagues)","","False","0x00002E97","",""
 "","Glamour Prisms: <var 20 E802 /var>","Prismes mirage<var 1D /var>: <var 20 E802 /var>","","False","0x00002E98","",""
 "","Hide items registered to gear sets.","Exclure les pièces appartenant à des tenues","","False","0x00002E99","",""
+"","Sort by item level per category.","Trier les objets par ordre croissant/décroissant","","False","0x00002E9A","",""
+"","Item Search","Recherche d'objet","","False","0x00002E9B","",""
+"","Search","Recherche","","False","0x00002E9C","",""
+"","Type in the full or partial name of an item
+and press Enter to commence the search.","Saisissez le nom (complet ou non) d'un objet
+puis validez pour effectuer une recherche.","","False","0x00002E9D","",""
+"","No matching items found.","Aucun résultat","","False","0x00002E9E","",""
 "","There are no glamour-ready items.","Aucun objet pouvant être transformé en mirage.","","False","0x00002E9F","",""
-"","Execute","Confirmer","","False","0x00002EA0","",""
+"","Store as Glamour","Confirmer","","False","0x00002EA0","",""
 "","Glamour Plate Creation","Édition de planches mirage","","False","0x00002EA3","",""
 "","","","","False","0x00002EA4","",""
 "","Save","Sauvegarder","","False","0x00002EA5","",""
@@ -12465,6 +12504,12 @@ Swaps numbers that have already been assigned.","Veuillez sélectionner un nouve
 "","Prioritize online members.","Membres en ligne en haut de liste","","False","0x00002F8D","",""
 "","Channel Reallocation","Ordre des linkshells inter-Monde","","False","0x00002F8E","",""
 "","","","","False","0x00002F8F","",""
+"","Reset channel order.","Réinitialiser l'ordre des linkshells","","False","0x00002F90","",""
+"","The current order of cross-world linkshell channels will be reset. Channel numbers may change as a result. Please keep this in mind when accessing them via text command.
+All affiliated cross-world linkshell channels, regardless of data center, will be affected. Proceed?","L'ordre actuel des linkshells inter-Monde va être réinitialisé.
+Les numéros attribués risquent ainsi d'être modifiés. Restez attentif lorsque vous utiliserez des commandes textuelles.
+Cette manipulation affectera toutes les linkshells inter-Monde, peu importe leur centre de traitement des données.","","False","0x00002F91","",""
+"","Reset","Réinitialiser","","False","0x00002F92","",""
 "","Glamour Removal","Suppression de mirage","","False","0x00002F94","",""
 "","","","","False","0x00002F95","",""
 "","Glamour Plate","Planche mirage","","False","0x00002F96","",""
@@ -12777,7 +12822,7 @@ Please bear this in mind before choosing to reset.","Gardez à l'esprit que cote
 "","Lv. <var 20 E802 /var>","Nv <var 20 E802 /var>","","False","0x000030CA","",""
 "","Stage Results","Résultat","","False","0x000030CB","",""
 "","Stage","Niveau","","False","0x000030CC","",""
-"","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E80328 /var>","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E80328 /var>","","False","0x000030CD","",""
+"","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E8032A /var>","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E8032A /var>","","False","0x000030CD","",""
 "","Clear Time","Temps","","False","0x000030CE","",""
 "","<var 20 E802 /var>m <var 24 E803 /var>s","<var 20 E802 /var>:<var 24 E803 /var>","","False","0x000030CF","",""
 "","Bonus","Prouesses","","False","0x000030D0","",""
@@ -13807,8 +13852,8 @@ Proceed?","Les données de cette partie vont être supprimées. Confirmer<var 1D
 Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are normal.","État normal
 La qualité augmente normalement.","","False","0x00003458","",""
 "","Good
-Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 1.5 times higher than normal.","Bon état
-Les gains en qualité sont augmentés de 50%.","","False","0x00003459","",""
+Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","Bon état
+Les gains en qualité sont multipliés par <var 26 E80265 ((.)) 01 /var>.","","False","0x00003459","",""
 "","Excellent
 Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 4 times higher than normal.","Excellent état
 Les gains en qualité sont multipliés par 4.","","False","0x0000345A","",""
@@ -13943,6 +13988,24 @@ Retainer's current gil: <var 22 E802 ((,)) /var>
 
 Gils de votre servant<var 1D /var>: <var 22 E802 ((<var 1D /var>)) /var>
 ","","False","0x000034D1","",""
+"","Entrust Duplicates","Confier empilables","","False","0x000034D2","",""
+"","Items identical to those already possessed by your retainer may be collectively entrusted from your inventory.
+
+<var 48 F201FA /var><var 49 F201FB /var>※Only applies to stackable items.
+※You may exempt items by unchecking them.
+※Entrusting a wide variety of items may take time.<var 49 01 /var><var 48 01 /var>","Il est possible de confier au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment à votre servant des objets de votre inventaire déjà en sa possession.
+
+<var 48 F201FA /var><var 49 F201FB /var>* Ne s'applique qu'aux objets pouvant exister en plusieurs exemplaires.
+* Vous pouvez conserver certains objets dans votre inventaire en décochant la sélection.
+* Confier un nombre important d'objet requiert un certain temps.<var 49 01 /var><var 48 01 /var>","","False","0x000034D3","",""
+"","Types of Items: <var 20 E802 /var>","Obj. empilables<var 1D /var>: <var 20 E802 /var>","","False","0x000034D4","",""
+"","Confirm","Confirmer","","False","0x000034D5","",""
+"","Cancel","Annuler","","False","0x000034D6","",""
+"","Entrusting items...","En cours...","","False","0x000034D7","",""
+"","Successfully entrusted items.","Les objets empilables ont été confiés.","","False","0x000034D8","",""
+"","Cancel","Interrompre","","False","0x000034D9","",""
+"","Close Window","Quitter","","False","0x000034DA","",""
+"","Items identical to those already possessed by your retainer may be collectively entrusted from your inventory.","Il est possible de confier au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment à votre servant des objets de votre inventaire déjà en sa possession.","","False","0x000034DB","",""
 "","Small","Petite image","","False","0x000034EE","",""
 "","Appears Rarely","Rare","","False","0x000034EF","",""
 "","Medium","Image moyenne","","False","0x000034F0","",""
@@ -14069,6 +14132,33 @@ You will be rewarded only once regardless of the number of materia used.","Vous 
 "","Add to Hotbar","Ajouter aux raccourcis","","False","0x0000356D","",""
 "","Use","Équiper","","False","0x0000356E","",""
 "","Accessory-specific stances are available via the Change Pose emote.","Ajoute une pose spéciale dépendante de l'accessoire de mode à l'emote “Changer de pose”.","","False","0x0000356F","",""
+"","Enable Auto-umbrella","Activer l'ombrelle/le parapluie automatique","","False","0x00003570","",""
+"","Disable Auto-umbrella","Désactiver l'ombrelle/le parapluie automatique","","False","0x00003571","",""
+"","Umbrella accessories may be used automatically in <var 48 F201FA /var><var 49 F201FB /var>applicable areas<var 49 01 /var><var 48 01 /var>. Enable this feature via any umbrella's subcommand, and your character will open it when in the rain and put it away upon entering a sheltered area or once the rain has stopped.
+※Only one umbrella may be set for automatic use at a time.
+
+<var 48 F201FA /var><var 49 F201FB /var>Applicable Areas<var 49 01 /var><var 48 01 /var>:
+・Large settlements
+・Residential districts
+・The Firmament
+・Island sanctuaries","Il est possible d'activer au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment votre ombrelle/parapluie en cas d'averse à l'aide du sous-menu, et ce dans des <var 48 F201FA /var><var 49 F201FB /var>zones spécifiques<var 49 01 /var><var 48 01 /var>.
+Lorsque la pluie s'arrêtera ou que votre personnage atteindra un abri, il rangera au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment son ombrelle/parapluie.
+* Un(e) seul(e) parapluie/ombrelle peut être activé(e) à la fois.
+<var 48 F201FA /var><var 49 F201FB /var>Zones concernées<var 49 01 /var><var 48 01 /var>:
+・Cités
+・Quartiers résidentiels
+・Azurée
+・Félicité insulaire","","False","0x00003572","",""
+"","Obtained from <var 31 ((Item)) 04E8040302 /var> found in <var 28 ((ContentFinderCondition)) E8022A /var>.","Utiliser l'objet “<var 28 ((Item)) E8040A /var>” obtenu dans la mission “<var 28 ((ContentFinderCondition)) E8022A /var>”","","False","0x000035BA","",""
+"","Obtained from <var 31 ((Item)) 04E8020302 /var>.
+<var 09 E947 ((<var 61 F63F38E6 /var>
+Bango Zango)) ((<var 61 F6227367 /var>
+Maisenta)) ((<var 61 F63E116C /var>
+Roarich)) /var>","Utiliser l'objet “<var 28 ((Item)) E8020A /var>”
+<var 09 E947 ((Échange de devises<var 1D /var>: Bango Zango
+<var 61 F63F38E6 /var>)) ((Échange de devises<var 1D /var>: Maisenta
+<var 61 F6227367 /var>)) ((Échange de devises<var 1D /var>: Roarich
+<var 61 F63E116C /var>)) /var>","","False","0x000035BB","",""
 "","Obtained with the Performance ability.","Obtenir les actions d'interprétation","","False","0x000035BC","",""
 "","Obtained from <var 31 ((Item)) 04E8020302 /var>, available as a PvP Series reward.","Récompense de série (JcJ)
 Utiliser l'objet “<var 28 ((Item)) E8020A /var>”","","False","0x000035BD","",""
@@ -14079,7 +14169,7 @@ Utiliser l'objet “<var 28 ((Item)) E8020A /var>”","","False","0x000035BD",""
 "","Obtained from <var 31 ((Item)) 04E8020302 /var>.","Utiliser l'objet “<var 28 ((Item)) E8020A /var>”","","False","0x000035BF","",""
 "","Standard element.","Disponible de base","","False","0x000035C0","",""
 "","Obtained by completing the quest “<var 28 ((Quest)) E80201 /var>.”","Terminer la quête “<var 28 ((Quest)) E80201 /var>”","","False","0x000035C1","",""
-"","Obtained from <var 28 ((ContentFinderCondition)) E80228 /var>.","Accomplir la mission “<var 28 ((ContentFinderCondition)) E80228 /var>”","","False","0x000035C2","",""
+"","Obtained from <var 28 ((ContentFinderCondition)) E8022A /var>.","Accomplir la mission “<var 28 ((ContentFinderCondition)) E8022A /var>”","","False","0x000035C2","",""
 "","Obtained from <var 31 ((Item)) 04E8040302 /var>.
 <var 61 E803 /var>
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","Utiliser l'objet “<var 28 ((Item)) E8040A /var>”
@@ -14428,7 +14518,7 @@ Proceed?","Charger le préréglage<var 1D /var>? Les autocollants et le cadre ac
 "","Display Level","Niveau","","False","0x0000371D","",""
 "","Coordinates","Coordonnées","","False","0x0000371E","",""
 "","Copyright","Mentions légales","","False","0x0000371F","",""
-"","<var 29 EA02 /var> <var 12 59 /var> <var 29 EA03 /var>","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var>","","False","0x00003720","",""
+"","<var 29 EA02 /var> <var 12 59 /var> <var 29 EA03 /var> <var 08 E0E80465 (()) (([<var 28 ((WorldDCGroupType)) E804 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var> <var 12 59 /var> <var 29 EA03 /var> <var 08 E0E80465 (()) (( [<var 28 ((WorldDCGroupType)) E804 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003720","",""
 "","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var>","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var>","","False","0x00003721","",""
 "","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var> <var 29 EA03 /var>","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var> <var 29 EA03 /var>","","False","0x00003722","",""
 "","Role-playing","Jeu de rôle","","False","0x00003723","",""
@@ -14489,7 +14579,7 @@ Rate:
 "","Collectability","Valeur de collection minimum","","False","0x00003764","",""
 "","<var 20 E802 /var>"," <var 20 E802 /var>","","False","0x00003765","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are normal.","La qualité augmente normalement.","","False","0x00003778","",""
-"","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 1.5 times higher than normal.","Les gains en qualité sont augmentés de 50%.","","False","0x00003779","",""
+"","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","Les gains en qualité sont multipliés par <var 26 E80265 ((.)) 01 /var>.","","False","0x00003779","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 4 times higher than normal.","Les gains en qualité sont multipliés par 4.","","False","0x0000377A","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are halved.","Les gains en qualité sont divisés par 2.","","False","0x0000377B","",""
 "","Increases action success rate by 25%.","Les chances de réussite sont augmentées de 25%.","","False","0x0000377C","",""
@@ -14587,12 +14677,12 @@ A team of mammets will sow seeds, water plants, and collect a yield of up to 50 
 
 Entrust the produce producer with care of the following crop?
 
-※The produce producer will halt care under the following circumstances:
+※Care will be halted in the following circumstances:
 <var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
 　・Yields have reached the maximum of 50.<var 49 01 /var><var 48 01 /var>
-※Care will resume automatically once the required conditions for maintenance have been achieved, and collection of the daily fee will resume accordingly.","Vous pouvez confier une parcelle à un cultivateur pour <var 20 E802 /var> assignats insulaires azur par jour, jusqu'à un maximum de 50 récoltes.
-Les honoraires sont débités au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment lors de la demande de culture, puis chaque jour à <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D0E0F101112131415161718 /var>)) 01 /var>h.
-* Les honoraires ne sont débités qu'une fois par jour maximum.
+※Care and associated fees will resume automatically once required conditions have been met.
+※Yields harvested via the gardening service will not provide island EXP.","Vous pouvez confier une parcelle à un cultivateur pour <var 20 E802 /var> assignats insulaires azur par jour, jusqu'à un maximum de 50 récoltes.
+Les honoraires sont débités lors de la demande de culture, puis une seule fois par jour à <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D0E0F101112131415161718 /var>)) 01 /var>h (temps réel).
 
 Voulez-vous confier la parcelle à un cultivateur<var 1D /var>?
 
@@ -14600,7 +14690,8 @@ La culture sera interrompue dans les cas suivants<var 1D /var>:
 <var 48 F201FA /var><var 49 F201FB /var>- Stock de graines épuisé.
 - Vous manquez d'assignats insulaires azur.
 - Limite de 50 récoltes atteinte.
-* Une fois les conditions remplies, la récolte et le paiement reprendront au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment.<var 49 01 /var><var 48 01 /var>","","False","0x000037F6","",""
+* Une fois les conditions remplies, la récolte et le paiement reprendront au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment.
+* Lorsqu'une parcelle est confiée, les poupées magiques s'occupent de la récolte. Aucun point d'expérience insulaire ne vous sera attribué.<var 49 01 /var><var 48 01 /var>","","False","0x000037F6","",""
 "","Confirm","Confirmer","","False","0x000037F7","",""
 "","Cancel","Annuler","","False","0x000037F8","",""
 "","<var 20 E803 /var> <var 08 E4E80302 ((<var 31 ((Item)) 04E8020202 /var>)) ((<var 31 ((Item)) 04E8020302 /var>)) /var> will be collected. Proceed?
@@ -14649,6 +14740,32 @@ Voulez-vous tout de même les récupérer<var 1D /var>?","","False","0x00003804"
 "","[Large]","Énorme","","False","0x0000381C","",""
 "","No fish have been caught.","Aucune prise.","","False","0x0000381D","",""
 "","The fish flee!","Fin de la pêche<var 1D /var>!","","False","0x0000381E","",""
+"","<var 08 E4E80201 ((Preferred Bait)) ((Silhouette Size)) /var>","<var 08 E4E80201 ((Appât typique)) ((Taille)) /var>","","False","0x0000381F","",""
+"","<var 29 EA02 /var>","<var 29 EA02 /var>","","False","0x00003820","",""
+"","Filter Settings","Paramètres du filtre","","False","0x00003821","",""
+"","Filter Settings","","","False","0x00003822","",""
+"","","Paramètres","","False","0x00003823","",""
+"","Filter By:","Conditions","","False","0x00003824","",""
+"","Region","Région","","False","0x00003825","",""
+"","All Areas","Toutes les zones","","False","0x00003826","",""
+"","Regional Folklore","Légende locale","","False","0x00003827","",""
+"","Not Specified","Indéterminé","","False","0x00003828","",""
+"","Big Fish","Maître","","False","0x00003829","",""
+"","Collectable","Collectionnable","","False","0x0000382A","",""
+"","Reset Criteria","Réinitialiser","","False","0x0000382C","",""
+"","Apply","Valider","","False","0x0000382D","",""
+"","Cancel","Annuler","","False","0x0000382E","",""
+"","Type in the full or partial name of a fish and press Enter to commence the search. Up to 100 results will be displayed.","Saisissez un terme puis validez pour effectuer une recherche.
+Seuls les 100 premiers résultats sont affichés.
+Utilisez les touches directionnelles vers le haut ou le bas pour voir l'historique de saisie.","","False","0x0000382F","",""
+"","No matching fish were found.","Aucun résultat","","False","0x00003830","",""
+"","","","","False","0x00003831","",""
+"","Mooching","Pêche au vif","","False","0x00003832","",""
+"","Small","Petit","","False","0x00003833","",""
+"","Medium","Moyen","","False","0x00003834","",""
+"","Large","Grand","","False","0x00003835","",""
+"","???","???","","False","0x00003836","",""
+"","???","???","","False","0x00003837","",""
 "","Sort by ID","Trier par défaut","","False","0x00003841","",""
 "","Sort by Name","Trier par nom","","False","0x00003842","",""
 "","Search","Recherche","","False","0x00003843","",""
@@ -14885,8 +15002,15 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès.",""
 "","Cancel","Annuler","","False","0x000039A4","",""
 "","<var 50 E80203 /var> <var 29 EA03 /var>","<var 50 E80203 /var> <var 29 EA03 /var>","","False","0x000039A5","",""
 "","Settings cannot be saved while performing motions.","Impossible de sauvegarder les réglages pendant qu'une animation est en cours.","","False","0x000039A6","",""
+"","Import Settings from Adventurer Plate","Importer les réglages de la carte de personnage","","False","0x000039A7","",""
+"","All adventurer plate portrait settings will be copied and imported.
+
+※Poses that are incompatible due to class/job will be reverted to the default.","Tous les réglages du portait de la carte de personnage vont être copiés.
+
+* La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès.","","False","0x000039A8","",""
+"","Adventurer Plate","Carte de personnage","","False","0x000039A9","",""
 "","Enter <var 28 ((InstanceContent)) E80204 /var> with a party of other players","Accomplir “<var 2B ((<var 28 ((InstanceContent)) E80204 /var>)) /var>” avec d'autres joueurs","","False","0x000039D0","",""
-"","Enter <var 28 ((ContentFinderCondition)) E80228 /var> with a party of NPCs","Accomplir “<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>” avec des PNJ alliés","","False","0x000039D1","",""
+"","Enter <var 28 ((ContentFinderCondition)) E8022A /var> with a party of NPCs","Accomplir “<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>” avec des PNJ alliés","","False","0x000039D1","",""
 "","Party Selection","Choix des équipiers","","False","0x000039D2","",""
 "","<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var> )) (()) /var><var 08 E1E80301 ((
 Item Level Sync: <var 20 E803 /var>)) (()) /var>","<var 08 E1E80201 ((Nv. d'objet moyen<var 1D /var>: <var 20 E802 /var> ou plus)) (()) /var><var 08 E1E80301 ((
@@ -14902,7 +15026,7 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès.",""
 "","","","","False","0x000039DC","",""
 "","Display Duty Finder help.","Afficher l'aide","","False","0x000039DD","",""
 "","Member Selection Available","Équipe personnalisable","","False","0x000039DE","",""
-"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E80228 /var> in a future update","Des PNJ alliés pourront pro<var 16 /var>chai<var 16 /var>ne<var 16 /var>ment être utilisés pour accomplir “<var 2B ((<var 28 ((ContentFinderCondition)) E80228 /var>)) /var>”","","False","0x000039DF","",""
+"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E8022A /var> in a future update","Des PNJ alliés pourront pro<var 16 /var>chai<var 16 /var>ne<var 16 /var>ment être utilisés pour accomplir “<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>”","","False","0x000039DF","",""
 "","The Duty Support option will become available in a future update.","Le système de renforts sera disponible dans une prochaine mise à jour.","","False","0x000039E0","",""
 "","The Unending Codex","Compendium","","False","0x00003A03","",""
 "","","","","False","0x00003A04","",""
@@ -14959,6 +15083,10 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès.",""
 "","Unable to obtain combatant data.","Impossible d'obtenir les données du personnage.","","False","0x00003A37","",""
 "","<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>: Executing a limit break!<var 60 0263 /var>","(<var 2B ((<var 28 ((ClassJob)) E80201 /var>)) /var>) J'active ma Transcendance<var 1D /var>!<var 60 0263 /var>","","False","0x00003A38","",""
 "","Everyone, group up!<var 60 0264 /var>","Regroupons-nous<var 1D /var>!<var 60 0264 /var>","","False","0x00003A39","",""
+"","The pneumatic parade begins in <var 20 E802 /var>s!","<var 20 E802 /var> s avant le début du défilé mécanique<var 1D /var>!","","False","0x00003A3A","",""
+"","The pneumatic parade is underway!","Le défilé mécanique commence<var 1D /var>!","","False","0x00003A3B","",""
+"","Season <var 20 E802 /var>","Saison <var 20 E802 /var> en cours","","False","0x00003A3C","",""
+"","Preseason","Pré-saison en cours","","False","0x00003A3D","",""
 "","Coffer Manifest","Vérification du contenu","","False","0x00003A3E","",""
 "","","","","False","0x00003A3F","",""
 "","Selection:","Objet sélectionné","","False","0x00003A40","",""
@@ -14966,6 +15094,12 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès.",""
 "","Close","Fermer","","False","0x00003A42","",""
 "","View Manifest","Vérifier le contenu","","False","0x00003A43","",""
 "","Manifest Available","[Contenu vérifiable]","","False","0x00003A44","",""
+"","Current Season: <var 20 E802 /var>
+","Saison <var 20 E802 /var> en cours
+","","False","0x00003A46","",""
+"","Current Season: Preseason
+","Pré-saison en cours
+","","False","0x00003A47","",""
 "","Request Repair","Demander une réparation","","False","0x00003A48","",""
 "","Repair Request","Demande de réparation","","False","0x00003A49","",""
 "","","","","False","0x00003A4A","",""
@@ -14988,9 +15122,16 @@ La pose sera réinitialisée si la classe ou le job actuel n'y a pas accès.",""
 "","Repair","Réparer","","False","0x00003A5B","",""
 "","Cancel","Annuler","","False","0x00003A5C","",""
 "","G<var 20 E802 /var>:","<var 09 E802 ((Ⅰ)) ((Ⅱ)) ((Ⅲ)) ((Ⅳ)) ((Ⅴ)) ((Ⅵ)) ((Ⅶ)) ((Ⅷ)) /var><var 1D /var>:","","False","0x00003A5D","",""
-"","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003A5E","",""
+"","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003A5E","",""
 "","The requested repairs will be carried out using dark matter of a higher grade than is required. Proceed?","<var 48 F201F4 /var><var 49 F201F5 /var>Vous ne possédez pas le catalyseur adéquat. Un catalyseur de grade supérieur sera utilisé.<var 49 01 /var><var 48 01 /var>
 Confirmer<var 1D /var>?","","False","0x00003A5F","",""
+"","Display Party Member Portraits","Présentation des équipiers","","False","0x00003A61","",""
+"","Party Members","Présentation de vos équipiers","","False","0x00003A62","",""
+"","Party Member Portraits","Présentation des équipiers","","False","0x00003A63","",""
+"","Duty Menu","Fonctions en mission","","False","0x00003A64","",""
+"","Display party member portraits and access related settings.
+<var 48 F201FA /var><var 49 F201FB /var>※Unavailable during certain duties.<var 49 01 /var><var 48 01 /var>","Permet de modifier l'affichage des portraits des membres de votre équipe en début de mission.
+* N'est pas accessible durant certaines missions.","","False","0x00003A65","",""
 "","Check the current status of the housing lottery.","Affiche les in<var 16 /var>for<var 16 /var>ma<var 16 /var>tions actuelles du tirage au sort des terrains.","","False","0x00003A66","",""
 "","Hotbar Sorting","Disposition des raccourcis spéciaux","","False","0x00003A8E","",""
 "","","","","False","0x00003A8F","",""
@@ -15001,7 +15142,7 @@ Confirmer<var 1D /var>?","","False","0x00003A5F","",""
 "","Cancel","Annuler","","False","0x00003A94","",""
 "","Reordered elements will be reset to default. Proceed?","Réinitialiser la disposition des raccourcis<var 1D /var>?","","False","0x00003A95","",""
 "","All changes will be lost. Proceed?","Quitter sans sauvegarder les changements<var 1D /var>?","","False","0x00003A96","",""
-"","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 08 E4E803EB01 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003A98","",""
+"","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","False","0x00003A98","",""
 "","Display Search Info","Afficher le profil de recherche","","False","0x00003A99","",""
 "","Edit Plate Design","Modifier la carte","","False","0x00003A9A","",""
 "","Edit Profile","Modifier le profil","","False","0x00003A9B","",""
@@ -15246,19 +15387,20 @@ A team of mammets will administer feed and collect up to 20 leavings per animal.
 
 Entrust the creature comforter with care of this animal using the following feed?
 
-※The creature comforter will halt care under the following circumstances:
+※Care will be halted in the following circumstances:
 <var 48 F201FA /var><var 49 F201FB /var>　・Seafarer's cowries are insufficient.
 　・Leavings have reached the maximum of 20.<var 49 01 /var><var 48 01 /var>
-※Care will resume automatically once the required conditions have been met, and collection of the daily fee will resume accordingly.","Les honoraires journaliers d'un curateur sont de <var 20 E802 /var> assignats insulaires azur. Lorsqu'un animal est confié, le curateur s'occupera de le nourrir et de collecter les ressources animalières, jusqu'à un maximum de 20 par animal.
-Les honoraires seront débités au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment lors de la demande de curation, puis chaque jour à <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D0E0F101112131415161718 /var>)) 01 /var>h.
-* Les honoraires ne seront débités qu'une seule fois par jour maximum.
+※Care and associated fees will resume automatically once required conditions have been met.
+※Leavings collected via the caretaking service will not provide island EXP.","Vous pouvez confier un animal à un curateur pour <var 20 E802 /var> assignats insulaires azur par jour, jusqu'à un maximum de 20 ressources par animal.
+Les honoraires sont débités lors de la demande de curation, puis une seule fois par jour à <var 06 12 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D0E0F101112131415161718 /var>)) 01 /var>h (temps réel).
 
 Voulez-vous confier votre animal au curateur<var 1D /var>?
 
 La curation sera interrompue dans les cas suivants<var 1D /var>:
 <var 48 F201FA /var><var 49 F201FB /var>- Vous manquez d'assignats insulaires azur.
 - Limite de 20 ressources animalières atteinte.
-* Une fois les conditions remplies, la collecte des ressources animalières et le paiement reprendront au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment.<var 49 01 /var><var 48 01 /var>","","False","0x00003B77","",""
+* Une fois les conditions remplies, la collecte des ressources et le paiement reprendront au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment.
+* Lorsqu'un animal est confié, les poupées magiques s'occupent de la collecte. Aucun point d'expérience insulaire ne vous sera attribué.<var 49 01 /var><var 48 01 /var>","","False","0x00003B77","",""
 "","Confirm","Confirmer","","False","0x00003B78","",""
 "","Cancel","Annuler","","False","0x00003B79","",""
 "","Accept the following items?","Voulez-vous accepter les objets suivants<var 1D /var>?","","False","0x00003B7A","",""
@@ -15269,7 +15411,7 @@ Do you still wish to proceed?","Attention, le nombre d'objets que vous vous appr
 Voulez-vous tout de même accepter les objets<var 1D /var>?","","False","0x00003B7B","",""
 "","<var 29 EA02 /var> will be released from the pasture. Proceed?
 
-<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","Voulez-vous relâcher l'animal suivant<var 1D /var>: <var 29 EA02 /var><var 1D /var>?
+<var 48 F201FA /var><var 49 F201FB /var>※Released creatures cannot be retrieved.<var 49 01 /var><var 48 01 /var>","Voulez-vous relâcher l'animal suivant<var 1D /var>: <var 29 EA02 /var><var 1D /var>?
 
 * Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage. ","","False","0x00003B7C","",""
 "","Release Animal","Relâcher","","False","0x00003B7D","",""
@@ -15327,10 +15469,10 @@ Voulez-vous appliquer le changement<var 1D /var>?","","False","0x00003B86","",""
 "","","","","False","0x00003BA0","",""
 "","<var 2B ((<var 31 ((BNpcName)) 03E8020202 /var>)) /var> will be released from the pasture. Proceed?
 
-<var 48 F201FA /var><var 49 F201FB /var>※Animals will disappear from the pasture once released.<var 49 01 /var><var 48 01 /var>","Voulez-vous relâcher <var 33 ((BNpcName)) 03E8020202 /var><var 1D /var>?
+<var 48 F201FA /var><var 49 F201FB /var>※Released creatures cannot be retrieved.<var 49 01 /var><var 48 01 /var>","Voulez-vous relâcher <var 33 ((BNpcName)) 03E8020202 /var><var 1D /var>?
 
 <var 48 F201FA /var><var 49 F201FB /var>* Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage.<var 49 01 /var><var 48 01 /var>","","False","0x00003BA1","",""
-"","Rare Materials","Raretés","","False","0x00003BA2","",""
+"","Passionate Pioneering","Améliorer vos compétences de pionnier","","False","0x00003BA2","",""
 "","Produce","Cultures","","False","0x00003BA3","",""
 "","Leavings","Ressources animalières","","False","0x00003BA4","",""
 "","Item","Nom de l'objet","","False","0x00003BA5","",""
@@ -15472,6 +15614,17 @@ Release Area: <var 29 EA03 /var>
 "","Delete the selected preset?","Voulez-vous vraiment supprimer ce set prédéfini<var 1D /var>?","","False","0x00003C1A","",""
 "","Catalyst","Catalyseur","","False","0x00003C1B","",""
 "","<var 08 E1E80201 ((Completion Time: <var 07 E802 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>)) ((Expansion Complete)) /var>","Fin de la rénovation<var 1D /var>: le <var 08 E1E80201 ((<var 07 E802 /var><var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var> à <var 20 DB /var>h<var 24 DA /var>)) ((rénovation terminée)) /var>","","False","0x00003C1C","",""
+"","Access the facility's logboard to complete construction. ","Consultez le panneau de con<var 16 /var>struc<var 16 /var>tion de votre fabrique pour terminer les travaux.","","False","0x00003C1D","",""
+"","Access the facility's logboard to complete construction. ","Consultez le panneau de con<var 16 /var>struc<var 16 /var>tion de votre grange pour terminer les travaux.","","False","0x00003C1E","",""
+"","Gathering","Collecte","","False","0x00003C1F","",""
+"","Entry","Autoriser","","False","0x00003C20","",""
+"","Minimap Settings","Paramètres de la boussole","","False","0x00003C21","",""
+"","Display vegetation.","Afficher les icones de plantes","","False","0x00003C22","",""
+"","Display trees.","Afficher les icones de bois","","False","0x00003C23","",""
+"","Display rocks and mineral deposits.","Afficher les icones de roches","","False","0x00003C24","",""
+"","Display soils.","Afficher les icones de terre","","False","0x00003C25","",""
+"","Display aquatic resources.","Afficher les icones de pêche","","False","0x00003C26","",""
+"","Value Change","Variation","","False","0x00003C27","",""
 "","V&C Dungeon Finder","Donjons spéciaux","","False","0x00003C28","",""
 "","","","","False","0x00003C29","",""
 "","Variant Dungeons","Donjons à embranchements","","False","0x00003C2A","",""
@@ -15521,8 +15674,8 @@ Réinitialisation de la mission en cas défaite)) /var>)) (()) /var>","","False"
 "","V&C Dungeon Finder Help","Aide de la fenêtre des donjons spéciaux","","False","0x00003C44","",""
 "","","","","False","0x00003C45","",""
 "","Enter dungeon as a solo player?","Explorer le donjon en solo<var 1D /var>?","","False","0x00003C46","",""
-"","","","","False","0x00003C47","",""
-"","","","","False","0x00003C48","",""
+"","Variant actions cannot be changed during battle or while the recast timer is on cooldown.","Les actions embranchées ne peuvent pas être modifiées en combat ou durant leur temps de recharge.","","False","0x00003C47","",""
+"","To read this entry, you must first complete the quest “<var 28 ((Quest)) E80201 /var>.”","Pour pouvoir lire le journal d'exploration, vous devez avoir terminé la quête “<var 28 ((Quest)) E80201 /var>”.","","False","0x00003C48","",""
 "","","","","False","0x00003C49","",""
 "","","","","False","0x00003C4A","",""
 "","","","","False","0x00003C4B","",""
@@ -15540,6 +15693,72 @@ Réinitialisation de la mission en cas défaite)) /var>)) (()) /var>","","False"
 "","","","","False","0x00003C57","",""
 "","","","","False","0x00003C58","",""
 "","","","","False","0x00003C59","",""
+"","Party Member Portrait Settings","Présentation des équipiers","","False","0x00003C6E","",""
+"","Show party member portraits at the start of duty.","Afficher les portraits des équipiers en début de mission","","False","0x00003C6F","",""
+"","Display party member portraits notification.","Afficher la notification de pré<var 16 /var>sen<var 16 /var>ta<var 16 /var>tion des équipiers","","False","0x00003C70","",""
+"","Align portraits to bottom of window.","Aligner les portraits en bas","","False","0x00003C71","",""
+"","Confirm","Confirmer","","False","0x00003C72","",""
+"","Cancel","Annuler","","False","0x00003C73","",""
+"","Display Party Member Portrait help.","Afficher l'aide des portraits des équipiers","","False","0x00003C74","",""
+"","Settings","Paramètres","","False","0x00003C75","",""
+"","Collect All","Tout récupérer","","False","0x00003C8C","",""
+"","Are you sure you wish to collect all of the leavings gathered by the creature comforter?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Caretaking services will continue after collection.<var 49 01 /var><var 48 01 /var>","Voulez-vous récupérer tous les produits animaliers collectés<var 1D /var>?
+
+* La curation continuera après avoir obtenu les produits.","","False","0x00003C8D","",""
+"","Warning: You will not be able to receive all of the items. Those that cannot fit in your isleventory will be discarded.
+
+Do you still wish to proceed?","Attention<var 1D /var>: les produits au-delà de la limite ne pourront pas être obtenus.
+
+Voulez-vous tout de même les récupérer<var 1D /var>?","","False","0x00003C8E","",""
+"","Dismiss the caretaker and release <var 29 EA02 /var> from the pasture?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Available leavings not exceeding isleventory capacity will be collected.
+※Released creatures cannot be retrieved.<var 49 01 /var><var 48 01 /var>","Voulez-vous mettre fin à la curation et relâcher l'animal suivant<var 1D /var>: <var 29 EA02 /var><var 1D /var>?
+(Les produits animaliers collectés seront au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment récupérés, mais les produits en surplus seront jetés.)
+
+* Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage. ","","False","0x00003C8F","",""
+"","Collect All","Tout récupérer","","False","0x00003C90","",""
+"","Are you sure you wish to collect all of the yields harvested by the produce producer?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Gardening services will continue after collection.<var 49 01 /var><var 48 01 /var>","Voulez-vous récupérer tous les produits de la culture collectés<var 1D /var>?
+
+* La culture automatique continuera après avoir obtenu les produits.","","False","0x00003C91","",""
+"","Warning: You will not be able to receive all of the items. Those that cannot fit in your isleventory will be discarded.
+
+Do you still wish to proceed?","Attention<var 1D /var>: les produits au-delà de la limite ne pourront pas être obtenus.
+
+Voulez-vous tout de même les récupérer<var 1D /var>?","","False","0x00003C92","",""
+"","Time","Durée","","False","0x00003C93","",""
+"","Popularity:","Popularité<var 1D /var>:","","False","0x00003C94","",""
+"","Supply:","Demande<var 1D /var>:","","False","0x00003C95","",""
+"","Demand Shift:","Évolution<var 1D /var>:","","False","0x00003C96","",""
+"","Predicted Popularity:","Popularité escomptée<var 1D /var>:","","False","0x00003C97","",""
+"","Dismiss the caretaker and release <var 31 ((BNpcName)) 03E8020202 /var> from the pasture?
+
+<var 48 F201FA /var><var 49 F201FB /var>※Available leavings not exceeding isleventory capacity will be collected.
+※Released creatures cannot be retrieved.<var 49 01 /var><var 48 01 /var>","Voulez-vous mettre fin à la curation et relâcher  <var 33 ((BNpcName)) 03E8020202 /var><var 1D /var>?
+(Les produits animaliers collectés seront au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment récupérés, mais les produits en surplus seront jetés.)
+
+* Les animaux remis en liberté ne reviendront pas dans votre zone de pâturage. ","","False","0x00003C98","",""
+"","Play on Loop","Jouer avec l'orchestrion","","False","0x00003C99","",""
+"","Filter Settings","Paramètres du filtre","","False","0x00003CF0","",""
+"","","","","False","0x00003CF1","",""
+"","Filter By:","Critères","","False","0x00003CF2","",""
+"","Required Level","Niveau d'équipement","","False","0x00003CF3","",""
+"","Lv.","Nv","","False","0x00003CF4","",""
+"","Lv. 1","Nv 1","","False","0x00003CF5","",""
+"","Gender","Sexe","","False","0x00003CF6","",""
+"","Not Specified","Non spécifié","","False","0x00003CF7","",""
+"","Male","Homme","","False","0x00003CF8","",""
+"","Female","Femme","","False","0x00003CF9","",""
+"","Name/Keyword","Nom","","False","0x00003CFA","",""
+"","Reset Criteria","Réinitialiser","","False","0x00003CFB","",""
+"","Apply","Confirmer","","False","0x00003CFC","",""
+"","Cancel","Annuler","","False","0x00003CFD","",""
+"","Filter displayed items by specified criteria.","Filtrer l'affichage des objets","","False","0x00003CFE","",""
+"","Current Gender","Ajuster au sexe actuel","","False","0x00003CFF","",""
 "","<var 1E 0B /var> Subcommands","<var 1E 0B /var> Sous-menu","","False","0x00018A88","",""
 "","<var 1E 0C /var>","<var 1E 0C /var>","","False","0x00018A89","",""
 "","<var 1E 14 /var> Select","<var 1E 14 /var> Sélectionner","","False","0x00018A8A","",""
@@ -16081,6 +16300,8 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 "","https://sqex.to/dCSwT","https://sqex.to/dCSwT","","False","0x00019092","",""
 "","Visit Website","Visiter le site officiel","","False","0x00019093","",""
 "","Community Finder","Recherche d'aventuriers","","False","0x00019094","",""
+"","Player Commendation Settings","Paramètres de la fenêtre d'honneurs","","False","0x00019095","",""
+"","","","","False","0x00019096","",""
 "","Vote Dismiss","Vote d'expulsion","","False","0x00019097","",""
 "","Nominate <var 29 EA02 /var> for dismissal.","Le vote pour l'expulsion de <var 29 EA02 /var> va commencer.","","False","0x00019098","",""
 "","Select reason for dismissal.","Choisissez une raison.","","False","0x00019099","",""
@@ -16097,12 +16318,19 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 "","Yes","Oui","","False","0x000190A4","",""
 "","No","Non","","False","0x000190A5","",""
 "","<var 48 F201FC /var><var 49 F201FD /var>Warning: Unjustified usage of vote dismiss is a punishable act.<var 49 01 /var><var 48 01 /var>","<var 48 F201FC /var><var 49 F201FD /var>Attention<var 1D /var>: l'utilisation du vote d'expulsion à de mauvaises fins sera punie.<var 49 01 /var><var 48 01 /var>","","False","0x000190A6","",""
+"","Settings","Paramètres de la fenêtre d'honneurs","","False","0x000190A7","",""
+"","Enable portraits in commendations window?
+※If all party members have left, settings will be reflected during the next duty.","Vous pouvez choisir d'afficher ou non les portraits des joueurs dans la fenêtre d'honneurs.
+* Si tous les équipiers ont déjà quitté l'instance, ces paramètres seront appliqués lors de la prochaine mission.","","False","0x000190A8","",""
+"","Yes, display portraits.","Afficher les portraits dans la fenêtre d'honneurs","","False","0x000190A9","",""
 "","Player Commendation","Honneurs","","False","0x000190AA","",""
 "","","","","False","0x000190AB","",""
 "","Commend the player who left a positive impression upon you.","Vous pouvez “honorer” le joueur avec lequel vous avez le plus apprécié jouer durant cette mission.","","False","0x000190AC","",""
 "","OK","Confirmer","","False","0x000190AD","",""
 "","Cancel","Annuler","","False","0x000190AE","",""
 "","Player Commendation","Honorer un équipier","","False","0x000190AF","",""
+"","Confirm","Confirmer","","False","0x000190B0","",""
+"","Cancel","Annuler","","False","0x000190B1","",""
 "","Withdrawing from a duty via the withdraw button or allowing the timer to run out will incur a temporary penalty preventing you from registering for duty.
 Proceed?","Si vous annulez votre par<var 16 /var>ti<var 16 /var>ci<var 16 /var>pa<var 16 /var>tion à une mission en cliquant sur “Se retirer” ou en laissant le compte à rebours arriver à son terme, <var 48 F201FA /var><var 49 F201FB /var>vous recevrez une pénalité et ne pourrez plus utiliser les outils de mission et de raid pendant un certain temps.<var 49 01 /var><var 48 01 /var>
 Confirmer<var 1D /var>?","","False","0x000190B2","",""

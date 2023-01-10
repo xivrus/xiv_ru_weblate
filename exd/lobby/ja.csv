@@ -36,7 +36,7 @@ If this character is master of a free company for which there is no eligible suc
 "","Log in with <var 29 EA02 /var>?<tab><tab>","「<var 29 EA02 /var>」でログインします。
 よろしいですか？<tab><tab>","","False","0x00000019","",""
 "","A name change is required to log in with this character.<tab><tab>","このキャラクターでログインするには名前の変更が必要です。新しい名前を決めてください。<tab><tab>","","False","0x0000001A","",""
-"","A name change is required to log in with this character.<tab><tab>","このキャラクターでログインするには名前の変更が必要です。<tab><tab>","","False","0x0000001B","",""
+"","<var 08 E1E80201 ((Please change your character's name after retrieving character data.)) ((A name change is required to log in with this character.)) /var><tab><tab>","<var 08 E1E80201 ((キャラクターの情報を取得してから、名前を変更してください。)) ((このキャラクターでログインするには名前の変更が必要です。)) /var><tab><tab>","","False","0x0000001B","",""
 "","Change this character's name to <var 29 EA02 /var>?<tab><tab>","名前を「<var 29 EA02 /var>」に
 変更します。よろしいですか？<tab><tab>","","False","0x0000001C","",""
 "","Change this retainer's name to <var 29 EA02 /var>?<tab><tab>","リテイナー名を「<var 29 EA02 /var>」に
@@ -80,7 +80,7 @@ If this character is master of a free company for which there is no eligible suc
 "","This World is not accepting any more new characters. You may either wait for the restriction to be lifted, or you may select another World.<tab><tab>","このワールドは現在新規キャラクターの作成が制限されています。制限が解除されるのを待つか、別のワールドを選択してください。<tab><tab>","","False","0x0000003F","",""
 "","You cannot select this character with your current account.<tab><tab>","現在ご契約いただいているサービスでは、このキャラクターを使用できません。<tab><tab>","","False","0x00000040","",""
 "","You are granted one opportunity to edit your character's race, tribe, gender, appearance, and name.<tab><tab>","種族や性別・外見や名前を一度だけ変更することができます。<tab><tab>","","False","0x00000041","",""
-"","To log in with this character you must first change your retainer's name.<tab><tab>","このキャラクターでログインするにはリテイナーの名前の変更が必要です。<tab><tab>","","False","0x00000042","",""
+"","<var 08 E1E80201 ((Please change your retainer's name after retrieving your character's data.)) ((To log in with this character you must first change your retainer's name.)) /var><tab><tab>","<var 08 E1E80201 ((キャラクターの情報を取得してから、リテイナー名を変更してください。)) ((このキャラクターでログインするにはリテイナーの名前の変更が必要です。)) /var><tab><tab>","","False","0x00000042","",""
 "","If you wish, you can edit your character's race, sex, and appearance.<tab><tab>","種族や性別・外見を変更することができます。<tab><tab>","","False","0x00000043","",""
 "","To log in with this character you must first install <var 28 ((ExVersion)) E80201 /var>.<tab><tab>","「<var 28 ((ExVersion)) E80201 /var>」が必要なエリアにいるためログインできません。<tab><tab>","","False","0x00000044","",""
 "","To edit this character's race, sex, or appearance you must first install <var 28 ((ExVersion)) E80201 /var>.<tab><tab>","「<var 28 ((ExVersion)) E80201 /var>」が必要なエリアにいるため種族や性別・外見を変更することはできません。<tab><tab>","","False","0x00000045","",""
@@ -125,9 +125,9 @@ You currently have <var 08 E803 ((<var 08 E2E8030B ((<var 09 E803 ((one)) ((two)
 ホームワールドには、リムサ・ロミンサ／グリダニア／ウルダハの3都市のエーテライトのメニュー「他のワールドへ遊びにいく」からいつでも戻ることができます。<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x0000005F","",""
 "","Logging in with <var 29 EA02 /var>.
 
-<var 48 F201FA /var><var 49 F201FB /var>Your character is currently in a data center different from your Home World's. To return, select “Return to Home Data Center” from the character subcommand menu before logging in.<var 49 01 /var><var 48 01 /var><tab><tab>","「<var 29 EA02 /var>」でログインします。
+<var 48 F201FA /var><var 49 F201FB /var>Your character is currently in a data center different from your Home World's. To return, select “Return to Home World” from the character subcommand menu before logging in.<var 49 01 /var><var 48 01 /var><tab><tab>","「<var 29 EA02 /var>」でログインします。
 
-<var 48 F201FA /var><var 49 F201FB /var>現在ホームワールドとは異なるデータセンターでプレイ中です。ホームワールドに戻るには、ログイン前のキャラクターのサブコマンドから「元のデータセンターに戻る」を選んでください。<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x00000060","",""
+<var 48 F201FA /var><var 49 F201FB /var>現在ホームワールドとは異なるデータセンターでプレイ中です。ホームワールドに戻るには、ログイン前のキャラクターのサブコマンドから「ホームワールドに戻る」を選んでください。<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x00000060","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000061","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000062","",""
 "","
@@ -1443,9 +1443,9 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 "","Unable to visit other Worlds at this time. Please wait before attempting another transfer.<tab><tab>","前回の処理を行ってからまだ一定時間が経過していないため、「空いているワールドへ移動」を実行できません。<tab><tab>","","False","0x00000454","",""
 "","To visit other Worlds with this character, you must first select a different name using the Change Name subcommand.<tab><tab>","「空いているワールドへ移動」を行うには、事前にサブコマンド「名前を変更」でキャラクター名を変更してください。<tab><tab>","","False","0x00000455","",""
 "","To visit other Worlds with this character, you must first select a different retainer name using the Change Retainer Name subcommand.<tab><tab>","「空いているワールドへ移動」を行うには、事前にサブコマンド「リテイナー名を変更」で雇用中のリテイナーの名前を変更してください。<tab><tab>","","False","0x00000456","",""
-"","Character was logged out or disconnected mid-duty. Unable to process World Visit request.<tab><tab>","キャラクターがコンテンツ中でログアウトまたは通信切断していたため、「空いているワールドへ移動」の処理ができません。<tab><tab>","","False","0x00000457","",""
+"","Character was logged out or disconnected mid-duty. Unable to process <var 08 E1E80201 ((Return to Home World)) ((World Visit)) /var> request.<tab><tab>","キャラクターがコンテンツ中でログアウトまたは通信切断していたため、<var 08 E1E80201 ((「ホームワールドに戻る」)) ((「空いているワールドへ移動」)) /var>の処理ができません。<tab><tab>","","False","0x00000457","",""
 "","Character has not completed the game's opening event. Unable to submit World Visit request.<tab><tab>","キャラクターがゲームのオープニングイベントを完了していないため、「空いているワールドへ移動」はまだ行えません。<tab><tab>","","False","0x00000458","",""
-"","Character is currently imprisoned in the Mordion Gaol. World Visit request denied.<tab><tab>","キャラクターが現在「モルディオン監獄」にいるため、「空いているワールドへ移動」の実行は制限されています。<tab><tab>","","False","0x00000459","",""
+"","Character is currently imprisoned in the Mordion Gaol. <var 08 E1E80201 ((Return to Home World)) ((World Visit)) /var> request denied.<tab><tab>","キャラクターが現在「モルディオン監獄」にいるため、<var 08 E1E80201 ((「ホームワールドに戻る」)) ((「空いているワールドへ移動」)) /var>の実行は制限されています。<tab><tab>","","False","0x00000459","",""
 "","World Visit system is temporarily unavailable.<tab><tab>","現在「空いているワールドへ移動」サービスが一時的にご利用いただけません。<tab><tab>","","False","0x0000045A","",""
 "","World Visit transfer failed. Please wait before submitting another transfer request via the subcommand.<tab><tab>","「空いているワールドへ移動」処理が行えませんでした。もう一度実行するには、しばらく待ってからサブコマンドを選択してください。<tab><tab>","","False","0x0000045B","",""
 "","World Visit transfer successful. Login to <var 29 EA02 /var> now available.<tab><tab>","「空いているワールドへ移動」処理が完了し
@@ -1548,8 +1548,8 @@ After changing names, logging in will place your character at the aetheryte of y
 "","Unable to return to Home World at this time. Please wait before attempting to return again.<tab><tab>","前回の処理を行ってからまだ一定時間が経過していないため、「ホームワールドに戻る」を実行できません。<tab><tab>","","False","0x0000049D","",""
 "","Return to Home World failed. Please wait before submitting another Return to Home World request via the subcommand.<tab><tab>","「ホームワールドに戻る」処理が行えませんでした。もう一度実行するには、しばらく待ってからサブコマンドを選択してください。<tab><tab>","","False","0x0000049E","",""
 "","Successfully returned to Home World.<tab><tab>","「ホームワールドに戻る」処理が完了しました。<tab><tab>","","False","0x0000049F","",""
-"","A name change is required to log in with this character. Please return to your Home Data Center to change your name.<tab><tab>","このキャラクターでログインするには名前の変更が必要です。名前の変更のため元のデータセンターに戻ってください。<tab><tab>","","False","0x000004A0","",""
-"","A name change for your retainer is required to log in with this character. Please return to your Home Data Center to change your retainer's name.<tab><tab>","このキャラクターでログインするにはリテイナー名の変更が必要です。リテイナー名の変更のため元のデータセンターに戻ってください。<tab><tab>","","False","0x000004A1","",""
+"","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","このキャラクターでログインするには名前の変更が必要です。名前の変更のためホームワールドに戻ってください。<tab><tab>","","False","0x000004A0","",""
+"","A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.<tab><tab>","このキャラクターでログインするにはリテイナー名の変更が必要です。リテイナー名の変更のためホームワールドに戻ってください。<tab><tab>","","False","0x000004A1","",""
 "","Return to Home World<tab><tab>","ホームワールドに戻る<tab><tab>","","False","0x000004A2","",""
 "","Time Elapsed:<tab><tab>","経過時間：<tab><tab>","","False","0x000004A3","",""
 "","Select Data Center<tab><tab>","データセンターを選択<tab><tab>","","False","0x000004A4","",""
@@ -1583,53 +1583,57 @@ After changing names, logging in will place your character at the aetheryte of y
 "","<tab><tab>","<tab><tab>","","False","0x000004AD","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004AE","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004AF","",""
-"","Unable to submit <var 08 E1E80301 ((Return to Home Data Center)) ((Data Center Visit)) /var> request at this time. <var 08 E1E80201 ((
-[<var 20 E802 /var>])) (()) /var><tab><tab>","<var 08 E1E80301 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>機能は現在ご利用いただけません。<var 08 E1E80201 ((
+"","Unable to submit <var 08 E1E80301 ((Return to Home World)) ((Data Center Visit)) /var> request at this time. <var 08 E1E80201 ((
+[<var 20 E802 /var>])) (()) /var><tab><tab>","<var 08 E1E80301 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>機能は現在ご利用いただけません。<var 08 E1E80201 ((
 [<var 20 E802 /var>])) (()) /var><tab><tab>","","False","0x000004B0","",""
 "","Unable to visit another data center. There are currently no other data centers within your selected region.<tab><tab>","現在選択中のデータセンターには、同一地域内に他のデータセンターがないため、「他のデータセンターへ遊びに行く」機能はお使いいただけません。<tab><tab>","","False","0x000004B1","",""
-"","Unable to <var 08 E1E80201 ((return to Home Data Center)) ((visit another data center)) /var> at this time. Please wait before attempting again.<tab><tab>","前回の処理を行ってからまだ一定時間が経過していないため、<var 08 E1E80201 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>コマンドを実行できません。<tab><tab>","","False","0x000004B2","",""
+"","Unable to <var 08 E1E80201 ((return to Home World)) ((visit another data center)) /var> at this time. Please wait before attempting again.<tab><tab>","前回の処理を行ってからまだ一定時間が経過していないため、<var 08 E1E80201 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>コマンドを実行できません。<tab><tab>","","False","0x000004B2","",""
 "","To visit other data centers with this character, you must first select a different name using the Change Name subcommand.<tab><tab>","このキャラクターで「他のデータセンターへ遊びに行く」には、事前にサブコマンド「名前を変更」でキャラクター名を変更してください。<tab><tab>","","False","0x000004B3","",""
 "","To visit other data centers with this character, you must first select a different retainer name using the Change Retainer Name subcommand.<tab><tab>","このキャラクターで「他のデータセンターへ遊びに行く」には、事前にサブコマンド「リテイナー名を変更」で雇用中のリテイナーの名前を変更してください。<tab><tab>","","False","0x000004B4","",""
-"","Character is currently imprisoned in the Mordion Gaol. <var 08 E1E80201 ((Return to Home Data Center)) ((Data Center Visit)) /var> request denied.<tab><tab>","キャラクターが現在「モルディオン監獄」にいるため、<var 08 E1E80201 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>コマンドは制限されています。<tab><tab>","","False","0x000004B5","",""
+"","Character is currently imprisoned in the Mordion Gaol. <var 08 E1E80201 ((Return to Home World)) ((Data Center Visit)) /var> request denied.<tab><tab>","キャラクターが現在「モルディオン監獄」にいるため、<var 08 E1E80201 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>コマンドは制限されています。<tab><tab>","","False","0x000004B5","",""
 "","Character has not completed the game's opening event. Unable to submit Data Center Visit request.<tab><tab>","キャラクターがゲームのオープニングイベントを完了していないため、「他のデータセンターへ遊びに行く」コマンドはまだ使えません。<tab><tab>","","False","0x000004B6","",""
 "","Your character must be on their Home World to submit a Data Center Visit request.<tab><tab>","「他のデータセンターへ遊びに行く」コマンドを実行するには、キャラクターがホームワールドにいる必要があります。<tab><tab>","","False","0x000004B7","",""
-"","Unable to <var 08 E1E80301 ((return to Home Data Center)) ((visit another data center)) /var>. Please wait before submitting another request via the subcommand menu. <var 08 E1E80201 ((
-[<var 20 E802 /var>])) (()) /var><tab><tab>","<var 08 E1E80301 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理が行えませんでした。
+"","Unable to <var 08 E1E80301 ((return to Home World)) ((visit another data center)) /var>. Please wait before submitting another request via the subcommand menu. <var 08 E1E80201 ((
+[<var 20 E802 /var>])) (()) /var><tab><tab>","<var 08 E1E80301 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理が行えませんでした。
 もう一度実行するには、しばらく待ってからサブコマンドを選択してください。<var 08 E1E80201 ((
 [<var 20 E802 /var>])) (()) /var><tab><tab>","","False","0x000004B8","",""
-"","<var 08 E1E80301 ((Return to Home Data Center)) ((Data Center Visit)) /var> system is temporarily unavailable. <var 08 E1E80201 ((
-[<var 20 E802 /var>])) (()) /var><tab><tab>","現在<var 08 E1E80301 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>サービスが一時的にご利用いただけません。<var 08 E1E80201 ((
+"","<var 08 E1E80301 ((Return to Home World)) ((Data Center Visit)) /var> system is temporarily unavailable. <var 08 E1E80201 ((
+[<var 20 E802 /var>])) (()) /var><tab><tab>","現在<var 08 E1E80301 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>サービスが一時的にご利用いただけません。<var 08 E1E80201 ((
 [<var 20 E802 /var>])) (()) /var><tab><tab>","","False","0x000004B9","",""
-"","Unable to <var 08 E1E80301 ((return to Home Data Center)) ((visit to another data center)) /var>. <var 08 E1E80201 ((
-[<var 20 E802 /var>])) (()) /var><tab><tab>","<var 08 E1E80301 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理が行えませんでした。<var 08 E1E80201 ((
+"","Unable to <var 08 E1E80301 ((return to Home World)) ((visit to another data center)) /var>. <var 08 E1E80201 ((
+[<var 20 E802 /var>])) (()) /var><tab><tab>","<var 08 E1E80301 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理が行えませんでした。<var 08 E1E80201 ((
 [<var 20 E802 /var>])) (()) /var><tab><tab>","","False","0x000004BA","",""
-"","Character was logged out or disconnected mid-duty. Unable to process <var 08 E1E80201 ((Return to Home Data Center)) ((Data Center Visit)) /var> request.<tab><tab>","キャラクターがコンテンツ中でログアウトまたは通信切断していたため、<var 08 E1E80201 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理を実行できません。<tab><tab>","","False","0x000004BB","",""
+"","Character was logged out or disconnected mid-duty. Unable to process <var 08 E1E80201 ((Return to Home World)) ((Data Center Visit)) /var> request.<tab><tab>","キャラクターがコンテンツ中でログアウトまたは通信切断していたため、<var 08 E1E80201 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理を実行できません。<tab><tab>","","False","0x000004BB","",""
 "","Unable to proceed with Data Center Visit. You cannot have any more characters on <var 29 EA02 /var>.<tab><tab>","「他のデータセンターへ遊びに行く」で選択したワールド<var 29 EA02 /var>は現在のご契約のキャラクター作成の上限に達しているため移動できません。<tab><tab>","","False","0x000004BC","",""
 "","You cannot submit a Data Center Visit request while outside of your Home Data Center.<tab><tab>","ホームワールドのあるデータセンター以外から「他のデータセンターへ遊びに行く」を実行することはできません。<tab><tab>","","False","0x000004BD","",""
-"","The World you have selected for your Return to Home Data Center request is not this character's Home World.<tab><tab>","「元のデータセンターに戻る」で指定されたワールド<var 29 EA02 /var>は、このキャラクターのホームワールドではありません。<tab><tab>","","False","0x000004BE","",""
+"","The World you have selected for your Return to Home World request is not this character's Home World.<tab><tab>","「ホームワールドに戻る」で指定されたワールド<var 29 EA02 /var>は、このキャラクターのホームワールドではありません。<tab><tab>","","False","0x000004BE","",""
 "","<var 29 EA02 /var> belongs to your current data center. Please use the World Visit system to travel there.<tab><tab>","「他のデータセンターへ遊びに行く」で選択したワールド<var 29 EA02 /var>は現在のデータセンター内にあります。ワールド間テレポをお使いください。<tab><tab>","","False","0x000004BF","",""
 "","Unable to visit <var 29 EA02 /var>. This World belongs to a data center outside of your region.<tab><tab>","「他のデータセンターへ遊びに行く」で選択したワールド<var 29 EA02 /var>は他の地域にあるデータセンターのため、処理を実行できません。<tab><tab>","","False","0x000004C0","",""
 "","You are currently on <var 29 EA02 /var>. Canceling Data Center Visit request.<tab><tab>","「他のデータセンターへ遊びに行く」で選択したワールド<var 29 EA02 /var>は現在のワールドと同一です。処理を中断します。<tab><tab>","","False","0x000004C1","",""
-"","Unable to select <var 29 EA02 /var> as a destination for <var 08 E1E80301 ((Return to Home Data Center)) ((Data Center Visit)) /var> requests at this time.<tab><tab>","<var 08 E1E80301 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>で選択したワールド<var 29 EA02 /var>は現在移動先として選択できません。<tab><tab>","","False","0x000004C2","",""
-"","A data error occurred and your <var 08 E1E80201 ((Return to Home Data Center)) ((Data Center Visit)) /var> request could not be processed. Please contact the Support Desk. <var 08 E1E80301 ((
-[<var 20 E803 /var>])) (()) /var><tab><tab>","ゲームデータの一部に問題が発生しており<var 08 E1E80201 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理ができません。サポートデスクまでお問い合わせください。<var 08 E1E80301 ((
+"","Unable to select <var 29 EA02 /var> as a destination for <var 08 E1E80301 ((Return to Home World)) ((Data Center Visit)) /var> requests at this time.<tab><tab>","<var 08 E1E80301 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>で選択したワールド<var 29 EA02 /var>は現在移動先として選択できません。<tab><tab>","","False","0x000004C2","",""
+"","A data error occurred and your <var 08 E1E80201 ((Return to Home World)) ((Data Center Visit)) /var> request could not be processed. Please contact the Support Desk. <var 08 E1E80301 ((
+[<var 20 E803 /var>])) (()) /var><tab><tab>","ゲームデータの一部に問題が発生しており<var 08 E1E80201 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理ができません。サポートデスクまでお問い合わせください。<var 08 E1E80301 ((
 [<var 20 E803 /var>])) (()) /var><tab><tab>","","False","0x000004C3","",""
 "","An error occurred while contacting the server. <var 08 E1E80201 ((
 [<var 20 E802 /var>])) (()) /var><tab><tab>","サーバーへの処理のリクエストでエラーが発生しました。<var 08 E1E80201 ((
 [<var 20 E802 /var>])) (()) /var><tab><tab>","","False","0x000004C4","",""
-"","Unable to <var 08 E1E80201 ((return to Home Data Center)) ((visit another data center)) /var> while in a party.<tab><tab>","パーティを組んだ状態のため、<var 08 E1E80201 ((「元のデータセンターに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理を実行できません。<tab><tab>","","False","0x000004C5","",""
+"","Unable to <var 08 E1E80201 ((return to Home World)) ((visit another data center)) /var> while in a party.<tab><tab>","パーティを組んだ状態のため、<var 08 E1E80201 ((「ホームワールドに戻る」)) ((「他のデータセンターへ遊びに行く」)) /var>処理を実行できません。<tab><tab>","","False","0x000004C5","",""
 "","More Subcommands<tab><tab>","その他の操作<tab><tab>","","False","0x000004C6","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004C7","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004C8","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004C9","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004CA","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004CB","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004CC","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004CD","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004CE","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004CF","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004D0","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004D1","",""
+"","Retrieve Character Data<tab><tab>","キャラクターの情報を取得<tab><tab>","","False","0x000004C7","",""
+"","If the display of character information has been simplified to better facilitate login, using this command will retrieve data necessary for name changes and editing your character after using Fantasia.<tab><tab>","ログインをスムーズに行うため、キャラクター情報の表示を簡略化している場合、このコマンドを使うことで選択中キャラクターの情報を取得し、改名が必要な場合の名前再入力や、幻想薬使用時のキャラクターの再編集が通常通り行えるようになります。<tab><tab>","","False","0x000004C8","",""
+"","Data for the selected character will be retrieved from the server and the display of character information will be restored.
+Proceed?<tab><tab>","簡略化しているキャラクター情報の表示を通常通り行うため、選択中キャラクターの情報をサーバーから取得します。
+よろしいですか？<tab><tab>","","False","0x000004C9","",""
+"","Retrieving character data...<tab><tab>","キャラクターの情報を取得しています。<tab><tab>","","False","0x000004CA","",""
+"","Please retrieve character data before changing your character's name.<tab><tab>","名前を変更するため、まずキャラクターの情報を取得しましょう。<tab><tab>","","False","0x000004CB","",""
+"","Please retrieve character data before changing your retainer's name.<tab><tab>","リテイナーの名前を変更するため、まずキャラクターの情報を取得しましょう。<tab><tab>","","False","0x000004CC","",""
+"","A name change is required to log in with this character. Please retrieve character data before changing your character's name.<tab><tab>","このキャラクターでログインするには名前の変更が必要です。名前を変更するため、まずキャラクターの情報を取得しましょう。<tab><tab>","","False","0x000004CD","",""
+"","To log in with this character, you must first change your retainer's name. Please retrieve character data before changing your retainer's name.<tab><tab>","このキャラクターでログインするにはリテイナーの名前の変更が必要です。名前を変更するため、まずキャラクターの情報を取得しましょう。<tab><tab>","","False","0x000004CE","",""
+"","You will now return to your Home World.
+Logging in will place your character at the aetheryte of your starting nation.<tab><tab>","ホームワールドに戻ります。
+ログインするとキャラクターの開始国のエーテライトから再開できます。<tab><tab>","","False","0x000004CF","",""
+"","To visit other Worlds with this character, you must first return to your Home World and change your character's name.<tab><tab>","空いているワールドへ移動するためには、一度ホームワールドに戻り、名前を変更する必要があります。<tab><tab>","","False","0x000004D0","",""
+"","To visit other Worlds with this character, you must first return to your Home World and change your retainer's name.<tab><tab>","空いているワールドへ移動するためには、一度ホームワールドに戻り、リテイナーの名前を変更する必要があります。<tab><tab>","","False","0x000004D1","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004D2","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004D3","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004D4","",""

@@ -711,7 +711,60 @@ USAGE:
 
 →Opens and closes your adventurer plate.<tab><tab><tab>/adventurerplate<tab>/myplate","/cartepersonnage, /cartep, /adventurerplate, /myplate
 Affiche la carte de personnage.<tab>/cartepersonnage<tab>/cartep<tab>/adventurerplate<tab>/myplate","","False","0x00000026","",""
-"","<tab><tab><tab>//resetSettingCWLS<tab>","<tab><tab><tab>//resetSettingCWLS<tab>","","False","0x00000027","",""
+"","USAGE:
+　/rclickpc [subcommand]
+
+→Sets right-click selection to allow or ignore PC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for PCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for PCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickpc<tab>","/clicdroitpj, /clicdpj, /rclickpc
+Utilisation<var 1D /var>: /clicdroitpj [sous-commande]
+Permet de désactiver le ciblage des personnages joueurs en cliquant sur le bouton droit de la souris.
+>> Sous-commandes<var 1D /var>:
+activé (on) Désactive le ciblage par clic droit.
+désactivé (off) Active le ciblage par clic droit.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.<tab>/clicdroitpj<tab>/clicdpj<tab>/rclickpc<tab>","","False","0x00000027","",""
+"","USAGE:
+　/rclickbattlenpc [subcommand]
+
+→Sets right-click selection to allow or ignore battle NPC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for battle NPCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for battle NPCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickbattlenpc<tab>","/clicdroitpnj, /clicdpnj, /rclickbattlenpc
+Utilisation<var 1D /var>: /clicdroitpnj [sous-commande]
+Permet de désactiver le ciblage des personnages non-joueurs dans les instances en cliquant sur le bouton droit de la souris.
+>> Sous-commandes<var 1D /var>:
+activé (on) Désactive le ciblage par clic droit.
+désactivé (off) Active le ciblage par clic droit.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.<tab>/clicdroitpnj<tab>/clicdpnj<tab>/rclickbattlenpc<tab>","","False","0x00000028","",""
+"","USAGE:
+　/rclickminion [subcommand]
+
+→Sets right-click selection to allow or ignore minion targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for minions.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for minions.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickminion<tab>","/clicdroitmascotte, /clicdmas, /rclickminion
+Utilisation<var 1D /var>: /clicdroitmascotte [sous-commande]
+Permet de désactiver le ciblage des mascottes en cliquant sur le bouton droit de la souris.
+>> Sous-commandes<var 1D /var>:
+activé (on) Désactive le ciblage par clic droit.
+désactivé (off) Active le ciblage par clic droit.
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.<tab>/clicdroitmascotte<tab>/clicdmas<tab>/rclickminion<tab>","","False","0x00000029","",""
 "","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -1528,12 +1581,12 @@ USAGE:
 　　Place or remove waymark 3. Overwrites existing waymark if target is specified.
 　<var 48 F201FA /var><var 49 F201FB /var>4<var 49 01 /var><var 48 01 /var>
 　　Place or remove waymark 4. Overwrites existing waymark if target is specified.
- 　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear <var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>
 　　Remove all waymarks.
- 　<var 48 F201FA /var><var 49 F201FB /var>save 1-5<var 49 01 /var><var 48 01 /var>
-　　Save waymark placements to slots 1-5 of the Waymarks menu.
-　 <var 48 F201FA /var><var 49 F201FB /var>preset 1-5<var 49 01 /var><var 48 01 /var>
-　　Load waymark placements from slots 1-5 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>save 1-30<var 49 01 /var><var 48 01 /var>
+　　Save waymark placements to slots 1-30 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>preset 1-30<var 49 01 /var><var 48 01 /var>
+　　Load waymark placements from slots 1-30 of the Waymarks menu.
 
 You will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.
 
@@ -1562,9 +1615,9 @@ Signe (A, B, C, D, 1, 2, 3 ou 4)   Place la marque au sol spécifiée. Si elle e
 Signe (A, B, C, D, 1, 2, 3 ou 4) [argument de ciblage]   Place la marque au sol spécifiée aux pieds de la cible désignée.
 Signe (A, B, C, D, 1, 2, 3 ou 4) sansciblesol  Place directement la marque au sol spécifiée là où se trouve le curseur, sans faire apparaître la cible au sol.
 annuler (désactivé)   Retire toutes les marques au sol placées.
-enregistrer (1-5)   Enregistre la disposition des marqueurs actuelle dans l'emplacement de sauvegarde spécifié.
-mode (1-5)   Charge la disposition des marqueurs enregistré dans l'emplacement de sauvegarde spécifié.
-* Si aucun nom de signe n'est saisi, place une marque inutilisée dans l'ordre alphabétique.
+enregistrer (1-30)   Enregistre la disposition des marqueurs actuelle dans l'emplacement de sauvegarde spécifié.
+mode (1-30)   Charge la disposition des marqueurs enregistré dans l'emplacement de sauvegarde spécifié.
+* Si aucun nom de signe n'est saisi, place une marque inutilisée dans l'ordre alphabétique, puis dans l'ordre numérique.
 * Si tous les signes sont déjà désignés, la commande est in<var 16 /var>uti<var 16 /var>li<var 16 /var>sa<var 16 /var>ble.
 * Si l'argument de ciblage est spécifié, le nom de signe ne peut pas être omis.
 >> Exemples<var 1D /var>:
@@ -2114,13 +2167,13 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<var 1E 0B /var>, R, NUM*, Mouse Wheel
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Mouse Wheel
 
 　Toggle group view on camera
-　<var 1E 0C /var>, Spacebar
+　<var 1E 0C /var>, <var 08 E4E94F04 ((spacebar)) ((Spacebar)) /var>
 
 　Toggle camera lighting
-　<var 1E 0E /var>, X
+　<var 1E 0E /var>, <var 08 E4E94F04 ((x)) ((X)) /var>
 
 　Toggle all character motions
 　<var 1E 0F /var>, 1 Key
@@ -2129,23 +2182,23 @@ USAGE:
 　<var 1E 10 /var>, 2 Key
 
 　Change focus of camera
-　<var 1E 07 /var>, Tab, Shift+Tab
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
 
 　Adjust frame composition
- 　<var 1E 15 /var>, W, A, S, D, Q, E
+ 　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 
 　Reset frame composition
-　<var 12 11 /var>, Z<tab><tab><tab>/grouppose<tab>/gpose","/posegroupe, /posegr, /grouppose, /gpose
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var><tab><tab><tab>/grouppose<tab>/gpose","/posegroupe, /posegr, /grouppose, /gpose
 Fait une pose de groupe avec votre personnage et ceux d'autres joueurs.
 >> Fonctions<var 1D /var>:
-R, * (pavé numérique), clic molette/<var 1E 0B /var>    Ouvre la fenêtre des paramètres de la caméra.
-Espace/<var 1E 0C /var>    Active/désactive l'orientation du regard vers la caméra.
-!/<var 1E 0E /var>    Éclaire la position de la caméra.
+<var 08 E4E94F04 ((r)) ((R)) /var>, * (pavé numérique), clic molette/<var 1E 0B /var>    Ouvre la fenêtre des paramètres de la caméra.
+<var 08 E4E94F04 ((espace)) ((Espace)) /var>/<var 1E 0C /var>    Active/désactive l'orientation du regard vers la caméra.
+<var 08 E4E94F04 ((x)) ((X)) /var>/<var 1E 0E /var>    Éclaire la position de la caméra.
 1/<var 1E 0F /var>    Arrête tous les mouvements.
 2/<var 1E 10 /var>    Arrête les mouvements de la cible.
-Tab, Shift+Tab/<var 1E 07 /var>    Change le personnage central.
-Z, Q, S, D, E/<var 1E 15 /var>    Ajuste la position du cadre.
-W/<var 12 11 /var>    Réinitialise la position du cadre.
+<var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>/<var 1E 07 /var>    Change le personnage central.
+<var 08 E4E94F04 ((z,q,s,d,a,e)) ((Z,Q,S,D,A,E)) /var>/<var 1E 15 /var>    Ajuste la position du cadre.
+<var 08 E4E94F04 ((w)) ((W)) /var>/<var 12 11 /var>    Réinitialise la position du cadre.
 (Touches par défaut)<tab>/posegroupe<tab>/posegr<tab>/grouppose<tab>/gpose","","False","0x000000DB","",""
 "","ALIASES:
 　/itemsearch, /isearch
@@ -2171,19 +2224,19 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<var 1E 0B /var>, R, NUM*, Wheel Button
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Wheel Button
 
 　Pause/unpause camera
 　<var 1E 09 /var>, NUM0, left-click
 
 　Skip scene
-　<var 1E 07 /var>, Tab, Shift+Tab
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
 
 　Adjust frame composition
-　<var 1E 15 /var>, W, A, S, D, Q, E
+　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 
 　Reset frame composition
-　<var 12 11 /var>, Z
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var>
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
@@ -2195,11 +2248,11 @@ L'argument de ciblage peut être omis.
 Si une cible a été spécifiée, la caméra se concentre sur elle, la montrant sous divers angles.
 Si la cible spécifiée ne peut pas servir d'objet à cette fonction, une autre est déterminée aléatoirement.
 >> Fonctions<var 1D /var>:
-R, * (pavé numérique), clic molette/<var 1E 0B /var>    Ouvre la fenêtre des paramètres de la caméra.
+<var 08 E4E94F04 ((r)) ((R)) /var>, * (pavé numérique), clic molette/<var 1E 0B /var>    Ouvre la fenêtre des paramètres de la caméra.
 0 (clavier numérique)/clic gauche/<var 1E 09 /var>    Met en pause/redémarre la caméra diaporama.
-Tab, Shift+Tab/<var 1E 07 /var>    Passe au plan suivant.
-A, Z, E, Q, S, D/<var 1E 15 /var>    Ajuste la position du cadre.
-W/<var 12 11 /var>    Réinitialise la position du cadre.
+<var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>/<var 1E 07 /var>    Passe au plan suivant.
+<var 08 E4E94F04 ((z,q,s,d,a,e)) ((Z,Q,S,D,A,E)) /var>/<var 1E 15 /var>    Ajuste la position du cadre.
+<var 08 E4E94F04 ((w)) ((W)) /var>/<var 12 11 /var>    Réinitialise la position du cadre.
 >> Exemples<var 1D /var>:
 /cameradiaporama
   Active la caméra diaporama sans objet spécifique.
@@ -2578,7 +2631,6 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　mouse cursor's location.)<tab><tab><tab>/action<tab>/ac","/act, /action, /ac
 Utilisation<var 1D /var>: /action ""[nom d'action]"" [argument de ciblage]
 Permet d'effectuer une action sur la cible spécifiée.
-Si l'action peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage].
 Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
 >> Exemples<var 1D /var>:
@@ -2601,13 +2653,13 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>    Switch to active mode.
 　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>    Switch to passive mode.
 
-Toggle between active and passive mode when no subcommand is specified.<tab><tab><tab>/battlemode<tab>/bm","/dégainer, /mcombat, /battlemode, /bm
-Utilisation<var 1D /var>: /dégainer [sous-commande]
+Toggle between active and passive mode when no subcommand is specified.<tab><tab><tab>/battlemode<tab>/bm","/modecombat, /mcombat, /battlemode, /bm
+Utilisation<var 1D /var>: /modecombat [sous-commande]
 Alterne entre le mode passif et le mode actif.
 >> Sous-commandes<var 1D /var>:
 activé (on)        Passe en mode actif.
 désactivé (off)   Passe en mode passif.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.<tab>/dégainer<tab>/mcombat<tab>/battlemode<tab>/bm","","False","0x000000FC","",""
+Si aucune sous-commande n'est spécifiée, alterne entre les deux options.<tab>/modecombat<tab>/mcombat<tab>/battlemode<tab>/bm","","False","0x000000FC","",""
 "","ALIASES:
 　/target, /ta
 USAGE:
@@ -2830,33 +2882,11 @@ La monture spécifiée est appelée. Permet aussi de descendre d'une monture ou 
 USAGE:
 　/aaction ""action name"" [subcommand]
 
-→Set the specified action as an additional action for your current gatherer class. This command cannot be used with Disciples of War or Magic.
-
->>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>　Set additional action.
-　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>　Remove additional action.
-　<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>　Remove all additional actions.
-
-Toggle between on and off when no subcommand is specified.
-
->>Examples:
-　/aaction ""Triangulate""
-　(Sets Triangulate as an additional action.)
-
-　/aaction clear
-　(Removes all additional actions.)<tab><tab><tab>/additionalaction<tab>/aaction","/actionrôle, /talent, /additionalaction, /aaction
+A command previously believed to set the specified action as an additional action for your current gatherer class.
+※This text command is no longer in use.<tab><tab><tab>/additionalaction<tab>/aaction","/actionrôle, /talent, /additionalaction, /aaction
 Utilisation<var 1D /var>: /actionrôle ""[nom d'action]"" [sous-commande]
 /talent ""[nom d'action]"" [sous-commande]
-Enregistre l'action indiquée dans la liste des talents (récolteurs uniquement).
->> Sous-commandes<var 1D /var>:
-activé (on)   Enregistre l'action.
-désactivé (off)   Retire l'action.
-* Si aucune sous-commande n'est saisie, alterne entre les deux options.
->> Exemples<var 1D /var>:
-/actionrôle ""Forestier"" activé
-  Enregistre Forestier en tant que talent.
-/talent annuler
-  Retire toutes les actions enregistrées dans la liste des talents.<tab>/actionrôle<tab>/talent<tab>/additionalaction<tab>/aaction","","False","0x00000110","",""
+Enregistrait autrefois l'action indiquée dans la liste des talents (récolteurs uniquement).* Cette commande est ac<var 16 /var>tu<var 16 /var>el<var 16 /var>le<var 16 /var>ment indisponible en raison d'un remaniement du système.<tab>/actionrôle<tab>/talent<tab>/additionalaction<tab>/aaction","","False","0x00000110","",""
 "","ALIASES:
 　/generalaction, /gaction
 USAGE:
@@ -2936,7 +2966,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　(Executes Storm's Path
 　on current target.)<tab><tab><tab>/pvpaction<tab>/pvpac","/actionjcj, /aj, /pvpaction, /pvpac
 Utilisation<var 1D /var>: /actionjcj ""[nom d'actions JcJ]"" [argument de ciblage]
-Permet d'effectuer une action sur la cible spécifiée. Si l'action peut être lancée sur soi-même, il n'est pas nécessaire de renseigner la sous-commande [argument de ciblage]. Le nom de la cible doit cependant être indiqué si l'action est utilisée sur un adversaire.
+Permet d'effectuer une action sur la cible spécifiée.
 Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
 
@@ -2963,6 +2993,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　the specified target.)<tab><tab><tab>/blueaction<tab>","/actionmagiebleue, /mb, /blueaction ""Nom de l'action de magie bleue"" [argument de ciblage]
 Permet d'effectuer une action de magie bleue sur la cible spécifiée.
 Dans le cas d'une action utilisant une cible au sol, l'argument ""sansciblesol"" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.
+Exécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.
 >> Exemple<var 1D /var>:
 /actionmagiebleue ""Tir d'eau"" <t>
   Utilise l'action de magie bleue Tir d'eau sur la cible.<tab>/actionmagiebleue<tab>/mb<tab>/blueaction<tab>","","False","0x00000117","",""
@@ -3307,7 +3338,8 @@ Si aucun type n'est spécifié, alterne entre ""tous"" et ""désactivé"".<tab>/
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -7209,7 +7241,7 @@ USAGE:
 →Bare your teeth derisively.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/montrersoncôtérebelle, /rebelle, /deride, /pagaga
 Utilisation<var 1D /var>: /montrersoncôtérebelle [sous-commande]
@@ -7239,7 +7271,7 @@ USAGE:
 →Nibble on a pumpkin cookie.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/mangerunbiscuitcitrouille, /mangbiscuitcitrouille, /eatpumpkincookie, /cookie
 Utilisation<var 1D /var>: /mangerunbiscuitcitrouille [sous-commande]
@@ -7261,4 +7293,48 @@ Apprécie le spectacle.
 >> Sous-commande<var 1D /var>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/apprécierlespectacle<tab>/apprécispectacle<tab>/spirit<tab>","","False","0x00000289","",""
+"","ALIASES:
+　/littleladiesdance, /ladance
+USAGE:
+　/ladance [subcommand]
+
+→Perform the Little Ladies' Dance.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/littleladiesdance<tab>/ladance","/dansedesprincesses, /dansprinc, /littleladiesdance
+Utilisation<var 1D /var>: /dansedesprincesses [sous-commande]
+Effectue la danse des princesses.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/dansedesprincesses<tab>/dansprinc<tab>/littleladiesdance<tab>/ladance","","False","0x0000028B","",""
+"","USAGE:
+　/linkpearl [subcommand]
+
+→Make a linkpearl call.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/linkpearl<tab>","/appelvialinkperle, /applink, /linkpearl
+Utilisation<var 1D /var>: /appelvialinkperle [sous-commande]
+Passe un appel via linkperle.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/appelvialinkperle<tab>/applink<tab>/linkpearl<tab>","","False","0x0000028C","",""
+"","USAGE:
+　/frighten [subcommand]
+
+→Attempt to appear menacing.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/frighten<tab>","/effrayer, /frighten
+Utilisation<var 1D /var>: /effrayer [sous-commande]
+Prend un air effrayant.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/effrayer<tab><tab>/frighten<tab>","","False","0x00000291","",""
 

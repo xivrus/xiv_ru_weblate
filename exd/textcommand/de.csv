@@ -732,7 +732,69 @@ USAGE:
 
 →Opens and closes your adventurer plate.<tab><tab><tab>/adventurerplate<tab>/myplate","/abenteurerpass, /meinpass, /adventurerplate, /myplate
 → Öffnet deinen Abenteurerpass.<tab>/abenteurerpass<tab>/meinpass<tab>/adventurerplate<tab>/myplate","","False","0x00000026","",""
-"","<tab><tab><tab>//resetSettingCWLS<tab>","<tab><tab><tab>//resetSettingCWLS<tab>","","False","0x00000027","",""
+"","USAGE:
+　/rclickpc [subcommand]
+
+→Sets right-click selection to allow or ignore PC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for PCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for PCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickpc<tab>","/rklickpc, rclickpc
+VERWENDUNG:
+/rklickpc [Unterbefehl]
+→ Ändert die Einstellung für „Charaktere von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakter<var 16 /var>konfiguration).
+>>Unterbefehle:
+　<var 48 F201FA /var><var 49 F201FB /var>ein<var 49 01 /var><var 48 01 /var>
+　　Aktiviert die Einstellung.
+　<var 48 F201FA /var><var 49 F201FB /var>aus<var 49 01 /var><var 48 01 /var>
+　　Deaktiviert die Einstellung.
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.<tab>/rklickpc<tab><tab>/rclickpc<tab>","","False","0x00000027","",""
+"","USAGE:
+　/rclickbattlenpc [subcommand]
+
+→Sets right-click selection to allow or ignore battle NPC targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for battle NPCs.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for battle NPCs.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickbattlenpc<tab>","/rklickkampfnpc, rclickbattlenpc
+VERWENDUNG:
+/rklickkampfnpc [Unterbefehl]
+→ Ändert die Einstellung für „Kampf-NPCs von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakter<var 16 /var>konfiguration).
+>>Unterbefehle:
+　<var 48 F201FA /var><var 49 F201FB /var>ein<var 49 01 /var><var 48 01 /var>
+　　Aktiviert die Einstellung.
+　<var 48 F201FA /var><var 49 F201FB /var>aus<var 49 01 /var><var 48 01 /var>
+　　Deaktiviert die Einstellung.
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.<tab>/rklickkampfnpc<tab><tab>/rclickbattlenpc<tab>","","False","0x00000028","",""
+"","USAGE:
+　/rclickminion [subcommand]
+
+→Sets right-click selection to allow or ignore minion targets.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>
+　　Disables right-click selection for minions.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>
+　　Enables right-click selection for minions.
+
+Toggles between on and off when no subcommand is specified.<tab><tab><tab>/rclickminion<tab>","/rklickbegleiter, rclickminion
+VERWENDUNG:
+/rklickbegleiter [Unterbefehl]
+→ Ändert die Einstellung für „Begleiter von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakter<var 16 /var>konfiguration).
+>>Unterbefehle:
+　<var 48 F201FA /var><var 49 F201FB /var>ein<var 49 01 /var><var 48 01 /var>
+　　Aktiviert die Einstellung.
+　<var 48 F201FA /var><var 49 F201FB /var>aus<var 49 01 /var><var 48 01 /var>
+　　Deaktiviert die Einstellung.
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.<tab>/rklickbegleiter<tab><tab>/rclickminion<tab>","","False","0x00000029","",""
 "","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -1571,12 +1633,12 @@ USAGE:
 　　Place or remove waymark 3. Overwrites existing waymark if target is specified.
 　<var 48 F201FA /var><var 49 F201FB /var>4<var 49 01 /var><var 48 01 /var>
 　　Place or remove waymark 4. Overwrites existing waymark if target is specified.
- 　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear <var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>
 　　Remove all waymarks.
- 　<var 48 F201FA /var><var 49 F201FB /var>save 1-5<var 49 01 /var><var 48 01 /var>
-　　Save waymark placements to slots 1-5 of the Waymarks menu.
-　 <var 48 F201FA /var><var 49 F201FB /var>preset 1-5<var 49 01 /var><var 48 01 /var>
-　　Load waymark placements from slots 1-5 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>save 1-30<var 49 01 /var><var 48 01 /var>
+　　Save waymark placements to slots 1-30 of the Waymarks menu.
+　<var 48 F201FA /var><var 49 F201FB /var>preset 1-30<var 49 01 /var><var 48 01 /var>
+　　Load waymark placements from slots 1-30 of the Waymarks menu.
 
 You will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.
 
@@ -1606,9 +1668,9 @@ VERWENDUNG:
 Setzt/entfernt Markierung A, B, C, D, 1, 2, 3, 4. Ist das Symbol bereits vergeben, wird die Markierung entfernt, bei Angabe des Charakternamens überschrieben.
   <var 48 F201FA /var><var 49 F201FB /var>aus<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>off<var 49 01 /var><var 48 01 /var>), <var 48 F201FA /var><var 49 F201FB /var>zurück<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>)
 Entfernt alle gesetzten Markierungen.
-<var 48 F201FA /var><var 49 F201FB /var>speichern 1-5<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>save 1-5<var 49 01 /var><var 48 01 /var>)
-Speichert die platzierten Markierungen in Slot 1-5.
-<var 48 F201FA /var><var 49 F201FB /var>wieder<var 16 /var>herstellen 1-5<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>preset 1-5<var 49 01 /var><var 48 01 /var>)
+<var 48 F201FA /var><var 49 F201FB /var>speichern 1-30<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>save 1-30<var 49 01 /var><var 48 01 /var>)
+Speichert die platzierten Markierungen in Slot 1-30.
+<var 48 F201FA /var><var 49 F201FB /var>wieder<var 16 /var>herstellen 1-30<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>preset 1-30<var 49 01 /var><var 48 01 /var>)
 Stellt die gespeicherten Markierungen wieder her.
 Bei fehlendem Symbolnamen wird eine noch unbenutzte Markierung (A→ 2) gesetzt. Sind alle bereits benutzt, kann das Kommando nicht ausgeführt werden.
 >>Beispiel:
@@ -1966,7 +2028,7 @@ VERWENDUNG:
 /set [Unterbefehl]
 → Führt Aktionen an Ausrüstungssets aus.
 >>Unterbefehle:
-  <var 48 F201FA /var><var 49 F201FB /var>ändern<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>change<var 49 01 /var><var 48 01 /var>) [Name/Nummer] [1-15]  Legt die Gegenstände von Set [Name/Nummer] an. Wenn eine Pro<var 16 /var>jektions<var 16 /var>platte [1-15] vorhanden ist, kann sie auch angewendet werden (optional).
+  <var 48 F201FA /var><var 49 F201FB /var>ändern<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>change<var 49 01 /var><var 48 01 /var>) [Name/Nummer] [1-20]  Legt die Gegenstände von Set [Name/Nummer] an. Wenn eine Pro<var 16 /var>jektions<var 16 /var>platte [1-15] vorhanden ist, kann sie auch angewendet werden (optional).
   <var 48 F201FA /var><var 49 F201FB /var>check<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>view<var 49 01 /var><var 48 01 /var>) [Name/Nummer]  Listet die Gegenstände von Set [Name/Nummer] auf.
   <var 48 F201FA /var><var 49 F201FB /var>speichern<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>save<var 49 01 /var><var 48 01 /var>) [Name/Nummer]  Speichert aktuelle Gegenstände in Set [Name/Nummer].
   <var 48 F201FA /var><var 49 F201FB /var>entf<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>delete<var 49 01 /var><var 48 01 /var>) [Name/Nummer]  Entfernt das Set [Name/Nummer].
@@ -2151,13 +2213,13 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<var 1E 0B /var>, R, NUM*, Mouse Wheel
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Mouse Wheel
 
 　Toggle group view on camera
-　<var 1E 0C /var>, Spacebar
+　<var 1E 0C /var>, <var 08 E4E94F04 ((spacebar)) ((Spacebar)) /var>
 
 　Toggle camera lighting
-　<var 1E 0E /var>, X
+　<var 1E 0E /var>, <var 08 E4E94F04 ((x)) ((X)) /var>
 
 　Toggle all character motions
 　<var 1E 0F /var>, 1 Key
@@ -2166,30 +2228,30 @@ USAGE:
 　<var 1E 10 /var>, 2 Key
 
 　Change focus of camera
-　<var 1E 07 /var>, Tab, Shift+Tab
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
 
 　Adjust frame composition
- 　<var 1E 15 /var>, W, A, S, D, Q, E
+ 　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 
 　Reset frame composition
-　<var 12 11 /var>, Z<tab><tab><tab>/grouppose<tab>/gpose","/gruppenpose, /grouppose, /gpose
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var><tab><tab><tab>/grouppose<tab>/gpose","/gruppenpose, /grouppose, /gpose
 → Lässt Gruppen- und Allianzmitglieder sowie Begleiter, Reittiere und Mitstreiter gemeinsam posieren.
 >>Steuerung:
-<var 1E 0B /var>, R, Num *, Mausrad-Klick
+<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, Num *, Mausrad-Klick
 Kamera-Einstellungen anzeigen
 <var 1E 0C /var>, Leertaste
 Blick zur Kamera/normal
-<var 1E 0E /var>, X
+<var 1E 0E /var>, <var 08 E4E94F04 ((x)) ((X)) /var>
 Bewegung anhalten (alle)
 <var 1E 0F /var>, Num 1
 Bewegung anhalten (Ziel)
 <var 1E 10 /var>,Num 2
 Fokussierten Charakter wechseln
-<var 1E 07 /var>, Tab, Umsch+Tab
+<var 1E 07 /var>, <var 08 E4E94F04 ((tab, umsch+tab)) ((Tab, Umsch+Tab)) /var>
 Fokus wechseln
-<var 1E 15 /var>, W, A, S, D, Q, E
+<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 Kameraposition ändern
-<var 12 11 /var>, Z
+<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var>
 Kameraposition zurücksetzen<tab>/gruppenpose<tab><tab>/grouppose<tab>/gpose","","False","0x000000DB","",""
 "","ALIASES:
 　/itemsearch, /isearch
@@ -2218,19 +2280,19 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<var 1E 0B /var>, R, NUM*, Wheel Button
+　<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, NUM*, Wheel Button
 
 　Pause/unpause camera
 　<var 1E 09 /var>, NUM0, left-click
 
 　Skip scene
-　<var 1E 07 /var>, Tab, Shift+Tab
+　<var 1E 07 /var>, <var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var>
 
 　Adjust frame composition
-　<var 1E 15 /var>, W, A, S, D, Q, E
+　<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 
 　Reset frame composition
-　<var 12 11 /var>, Z
+　<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var>
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
@@ -2240,15 +2302,15 @@ VERWENDUNG:
 /knips [Variable zur Zielbestimmung]
 → Aktiviert den Schnappschuss-Sucher, der im 10-Sekunden-Abstand zufällige Naheinstellungen von Charakteren und Objekten der Umgebung zeigt. Bei Angabe eines Ziels fokussiert der Sucher darauf (ausgenommen einige unfokussierbare Charaktere).
 >>Steuerung:
-<var 1E 0B /var>, R, Num *, Mausrad-Klick
+<var 1E 0B /var>, <var 08 E4E94F04 ((r)) ((R)) /var>, Num *, Mausrad-Klick
 Kamera-Einstellungen anzeigen
 <var 1E 09 /var>, Num 0, Links-Klick
 Kamerawinkel anhalten/weiter wechseln
-<var 1E 07 /var>, Tab, Umsch+Tab
+<var 1E 07 /var>, <var 08 E4E94F04 ((tab,umschalt+tab)) ((Tab,Umschalt+Tab)) /var>
 Szene überspringen
-<var 1E 15 /var>, W,A,S,D,Q,E
+<var 1E 15 /var>, <var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var>
 Kameraposition ändern
-<var 12 11 /var>, Z
+<var 12 11 /var>, <var 08 E4E94F04 ((z)) ((Z)) /var>
 Kameraposition zurücksetzen
 >>Beispiel:
 /knips <t>
@@ -2629,7 +2691,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　mouse cursor's location.)<tab><tab><tab>/action<tab>/ac","/kommando, /kmd, /action, /ac
 VERWENDUNG:
 /kmd ""[Kommando]"" [Variable zur Zielbestimmung]
-→ Führt das gewählte Kommando auf das spezifizierte Ziel aus. Bei Kommandos auf den eigenen Charakter kann der Zielname entfallen. Kann nicht mit Kommandos verwendet werden, die noch nicht erlernt wurden oder die in dieser Situation nicht benutzt werden können. 
+→ Führt das gewählte Kommando auf das spezifizierte Ziel aus. Kann nicht mit Kommandos verwendet werden, die noch nicht erlernt wurden oder die in dieser Situation nicht benutzt werden können. 
 
 >>Zielbestimmung:
   <var 48 F201FA /var><var 49 F201FB /var><1>-<8><var 49 01 /var><var 48 01 /var>  Führt das Kommando auf Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied 1 - 8 aus.
@@ -2882,35 +2944,9 @@ VERWENDUNG:
 USAGE:
 　/aaction ""action name"" [subcommand]
 
-→Set the specified action as an additional action for your current gatherer class. This command cannot be used with Disciples of War or Magic.
-
->>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>　Set additional action.
-　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>　Remove additional action.
-　<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>　Remove all additional actions.
-
-Toggle between on and off when no subcommand is specified.
-
->>Examples:
-　/aaction ""Triangulate""
-　(Sets Triangulate as an additional action.)
-
-　/aaction clear
-　(Removes all additional actions.)<tab><tab><tab>/additionalaction<tab>/aaction","/ergkmd, /additionalaction, /aaction
-VERWENDUNG:
-/ergkmd ""[Kommando]"" [Unterbefehl]
-→ Legt das angegebene Kommando als Ergänzendes Kommando fest. Kann nur von Sammlern verwendet werden.
->>Unterbefehle:
-  <var 48 F201FA /var><var 49 F201FB /var>ein<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>on<var 49 01 /var><var 48 01 /var>)  Legt Ergänzendes Kommando fest.
-  <var 48 F201FA /var><var 49 F201FB /var>aus<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>off<var 49 01 /var><var 48 01 /var>)  Entfernt Ergänzendes Kommando.
-Bei fehlendem Unterbefehl wird das Ergänzende Kommando festgelegt bzw. entfernt.
-  <var 48 F201FA /var><var 49 F201FB /var>zurück<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>)  Entfernt alle Ergänzenden Kommandos (Kommandoname entfällt).
-
->>Beispiele:
-/ergkmd ""Geodäsie""
-Legt Geodäsie in den Ergänzenden Kommandos an.
-/ergkmd zurück
-Entfernt alle Ergänzenden Kommandos.<tab>/ergkmd<tab><tab>/additionalaction<tab>/aaction","","False","0x00000110","",""
+A command previously believed to set the specified action as an additional action for your current gatherer class.
+※This text command is no longer in use.<tab><tab><tab>/additionalaction<tab>/aaction","/ergkmd, /additionalaction, /aaction
+** Dieses Kommando wurde deaktiviert. **<tab>/ergkmd<tab><tab>/additionalaction<tab>/aaction","","False","0x00000110","",""
 "","ALIASES:
 　/generalaction, /gaction
 USAGE:
@@ -2993,7 +3029,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 VERWENDUNG:
 /pvpkmd  ""[Kommando]"" [Variable zur Zielbestimmung]
 → Führt ein PvP-Kommando auf das angegebene Ziel aus.
-Ausführung nur möglich, wenn das Kommando bereits erlernt wurde und die Umstände es erlauben. Bei auf sich selbst anwendbaren Kommandos kann die Zielangabe entfallen. Bei auf Gegner gerichteten Kommandos müssen Variablen verwendet werden. Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.
+Ausführung nur möglich, wenn das Kommando bereits erlernt wurde und die Umstände es erlauben. Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.
 >>Zielbestimmung:
   <var 48 F201FA /var><var 49 F201FB /var><1>-<8><var 49 01 /var><var 48 01 /var>  Führt das Kommando auf Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied 1 - 8 aus.
   <var 48 F201FA /var><var 49 F201FB /var><t>, <target><var 49 01 /var><var 48 01 /var>  Führt das Kommando auf das anvisierte Ziel aus. Bei Bodenziel-Kommandos wird das Kommando am Standort des Ziels ausgelöst.
@@ -3022,7 +3058,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　the specified target.)<tab><tab><tab>/blueaction<tab>","/blaukommando, /blauk, /blueaction
 VERWENDUNG:
 /blaukommando ""[Kommando]"" [Variable zur Zielbestimmung]
-→ Führt das genannte Blaumagie-Kommando auf das genannte Ziel aus. Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.
+→ Führt das genannte Blaumagie-Kommando auf das genannte Ziel aus (außer die Umgebung gestattet die Ausführung nicht oder das Kommando wurde noch nicht erlernt). Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.
 >>Zielbestimmung:
   <var 48 F201FA /var><var 49 F201FB /var><1>-<8><var 49 01 /var><var 48 01 /var>  Führt das Kommando auf Grup<var 16 /var>pen<var 16 /var>mit<var 16 /var>glied 1 - 8 aus.
   <var 48 F201FA /var><var 49 F201FB /var><t>, <target><var 49 01 /var><var 48 01 /var>  Führt das Kommando auf das anvisierte Ziel aus. Bei Bodenziel-Kommandos wird das Kommando am Standort des Ziels ausgelöst.
@@ -3386,7 +3422,8 @@ Bei fehlendem Typ wird zwischen „alle“ und „aus“ gewechselt.<tab>/kampfe
 　Status Info (Enhancements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienh<var 49 01 /var><var 48 01 /var>
 　Status Info (Conditional Enhancements)
-　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 16 /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>SInfoConditional<var 49 01 /var><var 48 01 /var>
+　　<var 48 F201FA /var><var 49 F201FB /var>Enhancements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sicenh<var 49 01 /var><var 48 01 /var>
 　Status Info (Enfeeblements)
 　　<var 48 F201FA /var><var 49 F201FB /var>SInfoEnfeeblements<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>sienf<var 49 01 /var><var 48 01 /var>
 　Status Info (Other)
@@ -6267,7 +6304,7 @@ Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.<tab><tab><tab>/beam<tab>","/zufrieden, /beam
 VERWENDUNG:
 /zufrieden [Unterbefehl]
-→ Du strahlst vollste Zufriedenheit aus.
+→ Du lässt keine Zweifel daran, dass du mit der Welt im Reinen bist.
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus.
 Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/zufrieden<tab><tab>/beam<tab>","","False","0x00000234","",""
@@ -6539,7 +6576,7 @@ Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.<tab><tab><tab>/leftwink<tab>","/zwinkerlinks, /leftwink
 VERWENDUNG:
 /zwinkerlinks [Unterbefehl]
-→ Du zwinkerst jemandem mit dem linken Auge zu.
+→ Du zwinkerst jemandem zu.
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/zwinkerlinks<tab><tab>/leftwink<tab>","","False","0x00000249","",""
 "","USAGE:
@@ -7358,7 +7395,7 @@ USAGE:
 →Bare your teeth derisively.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/deride<tab>/pagaga","/verhöhnen, /deride
 VERWENDUNG:
@@ -7388,7 +7425,7 @@ USAGE:
 →Nibble on a pumpkin cookie.
 
 >>Subcommands:
-　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>　　Perform motion only.
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatpumpkincookie<tab>/cookie","/kürbiskeksessen, /kürbiskeks
 VERWENDUNG:
@@ -7410,4 +7447,48 @@ VERWENDUNG:
 → Du gibst motivierende Zurufe von dir.
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/oleoleoleole<tab>/ole<tab>/spirit<tab>","","False","0x00000289","",""
+"","ALIASES:
+　/littleladiesdance, /ladance
+USAGE:
+　/ladance [subcommand]
+
+→Perform the Little Ladies' Dance.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/littleladiesdance<tab>/ladance","/prinzessinnentanz, /littleladiesdance, /ladance
+VERWENDUNG:
+/prinzessinnentanz [Unterbefehl]
+→ Du tanzt wie auf dem Prinzessinnenfest.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/prinzessinnentanz<tab><tab>/littleladiesdance<tab>/ladance","","False","0x0000028B","",""
+"","USAGE:
+　/linkpearl [subcommand]
+
+→Make a linkpearl call.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/linkpearl<tab>","/kontaktperle, /linkpearl
+VERWENDUNG:
+/kontaktperle [Unterbefehl]
+→ Du tätigst einen Kontaktperlenanruf.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/kontaktperle<tab><tab>/linkpearl<tab>","","False","0x0000028C","",""
+"","USAGE:
+　/frighten [subcommand]
+
+→Attempt to appear menacing.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/frighten<tab>","/angstundschrecken, /schrecken, /frighten
+VERWENDUNG:
+/angstundschrecken [Unterbefehl]
+→ Du versuchst, alle um dich herum in Angst und Schrecken zu versetzen.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/angstundschrecken<tab>/schrecken<tab>/frighten<tab>","","False","0x00000291","",""
 

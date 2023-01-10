@@ -266,7 +266,16 @@ The <var 48 F201F4 /var><var 49 F201F5 /var>Egi Assault<var 49 01 /var><var 48 0
 "","Increases physical damage dealt via actions by 20%.","自身のオートアタックを除くアクションによる物理ダメージを20％上昇させる。","","False","0x000000CD","",""
 "","Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Impactful<var 49 01 /var><var 48 01 /var> upon landing of <var 48 F201F4 /var><var 49 F201F5 /var>Jolt II<var 49 01 /var><var 48 01 /var>.","自身に<var 48 F201F4 /var><var 49 F201F5 /var>「インパクト詠唱可」<var 49 01 /var><var 48 01 /var>が付与される。
 <var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var>ジョルラ命中時","","False","0x000000CE","",""
-"","Halves MP cost for all spells while preventing casting interruptions via damage taken.","自身が実行するすべての魔法の消費ＭＰが50％減少し、かつ被ダメージにより詠唱が中断されることがなくなる。","","False","0x000000CF","",""
+"","Halves MP cost for all spells while preventing casting interruptions via damage taken. Grants the following effects after successfully completing a combo with <var 48 F201F4 /var><var 49 F201F5 /var>Royal Authority<var 49 01 /var><var 48 01 /var>:
+<var 48 F201F8 /var><var 49 F201F9 /var>Combo Bonus: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Divine Might<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Divine Might Effect: <var 49 01 /var><var 48 01 /var>Allows next <var 48 F201F4 /var><var 49 F201F5 /var>Holy Spirit<var 49 01 /var><var 48 01 /var> or <var 48 F201F4 /var><var 49 F201F5 /var>Holy Circle<var 49 01 /var><var 48 01 /var> to be cast immediately with increased potency
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30s","自身が実行するすべての魔法の消費ＭＰが50％減少し、かつ被ダメージにより詠唱が中断されることがなくなる。
+さらに、ロイヤルアソリティに下記の効果を追加する。
+
+<var 48 F201F8 /var><var 49 F201F9 /var>コンボボーナス：<var 49 01 /var><var 48 01 /var>自身に<var 48 F201F4 /var><var 49 F201F5 /var>「神聖魔法効果アップ」<var 49 01 /var><var 48 01 /var>が付与される。
+<var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>30秒
+<var 48 F201F8 /var><var 49 F201F9 /var>神聖魔法効果アップ効果：<var 49 01 /var><var 48 01 /var>次に実行する1回のホーリースピリットまたはホーリーサークルの威力が上昇し、かつ詠唱時間無しで実行できる。
+<var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var>ロイヤルアソリティのコンボ成功時","","False","0x000000CF","",""
 "","Increases <var 48 F201F4 /var><var 49 F201F5 /var>Kenki Gauge<var 49 01 /var><var 48 01 /var> when landing all weaponskills excluding <var 48 F201F4 /var><var 49 F201F5 /var>Iaijutsu<var 49 01 /var><var 48 01 /var>.","<var 48 F201F4 /var><var 49 F201F5 /var>「剣気」<var 49 01 /var><var 48 01 /var>が追加で上昇するようになる。
 <var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var>居合術を除くウェポンスキルの命中時","","False","0x000000D0","",""
 "","Increases <var 48 F201F4 /var><var 49 F201F5 /var>Oath Gauge<var 49 01 /var><var 48 01 /var> by 5 each time an auto-attack lands.","<var 48 F201F4 /var><var 49 F201F5 /var>「オウス」<var 49 01 /var><var 48 01 /var>が5ずつ上昇するようになる。
@@ -360,10 +369,22 @@ Chance of triggering party member effect differs according to job.","スタン�
 <var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var>ブルータルシェルのコンボ成功時","","False","0x00000102","",""
 "","Upgrades <var 48 F201F4 /var><var 49 F201F5 /var>Danger Zone<var 49 01 /var><var 48 01 /var> to <var 48 F201F4 /var><var 49 F201F5 /var>Blasting Zone<var 49 01 /var><var 48 01 /var>.","デンジャーゾーンがブラスティングゾーンに変化する。","","False","0x00000103","",""
 "","Upgrades <var 48 F201F4 /var><var 49 F201F5 /var>Rage of Halone<var 49 01 /var><var 48 01 /var> to <var 48 F201F4 /var><var 49 F201F5 /var>Royal Authority<var 49 01 /var><var 48 01 /var>.","レイジ・オブ・ハルオーネがロイヤルアソリティに変化する。","","False","0x00000104","",""
-"","Restores MP when using <var 48 F201F4 /var><var 49 F201F5 /var>Prominence<var 49 01 /var><var 48 01 /var>.","プロミネンスにＭＰ回復効果を付与する。","","False","0x00000105","",""
+"","Grants the following effects after successfully completing a combo with <var 48 F201F4 /var><var 49 F201F5 /var>Prominence<var 49 01 /var><var 48 01 /var>:
+<var 48 F201F8 /var><var 49 F201F9 /var>Combo Bonus: <var 49 01 /var><var 48 01 /var>Restores MP
+<var 48 F201F8 /var><var 49 F201F9 /var>Combo Bonus: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Divine Might<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Divine Might Effect: <var 49 01 /var><var 48 01 /var>Allows next <var 48 F201F4 /var><var 49 F201F5 /var>Holy Spirit<var 49 01 /var><var 48 01 /var> or <var 48 F201F4 /var><var 49 F201F5 /var>Holy Circle<var 49 01 /var><var 48 01 /var> to be cast immediately with increased potency
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30s","プロミネンスに下記の効果を追加する。
+
+<var 48 F201F8 /var><var 49 F201F9 /var>コンボボーナス：<var 49 01 /var><var 48 01 /var>自身のＭＰを回復する。
+<var 48 F201F8 /var><var 49 F201F9 /var>コンボボーナス：<var 49 01 /var><var 48 01 /var>自身に<var 48 F201F4 /var><var 49 F201F5 /var>「神聖魔法効果アップ」<var 49 01 /var><var 48 01 /var>が付与される。
+<var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>30秒
+<var 48 F201F8 /var><var 49 F201F9 /var>神聖魔法効果アップ効果：<var 49 01 /var><var 48 01 /var>次に実行する1回のホーリースピリットまたはホーリーサークルの威力が上昇し、かつ詠唱時間無しで実行できる。
+<var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var>プロミネンスのコンボ成功時","","False","0x00000105","",""
 "","Extends the duration of <var 48 F201FA /var><var 49 F201FB /var>Sheltron<var 49 01 /var><var 48 01 /var> to 6 seconds.","シェルトロンの効果時間を6秒に延長する。","","False","0x00000106","",""
-"","Spells require no cast time while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Requiescat<var 49 01 /var><var 48 01 /var>.","一定時間、魔法を詠唱時間無しで詠唱することができる。
-<var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>「レクイエスカット」<var 49 01 /var><var 48 01 /var>効果中","","False","0x00000107","",""
+"","Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Confiteor Ready<var 49 01 /var><var 48 01 /var> upon landing <var 48 F201F4 /var><var 49 F201F5 /var>Requiescat<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30s","自身に<var 48 F201F4 /var><var 49 F201F5 /var>「コンフィテオル実行可」<var 49 01 /var><var 48 01 /var>が付与される。
+<var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>30秒
+<var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var>レクイエスカット実行時","","False","0x00000107","",""
 "","Grants three stacks of <var 48 F201FA /var><var 49 F201FB /var>Sword Oath<var 49 01 /var><var 48 01 /var> after successfully completing a combo with <var 48 F201F4 /var><var 49 F201F5 /var>Royal Authority<var 49 01 /var><var 48 01 /var>.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30s","自身に3スタックの<var 48 F201F4 /var><var 49 F201F5 /var>「忠義の剣」<var 49 01 /var><var 48 01 /var>が付与される。
 <var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>30秒
@@ -559,10 +580,10 @@ Can be charged outside of combat.","自身に<var 48 F201F4 /var><var 49 F201F5 
 <var 48 F201F8 /var><var 49 F201F9 /var>ドシスの威力：<var 49 01 /var><var 48 01 /var>300
 <var 48 F201F8 /var><var 49 F201F9 /var>フレグマの威力：<var 49 01 /var><var 48 01 /var>400
 <var 48 F201F8 /var><var 49 F201F9 /var>エウクラシア・ドシスの威力：<var 49 01 /var><var 48 01 /var>40","","False","0x00000174","",""
-"","Grants 1 stack of <var 48 F201FA /var><var 49 F201FB /var>Addersting<var 49 01 /var><var 48 01 /var> when the barrier granted by <var 48 F201F4 /var><var 49 F201F5 /var>Eukrasian Diagnosis<var 49 01 /var><var 48 01 /var> is completely absorbed.
+"","Grants 1 stack of <var 48 F201FA /var><var 49 F201FB /var>Addersting<var 49 01 /var><var 48 01 /var> when the barrier granted by <var 48 F201F4 /var><var 49 F201F5 /var>Eukrasian Diagnosis<var 49 01 /var><var 48 01 /var> to any party member or the barrier granted by <var 48 F201F4 /var><var 49 F201F5 /var>Eukrasian Prognosis<var 49 01 /var><var 48 01 /var> to self is completely absorbed.
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Stacks: <var 49 01 /var><var 48 01 /var>3","自身に<var 48 F201F4 /var><var 49 F201F5 /var>「アダースティング」<var 49 01 /var><var 48 01 /var>が付与される。
 <var 48 F201F8 /var><var 49 F201F9 /var>最大スタック数：<var 49 01 /var><var 48 01 /var>3
-<var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>「エウクラシア・ディアグノシス」<var 49 01 /var><var 48 01 /var>がダメージを完全に吸収して消滅したとき。","","False","0x00000175","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>「エウクラシア・ディアグノシス」<var 49 01 /var><var 48 01 /var>および自身に付与した<var 48 F201F4 /var><var 49 F201F5 /var>「エウクラシア・プログノシス」<var 49 01 /var><var 48 01 /var>がダメージを完全に吸収して消滅したとき。","","False","0x00000175","",""
 "","Upgrades <var 48 F201F4 /var><var 49 F201F5 /var>Dosis<var 49 01 /var><var 48 01 /var> to <var 48 F201F4 /var><var 49 F201F5 /var>Dosis II<var 49 01 /var><var 48 01 /var>, <var 48 F201F4 /var><var 49 F201F5 /var>Phlegma<var 49 01 /var><var 48 01 /var> to <var 48 F201F4 /var><var 49 F201F5 /var>Phlegma II<var 49 01 /var><var 48 01 /var>, and <var 48 F201F4 /var><var 49 F201F5 /var>Eukrasian Dosis<var 49 01 /var><var 48 01 /var> to <var 48 F201F4 /var><var 49 F201F5 /var>Eukrasian Dosis II<var 49 01 /var><var 48 01 /var>. Also increases the potency of <var 48 F201F4 /var><var 49 F201F5 /var>Toxikon<var 49 01 /var><var 48 01 /var> to 300.","ドシスがドシスIIに変化する。
 フレグマがフレグマIIに変化する。
 エウクラシア・ドシスがエウクラシア・ドシスIIに変化する。
@@ -695,7 +716,8 @@ Grants <var 48 F201FA /var><var 49 F201FB /var>Knight's Benediction<var 49 01 /v
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","ホーリースピリット、ホーリーサークル、コンフィテオルにＨＰ回復効果を付与する。　<var 48 F201F8 /var><var 49 F201F9 /var>回復力：<var 49 01 /var><var 48 01 /var>400","","False","0x0000019E","",""
 "","Upgrades <var 48 F201F4 /var><var 49 F201F5 /var>Spirits Within<var 49 01 /var><var 48 01 /var> to <var 48 F201F4 /var><var 49 F201F5 /var>Expiacion<var 49 01 /var><var 48 01 /var>.","スピリッツウィズインがエクスピアシオンに変化する。","","False","0x0000019F","",""
 "","Adds a healing effect to <var 48 F201F4 /var><var 49 F201F5 /var>Divine Veil<var 49 01 /var><var 48 01 /var>.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>400","ディヴァインヴェールのバリア効果が付与されるときに対象のＨＰを回復する。　<var 48 F201F8 /var><var 49 F201F9 /var>回復力：<var 49 01 /var><var 48 01 /var>400","","False","0x000001A0","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>400","ディヴァインヴェール実行時に、対象のＨＰを回復させる。
+<var 48 F201F8 /var><var 49 F201F9 /var>回復力：<var 49 01 /var><var 48 01 /var>400","","False","0x000001A0","",""
 "","Adds a healing effect to <var 48 F201F4 /var><var 49 F201F5 /var>Shake It Off<var 49 01 /var><var 48 01 /var>.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>300","シェイクオフ実行時に、対象のＨＰを回復させる。
 <var 48 F201F8 /var><var 49 F201F9 /var>回復力：<var 49 01 /var><var 48 01 /var>300","","False","0x000001A1","",""
@@ -821,6 +843,7 @@ Effect of <var 48 F201FA /var><var 49 F201FB /var>Raiju Ready<var 49 01 /var><va
 "","Allows the stacking of a third <var 48 F201FA /var><var 49 F201FB /var>Astral Fire<var 49 01 /var><var 48 01 /var> and <var 48 F201FA /var><var 49 F201FB /var>Umbral Ice<var 49 01 /var><var 48 01 /var>.
 Casting <var 48 F201F4 /var><var 49 F201F5 /var>Fire II<var 49 01 /var><var 48 01 /var> or <var 48 F201F4 /var><var 49 F201F5 /var>Blizzard II<var 49 01 /var><var 48 01 /var> grants maximum stacks of <var 48 F201FA /var><var 49 F201FB /var>Astral Fire<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Umbral Ice<var 49 01 /var><var 48 01 /var> respectively.
 When maintaining three stacks of <var 48 F201FA /var><var 49 F201FB /var>Astral Fire<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Umbral Ice<var 49 01 /var><var 48 01 /var>, the cast time of spells of the opposite element is halved.","<var 48 F201F4 /var><var 49 F201F5 /var>「アストラルファイア」<var 49 01 /var><var 48 01 /var>および<var 48 F201F4 /var><var 49 F201F5 /var>「アンブラルブリザード」<var 49 01 /var><var 48 01 /var>の最大スタック数が3に増加する。
+3スタックした状態では、反対属性の魔法の詠唱時間が半減する。
 また、ファイラ実行時に自身に最大スタック分の<var 48 F201F4 /var><var 49 F201F5 /var>「アストラルファイア」<var 49 01 /var><var 48 01 /var>が、ブリザラ実行時に自身に最大スタック分の<var 48 F201F4 /var><var 49 F201F5 /var>「アンブラルブリザード」<var 49 01 /var><var 48 01 /var>が付与されるようになる。","","False","0x000001CB","",""
 "","Increases damage dealt by 5% while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Astral Fire<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Umbral Ice<var 49 01 /var><var 48 01 /var>.
 Upon successfully landing <var 48 F201F4 /var><var 49 F201F5 /var>Fire II<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Astral Fire<var 49 01 /var><var 48 01 /var>, grants <var 48 F201FA /var><var 49 F201FB /var>Enhanced Flare<var 49 01 /var><var 48 01 /var>.
@@ -964,13 +987,13 @@ Enhances <var 48 F201F4 /var><var 49 F201F5 /var>Astral Flow<var 49 01 /var><var
 <var 48 F201F8 /var><var 49 F201F9 /var>サモン・イフリート実行時：<var 49 01 /var><var 48 01 /var>クリムゾンサイクロンに変化する。
 <var 48 F201F8 /var><var 49 F201F9 /var>トパーズ・リチュアルおよびトパーズ・カタストロフィ実行時：<var 49 01 /var><var 48 01 /var>マウンテンバスターに変化する。
 <var 48 F201F8 /var><var 49 F201F9 /var>サモン・ガルーダ実行時：<var 49 01 /var><var 48 01 /var>スリップストリームに変化する。","","False","0x000001F7","",""
-"","Increases the potency of <var 48 F201F4 /var><var 49 F201F5 /var>Fast Blade<var 49 01 /var><var 48 01 /var> to 200, <var 48 F201F4 /var><var 49 F201F5 /var>Riot Blade<var 49 01 /var><var 48 01 /var> to 170, <var 48 F201F4 /var><var 49 F201F5 /var>Royal Authority<var 49 01 /var><var 48 01 /var> to 130, <var 48 F201F4 /var><var 49 F201F5 /var>Holy Spirit<var 49 01 /var><var 48 01 /var> to 300, and <var 48 F201F4 /var><var 49 F201F5 /var>Atonement<var 49 01 /var><var 48 01 /var> to 420.","特定のアクションの威力を上昇させる。
+"","Increases the potency of <var 48 F201F4 /var><var 49 F201F5 /var>Fast Blade<var 49 01 /var><var 48 01 /var> to 200, <var 48 F201F4 /var><var 49 F201F5 /var>Riot Blade<var 49 01 /var><var 48 01 /var> to 120, <var 48 F201F4 /var><var 49 F201F5 /var>Royal Authority<var 49 01 /var><var 48 01 /var> to 120, <var 48 F201F4 /var><var 49 F201F5 /var>Holy Spirit<var 49 01 /var><var 48 01 /var> to 350, and <var 48 F201F4 /var><var 49 F201F5 /var>Atonement<var 49 01 /var><var 48 01 /var> to 380.","特定のアクションの威力を上昇させる。
 
 <var 48 F201F8 /var><var 49 F201F9 /var>ファストブレードの威力：<var 49 01 /var><var 48 01 /var>200
-<var 48 F201F8 /var><var 49 F201F9 /var>ライオットソードの威力：<var 49 01 /var><var 48 01 /var>170
-<var 48 F201F8 /var><var 49 F201F9 /var>ロイヤルアソリティの威力：<var 49 01 /var><var 48 01 /var>130
-<var 48 F201F8 /var><var 49 F201F9 /var>ホーリースピリットの威力：<var 49 01 /var><var 48 01 /var>300
-<var 48 F201F8 /var><var 49 F201F9 /var>ロイエの威力：<var 49 01 /var><var 48 01 /var>420","","False","0x000001F8","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>ライオットソードの威力：<var 49 01 /var><var 48 01 /var>120
+<var 48 F201F8 /var><var 49 F201F9 /var>ロイヤルアソリティの威力：<var 49 01 /var><var 48 01 /var>120
+<var 48 F201F8 /var><var 49 F201F9 /var>ホーリースピリットの威力：<var 49 01 /var><var 48 01 /var>350
+<var 48 F201F8 /var><var 49 F201F9 /var>ロイエの威力：<var 49 01 /var><var 48 01 /var>380","","False","0x000001F8","",""
 "","Increases the potency of <var 48 F201F4 /var><var 49 F201F5 /var>Heavy Swing<var 49 01 /var><var 48 01 /var> to 200, <var 48 F201F4 /var><var 49 F201F5 /var>Maim<var 49 01 /var><var 48 01 /var> to 150, <var 48 F201F4 /var><var 49 F201F5 /var>Storm's Path<var 49 01 /var><var 48 01 /var> to 150, and <var 48 F201F4 /var><var 49 F201F5 /var>Storm's Eye<var 49 01 /var><var 48 01 /var> to 150.","特定のアクションの威力を上昇させる。
 
 <var 48 F201F8 /var><var 49 F201F9 /var>ヘヴィスウィングの威力：<var 49 01 /var><var 48 01 /var>200
@@ -1006,11 +1029,11 @@ Allows for the sharpening of the <var 48 F201FA /var><var 49 F201FB /var>Firstmi
 <var 48 F201F8 /var><var 49 F201F9 /var>風断ちの威力：<var 49 01 /var><var 48 01 /var>120
 <var 48 F201F8 /var><var 49 F201F9 /var>旋風刃の威力：<var 49 01 /var><var 48 01 /var>140
 <var 48 F201F8 /var><var 49 F201F9 /var>強甲破点突の威力：<var 49 01 /var><var 48 01 /var>140","","False","0x00000204","",""
-"","Increases the potency of <var 48 F201F4 /var><var 49 F201F5 /var>Heated Split Shot<var 49 01 /var><var 48 01 /var> to 200, <var 48 F201F4 /var><var 49 F201F5 /var>Heated Slug Shot<var 49 01 /var><var 48 01 /var> to 120, and <var 48 F201F4 /var><var 49 F201F5 /var>Heated Clean Shot<var 49 01 /var><var 48 01 /var> to 110.","特定のアクションの威力を上昇させる。
+"","Increases the potency of <var 48 F201F4 /var><var 49 F201F5 /var>Heated Split Shot<var 49 01 /var><var 48 01 /var> to 200, <var 48 F201F4 /var><var 49 F201F5 /var>Heated Slug Shot<var 49 01 /var><var 48 01 /var> to 120, and <var 48 F201F4 /var><var 49 F201F5 /var>Heated Clean Shot<var 49 01 /var><var 48 01 /var> to 120.","特定のアクションの威力を上昇させる。
 
 <var 48 F201F8 /var><var 49 F201F9 /var>ヒートスプリットショットの威力：<var 49 01 /var><var 48 01 /var>200
 <var 48 F201F8 /var><var 49 F201F9 /var>ヒートスラッグショットの威力：<var 49 01 /var><var 48 01 /var>120
-<var 48 F201F8 /var><var 49 F201F9 /var>ヒートクリーンショットの威力：<var 49 01 /var><var 48 01 /var>110","","False","0x00000205","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>ヒートクリーンショットの威力：<var 49 01 /var><var 48 01 /var>120","","False","0x00000205","",""
 "","Increases the potency of <var 48 F201F4 /var><var 49 F201F5 /var>Bootshine<var 49 01 /var><var 48 01 /var> to 210, <var 48 F201F4 /var><var 49 F201F5 /var>True Strike<var 49 01 /var><var 48 01 /var> to 300, <var 48 F201F4 /var><var 49 F201F5 /var>Snap Punch<var 49 01 /var><var 48 01 /var> to 250, <var 48 F201F4 /var><var 49 F201F5 /var>Twin Snakes<var 49 01 /var><var 48 01 /var> to 280, <var 48 F201F4 /var><var 49 F201F5 /var>Demolish<var 49 01 /var><var 48 01 /var> to 70, <var 48 F201F4 /var><var 49 F201F5 /var>Dragon Kick<var 49 01 /var><var 48 01 /var> to 320, <var 48 F201F4 /var><var 49 F201F5 /var>The Forbidden Chakra<var 49 01 /var><var 48 01 /var> to 340, and <var 48 F201F4 /var><var 49 F201F5 /var>Six-sided Star<var 49 01 /var><var 48 01 /var> to 550.","特定のアクションの威力を上昇させる。
 
 <var 48 F201F8 /var><var 49 F201F9 /var>連撃の威力：<var 49 01 /var><var 48 01 /var>210
