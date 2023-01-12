@@ -4644,11 +4644,10 @@ Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Foot Graze<va
 Deals damage when time expires or upon executing <var 48 F201F4 /var><var 49 F201F5 /var>Detonator<var 49 01 /var><var 48 01 /var>.
 Potency is increased by <var 08 E4E94520 ((<var 08 E0E9494FF0F065 /var>)) 65 /var> for each of your own weaponskills you land prior to the end of the effect.
 Can be stacked up to 6 times.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s","Covers target's body in a slow-burning pitch. Action is changed to <var 48 F201F4 /var><var 49 F201F5 /var>Detonator<var 49 01 /var><var 48 01 /var> for the duration of the effect.
-Deals damage when time expires or upon executing <var 48 F201F4 /var><var 49 F201F5 /var>Detonator<var 49 01 /var><var 48 01 /var>.
-Potency is increased by <var 08 E4E94520 ((<var 08 E0E9494FF0F065 /var>)) 65 /var> for each of your own weaponskills you land prior to the end of the effect.
-Can be stacked up to 6 times.
-<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>10s","","True","0x00000B3E","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s","Накладывает на цель эффект <var 48 F201FA /var><var 49 F201FB /var>Wildfire<var 49 01 /var><var 48 01 /var>, наносящий урон при использовании <var 48 F201F4 /var><var 49 F201F5 /var>Detonator<var 49 01 /var><var 48 01 /var> или после окончания действия.
+Сила увеличивается на <var 08 E4E94520 ((<var 08 E0E9494FF0F065 /var>)) 65 /var> а каждое нанесение урона вашим умением по цели, до окончания действия эффекта
+Может накапливаться до 6 раз.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>10 с.","","False","0x00000B3E","",""
 "","Replenishes your ammunition by 1.","Replenishes your ammunition by 1.","","True","0x00000B3F","",""
 "","Equips your current firearm with a gauss barrel, increasing damage dealt by 5%. While barrel is equipped, your weapon's <var 48 F201F4 /var><var 49 F201F5 /var>Heat Gauge<var 49 01 /var><var 48 01 /var> will increase each time a weaponskill is executed. When the <var 48 F201F4 /var><var 49 F201F5 /var>Heat Gauge<var 49 01 /var><var 48 01 /var> reaches 100%, your weapon will become <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var> and damage dealt will be increased by 20%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10s
@@ -4692,8 +4691,8 @@ Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Suppressive F
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 2 с.<var 08 E0E9492E ((<var 08 E4E94520 ((
 Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Suppressive Fire<var 49 01 /var><var 48 01 /var>.)) (()) /var>)) (()) /var>","","False","0x00000B46","",""
 "","Lowers target's damage dealt by 10%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s","Lowers target's damage dealt by 10%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>10s","","True","0x00000B47","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s","Снижает наносимый целью урон на 10%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>10 с.","","False","0x00000B47","",""
 "","Deals a 15-yalm knockback.","Deals a 15-yalm knockback.","","True","0x00000B48","",""
 "","Disables a turret's attack mode. Rooks will instead create a 20-yalm radius TP-regeneration field.<var 08 E0E94933 ((<var 08 E4E94520 (( Bishops will create an MP-regeneration field.)) (()) /var>)) (()) /var> Caster MP is slowly drained while autoturret is promoted.<var 08 E0E9491F ((<var 08 E4E94520 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Hypercharge Effect:<var 49 01 /var><var 48 01 /var> Regeneration potency is doubled)) (()) /var>)) (()) /var>
@@ -4703,8 +4702,8 @@ Can only be executed while a turret is deployed.","Disables a turret's attack mo
 Attack mode is reactivated upon reuse.
 Can only be executed while a turret is deployed.","","True","0x00000B49","",""
 "","Deals damage to all nearby enemies with a potency of 130 for the first enemy, and 50% less for all remaining enemies.
-<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var><var 08 E4E94520 ((<var 08 E0E9494B0403 /var>)) 03 /var>","Deals damage to all nearby enemies with a potency of 130 for the first enemy, and 50% less for all remaining enemies.
-<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var><var 08 E4E94520 ((<var 08 E0E9494B0403 /var>)) 03 /var>","","True","0x00000B4A","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var><var 08 E4E94520 ((<var 08 E0E9494B0403 /var>)) 03 /var>","Наносит физический урон всем ближайшим противникам с силой 130 для первого противника, и на 50% меньше для всех остальных.
+<var 48 F201F8 /var><var 49 F201F9 /var>Максимум зарядов: <var 49 01 /var><var 48 01 /var><var 08 E4E94520 ((<var 08 E0E9494B0403 /var>)) 03 /var>","","False","0x00000B4A","",""
 "","Delivers an attack with a potency of 80.
 <var 48 F201F8 /var><var 49 F201F9 /var>Hypercharge Potency:<var 48 F201F8 /var><var 49 F201F9 /var> 120
 <var 48 F201F8 /var><var 49 F201F9 /var>Hypercharge Effect:<var 48 F201F8 /var><var 49 F201F9 /var> Increases target's physical damage taken by 5%
@@ -24295,11 +24294,11 @@ Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 4
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s
 <var 48 F201F8 /var><var 49 F201F9 /var>Overheated Effect: <var 49 01 /var><var 48 01 /var>Increases the potency of single-target weaponskills by 20
 <var 48 F201F8 /var><var 49 F201F9 /var>Heat Gauge Cost: <var 49 01 /var><var 48 01 /var>50
-<var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var> effect only applicable to machinist job actions.","Grants 5 stacks of <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var><var 08 E4E94520 ((<var 08 E0E94924 ((, each stack allowing the execution of <var 48 F201F4 /var><var 49 F201F5 /var>Heat Blast<var 49 01 /var><var 48 01 /var><var 08 E4E94520 ((<var 08 E0E94935 (( or <var 48 F201F4 /var><var 49 F201F5 /var>Auto Crossbow<var 49 01 /var><var 48 01 /var>)) (()) /var>)) (()) /var>)) (()) /var>)) (()) /var>.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s
-<var 48 F201F8 /var><var 49 F201F9 /var>Overheated Effect: <var 49 01 /var><var 48 01 /var>Increases the potency of single-target weaponskills by 20
-<var 48 F201F8 /var><var 49 F201F9 /var>Heat Gauge Cost: <var 49 01 /var><var 48 01 /var>50
-<var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var> effect only applicable to machinist job actions.","","True","0x00004339","",""
+<var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var> effect only applicable to machinist job actions.","Активирует 5 зарядов эффекта <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var><var 08 E4E94520 ((<var 08 E0E94924 ((, каждый из которых позволяет использовать <var 48 F201F4 /var><var 49 F201F5 /var>Heat Blast<var 49 01 /var><var 48 01 /var><var 08 E4E94520 ((<var 08 E0E94935 (( или <var 48 F201F4 /var><var 49 F201F5 /var>Auto Crossbow<var 49 01 /var><var 48 01 /var>)) (()) /var>)) (()) /var>)) (()) /var>)) (()) /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>10 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Overheated: <var 49 01 /var><var 48 01 /var> увеличивает силу умений одиночного действия на 20
+<var 48 F201F8 /var><var 49 F201F9 /var>Расход Heat Gauge: <var 49 01 /var><var 48 01 /var>50
+<var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var> распространяется только только на действия механиста.","","False","0x00004339","",""
 "","","","","False","0x0000433A","",""
 "","","","","False","0x0000433B","",""
 "","","","","False","0x0000433C","",""
@@ -42276,14 +42275,14 @@ At maximum stacks, grants <var 48 F201FA /var><var 49 F201FB /var>Overheated<var
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>5s
 Requires casting time to execute. However, it is possible to walk while casting.
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Heat Blast<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.","Delivers a ranged attack with a potency of 4,000.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants a stack of <var 48 F201FA /var><var 49 F201FB /var>Heat<var 49 01 /var><var 48 01 /var>, up to a maximum of 5
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>15s
-At maximum stacks, grants <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var> and increases movement speed by 25%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>5s
-Requires casting time to execute. However, it is possible to walk while casting.
+※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Heat Blast<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.","Производит атаку дальнего боя, нанося физический урон с силой 4 000.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Активирует заряды эффекта <var 48 F201FA /var><var 49 F201FB /var>Heat<var 49 01 /var><var 48 01 /var>, вплоть до 5
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>15 с.
+При максимальном количестве зарядов, накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var> и увеличивает скорость передвижения на 25%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>5 с.
+Может быть выполнено только во время использования умения. Однако во время использования можно передвигаться.
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Heat Blast<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.","","True","0x000072DA","",""
+※Действие сменяется на <var 48 F201F4 /var><var 49 F201F5 /var>Heat Blast<var 49 01 /var><var 48 01 /var> под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.","","False","0x000072DA","",""
 "","Delivers a ranged attack with a potency of 6,000.
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Overheated<var 49 01 /var><var 48 01 /var>.
 This weaponskill does not share a recast timer with any other actions.
@@ -42428,9 +42427,9 @@ Potency is increased by 4,000 for each of your own attack actions you land prior
 <var 48 F201F8 /var><var 49 F201F9 /var>Максимум зарядов: <var 49 01 /var><var 48 01 /var>2","","False","0x000072E6","",""
 "","Delivers a ranged attack with a potency of 36,000.
 Can only be executed when the limit gauge is full.
-<var 48 F201F8 /var><var 49 F201F9 /var>Gauge Charge Time: <var 49 01 /var><var 48 01 /var>90s","Delivers a ranged attack with a potency of 36,000.
-Can only be executed when the limit gauge is full.
-<var 48 F201F8 /var><var 49 F201F9 /var>Gauge Charge Time: <var 49 01 /var><var 48 01 /var>90s","","True","0x000072E7","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Gauge Charge Time: <var 49 01 /var><var 48 01 /var>90s","Производит атаку дальнего боя, нанося физический урон с силой 36 000.
+Возможно использовать только при заполненной шкале Запредельной Способности.
+<var 48 F201F8 /var><var 49 F201F9 /var>Время заполнения шкалы: <var 49 01 /var><var 48 01 /var>90 с.","","False","0x000072E7","",""
 "","Delivers a ranged attack with a potency of 3,000.
 
 ※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Reverse Cascade<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>En Avant<var 49 01 /var><var 48 01 /var>.
