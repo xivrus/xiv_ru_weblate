@@ -714,7 +714,7 @@ The following can be used to adjust speed in unvoiced cutscenes:
 "","Actions","Действия","","False","0x000002AB","",""
 "","Job","Профессия","","False","0x000002AC","",""
 "","Traits","Навыки","","False","0x000002AD","",""
-"","Gatherer Role","2AE_Gatherer Role","","True","0x000002AE","",""
+"","Gatherer Role","Собирательство","","False","0x000002AE","",""
 "","General","Общие","","False","0x000002AF","",""
 "","Additional Actions","Совместные действия","","False","0x000002B0","",""
 "","<var 2D ((<var 28 ((ActStr)) E80201 /var>)) /var>
@@ -2189,7 +2189,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 "","Remove from Favorites (<var 20 E802 /var>/<var 20 E803 /var>)","Убрать из закладок (<var 20 E802 /var>/<var 20 E803 /var>)","","True","0x00000823","",""
 "","Up to 100 items can be added to your favorites. Though they cannot be viewed by other players, you may access them while you are visiting another World.","В закладки можно добавить до 100 предметов. Другие игроки не смогут их видеть. Вы в свою очередь сможете видеть свои закладки при посещении других миров.","","False","0x00000824","",""
 "","Unobtained/Unregistered Only","Только неполученные","","True","0x00000825","",""
-"","There are no unobtained or unregistered items to display on this page.","826_There are no unobtained or unregistered items to display on this page.","","True","0x00000826","",""
+"","There are no unobtained or unregistered items to display on this page.","Вы уже получили все предметы этой категории.","","False","0x00000826","",""
 "","To reduce congestion, the area you are about to enter has been divided into multiple identical instances. Select a destination.","Локация, в которую вы сейчас войдёте, была разделена на несколько идентичных зон для уменьшения нагрузки на сервер. Выберите, в какую из них вы хотите попасть.","","False","0x0000082A","",""
 "","No preference.","Без разницы.","","False","0x0000082B","",""
 "","<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80206 /var>)) 01 /var> <var 08 E1E80301 ((<var 08 E1E8030A ((A)) ((<var 09 E803 (()) (()) (()) (()) (()) (()) (()) (()) (()) /var>)) /var>)) 01 /var>. (<var 22 E804 ((,)) /var>) ","<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80206 /var>)) 01 /var> <var 08 E1E80301 ((<var 08 E1E8030A ((A)) ((<var 09 E803 (()) (()) (()) (()) (()) (()) (()) (()) (()) /var>)) /var>)) 01 /var>. (<var 22 E804 (( )) /var>) ","","False","0x0000082C","",""
@@ -2386,7 +2386,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 "","Deep Dungeon","Глубокое подземелье","","False","0x00000900","",""
 "","The Forbidden Land, Eureka","Запретная Земля «Эврика»","","False","0x00000901","",""
 "","Gathering Forays","Вылазки собирательства","","False","0x00000902","",""
-"","Field Operations","903_Field Operations","","True","0x00000903","",""
+"","Field Operations","Приключенческие вылазки","","True","0x00000903","",""
 "","<var 29 EA02 /var>. (Contract suspended)","<var 29 EA02 /var>. (Контракт приостановлен)","","False","0x00000906","",""
 ""," <var 20 E802 /var>-<var 20 E803 /var>."," <var 20 E802 /var>-<var 20 E803 /var>.","","False","0x00000907","",""
 "","Select a level range.","Выберите диапазон уровней.","","False","0x00000908","",""
@@ -3091,9 +3091,9 @@ Full soul resonance is almost complete!","Оружие демонстрируе�
 "","Recorder Manual","Руководство по Записи миссий","","False","0x00000BFC","",""
 "","","","","False","0x00000BFD","",""
 "","<var 20 E802 /var>/2","<var 20 E802 /var>/2","","False","0x00000BFE","",""
-"","・<var 2B ((<var 28 ((ContentFinderCondition)) F201272A /var>)) /var>","BFF_・<var 2B ((<var 28 ((ContentFinderCondition)) F201272A /var>)) /var>","","True","0x00000BFF","",""
+"","・<var 2B ((<var 28 ((ContentFinderCondition)) F201272A /var>)) /var>","","","False","0x00000BFF","",""
 "","<var 48 F20202 /var>Recordable Duties<var 48 01 /var>","<var 48 F20202 /var>Recordable Duties<var 48 01 /var>","","False","0x00000C00","",""
-"","・<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","C01_・<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","True","0x00000C01","",""
+"","・<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","","False","0x00000C01","",""
 "","There are no recorded duties.","Нет записанных миссий.","","False","0x00000C02","",""
 "","・Locked","C03_・Locked","","True","0x00000C03","",""
 "","[<var 20 E802 /var>] <var 50 E80303 /var>:<var 50 E80403 /var>:<var 50 E80503 /var> <var 08 E1E80601 ((<var 09 E806 ((Start/Restart)) ((Event Cutscene)) /var>)) ((Countdown)) /var>","[<var 20 E802 /var>] <var 50 E80303 /var>:<var 50 E80403 /var>:<var 50 E80503 /var> <var 08 E1E80601 ((<var 09 E806 ((Старт/рестарт)) ((Кат-сцена)) /var>)) ((Обратный отсчёт)) /var>","","False","0x00000C07","",""
@@ -3716,13 +3716,11 @@ Special Conditions: <var 09 E804 ((Yes)) ((None)) ((???)) /var>","Огранич
 "","Toggle between fishing and spearfishing.","Переключить между ловлей удочкой и острогой.","","False","0x00000EE8","",""
 "","Fish Guide","Гид по рыбам","","False","0x00000EEC","",""
 "","","","","False","0x00000EED","",""
-"","<var 08 E4E80301 ((Successful Fishing Endeavors)) ((Fish Caught)) /var>: <var 22 E802 ((,)) /var>","EEE_<var 08 E4E80301 ((Successful Fishing Endeavors)) ((Fish Caught)) /var>: <var 22 E802 ((,)) /var>","","True","0x00000EEE","",""
+"","<var 08 E4E80301 ((Successful Fishing Endeavors)) ((Fish Caught)) /var>: <var 22 E802 ((,)) /var>","<var 08 E4E80301 ((Поймано удочкой)) ((Поймано гарпуном)) /var>: <var 22 E802 (( )) /var>","","False","0x00000EEE","",""
 "","Prime Locations","Основные места","","False","0x00000EEF","",""
 "","<var 08 E4E80501 ((???)) ((<var 29 EA02 /var>
 <var 29 EA03 /var>
-<var 08 E4E80601 ((???)) ((<var 29 EA04 /var>)) /var>)) /var>","EF0_<var 08 E4E80501 ((???)) ((<var 29 EA02 /var>
-<var 29 EA03 /var>
-<var 08 E4E80601 ((???)) ((<var 29 EA04 /var>)) /var>)) /var>","","True","0x00000EF0","",""
+<var 08 E4E80601 ((???)) ((<var 29 EA04 /var>)) /var>)) /var>","","","False","0x00000EF0","",""
 "","There is nothing to display.","Нет ничего для отображения.","","False","0x00000EF1","",""
 "","Additional Information","Дополнительная информация","","False","0x00000EF2","",""
 "","Collectable","Ценность","","False","0x00000EF3","",""
@@ -4013,13 +4011,13 @@ Progress: <var 20 E803 /var>%","Расстояние до цели: <var 20 E802
 "","Restore all category settings to their default?","Восстановить настройки этой категории на умолчания?","","False","0x0000105F","",""
 "","Yes","Да","","False","0x00001060","",""
 "","No","Нет","","False","0x00001061","",""
-"","An example of the classic FF theme.","1062_An example of the classic FF theme.","","True","0x00001062","",""
+"","An example of the classic FF theme.","Пример классической темы FF.","","False","0x00001062","",""
 "","Apply this resolution?
 Settings will be restored in <var 20 E802 /var> <var 08 E4E80202 ((second)) ((seconds)) /var>.","Применить это разрешение?
 Настройки будут восстановлены через <var 20 E802 /var> секунд<var 08 E2E80205 ((<var 09 E802 ((у)) ((ы)) ((ы)) ((ы)) /var>)) (()) /var>.","","False","0x00001063","",""
 "","Yes","Да","","False","0x00001064","",""
 "","No","Нет","","False","0x00001065","",""
-"","An example of the clear blue theme.","1066_An example of the clear blue theme.","","True","0x00001066","",""
+"","An example of the clear blue theme.","Пример светло-голубой темы.","","False","0x00001066","",""
 "","Maximum","Максимальное","","False","0x00001068","",""
 "","High","Высокое","","False","0x00001069","",""
 "","Standard","Стандартное","","False","0x0000106A","",""
@@ -4045,11 +4043,11 @@ Settings will be restored in <var 20 E802 /var> <var 08 E4E80202 ((second)) ((se
 "","Weak","Слабое","","False","0x00001087","",""
 "","Dark","Тёмная","","False","0x00001088","",""
 "","Light","Светлая","","False","0x00001089","",""
-"","Classic FF","108A_Classic FF","","True","0x0000108A","",""
-"","Clear Blue","108B_Clear Blue","","True","0x0000108B","",""
-"","Anisotropic","108C_Anisotropic","","True","0x0000108C","",""
-"","Trilinear","108D_Trilinear","","True","0x0000108D","",""
-"","Bilinear","108E_Bilinear","","True","0x0000108E","",""
+"","Classic FF","Классическая FF","","False","0x0000108A","",""
+"","Clear Blue","Светло-голубая","","False","0x0000108B","",""
+"","Anisotropic","Анизотропная","","False","0x0000108C","",""
+"","Trilinear","Трилинейная","","False","0x0000108D","",""
+"","Bilinear","Билинейная","","False","0x0000108E","",""
 "","x16","x16","","False","0x00001090","",""
 "","x8","x8","","False","0x00001091","",""
 "","x4","x4","","False","0x00001092","",""
@@ -9685,17 +9683,14 @@ Proceed with this deck?","Карты нельзя будет поменять п
 "","Display unowned cards only","Показать карты, которых у меня нет","","False","0x00002632","",""
 "","No cards match current filter settings.","Нет карт, подходящих текущему фильтру.","","False","0x00002633","",""
 "","Triple Triad tutorial.","Обучение Тройному Трио.","","False","0x00002634","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","2635_<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","True","0x00002635","",""
-"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","2636_<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","True","0x00002636","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","","False","0x00002635","",""
+"","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>","","","False","0x00002636","",""
 "","<var 2B ((<var 28 ((ContentFinderCondition)) E8032A /var>)) /var>
-<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","2637_<var 2B ((<var 28 ((ContentFinderCondition)) E8032A /var>)) /var>
-<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","","True","0x00002637","",""
+<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","","","False","0x00002637","",""
 "","<var 2B ((<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80306 /var>)) 01 /var>)) /var>
-<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","<var 2B ((<var 28 ((PlaceName)) ((<var 28 ((TerritoryType)) E80306 /var>)) 01 /var>)) /var>
-<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","","False","0x00002638","",""
+<var 2B ((<var 28 ((Fate)) E80201 /var>)) /var>","","","False","0x00002638","",""
 "","<var 61 E803 /var>
-<var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","<var 61 E803 /var>
-<var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","False","0x00002639","",""
+<var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","","False","0x00002639","",""
 "","<var 2B ((<var 28 ((TripleTriadCompetition)) E80201 /var>)) /var>
 Place in top rankings.","<var 2B ((<var 28 ((TripleTriadCompetition)) E80201 /var>)) /var>
 Попадите в топ по рейтингу.","","False","0x0000263A","",""
@@ -9710,8 +9705,8 @@ Place in top rankings.","<var 2B ((<var 28 ((TripleTriadCompetition)) E80201 /va
 <var 2B ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","False","0x0000263D","",""
 "","<var 2B ((<var 28 ((Achievement)) E80202 /var>)) /var>","<var 2B ((<var 28 ((Achievement)) E80202 /var>)) /var>","","False","0x0000263E","",""
 "","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>
-Happy bunny treasure hunt.","263F_<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>
-Happy bunny treasure hunt.","","True","0x0000263F","",""
+Happy bunny treasure hunt.","<var 2B ((<var 28 ((ContentFinderCondition)) E8022A /var>)) /var>
+Охота за сокровищами с весёлым кроликом.","","False","0x0000263F","",""
 "","???","???","","False","0x00002640","",""
 "","Final Rankings","Финальные результаты","","False","0x00002641","",""
 "","CHAMPION","2642_CHAMPION","","False","0x00002642","",""
@@ -10870,7 +10865,7 @@ Proceed?","","True","0x000029E5","",""
 "","Match Count","2A37_Match Count","","True","0x00002A37","",""
 "","Tournament Entry","Регистрация на турнир","","False","0x00002A38","",""
 "","Tournament Registration Period","2A39_Tournament Registration Period","","True","0x00002A39","",""
-"","<var 28 ((ContentFinderCondition)) E8022A /var>","2A3A_<var 28 ((ContentFinderCondition)) E8022A /var>","","True","0x00002A3A","",""
+"","<var 28 ((ContentFinderCondition)) E8022A /var>","","","False","0x00002A3A","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>※The “Duty Complete” option is only available for previously
 　completed duties.
 ※Practice phase selection does not entail the actual skipping of
@@ -12699,7 +12694,7 @@ Please bear this in mind before choosing to reset.","Рейтинг и ранг 
 "","Lv. <var 20 E802 /var>","Ур. <var 20 E802 /var>","","False","0x000030CA","",""
 "","Stage Results","Результаты выступления","","False","0x000030CB","",""
 "","Stage","Выступление","","False","0x000030CC","",""
-"","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E8032A /var>","30CD_<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E8032A /var>","","True","0x000030CD","",""
+"","<var 24 E802 /var>. <var 28 ((ContentFinderCondition)) E8032A /var>","","","False","0x000030CD","",""
 "","Clear Time","Время завершения","","False","0x000030CE","",""
 "","<var 20 E802 /var>m <var 24 E803 /var>s","<var 20 E802 /var>m <var 24 E803 /var>s","","False","0x000030CF","",""
 "","Bonus","Бонусы","","False","0x000030D0","",""
@@ -13732,8 +13727,8 @@ Proceed?","Ваш прогресс в этой главе будет потер�
 Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are normal.","Обычное
 Обычная прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var>.","","False","0x00003458","",""
 "","Good
-Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","3459_Good
-Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","","True","0x00003459","",""
+Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","Хорошее
+Прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var> в <var 26 E80265 ((,)) 01 /var> раза выше, чем обычно.","","False","0x00003459","",""
 "","Excellent
 Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 4 times higher than normal.","Отличное
 Прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var> в 4 раза выше, чем обычно.","","False","0x0000345A","",""
@@ -14403,7 +14398,7 @@ Proceed?","Весь текущий прогресс будет сброшен.
 "","Display Level","Показать уровень","","False","0x0000371D","",""
 "","Coordinates","Координаты","","False","0x0000371E","",""
 "","Copyright","Авторские права","","False","0x0000371F","",""
-"","<var 29 EA02 /var> <var 12 59 /var> <var 29 EA03 /var> <var 08 E0E80465 (()) (([<var 28 ((WorldDCGroupType)) E804 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","3720_<var 29 EA02 /var> <var 12 59 /var> <var 29 EA03 /var> <var 08 E0E80465 (()) (([<var 28 ((WorldDCGroupType)) E804 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","True","0x00003720","",""
+"","<var 29 EA02 /var> <var 12 59 /var> <var 29 EA03 /var> <var 08 E0E80465 (()) (([<var 28 ((WorldDCGroupType)) E804 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","","False","0x00003720","",""
 "","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var>","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var>","","False","0x00003721","",""
 "","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var> <var 29 EA03 /var>","<var 2D ((<var 28 ((ClassJob)) E80201 /var>)) /var> <var 29 EA03 /var>","","False","0x00003722","",""
 "","Role-playing","3723_Role-playing","","True","0x00003723","",""
@@ -14466,7 +14461,7 @@ Rate:
 "","Collectability","3764_Collectability","","True","0x00003764","",""
 "","<var 20 E802 /var>","3765_<var 20 E802 /var>","","True","0x00003765","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are normal.","Обычная прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var>.","","False","0x00003778","",""
-"","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","3779_Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","","True","0x00003779","",""
+"","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are <var 26 E80265 ((.)) 01 /var> times higher than normal.","Прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var> в <var 26 E80265 ((,)) 01 /var> раза выше, чем обычно.","","False","0x00003779","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are 4 times higher than normal.","Прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var> в 4 раза выше, чем обычно.","","False","0x0000377A","",""
 "","Increases to <var 48 F201FA /var><var 49 F201FB /var>quality<var 49 01 /var><var 48 01 /var> are halved.","Прибавка к <var 48 F201FA /var><var 49 F201FB /var>качеству<var 49 01 /var><var 48 01 /var> в 2 раза ниже, чем обычно.","","False","0x0000377B","",""
 "","Increases action success rate by 25%.","Вероятность успеха действий увеличена на 25%.","","False","0x0000377C","",""
@@ -14898,7 +14893,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 ※Poses that are incompatible due to class/job will be reverted to the default.","","True","0x000039A8","",""
 "","Adventurer Plate","39A9_Adventurer Plate","","True","0x000039A9","",""
 "","Enter <var 28 ((InstanceContent)) E80204 /var> with a party of other players","Начать миссию «<var 28 ((InstanceContent)) E80204 /var>» в группе с другими игроками","","False","0x000039D0","",""
-"","Enter <var 28 ((ContentFinderCondition)) E8022A /var> with a party of NPCs","39D1_Enter <var 28 ((ContentFinderCondition)) E8022A /var> with a party of NPCs","","True","0x000039D1","",""
+"","Enter <var 28 ((ContentFinderCondition)) E8022A /var> with a party of NPCs","Начать миссию «<var 28 ((ContentFinderCondition)) E8022A /var>» в группе с дружескими НИП","","False","0x000039D1","",""
 "","Party Selection","Выбор членов группы","","False","0x000039D2","",""
 "","<var 08 E1E80201 ((Avg. Item Level: <var 20 E802 /var> )) (()) /var><var 08 E1E80301 ((
 Item Level Sync: <var 20 E803 /var>)) (()) /var>","<var 08 E1E80201 ((Средний уровень снаряжения: <var 20 E802 /var> )) (()) /var><var 08 E1E80301 ((
@@ -14914,7 +14909,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","","","","False","0x000039DC","",""
 "","Display Duty Finder help.","Показать руководство по Поиску миссий.","","False","0x000039DD","",""
 "","Member Selection Available","Можно изменить группу","","False","0x000039DE","",""
-"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E8022A /var> in a future update","39DF_NPC party support will be added for <var 28 ((ContentFinderCondition)) E8022A /var> in a future update","","True","0x000039DF","",""
+"","NPC party support will be added for <var 28 ((ContentFinderCondition)) E8022A /var> in a future update","Прохождение с НИП-помощниками будет добавлена для «<var 28 ((ContentFinderCondition)) E8022A /var>» в будущих обновлениях.","","False","0x000039DF","",""
 "","The Duty Support option will become available in a future update.","Миссия с помощниками станет доступна в одном из будущих обновлений игры.","","False","0x000039E0","",""
 "","The Unending Codex","Путеводитель","","False","0x00003A03","",""
 "","","","","False","0x00003A04","",""
@@ -15010,7 +15005,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Repair","Ремонт","","False","0x00003A5B","",""
 "","Cancel","Отмена","","False","0x00003A5C","",""
 "","G<var 20 E802 /var>:","К<var 20 E802 /var>:","","False","0x00003A5D","",""
-"","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","3A5E_<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","True","0x00003A5E","",""
+"","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","","False","0x00003A5E","",""
 "","The requested repairs will be carried out using dark matter of a higher grade than is required. Proceed?","У вас нет тёмной материи подходящего уровня, в связи с чем будет использована тёмная материя более высокого уровня. Продолжить?","","False","0x00003A5F","",""
 "","Display Party Member Portraits","3A61_Display Party Member Portraits","","True","0x00003A61","",""
 "","Party Members","3A62_Party Members","","True","0x00003A62","",""
@@ -15029,7 +15024,7 @@ Portrait will not be automatically applied when gear set is equipped, and Instan
 "","Cancel","Отмена","","False","0x00003A94","",""
 "","Reordered elements will be reset to default. Proceed?","Раскладка умений будет сброшена. Продолжить?","","False","0x00003A95","",""
 "","All changes will be lost. Proceed?","Все изменения будут потеряны. Продолжить?","","False","0x00003A96","",""
-"","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","3A98_<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","True","0x00003A98","",""
+"","<var 29 EA02 /var><var 08 E0E80365 (()) (( [<var 28 ((WorldDCGroupType)) E803 ((WORLDDCGROUPTYPE_NAME)) /var>])) /var>","","","False","0x00003A98","",""
 "","Display Search Info","Показать информацию о поиске","","False","0x00003A99","",""
 "","Edit Plate Design","Изменить дизайн карточки","","False","0x00003A9A","",""
 "","Edit Profile","Изменить профиль","","False","0x00003A9B","",""
@@ -16372,4 +16367,3 @@ Withdraw that application and apply for membership with <var 29 EA02 /var>?","В
 "","Yes","Да","","False","0x0001911F","",""
 "","No","Нет","","False","0x00019120","",""
 "","Small Talk","Поговорить","","False","0x0001912C","",""
-
