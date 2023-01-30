@@ -80,7 +80,7 @@ If this character is master of a free company for which there is no eligible suc
 "","To log in with this character from version 1.0, you must first specify the Disciple of War or Magic class you wish to begin the game as.<tab><tab>","Чтобы войти за этого персонажа из версии 1.0, вам нужно сначала указать, за какой класс из Адептов Битвы или Магии вы хотите начать игру.<tab><tab>","","False","0x00000046","",""
 "","OK<tab><tab>","ОК<tab><tab>","","False","0x00000047","",""
 "","Cancel<tab><tab>","Отмена<tab><tab>","","False","0x00000048","",""
-"","You have elected to begin FINAL FANTASY XIV: A Realm Reborn as <var 08 E4E8020B ((an <var 28 ((ClassJob)) E80201 /var>)) ((<var 08 E4E8020F ((an <var 28 ((ClassJob)) E80201 /var>)) ((<var 08 E4E80206 ((an <var 28 ((ClassJob)) E80201 /var>)) ((<var 08 E4E8021B ((an <var 28 ((ClassJob)) E80201 /var>)) ((<var 08 E4E80222 ((an <var 28 ((ClassJob)) E80201 /var>)) ((a <var 28 ((ClassJob)) E80201 /var>)) /var>)) /var>)) /var>)) /var>)) /var>. You will start your new adventure in <var 28 ((Town)) E80301 /var>.<tab><tab>","Вами выбрано начало игры в FINAL FANTASY XIV: A Realm Reborn за <var 28 ((ClassJob)) E80201 /var>. Вы начнёте своё приключение в <var 28 ((Town)) E80301 /var>.<tab><tab>","","False","0x00000049","",""
+"","You have elected to begin FINAL FANTASY XIV: A Realm Reborn as <var 08 E4E8020B ((an <var 28 ((ClassJob)) E80201 /var>)) ((<var 08 E4E8020F ((an <var 28 ((ClassJob)) E80201 /var>)) ((<var 08 E4E80206 ((an <var 28 ((ClassJob)) E80201 /var>)) ((<var 08 E4E8021B ((an <var 28 ((ClassJob)) E80201 /var>)) ((<var 08 E4E80222 ((an <var 28 ((ClassJob)) E80201 /var>)) ((a <var 28 ((ClassJob)) E80201 /var>)) /var>)) /var>)) /var>)) /var>)) /var>. You will start your new adventure in <var 28 ((Town)) E80301 /var>.<tab><tab>","Вы начнёте играть в FINAL FANTASY XIV: A Realm Reborn за класс <var 28 ((ClassJob)) E80201 /var>. Ваше приключение начнётся в городе <var 28 ((Town)) E80301 /var>.<tab><tab>","","False","0x00000049","",""
 "","OK<tab><tab>","ОК<tab><tab>","","False","0x0000004A","",""
 "","Cancel<tab><tab>","Отмена<tab><tab>","","False","0x0000004B","",""
 "","To log in with this character from version 1.0, you must first specify the Disciple of War or Magic class you wish to begin the game as. You are also granted one opportunity to edit your character's race, tribe, gender, appearance, and name.<tab><tab>","Чтобы войти за этого персонажа из версии 1.0, вам нужно сначала указать, за какой класс из Адептов Битвы или Магии вы хотите начать игру. Вам также дана одна возможность изменить расу, племя, пол, внешность и имя персонажа.<tab><tab>","","False","0x0000004C","",""
@@ -135,13 +135,54 @@ Starting Attributes: STR <var 20 E802 /var>/DEX <var 20 E804 /var>/VIT <var 20 E
 "","Class<tab>クラス<tab>","Класс<tab>クラス<tab>","","True","0x0000006B","",""
 "","Home World<tab>ワールド<tab>","Домашний мир<tab>ワールド<tab>","","True","0x0000006C","",""
 "","Name<tab>名前<tab>","Имя<tab>名前<tab>","","True","0x0000006D","",""
-"","Hyur<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>The Hyur are said to have first traveled to Eorzea from her surrounding<nl>continents and islands. Three great migratory waves later, they are now<nl>the most populous of all the civilized races. They exhibit a relatively<nl>modest physique, both in height and build, and are known for their<nl>peculiarly short, rounded ears. Hyurs are well suited for traveling long<nl>distances by foot, a trait thought to account for their swift proliferation.<nl><nl>Their espousal of an eclectic variety of languages and traditions is<nl>a legacy of their diverse heritage－as is their resulting lack of a<nl>unified cultural identity.","Хьюр<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>Считается, что хьюры впервые пришли в Эорзию с соседних континентов и островов. После трёх великих миграционных волн они стали самой многочисленной из всех цивилизованных рас. Они обладают относительно скромным телосложением, как по росту, так и по комплекции, и известны своими особенно короткими, закругленными ушами. Хьюры хорошо приспособлены к пешим путешествиям на большие расстояния, и эта черта, как считается, объясняет их быстрое распространение.<nl><nl>Использование ими эклектичного разнообразия языков и традиций является наследием их разнообразного наследия, как и отсутствие единой культурной идентичности.","","False","0x0000006E","",""
+"","Hyur<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>The Hyur are said to have first traveled to Eorzea from her surrounding<nl>continents and islands. Three great migratory waves later, they are now<nl>the most populous of all the civilized races. They exhibit a relatively<nl>modest physique, both in height and build, and are known for their<nl>peculiarly short, rounded ears. Hyurs are well suited for traveling long<nl>distances by foot, a trait thought to account for their swift proliferation.<nl><nl>Their espousal of an eclectic variety of languages and traditions is<nl>a legacy of their diverse heritage－as is their resulting lack of a<nl>unified cultural identity.","Хьюр<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>Считается, что хьюры впервые пришли в Эорзию с соседних
+континентов и островов. После трёх великих миграционных волн
+они стали самой многочисленной из всех цивилизованных рас.
+Они обладают относительно скромным телосложением, как по росту,
+так и по комплекции, и известны своими особенно короткими,
+закруглёнными ушами. Хьюры хорошо приспособлены к пешим
+путешествиям на большие расстояния, и эта черта, как считается,
+объясняет их быстрое распространение.
+
+Использование ими эклектичного разнообразия языков и традиций
+является наследием их разнообразного наследия, как и отсутствие
+единой культурной идентичности.","","False","0x0000006E","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000006F","",""
-"","Elezen<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>In former times, the Elezen were the sole inhabitants of Eorzea,<nl>claiming dominion over her. Traditionally a nomadic people, the tall,<nl>slender Elezen believed the realm to be theirs by divine right.<nl>Unfortunately, this belief made the eventual appearance of the<nl>Hyur in their multitudes akin to an invasion, and a long history of<nl>conflict ensued.<nl><nl>Ultimately, the Elezen diverged into the two clans that exist today.<nl>The Wildwood Elezen took to the forests to protect their homeland,<nl>while the Duskwight Elezen withdrew to caves and subterrane, opting<nl>instead to avoid all contact with any but their own.","Элезен<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>В прежние времена элезены были единственными жителями Эорзии, провозглашая своё господство над ней. Традиционно кочевой народ, высокие и стройные элезены верили, что королевство принадлежит им по божественному праву. К сожалению, из-за этой веры появление хьюров в их множестве было сродни вторжению, из-за чего последовала долгая история конфликтов между ними.<nl><nl>В конце концов, элезены разделились на два клана, которые существуют и по сей день. Одни ушли в леса, так и прозвав себя — Лесниками, и продолжили защищать свою родину от чужаков. Другие же ушли в пещеры и подземелья, предпочитая избегать любых контактов со всеми, кроме своих, и прозвав себя — Тёмными.","","False","0x00000070","",""
+"","Elezen<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>In former times, the Elezen were the sole inhabitants of Eorzea,<nl>claiming dominion over her. Traditionally a nomadic people, the tall,<nl>slender Elezen believed the realm to be theirs by divine right.<nl>Unfortunately, this belief made the eventual appearance of the<nl>Hyur in their multitudes akin to an invasion, and a long history of<nl>conflict ensued.<nl><nl>Ultimately, the Elezen diverged into the two clans that exist today.<nl>The Wildwood Elezen took to the forests to protect their homeland,<nl>while the Duskwight Elezen withdrew to caves and subterrane, opting<nl>instead to avoid all contact with any but their own.","Элезен<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>В прежние времена элезены были единственными жителями
+Эорзии, провозглашая своё господство над ней. Традиционно
+кочевой народ, высокие и стройные элезены верили, что земли
+принадлежат им по божественному праву. К сожалению, из-за
+этой веры появление хьюров в их множестве было сродни
+вторжению, из-за чего последовала долгая история конфликтов
+между ними.
+
+В конце концов, элезены разделились на два клана, которые
+существуют и по сей день. Одни ушли в леса, так и прозвав себя —
+Лесниками, и продолжили защищать свою родину от чужаков.
+Другие же ушли в пещеры и подземелья, предпочитая избегать
+любых контактов со всеми, кроме своих, и прозвав себя — Тёмными.","","False","0x00000070","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000071","",""
-"","Lalafell<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>A wee people sporting short, rotund bodies, the Lalafell appear as<nl>no more than children to the eyes of most. Many of these nimble<nl>little folk hail from the islands of the south seas, where they practice<nl>a simple agricultural lifestyle. It was not until the opening of maritime<nl>trade routes that the gradual migration of Lalafells to Eorzea began.<nl><nl>Now one of the most well-established races in the realm, Lalafells<nl>can be found in great numbers in nearly every city. Though Lalafellin<nl>culture places great emphasis on blood relations, individuals are known<nl>for getting along amicably with members of all races.","Лалафель<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>Лалафели — маленький народ с невысоким росточком, и на первый взгляд они кажутся не более чем детьми. Многие из этих проворных маленьких жителей родом с островов южных морей, где они ведут простой сельскохозяйственный образ жизни. Только после открытия морских торговых путей началось постепенное переселение лалафелей в Эорзию.<nl><nl>Сейчас лалафелей можно встретить в большом количестве почти в каждом городе, как одну из самых устоявшихся рас в королевстве. Хотя в культуре лалафелей большое значение придается кровным отношениям, они известны тем, что дружелюбно уживаются с представителями всех рас.","","False","0x00000072","",""
+"","Lalafell<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>A wee people sporting short, rotund bodies, the Lalafell appear as<nl>no more than children to the eyes of most. Many of these nimble<nl>little folk hail from the islands of the south seas, where they practice<nl>a simple agricultural lifestyle. It was not until the opening of maritime<nl>trade routes that the gradual migration of Lalafells to Eorzea began.<nl><nl>Now one of the most well-established races in the realm, Lalafells<nl>can be found in great numbers in nearly every city. Though Lalafellin<nl>culture places great emphasis on blood relations, individuals are known<nl>for getting along amicably with members of all races.","Лалафель<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>Лалафели — маленький народ с невысоким росточком, и на
+первый взгляд они кажутся не более чем детьми. Многие из этих
+проворных маленьких жителей родом с островов южных морей,
+где они ведут простой сельскохозяйственный образ жизни.
+Только после открытия морских торговых путей началось
+постепенное переселение лалафелей в Эорзию.
+
+Сейчас лалафелей можно встретить в большом количестве почти
+в каждом городе, как одну из самых устоявшихся рас в мире. Хотя
+в культуре лалафелей большое значение придаётся кровным
+отношениям, они известны тем, что дружелюбно уживаются
+с представителями всех рас.","","False","0x00000072","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000073","",""
-"","Miqo'te<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>The ancestors of the Miqo'te made their way to Eorzea during the<nl>Age of Endless Frost, traversing the frozen seas in pursuit of the<nl>wildlife upon which they subsisted. Adaptation to a hunting lifestyle<nl>has fashioned them with a keen sense of smell, powerful legs, and<nl>a tail which provides them with exceptional balance.<nl><nl>Miqo'te are known to be very territorial, and many individuals tend<nl>to lead solitary lifestyles, particularly males.","Мико'те<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>Предки мико'те попали на континент Эорзия в эпоху вечных заморозков, пересекая заледеневшие моря в погоне за дичью, которой они питались. Адаптация к охотничьему образу жизни привила им острое обоняние, мощные ноги и хвост, обеспечивающий исключительное равновесие.<nl><nl>Мико'те, как известно, очень территориальны, и многие особи ведут одиночный образ жизни, особенно самцы.","","False","0x00000074","",""
+"","Miqo'te<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>The ancestors of the Miqo'te made their way to Eorzea during the<nl>Age of Endless Frost, traversing the frozen seas in pursuit of the<nl>wildlife upon which they subsisted. Adaptation to a hunting lifestyle<nl>has fashioned them with a keen sense of smell, powerful legs, and<nl>a tail which provides them with exceptional balance.<nl><nl>Miqo'te are known to be very territorial, and many individuals tend<nl>to lead solitary lifestyles, particularly males.","Мико'те<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>Предки мико'те попали на континент Эорзия в эпоху вечных
+заморозков, пересекая заледеневшие моря в погоне за дичью,
+которой они питались. Адаптация к охотничьему образу жизни
+привила им острое обоняние, мощные ноги и хвост,
+обеспечивающий исключительное равновесие.
+
+Мико'те, как известно, очень территориальны, и многие особи
+ведут одиночный образ жизни, особенно самцы.","","False","0x00000074","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000075","",""
 "","Roegadyn<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>Known for their brawny builds and piercing eyes, the Roegadyn<nl>are the largest and most rugged of Eorzea's races. The majority<nl>of the realm's Roegadyn belong to the Sea Wolf clan, a maritime<nl>people who earn their keep on or by the sea, be it as sailors,<nl>fishermen, or pirates. Comparatively fewer in number are the<nl>Hellsguard, who are known for their more earnest demeanors<nl>and can often be found working as bodyguards and smithies.","Рогадин<var 09 E802 (( ©)) (( ®)) (()) /var><tab><tab>Известные своим мускулистым телосложением и пронзительным взглядом, рогадины являются самой крупной и суровой расой Эорзии. Большинство рогадинов королевства принадлежит к клану Морских Волков — прибрежному народу, который зарабатывает на жизнь в море или на берегу, будь то моряки, рыбаки или пираты. Сравнительно меньшим числом представлены Адские Стражи, которые известны своим более суровым характером и часто могут быть найдены в качестве телохранителей и кузнецов.","","False","0x00000076","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000077","",""
@@ -995,13 +1036,17 @@ Days Until Next Rank: <var 22 E803 ((,)) /var>)) /var><tab><tab>","Всего д
 
 <var 08 E1E80201 ((The center you have selected is recommended for residents of <var 09 E802 ((Japan)) ((North America)) ((Europe)) ((Oceania)) /var>. Select if you wish to create a character and play in one of the Worlds listed.
 
-Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you should select the corresponding data center.)) ((First choose your region, and then select your data center. All data centers within the same region offer the same quality of gameplay.)) /var><tab><tab>","Для игры в FINAL FANTASY XIV требуется подключение к одному из нескольких дата-центров. Чем ближе к вам физическое местополо-
-жение дата-центра, тем плавнее будет игровой процесс.
+Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you should select the corresponding data center.)) ((First choose your region, and then select your data center. All data centers within the same region offer the same quality of gameplay.)) /var><tab><tab>","Для игры в FINAL FANTASY XIV требуется подключение к одному
+из нескольких дата-центров. Чем ближе вы находитесь к дата-
+центру, тем плавнее будет игровой процесс.
 
-<var 08 E1E80201 ((Выбранный на данный момент дата-центр рекомендован жителям <var 09 E802 ((Японии)) ((Северной Америки)) ((Европы)) ((Океании)) /var>. Подтвердите выбор, если хотите создать персонажа в одном из перечисленных миров.
+<var 08 E1E80201 ((Выбранный на данный момент дата-центр рекомендован жителям
+<var 09 E802 ((Японии)) ((Северной Америки)) ((Европы)) ((Океании)) /var>. Подтвердите выбор, если хотите создать персонажа в одном из перечисленных миров.
 
-Каждый дата-центр содержит несколько уникальных миров (серверов). Если вами уже решено, в каком мире вы собираетесь играть, то выберите соответствующий дата-центр этого мира.)) ((Сначала выберите свой регион, после чего выберите свой дата-центр. Все дата-центры в пределах одного региона обеспечива-
-ют одинаково качественный игровой процесс.)) /var><tab><tab>","","False","0x00000326","",""
+Каждый дата-центр содержит несколько уникальных миров
+(серверов). Если вы уже решили, в каком мире собираетесь играть,
+то выберите дата-центр этого мира.)) ((Сначала выберите свой регион, после чего — дата-центр.
+Все дата-центры в пределах одного региона обеспечивают одинаково качественный игровой процесс.)) /var><tab><tab>","","False","0x00000326","",""
 "","<var 29 EA02 /var><var 09 E803 (()) (( (Legacy))) (( (NA))) (( (NA Legacy))) (( (EU))) (( (EU Legacy))) (( (OC))) (( (OC Legacy))) /var><tab><tab>","<var 29 EA02 /var><var 09 E803 (()) (( (Legacy))) (( (NA))) (( (NA Legacy))) (( (EU))) (( (EU Legacy))) (( (OC))) (( (OC Legacy))) /var><tab><tab>","","False","0x00000327","",""
 "","Connecting to data center.<tab><tab>","Соединение с дата-центром.<tab><tab>","","False","0x00000328","",""
 "","Acquiring character list.<tab><tab>","Получение списка персонажей.<tab><tab>","","False","0x00000329","",""
