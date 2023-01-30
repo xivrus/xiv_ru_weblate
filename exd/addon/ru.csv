@@ -877,7 +877,7 @@ The following can be used to adjust speed in unvoiced cutscenes:
 "","Arcanist","33C_Arcanist","","True","0x0000033C","",""
 "","Rogue","33D_Rogue","","True","0x0000033D","",""
 "","Gil","Гилы","","False","0x0000033E","",""
-"","Company Seals","Печати Компании","","False","0x0000033F","",""
+"","Company Seals","Company Seals","","True","0x0000033F","",""
 "","Other","340_Other","","True","0x00000340","",""
 "","<var 22 E802 ((,)) /var>/<var 22 E803 ((,)) /var>","<var 22 E802 (( )) /var>/<var 22 E803 (( )) /var>","","False","0x00000341","",""
 "","PvP","PvP","","False","0x00000342","",""
@@ -2436,7 +2436,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 "","<var 20 E802 /var>:<var 24 E803 /var> Remaining (<var 07 E804 /var><var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>)) ((<var 20 DE /var>/<var 20 DC /var>)) /var> <var 20 DB /var>:<var 24 DA /var>)","Останется <var 20 E802 /var>:<var 24 E803 /var> (завершится в <var 20 DB /var>:<var 24 DA /var> <var 07 E804 /var><var 20 DC /var>.<var 20 DE /var>.<var 20 DF /var>)","","False","0x00000934","",""
 "","You will not receive gil upon completion of this venture.","Вы не получите гилы после завершения этого странствия.","","False","0x00000935","",""
 "","This retainer does not meet the requirements for this venture.","Текущий слуга не подходит под требования этого странствия.","","False","0x00000936","",""
-"","You do not possess sufficient ventures.","У вас недостаточно жетонов странствий.","","False","0x00000937","",""
+"","You do not possess sufficient ventures.","У вас недостаточно ventures.","","False","0x00000937","",""
 "","You cannot dispatch a retainer to obtain items you have never gathered yourself.","Вы не можете отправить слугу собирать предметы, которые вы ещё сами не добывали.","","False","0x00000938","",""
 "","This retainer is currently undertaking another venture.","Текущий слуга сейчас участвует в другом странствии.","","False","0x00000939","",""
 "","<var 08 E3E80201 ((?????)) ((<var 20 E802 /var>)) /var>","<var 08 E3E80201 ((?????)) ((<var 20 E802 /var>)) /var>","","False","0x0000093A","",""
@@ -2459,7 +2459,7 @@ Select an option.","Слуга: <var 29 EA02 /var>
 "","Retainer: <var 29 EA02 /var>
 Ventures: <var 20 E803 /var>
 Select an option.","Слуга: <var 29 EA02 /var>
-Жетоны странствия: <var 20 E803 /var>
+Ventures: <var 20 E803 /var>
 Выберите опцию.","","False","0x00000949","",""
 "","Entrust or withdraw items.","Доверить или забрать предметы.","","False","0x0000094A","",""
 "","Entrust or withdraw gil.","Доверить или забрать гилы.","","False","0x0000094B","",""
@@ -2859,11 +2859,11 @@ Please sign in again.","","True","0x00000AB7","",""
 "","Company Promotion","Повышение в Компании","","False","0x00000AE6","",""
 "","Next Rank: ","Следующее звание: ","","False","0x00000AE7","",""
 "","Current Rank: ","Текущий звание: ","","False","0x00000AE8","",""
-"","Seal Max: <var 22 E802 ((,)) /var>","Максимум печатей: <var 22 E802 (( )) /var>","","False","0x00000AE9","",""
-"","Seals Required: ","Требуется печатей: ","","False","0x00000AEA","",""
+"","Seal Max: <var 22 E802 ((,)) /var>","Максимум seal'ов: <var 22 E802 (( )) /var>","","False","0x00000AE9","",""
+"","Seals Required: ","Требуется seal'ов: ","","False","0x00000AEA","",""
 "","Confirm","Подтвердить","","False","0x00000AEB","",""
 "","Cancel","Отмена","","False","0x00000AEC","",""
-"","Current Seals: ","Печатей в наличии: ","","False","0x00000AED","",""
+"","Current Seals: ","Seal'ов в наличии: ","","False","0x00000AED","",""
 "","Promote/Demote","Повысить/понизить","","False","0x00000AF0","",""
 "","Discharge","Изгнать","","False","0x00000AF1","",""
 "","Invite to Company","Пригласить в компанию","","False","0x00000AF2","",""
@@ -3306,18 +3306,18 @@ Unattuned","<var 28 ((PlaceName)) ((<var 28 ((Aetheryte)) E80209 /var>)) 01 /var
 "","","","","False","0x00000CCD","",""
 "","Total","CCE_Total4","","True","0x00000CCE","",""
 "","Close","Закрыть","","False","0x00000CCF","",""
-"","Grand Company Seal Exchange","Обмен печатей Великой компании","","False","0x00000CD0","",""
+"","Grand Company Seal Exchange","Обмен seal'ов Великой компании","","False","0x00000CD0","",""
 "","","","","False","0x00000CD1","",""
 "","Item","Предмет","","False","0x00000CD2","",""
 "","Qty.","Кол-во","","False","0x00000CD3","",""
-"","Seals","Печати","","True","0x00000CD4","",""
+"","Seals","Seals","","True","0x00000CD4","",""
 "","Rank","Ранг","","False","0x00000CD5","",""
 "","Bag","Сумка","","False","0x00000CD6","",""
 "","No items are available for exchange.","Нет доступных для обмена предметов.","","False","0x00000CD7","",""
 "","Role","Роль","","False","0x00000CD8","",""
-"","Exchange <var 22 E804 ((,)) /var> <var 08 E4E80402 ((seal)) ((seals)) /var> for <var 08 E4E80302 ((<var 31 ((Item)) 02E8020202 /var>)) ((<var 22 E803 ((,)) /var> <var 31 ((Item)) 04E802E80302 /var>)) /var>?","Обменять <var 22 E804 (( )) /var> <var 08 E4E80402 ((печать)) ((печатей)) /var> на <var 08 E4E80302 ((<var 31 ((Item)) 02E8020202 /var>)) ((<var 22 E803 (( )) /var> <var 31 ((Item)) 04E802E80302 /var>)) /var>?","","False","0x00000CDA","",""
+"","Exchange <var 22 E804 ((,)) /var> <var 08 E4E80402 ((seal)) ((seals)) /var> for <var 08 E4E80302 ((<var 31 ((Item)) 02E8020202 /var>)) ((<var 22 E803 ((,)) /var> <var 31 ((Item)) 04E802E80302 /var>)) /var>?","Обменять <var 22 E804 (( )) /var> <var 08 E4E80402 ((seal)) ((seals)) /var> на <var 08 E4E80302 ((<var 31 ((Item)) 02E8020202 /var>)) ((<var 22 E803 (( )) /var> <var 31 ((Item)) 04E802E80302 /var>)) /var>?","","False","0x00000CDA","",""
 "","Return","CDB_Return5","","True","0x00000CDB","",""
-"","Only members of the <var 28 ((GrandCompany)) E80201 /var> are allowed to exchange <var 08 E4E80202 ((storm)) ((<var 08 E4E80203 ((serpent)) ((flame)) /var>)) /var> seals for goods and services.","Только членам Компании «<var 28 ((GrandCompany)) E80201 /var>» разрешено обменивать печати <var 08 E4E80202 ((Водоворота)) ((<var 08 E4E80203 ((Ордена)) ((Пламени)) /var>)) /var> на местные товары и услуги.","","False","0x00000CDC","",""
+"","Only members of the <var 28 ((GrandCompany)) E80201 /var> are allowed to exchange <var 08 E4E80202 ((storm)) ((<var 08 E4E80203 ((serpent)) ((flame)) /var>)) /var> seals for goods and services.","Только членам Компании «<var 28 ((GrandCompany)) E80201 /var>» разрешено обменивать seal'ы <var 08 E4E80202 ((Водоворота)) ((<var 08 E4E80203 ((Ордена)) ((Пламени)) /var>)) /var> на местные товары и услуги.","","False","0x00000CDC","",""
 "","Hotbar Palette","Хотбар","","False","0x00000CE4","",""
 "","Press a button combination
 to assign it an action.","Нажмите комбинацию кнопок,
@@ -3361,12 +3361,12 @@ Select the same slot to delete the command.","Выберите новый сло
 "","<var 1E 0B /var><var 1E 09 /var> Subcommands","D24_<var 1E 0B /var><var 1E 09 /var> Subcommands","","True","0x00000D24","",""
 "","Currency","D25_Currency","","False","0x00000D25","",""
 "","Achievement Points","Очки достижений","","False","0x00000D26","",""
-"","Displays achievement certificate help text.","Показать помощь по жетонам достижений.","","False","0x00000D27","",""
+"","Displays achievement certificate help text.","Показать помощь по achievement certificate'ам.","","False","0x00000D27","",""
 "","Select reward items via completed achievements to accept them.
 
 Furthermore, each time you earn an achievement, you will gain achievement points. These points can be exchanged for <var 48 F201FA /var><var 49 F201FB /var>achievement certificates<var 49 01 /var><var 48 01 /var> by speaking with Jonathas in Old Gridania. Certificates can then be used to purchase special rewards including rare items and gear.","За некоторые достижения полагаются предметы или титулы, которые можно получить непосредственно из списка достижений.
 
-Вдобавок вы получаете очки достижений. Эти очки можно обменять на <var 48 F201FA /var><var 49 F201FB /var>жетоны достижений<var 49 01 /var><var 48 01 /var>, поговорив с Джонатасом в Старой Гридании. После этого сертификаты можно использовать для покупки различных наград, включая редкие предметы и снаряжение.","","False","0x00000D28","",""
+Вдобавок вы получаете очки достижений. Эти очки можно обменять на <var 48 F201FA /var><var 49 F201FB /var>achievement certificate'ы<var 49 01 /var><var 48 01 /var>, поговорив с Джонатасом в Старой Гридании. После этого их можно использовать для покупки различных наград, включая редкие предметы и снаряжение.","","False","0x00000D28","",""
 "","Near Completion","Близки к завершению","","False","0x00000D29","",""
 "","Current Area","Текущая локация","","False","0x00000D2A","",""
 "","View more achievements approaching completion.","Посмотреть ещё почти завершённые достижения.","","False","0x00000D2B","",""
@@ -3409,8 +3409,8 @@ Furthermore, each time you earn an achievement, you will gain achievement points
 "","Show only recently added items.","Показать новые предметы.","","False","0x00000D57","",""
 "","There are no items to display.","Нет предметов для отображения.","","False","0x00000D58","",""
 "","Your company rank is not high enough.","Ваш ранг в компании недостаточно высок.","","False","0x00000D5C","",""
-"","Your company lacks sufficient credits.","У вашей компании недостаточно кредитов.","","False","0x00000D5D","",""
-"","Purchase the action “<var 28 ((CompanyAction)) E80201 /var>” for <var 22 E803 ((,)) /var> credits?","Купить действие «<var 28 ((CompanyAction)) E80201 /var>» за <var 22 E803 (( )) /var> кредитов?","","False","0x00000D5E","",""
+"","Your company lacks sufficient credits.","У вашей компании недостаточно credits.","","False","0x00000D5D","",""
+"","Purchase the action “<var 28 ((CompanyAction)) E80201 /var>” for <var 22 E803 ((,)) /var> credits?","Купить действие «<var 28 ((CompanyAction)) E80201 /var>» за <var 22 E803 (( )) /var> credits?","","False","0x00000D5E","",""
 "","Your company has not executed any actions.","Ваша компания не активировала никакие действия.","","False","0x00000D5F","",""
 "","Your company does not possess any actions.","Ваша компания не владеет никакими действиями.","","False","0x00000D60","",""
 "","You are not authorized to execute company actions.","Вам не разрешено активировать действия компании.","","False","0x00000D61","",""
@@ -3436,20 +3436,20 @@ Furthermore, each time you earn an achievement, you will gain achievement points
 "","Fee","Плата","","False","0x00000D81","",""
 "","Total: <var 22 E802 ((,)) /var>","Итого: <var 22 E802 (( )) /var>","","False","0x00000D82","",""
 "","You have no crest-worthy gear.","У вас нет снаряжения, на которое можно было бы добавить нашивку.","","False","0x00000D83","",""
-"","Credit Exchange","Обмен кредитов","","False","0x00000D84","",""
+"","Credit Exchange","Обмен credit'ов","","False","0x00000D84","",""
 "","","","","False","0x00000D85","",""
 "","Rank","Ранг","","False","0x00000D86","",""
 "","Company Action","Действие компании","","False","0x00000D87","",""
 "","Rank","Ранг","","False","0x00000D88","",""
-"","Credits","Кредиты","","False","0x00000D89","",""
-"","You are not authorized to spend company credits.","Вам не разрешено тратить кредиты компании.","","False","0x00000D8A","",""
+"","Credits","Credits","","True","0x00000D89","",""
+"","You are not authorized to spend company credits.","Вам не разрешено тратить company credits.","","False","0x00000D8A","",""
 "","Active Action","Активные действия","","False","0x00000D8B","",""
 "","Inactive Actions","Неактивные действия","","False","0x00000D8C","",""
 "","","D8D_","","True","0x00000D8D","",""
 "","Item","Предмет","","False","0x00000D8E","",""
 "","Qty.","Кол-во","","False","0x00000D8F","",""
 "","Inventory","Инвентарь","","False","0x00000D90","",""
-"","Purchase <var 08 E4E80402 ((<var 31 ((Item)) 03E8020202 /var>)) ((<var 20 E804 /var> <var 31 ((Item)) 04E8020402 /var>)) /var> for <var 08 E4E80302 ((<var 22 E803 ((,)) /var> company credit)) ((<var 22 E803 ((,)) /var> company credits)) /var>?","Купить <var 08 E4E80402 ((<var 31 ((Item)) 03E8020202 /var>)) ((<var 20 E804 /var> <var 31 ((Item)) 04E8020402 /var>)) /var> за <var 22 E803 (( )) /var> кредит<var 08 E2E80305 ((<var 09 E803 (()) ((а)) ((а)) ((а)) /var>)) ((ов)) /var> компании?","","False","0x00000D91","",""
+"","Purchase <var 08 E4E80402 ((<var 31 ((Item)) 03E8020202 /var>)) ((<var 20 E804 /var> <var 31 ((Item)) 04E8020402 /var>)) /var> for <var 08 E4E80302 ((<var 22 E803 ((,)) /var> company credit)) ((<var 22 E803 ((,)) /var> company credits)) /var>?","Купить <var 08 E4E80402 ((<var 31 ((Item)) 03E8020202 /var>)) ((<var 20 E804 /var> <var 31 ((Item)) 04E8020402 /var>)) /var> за <var 22 E803 (( )) /var> <var 22 E803 (( )) /var> company credit<var 08 E4E80302 (()) ((s)) /var>?","","False","0x00000D91","",""
 "","Add your company crest to <var 31 ((Item)) 03E8020202 /var> for <var 20 E803 /var> gil?","D92_Add your company crest to <var 31 ((Item)) 03E8020202 /var> for <var 20 E803 /var> gil?","","True","0x00000D92","",""
 "","Add your company crest to the specified items for <var 20 E802 /var> gil?","D93_Add your company crest to the specified items for <var 20 E802 /var> gil?","","True","0x00000D93","",""
 "","Remove your company crest from <var 31 ((Item)) 03E8020202 /var>?","D94_Remove your company crest from <var 31 ((Item)) 03E8020202 /var>?","","True","0x00000D94","",""
@@ -3464,7 +3464,7 @@ Furthermore, each time you earn an achievement, you will gain achievement points
 "","《<var 2D ((<var 08 E804 ((<var 28 ((ClassJob)) E80202 /var>)) ((<var 28 ((ClassJob)) E8021C /var>)) /var>)) /var>》","《<var 08 E804 ((<var 28 ((ClassJob)) E80202 /var>)) ((<var 2B ((<var 08 E4E80301 ((<var 28 ((ClassJob)) E80201 /var>)) ((<var 28 ((ClassJob)) E80203 /var>)) /var>)) /var>)) /var>》","","False","0x00000DA3","",""
 "","«<var 2D ((<var 08 E804 ((<var 28 ((ClassJob)) E80202 /var>)) ((<var 28 ((ClassJob)) E8021C /var>)) /var>)) /var>»","«<var 08 E804 ((<var 28 ((ClassJob)) E80202 /var>)) ((<var 2B ((<var 08 E4E80301 ((<var 28 ((ClassJob)) E80201 /var>)) ((<var 28 ((ClassJob)) E80203 /var>)) /var>)) /var>)) /var>»","","False","0x00000DA4","",""
 ""," «<var 20 E802 /var>»"," «<var 20 E802 /var>»","","False","0x00000DA5","",""
-"","Allagan Tomestones","Аллаганские скрижали","","False","0x00000DAC","",""
+"","Allagan Tomestones","Allagan Tomestones","","True","0x00000DAC","",""
 "","Total","Всего","","False","0x00000DAD","",""
 "","This Week","За эту неделю","","False","0x00000DAE","",""
 "","<var 22 E802 ((,)) /var>/<var 22 E803 ((,)) /var>","<var 22 E802 (( )) /var>/<var 22 E803 (( )) /var>","","False","0x00000DAF","",""
@@ -3582,8 +3582,8 @@ Furthermore, each time you earn an achievement, you will gain achievement points
 "","Common","Общая","","False","0x00000E4E","",""
 "","Battle","Боевая","","False","0x00000E4F","",""
 "","Other","Другая","","False","0x00000E50","",""
-"","Crafters' Scrips","Расписки ремесленников","","False","0x00000E51","",""
-"","Gatherers' Scrips","Расписки собирателей","","False","0x00000E52","",""
+"","Crafters' Scrips","Crafters' Scrips","","True","0x00000E51","",""
+"","Gatherers' Scrips","Gatherers' Scrips","","True","0x00000E52","",""
 "","Manderville Gold Saucer Points","Очки «Золотого Блюдца Мандервилля»","","False","0x00000E53","",""
 "","Reset in <var 20 E802 /var>h <var 20 E803 /var>m <var 07 E804 /var>[<var 20 DE /var>/<var 20 DC /var> <var 20 DB /var>:<var 24 DA /var>]","Сброс через <var 20 E802 /var> ч. <var 20 E803 /var> мин. <var 07 E804 /var>[<var 20 DC /var>.<var 20 DE /var> <var 20 DB /var>:<var 24 DA /var>]","","False","0x00000E54","",""
 "","Ehcatl Nine Delivery Quests","Задания доставки для Девятки Экатлов","","False","0x00000E56","",""
@@ -3796,7 +3796,7 @@ Progress: <var 20 E803 /var>%","Расстояние до цели: <var 20 E802
 "","<var 20 E802 /var>/<var 20 E803 /var>","<var 20 E802 /var>/<var 20 E803 /var>","","False","0x00000F58","",""
 "","<var 1F /var>/<var 1F /var>","<var 1F /var>/<var 1F /var>","","False","0x00000F59","",""
 "","Complete","Выполнено","","False","0x00000F5A","",""
-"","Gemstones","Блестяшки","","False","0x00000F5B","",""
+"","Gemstones","Gemstones","","True","0x00000F5B","",""
 "","Retrieving data...","Получение данных...","","False","0x00000F5C","",""
 "","FATE Completion","ЗОНА","","False","0x00000F5D","",""
 "","<var 22 E802 ((,)) /var>/<var 22 E803 ((,)) /var>","<var 22 E802 (( )) /var>/<var 22 E803 (( )) /var>","","False","0x00000F5E","",""
@@ -4411,7 +4411,7 @@ Press the Support Team button to submit a question.","Подходящие Ча�
 "","Item","Предмет","","False","0x000011E0","",""
 "","Requested","Запрошено","","False","0x000011E1","",""
 "","EXP","Опыт","","False","0x000011E2","",""
-"","Seals","Печати","","False","0x000011E3","",""
+"","Seals","Seals","","True","0x000011E3","",""
 "","Qty.","Кол-во","","False","0x000011E4","",""
 "","Next Mission Allowance in <var 20 E802 /var> <var 08 E4E80202 ((hour)) ((hours)) /var> and <var 20 E803 /var> <var 08 E4E80302 ((minute)) ((minutes)) /var> at <var 07 E804 /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var>)) 0D /var>:<var 24 DA /var> <var 08 E0DB0D ((p.m.)) ((a.m.)) /var> on <var 20 DE /var>/<var 20 DC /var> (Earth time).","Следующий допуск к миссии через <var 08 E802 ((<var 20 E802 /var> час<var 08 E2E80205 ((<var 09 E802 (()) ((а)) ((а)) ((а)) /var>)) ((ов)) /var><var 08 E803 (( и <var 20 E803 /var> минут<var 08 E2E80305 ((<var 09 E803 ((у)) ((ы)) ((ы)) ((ы)) /var>)) (()) /var>)) /var>)) ((<var 20 E803 /var> минут<var 08 E2E80305 ((<var 09 E803 ((у)) ((ы)) ((ы)) ((ы)) /var>)) (()) /var>)) /var> в <var 07 E804 /var><var 20 DB /var>:<var 24 DA /var> <var 20 DC /var>.<var 20 DE /var> (по реальному времени).","","False","0x000011E5","",""
 "","1st","11E6_1st","","True","0x000011E6","",""
@@ -4437,9 +4437,9 @@ Press the Support Team button to submit a question.","Подходящие Ча�
 "","Deliver","Доставить","","False","0x000011FA","",""
 "","Cancel","Отмена","","False","0x000011FB","",""
 "","You have yet to unlock any of the classes required to complete the missions.","У вас ещё не разблокирован ни один класс, способный выполнять эти миссии.","","False","0x000011FC","",""
-"","Warning: You will not be able to receive all the company seals. Do you still wish to proceed?","Внимание: вы не сможете получить все печати Компании. Вы точно хотите продолжить?","","False","0x000011FD","",""
-"","Warning: You will not be able to carry all the Allagan tomestones. Do you still wish to proceed?","Внимание: вы не сможете получить все аллаганские скрижали. Вы точно хотите продолжить?","","False","0x000011FE","",""
-"","Warning: You will not be able to receive all the company seals and Allagan tomestones. Do you still wish to proceed?","Внимание: вы не сможете получить все печати Компании и аллаганские скрижали. Вы точно хотите продолжить?","","False","0x000011FF","",""
+"","Warning: You will not be able to receive all the company seals. Do you still wish to proceed?","Внимание: вы не сможете получить все Company seals. Вы точно хотите продолжить?","","False","0x000011FD","",""
+"","Warning: You will not be able to carry all the Allagan tomestones. Do you still wish to proceed?","Внимание: вы не сможете получить все Allagan tomestones. Вы точно хотите продолжить?","","False","0x000011FE","",""
+"","Warning: You will not be able to receive all the company seals and Allagan tomestones. Do you still wish to proceed?","Внимание: вы не сможете получить все Company seals и Allagan tomestones. Вы точно хотите продолжить?","","False","0x000011FF","",""
 "","Challenge Deadline","1200_Challenge Deadline","","True","0x00001200","",""
 "","Warning: You will not be able to receive all the following:
 <var 08 E1E80201 ((
@@ -4449,8 +4449,8 @@ Press the Support Team button to submit a question.","Подходящие Ча�
 
 Do you still wish to proceed?","Внимание: вы не сможете получить в полном объёме следующие награды:
 <var 08 E1E80201 ((
-  Печати Компании)) (()) /var><var 08 E1E80301 ((
-  Аллаганские скрижали)) (()) /var><var 08 E1E80401 ((
+  Company Seals)) (()) /var><var 08 E1E80301 ((
+  Allagan Tomestones)) (()) /var><var 08 E1E80401 ((
   Репутация)) (()) /var>
 
 Вы всё равно хотите продолжить?","","False","0x00001201","",""
@@ -4489,10 +4489,10 @@ Do you still wish to proceed?","Внимание: вы не сможете по�
 "","Item","Предмет","","False","0x00001222","",""
 "","Condition","Прочность","","False","0x00001223","",""
 "","There are no items available.","Нет доступных предметов.","","False","0x00001224","",""
-"","Seals (Ascending)","Печати - по возрастанию","","False","0x00001225","",""
-"","Seals (Descending)","Печати - по убыванию","","False","0x00001226","",""
+"","Seals (Ascending)","Seal'ы - по возрастанию","","False","0x00001225","",""
+"","Seals (Descending)","Seal'ы - по убыванию","","False","0x00001226","",""
 "","Item Type","Тип предметов","","False","0x00001227","",""
-"","Company Seals","Печати Компании","","False","0x00001228","",""
+"","Company Seals","Company Seals","","True","0x00001228","",""
 "","This item is part of a registered gear set. Are you sure you wish to proceed?","Этот предмет является частью комплекта снаряжения. Вы точно хотите продолжить?","","False","0x00001229","",""
 "","Placing <var 31 ((Item)) 03E8020202 /var> in the armoire will reset its spiritbond to 0%, as well as remove all customization. Gear with condition below 100% cannot be stored. Proceed?","Если положить <var 31 ((Item)) 03E8020202 /var> в шкаф снаряжения, то материзация предмета сбросится до 0% и будет потеряна вся его кастомизация. Снаряжение с прочностью менее 100% нельзя положить в шкаф снаряжения. Продолжить?","","False","0x0000122A","",""
 "","Yes","Да","","False","0x0000122B","",""
@@ -4565,7 +4565,7 @@ Do you still wish to proceed?","Внимание: вы не сможете по�
 "","Time","Время","","False","0x00001273","",""
 "","Reward","Награда","","False","0x00001274","",""
 "","PvP EXP","Опыт PvP","","False","0x00001275","",""
-"","Wolf Marks","Волчьи марки","","False","0x00001276","",""
+"","Wolf Marks","Wolf Marks","","True","0x00001276","",""
 "","Name","Имя","","False","0x00001277","",""
 "","Home World","Домашний мир","","False","0x00001278","",""
 "","Free Company","1279_Free Company","","True","0x00001279","",""
@@ -5496,7 +5496,7 @@ when current seal count is between three and seven.","Перемешать вс�
 "","Accept your reward?","Принять выбранную награду?","","False","0x0000160D","",""
 "","/9","/9","","False","0x0000160E","",""
 "","Select a reward.","Выберите награду.","","False","0x0000160F","",""
-"","Warning: You will not be able to receive all the Allagan tomestones. Do you still wish to proceed?","Внимание: вы не сможете получить все аллаганские скрижали. Продолжить?","","False","0x00001610","",""
+"","Warning: You will not be able to receive all the Allagan tomestones. Do you still wish to proceed?","Внимание: вы не сможете получить все Allagan tomestones. Продолжить?","","False","0x00001610","",""
 "","Gig Head","1612_Gig Head","","True","0x00001612","",""
 "","","1613_","","True","0x00001613","",""
 "","Small","1614_Small","","True","0x00001614","",""
@@ -5598,10 +5598,10 @@ Deliver to: <var 28 ((ENpcResident)) E80201 /var>","","True","0x00001675","",""
 "","A Realm Reborn","1678_A Realm Reborn","","True","0x00001678","",""
 "","Heavensward","1679_Heavensward","","True","0x00001679","",""
 "","Stormblood","167A_Stormblood","","True","0x0000167A","",""
-"","Ventures","Жетоны странствий","","False","0x0000167B","",""
+"","Ventures","Ventures","","True","0x0000167B","",""
 "","Discontinued","Неактуальные","","False","0x0000167C","",""
 "","This currency is no longer valid. For a limited time, certain NPCs will be able to exchange it for valid currency.","Эта валюта больше не актуальна. В течение ограниченного времени некоторые NPC смогут обменять её на текущую валюту.","","False","0x0000167D","",""
-"","Skybuilders' Scrips","Расписки небесных строителей","","False","0x0000167E","",""
+"","Skybuilders' Scrips","Skybuilders' Scrips","","True","0x0000167E","",""
 "","Currency Settings","Настройки отображения валюты","","False","0x0000167F","",""
 "","Currency Settings","Настройки валюты","","False","0x00001680","",""
 "","","","","False","0x00001681","",""
@@ -5685,7 +5685,7 @@ Deliver to: <var 28 ((ENpcResident)) E80201 /var>","","True","0x00001675","",""
 Do you still wish to proceed?","Вы не получите в полном объёме следующие награды: 
 <var 08 E1E80201 ((
   Очки опыта)) (()) /var><var 08 E1E80301 ((
-  Аллаганские скрижали)) (()) /var>
+  Allagan tomestones)) (()) /var>
 
 Вы всё равно хотите продолжить?","","False","0x000016D1","",""
 "","You already possess the following minion:
@@ -7956,7 +7956,7 @@ Inform your comrades that you are ready?
 "","Companion EXP","Опыт компаньона","","False","0x00001FEA","",""
 "","Seals","Печати","","False","0x00001FEB","",""
 "","You have yet to unlock this category.","Вам ещё предстоит разблокировать эту категорию.","","False","0x00001FEC","",""
-"","Wolf Marks","Волчьи марки","","False","0x00001FED","",""
+"","Wolf Marks","Wolf Marks","","True","0x00001FED","",""
 "","Elemental EXP","Элементальный опыт","","False","0x00001FEE","",""
 "","140%","140%","","False","0x00001FF4","",""
 "","120%","120%","","False","0x00001FF5","",""
@@ -8168,7 +8168,7 @@ Current settings will be overwritten. Proceed?","","True","0x00002002","",""
 "","<var 2D ((<var 28 ((ObjStr)) E80201 /var>)) /var>","<var 2D ((<var 28 ((ObjStr)) E80201 /var>)) /var>","","False","0x000020E3","",""
 "","<var 08 E803 ((<var 28 ((PlaceName)) E80301 /var>, )) (()) /var><var 28 ((PlaceName)) E80201 /var>","<var 08 E803 ((<var 28 ((PlaceName)) E80301 /var>, )) (()) /var><var 28 ((PlaceName)) E80201 /var>","","False","0x000020E4","",""
 "","Accept","Принять","","False","0x000020E5","",""
-"","<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> Allied <var 08 E4E80302 ((Seal)) ((Seals)) /var>","<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> и <var 22 E803 (( )) /var> <var 08 E2E80301 ((Союзных печатей)) ((<var 08 E2E80302 ((Союзную печать)) ((<var 08 E2E80305 ((Союзные печати)) ((Союзных печатей)) /var>)) /var>)) /var>","","False","0x000020E6","",""
+"","<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> Allied <var 08 E4E80302 ((Seal)) ((Seals)) /var>","<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> и <var 22 E803 (( )) /var> Allied <var 08 E4E80302 ((Seal)) ((Seals)) /var>","","False","0x000020E6","",""
 "","Close","Закрыть","","False","0x000020E7","",""
 "","Pursuing a new mark will result in the abandonment of your current one. Proceed?","В погоне за новым контрактом вам придётся выкинуть текущий. Продолжить?","","False","0x000020E8","",""
 "","Name: ","Имя: ","","False","0x000020E9","",""
@@ -8180,7 +8180,7 @@ Current settings will be overwritten. Proceed?","","True","0x00002002","",""
 "","Flame General Raubahn Aldynn","Генерал Пламени Робанн Алдинн","","False","0x000020EF","",""
 "","Targets:","Кол-во целей:","","False","0x000020F0","",""
 "","The Hunt","20F1_The Hunt","","True","0x000020F1","",""
-"","<var 08 E1E80401 ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> Centurio <var 08 E4E80302 ((Seal)) ((Seals)) /var> / <var 22 E804 ((,)) /var> EXP)) ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> Centurio <var 08 E4E80302 ((Seal)) ((Seals)) /var>)) /var>","<var 08 E1E80401 ((<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> / <var 22 E803 (( )) /var> <var 08 E2E80301 ((печатей)) ((<var 08 E2E80302 ((печать)) ((<var 08 E2E80305 ((печати)) ((печатей)) /var>)) /var>)) /var> Центурио / <var 22 E804 (( )) /var> EXP)) ((<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> / <var 22 E803 (( )) /var> <var 08 E2E80301 ((печатей)) ((<var 08 E2E80302 ((печать)) ((<var 08 E2E80305 ((печати)) ((печатей)) /var>)) /var>)) /var> Центурио)) /var>","","False","0x000020F2","",""
+"","<var 08 E1E80401 ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> Centurio <var 08 E4E80302 ((Seal)) ((Seals)) /var> / <var 22 E804 ((,)) /var> EXP)) ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> Centurio <var 08 E4E80302 ((Seal)) ((Seals)) /var>)) /var>","<var 08 E1E80401 ((<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> / <var 22 E803 (( )) /var> Centurio <var 08 E4E80302 ((Seal)) ((Seals)) /var> / <var 22 E804 (( )) /var> EXP)) ((<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> / <var 22 E803 (( )) /var> Centurio <var 08 E4E80302 ((Seal)) ((Seals)) /var>)) /var>","","False","0x000020F2","",""
 "","Issuing Authority:","Кем выдано:","","False","0x000020F3","",""
 "","Clan Centurio","Клан Центурио","","False","0x000020F4","",""
 "","Level 1 Clan Marks","Клановые контракты — Уровень 1","","False","0x000020F5","",""
@@ -9076,7 +9076,7 @@ Please confirm the rules and rewards.","","True","0x00002412","",""
 "","Possible Prize","Возможный приз","","False","0x00002414","",""
 "","Your Number: [<var 50 E80205 /var>]","Ваше число: [<var 50 E80205 /var>]","","False","0x00002427","",""
 "","Early Bird Bonus","2428_Early Bird Bonus","","True","0x00002428","",""
-"","MGP +<var 20 E802 /var>%","ОЗБ +<var 20 E802 /var>%","","False","0x00002429","",""
+"","MGP +<var 20 E802 /var>%","MGP +<var 20 E802 /var>%","","False","0x00002429","",""
 "","Select a Slot","Откройте ячейки","","False","0x0000242A","",""
 "","Select a Line","Выберите линию","","False","0x0000242B","",""
 "","Mini Cactpot","Мини-горшок","","False","0x0000242C","",""
@@ -9086,7 +9086,7 @@ Please confirm the rules and rewards.","","True","0x00002412","",""
 "","Confirm","Принять","","False","0x00002430","",""
 "","Payout","Выплаты","","False","0x00002431","",""
 "","Sum","Сумма","","False","0x00002432","",""
-"","MGP","ОЗБ","","False","0x00002433","",""
+"","MGP","MGP","","False","0x00002433","",""
 "","Purchase <var 08 E4E80302 ((<var 31 ((Item)) 02E8020202 /var>)) ((<var 20 E803 /var> <var 31 ((Item)) 04E8020302 /var>)) /var> for <var 22 E804 ((,)) /var> MGP?","2434_Purchase <var 08 E4E80302 ((<var 31 ((Item)) 02E8020202 /var>)) ((<var 20 E803 /var> <var 31 ((Item)) 04E8020302 /var>)) /var> for <var 22 E804 ((,)) /var> MGP?","","True","0x00002434","",""
 "","OK","2435_ОК","","True","0x00002435","",""
 "","Cancel","2436_Отмена","","True","0x00002436","",""
@@ -9096,8 +9096,8 @@ Please confirm the rules and rewards.","","True","0x00002412","",""
 "","Quick Pick","243A_Quick Pick","","True","0x0000243A","",""
 "","Purchase","Купить","","False","0x0000243B","",""
 "","Purchase a Jumbo Cactpot ticket with the number <var 50 E80305 /var> for <var 22 E804 ((,)) /var> MGP?
-You currently possess <var 22 E805 ((,)) /var>.","Купить билет Гига-горшка с номером <var 50 E80305 /var> за <var 22 E804 (( )) /var> ОЗБ?
-У вас сейчас <var 22 E805 (( )) /var> ОЗБ.","","False","0x0000243C","",""
+You currently possess <var 22 E805 ((,)) /var>.","Купить билет Гига-горшка с номером <var 50 E80305 /var> за <var 22 E804 (( )) /var> MGP?
+У вас сейчас <var 22 E805 (( )) /var> MGP.","","False","0x0000243C","",""
 "","Payout","Выплаты","","False","0x0000243D","",""
 "","","","","False","0x0000243E","",""
 "","Winning Number","Число-победитель","","False","0x0000243F","",""
@@ -9132,7 +9132,7 @@ You currently possess <var 22 E805 ((,)) /var>.","Купить билет Гиг
 "","Retrieving data...","Получение данных...","","False","0x0000245C","",""
 "","Unable to retrieve data.","Не удалось получить данные.","","False","0x0000245D","",""
 "","<var 09 E802 ((<var 20 E803 /var>)) ((<var 20 E803 /var>&<var 20 E804 /var>)) ((<var 20 E803 /var>&<var 20 E804 /var>&<var 20 E805 /var>)) ((<var 20 E803 /var>&<var 20 E804 /var>&<var 20 E805 /var>&<var 20 E806 /var>)) ((All)) /var>","<var 09 E802 ((<var 20 E803 /var>)) ((<var 20 E803 /var> и <var 20 E804 /var>)) ((<var 20 E803 /var>, <var 20 E804 /var> и <var 20 E805 /var>)) ((<var 20 E803 /var>, <var 20 E804 /var>, <var 20 E805 /var> и <var 20 E806 /var>)) ((Все)) /var>","","False","0x0000245E","",""
-"","+<var 22 E802 ((,)) /var> MGP","+<var 22 E802 (( )) /var> ОЗБ","","False","0x0000245F","",""
+"","+<var 22 E802 ((,)) /var> MGP","+<var 22 E802 (( )) /var> MGP","","False","0x0000245F","",""
 "","+<var 20 E802 /var>%","+<var 20 E802 /var>%","","False","0x00002460","",""
 "","No. <var 20 E802 /var>","Nº <var 20 E802 /var>","","False","0x00002461","",""
 "","No. <var 20 E802 /var>","Nº <var 20 E802 /var>","","False","0x00002462","",""
@@ -9141,10 +9141,10 @@ You currently possess <var 22 E805 ((,)) /var>.","Купить билет Гиг
 "","<var 22 E802 ((,)) /var>","<var 22 E802 (( )) /var>","","False","0x00002465","",""
 "","Place","Место","","False","0x00002466","",""
 "","#<var 20 E802 /var>","Гига-горшок Nº<var 20 E802 /var>","","False","0x00002467","",""
-"","Finish playing <var 29 EA02 /var>? Your MGP will not be refunded.","Закончить играть в «<var 29 EA02 /var>»? Потраченные ОЗБ не будут возвращены.","","False","0x00002468","",""
+"","Finish playing <var 29 EA02 /var>? Your MGP will not be refunded.","Закончить играть в «<var 29 EA02 /var>»? Потраченные MGP не будут возвращены.","","False","0x00002468","",""
 "","Play a round of <var 29 EA02 /var> for <var 22 E803 ((,)) /var> MGP?
-You currently possess <var 22 E804 ((,)) /var>.","Сыграть в «<var 29 EA02 /var>» за <var 22 E803 (( )) /var> ОЗБ?
-У вас сейчас <var 22 E804 (( )) /var> ОЗБ.","","False","0x00002469","",""
+You currently possess <var 22 E804 ((,)) /var>.","Сыграть в «<var 29 EA02 /var>» за <var 22 E803 (( )) /var> MGP?
+У вас сейчас <var 22 E804 (( )) /var> MGP.","","False","0x00002469","",""
 "","<var 08 E4E80302 ((Use your last <var 31 ((Item)) 04E8020202 /var>)) ((Use one of <var 08 E803 ((<var 08 E2E8030B ((<var 09 E803 ((one)) ((two)) ((three)) ((four)) ((five)) ((six)) ((seven)) ((eight)) ((nine)) ((ten)) /var>)) ((<var 20 E803 /var>)) /var>)) ((<var 20 E803 /var>)) /var> <var 31 ((Item)) 04E8020302 /var>)) /var>.","<var 08 E4E80302 ((Использовать последний <var 31 ((Item)) 04E8020202 /var>)) ((Использовать один из <var 08 E803 ((<var 08 E2E8030B ((<var 09 E803 ((одного)) ((двух)) ((трёх)) ((четырёх)) ((пяти)) ((шести)) ((семи)) ((восьми)) ((девяти)) ((десяти)) /var>)) ((<var 20 E803 /var>)) /var>)) ((<var 20 E803 /var>)) /var> <var 31 ((Item)) 04E8020302 /var>)) /var>.","","False","0x0000246A","",""
 "","Gauge Your Skill!","264B_Gauge Your Skill!","","False","0x0000246B","",""
 "","Find the Sweet Spot!","246C_Find the Sweet Spot!","","False","0x0000246C","",""
@@ -9161,8 +9161,8 @@ Double down payout: <var 48 F201FA /var><var 49 F201FB /var><var 20 E805 /var><v
 Double down opportunities remaining: <var 20 E803 /var>","<var 48 F201FA /var><var 49 F201FB /var>Поздравляем!<var 49 01 /var><var 48 01 /var>
 Вы сейчас можете либо забрать награду и тем самым закончить игру, либо сыграть ещё раз и заработать в 2 раза больше. Но помните: в случае поражения вы потеряете весь свой выигрыш.
 
-Текущий выигрыш: <var 48 F201FA /var><var 49 F201FB /var><var 20 E804 /var><var 49 01 /var><var 48 01 /var> ОЗБ
-Удвоенный выигрыш: <var 48 F201FA /var><var 49 F201FB /var><var 20 E805 /var><var 49 01 /var><var 48 01 /var> ОЗБ
+Текущий выигрыш: <var 48 F201FA /var><var 49 F201FB /var><var 20 E804 /var><var 49 01 /var><var 48 01 /var> MGP
+Удвоенный выигрыш: <var 48 F201FA /var><var 49 F201FB /var><var 20 E805 /var><var 49 01 /var><var 48 01 /var> MGP
 
 Осталось шансов на удвоение: <var 20 E803 /var>","","False","0x00002471","",""
 "","Time remaining: <var 20 E802 /var>:<var 24 E803 /var>","Осталось времени: <var 20 E802 /var>:<var 24 E803 /var>","","False","0x00002472","",""
@@ -9178,8 +9178,8 @@ Time Remaining: <var 20 E804 /var>:<var 24 E805 /var>
 Double down opportunities remaining: <var 20 E803 /var>","<var 48 F201FA /var><var 49 F201FB /var>Поздравляем!<var 49 01 /var><var 48 01 /var>
 Вы сейчас можете либо забрать награду и тем самым закончить игру, либо сыграть ещё раз и заработать в 2 раза больше. Но помните: в случае поражения вы потеряете весь свой выигрыш.
 
-Текущий выигрыш: <var 48 F201FA /var><var 49 F201FB /var><var 20 E806 /var><var 49 01 /var><var 48 01 /var> ОЗБ
-Удвоенный выигрыш: <var 48 F201FA /var><var 49 F201FB /var><var 20 E807 /var><var 49 01 /var><var 48 01 /var> ОЗБ
+Текущий выигрыш: <var 48 F201FA /var><var 49 F201FB /var><var 20 E806 /var><var 49 01 /var><var 48 01 /var> MGP
+Удвоенный выигрыш: <var 48 F201FA /var><var 49 F201FB /var><var 20 E807 /var><var 49 01 /var><var 48 01 /var> MGP
 Осталось времени: <var 20 E804 /var>:<var 24 E805 /var>
 
 Осталось шансов на удвоение: <var 20 E803 /var>","","False","0x00002475","",""
@@ -9189,7 +9189,7 @@ Double down opportunities remaining: <var 20 E803 /var>","<var 48 F201FA /var><v
 "","Chocobo","Чокобо","","False","0x0000247A","",""
 "","Card List","Карты","","False","0x0000247B","",""
 "","Card Decks","Колоды","","False","0x0000247C","",""
-"","Manderville Gold Saucer Points (MGP)","Очки «Золотого Блюдца Мандервилля» (ОЗБ)","","False","0x0000247D","",""
+"","Manderville Gold Saucer Points (MGP)","Очки «Золотого Блюдца Мандервилля» (MGP)","","False","0x0000247D","",""
 "","<var 22 E802 ((,)) /var>","<var 22 E802 (( )) /var>","","False","0x0000247E","",""
 "","Next Triple Triad Tournament","Следующий турнир Тройного Трио","","False","0x0000247F","",""
 "","<var 2B ((<var 28 ((TripleTriadCompetition)) E80201 /var>)) /var>","<var 2B ((<var 28 ((TripleTriadCompetition)) E80201 /var>)) /var>","","False","0x00002480","",""
@@ -9209,7 +9209,7 @@ Double down opportunities remaining: <var 20 E803 /var>","<var 48 F201FA /var><v
 "","Mini Cactpot","Мини-горшок","","False","0x0000248E","",""
 "","<var 08 E4E80201 ((All Tickets Purchased)) ((Ticket Allowance: <var 20 E802 /var>/<var 20 E803 /var>)) /var>","<var 08 E4E80201 ((Все билеты куплены)) ((Можно купить билетов: <var 20 E802 /var>/<var 20 E803 /var>)) /var>","","False","0x0000248F","",""
 "","Ticket Not Yet Purchased","2490_Ticket Not Yet Purchased","","True","0x00002490","",""
-"","MGP","ОЗБ","","False","0x00002491","",""
+"","MGP","MGP","","False","0x00002491","",""
 "","Tournament Points","2492_Tournament Points","","True","0x00002492","",""
 "","Receiving data...","Получение данных...","","False","0x00002493","",""
 "","There is nothing to display.","Нет ничего для отображения.","","False","0x00002494","",""
@@ -9383,22 +9383,22 @@ Save deck?","Вы не сможете использовать колоду в �
 <var 29 EA04 /var>
 <var 29 EA05 /var>
 <var 29 EA06 /var>)) /var>","","False","0x0000251B","",""
-"","MGP Exchange","Обмен ОЗБ","","False","0x0000251C","",""
+"","MGP Exchange","Обмен MGP","","False","0x0000251C","",""
 "","","","","False","0x0000251D","",""
 "","Exchange Rate","Курс обмена","","False","0x0000251E","",""
-"","1 MGP = <var 20 E802 /var>","1 ОЗБ = <var 20 E802 /var>","","False","0x0000251F","",""
-"","MGP Requested","Запросить ОЗБ","","False","0x00002520","",""
+"","1 MGP = <var 20 E802 /var>","1 MGP = <var 20 E802 /var>","","False","0x0000251F","",""
+"","MGP Requested","Запросить MGP","","False","0x00002520","",""
 "","Gil Required","Требуется гилов","","False","0x00002521","",""
 "","Caution:
 Gil to MGP exchanges will be denied if the requested amount places your total over <var 22 E802 ((,)) /var>.
 MGP to gil exchanges are unavailable.
 ","Внимание:
-Вам будет отказано в переводе гилов в ОЗБ, если вместе с запрошенной суммой у вас получится больше <var 22 E802 (( )) /var> ОЗБ.
-Перевод ОЗБ в гилы недоступен.
+Вам будет отказано в переводе гилов в MGP, если вместе с запрошенной суммой у вас получится больше <var 22 E802 (( )) /var> MGP.
+Перевод MGP в гилы недоступен.
 ","","False","0x00002522","",""
 "","Proceed","Продолжить","","False","0x00002523","",""
 "","Cancel","Отмена","","False","0x00002524","",""
-"","Exchange <var 22 E802 ((,)) /var> gil for <var 22 E803 ((,)) /var> MGP?","Обменять <var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> на <var 22 E803 (( )) /var> ОЗБ?","","False","0x00002525","",""
+"","Exchange <var 22 E802 ((,)) /var> gil for <var 22 E803 ((,)) /var> MGP?","Обменять <var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> на <var 22 E803 (( )) /var> MGP?","","False","0x00002525","",""
 "","Card Buyer","Скупщик карт","","False","0x00002526","",""
 "","","","","False","0x00002527","",""
 "","Card","Карта","","False","0x00002528","",""
@@ -9408,13 +9408,13 @@ MGP to gil exchanges are unavailable.
 "","You have no cards to sell.","У вас нет карт для продажи.","","False","0x0000252C","",""
 "","Quantity","Количество","","False","0x0000252D","",""
 "","Price","Цена","","False","0x0000252E","",""
-"","<var 48 F201FA /var><var 49 F201FB /var>You may sell as many cards as you wish, but any funds which exceed the maximum amount of MGP allowed an individual will be forfeit.<var 49 01 /var><var 48 01 /var>","<var 48 F201FA /var><var 49 F201FB /var>Вы можете продать столько карт, сколько хотите, но учтите, что вы будете терять избыток максимального количества ОЗБ при продаже.<var 49 01 /var><var 48 01 /var>","","False","0x0000252F","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>You may sell as many cards as you wish, but any funds which exceed the maximum amount of MGP allowed an individual will be forfeit.<var 49 01 /var><var 48 01 /var>","<var 48 F201FA /var><var 49 F201FB /var>Вы можете продать столько карт, сколько хотите, но учтите, что вы будете терять избыток максимального количества MGP при продаже.<var 49 01 /var><var 48 01 /var>","","False","0x0000252F","",""
 "","Sell","Продать","","False","0x00002530","",""
 "","Cancel","Отмена","","False","0x00002531","",""
-"","MGP/Max","ОЗБ/Макс.","","False","0x00002532","",""
+"","MGP/Max","MGP/Макс.","","False","0x00002532","",""
 "","<var 22 E802 ((,)) /var>","<var 22 E802 (( )) /var>","","False","0x00002533","",""
 "","<var 22 E802 ((,)) /var>/<var 22 E803 ((,)) /var>","<var 22 E802 (( )) /var>/<var 22 E803 (( )) /var>","","False","0x00002534","",""
-"","<var 22 E802 ((,)) /var> MGP","<var 22 E802 (( )) /var> ОЗБ","","False","0x00002535","",""
+"","<var 22 E802 ((,)) /var> MGP","<var 22 E802 (( )) /var> MGP","","False","0x00002535","",""
 "","Joining a match...","2536_Joining a match...","","True","0x00002536","",""
 "","Confirm Battlehall Matching Data","2537_Confirm Battlehall Matching Data","","True","0x00002537","",""
 "","Triple Triad Match: Normal Match","2538_Triple Triad Match: Normal Match","","True","0x00002538","",""
@@ -9423,7 +9423,7 @@ MGP to gil exchanges are unavailable.
 "","Registering for match. Please wait.","253B_Registering for match. Please wait.","","True","0x0000253B","",""
 "","Cancel","253C_Отмена","","True","0x0000253C","",""
 "","Match preparations complete!","253D_Match preparations complete!","","True","0x0000253D","",""
-"","MGP","ОЗБ","","False","0x0000253E","",""
+"","MGP","MGP","","False","0x0000253E","",""
 "","Fee","253F_Fee","","True","0x0000253F","",""
 "","Register","2540_Register","","True","0x00002540","",""
 "","Withdraw","2541_Withdraw","","True","0x00002541","",""
@@ -9449,7 +9449,7 @@ Proceed?","","True","0x00002542","",""
 "","<var 2B ((<var 29 EA02 /var>)) /var>","2553_<var 2B ((<var 29 EA02 /var>)) /var>","","True","0x00002553","",""
 "","Cancel","2554_Отмена","","True","0x00002554","",""
 "","Match preparations complete!","2555_Match preparations complete!","","True","0x00002555","",""
-"","MGP","ОЗБ","","False","0x00002556","",""
+"","MGP","MGP","","False","0x00002556","",""
 "","Match Fee","2557_Match Fee","","True","0x00002557","",""
 "","Join","2558_Join","","True","0x00002558","",""
 "","Withdraw","2559_Withdraw","","True","0x00002559","",""
@@ -9617,7 +9617,7 @@ Proceed?","<var 48 F201F4 /var><var 49 F201F5 /var>При выходе из ма
 "","Silver Cactuar","Серебряный кактуар","","False","0x000025F7","",""
 "","Bronze Cactuar","Бронзовый кактуар","","False","0x000025F8","",""
 ""," x <var 20 E802 /var> "," x <var 20 E802 /var> ","","False","0x000025F9","",""
-"","<var 22 E802 ((,)) /var> MGP","<var 22 E802 (( )) /var> ОЗБ","","False","0x000025FA","",""
+"","<var 22 E802 ((,)) /var> MGP","<var 22 E802 (( )) /var> MGP","","False","0x000025FA","",""
 "","Exit","Выход","","False","0x000025FB","",""
 "","Time Remaining: <var 20 E802 /var>:<var 24 E803 /var>","Осталось времени: <var 20 E802 /var>:<var 24 E803 /var>","","False","0x000025FC","",""
 "","<var 20 E802 /var> ","<var 20 E802 /var> ","","False","0x000025FD","",""
@@ -9666,7 +9666,7 @@ Proceed with this deck?","Карты нельзя будет поменять п
 "","<var 29 EA02 /var>","<var 29 EA02 /var>","","False","0x00002621","",""
 "","Ranking Reward","Награда за место","","False","0x00002622","",""
 "","Point Reward","Награда за очки","","False","0x00002623","",""
-"","<var 22 E802 ((,)) /var> MGP","<var 22 E802 (( )) /var> ОЗБ","","False","0x00002624","",""
+"","<var 22 E802 ((,)) /var> MGP","<var 22 E802 (( )) /var> MGP","","False","0x00002624","",""
 "","<var 20 E802 /var>","<var 20 E802 /var>","","False","0x00002625","",""
 ""," x <var 20 E802 /var> "," x <var 20 E802 /var> ","","False","0x00002626","",""
 "","<var 28 ((Item)) E8020A /var>","<var 28 ((Item)) E8020A /var>","","False","0x00002627","",""
@@ -12810,7 +12810,7 @@ Depending on the congestion of the target World, travel may take several minutes
 )) (()) /var><var 48 F20202 /var>Вольные компании<var 48 01 /var>
 　・Нельзя создать вольную компанию или присоединиться к существующей
 　・Нельзя посмотреть информацию о вашей вольной компании
-　・Кредиты компании не будут зарабатываться
+　・Не будут зарабатываться company credits
 　・Если хозяин вольной компании проведёт 35 дней без перерыва вне своего Домашнего мира, это звание будет автоматически передано другому участнику вольной компании
 
 <var 08 E1E80201 ((<var 48 F20202 /var>Межмировые линкшеллы<var 48 01 /var>
@@ -12962,7 +12962,7 @@ Depending on the congestion of the target World, travel may take several minutes
 "","Two-nut Clan Marks","Контракты клана Купо — Уровень 2","","False","0x00003157","",""
 "","Three-nut Clan Marks","Контракты клана Купо — Уровень 3","","False","0x00003158","",""
 "","Elite Clan Nutsy Marks","Контракты клана Купо — Элита","","False","0x00003159","",""
-"","<var 08 E1E80401 ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts / <var 22 E804 ((,)) /var> EXP)) ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts)) /var>","<var 08 E1E80401 ((<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> / <var 22 E803 (( )) /var> <var 08 E2E80301 ((Купо-трофеев)) ((<var 08 E2E80302 ((Купо-трофей)) ((<var 08 E2E80305 ((Купо-трофея)) ((Купо-трофеев)) /var>)) /var>)) /var> / <var 22 E804 (( )) /var> EXP)) ((<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> / <var 22 E803 (( )) /var> <var 08 E2E80301 ((Купо-трофеев)) ((<var 08 E2E80302 ((Купо-трофей)) ((<var 08 E2E80305 ((Купо-трофея)) ((Купо-трофеев)) /var>)) /var>)) /var>)) /var>","","False","0x0000315A","",""
+"","<var 08 E1E80401 ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts / <var 22 E804 ((,)) /var> EXP)) ((<var 22 E802 ((,)) /var> Gil / <var 22 E803 ((,)) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts)) /var>","<var 08 E1E80401 ((<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> / <var 22 E803 (( )) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts / <var 22 E804 (( )) /var> EXP)) ((<var 22 E802 (( )) /var> гил<var 08 E2E80201 ((ов)) ((<var 08 E2E80202 (()) ((<var 08 E2E80205 ((а)) ((ов)) /var>)) /var>)) /var> / <var 22 E803 (( )) /var> <var 08 E4E80302 ((Sack)) ((Sacks)) /var> of Nuts)) /var>","","False","0x0000315A","",""
 "","Clan Nutsy","Клан Купо","","False","0x0000315B","",""
 "","<var 09 E802 ((One-nut Clan Marks)) ((Two-nut Clan Marks)) ((Three-nut Clan Marks)) ((Elite Clan Nutsy Marks)) /var>（<var 29 EA03 /var>）","<var 09 E802 ((Контракты клана Купо — Уровень 1)) ((Контракты клана Купо — Уровень 2)) ((Контракты клана Купо — Уровень 3)) ((Контракты клана Купо — Элита)) /var>（<var 29 EA03 /var>）","","False","0x0000315C","",""
 "","<var 09 E802 ((Level 1 Clan Marks)) ((Level 2 Clan Marks)) ((Level 3 Clan Marks)) ((Elite Clan Marks)) /var>（<var 29 EA03 /var>）","<var 09 E802 ((Клановые контракты — Уровень 1)) ((Клановые контракты — Уровень 2)) ((Клановые контракты — Уровень 3)) ((Клановые контракты — Элита)) /var>（<var 29 EA03 /var>）","","False","0x0000315D","",""
@@ -13093,7 +13093,7 @@ Condition: umbral turbulence","","True","0x00003189","",""
 "","Item","Предмет","","False","0x000031D0","",""
 "","Collectability","Коллекционность","","False","0x000031D1","",""
 "","<var 20 E802 /var>","<var 20 E802 /var>","","False","0x000031D2","",""
-"","Scrips","Расписки","","False","0x000031D3","",""
+"","Scrips","Scrips","","True","0x000031D3","",""
 "","EXP","Опыт","","False","0x000031D4","",""
 "","Bag","Сумка","","False","0x000031D5","",""
 "","<var 20 E802 /var>","<var 20 E802 /var>","","False","0x000031D6","",""
@@ -13806,14 +13806,14 @@ Increases to <var 48 F201FA /var><var 49 F201FB /var>progress<var 49 01 /var><va
 "","Set","Набор","","False","0x00003499","",""
 "","Qty.","Кол-во","","False","0x0000349A","",""
 "","Post-inspection","После инспекции","","False","0x0000349B","",""
-"","Scrips","Расписки","","False","0x0000349C","",""
+"","Scrips","Scrips","","True","0x0000349C","",""
 "","Skyward Pt.","Очки рейтинга","","False","0x0000349D","",""
 "","Select the resources you wish to present for inspection.
 Use auto-submit to automatically select up to five items.","Выберите ресурсы для их предоставления на инспекцию.
 Используйте кнопку «Предоставить», чтобы автоматически выбрать до 5 типов предметов.","","False","0x0000349E","",""
 "","You do not possess any applicable resources.","У вас нет подходящих ресурсов.","","False","0x0000349F","",""
 "","Reward","Награда","","False","0x000034A0","",""
-"","Skybuilders' Scrips","Расписки небесных строителей ","","False","0x000034A1","",""
+"","Skybuilders' Scrips","Skybuilders' Scrips","","True","0x000034A1","",""
 "","Seasonal Score","Сезонные очки","","False","0x000034A2","",""
 "","Skyward Points","Очки рейтинга","","False","0x000034A3","",""
 "","Ranking season ending","34A4_Ranking season ending","","True","0x000034A4","",""
@@ -13831,7 +13831,7 @@ Use auto-submit to automatically select up to five items.","Выберите р�
 "","Rec. Level","Рек. уровень","","False","0x000034B0","",""
 "","Set","Набор","","False","0x000034B1","",""
 "","Skyward Pt.","Очки рейтинга","","False","0x000034B2","",""
-"","Scrips","Расписки","","False","0x000034B3","",""
+"","Scrips","Scrips","","True","0x000034B3","",""
 "","Total","Всего","","False","0x000034B4","",""
 "","Item Exchange","Обмен предметов","","False","0x000034BC","",""
 "","","","","False","0x000034BD","",""
@@ -13843,7 +13843,7 @@ Use auto-submit to automatically select up to five items.","Выберите р�
 "","Bag","Сумка","","False","0x000034C3","",""
 "","Qty.","Кол-во","","False","0x000034C4","",""
 "","Items Required","Требуемые предметы","","False","0x000034C5","",""
-"","In this one-stop shop, a subsidiary of Rowena's House of Splendors, practically every weapon, piece of gear, or helpful item that can be purchased in exchange for Allagan tomestones and similar tokens has been gathered in a single convenient location. Take a moment and browse the merchandise!","В этом универсальном магазине, являющемся филиалом «Дома великолепия Ровены», в одном удобном месте собрано практически любое оружие, снаряжение или полезные предметы, которые можно приобрести в обмен на аллаганские скрижали и другую валюту. Уделите время и просмотрите все товары!","","False","0x000034C6","",""
+"","In this one-stop shop, a subsidiary of Rowena's House of Splendors, practically every weapon, piece of gear, or helpful item that can be purchased in exchange for Allagan tomestones and similar tokens has been gathered in a single convenient location. Take a moment and browse the merchandise!","В этом универсальном магазине, являющемся филиалом «Дома великолепия Ровены», в одном удобном месте собрано практически любое оружие, снаряжение или полезные предметы, которые можно приобрести в обмен на Allagan tomestones и другую валюту. Уделите время и просмотрите все товары!","","False","0x000034C6","",""
 "","There are no items to display.","Нет предметов для отображения.","","False","0x000034C7","",""
 "","Welcome to Sundry Splendors!","Добро пожаловать в «Неземные диковины»!","","False","0x000034C8","",""
 "","Select a subcategory.","Выберите подкатегорию.","","False","0x000034C9","",""
@@ -13894,7 +13894,7 @@ Retainer's current gil: <var 22 E802 ((,)) /var>
 <var 48 F201FA /var><var 49 F201FB /var>※Retellings can only be earned once per week.<var 49 01 /var><var 48 01 /var>","Заработайте пересказ, открыв большую иллюстрацию. Эта награда позволит вам ещё раз сыграть в Пустоты Фоксы после ещё одного прохождения нереального испытания.
 
 <var 48 F201FA /var><var 49 F201FB /var>※Пересказ можно заработать только один раз в неделю.<var 49 01 /var><var 48 01 /var>","","False","0x000034F5","",""
-"","Turn panels to uncover the hidden illustrations beneath and earn faux leaves─which can be exchanged for very real goods!","Переворачивайте ячейки, чтобы раскрыть скрытые иллюстрации и заработать листья Фокса. Их можно обменять на неплохие призы!","","False","0x000034F6","",""
+"","Turn panels to uncover the hidden illustrations beneath and earn faux leaves─which can be exchanged for very real goods!","Переворачивайте ячейки, чтобы раскрыть скрытые иллюстрации и заработать faux leaves. Их можно обменять на неплохие призы!","","False","0x000034F6","",""
 "","Turns:","Можно открыть:","","False","0x000034F7","",""
 "","","","","False","0x000034F8","",""
 "","Commander","Командир","","False","0x000034F9","",""
@@ -14076,7 +14076,7 @@ Flame Quartermaster)) /var>)) ((Grand Company Seal Exchange)) /var>","","False",
 "","Item Level","Уровень","","False","0x000035CF","",""
 "","Collectability","Коллекционность","","False","0x000035D0","",""
 "","Reward","Награда","","False","0x000035D1","",""
-"","Scrips","Расписки","","False","0x000035D2","",""
+"","Scrips","Scrips","","True","0x000035D2","",""
 "","EXP","Опыт","","False","0x000035D3","",""
 "","Qty.","Кол-во","","False","0x000035D4","",""
 "","There are no items to display.","Нет предметов для отображения.","","False","0x000035D5","",""
@@ -14111,7 +14111,7 @@ Flame Quartermaster)) /var>)) ((Grand Company Seal Exchange)) /var>","","False",
 "","Next Rank","Следующий ранг","","False","0x000035FB","",""
 "","Lost Finds Holster","Кобура затерянных находок","","False","0x000035FC","",""
 "","Resistance Recruitment","Найм Сопротивления","","False","0x000035FD","",""
-"","Bozjan Clusters","Кристаллы Бозьи","","False","0x000035FE","",""
+"","Bozjan Clusters","Bozjan Clusters","","True","0x000035FE","",""
 "","The battle before you is not meant for the faint-hearted. Are you prepared to test your resolve?","Предстоящую вам битву способны победить только сильные духом. Готовы ли вы противостоять такому оппоненту?","","False","0x000035FF","",""
 "","Accept Challenge","Принять вызов","","False","0x00003600","",""
 "","Withdraw","Отступить","","False","0x00003601","",""
@@ -14523,7 +14523,7 @@ Rate:
 "","","","","False","0x000037D7","",""
 "","Warning: You will not be able to receive all the items. Do you still wish to proceed?","Предупреждение: вы не сможете получить все предметы. Вы всё ещё хотите продолжить?","","False","0x000037D8","",""
 "","Island EXP","Островной опыт","","False","0x000037D9","",""
-"","Seafarer's Cowrie","Морские каури","","False","0x000037DA","",""
+"","Seafarer's Cowrie","Seafarer's Cowrie","","False","0x000037DA","",""
 "","Materials","Материалы","","False","0x000037DB","",""
 "","Bag","Сумка","","False","0x000037DC","",""
 "","Select","Выбор","","False","0x000037DD","",""
@@ -15375,7 +15375,7 @@ Do you still wish to proceed?","Предупреждение: вы не смож
 "","Total","Всего","","False","0x00003BB1","",""
 "","Confirm","Подтвердить","","False","0x00003BB2","",""
 "","Cancel","Отмена","","False","0x00003BB3","",""
-"","Warning: You will not be able to receive all the cowries. Do you still wish to proceed?","Предупреждение: вы не сможете получить все каури. Вы всё ещё хотите продолжить?","","False","0x00003BB4","",""
+"","Warning: You will not be able to receive all the cowries. Do you still wish to proceed?","Предупреждение: вы не сможете получить все cowries. Всё равно продолжить?","","False","0x00003BB4","",""
 "","Warning: One item or more is being used in the workshop. Do you still wish to proceed?","Предупреждение: в мастерской производится один или несколько предметов. Вы всё ещё хотите продолжить?","","False","0x00003BB5","",""
 "","Bulk Shipment","С остатком","","False","0x00003BB6","",""
 "","","","","False","0x00003BB7","",""
@@ -15439,7 +15439,7 @@ Release Area: <var 29 EA03 /var>
 <var 48 F201FA /var><var 49 F201FB /var>※Призванный миньон будет выпущен гулять в указанной локации.<var 49 01 /var><var 48 01 /var>","","False","0x00003BE5","",""
 "","<var 2B ((<var 31 ((Companion)) 03E8020202 /var>)) /var> is already roaming about the designated area. Do you still wish to proceed?","<var 2B ((<var 31 ((Companion)) 03E8020202 /var>)) /var> уже гуляет в выбранной локации. Продолжить?","","False","0x00003BE6","",""
 "","<var 20 E802 /var>/<var 20 E803 /var> Minions Roaming the Isle","<var 20 E802 /var>/<var 20 E803 /var> миньонов гуляет по острову","","False","0x00003BE7","",""
-"","Spend <var 20 E802 /var> seafarer's cowries to dispatch an expedition to <var 29 EA03 /var>?","Потратить <var 20 E802 /var> морских каури на отправку экспедиции в <var 29 EA03 /var>?","","False","0x00003BE8","",""
+"","Spend <var 20 E802 /var> seafarer's cowries to dispatch an expedition to <var 29 EA03 /var>?","Потратить <var 20 E802 /var> seafarer's cowries на отправку экспедиции в <var 29 EA03 /var>?","","False","0x00003BE8","",""
 "","Entrust to Gardener","Поручить садоводу","","False","0x00003BE9","",""
 "","Dismiss Gardener","Уволить садовника","","False","0x00003BEA","",""
 "","Collect Yield & Resume Gardening Services","Забрать урожай и возобновить услуги садовода","","False","0x00003BEB","",""
@@ -15460,8 +15460,8 @@ Release Area: <var 29 EA03 /var>
 "","Lang.","Язык","","False","0x00003BFA","",""
 "","Visitors","Посетители","","False","0x00003BFB","",""
 "","Change expedition area to the <var 29 EA02 /var>?","Изменить область экспедиции на <var 29 EA02 /var>?","","False","0x00003BFC","",""
-"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition?","Потратить <var 20 E802 /var> морских каури, чтобы увеличить продолжительность экспедиции?","","False","0x00003BFD","",""
-"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to the <var 29 EA03 /var>?","Потратить <var 20 E802 /var> морских каури, чтобы увеличить продолжительность экспедиции и изменить область на <var 29 EA03 /var>?","","False","0x00003BFE","",""
+"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition?","Потратить <var 20 E802 /var> seafarer's cowries, чтобы увеличить продолжительность экспедиции?","","False","0x00003BFD","",""
+"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to the <var 29 EA03 /var>?","Потратить <var 20 E802 /var> seafarer's cowries, чтобы увеличить продолжительность экспедиции и изменить область на <var 29 EA03 /var>?","","False","0x00003BFE","",""
 "","Select Expedition Area","Выберите область экспедиции","","False","0x00003BFF","",""
 "","Register the agenda beginning with this item as a preset?","Зарегистрировать повестку дня, начинающуюся с этого пункта, как предустановленную?","","False","0x00003C00","",""
 "","Sanctuary Settings","Настройки острова","","False","0x00003C01","",""
