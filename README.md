@@ -4,12 +4,6 @@ RU: Этот репозиторий предназначен для сервер
 
 https://translate.xivrus.ru
 
-EN: Currently only the following languages are supported:
-
-RU: На данный момент доступны только следующие языки:
-* Russian - Русский
-* Russian-English (RUEN) - Русский с английскими терминами игры
-
 ***
 
 EN:
