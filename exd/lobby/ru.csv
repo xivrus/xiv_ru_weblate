@@ -28,7 +28,7 @@ The recommended setting is High (720p).<tab><tab>","<var 48 F201F4 /var><var 49 
 Please be aware that if you delete this character, you will lose all items, gil, and hired retainers in their possession.
 If this character is master of a free company for which there is no eligible successor, the free company will be automatically disbanded, causing company estates and all items within the company chest to be deleted as well.<tab><tab>","Удалить <var 29 EA02 /var>?
 Пожалуйста, имейте в виду, что если вы удалите этого персонажа, вы потеряете все предметы, золото и наемных слуг, которые находятся в его владении.
-Если этот персонаж является мастером свободной компании, для которой нет достойного преемника, свободная компания будет автоматически распущена, в результате чего поместье компании и все предметы в её сундуке также будут удалены.<tab><tab>","","False","0x00000015","",""
+Если этот персонаж является мастером вольной компании, для которой нет достойного преемника, вольная компания будет автоматически распущена, в результате чего поместье компании и все предметы в её сундуке также будут удалены.<tab><tab>","","False","0x00000015","",""
 "","I understand and wish to delete this character.<tab><tab>","Я всё понимаю и хочу удалить персонажа.<tab><tab>","","False","0x00000016","",""
 "","Change Name<tab><tab>","Сменить имя<tab><tab>","","False","0x00000017","",""
 "","Change Retainer Name<tab><tab>","Сменить имя слуги<tab><tab>","","False","0x00000018","",""
@@ -112,12 +112,12 @@ You currently have <var 08 E803 ((<var 08 E2E8030B ((<var 09 E803 ((one)) ((two)
 
 <var 48 F201FA /var><var 49 F201FB /var>Your character is currently on a World Server different from your Home World. Visit an aetheryte in either Limsa Lominsa, Gridania, or Ul'dah to return.<var 49 01 /var><var 48 01 /var><tab><tab>","Войти за <var 29 EA02 /var>.
 
-<var 48 F201FA /var><var 49 F201FB /var>Ваш персонаж сейчас гостит в другом мире. Посетите эфирит в Лимса Ломинсе, Гридании или Уль'де, чтобы вернуться обратно в свой домашний мир.<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x0000005F","",""
+<var 48 F201FA /var><var 49 F201FB /var>Ваш персонаж сейчас гостит в другом мире. Чтобы вернуться обратно в свой домашний мир, посетите эфирит в Лимса Ломинсе, Гридании или Уль'де.<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x0000005F","",""
 "","Logging in with <var 29 EA02 /var>.
 
-<var 48 F201FA /var><var 49 F201FB /var>Your character is currently in a data center different from your Home World's. To return, select “Return to Home World” from the character subcommand menu before logging in.<var 49 01 /var><var 48 01 /var><tab><tab>","Войти как <var 29 EA02 /var>.
+<var 48 F201FA /var><var 49 F201FB /var>Your character is currently in a data center different from your Home World's. To return, select “Return to Home World” from the character subcommand menu before logging in.<var 49 01 /var><var 48 01 /var><tab><tab>","Войти за <var 29 EA02 /var>.
 
-<var 48 F201FA /var><var 49 F201FB /var>Ваш персонаж сейчас в дата-центре, не соответствующем домашнему миру. Если захотите вернуться, выберите пункт «Вернуться в домашний мир» из контекстного меню персонажа до входа в игру.<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x00000060","",""
+<var 48 F201FA /var><var 49 F201FB /var>Ваш персонаж сейчас за пределами дата-центра домашнего мира. Чтобы вернуться обратно, выберите пункт «Вернуться в домашний мир» из контекстного меню персонажа до входа в игру.<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x00000060","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000061","",""
 "","<tab><tab>","<tab><tab>","","False","0x00000062","",""
 "","
@@ -1494,7 +1494,7 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 "","<tab><tab>","47D_<tab><tab>","","True","0x0000047D","",""
 "","Visit Another Data Center<tab><tab>","Посетить другой дата-центр<tab><tab>","","False","0x0000047E","",""
 "","Return to Home Data Center<tab><tab>","Вернуться в домашний дата-центр<tab><tab>","","False","0x0000047F","",""
-"","TRAVELED FROM<tab><tab>","РОДНОЙ МИР<tab><tab>","","False","0x00000480","",""
+"","TRAVELED FROM<tab><tab>","ДОМАШНИЙ МИР<tab><tab>","","False","0x00000480","",""
 "","TRAVELED TO<tab><tab>","ГОСТЕВОЙ МИР<tab><tab>","","False","0x00000481","",""
 "","<var 29 EA02 /var> (<var 29 EA03 /var>)<tab><tab>","<var 29 EA02 /var> (<var 29 EA03 /var>)<tab><tab>","","False","0x00000482","",""
 "","The Data Center Travel system allows your character to visit Worlds in other data centers, where you can create parties with friends, trade items, challenge duties, and more.
@@ -1535,7 +1535,7 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 "","Previous Step<tab><tab>","Предыдущий шаг<tab><tab>","","False","0x00000494","",""
 "","Your character is traveling between data centers. Please wait until they have reached their destination.
 ※Travel times may take longer during periods of server congestion.<tab><tab>","Ваш персонаж сейчас путешествует в другой дата-центр. Пожалуйста, дождитесь, когда он дойдёт до своей цели.
-※При загруженности сервера занимает больше времени.<tab><tab>","","False","0x00000495","",""
+※Время пути зависит от нагруженности сервера.<tab><tab>","","False","0x00000495","",""
 "","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> has arrived safely on <var 29 EA05 /var> in the <var 29 EA04 /var> data center!<tab><tab>","Ура! <var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> теперь в <var 29 EA05 /var> в дата-центре <var 29 EA04 /var><tab><tab>","","False","0x00000496","",""
 "","This character is currently visiting the <var 29 EA02 /var> data center.<tab><tab>","Этот персонаж сейчас гостит в дата-центре <var 29 EA02 /var>.<tab><tab>","","False","0x00000497","",""
 "","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","Перед входом за этого персонажа требуется изменить его имя. Пожалуйста, вернитесь для этого в домашний мир.<tab><tab>","","False","0x00000498","",""
