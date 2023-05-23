@@ -606,6 +606,7 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 
 >>Glamour:
 　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
@@ -615,18 +616,25 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","/familiarprojektion, /fampro, /petmirage, /egimirage
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","/familiarprojektion, /fampro, /petmirage, /egimirage
 VERWENDUNG: /fampro [Familiarname] [Aussehen]→ Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.
 >>Familiarname:
   <var 48 F201FA /var><var 49 F201FB /var>Karfunkel<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+  <var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 >>Aussehen:
   <var 48 F201FA /var><var 49 F201FB /var>Karfunkel<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Smaragd-Karfunkel<var 49 01 /var><var 48 01 /var>
@@ -635,11 +643,17 @@ VERWENDUNG: /fampro [Familiarname] [Aussehen]→ Ändert deine Anzeigeeinstellun
   <var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
+  <var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 Bei fehlendem Aussehen erhält das Familiar sein ursprüngliches Aussehen zurück.
+Bei fehlendem Unterkommando wird das Menü „Momentanes Aussehen deiner Familiare“ aufgerufen.
 
 >>Beispiel:
 /fampro Garuda-Egi Topas-Karfunkel
-Gibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.<tab>/familiarprojektion<tab>/fampro<tab>/petmirage<tab>","","False","0x00000021","",""
+Gibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.
+/fampro Garuda-Egi
+Gibt dem Garuda-Egi sein ursprüngliches Aussehen zurück.
+/fampro
+Ruft das Menü „Momentanes Aussehen deiner Familiare“ auf.<tab>/familiarprojektion<tab>/fampro<tab>/petmirage<tab>","","False","0x00000021","",""
 "","USAGE:
 　/petsize [summon] [size]
 
@@ -1410,14 +1424,14 @@ USAGE:
 →Set a sign on the specified target. Uses current target when not specified.
 
 >>Sign Types:
-　<var 48 F201FA /var><var 49 F201FB /var>attack1-5<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>attack1-8<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>bind1-3<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>ignore1-2<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>circle<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>cross<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>square<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>triangle<var 49 01 /var><var 48 01 /var>
-　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
+<var 48 F201FA /var><var 49 F201FB /var>　off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
 
 Opens and closes the Signs menu when no subcommand is specified.
 
@@ -1434,7 +1448,7 @@ VERWENDUNG:
 /mark [Symbol] [Variable zur Zielbestimmung]
 → Markiert ein Ziel mit einem Symbol.
 >>Symbole:
-  <var 48 F201FA /var><var 49 F201FB /var>att1<var 49 01 /var><var 48 01 /var>-<var 48 F201FA /var><var 49 F201FB /var>5<var 49 01 /var><var 48 01 /var>
+  <var 48 F201FA /var><var 49 F201FB /var>att1<var 49 01 /var><var 48 01 /var>-<var 48 F201FA /var><var 49 F201FB /var>8<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>bind1<var 49 01 /var><var 48 01 /var>-<var 48 F201FA /var><var 49 F201FB /var>3<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>ignor1<var 49 01 /var><var 48 01 /var>-<var 48 F201FA /var><var 49 F201FB /var>2<var 49 01 /var><var 48 01 /var>
   Wird keine Ziffer eingegeben, so wird automatisch die niedrigste unzugeordnete verwendet.
@@ -2380,6 +2394,7 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 
 >>Glamour:
 　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
@@ -2389,12 +2404,18 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","/egiprojektion, /egipro, /petmirage, /egimirage
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","/egiprojektion, /egipro, /petmirage, /egimirage
 VERWENDUNG: /egipro [Egi-Name] [Aussehen]→ Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.
 
 >>Familiarname:
@@ -2402,6 +2423,7 @@ VERWENDUNG: /egipro [Egi-Name] [Aussehen]→ Ändert deine Anzeigeeinstellung f�
   <var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+  <var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 >>Aussehen:
   <var 48 F201FA /var><var 49 F201FB /var>Karfunkel<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Smaragd-Karfunkel<var 49 01 /var><var 48 01 /var>
@@ -2410,11 +2432,17 @@ VERWENDUNG: /egipro [Egi-Name] [Aussehen]→ Ändert deine Anzeigeeinstellung f�
   <var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
   <var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
+  <var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 Bei fehlendem Aussehen erhält das Familiar sein ursprüngliches Aussehen zurück.
+Bei fehlendem Unterkommando wird das Menü „Momentanes Aussehen deiner Familiare“ aufgerufen.
 
 >>Beispiel:
-/egipro Garuda-Egi Topas-Karfunkel
-Gibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.<tab>/egiprojektion<tab>/egipro<tab>/egiglamour<tab>","","False","0x000000E2","",""
+/fampro Garuda-Egi Topas-Karfunkel
+Gibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.
+/fampro Garuda-Egi
+Gibt dem Garuda-Egi sein ursprüngliches Aussehen zurück.
+/fampro
+Ruft das Menü „Momentanes Aussehen deiner Familiare“ auf.<tab>/egiprojektion<tab>/egipro<tab>/egiglamour<tab>","","False","0x000000E2","",""
 "","USAGE:
 　/title [subcommand]
 
@@ -3155,7 +3183,7 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.<tab>/verbündete<tab>
 "","USAGE:
 　/autotarget [subcommand]
 
-→Enable auto-target when no target specified.
+→Enable full auto-target.
 
 >>Subcommands:
 　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>      Enable auto-target.
@@ -3164,7 +3192,7 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.<tab>/verbündete<tab>
 Toggle between on/off when no subcommand is specified.<tab><tab><tab>/autotarget<tab>","/autoziel, /autotarget
 VERWENDUNG:
 /autoziel [Unterbefehl]
-→ Aktiviert die Einstellung der Charakter<var 16 /var>konfiguration „Automatisches Anvisieren, wenn kein Ziel anvisiert ist“.
+→ Aktiviert die Einstellung der Charakter<var 16 /var>konfiguration „Automatisches Anvisieren bei erlittener Attacke“.
 >>Unterbefehle:
   <var 48 F201FA /var><var 49 F201FB /var>ein<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>on<var 49 01 /var><var 48 01 /var>)  Aktiviert automatisches Anvisieren.
   <var 48 F201FA /var><var 49 F201FB /var>aus<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>off<var 49 01 /var><var 48 01 /var>)  Deaktiviert automatisches Anvisieren.
@@ -7447,6 +7475,20 @@ VERWENDUNG:
 → Du gibst motivierende Zurufe von dir.
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/oleoleoleole<tab>/ole<tab>/spirit<tab>","","False","0x00000289","",""
+"","USAGE:
+　/magictrick [subcommand]
+
+→Perform a magic trick.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/magictrick<tab>","/zaubertrick, /magictrick
+VERWENDUNG:
+/zaubertrick [Unterbefehl]
+→ Du führst einen Zaubertrick vor.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/zaubertrick<tab><tab>/magictrick<tab>","","False","0x0000028A","",""
 "","ALIASES:
 　/littleladiesdance, /ladance
 USAGE:
@@ -7505,4 +7547,88 @@ VERWENDUNG:
 → Du versuchst, alle um dich herum in Angst und Schrecken zu versetzen.
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/angstundschrecken<tab>/schrecken<tab>/frighten<tab>","","False","0x00000291","",""
+"","USAGE:
+　/adventoflight, /advent [subcommand]
+
+→Soar to the heavens, then make a suitably heroic landing.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/adventoflight<tab>/advent","/heldenhafterauftritt, /held, /advent
+VERWENDUNG:
+/heldenhafterauftritt[Unterbefehl]
+→ Du zeigst deiner Umgebung, wer der Held ist.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/heldenhafterauftritt<tab>/held<tab>/adventoflight<tab>/advent","","False","0x00000292","",""
+"","USAGE:
+　/handtoheart [subcommand]
+
+→Gently place your hand on your heart.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/handtoheart<tab>","/handaufdiebrust, /handonheart
+VERWENDUNG:
+/handaufdiebrust [Unterbefehl]
+→ Du legst die Hand auf die Brust.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/handaufdiebrust<tab><tab>/handtoheart<tab>","","False","0x00000298","",""
+"","USAGE:
+　/cheeronbright, /cheerbright [subcommand]
+
+→Wave your hands enthusiastically with white illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheeronbright<tab>/cheerbright","/anfeuernweiß, /anweiß, /cheerbright
+VERWENDUNG:
+/anfeuernweiß [Unterbefehl]
+→ Du feuerst mit weiß schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. <tab>/anfeuernweiß<tab>/anweiß<tab>/cheeronbright<tab>/cheerbright","","False","0x00000299","",""
+"","USAGE:
+　/cheerwaveviolet, /cheerviolet [subcommand]
+
+→Wave your hand in the air with a violet illuminated rod.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerwaveviolet<tab>/cheerviolet","/anfeuernlila, /anlila, /cheerviolet
+VERWENDUNG:
+/anfeuernlila [Unterbefehl]
+→ Du feuerst mit lila schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. <tab>/anfeuernlila<tab>/anlila<tab>/cheerwaveviolet<tab>/cheerviolet","","False","0x0000029A","",""
+"","USAGE:
+　/cheerjumpgreen, /cheergreen [subcommand]
+
+→Jump and cheer enthusiastically with green illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerjumpgreen<tab>/cheergreen","/anfeuerngrün, /angrün, /cheergreen
+VERWENDUNG:
+/anfeuerngrün [Unterbefehl]
+→ Du feuerst mit grün schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. <tab>/anfeuerngrün<tab>/angrün<tab>/cheerjumpgreen<tab>/cheergreen","","False","0x0000029B","",""
+"","USAGE:
+　/allsaintscharm [subcommand]
+
+→Swish and flick to cast a spell.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/allsaintscharm<tab>","/verwandlungsmagie, /verwand, /allsaintscharm
+VERWENDUNG:
+/verwandlungsmagie [Unterbefehl]
+→ Du führst einen Ver<var 16 /var>wand<var 16 /var>lungszauber aus..
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. <tab>/verwandlungsmagie<tab>/verwand<tab>/allsaintscharm<tab>","","False","0x0000029C","",""
 

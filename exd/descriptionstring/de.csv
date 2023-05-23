@@ -1846,14 +1846,12 @@ The remnants of that mad plan still litter the frozen lowlands, as well as other
 "","Similarly to Seal Rock (Seize), the first alliance to accumulate the required amount of data will be declared the winner, and the remaining alliances will be ranked according to their respective ratings. Data is accumulated by:
 
 　1. Defeating enemy players
-　2. Occupying Allagan tomeliths
-　3. Destroying icebound tomeliths
+　2. Destroying icebound tomeliths
 
 In the event that none of the three alliances accumulates the required amount of data within the time limit, victory will be awarded to the alliance with the most data.","Ähnlich wie bei dem Einsatzbefehl Robbenholm geht es auf dem Feld der Ehre darum, eine bestimmte Menge an Daten zu extrahieren. Daten können wie folgt erlangt werden:
 
 1. Durch Besiegen von gegnerischen Spielern
-2. Durch Besetzen allagischer Echolithen
-3. Durch Zerstören der vereisten Echolithen
+2. Durch Zerstören der vereisten Echolithen
 
 Wenn keine der drei Ge<var 16 /var>sell<var 16 /var>schaften die vorgegebene Punktzahl erreicht, gewinnt jenes Team, das die meisten Punkte gesammelt hat.","","False","0x0000012B","",""
 "","Occupying Allagan Tomeliths","Besetzen allagischer Echolithen","","False","0x0000012C","",""
@@ -1862,7 +1860,7 @@ Wenn keine der drei Ge<var 16 /var>sell<var 16 /var>schaften die vorgegebene Pun
 "","The data from icebound tomeliths can be collected by attacking them, and once they are destroyed, data will be rewarded to each Grand Company based on the amount of damage inflicted.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Activating Icebound Tomeliths■<var 49 01 /var><var 48 01 /var>
-Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a fixed amount of time. Icebound tomeliths that have been destroyed will not reactivate. As time passes, more icebound tomeliths will activate, and the order in which they do so differs in every campaign. In some cases, several tomeliths may activate at the beginning of the campaign, while in others, they will activate at a steady pace. Regardless of the timing and frequency, all tomeliths on the map will be active by the end of the campaign.
+Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a short period of time. Any icebound tomeliths destroyed during the course of the campaign will regenerate in an inactive state after a fixed amount of time.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Icebound Tomelith■<var 49 01 /var><var 48 01 /var>
 Active icebound tomeliths will be either large or small, with large tomeliths containing more data.","Vereiste Echolithen hingegen müssen zersplittert werden, damit sie ihre Daten preisgeben. Die erworbene Datenmenge richtet sich nach dem Schaden, der dem vereisten Echolithen zugefügt wurde.
@@ -1931,12 +1929,16 @@ Up to 24 players may join an Ocean Fishing voyage, solo or in parties of up to e
 ■How to Participate
 Speak with Dryskthota at the ferry docks to register as a crew member and board the <var 1A 02 /var>Endeavor<var 1A 01 /var>. Registration periods last for 15 minutes and occur every two hours (Earth time). If registering as a party, the party leader must register. The ship will depart when 24 crew members have been assembled or the registration period has ended, even if there are fewer than 24 crew members. Registration times may be viewed from the Sailing Schedule.
 
+Progressing through the main scenario will give access to an additional route known as the Ruby route. Details on how to  unlock this route can be found from the Sailing Schedule.
+
 ■Rewards
 By meeting certain conditions while fishing during the voyage, players will receive achievements that reward special titles, mounts, and minions. Fishers who are level 50 or above and have completed the requisite quest may also receive gatherers' scrips as rewards.","■ Allgemeine Beschreibung
 Bei der großen Fahrt können Spieler einzeln oder in Gruppen mitfahren. Insgesamt ist an Bord des Schiffes Platz für 24 Fischer. Einzelne Spieler und Gruppen mit weniger als 8 Spielern werden für die Fahrt zu vollen Trupps zusammengefasst. Bei jeder Fahrt hält das Schiff an 3 Stellen und kehrt dann nach Limsa Lominsa zurück.
 
 ■ Teilnahme
 Die Anmeldung zu einer Fahrt auf der <var 1A 02 /var>Endeavor<var 1A 01 /var> erfolgt bei Dryskthota am Fähranleger von Limsa Lominsa. Die Anmeldephase beginnt alle zwei Stunden (Erdenzeit). Die Anmeldung als Gruppe muss von dem Gruppenanführer durchgeführt werden. Das Schiff legt spätestens 15 Minuten nach Beginn der Anmeldephase ab oder frühzeitig, sobald 24 Fischer angemeldet sind. Die Anmeldezeiten können auf dem Fahrplan eingesehen werden.
+
+Durch Fortschritt im Hauptszenario kann ab einem gewissen Punkt auch die Ozeanroute ausgewählt werden. Sobald diese freigeschaltet wurde, können Spieler während der Anmeldung zwischen der üblichen Küstenroute und der Ozeanroute wählen. Genauere Informationen zur Freischaltung der verschiedenen Routen können dem Fahrplan entnommen werden.
 
 ■ Belohnung
 Für besondere Erfolge beim Fischen erhalten Spieler Titel, Begleiter, Reittiere und andere Belohnungen. Zusätzlich können Fischer ab Stufe 50 Sammlerscheine erhalten.","","False","0x00000140","",""
@@ -3249,10 +3251,10 @@ Der Crystalline Conflict wird in verschiedenen Arenen gespielt, die nicht zwisch
 "","Risers and Tiers","Kampfklasse und Rang","","False","0x0000024D","",""
 "","A player's riser and tier indicate their demonstrated skill in ranked Crystalline Conflict matches.","Kampfklasse und Rang bilden ein Wertungssystem, das die individuelle Fähigkeit eines Spielers darstellt. Sie werden durch gewertete Matches bestimmt.","","False","0x0000024E","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Tier■<var 49 01 /var><var 48 01 /var>
-Each player will rate in one of six tiers─Bronze, Silver, Gold, Platinum, Diamond, or Crystal. Once they have attained a particular tier, a player will never drop down to a lower tier during that season.
+Each player will rate in one of six tiers─Bronze, Silver, Gold, Platinum, Diamond, or Crystal. Players ranked in or below the Platinum tier will never drop down to a lower tier during that season. However, it is possible to drop to a lower tier from the Diamond or Crystal tiers.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Riser■<var 49 01 /var><var 48 01 /var>
-The sub-levels within each tier are called “risers.” The number of risers varies per tier, with three risers each for Bronze and Silver, four for Gold and Platinum, and five within the Diamond tier. Unlike tiers, it is possible to drop down to a lower riser.
+The sub-levels within each tier are called “risers.” The number of risers varies per tier, with three risers each for Bronze and Silver, four for Gold and Platinum, and five within the Diamond tier. Regardless of tier placement, it is always possible for players to drop down to a lower riser.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Rising Stars■<var 49 01 /var><var 48 01 /var>
 When you win a ranked match, you will gain one Rising Star. Similarly, a loss will remove one Star. Once you have earned the maximum three Rising Stars in one riser, an additional win will allow you to move up a riser. Winning three or more matches in a row while in the Bronze, Silver, Gold, Platinum, or Diamond tier will apply a streak bonus, netting you two Rising Stars per win.
@@ -3262,10 +3264,10 @@ Once you have reached Crystal, the highest tier, victory and defeat will be refl
 
 <var 48 F201FA /var><var 49 F201FB /var>■Resets■<var 49 01 /var><var 48 01 /var>
 At the end of each season, the tier and risers of all participants will be lowered, the amount by which will vary between seasons.","<var 48 F201FA /var><var 49 F201FB /var>■ Kampfklassen<var 49 01 /var><var 48 01 /var>
-Insgesamt gibt es sechs verschiedene Kampfklassen: Bronze, Silber, Gold, Platin, Diamant und Kristall. Ist eine Kampfklasse erst erreicht, kann man während der laufenden Saison aus ihr nicht mehr aussteigen.
+Insgesamt gibt es sechs verschiedene Kampfklassen: Bronze, Silber, Gold, Platin, Diamant und Kristall. Ist Bronze, Silber, Gold oder Platin erst erreicht, kann man zu keiner tieferen Kampfklasse mehr absteigen. Bei Diamant und Kristall ist dies jedoch möglich.
 
 <var 48 F201FA /var><var 49 F201FB /var>■ Ränge<var 49 01 /var><var 48 01 /var>
-Innerhalb jeder Kampfklasse gibt es außerdem noch Ränge, deren Anzahl sich je nach Kampfklasse unterscheidet. Bronze und Silber haben jeweils drei Ränge, Gold und Platinum jeweils vier, während es in Diamant ganze fünf Ränge gibt. Im Gegensatz zur Kampfklasse kann der Rang jedoch durchaus sinken.
+Innerhalb jeder Kampfklasse gibt es außerdem noch Ränge, deren Anzahl sich je nach Kampfklasse unterscheidet. Bronze und Silber haben jeweils drei Ränge, Gold und Platinum jeweils vier, während es in Diamant ganze fünf Ränge gibt. Im Gegensatz zu dem Großteil der Kampfklassen kann der Rang jedoch durchaus sinken.
 
 <var 48 F201FA /var><var 49 F201FB /var>■ Siegessterne<var 49 01 /var><var 48 01 /var>
 Mit jedem gewerteten Spiel erhältst oder verlierst du Siegessterne. Ein Sieg bringt dir einen Stern ein, bei einer Niederlage musst du einen einbüßen. Erreichst du das Maximum von drei Siegessternen und erhältst mit einem Sieg noch einen vierten, steigst du eine Kampfklasse auf. Bei einer Siegessträhne ab drei Spielen erhältst du pro weiterem Sieg noch einen zusätzlichen Stern als Belohnung, wenn du in den Kampfklassen Bronze, Silber, Gold, Platin oder Diamant spielst.
@@ -4073,7 +4075,7 @@ Wahrzeichen sowie der Ausbau der Kornkammer erhöhen außerdem die Anzahl an Fun
 Free-range Minions menu and get started.","Dies geschieht ganz einfach über „Begleiter verwalten“ in deinem Inselführer.","","False","0x000002E5","",""
 "","■Release the Minions!
 The Free-range Minions menu displays the current population of released minions in each available area. After selecting your desired area, press Select Minions and let loose your tiny friends via subcommand.
-<var 48 F201FA /var><var 49 F201FB /var>You can release one of each minion, up to a maximum of 40 minions.<var 49 01 /var><var 48 01 /var>
+<var 48 F201FA /var><var 49 F201FB /var>You can release one of each minion, up to a starting maximum of 40 minions. You will be able to release more minions as your island development progresses.<var 49 01 /var><var 48 01 /var>
 
 Please note that your minions are enjoying this island paradise as much as you are, and may therefore seem different than they do when accompanying you on your journeys.
 
@@ -4082,10 +4084,11 @@ You will find that the nameplates of minions roaming the isle will display accor
 ■Retrieving Individual Minions
 From the Free-range Minions menu, use the “Retrieve Minion” subcommand on the minion you wish to recall.","■ Begleiter aussetzen
 In der Übersicht deiner Begleiter kannst du sehen, welche Begleiter gerade in welchem Gebiet deines Domizils herumspazieren<var 1D /var>- und du kannst natürlich weitere aussetzen. Wähle dazu das Gebiet, in dem du einen Begleiter aussetzen willst, und entscheide über „Begleiter aussetzen“ anschließend, welcher es sein darf.
-Insgesamt kannst du bis zu 40 verschiedene Begleiter auf deinem Inselparadies frei umherlaufen lassen.
+Zunächst kannst du bis zu 40 verschiedene Begleiter auf deinem Inselparadies frei umherlaufen lassen. Wenn du deine Insel erweiterst, steigt diese Obergrenze auch noch an.
 
 Beachte jedoch, dass sich viele deiner Begleiter im sonnigen Klima und unter dem Einfluss des Duftes der Freiheit anders benehmen, als du es vielleicht gewohnt bist<var 1D /var>...
 Die Namensanzeige der Begleiter, die du auf deiner Insel ausgesetzt hast, richtet sich nach dem aktiven Modus des Inselführers und unterliegen nicht den generellen Einstellungen der Charakter<var 16 /var>konfiguration. Im freien Modus können Begleiter ausgewählt werden und ihre Namen werden angezeigt. In anderen Modi können sie allerdings nicht ausgewählt werden und ihre Namen sind ausgeblendet.
+
 ■ Begleiter zurückrufen
 Natürlich kannst du einen Begleiter auch wieder zurückrufen. Nutze dazu einfach das Untermenü in der Verwaltung deiner Begleiter und wähle „Begleiter zurückrufen“.","","False","0x000002E6","",""
 "","Viewing Adventurer Plates","Abenteurerpässe ansehen","","False","0x000002E7","",""
@@ -4768,7 +4771,7 @@ Standing upon a trick floor for too long will trigger a Tatami Twist, launching 
 Spieler bekommen die falschen Böden immer dann zu spüren, wenn sie allzu lange auf derselben Bodenplatte verweilen. Dann klappt der falsche Boden um, schleudert den Trödler in die Luft und verursacht darüber hinaus auch noch Schaden.
 Außerdem hebt Kontakt mit dem falschen Boden den Status „Wehr“ auf.","","False","0x00000380","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Trick Door■<var 49 01 /var><var 48 01 /var>
-Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless.","<var 48 F201FA /var><var 49 F201FB /var>■ Falsche Türen<var 49 01 /var><var 48 01 /var>
+Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless, and players may discover that passage is denied entirely whilst executing certain actions.","<var 48 F201FA /var><var 49 F201FB /var>■ Falsche Türen<var 49 01 /var><var 48 01 /var>
 In den Wänden sind falsche Türen installiert, die nicht etwa in einen angrenzenden Raum führen, sondern funktionieren als Korridore, die Spieler schnurstracks an einen weit entfernten Ausgang teleportieren. Allerdings funktioniert dieser Teleport nur in eine Richtung, der Weg zurück muss zu Fuß zurückgelegt werden.","","False","0x00000381","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Pneumatic Parades■<var 49 01 /var><var 48 01 /var>
 When a pneumatic parade begins, the clockwork onmyoji and clockwork yojimbo will join the fray. These puppets travel a predetermined path through the arena and unleash their unique attacks upon arriving in the vicinity of the centerpoint, checkpoints, and goals.
@@ -4784,4 +4787,295 @@ Der Mechanik-Onmyoji hingegen traktiert alles in seiner Umgebung mit Blick-Attac
 ・Erlittener Schaden ist erhöht.","","False","0x00000382","",""
 "","During the midst of the parade, infamous soy sauce mogul Kageyama will make his grand appearance upon a stage outside the arena, and shower combatants with glimmering coin. Players who get their hands on a pile of gold will enjoy the following effect:
 　・A boost to the limit gauge","Darüber hinaus taucht während der Parade auch der Geschäftsmann Kageyama auf und verstreut Münzhaufen in der Arena. Wenn ein Spieler einen solchen Haufen berührt, ganz gleich, welcher Größe, so erhöht sich der eigene Limitrausch-Balken.","","False","0x00000383","",""
+"","Island Sanctuary Furnishings","Gartenmöbel im Inselparadies","","False","0x00000384","",""
+"","Furnishing Glamours","Inselprojektionen","","False","0x00000385","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>Furnishings may be placed on your island sanctuary as glamours, allowing you to further personalize your tropical hideaway.<var 49 01 /var><var 48 01 /var>","Inselprojektionen erlauben es dir, <var 48 F201FA /var><var 49 F201FB /var>Gartenmöbel auf deine Insel zu projizieren<var 49 01 /var><var 48 01 /var> und sie so nach Belieben zu dekorieren.","","False","0x00000386","",""
+"","■Placing Furnishing Glamours
+<var 48 F201FA /var><var 49 F201FB /var>The furnishings that appear on your island are glamours of furnishing items you own.<var 49 01 /var><var 48 01 /var>
+
+Select “Manage Furnishings” from the islekeep's index to place, color, or preview available furnishings.","■ Möbel als Projektion aufstellen
+Anstelle wie bei einem regulären Grundstück die Gartenmöbel als individuelle Gegenstände aufzustellen, <var 48 F201FA /var><var 49 F201FB /var>werden die Möbel auf dem Inselparadies als Projektionen abgelegt.<var 49 01 /var><var 48 01 /var>
+
+Unter „Möbel verwalten“ im Inselführer findest du den Punkt „Gartenobjekt projizieren“<var 1D /var>- von dort aus kannst du mit dem Dekorieren beginnen.","","False","0x00000387","",""
+"","You only need to possess one of any given furnishing item to place it as many times as you'd like on your island─within reason, of course.
+
+There is a limit to the number of furnishing items allowed on your island at once. This number will increase as island development progresses.
+
+Glamours may be placed in areas designated for furnishing. However, some existing furnishing items are not compatible with glamours and therefore cannot be placed anywhere on your island.
+
+<var 48 F201FA /var><var 49 F201FB /var>You do not need prisms to place furnishing glamours, and furnishing items will remain in your inventory even after you have placed them as glamours. However, please note that placing a glamour will bind the furnishing item to you, preventing future trade or sale to other players.<var 49 01 /var><var 48 01 /var>
+
+■Registering Glamours
+<var 48 F201FA /var><var 49 F201FB /var>Island prisms may be used to register furnishing glamours.<var 49 01 /var><var 48 01 /var> Registered glamours may be placed as many times as desired via the Registered Glamours list, which can be toggled to from the Furnishing Glamours window.
+
+<var 48 F201FA /var><var 49 F201FB /var>You may register up to 120 furnishing glamours.<var 49 01 /var><var 48 01 /var>
+
+You can register a furnishing glamour in the following ways:
+①Via the subcommand of the item while managing island furnishings
+②Via the subcommand of the glamour in your Placed Glamours list
+③Via the prompt when placing a glamour
+④Via the prompt when removing a glamour
+
+■Coloring Glamours
+Furnishing glamours may be painted by selecting “Manage Furnishings” from the islekeep's index, followed by “Color Furnishing Glamours.”
+
+As with regular furnishings, dye is required to change the color of furnishing glamours.","Dazu benötigst du lediglich ein einziges Exemplar des Gegenstands, den du auf deiner Insel haben möchtest. Ist er erst als Projektion registriert, kannst du ihn so oft aufstellen, wie du möchtest. Allerdings gibt es eine maximale Anzahl an Projektionen, die sich auf deiner Insel befinden können. Mit der Erweiterung und dem Ausbau deines Inselparadieses steigt diese auch an.
+Projektionen können an bestimmten Orten deiner Insel aufgestellt werden. Allerdings gibt es einige Gartenmöbel, die im Inselparadies gar nicht verwendet werden können. Sie sind entsprechend mit „Im Inselparadies nicht verwendbar“ markiert.
+
+<var 48 F201FA /var><var 49 F201FB /var>Wenn du einen Gegenstand als Projektion registrierst, wird er dabei nicht verbraucht. Allerdings wird er dabei persönlich gebunden, was bedeutet, dass du ihn nicht mehr auf dem Markt verkaufen oder mit anderen Spielern handeln kannst.<var 49 01 /var><var 48 01 /var>
+
+■ Gartenmöbel registrieren
+Jeder Gegenstand kann <var 48 F201FA /var><var 49 F201FB /var>in der Projektionsliste registriert werden, wo du ihn anschließend ganz nach Belieben und so oft du willst auf deiner Insel projizieren kannst<var 49 01 /var><var 48 01 /var>. Eine solche Registrierung kostet dich <var 48 F201FA /var><var 49 F201FB /var>einmalig ein Inselprisma<var 49 01 /var><var 48 01 /var>. Allerdings ist sie gänzlich optional - <var 48 F201FA /var><var 49 F201FB /var>du kannst den Gegenstand auch direkt aus deinem Inventar heraus projizieren<var 49 01 /var><var 48 01 /var>, wenn du dich im Projektionsmodus befindest. Solange du den Gegenstand bei dir hast, ist er ebenfalls kostenlos und beliebig oft projizierbar. Er wird dabei lediglich persönlich an dich gebunden.
+Welche Möbel du registriert hast, kannst du einsehen, indem du zwischen den Ansichten der Projektionsliste hin und her wechselst.
+
+<var 48 F201FA /var><var 49 F201FB /var>Insgesamt kannst du bis zu 120 Projektionen auf deiner Insel aufstellen.<var 49 01 /var><var 48 01 /var>
+
+So registrierst du ein Gartenmöbelstück auf der Projektionsliste:
+1. Über den Unterbefehl des Gegenstands in deinem Inventar
+2. Über den Unterbefehl des Gegenstands in „Projizierte Objekte“
+3. Über die Abfrage zum Zeitpunkt des Projizierens
+4. Über die Abfrage zum Zeitpunkt des Entfernens
+
+■ Inselprojektionen färben
+Natürlich kannst du auch alle projizierten Gartenmöbel färben. Dies kostet wie gewohnt ein Exemplar des Farbstoffs, den du anwenden möchtest.","","False","0x00000388","",""
+"","Fashion Accessory Basics","Was sind Modeaccessoires?","","False","0x00000389","",""
+"","Types of Fashion Accessories","Verschiedene Arten","","False","0x0000038A","",""
+"","Hotbar Settings","Helfer-Kommandomenü","","False","0x0000038B","",""
+"","Accessory Display Conditions","Anzeige","","False","0x0000038C","",""
+"","Auto-umbrella","Automatisches Benutzen des Schirms","","False","0x0000038D","",""
+"","Looking to add that extra bit of flair to your favorite glamour? Why not try a fashion accessory on for size?","Modeaccessoires sind genau der richtige Weg, deinem Charakter mehr Flair zu verleihen.","","False","0x0000038E","",""
+"","To add a fashion accessory to your collection, use the corresponding item in your inventory. To equip your new accessory or assign it to the hotbar for later use, open the Fashion Accessories window from the Character section of the main menu.
+
+You may stow your current accessory via the “Use” subcommand in the Fashion Accessories menu, or by selecting “Put Away” on the pet hotbar.
+
+<var 48 F201FA /var><var 49 F201FB /var>※Fashion accessories are unavailable in dungeons and certain other areas. <var 49 01 /var><var 48 01 /var>","Modeaccessoires werden wie Emotes oder Reittiere aktiviert, indem du einen entsprechenden Gegenstand benutzt. Danach können sie unter <var 48 F201FA /var><var 49 F201FB /var>Modeaccessoires<var 49 01 /var><var 48 01 /var> (Hauptmenü → Charakter) an- und abgelegt oder im Kommandomenü eingerichtet werden. 
+
+Beachte, dass Modeaccessoires in bestimmten Arealen, z. B. Dungeons, nicht verwendet werden können.","","False","0x0000038F","",""
+"","Many types of fashion accessories can be found throughout the realm, including colorful parasols and umbrellas, stylish glasses, and wings of all shapes and sizes.
+
+Some accessories come with unique actions─for example, equipping an umbrella or parasol will allow you to perform an umbrella dance.","Es gibt verschiedene Arten von Modeaccessoires, mit denen du dein Aussehen verändern kannst, darunter Schirme, Brillen und sogar Flügel. Manche verfügen über ein spezielles Kommando, wie z. B. „Tanz mit dem Schirm“.","","False","0x00000390","",""
+"","The world of fashion is ever-changing, and new innovations may give rise to more types of accessories in the future. Keep an eye out for the latest trends!","Von Zeit zu Zeit werden neue Accessoires hinzugefügt. Verpasse keinen der Trends!","","False","0x00000391","",""
+"","The pet hotbar will appear when a fashion accessory is equipped, allowing you to easily change poses and perform unique actions.
+
+By default, the pet hotbar automatically replaces a hotbar or cross hotbar. You may disable this function from the Hotbar Settings tab of the Character Configuration menu.
+
+■Disable Automatic Hotbar Replacement
+From the Character Configuration menu, select the Hotbar Settings tab. Uncheck “Automatically replace hotbar 1 when a fashion accessory is equipped.”","Wenn du ein Modeaccessoire anlegst, das über ein spezielles Kommando verfügt, wird das Kommandomenü bzw. Kreuzkommandomenü automatisch durch das Helfer-Kommandomenü ersetzt. Diese Funktion kann in der Charakter<var 16 /var>konfiguration (Hauptmenü → System) geändert werden.","","False","0x00000392","",""
+"","Fashion accessories will remain equipped while you speak with NPCs, engage in battle, and ride mounts.
+
+Some accessories may disappear for a short time while performing certain actions, but they will remain equipped.
+
+For example, if a parasol is equipped, riding a mount will temporarily hide it, but the parasol will display again once you have dismounted.","Modeaccessoires werden grundsätzlich immer angezeigt, auch während eines Kampfes. Nur in wenigen bestimmten Ausnahmefällen wird ein Accessoire nicht angezeigt, z. B. wenn du einen Schirm anlegst und dann auf ein Reittier aufsteigst. Der Schirm bleibt aber ausgerüstet und erscheint wieder, wenn du absteigst.","","False","0x00000393","",""
+"","Afeared of being soaked by a sudden downpour? Keep your favorite umbrella or parasol at the ready with the auto-umbrella feature!
+
+Simply open the Fashion Accessories window under Character in the main menu, then select “Enable Auto-umbrella” from the subcommands of your preferred umbrella or parasol. The accessory you selected will be brought out the moment the rain begins, and put away once the weather clears up or you find shelter.
+
+<var 48 F201FA /var><var 49 F201FB /var>※You may only set one auto-umbrella at a time.
+※The auto-umbrella function is disabled in certain areas.<var 49 01 /var><var 48 01 /var>","Niemand steht gerne im Regen. Du kannst deinen Schirm so einrichten, dass er sich automatisch öffnet, wenn es nass wird. Der Schirm wird wieder abgelegt, wenn sich das Wetter bessert oder du ein Gebäude betrittst.
+Öffne dazu das Menü „Modeaccessoires“ (Hauptmenü → Charakter) und benutze das Unterkommando „Bei Regen automatisch benutzen“ des gewünschten Schirms.
+
+Beachte, dass die Funktion nicht in allen Arealen zur Verfügung steht.","","False","0x00000394","",""
+"","Fashion Accessories","Modeaccessoires","","False","0x00000395","",""
+"","■Disable Automatic Cross Hotbar Replacement
+From the Character Configuration menu, select the Hotbar Settings tab. Uncheck “Automatically replace cross hotbar with pet hotbar.”","■ Einstellung für das Kommandomenü ändern
+Gehe in die Einstellungen für Kommandomenüs (Charakter<var 16 /var>konfiguration) und ändere den Haken bei „Menü 1 durch Helfer-Kommandomenü ersetzen (bei Modeaccessoire)“.
+■ Einstellung für das Kreuz-Kommandomenü ändern
+Gehe in die Einstellungen für das Kreuz-Kommandomenü (Charakter<var 16 /var>konfiguration → Reiter „Kreuz“) und ändere den Haken bei „Kreuz-Kommandomenü durch Helfer-Kommandomenü ersetzen“.","","False","0x00000396","",""
+"","Gear Set Basics","Ausrüstungssets","","False","0x00000397","",""
+"","Purpose of Gear Sets","Was sind Ausrüstungssets?","","False","0x00000398","",""
+"","A <var 48 F201FA /var><var 49 F201FB /var>gear set<var 49 01 /var><var 48 01 /var> allows you to register and save your current equipment.
+
+Numerous gear sets can be registered to make efficient use of the <var 48 F201FA /var><var 49 F201FB /var>Armoury system<var 49 01 /var><var 48 01 /var>─by registering gear sets with different weapons or tools equipped to your main hand, you may switch between classes and jobs instantly without the need to manually equip each piece of gear.
+
+If you unlock a new class or job, you may find it helpful to register a gear set for it.","<var 48 F201FA /var><var 49 F201FB /var>Ausrüstungssets<var 49 01 /var><var 48 01 /var> ermöglichen es, mehrere Aus<var 16 /var>rüs<var 16 /var>tungs<var 16 /var>teile auf einmal anzulegen.
+Jede Klasse und jeder Job erfordert eine eigene Ausrüstung. Erstelle dir also am besten ein Ausrüstungsset, sobald du eine neue Klasse oder einen neuen Job freigeschaltet hast.
+
+Das <var 48 F201FA /var><var 49 F201FB /var>Ausrüstungssystem<var 49 01 /var><var 48 01 /var> von FFXIV erlaubt es dir,  zum Beispiel durch Wechseln der Hauptwaffe deine Klasse bzw. den Job zu ändern. Mit Ausrüstungssets kannst du dabei schnell und einfach in das richtige Outfit schlüpfen.
+","","False","0x00000399","",""
+"","Making the Most of Gear Sets","Ausrüstungssets einrichten","","False","0x0000039A","",""
+"","Using Gear Sets","Wie kann ich Ausrüstungssets erstellen und anlegen?","","False","0x0000039B","",""
+"","Firstly, let's create a gear set using the items you currently have equipped.
+
+■How to Register a Gear Set
+1. Open Character from the main menu, then select the <var 48 F201FA /var><var 49 F201FB /var>Gear Set List button<var 49 01 /var><var 48 01 /var> on the top right.
+2. A new window will be displayed. Select the <var 48 F201FA /var><var 49 F201FB /var>plus button<var 49 01 /var><var 48 01 /var> found in the top left corner.
+3. Your current equipment will now be registered as a new gear set.
+
+■How to Equip a Gear Set
+1. Open Gear Set List and select the desired gear set.
+2. Confirm your selection with the <var 48 F201FA /var><var 49 F201FB /var>Equip Set button<var 49 01 /var><var 48 01 /var> at the bottom of the window.
+
+An “E” icon next to a gear set indicates your currently equipped selection.","■ Ausrüstungssets erstellen
+1. Lege die gewünschte Ausrüstung an.
+2. Öffne die Liste der Ausrüstungssets (Hauptmenü → Charakter → Charakter).
+3. Wähle links oben im Fenster das <var 48 F201FA /var><var 49 F201FB /var>+ Symbol<var 49 01 /var><var 48 01 /var>.
+
+■ Ausrüstungssets anlegen
+1. Wähle das zu ändernde Set in der Liste der Ausrüstungssets (Hauptmenü → Charakter → Charakter).
+2. Wähle unten im Fenster <var 48 F201FA /var><var 49 F201FB /var>Ausrüstung wechseln<var 49 01 /var><var 48 01 /var>.
+
+Das aktuell angelegte Ausrüstungsset ist in der Liste mit einem <var 48 F201FA /var><var 49 F201FB /var>E<var 49 01 /var><var 48 01 /var> (equipped) markiert.
+","","False","0x0000039C","",""
+"","","","","False","0x0000039D","",""
+"","Useful Commands","Welche Funktionen gibt es noch?","","False","0x0000039E","",""
+"","The gear set list includes many useful subcommands which can allow you to quickly check the equipment in a set, rename a set, or reorder the list itself.","Die Liste der Ausrüstungssets verfügt über Unterbefehle, mit denen die Sets anzeigt, sortiert oder umbenannt werden können.
+","","False","0x0000039F","",""
+"","■Display Set
+Display the equipment registered to the gear set in a slot-specific list.
+
+■Preview
+View your character wearing the selected gear set.","■ Unterbefehl: Gegenstände ansehen
+Zeigt die in einem Set gespeicherten Aus<var 16 /var>rüstungs<var 16 /var>gegen<var 16 /var>stände je nach Slot an.
+
+■Unterbefehl: Vorschau
+Zeigt den Charakter mit dem ausgerüsteten Set an.","","False","0x000003A0","",""
+"","Updating Gear Sets","Wie kann ich Ausrüstungssets ändern?","","False","0x000003A1","",""
+"","Changes to your equipment can easily be reflected to your currently selected gear set.
+
+■How to Update Gear Sets
+1. Open Character from the main menu.
+2. Press the <var 48 F201FA /var><var 49 F201FB /var>Update Gear Set button<var 49 01 /var><var 48 01 /var> in the top right corner.
+
+Remember to update your gear sets whenever you upgrade your equipment or make changes to materia!","■ Ausrüstungssets ändern
+1. Lege das zu ändernde Ausrüstungsset an.
+2. Lege die gewünschte Ausrüstung an.
+3. Öffne die Liste der Ausrüstungssets (Hauptmenü → Charakter → Charakter).
+4. Wähle rechts oben im Fenster <var 48 F201FA /var><var 49 F201FB /var>Aktualisieren<var 49 01 /var><var 48 01 /var>.
+
+Es empfiehlt sich, die Ausrüstungssets aktuell zu halten, wenn du neue Ausrüstung erbeutest oder Materia anbringst.
+","","False","0x000003A2","",""
+"","■Reassign Set Number
+Directly assign a gear set number. Using an existing gear set number will result in the two sets swapping numbers.
+
+■Move Set Up/Down
+Shift a gear set to the number above or below it on the list.
+※Deleted set numbers will be skipped.
+
+Make use of these commands to assign a convenient number or order to the gear sets you use most often.","■ Ordnungszahl ändern
+Den Ausrüstungssets wird der Reihe nach eine Zahl zugewiesen, die geändert werden kann. Wenn die neu zugewiesene Nummer bereits existiert, wird die alte Nummer automatisch geändert.
+
+■ Reihenfolge ändern
+Gespeicherte Ausrüstungssets können mit den entsprechenden Tasten in der Liste nach oben oder unten verschoben werden. Die Ordnungszahl ändert sich entsprechend.
+","","False","0x000003A3","",""
+"","■Link to Glamour Plate
+You can change the outward appearance of gear sets by linking them to <var 48 F201FA /var><var 49 F201FB /var>glamour plates<var 49 01 /var><var 48 01 /var>. Furthermore, by registering the same equipment as multiple gear sets, each set can be linked a different glamour plate, allowing you to switch looks to match your current mood at the touch of a button!
+
+After linking a gear set, the glamour plate's number will be displayed to the right of the list. Please note that glamour plates can only be applied to equipment while within areas that classify as sanctuaries.
+
+■Remove Glamour Plate Link
+Links to glamour plates can be removed with the gear set subcommand. Existing links must also be removed before you will be able to assign a different glamour plate.
+
+■Creating Glamour Plates
+Read the section in this guide entitled “Customizing Ensembles” to learn more about creating glamour plates.","■ Ausrüstungssets mit Pro<var 16 /var>jektions<var 16 /var>platten verknüpfen
+Ausrüstungsets können mit <var 48 F201FA /var><var 49 F201FB /var>Pro<var 16 /var>jektions<var 16 /var>platten<var 49 01 /var><var 48 01 /var> verknüpft werden. Dann wird beim Anlegen des Ausrüstungssets automatisch das gewünschte Aussehen angewendet<var 1D /var>- auch wenn sich die Ausrüstung geändert hat.
+Sets, die mit Pro<var 16 /var>jektions<var 16 /var>platten verknüpft sind, sind rechts in der Liste mit der Nummer der Pro<var 16 /var>jektions<var 16 /var>platte gekennzeichnet.
+Achte darauf, dass Pro<var 16 /var>jektions<var 16 /var>platten nur in Ruhebereichen (z. B. in Städten) angewendet werden können.
+
+■ Verknüpfungen aufheben
+Verknüpfungen können mit dem entsprechenden Unterbefehl („Verknüpfung mit Pro<var 16 /var>jektions<var 16 /var>platte aufheben“) aufgehoben werden. Dies ist nötig, wenn das Ausrüstungsset mit einer anderen Pro<var 16 /var>jektions<var 16 /var>platte verknüpft werden soll.
+
+■ Pro<var 16 /var>jektions<var 16 /var>platten einrichten
+Informationen hierzu findest du in der Hilfe (Kleider machen Leute → Pro<var 16 /var>jektions<var 16 /var>platten).
+","","False","0x000003A4","",""
+"","","","","False","0x000003A5","",""
+"","■Change Set Name
+Your current class or job will become the default name for a newly registered set. You can use the subcommand to change this name freely, a function which comes in especially useful when creating multiple sets for the same class/job.
+
+■Delete Set
+Remove unwanted sets from the list. The numbers assigned to these sets will also be removed.","■ Namen ändern
+Neue Ausrüstungsets werden automatisch nach der Klasse bzw. dem Job benannt. Der Name kann aber nach Belieben geändert werden. Dies empfiehlt sich besonders, wenn mehrere Sets für eine Klasse oder einen Job gespeichert werden sollen.
+
+■ Löschen
+Nicht benötigte Ausrüstungssets können in der Liste mit dem entsprechenden Unterbefehl gelöscht werden.
+","","False","0x000003A6","",""
+"","","","","False","0x000003A7","",""
+"","Customizing Ensembles","Kleider machen Leute!","","False","0x000003A8","",""
+"","","","","False","0x000003A9","",""
+"","A Picture of You","Gestatten? Mein Portrait!","","False","0x000003AA","",""
+"","Fashion Functionality","Wie kann ich das Aussehen meiner Kleidung anpassen?","","False","0x000003AB","",""
+"","While much of the equipment in FINAL FANTASY XIV provides advantages in battle, certain pieces are worn purely for the sake of fashion. Mix and match your favorite fashion items to create a style all your own!
+
+A special sidequest will unlock customization options allowing you to use these favored pieces to change the appearance of other equipment. Combined with the flexibility of gear sets, you control how you wish to look as you forge ahead on your adventures.","In Sachen Ausrüstung zählen nicht allein die Spielwerte<var 1D /var>- du willst auch gut aussehen.
+FINAL FANTASY XIV bietet dir viele Möglichkeiten, das Aussehen deiner Kleidung anzupassen. Manche davon werden durch speziell dafür geschaffene Nebenaufträge freigespielt. Werde kreativ und erstelle dir ein Outfit, das ganz deinen Wünschen entspricht!
+","","False","0x000003AC","",""
+"","Casting Glamours","Was sind Projektionen?","","False","0x000003AD","",""
+"","Glamours are a means of projecting the appearance of one piece of equipment onto another. This can be accomplished with the subcommand on the item you wish to alter, or by using Cast Glamour from Actions & Traits.
+
+Casting glamours requires catalysts known as <var 48 F201FA /var><var 49 F201FB /var>glamour prisms<var 49 01 /var><var 48 01 /var>, with one prism being consumed per cast. Among other sources, glamour prisms can be obtained from the market board or from Grand Company quartermasters.
+
+The presence of a glamour is indicated by a symbol in the upper right corner of the item icon. Removing glamours requires the use of <var 48 F201FA /var><var 49 F201FB /var>glamour dispellers<var 49 01 /var><var 48 01 /var>, which are also available from market boards or certain vendors. 
+
+<var 48 F201F4 /var><var 49 F201F5 /var>※Please note that, for the illusion to take effect, the projected gear must be compatible with the glamoured gear's level, class, race, and gender.<var 49 01 /var><var 48 01 /var>","Mit Projektionen kann das Aussehen eines Gegenstandes auf einen anderen angewendet werden. Dessen Spielwerte bleiben dabei unverändert.
+Jede Projektion verbraucht 1 <var 48 F201FA /var><var 49 F201FB /var>Projektionprisma<var 49 01 /var><var 48 01 /var>. Die Prismen können z. B.  am Marktbrett oder bei den Versorgungsoffizieren der Ge<var 16 /var>sell<var 16 /var>schaften erworben werden.
+Benutze den entsprechenden Unterbefehl des zu ändernden Aus<var 16 /var>rüstungs<var 16 /var>gegen<var 16 /var>standes, um den Vorgang zu starten.
+Um Projektionen zu entfernen, ist ein <var 48 F201FA /var><var 49 F201FB /var>Entprojizierungskristall<var 49 01 /var><var 48 01 /var> erforderlich. 
+Gegenstände, deren Aussehen durch eine Projektion verändert wurde, sind rechts oben mit einem Symbol gekennzeichnet.
+<var 48 F201F4 /var><var 49 F201F5 /var>※ Der Charakter muss alle Voraus<var 16 /var>setzungen zum Tragen des projizierten Gegenstandes (z. B. Volk, Geschlecht, Job) erfüllen, sonst wird die Projektion nicht angezeigt.<var 49 01 /var><var 48 01 /var>
+","","False","0x000003AE","",""
+"","Glamour Plates","Was sind Pro<var 16 /var>jektions<var 16 /var>platten?","","False","0x000003AF","",""
+"","Created using the glamour dressers found inside inn rooms, glamour plates are a means of projecting an entire ensemble onto your gear. When designing a glamour plate, the equipment you wish to project must be stored inside a glamour dresser or armoire.
+
+Ensembles saved to a glamour plate are applied with a single command, and can be projected over and over again without consuming glamour prisms. You can also use the gear set subcommand to link to plates, and instantly don your saved appearance by switching to the linked set.","Mit Pro<var 16 /var>jektions<var 16 /var>platten können mehrere Projektionen auf einmal ausgeführt werden. So kannst du schnell und bequem dein Aussehen verändern!
+Agiere mit den <var 48 F201FA /var><var 49 F201FB /var>Pro<var 16 /var>jektions<var 16 /var>kommoden<var 49 01 /var><var 48 01 /var> in den Gästezimmern der Herbergen, um Aus<var 16 /var>rüstungs<var 16 /var>gegen<var 16 /var>stände, deren Aussehen dir besonders gefällt, in Projektionen zu verwandeln und in der Kommode abzulegen.
+Es ist auch möglich, Ausrüstungssets mit Pro<var 16 /var>jektions<var 16 /var>platten zu verknüpfen. Benutze dazu den entsprechenden Unterbefehl des Ausrüstungssets.
+","","False","0x000003B0","",""
+"","Glamour Dresser","Was sind Pro<var 16 /var>jektions<var 16 /var>kommoden?","","False","0x000003B1","",""
+"","Glamour dressers are available in every inn room, and can be used to store equipment as glamours. Any type of gear can be stored free of charge, up to the dresser's maximum capacity.
+
+The initial transformation consumes one <var 48 F201FA /var><var 49 F201FB /var>glamour prism<var 49 01 /var><var 48 01 /var> per item, but once glamoured gear has been added to a glamour plate, it can be projected onto your equipment as many times as you like at no cost.","Pro<var 16 /var>jektions<var 16 /var>kommoden befindet sich in den Gästezimmern der Herbergen. Interagiere mit ihnen, um Aus<var 16 /var>rüstungs<var 16 /var>gegen<var 16 /var>stände in <var 48 F201FA /var><var 49 F201FB /var>Projektionen<var 49 01 /var><var 48 01 /var> zu verwandeln und in der Kommode abzulegen. Die Aufbewahrung ist kostenlos, aber in den Kommonden kann nur eine bestimmte Anzahl an Projektionen hinterlegt werden.
+Jede Projektion erfordert 1 <var 48 F201FA /var><var 49 F201FB /var>Projektionsprisma<var 49 01 /var><var 48 01 /var>. Danach kann die Projektion immer wieder auf neue Gegenstände angewendet werden.
+","","False","0x000003B2","",""
+"","Armoire","Was ist das Kostbarkeitenkabinett?","","False","0x000003B3","",""
+"","Available in inn rooms or placed as furnishings in player estates, armoires are used to store artifact armor, seasonal event costumes, achievement rewards, bonus items, and other specific gear.
+
+An unlimited amount of equipment can be stored in the armoire at no cost, but please note that any dyes, crests, or glamours will be removed. Additionally, spiritbond will be reset to 0% and durability will be set to 100%.
+
+If you wish to keep dyes when storing items, or wish to use dyed items to cast glamours, the glamour dresser is the more suitable choice.","In dem Kostbarkeitenkabinett können bestimmte Gegenstände eingelagert werden. Sie befinden sich in Gästezimmern der Herbergen und können in Unterkünften aufgestellt werden.
+Eingelagert werden können z. B. Artefaktausrüstungen, Gegenstände aus saisonalen Ereignissen, Belohnungen für Errungenschaften und Bonusgegenstände für bestimmte Käufe. 
+
+Die Aufbewahrung ist kostenlos und es gibt keine Obergrenze für Gegenstände, aber beachte bitte, dass bei der Einlagerung Färbungen, Wappen und Projektionen verloren gehen. Außerdem wird die Bindung auf 0 zurückgesetzt und der Zustand wieder hergestellt (100 %).
+
+Um Färbungen oder Projektionen nicht zu verlieren, sollten solche Gegenstände in einer Pro<var 16 /var>jektions<var 16 /var>kommode eingelagert werden.
+","","False","0x000003B4","",""
+"","Dyeing Equipment","Wie färbe ich Ausrüstung?","","False","0x000003B5","",""
+"","You can change the coloring of various gear and furnishing items through the use of <var 48 F201FA /var><var 49 F201FB /var>dyes<var 49 01 /var><var 48 01 /var>, with one pot of dye being consumed for each distinct section of an item.
+
+Should you wish to restore gear to its original hue, a pot of terebinth removes the dye from a single item.
+
+Both dyes and terebinth are available from vendors and the market boards, and can also be crafted by Disciples of the Hand from level 30 onwards.
+
+Please note that not every piece of equipment is a candidate for dyeing. Items you can dye are marked with the corresponding symbol in the top right corner of their icons.","Die Farbe eines Aus<var 16 /var>rüstungs<var 16 /var>gegen<var 16 /var>standes kann mit einem der vielen <var 48 F201FA /var><var 49 F201FB /var>Farbstoffe<var 49 01 /var><var 48 01 /var> geändert werden.
+Benutze dazu den entsprechenden Unterbefehl. Jede Färbung verbraucht 1 Farbstoff.
+Neben Ausrüstung können auch Einrichtungsgegenstände gefärbt werden.
+
+Um einen gefärbten Gegenstand in den Originalzustand zurückzuversetzen, ist <var 48 F201FA /var><var 49 F201FB /var>Terebinthe-Öl<var 49 01 /var><var 48 01 /var> erforderlich. Jede Anwendung verbraucht 1 Flasche.
+Terebinthe-Öl kann bei z. B. bei Händlern oder am Marktbrett erworben werden. Farbstoffe können von Handwerkern ab Stufe 30 im Wege der Synthese hergestellt werden.
+
+Beachte, dass sich nicht alle Gegenstände färben lassen. Färbbare Gegenstände sind in ihrer Beschreibung rechts oben mit einem entsprechenden Symbol markiert.","","False","0x000003B6","",""
+"","","","","False","0x000003B7","",""
+"","Portraits","Was sind Portraits?","","False","0x000003B8","",""
+"","Including options such as poses, expressions, camera angles, and picture frames, the portrait feature gives you the tools to create the perfect snapshot of your character.
+
+The portrait you compose will be displayed at a variety of times, including the commencement of dungeons and awarding player commendations, as well as the start of competitive matches such as Crystalline Conflict PvP and Doman mahjong in the Gold Saucer.
+
+To create a portrait, open Character from the main menu, and select Portraits. You can also open the portrait interface via the Edit Portrait subcommand in the gear set list.
+
+One portrait can be saved to each gear set. The portrait linked to your currently equipped gear set will be displayed as your instant portrait.
+
+For more information on how to edit your portraits, press the <var 48 F201FA /var><var 49 F201FB /var>? button<var 49 01 /var><var 48 01 /var> found at the bottom of the Portraits interface to access the corresponding guide.","Richte dir ein eigenes Portrait ein, um anderen Spielern deinen Charakter zu präsentieren. Benutze dafür die vielen Posen, Gesichtsausdrücke, sowie verschiedene Kamerawinkel und Rahmen!
+
+Dein Portrait wird in vielen Inhalten, die mit mehreren Spielern bestritten werden, angezeigt, z. B. Dungeons und Raids, bei Ehrungen zum wertvollsten Spieler, vor PvP-Inhalten wie Crystalline Conflict oder dem Mahjong-Spiel im Gold Saucer. Erstelle es unter Hauptmenü → Charakter → Portraits oder über den entsprechenden Unterbefehl eines Ausrüstungssets.
+Für jedes Ausrüstungsset kann ein Portrait gespeichert werden. Angezeigt wird jeweils das Portrait des aktuell ausgerüsteten Sets.
+
+Mehr Einzelheiten zum Erstellen von Portraits findest du, indem du das Fragezeichen im Fenster „Portrait bearbeiten“ auswählst.
+","","False","0x000003B9","",""
+"","","","","False","0x000003BA","",""
+"","","","","False","0x000003BB","",""
+"","Display Set","Wie kann ich mir ein Ausrüstungsset ansehen?","","False","0x000003BC","",""
+"","Reordering Gear Sets","Wie kann ich Ausrüstungssets sortieren?","","False","0x000003BD","",""
+"","Link to Glamour Plate","Wie kann ich Ausrüstungssets mit Pro<var 16 /var>jektions<var 16 /var>platten verknüpfen?","","False","0x000003BE","",""
+"","Managing Gear Sets","Wie kann ich Ausrüstungssets verwalten?","","False","0x000003BF","",""
+"","Other Useful Features","Welche Funktionen gibt es noch?","","False","0x000003C0","",""
+"","","","","False","0x000003C1","",""
+"","","","","False","0x000003C2","",""
 

@@ -6,7 +6,7 @@
 "","Reduced Difficulty<tab>The following changes have been made to Savage duties:
 　・Progress records are no longer kept for individual duties.
 　・The “Progress” option is no longer available.
-　・Two treasure coffers will always appear upon completion.
+　・Treasure coffers will always appear upon completion.
 　・The weekly limit on items from treasure coffers has been removed.
 ","Verringerte Schwierigkeit<tab>Die folgenden Änderungen wurden an epischen Inhalten vorgenommen:
 - Keine Speicherung des Fortschritts für einzelne Inhalte.
@@ -42,17 +42,19 @@ Der Fortschritt wird jeweils am <var 06 1203 /var><var 09 DD ((Sonntag)) ((Monta
 ","","False","0x00000006","",""
 "","Reward Restrictions<tab>Players will not earn rewards for completing phases they have already completed.
 
-Coffer quantity will vary based on the total number of party members who have already completed the duty.
-　・1-4 players = 1 coffer 
+Coffer and reward quantity will vary based on the total number of party members who have already completed the duty.
+　・0 players = 1 coffer 
+　・1-4 players = 1 coffer (Reduced reward quantity)
 　・5 or more = No coffers
  
 When participating in the latest Savage raid with a matched party, duty rewards may change based on the progress level of matched members.","Vergütung<tab>Spieler, die weiter fortgeschritten sind als der Gruppenanführer, erhalten für bereits abgeschlossene Abschnitte keine Vergütung.
 
 Die Anzahl der erscheinenden Schatztruhen kann sich also von Gruppe zu Gruppe unterscheiden.
+　・0 Spieler = 1 Schatztruhe
 　・1-4 Spieler = 1 Schatztruhe
 　・5 oder mehr = Keine Schatztruhen
  
-In Gruppen, die über die Raid-Suche zu<var 16 /var>sammen<var 16 /var>gestellt wurden, können die Belohnungen je nach Spielfortschritt der Spieler abweichen.","","False","0x00000007","",""
+In Gruppen von 1-8 Spielern, die über die Raid-Suche zu<var 16 /var>sammen<var 16 /var>gestellt wurden, können die Belohnungen je nach Spielfortschritt der Spieler abweichen.","","False","0x00000007","",""
 "","Job Distribution<tab>Parties formed with the Raid Finder do not allow for two members with the same job unless certain conditions are met.
 　・DPS jobs are divided into the following roles:
     Melee DPS, Physical Ranged DPS, Magical Ranged DPS, and Not Specified.

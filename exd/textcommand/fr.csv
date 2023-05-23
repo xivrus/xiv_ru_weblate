@@ -585,6 +585,7 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 
 >>Glamour:
 　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
@@ -594,12 +595,18 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","/miragefamilier, /mirfam, /petmirage
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","/miragefamilier, /mirfam, /petmirage
 Utilisation<var 1D /var>: /miragefamilier ""[nom de familier]"" ""[apparence]""
 Permet de changer l'apparence d'un familier dès la prochaine invocation.
 Cette commande n'est pas effective dans les instances de combat JcJ.
@@ -608,6 +615,7 @@ Carbuncle
 Garuda-Egi
 Titan-Egi
 Ifrit-Egi
+Eos
 >> Apparences<var 1D /var>:
 Carbuncle
 Carbuncle émeraude
@@ -616,11 +624,17 @@ Carbuncle rubis
 Garuda-Egi
 Titan-Egi
 Ifrit-Egi
+Selene
 * Aucune apparence spécifiée ou avec ""annuler""<var 1D /var>:
   Rend au familier son apparence d'origine.
+Si aucune sous-commande n'est spécifiée, affiche la liste des apparences actuelles.
 >> Exemple
 /miragefamilier ""Garuda-Egi"" ""Carbuncle rubis""
-Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.<tab>/miragefamilier<tab>/mirfam<tab>/petmirage<tab>","","False","0x00000021","",""
+Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.
+/miragefamilier ""Garuda-Egi""
+Rend au familier son apparence d'origine.
+/miragefamilier
+Affiche la liste des apparences actuelles.<tab>/miragefamilier<tab>/mirfam<tab>/petmirage<tab>","","False","0x00000021","",""
 "","USAGE:
 　/petsize [summon] [size]
 
@@ -1359,14 +1373,14 @@ USAGE:
 →Set a sign on the specified target. Uses current target when not specified.
 
 >>Sign Types:
-　<var 48 F201FA /var><var 49 F201FB /var>attack1-5<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>attack1-8<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>bind1-3<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>ignore1-2<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>circle<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>cross<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>square<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>triangle<var 49 01 /var><var 48 01 /var>
-　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
+<var 48 F201FA /var><var 49 F201FB /var>　off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
 
 Opens and closes the Signs menu when no subcommand is specified.
 
@@ -1382,10 +1396,10 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 Utilisation<var 1D /var>: /marquer [type]  [argument de ciblage]
 Permet de placer un signe sur la cible spécifiée ou le personnage ciblé si aucun argument n'est saisi.
 >> Signes<var 1D /var>:
-""attaque1"" jusqu'à ""attaque5"" (attack1 à 5)
+""attaque1"" jusqu'à ""attaque8"" (attack1 à 8)
 ""entrave1"" jusqu'à ""entrave3"" (bind1 à 3) 
-""interdit1"" jusqu'à ""interdit2"" (ignore1 à 2)
-* 1 est le numéro par défaut si aucun chiffre n'est spécifié.
+""ignore1"" jusqu'à ""ignore2"" (stop1 à 2)
+* Alterne entre les numéros 1 et 2 si aucun chiffre n'est spécifié.
 cercle (circle)<var 1D /var>: signe en forme de cercle
 croix (cross ou plus)<var 1D /var>: signe en forme de croix
 carré (square)<var 1D /var>: signe en forme de carré
@@ -1393,8 +1407,8 @@ triangle<var 1D /var>: signe en forme de triangle
 désactivé (off)<var 1D /var>: retirer le signe
 * Si aucune sous-commande n'est saisie, ouvre ou ferme le menu des signes.
 >> Exemples<var 1D /var>:
-/marquer interdit2 <t>
-  La cible reçoit le signe ""2e cible interdite"".
+/marquer ignore2 <t>
+  La cible reçoit le signe ""2e cible à ignorer"".
 /marquer entrave1
   Le personnage ou ennemi ciblé reçoit le signe ""1re cible à entraver"".
 Une fois marquées, les cibles peuvent être désignées par les arguments <stop1>, <ignore1>, etc.<tab>/marquer<tab>/signe<tab>/marking<tab>/mk","","False","0x0000009C","",""
@@ -2320,6 +2334,7 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 
 >>Glamour:
 　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
@@ -2329,12 +2344,18 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","/mirageegi, /miregi, /egimirage
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","/mirageegi, /miregi, /egiglamour
 Utilisation<var 1D /var>: /mirageegi ""[nom d'Egi]"" ""[apparence]""
 Permet de changer l'apparence d'un Egi dès la prochaine invocation.
 Cette commande n'est pas effective dans les instances de combat JcJ.
@@ -2343,6 +2364,7 @@ Carbuncle
 Garuda-Egi
 Titan-Egi
 Ifrit-Egi
+Eos
 >> Apparences<var 1D /var>:
 Carbuncle
 Carbuncle émeraude
@@ -2351,11 +2373,17 @@ Carbuncle rubis
 Garuda-Egi
 Titan-Egi
 Ifrit-Egi
+Selene
 * Aucune apparence spécifiée ou avec ""annuler""<var 1D /var>:
   Rend à l'Egi son apparence d'origine.
+Si aucune sous-commande n'est spécifiée, affiche la liste des apparences actuelles.
 >> Exemple
 /mirageegi ""Garuda-Egi"" ""Carbuncle rubis""
-Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.<tab>/mirageegi<tab>/miregi<tab>/egiglamour<tab>","","False","0x000000E2","",""
+Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.
+/mirageegi ""Garuda-Egi""
+Rend à l'Egi son apparence d'origine.
+/mirageegi
+Affiche la liste des apparences actuelles.<tab>/mirageegi<tab>/miregi<tab>/egiglamour<tab>","","False","0x000000E2","",""
 "","USAGE:
 　/title [subcommand]
 
@@ -3080,7 +3108,7 @@ Si aucune sous-commande n'est spécifiée, alterne entre les deux options.<tab>/
 "","USAGE:
 　/autotarget [subcommand]
 
-→Enable auto-target when no target specified.
+→Enable full auto-target.
 
 >>Subcommands:
 　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>      Enable auto-target.
@@ -3088,7 +3116,7 @@ Si aucune sous-commande n'est spécifiée, alterne entre les deux options.<tab>/
 
 Toggle between on/off when no subcommand is specified.<tab><tab><tab>/autotarget<tab>","/ciblageauto, /cibauto, /autotarget
 Utilisation<var 1D /var>: /ciblageauto [sous-commande]
-Active le ciblage automatique si aucune cible n'est sé<var 16 /var>lec<var 16 /var>tion<var 16 /var>née.
+Cible au<var 16 /var>to<var 16 /var>ma<var 16 /var>ti<var 16 /var>que<var 16 /var>ment les ennemis attaquants.
 >> Sous-commandes<var 1D /var>:
 activé (on)         Active le ciblage automatique.
 désactivé (off)    Désactive le ciblage automatique.
@@ -7293,6 +7321,20 @@ Apprécie le spectacle.
 >> Sous-commande<var 1D /var>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/apprécierlespectacle<tab>/apprécispectacle<tab>/spirit<tab>","","False","0x00000289","",""
+"","USAGE:
+　/magictrick [subcommand]
+
+→Perform a magic trick.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/magictrick<tab>","/tourdemagie, /tourmag, /magictrick
+Utilisation<var 1D /var>: /tourdemagie [sous-commande]
+Exécute un tour de magie.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/tourdemagie<tab>/tourmag<tab>/magictrick<tab>","","False","0x0000028A","",""
 "","ALIASES:
 　/littleladiesdance, /ladance
 USAGE:
@@ -7351,4 +7393,88 @@ Prend un air effrayant.
 >> Sous-commande<var 1D /var>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/effrayer<tab><tab>/frighten<tab>","","False","0x00000291","",""
+"","USAGE:
+　/adventoflight, /advent [subcommand]
+
+→Soar to the heavens, then make a suitably heroic landing.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/adventoflight<tab>/advent","/envolhéroïque, /envhér, /advent
+Utilisation<var 1D /var>: /envolhéroïque [sous-commande]
+S'envole dans les airs avant de retomber poing en avant.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/envolhéroïque<tab>/envhér<tab>/adventoflight<tab>/advent","","False","0x00000292","",""
+"","USAGE:
+　/handtoheart [subcommand]
+
+→Gently place your hand on your heart.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/handtoheart<tab>","/mainsurlapoitrine, /mainpoit, /handtoheart
+Utilisation<var 1D /var>: /mainsurlapoitrine [sous-commande]
+Met sa main sur sa poitrine.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/mainsurlapoitrine<tab>/mainpoit<tab>/handtoheart<tab>","","False","0x00000298","",""
+"","USAGE:
+　/cheeronbright, /cheerbright [subcommand]
+
+→Wave your hands enthusiastically with white illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheeronbright<tab>/cheerbright","/encouragerblanc, /cheerbright, /cheeronbright
+Utilisation<var 1D /var>: /encouragerblanc [sous-commande]
+Encourage avec des bâtons lumineux blancs.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/encouragerblanc<tab><tab>/cheeronbright<tab>/cheerbright","","False","0x00000299","",""
+"","USAGE:
+　/cheerwaveviolet, /cheerviolet [subcommand]
+
+→Wave your hand in the air with a violet illuminated rod.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerwaveviolet<tab>/cheerviolet","/encouragerviolet, /cheerviolet, /cheerwaveviolet
+Utilisation<var 1D /var>: /encouragerviolet [sous-commande]
+Encourage avec des bâtons lumineux violets.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/encouragerviolet<tab><tab>/cheerwaveviolet<tab>/cheerviolet","","False","0x0000029A","",""
+"","USAGE:
+　/cheerjumpgreen, /cheergreen [subcommand]
+
+→Jump and cheer enthusiastically with green illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerjumpgreen<tab>/cheergreen","/encouragervert, /cheergreen, /cheerjumpgreen
+Utilisation<var 1D /var>: /encouragervert [sous-commande]
+Encourage avec des bâtons lumineux verts.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/encouragervert<tab><tab>/cheerjumpgreen<tab>/cheergreen","","False","0x0000029B","",""
+"","USAGE:
+　/allsaintscharm [subcommand]
+
+→Swish and flick to cast a spell.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/allsaintscharm<tab>","/sortilègedelaveillée, /sortveillée
+Utilisation<var 1D /var>: /sortilègedelaveillée [sous-commande]
+Lance un sortilège de la Veillée des saints.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/sortilègedelaveillée<tab>/sortveillée<tab>/allsaintscharm<tab>","","False","0x0000029C","",""
 

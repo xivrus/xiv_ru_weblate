@@ -6,12 +6,12 @@
 "","Reduced Difficulty<tab>The following changes have been made to Savage duties:
 　・Progress records are no longer kept for individual duties.
 　・The “Progress” option is no longer available.
-　・Two treasure coffers will always appear upon completion.
+　・Treasure coffers will always appear upon completion.
 　・The weekly limit on items from treasure coffers has been removed.
 ","コンテンツの緩和<tab>現在のパッチでは、零式コンテンツに下記の変更が適用されます。
 　・各層の攻略進行度が記録される仕組みが撤廃されます。
 　・参加条件から「進行度」が撤廃されます。
-　・宝箱が必ず2個出現するようになります。
+　・宝箱が必ず出現するようになります。
 　・宝箱から得られるアイテムの週制限が撤廃されます。
 ","","False","0x00000004","",""
 "","Matching Requirements<tab><var 48 F201FA /var><var 49 F201FB /var>Matching Requirements<var 49 01 /var><var 48 01 /var>
@@ -44,18 +44,20 @@ Progress is reset every week on <var 06 1203 /var><var 09 DD ((Sunday)) ((Monday
 進行度の記録は<var 48 F201FA /var><var 49 F201FB /var><var 06 1203 /var><var 09 DD ((日)) ((月)) ((火)) ((水)) ((木)) ((金)) ((土)) /var>曜日の<var 08 E0DB0D ((午後)) ((午前)) /var><var 08 DB ((<var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var>)) 01 /var>時（地球時間）<var 49 01 /var><var 48 01 /var>にリセットされます。","","False","0x00000006","",""
 "","Reward Restrictions<tab>Players will not earn rewards for completing phases they have already completed.
 
-Coffer quantity will vary based on the total number of party members who have already completed the duty.
-　・1-4 players = 1 coffer 
+Coffer and reward quantity will vary based on the total number of party members who have already completed the duty.
+　・0 players = 1 coffer 
+　・1-4 players = 1 coffer (Reduced reward quantity)
 　・5 or more = No coffers
  
 When participating in the latest Savage raid with a matched party, duty rewards may change based on the progress level of matched members.","進行度による報酬取得制限<tab>零式コンテンツにおいて自分の進行度未満の地点では、
 報酬を得られません。
 
-コンテンツを攻略済みのメンバー数により、宝箱の数が変動します。 
-　・攻略済みのメンバーが１～４人：宝箱１個 
+コンテンツを攻略済みのメンバー数により、宝箱の出現数および報酬量が変動します。 
+　・攻略済みのメンバーが０人：宝箱１個 
+　・攻略済みのメンバーが１～４人：宝箱１個 （報酬量減少）
 　・攻略済みのメンバーが５人以上：宝箱０個 
  
-1人もしくは8人未満のパーティで参加した場合、マッチング先のメンバーの進行度により宝箱の出現数が変動する可能性があります。 
+1人もしくは8人未満のパーティで参加した場合、マッチング先のメンバーの進行度により宝箱の出現数および報酬量が変動する可能性があります。 
 ","","False","0x00000007","",""
 "","Job Distribution<tab>Parties formed with the Raid Finder do not allow for two members with the same job unless certain conditions are met.
 　・DPS jobs are divided into the following roles:

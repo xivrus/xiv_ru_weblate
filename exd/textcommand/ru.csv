@@ -358,6 +358,7 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 
 >>Glamour:
 　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
@@ -367,12 +368,51 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","","","False","0x00000021","",""
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","ALIASES:
+　/petglamour, /petglam, /egiglamour
+USAGE:
+　/petglamour [summon] [glamour]
+
+→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.
+
+>>Summon Name:
+　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
+
+>>Glamour:
+　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Emerald Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Topaz Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Ruby Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
+
+The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
+
+>>Example:
+　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","","True","0x00000021","",""
 "","USAGE:
 　/petsize [summon] [size]
 
@@ -942,14 +982,14 @@ USAGE:
 →Set a sign on the specified target. Uses current target when not specified.
 
 >>Sign Types:
-　<var 48 F201FA /var><var 49 F201FB /var>attack1-5<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>attack1-8<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>bind1-3<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>ignore1-2<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>circle<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>cross<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>square<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>triangle<var 49 01 /var><var 48 01 /var>
-　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
+<var 48 F201FA /var><var 49 F201FB /var>　off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
 
 Opens and closes the Signs menu when no subcommand is specified.
 
@@ -961,7 +1001,34 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 >>Example:
 　/marking attack2 <t>
 　(Assigns ""Target to Attack 2""
-　to target.)<tab>/enemysign<tab><tab>/marking<tab>/mk","","","False","0x0000009C","",""
+　to target.)<tab>/enemysign<tab><tab>/marking<tab>/mk","ALIASES:
+　/enemysign, /marking, /mk
+USAGE:
+　/enemysign [sign type] [placeholder]
+
+→Set a sign on the specified target. Uses current target when not specified.
+
+>>Sign Types:
+　<var 48 F201FA /var><var 49 F201FB /var>attack1-8<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>bind1-3<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>ignore1-2<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>circle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>cross<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>square<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>triangle<var 49 01 /var><var 48 01 /var>
+<var 48 F201FA /var><var 49 F201FB /var>　off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
+
+Opens and closes the Signs menu when no subcommand is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Example:
+　/marking attack2 <t>
+　(Assigns ""Target to Attack 2""
+　to target.)<tab>/enemysign<tab><tab>/marking<tab>/mk","","True","0x0000009C","",""
 "","ALIASES:
 　/actionlist, /alist
 USAGE:
@@ -1756,6 +1823,7 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 
 >>Glamour:
 　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
@@ -1765,12 +1833,51 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","","","False","0x000000E2","",""
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","ALIASES:
+　/egiglamour, /egiglam, /petglamour
+USAGE:
+　/egiglamour [summon] [glamour]
+
+→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.
+
+>>Summon Name:
+　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
+
+>>Glamour:
+　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Emerald Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Topaz Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Ruby Carbuncle<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
+
+The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
+
+>>Example:
+　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","","True","0x000000E2","",""
 "","USAGE:
 　/title [subcommand]
 
@@ -2292,13 +2399,22 @@ Toggle between on/off when no subcommand is specified.<tab>/aggroline<tab><tab>/
 "","USAGE:
 　/autotarget [subcommand]
 
-→Enable auto-target when no target specified.
+→Enable full auto-target.
 
 >>Subcommands:
 　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>      Enable auto-target.
 　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>      Disable auto-target.
 
-Toggle between on/off when no subcommand is specified.<tab><tab><tab>/autotarget<tab>","","","False","0x00000132","",""
+Toggle between on/off when no subcommand is specified.<tab><tab><tab>/autotarget<tab>","USAGE:
+　/autotarget [subcommand]
+
+→Enable full auto-target.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>      Enable auto-target.
+　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>      Disable auto-target.
+
+Toggle between on/off when no subcommand is specified.<tab><tab><tab>/autotarget<tab>","","True","0x00000132","",""
 "","USAGE:
 　/displayhead [subcommand]
 
@@ -5199,6 +5315,23 @@ Both text and motion will be displayed when no subcommand is specified.<tab><tab
  　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/spirit<tab>","","True","0x00000289","",""
+"","USAGE:
+　/magictrick [subcommand]
+
+→Perform a magic trick.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/magictrick<tab>","USAGE:
+　/magictrick [subcommand]
+
+→Perform a magic trick.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/magictrick<tab>","","True","0x0000028A","",""
 "","ALIASES:
 　/littleladiesdance, /ladance
 USAGE:
@@ -5271,4 +5404,106 @@ Both text and motion will be displayed when no subcommand is specified.<tab><tab
 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/frighten<tab>","","True","0x00000291","",""
+"","USAGE:
+　/adventoflight, /advent [subcommand]
+
+→Soar to the heavens, then make a suitably heroic landing.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/adventoflight<tab>/advent","USAGE:
+　/adventoflight, /advent [subcommand]
+
+→Soar to the heavens, then make a suitably heroic landing.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/adventoflight<tab>/advent","","True","0x00000292","",""
+"","USAGE:
+　/handtoheart [subcommand]
+
+→Gently place your hand on your heart.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/handtoheart<tab>","USAGE:
+　/handtoheart [subcommand]
+
+→Gently place your hand on your heart.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/handtoheart<tab>","","True","0x00000298","",""
+"","USAGE:
+　/cheeronbright, /cheerbright [subcommand]
+
+→Wave your hands enthusiastically with white illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheeronbright<tab>/cheerbright","USAGE:
+　/cheeronbright, /cheerbright [subcommand]
+
+→Wave your hands enthusiastically with white illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheeronbright<tab>/cheerbright","","True","0x00000299","",""
+"","USAGE:
+　/cheerwaveviolet, /cheerviolet [subcommand]
+
+→Wave your hand in the air with a violet illuminated rod.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerwaveviolet<tab>/cheerviolet","USAGE:
+　/cheerwaveviolet, /cheerviolet [subcommand]
+
+→Wave your hand in the air with a violet illuminated rod.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerwaveviolet<tab>/cheerviolet","","True","0x0000029A","",""
+"","USAGE:
+　/cheerjumpgreen, /cheergreen [subcommand]
+
+→Jump and cheer enthusiastically with green illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerjumpgreen<tab>/cheergreen","USAGE:
+　/cheerjumpgreen, /cheergreen [subcommand]
+
+→Jump and cheer enthusiastically with green illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerjumpgreen<tab>/cheergreen","","True","0x0000029B","",""
+"","USAGE:
+　/allsaintscharm [subcommand]
+
+→Swish and flick to cast a spell.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/allsaintscharm<tab>","USAGE:
+　/allsaintscharm [subcommand]
+
+→Swish and flick to cast a spell.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/allsaintscharm<tab>","","True","0x0000029C","",""
 

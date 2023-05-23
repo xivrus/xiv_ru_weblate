@@ -2255,17 +2255,15 @@ The remnants of that mad plan still litter the frozen lowlands, as well as other
 "","Similarly to Seal Rock (Seize), the first alliance to accumulate the required amount of data will be declared the winner, and the remaining alliances will be ranked according to their respective ratings. Data is accumulated by:
 
 　1. Defeating enemy players
-　2. Occupying Allagan tomeliths
-　3. Destroying icebound tomeliths
+　2. Destroying icebound tomeliths
 
 In the event that none of the three alliances accumulates the required amount of data within the time limit, victory will be awarded to the alliance with the most data.","「フィールド・オブ・グローリー（砕氷戦）」では、シールロック同様に、
 部隊ごとに加算されていく「情報値」が、
 最も早く規定値に到達した部隊の勝利となります。
-情報値は、以下の3つの方法によって獲得できます。
+情報値は、以下の2つの方法によって獲得できます。
 
 　1.　敵部隊のプレイヤーの撃破
-　2.　アラガントームリスの占拠
-　3.　アイスドトームリスの破壊
+　2.　アイスドトームリスの破壊
 
 制限時間内に決着が付かなかった場合は、
 獲得した情報値の多い順に、1位から3位までの順位が決まります。","","False","0x0000012B","",""
@@ -2284,7 +2282,7 @@ In the event that none of the three alliances accumulates the required amount of
 "","The data from icebound tomeliths can be collected by attacking them, and once they are destroyed, data will be rewarded to each Grand Company based on the amount of damage inflicted.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Activating Icebound Tomeliths■<var 49 01 /var><var 48 01 /var>
-Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a fixed amount of time. Icebound tomeliths that have been destroyed will not reactivate. As time passes, more icebound tomeliths will activate, and the order in which they do so differs in every campaign. In some cases, several tomeliths may activate at the beginning of the campaign, while in others, they will activate at a steady pace. Regardless of the timing and frequency, all tomeliths on the map will be active by the end of the campaign.
+Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a short period of time. Any icebound tomeliths destroyed during the course of the campaign will regenerate in an inactive state after a fixed amount of time.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Icebound Tomelith■<var 49 01 /var><var 48 01 /var>
 Active icebound tomeliths will be either large or small, with large tomeliths containing more data.","「アイスドトームリス」は、フィールド上に配置された破壊可能なオブジェクトで、
@@ -2296,11 +2294,7 @@ Active icebound tomeliths will be either large or small, with large tomeliths co
 機能が有効化され、プレイヤーが破壊できる「起動状態」があります。
 試合開始時はすべてのアイスドトームリスが停止していますが、
 しばらくすると、ランダムでいくつかの地点のアイスドトームリスが起動します。
-一度破壊されたアイスドトームリスは再起動することはなく、
-時間経過に応じて、まだ起動していない地点のものが、順々に起動していきます。
-起動パターンは試合ごとに異なり、試合序盤に集中して起動する場合もあれば、
-試合を通して一定のリズムで起動する場合もありますが、
-最終的には、すべてのアイスドトームリスが起動します。
+破壊されたアイスドトームリスは一定時間後に「停止状態」で再出現します。
 
 <var 48 F201FA /var><var 49 F201FB /var>■アイスドトームリスのサイズ■<var 49 01 /var><var 48 01 /var>
 アイスドトームリスには、「小」と「大」の2種類のサイズがあり、
@@ -2399,6 +2393,8 @@ Up to 24 players may join an Ocean Fishing voyage, solo or in parties of up to e
 ■How to Participate
 Speak with Dryskthota at the ferry docks to register as a crew member and board the <var 1A 02 /var>Endeavor<var 1A 01 /var>. Registration periods last for 15 minutes and occur every two hours (Earth time). If registering as a party, the party leader must register. The ship will depart when 24 crew members have been assembled or the registration period has ended, even if there are fewer than 24 crew members. Registration times may be viewed from the Sailing Schedule.
 
+Progressing through the main scenario will give access to an additional route known as the Ruby route. Details on how to  unlock this route can be found from the Sailing Schedule.
+
 ■Rewards
 By meeting certain conditions while fishing during the voyage, players will receive achievements that reward special titles, mounts, and minions. Fishers who are level 50 or above and have completed the requisite quest may also receive gatherers' scrips as rewards.","■基本情報
 オーシャンフィッシングには、ソロ、またはパーティで参加でき、
@@ -2416,7 +2412,13 @@ By meeting certain conditions while fishing during the voyage, players will rece
 受付後、乗船人数である24人に達するごとに船が用意され出港していきます。
 また、受付人数が24人に満たない場合でも、
 受付開始時刻から15分が経過した段階で出港となります。
-なお、受付開始時刻は、「エンデバー号運行表」より確認できます。
+なお、受付開始時刻は、「運行表」より確認できます。
+
+メインクエストを進行することで、
+「遠洋行きの航路」に乗船できるようになります。
+これ以降、乗船時に「近海行きの航路」と「遠洋行きの航路」の２つの航路から、
+向かいたい航路を選択してから出港することになります。
+航路の開放条件については、「運行表」より確認できます。
 
 ■報酬
 船上での釣りにより、特定の条件を満たすことで、
@@ -4397,10 +4399,10 @@ PvPプロフィールの勝敗数やアチーブメントにはカウントさ�
 "","A player's riser and tier indicate their demonstrated skill in ranked Crystalline Conflict matches.","「階級」と「階位」は、ランクマッチに参加することで変動する、
 プレイヤーの実力を示すためのシステムです。","","False","0x0000024E","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Tier■<var 49 01 /var><var 48 01 /var>
-Each player will rate in one of six tiers─Bronze, Silver, Gold, Platinum, Diamond, or Crystal. Once they have attained a particular tier, a player will never drop down to a lower tier during that season.
+Each player will rate in one of six tiers─Bronze, Silver, Gold, Platinum, Diamond, or Crystal. Players ranked in or below the Platinum tier will never drop down to a lower tier during that season. However, it is possible to drop to a lower tier from the Diamond or Crystal tiers.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Riser■<var 49 01 /var><var 48 01 /var>
-The sub-levels within each tier are called “risers.” The number of risers varies per tier, with three risers each for Bronze and Silver, four for Gold and Platinum, and five within the Diamond tier. Unlike tiers, it is possible to drop down to a lower riser.
+The sub-levels within each tier are called “risers.” The number of risers varies per tier, with three risers each for Bronze and Silver, four for Gold and Platinum, and five within the Diamond tier. Regardless of tier placement, it is always possible for players to drop down to a lower riser.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Rising Stars■<var 49 01 /var><var 48 01 /var>
 When you win a ranked match, you will gain one Rising Star. Similarly, a loss will remove one Star. Once you have earned the maximum three Rising Stars in one riser, an additional win will allow you to move up a riser. Winning three or more matches in a row while in the Bronze, Silver, Gold, Platinum, or Diamond tier will apply a streak bonus, netting you two Rising Stars per win.
@@ -4413,14 +4415,16 @@ At the end of each season, the tier and risers of all participants will be lower
 「ブロンズ」、「シルバー」、「ゴールド」、
 「プラチナ」、「ダイヤモンド」、「クリスタル」の、
 6段階の「階級」が存在します。
-そのシーズン中に一度でも到達した階級から下の階級に下がることはありません。
+「プラチナ」以下の階級では、
+そのシーズン中に一度でも到達した階級から、下の階級に下がることはありません。
+ただし、「ダイヤモンド」と「クリスタル」では下の階級に下がることがあります。
 
 <var 48 F201FA /var><var 49 F201FB /var>■階位■<var 49 01 /var><var 48 01 /var>
 各階級には「階位」と呼ばれる段階があります。
 階位の段階は階級によって異なり、
 ブロンズ、シルバーは3段階、ゴールド、プラチナは4段階、
 ダイヤモンドは5段階となります。
-階級とは異なり、下の階位に下がることがあります。
+階位はどの階級においても下の階位に下がることがあります。
 
 <var 48 F201FA /var><var 49 F201FB /var>■勝ち星■<var 49 01 /var><var 48 01 /var>
 ランクマッチの勝敗に応じて「勝ち星」が増減します。
@@ -5778,7 +5782,7 @@ Free-range Minions menu and get started.","ミニオン放し飼いは、
 「島内ミニオン管理」画面で行うことができます。","","False","0x000002E5","",""
 "","■Release the Minions!
 The Free-range Minions menu displays the current population of released minions in each available area. After selecting your desired area, press Select Minions and let loose your tiny friends via subcommand.
-<var 48 F201FA /var><var 49 F201FB /var>You can release one of each minion, up to a maximum of 40 minions.<var 49 01 /var><var 48 01 /var>
+<var 48 F201FA /var><var 49 F201FB /var>You can release one of each minion, up to a starting maximum of 40 minions. You will be able to release more minions as your island development progresses.<var 49 01 /var><var 48 01 /var>
 
 Please note that your minions are enjoying this island paradise as much as you are, and may therefore seem different than they do when accompanying you on your journeys.
 
@@ -5790,7 +5794,9 @@ From the Free-range Minions menu, use the “Retrieve Minion” subcommand on th
 ミニオンを放せる場所と、そのエリアに現在いるミニオンが表示されています。 
 放したい場所を選んだ後、「ミニオンを放す」を選択することで、 
 所持しているミニオンから選択したミニオンを放すことができます。
-<var 48 F201FA /var><var 49 F201FB /var>ミニオンは1種類につき1体、最大40体まで放すことができます。<var 49 01 /var><var 48 01 /var> 
+<var 48 F201FA /var><var 49 F201FB /var>ミニオンは1種類につき1体、放すことができます。
+初期は最大40体まで放すことができますが、
+開拓を進めることで最大数が増加します。<var 49 01 /var><var 48 01 /var> 
 
 なお、無人島に放しているミニオンは、
 無人島を楽しむことに夢中になっているので、
@@ -7056,10 +7062,11 @@ Standing upon a trick floor for too long will trigger a Tatami Twist, launching 
 畳返しを受けるとプレイヤーはダメージを受け、ノックアップされます。
 また、「防御」の効果中に畳返しを受けると、防御の効果が解除されます。","","False","0x00000380","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Trick Door■<var 49 01 /var><var 48 01 /var>
-Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless.","<var 48 F201FA /var><var 49 F201FB /var>■からくり扉■<var 49 01 /var><var 48 01 /var>
+Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless, and players may discover that passage is denied entirely whilst executing certain actions.","<var 48 F201FA /var><var 49 F201FB /var>■からくり扉■<var 49 01 /var><var 48 01 /var>
 ステージの壁面に設けられた特殊な扉で、
 この扉に近づいたプレイヤーは、離れた位置にある出口へ瞬時に移動します。
-からくり扉は一方通行になっており、出口側から入口側に戻ることはできません。","","False","0x00000381","",""
+からくり扉は一方通行になっており、出口側から入口側に戻ることはできません。
+また、一部のアクションの実行中は移動できません。","","False","0x00000381","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Pneumatic Parades■<var 49 01 /var><var 48 01 /var>
 When a pneumatic parade begins, the clockwork onmyoji and clockwork yojimbo will join the fray. These puppets travel a predetermined path through the arena and unleash their unique attacks upon arriving in the vicinity of the centerpoint, checkpoints, and goals.
 
@@ -7085,4 +7092,464 @@ While the clockwork yojimbo will obliterate its surroundings with strong physica
 出現した大判小判にプレイヤーが触れることで以下の効果を獲得できます。
 
 　・自身のリミットゲージが増加する。","","False","0x00000383","",""
+"","Island Sanctuary Furnishings","無人島庭具投影","","False","0x00000384","",""
+"","Furnishing Glamours","無人島庭具投影について","","False","0x00000385","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>Furnishings may be placed on your island sanctuary as glamours, allowing you to further personalize your tropical hideaway.<var 49 01 /var><var 48 01 /var>","「無人島庭具投影」とは、
+<var 48 F201FA /var><var 49 F201FB /var>自身が所持している庭具の幻影を無人島に投影し、
+自分好みに、景観を飾り付けることができる機能です。<var 49 01 /var><var 48 01 /var>","","False","0x00000386","",""
+"","■Placing Furnishing Glamours
+<var 48 F201FA /var><var 49 F201FB /var>The furnishings that appear on your island are glamours of furnishing items you own.<var 49 01 /var><var 48 01 /var>
+
+Select “Manage Furnishings” from the islekeep's index to place, color, or preview available furnishings.","■無人島に「無人島庭具」を投影配置する
+<var 48 F201FA /var><var 49 F201FB /var>無人島では、庭具そのものではなく、幻影に変換した「無人島庭具」を投影・配置します。<var 49 01 /var><var 48 01 /var>
+
+島内への無人島庭具の投影配置は、
+無人島HUDのメインメニュー「庭具管理」から、
+「庭具の投影配置」を選ぶことで実行できます。","","False","0x00000387","",""
+"","You only need to possess one of any given furnishing item to place it as many times as you'd like on your island─within reason, of course.
+
+There is a limit to the number of furnishing items allowed on your island at once. This number will increase as island development progresses.
+
+Glamours may be placed in areas designated for furnishing. However, some existing furnishing items are not compatible with glamours and therefore cannot be placed anywhere on your island.
+
+<var 48 F201FA /var><var 49 F201FB /var>You do not need prisms to place furnishing glamours, and furnishing items will remain in your inventory even after you have placed them as glamours. However, please note that placing a glamour will bind the furnishing item to you, preventing future trade or sale to other players.<var 49 01 /var><var 48 01 /var>
+
+■Registering Glamours
+<var 48 F201FA /var><var 49 F201FB /var>Island prisms may be used to register furnishing glamours.<var 49 01 /var><var 48 01 /var> Registered glamours may be placed as many times as desired via the Registered Glamours list, which can be toggled to from the Furnishing Glamours window.
+
+<var 48 F201FA /var><var 49 F201FB /var>You may register up to 120 furnishing glamours.<var 49 01 /var><var 48 01 /var>
+
+You can register a furnishing glamour in the following ways:
+①Via the subcommand of the item while managing island furnishings
+②Via the subcommand of the glamour in your Placed Glamours list
+③Via the prompt when placing a glamour
+④Via the prompt when removing a glamour
+
+■Coloring Glamours
+Furnishing glamours may be painted by selecting “Manage Furnishings” from the islekeep's index, followed by “Color Furnishing Glamours.”
+
+As with regular furnishings, dye is required to change the color of furnishing glamours.","庭具アイテムは1つ所持していれば、何度でも無人島内に投影配置できます。
+
+無人島庭具の投影配置数には、上限があります。
+投影配置数の上限は、無人島の開拓を進めることで増えていきます。
+
+無人島庭具は、拠点内の特定のエリア内に投影配置できます。
+ただし、アイテムヘルプに[無人島投影配置不可]と記載された一部の庭具は、
+例外的に投影配置することができません。
+
+<var 48 F201FA /var><var 49 F201FB /var>投影配置に使用した庭具アイテムは無くならず所持品に残りますが、
+無人島内に幻影を投影配置した段階で中古品となり、
+トレード、マーケット出品不可の属性がつきます。<var 49 01 /var><var 48 01 /var>
+
+■無人島庭具の登録
+<var 48 F201FA /var><var 49 F201FB /var>無人島庭具は、所持品から直接投影配置するほか、
+「無人島庭具管理リスト」に、アイルプリズムを1つ消費して登録ができます。<var 49 01 /var><var 48 01 /var>
+登録された無人島庭具は、リストから何度でも投影配置できます。
+
+登録された庭具は、「登録済み庭具リスト」のタブに切り替えることで、
+確認できます。
+
+<var 48 F201FA /var><var 49 F201FB /var>無人島庭具は、最大120個まで登録することができます。<var 49 01 /var><var 48 01 /var> 
+
+「無人島庭具管理リスト」への登録は、
+①所持品にある庭具アイテムのサブコマンド
+②「投影配置済み庭具リスト」のサブコマンド
+③投影配置時の確認
+④撤去時の確認
+から行うことができます。
+
+■無人島庭具の染色
+無人島庭具の染色は、
+無人島HUDのメインメニュー「庭具管理」から、
+「庭具の染色」を選ぶことでできます。
+
+染色には、カララントが必要となります。","","False","0x00000388","",""
+"","Fashion Accessory Basics","ファッションアクセサリーとは","","False","0x00000389","",""
+"","Types of Fashion Accessories","ファッションアクセサリーの種類について","","False","0x0000038A","",""
+"","Hotbar Settings","演出用EXホットバーについて","","False","0x0000038B","",""
+"","Accessory Display Conditions","表示中の行動について","","False","0x0000038C","",""
+"","Auto-umbrella","パラソルの自動使用について","","False","0x0000038D","",""
+"","Looking to add that extra bit of flair to your favorite glamour? Why not try a fashion accessory on for size?","あなたの姿を素敵に飾る「ファッションアクセサリー」についてご紹介します。","","False","0x0000038E","",""
+"","To add a fashion accessory to your collection, use the corresponding item in your inventory. To equip your new accessory or assign it to the hotbar for later use, open the Fashion Accessories window from the Character section of the main menu.
+
+You may stow your current accessory via the “Use” subcommand in the Fashion Accessories menu, or by selecting “Put Away” on the pet hotbar.
+
+<var 48 F201FA /var><var 49 F201FB /var>※Fashion accessories are unavailable in dungeons and certain other areas. <var 49 01 /var><var 48 01 /var>","ファッションアクセサリーを楽しむためには、エモートやマウントと同様に、
+まずは専用のアイテムを使い、アクションを修得します。
+
+修得したアクションは「マイキャラクター」「ファッションアクセサリー」
+に追加され、こちらをホットバーに登録して実行、表示してください。
+
+表示しているファッションアクセサリーをしまいたい場合は、
+アクションを再度実行するか、
+演出用EXホットバーから「しまう」を実行してください。
+
+<var 48 F201FA /var><var 49 F201FB /var>ダンジョンなど一部のエリアではファッションアクセサリーを使用できません。<var 49 01 /var><var 48 01 /var>","","False","0x0000038F","",""
+"","Many types of fashion accessories can be found throughout the realm, including colorful parasols and umbrellas, stylish glasses, and wings of all shapes and sizes.
+
+Some accessories come with unique actions─for example, equipping an umbrella or parasol will allow you to perform an umbrella dance.","ファッションアクセサリーは、「パラソル」「羽」「眼鏡」など
+形状ごとにいくつか種類があります。
+
+パラソルなど一部のファッションアクセサリーは、
+専用の演出アクションを使うことができます。","","False","0x00000390","",""
+"","The world of fashion is ever-changing, and new innovations may give rise to more types of accessories in the future. Keep an eye out for the latest trends!","ファッションアクセサリーの種類は今後も少しずつ増えていく予定です。
+アップデートをお楽しみに！","","False","0x00000391","",""
+"","The pet hotbar will appear when a fashion accessory is equipped, allowing you to easily change poses and perform unique actions.
+
+By default, the pet hotbar automatically replaces a hotbar or cross hotbar. You may disable this function from the Hotbar Settings tab of the Character Configuration menu.
+
+■Disable Automatic Hotbar Replacement
+From the Character Configuration menu, select the Hotbar Settings tab. Uncheck “Automatically replace hotbar 1 when a fashion accessory is equipped.”","演出用EXホットバーは、ファッションアクセサリー使用中に行える
+専用アクションをまとめたホットバーです。
+
+ファッションアクセサリーを使用すると、
+ホットバー、クロスホットバーが演出用EXホットバーに自動的に切り替わります。
+
+演出用EXホットバーへの自動切り替えを無効にしたい場合は、
+キャラクターコンフィグのホットバー設定カテゴリから無効にできます。
+
+■ホットバーの設定方法
+ホットバー設定カテゴリの表示タブにある
+「ファッションアクセサリー実行時、ホットバー1を自動で切り替える」
+のチェックボックスをオフにすることで、自動切り替えが無効になります。","","False","0x00000392","",""
+"","Fashion accessories will remain equipped while you speak with NPCs, engage in battle, and ride mounts.
+
+Some accessories may disappear for a short time while performing certain actions, but they will remain equipped.
+
+For example, if a parasol is equipped, riding a mount will temporarily hide it, but the parasol will display again once you have dismounted.","NPCに話しかける、戦闘をする、マウントに乗るなど
+ゲームの内の様々な行動を開始する際、一部の例外を除き、
+表示中のファッションアクセサリーをしまう必要はありません。
+
+各行動、またはファッションアクセサリーの種類によっては、
+行動中は一時的に非表示になり、終了すると再び表示されるようになります。
+
+【例】
+パラソルをさした状態でマウントに騎乗すると、パラソルは一時非表示になり
+マウントから降りると再びパラソルが表示されます。","","False","0x00000393","",""
+"","Afeared of being soaked by a sudden downpour? Keep your favorite umbrella or parasol at the ready with the auto-umbrella feature!
+
+Simply open the Fashion Accessories window under Character in the main menu, then select “Enable Auto-umbrella” from the subcommands of your preferred umbrella or parasol. The accessory you selected will be brought out the moment the rain begins, and put away once the weather clears up or you find shelter.
+
+<var 48 F201FA /var><var 49 F201FB /var>※You may only set one auto-umbrella at a time.
+※The auto-umbrella function is disabled in certain areas.<var 49 01 /var><var 48 01 /var>","雨が降ったときに、任意のパラソルを自動でさすように設定することができます。
+
+メインコマンド「ファッションアクセサリー」から自動使用したいパラソルを選択し、
+サブコマンドから「雨天時に自動使用する」を選んで下さい。
+
+この設定を行うと屋外で雨が降った際に、
+設定したパラソルを自動でさすようになり、雨が止んだとき、
+または同一エリアの屋内や、雨が降っていない別のエリアに移動したときに、
+自動でしまうようになります。
+
+<var 48 F201FA /var><var 49 F201FB /var>※自動使用を設定できるパラソルは1つのみです。
+※一部のエリアでは自動使用の設定が無効になります。<var 49 01 /var><var 48 01 /var>","","False","0x00000394","",""
+"","Fashion Accessories","ファッションアクセサリー","","False","0x00000395","",""
+"","■Disable Automatic Cross Hotbar Replacement
+From the Character Configuration menu, select the Hotbar Settings tab. Uncheck “Automatically replace cross hotbar with pet hotbar.”","■クロスホットバーの設定方法
+ホットバー設定カテゴリのXHB基本タブにある
+「EXホットバー適用時、自動でEXホットバーに切り替える」
+のチェックボックスをオフにすることで、自動切り替えが無効になります。","","False","0x00000396","",""
+"","Gear Set Basics","ギアセットとは","","False","0x00000397","",""
+"","Purpose of Gear Sets","ギアセットの役割","","False","0x00000398","",""
+"","A <var 48 F201FA /var><var 49 F201FB /var>gear set<var 49 01 /var><var 48 01 /var> allows you to register and save your current equipment.
+
+Numerous gear sets can be registered to make efficient use of the <var 48 F201FA /var><var 49 F201FB /var>Armoury system<var 49 01 /var><var 48 01 /var>─by registering gear sets with different weapons or tools equipped to your main hand, you may switch between classes and jobs instantly without the need to manually equip each piece of gear.
+
+If you unlock a new class or job, you may find it helpful to register a gear set for it.","<var 48 F201FA /var><var 49 F201FB /var>「ギアセット」<var 49 01 /var><var 48 01 /var>とは、複数の装備品を組み合わせたセットのことで、
+事前に登録しておくことで、一括して着替えることができます。
+ひとつのクラスかジョブに対して、
+内容の異なる複数のギアセットを登録できます。
+
+メインアームを持ち替えることで実行される、
+<var 48 F201FA /var><var 49 F201FB /var>「アーマリーシステム」<var 49 01 /var><var 48 01 /var>によるクラスチェンジ・ジョブチェンジも、
+ギアセットによる切り替えで、全身の装備変更と同時に行うことが可能です。
+
+新しいクラスかジョブを開放したら、
+まずはギアセットの登録をしてみましょう。
+","","False","0x00000399","",""
+"","Making the Most of Gear Sets","ギアセットを使いこなす","","False","0x0000039A","",""
+"","Using Gear Sets","ギアセットの使い方","","False","0x0000039B","",""
+"","Firstly, let's create a gear set using the items you currently have equipped.
+
+■How to Register a Gear Set
+1. Open Character from the main menu, then select the <var 48 F201FA /var><var 49 F201FB /var>Gear Set List button<var 49 01 /var><var 48 01 /var> on the top right.
+2. A new window will be displayed. Select the <var 48 F201FA /var><var 49 F201FB /var>plus button<var 49 01 /var><var 48 01 /var> found in the top left corner.
+3. Your current equipment will now be registered as a new gear set.
+
+■How to Equip a Gear Set
+1. Open Gear Set List and select the desired gear set.
+2. Confirm your selection with the <var 48 F201FA /var><var 49 F201FB /var>Equip Set button<var 49 01 /var><var 48 01 /var> at the bottom of the window.
+
+An “E” icon next to a gear set indicates your currently equipped selection.","まずは現在身につけている装備品を、ギアセットに登録してみましょう。
+
+■ギアセットの登録方法
+１．メインコマンド「マイキャラクター」から「ギアセットリスト」を開く
+２．表示された画面の左上にある<var 48 F201FA /var><var 49 F201FB /var>「＋」ボタン<var 49 01 /var><var 48 01 /var>を選択する
+３．現在の装備状態がギアセットとして登録される
+
+■ギアセットで装備を変更する方法
+１．「ギアセットリスト」から、着替えたいギアセットを選択する
+２．画面下部の<var 48 F201FA /var><var 49 F201FB /var>「装備を変更する」ボタン<var 49 01 /var><var 48 01 /var>を実行する
+
+現在使用しているギアセットには、
+装備中を示す[E]アイコンが表示されます。
+","","False","0x0000039C","",""
+"","","","","False","0x0000039D","",""
+"","Useful Commands","便利な機能","","False","0x0000039E","",""
+"","The gear set list includes many useful subcommands which can allow you to quickly check the equipment in a set, rename a set, or reorder the list itself.","ギアセットリストのサブコマンドには、
+登録したギアセットの内容確認や、ギアセットの並び順を入れ替えたり、
+ギアセット自体に名前をつけたりする便利な機能があります。
+","","False","0x0000039F","",""
+"","■Display Set
+Display the equipment registered to the gear set in a slot-specific list.
+
+■Preview
+View your character wearing the selected gear set.","■登録内容を確認する
+そのギアセットに登録した、各部位の装備を確認することができます。
+
+■ギアセットプレビュー
+選択したギアセットを装備した、自分のキャラクターを見ることができます。
+","","False","0x000003A0","",""
+"","Updating Gear Sets","ギアセットの内容を更新する","","False","0x000003A1","",""
+"","Changes to your equipment can easily be reflected to your currently selected gear set.
+
+■How to Update Gear Sets
+1. Open Character from the main menu.
+2. Press the <var 48 F201FA /var><var 49 F201FB /var>Update Gear Set button<var 49 01 /var><var 48 01 /var> in the top right corner.
+
+Remember to update your gear sets whenever you upgrade your equipment or make changes to materia!","装備中の内容を変更した際は、
+現在適用しているギアセットに、上書き登録することができます。
+
+■ギアセット登録内容の更新
+１．メインコマンド「マイキャラクター」を開く
+２．画面右上の<var 48 F201FA /var><var 49 F201FB /var>「ギアセット更新」ボタン<var 49 01 /var><var 48 01 /var>を押す
+
+新しい装備を入手したり、マテリアを着脱したりして装備内容を変更したときは、
+ギアセットの更新を忘れずに行うようにしましょう。
+","","False","0x000003A2","",""
+"","■Reassign Set Number
+Directly assign a gear set number. Using an existing gear set number will result in the two sets swapping numbers.
+
+■Move Set Up/Down
+Shift a gear set to the number above or below it on the list.
+※Deleted set numbers will be skipped.
+
+Make use of these commands to assign a convenient number or order to the gear sets you use most often.","■番号を変更する
+ギアセットに付与されている番号を、直接振りなおします。
+入力した番号が他のギアセットで使用されていた場合、
+双方のギアセットの番号が入れ替わります。
+
+■ひとつ上のギアセットと入れ替える／ひとつ下のギアセットと入れ替える
+登録中のギアセットのリストの番号を入れ替えます。
+※削除され欠番となっている番号はスキップされます。
+
+よく使用するギアセットを、使いやすい番号や順番に整理するなど、
+自由に活用してみましょう。
+","","False","0x000003A3","",""
+"","■Link to Glamour Plate
+You can change the outward appearance of gear sets by linking them to <var 48 F201FA /var><var 49 F201FB /var>glamour plates<var 49 01 /var><var 48 01 /var>. Furthermore, by registering the same equipment as multiple gear sets, each set can be linked a different glamour plate, allowing you to switch looks to match your current mood at the touch of a button!
+
+After linking a gear set, the glamour plate's number will be displayed to the right of the list. Please note that glamour plates can only be applied to equipment while within areas that classify as sanctuaries.
+
+■Remove Glamour Plate Link
+Links to glamour plates can be removed with the gear set subcommand. Existing links must also be removed before you will be able to assign a different glamour plate.
+
+■Creating Glamour Plates
+Read the section in this guide entitled “Customizing Ensembles” to learn more about creating glamour plates.","■ミラージュプレートを関連付ける
+ギアセットには、<var 48 F201FA /var><var 49 F201FB /var>「ミラージュプレート」<var 49 01 /var><var 48 01 /var>を関連付けすることができます。
+関連付けをしたギアセットへと切り替えた際に、
+ミラージュプレートの見た目が、自動的に適用されるようになります。
+
+また、同じ装備品を複数のギアセットに登録した際、
+それぞれのギアセットに異なるミラージュプレートを関連付けておけば、
+同じ装備品を身に着けながら、その時の気分でさまざまな服装を楽しめます。
+
+ミラージュプレートが関連付けされたギアセットには、
+リスト右側にミラージュプレートの番号が表示されます。
+
+ただし、ミラージュプレートを装備に適用できるのは、
+都市などのレストエリアのみになりますので、ご注意ください。
+
+■関連付けを解除したい場合
+関連付けしたギアセットのサブコマンドから、
+「ミラージュプレートの関連付けを解除する」を選択します。
+ほかのミラージュプレートと関連付けする場合も、一度解除する必要があります。
+
+■ミラージュプレートの設定方法
+ヘルプ内「コーディネートを楽しむ」の、
+「ミラージュプレート」の項目をご確認ください。
+","","False","0x000003A4","",""
+"","","","","False","0x000003A5","",""
+"","■Change Set Name
+Your current class or job will become the default name for a newly registered set. You can use the subcommand to change this name freely, a function which comes in especially useful when creating multiple sets for the same class/job.
+
+■Delete Set
+Remove unwanted sets from the list. The numbers assigned to these sets will also be removed.","■名前を変更する
+ギアセット名を、好きな名前に変更することができます。
+新規ギアセットを登録するとクラス・ジョブの名称が付与されるため、
+ひとつのクラス・ジョブで複数のギアセットを登録する場合、
+リスト上でわかりやすい名前に変更しておくとよいでしょう。
+
+■削除する
+不要になったギアセットをリストから削除します。
+削除されたギアセットの番号は、欠番となります。
+","","False","0x000003A6","",""
+"","","","","False","0x000003A7","",""
+"","Customizing Ensembles","コーディネートを楽しむ","","False","0x000003A8","",""
+"","","","","False","0x000003A9","",""
+"","A Picture of You","ポートレートで自己紹介","","False","0x000003AA","",""
+"","Fashion Functionality","コーディネート関連機能","","False","0x000003AB","",""
+"","While much of the equipment in FINAL FANTASY XIV provides advantages in battle, certain pieces are worn purely for the sake of fashion. Mix and match your favorite fashion items to create a style all your own!
+
+A special sidequest will unlock customization options allowing you to use these favored pieces to change the appearance of other equipment. Combined with the flexibility of gear sets, you control how you wish to look as you forge ahead on your adventures.","ファイナルファンタジーXIVでは、
+戦闘などに関する性能の高い装備だけでなく、
+見た目を楽しむことに特化した、オシャレ用の装備も存在します。
+
+手に入れたお気に入りの装備を組み合わせ、
+あなただけのコーディネートを作ってみましょう！
+
+コーディネートのカスタマイズ機能のなかには、
+装備の見た目だけをほかの装備へ投影できる機能などがあり、
+特定のサブクエストを完了することで開放できます。
+ギアセットと合わせて活用することで、
+さまざまなオシャレを楽しみながら冒険を進められます。
+","","False","0x000003AC","",""
+"","Casting Glamours","武具投影","","False","0x000003AD","",""
+"","Glamours are a means of projecting the appearance of one piece of equipment onto another. This can be accomplished with the subcommand on the item you wish to alter, or by using Cast Glamour from Actions & Traits.
+
+Casting glamours requires catalysts known as <var 48 F201FA /var><var 49 F201FB /var>glamour prisms<var 49 01 /var><var 48 01 /var>, with one prism being consumed per cast. Among other sources, glamour prisms can be obtained from the market board or from Grand Company quartermasters.
+
+The presence of a glamour is indicated by a symbol in the upper right corner of the item icon. Removing glamours requires the use of <var 48 F201FA /var><var 49 F201FB /var>glamour dispellers<var 49 01 /var><var 48 01 /var>, which are also available from market boards or certain vendors. 
+
+<var 48 F201F4 /var><var 49 F201F5 /var>※Please note that, for the illusion to take effect, the projected gear must be compatible with the glamoured gear's level, class, race, and gender.<var 49 01 /var><var 48 01 /var>","「武具投影」とは、
+お気に入りの装備品のデザインを他の装備品に投影して、
+見た目を変えて楽しむことができる機能です。
+
+武具投影は、見た目を変更したい装備品のサブコマンドや、
+アクションリストなどから行うことができます。
+
+武具投影には<var 48 F201FA /var><var 49 F201FB /var>「ミラージュプリズム」<var 49 01 /var><var 48 01 /var>と呼ばれる専用の触媒が必要で、
+投影1回につき1つ消費します。
+ミラージュプリズムは、
+マーケットボードやグランドカンパニー内の補給担当官などから入手できます。
+
+武具投影を解除して元の見た目に戻したくなった場合は、
+ショップやマーケットボードで入手できる<var 48 F201FA /var><var 49 F201FB /var>「ミラージュディスペラー」<var 49 01 /var><var 48 01 /var>を使います。
+
+装備品への武具投影の状態は、アイテムアイコンの右上の印で確認できます。
+
+<var 48 F201F4 /var><var 49 F201F5 /var>※性別、種族、クラス・ジョブなど、装備するキャラクターが、
+投影アイテムの装備条件に合わない場合、投影状態は反映されません。<var 49 01 /var><var 48 01 /var>
+","","False","0x000003AE","",""
+"","Glamour Plates","ミラージュプレート","","False","0x000003AF","",""
+"","Created using the glamour dressers found inside inn rooms, glamour plates are a means of projecting an entire ensemble onto your gear. When designing a glamour plate, the equipment you wish to project must be stored inside a glamour dresser or armoire.
+
+Ensembles saved to a glamour plate are applied with a single command, and can be projected over and over again without consuming glamour prisms. You can also use the gear set subcommand to link to plates, and instantly don your saved appearance by switching to the linked set.","「ミラージュプレート」とは、
+全身の装備を一括して武具投影することが可能になる、便利な機能です。
+
+ミラージュプレートでコーディネートを作成する際の装備品は、
+「ミラージュドレッサー」か「愛蔵品キャビネット」に収納する必要があります。
+ミラージュプレートの作成は、
+ミラージュドレッサーが置いてある、各都市の宿屋で行うことができます。
+
+ミラージュプレートに保存されたコーディネートは、
+触媒不要で一括投影できるので、何度でも気軽に楽しむことができます。
+ギアセットのサブコマンドからミラージュプレートを関連付けしておくと、
+着替えた際に自動的にコーディネートが投影されます。
+","","False","0x000003B0","",""
+"","Glamour Dresser","ミラージュドレッサー","","False","0x000003B1","",""
+"","Glamour dressers are available in every inn room, and can be used to store equipment as glamours. Any type of gear can be stored free of charge, up to the dresser's maximum capacity.
+
+The initial transformation consumes one <var 48 F201FA /var><var 49 F201FB /var>glamour prism<var 49 01 /var><var 48 01 /var> per item, but once glamoured gear has been added to a glamour plate, it can be projected onto your equipment as many times as you like at no cost.","「ミラージュドレッサー」とは、
+装備品を<var 48 F201FA /var><var 49 F201FB /var>「幻影」<var 49 01 /var><var 48 01 /var>に変えて預けておくことができる保管庫です。
+各都市の宿屋に設置されており、自由に使用できます。
+
+ミラージュドレッサーの利用は無料で、
+全ての装備品を預けることができますが、保管数には上限があります。
+
+幻影化には触媒の<var 48 F201FA /var><var 49 F201FB /var>「ミラージュプリズム」<var 49 01 /var><var 48 01 /var>を、1アイテムにつき1つ消費しますが、
+保管した「幻影」でミラージュプレートを作成することによって、
+装備品に繰り返し投影することができます。
+","","False","0x000003B2","",""
+"","Armoire","愛蔵品キャビネット","","False","0x000003B3","",""
+"","Available in inn rooms or placed as furnishings in player estates, armoires are used to store artifact armor, seasonal event costumes, achievement rewards, bonus items, and other specific gear.
+
+An unlimited amount of equipment can be stored in the armoire at no cost, but please note that any dyes, crests, or glamours will be removed. Additionally, spiritbond will be reset to 0% and durability will be set to 100%.
+
+If you wish to keep dyes when storing items, or wish to use dyed items to cast glamours, the glamour dresser is the more suitable choice.","「愛蔵品キャビネット」とは、
+特定の装備品を預けておくことができる保管庫です。
+各都市の宿屋に設置されているほか、ハウジングの調度品としても設置できます。
+
+特定の装備品には、アーティファクト装備、アチーブメント報酬、
+シーズナルイベントで取得した装備、購入特典装備などが該当します。
+
+愛蔵品キャビネットの利用は無料で、保管数の制限もありませんが、
+収納時に染色やクレスト、武具投影などの外見情報はクリアされ、
+錬精度は0％、耐久度は100％にリセットされますので、ご注意ください。
+
+染色の情報を残して保管したい場合や、染色してから投影したい場合は、
+ミラージュドレッサーに保管するようにしましょう。
+","","False","0x000003B4","",""
+"","Dyeing Equipment","装備品の染色","","False","0x000003B5","",""
+"","You can change the coloring of various gear and furnishing items through the use of <var 48 F201FA /var><var 49 F201FB /var>dyes<var 49 01 /var><var 48 01 /var>, with one pot of dye being consumed for each distinct section of an item.
+
+Should you wish to restore gear to its original hue, a pot of terebinth removes the dye from a single item.
+
+Both dyes and terebinth are available from vendors and the market boards, and can also be crafted by Disciples of the Hand from level 30 onwards.
+
+Please note that not every piece of equipment is a candidate for dyeing. Items you can dye are marked with the corresponding symbol in the top right corner of their icons.","それぞれの装備品の色は<var 48 F201FA /var><var 49 F201FB /var>「カララント」<var 49 01 /var><var 48 01 /var>という万能染料を使い、
+染色アクションを行うことで、好きな色に変更できます。
+カララント1つで、１アイテムの特定部位の染色が1回行えます。
+カララントは装備品のほか、ハウジングアイテムにも使用できます。
+
+装備品を染色前の状態に戻したい場合、<var 48 F201FA /var><var 49 F201FB /var>「テレビン油」<var 49 01 /var><var 48 01 /var>を使います。
+テレビン油1つで、カララントによる染色を1回除去できます。
+
+カララント・テレビン油は、
+いずれもショップやマーケットボードなどで入手できます。
+カララントは、クラフターレベル30から製作で入手することも可能です。
+
+装備品には染色できるものと、できないものがあるため注意しましょう。
+染色の可否や状態は、アイテムアイコンの右上の印で確認できます。
+印があれば、染色可能です。
+","","False","0x000003B6","",""
+"","","","","False","0x000003B7","",""
+"","Portraits","ポートレート","","False","0x000003B8","",""
+"","Including options such as poses, expressions, camera angles, and picture frames, the portrait feature gives you the tools to create the perfect snapshot of your character.
+
+The portrait you compose will be displayed at a variety of times, including the commencement of dungeons and awarding player commendations, as well as the start of competitive matches such as Crystalline Conflict PvP and Doman mahjong in the Gold Saucer.
+
+To create a portrait, open Character from the main menu, and select Portraits. You can also open the portrait interface via the Edit Portrait subcommand in the gear set list.
+
+One portrait can be saved to each gear set. The portrait linked to your currently equipped gear set will be displayed as your instant portrait.
+
+For more information on how to edit your portraits, press the <var 48 F201FA /var><var 49 F201FB /var>? button<var 49 01 /var><var 48 01 /var> found at the bottom of the Portraits interface to access the corresponding guide.","「ポートレート」とは、
+キャラクターのポーズや表情、カメラアングルやフレームなどを組み合わせて、
+あなただけの「ポートレート（肖像画）」を作成する機能です。
+
+コンテンツ突入時やMIP推薦、PvPコンテンツ「クリスタルコンフリクト」や、
+ゴールドソーサーコンテンツ「ドマ式麻雀」開始時のメンバー紹介など、
+作成したポートレートは、ゲーム内の各所で掲示されます。
+
+ポートレートの作成は、
+メインコマンド「マイキャラクター」の「ポートレートの編集」、
+またはギアセットのサブコマンドから「ポートレートを編集する」を選択し、
+メニュー画面に移動することで開始できます。
+
+ポートレートは、ギアセットごとに1つ保存できます。
+装備中のギアセットに保存されたポートレートが、コンテンツ内で掲示されます。
+
+詳細なポートレートの編集方法は、
+メインコマンド「ポートレートの編集」で開かれるウィンドウの下部にある、
+「？」ボタンから「ポートレート機能解説」をご確認ください。
+","","False","0x000003B9","",""
+"","","","","False","0x000003BA","",""
+"","","","","False","0x000003BB","",""
+"","Display Set","登録内容の確認","","False","0x000003BC","",""
+"","Reordering Gear Sets","ギアセットの入れ替え","","False","0x000003BD","",""
+"","Link to Glamour Plate","ミラージュプレートとの関連付け","","False","0x000003BE","",""
+"","Managing Gear Sets","ギアセットの整理","","False","0x000003BF","",""
+"","Other Useful Features","その他の便利機能","","False","0x000003C0","",""
+"","","","","False","0x000003C1","",""
+"","","","","False","0x000003C2","",""
 

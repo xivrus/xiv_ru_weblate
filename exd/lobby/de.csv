@@ -491,7 +491,7 @@ Attribute zu Beginn des Spiels: STR <var 20 E802 /var> / GES <var 20 E804 /var> 
 "","<tab><tab>","<tab><tab>","","False","0x000001CF","",""
 "","The Lost<tab><tab>Unlike their Helion brethren, the Lost are unbound by the whims of any<nl>reigning monarch, having long since found themselves bereft of the<nl>warm radiance of their queen. Most find that a nomadic lifestyle<nl>best suits their situation, and are known to ply a variety of trades<nl>that align with their propensity to travel—seasonal laborer,<nl>mercenary, and peddler among them.","Die Losgesagten<tab><tab>Im Gegensatz zu ihren Brüdern, den Helions, fühlen sich diese<nl>Hrothgar nicht länger an ihren Stamm und ihr Oberhaupt gebunden.<nl>Sie bevorzugen ein freies Leben als tatkräftige Saisonarbeiter,<nl>unerschrockene Söldner oder geschickte Händler. Man nennt sie<nl>„Die Losgesagten“. Wie ein Komet, der fernab seiner Sonne durch<nl>die Finsternis des Firmaments zieht, verharren sie nie sehr lange an<nl>einem Ort und genießen ein Leben ohne Zwänge.","","False","0x000001D0","",""
 "","<tab><tab>","<tab><tab>","","False","0x000001D1","",""
-"","Rava<tab><tab>Viera of the Rava clan live primarily in the Golmore Jungle, their<nl>umber skin allowing them to readily blend in with their surroundings.<nl>Though the males stand as wards of the forest, the females are<nl>adept hunters in their own right, fiercely guarding their homes and<nl>their young. Despite attempts by the Dalmascans to subjugate<nl>them, they have ever maintained a self-governing dominion. Though<nl>most would adhere to the traditions of the wood, some few have<nl>chosen to venture out into the world.","Rava<tab><tab>Die dunkle Haut der Rava lässt sie durch den dichten Wald<nl>gleiten, als wären sie mit seinen tiefen Schatten verschmolzen.<nl>Sie sind die stolzen Beschützerinnen des heiligen Dschungels<nl>von Golmore, die jeden Eindringling mit zielsicheren Pfeilen und<nl>scharfen Speerspitzen willkommen heißen. Selbst die<nl>dalmascanische Herrschaft über das Gebiet vermochte es<nl>nicht, die alten Traditionen der Rava zu brechen und auch<nl>heute leben sie genauso wie schon vor hunderten von Jahren.<nl>Lediglich einzelne Beschützerinnen kehren ihrem Dschungel<nl>den Rücken, um die Außenwelt zu erkunden.","","False","0x000001D2","",""
+"","Rava<tab><tab>Viera of the Rava clan live primarily in the Golmore Jungle, their<nl>umber skin allowing them to readily blend in with their surroundings.<nl>Though the males stand as wards of the forest, the females are<nl>adept hunters and protectors in their own right, fiercely guarding their homes and<nl>their young. Despite attempts by the Dalmascans to subjugate<nl>them, they have ever maintained a self-governing dominion. Though<nl>most would adhere to the traditions of the wood, some few have<nl>chosen to venture out into the world.","Rava<tab><tab>Die dunkle Haut der Rava lässt sie durch den dichten Wald<nl>gleiten, als wären sie mit seinen tiefen Schatten verschmolzen.<nl>Sie sind die stolzen Beschützerinnen des heiligen Dschungels<nl>von Golmore, die jeden Eindringling mit zielsicheren Pfeilen und<nl>scharfen Speerspitzen willkommen heißen. Selbst die<nl>dalmascanische Herrschaft über das Gebiet vermochte es<nl>nicht, die alten Traditionen der Rava zu brechen und auch<nl>heute leben sie genauso wie schon vor hunderten von Jahren.<nl>Lediglich einzelne Beschützerinnen kehren ihrem Dschungel<nl>den Rücken, um die Außenwelt zu erkunden.","","False","0x000001D2","",""
 "","<tab><tab>","<tab><tab>","","False","0x000001D3","",""
 "","Veena<tab><tab>With skin as fair as the snowcapped mountains towering above, the<nl>Veena clan make their homes in the forests lining the southwestern<nl>foothills of the Skatay Range. Like the members of their sister clan,<nl>the Veena live as hunters and gatherers, laboring not only to protect<nl>the woods, but to nurture them. As the winds of war swept up a<nl>number of those who left their mountain homes, many such<nl>hardened hunters chose to set out for the distant shores of Eorzea.","Veena<tab><tab>Die Veena sind ein Volksstamm der Viera, deren helle Haut<nl>an die schneebedeckten Gipfel ihrer Heimat erinnert - das<nl>Skatay-Gebirge. Im Schatten seiner rauen Hänge leben sie seit<nl>Jahrhunderten als Jägerinnen und Sammlerinnen und meiden<nl>jeglichen Kontakt zu Fremden. Einzelne Angehörige der Veena<nl>kehrten diesen Traditionen den Rücken. Man munkelt, dass einige<nl>unter ihnen sich nach dem großen Krieg sogar nach Eorzea<nl>gewagt haben sollen.","","False","0x000001D4","",""
 "","<tab><tab>","<tab><tab>","","False","0x000001D5","",""
@@ -995,10 +995,15 @@ it is recommended, but not required, that you select a data center that is
 closer to where you will be playing. Legacy Worlds (servers existing since the
 original launch) are indicated in parentheses.
 
-<var 28 ((WorldDCGroupType)) E802 ((WORLDDCGROUPTYPE_NAME)) /var>, this World's data center, is recommended for residents of <var 08 E1E80401 ((<var 09 E804 ((Japan)) ((North America)) ((Europe)) ((Oceania)) /var>)) (()) /var>.<var 08 E1E80301 ((
+<var 28 ((WorldDCGroupType)) E802 ((WORLDDCGROUPTYPE_NAME)) /var>, this World's data center, is recommended for residents of <var 08 E1E80401 ((<var 09 E804 ((Japan)) ((North America)) ((Europe)) ((Oceania)) /var>)) (()) /var>.<var 08 E4E80301 ((
 
 <var 12 64 /var><var 48 F201FA /var><var 49 F201FB /var>EXP bonuses are currently being granted to all new players
-created on this world.<var 49 01 /var><var 48 01 /var>)) (()) /var><tab><tab>","„Welt“ bezeichnet einen Server für FINAL FANTASY XIV.
+created on this world.<var 49 01 /var><var 48 01 /var>)) (()) /var><var 08 E4E80303 ((
+
+<var 48 F201FE /var><var 49 F201FF /var>The creation of characters on this World is currently restricted. You must
+either wait for this restriction to be lifted, or create a character on another
+World. In the event you create a character on another World, you may use the
+World Visit system to play on this one.<var 49 01 /var><var 48 01 /var>)) (()) /var><tab><tab>","„Welt“ bezeichnet einen Server für FINAL FANTASY XIV.
 Die Welt kann im Nachhinein nicht ohne besondere Maßnahmen gewechselt
 werden. Wenn du mit deinen Freunden zusammen spielen möchtest,
 solltest du die gleiche Welt wählen, auf der auch deine Freunde spielen.
@@ -1009,9 +1014,11 @@ Es wird empfohlen, eine Welt zu wählen, die deinem Standort entspricht,
 aber grundsätzlich ist jede Welt wählbar. „Legacy“ bedeutet, dass die Welt
 von Version 1.x weitergeführt wird.
 
-Gegenwärtig ausgewähltes Datenzentrum: <var 28 ((WorldDCGroupType)) E802 ((WORLDDCGROUPTYPE_NAME)) /var> (für <var 08 E1E80401 ((<var 09 E804 ((Japan)) ((Nordamerika)) ((Europa)) ((Ozeanien)) /var>)) (()) /var> empfohlen)<var 08 E1E80301 ((
+Gegenwärtig ausgewähltes Datenzentrum: <var 28 ((WorldDCGroupType)) E802 ((WORLDDCGROUPTYPE_NAME)) /var> (für <var 08 E1E80401 ((<var 09 E804 ((Japan)) ((Nordamerika)) ((Europa)) ((Ozeanien)) /var>)) (()) /var> empfohlen)<var 08 E4E80302 ((
 
-<var 12 64 /var><var 48 F201FA /var><var 49 F201FB /var>Charaktere, die neu auf dieser Welt erstellt werden, erhalten momentan einen Routine-Bonus.<var 49 01 /var><var 48 01 /var>)) (()) /var><tab><tab>","","False","0x00000334","",""
+<var 12 64 /var><var 48 F201FA /var><var 49 F201FB /var>Charaktere, die neu auf dieser Welt erstellt werden, erhalten momentan einen Routine-Bonus.<var 49 01 /var><var 48 01 /var>)) (()) /var><var 08 E4E80303 ((
+
+<var 48 F201FE /var><var 49 F201FF /var>In dieser Welt können momentan keine neuen Charaktere mehr erschaffen werden. Du kannst warten, bis wieder Platz frei wird, oder es in einer anderen Welt versuchen. Es ist auch möglich, mit einem Charakter einer anderen Stammwelt auf dieser Welt zu spielen, wenn du die Weltenreise nutzt.<var 49 01 /var><var 48 01 /var>)) (()) /var><tab><tab>","","False","0x00000334","",""
 "","(Skipped)<tab><tab>","(übersprungen)<tab><tab>","","False","0x00000335","",""
 "","Save <var 09 E803 ((<var 28 ((Tribe)) E80201 /var> male)) ((<var 28 ((Tribe)) E80202 /var> female)) /var> character creation data to slot <var 20 E804 /var>?<tab><tab>","Die Daten (Aussehen, Name, Klasse etc.) für den Charakter „<var 09 E803 ((<var 28 ((Tribe)) E80201 /var>♂)) ((<var 28 ((Tribe)) E80202 /var>♀)) /var>“ werden vor<var 16 /var>über<var 16 /var>gehend in Speicherplatz <var 20 E804 /var> geschrieben.<tab><tab>","","False","0x00000336","",""
 "","Load character creation data for the <var 09 E805 ((male <var 28 ((Tribe)) E80401 /var>)) ((female <var 28 ((Tribe)) E80402 /var>)) /var> saved to slot <var 20 E803 /var> at <var 07 E802 /var><var 20 DB /var>:<var 24 DA /var> on <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>?<tab><tab>","Die Daten (Aussehen, Name, Klasse etc.) für den Charakter „<var 09 E805 ((<var 28 ((Tribe)) E80401 /var>♂)) ((<var 28 ((Tribe)) E80402 /var>♀)) /var>“ aus Speicherplatz <var 20 E803 /var> (erstellt: <var 07 E802 /var><var 20 DC /var>.<var 20 DE /var>.<var 20 DF /var> um <var 20 DB /var>:<var 24 DA /var> Uhr) werden eingelesen.<tab><tab>","","False","0x00000337","",""
@@ -1433,7 +1440,7 @@ Sieh dir bitte auch die Hinweise zur Weltenreise an.<tab><tab>","","False","0x00
 Auch dort gibt es wie gewohnt neue Freunde zu finden, Inhalte zu spielen oder Einkäufe zu tätigen<var 1D /var>- lebe dein Reisefieber also nach Herzenslust aus!
 
 ※ Bitte beachte, dass es auf anderen Datenzentren auch Ein<var 16 /var>schrän<var 16 /var>kungen gibt. Beispielsweise kann der Chat von Freien Ge<var 16 /var>sell<var 16 /var>schaften und Kontaktkreisen deines ursprünglichen Datenzentrums nicht genutzt werden.<tab><tab>","","False","0x00000483","",""
-"","データセンタートラベルの注意事項を確認<tab><tab>","データセンタートラベルの注意事項を確認<tab><tab>","","False","0x00000484","",""
+"","Using the Data Center Travel System<tab><tab>","Wichtige Hinweise zur Reise zwischen Datenzentren<tab><tab>","","False","0x00000484","",""
 "","注意事項について了承しました<tab><tab>","注意事項について了承しました<tab><tab>","","False","0x00000485","",""
 "","Select World<tab><tab>","Welten überprüfen<tab><tab>","","False","0x00000486","",""
 "","Cancel<tab><tab>","Abbrechen<tab><tab>","","False","0x00000487","",""
@@ -1551,9 +1558,13 @@ Logging in will place your character at the aetheryte of your starting nation.<t
 Dein Charakter wird beim Einloggen zum Ätheryten des Stadt<var 16 /var>staats befördert, in dem du begonnen hast.<tab><tab>","","False","0x000004CF","",""
 "","To visit other Worlds with this character, you must first return to your Home World and change your character's name.<tab><tab>","Um den Weltentransfer zu nutzen, musst du erst zu deiner Stammwelt zurückkehren und den Namen deines Charakters ändern.<tab><tab>","","False","0x000004D0","",""
 "","To visit other Worlds with this character, you must first return to your Home World and change your retainer's name.<tab><tab>","Um den Weltentransfer zu nutzen, musst du erst zu deiner Stammwelt zurückkehren und den Namen deines Gehilfen ändern.<tab><tab>","","False","0x000004D1","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004D2","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004D3","",""
-"","<tab><tab>","<tab><tab>","","False","0x000004D4","",""
+"","Your request for data center travel could not be processed, as you have never accessed Worlds in the selected region.
+From the Data Center Selection screen, please select any World in your desired region and proceed to the Character Selection screen. After doing so, you will be able to use the Data Center Travel system in that region.<tab><tab>","Die Reise zwischen den Datenzentren konnte nicht ausgeführt werden, weil zu <var 29 EA03 /var> noch keine vorherige Verbindung hergestellt wurde.
+Sobald du eines der Datenzentren von <var 29 EA03 /var> aus der Datenzentren-Auswahl des Titelbildschirms ausgewählt und dich mit dem Charakterbildschirm verbunden hast, kannst du zu Datenzentren dieser Region reisen.<tab><tab>","","False","0x000004D2","",""
+"","You have already reached the maximum number of characters allowed for this service account in the selected region.
+At least one unused character slot is required in your destination region when using the Data Center Travel system.<tab><tab>","Auf der Welt <var 29 EA02 /var> in <var 29 EA02 /var> hast du bereits die maximale Anzahl an dir verfügbaren Charakteren erreicht.
+Um auf die Welt eines Datenzentrums zu reisen, die einer anderen Region als der deiner Stammwelt zugeordnet ist, benötigst du Platz für mindestens einen Charakter.<tab><tab>","","False","0x000004D3","",""
+"","The selected character has yet to log out from a previous play session. Please wait and try accessing the subcommand menu again.<tab><tab>","Dieser Charakter hat den vorhergehenden Logout-Prozess noch nicht abgeschlossen. Bitte warte einen Moment und versuche es dann erneut.<tab><tab>","","False","0x000004D4","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004D5","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004D6","",""
 "","<tab><tab>","<tab><tab>","","False","0x000004D7","",""
@@ -2119,8 +2130,8 @@ Dein Charakter wird beim Einloggen zum Ätheryten des Stadt<var 16 /var>staats b
 "","<tab><tab>","<tab><tab>","","False","0x00000707","",""
 "","Are you certain you wish to leave the queue?<tab><tab>","Den Login-Prozess abbrechen?<tab><tab>","","False","0x00000708","",""
 "","You were automatically logged out due to extended inactivity.<tab><tab>","Du wurdest aufgrund längerer Inaktivität automatisch ausgeloggt.<tab><tab>","","False","0x00000709","",""
-"","<tab><tab>","<tab><tab>","","False","0x0000070A","",""
-"","<tab><tab>","<tab><tab>","","False","0x0000070B","",""
+"","<var 48 F201FE /var><var 49 F201FF /var>A registered license for <var 28 ((ExVersion)) E80201 /var> is required to select this race.<var 49 01 /var><var 48 01 /var><tab><tab>","<var 48 F201FE /var><var 49 F201FF /var>Für dieses Volk wird eine Lizenz für <var 28 ((ExVersion)) E80201 /var> benötigt.<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x0000070A","",""
+"","RGB: <var 20 E802 /var>,<var 20 E803 /var>,<var 20 E804 /var><tab><tab>","RGB: <var 20 E802 /var>, <var 20 E803 /var>, <var 20 E804 /var><tab><tab>","","False","0x0000070B","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070C","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070D","",""
 "","<tab><tab>","<tab><tab>","","False","0x0000070E","",""
@@ -2271,8 +2282,16 @@ Dein Charakter wird beim Einloggen zum Ätheryten des Stadt<var 16 /var>staats b
 "","Select your character's clan.<tab><tab>","Wähle einen Volksstamm aus.<tab><tab>","","False","0x0000079F","",""
 "","Select your character's gender.<tab><tab>","Wähle das Geschlecht deines Charakters.<tab><tab>","","False","0x000007A0","",""
 "","Customize your character's appearance.<tab><tab>","Bestimme das Aussehen deines Charakters.<tab><tab>","","False","0x000007A1","",""
-"","Specify your character's date of birth.<tab><tab>","Bestimme den Namenstag deines Charakters.<tab><tab>","","False","0x000007A2","",""
-"","Select your character's patron deity.<tab><tab>","Bestimme die Schutzgottheit deines Charakters.<tab><tab>","","False","0x000007A3","",""
+"","Specify your character's date of birth.
+
+<var 48 02 /var><var 49 25 /var>This selection has no effect on gameplay.<var 49 01 /var><var 48 01 /var><tab><tab>","Bestimme den Namenstag deines Charakters.
+
+<var 48 02 /var><var 49 25 /var>Dies hat keine Auswirkungen auf das Spielgeschehen. Entscheide ganz nach deinen Wünschen.<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x000007A2","",""
+"","Select your character's patron deity.
+
+<var 48 02 /var><var 49 25 /var>This selection has no effect on gameplay.<var 49 01 /var><var 48 01 /var><tab><tab>","Bestimme die Schutzgottheit deines Charakters.
+
+<var 48 02 /var><var 49 25 /var>Dies hat keine Auswirkungen auf das Spielgeschehen. Entscheide ganz nach deinen Wünschen.<var 49 01 /var><var 48 01 /var><tab><tab>","","False","0x000007A3","",""
 "","Select your starting class and city-state.<tab><tab>","Bestimme die Charakterklasse, mit der dein Charakter das Spiel beginnen soll.<tab><tab>","","False","0x000007A4","",""
 "","Select a World server on which to play.<tab><tab>","Bestimme den Weltenserver, auf dem dein Charakter erschaffen werden soll.<tab><tab>","","False","0x000007A5","",""
 "","Specify the first and last name of your character.<tab><tab>","Gib deinem Charakter einen Namen.<tab><tab>","","False","0x000007A6","",""
@@ -2495,7 +2514,11 @@ Danach kannst du den Namen selbst weiter bearbeiten.<tab><tab>","","False","0x00
 "","<var 07 E802 /var><var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var><tab><tab>","<var 07 E802 /var><var 20 DC /var>.<var 20 DE /var>.<var 20 DF /var><tab><tab>","","False","0x0000087D","",""
 "","Save Slot <var 20 E802 /var><tab><tab>","Speicherslot <var 20 E802 /var><tab><tab>","","False","0x0000087E","",""
 "","<var 09 E803 ((<var 28 ((Tribe)) E80201 /var> ♂)) ((<var 28 ((Tribe)) E80202 /var> ♀)) /var><tab><tab>","<var 09 E803 ((<var 28 ((Tribe)) E80201 /var>♂)) ((<var 28 ((Tribe)) E80202 /var>♀)) /var><tab><tab>","","False","0x0000087F","",""
-"","Save appearance data?<tab><tab>","Die Einstellungen speichern?<tab><tab>","","False","0x00000880","",""
+"","Save appearance data?
+
+Once saved, appearance data can be reused when creating another character.<tab><tab>","Die Einstellungen speichern?
+
+Bei Erschaffung eines neuen Charakters können sie geladen und bearbeitet werden.<tab><tab>","","False","0x00000880","",""
 "","Yes<tab><tab>","Ja<tab><tab>","","False","0x00000881","",""
 "","No<tab><tab>","Nein<tab><tab>","","False","0x00000882","",""
 "","Data is corrupted or format is different.

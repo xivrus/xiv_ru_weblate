@@ -597,6 +597,7 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 
 >>Glamour:
 　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
@@ -606,12 +607,18 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","/petmirage(/egimirage) ペットの名前 見た目
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/petglamour<tab>/petglam<tab>/petmirage<tab>","/petmirage(/egimirage) ペットの名前 見た目
 次以降に召喚するペットの見た目を変更する。
 ただし、PvPコンテンツ内では無効。
 >>ペットの名前
@@ -619,6 +626,7 @@ The glamour will be removed when no glamour is specified.
 ガルーダ・エギ
 タイタン・エギ
 イフリート・エギ
+フェアリー・エオス
 >>見た目
 カーバンクル
 カーバンクル・エメラルド
@@ -627,12 +635,19 @@ The glamour will be removed when no glamour is specified.
 イフリート・エギ
 タイタン・エギ
 ガルーダ・エギ
+フェアリー・セレネ
 ※設定ペット名省略(clear)
 　…ペットの見た目を元に戻す。
+※サブコマンド省略
+　…ペットの見た目の設定リストを出力する。
 
 実行例
 /petmirage ガルーダ・エギ カーバンクル・ルビー
-　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。<tab>/petmirage<tab><tab>/petmirage<tab>","","False","0x00000021","",""
+　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。
+/petmirage ガルーダ・エギ
+　…ガルーダ・エギの見た目を元に戻す。
+/petmirage
+　…ペットの見た目の設定リストを出力する。<tab>/petmirage<tab><tab>/petmirage<tab>","","False","0x00000021","",""
 "","USAGE:
 　/petsize [summon] [size]
 
@@ -1385,14 +1400,14 @@ USAGE:
 →Set a sign on the specified target. Uses current target when not specified.
 
 >>Sign Types:
-　<var 48 F201FA /var><var 49 F201FB /var>attack1-5<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>attack1-8<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>bind1-3<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>ignore1-2<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>circle<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>cross<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>square<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>triangle<var 49 01 /var><var 48 01 /var>
-　<var 48 F201FA /var><var 49 F201FB /var> off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
+<var 48 F201FA /var><var 49 F201FB /var>　off<var 49 01 /var><var 48 01 /var>/<var 48 F201FA /var><var 49 F201FB /var>clear<var 49 01 /var><var 48 01 /var>      Turns off sign.
 
 Opens and closes the Signs menu when no subcommand is specified.
 
@@ -1407,8 +1422,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　to target.)<tab>/enemysign<tab><tab>/marking<tab>/mk","/marking(/mk) タイプ 代名詞
 指定したキャラクターに指定したタイプのマーカーを設定する。代名詞を省略した場合は、現在ターゲット中のキャラクターを指定する。
 >>タイプ
-攻撃1～5(attack1～5)
-　…攻撃1～5を設定。単に“攻撃”は未使用の一番小さい番号で攻撃を設定する。
+攻撃1～8(attack1～8)
+　…攻撃1～8を設定。単に“攻撃”は未使用の一番小さい番号で攻撃を設定する。
 足止め1～3(bind1～3)
 　…足止め1～3を設定。単に“足止め”は未使用の一番小さい番号で足止めを設定する。
 禁止1～2(stop1～2)
@@ -2413,6 +2428,7 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var>
 
 >>Glamour:
 　<var 48 F201FA /var><var 49 F201FB /var>Carbuncle<var 49 01 /var><var 48 01 /var>
@@ -2422,12 +2438,18 @@ USAGE:
 　<var 48 F201FA /var><var 49 F201FB /var>Garuda-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Titan-Egi<var 49 01 /var><var 48 01 /var>
 　<var 48 F201FA /var><var 49 F201FB /var>Ifrit-Egi<var 49 01 /var><var 48 01 /var>
+　<var 48 F201FA /var><var 49 F201FB /var>Selene<var 49 01 /var><var 48 01 /var>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","/egimirage(/petmirage) ペットの名前 見た目
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)<tab>/egiglamour<tab>/egiglam<tab>/egiglamour<tab>","/egimirage(/petmirage) ペットの名前 見た目
 次以降に召喚するペットの見た目を変更する。
 ただし、PvPコンテンツ内では無効。
 >>ペットの名前
@@ -2435,6 +2457,7 @@ The glamour will be removed when no glamour is specified.
 ガルーダ・エギ
 タイタン・エギ
 イフリート・エギ
+フェアリー・エオス
 >>見た目
 カーバンクル
 カーバンクル・エメラルド
@@ -2443,12 +2466,19 @@ The glamour will be removed when no glamour is specified.
 イフリート・エギ
 タイタン・エギ
 ガルーダ・エギ
+フェアリー・セレネ
 ※設定ペット名省略(clear)
 　…ペットの見た目を元に戻す。
+※サブコマンド省略
+　…ペットの見た目の設定リストを出力する。
 
 実行例
 /egimirage ガルーダ・エギ カーバンクル・ルビー
-　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。<tab>/egimirage<tab><tab>/egiglamour<tab>","","False","0x000000E2","",""
+　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。
+/egimirage ガルーダ・エギ
+　…ガルーダ・エギの見た目を元に戻す。
+/egimirage
+　…ペットの見た目の設定リストを出力する。<tab>/egimirage<tab><tab>/egiglamour<tab>","","False","0x000000E2","",""
 "","USAGE:
 　/title [subcommand]
 
@@ -3225,14 +3255,14 @@ off
 "","USAGE:
 　/autotarget [subcommand]
 
-→Enable auto-target when no target specified.
+→Enable full auto-target.
 
 >>Subcommands:
 　<var 48 F201FA /var><var 49 F201FB /var>on <var 49 01 /var><var 48 01 /var>      Enable auto-target.
 　<var 48 F201FA /var><var 49 F201FB /var>off <var 49 01 /var><var 48 01 /var>      Disable auto-target.
 
 Toggle between on/off when no subcommand is specified.<tab><tab><tab>/autotarget<tab>","/autotarget サブコマンド
-キャラクターコンフィグ「未ターゲット時の自動ターゲットを有効にする」を設定する。
+キャラクターコンフィグ「敵対アクションを実行された時に実行対象を自動選択する」を設定する。
 >>サブコマンド
 on 
 　…有効にする。
@@ -7759,6 +7789,21 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/spirit<tab>","","False","0x00000289","",""
+"","USAGE:
+　/magictrick [subcommand]
+
+→Perform a magic trick.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/magictrick<tab>","/magictrick サブコマンド
+手品をする。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/magictrick<tab>","","False","0x0000028A","",""
 "","ALIASES:
 　/littleladiesdance, /ladance
 USAGE:
@@ -7821,4 +7866,94 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/frighten<tab>","","False","0x00000291","",""
+"","USAGE:
+　/adventoflight, /advent [subcommand]
+
+→Soar to the heavens, then make a suitably heroic landing.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/adventoflight<tab>/advent","/adventoflight(/advent) サブコマンド
+勇ましく降臨する。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/adventoflight<tab>/advent","","False","0x00000292","",""
+"","USAGE:
+　/handtoheart [subcommand]
+
+→Gently place your hand on your heart.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/handtoheart<tab>","/handtoheart サブコマンド
+胸に手をあてる。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/handtoheart<tab>","","False","0x00000298","",""
+"","USAGE:
+　/cheeronbright, /cheerbright [subcommand]
+
+→Wave your hands enthusiastically with white illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheeronbright<tab>/cheerbright","/cheeronbright(/cheerbright) サブコマンド
+声援（白）を送る。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/cheeronbright<tab>/cheerbright","","False","0x00000299","",""
+"","USAGE:
+　/cheerwaveviolet, /cheerviolet [subcommand]
+
+→Wave your hand in the air with a violet illuminated rod.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerwaveviolet<tab>/cheerviolet","/cheerwaveviolet(/cheerviolet) サブコマンド
+声援（紫）を送る。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/cheerwaveviolet<tab>/cheerviolet","","False","0x0000029A","",""
+"","USAGE:
+　/cheerjumpgreen, /cheergreen [subcommand]
+
+→Jump and cheer enthusiastically with green illuminated rods.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/cheerjumpgreen<tab>/cheergreen","/cheerjumpgreen(/cheergreen) サブコマンド
+声援（緑）を送る。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/cheerjumpgreen<tab>/cheergreen","","False","0x0000029B","",""
+"","USAGE:
+　/allsaintscharm [subcommand]
+
+→Swish and flick to cast a spell.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/allsaintscharm<tab>","/allsaintscharm サブコマンド
+守護天節のおまじないをかける。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/allsaintscharm<tab>","","False","0x0000029C","",""
 

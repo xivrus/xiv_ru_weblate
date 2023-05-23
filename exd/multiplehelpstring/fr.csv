@@ -6,12 +6,12 @@
 "","Reduced Difficulty<tab>The following changes have been made to Savage duties:
 　・Progress records are no longer kept for individual duties.
 　・The “Progress” option is no longer available.
-　・Two treasure coffers will always appear upon completion.
+　・Treasure coffers will always appear upon completion.
 　・The weekly limit on items from treasure coffers has been removed.
 ","Difficulté réduite<tab>Les changements suivants ont été apportés aux missions sadiques<var 1D /var>:
  - Le système qui mémorisait la progression a été retiré et il est désormais possible de refaire chaque instance autant de fois que désiré.
  - L'option “Progression” a été retirée des conditions de recrutement.
- - La récompense minimum est désormais de deux coffres.
+ - La récompense minimum est désormais d'un coffre.
  - La limite hebdomadaire d'objets pouvant être obtenus dans les coffres a été supprimée.","","False","0x00000004","",""
 "","Matching Requirements<tab><var 48 F201FA /var><var 49 F201FB /var>Matching Requirements<var 49 01 /var><var 48 01 /var>
 The “Duty Complete” option is only available for previously completed duties.
@@ -40,17 +40,19 @@ Progress is reset every week on <var 06 1203 /var><var 09 DD ((Sunday)) ((Monday
 Elle est réinitialisée tous les <var 48 F201FA /var><var 49 F201FB /var><var 06 1203 /var><var 09 DD ((dimanches)) ((lundis)) ((mardis)) ((mercredis)) ((jeudis)) ((vendredis)) ((samedis)) /var> à <var 08 DB ((<var 09 DB02030405060708090A0B0C0D0E0F101112131415161718 /var>)) 01 /var>h (temps réel)<var 49 01 /var><var 48 01 /var>.","","False","0x00000006","",""
 "","Reward Restrictions<tab>Players will not earn rewards for completing phases they have already completed.
 
-Coffer quantity will vary based on the total number of party members who have already completed the duty.
-　・1-4 players = 1 coffer 
+Coffer and reward quantity will vary based on the total number of party members who have already completed the duty.
+　・0 players = 1 coffer 
+　・1-4 players = 1 coffer (Reduced reward quantity)
 　・5 or more = No coffers
  
 When participating in the latest Savage raid with a matched party, duty rewards may change based on the progress level of matched members.","Récompenses et coffres<tab>Les personnages qui participent à une mission “sadique” qu'ils ont déjà terminée pendant la semaine en cours ne reçoivent pas de récompenses.
 
-Par ailleurs, le nombre de ces joueurs influence celui des coffres apparaissant lors de l'incursion.
- - Un coffre si entre un et quatre joueurs ont déjà accompli le raid dans la semaine en cours.
+Par ailleurs, le nombre de ces joueurs influence celui des coffres apparaissant lors de l'incursion, ainsi que la quantité de récompenses qu'ils contiennent.
+- Un coffre si aucun joueur n'a déjà accompli le raid dans la semaine en cours.
+ - Un coffre contenant moins de récompenses si entre un et quatre joueurs ont déjà accompli le raid dans la semaine en cours.
  - Aucun coffre si cinq joueurs ou plus ont déjà accompli le raid dans la semaine en cours.
 
-En cas d'enregistrement seul ou en équipe de moins de huit joueurs, le nombre de coffres peut varier en fonction de la progression des membres ajoutés par groupement automatique.","","False","0x00000007","",""
+En cas d'enregistrement seul ou en équipe de moins de huit joueurs, le nombre de coffres et la quantité de récompenses qu'ils contiennent peuvent varier en fonction de la progression des membres ajoutés par groupement automatique.","","False","0x00000007","",""
 "","Job Distribution<tab>Parties formed with the Raid Finder do not allow for two members with the same job unless certain conditions are met.
 　・DPS jobs are divided into the following roles:
     Melee DPS, Physical Ranged DPS, Magical Ranged DPS, and Not Specified.
