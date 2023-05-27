@@ -33,8 +33,8 @@ If this character is master of a free company for which there is no eligible suc
 "","Change Name<tab><tab>","Сменить имя<tab><tab>","","False","0x00000017","",""
 "","Change Retainer Name<tab><tab>","Сменить имя слуги<tab><tab>","","False","0x00000018","",""
 "","Log in with <var 29 EA02 /var>?<tab><tab>","Войти за <var 29 EA02 /var>?<tab><tab>","","False","0x00000019","",""
-"","A name change is required to log in with this character.<tab><tab>","Перед входом за этого персонажа требуется сначала сменить имя.<tab><tab>","","False","0x0000001A","",""
-"","<var 08 E1E80201 ((Please change your character's name after retrieving character data.)) ((A name change is required to log in with this character.)) /var><tab><tab>","1B_<var 08 E1E80201 ((Please change your character's name after retrieving character data.)) ((A name change is required to log in with this character.)) /var><tab><tab>","","True","0x0000001B","",""
+"","A name change is required to log in with this character.<tab><tab>","Перед входом за этого персонажа требуется изменить его имя.<tab><tab>","","False","0x0000001A","",""
+"","<var 08 E1E80201 ((Please change your character's name after retrieving character data.)) ((A name change is required to log in with this character.)) /var><tab><tab>","<var 08 E1E80201 ((Пожалуйста, измените имя персонажа после получения данных о нём.)) ((Перед входом за этого персонажа требуется изменить его имя.)) /var><tab><tab>","","False","0x0000001B","",""
 "","Change this character's name to <var 29 EA02 /var>?<tab><tab>","Изменить имя этого персонажа на <var 29 EA02 /var>?<tab><tab>","","False","0x0000001C","",""
 "","Change this retainer's name to <var 29 EA02 /var>?<tab><tab>","Изменить имя этого слуги на <var 29 EA02 /var>?<tab><tab>","","False","0x0000001D","",""
 "","New Character<tab><tab>","Новый персонаж<tab><tab>","","False","0x0000001E","",""
@@ -1468,7 +1468,7 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 "","World Visit system is temporarily unavailable.<tab><tab>","Система посещения миров временно недоступна.<tab><tab>","","False","0x0000045A","",""
 "","World Visit transfer failed. Please wait before submitting another transfer request via the subcommand.<tab><tab>","Не удалось посетить другой мир. Пожалуйста, подождите некоторое время перед повторной попыткой.<tab><tab>","","False","0x0000045B","",""
 "","World Visit transfer successful. Login to <var 29 EA02 /var> now available.<tab><tab>","Ваш персонаж успешно перенесён в другой мир. Теперь вы можете войти в <var 29 EA02 /var>.<tab><tab>","","False","0x0000045C","",""
-"","Return to Home World<tab><tab>","Вернуться в домашний мир<tab><tab>","","False","0x0000045D","",""
+"","Return to Home World<tab><tab>","Вернуться в Домашний мир<tab><tab>","","False","0x0000045D","",""
 "","<var 1E 19 /var> Scroll<tab><tab>","45E_<var 1E 19 /var> Scroll<tab><tab>","","True","0x0000045E","",""
 "","<tab><tab>","45F_<tab><tab>","","True","0x0000045F","",""
 "","<tab><tab>","460_<tab><tab>","","True","0x00000460","",""
@@ -1547,8 +1547,8 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 ※Время пути зависит от нагруженности сервера.<tab><tab>","","False","0x00000495","",""
 "","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> has arrived safely on <var 29 EA05 /var> in the <var 29 EA04 /var> data center!<tab><tab>","Ура! <var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> теперь в <var 29 EA05 /var> в дата-центре <var 29 EA04 /var><tab><tab>","","False","0x00000496","",""
 "","This character is currently visiting the <var 29 EA02 /var> data center.<tab><tab>","Этот персонаж сейчас гостит в дата-центре <var 29 EA02 /var>.<tab><tab>","","False","0x00000497","",""
-"","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","Перед входом за этого персонажа требуется изменить его имя. Пожалуйста, вернитесь для этого в домашний мир.<tab><tab>","","False","0x00000498","",""
-"","A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.<tab><tab>","Перед входом за этого персонажа требуется изменить имя слуги. Пожалуйста, вернитесь для этого в домашний мир.<tab><tab>","","False","0x00000499","",""
+"","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","Перед входом за этого персонажа требуется изменить его имя. Пожалуйста, вернитесь для этого в Домашний мир.<tab><tab>","","False","0x00000498","",""
+"","A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.<tab><tab>","Перед входом за этого персонажа требуется изменить имя слуги. Пожалуйста, вернитесь для этого в Домашний мир.<tab><tab>","","False","0x00000499","",""
 "","You may perform any necessary name changes by returning to your Home World.
 After changing names, logging in will place your character at the aetheryte of your starting nation.<tab><tab>","Вы сможете изменить имя, вернувшись в домашний мир.
 После смены имени ваш персонаж окажется на площади эфирита вашего начального города.<tab><tab>","","False","0x0000049A","",""
@@ -1557,9 +1557,9 @@ After changing names, logging in will place your character at the aetheryte of y
 "","Unable to return to Home World at this time. Please wait before attempting to return again.<tab><tab>","Сейчас пока нельзя подать заявку на возвращение в домашний мир. Пожалуйста, подождите немного и попробуйте ещё раз.<tab><tab>","","False","0x0000049D","",""
 "","Return to Home World failed. Please wait before submitting another Return to Home World request via the subcommand.<tab><tab>","Не удалось вернуться в домашний мир. Пожалуйста, подождите немного перед тем, подать новый запрос на возврат в домашний мир.<tab><tab>","","False","0x0000049E","",""
 "","Successfully returned to Home World.<tab><tab>","Вы успешно вернулись в домашний мир.<tab><tab>","","False","0x0000049F","",""
-"","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","4A0_A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","","True","0x000004A0","",""
-"","A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.<tab><tab>","4A1_A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.<tab><tab>","","True","0x000004A1","",""
-"","Return to Home World<tab><tab>","Вернуться в домашний мир<tab><tab>","","False","0x000004A2","",""
+"","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","Перед входом за этого персонажа требуется изменить его имя. Пожалуйста, вернитесь для этого в Домашний мир.<tab><tab>","","False","0x000004A0","",""
+"","A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.<tab><tab>","Перед входом за этого персонажа требуется изменить имя слуги. Пожалуйста, вернитесь для этого в Домашний мир.<tab><tab>","","False","0x000004A1","",""
+"","Return to Home World<tab><tab>","Вернуться<tab><tab>","","False","0x000004A2","",""
 "","Time Elapsed:<tab><tab>","Прошло времени:<tab><tab>","","False","0x000004A3","",""
 "","Select Data Center<tab><tab>","Выберите дата-центр<tab><tab>","","False","0x000004A4","",""
 "","Select World<tab><tab>","Выберите мир<tab><tab>","","False","0x000004A5","",""
@@ -1627,14 +1627,14 @@ After changing names, logging in will place your character at the aetheryte of y
 "","Data for the selected character will be retrieved from the server and the display of character information will be restored.
 Proceed?<tab><tab>","4C9_Data for the selected character will be retrieved from the server and the display of character information will be restored.
 Proceed?<tab><tab>","","True","0x000004C9","",""
-"","Retrieving character data...<tab><tab>","4CA_Retrieving character data...<tab><tab>","","True","0x000004CA","",""
+"","Retrieving character data...<tab><tab>","Получение данных о персонаже...<tab><tab>","","False","0x000004CA","",""
 "","Please retrieve character data before changing your character's name.<tab><tab>","4CB_Please retrieve character data before changing your character's name.<tab><tab>","","True","0x000004CB","",""
 "","Please retrieve character data before changing your retainer's name.<tab><tab>","4CC_Please retrieve character data before changing your retainer's name.<tab><tab>","","True","0x000004CC","",""
-"","A name change is required to log in with this character. Please retrieve character data before changing your character's name.<tab><tab>","4CD_A name change is required to log in with this character. Please retrieve character data before changing your character's name.<tab><tab>","","True","0x000004CD","",""
+"","A name change is required to log in with this character. Please retrieve character data before changing your character's name.<tab><tab>","Перед входом за этого персонажа требуется изменить его имя. Пожалуйста, измените его имя после получения данных о персонаже.<tab><tab>","","False","0x000004CD","",""
 "","To log in with this character, you must first change your retainer's name. Please retrieve character data before changing your retainer's name.<tab><tab>","4CE_To log in with this character, you must first change your retainer's name. Please retrieve character data before changing your retainer's name.<tab><tab>","","True","0x000004CE","",""
 "","You will now return to your Home World.
-Logging in will place your character at the aetheryte of your starting nation.<tab><tab>","4CF_You will now return to your Home World.
-Logging in will place your character at the aetheryte of your starting nation.<tab><tab>","","True","0x000004CF","",""
+Logging in will place your character at the aetheryte of your starting nation.<tab><tab>","Сейчас вы вернётесь в Домашний мир.
+При входе в игру ваш персонаж окажется на эфирите начальной нации.<tab><tab>","","False","0x000004CF","",""
 "","To visit other Worlds with this character, you must first return to your Home World and change your character's name.<tab><tab>","4D0_To visit other Worlds with this character, you must first return to your Home World and change your character's name.<tab><tab>","","True","0x000004D0","",""
 "","To visit other Worlds with this character, you must first return to your Home World and change your retainer's name.<tab><tab>","4D1_To visit other Worlds with this character, you must first return to your Home World and change your retainer's name.<tab><tab>","","True","0x000004D1","",""
 "","Your request for data center travel could not be processed, as you have never accessed Worlds in the selected region.
@@ -2622,4 +2622,3 @@ Could not load.<tab><tab>","Данные повреждены или невер�
 "","<tab><tab>","896_<tab><tab>","","True","0x00000896","",""
 "","<tab><tab>","897_<tab><tab>","","True","0x00000897","",""
 "","<tab><tab>","898_<tab><tab>","","True","0x00000898","",""
-
