@@ -145,7 +145,7 @@ Increases damage dealt when under an effect that raises critical hit rate or dir
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>15s<var 08 E0E94929 ((<var 08 E4E94504 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Extends <var 48 F201FA /var><var 49 F201FB /var>Surging Tempest<var 49 01 /var><var 48 01 /var> duration by 10s to a maximum of 60s)) ((<var 08 E4E94516 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Extends <var 48 F201FA /var><var 49 F201FB /var>Surging Tempest<var 49 01 /var><var 48 01 /var> duration by 10s to a maximum of 60s)) (()) /var>)) /var>)) (()) /var>","Активирует 3 заряда эффекта <var 48 F201FA /var><var 49 F201FB /var>Berserk<var 49 01 /var><var 48 01 /var>, каждый из которых гарантирует нанесение критического точного удара следующему применённому умению.
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit или direct hit.
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического или точного удара.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 15 с.<var 08 E0E94929 ((<var 08 E4E94504 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Продлевает время действия эффекта <var 48 F201FA /var><var 49 F201FB /var>Surging Tempest<var 49 01 /var><var 48 01 /var> на 10 с., вплоть до 60 с.)) ((<var 08 E4E94516 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Продлевает время действия эффекта <var 48 F201FA /var><var 49 F201FB /var>Surging Tempest<var 49 01 /var><var 48 01 /var> на 10 с., вплоть до 60 с.)) (()) /var>)) /var>)) (()) /var>","","False","0x00000026","",""
@@ -238,8 +238,8 @@ Damage dealt is increased when under an effect that raises critical hit rate.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Changes form to <var 48 F201FA /var><var 49 F201FB /var>raptor<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Наносит физический урон с силой <var 08 E4E94515 ((<var 08 E0E94955F0D2B5 /var>)) B5 /var>.
 <var 08 E4E94515 ((<var 08 E0E94933 ((<var 48 F201F8 /var><var 49 F201F9 /var>Сила Leaden Fist:<var 49 01 /var><var 48 01 /var> <var 08 E4E94515 ((<var 08 E0E94955F20136F20118 /var>)) F20118 /var>
-)) (()) /var>)) (()) /var><var 48 F201F8 /var><var 49 F201F9 /var>Бонус от эффекта стойки Opo-opo Form:<var 49 01 /var><var 48 01 /var> Гарантирует critical hit
-Наносимый физический урон увеличивается под действием эффекта, повышающего шанс critical hit.
+)) (()) /var>)) (()) /var><var 48 F201F8 /var><var 49 F201F9 /var>Бонус от эффекта стойки Opo-opo Form:<var 49 01 /var><var 48 01 /var> Гарантирует критического удара
+Наносимый физический урон увеличивается под действием эффекта, повышающего шанс критического удара.
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Сменяет эффект стойки на <var 48 F201FA /var><var 49 F201FB /var>raptor form<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x00000035","",""
 "","Delivers an attack with a potency of <var 08 E4E94515 ((<var 08 E0E94955F2012CF2010E /var>)) F2010E /var>.
@@ -420,7 +420,7 @@ Effect cannot be applied to damage over time.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorbs a portion of damage dealt as HP<var 08 E4E94517 ((<var 08 E0E94959 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2)) (()) /var>)) (()) /var>","Когда активен эффект <var 48 F201FA /var><var 49 F201FB /var>Life Surge<var 49 01 /var><var 48 01 /var>, первое умение нанесёт критический удар.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 5 с.
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического удара
 Эффект не применяется на периодическом уроне.
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Конвертирует часть нанесённого урона в ОЗ<var 08 E4E94517 ((<var 08 E0E94959 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Максимум зарядов:<var 49 01 /var><var 48 01 /var> 2)) (()) /var>)) (()) /var>","","False","0x00000053","",""
@@ -2774,12 +2774,12 @@ Reduces integrity by 1.","Добывает ценность с её текущи
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Impulse Rush:<var 49 01 /var><var 48 01 /var> Shortens recast time to 120 seconds.
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Impulse Rush II:<var 49 01 /var><var 48 01 /var> Extends duration to 20 seconds.
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Impulse Rush III:<var 49 01 /var><var 48 01 /var> Improves critical hit rate increase to 20%.","Наносит физический урон с силой 240.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increases шанс critical hit by 10%
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increases шанс критического удара by 10%
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 15 с.
 
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Impulse Rush:<var 49 01 /var><var 48 01 /var> Shortens recast time to 120 seconds.
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Impulse Rush II:<var 49 01 /var><var 48 01 /var> Extends duration to 20 seconds.
-<var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Impulse Rush III:<var 49 01 /var><var 48 01 /var> Improves шанс critical hit increase to 20%.","","False","0x0000061E","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Impulse Rush III:<var 49 01 /var><var 48 01 /var> Improves шанс критического удара increase to 20%.","","False","0x0000061E","",""
 "","Delivers an attack with a potency of 1,000.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Reduces target's damage dealt and healing potency by 10%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10s","Наносит физический урон с силой 1 000.
@@ -2792,11 +2792,11 @@ Reduces integrity by 1.","Добывает ценность с её текущи
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Farshot:<var 49 01 /var><var 48 01 /var> Shortens recast time to 90 seconds.
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Farshot II:<var 49 01 /var><var 48 01 /var> Increases potency to 240.
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Farshot III:<var 49 01 /var><var 48 01 /var> Increases critical hit rate by an additional 10%.","Delivers a ranged attack with a potency of 200. Potency is not affected by distance.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Attack delivered with шанс critical hit increased by 15%
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Attack delivered with шанс критического удара increased by 15%
 
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Farshot:<var 49 01 /var><var 48 01 /var> Shortens recast time to 90 seconds.
 <var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Farshot II:<var 49 01 /var><var 48 01 /var> Increases potency to 240.
-<var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Farshot III:<var 49 01 /var><var 48 01 /var> Increases шанс critical hit by an additional 10%.","","True","0x00000621","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Enhanced Farshot III:<var 49 01 /var><var 48 01 /var> Increases шанс критического удара by an additional 10%.","","True","0x00000621","",""
 "","Delivers an attack with a potency of 150 to target and all enemies nearby it.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> 10-yalm knockback to target
 
@@ -4609,9 +4609,9 @@ Can only be executed when target's ОЗ is below 20%.","","True","0x00000B3B",""
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 5s
 Increases damage dealt when under an effect that raises critical hit rate or direct hit rate.
 This action does not affect damage over time effects.<var 08 E4E94520 ((<var 08 E0E94955 ((
-<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2)) (()) /var>)) (()) /var>","Гарантирует следующему умению critical direct hit.
+<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2)) (()) /var>)) (()) /var>","Гарантирует следующему умению критический точный удар.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 5 с.
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit или direct hit.
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического удара или direct hit.
 Это действие не влияет на периодический урон.<var 08 E4E94520 ((<var 08 E0E94955 ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Максимум зарядов:<var 49 01 /var><var 48 01 /var> 2)) (()) /var>)) (()) /var>","","False","0x00000B3C","",""
 "","Afflicts target with <var 48 F201FA /var><var 49 F201FB /var>Heavy<var 49 01 /var><var 48 01 /var> +40%.
@@ -5462,7 +5462,7 @@ Cannot be used with <var 48 F201F4 /var><var 49 F201F5 /var>Defiance<var 49 01 /
 Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Defiance<var 49 01 /var><var 48 01 /var>.","Increases damage dealt by 5%.
 Effect ends upon reuse.
 
-Using certain actions while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Deliverance<var 49 01 /var><var 48 01 /var> will add to your <var 48 F201F4 /var><var 49 F201F5 /var>Шкалы Beast<var 49 01 /var><var 48 01 /var>, increasing шанс critical hit by a maximum of 10%. The <var 48 F201F4 /var><var 49 F201F5 /var>Шкалы Beast<var 49 01 /var><var 48 01 /var> returns to 0 when <var 48 F201FA /var><var 49 F201FB /var>Deliverance<var 49 01 /var><var 48 01 /var> ends.
+Using certain actions while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Deliverance<var 49 01 /var><var 48 01 /var> will add to your <var 48 F201F4 /var><var 49 F201F5 /var>Шкалы Beast<var 49 01 /var><var 48 01 /var>, increasing шанс критического удара by a maximum of 10%. The <var 48 F201F4 /var><var 49 F201F5 /var>Шкалы Beast<var 49 01 /var><var 48 01 /var> returns to 0 when <var 48 F201FA /var><var 49 F201FB /var>Deliverance<var 49 01 /var><var 48 01 /var> ends.
 Cannot be used with <var 48 F201F4 /var><var 49 F201F5 /var>Defiance<var 49 01 /var><var 48 01 /var>.
 Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Defiance<var 49 01 /var><var 48 01 /var>.","","True","0x00000DDC","",""
 "","Delivers an attack with a potency of 520.
@@ -6940,7 +6940,7 @@ Any additional effects associated with the executed action will also be applied.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay of target and nearby party members by 5%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x00001139","",""
 "","Increases critical hit rate for target and all nearby party members by 5%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Increases шанс critical hit for target and all nearby party members by 5%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Increases шанс критического удара for target and all nearby party members by 5%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x0000113A","",""
 "","Refreshes target's MP and the MP of all nearby party members.
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency:<var 49 01 /var><var 48 01 /var> 25
@@ -6960,7 +6960,7 @@ Any additional effects associated with the executed action will also be applied.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay of a party member or self by 10%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x0000113F","",""
 "","Increases critical hit rate for a party member or self by 10%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Increases шанс critical hit for a party member or self by 10%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Increases шанс критического удара for a party member or self by 10%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x00001140","",""
 "","Gradually restores own MP or the MP of a target party member.
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency:<var 49 01 /var><var 48 01 /var> 50
@@ -6980,7 +6980,7 @@ Any additional effects associated with the executed action will also be applied.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay of target and nearby party members by 5%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x00001145","",""
 "","Increases critical hit rate for target and all nearby party members by 5%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Increases шанс critical hit for target and all nearby party members by 5%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Increases шанс критического удара for target and all nearby party members by 5%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x00001146","",""
 "","Refreshes target's MP and the MP of all nearby party members.
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency:<var 49 01 /var><var 48 01 /var> 25
@@ -10167,7 +10167,7 @@ Increases damage dealt when under an effect that raises critical hit rate or dir
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Primal Rend Ready<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30s)) (()) /var>)) (()) /var>","Накладывает 3 заряда эффекта <var 48 F201FA /var><var 49 F201FB /var>Inner Release<var 49 01 /var><var 48 01 /var>.
 <var 48 F201F8 /var><var 49 F201F9 /var>Эффект Inner Release:<var 49 01 /var><var 48 01 /var> Позволяет использовать <var 48 F201F4 /var><var 49 F201F5 /var>Fell Cleave<var 49 01 /var><var 48 01 /var> или <var 48 F201F4 /var><var 49 F201F5 /var>Decimate<var 49 01 /var><var 48 01 /var> без затрат <var 48 F201F4 /var><var 49 F201F5 /var>Шкалы Beast<var 49 01 /var><var 48 01 /var> и гарантирует нанесение критического точного удара этим действием.
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit или direct hit.
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического или точного удара.
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Inner Strength<var 49 01 /var><var 48 01 /var>.
 <var 48 F201F8 /var><var 49 F201F9 /var>Эффект Inner Strength:<var 49 01 /var><var 48 01 /var> Гарантирует невосприимчивость к эффектам <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Sleep<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Bind<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>Heavy<var 49 01 /var><var 48 01 /var> и большинству эффектов отталкивания и притягивания.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>15 с.
@@ -10722,7 +10722,7 @@ Damage dealt is increased when under an effect that raises critical hit rate.
 <var 08 E4E94523 ((<var 08 E0E94951 ((<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants a stack of <var 48 F201FA /var><var 49 F201FB /var>Meditation<var 49 01 /var><var 48 01 /var>, up to a maximum of 3
 )) (()) /var>)) (()) /var>
 ※This action cannot be assigned to a hotbar.","Наносит критический физический урон с силой 640.
-Наносимый урон увеличивается под действием эффекта, увеличивающего шанс critical hit.
+Наносимый урон увеличивается под действием эффекта, увеличивающего шанс критического удара.
 <var 08 E4E94523 ((<var 08 E0E94951 ((<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Активирует заряды эффекта <var 48 F201FA /var><var 49 F201FB /var>Meditation<var 49 01 /var><var 48 01 /var>, вплоть до 3
 )) (()) /var>)) (()) /var>
 ※Это действие нельзя назначить на хотбар.","","False","0x00001D3F","",""
@@ -21656,7 +21656,7 @@ Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201F
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>20s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Party member designated as your <var 48 F201FA /var><var 49 F201FB /var>Dance Partner<var 49 01 /var><var 48 01 /var> will also receive the effect of <var 48 F201FA /var><var 49 F201FB /var>Devilment<var 49 01 /var><var 48 01 /var><var 08 E4E94527 ((<var 08 E0E9495B ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Flourishing Starfall<var 49 01 /var><var 48 01 /var>
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>20s)) (()) /var>)) (()) /var>","Увеличивает шанс critical hit и direct hit на 20%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>20s)) (()) /var>)) (()) /var>","Увеличивает шанс критического удара и direct hit на 20%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 20 с.
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Devilment<var 49 01 /var><var 48 01 /var> на вашего <var 48 F201FA /var><var 49 F201FB /var>Dance Partner<var 49 01 /var><var 48 01 /var>.<var 08 E4E94527 ((<var 08 E0E9495B ((
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Flourishing Starfall<var 49 01 /var><var 48 01 /var>.
@@ -22533,7 +22533,7 @@ Damage dealt is increased when under an effect that raises critical hit rate or 
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Nascent Chaos<var 49 01 /var><var 48 01 /var>. Effect fades upon execution.
 
 ※This action cannot be assigned to a hotbar.","Наносит критический точный удар с силой 320 всем ближайшим противникам.
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit или direct hit.
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического удара или direct hit.
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Снижает время восстановления <var 48 F201F4 /var><var 49 F201F5 /var>Infuriate<var 49 01 /var><var 48 01 /var> на 5 с.
 <var 48 F201F8 /var><var 49 F201F9 /var>Расход шкалы Beast:<var 49 01 /var><var 48 01 /var> 50.
 Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Nascent Chaos<var 49 01 /var><var 48 01 /var>. Эффект прекращается после использования.
@@ -22565,7 +22565,7 @@ Damage dealt is increased when under an effect that raises critical hit rate or 
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Nascent Chaos<var 49 01 /var><var 48 01 /var>. Effect fades upon execution.
 
 ※This action cannot be assigned to a hotbar.","Наносит критический точный удар с силой 660.
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit или direct hit.
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического удара или direct hit.
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Снижает время восстановления <var 48 F201F4 /var><var 49 F201F5 /var>Infuriate<var 49 01 /var><var 48 01 /var> на 5 с.
 <var 48 F201F8 /var><var 49 F201F9 /var>Расход шкалы Beast:<var 49 01 /var><var 48 01 /var> 50.
 Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Nascent Chaos<var 49 01 /var><var 48 01 /var>. Эффект прекращается после использования.
@@ -22735,7 +22735,7 @@ Damage dealt is increased when under an effect that raises critical hit rate.
 Triggers the cooldown of weaponskills upon execution. Cannot be executed during the cooldown of weaponskills.
 
 ※This action cannot be assigned to a hotbar.","Наносит критический физический урон с силой 640.
-Наносимый урон увеличивается под действием эффекта, увеличивающего шанс critical hit.
+Наносимый урон увеличивается под действием эффекта, увеличивающего шанс критического удара.
 Запускает время восстановления умений при использовании. Невозможно использовать во время восстановления умений.
 
 ※Это действие нельзя назначить на хотбар.","","False","0x00004066","",""
@@ -29554,7 +29554,7 @@ Can only be executed while in combat.","","False","0x000050EB","",""
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Platebearer Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Solid Shield<var 49 01 /var><var 48 01 /var> to self
 <var 48 F201F8 /var><var 49 F201F9 /var>Solid Shield Effect: <var 49 01 /var><var 48 01 /var>Reduces physical damage taken by 50%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>15s
-Can only be executed while in combat.","Increases damage dealt by 30% and шанс critical hit by 40%.
+Can only be executed while in combat.","Increases damage dealt by 30% and шанс критического удара by 40%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30 с.
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Irregular Effect: <var 49 01 /var><var 48 01 /var>Damage bonus effect is increased to 40%
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Platebearer Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Solid Shield<var 49 01 /var><var 48 01 /var> to self
@@ -29637,7 +29637,7 @@ Effect cannot be stacked with other Banner actions.","Storm the field under the 
 <var 48 F201F8 /var><var 49 F201F9 /var>Banner of Honed Acuity Effect: <var 49 01 /var><var 48 01 /var>Increases damage taken by 10% per stack
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>120 с.
 At maximum stacks, take up the <var 48 F201FA /var><var 49 F201FB /var>Banner of Transcendent Finesse<var 49 01 /var><var 48 01 /var>.
-<var 48 F201F8 /var><var 49 F201F9 /var>Banner of Transcendent Finesse Effect: <var 49 01 /var><var 48 01 /var>Increases шанс critical hit by 30% and reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 20%
+<var 48 F201F8 /var><var 49 F201F9 /var>Banner of Transcendent Finesse Effect: <var 49 01 /var><var 48 01 /var>Increases шанс критического удара by 30% and reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 20%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>180 с.
 Can only be executed while in combat.
 Effect cannot be stacked with other Banner actions.","","False","0x000050F5","",""
@@ -29765,7 +29765,7 @@ Effect ends upon reuse.
 Cannot be used with other Essence or Deep Essence actions.","","True","0x0000510B","",""
 "","Increases damage dealt by 20% and critical hit rate by 15%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 20% and шанс critical hit by 15%.
+Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 20% and шанс критического удара by 15%.
 Effect ends upon reuse.
 Cannot be used with other Essence or Deep Essence actions.","","True","0x0000510C","",""
 "","Reduces maximum HP by 5% while increasing evasion by 40%.
@@ -29844,7 +29844,7 @@ Effect ends upon reuse.
 Cannot be used with other Essence or Deep Essence actions.","","True","0x0000511A","",""
 "","Increases damage dealt by 24% and critical hit rate by 18%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 24% and шанс critical hit by 18%.
+Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 24% and шанс критического удара by 18%.
 Effect ends upon reuse.
 Cannot be used with other Essence or Deep Essence actions.","","True","0x0000511B","",""
 "","Reduces maximum HP by 3% while increasing evasion by 48%.
@@ -31533,7 +31533,7 @@ Cannot be executed if currently afflicted with <var 48 F201FA /var><var 49 F201F
 Effect ends upon reuse.
 Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
 It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","Increases evasion by 11%, шанс critical hit by 77%, and direct hit by 77%.
+※This action can only be used in Delubrum Reginae.","Increases evasion by 11%, шанс критического удара by 77%, and direct hit by 77%.
 Effect ends upon reuse.
 Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
 It is said that Pure Essences may grant unexpected effects...
@@ -31616,7 +31616,7 @@ Cannot be executed while bound.","Поглощает ОМ для соверше�
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15s","Reduces damage taken by self and nearby party members by 30%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15 с.","","False","0x00005753","",""
 "","Increases critical hit rate of self and nearby party members by 10%, increases damage dealt by 7%, and reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 1%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s","Increases шанс critical hit of self and nearby party members by 10%, increases damage dealt by 7%, and reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 1%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s","Increases шанс критического удара of self and nearby party members by 10%, increases damage dealt by 7%, and reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 1%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60 с.","","False","0x00005754","",""
 "","","","","False","0x00005755","",""
 "","","","","False","0x00005756","",""
@@ -33374,7 +33374,7 @@ Can only be executed while in combat.","","False","0x00005D69","",""
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 18s
 This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Delivers a close-quarter attack with a potency of 350. Chance of instant KO when attacking from the rear, which increases the lower the target's ОЗ.
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Beast Effect:<var 49 01 /var><var 48 01 /var> Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Lost Font of Power<var 49 01 /var><var 48 01 /var> to self
-<var 48 F201F8 /var><var 49 F201F9 /var>Lost Font of Power Effect:<var 49 01 /var><var 48 01 /var> Increases damage dealt by 30% and шанс critical hit by 40%
+<var 48 F201F8 /var><var 49 F201F9 /var>Lost Font of Power Effect:<var 49 01 /var><var 48 01 /var> Increases damage dealt by 30% and шанс критического удара by 40%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 18 с.
 This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","","False","0x00005D6A","",""
 "","Applies a barrier to self or target player reducing physical damage taken by 15%.
@@ -35916,8 +35916,8 @@ Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Upheaval<var 
 Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
 Stacks of <var 48 F201FA /var><var 49 F201FB /var>Inner Release<var 49 01 /var><var 48 01 /var> are not consumed upon execution.
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Primal Rend Ready<var 49 01 /var><var 48 01 /var>, granted by <var 48 F201F4 /var><var 49 F201F5 /var>Inner Release<var 49 01 /var><var 48 01 /var>.
-Cannot be executed while bound.","Производит атаку в прыжке, нанося critical direct hit цели и всем противникам рядом с ней с силой 700 для первого противника и на 70% меньше всем остальным.
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit или direct hit.
+Cannot be executed while bound.","Производит атаку в прыжке, нанося критический точный удар цели и всем противникам рядом с ней с силой 700 для первого противника и на 70% меньше всем остальным.
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического удара или direct hit.
 Не расходует заряды эффекта <var 48 F201FA /var><var 49 F201FB /var>Inner Release<var 49 01 /var><var 48 01 /var>.
 Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Primal Rend Ready<var 49 01 /var><var 48 01 /var>, накладываемого <var 48 F201F4 /var><var 49 F201F5 /var>Inner Release<var 49 01 /var><var 48 01 /var>.
 Невозможно использовать под эффектами, сковывающими движение.","","False","0x00006499","",""
@@ -36023,8 +36023,8 @@ Can only be executed while under the effect of three <var 48 F201FA /var><var 49
 Damage dealt is increased when under an effect that raises critical hit rate.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Changes form to <var 48 F201FA /var><var 49 F201FB /var>raptor<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30s","Наносит физический урон с силой 110 всем ближайшим противникам.
-<var 48 F201F8 /var><var 49 F201F9 /var>Бонус эффекта стойки Opo-opo Form:<var 49 01 /var><var 48 01 /var> Гарантирует critical hit
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit.
+<var 48 F201F8 /var><var 49 F201F9 /var>Бонус эффекта стойки Opo-opo Form:<var 49 01 /var><var 48 01 /var> Гарантирует критического удара
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического удара.
 <var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Сменяет эффект стойки на <var 48 F201FA /var><var 49 F201FB /var>raptor form<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x000064A7","",""
 "","Deals physical fire damage to all nearby enemies with a potency of 700 for the first enemy, and 70% less for all remaining enemies.
@@ -36147,7 +36147,7 @@ Grants a stack of <var 48 F201FA /var><var 49 F201FB /var>Meditation<var 49 01 /
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Ogi Namikiri Ready<var 49 01 /var><var 48 01 /var>.
 
 ※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Kaeshi: Namikiri<var 49 01 /var><var 48 01 /var> upon execution.","Наносит физический критический урон всем противникам в конусе перед вами с силой 860 для первого противника, и на 75% меньше для всех остальных.
-Наносимый урон увеличивается под действием эффекта, увеличивающего шанс critical hit.
+Наносимый урон увеличивается под действием эффекта, увеличивающего шанс критического удара.
 Активирует заряды эффекта <var 48 F201FA /var><var 49 F201FB /var>Meditation<var 49 01 /var><var 48 01 /var>, вплоть до 3.
 Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Ogi Namikiri Ready<var 49 01 /var><var 48 01 /var>.
 
@@ -36157,7 +36157,7 @@ Damage dealt is increased when under an effect that raises critical hit rate.
 Triggers the cooldown of weaponskills upon execution. Cannot be executed during the cooldown of weaponskills.
 
 ※This action cannot be assigned to a hotbar.","Наносит физический критический урон всем противникам в конусе перед вами с силой 860 для первого противника, и на 75% меньше для всех остальных.
-Наносимый урон увеличивается под действием эффекта, увеличивающего шанс critical hit.
+Наносимый урон увеличивается под действием эффекта, увеличивающего шанс критического удара.
 Запускает время восстановления умений при использовании. Невозможно использовать во время восстановления умений.
 
 ※Это действие нельзя назначить на хотбар.","","False","0x000064B6","",""
@@ -36243,8 +36243,8 @@ Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201F
 Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Fourfold Fan Dance<var 49 01 /var><var 48 01 /var>.","","False","0x000064BF","",""
 "","Delivers a critical direct hit to all enemies in a straight line before you with a potency of 600 for the first enemy, and 75% less for all remaining enemies.
 Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
-Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Flourishing Starfall<var 49 01 /var><var 48 01 /var>.","Наносит critical direct hit всем противникам, расположенным на прямой линии перед вами, с силой 600 для первого противника и на 75% меньше всем остальным.
-Наносимый урон увеличивается под действием эффекта, повышающего шанс critical hit или direct hit.
+Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Flourishing Starfall<var 49 01 /var><var 48 01 /var>.","Наносит критический точный удар всем противникам, расположенным на прямой линии перед вами, с силой 600 для первого противника и на 75% меньше всем остальным.
+Наносимый урон увеличивается под действием эффекта, повышающего шанс критического удара или direct hit.
 Возможно использовать только под действием эффекта <var 48 F201FA /var><var 49 F201FB /var>Flourishing Starfall<var 49 01 /var><var 48 01 /var>.","","False","0x000064C0","",""
 "","Deals ice damage with a potency of 100 to target and all enemies nearby it.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var><var 08 E0E94924 ((<var 08 E4E94508 ((Grants <var 48 F201FA /var><var 49 F201FB /var>Umbral Ice III<var 49 01 /var><var 48 01 /var> and)) ((<var 08 E4E9451A ((Grants <var 48 F201FA /var><var 49 F201FB /var>Umbral Ice III<var 49 01 /var><var 48 01 /var> and)) ((Grants <var 48 F201FA /var><var 49 F201FB /var>Umbral Ice<var 49 01 /var><var 48 01 /var> or)) /var>)) /var>)) ((Grants <var 48 F201FA /var><var 49 F201FB /var>Umbral Ice<var 49 01 /var><var 48 01 /var> or)) /var> removes <var 48 F201FA /var><var 49 F201FB /var>Astral Fire<var 49 01 /var><var 48 01 /var>
