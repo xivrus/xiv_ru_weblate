@@ -10158,12 +10158,14 @@ Il est recommandé d'essayer d'autres langues si les délais d'accès aux missio
 <var 08 E4E80201 ((<var 48 F201FC /var><var 49 F201FD /var>※If the registration period overlaps with the weekly reset,
 　registration will be canceled.
 ※If 1 to 4 members have already received the weekly reward,
-　only one coffer will appear. No coffers will appear if 5 or
-　more members have received the reward.<var 49 01 /var><var 48 01 /var>)) (()) /var>","<var 48 F201FA /var><var 49 F201FB /var>* “Déjà terminé” n'est disponible que pour les missions préalablement réussies.
+　or if a member logs out or disconnects, the number of rewards
+will be reduced. No coffers will appear if 5 or more members
+　have received the reward.<var 49 01 /var><var 48 01 /var>)) (()) /var>","<var 48 F201FA /var><var 49 F201FB /var>* “Déjà terminé” n'est disponible que pour les missions préalablement réussies.
 <var 08 E4E80201 ((* “Réussir le raid” n'est sélectionnable que si la récompense hebdomadaire n'a pas encore été obtenue.
 )) (()) /var>* Spécifier une phase ne permet pas de sauter celles précédentes.<var 49 01 /var><var 48 01 /var><var 08 E4E80201 ((
 <var 48 F201FC /var><var 49 F201FD /var>* L'enregistrement sera annulé si la remise à zéro hebdomadaire a lieu entre-temps.
-* Un seul coffre si 1 à 4 équipiers ont déjà obtenu leurs récompenses hebdomadaires. Aucun coffre s'ils sont 5 ou plus.<var 49 01 /var><var 48 01 /var>)) (()) /var>","","False","0x0000276A","",""
+* Le contenu du coffre sera minoré si 1 à 4 équipiers ont déjà obtenu leurs récompenses hebdomadaires. Aucun coffre s'ils sont 5 ou plus.
+* En cas de déconnection dans l'instance, l'équipier sera considéré comme ayant déjà obtenu ses récompenses hebdomadaires.<var 49 01 /var><var 48 01 /var>)) (()) /var>","","False","0x0000276A","",""
 "","Unselect","Tout désélectionner","","False","0x0000276B","",""
 "","Join","Participer","","False","0x0000276C","",""
 "","<var 08 E4E802E803 ((<var 2B ((<var 08 E802 ((<var 08 E2E8020B ((<var 09 E802 ((one)) ((two)) ((three)) ((four)) ((five)) ((six)) ((seven)) ((eight)) ((nine)) ((ten)) /var>)) ((<var 20 E802 /var>)) /var>)) ((<var 20 E802 /var>)) /var>)) /var> player<var 08 E4E80202 (()) ((s)) /var>)) ((<var 2B ((<var 08 E802 ((<var 08 E2E8020B ((<var 09 E802 ((one)) ((two)) ((three)) ((four)) ((five)) ((six)) ((seven)) ((eight)) ((nine)) ((ten)) /var>)) ((<var 20 E802 /var>)) /var>)) ((<var 20 E802 /var>)) /var>)) /var> to <var 08 E803 ((<var 08 E2E8030B ((<var 09 E803 ((one)) ((two)) ((three)) ((four)) ((five)) ((six)) ((seven)) ((eight)) ((nine)) ((ten)) /var>)) ((<var 20 E803 /var>)) /var>)) ((<var 20 E803 /var>)) /var> players)) /var>
@@ -15708,9 +15710,9 @@ Release Area: <var 29 EA03 /var>
 "","Rank","Rang","","False","0x00003BF9","",""
 "","Lang.","Langue","","False","0x00003BFA","",""
 "","Visitors","Visiteurs","","False","0x00003BFB","",""
-"","Change expedition area to the <var 31 ((MJIName)) 03E8020302 /var>?","Changer la zone à explorer pour <var 33 ((MJIName)) 03E8020202 /var><var 1D /var>?","","False","0x00003BFC","",""
+"","Change expedition area to <var 31 ((MJIName)) 03E8020302 /var>?","Changer la zone à explorer pour <var 33 ((MJIName)) 03E8020202 /var><var 1D /var>?","","False","0x00003BFC","",""
 "","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition?","Utiliser <var 20 E802 /var> assignats insulaires azur pour prolonger l'exploration<var 1D /var>?","","False","0x00003BFD","",""
-"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to the <var 31 ((MJIName)) 03E8030302 /var>?","Utiliser <var 20 E802 /var> assignats insulaires azur pour prolonger l'exploration et changer le lieu d'exploration pour <var 33 ((MJIName)) 03E8030202 /var><var 1D /var>?","","False","0x00003BFE","",""
+"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to <var 31 ((MJIName)) 03E8030302 /var>?","Utiliser <var 20 E802 /var> assignats insulaires azur pour prolonger l'exploration et changer le lieu d'exploration pour <var 33 ((MJIName)) 03E8030202 /var><var 1D /var>?","","False","0x00003BFE","",""
 "","Select Expedition Area","Choisir un lieu à explorer","","False","0x00003BFF","",""
 "","Register the agenda beginning with this item as a preset?","Voulez-vous sauvegarder cette planification ainsi que les tâches suivantes dans votre liste de sets prédéfinis<var 1D /var>?","","False","0x00003C00","",""
 "","Sanctuary Settings","Paramètres","","False","0x00003C01","",""

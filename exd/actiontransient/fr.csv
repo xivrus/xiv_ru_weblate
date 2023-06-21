@@ -43326,6 +43326,7 @@ Cette technique d'arme a un temps de recharge indépendant.","","False","0x00007
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Damage over time
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency: <var 49 01 /var><var 48 01 /var>4,000
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>12s
+Doubled potency does not apply to damage over time effect.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Air Anchor Primed<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Bioblaster Primed<var 49 01 /var><var 48 01 /var>.
@@ -43339,6 +43340,7 @@ This weaponskill does not share a recast timer with any other actions.
 <var 48 F201FA /var><var 49 F201FB /var>Effet additionnel<var 1D /var>:<var 49 01 /var><var 48 01 /var> vous octroie <var 48 F201F4 /var><var 49 F201F5 /var>Ancre aérienne amorcée<var 49 01 /var><var 48 01 /var>.
 <var 48 F201FA /var><var 49 F201FB /var>Ancre aérienne amorcée<var 1D /var>:<var 49 01 /var><var 48 01 /var> Lance-toxine devient Ancre aérienne.
 <var 48 F201FA /var><var 49 F201FB /var>Effet additionnel durant Analyse<var 1D /var>:<var 49 01 /var><var 48 01 /var> puissance doublée et inflige Pesanteur 75%.
+Ne s'applique pas aux dégâts périodiques.
 <var 48 F201FA /var><var 49 F201FB /var>Durée<var 1D /var>:<var 49 01 /var><var 48 01 /var> 5s
 <var 48 F201FA /var><var 49 F201FB /var>Maximum de charges<var 1D /var>:<var 49 01 /var><var 48 01 /var> 2
 <var 48 F201FA /var><var 49 F201FB /var>Condition<var 1D /var>:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Lance-toxine amorcée<var 49 01 /var><var 48 01 /var>.
@@ -45502,11 +45504,11 @@ Les attributs du personnage n'ont aucune influence sur la puissance de cette act
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 4s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Significantly increases enmity generation
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Vous place en tête de la liste d'inimitié des ennemis alentour et augmente leur inimitié envers vous.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s","Vous place en tête de la liste d'inimitié des ennemis alentour et augmente leur inimitié envers vous.
 <var 48 F201FA /var><var 49 F201FB /var>Effet additionnel<var 1D /var>:<var 49 01 /var><var 48 01 /var> inflige Étourdissement.
-<var 48 F201FA /var><var 49 F201FB /var>Durée<var 1D /var>:<var 49 01 /var><var 48 01 /var> 2s
+<var 48 F201FA /var><var 49 F201FB /var>Durée<var 1D /var>:<var 49 01 /var><var 48 01 /var> 4s
 En outre, augmente considérablement l'inimitié que vous générez envers les ennemis en combat.
-<var 48 F201FA /var><var 49 F201FB /var>Durée<var 1D /var>:<var 49 01 /var><var 48 01 /var> 30s","","False","0x00007422","",""
+<var 48 F201FA /var><var 49 F201FB /var>Durée<var 1D /var>:<var 49 01 /var><var 48 01 /var> 60s","","False","0x00007422","",""
 "","Resurrects target to a weakened state.
 This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Ressuscite la cible avec l'effet Affaiblissement.
 Ce sort a un temps de recharge indépendant qui n'est pas affecté par ceux des techniques d'armes et des autres sorts.","","False","0x00007423","",""

@@ -10042,12 +10042,20 @@ The ★ indicates your current client language setting.<var 49 01 /var><var 48 0
 <var 08 E4E80201 ((<var 48 F201FC /var><var 49 F201FD /var>※If the registration period overlaps with the weekly reset,
 　registration will be canceled.
 ※If 1 to 4 members have already received the weekly reward,
-　only one coffer will appear. No coffers will appear if 5 or
-　more members have received the reward.<var 49 01 /var><var 48 01 /var>)) (()) /var>","<var 48 F201FA /var><var 49 F201FB /var>※Опция «Миссия пройдена» доступна только для тех миссий, которые уже пройдены.
-<var 08 E4E80201 ((※Опция «Прохождение миссии» доступна только для тех миссий, в которых недельная награда ещё не получена.
-)) (()) /var>※Выбор фазы для практики не подразумевает пропуск боя до выбранной фазы.<var 49 01 /var><var 48 01 /var>
-<var 08 E4E80201 ((<var 48 F201FC /var><var 49 F201FD /var>※Если время регистрации пересечёт недельный сброс, то регистрация будет отменена.
-※Если от 1 до 4 игроков уже получили недельную награду, то появится только один сундук. Если 5 и более игроков получили недельную награду, то ни один сундук не появится.<var 49 01 /var><var 48 01 /var>)) (()) /var>","","False","0x0000276A","",""
+　or if a member logs out or disconnects, the number of rewards
+will be reduced. No coffers will appear if 5 or more members
+　have received the reward.<var 49 01 /var><var 48 01 /var>)) (()) /var>","276A_<var 48 F201FA /var><var 49 F201FB /var>※The “Duty Complete” option is only available for previously
+　completed duties.
+<var 08 E4E80201 ((※The “Duty Completion” option is only available if the
+　weekly reward has yet to be obtained.
+)) (()) /var>※Practice phase selection does not entail the actual skipping
+　of phases.<var 49 01 /var><var 48 01 /var>
+<var 08 E4E80201 ((<var 48 F201FC /var><var 49 F201FD /var>※If the registration period overlaps with the weekly reset,
+　registration will be canceled.
+※If 1 to 4 members have already received the weekly reward,
+　or if a member logs out or disconnects, the number of rewards
+will be reduced. No coffers will appear if 5 or more members
+　have received the reward.<var 49 01 /var><var 48 01 /var>)) (()) /var>","","True","0x0000276A","",""
 "","Unselect","Отменить выбор","","False","0x0000276B","",""
 "","Join","Присоединиться","","False","0x0000276C","",""
 "","<var 08 E4E802E803 ((<var 2B ((<var 08 E802 ((<var 08 E2E8020B ((<var 09 E802 ((one)) ((two)) ((three)) ((four)) ((five)) ((six)) ((seven)) ((eight)) ((nine)) ((ten)) /var>)) ((<var 20 E802 /var>)) /var>)) ((<var 20 E802 /var>)) /var>)) /var> player<var 08 E4E80202 (()) ((s)) /var>)) ((<var 2B ((<var 08 E802 ((<var 08 E2E8020B ((<var 09 E802 ((one)) ((two)) ((three)) ((four)) ((five)) ((six)) ((seven)) ((eight)) ((nine)) ((ten)) /var>)) ((<var 20 E802 /var>)) /var>)) ((<var 20 E802 /var>)) /var>)) /var> to <var 08 E803 ((<var 08 E2E8030B ((<var 09 E803 ((one)) ((two)) ((three)) ((four)) ((five)) ((six)) ((seven)) ((eight)) ((nine)) ((ten)) /var>)) ((<var 20 E803 /var>)) /var>)) ((<var 20 E803 /var>)) /var> players)) /var>
@@ -15580,9 +15588,9 @@ Release Area: <var 29 EA03 /var>
 "","Rank","Ранг","","False","0x00003BF9","",""
 "","Lang.","Язык","","False","0x00003BFA","",""
 "","Visitors","Посетители","","False","0x00003BFB","",""
-"","Change expedition area to the <var 31 ((MJIName)) 03E8020302 /var>?","Изменить область экспедиции на <var 31 ((MJIName)) 03E8020302 /var>?","","False","0x00003BFC","",""
+"","Change expedition area to <var 31 ((MJIName)) 03E8020302 /var>?","3BFC_Change expedition area to <var 31 ((MJIName)) 03E8020302 /var>?","","True","0x00003BFC","",""
 "","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition?","Потратить <var 20 E802 /var> seafarer's cowries, чтобы увеличить продолжительность экспедиции?","","False","0x00003BFD","",""
-"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to the <var 31 ((MJIName)) 03E8030302 /var>?","Потратить <var 20 E802 /var> seafarer's cowries, чтобы увеличить продолжительность экспедиции и изменить область на <var 31 ((MJIName)) 03E8030302 /var>?","","False","0x00003BFE","",""
+"","Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to <var 31 ((MJIName)) 03E8030302 /var>?","3BFE_Spend <var 20 E802 /var> seafarer's cowries to extend the length of the expedition and change the area to <var 31 ((MJIName)) 03E8030302 /var>?","","True","0x00003BFE","",""
 "","Select Expedition Area","Выберите область экспедиции","","False","0x00003BFF","",""
 "","Register the agenda beginning with this item as a preset?","Зарегистрировать повестку дня, начинающуюся с этого пункта, как предустановленную?","","False","0x00003C00","",""
 "","Sanctuary Settings","Настройки острова","","False","0x00003C01","",""
@@ -16666,3 +16674,4 @@ Withdraw that application and apply for membership with <var 29 EA02 /var>?","В
 "","Yes","Да","","False","0x0001911F","",""
 "","No","Нет","","False","0x00019120","",""
 "","Small Talk","Поговорить","","False","0x0001912C","",""
+

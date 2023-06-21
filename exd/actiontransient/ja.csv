@@ -42107,6 +42107,7 @@ This weaponskill does not share a recast timer with any other actions.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Damage over time
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency: <var 49 01 /var><var 48 01 /var>4,000
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>12s
+Doubled potency does not apply to damage over time effect.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Air Anchor Primed<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Bioblaster Primed<var 49 01 /var><var 48 01 /var>.
@@ -42121,6 +42122,7 @@ This weaponskill does not share a recast timer with any other actions.
 <var 48 F201F8 /var><var 49 F201F9 /var>エアアンカー起動効果：<var 49 01 /var><var 48 01 /var>バイオブラストがエアアンカーに変化する。
 <var 48 F201F8 /var><var 49 F201F9 /var>アナライズ中追加効果：<var 49 01 /var><var 48 01 /var>威力が2倍になり、対象に75％ヘヴィを付与する。
 <var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>5秒
+威力上昇効果は継続ダメージには適用されない。
 <var 48 F201F8 /var><var 49 F201F9 /var>最大チャージ数：<var 49 01 /var><var 48 01 /var>2
 <var 48 F201F8 /var><var 49 F201F9 /var>発動条件：<var 49 01 /var><var 48 01 /var><var 48 F201F4 /var><var 49 F201F5 /var>「バイオブラスト起動」<var 49 01 /var><var 48 01 /var>効果中
 このウェポンスキルは固有のリキャストタイマーを持つ。
@@ -44162,10 +44164,10 @@ This action is not affected by attributes.","対象のＨＰを回復する。<v
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 4s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Significantly increases enmity generation
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","周囲の敵の敵視を最高位にし、自身への敵視を上昇させる。
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s","周囲の敵の敵視を最高位にし、自身への敵視を上昇させる。
 <var 48 F201F8 /var><var 49 F201F9 /var>追加効果：<var 49 01 /var><var 48 01 /var>対象をスタンさせる　<var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>4秒
 さらに一定時間、自身に向けられる敵視が大幅に上昇する。
-<var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>30秒","","False","0x00007422","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>効果時間：<var 49 01 /var><var 48 01 /var>60秒","","False","0x00007422","",""
 "","Resurrects target to a weakened state.
 This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","対象を衰弱状態で蘇生する。
 この魔法は固有のリキャストタイマーを持ち、他のウェポンスキルや魔法のリキャストタイマーの影響を受けない。","","False","0x00007423","",""

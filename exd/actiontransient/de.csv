@@ -42821,6 +42821,7 @@ Eigener Reaktivierungs-Timer","","False","0x000072DD","",""
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Damage over time
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency: <var 49 01 /var><var 48 01 /var>4,000
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>12s
+Doubled potency does not apply to damage over time effect.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Air Anchor Primed<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Bioblaster Primed<var 49 01 /var><var 48 01 /var>.
@@ -42835,6 +42836,8 @@ Dauer: 12 Sekunden
 Zusatzeffekt: <var 48 F201FA /var><var 49 F201FB /var>Scharfer Luftanker<var 49 01 /var><var 48 01 /var>
 Effekt von <var 48 F201FA /var><var 49 F201FB /var>Scharfer Luftanker<var 49 01 /var><var 48 01 /var>: <var 48 F201F6 /var><var 49 F201F7 /var>Bioblaster<var 49 01 /var><var 48 01 /var> ändert sich zu <var 48 F201F6 /var><var 49 F201F7 /var>Luftanker<var 49 01 /var><var 48 01 /var>.
 Zusatzeffekt bei <var 48 F201FA /var><var 49 F201FB /var>Analyse<var 49 01 /var><var 48 01 /var>: Attacke-Wert wird verdoppelt und Ziele erleiden 75<var 1D /var>% <var 48 F201FA /var><var 49 F201FB /var>Gewicht<var 49 01 /var><var 48 01 /var>.
+Dauer: 5 Sekunden
+Die Erhöhung des Attacke-Werts hat keine Auswirkung auf den Schaden über Zeit.
 Maximale Aufladungen: 2
 Bedingung: <var 48 F201FA /var><var 49 F201FB /var>Scharfer Bioblaster<var 49 01 /var><var 48 01 /var> aktiv
 Eigener Reaktivierungs-Timer
@@ -44947,11 +44950,11 @@ Die Effekte dieses Kommandos werden nicht von Parametern beeinflusst.","","False
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 4s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Significantly increases enmity generation
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Du setzt dich an die erste Stelle der Feindseligkeitsliste der umstehenden Gegner und erhöhst die Feindseligkeit gegen dich noch weiter.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s","Du setzt dich an die erste Stelle der Feindseligkeitsliste der umstehenden Gegner und erhöhst die Feindseligkeit gegen dich noch weiter.
 Zusatzeffekt: <var 48 F201FA /var><var 49 F201FB /var>Betäubung<var 49 01 /var><var 48 01 /var>
 Dauer: 4 Sekunden
 Zusatzeffekt: Erhöht Feindseligkeit gegen dich immens.
-Dauer: 30 Sekunden","","False","0x00007422","",""
+Dauer: 60 Sekunden","","False","0x00007422","",""
 "","Resurrects target to a weakened state.
 This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Du belebst das Ziel wieder, wonach es für gewisse Zeit unter <var 48 F201FA /var><var 49 F201FB /var>Schwäche<var 49 01 /var><var 48 01 /var> leidet.
 Eigener Reaktivierungs-Timer, der nicht durch andere Reaktivierungs-Timer beeinflusst wird.","","False","0x00007423","",""
