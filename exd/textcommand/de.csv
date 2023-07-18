@@ -528,7 +528,7 @@ Die Namen aller Charaktere werden als Initialen angezeigt. <tab>/namensanzeigear
 　4: Never
 
 >>Example:
-　/nameplatetype all 4
+　/nameplatedisp all 4
 　(Set display names to never
 　display for all players.)<tab><tab><tab>/nameplatedisp<tab>","/namensanzeige, /nameplatedisp
 VERWENDUNG:
@@ -7631,4 +7631,18 @@ VERWENDUNG:
 → Du führst einen Ver<var 16 /var>wand<var 16 /var>lungszauber aus..
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. <tab>/verwandlungsmagie<tab>/verwand<tab>/allsaintscharm<tab>","","False","0x0000029C","",""
+"","USAGE:
+　/reference [subcommand]
+
+→Consult literature.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/reference<tab>","/literaturvergleich, /literatur, /reference 
+VERWENDUNG:
+/literaturvergleich [Unterbefehl]
+→ Du vergleichst mit deiner Literatur.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/literaturvergleich<tab>/literatur<tab>/reference<tab>","","False","0x0000029F","",""
 

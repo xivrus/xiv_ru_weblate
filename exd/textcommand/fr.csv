@@ -518,7 +518,7 @@ Affiche seulement les initiales sur les plaques de nom de tous les joueurs.<tab>
 　4: Never
 
 >>Example:
-　/nameplatetype all 4
+　/nameplatedisp all 4
 　(Set display names to never
 　display for all players.)<tab><tab><tab>/nameplatedisp<tab>","/affichageplaquedenom, /affplaq
 Utilisation<var 1D /var>: /affichageplaquedenom [catégorie] [mode d'affichage]
@@ -7477,4 +7477,18 @@ Lance un sortilège de la Veillée des saints.
 >> Sous-commande<var 1D /var>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/sortilègedelaveillée<tab>/sortveillée<tab>/allsaintscharm<tab>","","False","0x0000029C","",""
+"","USAGE:
+　/reference [subcommand]
+
+→Consult literature.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/reference<tab>","/seréférer, /référence
+Utilisation<var 1D /var>: /seréférer [sous-commande]
+Consulte un ouvrage de référence.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/seréférer<tab>/référence<tab>/reference<tab>","","False","0x0000029F","",""
 

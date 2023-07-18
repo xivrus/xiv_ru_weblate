@@ -322,9 +322,37 @@ USAGE:
 　4: Never
 
 >>Example:
-　/nameplatetype all 4
+　/nameplatedisp all 4
 　(Set display names to never
-　display for all players.)<tab><tab><tab>/nameplatedisp<tab>","","","False","0x0000001C","",""
+　display for all players.)<tab><tab><tab>/nameplatedisp<tab>","USAGE:
+　/nameplatedisp [category] [setting number]
+
+→Change PC display name settings.
+
+>>Category:
+　All Players
+　　<var 48 F201FA /var><var 49 F201FB /var>all<var 49 01 /var><var 48 01 /var>
+　Your Character
+　　<var 48 F201FA /var><var 49 F201FB /var>self<var 49 01 /var><var 48 01 /var>
+　Party Members
+　　<var 48 F201FA /var><var 49 F201FB /var>party<var 49 01 /var><var 48 01 /var>
+　Other PCs
+　　<var 48 F201FA /var><var 49 F201FB /var>other<var 49 01 /var><var 48 01 /var>
+　Friends
+　　<var 48 F201FA /var><var 49 F201FB /var>friend<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Opponents
+　　<var 48 F201FA /var><var 49 F201FB /var>feast<var 49 01 /var><var 48 01 /var>
+
+>>Setting Number
+　1: Always
+　2: During Battle
+　3: When Targeted
+　4: Never
+
+>>Example:
+　/nameplatedisp all 4
+　(Set display names to never
+　display for all players.)<tab><tab><tab>/nameplatedisp<tab>","","True","0x0000001C","",""
 "","USAGE:
 　/fashion [accessory]
 
@@ -5506,4 +5534,21 @@ Both text and motion will be displayed when no subcommand is specified.<tab><tab
  　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/allsaintscharm<tab>","","True","0x0000029C","",""
+"","USAGE:
+　/reference [subcommand]
+
+→Consult literature.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/reference<tab>","USAGE:
+　/reference [subcommand]
+
+→Consult literature.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/reference<tab>","","True","0x0000029F","",""
 

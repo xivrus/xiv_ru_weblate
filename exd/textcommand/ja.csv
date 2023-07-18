@@ -526,7 +526,7 @@ feast
 　4: Never
 
 >>Example:
-　/nameplatetype all 4
+　/nameplatedisp all 4
 　(Set display names to never
 　display for all players.)<tab><tab><tab>/nameplatedisp<tab>","/nameplatedisp 対象 設定番号
 PCの「ネームプレートの表示設定」を設定する。
@@ -7956,4 +7956,19 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/allsaintscharm<tab>","","False","0x0000029C","",""
+"","USAGE:
+　/reference [subcommand]
+
+→Consult literature.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/reference<tab>","/reference サブコマンド
+文献を見比べる。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/reference<tab>","","False","0x0000029F","",""
 
