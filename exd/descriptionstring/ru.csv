@@ -547,19 +547,19 @@ Parties gain units of ceruleum upon defeating an enemy mammet. These units will 
 Группы получают церелиум за уничтожение вражеского маммета. Их количество будет разделено между всеми группами сражавшимися с мамметом, в зависимости от их нанесённого урона. Нельзя получить церелиум за нанесённый урон другим мамметом","","False","0x0000008D","",""
 "","Steam Cannons","Паровые Пушки","","False","0x0000008E","",""
 "","Two steam cannons have been erected near each team's core. While they cannot be moved, they are powerful weapons which may prove useful in deterring enemy forces.","Рядом с ядром находятся две паровые пушки. Это мощное стационарное оружие, которое может помочь отбить вражеские силы.","","False","0x0000008F","",""
-"","Soaring","Порхание","","False","0x00000090","",""
-"","When you defeat an enemy team member, your party receives the Soaring enhancing effect. This effect can stack up to twenty times, increasing all party members' damage dealt and HP restored via healing actions, while also reducing damage taken. At twenty stacks, Soaring will be replaced with the Flying High effect, which confers even greater benefits.","Устраняя вражеского игрока, ваша группа получает постоянный усиливающий эффект «Порхания». Этот эффект можно набрать до двадцати раз. Он даёт вашей команде усиление исходящего урона и лечения, а так же уменьшает входящий урон. При двадцати зарядах Порхание будет заменено на «Возвышение», которое даёт ещё больше усилений.","","False","0x00000091","",""
+"","Soaring","Soaring","","True","0x00000090","",""
+"","When you defeat an enemy team member, your party receives the Soaring enhancing effect. This effect can stack up to twenty times, increasing all party members' damage dealt and HP restored via healing actions, while also reducing damage taken. At twenty stacks, Soaring will be replaced with the Flying High effect, which confers even greater benefits.","Устраняя вражеского игрока, ваша группа получает постоянный усиливающий эффект «Soaring». Этот эффект можно набрать до двадцати раз. Он даёт вашей команде усиление исходящего урона и лечения, а так же уменьшает входящий урон. При двадцати зарядах Порхание будет заменено на «Flying High», которое даёт ещё больше усилений.","","True","0x00000091","",""
 "","■Soaring Stacks
 The number of Soaring stacks an enemy has when defeated affects how many stacks your party gains.
 Defeat an enemy with 0 to 9 stacks: gain 1 stack
 Defeat an enemy with 10 to 19 stacks: gain 2 stacks
 Defeat an enemy with 20 stacks (Flying High): gain 3 stacks
-","■Заряды Парения
-Количество зарядов «Парения» на убитом враге влияет на то сколько зарядов получит ваша группа.
+","■Заряды Soaring
+Количество зарядов «Soaring» на убитом враге влияет на то сколько зарядов получит ваша группа.
 Устранение врага с 0 до 9 зарядами: даёт 1 заряд
 Устранение врага с 10 до 19 зарядами: даёт 2 заряда
-Устранение врага с 20 зарядами (С Возвышением): даёт 3 заряда
-","","False","0x00000092","",""
+Устранение врага с 20 зарядами (Flying High): даёт 3 заряда
+","","True","0x00000092","",""
 "","","","","True","0x00000093","",""
 "","","","","True","0x00000094","",""
 "","","","","True","0x00000095","",""
@@ -1583,7 +1583,7 @@ To access unrelated duties, please suspend New Game+ and return to the standard 
 ■Certain features accessed through item use:
 ・Use of Tales of Adventure items","","True","0x0000010C","",""
 "","Frontline","Передовая","","False","0x0000010D","",""
-"","Overview","Обзор","","True","0x0000010E","",""
+"","Overview","Обзор","","False","0x0000010E","",""
 "","In Frontline battles, the Maelstrom, the Twin Adders, and the Immortal Flames face each other in training exercises devised to test the participants' strategic planning and combat prowess.","На Передовой армии Водоворота, Ордена двух змей и Бессмертного пламени участвуют в тренировочных боях чтобы проверить стратегические и боевые навыки участников.","","False","0x0000010F","",""
 "","The Basics","Основы","","True","0x00000110","",""
 "","Frontline is a PvP challenge which engages three teams of adventurers, each team representing one of the three Grand Companies. Players will be randomly assigned to one of these three teams, regardless of their Grand Company allegiance. Each team consists of up to 24 players in an alliance, allowing for a grand total of 72 players in a single battle.
@@ -1635,11 +1635,11 @@ Damage dealt and damage taken in Frontline campaigns are adjusted based on your 
 <var 48 F201FA /var><var 49 F201FB /var>■Модификаторы урона■<var 49 01 /var><var 48 01 /var>
 Наносимый и получаемый урон на Передовой выравнен под вашу текущую профессию. Чтобы узнать конкретные значения, посетите игровое руководство Передовой на Lodestone.","","False","0x00000112","",""
 "","Battle High","Боевой Дух","","True","0x00000113","",""
-"","Battle High is a status that increases damage dealt and HP restored by healing actions according to a player's knockouts and assists. The maximum Battle High value is 100, and for every increment of 20, the status increases in strength. Being incapacitated will reduce the Battle High value by half.","Battle High is a status that increases damage dealt and HP restored by healing actions according to a player's knockouts and assists. The maximum Battle High value is 100, and for every increment of 20, the status increases in strength. Being incapacitated will reduce the Battle High value by half.","","True","0x00000114","",""
+"","Battle High is a status that increases damage dealt and HP restored by healing actions according to a player's knockouts and assists. The maximum Battle High value is 100, and for every increment of 20, the status increases in strength. Being incapacitated will reduce the Battle High value by half.","Боевой дух это эффект увеличивающий наносимый урон и восстанавливаемые ОЗ который зависит от устранений и помощи игрока. Максимальное значение 100 и за каждые 20 единиц эффект становится сильнее. Падение понижает значение в два раза.","","False","0x00000114","",""
 "","The Borderland Ruins (Secure)","The Borderland Ruins (Secure)","","True","0x00000115","",""
 "","Map Overview","Map Overview","","True","0x00000116","",""
 "","While many will remember the Calamity for the destruction it wrought upon the realm of Eorzea, that destruction was not without its blessings─one of those being the uncovering of ancient Allagan ruins hidden underneath the war-scarred Carteneau Flats and heretofore unseen for several Astral Eras. When an attempt by the Grand Companies of Eorzea to determine the control of these ruins, and more importantly the secrets they contain, through peaceful negotiations ended in failure, the city<var 1F /var>states instead elected to solve the issue of dominion using a form of civilized warfare dubbed Frontline.","While many will remember the Calamity for the destruction it wrought upon the realm of Eorzea, that destruction was not without its blessings─one of those being the uncovering of ancient Allagan ruins hidden underneath the war-scarred Carteneau Flats and heretofore unseen for several Astral Eras. When an attempt by the Grand Companies of Eorzea to determine the control of these ruins, and more importantly the secrets they contain, through peaceful negotiations ended in failure, the city<var 1F /var>states instead elected to solve the issue of dominion using a form of civilized warfare dubbed Frontline.","","True","0x00000117","",""
-"","Victory Conditions","Условия победы","","True","0x00000118","",""
+"","Victory Conditions","Условия победы","","False","0x00000118","",""
 "","In the Borderland Ruins (Secure), victory goes to the first alliance to reach the specified tactical rating, which is accumulated by:
 　1. Defeating enemy players
 　2. Occupying key locations
@@ -3170,7 +3170,7 @@ If neither team reaches the goal by the time limit, and progress for both teams 
 ・Если оба прогресса равны, то вам нужно обогнать прогресс вражеской команды чтобы победить","","False","0x00000252","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■The Tactical Crystal■<var 49 01 /var><var 48 01 /var>
 The all-important object placed at the arena's centerpoint is called the “tactical crystal.” It will remain bound until the first 20 seconds of the match have passed.","<var 48 F201FA /var><var 49 F201FB /var>■Тактический кристалл■<var 49 01 /var><var 48 01 /var>
-Ключевой объект вокруг которого и происходят сражения называется ""Тактическим кристаллом"". Первые 20 секунд после начала матча является неподвижным.","","False","0x00000253","",""
+Ключевой объект вокруг которого и происходят сражения называется ""Тактическим кристаллом"". Первые 20 секунд после начала матча кристалл неподвижный.","","False","0x00000253","",""
 "","Once the tactical crystal is unbound, a ring will appear at its base. Should one team be fully in control of this ring─with no members of the opposing team present within its bounds─that team will be able to move the crystal.
 
 The crystal can only be moved along the Crystal Line─a dedicated path within the arena. It will move faster when:
@@ -3178,66 +3178,67 @@ The crystal can only be moved along the Crystal Line─a dedicated path within t
 ・The controlling team's progress is less than that of the opposing team.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Checkpoints■<var 49 01 /var><var 48 01 /var>
-Checkpoints can be found halfway between the centerpoint and each team's goal.","Once the tactical crystal is unbound, a ring will appear at its base. Should one team be fully in control of this ring─with no members of the opposing team present within its bounds─that team will be able to move the crystal.
+Checkpoints can be found halfway between the centerpoint and each team's goal.","Как только кристалл становится активным под ним появится кольцо. Если команда захватит контроль в этом кольце─без вражеских игроков внутри─то команда сможет передвигать кристалл.
 
-The crystal can only be moved along the Crystal Line─a dedicated path within the arena. It will move faster when:
-・It reaches a stretch of the line through which the same team has moved it before.
-・The controlling team's progress is less than that of the opposing team.
+Кристалл перемещается только по кристальной дороге─готовый путь на арене. Он будет двигаться быстрее если:
+・Он проходит путь по которому команда уже его вела.
+・Если прогресс контролирующей команды меньше чем у противоположной.
 
-<var 48 F201FA /var><var 49 F201FB /var>■Checkpoints■<var 49 01 /var><var 48 01 /var>
-Checkpoints can be found halfway between the centerpoint and each team's goal.","","True","0x00000254","",""
+<var 48 F201FA /var><var 49 F201FB /var>■Контрольная точка■<var 49 01 /var><var 48 01 /var>
+Контрольные точки расположены на пути между центром и базами команд.","","False","0x00000254","",""
 "","Upon reaching a checkpoint, the tactical crystal's progress will be halted temporarily. The team attempting to clear the checkpoint must remain in the crystal's ring until the Clear Progress gauge reaches 100%, at which point the crystal can once again be moved.
 
-The Clear Progress gauge will fill when the team attempting to clear the checkpoint has more players in the crystal's ring than the opposing team, and the gauge will fill faster the larger this discrepancy is.","Upon reaching a checkpoint, the tactical crystal's progress will be halted temporarily. The team attempting to clear the checkpoint must remain in the crystal's ring until the Clear Progress gauge reaches 100%, at which point the crystal can once again be moved.
+The Clear Progress gauge will fill when the team attempting to clear the checkpoint has more players in the crystal's ring than the opposing team, and the gauge will fill faster the larger this discrepancy is.","Дойдя до контрольной точки, продвижение кристалла приостановится. Команда пытающая пройти через контрольную точку должна продержать кристалл пока прогресс не достигнет 100%, после чего кристалл снова можно будет продвигать вперед.
 
-The Clear Progress gauge will fill when the team attempting to clear the checkpoint has more players in the crystal's ring than the opposing team, and the gauge will fill faster the larger this discrepancy is.","","True","0x00000255","",""
-"","Features","Features","","True","0x00000256","",""
+Прогресс будет заполняться если захватывающая команда превосходит числом защищающую. Чем больше разница между командами, тем быстрее заполняется прогресс.","","False","0x00000255","",""
+"","Features","Особенности","","False","0x00000256","",""
 "","Crystalline Conflict arenas include a variety of tactically useful elements to make matches more dynamic. These include arena events, designed to complement the specific arena in which they occur, as well as the following features:
 
 <var 48 F201FA /var><var 49 F201FB /var>■Medicine Kits■<var 49 01 /var><var 48 01 /var>
 Each arena comes equipped with medicine kits. Accessing these kits will restore a player's HP.
 
-Medicine kits cannot be claimed by those whose HP is at 100%, and each can only be claimed by one player. Once a kit has been claimed, a replacement will be generated after a set period of time has passed.","Crystalline Conflict arenas include a variety of tactically useful elements to make matches more dynamic. These include arena events, designed to complement the specific arena in which they occur, as well as the following features:
+Medicine kits cannot be claimed by those whose HP is at 100%, and each can only be claimed by one player. Once a kit has been claimed, a replacement will be generated after a set period of time has passed.","Арены Кристальной битвы включают в себе тактические элементы которые увеличивают темп игры. На этих аренах проходят события, которые зависят от арены на которой происходит игра, а так же имеется следующее:
 
-<var 48 F201FA /var><var 49 F201FB /var>■Medicine Kits■<var 49 01 /var><var 48 01 /var>
-Each arena comes equipped with medicine kits. Accessing these kits will restore a player's HP.
+<var 48 F201FA /var><var 49 F201FB /var>■Аптечка■<var 49 01 /var><var 48 01 /var>
+На каждой арене находятся аптечки. Подобрав аптечку игрок восстановит свои ОЗ.
 
-Medicine kits cannot be claimed by those whose HP is at 100%, and each can only be claimed by one player. Once a kit has been claimed, a replacement will be generated after a set period of time has passed.","","True","0x00000257","",""
+Аптечки нельзя использовать игрокам с полным ОЗ. Как только аптечка использована, следующая появится только спустя определенное время.","","False","0x00000257","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Sprint Zones■<var 49 01 /var><var 48 01 /var>
-Certain stages feature unique paths suited to running. Entering these “sprint zones” will grant the effect of Swift Sprint, greatly increasing player movement speed.","<var 48 F201FA /var><var 49 F201FB /var>■Sprint Zones■<var 49 01 /var><var 48 01 /var>
-Certain stages feature unique paths suited to running. Entering these “sprint zones” will grant the effect of Swift Sprint, greatly increasing player movement speed.","","True","0x00000258","",""
+Certain stages feature unique paths suited to running. Entering these “sprint zones” will grant the effect of Swift Sprint, greatly increasing player movement speed.","<var 48 F201FA /var><var 49 F201FB /var>■Зоны ускорения■<var 49 01 /var><var 48 01 /var>
+На некоторых аренах присутствуют пути предназначенные для спринта. Игрокам находящимся в этой зоне будет выдан эффект спринта, увеличивающий скорость перемещения игрока.","","False","0x00000258","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Jump Glyphs■<var 49 01 /var><var 48 01 /var>
-Stepping on a jump glyph will rapidly transport you to a specific location on the field.","<var 48 F201FA /var><var 49 F201FB /var>■Jump Glyphs■<var 49 01 /var><var 48 01 /var>
-Stepping on a jump glyph will rapidly transport you to a specific location on the field.","","True","0x00000259","",""
-"","Arenas","Arenas","","True","0x0000025A","",""
+Stepping on a jump glyph will rapidly transport you to a specific location on the field.","<var 48 F201FA /var><var 49 F201FB /var>■Прыжковый глиф■<var 49 01 /var><var 48 01 /var>
+Встав на прыжковый глиф, он доставит игрока в определенное место поля.","","False","0x00000259","",""
+"","Arenas","Арены","","False","0x0000025A","",""
 "","The Palaistra","The Palaistra","","True","0x0000025B","",""
 "","Inspired by the iconic architecture of the Northern Empty, this glamour-woven arena features no specialized gimmicks─so there can be no doubt that to the superior team goes the glory.","Inspired by the iconic architecture of the Northern Empty, this glamour-woven arena features no specialized gimmicks─so there can be no doubt that to the superior team goes the glory.","","True","0x0000025C","",""
-"","The Volcanic Heart","The Volcanic Heart","","True","0x0000025D","",""
-"","This staging ground lies at the foot of a volcano no less volatile for its artificial nature. If you can't take the heat, abandon all hope of victory.","This staging ground lies at the foot of a volcano no less volatile for its artificial nature. If you can't take the heat, abandon all hope of victory.","","True","0x0000025E","",""
+"","The Volcanic Heart","Вулканическое сердце","","False","0x0000025D","",""
+"","This staging ground lies at the foot of a volcano no less volatile for its artificial nature. If you can't take the heat, abandon all hope of victory.","Боевое поле расположилось прямо у подножия вулкана. Лишь те, что могут выдержать его пламенную ярость смогут одержать победу","","False","0x0000025E","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Eruptions■<var 49 01 /var><var 48 01 /var>
-The Volcanic Heart periodically erupts, scattering self-destructing bombs across the field. Those who fail to avoid their explosive radii will take damage.","<var 48 F201FA /var><var 49 F201FB /var>■Eruptions■<var 49 01 /var><var 48 01 /var>
-The Volcanic Heart periodically erupts, scattering self-destructing bombs across the field. Those who fail to avoid their explosive radii will take damage.","","True","0x0000025F","",""
+The Volcanic Heart periodically erupts, scattering self-destructing bombs across the field. Those who fail to avoid their explosive radii will take damage.","<var 48 F201FA /var><var 49 F201FB /var>■Извержения■<var 49 01 /var><var 48 01 /var>
+Извержения вулкана периодически разбрасывают самоуничтожающиеся бомбы на арене. Те, кому не удалось уйти из зоны взрыва получат огромный урон.","","False","0x0000025F","",""
 "","Bomb cores will remain at the site of bombs' destruction, granting those who acquire them the following:
 ・An effect increasing damage dealt for a short time. Stacks up to 10 times.
-・A boost to the limit gauge.","Bomb cores will remain at the site of bombs' destruction, granting those who acquire them the following:
-・An effect increasing damage dealt for a short time. Stacks up to 10 times.
-・A boost to the limit gauge.","","True","0x00000260","",""
-"","Cloud Nine","Cloud Nine","","True","0x00000261","",""
-"","Though the cloudtops may be illusory, the turbulence in this arena feels real enough! Ride its winds to victory...or defeat.","Though the cloudtops may be illusory, the turbulence in this arena feels real enough! Ride its winds to victory...or defeat.","","True","0x00000262","",""
+・A boost to the limit gauge.","Ядро бомб остается на месте взрыва, даруя следующие эффекты тем кто их подберёт:
+・Временный эффект увеличивающий наносимый урон. Можно накопить до 10.
+・Ускоряет восстановление шкалу запредельной способности.","","False","0x00000260","",""
+"","Cloud Nine","Седьмое небо","","False","0x00000261","",""
+"","Though the cloudtops may be illusory, the turbulence in this arena feels real enough! Ride its winds to victory...or defeat.","Though the cloudtops may be illusory, the turbulence in this arena feels real enough! Ride its winds to victory...or defeat.
+","","False","0x00000262","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Turbulence■<var 49 01 /var><var 48 01 /var>
 Players cast up into the air by turbulence will take damage upon being returned unceremoniously to the ground. However, they may acquire black chocobo feathers while in the air, granting them the following:
 ・A soft landing, nullifying the typical damage taken from turbulence.
 ・An effect increasing attack speed and movement speed for a short time.
 ・A boost to the limit gauge.
 
-The locations of black chocobo feathers are indicated by markers on the ground. Those who do not wish to go flying can negate the effects of turbulence by using Guard.","<var 48 F201FA /var><var 49 F201FB /var>■Turbulence■<var 49 01 /var><var 48 01 /var>
-Players cast up into the air by turbulence will take damage upon being returned unceremoniously to the ground. However, they may acquire black chocobo feathers while in the air, granting them the following:
-・A soft landing, nullifying the typical damage taken from turbulence.
-・An effect increasing attack speed and movement speed for a short time.
-・A boost to the limit gauge.
+The locations of black chocobo feathers are indicated by markers on the ground. Those who do not wish to go flying can negate the effects of turbulence by using Guard.","<var 48 F201FA /var><var 49 F201FB /var>■Турбулентность■<var 49 01 /var><var 48 01 /var>
+Турбулентность подкидывает игроков в воздух и наносит урон при падении. Однако в воздухе можно подобрать перо черного чокобо, которое дарует следующие эффекты:
+・Мягкое приземление предотвратит получаемый урон при приземлении.
+・Временное усиление наносимого урона и повышенная скорость передвижения
+・Заполнение запредельной шкалы
 
-The locations of black chocobo feathers are indicated by markers on the ground. Those who do not wish to go flying can negate the effects of turbulence by using Guard.","","True","0x00000263","",""
-"","Turbulence also leaves behind a twister at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister.","Turbulence also leaves behind a twister at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister.","","True","0x00000264","",""
+Местоположение перьев отображается маркером на земле во время турбулентности. Чтобы избежать подбрасывания игроки могут использовать «Оборону»","","False","0x00000263","",""
+"","Turbulence also leaves behind a twister at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister.","Турбулентность так же вызывает появление вихрей. Столкновение с ними приведет к получению урона и отталкиванию. Если на вас был эффект «обороны», то он будет отменен вихрем.","","False","0x00000264","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Participation Requirements■<var 49 01 /var><var 48 01 /var>
 Crystalline Conflict matches can be entered via the Duty Finder. To register, participants must use a job of level 30 or above, and may not be part of a preformed party.
 
@@ -3260,29 +3261,30 @@ The use of the following is prohibited while participating in Crystalline Confli
 　・Chocobo companions
 　・Mounts
 　・Teleportation
-　・Return","<var 48 F201FA /var><var 49 F201FB /var>■Participation Requirements■<var 49 01 /var><var 48 01 /var>
-Crystalline Conflict matches can be entered via the Duty Finder. To register, participants must use a job of level 30 or above, and may not be part of a preformed party.
+　・Return","<var 48 F201FA /var><var 49 F201FB /var>■Требования для участия■<var 49 01 /var><var 48 01 /var>
+Вступить в кристальную битву можно через Поиск миссий. Чтобы начать поиск, необходима профессия 30 уровня или выше.
 
-<var 48 F201FA /var><var 49 F201FB /var>■Role Requirements■<var 49 01 /var><var 48 01 /var>
-There are no restrictions on the balance of roles within a team. However, there cannot be two players of the same job on one team.
+<var 48 F201FA /var><var 49 F201FB /var>■Требования по ролям■<var 49 01 /var><var 48 01 /var>
+Нет ограничения по балансу ролей в команде, однако две одинаковые профессии не могут находится в одной команде.
 
-<var 48 F201FA /var><var 49 F201FB /var>■Time Limit■<var 49 01 /var><var 48 01 /var>
+<var 48 F201FA /var><var 49 F201FB /var>■Ограничение по времени■<var 49 01 /var><var 48 01 /var>
 A standard match lasts five minutes. In the event that neither team claims victory in the allotted time, the match will go into overtime.
+Стандартный матч длится пять минут. В случае если команды не довели кристалл за отведенное время, матч будет продлен.
 
 <var 48 F201FA /var><var 49 F201FB /var>■Retaliation■<var 49 01 /var><var 48 01 /var>
 Incapacitated players will be returned to their base, where they will be allowed to rejoin combat after a short delay─however, this delay increases with each incapacitation. Players will return to their senses with HP and MP fully restored and all action recast timers reset. Furthermore, they will be invulnerable so long as they remain at their base. This effect will be lost upon returning to the battlefield.
 
-<var 48 F201FA /var><var 49 F201FB /var>■Other Restrictions■<var 49 01 /var><var 48 01 /var>
-The use of the following is prohibited while participating in Crystalline Conflict:
-　・Chat (aside from Quick Chat)
-　　* Not restricted for custom matches.
-　・Class or job changes
-　・Gear changes
-　・Items
-　・Chocobo companions
-　・Mounts
-　・Teleportation
-　・Return","","True","0x00000265","",""
+<var 48 F201FA /var><var 49 F201FB /var>■Другие ограничения■<var 49 01 /var><var 48 01 /var>
+В Кристальной битве нельзя использовать следующее:
+　・Чат (Разрешено использование боевых фраз)
+　　* Не ограничивает пользовательские матчи
+　・Смена профессии
+　・Смена снаряжения
+　・Предметы
+　・Чокобо компаньён
+　・Транспорт
+　・Телепортация
+　・Возврат","","True","0x00000265","",""
 "","The Basics","Основы","","False","0x00000266","",""
 "","Gathering","Собирательство","","False","0x00000267","",""
 "","Crafting","Ремесло","","False","0x00000268","",""
