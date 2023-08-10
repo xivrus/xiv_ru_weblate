@@ -637,8 +637,8 @@ Mercenaries are also governed by the Contractual Obligation status, and they wil
 ■Появление наемников
 Как только наемник присоединяется к вам, он появится у ядра вашей команды и будет пытаться уничтожить вражеские башни и ядро. Линия на которую отправится наемник зависит от места где он появился.
 Наемники так же имеют эффект «Contractual Obligation», по истечению которого он покинет поле боя. Спустя какое-то время он снова появится в одном из лагерей, не работая ни на одну из команд.","","False","0x000000A1","",""
-"","Housing","Housing","","True","0x000000A2","",""
-"","1. Residential Districts","1. Жилые районы","","False","0x000000A3","",""
+"","Housing","Жилая площадь","","False","0x000000A2","",""
+"","1. Residential Districts","1. Жилые регионы","","False","0x000000A3","",""
 "","In residential districts, adventurers may purchase plots of land, estates, and apartments.
 The properties available to you are not affected by your choice of Grand Company.
 
@@ -649,15 +649,15 @@ The properties available to you are not affected by your choice of Grand Company
 　・Ishgard: Empyreum
 　・Kugane: Shirogane
 
-","В жилых районах игроки могут приобрести земельный участок и апартаменты.
-Выбор не зависит от вашего выбора Великой компании.
+","В жилых регионах игроки могут приобрести земельный участок и апартаменты.
+Выбор региона для покупки не ограничивается вашим выбором Великой компании.
 
-■Residential Districts by City-state
-　・Limsa Lominsa: Mist
-　・Gridania: The Lavender Beds
-　・Ul'dah: The Goblet
-　・Ishgard: Empyreum
-　・Kugane: Shirogane
+■Жилые регионы городов
+　・Лимса Ломинса: Мгла
+　・Гридания: Лавандовые Клумбы
+　・Уль'да: Кубок
+　・Ишгард: Импирей
+　・Куганэ: Сироганэ
 ","","False","0x000000A4","",""
 "","2. Plots of Land","2. Земельный участок","","False","0x000000A5","",""
 "","A plot of land is required to build an estate. In addition, the size of the estate must match the size of the plot on which it is built.
@@ -668,7 +668,7 @@ The properties available to you are not affected by your choice of Grand Company
 
 ","Земельный участок необходим чтобы построить поместье. Размер поместья так же будет зависеть от размера участка на котором он строится.
 ■Размеры поместий и их максимальное количество мебели
-　・Маленький: 200 внутри, 20 снаружи
+　・Малый: 200 внутри, 20 снаружи
 　・Средний: 300 внутри, 30 снаружи
 　・Большой: 400 внутри, 40 снаружи
 ","","False","0x000000A6","",""
@@ -697,13 +697,13 @@ Before land can be relinquished, the following conditions must be fulfilled:
 
 
 ■Отказ от участка
-Если вы больше не хотите владеть своим участком, то выберите ""Отказ от участка"" через меню ""Housing"". Стоит заметить что средства с покупки не будут возвращены.
+Если вы больше не хотите владеть своим участком, то выберите ""Освободить землю"" через меню ""Жилая площадь"". Стоит заметить что средства с покупки не будут возвращены.
 Перед отказом нужно выполнить следующие требования:
 　1. На участке не должно находиться мебели.
 　2. В хранилище участка не должно находиться мебели.
 　3. Поместье должно быть убрано с участка.
-","","True","0x000000A8","",""
-"","4. Auto-demolition","4. Auto-demolition","","True","0x000000A9","",""
+","","False","0x000000A8","",""
+"","4. Auto-demolition","4. Автоматический снос","","False","0x000000A9","",""
 "","Plots of land which have been left abandoned for an extended period of time will be cleared to make way for new owners.
 
 ■The Auto-demolition Process
@@ -716,32 +716,30 @@ While any member of a free company may enter a company estate hall to prevent au
 In the event your estate is demolished and your plot is sold, you will be able to claim indemnification for 80% of the plot's value. Furthermore, furnishings which can be safely removed will be stored for safekeeping by the resident caretaker. However, you must speak with the resident caretaker within thirty-five days (Earth time) of auto-demolition to reclaim funds and furnishings.
 In the case of free company estates, this can only be performed by members with authority to purchase and relinquish land.
 
-","Plots of land which have been left abandoned for an extended period of time will be cleared to make way for new owners.
+","Заброшенный участок будет освобожден для новых владельцев.
 
-■The Auto-demolition Process
-　1. Estate halls which have not been entered by their owner for thirty days (Earth time) will be designated abandoned and scheduled for auto-demolition.
+■Процесс автоматического сноса.
+　1. Если владелец поместья не посещал его в течении 30 земных дней, то оно станет заброшенным и будет помечено для сноса.
 
-　2. Once the estate hall has not been entered for a total of forty-five days (Earth time), it will be demolished, and the plot will be put up for sale.
-While any member of a free company may enter a company estate hall to prevent auto-demolition, only the owner can prevent the auto-demolition of a private estate.
+　2. Если поместье никто не посещал в течении 45 земных дней, то его снесут и оно будет выставлено на продажу.
+Если члены свободной компании еще могут заходить в поместье для предотвращения сноса, то владельцам приватных участков необходимо самим посетить свое поместье.
 
-■Reclaiming Funds and Furnishings Following Auto-demolition
-In the event your estate is demolished and your plot is sold, you will be able to claim indemnification for 80% of the plot's value. Furthermore, furnishings which can be safely removed will be stored for safekeeping by the resident caretaker. However, you must speak with the resident caretaker within thirty-five days (Earth time) of auto-demolition to reclaim funds and furnishings.
-In the case of free company estates, this can only be performed by members with authority to purchase and relinquish land.
-
+■Возврат средств и мебели после автоматического сноса
+В случае если ваше поместье было снесено, а участок продан, вы сможете забрать 80% от цены участка. К тому же мебель можно будет забрать из хранилища у resident caretaker. Однако вам нужно успеть сделать это за 35 земных дней после сноса чтобы забрать средства и мебель.
+В случае поместья свободной компании, эта опция будет доступна только для членов с правами на покупку и отказ от участка.
 ","","True","0x000000AA","",""
-"","5. Building an Estate Hall","5. Building an Estate Hall","","True","0x000000AB","",""
+"","5. Building an Estate Hall","5. Постройка поместья","","False","0x000000AB","",""
 "","A construction permit is required to build an estate hall.
 
 While there are several types of construction permit available, the estate size must match the size of the plot on which it will be built.
 
 From the Social menu, select “Housing,” then “Estate Hall,” followed by “Build Estate Hall” to use the construction permit.
-","A construction permit is required to build an estate hall.
+","Чтобы начать строительство, необходимо в первую очередь поставить поместье.
 
-While there are several types of construction permit available, the estate size must match the size of the plot on which it will be built.
+При постройке поместья нужно чтобы его размер соответствовал с размером участка.
 
-From the Social menu, select “Housing,” then “Estate Hall,” followed by “Build Estate Hall” to use the construction permit.
-","","True","0x000000AC","",""
-"","6. Furnishings","6. Furnishings","","True","0x000000AD","",""
+Через меню ""Общение"", выберите ""Жилая площадь"", затем ""Дом участка"" и ""Построить дом участка"" чтобы начать строить.","","False","0x000000AC","",""
+"","6. Furnishings","6. Мебель","","False","0x000000AD","",""
 "","Furnishings come in two varieties: indoor and outdoor.
 
 To place indoor furnishings, open the Housing menu while inside your estate hall, and select “Indoor Furnishings.”
@@ -752,16 +750,15 @@ Placing a furnishing will bind it to you, preventing future trade or sale to oth
 
 Moreover, certain furnishings cannot be retrieved once placed, and will be permanently discarded upon removal.
 
-","Furnishings come in two varieties: indoor and outdoor.
+","Мебель бывает двух видов: Внутренняя и внешняя.
 
-To place indoor furnishings, open the Housing menu while inside your estate hall, and select “Indoor Furnishings.”
+Чтобы поставить внутреннюю мебель, откройте меню ""Жилая площадь"" внутри поместья и выберите Indoor Furnishings.
 
-Similarly, to place outdoor furnishings, open the Housing menu while on your property but outside your estate hall, and select “Outdoor Furnishings.”
+Точно так же устанавливается внешняя мебель. Откройте меню ""Жилая площадь"" на своей территории и выберите Outdoor Furnishings.
 
-Placing a furnishing will bind it to you, preventing future trade or sale to other players.
+Поставив мебель, она припишется к вам, предотвращая последующую продажу другим игрокам
 
-Moreover, certain furnishings cannot be retrieved once placed, and will be permanently discarded upon removal.
-
+К тому же, определенную мебель нельзя забрать после установки. Она будет навсегда выброшена как только её уберут.
 ","","True","0x000000AE","",""
 "","7. Fixtures","7. Fixtures","","True","0x000000AF","",""
 "","You can change various elements of your estate, by opening the Housing menu while inside your estate hall, and selecting “Remodel Interior” or “Remodel Exterior.” The following fixtures can be customized:
