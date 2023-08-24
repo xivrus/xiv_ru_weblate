@@ -178,10 +178,10 @@ Contains numbers 1 to 9 of the same suit. Presented as three triplets of 1, 2, 3
 The same straight, for example, 1, 2, 3, in each suit.","■ Смешанный тройной чи
 Три одинаковых чи, например 1, 2, 3 каждой масти.","","False","0x00000040","",""
 "","■ Half Flush
-Number tiles from a single suit plus honor tiles.","■ Половина масти
+Number tiles from a single suit plus honor tiles.","■ Половина флеша
 Рука, состоящая из номерных костей одной масти и благородных костей.","","False","0x00000041","",""
 "","■ Full Flush
-Only number tiles from one suit.","■ Полная масть
+Only number tiles from one suit.","■ Полный флеш
 Рука, состоящая только из номерных костей одной масти.","","False","0x00000042","",""
 "","Please refer to the Lodestone for a full list of yaku and other useful information.
 
@@ -265,7 +265,6 @@ When calling a winning hand after declaring riichi, the “ura dora” is reveal
 
 ","■ Ура-дора
 Если объявить победную руку после риичи, то раскроется «ура-дора». Она показывается только после объявления победной руки и является только бонусом-сюрпризом, хоть это и стимулирует объявлять риичи.
-
 ","","False","0x0000005A","",""
 "","13. Kan","13. Кан","","False","0x0000005B","",""
 "","Since there are four of each tile, it is possible to collect all four. This is known as “kan.”","Поскольку существует четыре кости каждого вида, то и есть возможность собрать их в «кан».","","False","0x0000005C","",""
@@ -3196,8 +3195,8 @@ Certain stages feature unique paths suited to running. Entering these “sprint 
 Stepping on a jump glyph will rapidly transport you to a specific location on the field.","<var 48 F201FA /var><var 49 F201FB /var>■Прыжковый глиф■<var 49 01 /var><var 48 01 /var>
 Встав на прыжковый глиф, он доставит игрока в определенное место поля.","","False","0x00000259","",""
 "","Arenas","Арены","","False","0x0000025A","",""
-"","The Palaistra","The Palaistra","","True","0x0000025B","",""
-"","Inspired by the iconic architecture of the Northern Empty, this glamour-woven arena features no specialized gimmicks─so there can be no doubt that to the superior team goes the glory.","Inspired by the iconic architecture of the Northern Empty, this glamour-woven arena features no specialized gimmicks─so there can be no doubt that to the superior team goes the glory.","","True","0x0000025C","",""
+"","The Palaistra","Палестра","","False","0x0000025B","",""
+"","Inspired by the iconic architecture of the Northern Empty, this glamour-woven arena features no specialized gimmicks─so there can be no doubt that to the superior team goes the glory.","Вдохновленная архитектурой северной пустоши, эта гламурная арена не имеет особенных трюков. А потому победа зависит только от способностей команды.","","False","0x0000025C","",""
 "","The Volcanic Heart","Вулканическое сердце","","False","0x0000025D","",""
 "","This staging ground lies at the foot of a volcano no less volatile for its artificial nature. If you can't take the heat, abandon all hope of victory.","Боевое поле расположилось прямо у подножия вулкана. Лишь те, что могут выдержать его пламенную ярость смогут одержать победу","","False","0x0000025E","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Eruptions■<var 49 01 /var><var 48 01 /var>
@@ -3208,9 +3207,8 @@ The Volcanic Heart periodically erupts, scattering self-destructing bombs across
 ・A boost to the limit gauge.","Ядро бомб остается на месте взрыва, даруя следующие эффекты тем кто их подберёт:
 ・Временный эффект увеличивающий наносимый урон. Можно накопить до 10.
 ・Ускоряет восстановление шкалу запредельной способности.","","False","0x00000260","",""
-"","Cloud Nine","Седьмое небо","","False","0x00000261","",""
-"","Though the cloudtops may be illusory, the turbulence in this arena feels real enough! Ride its winds to victory...or defeat.","Though the cloudtops may be illusory, the turbulence in this arena feels real enough! Ride its winds to victory...or defeat.
-","","False","0x00000262","",""
+"","Cloud Nine","Девятое небо","","False","0x00000261","",""
+"","Though the cloudtops may be illusory, the turbulence in this arena feels real enough! Ride its winds to victory...or defeat.","Турбулентность на вершине облаков не жалеет никого. Постарайтесь оседлать эти буйные ветра чтобы одержать победу.","","False","0x00000262","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Turbulence■<var 49 01 /var><var 48 01 /var>
 Players cast up into the air by turbulence will take damage upon being returned unceremoniously to the ground. However, they may acquire black chocobo feathers while in the air, granting them the following:
 ・A soft landing, nullifying the typical damage taken from turbulence.
@@ -3223,8 +3221,8 @@ The locations of black chocobo feathers are indicated by markers on the ground. 
 ・Временное усиление наносимого урона и повышенная скорость передвижения
 ・Заполнение запредельной шкалы
 
-Местоположение перьев отображается маркером на земле во время турбулентности. Чтобы избежать подбрасывания игроки могут использовать «Оборону»","","False","0x00000263","",""
-"","Turbulence also leaves behind a twister at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister.","Турбулентность так же вызывает появление вихрей. Столкновение с ними приведет к получению урона и отталкиванию. Если на вас был эффект «обороны», то он будет отменен вихрем.","","False","0x00000264","",""
+Местоположение перьев отображается маркером на земле во время турбулентности. Чтобы избежать подбрасывания игроки могут использовать Guard.","","False","0x00000263","",""
+"","Turbulence also leaves behind a twister at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister.","Турбулентность так же вызывает появление вихрей. Столкновение с ними приведет к получению урона и отталкиванию. Если на вас был эффект Guard, то он будет отменен вихрем.","","False","0x00000264","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Participation Requirements■<var 49 01 /var><var 48 01 /var>
 Crystalline Conflict matches can be entered via the Duty Finder. To register, participants must use a job of level 30 or above, and may not be part of a preformed party.
 
@@ -4723,12 +4721,12 @@ Please note that you cannot earn credit for previous floors when starting from f
 Please note that you cannot earn credit for previous floors when starting from floor 21. Starting from floor 1 will ensure the highest score possible.","","True","0x0000037C","",""
 "","Your highest score from the deep dungeon will be saved and can be viewed at any time by speaking with Khatun. Scores that exceed a certain threshold will be made viewable on the rankings page of the Lodestone.","Your highest score from the deep dungeon will be saved and can be viewed at any time by speaking with Khatun. Scores that exceed a certain threshold will be made viewable on the rankings page of the Lodestone.","","True","0x0000037D","",""
 "","The Clockwork Castletown","The Clockwork Castletown","","True","0x0000037E","",""
-"","Turn the tricks and traps of this Far Eastern labyrinth to your advantage─if you can. What surprises lurk within its glamour-woven walls?","Turn the tricks and traps of this Far Eastern labyrinth to your advantage─if you can. What surprises lurk within its glamour-woven walls?","","True","0x0000037F","",""
+"","Turn the tricks and traps of this Far Eastern labyrinth to your advantage─if you can. What surprises lurk within its glamour-woven walls?","Оберните ловушки этого восточного лабиринта в свою пользу─И победите. Что же скрывается за этими гламурными стенами?","","False","0x0000037F","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Trick Floors■<var 49 01 /var><var 48 01 /var>
-Standing upon a trick floor for too long will trigger a Tatami Twist, launching the unwitting loiterer into the air and inflicting damage. If your Guard is active, it will be depleted by the effort of staying upright.","<var 48 F201FA /var><var 49 F201FB /var>■Trick Floors■<var 49 01 /var><var 48 01 /var>
-Standing upon a trick floor for too long will trigger a Tatami Twist, launching the unwitting loiterer into the air and inflicting damage. If your Guard is active, it will be depleted by the effort of staying upright.","","True","0x00000380","",""
+Standing upon a trick floor for too long will trigger a Tatami Twist, launching the unwitting loiterer into the air and inflicting damage. If your Guard is active, it will be depleted by the effort of staying upright.","<var 48 F201FA /var><var 49 F201FB /var>■Пол Ловушка■<var 49 01 /var><var 48 01 /var>
+Простояв на таком полу слишком долго спровоцирует переворот татами, запуская всех кто стоит на нем в воздух, нанося урон при приземлении. Если Guard активен, то он будет снят, но вы останетесь на земле.","","False","0x00000380","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Trick Door■<var 49 01 /var><var 48 01 /var>
-Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless, and players may discover that passage is denied entirely whilst executing certain actions.","<var 48 F201FA /var><var 49 F201FB /var>■Trick Door■<var 49 01 /var><var 48 01 /var>
+Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless, and players may discover that passage is denied entirely whilst executing certain actions.","<var 48 F201FA /var><var 49 F201FB /var>■Потайные двери■<var 49 01 /var><var 48 01 /var>
 Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless, and players may discover that passage is denied entirely whilst executing certain actions.","","True","0x00000381","",""
 "","<var 48 F201FA /var><var 49 F201FB /var>■Pneumatic Parades■<var 49 01 /var><var 48 01 /var>
 When a pneumatic parade begins, the clockwork onmyoji and clockwork yojimbo will join the fray. These puppets travel a predetermined path through the arena and unleash their unique attacks upon arriving in the vicinity of the centerpoint, checkpoints, and goals.
