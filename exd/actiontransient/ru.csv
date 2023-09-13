@@ -29677,24 +29677,24 @@ If the target was weakened at the time of Raise, the weakness effect will be rem
 Если цель была ослаблена в момент использования Raise, эффект слабости будет снят.","","False","0x000050FA","",""
 "","Gesture threateningly, placing yourself at the top of a target's enmity list. 
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Enmity generation is increased and damage taken is reduced by 20%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>20s","Gesture threateningly, placing yourself at the top of a target's enmity list. 
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Enmity generation is increased and damage taken is reduced by 20%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>20 с.","","False","0x000050FB","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>20s","Провоцирует противника, увеличивая его <var 48 F201F4 /var><var 49 F201F5 /var>враждебность<var 49 01 /var><var 48 01 /var> по отношению к вам до максимума.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Увеличивает накопление <var 48 F201F4 /var><var 49 F201F5 /var>враждебности<var 49 01 /var><var 48 01 /var> и снижает получаемый урон на 20%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>20 с.","","False","0x000050FB","",""
 "","Through sheer force of will, restore a random technique of the lost to physical form and throw it at a single target, dealing damage with a potency of 50.
 Potency increases up to 1,000 based on the weight of the lost action.
 The lost action thrown will be lost upon execution.
-This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Through sheer force of will, restore a random technique of the lost to physical form and throw it at a single target, dealing damage with a potency of 50.
-Potency increases up to 1 000 based on the weight of the lost action.
-The lost action thrown will be lost upon execution.
-This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","","True","0x000050FC","",""
+This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Выберите случайное затерянное действие из вашего текущего комплекта и бросьте его в одну цель, нанося урон с силой 50.
+Сила увеличивается до 1 000 в зависимости от веса затерянного действия.
+Затерянное действие будет утрачено после использования.
+Не влияет на время восстановления прочих действий. Кроме того, на время восстановления не могут влиять другие действия.","","False","0x000050FC","",""
 "","Study the lost techniques used by a targeted ally and make them your own.
-Cannot be executed while in combat.","Study the lost techniques used by a targeted ally and make them your own.
-Cannot be executed while in combat.","","True","0x000050FD","",""
+Cannot be executed while in combat.","Копирование набора затерянных техник выбранного союзника.
+Не может быть использовано в режиме боя.","","False","0x000050FD","",""
 "","Place your faith in the goddess Nymeia as she spins the wheel of fate.
 Can only be executed while in combat.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Elixir<var 49 01 /var><var 48 01 /var>.","Place your faith in the goddess Nymeia as she spins the wheel of fate.
-Can only be executed while in combat.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Elixir<var 49 01 /var><var 48 01 /var>.","","True","0x000050FE","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Elixir<var 49 01 /var><var 48 01 /var>.","Вручите свою судьбу в руки богини Нимейи.
+Возможно использовать только в режиме боя.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion<var 49 01 /var><var 48 01 /var> и <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Elixir<var 49 01 /var><var 48 01 /var>.","","False","0x000050FE","",""
 "","Resurrects target to a weakened state.","Возвращает цель к жизни в ослабленном состоянии.","","False","0x000050FF","",""
 "","Grants a 70% chance of automatic revival upon KO.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>180m","Дает 70% шанс автоматического возрождения при нокауте.
@@ -29704,195 +29704,197 @@ Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Po
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>600s
 When triggered, there is a 50% chance the effect will end.
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Breathtaker Effect: <var 49 01 /var><var 48 01 /var>Chance for <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> effect to end is reduced to 10%
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Ether Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Medikit<var 49 01 /var><var 48 01 /var>.","Grants <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> to self.
-<var 48 F201F8 /var><var 49 F201F9 /var>Auto-potion Effect: <var 49 01 /var><var 48 01 /var>Restores ОЗ automatically when ОЗ falls below 50%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>600 с.
-When triggered, there is a 50% chance the effect will end.
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Breathtaker Effect: <var 49 01 /var><var 48 01 /var>Chance for <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> effect to end is reduced to 10%
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Ether Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Medikit<var 49 01 /var><var 48 01 /var>.","","False","0x00005101","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Ether Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Medikit<var 49 01 /var><var 48 01 /var>.","Накладывает на вас эффект <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Auto-potion: <var 49 01 /var><var 48 01 /var>Автоматически восстанавливает ОЗ после их падения ниже 50%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>600 с.
+При срабатывании эффекта существует 50% шанс его прекращения.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Spirit of the Breathtaker: <var 49 01 /var><var 48 01 /var>Шанс прекращения эффекта <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> снижается до 10%
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Ether Kit<var 49 01 /var><var 48 01 /var> и <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Medikit<var 49 01 /var><var 48 01 /var>.","","False","0x00005101","",""
 "","Grants <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> to self.
 <var 48 F201F8 /var><var 49 F201F9 /var>Auto-ether Effect: <var 49 01 /var><var 48 01 /var>Restores MP automatically when MP falls below 20%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>600s
 When triggered, there is a 50% chance the effect will end.
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Breathtaker Effect: <var 49 01 /var><var 48 01 /var>Chance for <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> effect to end is reduced to 10%
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Medikit<var 49 01 /var><var 48 01 /var>.","Grants <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> to self.
-<var 48 F201F8 /var><var 49 F201F9 /var>Auto-ether Effect: <var 49 01 /var><var 48 01 /var>Restores ОМ automatically when ОМ falls below 20%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>600 с.
-When triggered, there is a 50% chance the effect will end.
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Breathtaker Effect: <var 49 01 /var><var 48 01 /var>Chance for <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> effect to end is reduced to 10%
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Medikit<var 49 01 /var><var 48 01 /var>.","","False","0x00005102","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Medikit<var 49 01 /var><var 48 01 /var>.","Накладывает на вас эффект <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Auto-ether: <var 49 01 /var><var 48 01 /var>Автоматически восстанавливает ОМ при их падении ниже 20%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>600 с.
+При срабатывании эффекта существует 50% шанс его прекращения.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Spirit of the Breathtaker: <var 49 01 /var><var 48 01 /var>Шанс прекращения эффекта <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> снижается до 10%
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion Kit<var 49 01 /var><var 48 01 /var> и <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Medikit<var 49 01 /var><var 48 01 /var>.","","False","0x00005102","",""
 "","Removes a single detrimental effect from self. When not suffering from detrimental effects, creates a barrier that protects against most status ailments. The barrier is removed after curing the next status ailment suffered.
 Effect cannot be stacked with similar barrier actions.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30m
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Ether Kit<var 49 01 /var><var 48 01 /var>.","Removes a single detrimental effect from self. When not suffering from detrimental effects, creates a barrier that protects against most status ailments. The barrier is removed after curing the next status ailment suffered.
-Effect cannot be stacked with similar barrier actions.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30m
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Ether Kit<var 49 01 /var><var 48 01 /var>.","","True","0x00005103","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion Kit<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Ether Kit<var 49 01 /var><var 48 01 /var>.","Снимает с вас один отрицательный эффект. 
+При отсутствии отрицательных эффектов создает барьер, защищающий от большинства аналогичных эффектов. 
+Барьер снимается после снятия следующего полученного отрицательного эффекта.
+Эффект не может суммироваться с аналогичными барьерными действиями.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>30 мин.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion Kit<var 49 01 /var><var 48 01 /var> и <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Ether Kit<var 49 01 /var><var 48 01 /var>.","","False","0x00005103","",""
 "","Gradually restores HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>1,600
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>40s
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Dynamis Dice<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Elixir<var 49 01 /var><var 48 01 /var>.","Gradually restores ОЗ.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>1 600
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>40s
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Dynamis Dice<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Elixir<var 49 01 /var><var 48 01 /var>.","","True","0x00005104","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Dynamis Dice<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Elixir<var 49 01 /var><var 48 01 /var>.","Постепенно восстанавливает ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Сила исцеления: <var 49 01 /var><var 48 01 /var>1 600
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>40 с.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Dynamis Dice<var 49 01 /var><var 48 01 /var> и <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Elixir<var 49 01 /var><var 48 01 /var>.","","False","0x00005104","",""
 "","Increases damage dealt by 80%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 80%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005105","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 80%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005105","",""
 "","Increases damage dealt by 60%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 60%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005106","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 60%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005106","",""
 "","Increases healing potency by 60%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases healing potency by 60%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005107","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает силу исцеления на 60%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005107","",""
 "","Increases physical defense by 150%, magic defense by 45%, and maximum HP by 60%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases physical defense by 150%, magic defense by 45%, and maximum ОЗ by 60%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005108","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает физическую защиту на 150%, магическую защиту на 45% и максимальные ОЗ на 60%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005108","",""
 "","Increases defense by 80% and maximum HP by 45%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases defense by 80% and maximum ОЗ by 45%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005109","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает защиту на 80% и максимальные ОЗ на 45%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005109","",""
 "","Increases defense by 30% and maximum HP by 10%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases defense by 30% and maximum ОЗ by 10%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000510A","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает защиту на 30% и максимальные ОЗ на 10%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000510A","",""
 "","Increases damage dealt by 20%, healing potency by 25%, and maximum MP by 50%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 20%, healing potency by 25%, and maximum ОМ by 50%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000510B","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 20%, силу исцеления на 25% и максимальные ОМ на 50%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000510B","",""
 "","Increases damage dealt by 20% and critical hit rate by 15%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 20% and шанс критического удара by 15%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000510C","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 20% и шанс критического удара на 15%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000510C","",""
 "","Reduces maximum HP by 5% while increasing evasion by 40%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Reduces maximum ОЗ by 5% while increasing evasion by 40%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000510D","",""
+Cannot be used with other Essence or Deep Essence actions.","Снижает максимальные ОЗ на 5%, а также увеличивает уклонение на 40%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000510D","",""
 "","Reduces healing potency by 70% while increasing damage dealt by 100%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Reduces healing potency by 70% while increasing damage dealt by 100%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000510E","",""
+Cannot be used with other Essence or Deep Essence actions.","Снижает силу исцеления на 70%, а также увеличивает наносимый урон на 100%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000510E","",""
 "","Increases damage dealt by 90% and damage taken by 200% while reducing maximum HP by 30%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 90% and damage taken by 200% while reducing maximum ОЗ by 30%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000510F","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 90% и получаемый урон на 200%, а так же снижает максимальные ОЗ на 30%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000510F","",""
 "","Increases poison resistance and movement speed, including mount speed, and increases evasion by 10%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases poison resistance and movement speed, including mount speed, and increases evasion by 10%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005110","",""
+Cannot be used with other Essence or Deep Essence actions.","Повышает устойчивость к ядам и скорость передвижения, включая скорость передвижения на транспорте, а также увеличивает уклонение на 10%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005110","",""
 "","Increases damage dealt by 40%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorb a portion of damage dealt as HP
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 40%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorb a portion of damage dealt as ОЗ
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005111","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 40%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Поглощает часть нанесенного урона в виде ОЗ.
+Эффект прекращается при повторном использовании.
+Невозможно использовать с другими действиями Essence или Deep Essence.","","False","0x00005111","",""
 "","Increases defense by 50% and maximum HP by 45%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorb a portion of damage dealt as HP
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases defense by 50% and maximum ОЗ by 45%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorb a portion of damage dealt as ОЗ
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005112","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает защиту на 50% и максимальные ОЗ на 45%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Поглощает часть нанесенного урона в виде ОЗ.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005112","",""
 "","Increases defense by 50%, maximum HP by 45%, and damage dealt by 60%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases defense by 50%, maximum ОЗ by 45%, and damage dealt by 60%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005113","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает защиту на 50%, максимальные ОЗ на 45% и наносимый урон на 60%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005113","",""
 "","Increases damage dealt by 96%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 96%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005114","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 96%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005114","",""
 "","Increases damage dealt by 72%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 72%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005115","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 72%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005115","",""
 "","Increases healing potency by 72%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases healing potency by 72%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005116","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает силу исцеления на 72%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005116","",""
 "","Increases physical defense by 180%, magic defense by 54%, and maximum HP by 72%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases physical defense by 180%, magic defense by 54%, and maximum ОЗ by 72%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005117","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает физическую защиту на 180%, магическую защиту на 54% и максимальные ОЗ на 72%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005117","",""
 "","Increases defense by 96% and maximum HP by 54%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases defense by 96% and maximum ОЗ by 54%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005118","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает защиту на 96% и максимальные ОЗ на 54%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005118","",""
 "","Increases defense by 36% and maximum HP by 12%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases defense by 36% and maximum ОЗ by 12%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005119","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает защиту на 36% и максимальные ОЗ на 12%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005119","",""
 "","Increases damage dealt by 24%, healing potency by 30%, and maximum MP by 60%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 24%, healing potency by 30%, and maximum ОМ by 60%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000511A","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 24%, силу исцеления на 30% и максимальные ОМ на 60%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000511A","",""
 "","Increases damage dealt by 24% and critical hit rate by 18%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 24% and шанс критического удара by 18%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000511B","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 24% и шанс критического удара на 18%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000511B","",""
 "","Reduces maximum HP by 3% while increasing evasion by 48%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Reduces maximum ОЗ by 3% while increasing evasion by 48%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000511C","",""
+Cannot be used with other Essence or Deep Essence actions.","Снижает максимальные ОЗ на 30%, а так же увеличивает уклонение на 48%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000511C","",""
 "","Reduces healing potency by 70% while increasing damage dealt by 120%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Reduces healing potency by 70% while increasing damage dealt by 120%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000511D","",""
+Cannot be used with other Essence or Deep Essence actions.","Снижает силу исцеления на 70%, а так же увеличивает наносимый урон на 120%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000511D","",""
 "","Increases damage dealt by 108% and damage taken by 200% while reducing maximum HP by 30%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 108% and damage taken by 200% while reducing maximum ОЗ by 30%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000511E","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 108% и получаемый урон на 200%, а так же снижает максимальные ОЗ на 30%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000511E","",""
 "","Increases poison resistance and movement speed, including mount speed, and increases evasion by 20%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases poison resistance and movement speed, including mount speed, and increases evasion by 20%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x0000511F","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает устойчивость к ядам и скорость передвижения, включая скорость передвижения на транспорте, а также увеличивает уклонение на 20%
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x0000511F","",""
 "","Increases damage dealt by 48%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorb a portion of damage dealt as HP
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases damage dealt by 48%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorb a portion of damage dealt as ОЗ
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005120","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает наносимый урон на 48%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Поглощает часть нанесенного урона в виде ОЗ.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005120","",""
 "","Increases defense by 60% and maximum HP by 54%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorb a portion of damage dealt as HP
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases defense by 60% and maximum ОЗ by 54%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Absorb a portion of damage dealt as ОЗ
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005121","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает защиту на 60% и максимальные ОЗ на 54%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Поглощает часть нанесенного урона в виде ОЗ.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005121","",""
 "","Increases defense by 60%, maximum HP by 54%, and damage dealt by 72%.
 Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","Increases defense by 60%, maximum ОЗ by 54%, and damage dealt by 72%.
-Effect ends upon reuse.
-Cannot be used with other Essence or Deep Essence actions.","","True","0x00005122","",""
+Cannot be used with other Essence or Deep Essence actions.","Увеличивает защиту на 60%, максимальные ОЗ на 54% и нанесенный урон на 72%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence или Deep Essence.","","False","0x00005122","",""
 "","","","","False","0x00005123","",""
 "","","","","False","0x00005124","",""
 "","","","","False","0x00005125","",""
@@ -31524,88 +31526,89 @@ Reduces integrity by 1. There is a chance integrity is unaffected, determined by
 "","","","","False","0x00005747","",""
 "","Detect traps within a radius of 15 yalms.
 If there are no traps within 15 yalms, alerts you to the presence of traps with a radius of 36 yalms.
-※This action can only be used in Delubrum Reginae.","Detect traps within a radius of 15 yalms.
-If there are no traps within 15 yalms, alerts you to the presence of traps with a radius of 36 yalms.
-※This action can only be used in Delubrum Reginae.","","True","0x00005748","",""
+※This action can only be used in Delubrum Reginae.","Обнаруживает ловушки в радиусе 15 ялмов.
+Если в радиусе 15 ялмов нет ловушек, предупреждает о наличии ловушек в радиусе 36 ялмов.
+※Это действие может быть использовано только в Делюбрум Регине.","","False","0x00005748","",""
 "","Restores all of a KO'd target's HP.
 Cannot be executed if currently afflicted with <var 48 F201FA /var><var 49 F201FB /var>Sacrifice<var 49 01 /var><var 48 01 /var>.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Inflicts <var 48 F201FA /var><var 49 F201FB /var>Sacrifice<var 49 01 /var><var 48 01 /var> on self
 <var 48 F201F8 /var><var 49 F201F9 /var>Sacrifice Effect:<var 49 01 /var><var 48 01 /var> When effect expires, you will be KO'd
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10s","Restores all of a KO'd target's ОЗ.
-Cannot be executed if currently afflicted with <var 48 F201FA /var><var 49 F201FB /var>Sacrifice<var 49 01 /var><var 48 01 /var>.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Inflicts <var 48 F201FA /var><var 49 F201FB /var>Sacrifice<var 49 01 /var><var 48 01 /var> on self
-<var 48 F201F8 /var><var 49 F201F9 /var>Sacrifice Effect:<var 49 01 /var><var 48 01 /var> When effect expires, you will be KO'd
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10 с.","","False","0x00005749","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10s","Воскрешает цель и полностью восстанавливает её ОЗ.
+Невозможно использовать, если в данный момент действует эффект <var 48 F201FA /var><var 49 F201FB /var>Sacrifice<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Накладывает на вас эффект <var 48 F201FA /var><var 49 F201FB /var>Sacrifice<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Sacrifice:<var 49 01 /var><var 48 01 /var> По истечении срока действия вы будете отправлены в нокаут.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 10 с.","","False","0x00005749","",""
 "","Increases evasion by 11%, critical hit rate by 77%, and direct hit rate by 77%.
 Effect ends upon reuse.
 Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
 It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","Increases evasion by 11%, шанс критического удара by 77%, and direct hit by 77%.
-Effect ends upon reuse.
-Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
-It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","","True","0x0000574A","",""
+※This action can only be used in Delubrum Reginae.","Увеличивает уклонение на 11%, шанс критического удара на 77% и шанс точного удара на 77%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence, Deep Essence или Pure Essence.
+Считается, что Pure Essences могу давать неожиданные эффекты...
+※Это действие возможно использовать только в Делюбрум Регине.","","False","0x0000574A","",""
 "","Increases defense by 25%, damage dealt by 50%, and maximum HP by 100%.
 Effect ends upon reuse.
 Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
 It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","Increases defense by 25%, damage dealt by 50%, and maximum ОЗ by 100%.
-Effect ends upon reuse.
-Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
-It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","","True","0x0000574B","",""
+※This action can only be used in Delubrum Reginae.","Увеличивает защиту на 25%, наносимый урон на 50% и максимальные ОЗ на 100%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence, Deep Essence или Pure Essence.
+Считается, что Pure Essences могу давать неожиданные эффекты...
+※Это действие возможно использовать только в Делюбрум Регине.","","False","0x0000574B","",""
 "","Increases defense by 60%, damage dealt by 60%, and maximum HP by 81%.
 Effect ends upon reuse.
 Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
 It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","Increases defense by 60%, damage dealt by 60%, and maximum ОЗ by 81%.
-Effect ends upon reuse.
-Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
-It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","","True","0x0000574C","",""
+※This action can only be used in Delubrum Reginae.","Увеличивает защиту на 60%, наносимый урон на 60% и максимальные ОЗ на 81%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence, Deep Essence или Pure Essence.
+Считается, что Pure Essences могу давать неожиданные эффекты...
+※Это действие возможно использовать только в Делюбрум Регине.","","False","0x0000574C","",""
 "","Increases defense by 60%, damage dealt by 50%, and maximum HP by 81%.
 Effect ends upon reuse.
 Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
 It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","Increases defense by 60%, damage dealt by 50%, and maximum ОЗ by 81%.
-Effect ends upon reuse.
-Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
-It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","","True","0x0000574D","",""
+※This action can only be used in Delubrum Reginae.","Увеличивает защиту на 60%, наносимый урон на 50% и максимальные ОЗ на 81%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence, Deep Essence или Pure Essence.
+Считается, что Pure Essences могу давать неожиданные эффекты...
+※Это действие возможно использовать только в Делюбрум Регине.","","False","0x0000574D","",""
 "","Increases defense by 40%, damage dealt by 72%, and maximum HP by 50%.
 Effect ends upon reuse.
 Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
 It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","Increases defense by 40%, damage dealt by 72%, and maximum ОЗ by 50%.
-Effect ends upon reuse.
-Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
-It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","","True","0x0000574E","",""
+※This action can only be used in Delubrum Reginae.","Увеличивает защиту на 40%, наносимый урон на 72% и максимальные ОЗ на 50%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence, Deep Essence или Pure Essence.
+Считается, что Pure Essences могу давать неожиданные эффекты...
+※Это действие возможно использовать только в Делюбрум Регине.","","False","0x0000574E","",""
 "","Increases defense by 25%, damage dealt by 35%, and maximum HP by 100%.
 Effect ends upon reuse.
 Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
 It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","Increases defense by 25%, damage dealt by 35%, and maximum ОЗ by 100%.
-Effect ends upon reuse.
-Cannot be used with other Essence, Deep Essence, or Pure Essence actions.
-It is said that Pure Essences may grant unexpected effects...
-※This action can only be used in Delubrum Reginae.","","True","0x0000574F","",""
+※This action can only be used in Delubrum Reginae.","Увеличивает защиту на 25%, наносимый урон на 35% и максимальные ОЗ на 100%.
+Эффект прекращается при повторном использовании.
+Не может быть использовано с другими действиями Essence, Deep Essence или Pure Essence.
+Считается, что Pure Essences могу давать неожиданные эффекты...
+※Это действие возможно использовать только в Делюбрум Регине.","","False","0x0000574F","",""
 "","Consumes MP to deal unaspected damage with a potency of 300 to all nearby enemies.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Unaspected damage over time
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency:<var 49 01 /var><var 48 01 /var> 350
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s
-The damage over time effect of Lost Flare Star can only be applied once per target at any given time. This effect cannot be stacked by multiple players.","Consumes ОМ to deal unaspected damage with a potency of 300 to all nearby enemies.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Unaspected damage over time
-<var 48 F201F8 /var><var 49 F201F9 /var>Potency:<var 49 01 /var><var 48 01 /var> 350
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60 с.
-The damage over time effect of Lost Flare Star can only be applied once per target at any given time. This effect cannot be stacked by multiple players.","","False","0x00005750","",""
+The damage over time effect of Lost Flare Star can only be applied once per target at any given time. This effect cannot be stacked by multiple players.","Поглощает ОМ, нанося всем ближайшим противникам магический урон с силой 300.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Периодический магический урон.
+<var 48 F201F8 /var><var 49 F201F9 /var>Сила:<var 49 01 /var><var 48 01 /var> 350
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 60 с.
+Эффект периодического урона от Lost Flare Star может быть применен только один раз к одной цели в любой момент времени. 
+Этот эффект не может складываться от нескольких персонажей.","","False","0x00005750","",""
 "","Delivers a jumping attack with a potency of 100.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increases target's damage taken by 10%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s
-Cannot be executed while bound.","Delivers a jumping attack with a potency of 100.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increases target's damage taken by 10%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30 с.
-Cannot be executed while bound.","","False","0x00005751","",""
+Cannot be executed while bound.","Производит атаку в прыжке, нанося физический урон с силой 100.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> Увеличивает наносимый цели урон на 10%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.
+Невозможно использовать под эффектами, сковывающими движение.","","False","0x00005751","",""
 "","Consumes MP to deliver a jumping attack that deals unaspected damage with a potency of 500.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Reduces target's accuracy by 10%.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15s
@@ -31620,11 +31623,11 @@ Cannot be executed while bound.","Поглощает ОМ для соверше�
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 15 с.
 Невозможно использовать под эффектами, сковывающими движение.","","False","0x00005752","",""
 "","Reduces damage taken by self and nearby party members by 30%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15s","Reduces damage taken by self and nearby party members by 30%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15 с.","","False","0x00005753","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15s","Снижает получаемый вами и ближайшими членами группы урон на 30%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 15 с.","","False","0x00005753","",""
 "","Increases critical hit rate of self and nearby party members by 10%, increases damage dealt by 7%, and reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 1%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s","Increases шанс критического удара of self and nearby party members by 10%, increases damage dealt by 7%, and reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 1%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60 с.","","False","0x00005754","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 60s","Увеличивает шанс критического удара у вас и ближайших членнов группы на 10%, увеличивает наносимый урон на 7% и уменьшает время применения и время восстановления умений и заклинаний, а также задержку между автоатаками на 1%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 60 с.","","False","0x00005754","",""
 "","","","","False","0x00005755","",""
 "","","","","False","0x00005756","",""
 "","","","","False","0x00005757","",""
@@ -33329,38 +33332,38 @@ Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Both Ends<var
 "","","","","False","0x00005D62","",""
 "","Instantly return to the starting point of the area.
 Cannot be executed while in combat.
-Shares a recast timer with all other weaponskills and spells.","Instantly return to the starting point of the area.
-Cannot be executed while in combat.
-Shares a recast timer with all other weaponskills and spells.","","True","0x00005D63","",""
+Shares a recast timer with all other weaponskills and spells.","Мгновенное возвращение в начальную точку области.
+Невозможно использовать в режиме боя.
+Имеет общее время восстановления с другими умениями и заклинаниями.","","False","0x00005D63","",""
 "","Creates a barrier around self and all party members near you that absorbs damage totaling 10% of maximum HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Creates a barrier around self and all party members near you that absorbs damage totaling 10% of maximum ОЗ.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x00005D64","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s","Создает вокруг вас и всех ближайших членнов группы защитный барьер, поглощающий урон, равный 10% от максимальных ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.","","False","0x00005D64","",""
 "","Deals lightning damage with a potency of 300 to all nearby enemies.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Interrupts all nearby enemies
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases damage taken by enemies with <var 48 F201FA /var><var 49 F201FB /var>Magical Aversion<var 49 01 /var><var 48 01 /var> by 10%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60s","Deals lightning damage with a potency of 300 to all nearby enemies.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Interrupts all nearby enemies
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases damage taken by enemies with <var 48 F201FA /var><var 49 F201FB /var>Magical Aversion<var 49 01 /var><var 48 01 /var> by 10%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60 с.","","False","0x00005D65","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60s","Наносит всем ближайшим противникам урон молнией с силой 300.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Прерывает действия всех ближайших противников.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Увеличивает получаемый противниками урон от <var 48 F201FA /var><var 49 F201FB /var>Magical Aversion<var 49 01 /var><var 48 01 /var> на 10%
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>60 с.","","False","0x00005D65","",""
 "","Delivers an attack with a potency of 300 to all nearby enemies.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Interrupts all nearby enemies
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases damage taken by enemies with <var 48 F201FA /var><var 49 F201FB /var>Physical Aversion<var 49 01 /var><var 48 01 /var> by 10%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60s","Наносит физический урон с силой 300 to all nearby enemies.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Interrupts all nearby enemies
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases damage taken by enemies with <var 48 F201FA /var><var 49 F201FB /var>Physical Aversion<var 49 01 /var><var 48 01 /var> by 10%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60 с.","","False","0x00005D66","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60s","Наносит всем ближайшим противникам физический урон с силой 300.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Прерывает действия всех ближайших противников.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Увеличивает получаемый противниками урон от <var 48 F201FA /var><var 49 F201FB /var>Physical Aversion<var 49 01 /var><var 48 01 /var> на 10%
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>60 с.","","False","0x00005D66","",""
 "","Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Lost Reflect<var 49 01 /var><var 48 01 /var> to self.
 <var 48 F201F8 /var><var 49 F201F9 /var>Lost Reflect Effect:<var 49 01 /var><var 48 01 /var> Reflects most magic attacks
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10s
-Shares a recast timer with all other weaponskills and spells.","Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Lost Reflect<var 49 01 /var><var 48 01 /var> to self.
-<var 48 F201F8 /var><var 49 F201F9 /var>Lost Reflect Effect:<var 49 01 /var><var 48 01 /var> Reflects most magic attacks
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10 с.
-Shares a recast timer with all other weaponskills and spells.","","False","0x00005D67","",""
+Shares a recast timer with all other weaponskills and spells.","Накладывает на вас эффект <var 48 F201FA /var><var 49 F201FB /var>Lost Reflect<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Lost Reflect:<var 49 01 /var><var 48 01 /var> Отражает большинство магических атак.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 10 с.
+Имеет общее время восстановления со всеми другими умениями и заклинаниями.","","False","0x00005D67","",""
 "","Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Reraise<var 49 01 /var><var 48 01 /var> to self or target player.
 <var 48 F201F8 /var><var 49 F201F9 /var>Reraise Effect:<var 49 01 /var><var 48 01 /var> Grants an 80% chance of automatic revival upon KO
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 180m","Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Reraise<var 49 01 /var><var 48 01 /var> to self or target player.
-<var 48 F201F8 /var><var 49 F201F9 /var>Reraise Effect:<var 49 01 /var><var 48 01 /var> Grants an 80% chance of automatic revival upon KO
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 180m","","True","0x00005D68","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 180m","Накладывает на вас или выбранного персонажа эффект <var 48 F201FA /var><var 49 F201FB /var>Reraise<var 49 01 /var><var 48 01 /var> .
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Reraise:<var 49 01 /var><var 48 01 /var> Дает 80% шанс автоматического воскрешения при нокауте.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 180 мин.","","False","0x00005D68","",""
 "","Temporarily eliminates cast time for all spells.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Magic Burst<var 49 01 /var><var 48 01 /var>
@@ -33368,32 +33371,33 @@ Shares a recast timer with all other weaponskills and spells.","","False","0x000
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Ordained Effect:<var 49 01 /var><var 48 01 /var> Raises <var 48 F201FA /var><var 49 F201FB /var>Magic Burst<var 49 01 /var><var 48 01 /var> spell damage increase to 100% and nullifies additional MP cost
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Watcher Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Lost Chainspell<var 49 01 /var><var 48 01 /var> duration is extended to 90s
-Can only be executed while in combat.","Temporarily eliminates cast time for all spells.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>30 с.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Magic Burst<var 49 01 /var><var 48 01 /var>
-<var 48 F201F8 /var><var 49 F201F9 /var>Magic Burst Effect:<var 49 01 /var><var 48 01 /var> Increases spell damage by 45% while increasing ОМ cost
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30 с.
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Ordained Effect:<var 49 01 /var><var 48 01 /var> Raises <var 48 F201FA /var><var 49 F201FB /var>Magic Burst<var 49 01 /var><var 48 01 /var> spell damage increase to 100% and nullifies additional ОМ cost
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Watcher Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Lost Chainspell<var 49 01 /var><var 48 01 /var> duration is extended to 90 с.
-Can only be executed while in combat.","","False","0x00005D69","",""
+Can only be executed while in combat.","Временно обнуляет скорость произнесения всех заклинаний.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>30 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Magic Burst<var 49 01 /var><var 48 01 /var>
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Magic Burst:<var 49 01 /var><var 48 01 /var> Увеличивает наносимый заклинаниями урон на 45%, а так же увеличивает расход ОМ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Spirit of the Ordained:<var 49 01 /var><var 48 01 /var> Активирует <var 48 F201FA /var><var 49 F201FB /var>Magic Burst<var 49 01 /var><var 48 01 /var> увеличивая наносимый заклинаниями урон до 100% и обнуляет дополнительный расход ОМ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Spirit of the Watcher:<var 49 01 /var><var 48 01 /var> <var 48 F201F4 /var><var 49 F201F5 /var>Lost Chainspell<var 49 01 /var><var 48 01 /var> длительность увеличивается до 90 с.
+Возможно использовать только в режиме боя..","","False","0x00005D69","",""
 "","Delivers a close-quarter attack with a potency of 350. Chance of instant KO when attacking from the rear, which increases the lower the target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Beast Effect:<var 49 01 /var><var 48 01 /var> Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Lost Font of Power<var 49 01 /var><var 48 01 /var> to self
 <var 48 F201F8 /var><var 49 F201F9 /var>Lost Font of Power Effect:<var 49 01 /var><var 48 01 /var> Increases damage dealt by 30% and critical hit rate by 40%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 18s
-This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Delivers a close-quarter attack with a potency of 350. Chance of instant KO when attacking from the rear, which increases the lower the target's ОЗ.
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Beast Effect:<var 49 01 /var><var 48 01 /var> Grants the effect of <var 48 F201FA /var><var 49 F201FB /var>Lost Font of Power<var 49 01 /var><var 48 01 /var> to self
-<var 48 F201F8 /var><var 49 F201F9 /var>Lost Font of Power Effect:<var 49 01 /var><var 48 01 /var> Increases damage dealt by 30% and шанс критического удара by 40%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 18 с.
-This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","","False","0x00005D6A","",""
+This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions.","Наносит удар на ближней дистанции с силой 350. 
+Присутствует шанс мгновенного нокаута при атаке с тыла цели, который увеличивается пропорционально снижению ОЗ цели.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Spirit of the Beast:<var 49 01 /var><var 48 01 /var> Накладывает на вас эффект <var 48 F201FA /var><var 49 F201FB /var>Lost Font of Power<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Lost Font of Power:<var 49 01 /var><var 48 01 /var> Увеличивает наносимый урон на 30% и шанс критического удара на 40%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 18 с.
+Не влияет на время восстановления прочих действий. Кроме того, на время восстановления не могут повлиять другие действия.","","False","0x00005D6A","",""
 "","Applies a barrier to self or target player reducing physical damage taken by 15%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30m","Applies a barrier to self or target player reducing physical damage taken by 15%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30m","","True","0x00005D6B","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30m","Накладывает на вас или выбранного персонажа защитный барьер, снижающий получаемый физический урон на 15%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 мин.","","False","0x00005D6B","",""
 "","Applies a barrier to self or target player reducing magic damage taken by 15%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30m","Applies a barrier to self or target player reducing magic damage taken by 15%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30m","","True","0x00005D6C","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30m","Накладывает на вас или выбранного персонажа защитный барьер, снижающий получаемый магический урон на 15%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 мин.","","False","0x00005D6C","",""
 "","Increases maximum HP of self or target player by 30%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 600s","Increases maximum ОЗ of self or target player by 30%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 600 с.","","False","0x00005D6D","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 600s","Увеличивает максимальные ОЗ вам или выбранному персонажу на 30%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 600 с.","","False","0x00005D6D","",""
 "","Quickly dash 10 yalms forward.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Applies <var 48 F201FA /var><var 49 F201FB /var>Lost Swift<var 49 01 /var><var 48 01 /var> to self and nearby party members
 <var 48 F201F8 /var><var 49 F201F9 /var>Lost Swift Effect:<var 49 01 /var><var 48 01 /var> Greatly increases movement speed
@@ -33405,27 +33409,28 @@ Effect cannot be stacked with other movement speed enhancing abilities.
 <var 48 F201F8 /var><var 49 F201F9 /var>Rapid Recast Effect: <var 49 01 /var><var 48 01 /var>Shortens recast time for next ability used by 25%
 Effect only applies to certain abilities.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15s
-Cannot be executed while bound.","Quickly dash 10 yalms forward.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Applies <var 48 F201FA /var><var 49 F201FB /var>Lost Swift<var 49 01 /var><var 48 01 /var> to self and nearby party members
-<var 48 F201F8 /var><var 49 F201F9 /var>Lost Swift Effect:<var 49 01 /var><var 48 01 /var> Greatly increases movement speed
-Effect cannot be stacked with other movement speed enhancing abilities.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10 с.
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Breathtaker Effect: <var 49 01 /var><var 48 01 /var>Increases evasion of self and nearby party members by 15%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>60 с.
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Watcher Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Rapid Recast<var 49 01 /var><var 48 01 /var> to self and nearby party members
-<var 48 F201F8 /var><var 49 F201F9 /var>Rapid Recast Effect: <var 49 01 /var><var 48 01 /var>Shortens recast time for next ability used by 25%
-Effect only applies to certain abilities.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15 с.
-Cannot be executed while bound.","","False","0x00005D6E","",""
+Cannot be executed while bound.","Быстрый рывок на 10 ялмов вперед.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект: <var 49 01 /var><var 48 01 /var>Накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Lost Swift<var 49 01 /var><var 48 01 /var> на вас и ближайших членов группы.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Lost Swift:<var 49 01 /var><var 48 01 /var> Значительно увеличивает скорость передвижения.
+Эффект не суммируется с с другими способностями увеличивающими скорость передвижения.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>10 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Spirit of the Breathtaker: <var 49 01 /var><var 48 01 /var>Увеличивает уклонение у вас и ближайших членнов группы на 15%
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>60 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Spirit of the Watcher: <var 49 01 /var><var 48 01 /var>Накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Rapid Recast<var 49 01 /var><var 48 01 /var> на вас и ближайших членов группы.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Rapid Recast: <var 49 01 /var><var 48 01 /var>Снижает время восстановления следующего используемого умения на 25%.
+Эффект распространяется только на определенные способности.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 15 с.
+Невозможно использовать под эффектами, сковывающими движение.","","False","0x00005D6E","",""
 "","Instantly cures <var 48 F201FA /var><var 49 F201FB /var>Weakness<var 49 01 /var><var 48 01 /var> and temporarily nullifies most attacks, while increasing damage dealt by 65%. <var 48 F201FA /var><var 49 F201FB /var>Memorable<var 49 01 /var><var 48 01 /var> will be applied when effect ends.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10s
 <var 48 F201F8 /var><var 49 F201F9 /var>Memorable Effect:<var 49 01 /var><var 48 01 /var> Increases damage dealt by 65% while decreasing damage taken by 10%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 50s
-Can only be executed while in combat.","Instantly cures <var 48 F201FA /var><var 49 F201FB /var>Weakness<var 49 01 /var><var 48 01 /var> and temporarily nullifies most attacks, while increasing damage dealt by 65%. <var 48 F201FA /var><var 49 F201FB /var>Memorable<var 49 01 /var><var 48 01 /var> will be applied when effect ends.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10 с.
-<var 48 F201F8 /var><var 49 F201F9 /var>Memorable Effect:<var 49 01 /var><var 48 01 /var> Increases damage dealt by 65% while decreasing damage taken by 10%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 50 с.
-Can only be executed while in combat.","","False","0x00005D6F","",""
+Can only be executed while in combat.","Моментально снимает <var 48 F201FA /var><var 49 F201FB /var>Weakness<var 49 01 /var><var 48 01 /var> и временно предотвращает большинство атак, а так же увеличивает наносимый урон на 65%.
+По кончание действия будет наложен эффект <var 48 F201FA /var><var 49 F201FB /var>Memorable<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 10 с.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Memorable:<var 49 01 /var><var 48 01 /var> Увеличивает наносимый урон на 65%, а так же снижает получаемый урон на 10%
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 50 с.
+Возможно использовать только в режиме боя.","","False","0x00005D6F","",""
 "","Fully restores HP and MP while granting <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> and <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> to self and nearby party members.
 <var 48 F201F8 /var><var 49 F201F9 /var>Auto-potion Effect: <var 49 01 /var><var 48 01 /var>Restores HP automatically when HP falls below 50%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>600s
@@ -33433,28 +33438,29 @@ When triggered, there is a 50% chance the effect will end.
 <var 48 F201F8 /var><var 49 F201F9 /var>Auto-ether Effect: <var 49 01 /var><var 48 01 /var>Restores MP automatically when MP falls below 20%
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>600s
 When triggered, there is a 50% chance the effect will end.
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Breathtaker Effect: <var 49 01 /var><var 48 01 /var>Chance for <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> and <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> effect to end is reduced to 10%","Fully restores ОЗ and ОМ while granting <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> and <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> to self and nearby party members.
-<var 48 F201F8 /var><var 49 F201F9 /var>Auto-potion Effect: <var 49 01 /var><var 48 01 /var>Restores ОЗ automatically when ОЗ falls below 50%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>600 с.
-When triggered, there is a 50% chance the effect will end.
-<var 48 F201F8 /var><var 49 F201F9 /var>Auto-ether Effect: <var 49 01 /var><var 48 01 /var>Restores ОМ automatically when ОМ falls below 20%
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>600 с.
-When triggered, there is a 50% chance the effect will end.
-<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Breathtaker Effect: <var 49 01 /var><var 48 01 /var>Chance for <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> and <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> effect to end is reduced to 10%","","False","0x00005D70","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Spirit of the Breathtaker Effect: <var 49 01 /var><var 48 01 /var>Chance for <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> and <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> effect to end is reduced to 10%","Полностью восстанавливает ОЗ и ОМ, а так же накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> и <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> на вас и ближайших членов группы.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Auto-potion: <var 49 01 /var><var 48 01 /var>Автоматически восстанавливает ОЗ при их падении ниже 50%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>600 с.
+При срабатывании эффекта существует 50% вероятность его прекращения.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Auto-ether: <var 49 01 /var><var 48 01 /var>Автоматически восстанавливает ОМ при их падении ниже 20%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>600 с.
+При срабатывании эффекта существует 50% вероятность его прекращения.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Spirit of the Breathtaker: <var 49 01 /var><var 48 01 /var>Шанс прекращает эффектов <var 48 F201FA /var><var 49 F201FB /var>Auto-potion<var 49 01 /var><var 48 01 /var> и <var 48 F201FA /var><var 49 F201FB /var>Auto-ether<var 49 01 /var><var 48 01 /var> снижается до 10%","","False","0x00005D70","",""
 "","Increases damage dealt by 15% and reduces damage taken by 5% per stack. Stacks increase with each use of a dash attack while effect is active, to a maximum of 4.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 18s
 Maximum stacks grant the effect of <var 48 F201FA /var><var 49 F201FB /var>Blood Rush<var 49 01 /var><var 48 01 /var>.
 <var 48 F201F8 /var><var 49 F201F9 /var>Blood Rush Effect:<var 49 01 /var><var 48 01 /var> Increases damage dealt by 60%, shortens recast times of abilities by 75%, and gradually restores HP and MP. Recast time reduction does not apply to charged actions.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s
-Can only be executed while in combat.","Increases damage dealt by 15% and reduces damage taken by 5% per stack. Stacks increase with each use of a dash attack while effect is active, to a maximum of 4.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 18s
-Maximum stacks grant the effect of <var 48 F201FA /var><var 49 F201FB /var>Blood Rush<var 49 01 /var><var 48 01 /var>.
-<var 48 F201F8 /var><var 49 F201F9 /var>Blood Rush Effect:<var 49 01 /var><var 48 01 /var> Increases damage dealt by 60%, shortens recast times of abilities by 75%, and gradually restores ОЗ and ОМ. Recast time reduction does not apply to charged actions.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s
-Can only be executed while in combat.","","True","0x00005D71","",""
+Can only be executed while in combat.","Увеличивает наносимый урон на 15 и получаемый урон на 5% за каждый заряд.
+Заряды увеличиваются с каждой атакой, в период действия эффекта, вплоть до 4.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 18 с.
+При максимуме зарядов накладывает эффект <var 48 F201FA /var><var 49 F201FB /var>Blood Rush<var 49 01 /var><var 48 01 /var>.
+<var 48 F201F8 /var><var 49 F201F9 /var>Эффект Blood Rush:<var 49 01 /var><var 48 01 /var> Увеличивает наносимый урон на 60%, сокращает время восстановления способностей на 75% и постепенно восстанавливает ОЗ и ОМ. Сокращение времени восстановления не распространяется на заряженные действия.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 30 с.
+Возможно использовать только в режиме боя.","","False","0x00005D71","",""
 "","Restores own HP and MP to maximum.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Dynamis Dice<var 49 01 /var><var 48 01 /var>.","Restores own ОЗ and ОМ to maximum.
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Dynamis Dice<var 49 01 /var><var 48 01 /var>.","","True","0x00005D72","",""
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion<var 49 01 /var><var 48 01 /var> and <var 48 F201F4 /var><var 49 F201F5 /var>Dynamis Dice<var 49 01 /var><var 48 01 /var>.","Полностью восстанавливает ваше ОЗ и ОМ.
+Имеет общее время восстановления с <var 48 F201F4 /var><var 49 F201F5 /var>Resistance Potion<var 49 01 /var><var 48 01 /var> и <var 48 F201F4 /var><var 49 F201F5 /var>Dynamis Dice<var 49 01 /var><var 48 01 /var>.","","False","0x00005D72","",""
 "","","","","False","0x00005D73","",""
 "","","","","False","0x00005D74","",""
 "","","","","False","0x00005D75","",""
