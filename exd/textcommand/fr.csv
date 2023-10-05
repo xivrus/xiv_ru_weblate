@@ -3384,8 +3384,22 @@ Si aucun type n'est spécifié, alterne entre ""tous"" et ""désactivé"".<tab>/
 　　<var 48 F201FA /var><var 49 F201FB /var>ScenarioGuide<var 49 01 /var><var 48 01 /var>
 　Compressed Aether
 　　<var 48 F201FA /var><var 49 F201FB /var>CompressedAether<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Progress Gauge
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictProgress<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccprog<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Ally Info
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictAlly<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccally<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Enemy Info
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictEnemy<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccenemy<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Battle Log
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictLog<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>cclog<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Map
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictMap<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccmap<var 49 01 /var><var 48 01 /var>
 　Battle High Gauge
 　　<var 48 F201FA /var><var 49 F201FB /var>BattleHighGauge<var 49 01 /var><var 48 01 /var>
+　Frontline Score Info
+　　<var 48 F201FA /var><var 49 F201FB /var>FrontlineScore<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>flscore<var 49 01 /var><var 48 01 /var>
+　Rival Wings Gauges
+　　<var 48 F201FA /var><var 49 F201FB /var>RWGauge<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwg<var 49 01 /var><var 48 01 /var>
 　Rival Wings Alliance List
 　　<var 48 F201FA /var><var 49 F201FB /var>RWAlliance<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwa<var 49 01 /var><var 48 01 /var>
 　Rival Wings Station Info
@@ -3431,10 +3445,16 @@ Barre de raccourcis spéciale (raccsp)
 Croix de raccourcis (cxracc)
 Guide de l'épopée (Guideépopée)
 Éther compressé (Éthcomp)
-Le Front<var 1D /var>: jauge de combat (JaugeCombat)
+Ailes rivales - mercenaire gobelin<var 1D /var>: ARmercenaire (RivalWings:Mercenary)
+Crystalline Conflict - jauge de progression<var 1D /var>: CConflictProgress (CrystallineConflict:ProgressGauge)
+Crystalline Conflict - alliés<var 1D /var>: CConflictEqu (CrystallineConflict:AllyInfo)
+Crystalline Conflict - adversaires<var 1D /var>: CConflictAdv (CrystallineConflict:EnemyInfo)
+Crystalline Conflict - log de combat<var 1D /var>: CConflictLog (CrystallineConflict:BattleLog)
+Crystalline Conflict - carte<var 1D /var>: CConflictCarte (CrystallineConflict:Map)
+Le Front - jauge de combat<var 1D /var>: JaugeCombat (Frontline:BattleGauge)
+Le Front - score<var 1D /var>: FrontScore (Frontline:Score)
 Ailes rivales - liste d'alliance<var 1D /var>: ARalliance (RivalWings:Alliance)
 Ailes rivales - gare<var 1D /var>: ARgare (RivalWings:Station)
-Ailes rivales - mercenaire gobelin<var 1D /var>: ARmercenaire (RivalWings:Mercenary)
 >> Sous-commandes<var 1D /var>:
 activé (on)        Affiche le composant spécifié.
 désactivé (off)   Cache le composant spécifié.
@@ -7408,6 +7428,76 @@ S'envole dans les airs avant de retomber poing en avant.
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/envolhéroïque<tab>/envhér<tab>/adventoflight<tab>/advent","","False","0x00000292","",""
 "","USAGE:
+　/jumpforjoy1, /jj1 [subcommand]
+
+→Jump happily for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy1<tab>/jj1","/sautdejoie1, /jj1
+Utilisation<var 1D /var>: /sautdejoie1 [sous-commande]
+Saute de joie avec un air attendrissant.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/sautdejoie1<tab>/jj1<tab>/jumpforjoy1<tab>/jj1","","False","0x00000293","",""
+"","USAGE:
+　/jumpforjoy2, /jj2 [subcommand]
+
+→Jump merrily for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy2<tab>/jj2","/sautdejoie2, /jj2
+Utilisation<var 1D /var>: /sautdejoie2 [sous-commande]
+Saute de joie avec un air heureux.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/sautdejoie2<tab>/jj2<tab>/jumpforjoy2<tab>/jj2","","False","0x00000294","",""
+"","USAGE:
+　/jumpforjoy3, /jj3 [subcommand]
+
+→Jump enthusiastically for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy3<tab>/jj3","/sautdejoie3, /jj3
+Utilisation<var 1D /var>: /sautdejoie3 [sous-commande]
+Saute de joie avec un air déterminé.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/sautdejoie3<tab>/jj3<tab>/jumpforjoy3<tab>/jj3","","False","0x00000295","",""
+"","USAGE:
+　/jumpforjoy4, /jj4 [subcommand]
+
+→Jump cheerfully for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy4<tab>/jj4","/sautdejoie4, /jj4
+Utilisation<var 1D /var>: /sautdejoie4 [sous-commande]
+Saute de joie avec un air détendu.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/sautdejoie4<tab>/jj4<tab>/jumpforjoy4<tab>/jj4","","False","0x00000296","",""
+"","USAGE:
+　/jumpforjoy5, /jj5 [subcommand]
+
+→Jump for joy like a sabotender.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy5<tab>/jj5","/sautdejoie5, /jj5
+Utilisation<var 1D /var>: /sautdejoie5 [sous-commande]
+Saute de joie avec un air de pampa.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/sautdejoie5<tab>/jj5<tab>/jumpforjoy5<tab>/jj5","","False","0x00000297","",""
+"","USAGE:
 　/handtoheart [subcommand]
 
 →Gently place your hand on your heart.
@@ -7491,4 +7581,64 @@ Consulte un ouvrage de référence.
 >> Sous-commande<var 1D /var>:
 animation (motion)   Exécute uniquement l'animation.
 Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/seréférer<tab>/référence<tab>/reference<tab>","","False","0x0000029F","",""
+"","USAGE:
+　/eatchicken  [subcommand]
+
+→Snack on a piece of fried chicken.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatchicken<tab>","/mangerdupouletfrit, /mangpoul, /eatchicken
+Utilisation<var 1D /var>: /mangerdupouletfrit [sous-commande]
+Mange du poulet frit.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/mangerdupouletfrit<tab>/mangpoul<tab>/eatchicken<tab>","","False","0x000002A0","",""
+"","ALIASES:
+　/sundering, /exodus
+USAGE:
+　/sundering [subcommand]
+
+→Perform Exodus and sunder the world.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/sundering<tab>/exodus","/exode, /sundering, /exodus
+Utilisation<var 1D /var>: /exode [sous-commande]
+Fait une dé<var 16 /var>mon<var 16 /var>stra<var 16 /var>tion du sort Exode.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/exode<tab><tab>/sundering<tab>/exodus","","False","0x000002A1","",""
+"","USAGE:
+　/slump [subcommand]
+
+→Hang your head in defeat.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/slump<tab>","/êtreaccablé, /accablé, /slump
+Utilisation<var 1D /var>: /êtreaccablé [sous-commande]
+Est accablé.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/êtreaccablé<tab>/accablé<tab>/slump<tab>","","False","0x000002A2","",""
+"","ALIASES:
+　/loveheart, /heart
+USAGE:
+　/loveheart [subcommand]
+
+→Make a heart shape with your hands.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/loveheart<tab>/heart","/poseencoeur, /coeur, /loveheart, /heart
+Utilisation<var 1D /var>: /poseencoeur [sous-commande]
+Fait la pose en cœur.
+>> Sous-commande<var 1D /var>:
+animation (motion)   Exécute uniquement l'animation.
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.<tab>/poseencoeur<tab>/coeur<tab>/loveheart<tab>/heart","","False","0x000002A3","",""
 

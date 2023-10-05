@@ -59,7 +59,7 @@ If this character is master of a free company for which there is no eligible suc
 "","<var 09 E804 ((1st)) ((2nd)) ((3rd)) ((4th)) ((5th)) ((6th)) ((7th)) ((8th)) ((9th)) ((10th)) ((11th)) ((12th)) ((13th)) ((14th)) ((15th)) ((16th)) ((17th)) ((18th)) ((19th)) ((20th)) ((21st)) ((22nd)) ((23rd)) ((24th)) ((25th)) ((26th)) ((27th)) ((28th)) ((29th)) ((30th)) ((31st)) ((32nd)) /var> Sun of the <var 09 E803 ((1st Astral)) ((1st Umbral)) ((2nd Astral)) ((2nd Umbral)) ((3rd Astral)) ((3rd Umbral)) ((4th Astral)) ((4th Umbral)) ((5th Astral)) ((5th Umbral)) ((6th Astral)) ((6th Umbral)) /var> Moon<tab><tab>","","","True","0x00000035","",""
 "","<tab><tab>","","","False","0x00000036","",""
 "","<tab><tab>","","","True","0x00000037","",""
-"","<var 29 EA02 /var><var 09 E803 (()) (( (Legacy))) (( (NA))) (( (NA Legacy))) (( (EU))) (( (EU Legacy))) (( (OC))) (( (OC Legacy))) /var><tab><tab>","","","False","0x00000038","",""
+"","<var 29 EA02 /var><var 09 E803 (()) (( (Legacy))) (()) (( (NA))) (( (NA Legacy))) (( (EU))) (( (EU Legacy))) (( (OC))) (( (OC Legacy))) (()) /var><tab><tab>","","","True","0x00000038","",""
 "","Obtaining the World list...<tab><tab>","","","False","0x00000039","",""
 "","Unable to obtain the World list.<tab><tab>","","","False","0x0000003A","",""
 "","Obtain updated World information. This feature can only be used once every <var 08 E802 ((<var 08 E2E8020B ((<var 09 E802 ((one)) ((two)) ((three)) ((four)) ((five)) ((six)) ((seven)) ((eight)) ((nine)) ((ten)) /var>)) ((<var 20 E802 /var>)) /var>)) ((<var 20 E802 /var>)) /var> <var 08 E4E80202 ((minute)) ((minutes)) /var>.<tab><tab>","","","False","0x0000003B","",""
@@ -711,7 +711,7 @@ His symbol is the hourglass.<tab><tab>","","","True","0x000001E2","",""
 "","Total Days Subscribed: <var 22 E802 ((,)) /var><var 08 E4E80301 (()) ((
 Days Until Next Rank: <var 22 E803 ((,)) /var>)) /var><tab><tab>","","","False","0x00000269","",""
 "","You have <var 20 E802 /var> <var 08 E4E80202 ((day)) ((days)) /var> of play time remaining. Proceed to the Mog Station (https://sqex.to/Msp) to renew.<tab><tab>","","","False","0x0000026A","",""
-"","You have <var 20 E802 /var> <var 08 E4E80202 ((day)) ((days)) /var> left on your free trial. <var 08 E1E94C01 ((Proceed to PlayStation™Store to upgrade to the full version of FINAL FANTASY XIV and unlock all the game's features.)) ((Visit the Square Enix Online Store (https://sqex.to/Msp) to purchase the full version of FINAL FANTASY XIV and unlock all the game's features.)) /var><tab><tab>","","","False","0x0000026B","",""
+"","You have <var 20 E802 /var> <var 08 E4E80202 ((day)) ((days)) /var> left on your free trial. Proceed to <var 08 E4E94C01 ((the Square Enix Online Store (https://sqex.to/Msp))) ((<var 08 E4E94F64 ((PlayStation™Store)) ((Microsoft Store)) /var>)) /var> to purchase the full version of FINAL FANTASY XIV and unlock all the game's features.<tab><tab>","","","True","0x0000026B","",""
 "","<tab><tab>","","","True","0x0000026C","",""
 "","Finalize your retainer's appearance?<tab><tab>","Завершить редактирование внешности retainer'а?<tab><tab>","","False","0x0000026D","",""
 "","Cancel retainer customization.<tab><tab>","Отменить редактирование внешности retainer'а.<tab><tab>","","False","0x0000026E","",""
@@ -905,10 +905,11 @@ Days Until Next Rank: <var 22 E803 ((,)) /var>)) /var><tab><tab>","","","False",
 "","<var 09 E802 ((JP 1)) ((JP 2)) ((JP 3)) ((DC NA 1)) ((NA 2)) ((EU)) /var><tab><tab>","","","True","0x00000325","",""
 "","FINAL FANTASY XIV requires connecting to one of several data centers to play. The closer your physical location to the data center, the smoother gameplay will be.
 
-<var 08 E1E80201 ((The center you have selected is recommended for residents of <var 09 E802 ((Japan)) ((North America)) ((Europe)) ((Oceania)) /var>. Select if you wish to create a character and play in one of the Worlds listed.
-
-Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you should select the corresponding data center.)) ((First choose your region, and then select your data center. All data centers within the same region offer the same quality of gameplay.)) /var><tab><tab>","","","False","0x00000326","",""
-"","<var 29 EA02 /var><var 09 E803 (()) (( (Legacy))) (( (NA))) (( (NA Legacy))) (( (EU))) (( (EU Legacy))) (( (OC))) (( (OC Legacy))) /var><tab><tab>","","","False","0x00000327","",""
+<var 08 E1E80201 ((The center you have selected is recommended for residents of <var 09 E802 ((Japan)) ((North America)) ((Europe)) ((Oceania)) (()) (()) ((North America)) /var>. Select if you wish to create a character and play in one of the Worlds listed.
+<var 08 E4E80208 ((<var 48 F20237 /var><var 49 F20238 /var>This data center is for cloud stress testing only. No connections can be made outside the test period.<var 49 01 /var><var 48 01 /var>
+)) (()) /var>
+Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you should select the corresponding data center.)) ((First choose your region, and then select your data center. All data centers within the same region offer the same quality of gameplay.)) /var><tab><tab>","","","True","0x00000326","",""
+"","<var 29 EA02 /var><var 09 E803 (()) (( (Legacy))) (()) (( (NA))) (( (NA Legacy))) (( (EU))) (( (EU Legacy))) (( (OC))) (( (OC Legacy))) (()) /var><tab><tab>","","","True","0x00000327","",""
 "","Connecting to data center.<tab><tab>","","","False","0x00000328","",""
 "","Acquiring character list.<tab><tab>","","","False","0x00000329","",""
 "","Proceed<tab><tab>","","","False","0x0000032A","",""
@@ -917,7 +918,7 @@ Each data center contains several unique Worlds (servers). If you have already d
 "","North American Data Centers<tab><tab>","","","True","0x0000032D","",""
 "","European Data Centers<tab><tab>","","","True","0x0000032E","",""
 "","Oceanian Data Center<tab><tab>","","","True","0x0000032F","",""
-"","<tab><tab>","","","True","0x00000330","",""
+"","NA Cloud Data Center (Beta)<tab><tab>","","","True","0x00000330","",""
 "","<tab><tab>","","","True","0x00000331","",""
 "","<tab><tab>","","","True","0x00000332","",""
 "","<tab><tab>","","","True","0x00000333","",""
@@ -932,7 +933,8 @@ it is recommended, but not required, that you select a data center that is
 closer to where you will be playing. Legacy Worlds (servers existing since the
 original launch) are indicated in parentheses.
 
-<var 28 ((WorldDCGroupType)) E802 ((WORLDDCGROUPTYPE_NAME)) /var>, this World's data center, is recommended for residents of <var 08 E1E80401 ((<var 09 E804 ((Japan)) ((North America)) ((Europe)) ((Oceania)) /var>)) (()) /var>.<var 08 E4E80302 ((
+<var 28 ((WorldDCGroupType)) E802 ((WORLDDCGROUPTYPE_NAME)) /var>, this World's data center, is recommended for residents of <var 08 E1E80401 ((<var 09 E804 ((Japan)) ((North America)) ((Europe)) ((Oceania)) (()) (()) ((North America)) /var>)) (()) /var>.<var 08 E4E80408 ((<var 48 F20237 /var><var 49 F20238 /var>This data center is for cloud stress testing only. No connections can be made outside the test period.
+<var 49 01 /var><var 48 01 /var>)) (()) /var><var 08 E4E80302 ((
 
 <var 12 64 /var><var 48 F201FA /var><var 49 F201FB /var>EXP bonuses are currently being granted to all new players
 created on this world.<var 49 01 /var><var 48 01 /var>)) (()) /var><var 08 E4E80303 ((
@@ -944,7 +946,7 @@ World Visit system to play on this one.<var 49 01 /var><var 48 01 /var>)) (()) /
 "","(Skipped)<tab><tab>","","","True","0x00000335","",""
 "","Save <var 09 E803 ((<var 28 ((Tribe)) E80201 /var> male)) ((<var 28 ((Tribe)) E80202 /var> female)) /var> character creation data to slot <var 20 E804 /var>?<tab><tab>","","","True","0x00000336","",""
 "","Load character creation data for the <var 09 E805 ((male <var 28 ((Tribe)) E80401 /var>)) ((female <var 28 ((Tribe)) E80402 /var>)) /var> saved to slot <var 20 E803 /var> at <var 07 E802 /var><var 20 DB /var>:<var 24 DA /var> on <var 08 E4E94E04 ((<var 20 DC /var>/<var 20 DE /var>/<var 20 DF /var>)) ((<var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var>)) /var>?<tab><tab>","","","True","0x00000337","",""
-"","Saved character creation data found in the FINAL FANTASY XIV folder. Select data to load and continue to the final step.<tab><tab>","","","True","0x00000338","",""
+"","Saved appearance data found in the FINAL FANTASY XIV folder. Select data to load and continue to the final step.<tab><tab>","","","True","0x00000338","",""
 "","Character creation data saved. Please wait until patch data download is complete. Finishing character creation will return you to the launcher.<tab><tab>","","","True","0x00000339","",""
 "","Character creation data saved. Please wait until patch data download is complete. Finishing character creation will return you to the launcher.<tab><tab>","","","True","0x0000033A","",""
 "","Character creation data saved. Please close the application and return to the launcher.<tab><tab>","","","True","0x0000033B","",""
@@ -997,7 +999,7 @@ World Visit system to play on this one.<var 49 01 /var><var 48 01 /var>)) (()) /
 "","Recently Backed Up Characters (Same DC Only)<tab><tab>","","","True","0x00000363","",""
 "","No Data<tab><tab>","","","True","0x00000364","",""
 "","Backup Date: <var 07 E802 /var><var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var> <var 20 DB /var>:<var 24 DA /var><tab><tab>","","","True","0x00000365","",""
-"","[<var 09 E802 ((Win)) ((PS4)) ((Mac)) ((PS5)) /var>]<tab><tab>","","","False","0x00000366","",""
+"","[<var 09 E802 ((Win)) ((PS4)) ((Mac)) ((PS5)) ((Xbox)) /var>]<tab><tab>","","","True","0x00000366","",""
 "","Ready to create backup.<tab><tab>","","","False","0x00000367","",""
 "","Ready to download.<tab><tab>","","","False","0x00000368","",""
 "","Apply <var 48 F20239 /var><var 49 F2023A /var>Character Settings<var 49 01 /var><var 48 01 /var> for a different character.<tab><tab>","","","True","0x00000369","",""
@@ -1017,7 +1019,7 @@ You cannot upload data again until <var 07 E802 /var><var 20 DE /var>/<var 20 DC
 "","Downloading backup data...<tab><tab>","","","False","0x00000376","",""
 "","Uploading backup data...<tab><tab>","","","False","0x00000377","",""
 "","<var 48 F20237 /var><var 49 F20238 /var>Client Settings<var 49 01 /var><var 48 01 /var> successfully applied.
-* Certain changes will only be reflected upon restarting the client.<tab><tab>","","","False","0x00000378","",""
+※Certain changes will only be reflected upon restarting the client.<tab><tab>","","","True","0x00000378","",""
 "","<var 48 F20237 /var><var 49 F20238 /var>Client Settings<var 49 01 /var><var 48 01 /var> data saved to the server.<tab><tab>","","","False","0x00000379","",""
 "","Character Settings successfully applied to <var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var>.<tab><tab>","","","False","0x0000037A","",""
 "","Character Settings for <var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> successfully uploaded to the server.<tab><tab>","","","False","0x0000037B","",""
@@ -1046,13 +1048,13 @@ Please try again later.
 "","Saves UI size, frame rate limit, and other display settings.
 ※Resolution and other graphical settings dependent on current play environment will not be saved.<tab>Display<tab>","","","False","0x00000384","",""
 "","Saves volume, mute, and other sound settings.<tab>Sound<tab>","","","False","0x00000385","",""
-"","Saves <var 08 E1E94C01 ((wireless controller and mouse)) ((gamepad and mouse)) /var> settings.
-※Input device information will not be saved.<tab>Input Device<tab>","","","False","0x00000386","",""
+"","Saves <var 08 E4E94C01 ((mouse and gamepad)) ((<var 08 E4E94F64 ((wireless controller)) ((controller)) /var> and mouse)) /var> settings.
+※Input device information will not be saved.<tab>Input Device<tab>","","","True","0x00000386","",""
 "","Saves your preferred color scheme.<tab>Theme Settings<tab>","","","False","0x00000387","",""
 "","Saves movie/cutscene voice settings.
 ※Settings dependent on current play environment will not be saved.<tab>Others<tab>","","","False","0x00000388","",""
-"","Saves visual alert and color filtering settings.<var 08 E4E94F64 ((
-※Not applicable to <var 08 E1E94C01 ((<var 09 E94C ((PlayStation®3)) ((PlayStation®4)) ((PlayStation®4)) ((PlayStation®5)) /var>)) (()) /var>.)) (()) /var><tab>Accessibility<tab>","","","False","0x00000389","",""
+"","Saves visual alert and color filtering settings.<var 08 E4E94C01 (()) ((
+※Not applicable to <var 08 E1E94C01 ((<var 09 E94C ((PlayStation®3)) ((PlayStation®4)) ((PlayStation®4)) ((PlayStation®5)) ((Xbox Series X)) ((Xbox Series S)) /var>)) (()) /var>.)) /var><tab>Accessibility<tab>","","","True","0x00000389","",""
 "","Saves shared macros.
 ※Individual macros are saved by backing up <var 48 F20239 /var><var 49 F2023A /var>Character Settings<var 49 01 /var><var 48 01 /var>.<tab>Shared Macros<tab>","","","False","0x0000038A","",""
 "","<tab><tab>","","","True","0x0000038B","",""
@@ -1090,12 +1092,12 @@ Please try again later.
 "","<tab><tab>","","","True","0x000003AA","",""
 "","<tab><tab>","","","True","0x000003AB","",""
 "","Restore<tab><tab>","","","False","0x000003AC","",""
-"","Restore <var 08 E4E94F64 ((Settings)) ((Macros)) /var><tab><tab>","","","True","0x000003AD","",""
+"","Restore <var 08 E4E94C01 ((Macros)) ((Settings)) /var><tab><tab>","","","True","0x000003AD","",""
 "","Restore Settings<tab><tab>","","","True","0x000003AE","",""
-"","Restore <var 08 E4E94F64 ((Client Settings)) ((Shared Macros)) /var><tab><tab>","","","True","0x000003AF","",""
+"","Restore <var 08 E4E94C01 ((Shared Macros)) ((Client Settings)) /var><tab><tab>","","","True","0x000003AF","",""
 "","<tab><tab>","","","True","0x000003B0","",""
-"","<var 08 E4E94F64 (( )) ((Up to 100 shared macros can be restored.)) /var><tab><tab>","","","False","0x000003B1","",""
-"","If a problem occurred applying <var 48 F20237 /var><var 49 F20238 /var>Client Settings<var 49 01 /var><var 48 01 /var>, you can use this feature to restore your <var 08 E4E94F64 (()) ((shared macro )) /var>settings to those automatically recorded at a previous date.<tab><tab>","","","False","0x000003B2","",""
+"","<var 08 E4E94C01 ((Up to 100 shared macros can be restored.)) (()) /var><tab><tab>","","","True","0x000003B1","",""
+"","If a problem occurred applying <var 48 F20237 /var><var 49 F20238 /var>Client Settings<var 49 01 /var><var 48 01 /var>, you can use this feature to restore your <var 08 E4E94C01 ((shared macro )) (()) /var>settings to those automatically recorded at a previous date.<tab><tab>","","","True","0x000003B2","",""
 "","Settings are automatically saved each time you download and apply new data (up to 10 instances).
 No data currently exists.<tab><tab>","","","False","0x000003B3","",""
 "","Automatic Backup: <var 07 E802 /var><var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var> <var 20 DB /var>:<var 24 DA /var><tab><tab>","","","True","0x000003B4","",""
@@ -1105,17 +1107,17 @@ No data currently exists.<tab><tab>","","","False","0x000003B3","",""
 "","If a problem occurred applying <var 48 F20239 /var><var 49 F2023A /var>Character Settings<var 49 01 /var><var 48 01 /var>, you can use this feature to restore your settings to those automatically recorded at a previous date.<tab><tab>","","","False","0x000003B8","",""
 "","Settings are automatically saved each time you download and apply new data (up to 10 instances).
 No data currently exists.<tab><tab>","","","False","0x000003B9","",""
-"","Restore <var 08 E4E94F64 ((Client Settings)) ((shared macro data)) /var> for <var 07 E802 /var><var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var> <var 20 DB /var>:<var 24 DA /var>?<tab><tab>","","","True","0x000003BA","",""
+"","Restore <var 08 E4E94C01 ((shared macro data)) ((Client Settings)) /var> for <var 07 E802 /var><var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var> <var 20 DB /var>:<var 24 DA /var>?<tab><tab>","","","True","0x000003BA","",""
 "","Restore <var 48 F20239 /var><var 49 F2023A /var>Character Settings<var 49 01 /var><var 48 01 /var> for <var 07 E802 /var><var 20 DE /var>/<var 20 DC /var>/<var 20 DF /var> <var 20 DB /var>:<var 24 DA /var>?<tab><tab>","","","True","0x000003BB","",""
-"","<var 08 E4E94F64 ((Client Settings)) ((Shared macros)) /var> successfully restored.<tab><tab>","","","True","0x000003BC","",""
-"","Unable to restore <var 08 E4E94F64 ((Client Settings)) ((shared macros)) /var>.<tab><tab>","","","True","0x000003BD","",""
+"","<var 08 E4E94C01 ((Shared macros)) ((Client Settings)) /var> successfully restored.<tab><tab>","","","True","0x000003BC","",""
+"","Unable to restore <var 08 E4E94C01 ((shared macros)) ((Client Settings)) /var>.<tab><tab>","","","True","0x000003BD","",""
 "","<var 48 F20239 /var><var 49 F2023A /var>Character Settings<var 49 01 /var><var 48 01 /var> successfully restored.<tab><tab>","","","True","0x000003BE","",""
 "","Unable to restore <var 48 F20239 /var><var 49 F2023A /var>Character Settings<var 49 01 /var><var 48 01 /var>.<tab><tab>","","","True","0x000003BF","",""
 "","Unable to download data. Backup file may be missing or corrupted.<tab><tab>","","","True","0x000003C0","",""
 "","Corrupted<tab><tab>","","","True","0x000003C1","",""
-"","A new feature has been added that allows you to save backups of your Character Settings and Client Settings to the FINAL FANTASY XIV servers.
+"","This feature allows you to save backups of your Client and Character Configuration Settings to the FINAL FANTASY XIV servers, as well as import these backups to your <var 08 E4E94C01 ((hardware)) ((system)) /var>, thereby allowing you to easily carry over your preferences to a different play environment.
 
-It is strongly recommended that you save your data locally before attempting a backup to the servers.<var 08 E4E94F64 (()) (( This can be done manually or via the CONFIG option found in the launcher.)) /var><tab><tab>","","","False","0x000003C2","",""
+It is strongly recommended that you save your data locally before attempting a backup or download.<var 08 E4E94C01 (( In addition to manually backing up your data, please select the CONFIG option found in the launcher and use the Backup Tool.)) (()) /var><tab><tab>","","","True","0x000003C2","",""
 "","I understand.<tab><tab>","","","True","0x000003C3","",""
 "","Proceed<tab><tab>","","","False","0x000003C4","",""
 "","Return<tab><tab>","","","False","0x000003C5","",""
@@ -1267,7 +1269,8 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 "","Unable to visit other Worlds at this time. Please wait before attempting another transfer.<tab><tab>","","","False","0x00000454","",""
 "","To visit other Worlds with this character, you must first select a different name using the Change Name subcommand.<tab><tab>","","","False","0x00000455","",""
 "","To visit other Worlds with this character, you must first select a different retainer name using the Change Retainer Name subcommand.<tab><tab>","Чтобы посещать другие миры этим персонажем, необходимо сначала сменить имя слуги, используя подкоманду «Сменить имя retainer'а».<tab><tab>","","False","0x00000456","",""
-"","Character was logged out or disconnected mid-duty. Unable to process <var 08 E1E80201 ((Return to Home World)) ((World Visit)) /var> request.<tab><tab>","","","True","0x00000457","",""
+"","Character was logged out or disconnected mid-duty. Unable to process <var 08 E1E80201 ((Return to Home World)) ((World Visit)) /var> request.
+You must log in before a new request can be processed.<tab><tab>","","","True","0x00000457","",""
 "","Character has not completed the game's opening event. Unable to submit World Visit request.<tab><tab>","","","False","0x00000458","",""
 "","Character is currently imprisoned in the Mordion Gaol. <var 08 E1E80201 ((Return to Home World)) ((World Visit)) /var> request denied.<tab><tab>","","","True","0x00000459","",""
 "","World Visit system is temporarily unavailable.<tab><tab>","","","False","0x0000045A","",""
@@ -1320,8 +1323,10 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 "","Cancel<tab><tab>","","","False","0x00000487","",""
 "","<tab><tab>","","","True","0x00000488","",""
 "","Close<tab><tab>","","","False","0x00000489","",""
-"","Select the data center and World you wish to visit.<tab><tab>","","","False","0x0000048A","",""
-"","Returning to Home Data Center and Home World.<tab><tab>","","","False","0x0000048B","",""
+"","Select the data center and World you wish to visit.
+Estimated Travel Time: <var 08 E3E8023D ((Less than 1 minute)) ((<var 08 E3E802F2012C ((Less than 5 minutes)) ((<var 08 E3E802F20258 ((Less than 10 minutes)) ((<var 08 E3E802F204B0 ((Less than 20 minutes)) ((Unknown. Servers are currently congested.)) /var>)) /var>)) /var>)) /var><tab><tab>","","","True","0x0000048A","",""
+"","Returning to Home Data Center and Home World.
+Estimated Travel Time: <var 08 E3E8023D ((Less than 1 minute)) ((<var 08 E3E802F2012C ((Less than 5 minutes)) ((<var 08 E3E802F20258 ((Less than 10 minutes)) ((<var 08 E3E802F204B0 ((Less than 20 minutes)) ((Unknown. Servers are currently congested.)) /var>)) /var>)) /var>)) /var><tab><tab>","","","True","0x0000048B","",""
 "","DATA CENTER<tab><tab>","","","True","0x0000048C","",""
 "","WORLD<tab><tab>","","","True","0x0000048D","",""
 "","Confirm<tab><tab>","","","False","0x0000048E","",""
@@ -1329,17 +1334,18 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 "","❖<var 29 EA02 /var><tab><tab>","","","True","0x00000490","",""
 "","Retrieving World data...<tab><tab>","","","False","0x00000491","",""
 "","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> will now be transported to <var 29 EA05 /var> in the <var 29 EA04 /var> data center.
+Estimated Travel Time: <var 08 E3E8023D ((Less than 1 minute)) ((<var 08 E3E802F2012C ((Less than 5 minutes)) ((<var 08 E3E802F20258 ((Less than 10 minutes)) ((<var 08 E3E802F204B0 ((Less than 20 minutes)) ((Unknown. Servers are currently congested.)) /var>)) /var>)) /var>)) /var>
 
 <var 48 F20237 /var><var 49 F20238 /var>Please note the following:
 ・This process may take several minutes to complete.
 ・You will be unable to cancel this process while it is underway.
 ・You will be unable to log in with a different character until this process has been completed.
 
-※Travel times may take longer during periods of server congestion.<var 49 01 /var><var 48 01 /var><tab><tab>","","","False","0x00000492","",""
+※Travel times may take longer during periods of server congestion.<var 49 01 /var><var 48 01 /var><tab><tab>","","","True","0x00000492","",""
 "","Proceed<tab><tab>","","","False","0x00000493","",""
 "","Previous Step<tab><tab>","","","False","0x00000494","",""
 "","Your character is traveling between data centers. Please wait until they have reached their destination.
-※Travel times may take longer during periods of server congestion.<tab><tab>","","","False","0x00000495","",""
+Estimated Travel Time: <var 08 E3E8023D ((Less than 1 minute)) ((<var 08 E3E802F2012C ((Less than 5 minutes)) ((<var 08 E3E802F20258 ((Less than 10 minutes)) ((<var 08 E3E802F204B0 ((Less than 20 minutes)) ((Unknown. Servers are currently congested.)) /var>)) /var>)) /var>)) /var><tab><tab>","","","True","0x00000495","",""
 "","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> has arrived safely on <var 29 EA05 /var> in the <var 29 EA04 /var> data center!<tab><tab>","","","False","0x00000496","",""
 "","This character is currently visiting the <var 29 EA02 /var> data center.<tab><tab>","","","False","0x00000497","",""
 "","A name change is required to log in with this character. Please return to your Home World to change your name.<tab><tab>","","","True","0x00000498","",""
@@ -1359,13 +1365,12 @@ After changing names, logging in will place your character at the aetheryte of y
 "","Select World<tab><tab>","","","False","0x000004A5","",""
 "","Proceed<tab><tab>","","","False","0x000004A6","",""
 "","<var 29 EA02 /var><var 12 59 /var><var 29 EA03 /var> will now be returned to Home World <var 29 EA05 /var> in the <var 29 EA04 /var> data center.
+Estimated Travel Time: <var 08 E3E8023D ((Less than 1 minute)) ((<var 08 E3E802F2012C ((Less than 5 minutes)) ((<var 08 E3E802F20258 ((Less than 10 minutes)) ((<var 08 E3E802F204B0 ((Less than 20 minutes)) ((Unknown. Servers are currently congested.)) /var>)) /var>)) /var>)) /var>
 
 <var 48 F20237 /var><var 49 F20238 /var>Please note the following:
 ・This process may take several minutes to complete.
 ・You will be unable to cancel this process while it is underway.
-・You will be unable to log in with a different character until this process has been completed.
-
-※Travel times may take longer during periods of server congestion.<var 49 01 /var><var 48 01 /var><tab><tab>","","","False","0x000004A7","",""
+・You will be unable to log in with a different character until this process has been completed.<var 49 01 /var><var 48 01 /var><tab><tab>","","","True","0x000004A7","",""
 "","While visiting other data centers, the display of character information will be simplified.<tab><tab>","","","True","0x000004A8","",""
 "","<tab><tab>","","","True","0x000004A9","",""
 "","<tab><tab>","","","True","0x000004AA","",""
@@ -1389,7 +1394,8 @@ After changing names, logging in will place your character at the aetheryte of y
 [<var 20 E802 /var>])) (()) /var><tab><tab>","","","True","0x000004B9","",""
 "","Unable to <var 08 E1E80301 ((return to Home World)) ((visit to another data center)) /var>. <var 08 E1E80201 ((
 [<var 20 E802 /var>])) (()) /var><tab><tab>","","","True","0x000004BA","",""
-"","Character was logged out or disconnected mid-duty. Unable to process <var 08 E1E80201 ((Return to Home World)) ((Data Center Visit)) /var> request.<tab><tab>","","","True","0x000004BB","",""
+"","Character was logged out or disconnected mid-duty. Unable to process <var 08 E1E80201 ((Return to Home World)) ((Data Center Visit)) /var> request.
+You must log in before a new request can be processed.<tab><tab>","","","True","0x000004BB","",""
 "","Unable to proceed with Data Center Visit. You cannot have any more characters on <var 29 EA02 /var>.<tab><tab>","","","False","0x000004BC","",""
 "","You cannot submit a Data Center Visit request while outside of your Home Data Center.<tab><tab>","","","False","0x000004BD","",""
 "","The World you have selected for your Return to Home World request is not this character's Home World.<tab><tab>","","","True","0x000004BE","",""
@@ -1421,12 +1427,19 @@ From the Data Center Selection screen, please select any World in your desired r
 "","You have already reached the maximum number of characters allowed for this service account in the selected region.
 At least one unused character slot is required in your destination region when using the Data Center Travel system.<tab><tab>","","","True","0x000004D3","",""
 "","The selected character has yet to log out from a previous play session. Please wait and try accessing the subcommand menu again.<tab><tab>","","","True","0x000004D4","",""
-"","<tab><tab>","","","True","0x000004D5","",""
-"","<tab><tab>","","","True","0x000004D6","",""
-"","<tab><tab>","","","True","0x000004D7","",""
-"","<tab><tab>","","","True","0x000004D8","",""
-"","<tab><tab>","","","True","0x000004D9","",""
-"","<tab><tab>","","","True","0x000004DA","",""
+"","The character you last logged out with in this play environment could not be found on the current data center.
+Please connect to another data center from the Data Center Selection screen.<tab><tab>","","","True","0x000004D5","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>This World is experiencing congestion. Visiting characters cannot log in at this time, and you will be unable to return to your duty in progress.<var 49 01 /var><var 48 01 /var>
+By abandoning the duty, you may return to your Home World.
+Abandon duty?<tab><tab>","","","True","0x000004D6","",""
+"","Preparing to abandon duty.
+Please wait for the request to be processed.<tab><tab>","","","True","0x000004D7","",""
+"","Abandoning duty.
+<var 48 F201FA /var><var 49 F201FB /var>It can take up to 5 minutes for the request to be processed.<var 49 01 /var><var 48 01 /var>
+Please wait before traveling to another World.<tab><tab>","","","True","0x000004D8","",""
+"","The duty has not yet been abandoned.
+Please wait a moment and try again.<tab><tab>","","","True","0x000004D9","",""
+"","I understand.<tab><tab>","","","True","0x000004DA","",""
 "","<tab><tab>","","","True","0x000004DB","",""
 "","<tab><tab>","","","True","0x000004DC","",""
 "","<tab><tab>","","","True","0x000004DD","",""
@@ -1434,7 +1447,7 @@ At least one unused character slot is required in your destination region when u
 "","<tab><tab>","","","True","0x000004DF","",""
 "","<tab><tab>","","","True","0x000004E0","",""
 "","<tab><tab>","","","True","0x000004E1","",""
-"","<tab><tab>","","","True","0x000004E2","",""
+"","Please note that Worlds on the Cloud Data Center will be shut down once the Cloud Data Center stress test has concluded. All character and retainer data on these Worlds will be deleted.<tab><tab>","","","True","0x000004E2","",""
 "","<tab><tab>","","","True","0x000004E3","",""
 "","<tab><tab>","","","True","0x000004E4","",""
 "","<tab><tab>","","","True","0x000004E5","",""
@@ -2199,7 +2212,7 @@ At least one unused character slot is required in your destination region when u
 "","A Realm Reborn Demo and Title<tab><tab>","","","True","0x000007D8","",""
 "","BACK<tab><tab>","","","True","0x000007D9","",""
 "","Character Selection<tab><tab>","","","True","0x000007DA","",""
-"","MOVIES & TITLE<tab><tab>","","","True","0x000007DB","",""
+"","MOVIES & TITLES<tab><tab>","","","True","0x000007DB","",""
 "","Heavensward Demo and Title<tab><tab>","","","True","0x000007DC","",""
 "","Stormblood Demo and Title<tab><tab>","","","True","0x000007DD","",""
 "","Shadowbringers Demo and Title<tab><tab>","","","True","0x000007DE","",""
@@ -2329,7 +2342,7 @@ At least one unused character slot is required in your destination region when u
 "","<tab><tab>","","","True","0x0000085A","",""
 "","<tab><tab>","","","True","0x0000085B","",""
 "","Character Data Import<tab><tab>","","","True","0x0000085C","",""
-"","Character data has been found in your FINAL FANTASY XIV folder. Select the data you wish to import.<tab><tab>","","","False","0x0000085D","",""
+"","Character data has been found. Select the data you wish to import.<tab><tab>","","","True","0x0000085D","",""
 "","Date<tab><tab>","","","False","0x0000085E","",""
 "","Slot Number<tab><tab>","","","False","0x0000085F","",""
 "","Clan/Gender<tab><tab>","","","False","0x00000860","",""
@@ -2384,7 +2397,7 @@ Could not load.<tab><tab>","","","False","0x00000883","",""
 "","Videos<tab><tab>","","","True","0x0000088E","",""
 "","A Realm Reborn<tab><tab>","","","False","0x0000088F","",""
 "","Heavensward<tab><tab>","","","False","0x00000890","",""
-"","<tab><tab>","","","True","0x00000891","",""
+"","Stormblood<tab><tab>","","","True","0x00000891","",""
 "","<tab><tab>","","","True","0x00000892","",""
 "","<tab><tab>","","","True","0x00000893","",""
 "","<tab><tab>","","","True","0x00000894","",""

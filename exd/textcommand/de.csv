@@ -3468,8 +3468,22 @@ Bei fehlendem Typ wird zwischen „alle“ und „aus“ gewechselt.<tab>/kampfe
 　　<var 48 F201FA /var><var 49 F201FB /var>ScenarioGuide<var 49 01 /var><var 48 01 /var>
 　Compressed Aether
 　　<var 48 F201FA /var><var 49 F201FB /var>CompressedAether<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Progress Gauge
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictProgress<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccprog<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Ally Info
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictAlly<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccally<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Enemy Info
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictEnemy<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccenemy<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Battle Log
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictLog<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>cclog<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Map
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictMap<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccmap<var 49 01 /var><var 48 01 /var>
 　Battle High Gauge
 　　<var 48 F201FA /var><var 49 F201FB /var>BattleHighGauge<var 49 01 /var><var 48 01 /var>
+　Frontline Score Info
+　　<var 48 F201FA /var><var 49 F201FB /var>FrontlineScore<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>flscore<var 49 01 /var><var 48 01 /var>
+　Rival Wings Gauges
+　　<var 48 F201FA /var><var 49 F201FB /var>RWGauge<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwg<var 49 01 /var><var 48 01 /var>
 　Rival Wings Alliance List
 　　<var 48 F201FA /var><var 49 F201FB /var>RWAlliance<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwa<var 49 01 /var><var 48 01 /var>
 　Rival Wings Station Info
@@ -3483,17 +3497,17 @@ Bei fehlendem Typ wird zwischen „alle“ und „aus“ gewechselt.<tab>/kampfe
 
 Toggle between on/off when no subcommand is specified.<tab><tab><tab>/hud<tab>","/hud
 VERWENDUNG:
-/hud ""[Element]"" [Unterbefehl]
+/hud ""„[Element]""“ [Unterbefehl]
 → Blendet das angegebene Element ein/aus.
 >>HUD-Elemente:
-Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kampfgeist, Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld)
+Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld)
 >>Unterbefehle:
   <var 48 F201FA /var><var 49 F201FB /var>ein<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>on<var 49 01 /var><var 48 01 /var>)  Element anzeigen
   <var 48 F201FA /var><var 49 F201FB /var>aus<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>off<var 49 01 /var><var 48 01 /var>)  Element ausblenden
 Bei fehlendem Unterbefehl wird die Einstellung gewechselt.
 
 >>Beispiel:
-/hud ""Details zum Ziel""
+/hud ""„Details zum Ziel""“
 Blendet die Detailinformation zum gerade anvisierten Charakter bzw. Objekt ein/aus.<tab><tab><tab>/hud<tab>","","False","0x0000013A","",""
 "","USAGE:
 　/hotbar [subcommand]
@@ -7562,6 +7576,76 @@ VERWENDUNG:
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/heldenhafterauftritt<tab>/held<tab>/adventoflight<tab>/advent","","False","0x00000292","",""
 "","USAGE:
+　/jumpforjoy1, /jj1 [subcommand]
+
+→Jump happily for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy1<tab>/jj1","/freudensprung1, /jumpforjoy1
+VERWENDUNG:
+/freudensprung1 [Unterbefehl]
+→ Du führst einen niedlichen Freudensprung aus.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/freudensprung1<tab><tab>/jumpforjoy1<tab>/jj1","","False","0x00000293","",""
+"","USAGE:
+　/jumpforjoy2, /jj2 [subcommand]
+
+→Jump merrily for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy2<tab>/jj2","/freudensprung2, /jumpforjoy2
+VERWENDUNG:
+/freudensprung2 [Unterbefehl]
+→ Du führst einen wohlwollenden Freudensprung aus.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/freudensprung2<tab><tab>/jumpforjoy2<tab>/jj2","","False","0x00000294","",""
+"","USAGE:
+　/jumpforjoy3, /jj3 [subcommand]
+
+→Jump enthusiastically for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy3<tab>/jj3","/freudensprung3, /jumpforjoy3
+VERWENDUNG:
+/freudensprung3 [Unterbefehl]
+→ Du führst einen kraftvollen Freudensprung aus.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/freudensprung3<tab><tab>/jumpforjoy3<tab>/jj3","","False","0x00000295","",""
+"","USAGE:
+　/jumpforjoy4, /jj4 [subcommand]
+
+→Jump cheerfully for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy4<tab>/jj4","/freudensprung4, /jumpforjoy4
+VERWENDUNG:
+/freudensprung4 [Unterbefehl]
+→ Du führst einen ausgedehnten Freudensprung aus.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/freudensprung4<tab><tab>/jumpforjoy4<tab>/jj4","","False","0x00000296","",""
+"","USAGE:
+　/jumpforjoy5, /jj5 [subcommand]
+
+→Jump for joy like a sabotender.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy5<tab>/jj5","/freudensprung5, /jumpforjoy5
+VERWENDUNG:
+/freudensprung5 [Unterbefehl]
+→ Du führst einen stacheligen Freudensprung aus.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/freudensprung5<tab><tab>/jumpforjoy5<tab>/jj5","","False","0x00000297","",""
+"","USAGE:
 　/handtoheart [subcommand]
 
 →Gently place your hand on your heart.
@@ -7645,4 +7729,64 @@ VERWENDUNG:
 → Du vergleichst mit deiner Literatur.
 >>Unterbefehl:
   <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/literaturvergleich<tab>/literatur<tab>/reference<tab>","","False","0x0000029F","",""
+"","USAGE:
+　/eatchicken  [subcommand]
+
+→Snack on a piece of fried chicken.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatchicken<tab>","/backhähnchen, /hähnchenessen, /eatchicken
+VERWENDUNG:
+/backhähnchen [Unterbefehl]
+→ Du isst ein Stück Backhähnchen.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/backhähnchen<tab>/hähnchenessen<tab>/eatchicken<tab>","","False","0x000002A0","",""
+"","ALIASES:
+　/sundering, /exodus
+USAGE:
+　/sundering [subcommand]
+
+→Perform Exodus and sunder the world.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/sundering<tab>/exodus","/exodus, /sundering
+VERWENDUNG:
+/exodus [Unterbefehl]
+→ Du entfesselst Exodus.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/exodus<tab><tab>/sundering<tab>/exodus","","False","0x000002A1","",""
+"","USAGE:
+　/slump [subcommand]
+
+→Hang your head in defeat.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/slump<tab>","/kopfhängen, /slump
+VERWENDUNG:
+/kopfhängen [Unterbefehl]
+→ Du lässt betrübt den Kopf hängen.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/kopfhängen<tab><tab>/slump<tab>","","False","0x000002A2","",""
+"","ALIASES:
+　/loveheart, /heart
+USAGE:
+　/loveheart [subcommand]
+
+→Make a heart shape with your hands.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/loveheart<tab>/heart","/herzmachen, /loveheart, /heart
+VERWENDUNG:
+/herzmachen [Unterbefehl]
+→ Du formst ein Herz mit deinen Händen.
+>>Unterbefehl:
+  <var 48 F201FA /var><var 49 F201FB /var>bw<var 49 01 /var><var 48 01 /var> (<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.<tab>/herzmachen<tab><tab>/loveheart<tab>/heart","","False","0x000002A3","",""
 

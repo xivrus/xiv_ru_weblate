@@ -3563,8 +3563,22 @@ off
 　　<var 48 F201FA /var><var 49 F201FB /var>ScenarioGuide<var 49 01 /var><var 48 01 /var>
 　Compressed Aether
 　　<var 48 F201FA /var><var 49 F201FB /var>CompressedAether<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Progress Gauge
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictProgress<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccprog<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Ally Info
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictAlly<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccally<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Enemy Info
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictEnemy<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccenemy<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Battle Log
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictLog<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>cclog<var 49 01 /var><var 48 01 /var>
+　Crystalline Conflict Map
+　　<var 48 F201FA /var><var 49 F201FB /var>CConflictMap<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>ccmap<var 49 01 /var><var 48 01 /var>
 　Battle High Gauge
 　　<var 48 F201FA /var><var 49 F201FB /var>BattleHighGauge<var 49 01 /var><var 48 01 /var>
+　Frontline Score Info
+　　<var 48 F201FA /var><var 49 F201FB /var>FrontlineScore<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>flscore<var 49 01 /var><var 48 01 /var>
+　Rival Wings Gauges
+　　<var 48 F201FA /var><var 49 F201FB /var>RWGauge<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwg<var 49 01 /var><var 48 01 /var>
 　Rival Wings Alliance List
 　　<var 48 F201FA /var><var 49 F201FB /var>RWAlliance<var 49 01 /var><var 48 01 /var>, <var 48 F201FA /var><var 49 F201FB /var>rwa<var 49 01 /var><var 48 01 /var>
 　Rival Wings Station Info
@@ -3609,7 +3623,14 @@ EXホットバー(HotbarEx)
 クロスホットバー(Crosshotbar)
 メインクエストガイド(ScenarioGuide)
 高圧エーテル(CompressedAether)
+クリスタルコンフリクト：プログレスゲージ(CConflict:Progress)
+クリスタルコンフリクト：味方チーム情報(CConflict:Ally)
+クリスタルコンフリクト：敵チーム情報(CConflict:Enemy)
+クリスタルコンフリクト：バトルログ(CConflict:Log)
+クリスタルコンフリクト：マップ(CConflict:Map)
 フロントライン：戦意ゲージ(Frontline:BattleGauge)
+フロントライン：スコア情報(Frontline:Score)
+ライバルウィングズ：タワー・コアゲージ(RivalWings:Gauge)
 ライバルウィングズ：アライアンスリスト(RivalWings:Alliance)
 ライバルウィングズ：ステーション情報(RivalWings:Station)
 ライバルウィングズ：ゴブリン・マーシナリー情報(RivalWings:Mercenary)
@@ -7882,6 +7903,81 @@ motion
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/adventoflight<tab>/advent","","False","0x00000292","",""
 "","USAGE:
+　/jumpforjoy1, /jj1 [subcommand]
+
+→Jump happily for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy1<tab>/jj1","/jumpforjoy1(/jj1) サブコマンド
+かわいらしくハッピージャンプする。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/jumpforjoy1<tab>/jj1","","False","0x00000293","",""
+"","USAGE:
+　/jumpforjoy2, /jj2 [subcommand]
+
+→Jump merrily for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy2<tab>/jj2","/jumpforjoy2(/jj2) サブコマンド
+嬉しそうにハッピージャンプする。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/jumpforjoy2<tab>/jj2","","False","0x00000294","",""
+"","USAGE:
+　/jumpforjoy3, /jj3 [subcommand]
+
+→Jump enthusiastically for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy3<tab>/jj3","/jumpforjoy3(/jj3) サブコマンド
+力強くハッピージャンプする。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/jumpforjoy3<tab>/jj3","","False","0x00000295","",""
+"","USAGE:
+　/jumpforjoy4, /jj4 [subcommand]
+
+→Jump cheerfully for joy.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy4<tab>/jj4","/jumpforjoy4(/jj4) サブコマンド
+のびのびとハッピージャンプする。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/jumpforjoy4<tab>/jj4","","False","0x00000296","",""
+"","USAGE:
+　/jumpforjoy5, /jj5 [subcommand]
+
+→Jump for joy like a sabotender.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/jumpforjoy5<tab>/jj5","/jumpforjoy5(/jj5) サブコマンド
+サボテンダー風にハッピージャンプする。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/jumpforjoy5<tab>/jj5","","False","0x00000297","",""
+"","USAGE:
 　/handtoheart [subcommand]
 
 →Gently place your hand on your heart.
@@ -7971,4 +8067,68 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。<tab><tab><tab>/reference<tab>","","False","0x0000029F","",""
+"","USAGE:
+　/eatchicken  [subcommand]
+
+→Snack on a piece of fried chicken.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/eatchicken<tab>","/eatchicken サブコマンド
+フライドチキンを食べる。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/eatchicken<tab>","","False","0x000002A0","",""
+"","ALIASES:
+　/sundering, /exodus
+USAGE:
+　/sundering [subcommand]
+
+→Perform Exodus and sunder the world.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/sundering<tab>/exodus","/sundering(/exodus) サブコマンド
+エクソダスを放つ。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/sundering<tab>/exodus","","False","0x000002A1","",""
+"","USAGE:
+　/slump [subcommand]
+
+→Hang your head in defeat.
+
+>>Subcommands:
+ 　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/slump<tab>","/slump サブコマンド
+うなだれる。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/slump<tab>","","False","0x000002A2","",""
+"","ALIASES:
+　/loveheart, /heart
+USAGE:
+　/loveheart [subcommand]
+
+→Make a heart shape with your hands.
+
+>>Subcommands:
+　<var 48 F201FA /var><var 49 F201FB /var>motion<var 49 01 /var><var 48 01 /var>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.<tab><tab><tab>/loveheart<tab>/heart","/loveheart(/heart) サブコマンド
+ハートポーズをする。
+>>サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。<tab><tab><tab>/loveheart<tab>/heart","","False","0x000002A3","",""
 
