@@ -229,13 +229,20 @@ try {
                 $lang = $CurrentCsv.BaseName
                 $query = $new_csv_rows[$row_count].context
 
-				try {
-					$reply = Invoke-RestMethod -Method Get -Headers $headers `
-						-Uri "https://$base_uri/api/translations/ffxiv-translation/$component/$lang/units/?q=$query"
-					$weblate_link = $reply.results[0].web_url
-				}
-				catch {
-					$weblate_link = 'Не удалось получить ссылку'
+				# Since a certain patch CompleteJournal is now auto-generated on SE's side,
+				# which leads to all of the file's strings be moved, which in turn leads
+				# to thousands of useless changes and slow API calls.
+				if ($component -ne 'completejournal') {
+					try {
+						$reply = Invoke-RestMethod -Method Get -Headers $headers `
+							-Uri "https://$base_uri/api/translations/ffxiv-translation/$component/$lang/units/?q=$query"
+						$weblate_link = $reply.results[0].web_url
+					}
+					catch {
+						$weblate_link = 'Не удалось получить ссылку'
+					}
+				} else {
+					$weblate_link = ''
 				}
 
                 if ($LanguageCode -eq 'en') {
