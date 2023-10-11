@@ -5850,10 +5850,10 @@ Keyboard: <var 08 E4EA02EB01 ((Not Set
 "","Toggle Camera Angle:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Cycle Tabs =Forward)) ((<var 29 EA02 /var>)) /var>
-<var 08 E4E94C01 ((Gamepad)) ((Controller)) /var>: <var 1E 07 /var> <var 08 E4E96B64 ((D-pad)) ((Directional Buttons)) /var>","1725_Toggle Camera Angle:
-Keyboard: <var 08 E4EA02EB01 ((Not Set
- Default: Cycle Tabs =Forward)) ((<var 29 EA02 /var>)) /var>
-<var 08 E4E94C01 ((Gamepad)) ((Controller)) /var>: <var 1E 07 /var> <var 08 E4E96B64 ((D-pad)) ((Directional Buttons)) /var>","","True","0x00001725","",""
+<var 08 E4E94C01 ((Gamepad)) ((Controller)) /var>: <var 1E 07 /var> <var 08 E4E96B64 ((D-pad)) ((Directional Buttons)) /var>","Переключение угла камеры:
+Клавиша: <var 08 E4EA02EB01 ((Не назначена
+ По умолчанию: Cycle Tabs =Forward)) ((<var 29 EA02 /var>)) /var>
+<var 08 E4E94C01 ((Геймпад)) ((Контроллер)) /var>: <var 1E 07 /var> <var 08 E4E96B64 ((Крестовина)) ((Кнопки направления)) /var>","","False","0x00001725","",""
 "","Reset Camera Angle:
 Keyboard: <var 08 E4EA02EB01 ((Not Set
  Default: Draw/Sheathe Weapon)) ((<var 29 EA02 /var>)) /var>
@@ -5972,8 +5972,8 @@ Keyboard: <var 08 E4EA02EB01 ((Not Set
 "","Select Action","Выбор действия","","False","0x00001762","",""
 "","※Exit group pose to apply battle action changes.","※Выйдите из групповой позы, чтобы применить изменения боевых действий.","","False","0x00001763","",""
 "","※Cannot add status when
-　target motion is disabled.","1764_※Cannot add status when
-　target motion is disabled.","","True","0x00001764","",""
+　target motion is disabled.","※Нельзя добавить статус, когда
+　движение цели остановлено.","","False","0x00001764","",""
 "","Motion Settings","Настройки движения","","False","0x00001765","",""
 "","Movement","Движение","","False","0x00001766","",""
 "","※Movement not available
@@ -7699,20 +7699,20 @@ Waymarks can only be saved and loaded during certain duties.","Метки мож
 "","Display only cross hotbar.","Показывать только крестовой хотбар.","","False","0x00001EA7","",""
 "","Display only pet hotbar.","Показывать только хотбар питомца.","","False","0x00001EA8","",""
 "","Automatically replace hotbar 1 with pet hotbar when mounted.","Заменять хотбар 1 на хотбар питомца, когда вы на транспорте.","","False","0x00001EA9","",""
-"","Customize<var 08 E4E94C01 (( LB)) ((<var 08 E4E94F64 (( L1)) (( LB)) /var>)) /var> (<var 12 0D /var>)","1EAA_Customize<var 08 E4E94C01 (( LB)) ((<var 08 E4E94F64 (( L1)) (( LB)) /var>)) /var> (<var 12 0D /var>)","","True","0x00001EAA","",""
-"","Customize<var 08 E4E94C01 (( LT)) ((<var 08 E4E94F64 (( L2)) (( LT)) /var>)) /var> (<var 12 0F /var>)","1EAB_Customize<var 08 E4E94C01 (( LT)) ((<var 08 E4E94F64 (( L2)) (( LT)) /var>)) /var> (<var 12 0F /var>)","","True","0x00001EAB","",""
-"","Customize<var 08 E4E94C01 (( Left Thumb-click)) ((<var 08 E4E94F64 (( L3)) (( Left Thumb-click)) /var>)) /var> (<var 12 11 /var>)","1EAC_Customize<var 08 E4E94C01 (( Left Thumb-click)) ((<var 08 E4E94F64 (( L3)) (( Left Thumb-click)) /var>)) /var> (<var 12 11 /var>)","","True","0x00001EAC","",""
-"","Customize<var 08 E4E94C01 (( RB)) ((<var 08 E4E94F64 (( R1)) (( RB)) /var>)) /var> (<var 12 0E /var>)","1EAD_Customize<var 08 E4E94C01 (( RB)) ((<var 08 E4E94F64 (( R1)) (( RB)) /var>)) /var> (<var 12 0E /var>)","","True","0x00001EAD","",""
-"","Customize<var 08 E4E94C01 (( RT)) ((<var 08 E4E94F64 (( R2)) (( RT)) /var>)) /var> (<var 12 10 /var>)","1EAE_Customize<var 08 E4E94C01 (( RT)) ((<var 08 E4E94F64 (( R2)) (( RT)) /var>)) /var> (<var 12 10 /var>)","","True","0x00001EAE","",""
-"","Customize<var 08 E4E94C01 (( Right Thumb-click)) ((<var 08 E4E94F64 (( R3)) (( Right Thumb-click)) /var>)) /var> (<var 12 12 /var>)","1EAF_Customize<var 08 E4E94C01 (( Right Thumb-click)) ((<var 08 E4E94F64 (( R3)) (( Right Thumb-click)) /var>)) /var> (<var 12 12 /var>)","","True","0x00001EAF","",""
+"","Customize<var 08 E4E94C01 (( LB)) ((<var 08 E4E94F64 (( L1)) (( LB)) /var>)) /var> (<var 12 0D /var>)","Кастомизировать<var 08 E4E94C01 (( LB)) ((<var 08 E4E94F64 (( L1)) (( LB)) /var>)) /var> (<var 12 0D /var>)","","False","0x00001EAA","",""
+"","Customize<var 08 E4E94C01 (( LT)) ((<var 08 E4E94F64 (( L2)) (( LT)) /var>)) /var> (<var 12 0F /var>)","Кастомизировать<var 08 E4E94C01 (( LT)) ((<var 08 E4E94F64 (( L2)) (( LT)) /var>)) /var> (<var 12 0F /var>)","","False","0x00001EAB","",""
+"","Customize<var 08 E4E94C01 (( Left Thumb-click)) ((<var 08 E4E94F64 (( L3)) (( Left Thumb-click)) /var>)) /var> (<var 12 11 /var>)","Кастомизировать<var 08 E4E94C01 (( нажатие левого мини-джойстика)) ((<var 08 E4E94F64 (( L3)) (( нажатие левого мини-джойстика)) /var>)) /var> (<var 12 11 /var>)","","False","0x00001EAC","",""
+"","Customize<var 08 E4E94C01 (( RB)) ((<var 08 E4E94F64 (( R1)) (( RB)) /var>)) /var> (<var 12 0E /var>)","Кастомизировать<var 08 E4E94C01 (( RB)) ((<var 08 E4E94F64 (( R1)) (( RB)) /var>)) /var> (<var 12 0E /var>)","","False","0x00001EAD","",""
+"","Customize<var 08 E4E94C01 (( RT)) ((<var 08 E4E94F64 (( R2)) (( RT)) /var>)) /var> (<var 12 10 /var>)","Кастомизировать<var 08 E4E94C01 (( RT)) ((<var 08 E4E94F64 (( R2)) (( RT)) /var>)) /var> (<var 12 10 /var>)","","False","0x00001EAE","",""
+"","Customize<var 08 E4E94C01 (( Right Thumb-click)) ((<var 08 E4E94F64 (( R3)) (( Right Thumb-click)) /var>)) /var> (<var 12 12 /var>)","Кастомизировать<var 08 E4E94C01 (( нажатие правого мини-джойстика)) ((<var 08 E4E94F64 (( R3)) (( нажатие правого мини-джойстика)) /var>)) /var> (<var 12 12 /var>)","","False","0x00001EAF","",""
 "","Customize Left Stick (<var 12 15 /var>)","Кастомизировать левый <var 08 E1E80201 ((джойстик)) ((мини-джойстик)) /var> (<var 12 15 /var>)","","False","0x00001EB0","",""
 "","Customize Right Stick (<var 12 18 /var>)","Кастомизировать правый <var 08 E1E80201 ((джойстик)) ((мини-джойстик)) /var> (<var 12 18 /var>)","","False","0x00001EB1","",""
-"","Customize<var 08 E4E94C01 (( START)) ((<var 08 E4E94F64 (( OPTIONS)) (( Menu)) /var>)) /var> Button (<var 12 13 /var>)","1EB2_Customize<var 08 E4E94C01 (( START)) ((<var 08 E4E94F64 (( OPTIONS)) (( Menu)) /var>)) /var> Button (<var 12 13 /var>)","","True","0x00001EB2","",""
-"","Customize<var 08 E4E94C01 (( BACK)) ((<var 08 E4E94F64 (( Touch Pad)) (( View)) /var>)) /var> Button (<var 12 14 /var>)","1EB3_Customize<var 08 E4E94C01 (( BACK)) ((<var 08 E4E94F64 (( Touch Pad)) (( View)) /var>)) /var> Button (<var 12 14 /var>)","","True","0x00001EB3","",""
-"","Customize<var 08 E4E94C01 (( Y)) ((<var 08 E4E94F64 (( △)) (( Y)) /var>)) /var> Button (<var 12 0C /var>)","1EB4_Customize<var 08 E4E94C01 (( Y)) ((<var 08 E4E94F64 (( △)) (( Y)) /var>)) /var> Button (<var 12 0C /var>)","","True","0x00001EB4","",""
-"","Customize<var 08 E4E94C01 (( B)) ((<var 08 E4E94F64 (( ◯)) (( B)) /var>)) /var> Button (<var 12 09 /var>)","1EB5_Customize<var 08 E4E94C01 (( B)) ((<var 08 E4E94F64 (( ◯)) (( B)) /var>)) /var> Button (<var 12 09 /var>)","","True","0x00001EB5","",""
-"","Customize<var 08 E4E94C01 (( A)) ((<var 08 E4E94F64 (( ×)) (( A)) /var>)) /var> Button (<var 12 0A /var>)","1EB6_Customize<var 08 E4E94C01 (( A)) ((<var 08 E4E94F64 (( ×)) (( A)) /var>)) /var> Button (<var 12 0A /var>)","","True","0x00001EB6","",""
-"","Customize<var 08 E4E94C01 (( X)) ((<var 08 E4E94F64 (( □)) (( X)) /var>)) /var> Button (<var 12 0B /var>)","1EB7_Customize<var 08 E4E94C01 (( X)) ((<var 08 E4E94F64 (( □)) (( X)) /var>)) /var> Button (<var 12 0B /var>)","","True","0x00001EB7","",""
+"","Customize<var 08 E4E94C01 (( START)) ((<var 08 E4E94F64 (( OPTIONS)) (( Menu)) /var>)) /var> Button (<var 12 13 /var>)","Кастомизировать кнопку<var 08 E4E94C01 (( START)) ((<var 08 E4E94F64 (( OPTIONS)) (( Menu)) /var>)) /var> (<var 12 13 /var>)","","False","0x00001EB2","",""
+"","Customize<var 08 E4E94C01 (( BACK)) ((<var 08 E4E94F64 (( Touch Pad)) (( View)) /var>)) /var> Button (<var 12 14 /var>)","Кастомизировать кнопку<var 08 E4E94C01 (( BACK)) ((<var 08 E4E94F64 (( Touch Pad)) (( View)) /var>)) /var> (<var 12 14 /var>)","","False","0x00001EB3","",""
+"","Customize<var 08 E4E94C01 (( Y)) ((<var 08 E4E94F64 (( △)) (( Y)) /var>)) /var> Button (<var 12 0C /var>)","Кастомизировать кнопку<var 08 E4E94C01 (( Y)) ((<var 08 E4E94F64 (( △)) (( Y)) /var>)) /var> (<var 12 0C /var>)","","False","0x00001EB4","",""
+"","Customize<var 08 E4E94C01 (( B)) ((<var 08 E4E94F64 (( ◯)) (( B)) /var>)) /var> Button (<var 12 09 /var>)","Кастомизировать кнопку<var 08 E4E94C01 (( B)) ((<var 08 E4E94F64 (( ◯)) (( B)) /var>)) /var> (<var 12 09 /var>)","","False","0x00001EB5","",""
+"","Customize<var 08 E4E94C01 (( A)) ((<var 08 E4E94F64 (( ×)) (( A)) /var>)) /var> Button (<var 12 0A /var>)","Кастомизировать кнопку<var 08 E4E94C01 (( A)) ((<var 08 E4E94F64 (( ×)) (( A)) /var>)) /var> (<var 12 0A /var>)","","False","0x00001EB6","",""
+"","Customize<var 08 E4E94C01 (( X)) ((<var 08 E4E94F64 (( □)) (( X)) /var>)) /var> Button (<var 12 0B /var>)","Кастомизировать кнопку<var 08 E4E94C01 (( X)) ((<var 08 E4E94F64 (( □)) (( X)) /var>)) /var> (<var 12 0B /var>)","","False","0x00001EB7","",""
 "","<var 09 E802 ((<var 12 4E /var>)) ((<var 12 60 /var>)) ((<var 12 4F /var>)) ((<var 12 50 /var>)) ((<var 12 51 /var>)) ((<var 12 52 /var>)) ((<var 12 6D /var>)) /var>","<var 09 E802 ((<var 12 4E /var>)) ((<var 12 60 /var>)) ((<var 12 4F /var>)) ((<var 12 50 /var>)) ((<var 12 51 /var>)) ((<var 12 52 /var>)) ((<var 12 6D /var>)) /var>","","False","0x00001EB8","",""
 "","<var 09 E802 (()) (()) (()) (()) (()) (()) (()) (()) /var>","<var 09 E802 (()) (()) (()) (()) (()) (()) (()) (()) /var>","","False","0x00001EB9","",""
 "","Cross-world Linkshell [1]","Межмировой линкшелл [1]","","False","0x00001EBA","",""
@@ -7801,8 +7801,8 @@ Waymarks can only be saved and loaded during certain duties.","Метки мож
 "","24-hour Format","24-часовой","","False","0x00001F13","",""
 "","12-hour Format","12-часовой","","False","0x00001F14","",""
 "","※Display will change in accordance with PvP duties.","※Отображение будет меняться в миссиях PvP.","","False","0x00001F15","",""
-"","Public Areas","1F16_Public Areas","","True","0x00001F16","",""
-"","Instances","1F17_Instances","","True","0x00001F17","",""
+"","Public Areas","Публичные области","","False","0x00001F16","",""
+"","Instances","Зоны","","False","0x00001F17","",""
 "","Remove dim effect from unequippable gear in the Armoury Chest.","Убрать в Оружейном сундуке эффект затемнения на недоступном снаряжении.","","False","0x00001F18","",""
 "","Store all newly obtained items in the last open inventory slot.","Класть все новые предметы в последнем доступном слоте инвентаря.","","False","0x00001F19","",""
 "","Subcommand Customization","Кастомизация подкоманд","","False","0x00001F1A","",""
@@ -7820,8 +7820,8 @@ Waymarks can only be saved and loaded during certain duties.","Метки мож
 "","Maximum","Максимальный","","False","0x00001F27","",""
 "","Large","Большой","","False","0x00001F28","",""
 "","Standard","Стандартный","","False","0x00001F29","",""
-"","Self/Party/Alliance","1F2A_Self/Party/Alliance","","True","0x00001F2A","",""
-"","Other Players","1F2B_Other Players","","True","0x00001F2B","",""
+"","Self/Party/Alliance","Свои/Группа/Альянс","","False","0x00001F2A","",""
+"","Other Players","Другие игроки","","False","0x00001F2B","",""
 "","Next to Cursor","Рядом с курсором","","False","0x00001F2C","",""
 "","Fixed (Reversed)","Фиксированная (Обратная)","","False","0x00001F2D","",""
 "","Fixed","Фиксированная","","False","0x00001F2E","",""
@@ -7905,7 +7905,7 @@ Waymarks can only be saved and loaded during certain duties.","Метки мож
 "","3","3","","False","0x00001F8E","",""
 "","2","2","","False","0x00001F8F","",""
 "","1","1","","False","0x00001F90","",""
-"","Crystalline Conflict (PvP)","1F91_Crystalline Conflict (PvP)","","True","0x00001F91","",""
+"","Crystalline Conflict (PvP)","Кристальная битва (PvP)","","False","0x00001F91","",""
 "","Display affiliated team on left side of Progress Gauge.","1F92_Display affiliated team on left side of Progress Gauge.","","True","0x00001F92","",""
 "","Display affiliated team on left side of map.","1F93_Display affiliated team on left side of map.","","True","0x00001F93","",""
 "","Display final countdown.","1F94_Display final countdown.","","True","0x00001F94","",""
