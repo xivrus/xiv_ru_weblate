@@ -7603,30 +7603,208 @@ Select “Display final countdown.” to show a countdown timer for the final te
 
 <var 48 F201FA /var><var 49 F201FB /var>■制限時間のカウントダウンを表示する■<var 49 01 /var><var 48 01 /var>
 試合残り時間10秒前からカウントダウンを表示します。","","False","0x000003D7","",""
-"","","","","False","0x000003D8","",""
-"","","","","False","0x000003D9","",""
-"","","","","False","0x000003DA","",""
-"","","","","False","0x000003DB","",""
-"","","","","False","0x000003DC","",""
-"","","","","False","0x000003DD","",""
-"","","","","False","0x000003DE","",""
-"","","","","False","0x000003DF","",""
-"","","","","False","0x000003E0","",""
-"","","","","False","0x000003E1","",""
-"","","","","False","0x000003E2","",""
-"","","","","False","0x000003E3","",""
-"","","","","False","0x000003E4","",""
-"","","","","False","0x000003E5","",""
-"","","","","False","0x000003E6","",""
-"","","","","False","0x000003E7","",""
-"","","","","False","0x000003E8","",""
-"","","","","False","0x000003E9","",""
-"","","","","False","0x000003EA","",""
-"","","","","False","0x000003EB","",""
-"","","","","False","0x000003EC","",""
-"","","","","False","0x000003ED","",""
-"","","","","False","0x000003EE","",""
-"","","","","False","0x000003EF","",""
+"","The Red Sands","レッド・サンズ","","False","0x000003D8","",""
+"","No effort was spared in reproducing the desert's deadly perils for this staging ground. Those bold souls that master both sun and sand will be the first to claim victory.","過酷な砂漠での戦闘を想定して幻影が投射されたステージ。
+天候や地面の変化を見逃さなければ、そのぶん勝利に近づくことでしょう。","","False","0x000003D9","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>■Shifting Sands■<var 49 01 /var><var 48 01 /var>
+Ride the shifting sands to travel swiftly to a specific location on the field.","<var 48 F201FA /var><var 49 F201FB /var>■流砂■<var 49 01 /var><var 48 01 /var>
+ステージ上を流れる「流砂」に乗ることで、
+特定の地点間を高速移動できます。","","False","0x000003DA","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>■Sandpits■<var 49 01 /var><var 48 01 /var>
+The crystal line intersects with these ringlike nests at checkpoints. Clearing any such checkpoint with the tactical crystal in tow will result in one of the following denizens emerging from within:
+
+・Red Sands Antlion
+The antlion will drag all players in range deep into the nest, rendering them immobile before erupting from the sands to deal massive damage.
+
+・Sabotender
+The sabotender will unleash 100,000 Needles upon all players in range. As the needles are split between affected players, the damage dealt to each player will change accordingly.
+
+・Acutender
+This rare and curious creature will unleash Therapeutic Needles upon all players in range, granting them a barrier effect. As the needles are split between affected players, the strength of the barrier granted to each player will change accordingly.","<var 48 F201FA /var><var 49 F201FB /var>■アントリオンの巣■<var 49 01 /var><var 48 01 /var>
+クリスタルライン上にある円形の広場のことです。
+巣の中にはチェックポイントが設置されており、
+タクティカルクリスタルがチェックポイントに到達すると、
+巣の中心から以下のモンスターがランダムで出現します。
+
+・レッドサンズ・アントリオン
+範囲内のプレイヤーを巣の中心部に引き寄せて拘束したのち、
+地中から飛び出して大ダメージを与えます。
+
+・サボテンダー
+「針十万本」を実行し、範囲内にいるプレイヤーにダメージを与えます。
+針十万本のダメージ量は、受けたプレイヤーの人数に応じて分割されます。
+
+・バリアテンダー
+ごくまれに出現する特殊なモンスターです。
+「鍼十万本」を実行し、範囲内にいるプレイヤーはバリア効果を得ます。
+バリアの効果量は、受けたプレイヤーの人数に応じて分割されます。","","False","0x000003DB","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>■Oasis■<var 49 01 /var><var 48 01 /var>
+The arena's oasis area grants players within a special effect that regenerates HP over time. The effect will remain for a time after exiting the oasis. ","<var 48 F201FA /var><var 49 F201FB /var>■オアシス■<var 49 01 /var><var 48 01 /var>
+ステージ上に存在する特殊なエリアで、
+プレイヤーが立ち入ると、ＨＰの継続回復効果を受けられます。
+この効果は、オアシスから離れたあとも一定時間継続します。","","False","0x000003DC","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>■Heat Waves■<var 49 01 /var><var 48 01 /var>
+Heat waves atop the Red Sands will deal damage over time to all competitors. However, relief can be found at sandpits, from which balming geysers will erupt. Players standing in one of the small circular indicators on the ground will be soothed by sandpearl shrouds, granting the following effects:
+・HP recovery.
+・A boost to the limit gauge.
+
+While the geyser is erupting, no creatures will emerge from the sandpit. Nevertheless, caution is advised, as the force of the geyser will deal damage to and knock back any who approach its center.","<var 48 F201FA /var><var 49 F201FB /var>■灼熱波■<var 49 01 /var><var 48 01 /var>
+「灼熱波」が発生すると、すべてのプレイヤーが継続ダメージを受けます。
+
+灼熱波の発生中はアントリオンの巣から間欠泉が噴き出し、
+巣内に無数の「砂漠の光」が降り注ぎます。
+砂漠の光の落下点には小さな円形の予兆が表示され、
+この範囲に入ることで、以下の効果を受けられます。
+
+・自身のＨＰが回復する。
+・自身のリミットゲージが増加する。
+
+なお、間欠泉が噴き出している間は、
+アントリオンの巣からモンスターが出現しなくなります。
+また、噴き出している間欠泉の中心部に触れると、
+ダメージを受け、さらにノックバックされます。","","False","0x000003DD","",""
+"","Blunderville","ブランダーヴィル","","False","0x000003DE","",""
+"","Blunderville HUD","専用HUD","","False","0x000003DF","",""
+"","Overview","概要","","False","0x000003E0","",""
+"","Blunderville is a battle royale mode where up to 24 players vie against each other in a set of obstacle courses. Complete each of the three stages before your rivals and fight for your right to the victor's crown.
+
+The longer you remain in the running, the more rewards you'll earn, so keep your eyes on the prize as you race to be the last one standing!","「ブランダーヴィル」は、最大24人の参加者が競い合うバトルロイヤル障害物レースです。
+各ステージで勝ち抜いた参加者が、次のステージに進むという形式で、
+最大3ステージをプレイし、1人の優勝者を決定します。
+レースは各ステージで敗退するか、最終ステージを勝ち抜くまで続きます。
+勝ち残るほど多くの報酬が得られますので、ぜひ勝利の栄冠を目指しましょう！","","False","0x000003E1","",""
+"","Participating","参加方法","","False","0x000003E2","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>■Registering for a Show■<var 49 01 /var><var 48 01 /var>
+You may speak with the Blunderville registrar to participate in a show.
+
+<var 48 F201FA /var><var 49 F201FB /var>■Classes and Jobs■<var 49 01 /var><var 48 01 /var>
+All jobs and classes, including limited jobs, may participate in Blunderville.
+
+<var 48 F201FA /var><var 49 F201FB /var>■Solo Registration■<var 49 01 /var><var 48 01 /var>
+Solo challengers may speak with the Blunderville registrar to participate.
+
+<var 48 F201FA /var><var 49 F201FB /var>■Party Registration■<var 49 01 /var><var 48 01 /var>
+The party leader must speak with the Blunderville registrar to join the show with their currently formed party. Parties can be registered regardless of size.
+
+Please note that your final rank will be calculated by personal progress rather than party progress.
+
+<var 48 F201FA /var><var 49 F201FB /var>■Alliance Registration■<var 49 01 /var><var 48 01 /var>
+The alliance leader must speak with the Blunderville registrar to join the show with their currently formed alliance. You must have a full alliance of 24 players to participate.","<var 48 F201FA /var><var 49 F201FB /var>■参加申請する場所■<var 49 01 /var><var 48 01 /var>
+ブランダーヴィルは、ブランダーヴィルスクウェア内の「ショー参加受付」に
+参加申請することでプレイできます。
+
+<var 48 F201FA /var><var 49 F201FB /var>■クラス・ジョブ■<var 49 01 /var><var 48 01 /var>
+リミテッドジョブを含む、全てのクラス・ジョブで参加できます。
+
+<var 48 F201FA /var><var 49 F201FB /var>■ソロでの申請方法■<var 49 01 /var><var 48 01 /var>
+「ショー参加受付」で手続きすることでブランダーヴィルに参加できます。
+
+<var 48 F201FA /var><var 49 F201FB /var>■パーティでの申請方法■<var 49 01 /var><var 48 01 /var>
+パーティリーダーが「ショー参加受付」で手続きすることで、パーティを
+組んだままブランダーヴィルに参加できます。
+パーティでは、2人から8人まで、任意の人数で参加申請が可能です。
+各ステージでの敗退・勝ち抜きは個人ごとに判定され、
+パーティ単位での判定は行なわれません。
+
+<var 48 F201FA /var><var 49 F201FB /var>■アライアンスでの申請方法■<var 49 01 /var><var 48 01 /var>
+アライアンスリーダーが「ショー参加受付」で手続きすることで、アライアンスを
+組んだままブランダーヴィルに参加できます。
+アライアンスでは、24人揃った状態でのみ参加申請をすることができます。","","False","0x000003E3","",""
+"","Lobbyville","ステージ開始","","False","0x000003E4","",""
+"","Players who have registered for a show will be sent to wait in Lobbyville. The show will begin when 24 challengers have gathered, or after a set amount of time has passed since the first challenger entered Lobbyville.
+
+Rewards will be adjusted based on the number of challengers in each show.","参加申請が済んだプレイヤーはロビーに移動し、参加者が揃うまで待機します。
+その後、参加者が24人に到達すると第一ステージが開始されるほか、
+人数が24人に満たない場合でも、最初の1人がブランダーヴィルに参加してから
+一定時間が経過すると自動的にステージ開始となります。
+なお、参加者が規定の人数に満たない状態でステージが開始した場合、
+報酬獲得量が調整されます。","","False","0x000003E5","",""
+"","Spectating","観戦","","False","0x000003E6","",""
+"","Those who qualify for the next stage will enter spectator mode, where they may freely watch the remaining challengers compete. Please note that you will become invisible while spectating.
+
+<var 48 F201FA /var><var 49 F201FB /var>■Spectating when Qualified■<var 49 01 /var><var 48 01 /var>
+Challengers who qualify for the next stage will remain in spectator mode until the next round begins.
+
+<var 48 F201FA /var><var 49 F201FB /var>■Spectating when Eliminated■<var 49 01 /var><var 48 01 /var>
+Challengers who have been eliminated may remain in spectator mode until the end of the show. If you wish to leave spectator mode, you may do so at any time by selecting the Leave option from the Blunderville menu.","ブランダーヴィルの各ステージで次の条件を満たした場合、プレイヤーは
+「観戦中」の状態となります。
+この状態ではステージ内をギミックに邪魔されることなく自由に動き回ることが
+できますが、自身の姿が他のプレイヤーから見えなくなります。
+
+<var 48 F201FA /var><var 49 F201FB /var>■ステージの勝利条件を満たした場合■<var 49 01 /var><var 48 01 /var>
+自身がステージの勝利条件を満たすと、観戦中の状態となります。
+この場合、次のステージが開始されるまで状態が続きます。
+
+<var 48 F201FA /var><var 49 F201FB /var>■ステージを敗退した場合■<var 49 01 /var><var 48 01 /var>
+ステージを敗退しても、ブランダーヴィルの優勝者が決まるまでの続きを楽しめる観戦状態に自動的に移行します。
+専用UIからいつでも　「退出」　を選んで、コンテンツから退出することができます。","","False","0x000003E7","",""
+"","Rewards","報酬","","False","0x000003E8","",""
+"","<var 48 F201FA /var><var 49 F201FB /var>■MGF■<var 49 01 /var><var 48 01 /var>
+MGF, or Manderville Gold Saucer Fame, is awarded to all Blunderville challengers after a show has concluded. MGF is calculated based on your final rank in the show.
+
+<var 48 F201FA /var><var 49 F201FB /var>■Exchanging MGF■<var 49 01 /var><var 48 01 /var>
+MGF can be exchanged in Blunderville Square for exclusive rewards.
+
+<var 48 F201FA /var><var 49 F201FB /var>■Viewing Your MGF■<var 49 01 /var><var 48 01 /var>
+You may view the MGF currently in your possession by speaking with the MGF trader. Up to 10,000 MGF can be held at a time.","<var 48 F201FA /var><var 49 F201FB /var>■マンダヴィル・ゴールドソーサーフェイム■<var 49 01 /var><var 48 01 /var>
+ブランダーヴィルに参加すると、「マンダヴィル・ゴールドソーサーフェイム（MGF）」を報酬として獲得できます。
+MGFはステージを勝ち抜くほど獲得量が増えていきます。
+
+<var 48 F201FA /var><var 49 F201FB /var>■アイテムの交換■<var 49 01 /var><var 48 01 /var>
+獲得したMGFは、ブランダーヴィルスクウェアのMGF交換窓口でアイテムと
+交換できます。
+
+<var 48 F201FA /var><var 49 F201FB /var>■マンダヴィル・ゴールドソーサーフェイムの現在値の確認■<var 49 01 /var><var 48 01 /var>
+MGFの現在値は、MGF交換窓口で確認できます。
+上限は10000です。","","False","0x000003E9","",""
+"","Overview","概要","","False","0x000003EA","",""
+"","A special HUD layout will display in Blunderville and Blunderville Square, indicating your progress in the stage you are currently on. 
+
+The Blunderville HUD can only be adjusted in Blunderville and Blunderville Square. Select HUD Layout from the System menu, or unlock and adjust the HUD manually.","ブランダーヴィルスクウェア内、およびブランダーヴィルの各ステージ内では、
+専用のHUDが表示されます。
+
+このHUDにはブランダーヴィルで挑む各ステージの関連情報が表示されており、
+ブランダーヴィルをプレイ中か、ブランダーヴィルスクウェアにいる間のみ、
+位置調整や拡大・縮小が可能です。
+調整は、システムメニューのHUDレイアウト調整か、HUDを直接操作することで
+行うことができます。","","False","0x000003EB","",""
+"","HUD Guide","各部の説明","","False","0x000003EC","",""
+"","1. Indicates the stage's objective.
+
+2. Indicates the number of crystals successfully carried and the number of crystals needed to qualify for the next round in the Saucery Siege stage.
+
+3. Indicates the number of participants who have qualified for the next stage. In the Gold Swiveller stage, the number of eliminated players will also be displayed.
+
+4. Indicates time remaining to complete the stage.","1：
+各ステージの勝利条件が表示されます。
+
+2：
+「マンダヴィルキャッスル」のステージでのみ表示されます。
+勝利のために自身が運搬を達成した回数/必要な達成回数が表示されています。
+
+3：
+ステージを勝ち抜いたプレイヤーの数/最大の勝ち抜け人数が表示されます。
+「マンダヴィルリング」のステージのみ、敗退した人数/最大の敗退人数が
+表示されます。
+
+4：
+ステージ終了までの残り時間が表示されます。","","False","0x000003ED","",""
+"","Spectator HUD Guide","観戦中に表示されるHUD","","False","0x000003EE","",""
+"","1. Allows you to spectate from specific locations on the stage.
+
+2. Allows you to leave the show if you have already been eliminated.
+
+3. Indicates whether you have been qualified or eliminated from the stage.","観戦中になると観戦用のHUDが表示されます。
+
+1：
+ボタンを押すと、各ステージの観戦地点に移動します。
+
+2：
+コンテンツからの退出ボタンです。 自身がすでに敗退していたときのみ
+押下可能です。
+
+3：
+自身が勝ち抜けているか敗退しているかが表示されます。","","False","0x000003EF","",""
 "","","","","False","0x000003F0","",""
 "","","","","False","0x000003F1","",""
 "","","","","False","0x000003F2","",""
