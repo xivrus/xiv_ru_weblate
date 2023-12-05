@@ -935,12 +935,13 @@ Certain items, meanwhile, are stored in stasis. For instance, plants will cease 
 An estate hall cannot be removed while items are in storage. In the event that your estate hall is demolished, you may reclaim stored items by speaking with the resident caretaker within 35 days of repossession.
 
 ","All types of housing come with a storeroom for keeping one's furnishings. The larger the residence, the bigger the storeroom. The maximum number of furnishings that can be stored is as follows:
+Каждый вид жилой площади имеет хранилище для хранения лишней мебели. Чем больше площадь, тем больше хранилище
 
-　・Private chamber: 100 indoor
-　・Apartment: 100 indoor
-　・Small: 200 indoor, 20 outdoor
-　・Medium: 300 indoor, 30 outdoor
-　・Large: 400 indoor, 40 outdoor
+　・Личные комнаты: 100 домашней
+　・Квартира: 100 домашней
+　・Малый: 200 домашней, 20 уличной
+　・Средний: 300 домашней, 30 уличной
+　・Большой: 400 домашней, 40 уличной
 
 Chocobo stables and miniature aetherytes cannot be placed in the storeroom.
 
@@ -948,7 +949,7 @@ Certain items, meanwhile, are stored in stasis. For instance, plants will cease 
 
 An estate hall cannot be removed while items are in storage. In the event that your estate hall is demolished, you may reclaim stored items by speaking with the resident caretaker within 35 days of repossession.
 
-","","True","0x000000BD","",""
+","","False","0x000000BD","",""
 "","14. Navigating Residential Districts","14. Навигация по жилым районам","","False","0x000000BE","",""
 "","The icons below are used to display various locations in residential districts.
 
@@ -975,8 +976,7 @@ Blue: Access permitted
 Yellow: Access denied
 ","■Дома в которых вы прописаны
 Синие: Доступ разрешен
-Жёлтые: Доступ отказан
-","","False","0x000000C3","",""
+Жёлтые: Доступ отказан","","False","0x000000C3","",""
 "","15. Lighting","15. Освещение","","False","0x000000C4","",""
 "","The brightness of lighting in free company estates, private estates, and private chambers can be adjusted. Use the “Adjust Lighting” option in the Housing menu to choose from one of five levels of brightness.
 ","Яркость освещения в поместьях свободных компаний, личных поместьях и квартирах можно настраивать. Используйте вкладку ""Изменить уровень освещения"" в меню жилой площади чтобы выбрать один из пяти уровней освещения.","","False","0x000000C5","",""
@@ -1017,13 +1017,12 @@ There are eight varieties in total, one for each Disciple of the Hand class.
 Количество станков которые вы можете разместить зависит от типа помещения.
 　・Личные комнаты: 2
 　・Квартира: 2
-　・Малый участок: 4
-　・Medium estate hall (house): 6
-　・Large estate hall (mansion): 8
+　・Малый дом: 4
+　・Средний дом: 6
+　・Большой дом: 8
 
 ■Виды ремесленных станков
-There are eight varieties in total, one for each Disciple of the Hand class.
-Всего есть восемь разновидностей станков. По одному на каждую профессию Адепта Ремесла
+Всего есть восемь разновидностей станков. По одному на каждую профессию Адепта Ремесла.
 　・Плотник: Woodworking bench
 　・Кузнец: Smithing bench
 　・Бронник: Armorcraft forge
@@ -1032,7 +1031,7 @@ There are eight varieties in total, one for each Disciple of the Hand class.
 　・Ткач: Clothcraft loom
 　・Алхимик: Alchemy furnace
 　・Кулинар: Cooking stove
-","","False","0x000000CA","",""
+","","True","0x000000CA","",""
 "","Gardens","Gardens","","True","0x000000CB","",""
 "","Gardens allow you to grow and harvest crops on your land.
 
