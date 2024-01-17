@@ -31,6 +31,58 @@ if (-not $(Test-Path -Path .\config.cfg)) {
 	Copy-Item -Path .\config_sample.cfg -Destination .\config.cfg -ErrorAction Stop
 }
 
+function Get-APIWeblateData {
+	# REST API call in question
+	# https://docs.weblate.org/en/weblate-5.3.1/api.html#get--api-translations-(string-project)-(string-component)-(string-language)-units-
+	#
+	# This is a caching mechanism since doing calls one by one became
+	# obnoxiously slow and I don't want to bother with optimizing Weblate,
+	# or PostgresSQL, or trying to make PowerShell multithreaded.
+	#
+	# Each call is gonna get us a page of strings. One page has 50 strings.
+	# It doesn't seem like this is configurable but whatever, this is already
+	# gonna be way faster, considering each API call takes 600-1200ms.
+	param (
+		[string] $BaseUri,
+		[string] $ProjectName,
+		[string] $ComponentName,
+		[string] $LangCode,
+		[int] $Index
+	)
+
+	$STRINGS_PER_PAGE = 50
+	$page_num = [int] [System.Math]::Floor( $Index / $STRINGS_PER_PAGE ) + 1
+	$string_index_in_page = $Index % $STRINGS_PER_PAGE
+
+	$API_CACHE_DIR_PATH = '.\api_cache'
+	$component_cache_path = $API_CACHE_DIR_PATH + '\' + $ComponentName
+	$language_cache_path = $component_cache_path + '\' + $LangCode
+	$page_cache_path = $language_cache_path + '\' + $page_num + '.json'
+
+	$null = New-Item -Path $API_CACHE_DIR_PATH -ItemType Directory -ErrorAction SilentlyContinue
+	$null = New-Item -Path $component_cache_path -ItemType Directory -ErrorAction SilentlyContinue
+	$null = New-Item -Path $language_cache_path -ItemType Directory -ErrorAction SilentlyContinue
+	# And then each page is a separate JSON file
+
+	if (-not (Test-Path -Path $page_cache_path)) {
+		try {
+			$reply = Invoke-RestMethod -Method Get `
+				-Headers $headers `
+				-Uri "https://$BaseUri/api/translations/$ProjectName/$ComponentName/$LangCode/units/?page=$page_num"
+		}
+		catch {
+			$reply = 404
+		}
+		$reply | ConvertTo-Json | Out-File -FilePath $page_cache_path -Encoding utf8
+	}
+
+	$page = Get-Content -Path $page_cache_path -Encoding UTF8 | ConvertFrom-Json
+	if ($page -eq 404 -or -not $page.results[$string_index_in_page]) {
+		return 'Не удалось получить ссылку'
+	}
+
+	return $page.results[$string_index_in_page].web_url
+}
 
 function Compare-Files {
     param (
@@ -227,20 +279,16 @@ try {
 				$component = $CurrentCsv.FullName.Replace("$PROJECT_PATH\$CURRENT_DIR\csv\exd\", '') `
                     -replace '\\[^\\]*$' -replace '\\','-'
                 $lang = $CurrentCsv.BaseName
-                $query = $new_csv_rows[$row_count].context
 
 				# Since a certain patch CompleteJournal is now auto-generated on SE's side,
 				# which leads to all of the file's strings be moved, which in turn leads
 				# to thousands of useless changes and slow API calls.
 				if ($component -ne 'completejournal') {
-					try {
-						$reply = Invoke-RestMethod -Method Get -Headers $headers `
-							-Uri "https://$base_uri/api/translations/ffxiv-translation/$component/$lang/units/?q=$query"
-						$weblate_link = $reply.results[0].web_url
-					}
-					catch {
-						$weblate_link = 'Не удалось получить ссылку'
-					}
+					$weblate_link = Get-APIWeblateData -BaseUri $base_uri `
+						-ProjectName 'ffxiv-translation' `
+						-ComponentName $component `
+						-Lang $lang `
+						-Index $row_count
 				} else {
 					$weblate_link = ''
 				}
