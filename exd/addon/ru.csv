@@ -12894,12 +12894,14 @@ The World Visit System allows you to travel from <var 08 E4E80201 ((your Home Wo
 <var 08 E1E80201 ((<var 48 F20202 /var>Friend List<var 48 01 /var>
 　・Friends in different data centers cannot communicate
 　・Parties cannot be formed with friends in different data centers
+　・Login details for friends in different regions cannot be displayed
 
 )) (()) /var><var 48 F20202 /var>Free Companies<var 48 01 /var>
 　・Free companies cannot be formed or joined
 　・Free company information cannot be viewed
 　・Company credits cannot be earned
 　・Should the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member
+　・Login details for members in different regions cannot be displayed
 
 <var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
 　・Cross-world linkshells cannot be created
@@ -12941,75 +12943,78 @@ The World Visit System allows you to travel from <var 08 E4E80201 ((your Home Wo
 　・Friendship circlet and eternal bonding teleportation is
 　　available only if both parties are on the same World
 　・Legendary and unspoiled gathering nodes are inaccessible
-","<var 08 E4E80203 ((　　　　　　　　　　<var 48 F20202 /var>Система посещения дата-центров<var 48 01 /var>
-Система посещения дата-центров — это расширение функции посещения миров, позволяющая путешествовать по мирам внутри других дата-центров. Помимо существующих ограничений при посещении миров будут накладываться ещё дополнительные ограничения.
+","30E2_<var 08 E4E80203 ((　　　　　　　　　　<var 48 F20202 /var>Data Center Travel System<var 48 01 /var>
+The Data Center Travel system is an extension of the World Visit system, and allows you to temporarily visit Worlds in other data centers. Certain restrictions apply to data center travel, including those dictated by the World Visit system.
 
-　　　　　　　　　　<var 48 F20202 /var>Посещение других дата-центров<var 48 01 /var>
-　・Пока вы не вернётесь обратно в свой дата-центр, вы не сможете входить или проводить какие-либо действия с персонажами в вашем Домашнем мире.
-　・Другие дата-центры можно посещать только из вашего Домашнего мира. То есть если вы, будучи не в Домашнем мире, захотите перейти на другой дата-центр, который тоже не является вашим Домашним, вам необходимо сначала вернуться в Домашний мир, а потом из него подать запрос на переход в интересующий дата-центр.
-　・Если вы выйдете из игры в другом мире и с тех пор не будете входить в течение 30 дней, вы будете автоматически возвращены в ваш Домашний мир. В зависимости от того, когда вы в последний раз вышли из игры, может пройти больше 30 дней перед тем, как произойдёт возврат в Домашний мир.
+　　　　　　　　　　<var 48 F20202 /var>Visiting Other Data Centers<var 48 01 /var>
+　・Until you have returned from visiting another data center, you may not log in or perform other actions with characters in your Home World.
+　・You may only travel to other data centers from your Home World. If you wish to travel to a data center different from the one you are currently visiting, you must first return to your Home World and submit a Data Center Visit request from there.
+　・When logging out from another World, you will automatically be returned to your Home World if you do not log in again within 30 days. Depending on the timing of your last logout, you may be returned after more than 30 days have passed.
 
-)) (()) /var><var 08 E3E80203 ((　　　　　　　　　　<var 48 F20202 /var>Система посещения миров<var 48 01 /var>
-Система посещения миров позволяет вам перейти из <var 08 E4E80201 ((вашего Домашнего мира)) ((мира, в котором вы сейчас гостите,)) /var> в другие миры в пределах одного дата-центра. В них вы можете встречаться с друзьями, выполнять вместе различные миссии, покупать предметы на рынке и прочее.
+)) (()) /var><var 08 E3E80203 ((　　　　　　　　　　<var 48 F20202 /var>World Visit System<var 48 01 /var>
+The World Visit System allows you to travel from <var 08 E4E80201 ((your Home World)) ((the World you are currently visiting)) /var> to different World servers within the same data center. While visiting different Worlds, you may party with friends, purchase items, tackle duties, and more.
 
-　　　　　　　　　　<var 48 F20202 /var>Посещение других миров<var 48 01 /var>
-　・Перемещение в интересующий мир может занимать несколько минут и зависит от переполненности этого мира.
-　・Как только подготовка к перемещению будет завершена, оно автоматически начнётся. Это остановит все текущие действия и миссии.
-　・Если вы выйдете из игры в другом мире и с тех пор не будете входить в течение 30 дней, вы будете автоматически возвращены в ваш Домашний мир. В зависимости от того, когда вы в последний раз вышли из игры, может пройти больше 30 дней перед тем, как произойдёт возврат в Домашний мир.
+　　　　　　　　　　<var 48 F20202 /var>Visiting Other Worlds<var 48 01 /var>
+　・Depending on the congestion of the target World, travel may take several minutes.
+　・Once preparations have been completed, travel will occur automatically and cancel all current actions/duties.
+　・When logging out from another World, you will automatically be returned to your Home World if you do not log in again within 30 days. Depending on the timing of your last logout, you may be returned after more than 30 days have passed.
 
-)) (()) /var>　　　　　　　　　<var 48 F20202 /var>Ограничения при посещении других <var 08 E1E80201 ((дата-центров)) ((миров)) /var><var 48 01 /var>
-<var 08 E4E80202 ((Вы сейчас находитесь не в своём Домашнем дата-центре. )) (()) /var>При игре в другом <var 08 E1E80201 ((дата-центре)) ((мире)) /var> накладываются следующие ограничения:
+)) (()) /var>　　　　　　　　　<var 48 F20202 /var>Restrictions While Visiting <var 08 E1E80201 ((Other Data Centers)) ((Other Worlds)) /var><var 48 01 /var>
+<var 08 E4E80202 ((You are currently outside your Home Data Center. )) (()) /var>The following restrictions apply when playing <var 08 E1E80201 ((in another data center)) ((on other World servers)) /var>:
 
-<var 08 E1E80201 ((<var 48 F20202 /var>Список друзей<var 48 01 /var>
-　・Друзья из разных дата-центров не могут общаться друг с другом
-　・Нельзя сформировать группу с друзьями из других дата-центров
+<var 08 E1E80201 ((<var 48 F20202 /var>Friend List<var 48 01 /var>
+　・Friends in different data centers cannot communicate
+　・Parties cannot be formed with friends in different data centers
+　・Login details for friends in different regions cannot be displayed
 
-)) (()) /var><var 48 F20202 /var>Вольные компании<var 48 01 /var>
-　・Нельзя создать вольную компанию или присоединиться к существующей
-　・Нельзя посмотреть информацию о вашей вольной компании
-　・Не будут зарабатываться company credits
-　・Если хозяин вольной компании проведёт 35 дней без перерыва вне своего Домашнего мира, это звание будет автоматически передано другому участнику вольной компании
+)) (()) /var><var 48 F20202 /var>Free Companies<var 48 01 /var>
+　・Free companies cannot be formed or joined
+　・Free company information cannot be viewed
+　・Company credits cannot be earned
+　・Should the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member
+　・Login details for members in different regions cannot be displayed
 
-<var 08 E1E80201 ((<var 48 F20202 /var>Межмировые линкшеллы<var 48 01 /var>
-　・Нельзя создать межмировые линкшеллы
-　・Нельзя получить роль хозяина межмирового линкшелла
+<var 08 E1E80201 ((<var 48 F20202 /var>Cross-world Linkshells<var 48 01 /var>
+　・Cross-world linkshells cannot be created
+　・Cross-world linkshell master privileges cannot be attained
 
-)) (()) /var><var 48 F20202 /var>Линкшеллы<var 48 01 /var>
-　・Нельзя использовать линкшеллы
-　・Нельзя посмотреть информацию о линкшеллах
-　・Нельзя создавать линкшеллы или присоединяться к существующим
+)) (()) /var><var 48 F20202 /var>Linkshells<var 48 01 /var>
+　・Linkshells cannot be used
+　・Linkshell information cannot be viewed
+　・Linkshells cannot be created or joined
 
-<var 08 E1E80201 ((<var 48 F20202 /var>Команды PvP<var 48 01 /var>
-　・Команды PvP недоступны
-　・Нельзя посмотреть информацию о команде PvP
-　・Нельзя создать команду PvP или присоединиться к существующей
+<var 08 E1E80201 ((<var 48 F20202 /var>PvP Teams<var 48 01 /var>
+　・PvP teams cannot be used
+　・PvP team information cannot be viewed
+　・PvP teams cannot be created or joined
 
-<var 48 F20202 /var>Сообщества<var 48 01 /var>
-　・Все функции, связанные с сообществами, недоступны. Исключение: окно «Поиск сообществ»
+<var 48 F20202 /var>Fellowships<var 48 01 /var>
+　・All functions for fellowships, excluding recruitment search, are inaccessible
 
-)) (()) /var><var 48 F20202 /var>Слуги<var 48 01 /var>
-　・Нельзя призывать, нанимать и отпускать слуг
-　・Нельзя выставлять предметы на продажу на рынок, но при этом выставленные предметы можно покупать
+)) (()) /var><var 48 F20202 /var>Retainers<var 48 01 /var>
+　・Retainers cannot be summoned, hired, or released from service
+　・Items cannot be put up to market (but can be purchased)
 
-<var 48 F20202 /var>Жилая площадь<var 48 01 /var>
-　・Нельзя купить квартиру или участок
-　・Общий доступ к резиденции недоступен
+<var 48 F20202 /var>Housing<var 48 01 /var>
+　・Land and apartments cannot be purchased
+　・Residence sharing is unavailable
 
-<var 48 F20202 /var>Вечные Узы<var 48 01 /var>
-　・Церемонии Вечных Уз недоступны
-　・Задания Вечных Уз недоступны
-　・Нельзя принимать участие в чужих церемониях
+<var 48 F20202 /var>Eternal Bonding<var 48 01 /var>
+　・Ceremonies of Eternal Bonding are unavailable
+　・Eternal Bonding quests are unavailable
+　・Others' ceremonies cannot be attended
 
-<var 48 F20202 /var>Миссии и функции<var 48 01 /var>
-<var 08 E1E80201 ((　・Нельзя вступать в ранговые матчи Кристальной битвы
-)) (()) /var>　・Нельзя вступать в турниры Повелителя Верминьона
-　・Нельзя вступать в турниры Тройного Трио
-　・Нельзя покупать билеты Горшков
-　・Почтовая служба муглов недоступна
-　・Результаты глубоких подземелий не будут сохранены в таблицу результатов
-　・Friendship circlet и телепортация Вечных Уз будут работать только тогда,
-　　когда обе стороны находятся в одном мире
-　・Недоступны легендарные и нетронутые точки собирательства","","False","0x000030E2","",""
+<var 48 F20202 /var>Duties/Features<var 48 01 /var>
+<var 08 E1E80201 ((　・Crystalline Conflict ranked matches cannot be entered
+)) (()) /var>　・Lord of Verminion tournaments cannot be entered
+　・Triple Triad tournaments cannot be entered
+　・Cactpot tickets cannot be purchased
+　・The Moogle Delivery Service is unavailable
+　・Deep Dungeon results will not be saved to the leaderboards
+　・Friendship circlet and eternal bonding teleportation is
+　　available only if both parties are on the same World
+　・Legendary and unspoiled gathering nodes are inaccessible
+","","True","0x000030E2","",""
 "","Home World","Домашний мир","","False","0x000030E3","",""
 "","Current World","30E4_Current World","","True","0x000030E4","",""
 "","Unavailable World","30E5_Unavailable World","","True","0x000030E5","",""
@@ -16930,3 +16935,4 @@ Withdraw that application and apply for membership with <var 29 EA02 /var>?","В
 "","Yes","Да","","False","0x0001911F","",""
 "","No","Нет","","False","0x00019120","",""
 "","Small Talk","Поговорить","","False","0x0001912C","",""
+
