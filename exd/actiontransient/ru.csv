@@ -1871,7 +1871,7 @@ Effect cannot be stacked with <var 48 F201FA /var><var 49 F201FB /var>Seraphic I
 
 ※Это действие нельзя назначить на хотбар.","","False","0x00000325","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 250","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 250","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 250","","True","0x00000326","",""
 "","Silences target.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 1s
@@ -2252,13 +2252,13 @@ Reduces integrity by 1.","Добывает ценность с её текущи
 "","","","","False","0x00000465","",""
 "","","","","False","0x00000466","",""
 "","","","","False","0x00000467","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x00000468","",""
-"","Fires a short-range burst of energy in a straight line before you.","Fires a short-range burst of energy in a straight line before you.","","True","0x00000469","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","False","0x00000468","",""
+"","Fires a short-range burst of energy in a straight line before you.","Выпускает по прямой линии перед вами вспышку энергии малой дальности.","","True","0x00000469","",""
 "","","","","False","0x0000046A","",""
 "","","","","False","0x0000046B","",""
 "","","","","False","0x0000046C","",""
 "","","","","False","0x0000046D","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x0000046E","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x0000046E","",""
 "","","","","False","0x0000046F","",""
 "","","","","False","0x00000470","",""
 "","","","","False","0x00000471","",""
@@ -2561,9 +2561,9 @@ Reduces integrity by 1.","Добывает ценность с её текущи
 "","","","","False","0x0000059A","",""
 "","","","","False","0x0000059B","",""
 "","","","","False","0x0000059C","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x0000059D","",""
-"","Fires a short-range burst of energy in a straight line before you.","Fires a short-range burst of energy in a straight line before you.","","True","0x0000059E","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x0000059F","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x0000059D","",""
+"","Fires a short-range burst of energy in a straight line before you.","Выпускает по прямой линии перед вами вспышку энергии малой дальности.","","True","0x0000059E","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x0000059F","",""
 "","","","","False","0x000005A0","",""
 "","","","","False","0x000005A1","",""
 "","","","","False","0x000005A2","",""
@@ -3661,7 +3661,7 @@ Overheats <var 48 F201FA /var><var 49 F201FB /var>Gauss Barrel<var 49 01 /var><v
 "","","","","False","0x000008BA","",""
 "","","","","False","0x000008BB","",""
 "","","","","False","0x000008BC","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x000008BD","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x000008BD","",""
 "","Fires a lightning-aspected projectile at the designated area.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 1s","Fires a lightning-aspected projectile at the designated area.
@@ -4104,11 +4104,11 @@ Triggers the cooldown of weaponskills, mudra, and <var 48 F201F4 /var><var 49 F2
 "","","","","False","0x00000980","",""
 "","","","","False","0x00000981","",""
 "","Fires an explosive projectile at the designated area.
-※Has no effect in battle.","Fires an explosive projectile at the designated area.
-※Has no effect in battle.","","True","0x00000982","",""
+※Has no effect in battle.","Выстреливает взрывной снаряд в заданную область.
+※Невозможно использовать в режиме боя.","","False","0x00000982","",""
 "","Fires a short-range burst of energy in a straight line before you.
-※Has no effect in battle.","Fires a short-range burst of energy in a straight line before you.
-※Has no effect in battle.","","True","0x00000983","",""
+※Has no effect in battle.","Выпускает по прямой линии перед вами вспышку энергии малой дальности.
+※Невозможно использовать в режиме боя.","","False","0x00000983","",""
 "","Emits a stream of white-hot flames.
 ※Has no effect in battle.","Emits a stream of white-hot flames.
 ※Has no effect in battle.","","True","0x00000984","",""
@@ -4307,7 +4307,7 @@ Triggers the cooldown of weaponskills, mudra, and <var 48 F201F4 /var><var 49 F2
 "","","","","False","0x00000A43","",""
 "","","","","False","0x00000A44","",""
 "","","","","False","0x00000A45","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x00000A46","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x00000A46","",""
 "","","","","False","0x00000A47","",""
 "","","","","False","0x00000A48","",""
 "","","","","False","0x00000A49","",""
@@ -5202,7 +5202,7 @@ Can only be executed while the <var 48 F201F4 /var><var 49 F201F5 /var>Adrenalin
 "","","","","False","0x00000D2E","",""
 "","","","","False","0x00000D2F","",""
 "","","","","False","0x00000D30","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x00000D31","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x00000D31","",""
 "","Fires a lightning-aspected projectile at the designated area.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Stun<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 1s","Fires a lightning-aspected projectile at the designated area.
@@ -11195,9 +11195,9 @@ Effect ends when enmity is generated. Has no effect in battle.","Увеличи�
 "","","","","False","0x00001DC0","",""
 "","","","","False","0x00001DC1","",""
 "","","","","False","0x00001DC2","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x00001DC3","",""
-"","Fires a short-range burst of energy in a straight line before you.","Fires a short-range burst of energy in a straight line before you.","","True","0x00001DC4","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x00001DC5","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x00001DC3","",""
+"","Fires a short-range burst of energy in a straight line before you.","Выпускает по прямой линии перед вами вспышку энергии малой дальности.","","True","0x00001DC4","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x00001DC5","",""
 "","Fires a concentrated burst of energy in a straight line before you.","Fires a concentrated burst of energy in a straight line before you.","","True","0x00001DC6","",""
 "","","","","False","0x00001DC7","",""
 "","","","","False","0x00001DC8","",""
@@ -11636,7 +11636,7 @@ Chance of landing a large catch increases based on your <var 48 F201FA /var><var
 "","","","","False","0x00001F19","",""
 "","Fires an explosive projectile at the designated area.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Binds magna roader
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 4s","Fires an explosive projectile at the designated area.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 4s","Выстреливает взрывной снаряд в заданную область.
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Binds magna roader
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 4 с.","","False","0x00001F1A","",""
 "","","","","False","0x00001F1B","",""
@@ -12504,7 +12504,7 @@ While under the effect of <var 48 F201FA /var><var 49 F201FB /var>Giant Dominanc
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increases <var 48 F201F4 /var><var 49 F201F5 /var>Oath Gauge<var 49 01 /var><var 48 01 /var> by 10","","True","0x00002230","",""
 "","Restores target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4,000
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Restores to self 50% of HP restored to target if target is a party member","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Restores to self 50% of HP restored to target if target is a party member","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Restores to self 50% of ОЗ restored to target if target is a party member","","True","0x00002231","",""
 "","Delivers an attack with a potency of 1,000.
@@ -13599,10 +13599,10 @@ Cannot be executed while bound.","","False","0x000022BB","",""
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Heavy<var 49 01 /var><var 48 01 /var> +50%
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 3 с.","","False","0x000022BE","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 2,000","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 2,000","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 2 000","","True","0x000022BF","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4,000","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4,000","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4 000","","True","0x000022C0","",""
 "","","","","False","0x000022C1","",""
 "","Grants healing over time effect to target.
@@ -13633,7 +13633,7 @@ Cannot be executed while bound.","","False","0x000022BB","",""
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Aetherflow<var 49 01 /var><var 48 01 /var>","","True","0x000022C7","",""
 "","Restores target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 2,000
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases <var 48 F201F4 /var><var 49 F201F5 /var>Faerie Gauge<var 49 01 /var><var 48 01 /var> by 10 when used to restore HP of self or a party member while in combat","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases <var 48 F201F4 /var><var 49 F201F5 /var>Faerie Gauge<var 49 01 /var><var 48 01 /var> by 10 when used to restore HP of self or a party member while in combat","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 2 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Increases <var 48 F201F4 /var><var 49 F201F5 /var>Faerie Gauge<var 49 01 /var><var 48 01 /var> by 10 when used to restore ОЗ of self or a party member while in combat","","True","0x000022C8","",""
 "","Restores target's HP.
@@ -13659,7 +13659,7 @@ Cannot be executed while bound.","","False","0x000022BB","",""
 "","Restores target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>3,000
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>3
-Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Indomitability<var 49 01 /var><var 48 01 /var>.","Restores target's ОЗ.
+Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Indomitability<var 49 01 /var><var 48 01 /var>.","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>3 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>3
 Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Indomitability<var 49 01 /var><var 48 01 /var>.","","True","0x000022CD","",""
@@ -13680,7 +13680,7 @@ Depletes <var 48 F201F4 /var><var 49 F201F5 /var>Faerie Gauge<var 49 01 /var><va
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s
 <var 48 F201F8 /var><var 49 F201F9 /var>Abridged Effect: <var 49 01 /var><var 48 01 /var>Next spell is cast immediately
 
-※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Aspected Benefic<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Neutral Sect<var 49 01 /var><var 48 01 /var>.","Restores target's ОЗ.
+※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Aspected Benefic<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Neutral Sect<var 49 01 /var><var 48 01 /var>.","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>2 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Abridged<var 49 01 /var><var 48 01 /var> when spell is cast with a cast time
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность: <var 49 01 /var><var 48 01 /var>10 с.
@@ -13688,13 +13688,13 @@ Depletes <var 48 F201F4 /var><var 49 F201F5 /var>Faerie Gauge<var 49 01 /var><va
 
 ※Action changes to <var 48 F201F4 /var><var 49 F201F5 /var>Aspected Benefic<var 49 01 /var><var 48 01 /var> while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Neutral Sect<var 49 01 /var><var 48 01 /var>.","","False","0x000022D1","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4,000","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4,000","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4 000","","True","0x000022D2","",""
 "","","","","False","0x000022D3","",""
 "","Restores target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 2,500
 Potency increases up to 5,000 as the target's HP decreases.
-<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 2 500
 Potency increases up to 5 000 as the target's ОЗ decreases.
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2","","True","0x000022D4","",""
@@ -13970,7 +13970,7 @@ Cannot be executed while bound.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 1,500
 Can only be executed while <var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var> is summoned.
 
-※This action cannot be assigned to a hotbar.","Restores target's ОЗ.
+※This action cannot be assigned to a hotbar.","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 1 500
 Can only be executed while <var 48 F201FA /var><var 49 F201FB /var>Eos<var 49 01 /var><var 48 01 /var> is summoned.
 
@@ -15046,7 +15046,7 @@ Effect ends upon using another action or moving (including facing a different di
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 3,000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Grants <var 48 F201FA /var><var 49 F201FB /var>Dualcast<var 49 01 /var><var 48 01 /var> when spell is cast with a cast time
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 10s
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increases both <var 48 F201FA /var><var 49 F201FB /var>Black Mana<var 49 01 /var><var 48 01 /var> and <var 48 F201FA /var><var 49 F201FB /var>White Mana<var 49 01 /var><var 48 01 /var> by 5 when used to restore HP of self or a party member while in combat","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increases both <var 48 F201FA /var><var 49 F201FB /var>Black Mana<var 49 01 /var><var 48 01 /var> and <var 48 F201FA /var><var 49 F201FB /var>White Mana<var 49 01 /var><var 48 01 /var> by 5 when used to restore HP of self or a party member while in combat","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 3 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Grants <var 48 F201FA /var><var 49 F201FB /var>Dualcast<var 49 01 /var><var 48 01 /var> when spell is cast with a cast time
 <var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 10 с.
@@ -16246,7 +16246,7 @@ Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Minor Arcana<
 "","","","","False","0x00002BB6","",""
 "","Deals unaspected damage with a potency of 200.","Deals unaspected damage with a potency of 200.","","True","0x00002BB7","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","","True","0x00002BB8","",""
 "","Deals unaspected damage with a potency of 3,600 to all enemies near point of impact.","Deals unaspected damage with a potency of 3 600 to all enemies near point of impact.","","True","0x00002BB9","",""
 "","","","","False","0x00002BBA","",""
@@ -17512,7 +17512,7 @@ Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Glass Dance<v
 "","","","","False","0x00002FDE","",""
 "","","","","False","0x00002FDF","",""
 "","","","","False","0x00002FE0","",""
-"","Fires an explosive projectile at the designated area.","Fires an explosive projectile at the designated area.","","True","0x00002FE1","",""
+"","Fires an explosive projectile at the designated area.","Выстреливает взрывной снаряд в заданную область.","","True","0x00002FE1","",""
 "","","","","False","0x00002FE2","",""
 "","","","","False","0x00002FE3","",""
 "","","","","False","0x00002FE4","",""
@@ -17833,8 +17833,8 @@ Shares a recast timer with <var 48 F201F4 /var><var 49 F201F5 /var>Glass Dance<v
 "","","","","False","0x0000311F","",""
 "","","","","False","0x00003120","",""
 "","Fires a short-range burst of energy in a straight line before you.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increased damage taken","Fires a short-range burst of energy in a straight line before you.
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increased damage taken","","True","0x00003121","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Increased damage taken","Выпускает по прямой линии перед вами вспышку энергии малой дальности.
+<var 48 F201F8 /var><var 49 F201F9 /var>Дополнительный эффект:<var 49 01 /var><var 48 01 /var> увеличивает получаемый урон.","","False","0x00003121","",""
 "","Restores HP and HP of all nearby party members, and grants healing over time as well as increased damage dealt.","Restores ОЗ and ОЗ of all nearby party members, and grants healing over time as well as increased damage dealt.","","True","0x00003122","",""
 "","","","","False","0x00003123","",""
 "","","","","False","0x00003124","",""
@@ -18823,7 +18823,7 @@ Generates significant enmity upon use.","Производит атаку дал�
 <var 48 F201F8 /var><var 49 F201F9 /var>Potency: <var 49 01 /var><var 48 01 /var>50
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>18s","","True","0x00003470","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 700","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 700","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 700","","True","0x00003471","",""
 "","Restores MP.","Restores ОМ.","","True","0x00003472","",""
 "","","","","False","0x00003473","",""
@@ -19376,7 +19376,7 @@ Generates significant enmity upon use.","Производит атаку дал�
 "","","","","False","0x00003696","",""
 "","Restores target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4,000
-<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Maximum Charges: <var 49 01 /var><var 48 01 /var>2","","True","0x00003697","",""
 "","","","","False","0x00003698","",""
@@ -23858,7 +23858,7 @@ Effect cannot be stacked with bard's <var 48 F201FA /var><var 49 F201FB /var>Tro
 "","","","","False","0x00004266","",""
 "","","","","False","0x00004267","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 1300","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 1300","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 1 300","","True","0x00004268","",""
 "","Restores own HP and the HP of all nearby party members.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 500","Restores own ОЗ and the ОЗ of all nearby party members.
@@ -24029,7 +24029,7 @@ Effect cannot be stacked.<var 08 E0E94933 ((<var 08 E4E94522 ((
 Effect cannot be stacked with scholar's <var 48 F201FA /var><var 49 F201FB /var>Galvanize<var 49 01 /var><var 48 01 /var>.
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Diurnal Sect<var 49 01 /var><var 48 01 /var> or <var 48 F201FA /var><var 49 F201FB /var>Nocturnal Sect<var 49 01 /var><var 48 01 /var>.)) ((
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Diurnal Sect<var 49 01 /var><var 48 01 /var>.)) /var>)) ((
-Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Diurnal Sect<var 49 01 /var><var 48 01 /var>.)) /var>","Restores target's ОЗ.
+Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Diurnal Sect<var 49 01 /var><var 48 01 /var>.)) /var>","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 200
 <var 48 F201F8 /var><var 49 F201F9 /var>Diurnal Sect Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Regen<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 200
@@ -24163,7 +24163,7 @@ Potency increases as <var 48 F201F4 /var><var 49 F201F5 /var>Battery Gauge<var 4
 "","","","","False","0x00004353","",""
 "","Restores target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 1200
-<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Restores to self 50% of HP restored to target if target is a party member","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Restores to self 50% of HP restored to target if target is a party member","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 1200
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Restores to self 50% of ОЗ restored to target if target is a party member","","True","0x00004354","",""
 "","","","","False","0x00004355","",""
@@ -25499,7 +25499,7 @@ Can only be executed while <var 48 F201FA /var><var 49 F201FB /var>Demi-Phoenix<
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 15s
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Nourishes the <var 48 F201FA /var><var 49 F201FB /var>Blood Lily<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Healing Gauge Cost: <var 49 01 /var><var 48 01 /var>1 <var 48 F201FA /var><var 49 F201FB /var>Lily<var 49 01 /var><var 48 01 /var>
-A <var 48 F201FA /var><var 49 F201FB /var>Lily<var 49 01 /var><var 48 01 /var> is granted every 10 seconds while in combat.","Restores target's ОЗ.
+A <var 48 F201FA /var><var 49 F201FB /var>Lily<var 49 01 /var><var 48 01 /var> is granted every 10 seconds while in combat.","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 4 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Regen<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400
@@ -25548,7 +25548,7 @@ While summoned, automatically casts <var 48 F201F4 /var><var 49 F201F5 /var>Sera
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Erects a magicked barrier which nullifies damage equaling the amount of HP restored
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s
 
-※This action cannot be assigned to a hotbar.","Restores target's ОЗ.
+※This action cannot be assigned to a hotbar.","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>2 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Erects a magicked barrier which nullifies damage equaling the amount of ОЗ restored
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10 с.
@@ -25567,7 +25567,7 @@ While summoned, automatically casts <var 48 F201F4 /var><var 49 F201F5 /var>Sera
 <var 48 F201F8 /var><var 49 F201F9 /var>Abridged Effect: <var 49 01 /var><var 48 01 /var>Next spell is cast immediately
 Can only be executed while under the effect of <var 48 F201FA /var><var 49 F201FB /var>Neutral Sect<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","Restores target's ОЗ.
+※This action cannot be assigned to a hotbar.","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 2 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> <var 48 F201FA /var><var 49 F201FB /var>Regen<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 800
@@ -25832,7 +25832,7 @@ Previously acquired beneficial effects are overwritten on use.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>3,000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Regen<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>600
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>15s","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>15s","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>3 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Grants <var 48 F201FA /var><var 49 F201FB /var>Regen<var 49 01 /var><var 48 01 /var>
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>600
@@ -29300,7 +29300,7 @@ This action does not share a recast timer with any other actions.","","False","0
 "","","","","False","0x00005032","",""
 "","","","","False","0x00005033","",""
 "","","","","False","0x00005034","",""
-"","Deals unaspected damage with a potency of 200 to all nearby enemies.","Deals unaspected damage with a potency of 200 to all nearby enemies.","","True","0x00005035","",""
+"","Deals unaspected damage with a potency of 200 to all nearby enemies.","Наносит магический урон с силой 200 всем ближайшим противникам.","","False","0x00005035","",""
 "","","","","False","0x00005036","",""
 "","","","","False","0x00005037","",""
 "","","","","False","0x00005038","",""
@@ -30623,7 +30623,7 @@ Cannot be used with other Essence or Deep Essence actions.","Увеличива�
 "","Delivers an attack with a potency of 400 to target and all enemies nearby it.","Наносит физический урон с силой 400 to target and all enemies nearby it.","","True","0x000053F7","",""
 "","","","","False","0x000053F8","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 350","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 350","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 350","","True","0x000053F9","",""
 "","Deals unaspected damage with a potency of 210.","Deals unaspected damage with a potency of 210.","","True","0x000053FA","",""
 "","","","","False","0x000053FB","",""
@@ -30736,7 +30736,7 @@ Cannot be used with other Essence or Deep Essence actions.","Увеличива�
 "","","","","False","0x00005466","",""
 "","","","","False","0x00005467","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","","True","0x00005468","",""
 "","Restores own HP and the HP of all nearby party members.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 200
@@ -31046,7 +31046,7 @@ Cancels auto-attack upon execution.","","False","0x0000546B","",""
 ","","False","0x0000557C","",""
 "","","","","False","0x0000557D","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 700","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 700","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 700","","True","0x0000557E","",""
 "","","","","False","0x0000557F","",""
 "","Restores own HP and the HP of all nearby party members.
@@ -37256,11 +37256,11 @@ Can only be executed while under the effect of three distinct <var 48 F201FA /va
 "","","","","False","0x0000666E","",""
 "","","","","False","0x0000666F","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 400","","True","0x00006670","",""
 "","Increases own magic damage dealt by 5% and damage dealt by nearby party members by 5%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 20s","Increases own magic damage dealt by 5% and damage dealt by nearby party members by 5%.
-<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 20 с.","","False","0x00006671","",""
+<var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 20s","Увеличивает ваш магический и весь наносимый ближайшими членами группы урон на 5%.
+<var 48 F201F8 /var><var 49 F201F9 /var>Длительность:<var 49 01 /var><var 48 01 /var> 20 с.","","False","0x00006671","",""
 "","","","","False","0x00006672","",""
 "","","","","False","0x00006673","",""
 "","","","","False","0x00006674","",""
@@ -38109,7 +38109,7 @@ Requires a catch counter of 10 to execute. Can only be executed once per spearfi
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 300
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Erects a magicked barrier which nullifies damage equaling 125% of the amount of HP restored
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30s
-","Restores target's ОЗ.
+","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 300
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect:<var 49 01 /var><var 48 01 /var> Erects a magicked barrier which nullifies damage equaling 125% of the amount of ОЗ restored
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration:<var 49 01 /var><var 48 01 /var> 30 с.
@@ -38120,7 +38120,7 @@ Requires a catch counter of 10 to execute. Can only be executed once per spearfi
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 300
 ","","True","0x000069A3","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 600","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 600","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 600","","True","0x000069A4","",""
 "","Deals unaspected damage with a potency of 300.","Deals unaspected damage with a potency of 300.","","True","0x000069A5","",""
 "","対象とその周囲の敵に無属性範囲魔法攻撃。　<var 48 F201F8 /var><var 49 F201F9 /var>威力：<var 49 01 /var><var 48 01 /var>300","対象とその周囲の敵に無属性範囲魔法攻撃。　<var 48 F201F8 /var><var 49 F201F9 /var>威力：<var 49 01 /var><var 48 01 /var>300","","True","0x000069A6","",""
@@ -38130,18 +38130,18 @@ Requires a catch counter of 10 to execute. Can only be executed once per spearfi
 "","","","","False","0x000069AA","",""
 "","","","","False","0x000069AB","",""
 "","","","","False","0x000069AC","",""
-"","Deals unaspected damage with a potency of 200 to all nearby enemies.","Deals unaspected damage with a potency of 200 to all nearby enemies.","","True","0x000069AD","",""
+"","Deals unaspected damage with a potency of 200 to all nearby enemies.","Наносит магический урон с силой 200 всем ближайшим противникам.","","False","0x000069AD","",""
 "","","","","False","0x000069AE","",""
 "","","","","False","0x000069AF","",""
 "","","","","False","0x000069B0","",""
 "","","","","False","0x000069B1","",""
 "","","","","False","0x000069B2","",""
 "","","","","False","0x000069B3","",""
-"","Delivers an attack with a potency of 400 to target and all enemies nearby it.","Наносит физический урон с силой 400 to target and all enemies nearby it.","","True","0x000069B4","",""
+"","Delivers an attack with a potency of 400 to target and all enemies nearby it.","Наносит физический урон с силой 400 цели и всем противникам рядом с ней.","","False","0x000069B4","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 350","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 350","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency:<var 49 01 /var><var 48 01 /var> 350","","True","0x000069B5","",""
-"","Deals unaspected damage to all enemies in a straight line before you.","Deals unaspected damage to all enemies in a straight line before you.","","True","0x000069B6","",""
+"","Deals unaspected damage to all enemies in a straight line before you.","Наносит магический урон всем противникам, расположенным на прямой линии перед вами.","","False","0x000069B6","",""
 "","","","","False","0x000069B7","",""
 "","","","","False","0x000069B8","",""
 "","","","","False","0x000069B9","",""
@@ -39202,7 +39202,7 @@ Certain actions cannot be executed while playing host to your avatar.
 
 ※This action cannot be assigned to a hotbar.","","False","0x00006CAF","",""
 "","Restores target's HP.
-<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>2,000","Restores target's ОЗ.
+<var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>2,000","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>2 000","","True","0x00006CB0","",""
 "","Restores target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>2,000
@@ -39210,7 +39210,7 @@ Certain actions cannot be executed while playing host to your avatar.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10s
 Effect cannot be stacked with <var 48 F201FA /var><var 49 F201FB /var>Eukrasian Prognosis<var 49 01 /var><var 48 01 /var>.
 
-※This action cannot be assigned to a hotbar.","Restores target's ОЗ.
+※This action cannot be assigned to a hotbar.","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>2 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Additional Effect: <var 49 01 /var><var 48 01 /var>Erects a magicked barrier which nullifies damage equaling 100％ of the amount of ОЗ restored.
 <var 48 F201F8 /var><var 49 F201F9 /var>Duration: <var 49 01 /var><var 48 01 /var>10 с.
@@ -39267,7 +39267,7 @@ This action does not share a recast timer with any other actions.","","False","0
 "","Restores target's HP.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>3,000
 <var 48 F201F8 /var><var 49 F201F9 /var>Addersgall Cost: <var 49 01 /var><var 48 01 /var>1
-<var 48 F201FA /var><var 49 F201FB /var>Addersgall<var 49 01 /var><var 48 01 /var> is granted automatically every 10 seconds.","Restores target's ОЗ.
+<var 48 F201FA /var><var 49 F201FB /var>Addersgall<var 49 01 /var><var 48 01 /var> is granted automatically every 10 seconds.","Восстанавливает ОЗ цели.
 <var 48 F201F8 /var><var 49 F201F9 /var>Cure Potency: <var 49 01 /var><var 48 01 /var>3 000
 <var 48 F201F8 /var><var 49 F201F9 /var>Addersgall Cost: <var 49 01 /var><var 48 01 /var>1
 <var 48 F201FA /var><var 49 F201FB /var>Addersgall<var 49 01 /var><var 48 01 /var> is granted automatically every 10 seconds.","","True","0x00006CB7","",""
