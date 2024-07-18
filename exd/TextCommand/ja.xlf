@@ -1,0 +1,3018 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="TextCommand" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="1" approved="yes"><source>1</source><target state="final">/replay(/record)
+コンテンツリプレイのメニューを開く。&lt;tab&gt;/replay&lt;tab&gt;&lt;tab&gt;/record&lt;tab&gt;</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">/replayready(/recordready) サブコマンド
+リプレイレディチェックの操作を行う。
+&gt;&gt;サブコマンド
+“秒数(5-30)”
+　…リプレイレディチェックを実行し、全員が「はい」を押したら指定した秒数で戦闘開始カウントを実行する。リプレイ記録の確認完了後に使用した場合は、基本の「レディチェック＋戦闘開始カウント」として機能する。
+※サブコマンド省略
+　…リプレイレディチェックのメニューを開く。&lt;tab&gt;/replayready&lt;tab&gt;&lt;tab&gt;/recordready&lt;tab&gt;</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">/pvpteamcmd
+PvPチームのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pvpteamcmd&lt;tab&gt;</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">/chocobobag(/saddlebag)
+チョコボかばんのメニューを開く。&lt;tab&gt;/chocobobag&lt;tab&gt;&lt;tab&gt;/saddlebag&lt;tab&gt;</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">/magiaright
+マギアボードを時計回りに回転する。
+&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/magiaright&lt;tab&gt;</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">/magialeft
+マギアボードを反時計回りに回転する。
+&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/magialeft&lt;tab&gt;</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">/cwlinkshellcmd(/cwlcmd)
+クロスワールドリンクシェルのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshellcmd&lt;tab&gt;/cwlcmd</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">/quickchat(/qchat) クイックチャット 代名詞
+クイックチャットを送信する。
+※クリスタルコンフリクト内でのみ送信可能。
+実行例
+/quickchat 号令：攻撃
+　…クイックチャット「号令：攻撃」を送信する。
+/quickchat 攻撃：ターゲット &lt;t&gt;
+　…ターゲット中のキャラクターを対象としてクイックチャット「攻撃：ターゲット」を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/quickchat&lt;tab&gt;/qchat</target></trans-unit><trans-unit id="9" approved="yes"><source>9</source><target state="final">/bluespellbook サブコマンド
+青魔法のアクティブアクションの設定を行う。
+&gt;&gt;サブコマンド
+set 青魔法名 on
+　…指定した青魔法をアクティブアクションに登録する。
+set 青魔法名 off
+　…指定した青魔法をアクティブアクションから解除する。
+preset アクティブセット番号(1-5)
+　…アクティブセットを指定した番号に置き換える。
+clear
+　…現在のアクティブセットのアクションを全解除する。
+※サブコマンド省略
+　…青魔道書を開く。
+
+実行例
+/bluespellbook set 水鉄砲
+　…青魔法「水鉄砲」をアクティブアクションに登録／解除する。
+/bluespellbook preset 2
+　…アクティブアクションをアクティブセット2に置き換える。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bluespellbook&lt;tab&gt;</target></trans-unit><trans-unit id="10" approved="yes"><source>10</source><target state="final">/magiaattack 代名詞
+マギアボードの属性を選択対象の「反属性」に切り替える。代名詞は省略可能。
+
+実行例
+/magiaattack &lt;t&gt;
+　…マギアボードをターゲット対象の反属性に切り替える。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/magiaattack&lt;tab&gt;</target></trans-unit><trans-unit id="11" approved="yes"><source>11</source><target state="final">/magiadefense 代名詞
+マギアボードの属性を選択対象と「同属性」に切り替える。代名詞は省略可能。
+
+実行例
+/magiadefense &lt;t&gt;
+　…マギアボードをターゲット対象の同属性に切り替える。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/magiadefense&lt;tab&gt;</target></trans-unit><trans-unit id="12" approved="yes"><source>12</source><target state="final">/magiaauto サブコマンド
+マギアボードの自動調整の設定を行う。自動調整が有効になっている場合、ターゲット選択を行った際、自動的にマギアボードの属性を切り替える。
+&gt;&gt;サブコマンド
+attack(atk)
+　…自動調整を「攻撃タイプ」にする。
+defense(def)
+　…自動調整を「防御タイプ」にする。
+off
+　…自動調整を解除する。
+※サブコマンド省略
+　…設定を順番に切り替える。
+
+実行例
+/magiaauto attack
+　…マギアボードを「攻撃タイプ」に自動調整する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/magiaauto&lt;tab&gt;</target></trans-unit><trans-unit id="13" approved="yes"><source>13</source><target state="final">/cwlinkshell1(/cwl1) 文章
+クロスワールドリンクシェル：チャンネル1に参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshell1のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル1に切り替え、アクティブにする。
+
+実行例
+/cwlinkshell1 こんにちは。
+　…クロスワールドリンクシェル：チャンネル1に「こんにちは。」という発言をする。
+/cwlinkshell1
+　…デフォルトの会話モードをCWLS-1に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell1&lt;tab&gt;/cwl1</target></trans-unit><trans-unit id="14" approved="yes"><source>14</source><target state="final">/cwlinkshell2(/cwl2) 文章
+クロスワールドリンクシェル：チャンネル2に参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshell2のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル2に切り替え、アクティブにする。
+
+実行例
+/cwlinkshell2 こんにちは。
+　…クロスワールドリンクシェル：チャンネル2に「こんにちは。」という発言をする。
+/cwlinkshell2
+　…デフォルトの会話モードをCWLS-2に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell2&lt;tab&gt;/cwl2</target></trans-unit><trans-unit id="15" approved="yes"><source>15</source><target state="final">/cwlinkshell3(/cwl3) 文章
+クロスワールドリンクシェル：チャンネル3に参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshell3のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル3に切り替え、アクティブにする。
+
+実行例
+/cwlinkshell3 こんにちは。
+　…クロスワールドリンクシェル：チャンネル3に「こんにちは。」という発言をする。
+/cwlinkshell3
+　…デフォルトの会話モードをCWLS-3に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell3&lt;tab&gt;/cwl3</target></trans-unit><trans-unit id="16" approved="yes"><source>16</source><target state="final">/cwlinkshell4(/cwl4) 文章
+クロスワールドリンクシェル：チャンネル4に参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshell4のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル4に切り替え、アクティブにする。
+
+実行例
+/cwlinkshell4 こんにちは。
+　…クロスワールドリンクシェル：チャンネル4に「こんにちは。」という発言をする。
+/cwlinkshell4
+　…デフォルトの会話モードをCWLS-4に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell4&lt;tab&gt;/cwl4</target></trans-unit><trans-unit id="17" approved="yes"><source>17</source><target state="final">/cwlinkshell5(/cwl5) 文章
+クロスワールドリンクシェル：チャンネル5に参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshell5のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル5に切り替え、アクティブにする。
+
+実行例
+/cwlinkshell5 こんにちは。
+　…クロスワールドリンクシェル：チャンネル5に「こんにちは。」という発言をする。
+/cwlinkshell5
+　…デフォルトの会話モードをCWLS-5に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell5&lt;tab&gt;/cwl5</target></trans-unit><trans-unit id="18" approved="yes"><source>18</source><target state="final">/cwlinkshell6(/cwl6) 文章
+クロスワールドリンクシェル：チャンネル6に参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshell6のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル6に切り替え、アクティブにする。
+
+実行例
+/cwlinkshell6 こんにちは。
+　…クロスワールドリンクシェル：チャンネル6に「こんにちは。」という発言をする。
+/cwlinkshell6
+　…デフォルトの会話モードをCWLS-6に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell6&lt;tab&gt;/cwl6</target></trans-unit><trans-unit id="19" approved="yes"><source>19</source><target state="final">/cwlinkshell7(/cwl7) 文章
+クロスワールドリンクシェル：チャンネル7に参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshell7のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル7に切り替え、アクティブにする。
+
+実行例
+/cwlinkshell7 こんにちは。
+　…クロスワールドリンクシェル：チャンネル7に「こんにちは。」という発言をする。
+/cwlinkshell7
+　…デフォルトの会話モードをCWLS-7に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell7&lt;tab&gt;/cwl7</target></trans-unit><trans-unit id="20" approved="yes"><source>20</source><target state="final">/cwlinkshell8(/cwl8) 文章
+クロスワールドリンクシェル：チャンネル8に参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshell8のみを入力した場合は、デフォルトの会話モードをクロスワールドリンクシェル：チャンネル8に切り替え、アクティブにする。
+
+実行例
+/cwlinkshell8 こんにちは。
+　…クロスワールドリンクシェル：チャンネル8に「こんにちは。」という発言をする。
+/cwlinkshell8
+　…デフォルトの会話モードをCWLS-8に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell8&lt;tab&gt;/cwl8</target></trans-unit><trans-unit id="21" approved="yes"><source>21</source><target state="final">/graphicpresets(/gpresets) プリセット番号
+グラフィック設定を指定したプリセットに切り替える。
+
+&gt;&gt;プリセット番号(1-5)
+&lt;var 08 E4E94F04 ((1:Standard (Mac)
+2:Middle (Mac)
+3:High (Mac)
+4:Extra-High (Mac)：64bitアプリのみ
+5:Maximum (Mac)：64bitアプリのみ
+
+実行例
+/graphicpresets 1
+　…グラフィック設定を「Standard (Mac)」に変更する。
+/graphicpresets 3
+　…グラフィック設定を「High (Mac)」に変更する。)) ((1:標準品質（ノートPC）
+2:標準品質（デスクトップPC）
+3:高品質（ノートPC）
+4:高品質（デスクトップPC）
+5:最高品質
+
+実行例
+/graphicpresets 1
+　…グラフィック設定を「標準品質（ノートPC）」に変更する。
+/graphicpresets 5
+　…グラフィック設定を「最高品質」に変更する。)) /var&gt;&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/graphicpresets&lt;tab&gt;/gpresets</target></trans-unit><trans-unit id="22" approved="yes"><source>22</source><target state="final">/fellowship(/fs)
+フェローシップリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fellowship&lt;tab&gt;/fs</target></trans-unit><trans-unit id="23" approved="yes"><source>23</source><target state="final">/fellowshipfinder(/fsfinder)
+フェローシップ募集のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fellowshipfinder&lt;tab&gt;/fsfinder</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">/collection(/coll)
+だいじなもののメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/collection&lt;tab&gt;/coll</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">/newgame+(/ng+)
+つよくてニューゲームのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/newgame+&lt;tab&gt;/ng+</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">/dice 会話モード 上限値
+0～999の数字の1つをランダムに抽選して、現在アクティブな会話モード、もしくは指定した会話モードに発言する。
+&gt;&gt;指定可能な会話モード
+party(p)
+alliance(al)
+freecompany(fc)
+pvpteam
+linkshell[1-8](l1-l8)
+cwlinkshell[1-8](cwl1-cwl8)
+会話モード指定を省略した場合、アクティブな会話モードにダイスメッセージを発言する。
+※マクロへの設定時は会話モードの省略はできない。
+
+&gt;&gt;上限値(2-999)
+ランダムな数字を抽選する際の上限値を指定する。上限値が指定された場合、値の範囲は「1～上限値」の範囲になる。省略した場合は「0～999」の範囲での抽選となる。
+
+実行例
+/dice
+　…アクティブな会話モードにダイスメッセージを発言する。
+/dice 16
+　…アクティブな会話モードに1～16の間でランダムな数字のダイスメッセージを発言する。
+/dice cwl1
+　…クロスワールドリンクシェル1にダイスメッセージを発言する。
+/dice cwl1 16
+　…クロスワールドリンクシェル1に1～16の間でランダムな数字のダイスメッセージを発言する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/dice&lt;tab&gt;</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">/nameplatetype 対象 設定番号
+PCの「ネームプレートの名前の表示タイプ」を設定する。
+&gt;&gt;対象
+all
+　…すべてのPC
+self
+　…自分
+party
+　…パーティメンバー
+alliance
+　…アライアンスメンバー
+other
+　…他人
+friend
+　…フレンド
+feast
+　…クリスタルコンフリクトの敵
+
+&gt;&gt;設定番号(1-4)
+1:フルネーム
+2:姓のみイニシャル
+3:名のみイニシャル
+4:姓名ともにイニシャル
+
+実行例
+/nameplatetype all 4
+　…「すべてのPC」の名前の表示タイプを「姓名ともにイニシャル」に設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/nameplatetype&lt;tab&gt;</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">/nameplatedisp 対象 設定番号
+PCの「ネームプレートの表示設定」を設定する。
+&gt;&gt;対象
+all
+　…すべてのPC
+self
+　…自分
+party
+　…パーティメンバー
+alliance
+　…アライアンスメンバー
+other
+　…他人
+friend
+　…フレンド
+feast
+　…クリスタルコンフリクトの敵
+
+&gt;&gt;設定番号(1-4)
+1:常に表示
+2:戦闘時
+3:ターゲット時
+4:表示しない
+
+実行例
+/nameplatedisp all 4
+　…「すべてのPC」のネームプレートの表示設定を「表示しない」に設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/nameplatedisp&lt;tab&gt;</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">/fashion “ファッションアクセサリー名”
+指定したファッションアクセサリーを実行する。
+
+実行例
+/fashion パラソル
+　…ファッションアクセサリー「パラソル」を実行する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fashion&lt;tab&gt;</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">/fashionlist(/fashionguide)
+ファッションアクセサリーのメニューを開く。&lt;tab&gt;/fashionlist&lt;tab&gt;&lt;tab&gt;/fashionguide&lt;tab&gt;</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">/officialsite(/site)
+公式Webサイトのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/officialsite&lt;tab&gt;/site</target></trans-unit><trans-unit id="32" approved="yes"><source>32</source><target state="final">//setGearset
+リアルイベント用コマンド。
+アーマリーチェスト内のアイテムをもとに、自動的にバトルジョブのギアセットを生成する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;//setGearset&lt;tab&gt;</target></trans-unit><trans-unit id="33" approved="yes"><source>33</source><target state="final">/petmirage(/egimirage) ペットの名前 見た目
+次以降に召喚するペットの見た目を変更する。
+ただし、PvPコンテンツ内では無効。
+&gt;&gt;ペットの名前
+カーバンクル
+ガルーダ・エギ
+タイタン・エギ
+イフリート・エギ
+フェアリー・エオス
+&gt;&gt;見た目
+カーバンクル
+カーバンクル・エメラルド
+カーバンクル・トパーズ
+カーバンクル・ルビー
+イフリート・エギ
+タイタン・エギ
+ガルーダ・エギ
+フェアリー・セレネ
+※設定ペット名省略(clear)
+　…ペットの見た目を元に戻す。
+※サブコマンド省略
+　…ペットの見た目の設定リストを出力する。
+
+実行例
+/petmirage ガルーダ・エギ カーバンクル・ルビー
+　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。
+/petmirage ガルーダ・エギ
+　…ガルーダ・エギの見た目を元に戻す。
+/petmirage
+　…ペットの見た目の設定リストを出力する。&lt;tab&gt;/petmirage&lt;tab&gt;&lt;tab&gt;/petmirage&lt;tab&gt;</target></trans-unit><trans-unit id="34" approved="yes"><source>34</source><target state="final">/petsize ペットの名前 サイズ
+特定のペットの表示サイズを変更する。
+ただし、PvPコンテンツ内では無効。
+また、自分のみ対象で他人には反映されない。
+
+&gt;&gt;ペットの名前
+デミ・バハムート
+デミ・フェニックス
+イフリート・ルビー
+タイタン・トパーズ
+ガルーダ・エメラルド
+all
+
+&gt;&gt;サイズ
+large
+　…表示サイズを『大』に変更する。
+medium
+　…表示サイズを『中』に変更する。
+small
+　…表示サイズを『小』に変更する。
+※サイズ省略
+　…設定を『小・中・大』の順に切り替える。対象がallの場合はエラーを返す。
+
+実行例
+/petsize デミ・バハムート medium
+　…デミ・バハムートの表示サイズを『中』に変更する。
+/petsize all small
+　…すべてのペットの表示サイズを『小』に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/petsize&lt;tab&gt;</target></trans-unit><trans-unit id="35" approved="yes"><source>35</source><target state="final">/ridepillion 代名詞 座席番号
+選択したパーティメンバーのマウントに相乗りする。
+
+&gt;&gt;座席番号(1-7)
+指定した番号の座席に相乗りをする。既に埋まっていた場合は空いている座席に座る。省略した場合は座席1への相乗りを試みる。
+
+実行例
+/ridepillion &lt;2&gt; 1
+　…識別番号2のパーティメンバーが乗るマウントの座席1に座る。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/ridepillion&lt;tab&gt;</target></trans-unit><trans-unit id="36" approved="yes"><source>36</source><target state="final">/patchnote
+公式Webサイト『Lodestone』内のパッチノートのページを開く。
+※ブラウザを起動します。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/patchnote&lt;tab&gt;</target></trans-unit><trans-unit id="37" approved="yes"><source>37</source><target state="final">/portrait
+ポートレートの編集メニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/portrait&lt;tab&gt;</target></trans-unit><trans-unit id="38" approved="yes"><source>38</source><target state="final">/adventurerplate(/myplate)
+自分のアドベンチャラープレートを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/adventurerplate&lt;tab&gt;/myplate</target></trans-unit><trans-unit id="39" approved="yes"><source>39</source><target state="final">/rclickpc サブコマンド
+キャラクターコンフィグ「右クリックでのPC選択を除外する」を設定する。
+&gt;&gt;サブコマンド
+on
+　…除外設定を有効にする。
+off
+　…除外設定を無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/rclickpc&lt;tab&gt;</target></trans-unit><trans-unit id="40" approved="yes"><source>40</source><target state="final">/rclickbattlenpc サブコマンド
+キャラクターコンフィグ「右クリックでの敵・味方NPC選択を除外する」を設定する。
+&gt;&gt;サブコマンド
+on
+　…除外設定を有効にする。
+off
+　…除外設定を無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/rclickbattlenpc&lt;tab&gt;</target></trans-unit><trans-unit id="41" approved="yes"><source>41</source><target state="final">/rclickminion サブコマンド
+キャラクターコンフィグ「右クリックでのミニオン選択を除外する」を設定する。
+&gt;&gt;サブコマンド
+on
+　…除外設定を有効にする。
+off
+　…除外設定を無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/rclickminion&lt;tab&gt;</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">/pvpteam(/pt) 文章
+PvPチームに参加中のPCに距離、エリアを問わず文章を送信する。
+/pvpteamのみを入力した場合は、デフォルトの会話モードをPvPTeamにする。
+
+実行例
+/pvpteam こんにちは。
+　…PvPチームに「こんにちは。」という発言をする。
+/pvpteam
+　…デフォルトの会話モードをPvPTeamに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pvpteam&lt;tab&gt;/pt</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">/cwlinkshell(/cwl) 文章
+アクティブなクロスワールドリンクシェルチャンネルに参加中のPCに距離、エリアを問わず文章を送信する。
+/cwlinkshellのみを入力した場合は、デフォルトの会話モードをアクティブなクロスワールドリンクシェルチャンネルに切り替える。
+
+実行例
+/cwlinkshell こんにちは。
+　…アクティブなクロスワールドリンクシェルチャンネルに「こんにちは。」という発言をする。
+/cwlinkshell
+　…デフォルトの会話モードをアクティブなCWLSに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell&lt;tab&gt;/cwl</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">/beginner(/b) 文章
+ビギナーチャンネルに参加中のPCに距離、エリアを問わず文章を送信する。
+/beginner(/b)のみを入力した場合は、デフォルトの会話モードをBeginnerにする。
+
+実行例
+/beginner こんにちは。
+　…ビギナーチャンネルに「こんにちは。」という発言をする。
+/beginner
+　…デフォルトの会話モードをBeginnerに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/beginner&lt;tab&gt;/b</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">/say(/s) 文章
+自分の周囲の狭い範囲にいる人に文章を送信する。 
+/say(/s)のみを入力した場合は、デフォルトの会話モードをSayに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/say&lt;tab&gt;/s</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">/shout(/sh) 文章
+自分が現在いるエリアで、エリアにいるPC全員へ文章を送信。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/shout&lt;tab&gt;/sh</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">/tell(/t) PC名@ワールド名 文章
+同一ワールド内の指定したPCに文章を送信する。
+他ワールドのPCにはフレンドかパーティ募集中のリーダーのみ送信が可能。
+/tell(/t) 相手のPC名@ワールド名のみを入力した場合は、デフォルトの会話モードを相手PCへのTellに変更する。
+
+実行例
+/tell Square Enix@World こんにちは。
+　…Worldワールド内のプレイヤーのSquare Enixに「こんにちは。」と送信する。
+&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/tell&lt;tab&gt;/t</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">/party(/p) 文章
+同じパーティメンバー全員に、距離、エリアを問わず文章を送信する。
+/party(/p)のみを入力した場合は、デフォルトの会話モードをPartyに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/party&lt;tab&gt;/p</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">/linkshell(/l) 文章
+現在設定中のカレントリンクシェルに属するPC全員に距離、エリアを問わず文章を送信する。
+/linkshell(/l)のみを入力した場合は、デフォルトの会話モードをLinkshellに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell&lt;tab&gt;/l</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">/linkshell1(/l1) 文章
+1番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell1&lt;tab&gt;/l1</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">/linkshell2(/l2) 文章
+2番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell2&lt;tab&gt;/l2</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">/linkshell3(/l3) 文章
+3番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell3&lt;tab&gt;/l3</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">/linkshell4(/l4) 文章
+4番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell4&lt;tab&gt;/l4</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">/linkshell5(/l5) 文章
+5番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell5&lt;tab&gt;/l5</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">/linkshell6(/l6) 文章
+6番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell6&lt;tab&gt;/l6</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">/linkshell7(/l7) 文章
+7番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell7&lt;tab&gt;/l7</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">/linkshell8(/l8) 文章
+8番目に登録されているリンクシェルに属するPCに距離、エリアを問わず文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshell8&lt;tab&gt;/l8</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">/freecompany(/fc) 文章
+自分が所属しているフリーカンパニーのメンバーであるPCに距離、エリアを問わず文章を送信する。
+/freecompany(/fc)のみを入力した場合は、デフォルトの会話モードをFreeCompanyに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/freecompany&lt;tab&gt;/fc</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">/echo(/e) 文章
+自分だけに見える文章を表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/echo&lt;tab&gt;/e</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">/yell(/y) 文章
+自分の周囲の広い範囲にいる人に文章を送信する。 
+/yell(/y)のみを入力した場合は、デフォルトの会話モードをYellに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/yell&lt;tab&gt;/y</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">/reply(/r) 文章
+最後に着信したTellの相手PCに文章を送信する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/reply&lt;tab&gt;/r</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">/alliance(/a) 文章
+同じアライアンスメンバー全員に、距離、エリアを問わず文章を送信する。
+/alliance(/a)のみを入力した場合は、デフォルトの会話モードをAllianceに変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/alliance&lt;tab&gt;/a</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">/join
+パーティへの招待を承諾する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/join&lt;tab&gt;</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">/decline
+パーティへの招待を辞退する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/decline&lt;tab&gt;</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">/invite 代名詞
+指定したPCをパーティに招待する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/invite&lt;tab&gt;</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">/kick 代名詞
+指定したPCをパーティから除外する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/kick&lt;tab&gt;</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">/leader 代名詞
+指定したPCへパーティリーダーを委譲する。代名詞を省略した場合、現在ターゲットしているPCを対象とする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/leader&lt;tab&gt;</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">/leave
+パーティから離脱する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/leave&lt;tab&gt;</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">/check(/c) 代名詞
+指定したPCを調べる。代名詞を省略した場合は、現在ターゲット中のPCを調べる。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/check&lt;tab&gt;/c</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">/trade 代名詞
+指定したPCにトレードを申し込む。代名詞を省略した場合は、現在ターゲットしているPCにトレードを申し込む。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/trade&lt;tab&gt;</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">/automove サブコマンド
+自動移動の設定を行う。
+&gt;&gt;サブコマンド
+on 
+　…自動移動を開始する。
+off 
+　…自動移動を解除する。
+※サブコマンド省略
+　…自動移動状態のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/automove&lt;tab&gt;</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">/follow 代名詞
+指定したPCを自動追尾する。代名詞を省略した場合は、現在ターゲットしているPCを自動追尾する。 &lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/follow&lt;tab&gt;</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">/meldrequest 代名詞
+指定したPCにマテリア装着依頼をする。代名詞を省略した場合は、現在ターゲットしているPCにマテリア装着依頼をする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/meldrequest&lt;tab&gt;</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">/character(/gear)
+キャラクターのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/character&lt;tab&gt;/gear</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">/journal
+ジャーナルのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/journal&lt;tab&gt;</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">/contentsfinder(/cfinder,/dutyfinder,/dfinder)
+コンテンツファインダーのメニューを開く。&lt;tab&gt;/contentsfinder&lt;tab&gt;/cfinder&lt;tab&gt;/dutyfinder&lt;tab&gt;/dfinder</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">/armourychest(/armoury)
+アーマリーチェストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/armourychest&lt;tab&gt;/armoury</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">/huntinglog(/hlog)
+討伐手帳のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/huntinglog&lt;tab&gt;/hlog</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">/craftinglog(/clog)
+製作手帳のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/craftinglog&lt;tab&gt;/clog</target></trans-unit><trans-unit id="147" approved="yes"><source>147</source><target state="final">/gatheringlog(/glog)
+採集手帳のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/gatheringlog&lt;tab&gt;/glog</target></trans-unit><trans-unit id="148" approved="yes"><source>148</source><target state="final">/fishinglog(/flog)
+釣り手帳のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fishinglog&lt;tab&gt;/flog</target></trans-unit><trans-unit id="149" approved="yes"><source>149</source><target state="final">/achievements
+アチーブメントリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/achievements&lt;tab&gt;</target></trans-unit><trans-unit id="150" approved="yes"><source>150</source><target state="final">/partycmd(/pcmd) サブコマンド
+パーティに関するコマンドを実行する。
+※クロスワールドパーティ中はメニュー表示、add指定のみ可能。
+&gt;&gt;サブコマンド
+add 代名詞
+　…指定したPCをパーティに招待する。
+join(accept)
+　…パーティへの招待を承諾する。
+decline(deny)
+　…パーティへの招待を辞退する。
+leader 代名詞
+　…指定したPCにリーダーを委譲する。
+leave
+　…現在加入しているパーティから離脱する。
+kick 代名詞
+　…指定したPCを強制離脱させる。
+breakup(disband)
+　…パーティを解散する。
+※サブコマンド省略
+　…ソーシャル（パーティメンバー）を開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/partycmd&lt;tab&gt;/pcmd</target></trans-unit><trans-unit id="151" approved="yes"><source>151</source><target state="final">/friendlist(/flist) サブコマンド
+フレンドリストに関するコマンドを実行する。
+&gt;&gt;サブコマンド
+add 代名詞
+　…指定したPCにフレンド申請をする。
+accept 代名詞
+　…指定したPCからのフレンド申請を承認する。
+deny 代名詞
+　…指定したPCからのフレンド申請を拒否する。
+remove 代名詞
+　…指定したPCをフレンドリストから外す。
+※サブコマンド省略
+　…フレンドリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/friendlist&lt;tab&gt;/flist</target></trans-unit><trans-unit id="152" approved="yes"><source>152</source><target state="final">/blacklist(/blist) サブコマンド
+ブラックリストに関するコマンドを実行する。
+&gt;&gt;サブコマンド
+add 代名詞
+　…指定したPCをブラックリストに登録する。
+remove 代名詞
+　…指定したPCをブラックリストから外す。
+※サブコマンド省略
+　…ブラックリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/blacklist&lt;tab&gt;/blist</target></trans-unit><trans-unit id="153" approved="yes"><source>153</source><target state="final">/search(/sea) 条件
+指定した条件でPCをサーチして、結果をPCサーチのメニューで表示する。
+&gt;&gt;条件（※順不同で複数指定可能。地名などの単語にスペースを含む場合はダブルコーテーションで囲む。）
+【PC名指定】
+name(名) PC名
+　…指定したPCの「名」で検索する。
+familyname(姓) PC姓
+　…指定したPCの「姓」で検索する。
+【オンラインステータスの指定】
+　…パーティリーダー(leader)　離席(away)　取り込み中(busy)　コンテンツ中(contents)　イベント中(event)　パーティ希望(lookingforparty)　マテリア装着請負中(lookingformeld)　パーティ募集中(recruitingparty)　ビギナー(beginner)　メンター(mentor)　バトルメンター(pvementor)　製作採集メンター(tradementor)　PvPメンター(pvpmentor)　ロールプレイ中(roleplay)　リターナー(returner)
+【クラス・ジョブ指定】
+　…ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
+　※省略した場合は全クラス・ジョブを対象。
+【レベル指定】
+　…数字　指定するとそのレベルを検索する。
+　　数字-数字　2つの数値をハイフンで区切って指定すると、その範囲のレベルを検索する。
+　※省略した場合、全レベルを対象とする。
+【所属グランドカンパニー指定】
+　…黒渦団　双蛇党　不滅隊
+【場所指定】
+　…ワールド全体　リムサ・ロミンサ　グリダニア　ウルダハ　ゴールドソーサー　ウルヴズジェイル　イシュガルド　イディルシャイア　クガネ　ラールガーズリーチ　クリスタリウム　ユールモア　オールドシャーレアン　ラザハン　ラノシア　黒衣森　ザナラーン　クルザス　モードゥナ　アバラシア　ドラヴァニア　ギラバニア　オサード　ノルヴラント　サベネア島　ガレマルド　ラヴィリンソス　その他エリア
+　※省略した場合、ワールド全体として検索する。
+【言語指定】
+　…日本語(JA)　英語(EN)　フランス語(FR)　ドイツ語(DE)
+　※省略した場合、現在使用している言語で検索。
+※すべての条件省略
+　…初期条件でPCサーチのメニューを開いて、結果を表示する。
+
+実行例
+/search GLA 20-30 ラノシア
+　…現在ラノシアにいる剣術士レベル20～30のPCを検索する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/search&lt;tab&gt;/sea</target></trans-unit><trans-unit id="154" approved="yes"><source>154</source><target state="final">/map
+マップのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/map&lt;tab&gt;</target></trans-unit><trans-unit id="155" approved="yes"><source>155</source><target state="final">/teleport
+テレポのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/teleport&lt;tab&gt;</target></trans-unit><trans-unit id="156" approved="yes"><source>156</source><target state="final">/marking(/mk) タイプ 代名詞
+指定したキャラクターに指定したタイプのマーカーを設定する。代名詞を省略した場合は、現在ターゲット中のキャラクターを指定する。
+&gt;&gt;タイプ
+攻撃1～8(attack1～8)
+　…攻撃1～8を設定。単に“攻撃”は未使用の一番小さい番号で攻撃を設定する。
+足止め1～3(bind1～3)
+　…足止め1～3を設定。単に“足止め”は未使用の一番小さい番号で足止めを設定する。
+禁止1～2(stop1～2)
+　…禁止1～2を設定。単に“禁止”は未使用の一番小さい番号で禁止を設定する。
+汎用シカク(square)
+　…汎用シカクを設定する。
+汎用マル(circle)
+　…汎用マルを設定する。
+汎用プラス(plus)
+　…汎用プラスを設定する。
+汎用サンカク(triangle)
+　…汎用サンカクを設定する。
+clear(off) 
+　…設定されたマーカーを解除する。
+※サブコマンド省略
+　…マーカーメニューを開く。
+
+実行例
+/marking 攻撃3 &lt;t&gt;
+　…選択した対象に「攻撃3」のマーカーを設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/marking&lt;tab&gt;/mk</target></trans-unit><trans-unit id="157" approved="yes"><source>157</source><target state="final">/actionlist(/alist)
+アクションリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/actionlist&lt;tab&gt;/alist</target></trans-unit><trans-unit id="158" approved="yes"><source>158</source><target state="final">/timers
+コンテンツ情報一覧のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/timers&lt;tab&gt;</target></trans-unit><trans-unit id="159" approved="yes"><source>159</source><target state="final">/recommended
+おすすめコンテンツのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/recommended&lt;tab&gt;</target></trans-unit><trans-unit id="160" approved="yes"><source>160</source><target state="final">/inventory(/bag)
+所持品のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/inventory&lt;tab&gt;/bag</target></trans-unit><trans-unit id="161" approved="yes"><source>161</source><target state="final">/freecompanycmd(/fccmd)
+フリーカンパニーのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/freecompanycmd&lt;tab&gt;/fccmd</target></trans-unit><trans-unit id="162" approved="yes"><source>162</source><target state="final">/linkshellcmd(/lcmd)
+リンクシェルのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkshellcmd&lt;tab&gt;/lcmd</target></trans-unit><trans-unit id="163" approved="yes"><source>163</source><target state="final">/return
+デジョンのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/return&lt;tab&gt;</target></trans-unit><trans-unit id="164" approved="yes"><source>164</source><target state="final">/emotelist(/elist)
+エモートリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/emotelist&lt;tab&gt;/elist</target></trans-unit><trans-unit id="165" approved="yes"><source>165</source><target state="final">/howtolist(/activehelp)
+HowToリストのメニューを開く。&lt;tab&gt;/howtolist&lt;tab&gt;&lt;tab&gt;/activehelp&lt;tab&gt;</target></trans-unit><trans-unit id="166" approved="yes"><source>166</source><target state="final">/supportdesk(/support)
+サポートデスクのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/supportdesk&lt;tab&gt;/support</target></trans-unit><trans-unit id="167" approved="yes"><source>167</source><target state="final">/characterconfig(/cconfig)
+キャラクターコンフィグのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/characterconfig&lt;tab&gt;/cconfig</target></trans-unit><trans-unit id="168" approved="yes"><source>168</source><target state="final">/systemconfig(/sconfig)
+システムコンフィグのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/systemconfig&lt;tab&gt;/sconfig</target></trans-unit><trans-unit id="169" approved="yes"><source>169</source><target state="final">/keybind(/keyconfig)
+キーバインドのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/keybind&lt;tab&gt;/keyconfig</target></trans-unit><trans-unit id="170" approved="yes"><source>170</source><target state="final">/macros
+マクロ管理のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/macros&lt;tab&gt;</target></trans-unit><trans-unit id="171" approved="yes"><source>171</source><target state="final">/hudlayout サブコマンド
+HUDレイアウトに関する操作を行う。
+&gt;&gt;サブコマンド
+“レイアウト番号(1-4)”
+　…指定番号のレイアウトに切り替える。
+※サブコマンド省略
+　…HUDレイアウトのメニューを開く。
+
+実行例
+/hudlayout 3
+　…レイアウト3に切り替える。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hudlayout&lt;tab&gt;</target></trans-unit><trans-unit id="172" approved="yes"><source>172</source><target state="final">/logout
+ログアウトして、タイトル画面へ戻る。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/logout&lt;tab&gt;</target></trans-unit><trans-unit id="173" approved="yes"><source>173</source><target state="final">/shutdown
+ログアウトして、ゲームを終了する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/shutdown&lt;tab&gt;</target></trans-unit><trans-unit id="174" approved="yes"><source>174</source><target state="final">/partysort(/psort) サブコマンド
+パーティリストを指定した順番に並び替える。
+&gt;&gt;サブコマンド
+番号1 番号2
+　…指定したパーティ番号(2-8)のメンバーを入れ替える。
+※サブコマンド省略
+　…キャラクターコンフィグ＞ユーザーインターフェース設定＞パーティリスト＞パーティリストの並び順設定で設定された順番に並び替える。
+
+実行例
+/partysort 2 3
+　…パーティリストの2番目と3番目のメンバーを入れ替える。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/partysort&lt;tab&gt;/psort</target></trans-unit><trans-unit id="175" approved="yes"><source>175</source><target state="final">/readycheck(/rcheck)
+レディチェックを開始する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/readycheck&lt;tab&gt;/rcheck</target></trans-unit><trans-unit id="176" approved="yes"><source>176</source><target state="final">/readyok(/rok,/ready,/rd)
+レディチェックが行われている場合、「OK」と回答する。&lt;tab&gt;/readyok&lt;tab&gt;/rok&lt;tab&gt;/ready&lt;tab&gt;/rd</target></trans-unit><trans-unit id="177" approved="yes"><source>177</source><target state="final">/readyng(/rng,/notready,/nr)
+レディチェックが行われている場合、「NG」と回答する。&lt;tab&gt;/readyng&lt;tab&gt;/rng&lt;tab&gt;/notready&lt;tab&gt;/nr</target></trans-unit><trans-unit id="178" approved="yes"><source>178</source><target state="final">/fieldmarking(/fmk,/waymark,/wmark) サブコマンド
+フィールドマーカーを設置する。
+
+&gt;&gt;サブコマンド
+“マーカー名(A,B,C,D,1,2,3,4)”
+　…マーカーを設置する。設置済みの場合は解除し、代名詞指定の場合は上書きする。
+“マーカー名(A,B,C,D,1,2,3,4)” 代名詞
+　…マーカーを指定対象の足元に直接設置する。
+“マーカー名(A,B,C,D,1,2,3,4)” gtoff
+　…マーカーを現在のカーソル位置に直接設置する
+clear(off)
+　…マーカーをすべて解除する。
+save スロット番号(1-30)
+　…設置状態のマーカー情報を保存する。
+preset スロット番号(1-30)
+　…保存されたマーカー情報を復元する。
+※マーカー名省略
+　…Aから順番に、未使用のマーカーを設置する。すべてのマーカーが設置済みの場合は使用できない。代名詞が指定されている場合は、マーカー名は省略できない。
+
+実行例
+/fieldmarking A
+　…「マーカーA」を設置するグラウンドターゲットモードを起動する。
+/fieldmarking A &lt;t&gt;
+　…「マーカーA」を選択した対象の位置に設置する。
+/fieldmarking A gtoff
+　…「マーカーA」を現在のカーソル位置に設置する。&lt;tab&gt;/fieldmarking&lt;tab&gt;/fmk&lt;tab&gt;/waymark&lt;tab&gt;/wmark</target></trans-unit><trans-unit id="179" approved="yes"><source>179</source><target state="final">/fishguide(/fg)
+魚類図鑑のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fishguide&lt;tab&gt;/fg</target></trans-unit><trans-unit id="180" approved="yes"><source>180</source><target state="final">/housing(/hou)
+ハウジングのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/housing&lt;tab&gt;/hou</target></trans-unit><trans-unit id="181" approved="yes"><source>181</source><target state="final">/minionlist(/minionguide)
+ミニオンリストのメニューを開く。ロード・オブ・ヴァーミニオン対戦中はLoVMリストを開く。&lt;tab&gt;/minionlist&lt;tab&gt;&lt;tab&gt;/minionguide&lt;tab&gt;</target></trans-unit><trans-unit id="182" approved="yes"><source>182</source><target state="final">/mountlist(/mountguide)
+マウントリストのメニューを開く。&lt;tab&gt;/mountlist&lt;tab&gt;&lt;tab&gt;/mountguide&lt;tab&gt;</target></trans-unit><trans-unit id="183" approved="yes"><source>183</source><target state="final">/partyfinder(/pfinder)
+パーティ募集のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/partyfinder&lt;tab&gt;/pfinder</target></trans-unit><trans-unit id="184" approved="yes"><source>184</source><target state="final">/pvpprofile(/pvppro)
+PvPプロフィールのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pvpprofile&lt;tab&gt;/pvppro</target></trans-unit><trans-unit id="185" approved="yes"><source>185</source><target state="final">/buddy(/companion,/comp)
+バディのメニューを開く。&lt;tab&gt;/buddy&lt;tab&gt;&lt;tab&gt;/companion&lt;tab&gt;/comp</target></trans-unit><trans-unit id="186" approved="yes"><source>186</source><target state="final">/eventitem(/eitem,/keyitem,/kitem)
+イベントアイテムのメニューを開く。&lt;tab&gt;/eventitem&lt;tab&gt;/eitem&lt;tab&gt;/keyitem&lt;tab&gt;/kitem</target></trans-unit><trans-unit id="187" approved="yes"><source>187</source><target state="final">/challengelog
+攻略手帳のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/challengelog&lt;tab&gt;</target></trans-unit><trans-unit id="188" approved="yes"><source>188</source><target state="final">/sightseeinglog
+探検手帳のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sightseeinglog&lt;tab&gt;</target></trans-unit><trans-unit id="189" approved="yes"><source>189</source><target state="final">/goldsaucer(/saucer)
+ゴールドソーサーのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/goldsaucer&lt;tab&gt;/saucer</target></trans-unit><trans-unit id="190" approved="yes"><source>190</source><target state="final">/currency
+通貨リストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/currency&lt;tab&gt;</target></trans-unit><trans-unit id="191" approved="yes"><source>191</source><target state="final">/aethercurrent(/acurrent)
+風脈の泉交感情報のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/aethercurrent&lt;tab&gt;/acurrent</target></trans-unit><trans-unit id="192" approved="yes"><source>192</source><target state="final">/logcolor(/lcolor)
+ログカラー設定のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/logcolor&lt;tab&gt;/lcolor</target></trans-unit><trans-unit id="193" approved="yes"><source>193</source><target state="final">/playguide(/pguide)
+プレイガイドメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/playguide&lt;tab&gt;/pguide</target></trans-unit><trans-unit id="194" approved="yes"><source>194</source><target state="final">/contentskey(/generaldutykey,/gdutykey)
+コンテンツ汎用キーを実行する。
+
+実行例
+F.A.T.E.範囲内
+　…レベルシンクの切り替え。&lt;tab&gt;/contentskey&lt;tab&gt;&lt;tab&gt;/generaldutykey&lt;tab&gt;/gdutykey</target></trans-unit><trans-unit id="195" approved="yes"><source>195</source><target state="final">/raidfinder(/rfinder)
+レイドファインダーのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/raidfinder&lt;tab&gt;/rfinder</target></trans-unit><trans-unit id="196" approved="yes"><source>196</source><target state="final">/orchestrion
+オーケストリオン譜面帳を開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/orchestrion&lt;tab&gt;</target></trans-unit><trans-unit id="197" approved="yes"><source>197</source><target state="final">/countdown(/cd) サブコマンド
+戦闘開始カウントの操作を行う。
+&gt;&gt;サブコマンド
+“秒数(5-30)”
+　…指定した時間で戦闘開始カウントを実行する。テキストコマンドからの実行の場合、指定秒数の保存は行わず、5秒毎のログへの通知メッセージも表示しない。
+※サブコマンド省略
+　…戦闘開始カウントのメニューを開く。
+
+実行例
+/countdown 10
+　…10秒指定で戦闘開始カウントを実行する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/countdown&lt;tab&gt;/cd</target></trans-unit><trans-unit id="198" approved="yes"><source>198</source><target state="final">/contactlist
+コンタクトリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/contactlist&lt;tab&gt;</target></trans-unit><trans-unit id="199" approved="yes"><source>199</source><target state="final">/mountspeed
+マウントスピードのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mountspeed&lt;tab&gt;</target></trans-unit><trans-unit id="201" approved="yes"><source>201</source><target state="final">/? コマンド名
+指定したコマンドの説明文を表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/?&lt;tab&gt;</target></trans-unit><trans-unit id="202" approved="yes"><source>202</source><target state="final">/wait 時間
+マクロ専用。指定した時間だけマクロの実行を一時停止する。時間「1」は、約1秒に相当する。整数のみ指定可能。最大で60で、それを超える値は60とみなされる。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/wait&lt;tab&gt;</target></trans-unit><trans-unit id="204" approved="yes"><source>204</source><target state="final">/legacymark(/lmark) サブコマンド
+自分に十二神の印を表示するかを設定する。
+&gt;&gt;サブコマンド
+on 
+　…十二神の印を表示する。
+off 
+　…十二神の印を表示しない。
+※サブコマンド省略
+　…表示状態のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/legacymark&lt;tab&gt;/lmark</target></trans-unit><trans-unit id="206" approved="yes"><source>206</source><target state="final">/gcsalute サブコマンド
+所属グランドカンパニーの敬礼をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/gcsalute&lt;tab&gt;</target></trans-unit><trans-unit id="207" approved="yes"><source>207</source><target state="final">/macroicon(/micon) アイコン名 カテゴリー名
+マクロ専用。指定したアイコン名をホットバー上のアイコンとして表示する。同じマクロ内に2回以上、このコマンドが使われている場合、最初の指定のみが有効になる。
+&gt;&gt;カテゴリー名
+action
+　…アイコン名に、アクション名を指定すると、そのアイコンとリキャスト時間や消費MPの情報を表示する。
+blueaction
+　…アイコン名に青魔法名を指定すると、そのアイコンとリキャスト時間や消費MPの情報を表示する。
+pvpaction
+　…アイコン名に、PvPアクション名を指定すると、そのアイコンとリキャスト時間や消費MPの情報を表示する。
+general
+　…アイコン名に、ジェネラルアクション名を指定すると、そのアイコンとリキャスト時間を表示する。
+emote
+　…アイコン名に、エモート名を指定すると、そのアイコンを表示する。
+buddy バディ名
+　…アイコン名に、バディアクション名を指定すると、そのアイコンを表示する。バディ名は省略可能。
+pet
+　…アイコン名に、ペットアクション名を指定すると、そのアイコンを表示する。
+minion
+　…アイコン名に、ミニオン名を指定すると、そのアイコンを表示する。
+mount
+　…アイコン名に、マウント名を指定すると、そのアイコンを表示する。
+item
+　…アイコン名に、自分が所持しているアイテム名を指定すると、そのアイコンと所持数を表示する。
+marking
+　…アイコン名に、マーカー名を指定すると、そのアイコンを表示する。
+fieldmarking(waymark)
+　…アイコン名に、フィールドマーカー名を指定すると、そのアイコンを表示する。
+gearset
+　…アイコン名に、ギアセット番号を指定すると、そのアイコンを表示する。
+classjob
+　…アイコン名に、クラス・ジョブ名を指定すると、そのアイコンを表示する。
+quickchat
+　…アイコン名に、クイックチャット名を指定すると、そのアイコンを表示する。
+※カテゴリー省略
+　…アクション（action）のカテゴリーとして扱う。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/macroicon&lt;tab&gt;/micon</target></trans-unit><trans-unit id="208" approved="yes"><source>208</source><target state="final">/recast “アクション名”
+指定したアクションが使用可能になるまでの残り時間をログに表示する。
+
+実行例
+/recast エーテルフロー
+　…「エーテルフロー」の再使用可能までの時間を表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/recast&lt;tab&gt;</target></trans-unit><trans-unit id="209" approved="yes"><source>209</source><target state="final">/gearset(/gs) サブコマンド
+ギアセットに関する操作を行う。
+&gt;&gt;サブコマンド
+change ギアセット名／番号 ミラージュプレート番号(1-20)
+　…指定したギアセットに保存した装備に変更する。ミラージュプレートの設定がされていたらあわせて投影する。ミラージュプレート番号は省略可能。
+view ギアセット名／番号
+　…指定したギアセットに保存した装備アイテムのリストを表示する。
+save ギアセット名／番号
+　…指定したギアセットに、現在の装備アイテムを保存する。ギアセット名／番号を省略した場合は、未登録で最も小さいギアセット番号に保存する。登録済みのギアセット番号を指定した場合は上書きで保存する。
+delete ギアセット名／番号
+　…指定したギアセットの情報を削除する。装備アイテム自体は削除されない。
+※サブコマンド省略
+　…ギアセットリストを開く。
+※ギアセット名は前方一致で指定が可能。ギアセット番号が若い順に検索をかけて一致したギアセットを対象とする。
+
+実行例
+/gearset change 1 1
+　…ギアセット1に装備変更し、ミラージュプレート1を投影する。
+/gearset change 戦士 1
+　…「戦士」と記載のあるギアセットに変更し、ミラージュプレート1を投影する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/gearset&lt;tab&gt;/gs</target></trans-unit><trans-unit id="210" approved="yes"><source>210</source><target state="final">/itemsort(/isort) サブコマンド
+所持品などのアイテムを「せいとん」よりも、さらに細かく並び替えの条件を設定して、アイテムの並び替えを実行する。このコマンドで設定した条件は、通常の「せいとん」には影響せず、このコマンドでのアイテムの並び替え実行のみに影響する。
+
+&gt;&gt;サブコマンド
+condition 対象 条件 順
+　…指定した対象内で、指定した順でアイテム並び替え条件を設定する。
+execute 対象
+　…指定した対象内で、設定した条件にしたがって、アイテム並び替えを実行する。
+clear 対象
+　…指定した対象内に設定したアイテム並び替え条件なしにする。この状態でアイテム並び替えを実行しても条件がないので動作しない。
+
+&gt;&gt;対象指定
+所持品(inventory) リテイナー所持品(retainer) アーマリーチェスト(armourychest) チョコボかばん(saddlebag) チョコボかばん2(rightsaddlebag) メインアーム(main) サブアーム(sub) 頭(head) 胴(body) 手(hands) 脚(legs) 足(feet) 首(neck) 耳(ears) 腕(wrists) 指(rings) ソウルクリスタル(soul)
+※リテイナー所持品およびチョコボかばんは該当画面を開いている時のみ実行可能。
+
+&gt;&gt;条件指定
+アイテムID(id) 錬精度(spiritbond) アイテムカテゴリー(category) 装備レベル(level) アイテムレベル(itemlevel) スタック数(stack) HQ付き(hq) マテリア数(materia) 物理基本性能(physicaldamage) 魔法基本性能(magicdamage) 攻撃間隔(delay) 物理オートアタック(physicalautoattack) ブロック発動力(blockrate) ブロック性能(blockstrength) 物理防御力(defense) 魔法防御力(magicdefense) STR DEX VIT INT MND 作業精度(craftsmanship) 加工精度(control) 獲得力(gathering) 技術力(perception) block(tab)
+※block(tab)は収納ブロックごとに配分を指定。
+
+&gt;&gt;順指定
+昇順(asc) 降順(des)
+※省略した場合は昇順として扱う。
+※条件指定が「block(tab)」の場合は指定不要。
+
+実行例
+/itemsort condition メインアーム 錬精度 昇順
+/itemsort condition メインアーム アイテムレベル 降順
+/itemsort execute メインアーム
+　…メインアームの並び替えの条件を、錬精度で昇順、アイテムレベルで降順にする設定で並び替えを実行する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/itemsort&lt;tab&gt;/isort</target></trans-unit><trans-unit id="211" approved="yes"><source>211</source><target state="final">/random 上限値
+0～999の数字の1つをランダムに抽選して、ログに表示する。この表示はSayの範囲のPCに届く。
+&gt;&gt;上限値(2-999)
+ランダムな数字を抽選する際の上限値を指定する。上限値が指定された場合、値の範囲は「1～上限値」の範囲になる。省略した場合は「0～999」の範囲での抽選となる。
+
+実行例
+/random
+　…0～999の間でランダムな数字のダイスメッセージを発言する。
+/random 16
+　…1～16の間でランダムな数字のダイスメッセージを発言する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/random&lt;tab&gt;</target></trans-unit><trans-unit id="212" approved="yes"><source>212</source><target state="final">/instance
+自分が現在いるエリアがインスタンスエリアかどうかをログに表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/instance&lt;tab&gt;</target></trans-unit><trans-unit id="213" approved="yes"><source>213</source><target state="final">/cleartellhistory(/cth)
+Tellのリプライをする宛先履歴を全件消去する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cleartellhistory&lt;tab&gt;/cth</target></trans-unit><trans-unit id="214" approved="yes"><source>214</source><target state="final">/macrolock(/mlock)
+マクロ専用。これを実行した行以降、マクロの実行が終わるまで、他のマクロの実行を禁止する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/macrolock&lt;tab&gt;/mlock</target></trans-unit><trans-unit id="215" approved="yes"><source>215</source><target state="final">/macroerror(/merror) サブコマンド
+マクロ専用。テキストコマンドの記述の間違いなどで発生するエラー表示の状態を設定する。マクロ実行開始時は表示する状態。マクロ実行終了後、非表示にする状態であっても、自動的に表示する状態へ戻る。
+サブコマンド
+on 
+　…エラーを表示する。
+off 
+　…エラーを非表示にする。
+※サブコマンド省略
+　…エラー表示状態のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/macroerror&lt;tab&gt;/merror</target></trans-unit><trans-unit id="216" approved="yes"><source>216</source><target state="final">/clearlog(/cl)
+ログの内容をすべて消去する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/clearlog&lt;tab&gt;/cl</target></trans-unit><trans-unit id="217" approved="yes"><source>217</source><target state="final">/macrocancel(/mcancel)
+チャット入力欄からの実行専用。実行中のマクロを停止する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/macrocancel&lt;tab&gt;/mcancel</target></trans-unit><trans-unit id="218" approved="yes"><source>218</source><target state="final">/playtime(/ptime)
+現在のキャラクターの累積プレイ時間を表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/playtime&lt;tab&gt;/ptime</target></trans-unit><trans-unit id="219" approved="yes"><source>219</source><target state="final">/grouppose(/gpose)
+グループポーズ（フォトモード）を実行する。
+
+&gt;&gt;機能内操作
+カメラ設定ウィンドウの表示
+　…&lt;var 1E 0B /var&gt;／【&lt;var 08 E4E94F04 ((r)) ((R)) /var&gt;】キー、テンキー【*】／ホイールボタン
+カメラ方向への視線送りON/OFF
+　…&lt;var 1E 0C /var&gt;／【&lt;var 08 E4E94F04 ((space)) ((Space)) /var&gt;】キー
+カメラ位置に照明を設置
+　…&lt;var 1E 0E /var&gt;／【&lt;var 08 E4E94F04 ((x)) ((X)) /var&gt;】キー
+モーションストップ（全体）
+　…&lt;var 1E 0F /var&gt;／【1】キー
+モーションストップ（選択対象）
+　…&lt;var 1E 10 /var&gt;／【2】キー
+注視キャラクターの切り替え
+　…&lt;var 1E 07 /var&gt;／【&lt;var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var&gt;】キー
+カメラの操作
+　…&lt;var 1E 15 /var&gt;／【&lt;var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var&gt;】キー
+カメラリセット
+　…&lt;var 12 11 /var&gt;／【&lt;var 08 E4E94F04 ((z)) ((Z)) /var&gt;】キー &lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/grouppose&lt;tab&gt;/gpose</target></trans-unit><trans-unit id="220" approved="yes"><source>220</source><target state="final">/itemsearch(/isearch) 文章
+入力された文章から所持品検索を実行する。チャット入力欄からの実行専用。
+検索の対象は装備中のアイテム、所持品、アーマリーチェスト、チョコボかばん、リテイナー所持品、リテイナー装備品、愛蔵品キャビネット、ミラージュドレッサー。
+
+実行例
+/itemsearch ポーション
+　…所持品に「ポーション」が含まれるアイテムがあるか検索する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/itemsearch&lt;tab&gt;/isearch</target></trans-unit><trans-unit id="221" approved="yes"><source>221</source><target state="final">/idlingcamera(/icam) 代名詞
+景観カメラを実行する。
+代名詞は省略可能。
+代名詞を指定した場合は、被写体を指定したキャラクターに絞ってカメラアングルを切り替える。指定したキャラクターが被写体指定できない対象だった場合は被写体をランダムに選択する。
+
+&gt;&gt;機能内操作
+カメラ設定ウィンドウの表示
+　…&lt;var 1E 0B /var&gt;／【&lt;var 08 E4E94F04 ((r)) ((R)) /var&gt;】キー、テンキー【*】／ホイールボタン
+カメラアングル切り替え一時停止・再開
+　…&lt;var 1E 09 /var&gt;／テンキー【0】／左クリック 
+シーンスキップ
+　…&lt;var 1E 07 /var&gt;／【&lt;var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var&gt;】キー
+カメラの操作
+　…&lt;var 1E 15 /var&gt;／【&lt;var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var&gt;】キー
+カメラリセット
+　…&lt;var 12 11 /var&gt;／【&lt;var 08 E4E94F04 ((z)) ((Z)) /var&gt;】キー
+
+実行例
+/idlingcamera
+　…被写体をランダムに選択して実行する。
+/idlingcamera &lt;t&gt;
+　…被写体を指定した対象に絞って実行する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/idlingcamera&lt;tab&gt;/icam</target></trans-unit><trans-unit id="223" approved="yes"><source>223</source><target state="final">/duelswitch サブコマンド
+デュエル申請の受付設定を変更する。
+本設定はデュエル申請可能エリアでのみ有効。
+&gt;&gt;サブコマンド
+on
+　…デュエルの申請を強制的に断る。
+off
+　…デュエルの申請を受け付ける。
+※サブコマンド省略
+　…設定のスイッチ切り替え。
+
+実行例
+/duelswitch on
+　…デュエルの申請を強制的に断る。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/duelswitch&lt;tab&gt;</target></trans-unit><trans-unit id="224" approved="yes"><source>224</source><target state="final">/beginnerchannelinvitation(/bchannelinvitation) サブコマンド
+ビギナーチャンネル勧誘の受付設定を変更する。
+&gt;&gt;サブコマンド
+on
+　…勧誘を受け付ける。
+off
+　…勧誘を自動で断る。
+※サブコマンド省略
+　…設定のスイッチ切り替え。
+
+実行例
+/beginnerchannelinvitation on
+　…勧誘を受け付ける。&lt;tab&gt;/beginnerchannelinvitation&lt;tab&gt;/bchannelinvitation&lt;tab&gt;/beginnerchannelinvitation&lt;tab&gt;/bchannelinvitation</target></trans-unit><trans-unit id="225" approved="yes"><source>225</source><target state="final">/beginnerchannelleave(/bchannelleave)
+ビギナーチャンネルから退室する。
+※ビギナー・リターナー専用。&lt;tab&gt;/beginnerchannelleave&lt;tab&gt;/bchannelleave&lt;tab&gt;/beginnerchannelleave&lt;tab&gt;/bchannelleave</target></trans-unit><trans-unit id="226" approved="yes"><source>226</source><target state="final">/egimirage(/petmirage) ペットの名前 見た目
+次以降に召喚するペットの見た目を変更する。
+ただし、PvPコンテンツ内では無効。
+&gt;&gt;ペットの名前
+カーバンクル
+ガルーダ・エギ
+タイタン・エギ
+イフリート・エギ
+フェアリー・エオス
+&gt;&gt;見た目
+カーバンクル
+カーバンクル・エメラルド
+カーバンクル・トパーズ
+カーバンクル・ルビー
+イフリート・エギ
+タイタン・エギ
+ガルーダ・エギ
+フェアリー・セレネ
+※設定ペット名省略(clear)
+　…ペットの見た目を元に戻す。
+※サブコマンド省略
+　…ペットの見た目の設定リストを出力する。
+
+実行例
+/egimirage ガルーダ・エギ カーバンクル・ルビー
+　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。
+/egimirage ガルーダ・エギ
+　…ガルーダ・エギの見た目を元に戻す。
+/egimirage
+　…ペットの見た目の設定リストを出力する。&lt;tab&gt;/egimirage&lt;tab&gt;&lt;tab&gt;/egiglamour&lt;tab&gt;</target></trans-unit><trans-unit id="227" approved="yes"><source>227</source><target state="final">/title サブコマンド
+称号を変更する。
+&gt;&gt;サブコマンド
+set “称号名”
+　…設定した称号に切り替える。
+clear
+　…称号を解除する。
+※サブコマンド省略
+　…取得済みの称号をランダムで設定する。
+
+実行例
+/title set "Heart of the Party"
+　…称号を『Heart of the Party』に切り替える。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/title&lt;tab&gt;</target></trans-unit><trans-unit id="228" approved="yes"><source>228</source><target state="final">/bahamutsize
+デミ・バハムートの表示サイズを変更できると信じられていた機能。
+※本コマンドは/petsizeに統合されたため、今後はそちらをご利用ください。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bahamutsize&lt;tab&gt;</target></trans-unit><trans-unit id="229" approved="yes"><source>229</source><target state="final">/alarm サブコマンド
+アラームの設定をする。
+&gt;&gt;サブコマンド
+"アラーム名" 時間タイプ(lt,st,et) repeat(rp) 時間(0000-2400) 何分前(0-60)
+　…指定した時間で再生されるアラームを設定する。repeat(rp)を設定した場合は毎時繰り返しアラームを実行する。「repeat(rp)」および「何分前」は省略可能。
+clear
+　…設定中のアラームを全削除する。
+※サブコマンド省略
+　…アラーム画面を開く。
+
+&gt;&gt;時間タイプ
+lt ローカル時間
+st サーバー時間
+et エオルゼア時間
+
+実行例
+/alarm "集合時間" lt 2000 10
+　…ローカル時間の20時の10分前に実行する「集合時間」のアラームを設定する。
+/alarm "休憩" lt rp 30
+　…ローカル時間の毎時30分に実行する「休憩」のアラームを設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/alarm&lt;tab&gt;</target></trans-unit><trans-unit id="231" approved="yes"><source>231</source><target state="final">/busy サブコマンド
+オンラインステータスを「取り込み中(Busy)」に設定する。
+&gt;&gt;サブコマンド
+on 
+　…「取り込み中(Busy)」にする。
+off 
+　…「オンライン」にする。
+※サブコマンド省略
+　…「取り込み中(Busy)」と「オンライン」のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/busy&lt;tab&gt;</target></trans-unit><trans-unit id="232" approved="yes"><source>232</source><target state="final">/away(/afk) サブコマンド
+オンラインステータスを「離席」に設定する。
+&gt;&gt;サブコマンド
+on 
+　…「離席」にする
+off 
+　…「オンライン」にする
+※サブコマンド省略
+　…「離席」と「オンライン」のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/away&lt;tab&gt;/afk</target></trans-unit><trans-unit id="233" approved="yes"><source>233</source><target state="final">/lookingforparty(/lfp) サブコマンド クラス・ジョブ
+指定したクラス・ジョブで、オンラインステータスを「パーティ希望」に設定する。
+&gt;&gt;サブコマンド
+on 
+　…「パーティ希望」にする
+off 
+　…「オンライン」にする
+※サブコマンド省略
+　…「パーティ希望」と「オンライン」のスイッチ切り替え。
+&gt;&gt;クラス・ジョブ（※順不同で複数指定可能）
+剣術士(GLA)　格闘士(PGL)　斧術士(MRD)　槍術士(LNC)　弓術士(ARC)　双剣士(ROG)　幻術士(CNJ)　呪術士(THM)　巴術士(ACN)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)　ナイト(PLD)　モンク(MNK)　戦士(WAR)　竜騎士(DRG)　吟遊詩人(BRD)　忍者(NIN)　白魔道士(WHM)　黒魔道士(BLM)　召喚士(SMN)　学者(SCH)　暗黒騎士(DRK)　機工士(MCH)　占星術師(AST)　侍(SAM)　赤魔道士(RDM)　青魔道士(BLU)　ガンブレイカー(GNB)　踊り子(DNC)　賢者(SGE)　リーパー(RPR)
+※省略した場合は、現在のクラス・ジョブを指定。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lookingforparty&lt;tab&gt;/lfp</target></trans-unit><trans-unit id="234" approved="yes"><source>234</source><target state="final">/lookingformeld(/lfm) サブコマンド
+オンラインステータスを「マテリア装着請負中」に設定する。
+&gt;&gt;サブコマンド
+on 
+　…「装着請負中」にする
+off 
+　…「オンライン」にする
+指定なし
+※サブコマンド省略
+　…「マテリア装着請負中」と「オンライン」のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lookingformeld&lt;tab&gt;/lfm</target></trans-unit><trans-unit id="235" approved="yes"><source>235</source><target state="final">/searchcomment(/scomment) 文章
+指定した文章をサーチコメントとして設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/searchcomment&lt;tab&gt;/scomment</target></trans-unit><trans-unit id="236" approved="yes"><source>236</source><target state="final">/beginnerstatus(/bstatus) サブコマンド
+ビギナーステータスを変更する。
+&gt;&gt;サブコマンド
+on
+　…ビギナーステータスを有効にする。
+off
+　…ビギナーステータスを解除する。
+※サブコマンド省略
+　…ビギナーステータスのスイッチ切り替え。
+
+実行例
+/beginnerstatus on
+　…ビギナーステータスを有効にする。
+&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/beginnerstatus&lt;tab&gt;/bstatus</target></trans-unit><trans-unit id="237" approved="yes"><source>237</source><target state="final">/beginnerchannel(/bchannel) サブコマンド
+メンターのビギナーチャンネルへの自動参加設定を変更する。
+&gt;&gt;サブコマンド
+on
+　…自動参加設定を有効にし、ビギナーチャンネルへの参加を試みる。
+off
+　…自動参加設定を解除し、ビギナーチャンネルに参加している場合は退出する。
+※サブコマンド省略
+　…自動参加設定のスイッチ切り替え。
+
+実行例
+/beginnerchannel on
+　…自動参加設定を有効にする。
+&lt;tab&gt;/beginnerchannel&lt;tab&gt;/bchannel&lt;tab&gt;/beginnerchannel&lt;tab&gt;/bchannel</target></trans-unit><trans-unit id="238" approved="yes"><source>238</source><target state="final">/returnerstatusoff
+リターナーステータスを無効にする。&lt;tab&gt;/returnerstatusoff&lt;tab&gt;&lt;tab&gt;/returnerstatusoff&lt;tab&gt;</target></trans-unit><trans-unit id="239" approved="yes"><source>239</source><target state="final">/roleplaying サブコマンド
+オンラインステータスを「ロールプレイ中」に設定する。
+&gt;&gt;サブコマンド
+on
+　…「ロールプレイ中」にする。
+off
+　…「オンライン」にする。
+※サブコマンド省略
+　…「ロールプレイ中」と「オンライン」のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/roleplaying&lt;tab&gt;</target></trans-unit><trans-unit id="251" approved="yes"><source>251</source><target state="final">/action(/ac) “アクション名” 代名詞
+指定したキャラクターに指定したアクションを実行する。アクションが行えない環境のとき、あるいは覚えていないアクションのときは実行できない。
+
+グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
+代名詞
+　…グラウンドターゲットモードをスキップして指定した対象に向けてグラウンドターゲットアクションを直接実行する。
+gtoff
+　…グラウンドターゲットモードをスキップしてアクションを直接実行する。
+
+実行例
+/action ヘヴィスウィング &lt;t&gt;
+　…選択した対象に「ヘヴィスウィング」を実行する。
+/action ケアル &lt;2&gt;
+　…パーティリストの2番目のPCに「ケアル」を実行する。
+/action 縮地 &lt;t&gt;
+　…選択した対象の位置に「縮地」を実行する。
+/action 縮地 gtoff
+　…カーソルの位置に対して「縮地」を直接実行する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/action&lt;tab&gt;/ac</target></trans-unit><trans-unit id="252" approved="yes"><source>252</source><target state="final">/battlemode(/bm) サブコマンド
+武器を納刀／抜刀する。
+&gt;&gt;サブコマンド
+on 
+　…武器を抜刀する。
+off 
+　…武器を納刀する。
+※サブコマンド省略
+　…武器の納刀／抜刀をスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/battlemode&lt;tab&gt;/bm</target></trans-unit><trans-unit id="253" approved="yes"><source>253</source><target state="final">/target(/ta) 代名詞
+指定したキャラクターをターゲットする。一定範囲に存在しない場合はターゲットできない。
+
+実行例
+/target &lt;2&gt;
+　…パーティリストの2番目のPCをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/target&lt;tab&gt;/ta</target></trans-unit><trans-unit id="254" approved="yes"><source>254</source><target state="final">/targetpc(/tpc)
+ターゲット可能範囲にいるPCで、一番近い位置にいるPCをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetpc&lt;tab&gt;/tpc</target></trans-unit><trans-unit id="255" approved="yes"><source>255</source><target state="final">/targetnpc(/tnpc)
+ターゲット可能範囲にいるNPCで、一番近い位置にいるキャラクターをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetnpc&lt;tab&gt;/tnpc</target></trans-unit><trans-unit id="256" approved="yes"><source>256</source><target state="final">/targetenemy(/tenemy)
+ターゲット可能範囲にいる敵で、一番近い位置にいるキャラクターをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetenemy&lt;tab&gt;/tenemy</target></trans-unit><trans-unit id="257" approved="yes"><source>257</source><target state="final">/battletarget(/bt)
+自分を敵視している敵で、一番近い位置にいるキャラクターをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/battletarget&lt;tab&gt;/bt</target></trans-unit><trans-unit id="258" approved="yes"><source>258</source><target state="final">/assist(/as) 代名詞
+指定したキャラクターが現在ターゲットしているキャラクターを、自分のターゲットにする。
+
+実行例
+/assist &lt;t&gt;
+　…選択中の対象がターゲットしている対象をターゲットする。
+/assist &lt;2&gt;
+　…パーティリストの2番目のPCがターゲットしている対象をターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/assist&lt;tab&gt;/as</target></trans-unit><trans-unit id="259" approved="yes"><source>259</source><target state="final">/facetarget(/ft)
+自分の向いている方向を、ターゲットしているキャラクターへ向ける。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/facetarget&lt;tab&gt;/ft</target></trans-unit><trans-unit id="260" approved="yes"><source>260</source><target state="final">/nexttarget(/nt)
+自分から画面右側の敵を順番にターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/nexttarget&lt;tab&gt;/nt</target></trans-unit><trans-unit id="261" approved="yes"><source>261</source><target state="final">/previoustarget
+自分から画面左側の敵を順番にターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/previoustarget&lt;tab&gt;</target></trans-unit><trans-unit id="262" approved="yes"><source>262</source><target state="final">/targetlasttarget(/tlt)
+最後にターゲットしたキャラクターをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetlasttarget&lt;tab&gt;/tlt</target></trans-unit><trans-unit id="263" approved="yes"><source>263</source><target state="final">/targetlastenemy(/tle)
+最後にターゲットした敵をターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetlastenemy&lt;tab&gt;/tle</target></trans-unit><trans-unit id="264" approved="yes"><source>264</source><target state="final">/lockon(/lo) サブコマンド
+ターゲットしているキャラクターをロックオン／ロックオン解除する。
+&gt;&gt;サブコマンド
+on 
+　…ロックオンを設定する。
+off 
+　…ロックオンを解除する。
+※サブコマンド省略
+　…ロックオンの設定／解除をスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lockon&lt;tab&gt;/lo</target></trans-unit><trans-unit id="265" approved="yes"><source>265</source><target state="final">/focustarget 代名詞
+指定したキャラクターをフォーカスターゲットする。代名詞を省略した場合は、ターゲットしたキャラクターをフォーカスターゲットにする。
+
+実行例
+/focustarget &lt;t&gt;
+　…選択した対象をフォーカスターゲットに設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/focustarget&lt;tab&gt;</target></trans-unit><trans-unit id="267" approved="yes"><source>267</source><target state="final">/petaction(/pac) “ペットアクション名” 代名詞
+指定したキャラクターに指定したペットアクションを実行する。自分、またはペットを対象にできるアクションの場合は、代名詞を省略可能。ペットアクションが行えない環境のとき、ペットアクション以外を指定したとき、あるいは修得していないペットアクションのときは実行できない。
+
+実行例
+/petaction ピース
+　…ペットに「ピース」の命令をする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/petaction&lt;tab&gt;/pac</target></trans-unit><trans-unit id="268" approved="yes"><source>268</source><target state="final">/buddyaction(/bac,/companionaction,/cac) “バディアクション名”
+指定したバディアクションを実行する。バディアクションは対象のキャラクターの指定が不要。バディアクションが行えない環境のとき、バディアクション以外を指定したとき、あるいは修得していないバディアクションのときは実行できない。
+
+実行例
+/buddyaction フリーファイト
+　…バディに「フリーファイト」の命令をする。&lt;tab&gt;/buddyaction&lt;tab&gt;/bac&lt;tab&gt;/companionaction&lt;tab&gt;/cac</target></trans-unit><trans-unit id="269" approved="yes"><source>269</source><target state="final">/facecamera(/fcam)
+カメラ目線をし続ける。もう一度実行すると解除する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/facecamera&lt;tab&gt;/fcam</target></trans-unit><trans-unit id="270" approved="yes"><source>270</source><target state="final">/levelsync(/lsync) サブコマンド
+F.A.T.E.などのコンテンツで、レベルシンク可能な状況のとき、レベルシンクを実行する。
+&gt;&gt;サブコマンド
+on 
+　…レベルシンクを実行する。
+off 
+　…レベルシンクを解除する。
+※サブコマンド省略
+　…レベルシンクの実行／解除をスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/levelsync&lt;tab&gt;/lsync</target></trans-unit><trans-unit id="271" approved="yes"><source>271</source><target state="final">/mount “マウント名”
+指定したマウントに騎乗する。
+騎乗中の場合は、騎乗を止める。マウント名を省略した場合も、騎乗を止める。飛行中の場合は、急降下を実行する。
+
+実行例
+/mount マイチョコボ
+　…マウント「マイチョコボ」に騎乗する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mount&lt;tab&gt;</target></trans-unit><trans-unit id="272" approved="yes"><source>272</source><target state="final">/additionalaction(/aaction)
+アディショナルアクションを設定できると信じられていた機能。
+※システム改修により現在は利用できません。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/additionalaction&lt;tab&gt;/aaction</target></trans-unit><trans-unit id="273" approved="yes"><source>273</source><target state="final">/generalaction(/gaction) “ジェネラルアクション名” 代名詞
+指定したキャラクターに指定したジェネラルアクションを実行する。ジェネラルアクションが行えない環境のとき、あるいは覚えていないジェネラルアクションのときは実行できない。
+
+グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
+代名詞
+　…グラウンドターゲットモードをスキップして指定した対象に向けてグラウンドターゲットアクションを直接実行する。
+gtoff
+　…グラウンドターゲットモードをスキップしてアクションを直接実行する。
+
+実行例
+/generalaction マウント・ルーレット
+　…「マウント・ルーレット」を実行する。
+/generalaction コンテンツアクション1 &lt;t&gt;
+　…選択した対象に「コンテンツアクション1」を実行する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/generalaction&lt;tab&gt;/gaction</target></trans-unit><trans-unit id="274" approved="yes"><source>274</source><target state="final">/minion “ミニオン名”
+指定したミニオンを呼び出す。すでに呼び出しているミニオンを指定した場合、またはミニオン名を省略した場合、そのミニオンを帰す。
+
+実行例
+/minion チョコチョコボ
+　…ミニオン「チョコチョコボ」を呼び出す。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/minion&lt;tab&gt;</target></trans-unit><trans-unit id="275" approved="yes"><source>275</source><target state="final">/statusoff “バフステータス名”
+指定したバフステータスを解除する。
+
+実行例
+/statusoff 捨身
+　…バフステータス「捨身」を解除する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/statusoff&lt;tab&gt;</target></trans-unit><trans-unit id="276" approved="yes"><source>276</source><target state="final">/addpvpaction(/apa) 
+PvPアディショナルアクションを設定できると信じられていた機能。
+※システム改修により現在は利用できません。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/addpvpaction&lt;tab&gt;/apa</target></trans-unit><trans-unit id="277" approved="yes"><source>277</source><target state="final">/pvpaction(/pvpac) “PvPアクション名” 代名詞
+指定したキャラクターに指定したPvPアクションを実行する。アクションが行えない環境のとき、あるいは修得していないアクションのときは実行できない。
+
+グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
+代名詞
+　…グラウンドターゲットモードをスキップして指定した対象に向けてグラウンドターゲットアクションを直接実行する。
+gtoff
+　…グラウンドターゲットモードをスキップしてアクションを直接実行する。
+
+実行例
+/pvpaction コンボ：シュトルムヴィント &lt;t&gt;
+　…選択した対象に「コンボ」アクションを実行する。
+/pvpaction 縮地 &lt;t&gt;
+　…選択した対象の位置に「縮地」を実行する。
+/pvpaction 縮地 gtoff
+　…カーソルの位置に対して「縮地」を直接実行する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pvpaction&lt;tab&gt;/pvpac</target></trans-unit><trans-unit id="279" approved="yes"><source>279</source><target state="final">/blueaction “青魔法名” 代名詞
+指定したキャラクターに指定した青魔法を実行する。アクションが行えない環境のとき、あるいはラーニングしていないアクションのときは実行できない。
+
+グラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。
+代名詞
+　…グラウンドターゲットモードをスキップして指定した対象に向けてグラウンドターゲットアクションを直接実行する。
+gtoff
+　…グラウンドターゲットモードをスキップしてアクションを直接実行する。
+
+実行例
+/blueaction 水鉄砲 &lt;t&gt;
+　…選択した対象に「水鉄砲」を実行する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/blueaction&lt;tab&gt;</target></trans-unit><trans-unit id="301" approved="yes"><source>301</source><target state="final">/autolockon サブコマンド
+キャラクターコンフィグ「オートアタック開始時に自動ロックオンを有効にする」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/autolockon&lt;tab&gt;</target></trans-unit><trans-unit id="302" approved="yes"><source>302</source><target state="final">/autofacetarget サブコマンド
+キャラクターコンフィグ「アクション実行時にフェイスターゲットを実行する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/autofacetarget&lt;tab&gt;</target></trans-unit><trans-unit id="303" approved="yes"><source>303</source><target state="final">/targetring サブコマンド
+キャラクターコンフィグ「ターゲットリングを表示する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetring&lt;tab&gt;</target></trans-unit><trans-unit id="304" approved="yes"><source>304</source><target state="final">/targetline サブコマンド
+キャラクターコンフィグ「ターゲットラインを表示する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetline&lt;tab&gt;</target></trans-unit><trans-unit id="305" approved="yes"><source>305</source><target state="final">/linkline サブコマンド
+キャラクターコンフィグ「リンクラインを表示する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkline&lt;tab&gt;</target></trans-unit><trans-unit id="306" approved="yes"><source>306</source><target state="final">/autotarget サブコマンド
+キャラクターコンフィグ「敵対アクションを実行された時に実行対象を自動選択する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/autotarget&lt;tab&gt;</target></trans-unit><trans-unit id="307" approved="yes"><source>307</source><target state="final">/displayhead サブコマンド
+キャラクターコンフィグ「自分の頭装備を表示する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/displayhead&lt;tab&gt;</target></trans-unit><trans-unit id="308" approved="yes"><source>308</source><target state="final">/displayarms サブコマンド
+キャラクターコンフィグ「納刀時にメイン＆サブアームを表示する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/displayarms&lt;tab&gt;</target></trans-unit><trans-unit id="309" approved="yes"><source>309</source><target state="final">/autosheathe(/ashathe) サブコマンド
+キャラクターコンフィグ「メインアームの自動納刀を有効にする」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/autosheathe&lt;tab&gt;/ashathe</target></trans-unit><trans-unit id="310" approved="yes"><source>310</source><target state="final">/targetself サブコマンド
+キャラクターコンフィグ「自分をクリックして選択することを有効にする」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetself&lt;tab&gt;</target></trans-unit><trans-unit id="311" approved="yes"><source>311</source><target state="final">/groundclick サブコマンド
+キャラクターコンフィグ「フィールドをクリックしてターゲットキャンセルを有効にする」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/groundclick&lt;tab&gt;</target></trans-unit><trans-unit id="312" approved="yes"><source>312</source><target state="final">/chatlog サブコマンド
+キャラクターコンフィグのチャットログ設定関連を設定する。
+&gt;&gt;サブコマンド
+name 数値(0～3)
+　…チャットログの名前の表示タイプ設定を変更する。
+　　0 フルネーム／1 姓のみイニシャル／2 名のみイニシャル／3 姓名ともにイニシャル
+fontsize タブ番号 フォントサイズ
+　…指定したタブ番号のチャットログを、指定したフォントサイズに変更する。
+time タブ番号 on
+　…指定したタブ番号のチャットログに、タイムスタンプを表示する。
+time タブ番号 off
+　…指定したタブ番号のチャットログから、タイムスタンプを非表示にする。
+time タブ番号
+　…指定したタブ番号のチャットログに対して、タイムスタンプの表示／非表示のスイッチ切り替え。
+time 12
+　…時間表示を12時間制にする。
+time 24
+　…時間表示を24時間制にする。
+time local
+　…ローカル環境のシステムが保持している時間を基準とした表示に切り替える。
+time server
+　…サーバー側の時間を基準とした表示に切り替える。
+call チャットチャンネル名 on
+　…指定チャットチャンネルへ着信時にSEを鳴らす。チャットチャンネル名を省略した場合、Tellとして扱う。
+call チャットチャンネル名 off
+　…指定チャットチャンネルへ着信時にSEを鳴らさない。チャットチャンネル名を省略した場合、Tellとして扱う。
+call チャットチャンネル名 SE番号
+　…指定チャットチャンネルへ着信時のSEを、指定SE番号に変更する。チャットチャンネル名を省略した場合、Tellとして扱う。
+call チャットチャンネル名
+　…指定したチャットチャンネルへ着信時にSEを鳴らす／鳴らさないのスイッチ切り替え。チャットチャンネル名を省略した場合、Tellとして扱う。
+【チャットチャンネル名指定】
+　…自分へのエモート(emote) Tell(t) パーティ(party,p) アライアンス(alliance,al) フリーカンパニー(freecompany,fc) PvPチーム(pvpteam) リンクシェル1～8(linkshell1～8,l1～8) ビギナー(beginner) クロスワールドリンクシェル(cwlinkshell1～8,cwl1～8)&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/chatlog&lt;tab&gt;</target></trans-unit><trans-unit id="313" approved="yes"><source>313</source><target state="final">/battleeffect 対象 タイプ
+キャラクターコンフィグ「バトルエフェクト設定」を設定する。
+&gt;&gt;対象
+self
+　…「自分」を対象に設定する。
+party
+　…「パーティメンバー」を対象に設定する。
+other
+　…「他人」を対象に設定する。
+enemypc
+　…「PvP時の敵PC」を対象に設定する。
+&gt;&gt;タイプ
+all
+　…「すべて表示」に設定する。
+simple
+　…「簡易表示」に設定する。
+off 
+　…「表示しない」に設定する。
+※タイプ指定省略
+　…「すべて表示」と「表示しない」のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/battleeffect&lt;tab&gt;</target></trans-unit><trans-unit id="314" approved="yes"><source>314</source><target state="final">/hud “HUD名” サブコマンド
+指定したHUDの表示／非表示を設定する。
+&gt;&gt;HUD名
+ターゲット情報(TargetInfo,target)
+ターゲット情報：HPバー(TargetInfo:HP)
+ターゲット情報：キャストバー(TargetInfo:CastBar)
+ターゲット情報：バフ・デバフ(TargetInfo:Status)
+フォーカスターゲット情報(FocusTarget,focus)
+パーティリスト(PartyList,party)
+敵対リスト(EnemyList,enemy)
+キャラクターパラメータ(MyParam,param)
+ナビマップ(NaviMap,navi)
+メインコマンド(MainCommand,main)
+基本情報(GeneralInfo,dtr)
+所持金(CurrencyStatus,gil)
+装備・所持品サイン(ItemSign,bag)
+目的リスト/コンテンツ情報(ToDoList,todo)
+アイテム詳細(ItemHelp,item)
+アクション詳細(ActionHelp,action)
+リミットゲージ(LimitBreak,limit)
+経験値バー(ExpBar,exp)
+バフ・デバフステータス情報(BuffDebuffStatus,buff)
+ステータス情報：バフ(Status:Buff)
+ステータス情報：トリガー(Status:Trigger)
+ステータス情報：デバフ(Status:Debuff)
+ステータス情報：その他バフ(Status:Other)
+アライアンスリスト1(AllianceList1,alist1)
+アライアンスリスト2(AllianceList2,alist2)
+ホットバー 1～10(Hotbar1～10)
+EXホットバー(HotbarEx)
+クロスホットバー(Crosshotbar)
+メインクエストガイド(ScenarioGuide)
+高圧エーテル(CompressedAether)
+クリスタルコンフリクト：プログレスゲージ(CConflict:Progress)
+クリスタルコンフリクト：味方チーム情報(CConflict:Ally)
+クリスタルコンフリクト：敵チーム情報(CConflict:Enemy)
+クリスタルコンフリクト：バトルログ(CConflict:Log)
+クリスタルコンフリクト：マップ(CConflict:Map)
+フロントライン：戦意ゲージ(Frontline:BattleGauge)
+フロントライン：スコア情報(Frontline:Score)
+ライバルウィングズ：タワー・コアゲージ(RivalWings:Gauge)
+ライバルウィングズ：アライアンスリスト(RivalWings:Alliance)
+ライバルウィングズ：ステーション情報(RivalWings:Station)
+ライバルウィングズ：ゴブリン・マーシナリー情報(RivalWings:Mercenary)
+
+&gt;&gt;サブコマンド
+on 
+　…HUDを表示する。
+off 
+　…HUDを非表示にする。
+※サブコマンド省略
+　…表示／非表示のスイッチ切り替え。
+
+実行例
+/hud 基本情報
+　…基本情報の表示／非表示を切り替える。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hud&lt;tab&gt;</target></trans-unit><trans-unit id="315" approved="yes"><source>315</source><target state="final">/hotbar サブコマンド
+ホットバーを操作、設定する。PvEエリアでのみ実行可能。
+&gt;&gt;サブコマンド
+set(action) “アクション名” 番号1 番号2
+　…指定したアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1に“current”を指定した場合、現在ホットバー1に表示されているセットを示す。番号2を省略した場合、最も小さい番号の空きスロットにセットする。番号1、番号2を省略した場合、最も小さい番号のホットバーの最も小さい空きスロットにセットする。
+blueaction “青魔法名” 番号1 番号2
+　…指定した青魔法を指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+general “ジェネラルアクション名” 番号1 番号2
+　…指定したジェネラルアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+item “アイテム名” 番号1 番号2
+　…指定したアイテムを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+emote “エモートアクション名” 番号1 番号2
+　…指定したエモートアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+buddy “バディアクション名” 番号1 番号2
+　…指定したバディアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+pet “ペットアクション名” 番号1 番号2
+　…指定したペットアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+minion “ミニオン名” 番号1 番号2
+　…指定したミニオンを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+mount “マウント名” 番号1 番号2
+　…指定したマウントを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+marking “マーカー名” 番号1 番号2
+　…指定したマーカーを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+fieldmarking(waymark) “フィールドマーカー名” 番号1 番号2
+　…指定したフィールドマーカーを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+change 番号
+　…ホットバー1を指定した番号のホットバーに切り替える。番号に“next”もしくは“prev”を指定した場合、現在のホットバー1に表示されているホットバーセットの次もしくは前のセットを示す。
+copy クラス・ジョブ名1 番号1 クラス・ジョブ名2 番号2
+　…クラス・ジョブ1のホットバー番号1の内容を、クラス・ジョブ2のホットバー番号2に上書きコピーする。クラス・ジョブ名に“current”を指定した場合、現在のクラス・ジョブを指定する。クラス・ジョブ名に“share”を指定した場合、共有ホットバーを指定する。
+display 番号 on
+　…指定した番号のホットバーを表示する。
+display 番号 off
+　…指定した番号のホットバーを非表示にする。
+display 番号
+　…指定した番号のホットバーの表示／非表示のスイッチ切り替え。
+share 番号 on
+　…指定した番号のホットバーを共有ホットバーに切り替える。
+share 番号 off
+　…指定した番号のホットバーを共有ホットバーから、現在のクラス・ジョブのホットバーに切り替える。
+share 番号
+　…指定した番号のホットバーを現在クラス・ジョブ／共有ホットバーのスイッチ切り替え。
+remove 番号1 番号2
+　…指定した番号1のホットバーの指定した番号2のスロットにセットされたアクションやマクロなどを解除して、空のスロットにする。番号2を“all”で指定した場合、すべてのスロットを解除する。
+
+実行例
+/hotbar set マウント・ルーレット 1 1
+　…ホットバーセット1のスロット1に「マウント・ルーレット」を設定する。
+/hotbar change 2
+　…ホットバー1にセット2の内容を表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hotbar&lt;tab&gt;</target></trans-unit><trans-unit id="316" approved="yes"><source>316</source><target state="final">/crosshotbar(/chotbar,/xhb) サブコマンド
+クロスホットバーセットを操作、設定する。PvEエリアでのみ実行可能。
+&gt;&gt;サブコマンド
+set(action) “アクション名” セット番号 スロット名
+　…指定したアクションを指定したクロスホットバーの指定したスロットにセットする。セット番号に“current”を指定した場合、現在表示されているセット番号を示す。
+blueaction “青魔法名” セット番号 スロット名
+　…指定した青魔法を指定したクロスホットバーの指定したスロットにセットする。
+general “ジェネラルアクション名” セット番号 スロット名
+　…指定したジェネラルアクションを指定したクロスホットバーの指定したスロットにセットする。
+item “アイテム名” セット番号 スロット名
+　…指定したアイテムを指定したクロスホットバーの指定したスロットにセットする。
+emote “エモートアクション名” セット番号 スロット名
+　…指定したエモートアクションを指定したクロスホットバーの指定したスロットにセットする。
+buddy “バディアクション名” セット番号 スロット名
+　…指定したバディアクションを指定したクロスホットバーの指定したスロットにセットする。
+pet “ペットアクション名” セット番号 スロット名
+　…指定したペットアクションを指定したクロスホットバーの指定したスロットにセットする。
+minion “ミニオン名” セット番号 スロット名
+　…指定したミニオンを指定したクロスホットバーの指定したスロットにセットする。
+mount “マウント名” セット番号 スロット名
+　…指定したマウントを指定したクロスホットバーの指定したスロットにセットする。
+marking “マーカー名” セット番号 スロット名
+　…指定したマーカーを指定したクロスホットバーの指定したスロットにセットする。
+fieldmarking(waymark) “フィールドマーカー名” セット番号 スロット名
+　…指定したフィールドマーカーを指定したクロスホットバーの指定したスロットにセットする。
+change 番号
+　…指定した番号のクロスホットバーに切り替える。番号に“next”もしくは“prev”を指定した場合、現在表示されているセット番号の次もしくは前のセット番号を示す。
+copy クラス・ジョブ名1 セット番号1 クラス・ジョブ名2 セット番号2
+　…クラス・ジョブ1のクロスホットバーのセット番号1の内容を、クラス・ジョブ2のクロスホットバーのセット番号2に上書きコピーする。クラス・ジョブ名に“current”を指定した場合、現在のクラス・ジョブを指定する。クラス・ジョブ名に“share”を指定した場合、共有クロスホットバーを指定する。
+share セット番号 on
+　…指定したセット番号のクロスホットバーを共有クロスホットバーに切り替える。
+share セット番号 off
+　…指定したセット番号のクロスホットバーを共有クロスホットバーから、現在のクラス・ジョブのクロスホットバーに切り替える。
+share セット番号
+　…指定したセット番号のクロスホットバーを現在のクラス・ジョブ／共有クロスホットバーのスイッチ切り替え。
+remove セット番号 スロット名
+　…指定したセット番号のクロスホットバーの指定したスロットにセットされたアクションやマクロなどを解除して、空のスロットにする。スロット名に“all”で指定した場合、すべてのスロットを解除する。
+&gt;&gt;スロット名の指定
+&lt;var 12 0F /var&gt;＋&lt;var 12 04 /var&gt; … LDL(LD1)　&lt;var 12 10 /var&gt;＋&lt;var 12 04 /var&gt; … RDL(RD1)
+&lt;var 12 0F /var&gt;＋&lt;var 12 02 /var&gt; … LDU(LD2)　&lt;var 12 10 /var&gt;＋&lt;var 12 02 /var&gt; … RDU(RD2)
+&lt;var 12 0F /var&gt;＋&lt;var 12 05 /var&gt; … LDR(LD3)　&lt;var 12 10 /var&gt;＋&lt;var 12 05 /var&gt; … RDR(RD3)
+&lt;var 12 0F /var&gt;＋&lt;var 12 03 /var&gt; … LDD(LD4)　&lt;var 12 10 /var&gt;＋&lt;var 12 03 /var&gt; … RDD(RD4)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0B /var&gt; … LAL(LA1)　&lt;var 12 10 /var&gt;＋&lt;var 12 0B /var&gt; … RAL(RA1)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0C /var&gt; … LAU(LA2)　&lt;var 12 10 /var&gt;＋&lt;var 12 0C /var&gt; … RAU(RA2)
+&lt;var 12 0F /var&gt;＋&lt;var 12 09 /var&gt; … LAR(LA3)　&lt;var 12 10 /var&gt;＋&lt;var 12 09 /var&gt; … RAR(RA3)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0A /var&gt; … LAD(LA4)　&lt;var 12 10 /var&gt;＋&lt;var 12 0A /var&gt; … RAD(RA4)&lt;tab&gt;&lt;tab&gt;/xhb&lt;tab&gt;/crosshotbar&lt;tab&gt;/chotbar</target></trans-unit><trans-unit id="317" approved="yes"><source>317</source><target state="final">/hudreset
+現在のレイアウトのHUDの位置と拡大率と透過度を初期化する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hudreset&lt;tab&gt;</target></trans-unit><trans-unit id="318" approved="yes"><source>318</source><target state="final">/uireset
+すべてのHUDレイアウト(1-4)とウィンドウの位置と拡大率と透過度を初期化する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/uireset&lt;tab&gt;</target></trans-unit><trans-unit id="319" approved="yes"><source>319</source><target state="final">/uiscale サブコマンド
+現在のレイアウトのHUDとウィンドウの拡大率を変更する。
+&gt;&gt;サブコマンド
+数値
+　…指定した数値のパーセンテージで拡大率を変更する。数値は60/80/90/100/110/120/140で指定可能。
+reset
+　…HUDとウィンドウの拡大率を初期化する。
+
+実行例
+/uiscale 140
+　…HUDとウィンドウの拡大率を140%に変更する。
+/uiscale reset
+　…HUDとウィンドウの拡大率を初期化する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/uiscale&lt;tab&gt;</target></trans-unit><trans-unit id="320" approved="yes"><source>320</source><target state="final">/actionerror(/aerror) サブコマンド
+キャラクターコンフィグ「アクション実行時のスクリーンエラーを表示する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/actionerror&lt;tab&gt;/aerror</target></trans-unit><trans-unit id="321" approved="yes"><source>321</source><target state="final">/recasterror(/rerror) サブコマンド
+キャラクターコンフィグ「アクション実行時のリキャストエラーを表示する」を設定する。
+&gt;&gt;サブコマンド
+on 
+　…有効にする。
+off 
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/recasterror&lt;tab&gt;/rerror</target></trans-unit><trans-unit id="322" approved="yes"><source>322</source><target state="final">//eventReset
+リアルイベント用コマンド。
+ゲーム内の設定をリアルイベント用に初期化する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;//eventReset&lt;tab&gt;</target></trans-unit><trans-unit id="323" approved="yes"><source>323</source><target state="final">/crosshotbartype(/chotbartype)  サブコマンド
+キャラクターコンフィグ「クロスホットバー操作タイプ設定」を設定する。
+&gt;&gt;サブコマンド
+hold
+　…操作タイプをホールドにする。
+toggle
+　…操作タイプをトグルにする。
+mix
+　…操作タイプをミックスにする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/crosshotbartype&lt;tab&gt;/chotbartype</target></trans-unit><trans-unit id="324" approved="yes"><source>324</source><target state="final">/crosshotbardisplay(/chotbardisplay) サブコマンド
+キャラクターコンフィグ「クロスホットバーを常時表示する」を設定する。
+&gt;&gt;サブコマンド
+on
+　…常時表示を有効にする。
+off
+　…常時表示を無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/crosshotbardisplay&lt;tab&gt;/chotbardisplay</target></trans-unit><trans-unit id="325" approved="yes"><source>325</source><target state="final">/pvphotbar サブコマンド
+PvP専用ホットバーを操作、設定する。PvPエリアでのみ実行可能。
+&gt;&gt;サブコマンド
+set(action) “PvPアクション名” 番号1 番号2
+　…指定したPvPアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1に“current”を指定した場合、現在ホットバー1に表示されているセットを示す。番号2を省略した場合、最も小さい番号の空きスロットにセットする。番号1、番号2を省略した場合、最も小さい番号のホットバーの最も小さい空きスロットにセットする。
+general “ジェネラルアクション名” 番号1 番号2
+　…指定したジェネラルアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+item “アイテム名” 番号1 番号2
+　…指定したアイテムを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+emote “エモートアクション名” 番号1 番号2
+　…指定したエモートアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+buddy “バディアクション名” 番号1 番号2
+　…指定したバディアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+pet “ペットアクション名” 番号1 番号2
+　…指定したペットアクションを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+minion “ミニオン名” 番号1 番号2
+　…指定したミニオンを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+mount “マウント名” 番号1 番号2
+　…指定したマウントを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+marking “マーカー名” 番号1 番号2
+　…指定したマーカーを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+fieldmarking(waymark) “フィールドマーカー名” 番号1 番号2
+　…指定したフィールドマーカーを指定した番号1のホットバーの指定した番号2のスロットにセットする。番号1と番号2の指定方法は“set”と同じ。
+change 番号
+　…ホットバー1を指定した番号のホットバーに切り替える。番号に“next”もしくは“prev”を指定した場合、現在のホットバー1に表示されているホットバーセットの次もしくは前のセットを示す。
+copy ジョブ名1 番号1 ジョブ名2 番号2
+　…ジョブ1のホットバー番号1の内容を、ジョブ2のホットバー番号2に上書きコピーする。ジョブ名に“current”を指定した場合、現在のジョブを指定する。ジョブ名に“share”を指定した場合、共有ホットバーを指定する。
+display 番号 on
+　…指定した番号のホットバーを表示する。
+display 番号 off
+　…指定した番号のホットバーを非表示にする。
+display 番号
+　…指定した番号のホットバーの表示／非表示のスイッチ切り替え。
+share 番号 on
+　…指定した番号のホットバーを共有ホットバーに切り替える。
+share 番号 off
+　…指定した番号のホットバーを共有ホットバーから、現在のジョブのホットバーに切り替える。
+share 番号
+　…指定した番号のホットバーを現在ジョブ／共有ホットバーのスイッチ切り替え。
+remove 番号1 番号2
+　…指定した番号1のホットバーの指定した番号2のスロットにセットされたアクションやマクロなどを解除して、空のスロットにする。番号2を“all”で指定した場合、すべてのスロットを解除する。
+
+実行例
+/pvphotbar action 浄化 1 1
+　…ホットバーセット1のスロット1に「浄化」を設定する。
+/pvphotbar change 2
+　…ホットバー1にセット2の内容を表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pvphotbar&lt;tab&gt;</target></trans-unit><trans-unit id="326" approved="yes"><source>326</source><target state="final">/pvpcrosshotbar(/pvpchotbar,/pvpxhb) サブコマンド
+PvP専用クロスホットバーセットを操作、設定する。PvPエリアでのみ実行可能。
+&gt;&gt;サブコマンド
+set(action) “PvPアクション名” セット番号 スロット名
+　…指定したPvPアクションを指定したクロスホットバーの指定したスロットにセットする。セット番号に“current”を指定した場合、現在表示されているセット番号を示す。
+general “ジェネラルアクション名” セット番号 スロット名
+　…指定したジェネラルアクションを指定したクロスホットバーの指定したスロットにセットする。
+item “アイテム名” セット番号 スロット名
+　…指定したアイテムを指定したクロスホットバーの指定したスロットにセットする。
+emote “エモートアクション名” セット番号 スロット名
+　…指定したエモートアクションを指定したクロスホットバーの指定したスロットにセットする。
+buddy “バディアクション名” セット番号 スロット名
+　…指定したバディアクションを指定したクロスホットバーの指定したスロットにセットする。
+pet “ペットアクション名” セット番号 スロット名
+　…指定したペットアクションを指定したクロスホットバーの指定したスロットにセットする。
+minion “ミニオン名” セット番号 スロット名
+　…指定したミニオンを指定したクロスホットバーの指定したスロットにセットする。
+mount “マウント名” セット番号 スロット名
+　…指定したマウントを指定したクロスホットバーの指定したスロットにセットする。
+marking “マーカー名” セット番号 スロット名
+　…指定したマーカーを指定したクロスホットバーの指定したスロットにセットする。
+fieldmarking(waymark) “フィールドマーカー名” セット番号 スロット名
+　…指定したフィールドマーカーを指定したクロスホットバーの指定したスロットにセットする。
+change 番号
+　…指定した番号のクロスホットバーに切り替える。番号に“next”もしくは“prev”を指定した場合、現在表示されているセット番号の次もしくは前のセット番号を示す。
+copy ジョブ名1 セット番号1 ジョブ名2 セット番号2
+　…ジョブ1のクロスホットバーのセット番号1の内容を、ジョブ2のクロスホットバーのセット番号2に上書きコピーする。ジョブ名に“current”を指定した場合、現在のジョブを指定する。ジョブ名に“share”を指定した場合、共有クロスホットバーを指定する。
+share セット番号 on
+　…指定したセット番号のクロスホットバーを共有クロスホットバーに切り替える。
+share セット番号 off
+　…指定したセット番号のクロスホットバーを共有クロスホットバーから、現在のジョブのクロスホットバーに切り替える。
+share セット番号
+　…指定したセット番号のクロスホットバーを現在のジョブ／共有クロスホットバーのスイッチ切り替え。
+remove セット番号 スロット名
+　…指定したセット番号のクロスホットバーの指定したスロットにセットされたアクションやマクロなどを解除して、空のスロットにする。スロット名に“all”で指定した場合、すべてのスロットを解除する。
+&gt;&gt;スロット名の指定
+&lt;var 12 0F /var&gt;＋&lt;var 12 04 /var&gt; … LDL(LD1)　&lt;var 12 10 /var&gt;＋&lt;var 12 04 /var&gt; … RDL(RD1)
+&lt;var 12 0F /var&gt;＋&lt;var 12 02 /var&gt; … LDU(LD2)　&lt;var 12 10 /var&gt;＋&lt;var 12 02 /var&gt; … RDU(RD2)
+&lt;var 12 0F /var&gt;＋&lt;var 12 05 /var&gt; … LDR(LD3)　&lt;var 12 10 /var&gt;＋&lt;var 12 05 /var&gt; … RDR(RD3)
+&lt;var 12 0F /var&gt;＋&lt;var 12 03 /var&gt; … LDD(LD4)　&lt;var 12 10 /var&gt;＋&lt;var 12 03 /var&gt; … RDD(RD4)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0B /var&gt; … LAL(LA1)　&lt;var 12 10 /var&gt;＋&lt;var 12 0B /var&gt; … RAL(RA1)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0C /var&gt; … LAU(LA2)　&lt;var 12 10 /var&gt;＋&lt;var 12 0C /var&gt; … RAU(RA2)
+&lt;var 12 0F /var&gt;＋&lt;var 12 09 /var&gt; … LAR(LA3)　&lt;var 12 10 /var&gt;＋&lt;var 12 09 /var&gt; … RAR(RA3)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0A /var&gt; … LAD(LA4)　&lt;var 12 10 /var&gt;＋&lt;var 12 0A /var&gt; … RAD(RA4)&lt;tab&gt;&lt;tab&gt;/pvpxhb&lt;tab&gt;/pvpcrosshotbar&lt;tab&gt;/pvpchotbar</target></trans-unit><trans-unit id="327" approved="yes"><source>327</source><target state="final">/emotelog サブコマンド
+エモート実行時の感情表現テキストのログ表示の設定を行う。
+&gt;&gt;サブコマンド
+on
+　…ログ表示を有効にする。
+off
+　…ログ表示を無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/emotelog&lt;tab&gt;</target></trans-unit><trans-unit id="328" approved="yes"><source>328</source><target state="final">/jobhudmode サブコマンド
+現在のジョブHUDの表示モード（ノーマル／シンプル）を変更する。
+&gt;&gt;サブコマンド
+1
+　…1つ目のジョブHUDの表示モードを切り替える。
+2
+　…2つ目のジョブHUDの表示モードを切り替える。
+※サブコマンド省略
+　…表示中のジョブHUDを一括していずれかの表示モードに統一して切り替える。
+
+実行例
+/jobhudmode 1
+　…1つ目のジョブHUDの表示モードを切り替える。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/jobhudmode&lt;tab&gt;</target></trans-unit><trans-unit id="329" approved="yes"><source>329</source><target state="final">/mastervolume サブコマンド
+マスターボリュームの音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。
+※サブコマンド省略
+　…ミュートのスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mastervolume&lt;tab&gt;</target></trans-unit><trans-unit id="330" approved="yes"><source>330</source><target state="final">/bgm サブコマンド
+BGMの音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。
+※サブコマンド省略
+　…ミュートのスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bgm&lt;tab&gt;</target></trans-unit><trans-unit id="331" approved="yes"><source>331</source><target state="final">/soundeffects サブコマンド
+効果音の音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。
+※サブコマンド省略
+　…ミュートのスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/soundeffects&lt;tab&gt;</target></trans-unit><trans-unit id="332" approved="yes"><source>332</source><target state="final">/voice サブコマンド
+ボイスの音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。
+※サブコマンド省略
+　…ミュートのスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/voice&lt;tab&gt;</target></trans-unit><trans-unit id="333" approved="yes"><source>333</source><target state="final">/systemsounds サブコマンド
+システム音の音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。
+※サブコマンド省略
+　…ミュートのスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/systemsounds&lt;tab&gt;</target></trans-unit><trans-unit id="334" approved="yes"><source>334</source><target state="final">/ambientsounds サブコマンド
+環境音の音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。
+※サブコマンド省略
+　…ミュートのスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/ambientsounds&lt;tab&gt;</target></trans-unit><trans-unit id="335" approved="yes"><source>335</source><target state="final">/soundeffectsself サブコマンド
+自分の効果音の音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/soundeffectsself&lt;tab&gt;</target></trans-unit><trans-unit id="336" approved="yes"><source>336</source><target state="final">/soundeffectsparty サブコマンド
+パーティメンバーの効果音の音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/soundeffectsparty&lt;tab&gt;</target></trans-unit><trans-unit id="337" approved="yes"><source>337</source><target state="final">/soundeffectsother サブコマンド
+他人の効果音の音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/soundeffectsother&lt;tab&gt;</target></trans-unit><trans-unit id="338" approved="yes"><source>338</source><target state="final">/systemsoundsspeaker サブコマンド
+ワイヤレスコントローラーのスピーカーからのシステム音の音量を変更する。
+※PlayStation®4／PlayStation®5／Windows®(DX11)版のみ有効。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。
+※サブコマンド省略
+　…ミュートのスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/systemsoundsspeaker&lt;tab&gt;</target></trans-unit><trans-unit id="339" approved="yes"><source>339</source><target state="final">/tiltcamera サブコマンド
+キャラクターコンフィグ「カメラの注視角度設定（チルトカメラ）」を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に設定を変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/tiltcamera&lt;tab&gt;</target></trans-unit><trans-unit id="340" approved="yes"><source>340</source><target state="final">/mountbgm サブコマンド
+システムコンフィグ「騎乗中のBGM再生を有効にする」を設定する。
+&gt;&gt;サブコマンド
+on
+　…有効にする。
+off
+　…無効にする。
+※サブコマンド省略
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mountbgm&lt;tab&gt;</target></trans-unit><trans-unit id="341" approved="yes"><source>341</source><target state="final">/performsounds サブコマンド
+楽器演奏の音量を変更する。
+&gt;&gt;サブコマンド
+数値(0-100)
+　…指定した数値に音量を変更する。
+※サブコマンド省略
+　…ミュートのスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/performsounds&lt;tab&gt;</target></trans-unit><trans-unit id="401" approved="yes"><source>401</source><target state="final">/emote(/em) 文章
+自分の名の後ろに指定した文章を直接つなぎ、感情表現としてSayの範囲のPCに送信する。 &lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/emote&lt;tab&gt;/em</target></trans-unit><trans-unit id="402" approved="yes"><source>402</source><target state="final">/surprised サブコマンド
+おどろく。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/surprised&lt;tab&gt;</target></trans-unit><trans-unit id="403" approved="yes"><source>403</source><target state="final">/angry サブコマンド
+不満を表す。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/angry&lt;tab&gt;</target></trans-unit><trans-unit id="404" approved="yes"><source>404</source><target state="final">/furious サブコマンド
+怒る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/furious&lt;tab&gt;</target></trans-unit><trans-unit id="405" approved="yes"><source>405</source><target state="final">/blush サブコマンド
+照れる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/blush&lt;tab&gt;</target></trans-unit><trans-unit id="406" approved="yes"><source>406</source><target state="final">/bow サブコマンド
+お辞儀する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bow&lt;tab&gt;</target></trans-unit><trans-unit id="407" approved="yes"><source>407</source><target state="final">/cheer サブコマンド
+応援する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheer&lt;tab&gt;</target></trans-unit><trans-unit id="408" approved="yes"><source>408</source><target state="final">/clap サブコマンド
+拍手する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/clap&lt;tab&gt;</target></trans-unit><trans-unit id="409" approved="yes"><source>409</source><target state="final">/beckon サブコマンド
+手まねきする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/beckon&lt;tab&gt;</target></trans-unit><trans-unit id="410" approved="yes"><source>410</source><target state="final">/comfort サブコマンド
+なぐさめる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/comfort&lt;tab&gt;</target></trans-unit><trans-unit id="411" approved="yes"><source>411</source><target state="final">/cry サブコマンド
+泣く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cry&lt;tab&gt;</target></trans-unit><trans-unit id="412" approved="yes"><source>412</source><target state="final">/dance サブコマンド
+踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/dance&lt;tab&gt;</target></trans-unit><trans-unit id="413" approved="yes"><source>413</source><target state="final">/doubt サブコマンド
+問い詰める。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/doubt&lt;tab&gt;</target></trans-unit><trans-unit id="414" approved="yes"><source>414</source><target state="final">/doze サブコマンド
+居眠りする。ベッドが近くにある場合は、ベッドで寝る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/doze&lt;tab&gt;</target></trans-unit><trans-unit id="415" approved="yes"><source>415</source><target state="final">/fume サブコマンド
+悔しがる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fume&lt;tab&gt;</target></trans-unit><trans-unit id="416" approved="yes"><source>416</source><target state="final">/goodbye サブコマンド
+さようなら。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/goodbye&lt;tab&gt;</target></trans-unit><trans-unit id="417" approved="yes"><source>417</source><target state="final">/wave サブコマンド
+手を振る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/wave&lt;tab&gt;</target></trans-unit><trans-unit id="418" approved="yes"><source>418</source><target state="final">/huh サブコマンド
+呆れる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/huh&lt;tab&gt;</target></trans-unit><trans-unit id="419" approved="yes"><source>419</source><target state="final">/joy サブコマンド
+喜ぶ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/joy&lt;tab&gt;</target></trans-unit><trans-unit id="420" approved="yes"><source>420</source><target state="final">/kneel サブコマンド
+ひざまずく。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/kneel&lt;tab&gt;</target></trans-unit><trans-unit id="421" approved="yes"><source>421</source><target state="final">/chuckle サブコマンド
+笑う。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/chuckle&lt;tab&gt;</target></trans-unit><trans-unit id="422" approved="yes"><source>422</source><target state="final">/laugh サブコマンド
+大笑いする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/laugh&lt;tab&gt;</target></trans-unit><trans-unit id="423" approved="yes"><source>423</source><target state="final">/lookout サブコマンド
+見わたす。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lookout&lt;tab&gt;</target></trans-unit><trans-unit id="424" approved="yes"><source>424</source><target state="final">/me サブコマンド
+アピールする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/me&lt;tab&gt;</target></trans-unit><trans-unit id="425" approved="yes"><source>425</source><target state="final">/no サブコマンド
+首を横に振る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/no&lt;tab&gt;</target></trans-unit><trans-unit id="426" approved="yes"><source>426</source><target state="final">/deny サブコマンド
+否定する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/deny&lt;tab&gt;</target></trans-unit><trans-unit id="427" approved="yes"><source>427</source><target state="final">/panic サブコマンド
+慌てる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/panic&lt;tab&gt;</target></trans-unit><trans-unit id="428" approved="yes"><source>428</source><target state="final">/point サブコマンド
+指さす。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/point&lt;tab&gt;</target></trans-unit><trans-unit id="429" approved="yes"><source>429</source><target state="final">/poke サブコマンド
+つつく。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/poke&lt;tab&gt;</target></trans-unit><trans-unit id="430" approved="yes"><source>430</source><target state="final">/congratulate サブコマンド
+称賛する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/congratulate&lt;tab&gt;</target></trans-unit><trans-unit id="431" approved="yes"><source>431</source><target state="final">/psych サブコマンド
+活を入れる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/psych&lt;tab&gt;</target></trans-unit><trans-unit id="432" approved="yes"><source>432</source><target state="final">/salute サブコマンド
+敬礼する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/salute&lt;tab&gt;</target></trans-unit><trans-unit id="433" approved="yes"><source>433</source><target state="final">/shocked サブコマンド
+動転する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/shocked&lt;tab&gt;</target></trans-unit><trans-unit id="434" approved="yes"><source>434</source><target state="final">/shrug サブコマンド
+肩をすくめる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/shrug&lt;tab&gt;</target></trans-unit><trans-unit id="435" approved="yes"><source>435</source><target state="final">/rally サブコマンド
+励ます。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/rally&lt;tab&gt;</target></trans-unit><trans-unit id="436" approved="yes"><source>436</source><target state="final">/soothe サブコマンド
+なだめる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/soothe&lt;tab&gt;</target></trans-unit><trans-unit id="437" approved="yes"><source>437</source><target state="final">/stagger サブコマンド
+よろめく。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/stagger&lt;tab&gt;</target></trans-unit><trans-unit id="438" approved="yes"><source>438</source><target state="final">/stretch サブコマンド
+伸びをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/stretch&lt;tab&gt;</target></trans-unit><trans-unit id="439" approved="yes"><source>439</source><target state="final">/sulk サブコマンド
+すねる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sulk&lt;tab&gt;</target></trans-unit><trans-unit id="440" approved="yes"><source>440</source><target state="final">/think サブコマンド
+考える。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/think&lt;tab&gt;</target></trans-unit><trans-unit id="441" approved="yes"><source>441</source><target state="final">/upset サブコマンド
+がっかりする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/upset&lt;tab&gt;</target></trans-unit><trans-unit id="442" approved="yes"><source>442</source><target state="final">/welcome サブコマンド
+歓迎する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/welcome&lt;tab&gt;</target></trans-unit><trans-unit id="443" approved="yes"><source>443</source><target state="final">/yes サブコマンド
+うなずく。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/yes&lt;tab&gt;</target></trans-unit><trans-unit id="444" approved="yes"><source>444</source><target state="final">/thumbsup サブコマンド
+肯定する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/thumbsup&lt;tab&gt;</target></trans-unit><trans-unit id="445" approved="yes"><source>445</source><target state="final">/examineself サブコマンド
+自分を見る・見せる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/examineself&lt;tab&gt;</target></trans-unit><trans-unit id="446" approved="yes"><source>446</source><target state="final">/pose サブコマンド
+ポーズをとる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pose&lt;tab&gt;</target></trans-unit><trans-unit id="447" approved="yes"><source>447</source><target state="final">/blowkiss サブコマンド
+投げキッスをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/blowkiss&lt;tab&gt;</target></trans-unit><trans-unit id="448" approved="yes"><source>448</source><target state="final">/grovel サブコマンド
+土下座をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/grovel&lt;tab&gt;</target></trans-unit><trans-unit id="449" approved="yes"><source>449</source><target state="final">/happy サブコマンド
+すごく喜ぶ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/happy&lt;tab&gt;</target></trans-unit><trans-unit id="450" approved="yes"><source>450</source><target state="final">/disappointed サブコマンド
+すごくがっかりする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/disappointed&lt;tab&gt;</target></trans-unit><trans-unit id="451" approved="yes"><source>451</source><target state="final">/sit(/lounge)
+地面に座る。自分の近くに腰掛ける場所があれば、そこに座る。すでに座っている場合は、立ち上がる。座った状態で、一部の感情表現を固有モーションで実行できる。&lt;tab&gt;/sit&lt;tab&gt;/lounge&lt;tab&gt;/lounge&lt;tab&gt;/sit</target></trans-unit><trans-unit id="453" approved="yes"><source>453</source><target state="final">/groundsit
+地面に座る。すでに座っている場合は、立ち上がる。座った状態で、一部の感情表現を固有モーションで実行できる。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/groundsit&lt;tab&gt;</target></trans-unit><trans-unit id="455" approved="yes"><source>455</source><target state="final">/airquotes
+発言中に行う仕草。
+両手の指を引用符に見立て、発言を「引用」したことを示すが、多くの場合、皮肉や揶揄として使用される。
+※この感情表現は、モーションのみでテキストは表示しない。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/airquotes&lt;tab&gt;</target></trans-unit><trans-unit id="456" approved="yes"><source>456</source><target state="final">/gcsalute サブコマンド
+黒渦団の敬礼をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/gcsalute&lt;tab&gt;</target></trans-unit><trans-unit id="457" approved="yes"><source>457</source><target state="final">/gcsalute サブコマンド
+双蛇党の敬礼をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/gcsalute&lt;tab&gt;</target></trans-unit><trans-unit id="458" approved="yes"><source>458</source><target state="final">/gcsalute サブコマンド
+不滅隊の敬礼をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/gcsalute&lt;tab&gt;</target></trans-unit><trans-unit id="459" approved="yes"><source>459</source><target state="final">/pray サブコマンド
+祈る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pray&lt;tab&gt;</target></trans-unit><trans-unit id="460" approved="yes"><source>460</source><target state="final">/imperialsalute サブコマンド
+帝国式敬礼。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/imperialsalute&lt;tab&gt;</target></trans-unit><trans-unit id="461" approved="yes"><source>461</source><target state="final">/visor
+頭装備の操作を行う。
+※装備の開閉や明滅表現などの機能を持つ装備に対して反映される。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/visor&lt;tab&gt;</target></trans-unit><trans-unit id="463" approved="yes"><source>463</source><target state="final">/megaflare サブコマンド
+メガフレアの如き光を放つ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/megaflare&lt;tab&gt;</target></trans-unit><trans-unit id="464" approved="yes"><source>464</source><target state="final">/crimsonlotus サブコマンド
+演舞をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/crimsonlotus&lt;tab&gt;</target></trans-unit><trans-unit id="465" approved="yes"><source>465</source><target state="final">/charmed サブコマンド
+魅惑の抱擁で魅了される。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/charmed&lt;tab&gt;</target></trans-unit><trans-unit id="466" approved="yes"><source>466</source><target state="final">/cheeron サブコマンド
+声援（青）を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeron&lt;tab&gt;</target></trans-unit><trans-unit id="467" approved="yes"><source>467</source><target state="final">/cheerwave サブコマンド
+声援（黄）を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwave&lt;tab&gt;</target></trans-unit><trans-unit id="468" approved="yes"><source>468</source><target state="final">/cheerjump サブコマンド
+声援（赤）を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjump&lt;tab&gt;</target></trans-unit><trans-unit id="469" approved="yes"><source>469</source><target state="final">/straightface(/straight) サブコマンド
+素の表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/straightface&lt;tab&gt;/straight</target></trans-unit><trans-unit id="470" approved="yes"><source>470</source><target state="final">/smile サブコマンド
+微笑を浮かべる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/smile&lt;tab&gt;</target></trans-unit><trans-unit id="471" approved="yes"><source>471</source><target state="final">/grin サブコマンド
+笑顔になる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/grin&lt;tab&gt;</target></trans-unit><trans-unit id="472" approved="yes"><source>472</source><target state="final">/smirk サブコマンド
+自信に溢れる表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/smirk&lt;tab&gt;</target></trans-unit><trans-unit id="473" approved="yes"><source>473</source><target state="final">/taunt サブコマンド
+不敵な表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/taunt&lt;tab&gt;</target></trans-unit><trans-unit id="474" approved="yes"><source>474</source><target state="final">/shuteyes(/shut) サブコマンド
+目を閉ざす。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/shuteyes&lt;tab&gt;/shut</target></trans-unit><trans-unit id="475" approved="yes"><source>475</source><target state="final">/sad サブコマンド
+泣顔になる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sad&lt;tab&gt;</target></trans-unit><trans-unit id="476" approved="yes"><source>476</source><target state="final">/scared(/fear) サブコマンド
+恐怖を感じた表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/scared&lt;tab&gt;/fear</target></trans-unit><trans-unit id="477" approved="yes"><source>477</source><target state="final">/amazed(/awe) サブコマンド
+呆然とした表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/amazed&lt;tab&gt;/awe</target></trans-unit><trans-unit id="478" approved="yes"><source>478</source><target state="final">/ouch(/ow) サブコマンド
+痛そうな表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/ouch&lt;tab&gt;/ow</target></trans-unit><trans-unit id="479" approved="yes"><source>479</source><target state="final">/annoyed(/annoy) サブコマンド
+不機嫌そうな表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/annoyed&lt;tab&gt;/annoy</target></trans-unit><trans-unit id="480" approved="yes"><source>480</source><target state="final">/alert サブコマンド
+何かに気づいた表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/alert&lt;tab&gt;</target></trans-unit><trans-unit id="481" approved="yes"><source>481</source><target state="final">/worried(/worry) サブコマンド
+心配そうな表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/worried&lt;tab&gt;/worry</target></trans-unit><trans-unit id="482" approved="yes"><source>482</source><target state="final">/biggrin サブコマンド
+破顔する表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/biggrin&lt;tab&gt;</target></trans-unit><trans-unit id="483" approved="yes"><source>483</source><target state="final">/reflect サブコマンド
+熟考する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/reflect&lt;tab&gt;</target></trans-unit><trans-unit id="484" approved="yes"><source>484</source><target state="final">/furrow サブコマンド
+眉をひそめる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/furrow&lt;tab&gt;</target></trans-unit><trans-unit id="485" approved="yes"><source>485</source><target state="final">/scoff サブコマンド
+苦笑いをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/scoff&lt;tab&gt;</target></trans-unit><trans-unit id="486" approved="yes"><source>486</source><target state="final">/throw サブコマンド
+投げる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/throw&lt;tab&gt;</target></trans-unit><trans-unit id="491" approved="yes"><source>491</source><target state="final">/changepose(/cpose)
+ポーズを変える。
+※この感情表現は、モーションのみでテキストは表示しない。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/changepose&lt;tab&gt;/cpose</target></trans-unit><trans-unit id="502" approved="yes"><source>502</source><target state="final">/stepdance(/sdance) サブコマンド
+ステップダンスを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/stepdance&lt;tab&gt;/sdance</target></trans-unit><trans-unit id="503" approved="yes"><source>503</source><target state="final">/harvestdance(/hdance) サブコマンド
+豊穣の舞を踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/harvestdance&lt;tab&gt;/hdance</target></trans-unit><trans-unit id="504" approved="yes"><source>504</source><target state="final">/balldance(/bdance) サブコマンド
+宮廷の舞を踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/balldance&lt;tab&gt;/bdance</target></trans-unit><trans-unit id="505" approved="yes"><source>505</source><target state="final">/mandervilledance(/mdance) サブコマンド
+紳士の舞を踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mandervilledance&lt;tab&gt;/mdance</target></trans-unit><trans-unit id="506" approved="yes"><source>506</source><target state="final">/stroke サブコマンド
+なでる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/stroke&lt;tab&gt;</target></trans-unit><trans-unit id="507" approved="yes"><source>507</source><target state="final">/handover サブコマンド
+わたす。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/handover&lt;tab&gt;</target></trans-unit><trans-unit id="510" approved="yes"><source>510</source><target state="final">/bombdance サブコマンド
+ボム踊りを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bombdance&lt;tab&gt;</target></trans-unit><trans-unit id="511" approved="yes"><source>511</source><target state="final">/hurray サブコマンド
+勝ちどきをあげる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hurray&lt;tab&gt;</target></trans-unit><trans-unit id="512" approved="yes"><source>512</source><target state="final">/slap サブコマンド
+平手打ちをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/slap&lt;tab&gt;</target></trans-unit><trans-unit id="513" approved="yes"><source>513</source><target state="final">/hug サブコマンド
+ハグする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hug&lt;tab&gt;</target></trans-unit><trans-unit id="514" approved="yes"><source>514</source><target state="final">/embrace サブコマンド
+抱き合う。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/embrace&lt;tab&gt;</target></trans-unit><trans-unit id="515" approved="yes"><source>515</source><target state="final">/hildibrand(/hildy) サブコマンド
+事件屋の決めポーズをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hildibrand&lt;tab&gt;/hildy</target></trans-unit><trans-unit id="516" approved="yes"><source>516</source><target state="final">/fistbump(/fist) サブコマンド
+拳を突き出す。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fistbump&lt;tab&gt;/fist</target></trans-unit><trans-unit id="519" approved="yes"><source>519</source><target state="final">/thavdance(/tdance) サブコマンド
+サベネアンダンスを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/thavdance&lt;tab&gt;/tdance</target></trans-unit><trans-unit id="520" approved="yes"><source>520</source><target state="final">/golddance(/gdance) サブコマンド
+ゴールデンダンスを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/golddance&lt;tab&gt;/gdance</target></trans-unit><trans-unit id="521" approved="yes"><source>521</source><target state="final">/sundance サブコマンド
+太陽の舞を踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sundance&lt;tab&gt;</target></trans-unit><trans-unit id="522" approved="yes"><source>522</source><target state="final">/battlestance(/bstance) サブコマンド
+戦いに備える。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/battlestance&lt;tab&gt;/bstance</target></trans-unit><trans-unit id="523" approved="yes"><source>523</source><target state="final">/victorypose(/vpose) サブコマンド
+勝利を喜ぶ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/victorypose&lt;tab&gt;/vpose</target></trans-unit><trans-unit id="524" approved="yes"><source>524</source><target state="final">/backflip(/bflip) サブコマンド
+宙返りをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/backflip&lt;tab&gt;/bflip</target></trans-unit><trans-unit id="525" approved="yes"><source>525</source><target state="final">/easterngreeting(/egreeting) サブコマンド
+抱拳礼をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/easterngreeting&lt;tab&gt;/egreeting</target></trans-unit><trans-unit id="526" approved="yes"><source>526</source><target state="final">/eureka サブコマンド
+閃く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/eureka&lt;tab&gt;</target></trans-unit><trans-unit id="527" approved="yes"><source>527</source><target state="final">/mogdance サブコマンド
+モグモグダンスを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mogdance&lt;tab&gt;</target></trans-unit><trans-unit id="528" approved="yes"><source>528</source><target state="final">/haurchefant(/hknight) サブコマンド
+「イイ！」をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/haurchefant&lt;tab&gt;/hknight</target></trans-unit><trans-unit id="529" approved="yes"><source>529</source><target state="final">/warmup(/easternstretch,/estretch) サブコマンド
+ウォームアップをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;/warmup&lt;tab&gt;&lt;tab&gt;/easternstretch&lt;tab&gt;/estretch</target></trans-unit><trans-unit id="530" approved="yes"><source>530</source><target state="final">/easterndance(/edance) サブコマンド
+東方の伝統舞踊を踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/easterndance&lt;tab&gt;/edance</target></trans-unit><trans-unit id="531" approved="yes"><source>531</source><target state="final">/rangerposered1(/rposered1,/rangerpose1r,/rpose1r) サブコマンド
+戦士の演武：壱をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;/rangerposered1&lt;tab&gt;/rposered1&lt;tab&gt;/rangerpose1r&lt;tab&gt;/rpose1r</target></trans-unit><trans-unit id="532" approved="yes"><source>532</source><target state="final">/rangerposeblack1(/rposeblack1,/rangerpose2r,/rpose2r) サブコマンド
+戦士の演武：弐をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;/rangerposeblack1&lt;tab&gt;/rposeblack1&lt;tab&gt;/rangerpose2r&lt;tab&gt;/rpose2r</target></trans-unit><trans-unit id="533" approved="yes"><source>533</source><target state="final">/rangerposeyellow1(/rposeyellow1,/rangerpose3r,/rpose3r) サブコマンド
+戦士の演武：参をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;/rangerposeyellow1&lt;tab&gt;/rposeyellow1&lt;tab&gt;/rangerpose3r&lt;tab&gt;/rpose3r</target></trans-unit><trans-unit id="534" approved="yes"><source>534</source><target state="final">/rightwink(/wink) サブコマンド
+ウィンク（右）をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;/rightwink&lt;tab&gt;/wink&lt;tab&gt;/wink&lt;tab&gt;/rightwink</target></trans-unit><trans-unit id="535" approved="yes"><source>535</source><target state="final">/rangerposered2(/rposered2,/rangerpose1l,/rpose1l) サブコマンド
+戦士の演武：壱ノ裏をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;/rangerposered2&lt;tab&gt;/rposered2&lt;tab&gt;/rangerpose1l&lt;tab&gt;/rpose1l</target></trans-unit><trans-unit id="536" approved="yes"><source>536</source><target state="final">/rangerposeblack2(/rposeblack2,/rangerpose2l,/rpose2l) サブコマンド
+戦士の演武：弐ノ裏をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;/rangerposeblack2&lt;tab&gt;/rposeblack2&lt;tab&gt;/rangerpose2l&lt;tab&gt;/rpose2l</target></trans-unit><trans-unit id="537" approved="yes"><source>537</source><target state="final">/rangerposeyellow2(/rposeyellow2,/rangerpose3l,/rpose3l) サブコマンド
+戦士の演武：参ノ裏をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;/rangerposeyellow2&lt;tab&gt;/rposeyellow2&lt;tab&gt;/rangerpose3l&lt;tab&gt;/rpose3l</target></trans-unit><trans-unit id="538" approved="yes"><source>538</source><target state="final">/facepalm サブコマンド
+顔を覆う。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/facepalm&lt;tab&gt;</target></trans-unit><trans-unit id="539" approved="yes"><source>539</source><target state="final">/zantetsuken(/ztk) サブコマンド
+空間を斬り裂く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/zantetsuken&lt;tab&gt;/ztk</target></trans-unit><trans-unit id="540" approved="yes"><source>540</source><target state="final">/flex サブコマンド
+肉体美を誇る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/flex&lt;tab&gt;</target></trans-unit><trans-unit id="541" approved="yes"><source>541</source><target state="final">/respect サブコマンド
+黙祷を捧げる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/respect&lt;tab&gt;</target></trans-unit><trans-unit id="542" approved="yes"><source>542</source><target state="final">/sneer サブコマンド
+あくどそうな表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sneer&lt;tab&gt;</target></trans-unit><trans-unit id="543" approved="yes"><source>543</source><target state="final">/prettyplease(/pplease) サブコマンド
+おねだりをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/prettyplease&lt;tab&gt;/pplease</target></trans-unit><trans-unit id="544" approved="yes"><source>544</source><target state="final">/playdead(/pdead) サブコマンド
+死んだふりをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/playdead&lt;tab&gt;/pdead</target></trans-unit><trans-unit id="545" approved="yes"><source>545</source><target state="final">/iceheart サブコマンド
+氷とともに舞う。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/iceheart&lt;tab&gt;</target></trans-unit><trans-unit id="546" approved="yes"><source>546</source><target state="final">/moonlift サブコマンド
+太陽と月の舞を踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/moonlift&lt;tab&gt;</target></trans-unit><trans-unit id="547" approved="yes"><source>547</source><target state="final">/dote サブコマンド
+愛を表現する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/dote&lt;tab&gt;</target></trans-unit><trans-unit id="549" approved="yes"><source>549</source><target state="final">/spectacles サブコマンド
+眼鏡を正す。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/spectacles&lt;tab&gt;</target></trans-unit><trans-unit id="550" approved="yes"><source>550</source><target state="final">/songbird サブコマンド
+歌姫を真似る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/songbird&lt;tab&gt;</target></trans-unit><trans-unit id="551" approved="yes"><source>551</source><target state="final">/waterfloat
+水面に浮く。
+※この感情表現は、モーションのみでテキストは表示しない。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/waterfloat&lt;tab&gt;</target></trans-unit><trans-unit id="552" approved="yes"><source>552</source><target state="final">/waterflip
+水中宙返りをする。
+※この感情表現は、モーションのみでテキストは表示しない。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/waterflip&lt;tab&gt;</target></trans-unit><trans-unit id="553" approved="yes"><source>553</source><target state="final">/puckerup サブコマンド
+口をすぼめる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/puckerup&lt;tab&gt;</target></trans-unit><trans-unit id="554" approved="yes"><source>554</source><target state="final">/powerup サブコマンド
+力を高める。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/powerup&lt;tab&gt;</target></trans-unit><trans-unit id="555" approved="yes"><source>555</source><target state="final">/easternbow(/ebow) サブコマンド
+東方風のお辞儀をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/easternbow&lt;tab&gt;/ebow</target></trans-unit><trans-unit id="556" approved="yes"><source>556</source><target state="final">/squats サブコマンド
+スクワットをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/squats&lt;tab&gt;</target></trans-unit><trans-unit id="557" approved="yes"><source>557</source><target state="final">/pushups サブコマンド
+腕立て伏せをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pushups&lt;tab&gt;</target></trans-unit><trans-unit id="558" approved="yes"><source>558</source><target state="final">/situps サブコマンド
+腹筋運動をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/situps&lt;tab&gt;</target></trans-unit><trans-unit id="559" approved="yes"><source>559</source><target state="final">/breathcontrol サブコマンド
+深呼吸をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/breathcontrol&lt;tab&gt;</target></trans-unit><trans-unit id="560" approved="yes"><source>560</source><target state="final">/converse サブコマンド
+話をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/converse&lt;tab&gt;</target></trans-unit><trans-unit id="561" approved="yes"><source>561</source><target state="final">/concentrate サブコマンド
+真剣な表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/concentrate&lt;tab&gt;</target></trans-unit><trans-unit id="562" approved="yes"><source>562</source><target state="final">/disturbed サブコマンド
+困惑した表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/disturbed&lt;tab&gt;</target></trans-unit><trans-unit id="563" approved="yes"><source>563</source><target state="final">/simper サブコマンド
+柔和に微笑む。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/simper&lt;tab&gt;</target></trans-unit><trans-unit id="564" approved="yes"><source>564</source><target state="final">/beam サブコマンド
+満ち足りた表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/beam&lt;tab&gt;</target></trans-unit><trans-unit id="565" approved="yes"><source>565</source><target state="final">/attention サブコマンド
+気をつけの姿勢をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/attention&lt;tab&gt;</target></trans-unit><trans-unit id="566" approved="yes"><source>566</source><target state="final">/atease サブコマンド
+休めの姿勢をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/atease&lt;tab&gt;</target></trans-unit><trans-unit id="567" approved="yes"><source>567</source><target state="final">/box サブコマンド
+格闘訓練をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/box&lt;tab&gt;</target></trans-unit><trans-unit id="568" approved="yes"><source>568</source><target state="final">/ritualprayer サブコマンド
+おまじないをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/ritualprayer&lt;tab&gt;</target></trans-unit><trans-unit id="570" approved="yes"><source>570</source><target state="final">/tremble サブコマンド
+怯える。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/tremble&lt;tab&gt;</target></trans-unit><trans-unit id="571" approved="yes"><source>571</source><target state="final">/winded サブコマンド
+膝を突く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/winded&lt;tab&gt;</target></trans-unit><trans-unit id="572" approved="yes"><source>572</source><target state="final">/aback サブコマンド
+仰天する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/aback&lt;tab&gt;</target></trans-unit><trans-unit id="573" approved="yes"><source>573</source><target state="final">/greet サブコマンド
+挨拶する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/greet&lt;tab&gt;</target></trans-unit><trans-unit id="574" approved="yes"><source>574</source><target state="final">/boxstep サブコマンド
+ボックスステップを踏む。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/boxstep&lt;tab&gt;</target></trans-unit><trans-unit id="575" approved="yes"><source>575</source><target state="final">/sidestep サブコマンド
+サイドステップを踏む。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sidestep&lt;tab&gt;</target></trans-unit><trans-unit id="576" approved="yes"><source>576</source><target state="final">/ultima サブコマンド
+アルテマの如き光を放つ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/ultima&lt;tab&gt;</target></trans-unit><trans-unit id="577" approved="yes"><source>577</source><target state="final">/yoldance サブコマンド
+ヨルダンスを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/yoldance&lt;tab&gt;</target></trans-unit><trans-unit id="579" approved="yes"><source>579</source><target state="final">/splash サブコマンド
+水をかける。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/splash&lt;tab&gt;</target></trans-unit><trans-unit id="581" approved="yes"><source>581</source><target state="final">/sweat サブコマンド
+暑がる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sweat&lt;tab&gt;</target></trans-unit><trans-unit id="582" approved="yes"><source>582</source><target state="final">/shiver サブコマンド
+寒がる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/shiver&lt;tab&gt;</target></trans-unit><trans-unit id="583" approved="yes"><source>583</source><target state="final">/elucidate サブコマンド
+説明する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/elucidate&lt;tab&gt;</target></trans-unit><trans-unit id="584" approved="yes"><source>584</source><target state="final">/ponder サブコマンド
+空想するような表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/ponder&lt;tab&gt;</target></trans-unit><trans-unit id="585" approved="yes"><source>585</source><target state="final">/leftwink サブコマンド
+ウィンク（左）をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/leftwink&lt;tab&gt;</target></trans-unit><trans-unit id="586" approved="yes"><source>586</source><target state="final">/getfantasy サブコマンド
+ゲットファンタジーを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/getfantasy&lt;tab&gt;</target></trans-unit><trans-unit id="587" approved="yes"><source>587</source><target state="final">/popotostep サブコマンド
+ポポトステップを踏む。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/popotostep&lt;tab&gt;</target></trans-unit><trans-unit id="588" approved="yes"><source>588</source><target state="final">/hum サブコマンド
+鼻歌を歌う。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hum&lt;tab&gt;</target></trans-unit><trans-unit id="589" approved="yes"><source>589</source><target state="final">/confirm サブコマンド
+確認する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/confirm&lt;tab&gt;</target></trans-unit><trans-unit id="590" approved="yes"><source>590</source><target state="final">/scheme サブコマンド
+企みを話す。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/scheme&lt;tab&gt;</target></trans-unit><trans-unit id="591" approved="yes"><source>591</source><target state="final">/endure サブコマンド
+忍耐するような表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/endure&lt;tab&gt;</target></trans-unit><trans-unit id="592" approved="yes"><source>592</source><target state="final">/tomestone サブコマンド
+トームストーンを愛でる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/tomestone&lt;tab&gt;</target></trans-unit><trans-unit id="593" approved="yes"><source>593</source><target state="final">/heeltoe サブコマンド
+ヒールトーを踏む。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/heeltoe&lt;tab&gt;</target></trans-unit><trans-unit id="594" approved="yes"><source>594</source><target state="final">/goobbuedo サブコマンド
+グゥーブー・ドゥを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/goobbuedo&lt;tab&gt;</target></trans-unit><trans-unit id="595" approved="yes"><source>595</source><target state="final">/gratuity サブコマンド
+心づけをばらまく。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/gratuity&lt;tab&gt;</target></trans-unit><trans-unit id="596" approved="yes"><source>596</source><target state="final">/fistpump サブコマンド
+ガッツポーズをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fistpump&lt;tab&gt;</target></trans-unit><trans-unit id="597" approved="yes"><source>597</source><target state="final">/reprimand サブコマンド
+注意をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/reprimand&lt;tab&gt;</target></trans-unit><trans-unit id="598" approved="yes"><source>598</source><target state="final">/sabotender サブコマンド
+サボテンダーポーズを決める。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sabotender&lt;tab&gt;</target></trans-unit><trans-unit id="599" approved="yes"><source>599</source><target state="final">/mandervillemambo(/mmambo) サブコマンド
+事件屋のマンボを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mandervillemambo&lt;tab&gt;/mmambo</target></trans-unit><trans-unit id="600" approved="yes"><source>600</source><target state="final">/laliho サブコマンド
+ラリホーをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/laliho&lt;tab&gt;</target></trans-unit><trans-unit id="601" approved="yes"><source>601</source><target state="final">/simulationm サブコマンド
+オメガMの構えをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/simulationm&lt;tab&gt;</target></trans-unit><trans-unit id="602" approved="yes"><source>602</source><target state="final">/simulationf サブコマンド
+オメガFの構えをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/simulationf&lt;tab&gt;</target></trans-unit><trans-unit id="603" approved="yes"><source>603</source><target state="final">/toast サブコマンド
+乾杯する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/toast&lt;tab&gt;</target></trans-unit><trans-unit id="604" approved="yes"><source>604</source><target state="final">/lean
+斜め立ちをする。
+※この感情表現は、モーションのみでテキストは表示しない。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lean&lt;tab&gt;</target></trans-unit><trans-unit id="605" approved="yes"><source>605</source><target state="final">/headache サブコマンド
+頭痛で苦しむ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/headache&lt;tab&gt;</target></trans-unit><trans-unit id="606" approved="yes"><source>606</source><target state="final">/snap サブコマンド
+フィンガースナップをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/snap&lt;tab&gt;</target></trans-unit><trans-unit id="607" approved="yes"><source>607</source><target state="final">/breakfast(/bread) サブコマンド
+パンを食べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/breakfast&lt;tab&gt;/bread</target></trans-unit><trans-unit id="608" approved="yes"><source>608</source><target state="final">/read サブコマンド
+本を読む。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/read&lt;tab&gt;</target></trans-unit><trans-unit id="609" approved="yes"><source>609</source><target state="final">/insist サブコマンド
+主張する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/insist&lt;tab&gt;</target></trans-unit><trans-unit id="610" approved="yes"><source>610</source><target state="final">/consider(/hmm) サブコマンド
+疑問を抱く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/consider&lt;tab&gt;/hmm</target></trans-unit><trans-unit id="611" approved="yes"><source>611</source><target state="final">/wasshoi サブコマンド
+わっしょいする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/wasshoi&lt;tab&gt;</target></trans-unit><trans-unit id="612" approved="yes"><source>612</source><target state="final">/flowershower(/petals) サブコマンド
+フラワーシャワーを浴びせる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/flowershower&lt;tab&gt;/petals</target></trans-unit><trans-unit id="613" approved="yes"><source>613</source><target state="final">/flamedance サブコマンド
+フレイムダンスを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/flamedance&lt;tab&gt;</target></trans-unit><trans-unit id="614" approved="yes"><source>614</source><target state="final">/highfive(/hifive) サブコマンド
+ハイタッチをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/highfive&lt;tab&gt;/hifive</target></trans-unit><trans-unit id="615" approved="yes"><source>615</source><target state="final">/guard サブコマンド
+警備をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/guard&lt;tab&gt;</target></trans-unit><trans-unit id="616" approved="yes"><source>616</source><target state="final">/malevolence サブコマンド
+呪う。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/malevolence&lt;tab&gt;</target></trans-unit><trans-unit id="617" approved="yes"><source>617</source><target state="final">/beesknees サブコマンド
+ビーステップを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/beesknees&lt;tab&gt;</target></trans-unit><trans-unit id="618" approved="yes"><source>618</source><target state="final">/lalihop サブコマンド
+ラリホップを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lalihop&lt;tab&gt;</target></trans-unit><trans-unit id="621" approved="yes"><source>621</source><target state="final">/eatriceball(/riceball) サブコマンド
+おにぎりを食べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/eatriceball&lt;tab&gt;/riceball</target></trans-unit><trans-unit id="622" approved="yes"><source>622</source><target state="final">/eatapple(/apple) サブコマンド
+リンゴを食べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/eatapple&lt;tab&gt;/apple</target></trans-unit><trans-unit id="623" approved="yes"><source>623</source><target state="final">/wringhands サブコマンド
+もみ手をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/wringhands&lt;tab&gt;</target></trans-unit><trans-unit id="624" approved="yes"><source>624</source><target state="final">/sweep(/broom) サブコマンド
+ホウキで掃く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sweep&lt;tab&gt;/broom</target></trans-unit><trans-unit id="625" approved="yes"><source>625</source><target state="final">/paintblack サブコマンド
+足元を黒く塗る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/paintblack&lt;tab&gt;</target></trans-unit><trans-unit id="626" approved="yes"><source>626</source><target state="final">/paintred サブコマンド
+足元を赤く塗る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/paintred&lt;tab&gt;</target></trans-unit><trans-unit id="627" approved="yes"><source>627</source><target state="final">/paintyellow サブコマンド
+足元を黄色く塗る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/paintyellow&lt;tab&gt;</target></trans-unit><trans-unit id="628" approved="yes"><source>628</source><target state="final">/paintblue サブコマンド
+足元を青く塗る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/paintblue&lt;tab&gt;</target></trans-unit><trans-unit id="629" approved="yes"><source>629</source><target state="final">/fakesmile サブコマンド
+作り笑いの表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/fakesmile&lt;tab&gt;</target></trans-unit><trans-unit id="630" approved="yes"><source>630</source><target state="final">/pantomime(/mime) サブコマンド
+パントマイムを演じる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pantomime&lt;tab&gt;/mime</target></trans-unit><trans-unit id="631" approved="yes"><source>631</source><target state="final">/vexed サブコマンド
+困惑する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/vexed&lt;tab&gt;</target></trans-unit><trans-unit id="632" approved="yes"><source>632</source><target state="final">/shush(/shh) サブコマンド
+静寂を促す。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/shush&lt;tab&gt;/shh</target></trans-unit><trans-unit id="633" approved="yes"><source>633</source><target state="final">/eatpizza(/pizza) サブコマンド
+ピザを食べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/eatpizza&lt;tab&gt;/pizza</target></trans-unit><trans-unit id="634" approved="yes"><source>634</source><target state="final">/clutchhead サブコマンド
+頭を抱える。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/clutchhead&lt;tab&gt;</target></trans-unit><trans-unit id="635" approved="yes"><source>635</source><target state="final">/eatchocolate(/choco) サブコマンド
+ヴァレンティオンチョコを食べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/eatchocolate&lt;tab&gt;/choco</target></trans-unit><trans-unit id="636" approved="yes"><source>636</source><target state="final">/eategg(/egg) サブコマンド
+ゆで卵を食べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/eategg&lt;tab&gt;/egg</target></trans-unit><trans-unit id="637" approved="yes"><source>637</source><target state="final">/content サブコマンド
+幸福そうな表情をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/content&lt;tab&gt;</target></trans-unit><trans-unit id="638" approved="yes"><source>638</source><target state="final">/sheathe サブコマンド
+武器を収める。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sheathe&lt;tab&gt;</target></trans-unit><trans-unit id="639" approved="yes"><source>639</source><target state="final">/draw サブコマンド
+武器を構える。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/draw&lt;tab&gt;</target></trans-unit><trans-unit id="640" approved="yes"><source>640</source><target state="final">/tea サブコマンド
+紅茶を飲む。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/tea&lt;tab&gt;</target></trans-unit><trans-unit id="641" approved="yes"><source>641</source><target state="final">/determined サブコマンド
+意気込む。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/determined&lt;tab&gt;</target></trans-unit><trans-unit id="642" approved="yes"><source>642</source><target state="final">/showright サブコマンド
+右のものを見せつける。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/showright&lt;tab&gt;</target></trans-unit><trans-unit id="643" approved="yes"><source>643</source><target state="final">/showleft サブコマンド
+左のものを見せつける。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/showleft&lt;tab&gt;</target></trans-unit><trans-unit id="646" approved="yes"><source>646</source><target state="final">/deride(/pagaga) サブコマンド
+反骨精神を示す。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/deride&lt;tab&gt;/pagaga</target></trans-unit><trans-unit id="647" approved="yes"><source>647</source><target state="final">/wow サブコマンド
+目を輝かせる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/wow&lt;tab&gt;</target></trans-unit><trans-unit id="648" approved="yes"><source>648</source><target state="final">/eatpumpkincookie(/cookie) サブコマンド
+パンプキンクッキーを食べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/eatpumpkincookie&lt;tab&gt;/cookie</target></trans-unit><trans-unit id="649" approved="yes"><source>649</source><target state="final">/spirit サブコマンド
+観戦する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/spirit&lt;tab&gt;</target></trans-unit><trans-unit id="650" approved="yes"><source>650</source><target state="final">/magictrick サブコマンド
+手品をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/magictrick&lt;tab&gt;</target></trans-unit><trans-unit id="651" approved="yes"><source>651</source><target state="final">/littleladiesdance(/ladance) サブコマンド
+姫の舞踊を踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/littleladiesdance&lt;tab&gt;/ladance</target></trans-unit><trans-unit id="652" approved="yes"><source>652</source><target state="final">/linkpearl サブコマンド
+リンクパール通信をする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/linkpearl&lt;tab&gt;</target></trans-unit><trans-unit id="653" approved="yes"><source>653</source><target state="final">/earwiggle サブコマンド
+おみみをピコピコする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/earwiggle&lt;tab&gt;</target></trans-unit><trans-unit id="657" approved="yes"><source>657</source><target state="final">/frighten サブコマンド
+驚かす。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/frighten&lt;tab&gt;</target></trans-unit><trans-unit id="658" approved="yes"><source>658</source><target state="final">/adventoflight(/advent) サブコマンド
+勇ましく降臨する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/adventoflight&lt;tab&gt;/advent</target></trans-unit><trans-unit id="659" approved="yes"><source>659</source><target state="final">/jumpforjoy1(/jj1) サブコマンド
+かわいらしくハッピージャンプする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/jumpforjoy1&lt;tab&gt;/jj1</target></trans-unit><trans-unit id="660" approved="yes"><source>660</source><target state="final">/jumpforjoy2(/jj2) サブコマンド
+嬉しそうにハッピージャンプする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/jumpforjoy2&lt;tab&gt;/jj2</target></trans-unit><trans-unit id="661" approved="yes"><source>661</source><target state="final">/jumpforjoy3(/jj3) サブコマンド
+力強くハッピージャンプする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/jumpforjoy3&lt;tab&gt;/jj3</target></trans-unit><trans-unit id="662" approved="yes"><source>662</source><target state="final">/jumpforjoy4(/jj4) サブコマンド
+のびのびとハッピージャンプする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/jumpforjoy4&lt;tab&gt;/jj4</target></trans-unit><trans-unit id="663" approved="yes"><source>663</source><target state="final">/jumpforjoy5(/jj5) サブコマンド
+サボテンダー風にハッピージャンプする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/jumpforjoy5&lt;tab&gt;/jj5</target></trans-unit><trans-unit id="664" approved="yes"><source>664</source><target state="final">/handtoheart サブコマンド
+胸に手をあてる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/handtoheart&lt;tab&gt;</target></trans-unit><trans-unit id="665" approved="yes"><source>665</source><target state="final">/cheeronbright(/cheerbright) サブコマンド
+声援（白）を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerbright</target></trans-unit><trans-unit id="666" approved="yes"><source>666</source><target state="final">/cheerwaveviolet(/cheerviolet) サブコマンド
+声援（紫）を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerviolet</target></trans-unit><trans-unit id="667" approved="yes"><source>667</source><target state="final">/cheerjumpgreen(/cheergreen) サブコマンド
+声援（緑）を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheergreen</target></trans-unit><trans-unit id="668" approved="yes"><source>668</source><target state="final">/allsaintscharm サブコマンド
+守護天節のおまじないをかける。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/allsaintscharm&lt;tab&gt;</target></trans-unit><trans-unit id="670" approved="yes"><source>670</source><target state="final">/lophop サブコマンド
+レポリットダンスを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lophop&lt;tab&gt;</target></trans-unit><trans-unit id="671" approved="yes"><source>671</source><target state="final">/reference サブコマンド
+文献を見比べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/reference&lt;tab&gt;</target></trans-unit><trans-unit id="672" approved="yes"><source>672</source><target state="final">/eatchicken サブコマンド
+フライドチキンを食べる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/eatchicken&lt;tab&gt;</target></trans-unit><trans-unit id="673" approved="yes"><source>673</source><target state="final">/sundering(/exodus) サブコマンド
+エクソダスを放つ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/sundering&lt;tab&gt;/exodus</target></trans-unit><trans-unit id="674" approved="yes"><source>674</source><target state="final">/slump サブコマンド
+うなだれる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/slump&lt;tab&gt;</target></trans-unit><trans-unit id="675" approved="yes"><source>675</source><target state="final">/loveheart(/heart) サブコマンド
+ハートポーズをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/loveheart&lt;tab&gt;/heart</target></trans-unit><trans-unit id="676" approved="yes"><source>676</source><target state="final">/humbletriumph(/waitforit) サブコマンド
+自慢げなポーズをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/humbletriumph&lt;tab&gt;/waitforit</target></trans-unit><trans-unit id="677" approved="yes"><source>677</source><target state="final">/victoryreveal(/vreveal) サブコマンド
+ビーンズ・ビクトリーを誇る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target></trans-unit></body></file></xliff>
