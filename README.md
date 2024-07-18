@@ -14,13 +14,11 @@ By participating in translation to your language you agree that your translation
 
 Web site https://translate.xivrus.ru contains extracted content from FINAL FANTASY XIV which is an intellectual property of SQUARE ENIX.
 
-Weblate and GitHub is not affiliated with our activity in any way, shape, or form.
+Weblate and GitHub are not affiliated with our activity in any way, shape, or form.
 
 (C) SQUARE ENIX CO., LTD. All Rights Reserved. FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. All material used under license.
 
 RU:
-
-Список файлов
 
 ВНИМАНИЕ! В файлах содержатся спойлеры ко всему контенту игры, включая, возможно, и контент, который ещё официально не выпущен.
 
