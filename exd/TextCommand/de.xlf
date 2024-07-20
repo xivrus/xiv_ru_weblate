@@ -145,11 +145,11 @@ Nummern der Voreinstellungen (1-5)
 &lt;var 08 E4E94F04 ((1: Standard (Mac)
 2: Mittel (Mac)
 3: Hoch (Mac)
-4: Sehr hoch (Mac)
-5: Maximum (Mac))) ((1: Standard (Laptop)
-2: Standard (Desktop)
-3: Hoch (Laptop)
-4: Hoch (Desktop)
+4: Sehr hoch (Mac): Nur bei 64bit
+5: Maximum (Mac): Nur bei 64bit)) ((1: Standard =Laptop
+2: Standard =Desktop
+3: Hoch =Laptop
+4: Hoch =Desktop
 5: Maximum)) /var&gt;&lt;tab&gt;/grafikeinstellungen&lt;tab&gt;/grafikein&lt;tab&gt;/graphicpresets&lt;tab&gt;/gpresets</target></trans-unit><trans-unit id="22" approved="yes"><source>22</source><target state="final">/zirkel, /fellowship
 → Öffnet die Liste der Zirkel.&lt;tab&gt;/zirkel&lt;tab&gt;&lt;tab&gt;/fellowship&lt;tab&gt;/fs</target></trans-unit><trans-unit id="23" approved="yes"><source>23</source><target state="final">/zirkelsuche, /zs, /fellowshipfinder
 → Öffnet die Zirkelsuche.&lt;tab&gt;/zirkelsuche&lt;tab&gt;/zs&lt;tab&gt;/fellowshipfinder&lt;tab&gt;/fsfinder</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">/kuriositäten (/kuri), /collection (/coll)
@@ -278,7 +278,6 @@ VERWENDUNG: /familiargröße [Familiarname] [Größe]
 &gt;&gt;Familiarname:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Demi-Bahamut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Demi-Phönix&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sol-Bahamut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rubin-Ifrit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Topas-Titan&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Smaragd-Garuda&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -332,40 +331,7 @@ VERWENDUNG:
 　　Aktiviert die Einstellung.
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　Deaktiviert die Einstellung.
-Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.&lt;tab&gt;/rklickbegleiter&lt;tab&gt;&lt;tab&gt;/rclickminion&lt;tab&gt;</target></trans-unit><trans-unit id="42" approved="yes"><source>42</source><target state="final">/gesichtsaccessoire, /facewear
-VERWENDUNG:
-/gesichtsaccessoire [Gesichtsaccessoire-Name]
-→ Legt das ausgewählte Gesichtsaccessoire an.
-
-Beispiel:
-/gesichtsaccessoire „Ovale Brille“
-→ Legt die ovale Brille an.&lt;tab&gt;/gesichtsaccessoire&lt;tab&gt;&lt;tab&gt;/facewear&lt;tab&gt;</target></trans-unit><trans-unit id="43" approved="yes"><source>43</source><target state="final">/stummeliste, /mutelist
-→ Öffnet die Stumme Liste.&lt;tab&gt;/stummeliste&lt;tab&gt;&lt;tab&gt;/mutelist&lt;tab&gt;</target></trans-unit><trans-unit id="44" approved="yes"><source>44</source><target state="final">/wortfilter, /wordfilter, /termfilter
-→ Öffnet das Wortfilter-Menü.&lt;tab&gt;/wortfilter&lt;tab&gt;&lt;tab&gt;/termfilter&lt;tab&gt;</target></trans-unit><trans-unit id="45" approved="yes"><source>45</source><target state="final">/gesichtsaccessoireliste, /faceaccessorylist, /facewearlist→ Öffnet die Übersicht der Gesichtsaccessoires.&lt;tab&gt;/gesichtsaccessoireliste&lt;tab&gt;&lt;tab&gt;/facewearlist&lt;tab&gt;</target></trans-unit><trans-unit id="46" approved="yes"><source>46</source><target state="final">/tondarstellung, /visualalerts
-VERWENDUNG:
-→ Aktiviert die Einstellung „Visuelle Tondarstellung“. (Nur Windows und Mac)
-&gt;&gt;Unterbefehle:
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Aktiviert die Einstellung.
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Deaktiviert die Einstellung.
-Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.&lt;tab&gt;/tondarstellung&lt;tab&gt;&lt;tab&gt;/visualalerts&lt;tab&gt;</target></trans-unit><trans-unit id="47" approved="yes"><source>47</source><target state="final">/farbkorrektur, /colorfiltering
-VERWENDUNG:
-→ Aktiviert die Einstellung „Farbwahrnehmung: Farbkorrektur umschalten“. (Nur Windows und Mac)
-&gt;&gt;Unterbefehle:
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Aktiviert die Einstellung.
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Deaktiviert die Einstellung.
-Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.&lt;tab&gt;/farbkorrektur&lt;tab&gt;&lt;tab&gt;/colorfiltering&lt;tab&gt;</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">/automatischanvisieren, /autotargetpriority
-VERWENDUNG:
-→ Aktiviert die Einstellung „Ziel bei Ausführung einer Attacke automatisch anvisieren“.
-&gt;&gt;Unterbefehle:
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Aktiviert die Einstellung.
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Deaktiviert die Einstellung.
-Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.&lt;tab&gt;/automatischanvisieren&lt;tab&gt;&lt;tab&gt;/autotargetpriority&lt;tab&gt;</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">/pvpteam, /pt
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.&lt;tab&gt;/rklickbegleiter&lt;tab&gt;&lt;tab&gt;/rclickminion&lt;tab&gt;</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">/pvpteam, /pt
 VERWENDUNG:
 pvpteam [Nachr.]
 → Sendet eine Chat-Nachricht an die Mitglieder des PvP-Teams, unabhängig von dem Areal, in dem sie sich befinden.
@@ -507,8 +473,8 @@ VERWENDUNG:
 /slist [Unterbefehl]
 → Führt Aktionen aus, die die Schwarze Liste betreffen.
 &gt;&gt;Unterbefehle:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;hinzu&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;add&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;) [Variable zur Zielbestimmung] Diesen PC und den betroffenen Dienst-Account auf die Schwarze Liste setzen.
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;entf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;remove&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;) [Variable zur Zielbestimmung] Diesen PC und den betroffenen Dienst-Account von der Schwarzen Liste entfernen.
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;hinzu&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;add&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;) [Variable zur Zielbestimmung] Diesen PC auf die Schwarze Liste setzen.
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;entf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; [Variable zur Zielbestimmung] Diesen PC von der Schwarzen Liste entfernen.
 Bei fehlendem Unterbefehl wird die Schwarze Liste geöffnet.&lt;tab&gt;/schwarzeliste&lt;tab&gt;/slist&lt;tab&gt;/blacklist&lt;tab&gt;/blist</target></trans-unit><trans-unit id="153" approved="yes"><source>153</source><target state="final">/suche, /search, /sea
 VERWENDUNG:
 /suche [Kriterien]
@@ -520,7 +486,7 @@ VERWENDUNG:
 &gt;Online-Status:
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;anführ&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Gruppenanführer}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;weg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Abwesend}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;besch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Beschäftigt}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;inhalt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {spielt einen Inhalt}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ereig&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {in einem Ereignis beschäftigt}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;suchtg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {sucht eine Gruppe}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;setztein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {setzt Materia ein}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;rekrutiert&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {rekrutiert Mitglieder über Gruppen&lt;var 16 /var&gt;suche}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;neuling&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;mentor&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;kampfmentor&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;sammlermentor&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Sammler- und Handwerker-Mentor}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;pvpmentor&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;rollenspiel&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {befindet sich im Rollenspiel}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;rückkehrer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Rückkehrer} 
 &gt;Klasse/Job:
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paladin (PLD), Gladiator (GLA), Krieger (KRG), Marodeur (MAR), Dunkelritter (DKR), Revolver&lt;var 16 /var&gt;klinge (REV), Weißmagier (WMA), Druide (DRU), Gelehrter (GLT), Astrologe (AST), Weiser (WEI), Mönch (MÖN), Faustkämpfer (FST), Dragoon (DRG), Pikenier (PIK), Ninja (NIN), Schurke (SCH), Samurai (SAM), Schnitter (SNT), Viper (VPR), Barde (BRD), Waldläufer (WDL), Maschinist (MCH), Tänzer (TÄN), Schwarzmagier (SMA), Thaumaturg (THM), Beschwörer (BSW), Hermetiker (HRT), Rotmagier (RMA), Piktomant (PKT), Blaumagier (BMA), Zimmerer (ZMR), Grobschmied (GRS), Plattner (PLA), Goldschmied (GLD), Gerber (GER), Weber (WEB), Alchemist (ALC), Gourmet (GRM), Minenarbeiter (MIN), Gärtner (GÄR), Fischer (FIS)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paladin (PLD), Gladiator (GLA), Krieger (KRG), Marodeur (MAR), Dunkelritter (DKR), Revolver&lt;var 16 /var&gt;klinge (REV), Weißmagier (WMA), Druide (DRU), Gelehrter (GLT), Astrologe (AST), Weiser (WEI), Mönch (MÖN), Faustkämpfer (FST), Dragoon (DRG), Pikenier (PIK), Ninja (NIN), Schurke (SCH), Samurai (SAM), Schnitter (SNT), Barde (BRD), Waldläufer (WDL), Maschinist (MCH), Tänzer (TÄN), Schwarzmagier (SMA), Thaumaturg (THM), Beschwörer (BSW), Hermetiker (HRT), Rotmagier (RMA), Blaumagier (BMA), Zimmerer (ZMR), Grobschmied (GRS), Plattner (PLA), Goldschmied (GLD), Gerber (GER), Weber (WEB), Alchemist (ALC), Gourmet (GRM), Minenarbeiter (MIN), Gärtner (GÄR), Fischer (FIS)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Fehlt die Klassenangabe, werden alle einbezogen.
 &gt;Stufe:
 [Zahl] Sucht nach Charakteren auf dieser Stufe.
@@ -529,7 +495,7 @@ Fehlt die Zahl, werden alle Stufen einbezogen.
  &gt;Staatliche Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaft:
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;mahl&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Mahlstrom}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;brud&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Bruderschaft der Morgenviper}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;legi&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Legion der Unsterblichen}
 &gt;Gebiet:
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;welt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {gesamte Welt}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;lims&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Limsa Lominsa}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;grid&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Gridania}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ulda&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Ul'dah}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;gold&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Gold Saucer}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;wolf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Die Wolfshöhle}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ishg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Ishgard}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;froh&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Frohehalde}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;kuga&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Kugane}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ralg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Rhalgrs Wacht}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;crys&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Crystarium}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;eulm&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Eulmore}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;alts&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Alt-Sharlayan}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;radz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Radz-at-Han}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;tull&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Tuliyollal}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;lösn&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Lösung Neun}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;nosc&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {La Noscea}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;fins&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Finsterwald}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;than&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Thanalan}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;coer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Coerthas}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;mord&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Mor Dhona}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;abal&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Abalathisches Wolkenmeer}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;drav&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Dravania}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;gyra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Gyr Abania}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;otha&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Othard}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;norv&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Norvrandt}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;thav&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Thavnair}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;garl&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Garlemald}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;laby&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Labyrinthos}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;yokt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Yok Tural}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;xakt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Xak Tural} und &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;andort&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {andere Orte}.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;welt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {gesamte Welt}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;lims&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Limsa Lominsa}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;grid&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Gridania}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ulda&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Ul'dah}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;gold&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Gold Saucer}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;wolf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Die Wolfshöhle}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ishg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Ishgard}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;froh&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Frohehalde}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;kuga&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Kugane}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ralg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Rhalgrs Wacht}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;crys&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Crystarium}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;eulm&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Eulmore}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;alts&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Alt-Sharlayan}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;radz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Radz-at-Han}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;nosc&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {La Noscea}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;fins&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Finsterwald}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;than&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Thanalan}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;coer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Coerthas}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;mord&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Mor Dhona}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;abal&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Abalathisches Wolkenmeer}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;drav&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Dravania}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;gyra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Gyr Abania}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;otha&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Othard}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;norv&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Norvrandt}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;thav&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Thavnair}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;garl&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Garlemald}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;laby&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Labyrinthos} und &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;andort&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {andere Orte}.
 Fehlt das Gebiet, wird die gesamte Welt einbezogen.
 &gt;Sprache:
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;de&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Deutsch}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;en&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Englisch}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;fr&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Französisch}, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ja&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; {Japanisch}
@@ -537,7 +503,7 @@ Fehlt die Sprache, wird nach der Spielsprache gesucht.
 Fehlen alle Unterbefehle, wird eine Suche nach voreingestellten Kriterien durchgeführt.
 
 &gt;&gt;Beispiel:
-"„/suche GLA 20-30 nosc"“
+"/suche GLA 20-30 nosc"
 Sucht nach allen Gladiatoren Stufe 20-30, die momentan in La Noscea sind (Name, Online-Status, Staatliche Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaft egal, Sprache deines Spiels).&lt;tab&gt;/suche&lt;tab&gt;&lt;tab&gt;/search&lt;tab&gt;/sea</target></trans-unit><trans-unit id="154" approved="yes"><source>154</source><target state="final">/karte, /map
 → Öffnet die Karte.&lt;tab&gt;/karte&lt;tab&gt;&lt;tab&gt;/map&lt;tab&gt;</target></trans-unit><trans-unit id="155" approved="yes"><source>155</source><target state="final">/teleport
 → Öffnet das Teleport-Menü.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/teleport&lt;tab&gt;</target></trans-unit><trans-unit id="156" approved="yes"><source>156</source><target state="final">/mark, /marking, /mk
@@ -743,11 +709,11 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.&lt;tab&gt;/macrofehle
 → Zeigt die Gesamtspielzeit an, die du bisher mit FINAL FANTASY XIV verbracht hast.&lt;tab&gt;/spielzeit&lt;tab&gt;&lt;tab&gt;/playtime&lt;tab&gt;/ptime</target></trans-unit><trans-unit id="219" approved="yes"><source>219</source><target state="final">/gruppenpose, /grouppose, /gpose
 → Lässt Gruppen- und Allianzmitglieder sowie Begleiter, Reittiere und Mitstreiter gemeinsam posieren.
 &gt;&gt;Steuerung:
-&lt;var 1E 0B /var&gt;, R, Num *, Mausrad-Klick
+&lt;var 1E 0B /var&gt;, &lt;var 08 E4E94F04 ((r)) ((R)) /var&gt;, Num *, Mausrad-Klick
 Kamera-Einstellungen anzeigen
 &lt;var 1E 0C /var&gt;, Leertaste
 Blick zur Kamera/normal
-&lt;var 1E 0E /var&gt;, X
+&lt;var 1E 0E /var&gt;, &lt;var 08 E4E94F04 ((x)) ((X)) /var&gt;
 Bewegung anhalten (alle)
 &lt;var 1E 0F /var&gt;, Num 1
 Bewegung anhalten (Ziel)
@@ -755,9 +721,9 @@ Bewegung anhalten (Ziel)
 Fokussierten Charakter wechseln
 &lt;var 1E 07 /var&gt;, &lt;var 08 E4E94F04 ((tab, umsch+tab)) ((Tab, Umsch+Tab)) /var&gt;
 Fokus wechseln
-&lt;var 1E 15 /var&gt;, W,A,S,D,Q,E
+&lt;var 1E 15 /var&gt;, &lt;var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var&gt;
 Kameraposition ändern
-&lt;var 12 11 /var&gt;, Z
+&lt;var 12 11 /var&gt;, &lt;var 08 E4E94F04 ((z)) ((Z)) /var&gt;
 Kameraposition zurücksetzen&lt;tab&gt;/gruppenpose&lt;tab&gt;&lt;tab&gt;/grouppose&lt;tab&gt;/gpose</target></trans-unit><trans-unit id="220" approved="yes"><source>220</source><target state="final">/ggsuche, /itemsearch, /isearch
 VERWENDUNG:
 /ggsuche [Text]
@@ -769,15 +735,15 @@ VERWENDUNG:
 /knips [Variable zur Zielbestimmung]
 → Aktiviert den Schnappschuss-Sucher, der im 10-Sekunden-Abstand zufällige Naheinstellungen von Charakteren und Objekten der Umgebung zeigt. Bei Angabe eines Ziels fokussiert der Sucher darauf (ausgenommen einige unfokussierbare Charaktere).
 &gt;&gt;Steuerung:
-&lt;var 1E 0B /var&gt;, R, Num *, Mausrad-Klick
+&lt;var 1E 0B /var&gt;, &lt;var 08 E4E94F04 ((r)) ((R)) /var&gt;, Num *, Mausrad-Klick
 Kamera-Einstellungen anzeigen
 &lt;var 1E 09 /var&gt;, Num 0, Links-Klick
 Kamerawinkel anhalten/weiter wechseln
 &lt;var 1E 07 /var&gt;, &lt;var 08 E4E94F04 ((tab,umschalt+tab)) ((Tab,Umschalt+Tab)) /var&gt;
 Szene überspringen
-&lt;var 1E 15 /var&gt;, W,A,S,D,Q,E
+&lt;var 1E 15 /var&gt;, &lt;var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var&gt;
 Kameraposition ändern
-&lt;var 12 11 /var&gt;, Z
+&lt;var 12 11 /var&gt;, &lt;var 08 E4E94F04 ((z)) ((Z)) /var&gt;
 Kameraposition zurücksetzen
 &gt;&gt;Beispiel:
 /knips &lt;t&gt;
@@ -845,8 +811,8 @@ VERWENDUNG:
 /alarm [Unterbefehl]
 → Richtet einen Alarm ein.
 Beispiel:
-/alarm Feierabend oz wh 1920 15 ton04
-Richtet einen Alarm mit dem Namen „Feierabend“ für 19:20 Uhr Ortszeit (oz) ein, der täglich wiederholt (wh), 15 Minuten vorher angekündigt wird und mit dem Alarmton 4 (ton04) klingelt. Wiederholung und Ankündigung können ausgelassen werden. Eine Zeitangabe ist von 0000 bis 2400 möglich. Die Ankündigung kann zwischen 1 und 60 Minuten vor dem Termin liegen. Die Alarmtöne reichen von ton00 bis ton05, und falls er zusätzlich als stumm (mute) definiert ist, klingelt er nicht in Inhalten. Alarmton und Stummschaltung können ausgelassen werden.
+/alarm Feierabend oz wh 1920 15
+Richtet einen Alarm mit dem Name „Feierabend“ für 19:20 Uhr Ortszeit (oz) ein, der täglich wiederholt (wh) und 15 Minuten vorher angekündigt wird. Wiederholung und Ankündigung können ausgelassen werden. Eine Zeitangabe ist von 0000 bis 2400 möglich. Die Ankündigung kann zwischen 1 und 60 Minuten vor dem Termin liegen.
 &gt;&gt;Unterbefehle
  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;oz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;lt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Ortszeit
  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;sz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;st&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Serverzeit
@@ -1152,17 +1118,17 @@ VERWENDUNG:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Nicht anzeigen.
 Bei fehlendem Typ wird zwischen „alle“ und „aus“ gewechselt.&lt;tab&gt;/kampfeffekte&lt;tab&gt;&lt;tab&gt;/battleeffect&lt;tab&gt;</target></trans-unit><trans-unit id="314" approved="yes"><source>314</source><target state="final">/hud
 VERWENDUNG:
-/hud [Element] [Unterbefehl]
+/hud "„[Element]"“ [Unterbefehl]
 → Blendet das angegebene Element ein/aus.
 &gt;&gt;HUD-Elemente:
-Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
+Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld)
 &gt;&gt;Unterbefehle:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Element anzeigen
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Element ausblenden
 Bei fehlendem Unterbefehl wird die Einstellung gewechselt.
 
 &gt;&gt;Beispiel:
-/hud Details zum Ziel
+/hud "„Details zum Ziel"“
 Blendet die Detailinformation zum gerade anvisierten Charakter bzw. Objekt ein/aus.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hud&lt;tab&gt;</target></trans-unit><trans-unit id="315" approved="yes"><source>315</source><target state="final">/kommandomenü, /kmenü, /hotbar
 VERWENDUNG:
 /kommandomenü [Unterbefehl]
@@ -2704,9 +2670,4 @@ VERWENDUNG:
 /bohnensieg [Unterbefehl]
 → Du feierst deinen Sieg mit einer gebührend bohnigen Pose.
 &gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.&lt;tab&gt;/bohnensieg&lt;tab&gt;&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target></trans-unit><trans-unit id="679" approved="yes"><source>679</source><target state="final">/großfächer, /uchiwasshoi, /bigfan
-VERWENDUNG:
-/großfächer [Unterbefehl]
-→ Du kühlst die Umgebung mit deinem riesigen Fächer ordentlich ab.
-&gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.&lt;tab&gt;/großfächer&lt;tab&gt;&lt;tab&gt;/uchiwasshoi&lt;tab&gt;/bigfan</target></trans-unit></body></file></xliff>
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.&lt;tab&gt;/bohnensieg&lt;tab&gt;&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target></trans-unit></body></file></xliff>

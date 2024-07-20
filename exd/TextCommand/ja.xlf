@@ -132,8 +132,8 @@ off
 &lt;var 08 E4E94F04 ((1:Standard (Mac)
 2:Middle (Mac)
 3:High (Mac)
-4:Extra-High (Mac)
-5:Maximum (Mac)
+4:Extra-High (Mac)：64bitアプリのみ
+5:Maximum (Mac)：64bitアプリのみ
 
 実行例
 /graphicpresets 1
@@ -277,7 +277,6 @@ feast
 イフリート・ルビー
 タイタン・トパーズ
 ガルーダ・エメラルド
-ソルバハムート
 all
 
 &gt;&gt;サイズ
@@ -330,41 +329,7 @@ on
 off
 　…除外設定を無効にする。
 ※サブコマンド省略
-　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/rclickminion&lt;tab&gt;</target></trans-unit><trans-unit id="42" approved="yes"><source>42</source><target state="final">/faceaccessory(/facewear) “フェイスアクセサリー名”
-指定したフェイスアクセサリーを装備する。
-
-実行例
-/faceaccessory オーバルグラス
-　…フェイスアクセサリー「オーバルグラス」を装備する。&lt;tab&gt;/faceaccessory&lt;tab&gt;&lt;tab&gt;/facewear&lt;tab&gt;</target></trans-unit><trans-unit id="43" approved="yes"><source>43</source><target state="final">/mutelist
-ミュートリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mutelist&lt;tab&gt;</target></trans-unit><trans-unit id="44" approved="yes"><source>44</source><target state="final">/wordfilter(/termfilter)
-ワードフィルターのメニューを開く。&lt;tab&gt;/wordfilter&lt;tab&gt;&lt;tab&gt;/termfilter&lt;tab&gt;</target></trans-unit><trans-unit id="45" approved="yes"><source>45</source><target state="final">/faceaccessorylist(/facewearlist)
-フェイスアクセサリーのメニューを開く。&lt;tab&gt;/faceaccessorylist&lt;tab&gt;&lt;tab&gt;/facewearlist&lt;tab&gt;</target></trans-unit><trans-unit id="46" approved="yes"><source>46</source><target state="final">/visualalerts サブコマンド
-システムコンフィグ「サウンドの視覚表現」を設定する。
-※Windows／Mac版のみ有効。
-&gt;&gt;サブコマンド
-on
-　…視覚表現を有効にする。
-off
-　…視覚表現を無効にする。
-※サブコマンド省略
-　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/visualalerts&lt;tab&gt;</target></trans-unit><trans-unit id="47" approved="yes"><source>47</source><target state="final">/colorfiltering サブコマンド
-システムコンフィグ「色覚多様性設定：色補正」を設定する。
-※Windows／Mac版のみ有効。
-&gt;&gt;サブコマンド
-on
-　…色補正を有効にする。
-off
-　…色補正を無効にする。
-※サブコマンド省略
-　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/colorfiltering&lt;tab&gt;</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">/autotargetpriority サブコマンド
-キャラクターコンフィグ「敵対アクション実行時にターゲットを自動選択して実行する」を設定する。
-&gt;&gt;サブコマンド
-on
-　…ターゲットの自動選択を有効にする。
-off
-　…ターゲットの自動選択を無効にする。
-※サブコマンド省略
-　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/autotargetpriority&lt;tab&gt;</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">/pvpteam(/pt) 文章
+　…有効／無効のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/rclickminion&lt;tab&gt;</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">/pvpteam(/pt) 文章
 PvPチームに参加中のPCに距離、エリアを問わず文章を送信する。
 /pvpteamのみを入力した場合は、デフォルトの会話モードをPvPTeamにする。
 
@@ -481,9 +446,9 @@ remove 代名詞
 ブラックリストに関するコマンドを実行する。
 &gt;&gt;サブコマンド
 add 代名詞
-　…指定したPCに紐づくアカウントをブラックリストに登録する。
+　…指定したPCをブラックリストに登録する。
 remove 代名詞
-　…指定したPCに紐づくアカウントをブラックリストから外す。
+　…指定したPCをブラックリストから外す。
 ※サブコマンド省略
 　…ブラックリストのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/blacklist&lt;tab&gt;/blist</target></trans-unit><trans-unit id="153" approved="yes"><source>153</source><target state="final">/search(/sea) 条件
 指定した条件でPCをサーチして、結果をPCサーチのメニューで表示する。
@@ -496,7 +461,7 @@ familyname(姓) PC姓
 【オンラインステータスの指定】
 　…パーティリーダー(leader)　離席(away)　取り込み中(busy)　コンテンツ中(contents)　イベント中(event)　パーティ希望(lookingforparty)　マテリア装着請負中(lookingformeld)　パーティ募集中(recruitingparty)　ビギナー(beginner)　メンター(mentor)　バトルメンター(pvementor)　製作採集メンター(tradementor)　PvPメンター(pvpmentor)　ロールプレイ中(roleplay)　リターナー(returner)
 【クラス・ジョブ指定】
-　…ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　ヴァイパー(VPR)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　ピクトマンサー(PCT)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
+　…ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
 　※省略した場合は全クラス・ジョブを対象。
 【レベル指定】
 　…数字　指定するとそのレベルを検索する。
@@ -505,7 +470,7 @@ familyname(姓) PC姓
 【所属グランドカンパニー指定】
 　…黒渦団　双蛇党　不滅隊
 【場所指定】
-　…ワールド全体　リムサ・ロミンサ　グリダニア　ウルダハ　ゴールドソーサー　ウルヴズジェイル　イシュガルド　イディルシャイア　クガネ　ラールガーズリーチ　クリスタリウム　ユールモア　オールド・シャーレアン　ラザハン　トライヨラ　ソリューション・ナイン　ラノシア　黒衣森　ザナラーン　クルザス　モードゥナ　アバラシア　ドラヴァニア　ギラバニア　オサード　ノルヴラント　サベネア島　ガレマルド　ラヴィリンソス　ヨカ・トラル　サカ・トラル　その他エリア
+　…ワールド全体　リムサ・ロミンサ　グリダニア　ウルダハ　ゴールドソーサー　ウルヴズジェイル　イシュガルド　イディルシャイア　クガネ　ラールガーズリーチ　クリスタリウム　ユールモア　オールドシャーレアン　ラザハン　ラノシア　黒衣森　ザナラーン　クルザス　モードゥナ　アバラシア　ドラヴァニア　ギラバニア　オサード　ノルヴラント　サベネア島　ガレマルド　ラヴィリンソス　その他エリア
 　※省略した場合、ワールド全体として検索する。
 【言語指定】
 　…日本語(JA)　英語(EN)　フランス語(FR)　ドイツ語(DE)
@@ -769,11 +734,11 @@ off
 
 &gt;&gt;機能内操作
 カメラ設定ウィンドウの表示
-　…&lt;var 1E 0B /var&gt;／【R】キー、テンキー【*】／ホイールボタン
+　…&lt;var 1E 0B /var&gt;／【&lt;var 08 E4E94F04 ((r)) ((R)) /var&gt;】キー、テンキー【*】／ホイールボタン
 カメラ方向への視線送りON/OFF
 　…&lt;var 1E 0C /var&gt;／【&lt;var 08 E4E94F04 ((space)) ((Space)) /var&gt;】キー
 カメラ位置に照明を設置
-　…&lt;var 1E 0E /var&gt;／【X】キー
+　…&lt;var 1E 0E /var&gt;／【&lt;var 08 E4E94F04 ((x)) ((X)) /var&gt;】キー
 モーションストップ（全体）
 　…&lt;var 1E 0F /var&gt;／【1】キー
 モーションストップ（選択対象）
@@ -781,9 +746,9 @@ off
 注視キャラクターの切り替え
 　…&lt;var 1E 07 /var&gt;／【&lt;var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var&gt;】キー
 カメラの操作
-　…&lt;var 1E 15 /var&gt;／【W,A,S,D,Q,E】キー
+　…&lt;var 1E 15 /var&gt;／【&lt;var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var&gt;】キー
 カメラリセット
-　…&lt;var 12 11 /var&gt;／【Z】キー &lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/grouppose&lt;tab&gt;/gpose</target></trans-unit><trans-unit id="220" approved="yes"><source>220</source><target state="final">/itemsearch(/isearch) 文章
+　…&lt;var 12 11 /var&gt;／【&lt;var 08 E4E94F04 ((z)) ((Z)) /var&gt;】キー &lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/grouppose&lt;tab&gt;/gpose</target></trans-unit><trans-unit id="220" approved="yes"><source>220</source><target state="final">/itemsearch(/isearch) 文章
 入力された文章から所持品検索を実行する。チャット入力欄からの実行専用。
 検索の対象は装備中のアイテム、所持品、アーマリーチェスト、チョコボかばん、リテイナー所持品、リテイナー装備品、愛蔵品キャビネット、ミラージュドレッサー。
 
@@ -796,15 +761,15 @@ off
 
 &gt;&gt;機能内操作
 カメラ設定ウィンドウの表示
-　…&lt;var 1E 0B /var&gt;／【R】キー、テンキー【*】／ホイールボタン
+　…&lt;var 1E 0B /var&gt;／【&lt;var 08 E4E94F04 ((r)) ((R)) /var&gt;】キー、テンキー【*】／ホイールボタン
 カメラアングル切り替え一時停止・再開
 　…&lt;var 1E 09 /var&gt;／テンキー【0】／左クリック 
 シーンスキップ
 　…&lt;var 1E 07 /var&gt;／【&lt;var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var&gt;】キー
 カメラの操作
-　…&lt;var 1E 15 /var&gt;／【W,A,S,D,Q,E】キー
+　…&lt;var 1E 15 /var&gt;／【&lt;var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var&gt;】キー
 カメラリセット
-　…&lt;var 12 11 /var&gt;／【Z】キー
+　…&lt;var 12 11 /var&gt;／【&lt;var 08 E4E94F04 ((z)) ((Z)) /var&gt;】キー
 
 実行例
 /idlingcamera
@@ -883,8 +848,8 @@ clear
 ※本コマンドは/petsizeに統合されたため、今後はそちらをご利用ください。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bahamutsize&lt;tab&gt;</target></trans-unit><trans-unit id="229" approved="yes"><source>229</source><target state="final">/alarm サブコマンド
 アラームの設定をする。
 &gt;&gt;サブコマンド
-"アラーム名" 時間タイプ(lt,st,et) 繰り返し設定(repeat,rp) 時間(0000-2400) 何分前(0-60) SE番号(se00-se05) コンテンツ中SEミュート(mute)
-　…指定した時間で再生されるアラームを設定する。繰り返し設定(repeat,rp)を設定した場合は毎時繰り返しアラームを実行する。SE番号(se00-se05)を設定した場合は指定したサウンドで再生する。コンテンツ中SEミュート(mute)を設定した場合はコンテンツ中はアラームのSE通知をスキップする。「繰り返し設定」および「何分前」「SE番号」「コンテンツ中SEミュート」は省略可能。
+"アラーム名" 時間タイプ(lt,st,et) repeat(rp) 時間(0000-2400) 何分前(0-60)
+　…指定した時間で再生されるアラームを設定する。repeat(rp)を設定した場合は毎時繰り返しアラームを実行する。「repeat(rp)」および「何分前」は省略可能。
 clear
 　…設定中のアラームを全削除する。
 ※サブコマンド省略
@@ -896,9 +861,9 @@ st サーバー時間
 et エオルゼア時間
 
 実行例
-/alarm "集合時間" lt 2000 10 se04
+/alarm "集合時間" lt 2000 10
 　…ローカル時間の20時の10分前に実行する「集合時間」のアラームを設定する。
-/alarm "休憩" lt rp 30 se05
+/alarm "休憩" lt rp 30
 　…ローカル時間の毎時30分に実行する「休憩」のアラームを設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/alarm&lt;tab&gt;</target></trans-unit><trans-unit id="231" approved="yes"><source>231</source><target state="final">/busy サブコマンド
 オンラインステータスを「取り込み中(Busy)」に設定する。
 &gt;&gt;サブコマンド
@@ -1255,8 +1220,6 @@ off
 ターゲット情報：バフ・デバフ(TargetInfo:Status)
 フォーカスターゲット情報(FocusTarget,focus)
 パーティリスト(PartyList,party)
-ジョブHUD1(JobHUD1,JobGauge1)
-ジョブHUD2(JobHUD2,JobGauge2)
 敵対リスト(EnemyList,enemy)
 キャラクターパラメータ(MyParam,param)
 ナビマップ(NaviMap,navi)
@@ -1292,10 +1255,6 @@ EXホットバー(HotbarEx)
 ライバルウィングズ：アライアンスリスト(RivalWings:Alliance)
 ライバルウィングズ：ステーション情報(RivalWings:Station)
 ライバルウィングズ：ゴブリン・マーシナリー情報(RivalWings:Mercenary)
-ブランダーヴィル：ゴール目標(Blunder:Objective)
-ブランダーヴィル：達成数(Blunder:Score)
-ブランダーヴィル：ステージ状況(Blunder:Status)
-ブランダーヴィル：ショーログ(Blunder:ShowLog)
 
 &gt;&gt;サブコマンド
 on 
@@ -3056,10 +3015,4 @@ motion
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target></trans-unit><trans-unit id="679" approved="yes"><source>679</source><target state="final">/uchiwasshoi(/bigfan) サブコマンド
-大うちわで扇ぐ。
-&gt;&gt;サブコマンド
-motion
-　…モーションのみ、感情表現テキストは表示しない。
-※サブコマンド省略
-　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/uchiwasshoi&lt;tab&gt;/bigfan</target></trans-unit></body></file></xliff>
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target></trans-unit></body></file></xliff>

@@ -156,8 +156,8 @@ USAGE:
 →Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 8, regardless of their location. Typing /cwlinkshell8 or /cwl8 without a message switches the default chat mode to [Cross-world Linkshell 8].&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cwlinkshell8&lt;tab&gt;/cwl8</target></trans-unit><trans-unit id="21" approved="yes"><source>21</source><target state="final">ALIASES:
 　/graphicpresets, /gpresets
 USAGE:
-　/graphicpresets [preset
-　number]
+　/graphicpresets [preset number]
+
 →Load one of several preset graphics configuration settings.
 
 &gt;&gt;Preset Configurations:
@@ -169,8 +169,7 @@ USAGE:
 
 &gt;&gt;Example:
 　　/graphicpresets 2
-　　=Sets graphics settings to
- 　　preset 2.)) ((　　1: Standard (Laptop)
+　　=Sets graphics settings to preset 2.)) ((　　1: Standard (Laptop)
 　　2: Standard (Desktop)
 　　3: High (Laptop)
 　　4: High (Desktop)
@@ -178,8 +177,7 @@ USAGE:
 
 &gt;&gt;Example:
 　　/graphicpresets 2
-　　(Sets graphics settings to
-　　preset 2.))) /var&gt;&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/graphicpresets&lt;tab&gt;/gpresets</target></trans-unit><trans-unit id="22" approved="yes"><source>22</source><target state="final">ALIASES:
+　　(Sets graphics settings to preset 2.))) /var&gt;&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/graphicpresets&lt;tab&gt;/gpresets</target></trans-unit><trans-unit id="22" approved="yes"><source>22</source><target state="final">ALIASES:
 　/fellowship, /fs
 USAGE:
 　/fellowship
@@ -359,7 +357,6 @@ Displays pet glamour settings in chat log when no subcommand is specified.
 　Ruby Ifrit
 　Topaz Titan
 　Emerald Garuda
-　Solar Bahamut
 　all
 
 &gt;&gt;Size:
@@ -437,57 +434,7 @@ Toggles between on and off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　Enables right-click selection for minions.
 
-Toggles between on and off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/rclickminion&lt;tab&gt;</target></trans-unit><trans-unit id="42" approved="yes"><source>42</source><target state="final">USAGE:
-　/facewear [accessory]
-
-→Equip a specified face accessory.
-
-&gt;&gt;Example:
-　/facewear “oval spectacles”
-　(Equip the oval spectacles face accessory.)&lt;tab&gt;/facewear&lt;tab&gt;&lt;tab&gt;/facewear&lt;tab&gt;</target></trans-unit><trans-unit id="43" approved="yes"><source>43</source><target state="final">USAGE:
-　/mutelist
-
-→Opens and closes the Mute List interface.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/mutelist&lt;tab&gt;</target></trans-unit><trans-unit id="44" approved="yes"><source>44</source><target state="final">USAGE:
-　/termfilter
-
-→Opens and closes the Term Filter interface.&lt;tab&gt;/termfilter&lt;tab&gt;&lt;tab&gt;/termfilter&lt;tab&gt;</target></trans-unit><trans-unit id="45" approved="yes"><source>45</source><target state="final">USAGE:
-　/facewearlist
-
-→Opens and closes the Facewear interface.&lt;tab&gt;/facewearlist&lt;tab&gt;&lt;tab&gt;/facewearlist&lt;tab&gt;</target></trans-unit><trans-unit id="46" approved="yes"><source>46</source><target state="final">USAGE:
-　/visualalerts [subcommand]
-
-→Change visual alerts settings.
-
-&gt;&gt;Subcommands:
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Enables visual alerts.
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Disable visual alerts.
-
-Toggles between on and off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/visualalerts&lt;tab&gt;</target></trans-unit><trans-unit id="47" approved="yes"><source>47</source><target state="final">USAGE:
-　/colorfiltering [subcommand]
-
-→Change color filtering settings.
-　※Windows and Mac only.
-
-&gt;&gt;Subcommands:
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Enables color filtering.
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Disable color filtering.
-
-Toggles between on and off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/colorfiltering&lt;tab&gt;</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">USAGE:
-　/autotargetpriority [subcommand]
-
-→Change auto-target priority settings.
-
-&gt;&gt;Subcommands:
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Enables auto-target priority.
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Disable auto-target priority.
-
-Toggles between on and off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/autotargetpriority&lt;tab&gt;</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">ALIASES:
+Toggles between on and off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/rclickminion&lt;tab&gt;</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">ALIASES:
 　/pvpteam, /pt
 USAGE:
 　/pvpteam [message]
@@ -788,13 +735,10 @@ USAGE:
 
 &gt;&gt;Subcommands:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;add [placeholder]&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Add an account tied to a
-　　designated PC to your
-　　blacklist.
+　　Add a PC to your blacklist.
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;remove [placeholder]&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Remove an account tied
-　　to a designated PC from
-　　your blacklist.
+　　Remove a PC from your
+　　blacklist.
 
 Opens and closes blacklist when no subcommand is specified.
 
@@ -831,8 +775,7 @@ USAGE:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PLD&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MNK&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WAR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DRG&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BRD&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WHM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SMN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SCH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;NIN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DRK&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MCH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;AST&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SAM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RDM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLU&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GNB&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DNC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SGE&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;VPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PCT&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLU&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GNB&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DNC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SGE&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Searches all jobs and classes if none specified.
 【Level】
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;[number]&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -860,8 +803,7 @@ Searches all levels if none are specified.
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Radz-at-Han"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Thavnair"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Garlemald"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"The Crystarium"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Eulmore"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Norvrandt"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Elsewhere"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Tuliyollal"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Yok Tural"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Xak Tural"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;"Elsewhere"&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Searches all locations if none are specified.
 【Language】
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;JA&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;EN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;FR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DE&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -1428,13 +1370,13 @@ USAGE:
 
 &gt;&gt;Controls
 　Open the Camera Settings interface
-　&lt;var 1E 0B /var&gt;, R, NUM*, Mouse Wheel
+　&lt;var 1E 0B /var&gt;, &lt;var 08 E4E94F04 ((r)) ((R)) /var&gt;, NUM*, Mouse Wheel
 
 　Toggle group view on camera
 　&lt;var 1E 0C /var&gt;, &lt;var 08 E4E94F04 ((spacebar)) ((Spacebar)) /var&gt;
 
 　Toggle camera lighting
-　&lt;var 1E 0E /var&gt;, X
+　&lt;var 1E 0E /var&gt;, &lt;var 08 E4E94F04 ((x)) ((X)) /var&gt;
 
 　Toggle all character motions
 　&lt;var 1E 0F /var&gt;, 1 Key
@@ -1443,13 +1385,13 @@ USAGE:
 　&lt;var 1E 10 /var&gt;, 2 Key
 
 　Change focus of camera
-　&lt;var 1E 07 /var&gt;, &lt;var 08 E4E94F04 ((tab, shift+tab)) (( Tab, Shift+Tab)) /var&gt;
+　&lt;var 1E 07 /var&gt;, &lt;var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var&gt;
 
 　Adjust frame composition
- &lt;var 1E 15 /var&gt;, W, A, S, D, Q, E
+ 　&lt;var 1E 15 /var&gt;, &lt;var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var&gt;
 
 　Reset frame composition
-　&lt;var 12 11 /var&gt;, Z&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/grouppose&lt;tab&gt;/gpose</target></trans-unit><trans-unit id="220" approved="yes"><source>220</source><target state="final">ALIASES:
+　&lt;var 12 11 /var&gt;, &lt;var 08 E4E94F04 ((z)) ((Z)) /var&gt;&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/grouppose&lt;tab&gt;/gpose</target></trans-unit><trans-unit id="220" approved="yes"><source>220</source><target state="final">ALIASES:
 　/itemsearch, /isearch
 USAGE:
 　/isearch [item name]
@@ -1469,19 +1411,19 @@ USAGE:
 
 &gt;&gt;Controls
 　Open the Camera Settings interface
-　&lt;var 1E 0B /var&gt;, R, NUM*, Wheel Button
+　&lt;var 1E 0B /var&gt;, &lt;var 08 E4E94F04 ((r)) ((R)) /var&gt;, NUM*, Wheel Button
 
 　Pause/unpause camera
 　&lt;var 1E 09 /var&gt;, NUM0, left-click
 
 　Skip scene
-　&lt;var 1E 07 /var&gt;, Tab, Shift+Tab
+　&lt;var 1E 07 /var&gt;, &lt;var 08 E4E94F04 ((tab,shift+tab)) ((Tab,Shift+Tab)) /var&gt;
 
 　Adjust frame composition
-　&lt;var 1E 15 /var&gt;, W, A, S, D, Q, E
+　&lt;var 1E 15 /var&gt;, &lt;var 08 E4E94F04 ((w,a,s,d,q,e)) ((W,A,S,D,Q,E)) /var&gt;
 
 　Reset frame composition
-　&lt;var 12 11 /var&gt;, Z
+　&lt;var 12 11 /var&gt;, &lt;var 08 E4E94F04 ((z)) ((Z)) /var&gt;
 
 &gt;&gt;Common Placeholders:
 　&lt;t&gt;, &lt;target&gt;, &lt;1&gt;-&lt;8&gt;
@@ -1566,7 +1508,7 @@ A random title will be set when none is specified.
 　/bahamutsize [subcommand]
 
 Though mages well versed in the art of summoning know to use /petsize, ancient texts suggest this command was once used to alter the visage of the dread summon Demi-Bahamut.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bahamutsize&lt;tab&gt;</target></trans-unit><trans-unit id="229" approved="yes"><source>229</source><target state="final">USAGE:
-　/alarm "name" [clock type] [repeat] [time] [reminder] [sound effect] [mute]
+　/alarm "name" [clock type] [repeat] [time] [reminder]
 
 →Set an alarm for a specified time using local, server, or Eorzea time.
 
@@ -1574,50 +1516,34 @@ Though mages well versed in the art of summoning know to use /petsize, ancient t
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;lt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　Set the alarm using local time.
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;st&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Set the alarm using server
-　　time.
+　　Set the alarm using server time.
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;et&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Set the alarm using Eorzea
-　　time.
+　　Set the alarm using Eorzea time.
 
 &gt;&gt;Repeat:
-　Use "repeat" or "rp" to set an
-　hourly alarm.
+　Use "repeat" or "rp" to set an hourly alarm.
 
 &gt;&gt;Time:
-　Times must be set using the 24-
-　hour clock.
+　Times must be set using the 24-hour clock.
 　Time values: 0000-2400
-　The hour must be omitted
-　when using the repeat
-　subcommand.
+　The hour must be omitted when using the repeat subcommand.
 
 &gt;&gt;Reminder:
-　A notification can be given up
-　to 60 minutes prior to the
-　alarm.
+　A notification can be given up to 60 minutes prior to the alarm.
 　Time values: 0-60
 
-&gt;&gt;Sound Effect:
-　Play a designated sound effect.
-　Sound effect values: 00-05
-
-&gt;&gt;Mute:
-　Mute sound effects while
-　undertaking duties.
-
-The repeat, reminder, sound effect, and mute subcommands can be omitted.
+The repeat and reminder subcommands can be omitted.
 The "clear" subcommand can be used to delete all alarms.
 Opens the alarm interface when no subcommands are specified.
 
 &gt;&gt;Examples:
-　/alarm Raid lt 2000 10 se04
+　/alarm Raid lt 2000 10
 　(Sets the "Raid" alarm for
 　20:00 local time, with a
 　notification given 10
 　minutes prior.)
 
-　/alarm Party lt rp 30 se05
+　/alarm Party lt rp 30
 　(Sets the "Party" alarm as
 　an hourly alarm, 30 minutes
 　past the hour in local time.)&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/alarm&lt;tab&gt;</target></trans-unit><trans-unit id="231" approved="yes"><source>231</source><target state="final">USAGE:
@@ -2169,12 +2095,8 @@ Toggles between all and off when no setting is specified.&lt;tab&gt;/battleeffec
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;FocusTarget&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ftarget&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Party List
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PartyList&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;plist&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Job Gauge 1
-　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;JobGauge1&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Job Gauge 2
-　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;JobGauge2&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Enmity List
-　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;EnmityList&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;elist&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　Enemy List
+　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;EnemyList&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;elist&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Parameter Bar
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ParamBar&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;param&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Minimap
@@ -2201,8 +2123,7 @@ Toggles between all and off when no setting is specified.&lt;tab&gt;/battleeffec
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;StatusEffects&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;sfx&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Status Info (Enhancements)
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SInfoEnhancements&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;sienh&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Status Info (Conditional
-　Enhancements)
+　Status Info (Conditional Enhancements)
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SInfoConditional&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Enhancements&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;sicenh&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Status Info (Enfeeblements)
@@ -2221,8 +2142,7 @@ Toggles between all and off when no setting is specified.&lt;tab&gt;/battleeffec
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ScenarioGuide&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Compressed Aether
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CompressedAether&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Crystalline Conflict Progress
-　Gauge
+　Crystalline Conflict Progress Gauge
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CConflictProgress&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ccprog&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Crystalline Conflict Ally Info
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CConflictAlly&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ccally&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -2244,14 +2164,6 @@ Toggles between all and off when no setting is specified.&lt;tab&gt;/battleeffec
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RWStation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;rwst&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Rival Wings Mercenary Info
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RWMerc&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;rwmrc&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Blunderville Objective
-　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blunder:Objective&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Blunderville Score
-　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blunder:Score&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Blunderville Status
-　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blunder:Status&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Blunderville Show Log
-　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blunder:ShowLog&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 &gt;&gt;Subcommands:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;        Show element.
@@ -4771,14 +4683,4 @@ USAGE:
 &gt;&gt;Subcommands:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target></trans-unit><trans-unit id="679" approved="yes"><source>679</source><target state="final">ALIASES:
-　/uchiwasshoi, /bigfan
-USAGE:
-　/uchiwasshoi [subcommand]
-
-→Stir the air with a giant fan.
-
-&gt;&gt;Subcommands:
- 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
-
-Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/uchiwasshoi&lt;tab&gt;/bigfan</target></trans-unit></body></file></xliff>
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target></trans-unit></body></file></xliff>
