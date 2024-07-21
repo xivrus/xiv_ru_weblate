@@ -136,7 +136,7 @@ Beispiel:
 /wkk8 Guten Morgen!
 Sendet die Chat-Nachricht „Guten Morgen!“ an alle Mitglieder des Welten-Kontaktkreises 8.
 /wkk8
-Wechselt den aktiven Reiter des Chatlogs zu „Welten-Kontaktkreis 8“.&lt;tab&gt;/weltenkontaktkreis8&lt;tab&gt;/wkk8&lt;tab&gt;/cwlinkshell8&lt;tab&gt;/cwl8</target></trans-unit><trans-unit id="21" approved="yes"><source>21</source><target state="final">/grafikeinstellungen (/grafikein), /graphicpresets(/gpresets)
+Wechselt den aktiven Reiter des Chatlogs zu „Welten-Kontaktkreis 8“.&lt;tab&gt;/weltenkontaktkreis8&lt;tab&gt;/wkk8&lt;tab&gt;/cwlinkshell8&lt;tab&gt;/cwl8</target></trans-unit><trans-unit id="21" approved="yes"><source>21</source><target state="final">/grafikeinstellungen (/grafikein), /graphicpresets (/gpresets)
 VERWENDUNG:
 /grafikein [Nummer]
 Wechselt die Grafikeinstellungen zu der entsprechenden Voreinstellung.
@@ -338,7 +338,7 @@ VERWENDUNG:
 → Legt das ausgewählte Gesichtsaccessoire an.
 
 Beispiel:
-/gesichtsaccessoire „Ovale Brille“
+/gesichtsaccessoire "Ovale Brille"
 → Legt die ovale Brille an.&lt;tab&gt;/gesichtsaccessoire&lt;tab&gt;&lt;tab&gt;/facewear&lt;tab&gt;</target></trans-unit><trans-unit id="43" approved="yes"><source>43</source><target state="final">/stummeliste, /mutelist
 → Öffnet die Stumme Liste.&lt;tab&gt;/stummeliste&lt;tab&gt;&lt;tab&gt;/mutelist&lt;tab&gt;</target></trans-unit><trans-unit id="44" approved="yes"><source>44</source><target state="final">/wortfilter, /wordfilter, /termfilter
 → Öffnet das Wortfilter-Menü.&lt;tab&gt;/wortfilter&lt;tab&gt;&lt;tab&gt;/termfilter&lt;tab&gt;</target></trans-unit><trans-unit id="45" approved="yes"><source>45</source><target state="final">/gesichtsaccessoireliste, /faceaccessorylist, /facewearlist→ Öffnet die Übersicht der Gesichtsaccessoires.&lt;tab&gt;/gesichtsaccessoireliste&lt;tab&gt;&lt;tab&gt;/facewearlist&lt;tab&gt;</target></trans-unit><trans-unit id="46" approved="yes"><source>46</source><target state="final">/tondarstellung, /visualalerts
@@ -845,8 +845,11 @@ VERWENDUNG:
 /alarm [Unterbefehl]
 → Richtet einen Alarm ein.
 Beispiel:
-/alarm Feierabend oz wh 1920 15 ton04
-Richtet einen Alarm mit dem Namen „Feierabend“ für 19:20 Uhr Ortszeit (oz) ein, der täglich wiederholt (wh), 15 Minuten vorher angekündigt wird und mit dem Alarmton 4 (ton04) klingelt. Wiederholung und Ankündigung können ausgelassen werden. Eine Zeitangabe ist von 0000 bis 2400 möglich. Die Ankündigung kann zwischen 1 und 60 Minuten vor dem Termin liegen. Die Alarmtöne reichen von ton00 bis ton05, und falls er zusätzlich als stumm (mute) definiert ist, klingelt er nicht in Inhalten. Alarmton und Stummschaltung können ausgelassen werden.
+/alarm Feierabend oz 1920 15 ton04
+Richtet einen Alarm mit dem Namen „Feierabend“ für 19:20 Uhr Ortszeit (oz) ein, der 15 Minuten vorher angekündigt wird und mit dem Alarmton 4 (ton04) klingelt.
+/alarm Unternehmung oz wh 00 5 ton04
+Richtet einen Alarm mit dem Namen „Unternehmung“ ein, der sich stündlich 5 Minuten nach der vollen Stunde wiederholt und mit dem Alarmton 4 (ton04) klingelt.
+Wiederholung und Ankündigung können ausgelassen werden. Eine Zeitangabe ist von 0000 bis 2400 möglich. Die Ankündigung kann zwischen 1 und 60 Minuten vor dem Termin liegen. Bei einem Alarm zu einer festgelegten Uhrzeit ist die wh Funktion nicht möglich. Die Alarmtöne reichen von ton00 bis ton05, und falls er zusätzlich als stumm (mute) definiert ist, klingelt er nicht in Inhalten. Alarmton und Stummschaltung können ausgelassen werden.
 &gt;&gt;Unterbefehle
  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;oz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;lt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Ortszeit
  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;sz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;st&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Serverzeit
