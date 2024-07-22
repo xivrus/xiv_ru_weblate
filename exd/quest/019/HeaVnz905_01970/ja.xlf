@@ -1,67 +1,305 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="HeaVnz905_01970" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_00&lt;tab&gt;マトーヤの洞窟のサロ・ロッゴは、マトーヤの望みを知りたいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_01&lt;tab&gt;サロ・ロッゴに、ホウキたちからはマトーヤの望みについて聞き出せなかったことを報告した。最後の望みは、1本だけ洞窟の外に隠されているホウキだという。マトーヤの洞窟の「一本気なホウキ」と話し、隠されたホウキを呼び出すための呪文について聞こう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_02&lt;tab&gt;一本気なホウキと話し、隠されたホウキが、彼らの妹にあたる存在だと知った。マトーヤの洞窟の「二枚目なホウキ」からも話を聞こう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_03&lt;tab&gt;二枚目なホウキと話し、呪文はマトーヤの大事なものらしいと知った。マトーヤの洞窟の「三下りなホウキ」からも話を聞こう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_04&lt;tab&gt;三下りなホウキに、マトーヤの大事なものについて聞いた。心当たりがありすぎて選べないそうだが、反対に、嫌いなものは弟子の「シュトラ」だそうだ。マトーヤの洞窟の「サロ・ロッゴ」と話そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_05&lt;tab&gt;サロ・ロッゴと話した。これまでの証言や、サロ・ロッゴの言葉から、隠されたホウキを呼び出す呪文を推理しよう。呪文がわかったら、低地ドラヴァニアのマトーヤの洞窟東にある「&lt;var 28 ((EObj)) F61E9C4001 /var&gt;」に向かい、チャットの会話モードを「Say」モードにして、キーボードやソフトウェアキーボードで呪文を入力しよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_06&lt;tab&gt;呪文を告げたところ、近くで物音と声がした。マトーヤの洞窟東にある橋付近で、「四つ葉なホウキ」と話そう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_07&lt;tab&gt;四つ葉なホウキと話したが、彼女が持っている知識は、シュトラにまつわる思い出だけだった。マトーヤの洞窟の「サロ・ロッゴ」に報告しよう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_HEAVNZ905_01970_SEQ_08&lt;tab&gt;サロ・ロッゴに報告した。いよいよマトーヤの望みを知るすべがなくなって、サロ・ロッゴは大いに落胆しているようだ。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_HEAVNZ905_01970_TODO_00&lt;tab&gt;一本気なホウキと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_HEAVNZ905_01970_TODO_01&lt;tab&gt;二枚目なホウキと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_HEAVNZ905_01970_TODO_02&lt;tab&gt;三下りなホウキと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_HEAVNZ905_01970_TODO_03&lt;tab&gt;サロ・ロッゴと話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_HEAVNZ905_01970_TODO_04&lt;tab&gt;マトーヤの洞窟東の&lt;var 28 ((EObj)) F61E9C4001 /var&gt;周辺に向かい
-チャットの「Say」モードで呪文を告げる</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_HEAVNZ905_01970_TODO_05&lt;tab&gt;四つ葉なホウキと話す</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_HEAVNZ905_01970_TODO_06&lt;tab&gt;サロ・ロッゴに報告</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_HEAVNZ905_01970_SYSTEM_000_000&lt;tab&gt;本クエストは「探索型クエスト」です。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="HeaVnz905_01970" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_00&lt;tab&gt;マトーヤの洞窟のサロ・ロッゴは、マトーヤの望みを知りたいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_01&lt;tab&gt;サロ・ロッゴに、ホウキたちからはマトーヤの望みについて聞き出せなかったことを報告した。最後の望みは、1本だけ洞窟の外に隠されているホウキだという。マトーヤの洞窟の「一本気なホウキ」と話し、隠されたホウキを呼び出すための呪文について聞こう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_02&lt;tab&gt;一本気なホウキと話し、隠されたホウキが、彼らの妹にあたる存在だと知った。マトーヤの洞窟の「二枚目なホウキ」からも話を聞こう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_03&lt;tab&gt;二枚目なホウキと話し、呪文はマトーヤの大事なものらしいと知った。マトーヤの洞窟の「三下りなホウキ」からも話を聞こう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_04&lt;tab&gt;三下りなホウキに、マトーヤの大事なものについて聞いた。心当たりがありすぎて選べないそうだが、反対に、嫌いなものは弟子の「シュトラ」だそうだ。マトーヤの洞窟の「サロ・ロッゴ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_05&lt;tab&gt;サロ・ロッゴと話した。これまでの証言や、サロ・ロッゴの言葉から、隠されたホウキを呼び出す呪文を推理しよう。呪文がわかったら、低地ドラヴァニアのマトーヤの洞窟東にある「&lt;var 28 ((EObj)) F61E9C4001 /var&gt;」に向かい、チャットの会話モードを「Say」モードにして、キーボードやソフトウェアキーボードで呪文を入力しよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_06&lt;tab&gt;呪文を告げたところ、近くで物音と声がした。マトーヤの洞窟東にある橋付近で、「四つ葉なホウキ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_07&lt;tab&gt;四つ葉なホウキと話したが、彼女が持っている知識は、シュトラにまつわる思い出だけだった。マトーヤの洞窟の「サロ・ロッゴ」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SEQ_08&lt;tab&gt;サロ・ロッゴに報告した。いよいよマトーヤの望みを知るすべがなくなって、サロ・ロッゴは大いに落胆しているようだ。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_TODO_00&lt;tab&gt;一本気なホウキと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_TODO_01&lt;tab&gt;二枚目なホウキと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_TODO_02&lt;tab&gt;三下りなホウキと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_TODO_03&lt;tab&gt;サロ・ロッゴと話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_TODO_04&lt;tab&gt;マトーヤの洞窟東の&lt;var 28 ((EObj)) F61E9C4001 /var&gt;周辺に向かい
+チャットの「Say」モードで呪文を告げる</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_TODO_05&lt;tab&gt;四つ葉なホウキと話す</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_TODO_06&lt;tab&gt;サロ・ロッゴに報告</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SYSTEM_000_000&lt;tab&gt;本クエストは「探索型クエスト」です。
 進行中、ジャーナルや目的リストや地図に、
-ヒントが表示されない場合があります。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_001&lt;tab&gt;ゲコゲコォ……。
+ヒントが表示されない場合があります。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_001&lt;tab&gt;ゲコゲコォ……。
 いかがでしたか、お客人様。
-マトーヤ様の望みについて、ホウキから聞けたでしょうか？</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_002&lt;tab&gt;おお、なんと！
+マトーヤ様の望みについて、ホウキから聞けたでしょうか？</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_002&lt;tab&gt;おお、なんと！
 まさか誰も知らないとは……。
-知りたがりのホウキのくせに、どうにもスカスカ頭ケロ。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_003&lt;tab&gt;お客人様、手を煩わせてすみませんケロ。
-けれど、あとひとつ……最後の希望に賭けたいケロ！</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_004&lt;tab&gt;……実は、1本だけ、洞窟の外に隠されたホウキがいるケロ。
+知りたがりのホウキのくせに、どうにもスカスカ頭ケロ。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_003&lt;tab&gt;お客人様、手を煩わせてすみませんケロ。
+けれど、あとひとつ……最後の希望に賭けたいケロ！</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_004&lt;tab&gt;……実は、1本だけ、洞窟の外に隠されたホウキがいるケロ。
 以前、マトーヤ様が「呪文」を唱えて、
-そのホウキを呼び出しているのを見ましたケロ。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_005&lt;tab&gt;あれが特別なホウキなら、何でも知ってるに違いないケロ。
+そのホウキを呼び出しているのを見ましたケロ。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_005&lt;tab&gt;あれが特別なホウキなら、何でも知ってるに違いないケロ。
 肝心の呪文が聞き取れませんでしたが……
-ホウキのことなら、今度こそホウキが知ってるはずケロ！</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_010&lt;tab&gt;洞窟の外にいる、特別なホウキを呼ぶための呪文……。
-ホウキのことなら、今度こそホウキが知ってるはずケロ！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_HEAVNZ905_01970_BROOMA_000_020&lt;tab&gt;マタマタ、ゴヨウデ、サッサカサ！
+ホウキのことなら、今度こそホウキが知ってるはずケロ！</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_010&lt;tab&gt;洞窟の外にいる、特別なホウキを呼ぶための呪文……。
+ホウキのことなら、今度こそホウキが知ってるはずケロ！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMA_000_020&lt;tab&gt;マタマタ、ゴヨウデ、サッサカサ！
 さっきはどうもアリガトウ。
-聞きたいことがあるのなら、今ならサッサと答えまショウ！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_HEAVNZ905_01970_BROOMA_000_021&lt;tab&gt;……ナルホド、ショウチデ、サッサカサ！
-呪文については知らないけれど、確かに外にもホウキはいるヨ！</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_HEAVNZ905_01970_BROOMA_000_022&lt;tab&gt;ボクらと同じ木から作られた、柄のツヤツヤした妹チャン。
-ほかの兄弟たちならば、最近会っているかもネ！</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_HEAVNZ905_01970_BROOMA_000_030&lt;tab&gt;確かに外にもホウキはいるヨ！
+聞きたいことがあるのなら、今ならサッサと答えまショウ！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMA_000_021&lt;tab&gt;……ナルホド、ショウチデ、サッサカサ！
+呪文については知らないけれど、確かに外にもホウキはいるヨ！</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMA_000_022&lt;tab&gt;ボクらと同じ木から作られた、柄のツヤツヤした妹チャン。
+ほかの兄弟たちならば、最近会っているかもネ！</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMA_000_030&lt;tab&gt;確かに外にもホウキはいるヨ！
 ボクらと同じ木から作られた、柄のツヤツヤした妹チャン。
-ほかの兄弟たちならば、最近会っているかもネ！</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_HEAVNZ905_01970_BROOMB_000_040&lt;tab&gt;ボクニモ、ゴヨウデ、サッサカサ！
+ほかの兄弟たちならば、最近会っているかもネ！</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMB_000_040&lt;tab&gt;ボクニモ、ゴヨウデ、サッサカサ！
 ……妹ちゃんに興味があるノ？
-彼女はとっても可愛いけれど、手を出さないなら教えてアゲル。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_HEAVNZ905_01970_BROOMB_000_041&lt;tab&gt;妹ちゃんは外にいて、ボクらでさえも、まず会えナイ。
+彼女はとっても可愛いけれど、手を出さないなら教えてアゲル。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMB_000_041&lt;tab&gt;妹ちゃんは外にいて、ボクらでさえも、まず会えナイ。
 それでもどうにか一度だけ、穂のお手入れで会えたから、
-会う方法を聞いたのサ。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_HEAVNZ905_01970_BROOMB_000_042&lt;tab&gt;マトーヤ様の大事なモノ……
+会う方法を聞いたのサ。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMB_000_042&lt;tab&gt;マトーヤ様の大事なモノ……
 それを告げてくれたなら、また会えるって彼女は言ッタ。
-ボクにはわからないけれど、ほかの兄弟はどうカシラ？</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_HEAVNZ905_01970_BROOMB_000_050&lt;tab&gt;マトーヤ様の大事なモノ……
+ボクにはわからないけれど、ほかの兄弟はどうカシラ？</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMB_000_050&lt;tab&gt;マトーヤ様の大事なモノ……
 それを告げてくれたなら、また会えるって彼女は言ッタ。
-ボクにはわからないけれど、ほかの兄弟はどうカシラ？</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_HEAVNZ905_01970_BROOMC_000_060&lt;tab&gt;コンドハ、ナニカナ、サッサカサ！
+ボクにはわからないけれど、ほかの兄弟はどうカシラ？</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMC_000_060&lt;tab&gt;コンドハ、ナニカナ、サッサカサ！
 ……マトーヤ様の大事なモノ？
-研究成果や、秘宝にお茶……いっぱいあって大混乱！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_HEAVNZ905_01970_BROOMC_000_061&lt;tab&gt;いちばん嫌いなものならば、すぐにわかるんだけれどネ。
+研究成果や、秘宝にお茶……いっぱいあって大混乱！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMC_000_061&lt;tab&gt;いちばん嫌いなものならば、すぐにわかるんだけれどネ。
 ほらほら、ご存じ、最後のお弟子……
-「シュトラ」のことに決まってル！</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_HEAVNZ905_01970_BROOMC_000_062&lt;tab&gt;今でもブツクサ文句を言って、あれは相当嫌いだネ！
+「シュトラ」のことに決まってル！</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMC_000_062&lt;tab&gt;今でもブツクサ文句を言って、あれは相当嫌いだネ！
 何かにつけて、やれ「シュトラ」！
-まったくもって……サッサカサ！</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_HEAVNZ905_01970_BROOMC_000_070&lt;tab&gt;いちばん嫌いなものならば、すぐにわかるんだけれどネ。
+まったくもって……サッサカサ！</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMC_000_070&lt;tab&gt;いちばん嫌いなものならば、すぐにわかるんだけれどネ。
 ほらほら、ご存じ、最後のお弟子……
-「シュトラ」のことに決まってル！</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_080&lt;tab&gt;ゲコゲーコ！
-特別なホウキを呼ぶ呪文、無事に判明したのでしょうか……？</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_081&lt;tab&gt;ふむふむ、なるほど、ケロケロケロ……。
+「シュトラ」のことに決まってル！</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_080&lt;tab&gt;ゲコゲーコ！
+特別なホウキを呼ぶ呪文、無事に判明したのでしょうか……？</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_081&lt;tab&gt;ふむふむ、なるほど、ケロケロケロ……。
 マトーヤ様の大事なもの……。
-「シュトラ」が嫌いで……サッ……サカサ……。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_082&lt;tab&gt;……ゲコゲゴゲコォ！
-ち～～～っともわからないケロ！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_083&lt;tab&gt;お客人様、もしも呪文がわかったならば、
+「シュトラ」が嫌いで……サッ……サカサ……。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_082&lt;tab&gt;……ゲコゲゴゲコォ！
+ち～～～っともわからないケロ！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_083&lt;tab&gt;お客人様、もしも呪文がわかったならば、
 ここより東の橋のあたりで、叫んでみてほしいケロ。
-前に見たマトーヤ様は、そこでホウキと会っていたケロ。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_HEAVNZ905_01970_SYSTEM_000_084&lt;tab&gt;マトーヤの洞窟の東にある「&lt;var 28 ((EObj)) F61E9C4001 /var&gt;」周辺で、
-呪文を唱える必要がありそうだ……。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_HEAVNZ905_01970_SYSTEM_000_085&lt;tab&gt;チャットの会話モードを「Say」モードにして、
-キーボードやソフトウェアキーボードで呪文を入力しよう。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_090&lt;tab&gt;マトーヤ様の大事なもの……。
+前に見たマトーヤ様は、そこでホウキと会っていたケロ。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SYSTEM_000_084&lt;tab&gt;マトーヤの洞窟の東にある「&lt;var 28 ((EObj)) F61E9C4001 /var&gt;」周辺で、
+呪文を唱える必要がありそうだ……。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SYSTEM_000_085&lt;tab&gt;チャットの会話モードを「Say」モードにして、
+キーボードやソフトウェアキーボードで呪文を入力しよう。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_090&lt;tab&gt;マトーヤ様の大事なもの……。
 「シュトラ」が嫌いで……サッ……サカサ……。
-…………ゲコォ、ちっともわからないケロ！</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_091&lt;tab&gt;お客人様、もしも呪文がわかったならば、
+…………ゲコォ、ちっともわからないケロ！</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_091&lt;tab&gt;お客人様、もしも呪文がわかったならば、
 ここより東の橋のあたりで、叫んでみてほしいケロ。
-前に見たマトーヤ様は、そこでホウキと会っていたケロ。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_HEAVNZ905_01970_SYSTEM_000_095&lt;tab&gt;チャットの会話モードを「Say」モードにして、
-キーボードやソフトウェアキーボードで呪文を入力しよう。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_HEAVNZ905_01970_SYSTEM_000_100&lt;tab&gt;呪文を告げると、近くで物音がした……。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_101&lt;tab&gt;(-？？？？-)……フシギナ、ジュモン、サ、サッサカサ。
-ワタシのことを、お呼びですカ……？</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_110&lt;tab&gt;オヨビ、デシタカ、サッサカサ……。
-見たところ、旅のお方のようですネ。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_111&lt;tab&gt;ワタシは何も望みませんから、
+前に見たマトーヤ様は、そこでホウキと会っていたケロ。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SYSTEM_000_095&lt;tab&gt;チャットの会話モードを「Say」モードにして、
+キーボードやソフトウェアキーボードで呪文を入力しよう。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SYSTEM_000_100&lt;tab&gt;呪文を告げると、近くで物音がした……。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_101&lt;tab&gt;(-？？？？-)……フシギナ、ジュモン、サ、サッサカサ。
+ワタシのことを、お呼びですカ……？</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_110&lt;tab&gt;オヨビ、デシタカ、サッサカサ……。
+見たところ、旅のお方のようですネ。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_111&lt;tab&gt;ワタシは何も望みませんから、
 どうか、ワタシに望みませんヨウ……。
-お役にたてる知識など、これっぽっちもないのデス。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_112&lt;tab&gt;ワタシがマトーヤ様から授かったのは、
-「思い出」という名の知識……。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_113&lt;tab&gt;小さなシュトラのあたたかな手や、
+お役にたてる知識など、これっぽっちもないのデス。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_112&lt;tab&gt;ワタシがマトーヤ様から授かったのは、
+「思い出」という名の知識……。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_113&lt;tab&gt;小さなシュトラのあたたかな手や、
 彼女の起こした失敗のコト……成長のコト……。
-使命を負って旅立つまでの、他愛もない会話の記録……。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_114&lt;tab&gt;マトーヤ様は、それらを傍に置けないお方。
+使命を負って旅立つまでの、他愛もない会話の記録……。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_114&lt;tab&gt;マトーヤ様は、それらを傍に置けないお方。
 ゆえにワタシは洞窟を出て、
-この知識を、ひっそり守っているのデス。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_115&lt;tab&gt;……わかっていただけましたでしょうカ。
-どうかどうか、ササッとお引き取りくださいマセ……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_120&lt;tab&gt;ワタシがマトーヤ様から授かったのは、
+この知識を、ひっそり守っているのデス。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_115&lt;tab&gt;……わかっていただけましたでしょうカ。
+どうかどうか、ササッとお引き取りくださいマセ……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_BROOMSISTER01970_000_120&lt;tab&gt;ワタシがマトーヤ様から授かったのは、
 「思い出」という名の知識……。
-お役にたてる知識など、これっぽっちもないのデス。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_130&lt;tab&gt;ゲ、ゲコォ！？
+お役にたてる知識など、これっぽっちもないのデス。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_130&lt;tab&gt;ゲ、ゲコォ！？
 まさか、ホウキと会えたのですか！
-さすがケロ……それで、そのホウキは何と？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_131&lt;tab&gt;……な、なんてことケロ。
+さすがケロ……それで、そのホウキは何と？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_131&lt;tab&gt;……な、なんてことケロ。
 わたくしめでは、シュトラ様には到底なれない……。
-ゲコォ……完全に行き詰まったケロ！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_HEAVNZ905_01970_SAROROGGO_000_132&lt;tab&gt;ゲコゲコゲーコ、もうだめだ……！
+ゲコォ……完全に行き詰まったケロ！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAROROGGO_000_132&lt;tab&gt;ゲコゲコゲーコ、もうだめだ……！
 わたくしめは、何の役にも立てない、能なしポロッゴ！
-きっと今に、ただのトードに戻されるケロ～～～ッ！</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_HEAVNZ905_01970_SAY_000_000&lt;tab&gt;シュトラ</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_HEAVNZ905_01970_SAY_000_001&lt;tab&gt;ラトュシ</target></trans-unit></body></file></xliff>
+きっと今に、ただのトードに戻されるケロ～～～ッ！</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAY_000_000&lt;tab&gt;シュトラ</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNZ905_01970_SAY_000_001&lt;tab&gt;ラトュシ</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

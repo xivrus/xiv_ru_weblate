@@ -1,72 +1,482 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="LucKya003_03671" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_LUCKYA003_03671_SEQ_00&lt;tab&gt;&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;特殊ルール： レベルアジャスト&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-トメラの村の噂好きのドワーフは、冒険者に頼みたいことがあるようだ。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_LUCKYA003_03671_TODO_00&lt;tab&gt;コメラの村の外れにある坑道前にいる坑道の番人と話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_LUCKYA003_03671_TODO_01&lt;tab&gt;ドワーフ族の親方と話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_LUCKYA003_03671_TODO_02&lt;tab&gt;アノッグと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_LUCKYA003_03671_TODO_03&lt;tab&gt;&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;を入手</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_LUCKYA003_03671_TODO_04&lt;tab&gt;アノッグに&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;を渡す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_LUCKYA003_03671_TODO_05&lt;tab&gt;&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;を入手</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_LUCKYA003_03671_TODO_06&lt;tab&gt;ドワーフ族の親方に&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;を渡す</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">TEXT_LUCKYA003_03671_TODO_07&lt;tab&gt;トメラの村にいる噂好きのドワーフに報告</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_001&lt;tab&gt;なあ、コメラの村の噂を知っているか？
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="LucKya003_03671" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_SEQ_00&lt;tab&gt;&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;特殊ルール： レベルアジャスト&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+トメラの村の噂好きのドワーフは、冒険者に頼みたいことがあるようだ。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TODO_00&lt;tab&gt;コメラの村の外れにある坑道前にいる坑道の番人と話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TODO_01&lt;tab&gt;ドワーフ族の親方と話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TODO_02&lt;tab&gt;アノッグと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TODO_03&lt;tab&gt;&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;を入手</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TODO_04&lt;tab&gt;アノッグに&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TODO_05&lt;tab&gt;&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;を入手</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TODO_06&lt;tab&gt;ドワーフ族の親方に&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="31" approved="yes">
+				<source>31</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TODO_07&lt;tab&gt;トメラの村にいる噂好きのドワーフに報告</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_001&lt;tab&gt;なあ、コメラの村の噂を知っているか？
 何でも珍しい資源が発掘されたらしいのだが……
-噂が本当かどうか確かめてきてくれないか？</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_002&lt;tab&gt;様子がわかったら、報告しにきてくれ。
-うーん……どんな資源が発掘できるんだろう……？</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_003&lt;tab&gt;様子がわかったら、報告しにきてくれ。
-うーん……どんな資源が発掘できるんだろう……？</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_050&lt;tab&gt;ここは現在、貴重な資源を発掘しているんだ。
-関係者以外は立ち入り禁止だよ。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_051&lt;tab&gt;でも……
-まあ、時と場合によっては、ここを通してあげてもいい。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_052&lt;tab&gt;…………。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_053&lt;tab&gt;……ほら、大人だからわかるでしょう？</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_054&lt;tab&gt;もう～物わかりの悪い人だな！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_055&lt;tab&gt;具体的に言うと10000ギルを、
+噂が本当かどうか確かめてきてくれないか？</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_002&lt;tab&gt;様子がわかったら、報告しにきてくれ。
+うーん……どんな資源が発掘できるんだろう……？</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_003&lt;tab&gt;様子がわかったら、報告しにきてくれ。
+うーん……どんな資源が発掘できるんだろう……？</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_050&lt;tab&gt;ここは現在、貴重な資源を発掘しているんだ。
+関係者以外は立ち入り禁止だよ。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_051&lt;tab&gt;でも……
+まあ、時と場合によっては、ここを通してあげてもいい。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_052&lt;tab&gt;…………。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_053&lt;tab&gt;……ほら、大人だからわかるでしょう？</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_054&lt;tab&gt;もう～物わかりの悪い人だな！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_055&lt;tab&gt;具体的に言うと10000ギルを、
 アナタが、ボクに、くれればいいの。
-そうすれば、ここを通してあげるって言ってるの！</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_LUCKYA003_03671_Q1_000_000&lt;tab&gt;通行料を支払いますか？</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_LUCKYA003_03671_A1_000_001&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_LUCKYA003_03671_A1_000_002&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_057&lt;tab&gt;じゃあいいよ。
-ここは永久に通さないから！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_058&lt;tab&gt;へへっ……最初からそうやってカネを出していれば……。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_059&lt;tab&gt;コラアアアアアアアアッ！！！
-ちゃんと番をしてろって言ってるだろうが！！！</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_060&lt;tab&gt;ヒイイッ！！　親方！！！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_061&lt;tab&gt;今日の晩飯は抜きだ！！</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_062&lt;tab&gt;ヒイイイッ……！！！</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_063&lt;tab&gt;うううっ辛い……人にコキ使われるのは辛スギル……。
-クソッ……カネだ……カネさえあれば……ボクは……。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_064&lt;tab&gt;というわけで、ここは立ち入り禁止だ……。
+そうすれば、ここを通してあげるって言ってるの！</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_Q1_000_000&lt;tab&gt;通行料を支払いますか？</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A1_000_001&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A1_000_002&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_057&lt;tab&gt;じゃあいいよ。
+ここは永久に通さないから！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_058&lt;tab&gt;へへっ……最初からそうやってカネを出していれば……。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_059&lt;tab&gt;コラアアアアアアアアッ！！！
+ちゃんと番をしてろって言ってるだろうが！！！</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_060&lt;tab&gt;ヒイイッ！！　親方！！！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_061&lt;tab&gt;今日の晩飯は抜きだ！！</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_062&lt;tab&gt;ヒイイイッ……！！！</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_063&lt;tab&gt;うううっ辛い……人にコキ使われるのは辛スギル……。
+クソッ……カネだ……カネさえあれば……ボクは……。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_064&lt;tab&gt;というわけで、ここは立ち入り禁止だ……。
 どうしても入りたきゃ、そこにいる「ドワーフ族の親方」に、
-かけあってみるんだな。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_065&lt;tab&gt;ここは立ち入り禁止だ。
+かけあってみるんだな。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_065&lt;tab&gt;ここは立ち入り禁止だ。
 どうしても入りたきゃ、そこにいる「ドワーフ族の親方」に、
-かけあってみるんだな。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_070&lt;tab&gt;貴重な資源が出土したのでな、
-採掘現場への道は「坑道の番人」に見張らせているんだ。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_100&lt;tab&gt;ところで……あんた、もしかして面接に応募してきた人か？
-悪いが、実はもう決まっちまったんだ。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_LUCKYA003_03671_Q2_000_000&lt;tab&gt;ドワーフ族の親方に何と言う？</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_LUCKYA003_03671_A2_000_001&lt;tab&gt;面接って何のこと？</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_LUCKYA003_03671_A2_000_002&lt;tab&gt;この洞窟は？</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_102&lt;tab&gt;最近この洞窟の奥で、未知の遺跡が発掘されたんだ。
+かけあってみるんだな。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_070&lt;tab&gt;貴重な資源が出土したのでな、
+採掘現場への道は「坑道の番人」に見張らせているんだ。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_100&lt;tab&gt;ところで……あんた、もしかして面接に応募してきた人か？
+悪いが、実はもう決まっちまったんだ。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_Q2_000_000&lt;tab&gt;ドワーフ族の親方に何と言う？</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A2_000_001&lt;tab&gt;面接って何のこと？</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A2_000_002&lt;tab&gt;この洞窟は？</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_102&lt;tab&gt;最近この洞窟の奥で、未知の遺跡が発掘されたんだ。
 珍しい機械が沢山出てくるから、
-俺たちは「機械遺跡」って呼んでる。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_103&lt;tab&gt;それで、ここの門番を募集してたんだけどね。
-ちょうど先週に決まったところなんだ。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_104&lt;tab&gt;まあ、こうやって経済を回すのは良い事だよな、うん。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_105&lt;tab&gt;そうだ、ついでにひとつ伝言を頼みたいのだが……。
+俺たちは「機械遺跡」って呼んでる。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_103&lt;tab&gt;それで、ここの門番を募集してたんだけどね。
+ちょうど先週に決まったところなんだ。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_104&lt;tab&gt;まあ、こうやって経済を回すのは良い事だよな、うん。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_105&lt;tab&gt;そうだ、ついでにひとつ伝言を頼みたいのだが……。
 コメラの村に白い服と黒い服を着た、
-「アノッグ」とコノッグという双子の姉弟がいてな。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_100_105&lt;tab&gt;そいつらに、この遺跡はお前らのような、
+「アノッグ」とコノッグという双子の姉弟がいてな。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_100_105&lt;tab&gt;そいつらに、この遺跡はお前らのような、
 子供の来る場所ではない！　と言っておいてくれないか？
-仕事の邪魔をされて困っているんだ、よろしく頼む。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_110&lt;tab&gt;悪いね。
-ここは立入禁止なんだ。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_115&lt;tab&gt;「アノッグ」とコノッグという双子の姉弟だ。
-コメラの村にいるはずだから、伝言を頼む。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_150&lt;tab&gt;ん？　何か用か？</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_100_150&lt;tab&gt;ふむふむ……ドワーフ族の親方から伝言？
-今はそんなことにかまっている場合ではないのだ。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_151&lt;tab&gt;あ……もしや、この人は……</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_152&lt;tab&gt;噂に聞く「ヨソ者」のようだよ、アノッグ。
-コイツを利用しようよ。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_153&lt;tab&gt;おお、そうだな。
-コノッグは賢いな。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_154&lt;tab&gt;あー、コホン。
+仕事の邪魔をされて困っているんだ、よろしく頼む。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_110&lt;tab&gt;悪いね。
+ここは立入禁止なんだ。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_115&lt;tab&gt;「アノッグ」とコノッグという双子の姉弟だ。
+コメラの村にいるはずだから、伝言を頼む。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_150&lt;tab&gt;ん？　何か用か？</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_100_150&lt;tab&gt;ふむふむ……ドワーフ族の親方から伝言？
+今はそんなことにかまっている場合ではないのだ。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_151&lt;tab&gt;あ……もしや、この人は……</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_152&lt;tab&gt;噂に聞く「ヨソ者」のようだよ、アノッグ。
+コイツを利用しようよ。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_153&lt;tab&gt;おお、そうだな。
+コノッグは賢いな。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_154&lt;tab&gt;あー、コホン。
 キミはどうやらヨソ者のようだが……
-ちょっと頼まれてくれないか？</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_155&lt;tab&gt;ワタシ達姉弟は、とある秘密の研究をしている。
-その研究に必要な「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」を取ってきて欲しいんだ。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_LUCKYA003_03671_Q3_000_000&lt;tab&gt;アノッグに何と言う？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_LUCKYA003_03671_A3_000_001&lt;tab&gt;なぜ？</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_LUCKYA003_03671_A3_000_002&lt;tab&gt;自分で取りに行かないのか？</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_157&lt;tab&gt;ボク達は知ってるんだ。
+ちょっと頼まれてくれないか？</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_155&lt;tab&gt;ワタシ達姉弟は、とある秘密の研究をしている。
+その研究に必要な「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」を取ってきて欲しいんだ。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_Q3_000_000&lt;tab&gt;アノッグに何と言う？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A3_000_001&lt;tab&gt;なぜ？</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A3_000_002&lt;tab&gt;自分で取りに行かないのか？</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_157&lt;tab&gt;ボク達は知ってるんだ。
 この世界のヨソ者は「お使い」が大好きだって。
-困ってる人を見ていると助けずにはいられないらしいじゃないか？</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_LUCKYA003_03671_Q4_000_000&lt;tab&gt;アノッグとコノッグを助けますか？</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_LUCKYA003_03671_A4_000_001&lt;tab&gt;助ける</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_LUCKYA003_03671_A4_000_002&lt;tab&gt;助けない</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_159&lt;tab&gt;ちぇっ、ケチー！！</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_160&lt;tab&gt;ケチー！！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_161&lt;tab&gt;でも、そんなつれない事を言いながらも、
+困ってる人を見ていると助けずにはいられないらしいじゃないか？</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_Q4_000_000&lt;tab&gt;アノッグとコノッグを助けますか？</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A4_000_001&lt;tab&gt;助ける</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A4_000_002&lt;tab&gt;助けない</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_159&lt;tab&gt;ちぇっ、ケチー！！</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_160&lt;tab&gt;ケチー！！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_161&lt;tab&gt;でも、そんなつれない事を言いながらも、
 実は助けたくて仕方がないのだろう？
-ワタシは何でもお見通しなのだ。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_162&lt;tab&gt;さすが、噂に聞く旅人。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_163&lt;tab&gt;ではさっそく、「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」の在り処を教えよう。
+ワタシは何でもお見通しなのだ。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_162&lt;tab&gt;さすが、噂に聞く旅人。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_163&lt;tab&gt;ではさっそく、「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」の在り処を教えよう。
 村外れに資材置き場があるから、こっそり仕入れてくるんだ。
-手に入れたら、「アノッグ」に渡してくれ。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_165&lt;tab&gt;お使いを頼んだからな。
-「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」だぞ。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_170&lt;tab&gt;お使いを頼んだからな。
-「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」があるのは、村外れの資材置き場だぞ。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_180&lt;tab&gt;今は取り込み中だぞ。
-「アノッグ」と作戦会議をしているのだ。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_200&lt;tab&gt;まさか、アノッグとコノッグが、
-迷惑をかけているんじゃなかろうな？</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_250&lt;tab&gt;おお、ヨソ者よ。
-帰ってきたか。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_251&lt;tab&gt;ちゃんと「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」を、
-手に入れてきたようじゃないか。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_252&lt;tab&gt;では、お小遣いをやろう！
-これで、ワレワレの世界征服が一歩前進し……</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_253&lt;tab&gt;シッ、ダメだよアノッグ。
-ボク達だけの秘密だ。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_254&lt;tab&gt;おお、そうだったな。
-賢い弟よ。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_255&lt;tab&gt;では、次なる「お使い」を頼んでやろう……</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_256&lt;tab&gt;コラアアッ！！
+手に入れたら、「アノッグ」に渡してくれ。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_165&lt;tab&gt;お使いを頼んだからな。
+「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」だぞ。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_170&lt;tab&gt;お使いを頼んだからな。
+「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」があるのは、村外れの資材置き場だぞ。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_180&lt;tab&gt;今は取り込み中だぞ。
+「アノッグ」と作戦会議をしているのだ。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_200&lt;tab&gt;まさか、アノッグとコノッグが、
+迷惑をかけているんじゃなかろうな？</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_250&lt;tab&gt;おお、ヨソ者よ。
+帰ってきたか。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_251&lt;tab&gt;ちゃんと「&lt;var 28 ((EventItem)) F61E8FD401 /var&gt;」を、
+手に入れてきたようじゃないか。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_252&lt;tab&gt;では、お小遣いをやろう！
+これで、ワレワレの世界征服が一歩前進し……</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_253&lt;tab&gt;シッ、ダメだよアノッグ。
+ボク達だけの秘密だ。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_254&lt;tab&gt;おお、そうだったな。
+賢い弟よ。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_255&lt;tab&gt;では、次なる「お使い」を頼んでやろう……</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_256&lt;tab&gt;コラアアッ！！
 また、人様に迷惑かけてるのか！？
-三枚に下ろして海に叩き込むぞッ！！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_257&lt;tab&gt;(-アノッグとコノッグ-)ヒイイイッ！！！</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_258&lt;tab&gt;……すまないな。
-あいつら、親がいなくてね。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_259&lt;tab&gt;あんたに、いろいろ失礼があったかもしれないな……
-許してくれ。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_260&lt;tab&gt;……ところで、あんたは「ヨソ者」なんだろう？
-ヨソ者は「お使い」が大好きらしいじゃないか？</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_LUCKYA003_03671_Q5_000_000&lt;tab&gt;ドワーフ族の親方に何と言う？</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_LUCKYA003_03671_A5_000_001&lt;tab&gt;…………</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_LUCKYA003_03671_A5_000_002&lt;tab&gt;あの姉弟からも同じことを言われた</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_262&lt;tab&gt;現場で「&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;」が足りてなくてな。
-村の外の洞窟を探せば見つかるはずだ。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_263&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;」を見つけたら、遺跡の入口の、
+三枚に下ろして海に叩き込むぞッ！！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_257&lt;tab&gt;(-アノッグとコノッグ-)ヒイイイッ！！！</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_258&lt;tab&gt;……すまないな。
+あいつら、親がいなくてね。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_259&lt;tab&gt;あんたに、いろいろ失礼があったかもしれないな……
+許してくれ。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_260&lt;tab&gt;……ところで、あんたは「ヨソ者」なんだろう？
+ヨソ者は「お使い」が大好きらしいじゃないか？</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_Q5_000_000&lt;tab&gt;ドワーフ族の親方に何と言う？</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A5_000_001&lt;tab&gt;…………</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_A5_000_002&lt;tab&gt;あの姉弟からも同じことを言われた</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_262&lt;tab&gt;現場で「&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;」が足りてなくてな。
+村の外の洞窟を探せば見つかるはずだ。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_263&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;」を見つけたら、遺跡の入口の、
 坑道の番人がいた場所まで持ってきてくれ。
-もちろん報酬は払う、頼んだぞ。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_265&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;」を見つけたら、遺跡の入口の、
+もちろん報酬は払う、頼んだぞ。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_265&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;」を見つけたら、遺跡の入口の、
 坑道の番人がいた場所まで持ってきてくれ。
-村の外の洞窟を探せば見つかるはずだ。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_350&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;」は手に入ったか？</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_351&lt;tab&gt;おお、コレコレ。
-助かるよ、報酬はコレだ。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_352&lt;tab&gt;さて、これであんたもカネを稼ぐことができて満足だろう。
-ほかに用事がなければ、俺も仕事に戻るが……。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_353&lt;tab&gt;そこの遺跡に、入れておくれよぉ！</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_354&lt;tab&gt;入れておくれよぉ！</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_355&lt;tab&gt;ダメだって言ってるだろ。
-ここは危ないから立ち入り禁止だ。</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_356&lt;tab&gt;まったく……どうしてこんな遺跡に皆興味を持つんだ？
-もしかして、機械以外にも、スゴイお宝が……？</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_357&lt;tab&gt;ワレワレの発見によれば、あの遺跡の中には……。</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_358&lt;tab&gt;シッ、ダメだよアノッグ。
-ボク達だけの秘密だ。</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_359&lt;tab&gt;そうだったね、コノッグ。</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_360&lt;tab&gt;という事で、何でも無いです。
-ボク達は平気です、ハイ。</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_361&lt;tab&gt;……ったく、アイツらときたら……。
+村の外の洞窟を探せば見つかるはずだ。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_350&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8FD501 /var&gt;」は手に入ったか？</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_351&lt;tab&gt;おお、コレコレ。
+助かるよ、報酬はコレだ。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_352&lt;tab&gt;さて、これであんたもカネを稼ぐことができて満足だろう。
+ほかに用事がなければ、俺も仕事に戻るが……。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_353&lt;tab&gt;そこの遺跡に、入れておくれよぉ！</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_354&lt;tab&gt;入れておくれよぉ！</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_355&lt;tab&gt;ダメだって言ってるだろ。
+ここは危ないから立ち入り禁止だ。</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_356&lt;tab&gt;まったく……どうしてこんな遺跡に皆興味を持つんだ？
+もしかして、機械以外にも、スゴイお宝が……？</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_357&lt;tab&gt;ワレワレの発見によれば、あの遺跡の中には……。</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_358&lt;tab&gt;シッ、ダメだよアノッグ。
+ボク達だけの秘密だ。</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_359&lt;tab&gt;そうだったね、コノッグ。</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_360&lt;tab&gt;という事で、何でも無いです。
+ボク達は平気です、ハイ。</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_361&lt;tab&gt;……ったく、アイツらときたら……。
 あんたも用事がないなら「機械遺跡」には近づくんじゃねぇぞ。
-ケガでもされたら大変だからな。</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_LUCKYA003_03671_ANOGG_000_370&lt;tab&gt;クソッ……こんなところで油を売っている場合では……。</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_LUCKYA003_03671_KONOGG_000_371&lt;tab&gt;ワレワレはこの遺跡に用があるのだ……。</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_372&lt;tab&gt;この双子、さっきから何をブツブツ言っているんだ？</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_400&lt;tab&gt;おお、コメラの村からやっと帰ってきたか。
-で、珍しい資源の情報は何かわかったか？</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_401&lt;tab&gt;なるほど、「機械遺跡」とやらに入れてもらえなかった、と。
+ケガでもされたら大変だからな。</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_ANOGG_000_370&lt;tab&gt;クソッ……こんなところで油を売っている場合では……。</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_KONOGG_000_371&lt;tab&gt;ワレワレはこの遺跡に用があるのだ……。</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_372&lt;tab&gt;この双子、さっきから何をブツブツ言っているんだ？</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_400&lt;tab&gt;おお、コメラの村からやっと帰ってきたか。
+で、珍しい資源の情報は何かわかったか？</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_401&lt;tab&gt;なるほど、「機械遺跡」とやらに入れてもらえなかった、と。
 そこでいったいどんな資源が発掘できるんだろう……。
-ともあれ、ご苦労だった。これはお礼だ。</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_410&lt;tab&gt;人間、忙しくしてるのが一番だ。
-ヒマだとロクな事考えやしねぇからな。</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_411&lt;tab&gt;ここは立ち入り禁止だよ。
-はぁ……カネが欲しいなあ。</target></trans-unit></body></file></xliff>
+ともあれ、ご苦労だった。これはお礼だ。</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_DWARFMASTER03671_000_410&lt;tab&gt;人間、忙しくしてるのが一番だ。
+ヒマだとロクな事考えやしねぇからな。</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_411&lt;tab&gt;ここは立ち入り禁止だよ。
+はぁ……カネが欲しいなあ。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

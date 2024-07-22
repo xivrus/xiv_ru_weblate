@@ -1,40 +1,250 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="StmBdz111_02661" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_STMBDZ111_02661_SEQ_00&lt;tab&gt;カストルム・オリエンスのスウェスリク大牙将は、冒険者に話したいことがあるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_STMBDZ111_02661_SEQ_01&lt;tab&gt;スウェスリク大牙将と話した。エオルゼア同盟軍から、冒険者に任せたい任務があるようだ。ギラバニア辺境地帯のカストルム・オリエンスにいる「タラ・モルコー少牙士」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_STMBDZ111_02661_SEQ_02&lt;tab&gt;タラ・モルコー少牙士と話した。帝国軍に囚われた捕虜たちの消息を追っているらしい。カストルム・オリエンスの「アナンタ族の闘士」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_STMBDZ111_02661_SEQ_03&lt;tab&gt;アナンタ族の闘士と話した。捕虜たちの多くは強制労働に送られ、帰ってきた者は少なかったが、中には、今は廃村となった集落、ビターミルに連行されていった者たちもいたようだ。ギラバニア辺境地帯のビターミルにいる「タラ・モルコー少牙士」と合流しよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_STMBDZ111_02661_SEQ_04&lt;tab&gt;ビターミルに到着すると、タラ・モルコー少牙士が帝国兵に襲われていた。ビターミルの「体格のいい帝国兵」と話そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_STMBDZ111_02661_SEQ_05&lt;tab&gt;ひとり残った体格のいい帝国兵は、冒険者に仲間を倒されたことに焦り、その場を逃げ出した。ビターミルの「タラ・モルコー少牙士」を救助しよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_STMBDZ111_02661_SEQ_06&lt;tab&gt;タラ・モルコー少牙士は、廃屋の中を調べようとして帝国兵に襲われたようだ。消息不明の捕虜たちの手掛かりを求めて、ビターミルを調査することになった。まずは、タラ・モルコー少牙士の動悸が治まるのを待とう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_STMBDZ111_02661_TODO_00&lt;tab&gt;タラ・モルコー少牙士と話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_STMBDZ111_02661_TODO_01&lt;tab&gt;アナンタ族の闘士と話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_STMBDZ111_02661_TODO_02&lt;tab&gt;タラ・モルコー少牙士と合流</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_STMBDZ111_02661_TODO_03&lt;tab&gt;体格のいい帝国兵と話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_STMBDZ111_02661_TODO_04&lt;tab&gt;タラ・モルコー少牙士を救助</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_001&lt;tab&gt;&lt;var 08 E1E93501 ((&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93501 ((&lt;var 28 ((GCRankLimsaMaleText)) E93501 /var&gt;)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E1E93601 ((&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93601 ((&lt;var 28 ((GCRankGridaniaMaleText)) E93601 /var&gt;)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E1E93701 ((&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93701 ((&lt;var 28 ((GCRankUldahMaleText)) E93701 /var&gt;)) (()) /var&gt;)) (()) /var&gt;、少し話せるか。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_002&lt;tab&gt;私は、スウェスリク・ブルックストーン大牙将……。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="StmBdz111_02661" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SEQ_00&lt;tab&gt;カストルム・オリエンスのスウェスリク大牙将は、冒険者に話したいことがあるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SEQ_01&lt;tab&gt;スウェスリク大牙将と話した。エオルゼア同盟軍から、冒険者に任せたい任務があるようだ。ギラバニア辺境地帯のカストルム・オリエンスにいる「タラ・モルコー少牙士」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SEQ_02&lt;tab&gt;タラ・モルコー少牙士と話した。帝国軍に囚われた捕虜たちの消息を追っているらしい。カストルム・オリエンスの「アナンタ族の闘士」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SEQ_03&lt;tab&gt;アナンタ族の闘士と話した。捕虜たちの多くは強制労働に送られ、帰ってきた者は少なかったが、中には、今は廃村となった集落、ビターミルに連行されていった者たちもいたようだ。ギラバニア辺境地帯のビターミルにいる「タラ・モルコー少牙士」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SEQ_04&lt;tab&gt;ビターミルに到着すると、タラ・モルコー少牙士が帝国兵に襲われていた。ビターミルの「体格のいい帝国兵」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SEQ_05&lt;tab&gt;ひとり残った体格のいい帝国兵は、冒険者に仲間を倒されたことに焦り、その場を逃げ出した。ビターミルの「タラ・モルコー少牙士」を救助しよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SEQ_06&lt;tab&gt;タラ・モルコー少牙士は、廃屋の中を調べようとして帝国兵に襲われたようだ。消息不明の捕虜たちの手掛かりを求めて、ビターミルを調査することになった。まずは、タラ・モルコー少牙士の動悸が治まるのを待とう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TODO_00&lt;tab&gt;タラ・モルコー少牙士と話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TODO_01&lt;tab&gt;アナンタ族の闘士と話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TODO_02&lt;tab&gt;タラ・モルコー少牙士と合流</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TODO_03&lt;tab&gt;体格のいい帝国兵と話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TODO_04&lt;tab&gt;タラ・モルコー少牙士を救助</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_001&lt;tab&gt;&lt;var 08 E1E93501 ((&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93501 ((&lt;var 28 ((GCRankLimsaMaleText)) E93501 /var&gt;)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E1E93601 ((&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93601 ((&lt;var 28 ((GCRankGridaniaMaleText)) E93601 /var&gt;)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E1E93701 ((&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93701 ((&lt;var 28 ((GCRankUldahMaleText)) E93701 /var&gt;)) (()) /var&gt;)) (()) /var&gt;、少し話せるか。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_002&lt;tab&gt;私は、スウェスリク・ブルックストーン大牙将……。
 我ら双蛇党が、カストルム・オリエンスの管理を行うことになり、
-こうして統括のために、出張ってきた次第だ。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_003&lt;tab&gt;君は、優れた冒険者であると同時に、
-&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;の一員でもあるはずだ。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_004&lt;tab&gt;そんな君に、エオルゼア同盟軍として任せたい任務がある。
+こうして統括のために、出張ってきた次第だ。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_003&lt;tab&gt;君は、優れた冒険者であると同時に、
+&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;の一員でもあるはずだ。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_004&lt;tab&gt;そんな君に、エオルゼア同盟軍として任せたい任務がある。
 詳しくは、「タラ・モルコー少牙士」から聞いてくれ。
-彼女が任務の主担当なのでな……。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_010&lt;tab&gt;あ、あなたは……「仮面殺し」の英雄ではありませんか！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_011&lt;tab&gt;あなたは、バエサルの長城で逆賊「鉄仮面」を討った英雄。
+彼女が任務の主担当なのでな……。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_010&lt;tab&gt;あ、あなたは……「仮面殺し」の英雄ではありませんか！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_011&lt;tab&gt;あなたは、バエサルの長城で逆賊「鉄仮面」を討った英雄。
 さらには仮面姿の異形者「アシエン」を屠ったことでも有名です！
-その偉業を記すのに、これほど的確な二つ名はないでしょう？</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_012&lt;tab&gt;でも、なかなか浸透しないんですよね……格好いいのに……。
-……ところで、私に何かご用ですか？</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_013&lt;tab&gt;ほほう、スウェスリク大牙将から頼まれて、
+その偉業を記すのに、これほど的確な二つ名はないでしょう？</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_012&lt;tab&gt;でも、なかなか浸透しないんですよね……格好いいのに……。
+……ところで、私に何かご用ですか？</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_013&lt;tab&gt;ほほう、スウェスリク大牙将から頼まれて、
 私の任務を手伝いに来てくださったと……。
-「仮面殺し」の英雄と共に働けるとは、光栄ですね。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_014&lt;tab&gt;申し遅れました……私、双蛇党戦史課のタラ・モルコーと申します。
+「仮面殺し」の英雄と共に働けるとは、光栄ですね。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_014&lt;tab&gt;申し遅れました……私、双蛇党戦史課のタラ・モルコーと申します。
 階級は少牙士ですが、専門は戦争の歴史を研究し、記録すること。
-なので、戦闘はからっきしですが、よろしくどうぞ！</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_015&lt;tab&gt;実は、制圧したカストルム・オリエンスにて、
+なので、戦闘はからっきしですが、よろしくどうぞ！</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_015&lt;tab&gt;実は、制圧したカストルム・オリエンスにて、
 発見された資料の分析を、戦史課が請け負ったのですが……
-その中に、帝国侵攻時に囚われた捕虜の一覧が見つかりましてね。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_016&lt;tab&gt;捕虜の多くは、強制労働に就かされていたようですが、
-反抗して処刑された人も少なからずいたようです。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_017&lt;tab&gt;しかし、ひとつ気になるのは、「生死不明」と定義された人たち。
+その中に、帝国侵攻時に囚われた捕虜の一覧が見つかりましてね。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_016&lt;tab&gt;捕虜の多くは、強制労働に就かされていたようですが、
+反抗して処刑された人も少なからずいたようです。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_017&lt;tab&gt;しかし、ひとつ気になるのは、「生死不明」と定義された人たち。
 彼らはいったい、どこへ行ったのでしょう？
-生きているか、死んでいるのか……。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_018&lt;tab&gt;残された彼らの家族のためにも、
-消えた捕虜たちの消息を辿り、探し出すのが私たちの任務です。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_019&lt;tab&gt;20年という時を経た人探しは、簡単ではありませんが、
-この地に古くから住むアナンタ族なら、何かご存知かもしれません。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_020&lt;tab&gt;折良く、アラミゴ解放軍に所属する「アナンタ族の闘士」が、
+生きているか、死んでいるのか……。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_018&lt;tab&gt;残された彼らの家族のためにも、
+消えた捕虜たちの消息を辿り、探し出すのが私たちの任務です。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_019&lt;tab&gt;20年という時を経た人探しは、簡単ではありませんが、
+この地に古くから住むアナンタ族なら、何かご存知かもしれません。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_020&lt;tab&gt;折良く、アラミゴ解放軍に所属する「アナンタ族の闘士」が、
 この基地を訪れていると聞きました。
-さっそくですが、探し出して、話を聞いてみましょう。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_025&lt;tab&gt;任務については、「タラ・モルコー少牙士」から話を聞くように。
-少々困った奴だが、まあ……うまくやってほしい。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_030&lt;tab&gt;シュー……20年前に帝国軍に囚われた捕虜たちを探していると？</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_031&lt;tab&gt;当時、ギラバニアに進軍してきた帝国軍は、
+さっそくですが、探し出して、話を聞いてみましょう。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_SWETHRYKBROOKSTONE_000_025&lt;tab&gt;任務については、「タラ・モルコー少牙士」から話を聞くように。
+少々困った奴だが、まあ……うまくやってほしい。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_030&lt;tab&gt;シュー……20年前に帝国軍に囚われた捕虜たちを探していると？</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_031&lt;tab&gt;当時、ギラバニアに進軍してきた帝国軍は、
 ヒトの子も美しいアナンタ族も、誰であろうと構わず捕縛した。
-強制労働に送られた者は、ほとんど戻ってこなかったな……。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_032&lt;tab&gt;そういえば、この森の南にあった村へと連行され、
-住まわされていた者もいたはずだ。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_033&lt;tab&gt;当時、様子を見に行ったことがあるが、
+強制労働に送られた者は、ほとんど戻ってこなかったな……。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_032&lt;tab&gt;そういえば、この森の南にあった村へと連行され、
+住まわされていた者もいたはずだ。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_033&lt;tab&gt;当時、様子を見に行ったことがあるが、
 村一帯を帝国兵が囲むほど警備が厳重で、近づけなかった。
-連中は、あの村で何をしていたのか……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_034&lt;tab&gt;南にある村というと……「ビターミル」ですね。
+連中は、あの村で何をしていたのか……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_034&lt;tab&gt;南にある村というと……「ビターミル」ですね。
 確か20年前の帝国侵攻時に、全住民がグリダニアに避難し、
-放棄された集落です……現地に行って、調べてみましょうか。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_035&lt;tab&gt;この方が「アナンタ族の闘士」です。
-何かご存知ならいいのですが。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_200_040&lt;tab&gt;どうしてここに帝国兵が……！？</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_040&lt;tab&gt;クソッ……お前たち、やってしまえ！</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_STMBDZ111_02661_POP_MESSAGE_100_040&lt;tab&gt;敵が襲いかかってきた！！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_040&lt;tab&gt;シュー……我らの同胞の中にも、
+放棄された集落です……現地に行って、調べてみましょうか。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_035&lt;tab&gt;この方が「アナンタ族の闘士」です。
+何かご存知ならいいのですが。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_200_040&lt;tab&gt;どうしてここに帝国兵が……！？</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_040&lt;tab&gt;クソッ……お前たち、やってしまえ！</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_POP_MESSAGE_100_040&lt;tab&gt;敵が襲いかかってきた！！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_ANANTASOLDIER_000_040&lt;tab&gt;シュー……我らの同胞の中にも、
 南の村、「ビターミル」へ連行された者はいる。
-帝国の連中は、あの村でいったい何をしていたのか……。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_045&lt;tab&gt;クッ……我々の姿を見られたか……！</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_100_045&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_100_045&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、気をつけてください！</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_046&lt;tab&gt;ひっ……う、うわぁぁぁぁぁ！！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_047&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_047&lt;tab&gt;いたたたた…………。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_048&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_048&lt;tab&gt;う～……もう、いきなりなんなんです……。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_050&lt;tab&gt;まったく……戦闘は専門外だというのに……。
+帝国の連中は、あの村でいったい何をしていたのか……。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_045&lt;tab&gt;クッ……我々の姿を見られたか……！</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_100_045&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_100_045&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、気をつけてください！</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_046&lt;tab&gt;ひっ……う、うわぁぁぁぁぁ！！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_047&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_047&lt;tab&gt;いたたたた…………。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_EMPIRESOLDIER02661_000_048&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_048&lt;tab&gt;う～……もう、いきなりなんなんです……。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_050&lt;tab&gt;まったく……戦闘は専門外だというのに……。
 それにしても、流石は「仮面殺し」の英雄ですね。
-鮮やかな助太刀ぶりでした……ありがとうございます。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_051&lt;tab&gt;廃屋の中を調べようとしたら、彼らと遭遇したんですよ。
-不意を突かれたとはいえ、みっともないところをお見せしました。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_052&lt;tab&gt;それにしても、帝国軍はギラバニアから撤退したはず。
-彼らはいったいここで何をしていたのでしょう？</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_053&lt;tab&gt;それにしても、解放軍との諍いが絶えないこの状況で、
-彼らはいったいここで何をしていたのでしょう？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_054&lt;tab&gt;ともかく、歴史の謎を解き明かすため、調査を開始しましょう！
+鮮やかな助太刀ぶりでした……ありがとうございます。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_051&lt;tab&gt;廃屋の中を調べようとしたら、彼らと遭遇したんですよ。
+不意を突かれたとはいえ、みっともないところをお見せしました。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_052&lt;tab&gt;それにしても、帝国軍はギラバニアから撤退したはず。
+彼らはいったいここで何をしていたのでしょう？</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_053&lt;tab&gt;それにしても、解放軍との諍いが絶えないこの状況で、
+彼らはいったいここで何をしていたのでしょう？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ111_02661_TAHLAMOLKOH_000_054&lt;tab&gt;ともかく、歴史の謎を解き明かすため、調査を開始しましょう！
 と言いたいところですが、まだ心臓がバクバクいっています……。
-す、少しだけ、待っていてください……。</target></trans-unit></body></file></xliff>
+す、少しだけ、待っていてください……。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

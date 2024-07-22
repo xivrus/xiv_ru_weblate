@@ -1,49 +1,219 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="ComArmGcArmyTraining_00344" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_YES&lt;tab&gt;はい</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_NO&lt;tab&gt;いいえ</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_CANCEL&lt;tab&gt;キャンセル</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_WAITING&lt;tab&gt;実行中の訓練： なし</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_TRAINING&lt;tab&gt;実行中の訓練： &lt;var 28 ((GcArmyTraining)) E80205 /var&gt;
-完了予定：&lt;var 08 E1E80301 ((完了)) ((残り&lt;var 08 E1E80501 ((&lt;var 20 E805 /var&gt;時間&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;分後)) (()) /var&gt;)) ((&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;分)) ((1分以内)) /var&gt;)) /var&gt;)) /var&gt; [&lt;var 07 E806 /var&gt;&lt;var 20 DF /var&gt;/&lt;var 20 DE /var&gt;/&lt;var 20 DC /var&gt; &lt;var 20 DB /var&gt;:&lt;var 24 DA /var&gt;]</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_EXPEDITION&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_001&lt;tab&gt;訓練メニューを開く</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_002&lt;tab&gt;実行中の訓練を中止する</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_003&lt;tab&gt;小隊情報を見る</target></trans-unit><trans-unit id="9" approved="yes"><source>9</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_000&lt;tab&gt;命令を実行していないため、
-中止することはできません。</target></trans-unit><trans-unit id="10" approved="yes"><source>10</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_010&lt;tab&gt;実行した命令が完了しているため、
-中止することはできません。</target></trans-unit><trans-unit id="11" approved="yes"><source>11</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SELECT_ABORT&lt;tab&gt;&lt;var 28 ((GcArmyTraining)) E80205 /var&gt;
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="ComArmGcArmyTraining_00344" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_YES&lt;tab&gt;はい</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_NO&lt;tab&gt;いいえ</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_CANCEL&lt;tab&gt;キャンセル</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_WAITING&lt;tab&gt;実行中の訓練： なし</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_TRAINING&lt;tab&gt;実行中の訓練： &lt;var 28 ((GcArmyTraining)) E80205 /var&gt;
+完了予定：&lt;var 08 E1E80301 ((完了)) ((残り&lt;var 08 E1E80501 ((&lt;var 20 E805 /var&gt;時間&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;分後)) (()) /var&gt;)) ((&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;分)) ((1分以内)) /var&gt;)) /var&gt;)) /var&gt; [&lt;var 07 E806 /var&gt;&lt;var 20 DF /var&gt;/&lt;var 20 DE /var&gt;/&lt;var 20 DC /var&gt; &lt;var 20 DB /var&gt;:&lt;var 24 DA /var&gt;]</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_EXPEDITION&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_001&lt;tab&gt;訓練メニューを開く</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_002&lt;tab&gt;実行中の訓練を中止する</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_003&lt;tab&gt;小隊情報を見る</target>
+			</trans-unit>
+			<trans-unit id="9" approved="yes">
+				<source>9</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_000&lt;tab&gt;命令を実行していないため、
+中止することはできません。</target>
+			</trans-unit>
+			<trans-unit id="10" approved="yes">
+				<source>10</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_010&lt;tab&gt;実行した命令が完了しているため、
+中止することはできません。</target>
+			</trans-unit>
+			<trans-unit id="11" approved="yes">
+				<source>11</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SELECT_ABORT&lt;tab&gt;&lt;var 28 ((GcArmyTraining)) E80205 /var&gt;
 完了予定：&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;時間&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;分後)) (()) /var&gt;)) ((&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;分)) ((1分以内)) /var&gt;)) /var&gt; [&lt;var 07 E805 /var&gt;&lt;var 20 DF /var&gt;/&lt;var 20 DE /var&gt;/&lt;var 20 DC /var&gt; &lt;var 20 DB /var&gt;:&lt;var 24 DA /var&gt;]
-訓練を中止しますか？</target></trans-unit><trans-unit id="12" approved="yes"><source>12</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SELECT_ABORT_EXPEDITION&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="13" approved="yes"><source>13</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_000&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="14" approved="yes"><source>14</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_010&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="15" approved="yes"><source>15</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_020&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="16" approved="yes"><source>16</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_000&lt;tab&gt;さっそく、「訓練」を開始するのですね！
+訓練を中止しますか？</target>
+			</trans-unit>
+			<trans-unit id="12" approved="yes">
+				<source>12</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SELECT_ABORT_EXPEDITION&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="13" approved="yes">
+				<source>13</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_000&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="14" approved="yes">
+				<source>14</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_010&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="15" approved="yes">
+				<source>15</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_020&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="16" approved="yes">
+				<source>16</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_000&lt;tab&gt;さっそく、「訓練」を開始するのですね！
 それでは、どのようなメニューにするのか、
-鍛えたい部分を意識しながら、選んでみてください！</target></trans-unit><trans-unit id="17" approved="yes"><source>17</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_001&lt;tab&gt;「訓練」では、小隊の「小隊総合能力」、
+鍛えたい部分を意識しながら、選んでみてください！</target>
+			</trans-unit>
+			<trans-unit id="17" approved="yes">
+				<source>17</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_001&lt;tab&gt;「訓練」では、小隊の「小隊総合能力」、
 すなわち「総合身体能力」、「総合精神力」、「総合戦術練度」を、
-鍛え上げることができます。</target></trans-unit><trans-unit id="18" approved="yes"><source>18</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_002&lt;tab&gt;選択した訓練の種類に応じて、
+鍛え上げることができます。</target>
+			</trans-unit>
+			<trans-unit id="18" approved="yes">
+				<source>18</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_002&lt;tab&gt;選択した訓練の種類に応じて、
 どの小隊総合能力が上昇しやすいのかが変わるので、
-各小隊任務の達成に必要な能力値を目安に、訓練を行いましょう！</target></trans-unit><trans-unit id="19" approved="yes"><source>19</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_003&lt;tab&gt;「訓練」は、（地球時間）1時間ほどかかります。
+各小隊任務の達成に必要な能力値を目安に、訓練を行いましょう！</target>
+			</trans-unit>
+			<trans-unit id="19" approved="yes">
+				<source>19</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_003&lt;tab&gt;「訓練」は、（地球時間）1時間ほどかかります。
 完了時間は、メインコマンドの「コンテンツ情報」から、
-「コンテンツ情報一覧」を選ぶと確認できます。</target></trans-unit><trans-unit id="20" approved="yes"><source>20</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_004&lt;tab&gt;これ以降、「訓練」の実行と結果の確認は、
-&lt;var 28 ((EObj)) F61EA06E01 /var&gt;より行うことができます。</target></trans-unit><trans-unit id="21" approved="yes"><source>21</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_010&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+「コンテンツ情報一覧」を選ぶと確認できます。</target>
+			</trans-unit>
+			<trans-unit id="20" approved="yes">
+				<source>20</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_004&lt;tab&gt;これ以降、「訓練」の実行と結果の確認は、
+&lt;var 28 ((EObj)) F61EA06E01 /var&gt;より行うことができます。</target>
+			</trans-unit>
+			<trans-unit id="21" approved="yes">
+				<source>21</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_010&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="22" approved="yes"><source>22</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_011&lt;tab&gt;「小隊総合能力」の合計が上限値に達しました。
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="22" approved="yes">
+				<source>22</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_011&lt;tab&gt;「小隊総合能力」の合計が上限値に達しました。
 これ以降は、特定の総合能力を上げようとする場合、
-別の総合能力が下がってしまいます。</target></trans-unit><trans-unit id="23" approved="yes"><source>23</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_012&lt;tab&gt;なお、「小隊総合能力」の上限値は、
+別の総合能力が下がってしまいます。</target>
+			</trans-unit>
+			<trans-unit id="23" approved="yes">
+				<source>23</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_012&lt;tab&gt;なお、「小隊総合能力」の上限値は、
 「小隊ランク」を高めることで、引きあげることができます。
-特殊な小隊任務を成功させ、ランクを上昇させましょう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_013&lt;tab&gt;ただし、ランク上昇の条件となる小隊任務は、
+特殊な小隊任務を成功させ、ランクを上昇させましょう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_013&lt;tab&gt;ただし、ランク上昇の条件となる小隊任務は、
 その他の任務に比べて、難易度が高い傾向があります。
-まずは、訓練や小隊任務を通じ、小隊員のレベルを上げましょう。</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_020&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+まずは、訓練や小隊任務を通じ、小隊員のレベルを上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_020&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_021&lt;tab&gt;「小隊総合能力」の合計が上限値に達しました。
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_021&lt;tab&gt;「小隊総合能力」の合計が上限値に達しました。
 これ以降は、特定の総合能力を上げようとする場合、
-別の総合能力が下がってしまいます。</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_022&lt;tab&gt;なお、「小隊総合能力」の上限値は、
+別の総合能力が下がってしまいます。</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_022&lt;tab&gt;なお、「小隊総合能力」の上限値は、
 「小隊ランク」を高めることで、引きあげることができます。
-特殊な小隊任務を成功させ、ランクを上昇させましょう。</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_023&lt;tab&gt;ただし、ランク上昇の条件となる小隊任務は、
+特殊な小隊任務を成功させ、ランクを上昇させましょう。</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_023&lt;tab&gt;ただし、ランク上昇の条件となる小隊任務は、
 その他の任務に比べて、難易度が高い傾向があります。
-まずは、訓練や小隊任務を通じ、小隊員のレベルを上げましょう。</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_030&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+まずは、訓練や小隊任務を通じ、小隊員のレベルを上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_030&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_031&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_000&lt;tab&gt;さっそく、「訓練」を開始するのですね！
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_031&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="31" approved="yes">
+				<source>31</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_000&lt;tab&gt;さっそく、「訓練」を開始するのですね！
 それでは、どのようなメニューにするのか、
-鍛えたい部分を意識しながら、選んでみてください！</target></trans-unit><trans-unit id="32" approved="yes"><source>32</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_010&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+鍛えたい部分を意識しながら、選んでみてください！</target>
+			</trans-unit>
+			<trans-unit id="32" approved="yes">
+				<source>32</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_010&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="33" approved="yes"><source>33</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_020&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="33" approved="yes">
+				<source>33</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_020&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="34" approved="yes"><source>34</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_030&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="34" approved="yes">
+				<source>34</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_030&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="35" approved="yes"><source>35</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_031&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="36" approved="yes"><source>36</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_000&lt;tab&gt;さっそく、「訓練」を開始するのですね！
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="35" approved="yes">
+				<source>35</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_031&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="36" approved="yes">
+				<source>36</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_000&lt;tab&gt;さっそく、「訓練」を開始するのですね！
 それでは、どのようなメニューにするのか、
-鍛えたい部分を意識しながら、選んでみてください！</target></trans-unit><trans-unit id="37" approved="yes"><source>37</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_010&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+鍛えたい部分を意識しながら、選んでみてください！</target>
+			</trans-unit>
+			<trans-unit id="37" approved="yes">
+				<source>37</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_010&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="38" approved="yes"><source>38</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_020&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="38" approved="yes">
+				<source>38</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_020&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="39" approved="yes"><source>39</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_030&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="39" approved="yes">
+				<source>39</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_030&lt;tab&gt;小官が見たところ、我らが部隊は順調に経験を積み、
 なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="40" approved="yes"><source>40</source><target state="final">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_031&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit></body></file></xliff>
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="40" approved="yes">
+				<source>40</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_031&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

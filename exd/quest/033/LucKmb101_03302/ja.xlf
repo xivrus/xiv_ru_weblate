@@ -1,82 +1,432 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="LucKmb101_03302" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_LUCKMB101_03302_SEQ_00&lt;tab&gt;ペンダント居住館の管理人は、不安そうな顔をしている。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_LUCKMB101_03302_SEQ_01&lt;tab&gt;ペンダント居住館の管理人から、ユールモア軍の飛空艇が近隣に飛来したことを聞いた。クリスタリウムの「星見の間」に向かおう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_LUCKMB101_03302_SEQ_02&lt;tab&gt;星見の間で、水晶公とランジートの対談に立ち会った。クリスタリウムの博物陳列館にいる「モーレン」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_LUCKMB101_03302_SEQ_03&lt;tab&gt;モーレンから本を探すよう頼まれた。博物陳列館の「&lt;var 28 ((EObj)) F61EAAD101 /var&gt;」を調べ「&lt;var 28 ((EventItem)) F61E8E6201 /var&gt;」を入手しよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_LUCKMB101_03302_SEQ_04&lt;tab&gt;目的の本を手に入れた。博物陳列館の「モーレン」に「&lt;var 28 ((EventItem)) F61E8E6201 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_LUCKMB101_03302_SEQ_05&lt;tab&gt;モーレンから光の巫女ミンフィリアについて聞いた。クリスタリウムの自由弁論館にいる「アルフィノ」と話そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_LUCKMB101_03302_SEQ_06&lt;tab&gt;アルフィノたちと話し、ミンフィリア救出の意志を固めた。そこに現れた水晶公は、彼女の救出を、クリスタリウムに任せてはどうかと提案してきたが……。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_LUCKMB101_03302_TODO_00&lt;tab&gt;星見の間に向かう</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_LUCKMB101_03302_TODO_01&lt;tab&gt;博物陳列館のモーレンと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_LUCKMB101_03302_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EAAD101 /var&gt;から&lt;var 28 ((EventItem)) F61E8E6201 /var&gt;を入手</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_LUCKMB101_03302_TODO_03&lt;tab&gt;モーレンに&lt;var 28 ((EventItem)) F61E8E6201 /var&gt;を渡す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_LUCKMB101_03302_TODO_04&lt;tab&gt;アルフィノと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_LUCKMB101_03302_GUIDEOFTHEPENDANTS_000_000&lt;tab&gt;おや、お目覚めになられたのですね。
-これからお出かけですか？</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_LUCKMB101_03302_GUIDEOFTHEPENDANTS_000_001&lt;tab&gt;だとしたら、街の外には出ない方がいいかもしれません。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="LucKmb101_03302" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SEQ_00&lt;tab&gt;ペンダント居住館の管理人は、不安そうな顔をしている。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SEQ_01&lt;tab&gt;ペンダント居住館の管理人から、ユールモア軍の飛空艇が近隣に飛来したことを聞いた。クリスタリウムの「星見の間」に向かおう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SEQ_02&lt;tab&gt;星見の間で、水晶公とランジートの対談に立ち会った。クリスタリウムの博物陳列館にいる「モーレン」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SEQ_03&lt;tab&gt;モーレンから本を探すよう頼まれた。博物陳列館の「&lt;var 28 ((EObj)) F61EAAD101 /var&gt;」を調べ「&lt;var 28 ((EventItem)) F61E8E6201 /var&gt;」を入手しよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SEQ_04&lt;tab&gt;目的の本を手に入れた。博物陳列館の「モーレン」に「&lt;var 28 ((EventItem)) F61E8E6201 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SEQ_05&lt;tab&gt;モーレンから光の巫女ミンフィリアについて聞いた。クリスタリウムの自由弁論館にいる「アルフィノ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SEQ_06&lt;tab&gt;アルフィノたちと話し、ミンフィリア救出の意志を固めた。そこに現れた水晶公は、彼女の救出を、クリスタリウムに任せてはどうかと提案してきたが……。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_TODO_00&lt;tab&gt;星見の間に向かう</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_TODO_01&lt;tab&gt;博物陳列館のモーレンと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EAAD101 /var&gt;から&lt;var 28 ((EventItem)) F61E8E6201 /var&gt;を入手</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_TODO_03&lt;tab&gt;モーレンに&lt;var 28 ((EventItem)) F61E8E6201 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_TODO_04&lt;tab&gt;アルフィノと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_GUIDEOFTHEPENDANTS_000_000&lt;tab&gt;おや、お目覚めになられたのですね。
+これからお出かけですか？</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_GUIDEOFTHEPENDANTS_000_001&lt;tab&gt;だとしたら、街の外には出ない方がいいかもしれません。
 なんでも、ユールモア軍の飛空艇が突然やってきて、
-湖畔に駐留しはじめたらしいのです。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_LUCKMB101_03302_GUIDEOFTHEPENDANTS_000_002&lt;tab&gt;今、水晶公が「星見の間」で対応に当たっているようですが、
+湖畔に駐留しはじめたらしいのです。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_GUIDEOFTHEPENDANTS_000_002&lt;tab&gt;今、水晶公が「星見の間」で対応に当たっているようですが、
 やはり、夜の闇を取り戻したことについての尋問でしょうか。
-軍隊を連れてくるなんて、不穏ですね……。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_010&lt;tab&gt;あなたは、博物陳列館に向かうといい。
+軍隊を連れてくるなんて、不穏ですね……。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_010&lt;tab&gt;あなたは、博物陳列館に向かうといい。
 それにしても、本当にミンフィリアが捕まったというのなら、
-「彼」が沈黙しているはずはないのだが……。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_LUCKMB101_03302_LYNA_000_015&lt;tab&gt;ユールモア軍の動向については、引き続き確認しておきます。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_020&lt;tab&gt;最後にミンフィリアと会ったのは、ちょうど、
-「闇の戦士」にまつわる戦いをしていたときだったね。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_025&lt;tab&gt;ミンフィリアについて、前に説明は受けてたんだけど……
-私もまだ、理解しきれてないのよね。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_030&lt;tab&gt;おや、みなさんどうなさったのですか？
+「彼」が沈黙しているはずはないのだが……。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_LYNA_000_015&lt;tab&gt;ユールモア軍の動向については、引き続き確認しておきます。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_020&lt;tab&gt;最後にミンフィリアと会ったのは、ちょうど、
+「闇の戦士」にまつわる戦いをしていたときだったね。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_025&lt;tab&gt;ミンフィリアについて、前に説明は受けてたんだけど……
+私もまだ、理解しきれてないのよね。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_030&lt;tab&gt;おや、みなさんどうなさったのですか？
 「闇の戦士」や夜にまつわる本でしたら、
-人気急上昇につき、ほとんど貸し出し中ですが……。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_031&lt;tab&gt;なるほど、「光の巫女ミンフィリア」について学びたいと！
-ええ、ええ、喜んでご協力いたしますともっ！</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_032&lt;tab&gt;僕は急いで今の作業を終わらせてしまうので、
-その間に、説明に使う本を探してきてください。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_033&lt;tab&gt;『光の巫女の物語』という題の本です。
+人気急上昇につき、ほとんど貸し出し中ですが……。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_031&lt;tab&gt;なるほど、「光の巫女ミンフィリア」について学びたいと！
+ええ、ええ、喜んでご協力いたしますともっ！</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_032&lt;tab&gt;僕は急いで今の作業を終わらせてしまうので、
+その間に、説明に使う本を探してきてください。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_033&lt;tab&gt;『光の巫女の物語』という題の本です。
 これは児童書でありながら実にうまくまとめられた本で、
-彼女について学ぶのであれば、最初の1冊として外せない……</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_034&lt;tab&gt;……っと、そのへんはどうでもいいですよね、ハイ。
+彼女について学ぶのであれば、最初の1冊として外せない……</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_034&lt;tab&gt;……っと、そのへんはどうでもいいですよね、ハイ。
 ともかくその『光の巫女の物語』は、
-普段ならひとつ下にある本棚に収められています。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_035&lt;tab&gt;ただ時折、借りた本をもとの位置に戻さない人がいるので……
-もしないようでしたら、ほかの棚も探してみてください。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_040&lt;tab&gt;『光の巫女の物語』は、
+普段ならひとつ下にある本棚に収められています。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_035&lt;tab&gt;ただ時折、借りた本をもとの位置に戻さない人がいるので……
+もしないようでしたら、ほかの棚も探してみてください。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_040&lt;tab&gt;『光の巫女の物語』は、
 普段ならひとつ下にある本棚に収められています。
-もしないようでしたら、ほかの棚も探してみてください。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_045&lt;tab&gt;ここにはないようだな……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_050&lt;tab&gt;それにしても大きな本棚よね。
-脚立、借りてこようかしら？</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_LUCKMB101_03302_SYSTEM_000_060&lt;tab&gt;ここには、目的の本はないようだ。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_LUCKMB101_03302_SYSTEM_000_061&lt;tab&gt;『光の巫女の物語』を発見した！</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_070&lt;tab&gt;本が見つかったのかい？</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_075&lt;tab&gt;あら、その手に持ってる本って……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_080&lt;tab&gt;どうでしょう？
-『光の巫女の物語』は見つかりましたか？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_081&lt;tab&gt;ああ、間違いありません！
-探してきてくださって、ありがとうございます。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_082&lt;tab&gt;僕の作業も、もうじき一区切りがつきますので、
+もしないようでしたら、ほかの棚も探してみてください。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_045&lt;tab&gt;ここにはないようだな……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_050&lt;tab&gt;それにしても大きな本棚よね。
+脚立、借りてこようかしら？</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SYSTEM_000_060&lt;tab&gt;ここには、目的の本はないようだ。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_SYSTEM_000_061&lt;tab&gt;『光の巫女の物語』を発見した！</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_070&lt;tab&gt;本が見つかったのかい？</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_075&lt;tab&gt;あら、その手に持ってる本って……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_080&lt;tab&gt;どうでしょう？
+『光の巫女の物語』は見つかりましたか？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_081&lt;tab&gt;ああ、間違いありません！
+探してきてくださって、ありがとうございます。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_082&lt;tab&gt;僕の作業も、もうじき一区切りがつきますので、
 あとのおふたりも呼んで、
-光の巫女にまつわるお話をいたしましょう。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_083&lt;tab&gt;それでは、はじめさせていただきます。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_084&lt;tab&gt;ことのはじまりは、100年前の「光の氾濫」。
+光の巫女にまつわるお話をいたしましょう。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_083&lt;tab&gt;それでは、はじめさせていただきます。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_084&lt;tab&gt;ことのはじまりは、100年前の「光の氾濫」。
 ノルヴラントを呑まんとしていた光の波が、
-ひとりの女性によって止められたことでした。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_085&lt;tab&gt;金の髪に、水晶色の目を持つ女性……
+ひとりの女性によって止められたことでした。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_085&lt;tab&gt;金の髪に、水晶色の目を持つ女性……
 誰かがその背に「ミンフィリア」と声をかけたことから、
-のちに「光の巫女ミンフィリア」と名付けられました。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_086&lt;tab&gt;彼女は氾濫を止めると同時に消えてしまいましたが、
-およそ15年後、再びその名前が歴史の表舞台に現れるのです。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_087&lt;tab&gt;きっかけは、罪喰いによって襲撃を受けたフッブート王国にて、
-罪喰い化に耐性のある少女が発見されたことでした。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_088&lt;tab&gt;伝説の光の巫女と同じ、金の髪と水晶色の目を有していたため、
-彼女もまた「ミンフィリア」と呼ばれるようになりました。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_089&lt;tab&gt;ミンフィリアは、当時のユールモア軍に合流し、
-数多くの罪喰いを討伐しました。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_090&lt;tab&gt;しかし彼女も、とめどのない罪喰いとの戦いで、
-ついには傷つき倒れてしまいました。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_091&lt;tab&gt;死の間際、彼女は悲しむ仲間たちに、
-「ミンフィリアはまた生まれてくる」と語ったそうです。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_092&lt;tab&gt;……数年後、彼女の言葉どおりに、
+のちに「光の巫女ミンフィリア」と名付けられました。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_086&lt;tab&gt;彼女は氾濫を止めると同時に消えてしまいましたが、
+およそ15年後、再びその名前が歴史の表舞台に現れるのです。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_087&lt;tab&gt;きっかけは、罪喰いによって襲撃を受けたフッブート王国にて、
+罪喰い化に耐性のある少女が発見されたことでした。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_088&lt;tab&gt;伝説の光の巫女と同じ、金の髪と水晶色の目を有していたため、
+彼女もまた「ミンフィリア」と呼ばれるようになりました。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_089&lt;tab&gt;ミンフィリアは、当時のユールモア軍に合流し、
+数多くの罪喰いを討伐しました。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_090&lt;tab&gt;しかし彼女も、とめどのない罪喰いとの戦いで、
+ついには傷つき倒れてしまいました。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_091&lt;tab&gt;死の間際、彼女は悲しむ仲間たちに、
+「ミンフィリアはまた生まれてくる」と語ったそうです。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_092&lt;tab&gt;……数年後、彼女の言葉どおりに、
 同じ特徴をもった、罪喰い化に耐性のある少女が見つかりました。
-ミンフィリアは、本当に生まれ変わったのです。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_093&lt;tab&gt;新しいミンフィリアもまた、ユールモア軍に保護されて、
+ミンフィリアは、本当に生まれ変わったのです。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_093&lt;tab&gt;新しいミンフィリアもまた、ユールモア軍に保護されて、
 罪喰いと戦い、その果てに亡くなりました。
-それが幾度も繰り返されて、今日に至るのです……。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_094&lt;tab&gt;……というのが、『光の巫女の物語』の概要です。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_095&lt;tab&gt;彼女たちが命懸けで戦ってくれたことが、
-これまで何度も、ノルヴラントの危機を救ってきました。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_096&lt;tab&gt;大罪喰いという存在と、その性質を知ることができたのも、
-ミンフィリアたちの功労だと言われています。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_097&lt;tab&gt;ということは、ミンフィリアはかなり強いのね……？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_098&lt;tab&gt;……どうでしょう。
+それが幾度も繰り返されて、今日に至るのです……。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_094&lt;tab&gt;……というのが、『光の巫女の物語』の概要です。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_095&lt;tab&gt;彼女たちが命懸けで戦ってくれたことが、
+これまで何度も、ノルヴラントの危機を救ってきました。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_096&lt;tab&gt;大罪喰いという存在と、その性質を知ることができたのも、
+ミンフィリアたちの功労だと言われています。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_097&lt;tab&gt;ということは、ミンフィリアはかなり強いのね……？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_098&lt;tab&gt;……どうでしょう。
 光の巫女は、特徴こそ生まれ変わっても継承しているものの、
-記憶や知識まで継いでいるわけではないそうです。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_099&lt;tab&gt;つまり、発見された時点では誰しも、
-戦いの経験を持たない、普通の女の子だった……。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_100&lt;tab&gt;そこから努力をして……あるいは周りに強いられて、
+記憶や知識まで継いでいるわけではないそうです。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_099&lt;tab&gt;つまり、発見された時点では誰しも、
+戦いの経験を持たない、普通の女の子だった……。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_100&lt;tab&gt;そこから努力をして……あるいは周りに強いられて、
 罪喰いとの戦いの最前線に上がったわけです。
-真実に至るのにだって、多くの犠牲を払ったことでしょう。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_101&lt;tab&gt;モーレン、君は「今」のミンフィリアについて、
-何か知っているかい？</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_102&lt;tab&gt;現在のミンフィリアは、
-10年ほど前にユールモア軍が発見、保護した子です。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_103&lt;tab&gt;ただ、その当時すでに、
-ユールモアはヴァウスリーによって方向転換していた……。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_104&lt;tab&gt;保護というのは建前で、実際は罪喰いを倒し得る彼女を、
+真実に至るのにだって、多くの犠牲を払ったことでしょう。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_101&lt;tab&gt;モーレン、君は「今」のミンフィリアについて、
+何か知っているかい？</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_102&lt;tab&gt;現在のミンフィリアは、
+10年ほど前にユールモア軍が発見、保護した子です。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_103&lt;tab&gt;ただ、その当時すでに、
+ユールモアはヴァウスリーによって方向転換していた……。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_104&lt;tab&gt;保護というのは建前で、実際は罪喰いを倒し得る彼女を、
 危険因子として手元で管理しておきたかったのだと思います。
-いわば幽閉、監禁です。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_105&lt;tab&gt;以来、ミンフィリアについての情報は完璧に遮断され、
-外部からは、生存の確認さえできなくなりました。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_LUCKMB101_03302_MOREN_000_106&lt;tab&gt;しかし、ついに3年前、心ある勇士がユールモアに潜り込み、
+いわば幽閉、監禁です。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_105&lt;tab&gt;以来、ミンフィリアについての情報は完璧に遮断され、
+外部からは、生存の確認さえできなくなりました。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MOREN_000_106&lt;tab&gt;しかし、ついに3年前、心ある勇士がユールモアに潜り込み、
 彼女を逃がしたらしいのです。
-まるで物語に出てくるヒーローですね！</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_107&lt;tab&gt;……なるほど、よくわかった。
-貴重な話をありがとう。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_108&lt;tab&gt;さて、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+まるで物語に出てくるヒーローですね！</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_107&lt;tab&gt;……なるほど、よくわかった。
+貴重な話をありがとう。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_108&lt;tab&gt;さて、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
 これらの情報をふまえた上で、話をしたいのだが……
-この部屋を出たところにある会議場まで来てくれるかい？</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_110&lt;tab&gt;確かにここなら、もう少し込み入った話もできそうね。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_120&lt;tab&gt;君ならもう気づいているかもしれないが……
-3年前にミンフィリアを助け出したのは、サンクレッドだ。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_121&lt;tab&gt;水晶公から聞いた話によれば、
+この部屋を出たところにある会議場まで来てくれるかい？</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_110&lt;tab&gt;確かにここなら、もう少し込み入った話もできそうね。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_120&lt;tab&gt;君ならもう気づいているかもしれないが……
+3年前にミンフィリアを助け出したのは、サンクレッドだ。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_121&lt;tab&gt;水晶公から聞いた話によれば、
 以来彼はミンフィリアを連れて旅暮らしをしているらしい。
-それで私たちも、こちらではまだ会えていないんだ。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_122&lt;tab&gt;私たちの知る、原初世界のミンフィリアは、
+それで私たちも、こちらではまだ会えていないんだ。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_122&lt;tab&gt;私たちの知る、原初世界のミンフィリアは、
 ハイデリンの使徒として、
-「光の氾濫」を止めるために第一世界に旅立ったわよね。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_123&lt;tab&gt;それがきっと、第一世界の人たちが見た、
-最初のミンフィリアだった……。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_124&lt;tab&gt;とすれば、その生まれ変わりだという今のミンフィリアも、
+「光の氾濫」を止めるために第一世界に旅立ったわよね。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_123&lt;tab&gt;それがきっと、第一世界の人たちが見た、
+最初のミンフィリアだった……。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_124&lt;tab&gt;とすれば、その生まれ変わりだという今のミンフィリアも、
 大元の彼女と無関係ってわけじゃないんでしょうけど……
-それでもやっぱり、記憶すら継いでいない別人でしょう？</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_125&lt;tab&gt;サンクレッドは……わかっているのかしら。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_126&lt;tab&gt;当然、理解はしているだろう。
-それをどう思っているかまでは、答えようもないがね。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_127&lt;tab&gt;何にせよ、これまでミンフィリアと共にいたサンクレッドが、
-急に彼女を見放すとは思えない。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_128&lt;tab&gt;今、ユールモア軍に彼女が捕まったというのなら、
-サンクレッドの安否も気になるところだ。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_129&lt;tab&gt;まわりくどいわねぇ。
+それでもやっぱり、記憶すら継いでいない別人でしょう？</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_125&lt;tab&gt;サンクレッドは……わかっているのかしら。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_126&lt;tab&gt;当然、理解はしているだろう。
+それをどう思っているかまでは、答えようもないがね。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_127&lt;tab&gt;何にせよ、これまでミンフィリアと共にいたサンクレッドが、
+急に彼女を見放すとは思えない。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_128&lt;tab&gt;今、ユールモア軍に彼女が捕まったというのなら、
+サンクレッドの安否も気になるところだ。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_129&lt;tab&gt;まわりくどいわねぇ。
 つまるところ、捕まったミンフィリアの様子を見に行きたい、
-っていうか助けてあげたいって言いたいんでしょ？</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_130&lt;tab&gt;ま、私も同感なんだけどね。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_131&lt;tab&gt;罪喰い化に耐性があるってことはきっと、
+っていうか助けてあげたいって言いたいんでしょ？</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_130&lt;tab&gt;ま、私も同感なんだけどね。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_131&lt;tab&gt;罪喰い化に耐性があるってことはきっと、
 元のミンフィリアから、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;と同じ、
-光の加護を受け継いでるんだわ。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_132&lt;tab&gt;だったら、むざむざ敵の手に渡すより、
-仲間になってもらった方がいいじゃない？</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_LUCKMB101_03302_Q1_000_000&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_LUCKMB101_03302_A1_000_001&lt;tab&gt;自分も同感だ</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_LUCKMB101_03302_A1_000_002&lt;tab&gt;ふたりがそう言うなら……</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_133&lt;tab&gt;(-？？？？-)意志は固まったようだな。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_LUCKMB101_03302_ALPHINAUD_000_134&lt;tab&gt;水晶公！
-どうしてここに……？</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_135&lt;tab&gt;ふむ……。
+光の加護を受け継いでるんだわ。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_132&lt;tab&gt;だったら、むざむざ敵の手に渡すより、
+仲間になってもらった方がいいじゃない？</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_Q1_000_000&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_A1_000_001&lt;tab&gt;自分も同感だ</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_A1_000_002&lt;tab&gt;ふたりがそう言うなら……</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_133&lt;tab&gt;(-？？？？-)意志は固まったようだな。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALPHINAUD_000_134&lt;tab&gt;水晶公！
+どうしてここに……？</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_135&lt;tab&gt;ふむ……。
 報告がひとつと、提案がひとつ。
-あなた方に、いち早く伝えようと思ったのだ。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_136&lt;tab&gt;まず、報告だが……
+あなた方に、いち早く伝えようと思ったのだ。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_136&lt;tab&gt;まず、報告だが……
 偵察部隊によって、ラクサン城に駐留しているユールモア軍が、
-ミンフィリアを捕縛しているという確証がとれた。</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_137&lt;tab&gt;今はまだ城内に留め置かれているようだが、
+ミンフィリアを捕縛しているという確証がとれた。</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_137&lt;tab&gt;今はまだ城内に留め置かれているようだが、
 いつ本国に移送されるかわからない状態だ。
-そうなると、彼女を救出するのは非常に難しくなる。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_LUCKMB101_03302_ALISAIE_000_138&lt;tab&gt;だとしたら、とっとと行動を起こした方がよさそうね……。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_139&lt;tab&gt;そこで、提案の方だ。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_140&lt;tab&gt;ミンフィリアの救出は、私と、このクリスタリウムの街に、
-任せてみてはくれないだろうか？</target></trans-unit></body></file></xliff>
+そうなると、彼女を救出するのは非常に難しくなる。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_ALISAIE_000_138&lt;tab&gt;だとしたら、とっとと行動を起こした方がよさそうね……。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_139&lt;tab&gt;そこで、提案の方だ。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMB101_03302_MYSTERYVOICE_000_140&lt;tab&gt;ミンフィリアの救出は、私と、このクリスタリウムの街に、
+任せてみてはくれないだろうか？</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

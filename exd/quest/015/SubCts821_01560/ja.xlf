@@ -1,71 +1,377 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="SubCts821_01560" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_SUBCTS821_01560_SEQ_00&lt;tab&gt;ベントブランチ牧場の飼育員ルクロは、冒険者に教えたいことがあるらしい。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_SUBCTS821_01560_SEQ_01&lt;tab&gt;ルクロが、マイチョコボ育成の秘訣を教えてくれるようだ。まずは育成の基本である「厩舎」の掃除をするために、ベントブランチ牧場の厩舎周辺で「&lt;var 28 ((EObj)) F61E95D001 /var&gt;」を5個拾おう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_SUBCTS821_01560_SEQ_02&lt;tab&gt;厩舎の&lt;var 28 ((EObj)) F61E95D001 /var&gt;を拾い終えた。ベントブランチ牧場の「ルクロ」に報告しよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_SUBCTS821_01560_SEQ_03&lt;tab&gt;ルクロに報告した。続いて、ベントブランチ牧場の「マルゴ」と話し、マイチョコボのエサをわけてもらおう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_SUBCTS821_01560_SEQ_04&lt;tab&gt;マルゴと話し、&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;を手に入れた。ベントブランチ牧場の「ルクロ」に、「&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;」見せよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_SUBCTS821_01560_SEQ_05&lt;tab&gt;ルクロに野菜を見せた。次は、チョコボの訓練方法について、ベントブランチ牧場の「ケーシャ」から話を聞こう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_SUBCTS821_01560_SEQ_06&lt;tab&gt;ケーシャと話した。ベントブランチ牧場のチョコボ「リトルレイア」を訓練しよう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_SUBCTS821_01560_SEQ_07&lt;tab&gt;リトルレイアを訓練した。ベントブランチ牧場の「ケーシャ」に報告しよう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_SUBCTS821_01560_SEQ_08&lt;tab&gt;ケーシャに報告した。マイチョコボ育成の秘訣をすべて教えてくれたようだ。ベントブランチ牧場の「ルクロ」に報告しよう。</target></trans-unit><trans-unit id="9" approved="yes"><source>9</source><target state="final">TEXT_SUBCTS821_01560_SEQ_09&lt;tab&gt;ルクロに報告した。さっそくハウスに「厩舎」を設置して、マイチョコボを預けてみよう。愛情をたっぷりこめてマイチョコボを育成して、冒険の心強い仲間へ育てよう！</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_SUBCTS821_01560_TODO_00&lt;tab&gt;&lt;var 28 ((EObj)) F61E95D001 /var&gt;を拾う</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_SUBCTS821_01560_TODO_01&lt;tab&gt;ルクロと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_SUBCTS821_01560_TODO_02&lt;tab&gt;マルゴと話してエサを入手</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_SUBCTS821_01560_TODO_03&lt;tab&gt;ルクロに&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;を見せる</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_SUBCTS821_01560_TODO_04&lt;tab&gt;ケーシャと話す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_SUBCTS821_01560_TODO_05&lt;tab&gt;リトルレイアを訓練する</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_SUBCTS821_01560_TODO_06&lt;tab&gt;ケーシャに報告</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">TEXT_SUBCTS821_01560_TODO_07&lt;tab&gt;ルクロに報告</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_000&lt;tab&gt;こんにちは、マイチョコボの調子はいかがですか？
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="SubCts821_01560" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_00&lt;tab&gt;ベントブランチ牧場の飼育員ルクロは、冒険者に教えたいことがあるらしい。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_01&lt;tab&gt;ルクロが、マイチョコボ育成の秘訣を教えてくれるようだ。まずは育成の基本である「厩舎」の掃除をするために、ベントブランチ牧場の厩舎周辺で「&lt;var 28 ((EObj)) F61E95D001 /var&gt;」を5個拾おう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_02&lt;tab&gt;厩舎の&lt;var 28 ((EObj)) F61E95D001 /var&gt;を拾い終えた。ベントブランチ牧場の「ルクロ」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_03&lt;tab&gt;ルクロに報告した。続いて、ベントブランチ牧場の「マルゴ」と話し、マイチョコボのエサをわけてもらおう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_04&lt;tab&gt;マルゴと話し、&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;を手に入れた。ベントブランチ牧場の「ルクロ」に、「&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;」見せよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_05&lt;tab&gt;ルクロに野菜を見せた。次は、チョコボの訓練方法について、ベントブランチ牧場の「ケーシャ」から話を聞こう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_06&lt;tab&gt;ケーシャと話した。ベントブランチ牧場のチョコボ「リトルレイア」を訓練しよう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_07&lt;tab&gt;リトルレイアを訓練した。ベントブランチ牧場の「ケーシャ」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_08&lt;tab&gt;ケーシャに報告した。マイチョコボ育成の秘訣をすべて教えてくれたようだ。ベントブランチ牧場の「ルクロ」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="9" approved="yes">
+				<source>9</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SEQ_09&lt;tab&gt;ルクロに報告した。さっそくハウスに「厩舎」を設置して、マイチョコボを預けてみよう。愛情をたっぷりこめてマイチョコボを育成して、冒険の心強い仲間へ育てよう！</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_TODO_00&lt;tab&gt;&lt;var 28 ((EObj)) F61E95D001 /var&gt;を拾う</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_TODO_01&lt;tab&gt;ルクロと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_TODO_02&lt;tab&gt;マルゴと話してエサを入手</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_TODO_03&lt;tab&gt;ルクロに&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;を見せる</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_TODO_04&lt;tab&gt;ケーシャと話す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_TODO_05&lt;tab&gt;リトルレイアを訓練する</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_TODO_06&lt;tab&gt;ケーシャに報告</target>
+			</trans-unit>
+			<trans-unit id="31" approved="yes">
+				<source>31</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_TODO_07&lt;tab&gt;ルクロに報告</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_000&lt;tab&gt;こんにちは、マイチョコボの調子はいかがですか？
 マイチョコボは実戦を重ねることで育つものですが……
-日々の訓練で育成することも大切です。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_001&lt;tab&gt;……ふむ、すでにハウスを所有されているならば、
+日々の訓練で育成することも大切です。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_001&lt;tab&gt;……ふむ、すでにハウスを所有されているならば、
 マイチョコボの「厩舎」を設置してみてはいかがでしょう？
-そうすることで、効率的に育成できますよ。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_002&lt;tab&gt;もし、その気がおありでしたら、
-「イシュガルド流マイチョコボ育成の秘訣」をお教えしましょう。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_003&lt;tab&gt;では、マイチョコボ育成の秘訣「その一」……
+そうすることで、効率的に育成できますよ。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_002&lt;tab&gt;もし、その気がおありでしたら、
+「イシュガルド流マイチョコボ育成の秘訣」をお教えしましょう。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_003&lt;tab&gt;では、マイチョコボ育成の秘訣「その一」……
 マイチョコボはハウスの「厩舎」に預けること。
-これで「訓練」したり「エサ」をあたえられます。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_004&lt;tab&gt;続いて、マイチョコボ育成の秘訣「その二」……
-「厩舎」の手入れは怠らず、常に清潔を保つこと。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_005&lt;tab&gt;チョコボはキレイ好きで、意外と繊細なのです。
+これで「訓練」したり「エサ」をあたえられます。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_004&lt;tab&gt;続いて、マイチョコボ育成の秘訣「その二」……
+「厩舎」の手入れは怠らず、常に清潔を保つこと。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_005&lt;tab&gt;チョコボはキレイ好きで、意外と繊細なのです。
 試しに、この厩舎を掃除してみましょうか。
-落ちている「&lt;var 28 ((EObj)) F61E95D001 /var&gt;」をすべて拾ってください。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_010&lt;tab&gt;試しに、この厩舎を掃除してみましょうか。
+落ちている「&lt;var 28 ((EObj)) F61E95D001 /var&gt;」をすべて拾ってください。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_010&lt;tab&gt;試しに、この厩舎を掃除してみましょうか。
 落ちている「&lt;var 28 ((EObj)) F61E95D001 /var&gt;」をすべて拾ってください。
-終わったら、私に声をかけてくださいね。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_SUBCTS821_01560_SYSTEM_000_010&lt;tab&gt;リトルレイアは、声を掛けられてびっくりしたようだ。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_100_020&lt;tab&gt;「&lt;var 28 ((EObj)) F61E95D001 /var&gt;」を拾い終えましたか？
-でしたら、ゴミは私が預かりましょう。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_020&lt;tab&gt;……とても綺麗になりましたね。
+終わったら、私に声をかけてくださいね。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SYSTEM_000_010&lt;tab&gt;リトルレイアは、声を掛けられてびっくりしたようだ。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_100_020&lt;tab&gt;「&lt;var 28 ((EObj)) F61E95D001 /var&gt;」を拾い終えましたか？
+でしたら、ゴミは私が預かりましょう。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_020&lt;tab&gt;……とても綺麗になりましたね。
 あなたが掃除してくれたおかげで、
-チョコボたちも、とても気持よさそうにしています。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_021&lt;tab&gt;実際の掃除では「マジックブルーム」を使用するので、
-しっかり準備しておいてくださいね。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_022&lt;tab&gt;続いて、マイチョコボ育成の秘訣「その三」は、
+チョコボたちも、とても気持よさそうにしています。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_021&lt;tab&gt;実際の掃除では「マジックブルーム」を使用するので、
+しっかり準備しておいてくださいね。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_022&lt;tab&gt;続いて、マイチョコボ育成の秘訣「その三」は、
 「エサ」についてです。
-……ですが、この説明については、私よりも適任者がいます。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_023&lt;tab&gt;この牧場で、エサとなる野菜を栽培している「マルゴ」です。
+……ですが、この説明については、私よりも適任者がいます。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_023&lt;tab&gt;この牧場で、エサとなる野菜を栽培している「マルゴ」です。
 彼女から、マイチョコボのエサを分けてもらってください。
-エサについても詳しく教えてくれるでしょう。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_024&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_025&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_026&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_029&lt;tab&gt;この牧場で、マイチョコボのエサとなる野菜を栽培している
+エサについても詳しく教えてくれるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_024&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_025&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_026&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_029&lt;tab&gt;この牧場で、マイチョコボのエサとなる野菜を栽培している
 「マルゴ」から、エサを分けてもらってきてください。
-エサについても詳しく教えてくれるでしょう。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_SUBCTS821_01560_SYSTEM_000_029&lt;tab&gt;リトルレイアは、掃除してくれた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;に、
-感謝しているようだ。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_030&lt;tab&gt;……マイチョコボのエサがほしいですって？
-でしたら、ちょうどいい野菜がありますよ。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_031&lt;tab&gt;私たちは、愛するチョコボが健やかに育つよう、
-心をこめて野菜を育てています。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_032&lt;tab&gt;あなたもマイチョコボの育成をするつもりなら、
+エサについても詳しく教えてくれるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SYSTEM_000_029&lt;tab&gt;リトルレイアは、掃除してくれた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;に、
+感謝しているようだ。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_030&lt;tab&gt;……マイチョコボのエサがほしいですって？
+でしたら、ちょうどいい野菜がありますよ。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_031&lt;tab&gt;私たちは、愛するチョコボが健やかに育つよう、
+心をこめて野菜を育てています。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_032&lt;tab&gt;あなたもマイチョコボの育成をするつもりなら、
 ハウスの畑で野菜を栽培してみては？
-それを食べれば、マイチョコボは立派に育つことでしょう。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_033&lt;tab&gt;人の体は食べ物が作る……それはチョコボも同じこと。
+それを食べれば、マイチョコボは立派に育つことでしょう。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_033&lt;tab&gt;人の体は食べ物が作る……それはチョコボも同じこと。
 あたえるエサによって、マイチョコボが受ける影響も、
-異なるのです。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_034&lt;tab&gt;そうですね、マイチョコボが好む代表的なエサを、
-紹介しておきましょう。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_035&lt;tab&gt;代表的なご褒美は「カラッカの野菜」です。
-ほかにも特定の能力を伸ばせる各種の野菜がありますね。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_036&lt;tab&gt;これらの野菜をあたえる数を調整することで、
-理想のマイチョコボへと育成することができるでしょう。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_037&lt;tab&gt;ただし、チョコボにだって好みがありますから、
-しっかり理解してあげてくださいね。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_038&lt;tab&gt;そうそう、カラッカの種はお店で売っていますから、
+異なるのです。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_034&lt;tab&gt;そうですね、マイチョコボが好む代表的なエサを、
+紹介しておきましょう。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_035&lt;tab&gt;代表的なご褒美は「カラッカの野菜」です。
+ほかにも特定の能力を伸ばせる各種の野菜がありますね。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_036&lt;tab&gt;これらの野菜をあたえる数を調整することで、
+理想のマイチョコボへと育成することができるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_037&lt;tab&gt;ただし、チョコボにだって好みがありますから、
+しっかり理解してあげてくださいね。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_038&lt;tab&gt;そうそう、カラッカの種はお店で売っていますから、
 栽培や他の野菜との交雑に挑戦してみてくださいね。
-そうすれば、いろいろと試せるはずですから。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_039&lt;tab&gt;はっ私ったら、つい長々と……。
+そうすれば、いろいろと試せるはずですから。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_039&lt;tab&gt;はっ私ったら、つい長々と……。
 マイチョコボへのエサが必要だったんですよね？
-さあ「&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;」をどうぞ。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_040&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_040&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_SUBCTS821_01560_SYSTEM_000_040&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_SUBCTS821_01560_MARGAULT_000_055&lt;tab&gt;渡した「&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;」は
+さあ「&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;」をどうぞ。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_040&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_040&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SYSTEM_000_040&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_MARGAULT_000_055&lt;tab&gt;渡した「&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;」は
 とても上質な野菜で、チョコボも喜ぶことでしょう。
-さあ、早くルクロにも見せてあげて。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_050&lt;tab&gt;マルゴから、マイチョコボのエサを分けてもらえましたか？</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_051&lt;tab&gt;……なんて新鮮でおいしそうな野菜でしょう。
+さあ、早くルクロにも見せてあげて。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_050&lt;tab&gt;マルゴから、マイチョコボのエサを分けてもらえましたか？</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_051&lt;tab&gt;……なんて新鮮でおいしそうな野菜でしょう。
 いいエサを譲ってもらえましたね。
-さあ、これでマイチョコボを訓練する準備が整いました。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_052&lt;tab&gt;マイチョコボ育成の秘訣「その四」……
-いよいよ、マイチョコボの訓練に関する秘訣です。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_053&lt;tab&gt;ちょうど「ケーシャ」がチョコボの訓練をしていますから、
-彼女に話を聞いてみてください。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_055&lt;tab&gt;さあ、これでチョコボを訓練する準備が整いました。
+さあ、これでマイチョコボを訓練する準備が整いました。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_052&lt;tab&gt;マイチョコボ育成の秘訣「その四」……
+いよいよ、マイチョコボの訓練に関する秘訣です。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_053&lt;tab&gt;ちょうど「ケーシャ」がチョコボの訓練をしていますから、
+彼女に話を聞いてみてください。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_055&lt;tab&gt;さあ、これでチョコボを訓練する準備が整いました。
 ちょうど「ケーシャ」がチョコボの訓練をしていますから、
-彼女に話を聞いてみてください。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_SUBCTS821_01560_SYSTEM_000_055&lt;tab&gt;リトルレイアは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;が持っている、
-新鮮な野菜をかぎつけたようだ。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_060&lt;tab&gt;よく来てくれました。
-……マイチョコボの訓練について教えてほしいですって？</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_061&lt;tab&gt;マイチョコボを「厩舎」に預ければ、「訓練」を行えます。
+彼女に話を聞いてみてください。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SYSTEM_000_055&lt;tab&gt;リトルレイアは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;が持っている、
+新鮮な野菜をかぎつけたようだ。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_060&lt;tab&gt;よく来てくれました。
+……マイチョコボの訓練について教えてほしいですって？</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_061&lt;tab&gt;マイチョコボを「厩舎」に預ければ、「訓練」を行えます。
 訓練が終わったら、必ずご褒美にエサをあげてくださいね。
-つまり訓練を始める前に、エサを準備する必要があるのです。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_062&lt;tab&gt;訓練の成果は、「厩舎」の状態やご褒美のエサの種類で
+つまり訓練を始める前に、エサを準備する必要があるのです。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_062&lt;tab&gt;訓練の成果は、「厩舎」の状態やご褒美のエサの種類で
 変わってきますが……マイチョコボへの愛さえあれば、
-難しいことはありません。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_063&lt;tab&gt;……おや、すでに新鮮な野菜をお持ちですね？
+難しいことはありません。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_063&lt;tab&gt;……おや、すでに新鮮な野菜をお持ちですね？
 では、それを訓練後のご褒美として、
-「リトルレイア」を訓練してみましょう！</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_065&lt;tab&gt;その新鮮な野菜を訓練後のご褒美として、
-「リトルレイア」を訓練してみましょう！</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_SUBCTS821_01560_SYSTEM_000_065&lt;tab&gt;リトルレイアは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;が持っている、
-新鮮な野菜をねだっているようだ。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_070&lt;tab&gt;ケーシャから訓練の話を聞けたようですね？
-早速、リトルレイアを訓練してみるといいでしょう。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_SUBCTS821_01560_SYSTEM_000_070&lt;tab&gt;訓練を終えたリトルレイアに、
-「&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;」をあたえた！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_085&lt;tab&gt;うまくチョコボを訓練できましたか？
-間近で見ていたケーシャから、詳しい助言を聞いてみてください。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_080&lt;tab&gt;うまくチョコボを訓練できましたね、さすがです。
+「リトルレイア」を訓練してみましょう！</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_065&lt;tab&gt;その新鮮な野菜を訓練後のご褒美として、
+「リトルレイア」を訓練してみましょう！</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SYSTEM_000_065&lt;tab&gt;リトルレイアは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;が持っている、
+新鮮な野菜をねだっているようだ。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_070&lt;tab&gt;ケーシャから訓練の話を聞けたようですね？
+早速、リトルレイアを訓練してみるといいでしょう。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SYSTEM_000_070&lt;tab&gt;訓練を終えたリトルレイアに、
+「&lt;var 28 ((EventItem)) F61E89CF01 /var&gt;」をあたえた！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_085&lt;tab&gt;うまくチョコボを訓練できましたか？
+間近で見ていたケーシャから、詳しい助言を聞いてみてください。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_080&lt;tab&gt;うまくチョコボを訓練できましたね、さすがです。
 あなたほどの腕前ならば、
-きっとどんなチョコボも、うまく訓練できるはず。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_081&lt;tab&gt;「厩舎」を、ほかの冒険者と共有している場合は、
-仲間のマイチョコボの世話もすることができるんです。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_082&lt;tab&gt;例えば、「厩舎」を手入れすれば、
+きっとどんなチョコボも、うまく訓練できるはず。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_081&lt;tab&gt;「厩舎」を、ほかの冒険者と共有している場合は、
+仲間のマイチョコボの世話もすることができるんです。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_082&lt;tab&gt;例えば、「厩舎」を手入れすれば、
 仲間のマイチョコボ育成を手伝うことになるのです。
-進んで、マイチョコボのお世話をしてあげてくださいね。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_083&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_084&lt;tab&gt;……私から伝えられることは、これぐらいです。
-「ルクロ」のところに戻って、続きを聞いてみてください。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_SUBCTS821_01560_SYSTEM_000_085&lt;tab&gt;リトルレイアは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;に、
-もっと訓練してほしそうにしている。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_090&lt;tab&gt;よかった、訓練はうまくいったようですね。
+進んで、マイチョコボのお世話をしてあげてくださいね。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_083&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_084&lt;tab&gt;……私から伝えられることは、これぐらいです。
+「ルクロ」のところに戻って、続きを聞いてみてください。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SYSTEM_000_085&lt;tab&gt;リトルレイアは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;に、
+もっと訓練してほしそうにしている。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_090&lt;tab&gt;よかった、訓練はうまくいったようですね。
 「厩舎」でのマイチョコボ育成の秘訣については、
-これで、ひととおりお伝えしました。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_SUBCTS821_01560_LUQUELOT_000_091&lt;tab&gt;早速、あなたの家に「厩舎」を設置して、
+これで、ひととおりお伝えしました。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_LUQUELOT_000_091&lt;tab&gt;早速、あなたの家に「厩舎」を設置して、
 マイチョコボを頼もしい相棒へ育て上げてください！
-成長したあなたのチョコボに会える日を楽しみにしていますよ！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_SUBCTS821_01560_KEITHA_090&lt;tab&gt;ルクロのところに戻って、次の話を聞いてみてください。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_SUBCTS821_01560_SYSTEM_000_090&lt;tab&gt;リトルレイアは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;と、
-もっと一緒にいたいようだ。</target></trans-unit></body></file></xliff>
+成長したあなたのチョコボに会える日を楽しみにしていますよ！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_KEITHA_090&lt;tab&gt;ルクロのところに戻って、次の話を聞いてみてください。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_SUBCTS821_01560_SYSTEM_000_090&lt;tab&gt;リトルレイアは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;と、
+もっと一緒にいたいようだ。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

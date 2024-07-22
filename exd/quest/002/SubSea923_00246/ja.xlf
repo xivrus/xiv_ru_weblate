@@ -1,105 +1,419 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="SubSea923_00246" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_SUBSEA923_00246_SEQ_00&lt;tab&gt;漁師ギルドのワワラゴは、冒険者に頼み事があるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_SUBSEA923_00246_SEQ_01&lt;tab&gt;ワワラゴから依頼を受けた。「ラノシア」「黒衣森」「ザナラーン」のそれぞれの地で「オオヌシ」を釣り上げ、リムサ・ロミンサの漁師ギルド前にいる「ワワラゴ」に納品しよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_SUBSEA923_00246_SEQ_02&lt;tab&gt;ワワラゴに、各地の「オオヌシ」を納品した。環境の変化にともない、まだ魚影の報告のない地域にも「オオヌシ」が出現しているかもしれない。「クルザス」と「モードゥナ」でも「オオヌシ」を釣り上げ、漁師ギルド前にいる「ワワラゴ」に納品しよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_SUBSEA923_00246_SEQ_03&lt;tab&gt;ワワラゴに、さらなる「オオヌシ」を納品した。どうやら「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の出現が、ロータノ海の環境に影響を与えているようだ。ロータノ海の生物を守るためには、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げなければならない。「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」が目撃された東ラノシアのコスタ・デル・ソルに向かい、「大型船の船員」に話しかけよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_SUBSEA923_00246_SEQ_04&lt;tab&gt;大型船の船員と話した。洋上の大型船に向かい、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げよう。釣り上げた「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」は、洋上の大型船に乗っている「腕利きの船長」に渡そう。洋上の大型船へは、コスタ・デル・ソルの船頭が連れていってくれるそうだ。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_SUBSEA923_00246_SEQ_05&lt;tab&gt;「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を納品した。アセリンはロータノ海の環境保全のために、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の研究を進めるようだ。漁師ギルドへ戻り、「ワワラゴ」と話そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_SUBSEA923_00246_SEQ_06&lt;tab&gt;ワワラゴは、名実共にエオルゼアいちの漁師となった冒険者を祝福した。しかし、釣りから学ぶことは、まだまだありそうだ。これからもエオルゼアの海や河を渡り歩き、漁師としての腕を磨いていこう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_SUBSEA923_00246_TODO_00&lt;tab&gt;ワワラゴにラノシアと黒衣森とザナラーンで釣ったオオヌシを渡す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_SUBSEA923_00246_TODO_01&lt;tab&gt;ワワラゴにクルザスとモードゥナで釣ったオオヌシを渡す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_SUBSEA923_00246_TODO_02&lt;tab&gt;コスタ・デル・ソルの大型船の船員と話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_SUBSEA923_00246_TODO_03&lt;tab&gt;洋上の大型船で&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;を釣って、腕利きの船長に渡す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_SUBSEA923_00246_TODO_04&lt;tab&gt;漁師ギルド前のワワラゴと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_100_000&lt;tab&gt;冒険者クン、ちょうどよかった。
-チミに伝えたいことがあったのぢや。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_000&lt;tab&gt;ワシも長いこと、漁師として竿を振ってきたが、
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="SubSea923_00246" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SEQ_00&lt;tab&gt;漁師ギルドのワワラゴは、冒険者に頼み事があるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SEQ_01&lt;tab&gt;ワワラゴから依頼を受けた。「ラノシア」「黒衣森」「ザナラーン」のそれぞれの地で「オオヌシ」を釣り上げ、リムサ・ロミンサの漁師ギルド前にいる「ワワラゴ」に納品しよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SEQ_02&lt;tab&gt;ワワラゴに、各地の「オオヌシ」を納品した。環境の変化にともない、まだ魚影の報告のない地域にも「オオヌシ」が出現しているかもしれない。「クルザス」と「モードゥナ」でも「オオヌシ」を釣り上げ、漁師ギルド前にいる「ワワラゴ」に納品しよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SEQ_03&lt;tab&gt;ワワラゴに、さらなる「オオヌシ」を納品した。どうやら「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の出現が、ロータノ海の環境に影響を与えているようだ。ロータノ海の生物を守るためには、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げなければならない。「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」が目撃された東ラノシアのコスタ・デル・ソルに向かい、「大型船の船員」に話しかけよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SEQ_04&lt;tab&gt;大型船の船員と話した。洋上の大型船に向かい、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げよう。釣り上げた「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」は、洋上の大型船に乗っている「腕利きの船長」に渡そう。洋上の大型船へは、コスタ・デル・ソルの船頭が連れていってくれるそうだ。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SEQ_05&lt;tab&gt;「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を納品した。アセリンはロータノ海の環境保全のために、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の研究を進めるようだ。漁師ギルドへ戻り、「ワワラゴ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SEQ_06&lt;tab&gt;ワワラゴは、名実共にエオルゼアいちの漁師となった冒険者を祝福した。しかし、釣りから学ぶことは、まだまだありそうだ。これからもエオルゼアの海や河を渡り歩き、漁師としての腕を磨いていこう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_TODO_00&lt;tab&gt;ワワラゴにラノシアと黒衣森とザナラーンで釣ったオオヌシを渡す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_TODO_01&lt;tab&gt;ワワラゴにクルザスとモードゥナで釣ったオオヌシを渡す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_TODO_02&lt;tab&gt;コスタ・デル・ソルの大型船の船員と話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_TODO_03&lt;tab&gt;洋上の大型船で&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;を釣って、腕利きの船長に渡す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_TODO_04&lt;tab&gt;漁師ギルド前のワワラゴと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_100_000&lt;tab&gt;冒険者クン、ちょうどよかった。
+チミに伝えたいことがあったのぢや。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_000&lt;tab&gt;ワシも長いこと、漁師として竿を振ってきたが、
 霊災が起きてから、ずいぶんと海や河の様子も変わった……。
-お魚さんも、環境に合わせて生息地を変化させたのぢやろう。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_001&lt;tab&gt;チミが以前釣り上げた「ヌシ」の一部……
+お魚さんも、環境に合わせて生息地を変化させたのぢやろう。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_001&lt;tab&gt;チミが以前釣り上げた「ヌシ」の一部……
 そして、伝説の巨大魚「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」も、
-そうした時々の環境の変異により現れたのかもしれんのう。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_002&lt;tab&gt;そして、ここからが本題ぢや……
+そうした時々の環境の変異により現れたのかもしれんのう。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_002&lt;tab&gt;そして、ここからが本題ぢや……
 最近になって、未知の魚影を見たという噂が出ているんぢやよ！
-もしかしたら、まだ見ぬ大物かもしれん！</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_003&lt;tab&gt;そう、すなわち「ヌシ」の中の「ヌシ」……。
-名づけて「オオヌシ」ぢや！！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_004&lt;tab&gt;そんな魚がおるのなら、釣り上げてみたいと思うのが、
-漁師としての本能ぢやろう？</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_006&lt;tab&gt;「オオヌシ」と思われる魚影は、3種類目撃されておる。
+もしかしたら、まだ見ぬ大物かもしれん！</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_003&lt;tab&gt;そう、すなわち「ヌシ」の中の「ヌシ」……。
+名づけて「オオヌシ」ぢや！！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_004&lt;tab&gt;そんな魚がおるのなら、釣り上げてみたいと思うのが、
+漁師としての本能ぢやろう？</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_006&lt;tab&gt;「オオヌシ」と思われる魚影は、3種類目撃されておる。
 「ラノシア」と「黒衣森」、それに「ザナラーン」……。
-ぢやが、細かな生息地や、具体的な条件まではわかっておらん。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_007&lt;tab&gt;冒険者クンも、今や一人前の漁師。
+ぢやが、細かな生息地や、具体的な条件まではわかっておらん。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_007&lt;tab&gt;冒険者クンも、今や一人前の漁師。
 これまで培ってきた知識と技量、漁師としての経験を活かし、
-それぞれの地で、未知の大物……「オオヌシ」を仕留めるのぢや！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_008&lt;tab&gt;自信が無いなら、まずは各地の「ヌシ」を全て釣り上げるのぢや。
+それぞれの地で、未知の大物……「オオヌシ」を仕留めるのぢや！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_008&lt;tab&gt;自信が無いなら、まずは各地の「ヌシ」を全て釣り上げるのぢや。
 その頃には、チミは「オオヌシ」に挑戦できるだけの、
-腕前を得ていることぢやろうて。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_012&lt;tab&gt;ワシも漁師の本能がプルプル疼くのぢやが……
+腕前を得ていることぢやろうて。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_012&lt;tab&gt;ワシも漁師の本能がプルプル疼くのぢやが……
 立場と年齢が、自由な釣りの旅を許さんからのう。
-ここは、ワシの次に腕の立つ、チミに浪漫を託すぞい！</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_005&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_009&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_010&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_011&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_030&lt;tab&gt;「ラノシア」、「黒衣森」、「ザナラーン」……。
+ここは、ワシの次に腕の立つ、チミに浪漫を託すぞい！</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_005&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_009&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_010&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_011&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_030&lt;tab&gt;「ラノシア」、「黒衣森」、「ザナラーン」……。
 それぞれの地で、噂の「オオヌシ」は釣れたかのう？
-流石に、今回は無理かもしれんなあ……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_031&lt;tab&gt;この立派な魚体……鱗の美しさ……。
+流石に、今回は無理かもしれんなあ……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_031&lt;tab&gt;この立派な魚体……鱗の美しさ……。
 まさしく「オオヌシ」と呼ぶにふさわしい！
-これを釣り上げるとは……まったく、大したもんぢやわい！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_SUBSEA923_00246_FISHERMAN_000_032&lt;tab&gt;なあ、ワワラゴ親分。
-ちょっといいかい、相談があるんだ……。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_SUBSEA923_00246_FISHERMAN_000_033&lt;tab&gt;ここ数日、ロータノ海の魚が、急に網にかからなくなってきてな。
+これを釣り上げるとは……まったく、大したもんぢやわい！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_FISHERMAN_000_032&lt;tab&gt;なあ、ワワラゴ親分。
+ちょっといいかい、相談があるんだ……。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_FISHERMAN_000_033&lt;tab&gt;ここ数日、ロータノ海の魚が、急に網にかからなくなってきてな。
 水揚げ量が、かなり減少している……。
-何か、打つ手はないもんだろうか。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_034&lt;tab&gt;ふーむ……。
+何か、打つ手はないもんだろうか。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_034&lt;tab&gt;ふーむ……。
 減少が続くようぢやと、深刻な問題に発展してしまうのう……。
-わかった、すぐにシシプちゃんに調べさせよう！</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_SUBSEA923_00246_FISHERMAN_000_035&lt;tab&gt;ああ、頼んだぜ……。
-このままじゃあ、俺たちは、おまんまの食い上げだ。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_036&lt;tab&gt;この時期に水揚げ量が減るなんぞ、考えられんことぢやが……。
+わかった、すぐにシシプちゃんに調べさせよう！</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_FISHERMAN_000_035&lt;tab&gt;ああ、頼んだぜ……。
+このままじゃあ、俺たちは、おまんまの食い上げだ。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_036&lt;tab&gt;この時期に水揚げ量が減るなんぞ、考えられんことぢやが……。
 ……もしや、環境に変化が起きておるのぢやろうか。
-となると……新たな「オオヌシ」が？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_037&lt;tab&gt;「クルザス」と「モードゥナ」からは、
+となると……新たな「オオヌシ」が？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_037&lt;tab&gt;「クルザス」と「モードゥナ」からは、
 まだ未知の魚影を見たという話は入っておらんが、
-これは、わからなくなってきたぞい！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_039&lt;tab&gt;水揚げ量のことはシシプちゃ……いや、ワシに任せればよい！
+これは、わからなくなってきたぞい！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_039&lt;tab&gt;水揚げ量のことはシシプちゃ……いや、ワシに任せればよい！
 チミは「クルザス」と「モードゥナ」で、
-新たな「オオヌシ」を探し当てるのぢや！</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_038&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_050&lt;tab&gt;「オオヌシ」は、おったかのう？
+新たな「オオヌシ」を探し当てるのぢや！</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_038&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_050&lt;tab&gt;「オオヌシ」は、おったかのう？
 そもそも、噂話すらない状態ぢやからな……。
-流石の流石に、今回ばかりはチミでも厳しいかもしれんなあ……。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_051&lt;tab&gt;いやはや……今回釣り上げてきたお魚さんも、
+流石の流石に、今回ばかりはチミでも厳しいかもしれんなあ……。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_051&lt;tab&gt;いやはや……今回釣り上げてきたお魚さんも、
 「オオヌシ」の名にふさわしい、見事なものばかりぢや。
-チミは、今度こそワシを超えたのかもしれんなあ……。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_052&lt;tab&gt;あらあら……。
+チミは、今度こそワシを超えたのかもしれんなあ……。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_052&lt;tab&gt;あらあら……。
 どうやら本当に「オオヌシ」を釣り上げたみたいね！
-ついに親分も、ギルドマスターを引退かしら？</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_053&lt;tab&gt;シシプちゃん、そりゃないぞい。
+ついに親分も、ギルドマスターを引退かしら？</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_053&lt;tab&gt;シシプちゃん、そりゃないぞい。
 あくまで冒険者クンは、そっちが本業なんぢやから。
-ワシはまだまだ、現役を退く気はないぞい！</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_054&lt;tab&gt;はいはい。
-ところで……調べてきたわよ、水揚げ量が減っている件。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_055&lt;tab&gt;どうやら、北の緋汐海から蒼茫洋に向けて流れ込む寒流が、
+ワシはまだまだ、現役を退く気はないぞい！</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_054&lt;tab&gt;はいはい。
+ところで……調べてきたわよ、水揚げ量が減っている件。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_055&lt;tab&gt;どうやら、北の緋汐海から蒼茫洋に向けて流れ込む寒流が、
 このところ増加しているみたい。
-でもこの辺りは、元々、寒流と暖流が混ざり合う海だし……。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_056&lt;tab&gt;季節の変わり目に潮流が変わるのは、例年のこと……。
+でもこの辺りは、元々、寒流と暖流が混ざり合う海だし……。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_056&lt;tab&gt;季節の変わり目に潮流が変わるのは、例年のこと……。
 それだけが原因というわけではなさそうぢやな。
-ほかにも、何か理由がありそうぢやが……。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_057&lt;tab&gt;皆さん、大変です！
+ほかにも、何か理由がありそうぢやが……。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_057&lt;tab&gt;皆さん、大変です！
 わかったんです、水揚げ量が減った原因が！
-やはり、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の仕業だったんです！</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_058&lt;tab&gt;なんぢやアセリン、久しぶりに顔を出したと思ったら、
+やはり、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の仕業だったんです！</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_058&lt;tab&gt;なんぢやアセリン、久しぶりに顔を出したと思ったら、
 チミもこの件を調べておったのか！
-しかし「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の仕業とは、どういうことぢや？</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_059&lt;tab&gt;ワワラゴさんは言ってましたよね、各地の「ヌシ」は、
+しかし「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の仕業とは、どういうことぢや？</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_059&lt;tab&gt;ワワラゴさんは言ってましたよね、各地の「ヌシ」は、
 霊災による環境の変化が原因で現れたのかもしれないと……。
-それが気になって、詳しく調べてみたんです。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_060&lt;tab&gt;すると、確かに過去の「ヌシ」目撃情報は全て、
+それが気になって、詳しく調べてみたんです。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_060&lt;tab&gt;すると、確かに過去の「ヌシ」目撃情報は全て、
 霊災が起きた後から、噂に上っていたことが判明しました。
-……ですがそれは、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」も同様だったんです！</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_061&lt;tab&gt;伝承にある「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の記録……
+……ですがそれは、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」も同様だったんです！</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_061&lt;tab&gt;伝承にある「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の記録……
 別の文献と照らし合わせると、
-出現の前に、大規模な環境の変化が起きていた……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_062&lt;tab&gt;そして、また別の文献によれば、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の出現とともに、
+出現の前に、大規模な環境の変化が起きていた……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_062&lt;tab&gt;そして、また別の文献によれば、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の出現とともに、
 地域一帯の水揚げ量が急激に減っている……。
-……そう、今回の水揚げ量の減少と、状況が類似しているのです。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_100_062&lt;tab&gt;霊災後の環境の変化によって現れた、
+……そう、今回の水揚げ量の減少と、状況が類似しているのです。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_100_062&lt;tab&gt;霊災後の環境の変化によって現れた、
 現代の「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」によって、
-近海の生態系が荒らされていることが、原因だと考えられます。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_101_062&lt;tab&gt;その規模から想像するに、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の正体はおそらく、
+近海の生態系が荒らされていることが、原因だと考えられます。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_101_062&lt;tab&gt;その規模から想像するに、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の正体はおそらく、
 深海に生息する、リトルサラオスの突然変異……。
-……突然変異であるが故に「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」に天敵は存在しません！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_063&lt;tab&gt;それじゃ、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げないかぎり……。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_064&lt;tab&gt;ラノシア近海の……。
-いや、ロータノ海全体の環境が乱される……ということぢやな？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_065&lt;tab&gt;ええ、もはや研究のためなどと言っていられません！
+……突然変異であるが故に「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」に天敵は存在しません！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_063&lt;tab&gt;それじゃ、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げないかぎり……。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_064&lt;tab&gt;ラノシア近海の……。
+いや、ロータノ海全体の環境が乱される……ということぢやな？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_065&lt;tab&gt;ええ、もはや研究のためなどと言っていられません！
 天敵がいないことで、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の活動は、
-どんどん活発になっているようです。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_066&lt;tab&gt;先ほど、コスタ・デル・ソルの沖合で、
+どんどん活発になっているようです。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_066&lt;tab&gt;先ほど、コスタ・デル・ソルの沖合で、
 ついに「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」らしき魚影が目撃されました。
-ゲゲルジュ氏の協力で、すでに大型船を手配してもらっています！</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_067&lt;tab&gt;行くのぢや、冒険者クン！　チミは今や、エオルゼア最強の漁師！
+ゲゲルジュ氏の協力で、すでに大型船を手配してもらっています！</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_067&lt;tab&gt;行くのぢや、冒険者クン！　チミは今や、エオルゼア最強の漁師！
 ロータノ海に生きとし生ける全てのもののため、
-「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げるのぢや！！</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_068&lt;tab&gt;行くのぢや、冒険者クン！　チミは今や、エオルゼア最強の漁師！
+「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げるのぢや！！</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_068&lt;tab&gt;行くのぢや、冒険者クン！　チミは今や、エオルゼア最強の漁師！
 ロータノ海に生きとし生ける全てのもののため、
-「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げるのぢや！！</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_069&lt;tab&gt;先ほど、コスタ・デル・ソルの沖合で、
+「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣り上げるのぢや！！</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_069&lt;tab&gt;先ほど、コスタ・デル・ソルの沖合で、
 ついに「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」らしき魚影が目撃されました。
-ゲゲルジュ氏の協力で、すでに大型船を手配してもらっています！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_070&lt;tab&gt;なんだか、ずいぶん大きな話になっちゃったわね……。
+ゲゲルジュ氏の協力で、すでに大型船を手配してもらっています！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_070&lt;tab&gt;なんだか、ずいぶん大きな話になっちゃったわね……。
 お魚さんが食べられなくなるのは困るもの。
-頼んだわよ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_SUBSEA923_00246_STEERSMAN_000_090&lt;tab&gt;ゲゲルジュ様から話は聞いてるよ！
+頼んだわよ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_STEERSMAN_000_090&lt;tab&gt;ゲゲルジュ様から話は聞いてるよ！
 「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣りにいくなら、隣の船頭に言ってくれ。
-「洋上の大型船」まで連れて行ってくれるから！</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_SUBSEA923_00246_STEERSMAN_100_090&lt;tab&gt;ゲゲルジュ様から話は聞いてるよ！
+「洋上の大型船」まで連れて行ってくれるから！</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_STEERSMAN_100_090&lt;tab&gt;ゲゲルジュ様から話は聞いてるよ！
 「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を釣りにいくなら、隣の船頭に言ってくれ。
-「洋上の大型船」まで連れて行ってくれるから！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_SUBSEA923_00246_SENCHYO_000_120&lt;tab&gt;「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」が釣れたら、俺に渡してくんな！
-どんくらいのデカさなのか、甲板に横たえて測ってやろうぜ！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_121&lt;tab&gt;船長からのリンクシェル連絡で、
+「洋上の大型船」まで連れて行ってくれるから！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SENCHYO_000_120&lt;tab&gt;「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」が釣れたら、俺に渡してくんな！
+どんくらいのデカさなのか、甲板に横たえて測ってやろうぜ！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_121&lt;tab&gt;船長からのリンクシェル連絡で、
 チミが「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」と思われる大物と格闘中だと聞いてのう。
-慌てて向かってきたんぢやが……。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_122&lt;tab&gt;どうやら、間に合ったようぢやの！
-チミは本当に、大した&lt;var 08 E905 ((女)) ((男)) /var&gt;ぢやわい！</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_123&lt;tab&gt;この巨体を、あなたひとりで釣り上げたのね……。
+慌てて向かってきたんぢやが……。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_122&lt;tab&gt;どうやら、間に合ったようぢやの！
+チミは本当に、大した&lt;var 08 E905 ((女)) ((男)) /var&gt;ぢやわい！</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_123&lt;tab&gt;この巨体を、あなたひとりで釣り上げたのね……。
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、本当にすごい！
-あなたは、誰にも果たせなかった偉業を、成し遂げたのよ！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_124&lt;tab&gt;この「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を、私の研究所まで運んでもらえますか？
-すぐに解剖したいので、急ぎましょう！</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_125&lt;tab&gt;私は、このまま研究所へ向かい「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を調べてみます。
-突然変異の原因がわかれば、環境の保全にも繋がりますから！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_SUBSEA923_00246_ASCELYN_000_126&lt;tab&gt;「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」がいなくなれば、
+あなたは、誰にも果たせなかった偉業を、成し遂げたのよ！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_124&lt;tab&gt;この「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を、私の研究所まで運んでもらえますか？
+すぐに解剖したいので、急ぎましょう！</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_125&lt;tab&gt;私は、このまま研究所へ向かい「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を調べてみます。
+突然変異の原因がわかれば、環境の保全にも繋がりますから！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_ASCELYN_000_126&lt;tab&gt;「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」がいなくなれば、
 ラノシアの水揚げ量も元に戻るはずです。
-全てはあなたのおかげですね……ありがとうございます！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_127&lt;tab&gt;私たちは、漁師ギルドに戻りましょう。
-早く漁師のみんなにも伝えてあげないと！</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_128&lt;tab&gt;これ……持っていっちゃうのかのう……。
-ほ～んの一口でいいから、食べたいんぢやがのう……。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_129&lt;tab&gt;何を馬鹿なこと言ってるのよ！
+全てはあなたのおかげですね……ありがとうございます！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_127&lt;tab&gt;私たちは、漁師ギルドに戻りましょう。
+早く漁師のみんなにも伝えてあげないと！</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_128&lt;tab&gt;これ……持っていっちゃうのかのう……。
+ほ～んの一口でいいから、食べたいんぢやがのう……。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_129&lt;tab&gt;何を馬鹿なこと言ってるのよ！
 親分の食欲と、ロータノ海の環境と、
-どっちが大事だと思ってるの！</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_SUBSEA923_00246_SISIPU_000_130&lt;tab&gt;うふふ……海の英雄さん、お疲れさま！
+どっちが大事だと思ってるの！</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_SISIPU_000_130&lt;tab&gt;うふふ……海の英雄さん、お疲れさま！
 親分たら、「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」を食べられなかったことで、
-まだ落ち込んでるのよ！</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_150&lt;tab&gt;冒険者クン、この度はご苦労ぢやったな！
+まだ落ち込んでるのよ！</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_150&lt;tab&gt;冒険者クン、この度はご苦労ぢやったな！
 ロータノ海にも、いずれお魚さんが戻ることぢやろう。
-ギルドの漁師たちも、みんなチミに感謝しておった！</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_151&lt;tab&gt;もう今のエオルゼアには、
-チミに釣り上げられない魚など、存在しないぢやろう！</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_152&lt;tab&gt;ただし、釣りから学ぶことはまだあるはずぢや……。
+ギルドの漁師たちも、みんなチミに感謝しておった！</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_151&lt;tab&gt;もう今のエオルゼアには、
+チミに釣り上げられない魚など、存在しないぢやろう！</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_152&lt;tab&gt;ただし、釣りから学ぶことはまだあるはずぢや……。
 運悪く釣れない日があったとしても、気にするでないぞい？
-お魚さんが、ゆっくり考える時間をくれたと思えばいいのぢや！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_153&lt;tab&gt;さて、めでたしめでたし、ということで……。
+お魚さんが、ゆっくり考える時間をくれたと思えばいいのぢや！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_153&lt;tab&gt;さて、めでたしめでたし、ということで……。
 ……実は、シシプちゃんに内緒で、アセリンから、
-「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の切り身を少しもらってきたんぢやよ！</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_SUBSEA923_00246_WAWALAGO_000_154&lt;tab&gt;さあ、シシプちゃんに気づかれる前に、酒の用意ぢや！
+「&lt;var 28 ((Item)) ((　8754)) 01 /var&gt;」の切り身を少しもらってきたんぢやよ！</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_SUBSEA923_00246_WAWALAGO_000_154&lt;tab&gt;さあ、シシプちゃんに気づかれる前に、酒の用意ぢや！
 刺し身がいいかのう……いや、軽く炙って……。
-むほ～、ヨダレが止まらんぞい！</target></trans-unit></body></file></xliff>
+むほ～、ヨダレが止まらんぞい！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

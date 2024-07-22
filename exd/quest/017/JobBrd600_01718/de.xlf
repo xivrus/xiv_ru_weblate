@@ -1,13 +1,455 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="JobBrd600_01718" datatype="plaintext" source-language="en" target-language="de" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_JOBBRD600_01718_SEQ_00&lt;tab&gt;Sanson wartet betrübt auf Guydelot.</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_JOBBRD600_01718_SEQ_01&lt;tab&gt;Da Guydelot noch immer verschwunden ist, möchte Sanson ohne ihn nach der Ballade der Erlösung suchen, das im östlich gelegenen Abalathischen Wolkenmeer versteckt sein soll. Um dorthin zu gelangen, will Sanson bei der Bruderschaft der Morgenviper in Gridania ein Luftschiff beantragen. Nachdem Sanson fort ist, gesteht dir Mogta, dass er Guydelot gesehen hat, und gibt dir für ihn Sansons Notizbuch. Bring &lt;var 32 ((EventItem)) 03F61E8B66020502 /var&gt; zu Guydelot auf dem Gipfel von Sohm Al in den Wallenden Nebeln.</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_JOBBRD600_01718_SEQ_02&lt;tab&gt;Guydelot ist überrascht, wie umfangreich Sansons Notizen ausgefallen sind, und wünscht euch viel Glück, möchte euch aber nicht begleiten. Sprich mit Sanson am Luftschiff-Landeplatz in Gridania.</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_JOBBRD600_01718_SEQ_03&lt;tab&gt;Mit dem Luftschiff gelangt ihr ins Abalathische Wolkenmeer. Sprich dort auf der Insel Mok Oogl mit Sanson.</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_JOBBRD600_01718_SEQ_04&lt;tab&gt;Mogta hat eine unheimliche Aura gespürt, die von der Insel ausgeht. Sprich erneut mit Sanson.</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_JOBBRD600_01718_SEQ_05&lt;tab&gt;Durch Sansons Berührung wird das Siegel gebrochen und die eingesperrte Sirene &lt;var 32 ((BNpcName)) 06F2108F020202 /var&gt; befreit. Sanson muss erkennen, dass die Ballade der Erlösung nicht existiert, doch der überraschend auftauchende Guydelot macht ihm Mut. Zu viert stellt ihr euch der Sirene und zwingt sie zurück in ihr Gefängnis. Sprich mit Sanson am Luftschiff auf Mok Oogl, um den Rückflug nach Gridania anzutreten.</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_JOBBRD600_01718_SEQ_06&lt;tab&gt;Sanson hat dich gebeten, Jehantel von eurem Abenteuer zu erzählen. Sprich mit Jehantel westlich von Mühlenbruch im Südwald.</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_JOBBRD600_01718_SEQ_07&lt;tab&gt;Jehantel ist froh, dass sich Sanson und Guydelot zusammengerauft haben und du neue Erfahrungen sammeln konntest. Du hast deiner eigenen Legende ein glorreiches Kapitel hinzugefügt.
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="JobBrd600_01718" datatype="plaintext" source-language="en" target-language="de">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SEQ_00&lt;tab&gt;Sanson wartet betrübt auf Guydelot.</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SEQ_01&lt;tab&gt;Da Guydelot noch immer verschwunden ist, möchte Sanson ohne ihn nach der Ballade der Erlösung suchen, das im östlich gelegenen Abalathischen Wolkenmeer versteckt sein soll. Um dorthin zu gelangen, will Sanson bei der Bruderschaft der Morgenviper in Gridania ein Luftschiff beantragen. Nachdem Sanson fort ist, gesteht dir Mogta, dass er Guydelot gesehen hat, und gibt dir für ihn Sansons Notizbuch. Bring &lt;var 32 ((EventItem)) 03F61E8B66020502 /var&gt; zu Guydelot auf dem Gipfel von Sohm Al in den Wallenden Nebeln.</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SEQ_02&lt;tab&gt;Guydelot ist überrascht, wie umfangreich Sansons Notizen ausgefallen sind, und wünscht euch viel Glück, möchte euch aber nicht begleiten. Sprich mit Sanson am Luftschiff-Landeplatz in Gridania.</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SEQ_03&lt;tab&gt;Mit dem Luftschiff gelangt ihr ins Abalathische Wolkenmeer. Sprich dort auf der Insel Mok Oogl mit Sanson.</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SEQ_04&lt;tab&gt;Mogta hat eine unheimliche Aura gespürt, die von der Insel ausgeht. Sprich erneut mit Sanson.</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SEQ_05&lt;tab&gt;Durch Sansons Berührung wird das Siegel gebrochen und die eingesperrte Sirene &lt;var 32 ((BNpcName)) 06F2108F020202 /var&gt; befreit. Sanson muss erkennen, dass die Ballade der Erlösung nicht existiert, doch der überraschend auftauchende Guydelot macht ihm Mut. Zu viert stellt ihr euch der Sirene und zwingt sie zurück in ihr Gefängnis. Sprich mit Sanson am Luftschiff auf Mok Oogl, um den Rückflug nach Gridania anzutreten.</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SEQ_06&lt;tab&gt;Sanson hat dich gebeten, Jehantel von eurem Abenteuer zu erzählen. Sprich mit Jehantel westlich von Mühlenbruch im Südwald.</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SEQ_07&lt;tab&gt;Jehantel ist froh, dass sich Sanson und Guydelot zusammengerauft haben und du neue Erfahrungen sammeln konntest. Du hast deiner eigenen Legende ein glorreiches Kapitel hinzugefügt.
 
 ※ Die Auftragsreihe wird bei Jehantel im Westen von Mühlenbruch fortgesetzt, wenn die folgenden Voraus&lt;var 16 /var&gt;setzungen erfüllt sind:
-- Der Auftrag des Hauptszenarios (Nach dem Drachenkrieg) „Anlass zu einem mutigen Schritt“ ist abgeschlossen.</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_JOBBRD600_01718_TODO_00&lt;tab&gt;Guydelot &lt;var 32 ((EventItem)) 03F61E8B66020502 /var&gt; geben</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_JOBBRD600_01718_TODO_01&lt;tab&gt;Mit Sanson am Luftschiff-Landeplatz in Gridania sprechen</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_JOBBRD600_01718_TODO_02&lt;tab&gt;Mit Sanson sprechen</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_JOBBRD600_01718_TODO_03&lt;tab&gt;Mit Sanson sprechen</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_JOBBRD600_01718_TODO_04&lt;tab&gt;Mit Sanson sprechen</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_JOBBRD600_01718_TODO_05&lt;tab&gt;Westlich von Mühlenbruch mit Jehantel sprechen</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_000&lt;tab&gt;Guydelot scheint ein netter Kerl und wundervoller Barde zu sein. Ich freue mich schon, ihn persönlich kennenzulernen, kupo.</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_005&lt;tab&gt;Mogta und ich haben die Umgebung abgesucht, doch leider konnten wir Guydelot nirgends finden.</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_006&lt;tab&gt;Ein feiner Gefährte, der uns einfach so verlässt - auf den können wir getrost verzichten!</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_007&lt;tab&gt;Uns bleibt nichts anderes übrig, als unsere Suche zu dritt fortzusetzen, notfalls auch ohne Moglins Erlaubnis.</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_008&lt;tab&gt;Oh wie schade! Ich hatte mich schon auf Guydelot gefreut, aber wir können nicht länger warten, kupo. Der Legende nach soll die Ballade der Erlösung östlich von hier zu finden sein, irgendwo in den Wolken. Gibt es dort einen Ort wie die Wallenden Nebel?</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_JOBBRD600_01718_Q1_000_000&lt;tab&gt;Kennst du einen Ort wie die Wallenden Nebel?</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_JOBBRD600_01718_A1_000_000&lt;tab&gt;Ja, das Abalathische Wolkenmeer.</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_JOBBRD600_01718_A1_000_001&lt;tab&gt;Ja, Ishgard hat dort einen Außenposten errichtet.</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_009&lt;tab&gt;Das muss es sein! Zu Fuß kommen wir allerdings nicht weit.</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_010&lt;tab&gt;Ich werde bei der Bruderschaft der Morgenviper ein Luftschiff für unsere Expedition beantragen. Wenn ich versichere, dass wir eine heiße Spur verfolgen, wird man uns bestimmt eins bewilligen. Wir treffen uns dann am Luftschiff-Landeplatz in Gridania!</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_011&lt;tab&gt;Pst, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, ich muss mit dir reden, kupo. Ich habe Guydelot gefunden, aber Sanson soll das nicht erfahren.</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_012&lt;tab&gt;Guydelot hält sich versteckt, möchte aber von dir erfahren, was wir vorhaben. Ach ja, wenn du zu ihm gehst, dann zeig ihm doch bitte das hier, kupo.</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_013&lt;tab&gt;Das ist Sansons Notizbuch, in dem er die ganze Reise dokumentiert. Ich habe es, äh ... &lt;var 1A 02 /var&gt;ausgeborgt&lt;var 1A 01 /var&gt;, weil ich hoffe, dass du damit Guydelot überzeugen kannst, kupo. Du findest ihn auf dem Gipfel von Sohm Al.</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_015&lt;tab&gt;Hoffentlich kannst du Guydelot überreden, uns zu begleiten. Bitte zeig ihm Sansons Notizbuch, kupo! Du findest ihn auf dem Gipfel von Sohm Al.</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_020&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Hat Mogta mich also doch verraten?!</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_030&lt;tab&gt;Sansons Notizbuch! Ich werd verückt! Sieh nur, wie viel er über Musik, Poesie und seine Eindrücke während unserer Reise geschrieben hat! Wenn man das so liest, könnte man ihn fast für einen Barden halten.</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_031&lt;tab&gt;&lt;seufz&gt; Seit unserem letzten Gespräch habe ich viel nachgedacht ...</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_032&lt;tab&gt;Mir wollte einfach nicht einleuchten, warum Sanson sich so sehr für ein Kriegslied interessiert, obwohl er selbst überhaupt nicht singen kann.</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_033&lt;tab&gt;Ich habe ihm vorgeworfen, es ginge ihm bloß um Ruhm und Anerkennung, doch damit habe ich ihm Unrecht getan. Mittlerweile glaube ich, er handelt aus aufrichtigem Interesse.</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_035&lt;tab&gt;Wenn einer von uns beiden ein ungehobelter Klotz ist, dann bin es wohl ich. Trotzdem fehlt mir der Mut, ihm das ins Gesicht zu sagen.</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_036&lt;tab&gt;Ihr wollt euer Glück im Abalathischen Wolkenmeer versuchen? Ich wünsche euch viel Glück, aber ich kann euch nicht begleiten.</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_037&lt;tab&gt;In meinem jetzigen Zustand wäre ich euch keine große Hilfe. Ich muss erst wieder zu mir selbst finden. Bitte, setze keine große Hoffnung in mich!</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_040&lt;tab&gt;Pst, kupo! Ich habe mich mit Mogry-Magie unsichtbar gemacht, damit die anderen hier mich nicht sehen. Wenn du mit mir sprichst, fliegt meine Tarnung auf.</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_045&lt;tab&gt;Es war nicht leicht, die Bruderschaft zu überzeugen, aber man hat uns ein Luftschiff zur Verfügung gestellt. Damit kommen wir ins Abalathische Wolkenmeer.</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_046&lt;tab&gt;Kupopo, ich bin ganz aufgeregt! Mir ist, als hörte ich Musik aus der Richtung des Luftschiffs.</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_047&lt;tab&gt;Auf geht's, kupo! Die Ballade der Erlösung erwartet uns.</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_JOBBRD600_01718_Q2_000_000&lt;tab&gt;Ins Abalathische Wolkenmeer fliegen?</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_JOBBRD600_01718_A2_000_000&lt;tab&gt;Ja</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_JOBBRD600_01718_A2_000_001&lt;tab&gt;Nein</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_JOBBRD600_01718_Q3_000_000&lt;tab&gt;Nach Gridania fliegen?</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_JOBBRD600_01718_A3_000_000&lt;tab&gt;Ja</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_JOBBRD600_01718_A3_000_001&lt;tab&gt;Nein</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_050&lt;tab&gt;Es war nicht leicht, die Bruderschaft zu überzeugen, aber man hat uns ein Luftschiff zur Verfügung gestellt. Damit kommen wir ins Abalathische Wolkenmeer.</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_050&lt;tab&gt;Brrr, ganz schön unheimlich, kupo. Ich hab richtig Gänsehaut unterm Fell.</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_055&lt;tab&gt;Mogta hat eine unheimliche Aura gespürt, die von dieser Insel ausgeht. Irgendetwas scheint hier versiegelt zu sein. Vielleicht die Ballade der Erlösung?</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_056&lt;tab&gt;Die Insel scheint verlassen zu sein, aber die Ruinen erinnern mich an Moglingen. Vielleicht haben hier früher Mogrys gelebt. Los, sehen wir uns um!</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_500&lt;tab&gt;Dieser Stein ... fasziniert mich ...
-Ich fühle mich ... meinem Ziel ... so nah ...</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_501&lt;tab&gt;Die Ballade der Erlösung ist darin versiegelt. Ganz sicher!</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_502&lt;tab&gt;Kupopo! Die Zeichen kommen mir bekannt vor...</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_503&lt;tab&gt;&lt;keuch&gt; Jetzt fällt's mir ein! Das ist ein Schutzsiegel. Darin ist etwas Böses gefangen, kupo. Nicht anfassen!</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_JOBBRD600_01718_LIGEIA_000_504&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Aus dunkler Nacht befreit ... von Narren erweckt ♪
-♪ Zum Dank winkt die Erlösung ... durch zarten Gesang ♪&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_JOBBRD600_01718_LIGEIA_000_505&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Vor 3000 Jahren ... im Reich der weißen Feen ♪
+- Der Auftrag des Hauptszenarios (Nach dem Drachenkrieg) „Anlass zu einem mutigen Schritt“ ist abgeschlossen.</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_TODO_00&lt;tab&gt;Guydelot &lt;var 32 ((EventItem)) 03F61E8B66020502 /var&gt; geben</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_TODO_01&lt;tab&gt;Mit Sanson am Luftschiff-Landeplatz in Gridania sprechen</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_TODO_02&lt;tab&gt;Mit Sanson sprechen</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_TODO_03&lt;tab&gt;Mit Sanson sprechen</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_TODO_04&lt;tab&gt;Mit Sanson sprechen</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_TODO_05&lt;tab&gt;Westlich von Mühlenbruch mit Jehantel sprechen</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_000&lt;tab&gt;Guydelot scheint ein netter Kerl und wundervoller Barde zu sein. Ich freue mich schon, ihn persönlich kennenzulernen, kupo.</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_005&lt;tab&gt;Mogta und ich haben die Umgebung abgesucht, doch leider konnten wir Guydelot nirgends finden.</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_006&lt;tab&gt;Ein feiner Gefährte, der uns einfach so verlässt - auf den können wir getrost verzichten!</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_007&lt;tab&gt;Uns bleibt nichts anderes übrig, als unsere Suche zu dritt fortzusetzen, notfalls auch ohne Moglins Erlaubnis.</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_008&lt;tab&gt;Oh wie schade! Ich hatte mich schon auf Guydelot gefreut, aber wir können nicht länger warten, kupo. Der Legende nach soll die Ballade der Erlösung östlich von hier zu finden sein, irgendwo in den Wolken. Gibt es dort einen Ort wie die Wallenden Nebel?</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_Q1_000_000&lt;tab&gt;Kennst du einen Ort wie die Wallenden Nebel?</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_A1_000_000&lt;tab&gt;Ja, das Abalathische Wolkenmeer.</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_A1_000_001&lt;tab&gt;Ja, Ishgard hat dort einen Außenposten errichtet.</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_009&lt;tab&gt;Das muss es sein! Zu Fuß kommen wir allerdings nicht weit.</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_010&lt;tab&gt;Ich werde bei der Bruderschaft der Morgenviper ein Luftschiff für unsere Expedition beantragen. Wenn ich versichere, dass wir eine heiße Spur verfolgen, wird man uns bestimmt eins bewilligen. Wir treffen uns dann am Luftschiff-Landeplatz in Gridania!</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_011&lt;tab&gt;Pst, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, ich muss mit dir reden, kupo. Ich habe Guydelot gefunden, aber Sanson soll das nicht erfahren.</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_012&lt;tab&gt;Guydelot hält sich versteckt, möchte aber von dir erfahren, was wir vorhaben. Ach ja, wenn du zu ihm gehst, dann zeig ihm doch bitte das hier, kupo.</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_013&lt;tab&gt;Das ist Sansons Notizbuch, in dem er die ganze Reise dokumentiert. Ich habe es, äh ... &lt;var 1A 02 /var&gt;ausgeborgt&lt;var 1A 01 /var&gt;, weil ich hoffe, dass du damit Guydelot überzeugen kannst, kupo. Du findest ihn auf dem Gipfel von Sohm Al.</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_015&lt;tab&gt;Hoffentlich kannst du Guydelot überreden, uns zu begleiten. Bitte zeig ihm Sansons Notizbuch, kupo! Du findest ihn auf dem Gipfel von Sohm Al.</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_020&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Hat Mogta mich also doch verraten?!</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_030&lt;tab&gt;Sansons Notizbuch! Ich werd verückt! Sieh nur, wie viel er über Musik, Poesie und seine Eindrücke während unserer Reise geschrieben hat! Wenn man das so liest, könnte man ihn fast für einen Barden halten.</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_031&lt;tab&gt;&lt;seufz&gt; Seit unserem letzten Gespräch habe ich viel nachgedacht ...</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_032&lt;tab&gt;Mir wollte einfach nicht einleuchten, warum Sanson sich so sehr für ein Kriegslied interessiert, obwohl er selbst überhaupt nicht singen kann.</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_033&lt;tab&gt;Ich habe ihm vorgeworfen, es ginge ihm bloß um Ruhm und Anerkennung, doch damit habe ich ihm Unrecht getan. Mittlerweile glaube ich, er handelt aus aufrichtigem Interesse.</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_035&lt;tab&gt;Wenn einer von uns beiden ein ungehobelter Klotz ist, dann bin es wohl ich. Trotzdem fehlt mir der Mut, ihm das ins Gesicht zu sagen.</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_036&lt;tab&gt;Ihr wollt euer Glück im Abalathischen Wolkenmeer versuchen? Ich wünsche euch viel Glück, aber ich kann euch nicht begleiten.</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_037&lt;tab&gt;In meinem jetzigen Zustand wäre ich euch keine große Hilfe. Ich muss erst wieder zu mir selbst finden. Bitte, setze keine große Hoffnung in mich!</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_040&lt;tab&gt;Pst, kupo! Ich habe mich mit Mogry-Magie unsichtbar gemacht, damit die anderen hier mich nicht sehen. Wenn du mit mir sprichst, fliegt meine Tarnung auf.</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_045&lt;tab&gt;Es war nicht leicht, die Bruderschaft zu überzeugen, aber man hat uns ein Luftschiff zur Verfügung gestellt. Damit kommen wir ins Abalathische Wolkenmeer.</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_046&lt;tab&gt;Kupopo, ich bin ganz aufgeregt! Mir ist, als hörte ich Musik aus der Richtung des Luftschiffs.</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_047&lt;tab&gt;Auf geht's, kupo! Die Ballade der Erlösung erwartet uns.</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_Q2_000_000&lt;tab&gt;Ins Abalathische Wolkenmeer fliegen?</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_A2_000_000&lt;tab&gt;Ja</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_A2_000_001&lt;tab&gt;Nein</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_Q3_000_000&lt;tab&gt;Nach Gridania fliegen?</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_A3_000_000&lt;tab&gt;Ja</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_A3_000_001&lt;tab&gt;Nein</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_050&lt;tab&gt;Es war nicht leicht, die Bruderschaft zu überzeugen, aber man hat uns ein Luftschiff zur Verfügung gestellt. Damit kommen wir ins Abalathische Wolkenmeer.</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_050&lt;tab&gt;Brrr, ganz schön unheimlich, kupo. Ich hab richtig Gänsehaut unterm Fell.</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_055&lt;tab&gt;Mogta hat eine unheimliche Aura gespürt, die von dieser Insel ausgeht. Irgendetwas scheint hier versiegelt zu sein. Vielleicht die Ballade der Erlösung?</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_056&lt;tab&gt;Die Insel scheint verlassen zu sein, aber die Ruinen erinnern mich an Moglingen. Vielleicht haben hier früher Mogrys gelebt. Los, sehen wir uns um!</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_500&lt;tab&gt;Dieser Stein ... fasziniert mich ...
+Ich fühle mich ... meinem Ziel ... so nah ...</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_501&lt;tab&gt;Die Ballade der Erlösung ist darin versiegelt. Ganz sicher!</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_502&lt;tab&gt;Kupopo! Die Zeichen kommen mir bekannt vor...</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_503&lt;tab&gt;&lt;keuch&gt; Jetzt fällt's mir ein! Das ist ein Schutzsiegel. Darin ist etwas Böses gefangen, kupo. Nicht anfassen!</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_LIGEIA_000_504&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Aus dunkler Nacht befreit ... von Narren erweckt ♪
+♪ Zum Dank winkt die Erlösung ... durch zarten Gesang ♪&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_LIGEIA_000_505&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Vor 3000 Jahren ... im Reich der weißen Feen ♪
 ♪ Mein Lied brachte Liebe ... grenzenlos und rein ♪
-♪ Wer sich der Liebe verwehrte ... fand ewige Pein ♪&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_506&lt;tab&gt;Ohhh, mein Schädel! Die schrecklichen Töne gehen mir durch Mark und Bein!</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_507&lt;tab&gt;Die Stimme aus dem Himmel, kupo! Soll das die Ballade der Erlösung sein?!</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_508&lt;tab&gt;Nein, kupo! Das ist nichts als gellendes Kreischen, das Leid und Zerstörung bringt! Sie hat bestimmt die ganze Mogry-Siedlung ausgelöscht!</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_509&lt;tab&gt;Die Ballade der Erlösung existiert nicht ... Meine Reise war vergebens ...</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_510&lt;tab&gt;Noch schlimmer ist, dass ich euch in meine Hirngespinste verwickelt habe. Was für ein Narr ich doch bin!
-Doch ich mache es wieder gut. Ich halte sie auf, damit ihr fliehen könnt. Lauft um euer Leben!</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_511&lt;tab&gt;(-???-)Hast du deinen Glauben verloren?</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_512&lt;tab&gt;So kenne ich dich ja gar nicht.</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_513&lt;tab&gt;G-Guydelot! Was machst du denn hier?!</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_514&lt;tab&gt;Du bist und bleibst ein ungehobelter Klotz, aber du bist auch ehrlich und direkt. So einen kann man doch nicht im Stich lassen!</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_515&lt;tab&gt;Kriegslieder ziehen ihre Macht aus dem Mitgefühl eines Barden für seine Gefährten.</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_516&lt;tab&gt;Und die mächtigsten Lieder sind jene, die man selbst verfasst! Wenn die Ballade der Erlösung nicht existiert, dann werden wir eben hier und heute die Legende selbst mit Leben füllen!</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_517&lt;tab&gt;Ja ... Recht hast du. Wenn wir über das legendäre Monster triumphieren, können wir mit Fug und Recht eine Ballade darüber singen. Das wird unsere Ballade der Erlösung!</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_518&lt;tab&gt;Gut gesprochen! Vier treue Gefährten gegen eine Sirene - das Quartett bittet zum Tanz!</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_070&lt;tab&gt;Puh, ein harter Kampf, kupo! Aber jetzt ist das Siegel wieder intakt.</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_071&lt;tab&gt;Du warst mit uns an Bord des Luftschiffs? Wo zum Eufel hattest du dich bloß versteckt? Und warum die Geheimniskrämerei? Ich habe mir Sorgen gemacht.</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_072&lt;tab&gt;Ich war damit beschäftigt, dein Notizbuch zu lesen. Beachtlich, was du alles zu Papier gebracht hast!</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_073&lt;tab&gt;Woher hast du das? Gib es mir zurück! Ich brauche es, um meinen Bericht für die Bruderschaft zu verfassen.</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_074&lt;tab&gt;Ach, du brauchst es nicht mehr, oder? Wir haben doch unsere eigene Ballade der Erlösung geschrieben. Darüber kannst du berichten!</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_075&lt;tab&gt;Hm, schon richtig, aber wer wird uns das glauben? Man erwartet handfeste Ergebnisse von uns.</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_076&lt;tab&gt;Ah, ich hab's! Wir berichten einfach über die neuen Fä&lt;var 16 /var&gt;hig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten, die &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt; im Verlauf unserer Reise erlernt hat.</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_077&lt;tab&gt;Du hast immer noch nicht verstanden, worauf es ankommt, oder?</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_078&lt;tab&gt;Kupopo! Mogta wird zu Hause stolz verkünden, dass wir vier ein eigenes Lied geschaffen haben.</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_079&lt;tab&gt;Ich werde demütig meinen Platz in Nophicas Schar einnehmen und fleißig trainieren, bis ich eines Tages Jehantel und sogar &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt; das Wasser reichen kann.</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_080&lt;tab&gt;Tu das! Ich brauche dich für den Aufbau der neuen Bardeneinheit, die mir vorschwebt.</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_081&lt;tab&gt;Ich möchte auch in eurer Bardeneinheit lernen. Wenn ihr so weit seid, besuche ich euch in Gridania, kupo!</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_082&lt;tab&gt;Sehr gerne! Du bist bei uns jederzeit willkommen.</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_083&lt;tab&gt;Also dann, fliegen wir zurück nach Gridania ...</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_090&lt;tab&gt;Ich möchte auch in der Bardeneinheit lernen. Wenn ihr so weit seid, besuche ich euch in Gridania, kupo!</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_JOBBRD600_01718_GUYDELOT_000_091&lt;tab&gt;Also dann, fliegen wir zurück nach Gridania ...</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_095&lt;tab&gt;Nach unserer Rückkehr, werden Guydelot und ich jeweils unseren Vorgesetzten Bericht erstatten. Kannst du derweil Jehantel von unserem Abenteuer erzählen? Er ist bestimmt schon sehr gespannt.</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_JOBBRD600_01718_SANSON_000_096&lt;tab&gt;Vielen Dank für alles, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Ich hoffe, wir sehen uns bald wieder.</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_JOBBRD600_01718_MOGTA_000_100&lt;tab&gt;Guydelot und Sanson erstatten ihren Vorgesetzten Bericht. Du sollst Jehantel erzählen, was passiert ist, kupo.</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_JOBBRD600_01718_JEHANTEL_000_105&lt;tab&gt;Da habt ihr ja ganz schön viel erlebt. Besonders freut mich, dass sich Sanson und Guydelot zusammengerauft haben. Damit ist Sanson der Verwirklichung seines Planes einen großen Schritt nähergekommen.</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_JOBBRD600_01718_JEHANTEL_000_106&lt;tab&gt;Auch für dich hat sich das Abenteuer gelohnt, nicht wahr? So, wie deine Augen strahlen, strotzt du nur so vor neuen Erfahrungen. Du hast deiner eigenen Legende ein glorreiches Kapitel hinzugefügt.</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_JOBBRD600_01718_SYSTEM_000_500&lt;tab&gt;Damit endet die Barden-Auftragsreihe von FINAL FANTASY XIV: Heavensward. Um die nächste Auftragsreihe zu beginnen, müssen die folgenden Voraus&lt;var 16 /var&gt;setzungen erfüllt sein:</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_JOBBRD600_01718_SYSTEM_000_501&lt;tab&gt;- Der Auftrag des Hauptszenarios (Nach dem Drachenkrieg) „Anlass zu einem mutigen Schritt“ ist abgeschlossen.</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_JOBBRD600_01718_SYSTEM_000_502&lt;tab&gt;Wenn die Voraus&lt;var 16 /var&gt;setzungen erfüllt sind, kann die Auftragsreihe für Barden bei Jehantel fortgesetzt werden.</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_TODO_1&lt;tab&gt;Besiege Ligeia!</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_LIGEIA_BATTLETALK_00&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ O liebliche Narren ... seid herzlich willkommen ♪
-♪ Höret mein Schlaflied ... es gibt kein Entkommen ♪&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_SANSON_BATTLETALK_01&lt;tab&gt;Ha, so leicht lassen wir uns nicht in den Schlaf wiegen!</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_02&lt;tab&gt;Schluss mit dem Gekreisch! Ich gebe gleich ein richtiges Kriegslied zum Besten.</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_LIGEIA_BATTLETALK_03&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Sträubt euch nicht länger, meine Geliebten ♪
-♪ Gebt euch hin meinem Lied und ruhet in Frieden ♪&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_SANSON_BATTLETALK_04&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, pass auf!</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_05&lt;tab&gt;Mich beschleicht ein ganz mieses Gefühl!</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_LIGEIA_BATTLETALK_06&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Verwehrt ihr euch meiner Liebe ♪
-♪ So spüret das Leid meines Herzens ♪&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_SANSON_BATTLETALK_07&lt;tab&gt;Achtung! Sie führt etwas im Schilde!</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_08&lt;tab&gt;Ich kann ihr Geschrei nicht länger ertragen!</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_LIGEIA_BATTLETALK_09&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Die Liebe dem Wahnsinn weicht ♪
-♪ Mein Lied kündet vom Ende der Welt ♪&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_MOGTA_BATTLETALK_10&lt;tab&gt;Kupopo! Sie wird schwächer!</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_11&lt;tab&gt;Spüre unsere Ballade der Erlösung am eigenen Leib!</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_SANSON_BATTLETALK_DEAD&lt;tab&gt;Das darf nicht sein ...</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_DEAD&lt;tab&gt;Welch unrühmliches Ende ...</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_JOBBRD600_01718_QIB_001_MOGTA_BATTLETALK_DEAD&lt;tab&gt;Kann nicht mehr, kupo ...</target></trans-unit></body></file></xliff>
+♪ Wer sich der Liebe verwehrte ... fand ewige Pein ♪&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_506&lt;tab&gt;Ohhh, mein Schädel! Die schrecklichen Töne gehen mir durch Mark und Bein!</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_507&lt;tab&gt;Die Stimme aus dem Himmel, kupo! Soll das die Ballade der Erlösung sein?!</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_508&lt;tab&gt;Nein, kupo! Das ist nichts als gellendes Kreischen, das Leid und Zerstörung bringt! Sie hat bestimmt die ganze Mogry-Siedlung ausgelöscht!</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_509&lt;tab&gt;Die Ballade der Erlösung existiert nicht ... Meine Reise war vergebens ...</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_510&lt;tab&gt;Noch schlimmer ist, dass ich euch in meine Hirngespinste verwickelt habe. Was für ein Narr ich doch bin!
+Doch ich mache es wieder gut. Ich halte sie auf, damit ihr fliehen könnt. Lauft um euer Leben!</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_511&lt;tab&gt;(-???-)Hast du deinen Glauben verloren?</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_512&lt;tab&gt;So kenne ich dich ja gar nicht.</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_513&lt;tab&gt;G-Guydelot! Was machst du denn hier?!</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_514&lt;tab&gt;Du bist und bleibst ein ungehobelter Klotz, aber du bist auch ehrlich und direkt. So einen kann man doch nicht im Stich lassen!</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_515&lt;tab&gt;Kriegslieder ziehen ihre Macht aus dem Mitgefühl eines Barden für seine Gefährten.</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_516&lt;tab&gt;Und die mächtigsten Lieder sind jene, die man selbst verfasst! Wenn die Ballade der Erlösung nicht existiert, dann werden wir eben hier und heute die Legende selbst mit Leben füllen!</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_517&lt;tab&gt;Ja ... Recht hast du. Wenn wir über das legendäre Monster triumphieren, können wir mit Fug und Recht eine Ballade darüber singen. Das wird unsere Ballade der Erlösung!</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_518&lt;tab&gt;Gut gesprochen! Vier treue Gefährten gegen eine Sirene - das Quartett bittet zum Tanz!</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_070&lt;tab&gt;Puh, ein harter Kampf, kupo! Aber jetzt ist das Siegel wieder intakt.</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_071&lt;tab&gt;Du warst mit uns an Bord des Luftschiffs? Wo zum Eufel hattest du dich bloß versteckt? Und warum die Geheimniskrämerei? Ich habe mir Sorgen gemacht.</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_072&lt;tab&gt;Ich war damit beschäftigt, dein Notizbuch zu lesen. Beachtlich, was du alles zu Papier gebracht hast!</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_073&lt;tab&gt;Woher hast du das? Gib es mir zurück! Ich brauche es, um meinen Bericht für die Bruderschaft zu verfassen.</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_074&lt;tab&gt;Ach, du brauchst es nicht mehr, oder? Wir haben doch unsere eigene Ballade der Erlösung geschrieben. Darüber kannst du berichten!</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_075&lt;tab&gt;Hm, schon richtig, aber wer wird uns das glauben? Man erwartet handfeste Ergebnisse von uns.</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_076&lt;tab&gt;Ah, ich hab's! Wir berichten einfach über die neuen Fä&lt;var 16 /var&gt;hig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten, die &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt; im Verlauf unserer Reise erlernt hat.</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_077&lt;tab&gt;Du hast immer noch nicht verstanden, worauf es ankommt, oder?</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_078&lt;tab&gt;Kupopo! Mogta wird zu Hause stolz verkünden, dass wir vier ein eigenes Lied geschaffen haben.</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_079&lt;tab&gt;Ich werde demütig meinen Platz in Nophicas Schar einnehmen und fleißig trainieren, bis ich eines Tages Jehantel und sogar &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt; das Wasser reichen kann.</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_080&lt;tab&gt;Tu das! Ich brauche dich für den Aufbau der neuen Bardeneinheit, die mir vorschwebt.</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_081&lt;tab&gt;Ich möchte auch in eurer Bardeneinheit lernen. Wenn ihr so weit seid, besuche ich euch in Gridania, kupo!</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_082&lt;tab&gt;Sehr gerne! Du bist bei uns jederzeit willkommen.</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_083&lt;tab&gt;Also dann, fliegen wir zurück nach Gridania ...</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_090&lt;tab&gt;Ich möchte auch in der Bardeneinheit lernen. Wenn ihr so weit seid, besuche ich euch in Gridania, kupo!</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_GUYDELOT_000_091&lt;tab&gt;Also dann, fliegen wir zurück nach Gridania ...</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_095&lt;tab&gt;Nach unserer Rückkehr, werden Guydelot und ich jeweils unseren Vorgesetzten Bericht erstatten. Kannst du derweil Jehantel von unserem Abenteuer erzählen? Er ist bestimmt schon sehr gespannt.</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SANSON_000_096&lt;tab&gt;Vielen Dank für alles, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Ich hoffe, wir sehen uns bald wieder.</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_MOGTA_000_100&lt;tab&gt;Guydelot und Sanson erstatten ihren Vorgesetzten Bericht. Du sollst Jehantel erzählen, was passiert ist, kupo.</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_JEHANTEL_000_105&lt;tab&gt;Da habt ihr ja ganz schön viel erlebt. Besonders freut mich, dass sich Sanson und Guydelot zusammengerauft haben. Damit ist Sanson der Verwirklichung seines Planes einen großen Schritt nähergekommen.</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_JEHANTEL_000_106&lt;tab&gt;Auch für dich hat sich das Abenteuer gelohnt, nicht wahr? So, wie deine Augen strahlen, strotzt du nur so vor neuen Erfahrungen. Du hast deiner eigenen Legende ein glorreiches Kapitel hinzugefügt.</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SYSTEM_000_500&lt;tab&gt;Damit endet die Barden-Auftragsreihe von FINAL FANTASY XIV: Heavensward. Um die nächste Auftragsreihe zu beginnen, müssen die folgenden Voraus&lt;var 16 /var&gt;setzungen erfüllt sein:</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SYSTEM_000_501&lt;tab&gt;- Der Auftrag des Hauptszenarios (Nach dem Drachenkrieg) „Anlass zu einem mutigen Schritt“ ist abgeschlossen.</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_SYSTEM_000_502&lt;tab&gt;Wenn die Voraus&lt;var 16 /var&gt;setzungen erfüllt sind, kann die Auftragsreihe für Barden bei Jehantel fortgesetzt werden.</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_TODO_1&lt;tab&gt;Besiege Ligeia!</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_LIGEIA_BATTLETALK_00&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ O liebliche Narren ... seid herzlich willkommen ♪
+♪ Höret mein Schlaflied ... es gibt kein Entkommen ♪&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_SANSON_BATTLETALK_01&lt;tab&gt;Ha, so leicht lassen wir uns nicht in den Schlaf wiegen!</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_02&lt;tab&gt;Schluss mit dem Gekreisch! Ich gebe gleich ein richtiges Kriegslied zum Besten.</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_LIGEIA_BATTLETALK_03&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Sträubt euch nicht länger, meine Geliebten ♪
+♪ Gebt euch hin meinem Lied und ruhet in Frieden ♪&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_SANSON_BATTLETALK_04&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, pass auf!</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_05&lt;tab&gt;Mich beschleicht ein ganz mieses Gefühl!</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_LIGEIA_BATTLETALK_06&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Verwehrt ihr euch meiner Liebe ♪
+♪ So spüret das Leid meines Herzens ♪&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_SANSON_BATTLETALK_07&lt;tab&gt;Achtung! Sie führt etwas im Schilde!</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_08&lt;tab&gt;Ich kann ihr Geschrei nicht länger ertragen!</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_LIGEIA_BATTLETALK_09&lt;tab&gt;&lt;var 1A 02 /var&gt;♪ Die Liebe dem Wahnsinn weicht ♪
+♪ Mein Lied kündet vom Ende der Welt ♪&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_MOGTA_BATTLETALK_10&lt;tab&gt;Kupopo! Sie wird schwächer!</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_11&lt;tab&gt;Spüre unsere Ballade der Erlösung am eigenen Leib!</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_SANSON_BATTLETALK_DEAD&lt;tab&gt;Das darf nicht sein ...</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_GUYDELOT_BATTLETALK_DEAD&lt;tab&gt;Welch unrühmliches Ende ...</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_JOBBRD600_01718_QIB_001_MOGTA_BATTLETALK_DEAD&lt;tab&gt;Kann nicht mehr, kupo ...</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

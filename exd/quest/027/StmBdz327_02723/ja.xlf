@@ -1,120 +1,522 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="StmBdz327_02723" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_STMBDZ327_02723_SEQ_00&lt;tab&gt;イサリ村のアサリは、相談したいことがあるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_STMBDZ327_02723_SEQ_01&lt;tab&gt;アサリから、ナヨシの話を聞くよう依頼された。イサリ村の「ナヨシ」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_STMBDZ327_02723_SEQ_02&lt;tab&gt;ナヨシと話したところ、村の者たちへの魔物討伐の手ほどきを依頼された。イサリ村の「ナヨシ」と再度話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_STMBDZ327_02723_SEQ_03&lt;tab&gt;ナヨシと話したところ、漁火漁に出た船が戻らないという報せが舞い込んだ。海賊衆に協力を求めるため、紅玉海の筋違砦にいる「ツキカゲ」と話そう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_STMBDZ327_02723_SEQ_04&lt;tab&gt;ツキカゲと話し、海賊衆と協力して紅甲羅のコウジン族にさらわれた村人を救出することになった。紅玉海のゼッキ島にある「&lt;var 28 ((EObj)) F61EA74F01 /var&gt;」で「&lt;var 28 ((EventItem)) F61E8DCA01 /var&gt;」を使い、おびき寄せたコウジン族を討伐して、陽動しよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_STMBDZ327_02723_SEQ_05&lt;tab&gt;ゼッキ島での陽動を終えた。紅玉海の獄之蓋にいる「ツキカゲ」と合流しよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_STMBDZ327_02723_SEQ_06&lt;tab&gt;ツキカゲを襲っていた紅甲羅のコウジン族を討伐した。「ツキカゲ」を救助しよう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_STMBDZ327_02723_SEQ_07&lt;tab&gt;ツキカゲを救助した。助けた村人の無事を確認するため、イサリ村の「ナヨシ」と話そう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_STMBDZ327_02723_SEQ_08&lt;tab&gt;ナヨシと話し、囚われていた村人の無事を確認した。今後は、イサリ村と海賊衆が、再び協力することになった。帝国のせいで苦難を耐えてきた紅玉海の人々は、手を取り合うことで苦境を乗り越え、力強く生きていくことだろう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_STMBDZ327_02723_TODO_00&lt;tab&gt;ナヨシと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_STMBDZ327_02723_TODO_01&lt;tab&gt;ナヨシと再度話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_STMBDZ327_02723_TODO_02&lt;tab&gt;筋違砦のツキカゲと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_STMBDZ327_02723_TODO_03&lt;tab&gt;&lt;var 28 ((EObj)) F61EA74F01 /var&gt;に&lt;var 28 ((EventItem)) F61E8DCA01 /var&gt;を使い、おびき寄せたコウジン族を討伐</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_STMBDZ327_02723_TODO_04&lt;tab&gt;獄之蓋のツキカゲと合流</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_STMBDZ327_02723_TODO_05&lt;tab&gt;ツキカゲを救助</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_STMBDZ327_02723_TODO_06&lt;tab&gt;ナヨシと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_STMBDZ327_02723_ASARI_000_000&lt;tab&gt;旅の方、村の者たちを助けてくれて、ありがとうございます。
-おまけに、漁火漁を再開するきっかけまで作ってくださるとは！</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_STMBDZ327_02723_ASARI_000_001&lt;tab&gt;私は、取れた海産物や、干物を行商してるもんでね。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="StmBdz327_02723" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_00&lt;tab&gt;イサリ村のアサリは、相談したいことがあるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_01&lt;tab&gt;アサリから、ナヨシの話を聞くよう依頼された。イサリ村の「ナヨシ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_02&lt;tab&gt;ナヨシと話したところ、村の者たちへの魔物討伐の手ほどきを依頼された。イサリ村の「ナヨシ」と再度話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_03&lt;tab&gt;ナヨシと話したところ、漁火漁に出た船が戻らないという報せが舞い込んだ。海賊衆に協力を求めるため、紅玉海の筋違砦にいる「ツキカゲ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_04&lt;tab&gt;ツキカゲと話し、海賊衆と協力して紅甲羅のコウジン族にさらわれた村人を救出することになった。紅玉海のゼッキ島にある「&lt;var 28 ((EObj)) F61EA74F01 /var&gt;」で「&lt;var 28 ((EventItem)) F61E8DCA01 /var&gt;」を使い、おびき寄せたコウジン族を討伐して、陽動しよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_05&lt;tab&gt;ゼッキ島での陽動を終えた。紅玉海の獄之蓋にいる「ツキカゲ」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_06&lt;tab&gt;ツキカゲを襲っていた紅甲羅のコウジン族を討伐した。「ツキカゲ」を救助しよう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_07&lt;tab&gt;ツキカゲを救助した。助けた村人の無事を確認するため、イサリ村の「ナヨシ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SEQ_08&lt;tab&gt;ナヨシと話し、囚われていた村人の無事を確認した。今後は、イサリ村と海賊衆が、再び協力することになった。帝国のせいで苦難を耐えてきた紅玉海の人々は、手を取り合うことで苦境を乗り越え、力強く生きていくことだろう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TODO_00&lt;tab&gt;ナヨシと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TODO_01&lt;tab&gt;ナヨシと再度話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TODO_02&lt;tab&gt;筋違砦のツキカゲと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TODO_03&lt;tab&gt;&lt;var 28 ((EObj)) F61EA74F01 /var&gt;に&lt;var 28 ((EventItem)) F61E8DCA01 /var&gt;を使い、おびき寄せたコウジン族を討伐</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TODO_04&lt;tab&gt;獄之蓋のツキカゲと合流</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TODO_05&lt;tab&gt;ツキカゲを救助</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TODO_06&lt;tab&gt;ナヨシと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_ASARI_000_000&lt;tab&gt;旅の方、村の者たちを助けてくれて、ありがとうございます。
+おまけに、漁火漁を再開するきっかけまで作ってくださるとは！</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_ASARI_000_001&lt;tab&gt;私は、取れた海産物や、干物を行商してるもんでね。
 これからは、忙しくなりそうだって、期待してます。
-私だけじゃない、村じゅうが久方ぶりにやる気を出しています。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_STMBDZ327_02723_ASARI_000_002&lt;tab&gt;なのに、ナヨシったら、まだ何か浮かない様子でね……。
+私だけじゃない、村じゅうが久方ぶりにやる気を出しています。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_ASARI_000_002&lt;tab&gt;なのに、ナヨシったら、まだ何か浮かない様子でね……。
 こういうときは、たいてい岩陰でウジウジしてるでしょうから、
-行ってみて、話を聞いてやってもらえませんか？</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_STMBDZ327_02723_ASARI_000_003&lt;tab&gt;村じゅうの者が、久方ぶりにやる気を出しているってのに、
+行ってみて、話を聞いてやってもらえませんか？</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_ASARI_000_003&lt;tab&gt;村じゅうの者が、久方ぶりにやる気を出しているってのに、
 ナヨシったら、まだ何か浮かない様子でね……。
-岩陰にいると思うんで、話を聞いてやってください。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_000&lt;tab&gt;恩人殿、漁火漁のおかげで、
+岩陰にいると思うんで、話を聞いてやってください。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_000&lt;tab&gt;恩人殿、漁火漁のおかげで、
 村に活気が戻って嬉しい限りなんだが……
-少しばかり気になることがあってな。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_001&lt;tab&gt;村のみんなが、俺が釣り上げたハリセンボムを、
+少しばかり気になることがあってな。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_001&lt;tab&gt;村のみんなが、俺が釣り上げたハリセンボムを、
 協力して倒してくれてはいるが、これが危なっかしくてな。
-いつ怪我人が出るかと、ヒヤヒヤしてるのさ。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_002&lt;tab&gt;だから、恩人殿……
-村人たちに、魔物退治の方法を指南しちゃくれないか？</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_003&lt;tab&gt;引き受けてくれるか、ありがたい！
+いつ怪我人が出るかと、ヒヤヒヤしてるのさ。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_002&lt;tab&gt;だから、恩人殿……
+村人たちに、魔物退治の方法を指南しちゃくれないか？</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_003&lt;tab&gt;引き受けてくれるか、ありがたい！
 よし、さっそく俺は、村の力自慢たちを集めてくるからよ。
-恩人殿、村の桟橋まで来てくれ！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_STMBDZ327_02723_KORURI_000_009&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、大変なの！</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_STMBDZ327_02723_SMARTDIVER_000_009&lt;tab&gt;せっかく漁獲量を増やせると思ったのに……。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_009&lt;tab&gt;うかつでした……。
+恩人殿、村の桟橋まで来てくれ！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_KORURI_000_009&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、大変なの！</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SMARTDIVER_000_009&lt;tab&gt;せっかく漁獲量を増やせると思ったのに……。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_009&lt;tab&gt;うかつでした……。
 かつて、夜間に漁をしていたときは、
-こんな問題など起きたことがなかったのに……。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_STMBDZ327_02723_ASARI_000_009&lt;tab&gt;まあ、ナヨシったら、そんなことを気に病んでいたのね。
+こんな問題など起きたことがなかったのに……。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_ASARI_000_009&lt;tab&gt;まあ、ナヨシったら、そんなことを気に病んでいたのね。
 確かに、村の者たちは漁の腕はありますが、戦いは素人です。
-私からも、村の者たちの指南をよろしく頼みます。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_010&lt;tab&gt;恩人殿、指南の件だが、ちょいと後回しにしてくれ！
-なんでも、漁火漁に出た船が一隻戻ってきてないらしい。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_STMBDZ327_02723_KORURI_000_011&lt;tab&gt;天候も波も問題はなかったから、事故とは思えないの。
-村のみんなは、なにかに襲われたんじゃないかって……。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_012&lt;tab&gt;魔物の類いか……あるいは、紅甲羅のコウジン族か……。
+私からも、村の者たちの指南をよろしく頼みます。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_010&lt;tab&gt;恩人殿、指南の件だが、ちょいと後回しにしてくれ！
+なんでも、漁火漁に出た船が一隻戻ってきてないらしい。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_KORURI_000_011&lt;tab&gt;天候も波も問題はなかったから、事故とは思えないの。
+村のみんなは、なにかに襲われたんじゃないかって……。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_012&lt;tab&gt;魔物の類いか……あるいは、紅甲羅のコウジン族か……。
 戻らぬ漁師たちは、いずれも腕利きばかりゆえに、
-なにかあったとしか思えんのじゃ。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_STMBDZ327_02723_KORURI_000_013&lt;tab&gt;どちらであっても、私たち漁師の力じゃ、
-とてもじゃないけど太刀打ちできないわ……。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_014&lt;tab&gt;ヨツユが追い払うまでは、この村にも海賊衆の見張小屋が置かれ、
-困ったときには、その力を借りることもできたんじゃが……。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_STMBDZ327_02723_KORURI_000_015&lt;tab&gt;それなら、今回も海賊衆の力を借りてみたらどう？
-オノコロ島まで船を出して、頼みに行けば……！</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_016&lt;tab&gt;うーむ、どう頼んだものか……。
+なにかあったとしか思えんのじゃ。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_KORURI_000_013&lt;tab&gt;どちらであっても、私たち漁師の力じゃ、
+とてもじゃないけど太刀打ちできないわ……。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_014&lt;tab&gt;ヨツユが追い払うまでは、この村にも海賊衆の見張小屋が置かれ、
+困ったときには、その力を借りることもできたんじゃが……。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_KORURI_000_015&lt;tab&gt;それなら、今回も海賊衆の力を借りてみたらどう？
+オノコロ島まで船を出して、頼みに行けば……！</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_016&lt;tab&gt;うーむ、どう頼んだものか……。
 帝国軍が海賊衆を追い払おうとしたとき、
-わしらは、止めもしなかった不義理者でもある……。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_017&lt;tab&gt;なあ、恩人殿は、帝国軍と戦っているんだろう？
+わしらは、止めもしなかった不義理者でもある……。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_017&lt;tab&gt;なあ、恩人殿は、帝国軍と戦っているんだろう？
 だったら、この村からヨツユたちを蹴散らした海賊衆と、
-知り合いだったりしないのか？</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_STMBDZ327_02723_Q1_000_000&lt;tab&gt;海賊衆に知り合いはいる？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_STMBDZ327_02723_A1_000_001&lt;tab&gt;ツキカゲという名の海賊衆を知っている</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_STMBDZ327_02723_A2_000_002&lt;tab&gt;…………</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_018&lt;tab&gt;ツキカゲ殿……。
+知り合いだったりしないのか？</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_Q1_000_000&lt;tab&gt;海賊衆に知り合いはいる？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_A1_000_001&lt;tab&gt;ツキカゲという名の海賊衆を知っている</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_A2_000_002&lt;tab&gt;…………</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_018&lt;tab&gt;ツキカゲ殿……。
 海賊衆の勘定方じゃな？
-この村の見張小屋にも、帆別銭の徴収でよう来とったぞ。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_019&lt;tab&gt;訪れる度に、干物やら何やらを買ってくれてな。
+この村の見張小屋にも、帆別銭の徴収でよう来とったぞ。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_019&lt;tab&gt;訪れる度に、干物やら何やらを買ってくれてな。
 イサリ村のことを、とても大切にしてくれておったものだ。
-……うむ、ツキカゲ殿を頼ってみるのもいいかもしれん。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_020&lt;tab&gt;よし、それじゃあ、恩人殿！
+……うむ、ツキカゲ殿を頼ってみるのもいいかもしれん。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_020&lt;tab&gt;よし、それじゃあ、恩人殿！
 その「ツキカゲ」っていう海賊衆を、紹介してくれ！
-俺が事情を説明して、協力を依頼してみるからよ！</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_021&lt;tab&gt;ふむ、その顔は知り合いが多すぎて、困っておるのじゃな？
+俺が事情を説明して、協力を依頼してみるからよ！</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_021&lt;tab&gt;ふむ、その顔は知り合いが多すぎて、困っておるのじゃな？
 であれば、海賊衆の勘定方ツキカゲ殿に繋ぎを付けてもらいたい。
-この村の見張小屋にも、帆別銭の徴収でようきとってな。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_022&lt;tab&gt;訪れる度に、干物やら何やらを買ってくれてな。
+この村の見張小屋にも、帆別銭の徴収でようきとってな。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_022&lt;tab&gt;訪れる度に、干物やら何やらを買ってくれてな。
 イサリ村のことを、とても大切にしてくれておったものだ。
-あの御仁であれば、我らの窮状を理解してくれるに違いない。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_023&lt;tab&gt;よし、それじゃあ、恩人殿！
+あの御仁であれば、我らの窮状を理解してくれるに違いない。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_023&lt;tab&gt;よし、それじゃあ、恩人殿！
 その「ツキカゲ」っていう海賊衆を、紹介してくれ！
-俺が事情を説明して、協力を依頼してみるからよ！</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_STMBDZ327_02723_KORURI_000_029&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、
-ナヨシをよろしくお願いします！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_STMBDZ327_02723_SMARTDIVER_000_029&lt;tab&gt;海賊衆が、力を貸してくれるといいのだけど……。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_029&lt;tab&gt;海賊衆は、紅玉海を知り尽くしています。
+俺が事情を説明して、協力を依頼してみるからよ！</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_KORURI_000_029&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、
+ナヨシをよろしくお願いします！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SMARTDIVER_000_029&lt;tab&gt;海賊衆が、力を貸してくれるといいのだけど……。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_029&lt;tab&gt;海賊衆は、紅玉海を知り尽くしています。
 どうか、力を借りられるよう取り計らいを……。
-よろしくお願いいたします。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_029&lt;tab&gt;み、見てくれ……消えちまった船に乗っていた、
-漁師のひとりが、ここにいたんだ！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_STMBDZ327_02723_SUZUME_000_029&lt;tab&gt;東アルデナード商会との取引からの帰りに、
+よろしくお願いいたします。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_029&lt;tab&gt;み、見てくれ……消えちまった船に乗っていた、
+漁師のひとりが、ここにいたんだ！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SUZUME_000_029&lt;tab&gt;東アルデナード商会との取引からの帰りに、
 海を漂っていた漁民を、ひとり拾いあげたのだ。
-なんでも、コウジン族に襲われたのだとか……。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_STMBDZ327_02723_HANSAKU_000_029&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、また会えてうれしいぜ！
-最近、大きな仕事も任されるようになったんだ。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_STMBDZ327_02723_FISHER02719_000_029&lt;tab&gt;おお、アンタまで来てくれたのか。
+なんでも、コウジン族に襲われたのだとか……。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_HANSAKU_000_029&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、また会えてうれしいぜ！
+最近、大きな仕事も任されるようになったんだ。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_FISHER02719_000_029&lt;tab&gt;おお、アンタまで来てくれたのか。
 漂流した俺らのために、ふたりも駆けつけてくれるとは、
-ありがたい話だ。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_030&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、息災か？
-漁師といっしょに来るとは、なにごとじゃ？</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_031&lt;tab&gt;お、俺は、イサリ村のナヨシ。
+ありがたい話だ。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_030&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、息災か？
+漁師といっしょに来るとは、なにごとじゃ？</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_031&lt;tab&gt;お、俺は、イサリ村のナヨシ。
 恩人殿に、勘定方のツキカゲ殿を、
-紹介してもらうつもりで、来たんだ。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_032&lt;tab&gt;漁に出たまま帰らない船の捜索に、力を借りたいと思ってな。
+紹介してもらうつもりで、来たんだ。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_032&lt;tab&gt;漁に出たまま帰らない船の捜索に、力を借りたいと思ってな。
 だが、来てみて驚いた……
-すでに仲間をひとり、助けてくれていたとは！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_STMBDZ327_02723_HANSAKU_000_033&lt;tab&gt;東アルデナード商会との取引の帰りに拾ったんだ。
+すでに仲間をひとり、助けてくれていたとは！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_HANSAKU_000_033&lt;tab&gt;東アルデナード商会との取引の帰りに拾ったんだ。
 海を眺めてたら、溺れかけている男を見つけてな。
-慌てて引き上げて、島に連れて来たところさ。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_STMBDZ327_02723_FISHER02719_000_034&lt;tab&gt;ありがてえ、ありがてえ……。
+慌てて引き上げて、島に連れて来たところさ。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_FISHER02719_000_034&lt;tab&gt;ありがてえ、ありがてえ……。
 漁火漁の成果は、目を見張るほどだった……。
-だが、漁火が引き寄せたのは魚だけじゃなかったのさ……！</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_STMBDZ327_02723_FISHER02719_000_035&lt;tab&gt;灯りを見つけた紅甲羅のコウジン族が襲ってきてな。
+だが、漁火が引き寄せたのは魚だけじゃなかったのさ……！</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_FISHER02719_000_035&lt;tab&gt;灯りを見つけた紅甲羅のコウジン族が襲ってきてな。
 俺は、とっさに海に飛び込んで逃げおおせたんだが、
-ほかの奴らは、獄之蓋に連れて行かれちまった。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_036&lt;tab&gt;近頃は、海賊衆が弱腰だったのを良いことに、
+ほかの奴らは、獄之蓋に連れて行かれちまった。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_036&lt;tab&gt;近頃は、海賊衆が弱腰だったのを良いことに、
 紅甲羅のコウジン族が、強気に出ていたからな……。
-護衛なしに漁火を焚けば、奴らに襲われても仕方ない……。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_037&lt;tab&gt;紅甲羅に囚われた村人を助けに行きたい。
-どうか、海賊衆の力を貸してくれ！</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_038&lt;tab&gt;海の治安を守るのは海賊衆の役目、もとよりそのつもりじゃ。
+護衛なしに漁火を焚けば、奴らに襲われても仕方ない……。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_037&lt;tab&gt;紅甲羅に囚われた村人を助けに行きたい。
+どうか、海賊衆の力を貸してくれ！</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_038&lt;tab&gt;海の治安を守るのは海賊衆の役目、もとよりそのつもりじゃ。
 その上、恩を受けた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の知人とあらば、
-全面的に力を貸すしかあるまい。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_039&lt;tab&gt;おお、頼もしいお言葉、感謝するぜ！
-恩人殿のおかげだな！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_STMBDZ327_02723_SUZUME_000_040&lt;tab&gt;サカズキ島の連中からの知らせによると、
+全面的に力を貸すしかあるまい。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_039&lt;tab&gt;おお、頼もしいお言葉、感謝するぜ！
+恩人殿のおかげだな！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SUZUME_000_040&lt;tab&gt;サカズキ島の連中からの知らせによると、
 獄之蓋に、かなりのコウジン族が集まってるそうです。
-救助は、至難の業かもしれません……。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_041&lt;tab&gt;うーむ、監視の目をそらす必要があるな。
-手っ取り早いのは、ゼッキ島でひと騒ぎ起こす陽動作戦じゃが……。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_STMBDZ327_02723_HANSAKU_000_042&lt;tab&gt;ゼッキ島ってのは、紅甲羅の根拠地ですよね？
-あそこには海底洞窟を通じなきゃ、入れないんじゃ……？</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_043&lt;tab&gt;あ！
+救助は、至難の業かもしれません……。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_041&lt;tab&gt;うーむ、監視の目をそらす必要があるな。
+手っ取り早いのは、ゼッキ島でひと騒ぎ起こす陽動作戦じゃが……。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_HANSAKU_000_042&lt;tab&gt;ゼッキ島ってのは、紅甲羅の根拠地ですよね？
+あそこには海底洞窟を通じなきゃ、入れないんじゃ……？</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_043&lt;tab&gt;あ！
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿は、潜水ができる！
-上手くすれば、ゼッキ島にも忍び込めるんじゃないか？</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_044&lt;tab&gt;なに、それは真か？
+上手くすれば、ゼッキ島にも忍び込めるんじゃないか？</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_044&lt;tab&gt;なに、それは真か？
 ならば、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿には、
-ゼッキ島に潜入し、ひと暴れしてもらいたい。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_045&lt;tab&gt;獄之蓋の方は、わしとスズメが引き受ける。
+ゼッキ島に潜入し、ひと暴れしてもらいたい。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_045&lt;tab&gt;獄之蓋の方は、わしとスズメが引き受ける。
 ハンサクは、救助した村人を速やかに搬送できるよう、
-海上にて船で待機じゃ。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_STMBDZ327_02723_HANSAKU_000_046&lt;tab&gt;(-スズメとハンサク-)合点承知！！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_047&lt;tab&gt;ナヨシも、わしらに同行してもらえるか？
+海上にて船で待機じゃ。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_HANSAKU_000_046&lt;tab&gt;(-スズメとハンサク-)合点承知！！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_047&lt;tab&gt;ナヨシも、わしらに同行してもらえるか？
 知った顔があれば、助け出された村人たちも、
-少しは安心するじゃろうからな。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_048&lt;tab&gt;もちろんだ！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_STMBDZ327_02723_FISHER02719_000_049&lt;tab&gt;じゃあ、俺は村に戻り、状況を知らせておくぜ。
-皆、心配しているだろうからな。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_050&lt;tab&gt;ゼッキ島では、この「&lt;var 28 ((EventItem)) F61E8DCA01 /var&gt;」を使って、
+少しは安心するじゃろうからな。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_048&lt;tab&gt;もちろんだ！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_FISHER02719_000_049&lt;tab&gt;じゃあ、俺は村に戻り、状況を知らせておくぜ。
+皆、心配しているだろうからな。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_050&lt;tab&gt;ゼッキ島では、この「&lt;var 28 ((EventItem)) F61E8DCA01 /var&gt;」を使って、
 紅甲羅の目を引きつけて、ぶちのめしてくれ。
-その後は、「獄之蓋」で合流といこう。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_STMBDZ327_02723_BALLOON_000_060&lt;tab&gt;曲者だァー</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_STMBDZ327_02723_BALLOON_000_061&lt;tab&gt;であえェー
-であえェー！</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_069&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_070&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、
-いいところに駆けつけてくれた、感謝する。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_071&lt;tab&gt;村人は、ナヨシとスズメが助け出した。
+その後は、「獄之蓋」で合流といこう。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_BALLOON_000_060&lt;tab&gt;曲者だァー</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_BALLOON_000_061&lt;tab&gt;であえェー
+であえェー！</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_069&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_070&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、
+いいところに駆けつけてくれた、感謝する。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_071&lt;tab&gt;村人は、ナヨシとスズメが助け出した。
 だが、コウジン族の別動隊と鉢合わせてしまってのう。
-わしが&lt;var 4A ((殿)) ((しんがり)) /var&gt;を務めたものの、多勢に無勢でこのザマじゃ。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_072&lt;tab&gt;ひと昔前なら、あの程度の数、物ともしなかったんじゃが……。
-歳は、取りたくないもんじゃのう。</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_073&lt;tab&gt;さて、皆が我らを待ちわびているはずじゃ。
-急ぎ、イサリ村へ向かうとしよう。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_079&lt;tab&gt;ナヨシが、お前さんの帰りを待ちわびておるぞ。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_STMBDZ327_02723_SUZUME_000_079&lt;tab&gt;親分に助太刀してくれたそうだな。
-ありがとよ！</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_STMBDZ327_02723_HANSAKU_000_079&lt;tab&gt;心配したぜ！
+わしが&lt;var 4A ((殿)) ((しんがり)) /var&gt;を務めたものの、多勢に無勢でこのザマじゃ。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_072&lt;tab&gt;ひと昔前なら、あの程度の数、物ともしなかったんじゃが……。
+歳は、取りたくないもんじゃのう。</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_073&lt;tab&gt;さて、皆が我らを待ちわびているはずじゃ。
+急ぎ、イサリ村へ向かうとしよう。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_079&lt;tab&gt;ナヨシが、お前さんの帰りを待ちわびておるぞ。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_SUZUME_000_079&lt;tab&gt;親分に助太刀してくれたそうだな。
+ありがとよ！</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_HANSAKU_000_079&lt;tab&gt;心配したぜ！
 敵地潜入も難なくこなしちまうなんて、さすがだな。
-俺、アンタのような凄腕を目指すって決めたぜ！</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_079&lt;tab&gt;よくぞ、ご無事で。
+俺、アンタのような凄腕を目指すって決めたぜ！</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_079&lt;tab&gt;よくぞ、ご無事で。
 おかげさまで、囚われた村人も全員無事でした。
-ツキカゲ殿とも、また会えて、感慨深いですじゃ。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_STMBDZ327_02723_KORURI_000_079&lt;tab&gt;危険な役目を果たしてくれて、ありがとうございます。
+ツキカゲ殿とも、また会えて、感慨深いですじゃ。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_KORURI_000_079&lt;tab&gt;危険な役目を果たしてくれて、ありがとうございます。
 それにしても襲撃されたのが漁火のせいだとすると、
-これから漁はどうなるのかしら……？</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_STMBDZ327_02723_FISHER02719_000_079&lt;tab&gt;お帰りなさい、無事でよかった。
+これから漁はどうなるのかしら……？</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_FISHER02719_000_079&lt;tab&gt;お帰りなさい、無事でよかった。
 おかげさまで、仲間も全員無事戻ってきた！
-アンタは、ナヨシだけじゃなく、村の恩人様だ！！</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_080&lt;tab&gt;おお、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の御帰還だ！
+アンタは、ナヨシだけじゃなく、村の恩人様だ！！</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_080&lt;tab&gt;おお、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の御帰還だ！
 おかげさまで、全員、無事に助け出せたぜ！
-今は、大事をとって、家で休んでもらってる。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_081&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、海賊衆の皆さん、
+今は、大事をとって、家で休んでもらってる。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_081&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、海賊衆の皆さん、
 今回は、大変世話になりました。
-村を代表して、礼を言わせていただきます。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_STMBDZ327_02723_KORURI_000_082&lt;tab&gt;漁火のせいで紅甲羅のコウジン族に狙われてしまうとなると、
-漁火漁は諦めるしかないの……？</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_083&lt;tab&gt;その件について、ひとつ提案がある。
+村を代表して、礼を言わせていただきます。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_KORURI_000_082&lt;tab&gt;漁火のせいで紅甲羅のコウジン族に狙われてしまうとなると、
+漁火漁は諦めるしかないの……？</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_083&lt;tab&gt;その件について、ひとつ提案がある。
 ナヨシから聞いたが、漁火漁を始めたのは、
-魚油を大量に確保できるようになったからだそうじゃな？</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_084&lt;tab&gt;はい、ナヨシの手柄だったのですが……
-これで、振出しに戻ってしまいました……。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_085&lt;tab&gt;その魚油の一部を、わしらにも提供してもらえんか？
+魚油を大量に確保できるようになったからだそうじゃな？</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_084&lt;tab&gt;はい、ナヨシの手柄だったのですが……
+これで、振出しに戻ってしまいました……。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_085&lt;tab&gt;その魚油の一部を、わしらにも提供してもらえんか？
 見返りに、漁火漁の船の安全は海賊衆が保証するよう、
-海賊衆頭領のラショウ様に、話をつけておこう。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_STMBDZ327_02723_VETERANFISHER_000_086&lt;tab&gt;ほ、本当によろしいのですか？
-海賊衆の力を借りられるならば、心強い！</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_087&lt;tab&gt;さらに、&lt;var 28 ((BNpcName)) F2170C01 /var&gt;を仕留めるために、
+海賊衆頭領のラショウ様に、話をつけておこう。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_VETERANFISHER_000_086&lt;tab&gt;ほ、本当によろしいのですか？
+海賊衆の力を借りられるならば、心強い！</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_087&lt;tab&gt;さらに、&lt;var 28 ((BNpcName)) F2170C01 /var&gt;を仕留めるために、
 うちの若い連中を貸そう。
-魚油の確保は、われらにとっても課題なのでな。</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_088&lt;tab&gt;そんなんでいいなら、お安い御用だ！
+魚油の確保は、われらにとっても課題なのでな。</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_088&lt;tab&gt;そんなんでいいなら、お安い御用だ！
 海賊衆がついてくれるなら、心置きなく、
-釣って釣って、釣りまくってやるぜ！！</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_089&lt;tab&gt;では、契約成立だな。
-力を合わせ、苦境に立ち向かい、乗り越えていこう。</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_STMBDZ327_02723_NAYOSHI_000_090&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、
+釣って釣って、釣りまくってやるぜ！！</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_089&lt;tab&gt;では、契約成立だな。
+力を合わせ、苦境に立ち向かい、乗り越えていこう。</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_NAYOSHI_000_090&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、
 まさか海賊衆が協力してくれるなんて！
-村人を指南してもらう手間も、省けたってもんさ！</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_091&lt;tab&gt;わしらも、よう世話になった。
+村人を指南してもらう手間も、省けたってもんさ！</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_091&lt;tab&gt;わしらも、よう世話になった。
 おかげで海賊衆の懐にも未来にも、明るい兆しが見えてきた。
-なにより、お前さんと出会えたことが至高の宝じゃ。</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_STMBDZ327_02723_TSUKIKAGE_000_092&lt;tab&gt;これは、わしらからの餞別じゃ。
+なにより、お前さんと出会えたことが至高の宝じゃ。</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ327_02723_TSUKIKAGE_000_092&lt;tab&gt;これは、わしらからの餞別じゃ。
 お前さんのさらなる活躍と幸運を祈っておる。
-互いに、人生のよい航海を続けていこう！</target></trans-unit></body></file></xliff>
+互いに、人生のよい航海を続けていこう！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

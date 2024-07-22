@@ -1,67 +1,357 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="GaiUsa709_00782" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_GAIUSA709_00782_SEQ_00&lt;tab&gt;リトルアラミゴのグンドバルドは、冒険者に話があるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_GAIUSA709_00782_SEQ_01&lt;tab&gt;少女ベルトリアナが、骸旅団によって襲われたらしい。それを知ったウィルレッドらリトルアラミゴの青年たちが怒り、一触即発の状態だ。彼らの動向を調べよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_GAIUSA709_00782_SEQ_02&lt;tab&gt;ウィルレッドたちは、彼らのいう「作戦」を、ついに決行する気のようだ。リトルアラミゴの「グンドバルド」に「&lt;var 28 ((EventItem)) F61E884D01 /var&gt;」と「&lt;var 28 ((EventItem)) F61E884E01 /var&gt;」を渡して報告しよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_GAIUSA709_00782_SEQ_03&lt;tab&gt;ウィルレッドたちの「作戦」とは、アマルジャ族の砦からクリスタルを強奪するというものだった。彼らの暴挙を阻止すべく、リトルアラミゴの南東に急行して「ウィルレッド」に話しかけよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_GAIUSA709_00782_SEQ_04&lt;tab&gt;ウィルレッドたちの「作戦」は失敗し、アラミゴ復権の野望は露と消えた。リトルアラミゴに戻り「グンドバルド」に話を聞こう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_GAIUSA709_00782_SEQ_05&lt;tab&gt;ウィルレッドの話によると、彼らを甘言で誘い、作戦を吹きこんだ者こそ「仮面の男」だったらしい。はたして「仮面の男」とは何者なのだろうか……？</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_GAIUSA709_00782_TODO_00&lt;tab&gt;若者の動向を調べる</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_GAIUSA709_00782_TODO_01&lt;tab&gt;グンドバルドに証拠品を渡す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_GAIUSA709_00782_TODO_02&lt;tab&gt;ウィルレッドと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_GAIUSA709_00782_TODO_03&lt;tab&gt;グンドバルドと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_000&lt;tab&gt;ウィルレッドは、帝国を倒すと言っていたそうだが……
-いったい、何を仕掛けるつもりだ……？</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_GAIUSA709_00782_BERTLIANA_000_001&lt;tab&gt;グンドバルド、さま…………。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_002&lt;tab&gt;ベルトリアナ……！？
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="GaiUsa709_00782" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_SEQ_00&lt;tab&gt;リトルアラミゴのグンドバルドは、冒険者に話があるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_SEQ_01&lt;tab&gt;少女ベルトリアナが、骸旅団によって襲われたらしい。それを知ったウィルレッドらリトルアラミゴの青年たちが怒り、一触即発の状態だ。彼らの動向を調べよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_SEQ_02&lt;tab&gt;ウィルレッドたちは、彼らのいう「作戦」を、ついに決行する気のようだ。リトルアラミゴの「グンドバルド」に「&lt;var 28 ((EventItem)) F61E884D01 /var&gt;」と「&lt;var 28 ((EventItem)) F61E884E01 /var&gt;」を渡して報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_SEQ_03&lt;tab&gt;ウィルレッドたちの「作戦」とは、アマルジャ族の砦からクリスタルを強奪するというものだった。彼らの暴挙を阻止すべく、リトルアラミゴの南東に急行して「ウィルレッド」に話しかけよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_SEQ_04&lt;tab&gt;ウィルレッドたちの「作戦」は失敗し、アラミゴ復権の野望は露と消えた。リトルアラミゴに戻り「グンドバルド」に話を聞こう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_SEQ_05&lt;tab&gt;ウィルレッドの話によると、彼らを甘言で誘い、作戦を吹きこんだ者こそ「仮面の男」だったらしい。はたして「仮面の男」とは何者なのだろうか……？</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_TODO_00&lt;tab&gt;若者の動向を調べる</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_TODO_01&lt;tab&gt;グンドバルドに証拠品を渡す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_TODO_02&lt;tab&gt;ウィルレッドと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_TODO_03&lt;tab&gt;グンドバルドと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_000&lt;tab&gt;ウィルレッドは、帝国を倒すと言っていたそうだが……
+いったい、何を仕掛けるつもりだ……？</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_BERTLIANA_000_001&lt;tab&gt;グンドバルド、さま…………。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_002&lt;tab&gt;ベルトリアナ……！？
 その様子はどうしたことだ。
-三日も戻らず、今までどこへ……？</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_GAIUSA709_00782_BERTLIANA_000_003&lt;tab&gt;町を出て、食べるものを探していたの……。
+三日も戻らず、今までどこへ……？</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_BERTLIANA_000_003&lt;tab&gt;町を出て、食べるものを探していたの……。
 そしたら突然、骸旅団に襲われて、
-彼らの隠れ家で……ううっ……。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_GAIUSA709_00782_BERTLIANA_000_004&lt;tab&gt;彼らは私を笑ったわ。
+彼らの隠れ家で……ううっ……。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_BERTLIANA_000_004&lt;tab&gt;彼らは私を笑ったわ。
 誇りなんか持つから、惨めな思いをするのだと。
-骸旅団は、帝国に下る意思さえあると……。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_GAIUSA709_00782_BERTLIANA_000_005&lt;tab&gt;みんなと故郷で暮らすことを願うのは……
-アラミゴの民を名乗るのは……もう、間違いなのですか？</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_006&lt;tab&gt;なんということだ……。
+骸旅団は、帝国に下る意思さえあると……。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_BERTLIANA_000_005&lt;tab&gt;みんなと故郷で暮らすことを願うのは……
+アラミゴの民を名乗るのは……もう、間違いなのですか？</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_006&lt;tab&gt;なんということだ……。
 ひとまず火のそばで休みなさい、ベルトリアナ。
-その話を、ほかの誰かにしたか？</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_GAIUSA709_00782_BERTLIANA_000_007&lt;tab&gt;はい、入り口でウィルレッドに。
-そうしたら彼、ものすごい形相でどこかへ……。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_008&lt;tab&gt;この子を預けて、仲間たちと話をしてくる。
+その話を、ほかの誰かにしたか？</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_BERTLIANA_000_007&lt;tab&gt;はい、入り口でウィルレッドに。
+そうしたら彼、ものすごい形相でどこかへ……。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_008&lt;tab&gt;この子を預けて、仲間たちと話をしてくる。
 お前は町の中を見回って、若い衆の様子を見てくれ。
-……手間をかけてすまない。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_GAIUSA709_00782_BERTLIANA_000_009&lt;tab&gt;私なら大丈夫……。
+……手間をかけてすまない。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_BERTLIANA_000_009&lt;tab&gt;私なら大丈夫……。
 みんなといると、すごく安心できるんです。
-外の人から見たら、愚かな絆かもしれないけれど……。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_010&lt;tab&gt;壊神ラールガー……アラミゴの神よ……
-オレたちに力を貸してくれ……。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_011&lt;tab&gt;止めるつもりなら遅かったな。
-ほとんどの仲間は、もうここを出たぞ。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_012&lt;tab&gt;あとは、アイツに言われたとおりにするだけだ。
+外の人から見たら、愚かな絆かもしれないけれど……。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_010&lt;tab&gt;壊神ラールガー……アラミゴの神よ……
+オレたちに力を貸してくれ……。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_011&lt;tab&gt;止めるつもりなら遅かったな。
+ほとんどの仲間は、もうここを出たぞ。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_012&lt;tab&gt;あとは、アイツに言われたとおりにするだけだ。
 クリスタルさえ持ち帰れば、
-もう誰も、オレたちを虐げられない……！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_GAIUSA709_00782_NPCA_000_020&lt;tab&gt;ベルトリアナ……かわいそうに……。
+もう誰も、オレたちを虐げられない……！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_NPCA_000_020&lt;tab&gt;ベルトリアナ……かわいそうに……。
 あんな畜生どもにまで見下されるなんて、
-こんなみじめな生活、もう耐えられない！</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_GAIUSA709_00782_NPCA_000_021&lt;tab&gt;私はウィルレッドの作戦にのるわ。
+こんなみじめな生活、もう耐えられない！</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_NPCA_000_021&lt;tab&gt;私はウィルレッドの作戦にのるわ。
 相手を聞いて、怖気づいた子もいるけど……馬鹿ね。
-戦わなきゃ、どのみち生きてる意味なんてないのに！</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_GAIUSA709_00782_NPCB_000_030&lt;tab&gt;この作戦が成功したら、すげぇ力が手に入る。
-そしたら帝国をブチのめして、世界を見返してやるんだ！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_GAIUSA709_00782_NPCB_000_031&lt;tab&gt;フヌケたジジイの手先に、教えることなんかねぇ。
-さあ俺も……って、見取り図はどこにやったっけ……。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_GAIUSA709_00782_DUMMY_000_040&lt;tab&gt;（若者の所持品１・地図）</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_GAIUSA709_00782_DUMMY_000_041&lt;tab&gt;（若者の所持品２・ナイフ）</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_050&lt;tab&gt;彼らの様子はどうだ。
-先ほどから姿が見えない者がいるが、もしや……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_051&lt;tab&gt;狩りに使う短剣、それにザンラク……
+戦わなきゃ、どのみち生きてる意味なんてないのに！</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_NPCB_000_030&lt;tab&gt;この作戦が成功したら、すげぇ力が手に入る。
+そしたら帝国をブチのめして、世界を見返してやるんだ！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_NPCB_000_031&lt;tab&gt;フヌケたジジイの手先に、教えることなんかねぇ。
+さあ俺も……って、見取り図はどこにやったっけ……。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_DUMMY_000_040&lt;tab&gt;（若者の所持品１・地図）</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_DUMMY_000_041&lt;tab&gt;（若者の所持品２・ナイフ）</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_050&lt;tab&gt;彼らの様子はどうだ。
+先ほどから姿が見えない者がいるが、もしや……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_051&lt;tab&gt;狩りに使う短剣、それにザンラク……
 アマルジャ族の砦の、詳細な見取り図だ。
-まさか、ここからクリスタルを持ち帰ると？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_052&lt;tab&gt;無謀だ、たどり着く前に殺される。
+まさか、ここからクリスタルを持ち帰ると？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_052&lt;tab&gt;無謀だ、たどり着く前に殺される。
 クリスタルを求める理由は定かでないが、
-アマルジャ族がどれほど危険か、わかっていない……！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_053&lt;tab&gt;冒険者よ、もう一度だけ力を貸してくれ。
-地図によると目的地は東、今から追えば、あるいは……！</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_GAIUSA709_00782_NPCA_000_055&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_GAIUSA709_00782_NPCA_000_056&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_060&lt;tab&gt;……ウィルレッド。
-生きているのは、これだけか？</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_061&lt;tab&gt;違う……違うんだ……こんなはずじゃない……。
-オレたちはクリスタルを手に入れて……帝国を……。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_062&lt;tab&gt;ウィルレッド！！</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_063&lt;tab&gt;ち、力がほしいなら、クリスタルと祈りを捧げて、
-「壊神ラールガー」を呼び降ろせと言われたんだ……！</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_064&lt;tab&gt;だからアマルジャ族の砦に忍び込んで、
+アマルジャ族がどれほど危険か、わかっていない……！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_053&lt;tab&gt;冒険者よ、もう一度だけ力を貸してくれ。
+地図によると目的地は東、今から追えば、あるいは……！</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_NPCA_000_055&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_NPCA_000_056&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_060&lt;tab&gt;……ウィルレッド。
+生きているのは、これだけか？</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_061&lt;tab&gt;違う……違うんだ……こんなはずじゃない……。
+オレたちはクリスタルを手に入れて……帝国を……。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_062&lt;tab&gt;ウィルレッド！！</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_063&lt;tab&gt;ち、力がほしいなら、クリスタルと祈りを捧げて、
+「壊神ラールガー」を呼び降ろせと言われたんだ……！</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_064&lt;tab&gt;だからアマルジャ族の砦に忍び込んで、
 奴らが蓄えてるクリスタルを盗もうとした……。
-でも、すぐに見つかって……！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_GAIUSA709_00782_AMALJAA_000_065&lt;tab&gt;逃がさぬぞ、厚顔無恥なる人の子よ！
+でも、すぐに見つかって……！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_AMALJAA_000_065&lt;tab&gt;逃がさぬぞ、厚顔無恥なる人の子よ！
 我らが御神に捧ぐ、聖なる供物を狙いし罪……
-その魂をもって償わせん！</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_066&lt;tab&gt;若い衆の粗相は謝罪しよう。
-だが、魂を差し出せというのは、できない相談だ……。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_067&lt;tab&gt;今は未熟でも、彼らは国なき我らの希望。
-未来のために足掻くならば、その責任を共に負おう！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_070&lt;tab&gt;これほど腕が立つとはな……。
-うちの若い衆など、歯が立たないはずだ。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_071&lt;tab&gt;ひとまず、リトルアラミゴへ戻ろう。
-追っ手が来ないとも限らない……ここは危険だ。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_072&lt;tab&gt;ま、待ってくれ！
+その魂をもって償わせん！</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_066&lt;tab&gt;若い衆の粗相は謝罪しよう。
+だが、魂を差し出せというのは、できない相談だ……。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_067&lt;tab&gt;今は未熟でも、彼らは国なき我らの希望。
+未来のために足掻くならば、その責任を共に負おう！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_070&lt;tab&gt;これほど腕が立つとはな……。
+うちの若い衆など、歯が立たないはずだ。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_071&lt;tab&gt;ひとまず、リトルアラミゴへ戻ろう。
+追っ手が来ないとも限らない……ここは危険だ。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_072&lt;tab&gt;ま、待ってくれ！
 クリスタルを持って帰らないと……
-二人と一緒なら、きっとやれる！</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_073&lt;tab&gt;お前も、アマルジャ族に連れられてきた
-「焼かれし者」……テンパードを見ただろう。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_074&lt;tab&gt;ウルダハの「不滅隊」からは隠せと言われているが、
+二人と一緒なら、きっとやれる！</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_073&lt;tab&gt;お前も、アマルジャ族に連れられてきた
+「焼かれし者」……テンパードを見ただろう。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_074&lt;tab&gt;ウルダハの「不滅隊」からは隠せと言われているが、
 あれこそ、神に触れた者の末路だという……。
-お前の望みは……ああなることか？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_075&lt;tab&gt;う、嘘だろ！？
+お前の望みは……ああなることか？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_075&lt;tab&gt;う、嘘だろ！？
 「仮面の男」は、そんなこと言ってなかった！
-帝国を倒したければ、神を呼び降ろせって……！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_076&lt;tab&gt;その話は、戻ってから聞かせてもらう。
-冒険者も交えて、じっくりな……。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_080&lt;tab&gt;もう隠し事はなしだ、ウィルレッド。
-お前に計画を与えたのは「仮面の男」だったのだな……？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_081&lt;tab&gt;……ああ、そうだよ。
+帝国を倒したければ、神を呼び降ろせって……！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_076&lt;tab&gt;その話は、戻ってから聞かせてもらう。
+冒険者も交えて、じっくりな……。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_080&lt;tab&gt;もう隠し事はなしだ、ウィルレッド。
+お前に計画を与えたのは「仮面の男」だったのだな……？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_081&lt;tab&gt;……ああ、そうだよ。
 仲間と話しているところに、アイツが現れたんだ。
-力を欲する者に、知恵を与えると言っていた。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_082&lt;tab&gt;でも、それきりだ。
-煙のように消えたから、どこへ行ったのかも知らない。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_083&lt;tab&gt;結局、騙されただけさ……。
+力を欲する者に、知恵を与えると言っていた。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_082&lt;tab&gt;でも、それきりだ。
+煙のように消えたから、どこへ行ったのかも知らない。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_083&lt;tab&gt;結局、騙されただけさ……。
 今度こそ変えられるなんて、どうして信じたんだろうな。
-アラミゴ人は、惨めに死んでいくしかないのに……。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_084&lt;tab&gt;ウィルレッド。
+アラミゴ人は、惨めに死んでいくしかないのに……。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_084&lt;tab&gt;ウィルレッド。
 我々の故郷はアラミゴだが、それがお前のすべてではない。
-どう生きるかは、お前次第だ。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_085&lt;tab&gt;何を求めるにしても、困難な道になるだろう。
+どう生きるかは、お前次第だ。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_085&lt;tab&gt;何を求めるにしても、困難な道になるだろう。
 だが、お前の命が、異郷の冒険者に救われたこと……
-忘れずにいるといい。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_086&lt;tab&gt;…………少し、考えてみるよ。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_GAIUSA709_00782_WILRED_000_087&lt;tab&gt;すまなかったな。
-あと……ありがとう。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_000_088&lt;tab&gt;私からも礼を言おう……。
+忘れずにいるといい。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_086&lt;tab&gt;…………少し、考えてみるよ。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_000_087&lt;tab&gt;すまなかったな。
+あと……ありがとう。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_000_088&lt;tab&gt;私からも礼を言おう……。
 お前のような御仁がいることが、明日を生きる希望となる。
-本当に、世話になったな。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_GAIUSA709_00782_QIB_TODO001&lt;tab&gt;ウィルレッドを護ってアマルジャ族を倒せ！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_GAIUSA709_00782_WILRED_BATTLETALK_01&lt;tab&gt;グンドバルドさん……
-オレたちは、ただ力が欲しかったんだ！</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_02&lt;tab&gt;弁解は後だ。今は、生きることだけ考えろ……！</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_GAIUSA709_00782_AMALJABOSS_GAIUSA709_BATTLETALK_03&lt;tab&gt;油断大敵……！　罪人め、ここで討ち滅ぼさん！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_04&lt;tab&gt;若き同胞の命、対価にしては余りある……。
-これ以上は、くれてやるものか！</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_04_2&lt;tab&gt;冒険者よ、ウィルレッドを護ってやってくれ！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_GAIUSA709_00782_AMALJABOSS_GAIUSA709_BATTLETALK_05&lt;tab&gt;形勢不利、かくなる上は……
-出あえ、御神の聖火に焼かれし者よ！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_06&lt;tab&gt;もう少しだ……押し切るぞッ……！</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_DEAD&lt;tab&gt;私は……また失うのか……。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_GAIUSA709_00782_WILRED_BATTLETALK_DEAD&lt;tab&gt;くそッ！　やっぱり、未来なんて……。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_GAIUSA709_00782_YOUNGMAN_A_GAIUSA709_BATTLETALK_DEAD&lt;tab&gt;嫌だ、生きていたいよ……。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_GAIUSA709_00782_YOUNGMAN_B_GAIUSA709_BATTLETALK_DEAD&lt;tab&gt;ちくしょう……ちくしょうッ……！！</target></trans-unit></body></file></xliff>
+本当に、世話になったな。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_QIB_TODO001&lt;tab&gt;ウィルレッドを護ってアマルジャ族を倒せ！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_BATTLETALK_01&lt;tab&gt;グンドバルドさん……
+オレたちは、ただ力が欲しかったんだ！</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_02&lt;tab&gt;弁解は後だ。今は、生きることだけ考えろ……！</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_AMALJABOSS_GAIUSA709_BATTLETALK_03&lt;tab&gt;油断大敵……！　罪人め、ここで討ち滅ぼさん！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_04&lt;tab&gt;若き同胞の命、対価にしては余りある……。
+これ以上は、くれてやるものか！</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_04_2&lt;tab&gt;冒険者よ、ウィルレッドを護ってやってくれ！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_AMALJABOSS_GAIUSA709_BATTLETALK_05&lt;tab&gt;形勢不利、かくなる上は……
+出あえ、御神の聖火に焼かれし者よ！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_06&lt;tab&gt;もう少しだ……押し切るぞッ……！</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_GUNDOBALD_BATTLETALK_DEAD&lt;tab&gt;私は……また失うのか……。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_WILRED_BATTLETALK_DEAD&lt;tab&gt;くそッ！　やっぱり、未来なんて……。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_YOUNGMAN_A_GAIUSA709_BATTLETALK_DEAD&lt;tab&gt;嫌だ、生きていたいよ……。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSA709_00782_YOUNGMAN_B_GAIUSA709_BATTLETALK_DEAD&lt;tab&gt;ちくしょう……ちくしょうッ……！！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

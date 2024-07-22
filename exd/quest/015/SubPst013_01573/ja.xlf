@@ -1,120 +1,474 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="SubPst013_01573" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_SUBPST013_01573_SEQ_00&lt;tab&gt;先輩レターモーグリは、冒険者に敏腕美容師への手紙を託したいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_SUBPST013_01573_SEQ_01&lt;tab&gt;先輩レターモーグリから、配達を依頼された。リムサ・ロミンサで目撃されたという「敏腕美容師らしき男」に、手紙を配達しよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_SUBPST013_01573_SEQ_02&lt;tab&gt;敏腕美容師らしき男に手紙を配達したところ、人違いだった。誤配送した相手は、敏腕美容師の弟ギユフレーヌで、彼こそ手紙の送り主だった。彼は、兄で美容師のジャンドゥレーヌに家督を継がせるため、行方を捜しているという。マダムの話を聞いたギユフレーヌは、グリダニアの木工師ギルドへ向かった。手紙を配達するため、グリダニアの木工師ギルドにいる「ベアティヌ」に、敏腕美容師の行方を聞いてみよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_SUBPST013_01573_SEQ_03&lt;tab&gt;ベアティヌと話した。ギユフレーヌは、ジャンドゥレーヌを追って、ウルダハの錬金術師ギルドへ向かった。冒険者も、ウルダハの錬金術師ギルドにいる「セヴェリアン」と話そう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_SUBPST013_01573_SEQ_04&lt;tab&gt;セヴェリアンと話した。ギユフレーヌの目的を知ったセヴェリアンは、ジャンドゥレーヌの居場所を明かした。リムサ・ロミンサの冒険者ギルド付近にいる「ジャンドゥレーヌ」に、「&lt;var 28 ((EventItem)) F61E8A2501 /var&gt;」を配達しよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_SUBPST013_01573_SEQ_05&lt;tab&gt;ジャンドゥレーヌへの配達を完了した。ジャンドゥレーヌは、弟ギユフレーヌを新生させ、家督を継ぐ決意を促した。人には、それぞれ果たすべき使命があるようだ。もしも人生に迷ったら、宿屋でジャンドゥレーヌを呼び出して、生まれ変わらせてもらおう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_SUBPST013_01573_TODO_00&lt;tab&gt;敏腕美容師らしき男に&lt;var 28 ((EventItem)) F61E8A2501 /var&gt;を配達</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_SUBPST013_01573_TODO_01&lt;tab&gt;木工師ギルドのベアティヌと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_SUBPST013_01573_TODO_02&lt;tab&gt;錬金術師ギルドのセヴェリアンと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_SUBPST013_01573_TODO_03&lt;tab&gt;リムサ・ロミンサのジャンドゥレーヌに&lt;var 28 ((EventItem)) F61E8A2501 /var&gt;を配達</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_SUBPST013_01573_LETTERMOOGLE_000_000&lt;tab&gt;半人前君の実力がメキメキあがって、モグは嬉しいクポ！
-そんな頼もしい半人前君に、難しい配達をお願いしたいクポ！</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_SUBPST013_01573_LETTERMOOGLE_000_001&lt;tab&gt;届け先は……
-敏腕美容師のジャンドゥレーヌさんクポ！</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_SUBPST013_01573_LETTERMOOGLE_000_002&lt;tab&gt;敏腕美容師さんは、お仕事にとっても厳しいクポ！
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="SubPst013_01573" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEQ_00&lt;tab&gt;先輩レターモーグリは、冒険者に敏腕美容師への手紙を託したいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEQ_01&lt;tab&gt;先輩レターモーグリから、配達を依頼された。リムサ・ロミンサで目撃されたという「敏腕美容師らしき男」に、手紙を配達しよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEQ_02&lt;tab&gt;敏腕美容師らしき男に手紙を配達したところ、人違いだった。誤配送した相手は、敏腕美容師の弟ギユフレーヌで、彼こそ手紙の送り主だった。彼は、兄で美容師のジャンドゥレーヌに家督を継がせるため、行方を捜しているという。マダムの話を聞いたギユフレーヌは、グリダニアの木工師ギルドへ向かった。手紙を配達するため、グリダニアの木工師ギルドにいる「ベアティヌ」に、敏腕美容師の行方を聞いてみよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEQ_03&lt;tab&gt;ベアティヌと話した。ギユフレーヌは、ジャンドゥレーヌを追って、ウルダハの錬金術師ギルドへ向かった。冒険者も、ウルダハの錬金術師ギルドにいる「セヴェリアン」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEQ_04&lt;tab&gt;セヴェリアンと話した。ギユフレーヌの目的を知ったセヴェリアンは、ジャンドゥレーヌの居場所を明かした。リムサ・ロミンサの冒険者ギルド付近にいる「ジャンドゥレーヌ」に、「&lt;var 28 ((EventItem)) F61E8A2501 /var&gt;」を配達しよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEQ_05&lt;tab&gt;ジャンドゥレーヌへの配達を完了した。ジャンドゥレーヌは、弟ギユフレーヌを新生させ、家督を継ぐ決意を促した。人には、それぞれ果たすべき使命があるようだ。もしも人生に迷ったら、宿屋でジャンドゥレーヌを呼び出して、生まれ変わらせてもらおう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_TODO_00&lt;tab&gt;敏腕美容師らしき男に&lt;var 28 ((EventItem)) F61E8A2501 /var&gt;を配達</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_TODO_01&lt;tab&gt;木工師ギルドのベアティヌと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_TODO_02&lt;tab&gt;錬金術師ギルドのセヴェリアンと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_TODO_03&lt;tab&gt;リムサ・ロミンサのジャンドゥレーヌに&lt;var 28 ((EventItem)) F61E8A2501 /var&gt;を配達</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_LETTERMOOGLE_000_000&lt;tab&gt;半人前君の実力がメキメキあがって、モグは嬉しいクポ！
+そんな頼もしい半人前君に、難しい配達をお願いしたいクポ！</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_LETTERMOOGLE_000_001&lt;tab&gt;届け先は……
+敏腕美容師のジャンドゥレーヌさんクポ！</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_LETTERMOOGLE_000_002&lt;tab&gt;敏腕美容師さんは、お仕事にとっても厳しいクポ！
 仕事中はお手紙を受け取ってくれないから、
-仕事をしていない瞬間を狙いすますしかないクポ！</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_SUBPST013_01573_LETTERMOOGLE_000_003&lt;tab&gt;敏腕美容師さんは、商売道具がないと錯乱するクポ！
+仕事をしていない瞬間を狙いすますしかないクポ！</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_LETTERMOOGLE_000_003&lt;tab&gt;敏腕美容師さんは、商売道具がないと錯乱するクポ！
 だから、もしかするとお仕事じゃないときは、
-とっても地味な感じに見えるかもしれないクポ！</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_SUBPST013_01573_LETTERMOOGLE_000_004&lt;tab&gt;ちょうど、リムサ・ロミンサのリムレーン像付近で、
+とっても地味な感じに見えるかもしれないクポ！</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_LETTERMOOGLE_000_004&lt;tab&gt;ちょうど、リムサ・ロミンサのリムレーン像付近で、
 地味な感じの「敏腕美容師らしき男」が目撃されてるクポ！
-行ってみてほしいクポ！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_SUBPST013_01573_LETTERMOOGLE_000_005&lt;tab&gt;敏腕美容師さんへの配達を、お願いするクポ！
+行ってみてほしいクポ！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_LETTERMOOGLE_000_005&lt;tab&gt;敏腕美容師さんへの配達を、お願いするクポ！
 でも、仕事中はお手紙を受け取ってくれないから、
-仕事をしていない瞬間に渡すしかないクポ！</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_SUBPST013_01573_LETTERMOOGLE_000_006&lt;tab&gt;ちょうどリムサ・ロミンサのリムレーン像付近で
+仕事をしていない瞬間に渡すしかないクポ！</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_LETTERMOOGLE_000_006&lt;tab&gt;ちょうどリムサ・ロミンサのリムレーン像付近で
 地味な感じの「敏腕美容師らしき男」が目撃されてるクポ！
-駆けつけてみてほしいクポ！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_010&lt;tab&gt;ああ、幸せすぎてコワイ……。
+駆けつけてみてほしいクポ！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_010&lt;tab&gt;ああ、幸せすぎてコワイ……。
 私たちの結婚式も、もうすぐ。
-すべては私が生まれ変わった、あの日から始まったのね……。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_010&lt;tab&gt;見てください、このマダムの麗しさを。
+すべては私が生まれ変わった、あの日から始まったのね……。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_010&lt;tab&gt;見てください、このマダムの麗しさを。
 そばにいるだけで、幸福だと思いませんか……。
-おや……私宛の手紙ですか？</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_011&lt;tab&gt;……むむ、この手紙は私が書いたもの。
-どうやら貴方は、私を美容師と間違えておられるようですね。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_012&lt;tab&gt;……ですが、それも無理からぬことです。
-なぜなら私は、ジャンドゥレーヌの弟ですから。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_013&lt;tab&gt;本当に、うりふたつよね！
+おや……私宛の手紙ですか？</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_011&lt;tab&gt;……むむ、この手紙は私が書いたもの。
+どうやら貴方は、私を美容師と間違えておられるようですね。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_012&lt;tab&gt;……ですが、それも無理からぬことです。
+なぜなら私は、ジャンドゥレーヌの弟ですから。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_013&lt;tab&gt;本当に、うりふたつよね！
 私も、先ほど話しかけられたとき、
-敏腕美容師様が現れたのかと思ったもの！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_014&lt;tab&gt;……って、あなたは私の恩人さんじゃない！？
-あなたのおかげで、私、今度結婚するのよ！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_015&lt;tab&gt;あの時、あなたが敏腕美容師様を助けてくれたから、
+敏腕美容師様が現れたのかと思ったもの！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_014&lt;tab&gt;……って、あなたは私の恩人さんじゃない！？
+あなたのおかげで、私、今度結婚するのよ！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_015&lt;tab&gt;あの時、あなたが敏腕美容師様を助けてくれたから、
 私は生まれ変わることができたわ。
-おかげで自信がみなぎって……求婚できたの！</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_016&lt;tab&gt;そのような馴れ初めだったのですね……。
-これほど美しい方と夫婦になれるとは、旦那様は果報者ですよ。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_017&lt;tab&gt;うふふ、敏腕美容師様のおかげよ！
+おかげで自信がみなぎって……求婚できたの！</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_016&lt;tab&gt;そのような馴れ初めだったのですね……。
+これほど美しい方と夫婦になれるとは、旦那様は果報者ですよ。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_017&lt;tab&gt;うふふ、敏腕美容師様のおかげよ！
 ……そうそう、こちらの弟さんは美容師様を捜して、
-はるばるイシュガルドからいらっしゃったんですって！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_018&lt;tab&gt;(-ギユフレーヌ-)ギユフレーヌと申します、お見知り置きを。
+はるばるイシュガルドからいらっしゃったんですって！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_018&lt;tab&gt;(-ギユフレーヌ-)ギユフレーヌと申します、お見知り置きを。
 我が一族は、イシュガルド四大名家のひとつ……
-ゼーメル家の傍流にあたる、由緒正しき家柄です。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_019&lt;tab&gt;(-ギユフレーヌ-)……この度、父が病に倒れてしまい、
-至急、後継を立てねばならなくなりました。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_021&lt;tab&gt;(-ギユフレーヌ-)愚兄ジャンドゥレーヌが、故郷イシュガルドを離れ、
+ゼーメル家の傍流にあたる、由緒正しき家柄です。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_019&lt;tab&gt;(-ギユフレーヌ-)……この度、父が病に倒れてしまい、
+至急、後継を立てねばならなくなりました。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_021&lt;tab&gt;(-ギユフレーヌ-)愚兄ジャンドゥレーヌが、故郷イシュガルドを離れ、
 髪いじりなどにうつつをぬかして、早5年……。
-そろそろ家督を継ぐという使命を果たしてもらわねば！</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_022&lt;tab&gt;(-ギユフレーヌ-)貴方が、届けようとしてくださった手紙も、
-愚兄に帰郷を促すために、私がしたためたもの……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_023&lt;tab&gt;まあ、敏腕美容師様って、貴族のボンボンだったのね！
+そろそろ家督を継ぐという使命を果たしてもらわねば！</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_022&lt;tab&gt;(-ギユフレーヌ-)貴方が、届けようとしてくださった手紙も、
+愚兄に帰郷を促すために、私がしたためたもの……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_023&lt;tab&gt;まあ、敏腕美容師様って、貴族のボンボンだったのね！
 ……そういえば、結婚式のヘアメイクを依頼したときに、
-美容師様は、櫛（くし）を新調するって言ってたわよ。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_024&lt;tab&gt;(-ギユフレーヌ-)なるほど、でしたらグリダニア……
+美容師様は、櫛（くし）を新調するって言ってたわよ。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_024&lt;tab&gt;(-ギユフレーヌ-)なるほど、でしたらグリダニア……
 木工師ギルドに現れる可能性が高そうですね。
-早速、向かわねばなりませんが、その前に……。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_025&lt;tab&gt;(-ギユフレーヌ-)この手紙は、配達士さんにお返しします。
+早速、向かわねばなりませんが、その前に……。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_025&lt;tab&gt;(-ギユフレーヌ-)この手紙は、配達士さんにお返しします。
 連絡を付けるため、どうか兄に届けていただけますか。
-……それでは、ごきげんよう。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_026&lt;tab&gt;あらら、飛んで行っちゃった……。
+……それでは、ごきげんよう。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_026&lt;tab&gt;あらら、飛んで行っちゃった……。
 美容師様に手紙を届けるつもりなら、
-あなたも、木工師ギルドの「ベアティヌ」さんを訪ねたら？</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_029&lt;tab&gt;美容師様に手紙を届けるつもりなら、
+あなたも、木工師ギルドの「ベアティヌ」さんを訪ねたら？</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_029&lt;tab&gt;美容師様に手紙を届けるつもりなら、
 あなたも、木工師ギルドの「ベアティヌ」さんを訪ねたら？
-……それにしても、ああ、幸せすぎてコワイ。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_030&lt;tab&gt;ベアティヌさんから出てくる話は、兄の知らない面ばかり……。
-家族には見せない顔があるのでしょうか。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_030&lt;tab&gt;……おや、貴方もジャンドゥレーヌさんをお探しですか？
+……それにしても、ああ、幸せすぎてコワイ。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_030&lt;tab&gt;ベアティヌさんから出てくる話は、兄の知らない面ばかり……。
+家族には見せない顔があるのでしょうか。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_030&lt;tab&gt;……おや、貴方もジャンドゥレーヌさんをお探しですか？
 弟さんにも伝えたところなのですが……
-彼は……つい先ほど、ここを出発したところです。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_031&lt;tab&gt;兄上ときたら……
-果たすべき使命を投げ出し、いつまで放蕩するつもりだ！</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_032&lt;tab&gt;その件についてなのですが……
+彼は……つい先ほど、ここを出発したところです。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_031&lt;tab&gt;兄上ときたら……
+果たすべき使命を投げ出し、いつまで放蕩するつもりだ！</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_032&lt;tab&gt;その件についてなのですが……
 貴方は……本当にジャンドゥレーヌさんが家業を継ぐに、
-ふさわしいとお考えですか……？</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_033&lt;tab&gt;……放蕩の限りを尽くす兄では、
-当主としての務めを果たせないとでも！？</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_034&lt;tab&gt;兄は、出奔するまでの間、
+ふさわしいとお考えですか……？</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_033&lt;tab&gt;……放蕩の限りを尽くす兄では、
+当主としての務めを果たせないとでも！？</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_034&lt;tab&gt;兄は、出奔するまでの間、
 父の仕事を見事に補佐していましたよ！
-……兄は、私の永遠の目標なのです！</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_035&lt;tab&gt;ジャンドゥレーヌさんが才能豊かなのは確か……。
+……兄は、私の永遠の目標なのです！</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_035&lt;tab&gt;ジャンドゥレーヌさんが才能豊かなのは確か……。
 彼の……椰子の如く、しなやかな発想と行動には……
-いつも驚かされるばかりです……。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_036&lt;tab&gt;……初めて彼と出会ったときの話です。
+いつも驚かされるばかりです……。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_036&lt;tab&gt;……初めて彼と出会ったときの話です。
 すれ違い様に……突然、切りつけられて……
-私は、この髪形に生まれ変わっていました。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_037&lt;tab&gt;ジャンドゥレーヌさんに出会うまで……
-私の前髪は……柳のごとく長く……作業を妨げていたのです。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_038&lt;tab&gt;生まれ変わってからは集中力が増し……
+私は、この髪形に生まれ変わっていました。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_037&lt;tab&gt;ジャンドゥレーヌさんに出会うまで……
+私の前髪は……柳のごとく長く……作業を妨げていたのです。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_038&lt;tab&gt;生まれ変わってからは集中力が増し……
 木との対話にのめりこみ、気づけばギルドマスターに……。
-ですから……今も、この髪型を貫いているんです。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_039&lt;tab&gt;私は……木工のことしかわかりませんが……
+ですから……今も、この髪型を貫いているんです。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_039&lt;tab&gt;私は……木工のことしかわかりませんが……
 木には……生育に適した環境があるものです……。
-さて、ジャンドゥレーヌさんは……どうでしょう？</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_040&lt;tab&gt;彼に相応しい環境は何処か……
+さて、ジャンドゥレーヌさんは……どうでしょう？</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_040&lt;tab&gt;彼に相応しい環境は何処か……
 考えながら、追ってみてください……。
-次の目的地は……ウルダハの錬金術師ギルドのようですよ。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_041&lt;tab&gt;兄に相応しい環境……？
-考えてみます……ありがとうございました。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_042&lt;tab&gt;スギの木のような……弟さんでした。
+次の目的地は……ウルダハの錬金術師ギルドのようですよ。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_041&lt;tab&gt;兄に相応しい環境……？
+考えてみます……ありがとうございました。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_042&lt;tab&gt;スギの木のような……弟さんでした。
 生真面目で……まっすぐで……。
-しかし、スギ材は乾燥を誤ると、すぐ割れるもの……。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_043&lt;tab&gt;貴方も、ジャンドゥレーヌさんを……お探しでしたよね。
+しかし、スギ材は乾燥を誤ると、すぐ割れるもの……。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_043&lt;tab&gt;貴方も、ジャンドゥレーヌさんを……お探しでしたよね。
 よければ、弟さんを……見守ってあげてください。
-錬金術師ギルドの「セヴェリアン」さんを訪ねるついでに……。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_SUBPST013_01573_BEATINE_000_049&lt;tab&gt;イシュガルドの豪邸で、執務するジャンドゥレーヌさん……
+錬金術師ギルドの「セヴェリアン」さんを訪ねるついでに……。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_BEATINE_000_049&lt;tab&gt;イシュガルドの豪邸で、執務するジャンドゥレーヌさん……
 雪深いイシュガルドに……南国の椰子を植えたら……
-どうなってしまうんでしょう！？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_049&lt;tab&gt;……なんて頑固な男だ、私の言葉がまるで通じない。
-スノークローク大氷壁よりも頭が固いのではないか……。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_050&lt;tab&gt;……なんと、お前までジャンドゥレーヌ探しか？
+どうなってしまうんでしょう！？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_049&lt;tab&gt;……なんて頑固な男だ、私の言葉がまるで通じない。
+スノークローク大氷壁よりも頭が固いのではないか……。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_050&lt;tab&gt;……なんと、お前までジャンドゥレーヌ探しか？
 弟にも言ったが、ここはヤツの家ではない！
-ヤツは用が済むなり、さっさと次の目的地へ向かったぞ。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_051&lt;tab&gt;ですから、その目的地を教えてください！
-……何度言ったら、わかってくれるんですか！？</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_052&lt;tab&gt;配達士さんからも、頼んでください！
-さっきから懇願しているのですが、埒があかないのです。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_053&lt;tab&gt;答えん、断じて答えんぞ……！
+ヤツは用が済むなり、さっさと次の目的地へ向かったぞ。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_051&lt;tab&gt;ですから、その目的地を教えてください！
+……何度言ったら、わかってくれるんですか！？</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_052&lt;tab&gt;配達士さんからも、頼んでください！
+さっきから懇願しているのですが、埒があかないのです。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_053&lt;tab&gt;答えん、断じて答えんぞ……！
 ヤツをイシュガルドに押し込めるなど、笑止千万！
-家門が大切と言うなら、自分で守ればいいではないか。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_054&lt;tab&gt;……私に、そのような手腕などありません！
-私は、なにひとつ兄上の足元に及びませんから。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_055&lt;tab&gt;……うむ、確かにヤツは偉大だな！
+家門が大切と言うなら、自分で守ればいいではないか。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_054&lt;tab&gt;……私に、そのような手腕などありません！
+私は、なにひとつ兄上の足元に及びませんから。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_055&lt;tab&gt;……うむ、確かにヤツは偉大だな！
 だが、それは飽くなき探求精神ゆえ。
-古くさい宗教都市では、価値ある化学反応など望めん！</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_056&lt;tab&gt;それに引き替え……お前は、実につまらん弟だな。
+古くさい宗教都市では、価値ある化学反応など望めん！</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_056&lt;tab&gt;それに引き替え……お前は、実につまらん弟だな。
 凡庸で、革新性の欠片も見られん……。
-伝統なんぞに縛られるとしたら、お前の方が適任だ。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_057&lt;tab&gt;……いや待て。
+伝統なんぞに縛られるとしたら、お前の方が適任だ。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_057&lt;tab&gt;……いや待て。
 ふむ……そうか……そうなのだ、弟！
-お前は、やはり兄に即刻会うべきだ！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_058&lt;tab&gt;お前の兄ならば、今頃、
+お前は、やはり兄に即刻会うべきだ！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_058&lt;tab&gt;お前の兄ならば、今頃、
 リムサ・ロミンサの冒険者ギルド付近にいるだろう。
-さあ弟よ、いますぐ駆けつけるがいい！</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_059&lt;tab&gt;……唐突な心変わりの理由は理解に苦しみますが、
+さあ弟よ、いますぐ駆けつけるがいい！</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_059&lt;tab&gt;……唐突な心変わりの理由は理解に苦しみますが、
 兄の居場所を教えていただき、感謝します。
-それでは、私はこれにて……。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_060&lt;tab&gt;ふふ……ふははは！
-……弟め……ヤツにぞんぶんに切り刻まれるがいい！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_061&lt;tab&gt;おっと……お前もジャンドゥレーヌに用があるのだろう？
-ならば、さっさとリムサ・ロミンサへ行くがいい！</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_065&lt;tab&gt;ふふ……ふははは！
-……弟め……ヤツにぞんぶんに切り刻まれるがいい！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_SUBPST013_01573_SEVERIAN_000_066&lt;tab&gt;おっと、お前もジャンドゥレーヌに用があるのだろう？
-ならば、さっさとリムサ・ロミンサへ行くがいい！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_070&lt;tab&gt;今日こそは、イシュガルドへ連れ帰りますよ……！
+それでは、私はこれにて……。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_060&lt;tab&gt;ふふ……ふははは！
+……弟め……ヤツにぞんぶんに切り刻まれるがいい！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_061&lt;tab&gt;おっと……お前もジャンドゥレーヌに用があるのだろう？
+ならば、さっさとリムサ・ロミンサへ行くがいい！</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_065&lt;tab&gt;ふふ……ふははは！
+……弟め……ヤツにぞんぶんに切り刻まれるがいい！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SEVERIAN_000_066&lt;tab&gt;おっと、お前もジャンドゥレーヌに用があるのだろう？
+ならば、さっさとリムサ・ロミンサへ行くがいい！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_070&lt;tab&gt;今日こそは、イシュガルドへ連れ帰りますよ……！
 病の父上に無理をさせるわけにはいきません。
-兄上なくして、誰が父上を助けるのですか！？</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_SUBPST013_01573_JANDELAINE_000_070&lt;tab&gt;よう、オメーか……オレに手紙だと？
+兄上なくして、誰が父上を助けるのですか！？</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_JANDELAINE_000_070&lt;tab&gt;よう、オメーか……オレに手紙だと？
 見てのとおり、弟との再会で修羅場ってんだが……
-オメーに免じて、受け取ってやんよ！</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_071&lt;tab&gt;配達士さん、ありがとうございます！
+オメーに免じて、受け取ってやんよ！</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_071&lt;tab&gt;配達士さん、ありがとうございます！
 ……私は今、改めて感動しました。
-困難を乗り越えて、配達という使命を果たす人の姿に！</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_SUBPST013_01573_JANDELAINE_000_072&lt;tab&gt;さすがはオレの弟だぁ、気が合うな！
-まったく同感だぜ。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_073&lt;tab&gt;でしたら、兄上も使命を果たしてください！
-床に伏した父上に、いつまで無理をさせるつもりですか！？</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_SUBPST013_01573_JANDELAINE_000_074&lt;tab&gt;久方ぶりの再会だっつーのに、ずいぶんな対応だな。
-品行方正がウリのオメーらしさ、どこにいっちまった？</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_075&lt;tab&gt;長い間、家を顧みることなく、
+困難を乗り越えて、配達という使命を果たす人の姿に！</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_JANDELAINE_000_072&lt;tab&gt;さすがはオレの弟だぁ、気が合うな！
+まったく同感だぜ。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_073&lt;tab&gt;でしたら、兄上も使命を果たしてください！
+床に伏した父上に、いつまで無理をさせるつもりですか！？</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_JANDELAINE_000_074&lt;tab&gt;久方ぶりの再会だっつーのに、ずいぶんな対応だな。
+品行方正がウリのオメーらしさ、どこにいっちまった？</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_075&lt;tab&gt;長い間、家を顧みることなく、
 遊び呆けている貴方に、尽くす礼なぞありません！
-引きずってでも、イシュガルドへ連れ帰りますよ！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_SUBPST013_01573_JANDELAINE_000_076&lt;tab&gt;しばらく見ぬ間に、オメーは成長したようだ。
+引きずってでも、イシュガルドへ連れ帰りますよ！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_JANDELAINE_000_076&lt;tab&gt;しばらく見ぬ間に、オメーは成長したようだ。
 だが……オメーは今、最高に生きてるか？
-本当の自分を生きてんのかっ！？</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_SUBPST013_01573_JANDELAINE_000_077&lt;tab&gt;オメーの人生、ザックザクに切り刻んでやんよ！
-キィィイイルゥゥゥ　オア　ダイッ！</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_078&lt;tab&gt;……あ、兄上？
-ちょ、ちょっと……ま、まさかっ！？</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_079&lt;tab&gt;ぎやああああああああああ！！！</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_SUBPST013_01573_JANDELAINE_000_080&lt;tab&gt;どうだ……新世界に生まれ変わった気分はよ？
-……バラ色だろ？</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_081&lt;tab&gt;なんだ……この感覚は……？
+本当の自分を生きてんのかっ！？</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_JANDELAINE_000_077&lt;tab&gt;オメーの人生、ザックザクに切り刻んでやんよ！
+キィィイイルゥゥゥ　オア　ダイッ！</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_078&lt;tab&gt;……あ、兄上？
+ちょ、ちょっと……ま、まさかっ！？</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_079&lt;tab&gt;ぎやああああああああああ！！！</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_JANDELAINE_000_080&lt;tab&gt;どうだ……新世界に生まれ変わった気分はよ？
+……バラ色だろ？</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_081&lt;tab&gt;なんだ……この感覚は……？
 私には、ありもしないと思っていた威厳と風格……
-そして、自信が心の底からみなぎってくる……。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_082&lt;tab&gt;まるで、生まれ変わったかのような気分だ……。
+そして、自信が心の底からみなぎってくる……。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_082&lt;tab&gt;まるで、生まれ変わったかのような気分だ……。
 兄を追い続けていた私が見えていなかった……
-これが……本当の……私……。</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_SUBPST013_01573_JANDELAINE_000_083&lt;tab&gt;そうだッ！　今この瞬間、オメーは新しく生まれ変わった。
-だから今日は、オメーの誕生日だッ！</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_SUBPST013_01573_JANDELAINE_000_084&lt;tab&gt;誕生日おめでとさん！</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_085&lt;tab&gt;……そうか、そういうことか。
+これが……本当の……私……。</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_JANDELAINE_000_083&lt;tab&gt;そうだッ！　今この瞬間、オメーは新しく生まれ変わった。
+だから今日は、オメーの誕生日だッ！</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_JANDELAINE_000_084&lt;tab&gt;誕生日おめでとさん！</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_085&lt;tab&gt;……そうか、そういうことか。
 ベアティヌさんとセヴェリアンさんの真意を……
-私は今、ようやく理解しました……。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_086&lt;tab&gt;兄上……貴方はすごい人だ。
+私は今、ようやく理解しました……。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_086&lt;tab&gt;兄上……貴方はすごい人だ。
 家のことは、私が責任を持ってみせます！
-だから兄上は、これからも多くの人を切り刻んであげてください！</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_SUBPST013_01573_GUILLEFRESNE_000_087&lt;tab&gt;やはり、兄上……ジャンドゥレーヌは私の自慢で憧れです。
+だから兄上は、これからも多くの人を切り刻んであげてください！</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GUILLEFRESNE_000_087&lt;tab&gt;やはり、兄上……ジャンドゥレーヌは私の自慢で憧れです。
 私も、自分で選んだ使命を、きっと果たしてみせます。
-兄上や、配達士さんに負けないように！</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_SUBPST013_01573_SYSTEM_000_000&lt;tab&gt;先輩レターモーグリから託された手紙の配達に成功したため、
-「配達士」として成長しました！</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_SUBPST013_01573_GOFUJINN_000_024&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit></body></file></xliff>
+兄上や、配達士さんに負けないように！</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_SYSTEM_000_000&lt;tab&gt;先輩レターモーグリから託された手紙の配達に成功したため、
+「配達士」として成長しました！</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_SUBPST013_01573_GOFUJINN_000_024&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

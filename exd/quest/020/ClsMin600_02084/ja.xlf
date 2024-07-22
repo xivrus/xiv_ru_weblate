@@ -1,122 +1,540 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="ClsMin600_02084" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_CLSMIN600_02084_SEQ_00&lt;tab&gt;忘れられた騎士亭のハイムリックは、冒険者に感謝を伝えたいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_CLSMIN600_02084_SEQ_01&lt;tab&gt;低地ドラヴァニアでの調査を本格的に始めるよう依頼を受けた。イディルシャイアで「ハイムリック」と合流しよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_CLSMIN600_02084_SEQ_02&lt;tab&gt;ハイムリックの隊が魔物の襲撃を受け、ひなチョコが行方不明になった。人員の足りない彼らにかわり、冒険者は地域の顔役に協力を要請することになった。イディルシャイアの「ミッドナイト・デュー」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_CLSMIN600_02084_SEQ_03&lt;tab&gt;ひなチョコの消息は、ゴブリン族の行商が知っている可能性があるようだ。しかし、がめついゴブリン族の行商と交渉するには&lt;var 28 ((Item)) F230FA01 /var&gt;が3個必要だという。イディルシャイアの「ゴブリン族の行商人」に「&lt;var 28 ((Item)) F230FA01 /var&gt;」を3個納品しよう。手がかりはほとんどないが、&lt;var 28 ((Item)) F230FA01 /var&gt;は、魔大陸アジス・ラーの採掘場で採掘できるようだ。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_CLSMIN600_02084_SEQ_04&lt;tab&gt;ゴブリン族の行商に&lt;var 28 ((Item)) F230FA01 /var&gt;を3個納品した。喜んだゴブリン族の行商は、ひなチョコの場所まで案内してくれるという。イディルシャイアの「ハイムリック」と話そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_CLSMIN600_02084_SEQ_05&lt;tab&gt;ハイムリックと話した。低地ドラヴァニアの「シャーレアン哲人街」で目撃された「ひなチョコ」の救出に向かった、「ハイムリック」と合流しよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_CLSMIN600_02084_SEQ_06&lt;tab&gt;ひなチョコが救出された。弟を失ったときの状況と重ねあわせ、深く葛藤をしていたハイムリック隊長の心も救われたようだ。最後に隊長に、届け物を頼まれた。イディルシャイアの「ミッドナイト・デュー」に「&lt;var 28 ((EventItem)) F61E8B4101 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_CLSMIN600_02084_SEQ_07&lt;tab&gt;ミッドナイト・デューから、ハイムリックの弟であるゲヴハードの話を聞いた。行方不明となった直後に死んだと思われていた彼だが、その後しばらく生存していたようだ。彼はイディルシャイアを守って亡くなり、英雄として丁重に葬られたらしい。イシュガルドに戻り、忘れられた騎士亭の「ハイムリック」に報告しよう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_CLSMIN600_02084_SEQ_08&lt;tab&gt;ハイムリックに弟の消息を伝えた。彼は、弟の最期を聞いて、長年の胸のつかえがとれたようだ……。ひょんなことから関わることになった迅風傭兵団。重い過去を持つ者、成長過程の者など背負う背景は様々だが、同時にその前途には、大いなる未来も拓けている。彼らの伝説をつむぐ採掘師として、その手伝いをすることができたようだ。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="ClsMin600_02084" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_00&lt;tab&gt;忘れられた騎士亭のハイムリックは、冒険者に感謝を伝えたいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_01&lt;tab&gt;低地ドラヴァニアでの調査を本格的に始めるよう依頼を受けた。イディルシャイアで「ハイムリック」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_02&lt;tab&gt;ハイムリックの隊が魔物の襲撃を受け、ひなチョコが行方不明になった。人員の足りない彼らにかわり、冒険者は地域の顔役に協力を要請することになった。イディルシャイアの「ミッドナイト・デュー」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_03&lt;tab&gt;ひなチョコの消息は、ゴブリン族の行商が知っている可能性があるようだ。しかし、がめついゴブリン族の行商と交渉するには&lt;var 28 ((Item)) F230FA01 /var&gt;が3個必要だという。イディルシャイアの「ゴブリン族の行商人」に「&lt;var 28 ((Item)) F230FA01 /var&gt;」を3個納品しよう。手がかりはほとんどないが、&lt;var 28 ((Item)) F230FA01 /var&gt;は、魔大陸アジス・ラーの採掘場で採掘できるようだ。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_04&lt;tab&gt;ゴブリン族の行商に&lt;var 28 ((Item)) F230FA01 /var&gt;を3個納品した。喜んだゴブリン族の行商は、ひなチョコの場所まで案内してくれるという。イディルシャイアの「ハイムリック」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_05&lt;tab&gt;ハイムリックと話した。低地ドラヴァニアの「シャーレアン哲人街」で目撃された「ひなチョコ」の救出に向かった、「ハイムリック」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_06&lt;tab&gt;ひなチョコが救出された。弟を失ったときの状況と重ねあわせ、深く葛藤をしていたハイムリック隊長の心も救われたようだ。最後に隊長に、届け物を頼まれた。イディルシャイアの「ミッドナイト・デュー」に「&lt;var 28 ((EventItem)) F61E8B4101 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_07&lt;tab&gt;ミッドナイト・デューから、ハイムリックの弟であるゲヴハードの話を聞いた。行方不明となった直後に死んだと思われていた彼だが、その後しばらく生存していたようだ。彼はイディルシャイアを守って亡くなり、英雄として丁重に葬られたらしい。イシュガルドに戻り、忘れられた騎士亭の「ハイムリック」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SEQ_08&lt;tab&gt;ハイムリックに弟の消息を伝えた。彼は、弟の最期を聞いて、長年の胸のつかえがとれたようだ……。ひょんなことから関わることになった迅風傭兵団。重い過去を持つ者、成長過程の者など背負う背景は様々だが、同時にその前途には、大いなる未来も拓けている。彼らの伝説をつむぐ採掘師として、その手伝いをすることができたようだ。
 
 ※以下の条件を満たすと、採掘師ギルドのアダルベルタから、新たなクラスクエストを受注することができます。
 1.「メインクエスト：竜詩戦争 戦後編」の、
-　「宿命の果て」を完了する。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_CLSMIN600_02084_TODO_00&lt;tab&gt;イディルシャイアでハイムリックと合流</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_CLSMIN600_02084_TODO_01&lt;tab&gt;ミッドナイト・デューと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_CLSMIN600_02084_TODO_02&lt;tab&gt;&lt;var 08 E3E802E803 ((魔大陸アジス・ラーで&lt;var 28 ((Item)) F230FA01 /var&gt;を採掘)) ((イディルシャイアのゴブリン族の行商に&lt;var 28 ((Item)) F230FA01 /var&gt;を納品)) /var&gt;</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_CLSMIN600_02084_TODO_03&lt;tab&gt;イディルシャイアのハイムリックと話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_CLSMIN600_02084_TODO_04&lt;tab&gt;シャーレアン哲人街でハイムリックと合流</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_CLSMIN600_02084_TODO_05&lt;tab&gt;イディルシャイアのミッドナイト・デューに
-&lt;var 28 ((EventItem)) F61E8B4101 /var&gt;を渡す</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_CLSMIN600_02084_TODO_06&lt;tab&gt;イシュガルドのハイムリックに報告</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_000&lt;tab&gt;よう、先生。
+　「宿命の果て」を完了する。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_TODO_00&lt;tab&gt;イディルシャイアでハイムリックと合流</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_TODO_01&lt;tab&gt;ミッドナイト・デューと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_TODO_02&lt;tab&gt;&lt;var 08 E3E802E803 ((魔大陸アジス・ラーで&lt;var 28 ((Item)) F230FA01 /var&gt;を採掘)) ((イディルシャイアのゴブリン族の行商に&lt;var 28 ((Item)) F230FA01 /var&gt;を納品)) /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_TODO_03&lt;tab&gt;イディルシャイアのハイムリックと話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_TODO_04&lt;tab&gt;シャーレアン哲人街でハイムリックと合流</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_TODO_05&lt;tab&gt;イディルシャイアのミッドナイト・デューに
+&lt;var 28 ((EventItem)) F61E8B4101 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_TODO_06&lt;tab&gt;イシュガルドのハイムリックに報告</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_000&lt;tab&gt;よう、先生。
 知ってたか、「迅風傭兵団に凄腕の採掘師がいる」って、
-近ごろ評判なんだぜ？</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_001&lt;tab&gt;ひなチョコか……。
-ん……珍しい組み合わせだな。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_CLSMIN600_02084_BABYCHOCO_000_002&lt;tab&gt;そこで一緒になっただけっすよ。
-隊長に用事らしいっす。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_CLSMIN600_02084_FORTEMPSKNIGHT02080_000_003&lt;tab&gt;君たちの低地ドラヴァニアでの先遣調査の成功は、
+近ごろ評判なんだぜ？</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_001&lt;tab&gt;ひなチョコか……。
+ん……珍しい組み合わせだな。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_BABYCHOCO_000_002&lt;tab&gt;そこで一緒になっただけっすよ。
+隊長に用事らしいっす。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_FORTEMPSKNIGHT02080_000_003&lt;tab&gt;君たちの低地ドラヴァニアでの先遣調査の成功は、
 教皇庁のお歴々の耳にも届き、非常に高く評価されておる。
-これでフォルタン伯爵の発言力も、一層高まることだろう。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_004&lt;tab&gt;そいつは光栄ですね。
-……だが、ここに来られたからには、また仕事の依頼ですな？</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_CLSMIN600_02084_FORTEMPSKNIGHT02080_000_005&lt;tab&gt;ああ、今度は君たちに、
+これでフォルタン伯爵の発言力も、一層高まることだろう。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_004&lt;tab&gt;そいつは光栄ですね。
+……だが、ここに来られたからには、また仕事の依頼ですな？</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_FORTEMPSKNIGHT02080_000_005&lt;tab&gt;ああ、今度は君たちに、
 本腰をいれて採掘を進めさせてはどうか、と。
-教皇庁のほうから、直々にな……。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_006&lt;tab&gt;ほう、教皇庁からのご指名か。
-先生のおかげだな！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_CLSMIN600_02084_FORTEMPSKNIGHT02080_000_007&lt;tab&gt;ただ、誠に申し訳ないが……
+教皇庁のほうから、直々にな……。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_006&lt;tab&gt;ほう、教皇庁からのご指名か。
+先生のおかげだな！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_FORTEMPSKNIGHT02080_000_007&lt;tab&gt;ただ、誠に申し訳ないが……
 兵員の護送、人員の補強とも約束はしかねる。
-前回と同じ条件で、やり遂げてもらう必要がある。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_008&lt;tab&gt;事情はわかってるつもりだ。
-……いいだろう、引き受けた。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_CLSMIN600_02084_BABYCHOCO_000_009&lt;tab&gt;前と同じ条件っすか！？
-あんときだって、一歩間違えば危なかったっすよ！？</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_010&lt;tab&gt;だが、フォルタン家の旦那の権限が増すことは、
+前回と同じ条件で、やり遂げてもらう必要がある。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_008&lt;tab&gt;事情はわかってるつもりだ。
+……いいだろう、引き受けた。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_BABYCHOCO_000_009&lt;tab&gt;前と同じ条件っすか！？
+あんときだって、一歩間違えば危なかったっすよ！？</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_010&lt;tab&gt;だが、フォルタン家の旦那の権限が増すことは、
 雇われる側のオレたちの利でもある。
-こいつは、受けておいたほうがいい話なのさ。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_CLSMIN600_02084_BABYCHOCO_000_011&lt;tab&gt;オレは、そうは思わないっす！
-どうせまた、いいように使われるだけっすよ！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_012&lt;tab&gt;……あいつにはもっと、淡々と接するべきだったな。
+こいつは、受けておいたほうがいい話なのさ。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_BABYCHOCO_000_011&lt;tab&gt;オレは、そうは思わないっす！
+どうせまた、いいように使われるだけっすよ！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_012&lt;tab&gt;……あいつにはもっと、淡々と接するべきだったな。
 大事に育てようと、かまいすぎて……結果的に甘やかした。
-任務に対していちいち感情的になるのは、まずい傾向だ……。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_013&lt;tab&gt;やれやれ、まずは任務に集中しないとな……。
+任務に対していちいち感情的になるのは、まずい傾向だ……。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_013&lt;tab&gt;やれやれ、まずは任務に集中しないとな……。
 先生、今回も頼むぜ。
-低地ドラヴァニアに近い、「イディルシャイア」で落ち合おう。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_020&lt;tab&gt;やれやれ、まずは任務に集中しないとな……。
+低地ドラヴァニアに近い、「イディルシャイア」で落ち合おう。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_020&lt;tab&gt;やれやれ、まずは任務に集中しないとな……。
 先生、今回も頼むぜ。
-低地ドラヴァニアに近い、「イディルシャイア」で落ち合おう。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_CLSMIN600_02084_STRONGARM_000_025&lt;tab&gt;………………。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_040&lt;tab&gt;すまない、先生。
-最悪の事態が起きちまった……。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_041&lt;tab&gt;調査準備の途中で、魔物と激しい交戦が起きたんだ。
+低地ドラヴァニアに近い、「イディルシャイア」で落ち合おう。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_STRONGARM_000_025&lt;tab&gt;………………。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_040&lt;tab&gt;すまない、先生。
+最悪の事態が起きちまった……。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_041&lt;tab&gt;調査準備の途中で、魔物と激しい交戦が起きたんだ。
 重傷が2名、行方不明1名……
-行方が知れないひとりは……ひなチョコだ。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_042&lt;tab&gt;あいつ、仲間に重傷を負わせた魔物を深追いし、
+行方が知れないひとりは……ひなチョコだ。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_042&lt;tab&gt;あいつ、仲間に重傷を負わせた魔物を深追いし、
 そのまま姿が消えた。
-……もはや、任務どころじゃない。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_043&lt;tab&gt;捜索したいのはヤマヤマだが、
+……もはや、任務どころじゃない。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_043&lt;tab&gt;捜索したいのはヤマヤマだが、
 まともに動けるのはオレと剛力だけ。
-あてもなく探したって、見つかる見込みはない。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_044&lt;tab&gt;オレの死んだ弟もそうだった。
+あてもなく探したって、見つかる見込みはない。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_044&lt;tab&gt;オレの死んだ弟もそうだった。
 言い逃れのできない無茶をして、ひとり、行方知れずに……。
-オレは隊長として、あいつを見捨てる決断をした……。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_CLSMIN600_02084_Q1_000_050&lt;tab&gt;なんと答える？</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_CLSMIN600_02084_A1_001_050&lt;tab&gt;まだできることは？</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_CLSMIN600_02084_A1_002_050&lt;tab&gt;協力者を探そう</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_001_051&lt;tab&gt;できること、か……。
+オレは隊長として、あいつを見捨てる決断をした……。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_Q1_000_050&lt;tab&gt;なんと答える？</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_A1_001_050&lt;tab&gt;まだできることは？</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_A1_002_050&lt;tab&gt;協力者を探そう</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_001_051&lt;tab&gt;できること、か……。
 ひなチョコがいる場所さえわかれば、救出できるかもしれない。
-情報を持つ者がいないか、近くの住人に聞いてみるか。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_002_051&lt;tab&gt;協力者、か……。
+情報を持つ者がいないか、近くの住人に聞いてみるか。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_002_051&lt;tab&gt;協力者、か……。
 このあたりは冒険者やトレジャーハンターも多い。
-彼らを頼るのもひとつの手だな。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_060&lt;tab&gt;このイディルシャイアに、あたりを執り仕切ってる、
+彼らを頼るのもひとつの手だな。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_060&lt;tab&gt;このイディルシャイアに、あたりを執り仕切ってる、
 「ミッドナイト・デュー」という女性がいる。
-オレたちが捜索を続ける間、先生は彼女に会ってみてくれないか？</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_070&lt;tab&gt;このイディルシャイアに、あたりを執り仕切ってる、
+オレたちが捜索を続ける間、先生は彼女に会ってみてくれないか？</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_070&lt;tab&gt;このイディルシャイアに、あたりを執り仕切ってる、
 「ミッドナイト・デュー」という女性がいる。
-オレたちが捜索を続ける間、先生は彼女に会ってみてくれないか？</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_090&lt;tab&gt;……ハイムリック隊長のとこの傭兵さんが行方不明だって？
+オレたちが捜索を続ける間、先生は彼女に会ってみてくれないか？</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_090&lt;tab&gt;……ハイムリック隊長のとこの傭兵さんが行方不明だって？
 そりゃ大変だ、できるかぎり力になるよ。
-なに、困ったときは、お互い様さ。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_091&lt;tab&gt;だけど、行方不明になったって場所は、
+なに、困ったときは、お互い様さ。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_091&lt;tab&gt;だけど、行方不明になったって場所は、
 アタシらイディルシャイアの住人も、普段寄りつかないところだ。
-あまりに情報が少ないね、どうしたものか……。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_092&lt;tab&gt;……まてよ、確か、今ここに来ている「ゴブリン族の行商」が、
+あまりに情報が少ないね、どうしたものか……。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_092&lt;tab&gt;……まてよ、確か、今ここに来ている「ゴブリン族の行商」が、
 あのあたりを行き来していたはず……。
-アイツに当たってみるのが、いいかもしれない。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_100_092&lt;tab&gt;ただアイツは、ここに定住してるゴブリン族と違って、
+アイツに当たってみるのが、いいかもしれない。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_100_092&lt;tab&gt;ただアイツは、ここに定住してるゴブリン族と違って、
 相当ガメツイんだ……。
-何か知っていたとしても、簡単に教えてくれるかどうか。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_093&lt;tab&gt;前に商談をしたときも、伝説の「魔大陸」で採れるっていう、
+何か知っていたとしても、簡単に教えてくれるかどうか。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_093&lt;tab&gt;前に商談をしたときも、伝説の「魔大陸」で採れるっていう、
 「&lt;var 28 ((Item)) F230FA01 /var&gt;」を3つ持ってこいとか、滅茶苦茶言われてね。
-そんな伝説すら、アタシは聞いたこともないよ。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_100_093&lt;tab&gt;……まぁ、その鉱石があれば、商談でも情報でも、
-上手く交渉できるんだろうけどさ……。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_100&lt;tab&gt;確か、今ここに来ている「ゴブリン族の行商」が、
+そんな伝説すら、アタシは聞いたこともないよ。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_100_093&lt;tab&gt;……まぁ、その鉱石があれば、商談でも情報でも、
+上手く交渉できるんだろうけどさ……。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_100&lt;tab&gt;確か、今ここに来ている「ゴブリン族の行商」が、
 あのあたりを行き来していたはず……。
-アイツに当たってみるのが、いいかもしれない。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_101&lt;tab&gt;伝説の「魔大陸」で採れるっていう、
+アイツに当たってみるのが、いいかもしれない。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_101&lt;tab&gt;伝説の「魔大陸」で採れるっていう、
 「&lt;var 28 ((Item)) F230FA01 /var&gt;」でもあれば、
-商談でも情報でも、上手く交渉できるんだろうけどさ……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_105&lt;tab&gt;剛力と捜索を続けてるが、ひなチョコは見つからねえ……。
-やはり、捜索範囲が絞り込めないのが痛いな。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_110&lt;tab&gt;シュコォ……シュコォ……
+商談でも情報でも、上手く交渉できるんだろうけどさ……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_105&lt;tab&gt;剛力と捜索を続けてるが、ひなチョコは見つからねえ……。
+やはり、捜索範囲が絞り込めないのが痛いな。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_110&lt;tab&gt;シュコォ……シュコォ……
 ゴブが欲しいの　「&lt;var 28 ((Item)) F230FA01 /var&gt;」　3つ！
-なければ　交渉　オコトワリ～！</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_120&lt;tab&gt;シュコォ……シュコォ……
+なければ　交渉　オコトワリ～！</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_120&lt;tab&gt;シュコォ……シュコォ……
 これ　まさか伝説の　「&lt;var 28 ((Item)) F230FA01 /var&gt;」！？
-マジでホントに　あるとはな～！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_121&lt;tab&gt;……なるほど　トモダチ　行方不明
+マジでホントに　あるとはな～！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_121&lt;tab&gt;……なるほど　トモダチ　行方不明
 そういや　ここに来る前　見かけたかも！
-ハイムリックに　場所　おしえてくる～！</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_140&lt;tab&gt;おい、先生……さっきゴブリン族の行商が来て、
+ハイムリックに　場所　おしえてくる～！</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_140&lt;tab&gt;おい、先生……さっきゴブリン族の行商が来て、
 ひなチョコの居場所を教えてくれたぞ！
-「シャーレアン哲人街」で見たかもしれないってよ！</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_141&lt;tab&gt;伝説の&lt;var 28 ((Item)) F230FA01 /var&gt;をプレゼントされたとかで、
+「シャーレアン哲人街」で見たかもしれないってよ！</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_141&lt;tab&gt;伝説の&lt;var 28 ((Item)) F230FA01 /var&gt;をプレゼントされたとかで、
 やけに機嫌がよかったが……。
-先生が採掘してきてくれたそうじゃないか！</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_142&lt;tab&gt;危険地帯を突っ切る必要はあるが、
+先生が採掘してきてくれたそうじゃないか！</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_142&lt;tab&gt;危険地帯を突っ切る必要はあるが、
 場所がはっきりしてるなら、オレと剛力だけで救出に向かえる。
-例のゴブリン族も、案内してくれるっていうしな！</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_143&lt;tab&gt;ここまで自力で来た先生のことだ。
-救出につきあってくれるなら「シャーレアン哲人街」で合流しよう！</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_CLSMIN600_02084_STRONGARM_000_150&lt;tab&gt;……どこにいる？</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_160&lt;tab&gt;シュコォ……シュコォ……
-オマエ　石くれた　だから　いいヒト！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_501&lt;tab&gt;先生じゃねえか！
-よく、ここまで来てくれたな！</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_CLSMIN600_02084_STRONGARM_000_502&lt;tab&gt;……隊長。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_503&lt;tab&gt;ひなチョコ！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_504&lt;tab&gt;……先生、後方の警戒を頼む！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_CLSMIN600_02084_BABYCHOCO_000_505&lt;tab&gt;た、隊長……？
-……なんで、オレなんかを助けに。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_506&lt;tab&gt;まったく、お前は、何度オレに怒られれば気が済むんだ。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_CLSMIN600_02084_BABYCHOCO_000_507&lt;tab&gt;……オレが、バカでした。
-命令を無視して、勝手な行動を……。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_508&lt;tab&gt;ああ、おかげで任務は失敗だ、厳罰を覚悟しろ。
-ただし……</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_509&lt;tab&gt;まずは、その怪我を治してからだ！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_CLSMIN600_02084_BABYCHOCO_000_510&lt;tab&gt;その貴重な鉱石と引き換えに、案内役を……？</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_511&lt;tab&gt;シュコォ……シュコォ……
+例のゴブリン族も、案内してくれるっていうしな！</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_143&lt;tab&gt;ここまで自力で来た先生のことだ。
+救出につきあってくれるなら「シャーレアン哲人街」で合流しよう！</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_STRONGARM_000_150&lt;tab&gt;……どこにいる？</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_160&lt;tab&gt;シュコォ……シュコォ……
+オマエ　石くれた　だから　いいヒト！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_501&lt;tab&gt;先生じゃねえか！
+よく、ここまで来てくれたな！</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_STRONGARM_000_502&lt;tab&gt;……隊長。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_503&lt;tab&gt;ひなチョコ！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_504&lt;tab&gt;……先生、後方の警戒を頼む！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_BABYCHOCO_000_505&lt;tab&gt;た、隊長……？
+……なんで、オレなんかを助けに。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_506&lt;tab&gt;まったく、お前は、何度オレに怒られれば気が済むんだ。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_BABYCHOCO_000_507&lt;tab&gt;……オレが、バカでした。
+命令を無視して、勝手な行動を……。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_508&lt;tab&gt;ああ、おかげで任務は失敗だ、厳罰を覚悟しろ。
+ただし……</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_509&lt;tab&gt;まずは、その怪我を治してからだ！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_BABYCHOCO_000_510&lt;tab&gt;その貴重な鉱石と引き換えに、案内役を……？</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_GOBLINMERCHANT02084_000_511&lt;tab&gt;シュコォ……シュコォ……
 この石　ずっとずっと　さがしてた！
-これくれるなら　キケン案内　お安い御用～！</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_512&lt;tab&gt;お前を救助できたのは、
+これくれるなら　キケン案内　お安い御用～！</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_512&lt;tab&gt;お前を救助できたのは、
 先生が苦労して掘りあてた、この鉱石のおかげだ。
-感謝するんだな。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_CLSMIN600_02084_BABYCHOCO_000_513&lt;tab&gt;先生……ありがとう。
-迷惑かけて、本当にすみませんでした……。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_100_513&lt;tab&gt;……少し、昔の話をさせてくれ。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_514&lt;tab&gt;オレには弟がいた……名前は、ゲヴハード。
+感謝するんだな。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_BABYCHOCO_000_513&lt;tab&gt;先生……ありがとう。
+迷惑かけて、本当にすみませんでした……。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_100_513&lt;tab&gt;……少し、昔の話をさせてくれ。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_514&lt;tab&gt;オレには弟がいた……名前は、ゲヴハード。
 ひなチョコと同じぐらいの歳で、オレの部下になった。
-生意気で身勝手なところも、お前とそっくりでな……</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_515&lt;tab&gt;あいつと生き別れたのは、クルザス西部高地だった。
+生意気で身勝手なところも、お前とそっくりでな……</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_515&lt;tab&gt;あいつと生き別れたのは、クルザス西部高地だった。
 独断専行のあげく、死地に取り残されたんだ。
-二次被害を避けるため……オレはあいつを見捨てた。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_516&lt;tab&gt;今でも、正しい判断だったと思ってる。
-……指揮官としては、な。</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_517&lt;tab&gt;お前を救えて、よかった。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_518&lt;tab&gt;さあ、昔話は終わりだ……。
+二次被害を避けるため……オレはあいつを見捨てた。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_516&lt;tab&gt;今でも、正しい判断だったと思ってる。
+……指揮官としては、な。</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_517&lt;tab&gt;お前を救えて、よかった。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_518&lt;tab&gt;さあ、昔話は終わりだ……。
 行商どの、案内役に感謝する！
-剛力、ひなチョコを連れて帰還するぞ。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_519&lt;tab&gt;先生、ひとつ頼みがある。
+剛力、ひなチョコを連れて帰還するぞ。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_519&lt;tab&gt;先生、ひとつ頼みがある。
 「ミッドナイト・デュー」に、こいつを渡しといてくれないか？
-世話になったってな。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_570&lt;tab&gt;イディルシャイアの「ミッドナイト・デュー」に、
-「&lt;var 28 ((EventItem)) F61E8B4101 /var&gt;」を渡してくれたか？</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_600&lt;tab&gt;結局、どうなったんだい？
-ハイムリック隊長たち……。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_610&lt;tab&gt;……そうかい、行方不明のひとりも救出できたんだね！
+世話になったってな。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_570&lt;tab&gt;イディルシャイアの「ミッドナイト・デュー」に、
+「&lt;var 28 ((EventItem)) F61E8B4101 /var&gt;」を渡してくれたか？</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_600&lt;tab&gt;結局、どうなったんだい？
+ハイムリック隊長たち……。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_610&lt;tab&gt;……そうかい、行方不明のひとりも救出できたんだね！
 よかった、安心したよ！
-アタシも昔、隊長には世話になったからね、心配してたんだ。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_611&lt;tab&gt;へえ、あの人、弟さんがいたんだね。
-クルザスのほうで行方不明に……あれ？　なんて人？</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_612&lt;tab&gt;ゲヴハードだって！？　知ってるよ、その人！
-ハイムリック隊長の弟だったのかい……。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_613&lt;tab&gt;……少し前、傭兵くずれを自称する男が、ここで働いていたわ。
+アタシも昔、隊長には世話になったからね、心配してたんだ。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_611&lt;tab&gt;へえ、あの人、弟さんがいたんだね。
+クルザスのほうで行方不明に……あれ？　なんて人？</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_612&lt;tab&gt;ゲヴハードだって！？　知ってるよ、その人！
+ハイムリック隊長の弟だったのかい……。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_613&lt;tab&gt;……少し前、傭兵くずれを自称する男が、ここで働いていたわ。
 怪我して倒れてたところを、ゴブリン族に助けられたから、
-彼らに恩を返すんだってね。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_614&lt;tab&gt;ここのゴブリン族たちに、武器の扱いかたを教えてたんだけど、
+彼らに恩を返すんだってね。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_614&lt;tab&gt;ここのゴブリン族たちに、武器の扱いかたを教えてたんだけど、
 結局、この街を外敵から守って亡くなった……。
-その後、ゴブリン族たちに、英雄として丁重に葬られたわ。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_616&lt;tab&gt;ゲヴハードの話、ハイムリック隊長に伝えてあげてくれないかい？
-少しは、救いになると思うんだ……。</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_615&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_620&lt;tab&gt;ゲヴハードの話、ハイムリック隊長に伝えてあげてくれないかい？
-少しは、救いになると思うんだ……。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_650&lt;tab&gt;よう先生、帰ってきたか……何だって？
+その後、ゴブリン族たちに、英雄として丁重に葬られたわ。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_616&lt;tab&gt;ゲヴハードの話、ハイムリック隊長に伝えてあげてくれないかい？
+少しは、救いになると思うんだ……。</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_615&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_MIDNIGHTDEW_000_620&lt;tab&gt;ゲヴハードの話、ハイムリック隊長に伝えてあげてくれないかい？
+少しは、救いになると思うんだ……。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_650&lt;tab&gt;よう先生、帰ってきたか……何だって？
 弟のゲヴハードが、イディルシャイアに居たことがある？
-オレが見捨てた後、最近まで生きてたっていうのか！</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_651&lt;tab&gt;あの時、死んだものと諦めてた……。
+オレが見捨てた後、最近まで生きてたっていうのか！</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_651&lt;tab&gt;あの時、死んだものと諦めてた……。
 その後のあいつの消息が聞けただけでも、充分だ。
-そうか、無駄死にしたわけじゃ、なかったんだな……。</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_652&lt;tab&gt;先生が見つけてくれなきゃ、弟の記憶は埋もれたままだった。
-……いや、それだけじゃねえ、ひなチョコの命もだ！</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_100_652&lt;tab&gt;すごいな……。
-先生のピックやハンマーは、何でも掘り起こす魔法の道具だぜ！</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_653&lt;tab&gt;ここだけの話……ひなチョコはもう、
+そうか、無駄死にしたわけじゃ、なかったんだな……。</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_652&lt;tab&gt;先生が見つけてくれなきゃ、弟の記憶は埋もれたままだった。
+……いや、それだけじゃねえ、ひなチョコの命もだ！</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_100_652&lt;tab&gt;すごいな……。
+先生のピックやハンマーは、何でも掘り起こす魔法の道具だぜ！</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_653&lt;tab&gt;ここだけの話……ひなチョコはもう、
 オレのもとを巣立ってもいいかもしれないと思ってる。
-窮屈な傭兵より、先生みたいな冒険稼業がお似合いかもしれねえ。</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_000_654&lt;tab&gt;「迅風傭兵団」も、もっと名を広げてみせる……！
+窮屈な傭兵より、先生みたいな冒険稼業がお似合いかもしれねえ。</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_000_654&lt;tab&gt;「迅風傭兵団」も、もっと名を広げてみせる……！
 オレたちも、いつまでも皇都に留まってないで、
-広い世界に旅立つ時が来たのかもしれないな。</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_CLSMIN600_02084_HEIMIRICH_100_654&lt;tab&gt;そんときゃ行く先々で、「伝説の採掘師」の噂を広めるとするか！
+広い世界に旅立つ時が来たのかもしれないな。</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_HEIMIRICH_100_654&lt;tab&gt;そんときゃ行く先々で、「伝説の採掘師」の噂を広めるとするか！
 オレたちには、&lt;var 29 EB02 /var&gt;という、
-すごい先生がいたんだってよ！</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_CLSMIN600_02084_SYSTEM_000_900&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_CLSMIN600_02084_SYSTEM_000_500&lt;tab&gt;「採掘師」の物語が、ひとつの区切りを迎えました！
+すごい先生がいたんだってよ！</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SYSTEM_000_900&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SYSTEM_000_500&lt;tab&gt;「採掘師」の物語が、ひとつの区切りを迎えました！
 次の「採掘師」のクラスクエストを開始するためには、
-以下の条件を満たす必要があります。</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_CLSMIN600_02084_SYSTEM_000_501&lt;tab&gt;1.「メインクエスト：竜詩戦争 戦後編」の、
-　「宿命の果て」を完了する。</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_CLSMIN600_02084_SYSTEM_000_502&lt;tab&gt;条件を満たし、採掘師ギルドの「アダルベルタ」に話しかけ、
-新たなクラスクエストを開始しましょう！</target></trans-unit></body></file></xliff>
+以下の条件を満たす必要があります。</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SYSTEM_000_501&lt;tab&gt;1.「メインクエスト：竜詩戦争 戦後編」の、
+　「宿命の果て」を完了する。</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_CLSMIN600_02084_SYSTEM_000_502&lt;tab&gt;条件を満たし、採掘師ギルドの「アダルベルタ」に話しかけ、
+新たなクラスクエストを開始しましょう！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

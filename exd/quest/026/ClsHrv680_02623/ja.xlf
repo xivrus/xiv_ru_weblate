@@ -1,92 +1,426 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="ClsHrv680_02623" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_CLSHRV680_02623_SEQ_00&lt;tab&gt;グリーングラブ菜園のエドギスは、冒険者に結果を報告したいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_CLSHRV680_02623_SEQ_01&lt;tab&gt;エドギスによると、品種改良の第一世代が枯死したらしい。そのことで、フフチャから話があるそうだ。グリダニアの園芸師ギルドにいる「フフチャ」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_CLSHRV680_02623_SEQ_02&lt;tab&gt;フフチャと話した。園芸師ギルドでも枯死の原因がわからなかったので、冒険者も調べてほしいと頼まれた。イディルシャイアのグリーングラブ菜園にある「&lt;var 28 ((EObj)) F61EA47501 /var&gt;」を調べよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_CLSHRV680_02623_SEQ_03&lt;tab&gt;&lt;var 28 ((EObj)) F61EA47501 /var&gt;を調べた。グリーングラブ菜園の「&lt;var 28 ((EObj)) F61EA47501 /var&gt;」を再度調べよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_CLSHRV680_02623_SEQ_04&lt;tab&gt;&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;を手に入れた。グリーングラブ菜園の「エドギス」に「&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_CLSHRV680_02623_SEQ_05&lt;tab&gt;エドギスに&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;を渡した。彼女は何かに気がついたらしく、原因を確定させるための試薬の発注を冒険者に頼んだ。イディルシャイアのスティックキクス工房にいる「ゴルドオクス」に「&lt;var 28 ((EventItem)) F61E8CF701 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_CLSHRV680_02623_SEQ_06&lt;tab&gt;ゴルドオクスに&lt;var 28 ((EventItem)) F61E8CF701 /var&gt;を渡した。&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;を作るには、材料が足りないらしい。スティックキクス工房の「ゴルドオクス」に「&lt;var 28 ((Item)) F2461B01 /var&gt;」を20個納品しよう。「&lt;var 28 ((Item)) F2461B01 /var&gt;」は紅玉海の螺旋海峡にある草刈場で草刈できる。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_CLSHRV680_02623_SEQ_07&lt;tab&gt;ゴルドオクスに&lt;var 28 ((Item)) F2461B01 /var&gt;を納品し、&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;を作ってもらった。グリーングラブ菜園の「エドギス」に「&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_CLSHRV680_02623_SEQ_08&lt;tab&gt;エドギスに&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;を渡した。それを使って確認したところ、第一世代の枯死の原因は、ネマトーダという虫によるものだとわかった。フフチャらが対応策を探している間、冒険者は何が起きてもいいように園芸師の技術を磨いておこう。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="ClsHrv680_02623" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_00&lt;tab&gt;グリーングラブ菜園のエドギスは、冒険者に結果を報告したいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_01&lt;tab&gt;エドギスによると、品種改良の第一世代が枯死したらしい。そのことで、フフチャから話があるそうだ。グリダニアの園芸師ギルドにいる「フフチャ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_02&lt;tab&gt;フフチャと話した。園芸師ギルドでも枯死の原因がわからなかったので、冒険者も調べてほしいと頼まれた。イディルシャイアのグリーングラブ菜園にある「&lt;var 28 ((EObj)) F61EA47501 /var&gt;」を調べよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_03&lt;tab&gt;&lt;var 28 ((EObj)) F61EA47501 /var&gt;を調べた。グリーングラブ菜園の「&lt;var 28 ((EObj)) F61EA47501 /var&gt;」を再度調べよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_04&lt;tab&gt;&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;を手に入れた。グリーングラブ菜園の「エドギス」に「&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_05&lt;tab&gt;エドギスに&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;を渡した。彼女は何かに気がついたらしく、原因を確定させるための試薬の発注を冒険者に頼んだ。イディルシャイアのスティックキクス工房にいる「ゴルドオクス」に「&lt;var 28 ((EventItem)) F61E8CF701 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_06&lt;tab&gt;ゴルドオクスに&lt;var 28 ((EventItem)) F61E8CF701 /var&gt;を渡した。&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;を作るには、材料が足りないらしい。スティックキクス工房の「ゴルドオクス」に「&lt;var 28 ((Item)) F2461B01 /var&gt;」を20個納品しよう。「&lt;var 28 ((Item)) F2461B01 /var&gt;」は紅玉海の螺旋海峡にある草刈場で草刈できる。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_07&lt;tab&gt;ゴルドオクスに&lt;var 28 ((Item)) F2461B01 /var&gt;を納品し、&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;を作ってもらった。グリーングラブ菜園の「エドギス」に「&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SEQ_08&lt;tab&gt;エドギスに&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;を渡した。それを使って確認したところ、第一世代の枯死の原因は、ネマトーダという虫によるものだとわかった。フフチャらが対応策を探している間、冒険者は何が起きてもいいように園芸師の技術を磨いておこう。
 
-※園芸師のレベルが70以上になると、イディルシャイアのグリーングラブ菜園にいるエドギスから次の園芸師クエストを受注することができます。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_CLSHRV680_02623_TODO_00&lt;tab&gt;園芸師ギルドのフフチャと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_CLSHRV680_02623_TODO_01&lt;tab&gt;イディルシャイアの&lt;var 28 ((EObj)) F61EA47501 /var&gt;を調べる</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_CLSHRV680_02623_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EA47501 /var&gt;を再度調べる</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_CLSHRV680_02623_TODO_03&lt;tab&gt;エドギスに&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;を渡す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_CLSHRV680_02623_TODO_04&lt;tab&gt;ゴルドオクスに&lt;var 28 ((EventItem)) F61E8CF701 /var&gt;を渡す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_CLSHRV680_02623_TODO_05&lt;tab&gt;&lt;var 08 E3E802E803 ((螺旋海峡で&lt;var 28 ((Item)) F2461B01 /var&gt;を草刈)) ((イディルシャイアのゴルドオクスに&lt;var 28 ((Item)) F2461B01 /var&gt;を納品)) /var&gt;</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_CLSHRV680_02623_TODO_06&lt;tab&gt;エドギスに&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;を渡す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_000&lt;tab&gt;……あ、冒険者さん。
+※園芸師のレベルが70以上になると、イディルシャイアのグリーングラブ菜園にいるエドギスから次の園芸師クエストを受注することができます。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_TODO_00&lt;tab&gt;園芸師ギルドのフフチャと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_TODO_01&lt;tab&gt;イディルシャイアの&lt;var 28 ((EObj)) F61EA47501 /var&gt;を調べる</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EA47501 /var&gt;を再度調べる</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_TODO_03&lt;tab&gt;エドギスに&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_TODO_04&lt;tab&gt;ゴルドオクスに&lt;var 28 ((EventItem)) F61E8CF701 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_TODO_05&lt;tab&gt;&lt;var 08 E3E802E803 ((螺旋海峡で&lt;var 28 ((Item)) F2461B01 /var&gt;を草刈)) ((イディルシャイアのゴルドオクスに&lt;var 28 ((Item)) F2461B01 /var&gt;を納品)) /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_TODO_06&lt;tab&gt;エドギスに&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_000&lt;tab&gt;……あ、冒険者さん。
 すみません、ダメダメなウチのせいで、
-残念な結果を伝えなきゃいけません……。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_001&lt;tab&gt;交雑で作りだした改良ポポトの第一世代ですが、
+残念な結果を伝えなきゃいけません……。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_001&lt;tab&gt;交雑で作りだした改良ポポトの第一世代ですが、
 発芽はしたものの、すぐに枯れてしまったんです。
-何らかの病害だと思うのですが……。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_002&lt;tab&gt;今後について「フフチャ」様から話があるとのことなので、
+何らかの病害だと思うのですが……。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_002&lt;tab&gt;今後について「フフチャ」様から話があるとのことなので、
 冒険者さんも、一緒に話を聞いてもらえませんか？
-よろしくお願いします……。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_003&lt;tab&gt;来てくれてありがとうございます、冒険者さん。
-それじゃあ、一緒に「フフチャ」様の話を聞いてください……。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_010&lt;tab&gt;よく来てくれました、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+よろしくお願いします……。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_003&lt;tab&gt;来てくれてありがとうございます、冒険者さん。
+それじゃあ、一緒に「フフチャ」様の話を聞いてください……。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_010&lt;tab&gt;よく来てくれました、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
 第一世代の枯死については聞きましたね？
-その解決について、あなたの力をお借りしたいのです。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_011&lt;tab&gt;おそらく、メークインポポトの病気や害虫に弱いという形質が、
+その解決について、あなたの力をお借りしたいのです。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_011&lt;tab&gt;おそらく、メークインポポトの病気や害虫に弱いという形質が、
 第一世代に遺伝したのだと思いますが、直接の原因は不明……。
-まずは、問題を洗い出すところから始めねばなりません。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_012&lt;tab&gt;そんな！？
+まずは、問題を洗い出すところから始めねばなりません。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_012&lt;tab&gt;そんな！？
 フフチャ様でも……グリダニアの誇る園芸師ギルドでも！
-枯死の原因がわからないというのですか！？</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_013&lt;tab&gt;ええ……残念ながら。
+枯死の原因がわからないというのですか！？</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_013&lt;tab&gt;ええ……残念ながら。
 私たちも、自然の恵みを与る者でしかなく、
-悔しくはありますが、すべてがわかるわけではありません。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_014&lt;tab&gt;ですが、解決を諦めたわけではありませんよ。
-原因を究明するべく、引き続き調査を行いましょう。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_015&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、あなたも手伝ってください。
+悔しくはありますが、すべてがわかるわけではありません。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_014&lt;tab&gt;ですが、解決を諦めたわけではありませんよ。
+原因を究明するべく、引き続き調査を行いましょう。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_015&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、あなたも手伝ってください。
 さしあたり、菜園の畑を調べてほしいのです。
-冒険者ならではの視点で、何か発見できるかもしれませんから。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_016&lt;tab&gt;あ、う、ウチも戻って、一緒に調べます。
-ダメダメなウチじゃ、何もできないと思いますけど……。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_017&lt;tab&gt;植物が枯死する原因はさまざまです。
+冒険者ならではの視点で、何か発見できるかもしれませんから。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_016&lt;tab&gt;あ、う、ウチも戻って、一緒に調べます。
+ダメダメなウチじゃ、何もできないと思いますけど……。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_017&lt;tab&gt;植物が枯死する原因はさまざまです。
 ですが、管理に不備があったとは思えません。
-何か別の、不測の事態によるものとしか……。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_018&lt;tab&gt;ソーニーさんには、状況を共有して、
+何か別の、不測の事態によるものとしか……。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_018&lt;tab&gt;ソーニーさんには、状況を共有して、
 シャーレアンの資料を、調べてもらっています。
-……ウチがダメダメなせいで、失敗してごめんなさい。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_CLSHRV680_02623_SYSTEM_000_020&lt;tab&gt;土の中に、極小さな白い点が見える……。
-もっとよく調べてみよう。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_CLSHRV680_02623_SYSTEM_100_020&lt;tab&gt;&lt;var 28 ((EObj)) F61EA47501 /var&gt;から、「&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;」を見つけた！</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_110_020&lt;tab&gt;ぼ、冒険者さん、なにか見つけたんですか！？
+……ウチがダメダメなせいで、失敗してごめんなさい。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SYSTEM_000_020&lt;tab&gt;土の中に、極小さな白い点が見える……。
+もっとよく調べてみよう。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SYSTEM_100_020&lt;tab&gt;&lt;var 28 ((EObj)) F61EA47501 /var&gt;から、「&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;」を見つけた！</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_110_020&lt;tab&gt;ぼ、冒険者さん、なにか見つけたんですか！？
 すごいです、さすがです！！
-……あ、あの、ダメダメなウチにも、見せてもらえませんか？</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_020&lt;tab&gt;そ、そのう……よければですね、
-ダメダメなウチにも、見つけたものを見せてもらえませんか？</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_021&lt;tab&gt;……これは……石？
+……あ、あの、ダメダメなウチにも、見せてもらえませんか？</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_020&lt;tab&gt;そ、そのう……よければですね、
+ダメダメなウチにも、見つけたものを見せてもらえませんか？</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_021&lt;tab&gt;……これは……石？
 いや、違う……そうじゃなくて……。
-でもこれを、フフチャ様がわからないはずない……</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_022&lt;tab&gt;……そうです、きっと勘違いです。
+でもこれを、フフチャ様がわからないはずない……</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_022&lt;tab&gt;……そうです、きっと勘違いです。
 ダメダメなウチの考えなんて、
-絶対間違ってると思いますし……。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_CLSHRV680_02623_Q1_000_000&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_CLSHRV680_02623_A1_000_001&lt;tab&gt;自分の考えに自信を持て</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_CLSHRV680_02623_A1_000_002&lt;tab&gt;フフチャだってわからないことがある</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_030&lt;tab&gt;冒険者さん……。
+絶対間違ってると思いますし……。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_Q1_000_000&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_A1_000_001&lt;tab&gt;自分の考えに自信を持て</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_A1_000_002&lt;tab&gt;フフチャだってわからないことがある</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_030&lt;tab&gt;冒険者さん……。
 ウチ……ダメダメですけど……。
-でも、冒険者さんの言葉なら、自信を持ちます！</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_040&lt;tab&gt;……フフチャ様も、そう言ってましたね。
+でも、冒険者さんの言葉なら、自信を持ちます！</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_040&lt;tab&gt;……フフチャ様も、そう言ってましたね。
 それなら……何かの奇跡で、ダメダメなウチが、
-気がついてしまうことも、あるかもしれなかったり……うん！</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_041&lt;tab&gt;もしかしたら、枯死の原因がわかるかもしれません。
-ただ、確定させるためには&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;が必要です。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_042&lt;tab&gt;冒険者さん、スティックキクス工房の、
+気がついてしまうことも、あるかもしれなかったり……うん！</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_041&lt;tab&gt;もしかしたら、枯死の原因がわかるかもしれません。
+ただ、確定させるためには&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;が必要です。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_042&lt;tab&gt;冒険者さん、スティックキクス工房の、
 「ゴルドオクス」さんにこのメモを渡して、
-&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;をもらってきてもらえますか？</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_043&lt;tab&gt;ウチはこの&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;を、
+&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;をもらってきてもらえますか？</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_043&lt;tab&gt;ウチはこの&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;を、
 フフチャ様とソーニーさんに見せて、相談してきます。
-よろしくお願いしますね！</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_043&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、お手柄でした。
+よろしくお願いしますね！</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_043&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、お手柄でした。
 エドギスさんの話からして、おそらく原因は……。
-いえ、これは確定してからお話ししましょう。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_050&lt;tab&gt;シュコォ……シュコォ……
+いえ、これは確定してからお話ししましょう。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_050&lt;tab&gt;シュコォ……シュコォ……
 アンタは　ヒトの　採掘師？
-最技研に　ご用でなくて　わざわざゴブに　何のご用？</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_060&lt;tab&gt;シュコォ……シュコォ……
+最技研に　ご用でなくて　わざわざゴブに　何のご用？</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_060&lt;tab&gt;シュコォ……シュコォ……
 ようこそ　我らが　工房へ！
-いったい　ぜんたい　何のご用？</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_070&lt;tab&gt;シュコォ……シュコォ……
+いったい　ぜんたい　何のご用？</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_070&lt;tab&gt;シュコォ……シュコォ……
 なるほど　なるほど　&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;が　ご入用！
-でもでも　いまは　作れない！</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_071&lt;tab&gt;欠かせぬ　素材　とっても希少な　「&lt;var 28 ((Item)) F2461B01 /var&gt;」
-手持ちにないから　作れない！</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_072&lt;tab&gt;アンタは　園芸　できる人？
+でもでも　いまは　作れない！</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_071&lt;tab&gt;欠かせぬ　素材　とっても希少な　「&lt;var 28 ((Item)) F2461B01 /var&gt;」
+手持ちにないから　作れない！</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_072&lt;tab&gt;アンタは　園芸　できる人？
 ならなら　「&lt;var 28 ((Item)) F2461B01 /var&gt;」　採ってきて！
-20個もあれば　&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;　作れるぞ～！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_073&lt;tab&gt;「&lt;var 28 ((Item)) F2461B01 /var&gt;」　遠い東の　海藻よ！
-紅玉海の　海の底　そこなら　そこそこ　採れるはず～！</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_080&lt;tab&gt;シュコォ……シュコォ……
+20個もあれば　&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;　作れるぞ～！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_073&lt;tab&gt;「&lt;var 28 ((Item)) F2461B01 /var&gt;」　遠い東の　海藻よ！
+紅玉海の　海の底　そこなら　そこそこ　採れるはず～！</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_080&lt;tab&gt;シュコォ……シュコォ……
 紅玉海の　「&lt;var 28 ((Item)) F2461B01 /var&gt;」　20個もあれば
-&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;が　作れるぞ～！</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_081&lt;tab&gt;これは　まさしく　「&lt;var 28 ((Item)) F2461B01 /var&gt;」だ！
+&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;が　作れるぞ～！</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_081&lt;tab&gt;これは　まさしく　「&lt;var 28 ((Item)) F2461B01 /var&gt;」だ！
 品質　良質　これならできる！
-ちょっと　待ってね　すぐすぐ　試薬を　作っちゃる！</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_100_081&lt;tab&gt;シュコォ……シュコォ……
+ちょっと　待ってね　すぐすぐ　試薬を　作っちゃる！</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_100_081&lt;tab&gt;シュコォ……シュコォ……
 ガリガリ　ゴリゴリ　素材を潰し～
-ゴブの技術で　混ぜ混ぜすれば～　あっという間に　できあがり～！</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_082&lt;tab&gt;シュコォ……シュコォ……
+ゴブの技術で　混ぜ混ぜすれば～　あっという間に　できあがり～！</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_082&lt;tab&gt;シュコォ……シュコォ……
 ほらほら　完成　「&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;」！
-コイツを　「エドギス」　届けてね～！</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_CLSHRV680_02623_GOLDWOX_000_083&lt;tab&gt;シュコォ……シュコォ……
+コイツを　「エドギス」　届けてね～！</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOLDWOX_000_083&lt;tab&gt;シュコォ……シュコォ……
 ゴブの　力作　「&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;」！
-ちゃんと　「エドギス」　届けてね～！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_090&lt;tab&gt;冒険者さん、冒険者さん、お待ちしてました！
-「&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;」は手に入りましたか？</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_091&lt;tab&gt;さすが、冒険者さん！
+ちゃんと　「エドギス」　届けてね～！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_090&lt;tab&gt;冒険者さん、冒険者さん、お待ちしてました！
+「&lt;var 28 ((EventItem)) F61E8CF801 /var&gt;」は手に入りましたか？</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_091&lt;tab&gt;さすが、冒険者さん！
 これで原因を特定できますよ。
-本当にダメダメなウチの考えが正解か……それ！</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_100&lt;tab&gt;やっぱり……反応がでちゃいましたね……
-信じられないけど、間違いありません。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_101&lt;tab&gt;そろそろ、何かがつかめている頃かと思い、
-様子を見にきてみましたが……いかがですか？</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_CLSHRV680_02623_SAWNEY_000_102&lt;tab&gt;シャーレアンの資料にあった「アレ」で、
-間違いなかったのか？</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_103&lt;tab&gt;試薬に反応しましたし、間違いありません。
+本当にダメダメなウチの考えが正解か……それ！</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_100&lt;tab&gt;やっぱり……反応がでちゃいましたね……
+信じられないけど、間違いありません。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_101&lt;tab&gt;そろそろ、何かがつかめている頃かと思い、
+様子を見にきてみましたが……いかがですか？</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SAWNEY_000_102&lt;tab&gt;シャーレアンの資料にあった「アレ」で、
+間違いなかったのか？</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_103&lt;tab&gt;試薬に反応しましたし、間違いありません。
 枯死の原因は、ネマトーダというとても小さな害虫。
-冒険者さんが見つけた「&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;」は、その卵です。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_104&lt;tab&gt;エドギスさんが気がついたとおりでしたか。
+冒険者さんが見つけた「&lt;var 28 ((EventItem)) F61E8CF601 /var&gt;」は、その卵です。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_104&lt;tab&gt;エドギスさんが気がついたとおりでしたか。
 ですが、ネマトーダは寄生する宿主がなければ生きられません。
-新たに作った菜園に、なぜその卵が……。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_105&lt;tab&gt;シャーレアンの研究資料によれば、ネマトーダの卵は、
+新たに作った菜園に、なぜその卵が……。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_105&lt;tab&gt;シャーレアンの研究資料によれば、ネマトーダの卵は、
 母虫の死骸の中で休眠状態になり、10年以上、耐えるのだとか。
-そうして、しぶとく宿主が現れるのを待つそうです。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_CLSHRV680_02623_SAWNEY_000_106&lt;tab&gt;その資料には、すべて駆除済みとあったんだがな。
+そうして、しぶとく宿主が現れるのを待つそうです。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SAWNEY_000_106&lt;tab&gt;その資料には、すべて駆除済みとあったんだがな。
 だが……どこかに卵を抱えた死骸が残っていたんだろうよ。
-それが今回の件で、宿主を得て孵化しちまった……。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_107&lt;tab&gt;なるほど……。
+それが今回の件で、宿主を得て孵化しちまった……。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_107&lt;tab&gt;なるほど……。
 エドギスさん、あなたはこの地の自然について、
-よく学び、よく理解していますね。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_108&lt;tab&gt;そ、そんな……気がついたのは、たまたま、ですし……。
+よく学び、よく理解していますね。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_108&lt;tab&gt;そ、そんな……気がついたのは、たまたま、ですし……。
 そもそも冒険者さんが、卵を見つけてなければ……。
-それにそれに、解決法もまだわからないですし……。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_CLSHRV680_02623_SAWNEY_000_109&lt;tab&gt;資料には、対応策までは書いてなかった。
-駆除済みとあるからには、方法があるはずなんだが……。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_110&lt;tab&gt;では、ここからは私の仕事ですね。
+それにそれに、解決法もまだわからないですし……。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SAWNEY_000_109&lt;tab&gt;資料には、対応策までは書いてなかった。
+駆除済みとあるからには、方法があるはずなんだが……。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_110&lt;tab&gt;では、ここからは私の仕事ですね。
 ほかのネマトーダ被害の例を参考にしながら、
-最適な対応策を考えてみましょう。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_CLSHRV680_02623_EDGYTH_000_111&lt;tab&gt;う、ウチは、引き続きシャーレアンの資料を、
+最適な対応策を考えてみましょう。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_EDGYTH_000_111&lt;tab&gt;う、ウチは、引き続きシャーレアンの資料を、
 調べてみます！
-対応策がわかるかもしれませんし！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_CLSHRV680_02623_SAWNEY_000_112&lt;tab&gt;んじゃ、俺はそれを手伝うか。
-それくらいしか、できねえしな。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_CLSHRV680_02623_FUFUCHA_000_113&lt;tab&gt;あなたの出番は、私たちが対応策を見つけた後でしょう。
+対応策がわかるかもしれませんし！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SAWNEY_000_112&lt;tab&gt;んじゃ、俺はそれを手伝うか。
+それくらいしか、できねえしな。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_FUFUCHA_000_113&lt;tab&gt;あなたの出番は、私たちが対応策を見つけた後でしょう。
 それまでは今までどおり、冒険の中で、
-園芸師の技術と知識を磨いてください……頼りにしてますよ。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_CLSHRV680_02623_SYSTEM_000_120&lt;tab&gt;園芸師として、ポポトの品種改良への協力を経て、
-「バウンティフルハーベストII」を修得しました！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_050&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_060&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_070&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_071&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_072&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_073&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_080&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_081&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_082&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_083&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit></body></file></xliff>
+園芸師の技術と知識を磨いてください……頼りにしてますよ。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_SYSTEM_000_120&lt;tab&gt;園芸師として、ポポトの品種改良への協力を経て、
+「バウンティフルハーベストII」を修得しました！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_050&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_060&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_070&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_071&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_072&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_073&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_080&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_081&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_082&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV680_02623_GOBLINALCHEMIST02623_000_083&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,82 +1,416 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="LucKme108_03637" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_LUCKME108_03637_SEQ_00&lt;tab&gt;アミティーのトリストルは、冒険者に伝えたいことがあるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_LUCKME108_03637_SEQ_01&lt;tab&gt;トリストルから、トルー一家のドワーフ族を紹介された。コルシア島のトメラの村にいる「水晶公」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_LUCKME108_03637_SEQ_02&lt;tab&gt;水晶公とともに、ザモットに事情を伝えた。トメラの村の「ザモット」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_LUCKME108_03637_SEQ_03&lt;tab&gt;ザモットと話した。トメラの村の「見届け役のドワーフ」と話し、トルだせ大作戦に臨もう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_LUCKME108_03637_SEQ_04&lt;tab&gt;トルだせ大作戦の練習をした。トメラの村の「見届け役のドワーフ」と再度話し、トルだせ大作戦の本番に臨もう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_LUCKME108_03637_SEQ_05&lt;tab&gt;トルだせ大作戦の本番を成功させた。トメラの村の「ザモット」と話そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_LUCKME108_03637_SEQ_06&lt;tab&gt;ザモットは冒険者の実力を認め、協力を申し出てくれた。ドワーフ族とともに心核用の鉱石を入手し、巨大タロースの制作に一役買おう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_LUCKME108_03637_TODO_00&lt;tab&gt;水晶公と話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_LUCKME108_03637_TODO_01&lt;tab&gt;ザモットと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_LUCKME108_03637_TODO_02&lt;tab&gt;見届け役のドワーフと話し、トルだせ大作戦を行う</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_LUCKME108_03637_TODO_03&lt;tab&gt;見届け役のドワーフと再度話し、トルだせ大作戦を行う</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_LUCKME108_03637_TODO_04&lt;tab&gt;ザモットと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_000&lt;tab&gt;心核探しの冒険……か。
-思いがけない機会が湧いて出たものだ……。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_LUCKME108_03637_CHAINUZZ_000_005&lt;tab&gt;心核とするのは、身体と同じ地域で得られる鉱石が望ましい。
-さっそく、トリストルの知恵を貸してもらおう。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_LUCKME108_03637_DULIACHAI_000_010&lt;tab&gt;ちゃんとお話をすることができて、よかったわ。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="LucKme108_03637" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SEQ_00&lt;tab&gt;アミティーのトリストルは、冒険者に伝えたいことがあるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SEQ_01&lt;tab&gt;トリストルから、トルー一家のドワーフ族を紹介された。コルシア島のトメラの村にいる「水晶公」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SEQ_02&lt;tab&gt;水晶公とともに、ザモットに事情を伝えた。トメラの村の「ザモット」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SEQ_03&lt;tab&gt;ザモットと話した。トメラの村の「見届け役のドワーフ」と話し、トルだせ大作戦に臨もう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SEQ_04&lt;tab&gt;トルだせ大作戦の練習をした。トメラの村の「見届け役のドワーフ」と再度話し、トルだせ大作戦の本番に臨もう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SEQ_05&lt;tab&gt;トルだせ大作戦の本番を成功させた。トメラの村の「ザモット」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SEQ_06&lt;tab&gt;ザモットは冒険者の実力を認め、協力を申し出てくれた。ドワーフ族とともに心核用の鉱石を入手し、巨大タロースの制作に一役買おう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TODO_00&lt;tab&gt;水晶公と話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TODO_01&lt;tab&gt;ザモットと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TODO_02&lt;tab&gt;見届け役のドワーフと話し、トルだせ大作戦を行う</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TODO_03&lt;tab&gt;見届け役のドワーフと再度話し、トルだせ大作戦を行う</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TODO_04&lt;tab&gt;ザモットと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_000&lt;tab&gt;心核探しの冒険……か。
+思いがけない機会が湧いて出たものだ……。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_CHAINUZZ_000_005&lt;tab&gt;心核とするのは、身体と同じ地域で得られる鉱石が望ましい。
+さっそく、トリストルの知恵を貸してもらおう。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_DULIACHAI_000_010&lt;tab&gt;ちゃんとお話をすることができて、よかったわ。
 これを最初のきっかけとして、
-今後もアミティーの方々と話し合いができればと思うの。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_LUCKME108_03637_TRISTOL_000_020&lt;tab&gt;心核用の鉱石を探す……ということであれば、
-力になってくれる方々を、紹介できるかもしれません。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_LUCKME108_03637_TRISTOL_000_021&lt;tab&gt;名を、「トルー一家」。
+今後もアミティーの方々と話し合いができればと思うの。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TRISTOL_000_020&lt;tab&gt;心核用の鉱石を探す……ということであれば、
+力になってくれる方々を、紹介できるかもしれません。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TRISTOL_000_021&lt;tab&gt;名を、「トルー一家」。
 この土地で古くから採掘を営んでいるドワーフ族の一派であり、
-私たちを秘密の坑道で断崖の上へ連れてきてくれた人々です。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_LUCKME108_03637_TRISTOL_000_022&lt;tab&gt;彼らほど、この土地の石について詳しい者はいませんし、
-事情を話せば、きっと協力してくれるはず……。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_LUCKME108_03637_TRISTOL_000_023&lt;tab&gt;北西にある「トメラの村」に行って、
+私たちを秘密の坑道で断崖の上へ連れてきてくれた人々です。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TRISTOL_000_022&lt;tab&gt;彼らほど、この土地の石について詳しい者はいませんし、
+事情を話せば、きっと協力してくれるはず……。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TRISTOL_000_023&lt;tab&gt;北西にある「トメラの村」に行って、
 最長老の「ザモット」さんに声をかけてみてください。
-「ラリホー」とあいさつするのを、お忘れなく！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_024&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、私も同行しよう。
+「ラリホー」とあいさつするのを、お忘れなく！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_024&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、私も同行しよう。
 今のところはまだ体も動いているし、
-多少なり、力にはなれるはずだ。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_LUCKME108_03637_CHAINUZZ_000_025&lt;tab&gt;では、ふたりで心核用の鉱石を確保してきてくれ。
-魔力が凝縮されてさえいれば、石の種類は何だっていい。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_LUCKME108_03637_CHAINUZZ_000_026&lt;tab&gt;私はその間に、大急ぎで設計を進めるとしよう。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_LUCKME108_03637_CHAINUZZ_000_030&lt;tab&gt;悪いが、心核用の鉱石は頼んだぞ。
+多少なり、力にはなれるはずだ。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_CHAINUZZ_000_025&lt;tab&gt;では、ふたりで心核用の鉱石を確保してきてくれ。
+魔力が凝縮されてさえいれば、石の種類は何だっていい。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_CHAINUZZ_000_026&lt;tab&gt;私はその間に、大急ぎで設計を進めるとしよう。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_CHAINUZZ_000_030&lt;tab&gt;悪いが、心核用の鉱石は頼んだぞ。
 魔力が強い石が望ましいが、数でまかなってくれても構わない。
-ダイダロス社秘伝の技をもってすれば、うまくやれるだろう。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_LUCKME108_03637_DULIACHAI_000_035&lt;tab&gt;水晶公は、どこかお体でも悪いの……？
-ふたりとも、気をつけていってらっしゃいね。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_LUCKME108_03637_TRISTOL_000_040&lt;tab&gt;トルー一家は、気のいいドワーフ族です。
+ダイダロス社秘伝の技をもってすれば、うまくやれるだろう。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_DULIACHAI_000_035&lt;tab&gt;水晶公は、どこかお体でも悪いの……？
+ふたりとも、気をつけていってらっしゃいね。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_TRISTOL_000_040&lt;tab&gt;トルー一家は、気のいいドワーフ族です。
 大昇降機が止まっている間も、島中にある坑道を使って、
-こっそり断崖の上下を行き来していたのですよ。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_050&lt;tab&gt;ここが「トメラの村」か……。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_051&lt;tab&gt;おお、本当にドワーフ族ばかりだ。
+こっそり断崖の上下を行き来していたのですよ。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_050&lt;tab&gt;ここが「トメラの村」か……。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_051&lt;tab&gt;おお、本当にドワーフ族ばかりだ。
 彼らはクリスタリウムでも滅多に見かけないから、
-こうも集まっていると……不思議な感覚になるな……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_052&lt;tab&gt;……普段は何かと周りを見上げてばかりの私だが、
-ここならば……うん……視界が新鮮だ……！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_053&lt;tab&gt;(-声の大きなドワーフ族-)ラリホー！</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_LUCKME108_03637_Q1_000_000&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_LUCKME108_03637_A1_000_001&lt;tab&gt;ラリホーッ！！</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_LUCKME108_03637_A1_000_002&lt;tab&gt;ラリホー？</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_LUCKME108_03637_A1_000_003&lt;tab&gt;……今、なんて？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_054&lt;tab&gt;(-声の大きなドワーフ族-)おお、すばらしい！
-どこかで習ってきたかのような、いい挨拶だッ！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_055&lt;tab&gt;(-声の大きなドワーフ族-)ちっがーう！
-全然、なっとらんッ！</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_056&lt;tab&gt;(-声の大きなドワーフ族-)挨拶だ、挨拶！
-まずは礼儀を尽くすのだッ！</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_057&lt;tab&gt;(-声の大きなドワーフ族-)いいか……こうだぞ……！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_058&lt;tab&gt;(-声の大きなドワーフ族-)ラリホーーーーッ！</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_LUCKME108_03637_Q2_000_000&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_LUCKME108_03637_A2_000_001&lt;tab&gt;ラリホーーーッ！！</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_LUCKME108_03637_A2_000_002&lt;tab&gt;ラ、ラリホー！</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_059&lt;tab&gt;(-声の大きなドワーフ族-)うんうん、まあまあなラリホーだな！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_060&lt;tab&gt;(-声の大きなドワーフ族-)……それで、おみゃーらはナニモンだ？
-何しにここへ来た？</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_061&lt;tab&gt;(-声の大きなドワーフ族-)……それで、おみゃーらはナニモンだ？
-「兜なし」だなんて、いかにもワケアリだが……。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_062&lt;tab&gt;アミティーの人々から紹介を受けて、
+こうも集まっていると……不思議な感覚になるな……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_052&lt;tab&gt;……普段は何かと周りを見上げてばかりの私だが、
+ここならば……うん……視界が新鮮だ……！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_053&lt;tab&gt;(-声の大きなドワーフ族-)ラリホー！</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_Q1_000_000&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_A1_000_001&lt;tab&gt;ラリホーッ！！</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_A1_000_002&lt;tab&gt;ラリホー？</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_A1_000_003&lt;tab&gt;……今、なんて？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_054&lt;tab&gt;(-声の大きなドワーフ族-)おお、すばらしい！
+どこかで習ってきたかのような、いい挨拶だッ！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_055&lt;tab&gt;(-声の大きなドワーフ族-)ちっがーう！
+全然、なっとらんッ！</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_056&lt;tab&gt;(-声の大きなドワーフ族-)挨拶だ、挨拶！
+まずは礼儀を尽くすのだッ！</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_057&lt;tab&gt;(-声の大きなドワーフ族-)いいか……こうだぞ……！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_058&lt;tab&gt;(-声の大きなドワーフ族-)ラリホーーーーッ！</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_Q2_000_000&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_A2_000_001&lt;tab&gt;ラリホーーーッ！！</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_A2_000_002&lt;tab&gt;ラ、ラリホー！</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_059&lt;tab&gt;(-声の大きなドワーフ族-)うんうん、まあまあなラリホーだな！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_060&lt;tab&gt;(-声の大きなドワーフ族-)……それで、おみゃーらはナニモンだ？
+何しにここへ来た？</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_061&lt;tab&gt;(-声の大きなドワーフ族-)……それで、おみゃーらはナニモンだ？
+「兜なし」だなんて、いかにもワケアリだが……。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_062&lt;tab&gt;アミティーの人々から紹介を受けて、
 トルー一家のドワーフ族に、力を貸してもらいに来た。
-最長老の「ザモット」はいるだろうか？</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_063&lt;tab&gt;ザモットはワシだ！
-なんだ、おみゃーら、ワシの客だったか。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_064&lt;tab&gt;しかも、あの秘密の村で紹介を受けたってんなら、
+最長老の「ザモット」はいるだろうか？</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_063&lt;tab&gt;ザモットはワシだ！
+なんだ、おみゃーら、ワシの客だったか。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_064&lt;tab&gt;しかも、あの秘密の村で紹介を受けたってんなら、
 タダゴトじゃないな！
-どれ、詳しく話を聞かせてみろ！</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_065&lt;tab&gt;なるほどなぁ！
+どれ、詳しく話を聞かせてみろ！</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_065&lt;tab&gt;なるほどなぁ！
 下にはもう、つまらん連中しかおらんと思ったが、
-なかなかおもしろいことを言い出すじゃないか！</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_066&lt;tab&gt;ワシらとしても、急に山が浮いたと思ったら、
+なかなかおもしろいことを言い出すじゃないか！</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_066&lt;tab&gt;ワシらとしても、急に山が浮いたと思ったら、
 罪喰いがわんさと飛んでくるようになって、
-心配しておったところでなぁ……。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_067&lt;tab&gt;おみゃーらが、アレをどうにかしてくれるんなら、
-もちろん、手伝ってやらんことはないぞ！</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_068&lt;tab&gt;たーだーしー！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_069&lt;tab&gt;おみゃーらが求めてるような鉱石は、
-ワシらにとっても、特別で大事なモンだ。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_070&lt;tab&gt;実力のないヤツに渡して、
+心配しておったところでなぁ……。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_067&lt;tab&gt;おみゃーらが、アレをどうにかしてくれるんなら、
+もちろん、手伝ってやらんことはないぞ！</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_068&lt;tab&gt;たーだーしー！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_069&lt;tab&gt;おみゃーらが求めてるような鉱石は、
+ワシらにとっても、特別で大事なモンだ。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_070&lt;tab&gt;実力のないヤツに渡して、
 「やっぱり作戦は失敗でした」なんて言われた日にゃ、
-酒を浴びても気がすまん！</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_071&lt;tab&gt;そこでだ！
+酒を浴びても気がすまん！</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_071&lt;tab&gt;そこでだ！
 おみゃーの実力、試させてもらうぞ。
-トルー一家伝統の、「あの方法」でなッ！</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_072&lt;tab&gt;「あの方法」とは……？</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_073&lt;tab&gt;ふっふっふ……。
-とにかく奥に来い、詳しくはそっちで教えてやろう。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_080&lt;tab&gt;伝統の腕試し……いったいどんな方法だろう？</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_090&lt;tab&gt;ふふふ……来たな……。
-それじゃあ、よーく聞くがいい！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_091&lt;tab&gt;知ってのとおり、ワシらは採掘を生業としておる。
-しかし、石を掘るというのは、いつでも危険と隣り合わせだ！</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_092&lt;tab&gt;そこで、ワシらトルーのドワーフは、
+トルー一家伝統の、「あの方法」でなッ！</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_072&lt;tab&gt;「あの方法」とは……？</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_073&lt;tab&gt;ふっふっふ……。
+とにかく奥に来い、詳しくはそっちで教えてやろう。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_080&lt;tab&gt;伝統の腕試し……いったいどんな方法だろう？</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_090&lt;tab&gt;ふふふ……来たな……。
+それじゃあ、よーく聞くがいい！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_091&lt;tab&gt;知ってのとおり、ワシらは採掘を生業としておる。
+しかし、石を掘るというのは、いつでも危険と隣り合わせだ！</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_092&lt;tab&gt;そこで、ワシらトルーのドワーフは、
 本格的に採掘をはじめる年ごろになると、
-ある方法で、坑道に入るに足るか、実力を測るのだ！</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_093&lt;tab&gt;その方法こそ……見る力と判断力、
+ある方法で、坑道に入るに足るか、実力を測るのだ！</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_093&lt;tab&gt;その方法こそ……見る力と判断力、
 そして素早い行動が必要とされる、「トルだせ大作戦」！
-おみゃーにも、それをやってもらうぞ！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_094&lt;tab&gt;いいか、まずはワシの兜の形をよ～く覚えろ。
+おみゃーにも、それをやってもらうぞ！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_094&lt;tab&gt;いいか、まずはワシの兜の形をよ～く覚えろ。
 挑戦者にはスリングショットが渡されるから、
-「これと違う形の被り物のドワーフ族」を狙って撃つのだ！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_095&lt;tab&gt;もう手配はすませてあるから、
+「これと違う形の被り物のドワーフ族」を狙って撃つのだ！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_095&lt;tab&gt;もう手配はすませてあるから、
 心の準備ができたら「見届け役のドワーフ」に声をかけて、
-「トルだせ大作戦」に挑むがいい！</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_100&lt;tab&gt;存外に穏便な方法でよかった。
+「トルだせ大作戦」に挑むがいい！</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_100&lt;tab&gt;存外に穏便な方法でよかった。
 ……いや、スリングショットでドワーフを撃つのが、
-穏便と言えるのかは、議論の余地があるだろうがね……。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_101&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、すまないが参加を頼めるだろうか？
+穏便と言えるのかは、議論の余地があるだろうがね……。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_101&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、すまないが参加を頼めるだろうか？
 あなたの方が適任なのは言わずもがなだが、
-その雄姿を、せっかくだから見ていたいのだ。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_105&lt;tab&gt;トルー一家の兜は、この、ステキな二本角が特徴だ！
-これを被っている同胞役は、撃っちゃいかんぞ！</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_110&lt;tab&gt;あっ！　あんたが挑戦者ー？
+その雄姿を、せっかくだから見ていたいのだ。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_105&lt;tab&gt;トルー一家の兜は、この、ステキな二本角が特徴だ！
+これを被っている同胞役は、撃っちゃいかんぞ！</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_110&lt;tab&gt;あっ！　あんたが挑戦者ー？
 んだらば、屋根の上にご案内して、
-「トルだせ大作戦」はじめるぞー！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_111&lt;tab&gt;おいらたちと「違う被り物をした奴」を、
+「トルだせ大作戦」はじめるぞー！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_111&lt;tab&gt;おいらたちと「違う被り物をした奴」を、
 スリングショットで、トスッと撃てれば成功だー！
-まずは練習ー！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_LUCKME108_03637_SYSTEM_000_112&lt;tab&gt;「被り物の異なるドワーフ」の狙撃を開始します。
+まずは練習ー！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SYSTEM_000_112&lt;tab&gt;「被り物の異なるドワーフ」の狙撃を開始します。
 該当者を発見したら、
-&lt;var 08 E4E95101 ((&lt;var 48 F20222 /var&gt;左クリック&lt;var 48 01 /var&gt;)) ((&lt;var 1E 10 /var&gt;ボタン/&lt;var 1E 09 /var&gt;ボタン)) /var&gt;で玉を撃ちましょう！</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_113&lt;tab&gt;バッチリだったねー！
-まあ、間違えようもないんだけどねー！</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_114&lt;tab&gt;じゃあ、次こそが本番ー！
-準備ができたら、また声をかけてねー！</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_120&lt;tab&gt;ああ、今のは練習だったのか。
-次の本番も、成功を祈っているよ。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_125&lt;tab&gt;いい調子だな！
-しかし本番は、もーっと難しいぞ！</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_130&lt;tab&gt;いよいよ本番に挑むんだねー！
-それじゃあまた、上まで案内するよー！</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_131&lt;tab&gt;今度は、おいらと「同じ兜」を被った奴も加わるよ。
+&lt;var 08 E4E95101 ((&lt;var 48 F20222 /var&gt;左クリック&lt;var 48 01 /var&gt;)) ((&lt;var 1E 10 /var&gt;ボタン/&lt;var 1E 09 /var&gt;ボタン)) /var&gt;で玉を撃ちましょう！</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_113&lt;tab&gt;バッチリだったねー！
+まあ、間違えようもないんだけどねー！</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_114&lt;tab&gt;じゃあ、次こそが本番ー！
+準備ができたら、また声をかけてねー！</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_120&lt;tab&gt;ああ、今のは練習だったのか。
+次の本番も、成功を祈っているよ。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_125&lt;tab&gt;いい調子だな！
+しかし本番は、もーっと難しいぞ！</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_130&lt;tab&gt;いよいよ本番に挑むんだねー！
+それじゃあまた、上まで案内するよー！</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_131&lt;tab&gt;今度は、おいらと「同じ兜」を被った奴も加わるよ。
 それを撃っちゃうと失敗になるから、
-「被り物の異なる」奴を探しだして撃ってねー！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_LUCKME108_03637_SYSTEM_000_132&lt;tab&gt;「被り物の異なるドワーフ」の狙撃を開始します。
+「被り物の異なる」奴を探しだして撃ってねー！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_SYSTEM_000_132&lt;tab&gt;「被り物の異なるドワーフ」の狙撃を開始します。
 該当者を発見したら、
-&lt;var 08 E4E95101 ((&lt;var 48 F20222 /var&gt;左クリック&lt;var 48 01 /var&gt;)) ((&lt;var 1E 10 /var&gt;ボタン/&lt;var 1E 09 /var&gt;ボタン)) /var&gt;で玉を撃ちましょう！</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_133&lt;tab&gt;ラリホーラリホー！　お見事だったねー！
-あんた、悪くない採掘師になれそうだー！</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_134&lt;tab&gt;「ザモット」も見てたと思うから、声をかけてごらんー！
+&lt;var 08 E4E95101 ((&lt;var 48 F20222 /var&gt;左クリック&lt;var 48 01 /var&gt;)) ((&lt;var 1E 10 /var&gt;ボタン/&lt;var 1E 09 /var&gt;ボタン)) /var&gt;で玉を撃ちましょう！</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_133&lt;tab&gt;ラリホーラリホー！　お見事だったねー！
+あんた、悪くない採掘師になれそうだー！</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_134&lt;tab&gt;「ザモット」も見てたと思うから、声をかけてごらんー！
 あんたがこの天変地異を収められますようにって、
-おいらも願ってるよー！</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_LUCKME108_03637_MYSTERYVOICE_000_150&lt;tab&gt;おかえり、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+おいらも願ってるよー！</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_MYSTERYVOICE_000_150&lt;tab&gt;おかえり、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
 この程度は褒めるまでもないのかもしれないが、
-本当に、うまくやるものだと感心したよ。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_155&lt;tab&gt;ああ、撃たれた奴については、心配無用だよー。
-ドワーフ製の防具は頑強だからねー。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_160&lt;tab&gt;ラリホー！　見ていたぞ！
-来たばかりでこれだけできりゃ、文句なしだ！</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_LUCKME108_03637_XAMOTT_000_161&lt;tab&gt;おみゃーが、口だけでここまで来たわけじゃないのはわかった。
+本当に、うまくやるものだと感心したよ。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_GUIDEDWARF03637_000_155&lt;tab&gt;ああ、撃たれた奴については、心配無用だよー。
+ドワーフ製の防具は頑強だからねー。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_160&lt;tab&gt;ラリホー！　見ていたぞ！
+来たばかりでこれだけできりゃ、文句なしだ！</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKME108_03637_XAMOTT_000_161&lt;tab&gt;おみゃーが、口だけでここまで来たわけじゃないのはわかった。
 平穏な掘り暮らしを取り戻すためにも、その実力に賭けて、
-鉱石のことを教えるとしよう！</target></trans-unit></body></file></xliff>
+鉱石のことを教えるとしよう！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

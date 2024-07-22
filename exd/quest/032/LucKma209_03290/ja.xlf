@@ -1,76 +1,394 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="LucKma209_03290" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_LUCKMA209_03290_SEQ_00&lt;tab&gt;画家のアルフィノは、冒険者の報告について思案しているようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_LUCKMA209_03290_SEQ_01&lt;tab&gt;アルフィノたちと話していたところ、上階から男性の悲鳴が聞こえてきた。ユールモアのクラウンリフト前にいる「チャッデン」と話し、元首の執務室に行こう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_LUCKMA209_03290_SEQ_02&lt;tab&gt;執務室で、ドン・ヴァウスリーと邂逅した。ユールモアの廃船街にいる「アルフィノ」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_LUCKMA209_03290_SEQ_03&lt;tab&gt;アルフィノと話した。コルシア島のクラックシェル海岸にいる「アルフィノ」と話そう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_LUCKMA209_03290_SEQ_04&lt;tab&gt;アルフィノとともに帰還した。クリスタリウムの星見の間にいる「アルフィノ」と話そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_LUCKMA209_03290_SEQ_05&lt;tab&gt;アルフィノと話した。コルシア島での冒険から、ユールモアの実態と、それを統べるヴァウスリーの人柄が見えてきた。罪喰いと敵対する以上、彼らとは敵対するしかなさそうだが……。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_LUCKMA209_03290_TODO_00&lt;tab&gt;チャッデンと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_LUCKMA209_03290_TODO_01&lt;tab&gt;アルフィノと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_LUCKMA209_03290_TODO_02&lt;tab&gt;クラックシェル海岸のアルフィノと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_LUCKMA209_03290_TODO_03&lt;tab&gt;星見の間のアルフィノと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_010&lt;tab&gt;……む、いつの間にやら助手と話し込んでいるではないか。
-下絵の方は、進んでいるんだろうな？</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_011&lt;tab&gt;こ、これは……！？</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_012&lt;tab&gt;おい、どういうことだ！
-これではあまりに……そのままじゃないか！</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_013&lt;tab&gt;画家なら、もっと気の利いた絵にすべきだろう！
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="LucKma209_03290" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_SEQ_00&lt;tab&gt;画家のアルフィノは、冒険者の報告について思案しているようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_SEQ_01&lt;tab&gt;アルフィノたちと話していたところ、上階から男性の悲鳴が聞こえてきた。ユールモアのクラウンリフト前にいる「チャッデン」と話し、元首の執務室に行こう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_SEQ_02&lt;tab&gt;執務室で、ドン・ヴァウスリーと邂逅した。ユールモアの廃船街にいる「アルフィノ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_SEQ_03&lt;tab&gt;アルフィノと話した。コルシア島のクラックシェル海岸にいる「アルフィノ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_SEQ_04&lt;tab&gt;アルフィノとともに帰還した。クリスタリウムの星見の間にいる「アルフィノ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_SEQ_05&lt;tab&gt;アルフィノと話した。コルシア島での冒険から、ユールモアの実態と、それを統べるヴァウスリーの人柄が見えてきた。罪喰いと敵対する以上、彼らとは敵対するしかなさそうだが……。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_TODO_00&lt;tab&gt;チャッデンと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_TODO_01&lt;tab&gt;アルフィノと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_TODO_02&lt;tab&gt;クラックシェル海岸のアルフィノと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_TODO_03&lt;tab&gt;星見の間のアルフィノと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_010&lt;tab&gt;……む、いつの間にやら助手と話し込んでいるではないか。
+下絵の方は、進んでいるんだろうな？</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_011&lt;tab&gt;こ、これは……！？</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_012&lt;tab&gt;おい、どういうことだ！
+これではあまりに……そのままじゃないか！</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_013&lt;tab&gt;画家なら、もっと気の利いた絵にすべきだろう！
 豪奢で華やかに、それでいて気品にあふれ、
-見るものすべてを圧倒するくらい美しく……！</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_014&lt;tab&gt;しかし、旦那様……。
+見るものすべてを圧倒するくらい美しく……！</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_014&lt;tab&gt;しかし、旦那様……。
 これは結婚記念の夫婦の肖像画なのでしょう？
-おふたりは、そのままが一番、仲睦まじく……</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_015&lt;tab&gt;そ、の、ま、ま、だと！？
+おふたりは、そのままが一番、仲睦まじく……</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_015&lt;tab&gt;そ、の、ま、ま、だと！？
 私たちは現実を知りたいわけではない、
-完成したときに「なんて美しい！」と喜べればそれでいいんだ。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_016&lt;tab&gt;わかったら、とっとと描きなおしを……！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_LUCKMA209_03290_KAISHIRR_000_017&lt;tab&gt;(-男性の悲鳴-)う、ぐ、あああぁぁ……ッ！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_018&lt;tab&gt;なんだ……？
-上の階からか……？</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_LUCKMA209_03290_CLOWNOFRED_000_019&lt;tab&gt;みんな～！
-タイヘン、タイヘン、一大事だよぅ！</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_LUCKMA209_03290_CLOWNOFRED_000_020&lt;tab&gt;この街の秩序を乱す、不届き者が現れたんだ！
-うぅ～怖いねぇ！</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_LUCKMA209_03290_CLOWNOFBLUE_000_021&lt;tab&gt;でもでも、ご安心あれ！
-不届き者は、すでにドンが捕まえてるよ！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_LUCKMA209_03290_CLOWNOFBLUE_000_022&lt;tab&gt;正義の鉄槌、秩序の回復！
+完成したときに「なんて美しい！」と喜べればそれでいいんだ。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_016&lt;tab&gt;わかったら、とっとと描きなおしを……！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_KAISHIRR_000_017&lt;tab&gt;(-男性の悲鳴-)う、ぐ、あああぁぁ……ッ！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_018&lt;tab&gt;なんだ……？
+上の階からか……？</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CLOWNOFRED_000_019&lt;tab&gt;みんな～！
+タイヘン、タイヘン、一大事だよぅ！</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CLOWNOFRED_000_020&lt;tab&gt;この街の秩序を乱す、不届き者が現れたんだ！
+うぅ～怖いねぇ！</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CLOWNOFBLUE_000_021&lt;tab&gt;でもでも、ご安心あれ！
+不届き者は、すでにドンが捕まえてるよ！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CLOWNOFBLUE_000_022&lt;tab&gt;正義の鉄槌、秩序の回復！
 ドンのお裁きをご観覧になりたい方は、
-急いで「元首の執務室」に集合だ～！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_023&lt;tab&gt;あらぁ……不届き者なんて、怖いわねぇ……。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_024&lt;tab&gt;あの、裁きというのは……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_025&lt;tab&gt;ああ、気になるなら見てきてもいいぞ。
+急いで「元首の執務室」に集合だ～！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_023&lt;tab&gt;あらぁ……不届き者なんて、怖いわねぇ……。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_024&lt;tab&gt;あの、裁きというのは……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_025&lt;tab&gt;ああ、気になるなら見てきてもいいぞ。
 執務室は、ここよりもさらに上……
-元首のための階「樹葉の層」にあるんだ。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_026&lt;tab&gt;普段は立ち入っていい場所じゃないが、今なら大丈夫だろう。
+元首のための階「樹葉の層」にあるんだ。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_026&lt;tab&gt;普段は立ち入っていい場所じゃないが、今なら大丈夫だろう。
 南側の「クラウンリフト」前にいる警備兵に言えば、
-案内してくれるはずだ。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_027&lt;tab&gt;……行ってみよう。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_030&lt;tab&gt;あなたたちが、不届き者に襲われないか心配だわ。
-ヴァウスリー様の御前だから、大丈夫だとは思うけれど……。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_035&lt;tab&gt;執務室は、さらに上の「樹葉の層」にある。
-南側にある「クラウンリフト」に乗ればすぐだぞ。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_LUCKMA209_03290_CHADDEN_000_040&lt;tab&gt;ドンのご意向で、今は執務室を開放している。
-……お前も行くか？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_LUCKMA209_03290_Q1_000_041&lt;tab&gt;「元首の執務室」に移動しますか？</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_LUCKMA209_03290_KAISHIRR_000_050&lt;tab&gt;あの……ありがとう、ございました……。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_055&lt;tab&gt;あら、戻ってきたの？</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_060&lt;tab&gt;何かあったのか……？</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_070&lt;tab&gt;…………。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_071&lt;tab&gt;……勢いでここまで出てきてしまって、すまない。
+案内してくれるはずだ。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_027&lt;tab&gt;……行ってみよう。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_030&lt;tab&gt;あなたたちが、不届き者に襲われないか心配だわ。
+ヴァウスリー様の御前だから、大丈夫だとは思うけれど……。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_035&lt;tab&gt;執務室は、さらに上の「樹葉の層」にある。
+南側にある「クラウンリフト」に乗ればすぐだぞ。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHADDEN_000_040&lt;tab&gt;ドンのご意向で、今は執務室を開放している。
+……お前も行くか？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_Q1_000_041&lt;tab&gt;「元首の執務室」に移動しますか？</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_KAISHIRR_000_050&lt;tab&gt;あの……ありがとう、ございました……。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_055&lt;tab&gt;あら、戻ってきたの？</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_060&lt;tab&gt;何かあったのか……？</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_070&lt;tab&gt;…………。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_071&lt;tab&gt;……勢いでここまで出てきてしまって、すまない。
 中にはもう戻らない方がよさそうだし、
-このままコルシア島を出よう。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_072&lt;tab&gt;世界政府を名乗るユールモアの実態は、十分にわかった……
+このままコルシア島を出よう。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_072&lt;tab&gt;世界政府を名乗るユールモアの実態は、十分にわかった……
 こちらが罪喰い討伐を目指すのであれば、
-簡単には手を取り合えないだろうということも。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_073&lt;tab&gt;私は、君とともにクリスタリウムへ戻るよ。
-新たな道を見つけ、先へと進むために。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_074&lt;tab&gt;カイ・シル……。
-謝ってすむことではないが、君には本当にすまないことをした。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_075&lt;tab&gt;君が純粋だったからこそ……
-私は君に、嘘なんてつかせるべきではなかったんだ。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_LUCKMA209_03290_KAISHIRR_000_076&lt;tab&gt;よしてください……。
+簡単には手を取り合えないだろうということも。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_073&lt;tab&gt;私は、君とともにクリスタリウムへ戻るよ。
+新たな道を見つけ、先へと進むために。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_074&lt;tab&gt;カイ・シル……。
+謝ってすむことではないが、君には本当にすまないことをした。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_075&lt;tab&gt;君が純粋だったからこそ……
+私は君に、嘘なんてつかせるべきではなかったんだ。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_KAISHIRR_000_076&lt;tab&gt;よしてください……。
 いろいろ教えてもらったのに、うまくできなかったのは俺だ。
-全部、自業自得なんです。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_LUCKMA209_03290_KAISHIRR_000_077&lt;tab&gt;それなのに、アルフィノさんたちは、俺を助けてくれた……
-本当にすみませんでした……ありがとうございます……。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_078&lt;tab&gt;どうだろう、君さえよければ、
+全部、自業自得なんです。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_KAISHIRR_000_077&lt;tab&gt;それなのに、アルフィノさんたちは、俺を助けてくれた……
+本当にすみませんでした……ありがとうございます……。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_078&lt;tab&gt;どうだろう、君さえよければ、
 一緒にクリスタリウムに来ないかい？
-働き口も、きっとあるはずだ。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_LUCKMA209_03290_KAISHIRR_000_079&lt;tab&gt;いえ……。
-それじゃあ俺、また周りに頼ってるだけです。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_LUCKMA209_03290_KAISHIRR_000_080&lt;tab&gt;しばらくは、ひとりで……
-ちゃんと生きていく方法を、探してみたいと思います。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_081&lt;tab&gt;……わかった。
+働き口も、きっとあるはずだ。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_KAISHIRR_000_079&lt;tab&gt;いえ……。
+それじゃあ俺、また周りに頼ってるだけです。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_KAISHIRR_000_080&lt;tab&gt;しばらくは、ひとりで……
+ちゃんと生きていく方法を、探してみたいと思います。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_081&lt;tab&gt;……わかった。
 だが、ユールモアからの追手がかかるかもしれない。
-それだけは気をつけてくれよ。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_LUCKMA209_03290_KAISHIRR_000_082&lt;tab&gt;はい、おふたりこそ。
+それだけは気をつけてくれよ。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_KAISHIRR_000_082&lt;tab&gt;はい、おふたりこそ。
 このご恩は、いつか必ず返します……
-それまで、どうかご無事で。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_083&lt;tab&gt;(-？？？？-)ぜぇ、はぁ……アルフィノちゃん！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_084&lt;tab&gt;チャイ夫妻……。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_085&lt;tab&gt;お前たち、何をやらかしたんだ！？
-中では今、画家はどこだと大騒ぎだぞ！</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_086&lt;tab&gt;……アルフィノちゃん、
-私、あなたの描いてくれた下絵を見たわ。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_087&lt;tab&gt;いままで、綺麗で豪華な絵をたくさん描いてもらったけど、
+それまで、どうかご無事で。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_083&lt;tab&gt;(-？？？？-)ぜぇ、はぁ……アルフィノちゃん！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_084&lt;tab&gt;チャイ夫妻……。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_085&lt;tab&gt;お前たち、何をやらかしたんだ！？
+中では今、画家はどこだと大騒ぎだぞ！</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_086&lt;tab&gt;……アルフィノちゃん、
+私、あなたの描いてくれた下絵を見たわ。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_087&lt;tab&gt;いままで、綺麗で豪華な絵をたくさん描いてもらったけど、
 あなたの絵は、ちょっと違ってて……
-まるで、私たち夫婦が、そのまま絵の中に入ったみたいだった。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_088&lt;tab&gt;ねえ、とっても気に入ったのよ。
+まるで、私たち夫婦が、そのまま絵の中に入ったみたいだった。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_088&lt;tab&gt;ねえ、とっても気に入ったのよ。
 だからどうか、ここに残って、続きを描いて……！
-ドンにはきちんとご説明するし、不自由はさせないから！</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_089&lt;tab&gt;……いいえ、奥様。
+ドンにはきちんとご説明するし、不自由はさせないから！</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_089&lt;tab&gt;……いいえ、奥様。
 あなたには申し訳ありませんが、
-私が今ここで為すべきことはありません。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_090&lt;tab&gt;為すべきこと……？
+私が今ここで為すべきことはありません。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_090&lt;tab&gt;為すべきこと……？
 毎日を楽しく、幸せにすごすことのほかに、
-何をしなければならないというの？</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_091&lt;tab&gt;……やはり、私たちは行きます。
-この服も、お返ししましょう。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_092&lt;tab&gt;そんな……！
-せめてそれは、そのまま着ていって！</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_093&lt;tab&gt;それから、私からお願いして、
+何をしなければならないというの？</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_091&lt;tab&gt;……やはり、私たちは行きます。
+この服も、お返ししましょう。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_092&lt;tab&gt;そんな……！
+せめてそれは、そのまま着ていって！</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_093&lt;tab&gt;それから、私からお願いして、
 街の門は、こっそり通れるようにしておくわ。
-だから……いつか必ず、また来てちょうだい。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_094&lt;tab&gt;……わかりました。
-ならばこれを、私の怒りの記憶、誓いとしましょう。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_095&lt;tab&gt;次にお会いするときは、この街の欺瞞を正すときである……
-そのことを、常、忘れぬために。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_LUCKMA209_03290_SZEMDJENMAI_000_100&lt;tab&gt;よくぞ戻られた、ご同輩。
-いつでもクリスタリウムへ戻れるよ。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_105&lt;tab&gt;まあ、助手ちゃん！
-戻ってきてくれた……というわけではないのね。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_106&lt;tab&gt;アルフィノちゃんが言っていた、
+だから……いつか必ず、また来てちょうだい。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_094&lt;tab&gt;……わかりました。
+ならばこれを、私の怒りの記憶、誓いとしましょう。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_095&lt;tab&gt;次にお会いするときは、この街の欺瞞を正すときである……
+そのことを、常、忘れぬために。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_SZEMDJENMAI_000_100&lt;tab&gt;よくぞ戻られた、ご同輩。
+いつでもクリスタリウムへ戻れるよ。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_105&lt;tab&gt;まあ、助手ちゃん！
+戻ってきてくれた……というわけではないのね。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_106&lt;tab&gt;アルフィノちゃんが言っていた、
 「為すべきこと」というのがおわったら、
-必ずふたりで、絵の続きを描きにきてちょうだいね。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_110&lt;tab&gt;…………！？
-お、お前、どうしてここにいる！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_111&lt;tab&gt;入口の番兵くらいなら買収できるが、ここは……
-妻が何と言おうが、騒ぎになる前に帰ってくれ！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_120&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。
-改めて、ここまでつきあってくれたことに感謝するよ。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_121&lt;tab&gt;喜ばしい結果でなかったとはいえ、
+必ずふたりで、絵の続きを描きにきてちょうだいね。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_110&lt;tab&gt;…………！？
+お、お前、どうしてここにいる！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_111&lt;tab&gt;入口の番兵くらいなら買収できるが、ここは……
+妻が何と言おうが、騒ぎになる前に帰ってくれ！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_120&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。
+改めて、ここまでつきあってくれたことに感謝するよ。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_121&lt;tab&gt;喜ばしい結果でなかったとはいえ、
 ユールモアの実態や考えが知れたことは、
-第一世界の救済を考える上でも、意味があったと思う。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_122&lt;tab&gt;さあ、クリスタリウムで待つ、水晶公のもとへ戻ろう。
-そこからまた、何度でも……私は諦めないさ。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_LUCKMA209_03290_MYSTERYVOICE_000_130&lt;tab&gt;アルフィノとともに、ユールモアを見てきたのだな。
-感想は……あえて問うまでもないだろう。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_LUCKMA209_03290_ALISAIE_000_135&lt;tab&gt;アルフィノとも会えたみたいね。
-そっちの話も、あとで詳しく聞かせてもらうわ。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_140&lt;tab&gt;コルシア島への旅、おつかれさま。
+第一世界の救済を考える上でも、意味があったと思う。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_122&lt;tab&gt;さあ、クリスタリウムで待つ、水晶公のもとへ戻ろう。
+そこからまた、何度でも……私は諦めないさ。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_MYSTERYVOICE_000_130&lt;tab&gt;アルフィノとともに、ユールモアを見てきたのだな。
+感想は……あえて問うまでもないだろう。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALISAIE_000_135&lt;tab&gt;アルフィノとも会えたみたいね。
+そっちの話も、あとで詳しく聞かせてもらうわ。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_140&lt;tab&gt;コルシア島への旅、おつかれさま。
 あちらで見聞きしたことも踏まえて、
-今後について話したいのだが……</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_0141&lt;tab&gt;君は先に、アリゼーに会いに行くべきかな。
+今後について話したいのだが……</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_0141&lt;tab&gt;君は先に、アリゼーに会いに行くべきかな。
 アム・アレーンの暮らしを知ってこそ思うこともあるだろうし、
-何より、彼女が君に会いたがっていたからね。</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_142&lt;tab&gt;妹をよろしく頼むよ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_143&lt;tab&gt;コルシア島への旅、おつかれさま。
+何より、彼女が君に会いたがっていたからね。</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_142&lt;tab&gt;妹をよろしく頼むよ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_143&lt;tab&gt;コルシア島への旅、おつかれさま。
 アリゼーと会うのは、しばらくぶりなのだが……
-うん、彼女も覚悟は決まっているようだ。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_LUCKMA209_03290_ALPHINAUD_000_144&lt;tab&gt;君も、ふたつの地域を旅して、第一世界の状況をつかめたはず。
+うん、彼女も覚悟は決まっているようだ。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_ALPHINAUD_000_144&lt;tab&gt;君も、ふたつの地域を旅して、第一世界の状況をつかめたはず。
 こちらと原初世界、両方のために何をすべきか……
-今こそ水晶公と話そうじゃないか。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_LUCKMA209_03290_DULIACHAI_000_000&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_LUCKMA209_03290_CHAINUZZ_000_005&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit></body></file></xliff>
+今こそ水晶公と話そうじゃないか。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_DULIACHAI_000_000&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKMA209_03290_CHAINUZZ_000_005&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

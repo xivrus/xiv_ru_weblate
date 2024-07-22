@@ -1,4 +1,286 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="GaiUse308_01449" datatype="plaintext" source-language="en" target-language="de" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_GAIUSE308_01449_SEQ_00&lt;tab&gt;Der Bruderschaftsoffizier in der Sylphen-Zuflucht möchte mit dir über den Vorstoß ins Sylphenland sprechen.</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_GAIUSE308_01449_SEQ_01&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-※ Der nächste Auftrag des Hauptszenarios wird auch im Szenarioführer angezeigt. Er kann in den UI-Einstellungen (Hauptmenü → Charakter&lt;var 16 /var&gt;konfiguration) ein- und ausgeschaltet werden.</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_GAIUSE308_01449_SEQ_02&lt;tab&gt;Die Verletzten sind versorgt. In ihrer Nähe hält sich noch die besessene Sylphe auf, die für den Angriff verantwortlich ist. Versuche, sie fortzujagen.</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_GAIUSE308_01449_SEQ_03&lt;tab&gt;Die böse Sylphe will dich ebenfalls angreifen, bemerkt aber, dass ihr die letzte Flügelstaub-Bombe abhanden gekommen ist. Ehe du dich's versiehst, fliegt sie davon, um Ersatz zu besorgen. Beratschlage dich mit Maxio über euer weiteres Vorgehen.</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_GAIUSE308_01449_SEQ_04&lt;tab&gt;Maxio erzählt dir stolz, dass sie es war, die der bösen Sylphe die Bombe gestohlen hat. Lass dich von ihr in den Zustand Transparenz versetzen und erteile der bösen Sylphe mit ihrer eigenen Bombe eine Lektion. Sag Maxio Bescheid, sobald du bereit für den Einsatz bist.</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_GAIUSE308_01449_SEQ_05&lt;tab&gt;Maxio macht dich unsichtbar. Suche die böse Sylphe und greife sie mit &lt;var 32 ((EventItem)) 03F61E899F020402 /var&gt; an.
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="GaiUse308_01449" datatype="plaintext" source-language="en" target-language="de">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_00&lt;tab&gt;Der Bruderschaftsoffizier in der Sylphen-Zuflucht möchte mit dir über den Vorstoß ins Sylphenland sprechen.</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_01&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+※ Der nächste Auftrag des Hauptszenarios wird auch im Szenarioführer angezeigt. Er kann in den UI-Einstellungen (Hauptmenü → Charakter&lt;var 16 /var&gt;konfiguration) ein- und ausgeschaltet werden.</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_02&lt;tab&gt;Die Verletzten sind versorgt. In ihrer Nähe hält sich noch die besessene Sylphe auf, die für den Angriff verantwortlich ist. Versuche, sie fortzujagen.</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_03&lt;tab&gt;Die böse Sylphe will dich ebenfalls angreifen, bemerkt aber, dass ihr die letzte Flügelstaub-Bombe abhanden gekommen ist. Ehe du dich's versiehst, fliegt sie davon, um Ersatz zu besorgen. Beratschlage dich mit Maxio über euer weiteres Vorgehen.</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_04&lt;tab&gt;Maxio erzählt dir stolz, dass sie es war, die der bösen Sylphe die Bombe gestohlen hat. Lass dich von ihr in den Zustand Transparenz versetzen und erteile der bösen Sylphe mit ihrer eigenen Bombe eine Lektion. Sag Maxio Bescheid, sobald du bereit für den Einsatz bist.</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_05&lt;tab&gt;Maxio macht dich unsichtbar. Suche die böse Sylphe und greife sie mit &lt;var 32 ((EventItem)) 03F61E899F020402 /var&gt; an.
 
-※ Der Status „Transparenz“ verliert nach einer bestimmten Zeit seine Wirkung. Wenn du auf deinem Weg allerdings auf einen oder mehrere &lt;var 32 ((EObj)) 06F61E94AC030502 /var&gt; treffen solltest, kannst du diese Zeitspanne verlängern, indem du es anfasst.</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_GAIUSE308_01449_SEQ_06&lt;tab&gt;Es gelingt dir, die böse Sylphe mit &lt;var 32 ((EventItem)) 03F61E899F020402 /var&gt; in die Flucht zu schlagen. Erstatte Maxio Bericht.</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_GAIUSE308_01449_SEQ_07&lt;tab&gt;Maxio kann ihre Genugtuung über deinen Erfolg nicht verbergen. Die Soldaten scheinen sich in der Zwischenzeit erholt zu haben. Sprich mit dem Dritten Novizen.</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_GAIUSE308_01449_SEQ_08&lt;tab&gt;Die Soldaten der Bruderschaft wollen die Operation unverzüglich fortsetzen. Wo Yda und die restlichen Mitglieder des Bundes wohl stecken?</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_GAIUSE308_01449_TODO_00&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_GAIUSE308_01449_TODO_01&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_GAIUSE308_01449_TODO_02&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_GAIUSE308_01449_TODO_03&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_GAIUSE308_01449_TODO_04&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_GAIUSE308_01449_TODO_05&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_GAIUSE308_01449_TODO_06&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_000&lt;tab&gt;Der Vorstoß ins Sylphenland, eine Gemeinschaftsoperation des Bundes der Morgenröte, der Bruderschaft und der Zufluchts-Sylphen ist bereits in vollem Gange. Lass mich dir kurz erläutern, wie unsere Operation ablaufen wird.</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_001&lt;tab&gt;Damit du Kontakt mit dem Primae Ramuh aufnehmen kannst, müssen wir bis zu der Stelle vordringen, an der die finsteren Sylphen ihn heraufbeschworen haben.</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_002&lt;tab&gt;Spähtrupps der Bruderschaft suchen bereits danach, sind aber noch nicht fündig geworden. Wegen der vielen Gefahren im Sylphenland geht die Suche nur langsam voran.</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_003&lt;tab&gt;Aus diesem Grund haben wir Yda, Papalymo, Y'shtola und Thancred vom Bund um Hilfe gebeten.</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_004&lt;tab&gt;Mit ihren Messgeräten sollte es ihnen möglich sein, die Turbulenzen im Äther zu lokalisieren, die durch die Beschwörung Ramuhs hervorgerufen wurden. </target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_005&lt;tab&gt;Begleitet werden sie von einem Wachtrupp der Bruderschaft und einer Fährtensucherin der Sylphen. Sie sind bereits ins Sylphenland aufgebrochen. Du solltest so schnell wie möglich zu ihnen aufschließen.</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_006&lt;tab&gt;Etwas ganz Schlimmiges ist passiert!</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_007&lt;tab&gt;Du ... Bist du nicht die Fährtensucherin? Warum bist du nicht beim Spähtrupp?</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_008&lt;tab&gt;Am Eingang des Sylphenlands wurden die Unsrigen von einer Finstrigen angegriffen! Mit &lt;var 32 ((EventItem)) 02F61E899F020402 /var&gt;! Die Soldatigen hatten ganz viel Tränendes in den Augen!</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_009&lt;tab&gt;Was sagst du? Und die Mitglieder des Bundes?</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_010&lt;tab&gt;Die Soldatigen haben die Bündigen beschützt! Aber während des Kampfes haben die Unsrigen sich aus den Augen verloren!</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_011&lt;tab&gt;Das sind schlechte Neuigkeiten. Alleine sind die Gelehrten in Gefahr. Wir müssen uns um die verletzten Soldaten kümmern und dann auf der Stelle Yda und die anderen suchen.</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_GAIUSE308_01449_KOMUXIO_000_012&lt;tab&gt;Dann sollten die Eurigen dieses Nassige hier benutzen. Es wäscht den Flügelstaub hinfort und lindert die Schmerzen.</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_013&lt;tab&gt;Hab vielen Dank, liebe Sylphe. Dieses Wasser kann &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt; sicher gut gebrauchen.</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_014&lt;tab&gt;Unsere Operation scheint unter keinem guten Stern zu stehen, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;. Lass im Sylphenland äußerste Vorsicht walten.</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_015&lt;tab&gt;Wenn die Soldaten wieder ansprechbar sind, können sie dir vielleicht Hinweise auf den Verbleib der Mitglieder des Bundes geben. Möge Nophicas Segen mit dir sein!</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_016&lt;tab&gt;Die Soldatigen befinden sich am Eingang des Sylphenlands. Die Meinige wird &lt;var 08 E905 ((der Helfenden)) ((dem Helfenden)) /var&gt; vorauseilen.</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_020&lt;tab&gt;Die Soldatigen sind dort vorne!</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_025&lt;tab&gt;Hihihi, das geschieht den Eurigen recht! Niemand betritt unerlaubt das Sylphenland!</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_GAIUSE308_01449_KOMUXIO_000_026&lt;tab&gt;Schnell, schnell, &lt;var 08 E905 ((die Laufende)) ((der Laufende)) /var&gt; muss die Geblendeten mit &lt;var 32 ((EventItem)) 03F61E899F020402 /var&gt; heilen! Vom Flügelstaub befreit wird es ihnen bald besser gehen.</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_GAIUSE308_01449_MODAE01449_000_030&lt;tab&gt;Hah ... Endlich kann ich wieder richtig atmen ...</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_GAIUSE308_01449_SEKI01449_000_035&lt;tab&gt;Vielen ... &lt;hust&gt; ... Dank! Die Sylphe kam wie aus heiterem Himmel und hat uns ... &lt;hust&gt; ... mit irgendeinem Staub besprüht.</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_GAIUSE308_01449_NAMIDA01449_000_040&lt;tab&gt;Ah, welch eine Wohltat! Mein Blick ist zwar immer noch verschwommen, aber wenigstens brennen meine Augen nicht mehr ... Ist die Sylphe noch in der Nähe!? Na warte, die kann was erleben!</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_GAIUSE308_01449_MODAE01449_000_045&lt;tab&gt;Argh, meine Haut ... Als stünde sie in Flammen ... Bitte ... lass mich noch etwas ruhen ...</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_GAIUSE308_01449_SEKI01449_000_050&lt;tab&gt;Meine Lungen ... &lt;hust&gt; ... brennen wie die Sieben Höllen ... Was ... &lt;hust&gt; ... für ein euflisches Zeug war dieser Staub?</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_GAIUSE308_01449_NAMIDA01449_000_055&lt;tab&gt;Meine Augen ... Alles ist verschwommen ... Na warte, wenn ich diese Sylphe erwische!</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_060&lt;tab&gt;&lt;var 08 E905 ((Die Unerwünschte)) ((Der Unerwünschte)) /var&gt; kommt als Verstärkung? &lt;var 08 E905 ((Die Deinige)) ((Der Deinige)) /var&gt; soll es ruhig versuchen. Das Bombige wird auch &lt;var 08 E905 ((der Deinigen)) ((dem Deinigen)) /var&gt; nicht schmecken.</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_061&lt;tab&gt;Nanu? Wo ist denn das Bombige? Die Meinige hatte es doch gerade noch!</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_062&lt;tab&gt;Einstweiliger Rückzug! Die Meinige zieht sich zurück! Aber bald bringt sie &lt;var 08 E905 ((der)) ((dem)) /var&gt; Unerwünschten ein schönes Geschenk, hihi. Ein bombiges!</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_070&lt;tab&gt;Hehe. Die Meinige hat der Finstrigen das Bombige geklaut, als die Finstrige damit beschäftigt war, böse auf die Soldatigen zu starren.</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_071&lt;tab&gt;Aber wenn die Finstrige Ersatz besorgt, war alles umsonst! Angriff ist die beste Verteidigung!</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_072&lt;tab&gt;Die Meinige wird &lt;var 08 E905 ((die Laufende)) ((den Laufenden)) /var&gt; unsichtbar machen. Dann kann &lt;var 08 E905 ((die)) ((der)) /var&gt; Laufende die Finstrige gefahrlos suchen ...</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_073&lt;tab&gt;... und ihr mit dem Bombigen eine Lektion erteilen, hihi! Wie die Deinige der Meinigen, so die Meinige der Deinigen!</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_074&lt;tab&gt;Also los, bereite dich vor, damit die Meinige &lt;var 08 E905 ((die Deinige)) ((den Deinigen)) /var&gt; unsichtbarig machen kann!</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_080&lt;tab&gt;Also gutig, los geht's!</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_GAIUSE308_01449_SYSTEM_000_081&lt;tab&gt;Du bist nun transparent. Finde die böse Sylphe und wende &lt;var 32 ((EventItem)) 03F61E899F020502 /var&gt; auf sie an.</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_GAIUSE308_01449_SYSTEM_000_082&lt;tab&gt;Der Zustand Transparenz hält 35 Sekunden an. Ist diese Zeit abgelaufen, kannst du dich der bösen Sylphe nicht mehr unbemerkt nähern. Kehre in diesem Fall zu Maxio zurück, um dich noch einmal unsichtbar machen zu lassen.</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_GAIUSE308_01449_SYSTEM_000_083&lt;tab&gt;Du kannst die Wirkungsdauer verlängern, indem du &lt;var 32 ((EObj)) 03F61E94AC020502 /var&gt; berührst, das unterwegs am Wegesrand wächst.</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_090&lt;tab&gt;&lt;var 08 E905 ((Die Deinige)) ((Der Deinige)) /var&gt; möchte noch einmal? War &lt;var 08 E905 ((die)) ((der)) /var&gt; Unsichtbarige zu langsam? Sei flink wie der Wind und lauf geschwind!</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_095&lt;tab&gt;Huch, schon wieder &lt;var 08 E905 ((die Störende)) ((der Störende)) /var&gt;. Keinen Schritt weiter! Oder wünscht sich &lt;var 08 E905 ((die Deinige)) ((der Deinige)) /var&gt; wässrige Äuglein?</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_GAIUSE308_01449_MODAE01449_000_096&lt;tab&gt;Ich ... muss schnell wieder auf die Beine ... kommen.</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_GAIUSE308_01449_SEKI01449_000_097&lt;tab&gt;Hm? Mir ist, als würde mich jemand anstarren ... &lt;hust&gt; ...</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_GAIUSE308_01449_NAMIDA01449_000_098&lt;tab&gt;I-Ist da jemand? Es tut mir leid, aber ich sehe immer noch alles ein bisschen verschwommen.</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_100&lt;tab&gt;Nanu? Woher kommt dieses Staubige? Hm? Au, mein Blättriges! Alles brennt, aua, aua!</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_110&lt;tab&gt;Hat &lt;var 08 E905 ((die Rächende)) ((der Rächende)) /var&gt; es der Finstrigen heimgezahlt? Hihi, die kommt bestimmt so schnellig nicht wieder.</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_111&lt;tab&gt;Den Soldatigen geht es auch schon besser, glaubt die Meinige. Warum fragt &lt;var 08 E905 ((die Helfende)) ((der Helfende)) /var&gt; sie nicht mal?</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_GAIUSE308_01449_MAXIO_000_120&lt;tab&gt;Den Soldatigen geht es wieder besser, glaubt die Meinige. Warum fragt &lt;var 08 E905 ((die Helfende)) ((der Helfende)) /var&gt; sie nicht mal?</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_GAIUSE308_01449_MODAE01449_000_125&lt;tab&gt;Verdammt! Diese Sylphe hat uns richtig kalt erwischt. Aber noch mal gelingt ihr das nicht!</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_GAIUSE308_01449_SEKI01449_000_130&lt;tab&gt;Danke der Nachfrage ... &lt;hust&gt; ... Ich bin wieder voll einsatzbereit.</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_GAIUSE308_01449_NAMIDA01449_000_140&lt;tab&gt;Ah, du warst das, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Endlich kann ich wieder sehen. Danke, dass du uns von dieser fliegenden Pest befreit hast.</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_GAIUSE308_01449_NAMIDA01449_000_145&lt;tab&gt;Die Mitglieder des Bundes der Morgenröte wurden in den Kampfwirren von uns getrennt. Wir müssen sie augenblicklich suchen gehen!</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_GAIUSE308_01449_RECOVER_000_000&lt;tab&gt;Deine Transparenz wurde verlängert.</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_GAIUSE308_01449_SYSTEM_000_200&lt;tab&gt;Im sichtbaren Zustand kannst du die Bombe nicht unbemerkt zünden. Kehre zu Maxio zurück und lass dich noch einmal mit dem Zustand Transparenz versehen.</target></trans-unit></body></file></xliff>
+※ Der Status „Transparenz“ verliert nach einer bestimmten Zeit seine Wirkung. Wenn du auf deinem Weg allerdings auf einen oder mehrere &lt;var 32 ((EObj)) 06F61E94AC030502 /var&gt; treffen solltest, kannst du diese Zeitspanne verlängern, indem du es anfasst.</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_06&lt;tab&gt;Es gelingt dir, die böse Sylphe mit &lt;var 32 ((EventItem)) 03F61E899F020402 /var&gt; in die Flucht zu schlagen. Erstatte Maxio Bericht.</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_07&lt;tab&gt;Maxio kann ihre Genugtuung über deinen Erfolg nicht verbergen. Die Soldaten scheinen sich in der Zwischenzeit erholt zu haben. Sprich mit dem Dritten Novizen.</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEQ_08&lt;tab&gt;Die Soldaten der Bruderschaft wollen die Operation unverzüglich fortsetzen. Wo Yda und die restlichen Mitglieder des Bundes wohl stecken?</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TODO_00&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TODO_01&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TODO_02&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TODO_03&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TODO_04&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TODO_05&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TODO_06&lt;tab&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;&lt;var 12 40 /var&gt; Dieser Auftrag wurde inhaltlich geändert. Um den Auftrag wie vorgesehen zu spielen, ist es erforderlich, ihn abzubrechen und bei dem Offizier der Bruderschaft in der Sylphen-Zuflucht neu anzunehmen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_000&lt;tab&gt;Der Vorstoß ins Sylphenland, eine Gemeinschaftsoperation des Bundes der Morgenröte, der Bruderschaft und der Zufluchts-Sylphen ist bereits in vollem Gange. Lass mich dir kurz erläutern, wie unsere Operation ablaufen wird.</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_001&lt;tab&gt;Damit du Kontakt mit dem Primae Ramuh aufnehmen kannst, müssen wir bis zu der Stelle vordringen, an der die finsteren Sylphen ihn heraufbeschworen haben.</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_002&lt;tab&gt;Spähtrupps der Bruderschaft suchen bereits danach, sind aber noch nicht fündig geworden. Wegen der vielen Gefahren im Sylphenland geht die Suche nur langsam voran.</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_003&lt;tab&gt;Aus diesem Grund haben wir Yda, Papalymo, Y'shtola und Thancred vom Bund um Hilfe gebeten.</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_004&lt;tab&gt;Mit ihren Messgeräten sollte es ihnen möglich sein, die Turbulenzen im Äther zu lokalisieren, die durch die Beschwörung Ramuhs hervorgerufen wurden. </target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_005&lt;tab&gt;Begleitet werden sie von einem Wachtrupp der Bruderschaft und einer Fährtensucherin der Sylphen. Sie sind bereits ins Sylphenland aufgebrochen. Du solltest so schnell wie möglich zu ihnen aufschließen.</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_006&lt;tab&gt;Etwas ganz Schlimmiges ist passiert!</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_007&lt;tab&gt;Du ... Bist du nicht die Fährtensucherin? Warum bist du nicht beim Spähtrupp?</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_008&lt;tab&gt;Am Eingang des Sylphenlands wurden die Unsrigen von einer Finstrigen angegriffen! Mit &lt;var 32 ((EventItem)) 02F61E899F020402 /var&gt;! Die Soldatigen hatten ganz viel Tränendes in den Augen!</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_009&lt;tab&gt;Was sagst du? Und die Mitglieder des Bundes?</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_010&lt;tab&gt;Die Soldatigen haben die Bündigen beschützt! Aber während des Kampfes haben die Unsrigen sich aus den Augen verloren!</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_011&lt;tab&gt;Das sind schlechte Neuigkeiten. Alleine sind die Gelehrten in Gefahr. Wir müssen uns um die verletzten Soldaten kümmern und dann auf der Stelle Yda und die anderen suchen.</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_KOMUXIO_000_012&lt;tab&gt;Dann sollten die Eurigen dieses Nassige hier benutzen. Es wäscht den Flügelstaub hinfort und lindert die Schmerzen.</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_013&lt;tab&gt;Hab vielen Dank, liebe Sylphe. Dieses Wasser kann &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt; sicher gut gebrauchen.</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_014&lt;tab&gt;Unsere Operation scheint unter keinem guten Stern zu stehen, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;. Lass im Sylphenland äußerste Vorsicht walten.</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_LIEUTENANT01448_000_015&lt;tab&gt;Wenn die Soldaten wieder ansprechbar sind, können sie dir vielleicht Hinweise auf den Verbleib der Mitglieder des Bundes geben. Möge Nophicas Segen mit dir sein!</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_016&lt;tab&gt;Die Soldatigen befinden sich am Eingang des Sylphenlands. Die Meinige wird &lt;var 08 E905 ((der Helfenden)) ((dem Helfenden)) /var&gt; vorauseilen.</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_020&lt;tab&gt;Die Soldatigen sind dort vorne!</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_025&lt;tab&gt;Hihihi, das geschieht den Eurigen recht! Niemand betritt unerlaubt das Sylphenland!</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_KOMUXIO_000_026&lt;tab&gt;Schnell, schnell, &lt;var 08 E905 ((die Laufende)) ((der Laufende)) /var&gt; muss die Geblendeten mit &lt;var 32 ((EventItem)) 03F61E899F020402 /var&gt; heilen! Vom Flügelstaub befreit wird es ihnen bald besser gehen.</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MODAE01449_000_030&lt;tab&gt;Hah ... Endlich kann ich wieder richtig atmen ...</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEKI01449_000_035&lt;tab&gt;Vielen ... &lt;hust&gt; ... Dank! Die Sylphe kam wie aus heiterem Himmel und hat uns ... &lt;hust&gt; ... mit irgendeinem Staub besprüht.</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_NAMIDA01449_000_040&lt;tab&gt;Ah, welch eine Wohltat! Mein Blick ist zwar immer noch verschwommen, aber wenigstens brennen meine Augen nicht mehr ... Ist die Sylphe noch in der Nähe!? Na warte, die kann was erleben!</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MODAE01449_000_045&lt;tab&gt;Argh, meine Haut ... Als stünde sie in Flammen ... Bitte ... lass mich noch etwas ruhen ...</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEKI01449_000_050&lt;tab&gt;Meine Lungen ... &lt;hust&gt; ... brennen wie die Sieben Höllen ... Was ... &lt;hust&gt; ... für ein euflisches Zeug war dieser Staub?</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_NAMIDA01449_000_055&lt;tab&gt;Meine Augen ... Alles ist verschwommen ... Na warte, wenn ich diese Sylphe erwische!</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_060&lt;tab&gt;&lt;var 08 E905 ((Die Unerwünschte)) ((Der Unerwünschte)) /var&gt; kommt als Verstärkung? &lt;var 08 E905 ((Die Deinige)) ((Der Deinige)) /var&gt; soll es ruhig versuchen. Das Bombige wird auch &lt;var 08 E905 ((der Deinigen)) ((dem Deinigen)) /var&gt; nicht schmecken.</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_061&lt;tab&gt;Nanu? Wo ist denn das Bombige? Die Meinige hatte es doch gerade noch!</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_062&lt;tab&gt;Einstweiliger Rückzug! Die Meinige zieht sich zurück! Aber bald bringt sie &lt;var 08 E905 ((der)) ((dem)) /var&gt; Unerwünschten ein schönes Geschenk, hihi. Ein bombiges!</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_070&lt;tab&gt;Hehe. Die Meinige hat der Finstrigen das Bombige geklaut, als die Finstrige damit beschäftigt war, böse auf die Soldatigen zu starren.</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_071&lt;tab&gt;Aber wenn die Finstrige Ersatz besorgt, war alles umsonst! Angriff ist die beste Verteidigung!</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_072&lt;tab&gt;Die Meinige wird &lt;var 08 E905 ((die Laufende)) ((den Laufenden)) /var&gt; unsichtbar machen. Dann kann &lt;var 08 E905 ((die)) ((der)) /var&gt; Laufende die Finstrige gefahrlos suchen ...</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_073&lt;tab&gt;... und ihr mit dem Bombigen eine Lektion erteilen, hihi! Wie die Deinige der Meinigen, so die Meinige der Deinigen!</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_074&lt;tab&gt;Also los, bereite dich vor, damit die Meinige &lt;var 08 E905 ((die Deinige)) ((den Deinigen)) /var&gt; unsichtbarig machen kann!</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_080&lt;tab&gt;Also gutig, los geht's!</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SYSTEM_000_081&lt;tab&gt;Du bist nun transparent. Finde die böse Sylphe und wende &lt;var 32 ((EventItem)) 03F61E899F020502 /var&gt; auf sie an.</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SYSTEM_000_082&lt;tab&gt;Der Zustand Transparenz hält 35 Sekunden an. Ist diese Zeit abgelaufen, kannst du dich der bösen Sylphe nicht mehr unbemerkt nähern. Kehre in diesem Fall zu Maxio zurück, um dich noch einmal unsichtbar machen zu lassen.</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SYSTEM_000_083&lt;tab&gt;Du kannst die Wirkungsdauer verlängern, indem du &lt;var 32 ((EObj)) 03F61E94AC020502 /var&gt; berührst, das unterwegs am Wegesrand wächst.</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_090&lt;tab&gt;&lt;var 08 E905 ((Die Deinige)) ((Der Deinige)) /var&gt; möchte noch einmal? War &lt;var 08 E905 ((die)) ((der)) /var&gt; Unsichtbarige zu langsam? Sei flink wie der Wind und lauf geschwind!</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_095&lt;tab&gt;Huch, schon wieder &lt;var 08 E905 ((die Störende)) ((der Störende)) /var&gt;. Keinen Schritt weiter! Oder wünscht sich &lt;var 08 E905 ((die Deinige)) ((der Deinige)) /var&gt; wässrige Äuglein?</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MODAE01449_000_096&lt;tab&gt;Ich ... muss schnell wieder auf die Beine ... kommen.</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEKI01449_000_097&lt;tab&gt;Hm? Mir ist, als würde mich jemand anstarren ... &lt;hust&gt; ...</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_NAMIDA01449_000_098&lt;tab&gt;I-Ist da jemand? Es tut mir leid, aber ich sehe immer noch alles ein bisschen verschwommen.</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_TEMPEREDSYLPH01449_000_100&lt;tab&gt;Nanu? Woher kommt dieses Staubige? Hm? Au, mein Blättriges! Alles brennt, aua, aua!</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_110&lt;tab&gt;Hat &lt;var 08 E905 ((die Rächende)) ((der Rächende)) /var&gt; es der Finstrigen heimgezahlt? Hihi, die kommt bestimmt so schnellig nicht wieder.</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_111&lt;tab&gt;Den Soldatigen geht es auch schon besser, glaubt die Meinige. Warum fragt &lt;var 08 E905 ((die Helfende)) ((der Helfende)) /var&gt; sie nicht mal?</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MAXIO_000_120&lt;tab&gt;Den Soldatigen geht es wieder besser, glaubt die Meinige. Warum fragt &lt;var 08 E905 ((die Helfende)) ((der Helfende)) /var&gt; sie nicht mal?</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_MODAE01449_000_125&lt;tab&gt;Verdammt! Diese Sylphe hat uns richtig kalt erwischt. Aber noch mal gelingt ihr das nicht!</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SEKI01449_000_130&lt;tab&gt;Danke der Nachfrage ... &lt;hust&gt; ... Ich bin wieder voll einsatzbereit.</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_NAMIDA01449_000_140&lt;tab&gt;Ah, du warst das, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Endlich kann ich wieder sehen. Danke, dass du uns von dieser fliegenden Pest befreit hast.</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_NAMIDA01449_000_145&lt;tab&gt;Die Mitglieder des Bundes der Morgenröte wurden in den Kampfwirren von uns getrennt. Wir müssen sie augenblicklich suchen gehen!</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_RECOVER_000_000&lt;tab&gt;Deine Transparenz wurde verlängert.</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSE308_01449_SYSTEM_000_200&lt;tab&gt;Im sichtbaren Zustand kannst du die Bombe nicht unbemerkt zünden. Kehre zu Maxio zurück und lass dich noch einmal mit dem Zustand Transparenz versehen.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

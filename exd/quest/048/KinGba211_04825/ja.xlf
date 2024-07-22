@@ -1,88 +1,578 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="KinGba211_04825" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_KINGBA211_04825_SEQ_00&lt;tab&gt;八分儀広場南のローシュカナは、冒険者に相談したいことがあるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_KINGBA211_04825_SEQ_01&lt;tab&gt;ローシュカナたちと話した。祭器を盗んだ犯人の足取りが判明した。西ラノシアのエールポートへ向かい、「ローシュカナ」と合流しよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_KINGBA211_04825_SEQ_02&lt;tab&gt;ローシュカナと合流した。彼女は、犯人の行方について話を聞くことができそうな人物について、船頭から教わったという。エールポートの「エールポートの商人」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_KINGBA211_04825_SEQ_03&lt;tab&gt;エールポートの商人と話した。犯人と思しき行商人が、駆け出し冒険者のウィスルムとゼリグに錬金薬を売っていたという。西ラノシアのクォーターストーンで「ウィスルム」たちを探し、襲われていたら敵を討伐しよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_KINGBA211_04825_SEQ_04&lt;tab&gt;ウィスルムたちを襲う魔法人形を討伐した。クォーターストーンの「ウィスルム」を救助しよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_KINGBA211_04825_SEQ_05&lt;tab&gt;ウィスルムを救助した。彼の相棒であるゼリグは、飲んだ錬金薬が不良品だったのか、しゃっくりが止まらないという。クォーターストーンの「ゼリグ」に「エスナ」をかけよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_KINGBA211_04825_SEQ_06&lt;tab&gt;ゼリグにエスナをかけた。冒険者たちの前に、ローシュカナの故郷から祭器を盗み、ウィスルムとゼリグに毒を付与した錬金薬を売った犯人が現れた。エルレットとココノワと名乗った犯人たちは、煙幕を焚いて引き揚げていった。リムサ・ロミンサへ戻り、八分儀広場南の「ローシュカナ」と話そう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_KINGBA211_04825_SEQ_07&lt;tab&gt;ローシュカナと話した。新たな情報が入るのを待って、再び彼女のもとを訪ねよう。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="KinGba211_04825" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SEQ_00&lt;tab&gt;八分儀広場南のローシュカナは、冒険者に相談したいことがあるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SEQ_01&lt;tab&gt;ローシュカナたちと話した。祭器を盗んだ犯人の足取りが判明した。西ラノシアのエールポートへ向かい、「ローシュカナ」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SEQ_02&lt;tab&gt;ローシュカナと合流した。彼女は、犯人の行方について話を聞くことができそうな人物について、船頭から教わったという。エールポートの「エールポートの商人」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SEQ_03&lt;tab&gt;エールポートの商人と話した。犯人と思しき行商人が、駆け出し冒険者のウィスルムとゼリグに錬金薬を売っていたという。西ラノシアのクォーターストーンで「ウィスルム」たちを探し、襲われていたら敵を討伐しよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SEQ_04&lt;tab&gt;ウィスルムたちを襲う魔法人形を討伐した。クォーターストーンの「ウィスルム」を救助しよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SEQ_05&lt;tab&gt;ウィスルムを救助した。彼の相棒であるゼリグは、飲んだ錬金薬が不良品だったのか、しゃっくりが止まらないという。クォーターストーンの「ゼリグ」に「エスナ」をかけよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SEQ_06&lt;tab&gt;ゼリグにエスナをかけた。冒険者たちの前に、ローシュカナの故郷から祭器を盗み、ウィスルムとゼリグに毒を付与した錬金薬を売った犯人が現れた。エルレットとココノワと名乗った犯人たちは、煙幕を焚いて引き揚げていった。リムサ・ロミンサへ戻り、八分儀広場南の「ローシュカナ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SEQ_07&lt;tab&gt;ローシュカナと話した。新たな情報が入るのを待って、再び彼女のもとを訪ねよう。
 
-※いずれかのHEALERジョブのレベルが94以上になると、八分儀広場南のローシュカナから次のHEALERロールクエストを受注することができます。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_KINGBA211_04825_TODO_00&lt;tab&gt;エールポートのローシュカナと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_KINGBA211_04825_TODO_01&lt;tab&gt;エールポートの商人と話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_KINGBA211_04825_TODO_02&lt;tab&gt;ウィスルムたちを探して、襲われていたら敵を討伐</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_KINGBA211_04825_TODO_03&lt;tab&gt;ウィスルムを救助</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_KINGBA211_04825_TODO_04&lt;tab&gt;ゼリグにエスナをする</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_KINGBA211_04825_TODO_05&lt;tab&gt;リムサ・ロミンサのローシュカナと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_001&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、
-ちょっと相談してもいいかしら？</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_002&lt;tab&gt;実はね、ここで麻痺している人が倒れていた事件のあと、
-犯人たちの動きがまったくないのよ。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_003&lt;tab&gt;悪さが収まったと考えればいいことではあるものの、
+※いずれかのHEALERジョブのレベルが94以上になると、八分儀広場南のローシュカナから次のHEALERロールクエストを受注することができます。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_TODO_00&lt;tab&gt;エールポートのローシュカナと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_TODO_01&lt;tab&gt;エールポートの商人と話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_TODO_02&lt;tab&gt;ウィスルムたちを探して、襲われていたら敵を討伐</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_TODO_03&lt;tab&gt;ウィスルムを救助</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_TODO_04&lt;tab&gt;ゼリグにエスナをする</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_TODO_05&lt;tab&gt;リムサ・ロミンサのローシュカナと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_001&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、
+ちょっと相談してもいいかしら？</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_002&lt;tab&gt;実はね、ここで麻痺している人が倒れていた事件のあと、
+犯人たちの動きがまったくないのよ。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_003&lt;tab&gt;悪さが収まったと考えればいいことではあるものの、
 犯人探しの手がかりが途絶えたも同然……
-どうしたものかと、困っちゃってね。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_004&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿～！</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_005&lt;tab&gt;例の犯人について、情報が入りましたよ！
+どうしたものかと、困っちゃってね。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_004&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿～！</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_005&lt;tab&gt;例の犯人について、情報が入りましたよ！
 果物売りの行商人と目されるララフェル族の男性が、
-ヒューラン族の女性を伴って、都市を出る姿が目撃されたのです！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_006&lt;tab&gt;ふたりはエールポート方面に向かったとのこと。
+ヒューラン族の女性を伴って、都市を出る姿が目撃されたのです！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_006&lt;tab&gt;ふたりはエールポート方面に向かったとのこと。
 我々イエロージャケットや市民が警戒を強めていたので、
-リムサ・ロミンサでは動きづらくなったのかもしれませんね！</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_007&lt;tab&gt;エールポート……？
-それも、この島にある場所なのかしら。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_008&lt;tab&gt;あ、そうです！
+リムサ・ロミンサでは動きづらくなったのかもしれませんね！</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_007&lt;tab&gt;エールポート……？
+それも、この島にある場所なのかしら。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_008&lt;tab&gt;あ、そうです！
 西ラノシアにある港町で、徒歩で向かうこともできますけど、
-漁師ギルド近くから出ている船便でも行けますよ。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_009&lt;tab&gt;むろん、我々も引き続き警戒を続けていきますが、
+漁師ギルド近くから出ている船便でも行けますよ。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_009&lt;tab&gt;むろん、我々も引き続き警戒を続けていきますが、
 経験豊富な冒険者でもあられる&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿に、
-犯人を追跡していただけるのなら心強いというもの……。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_010&lt;tab&gt;事件の調査を続けられるのであれば、
-ぜひ、エールポートに向かってみてください！</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_011&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿、ご一緒できて光栄でした！
-おふたりとも、どうかお気をつけて！</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_012&lt;tab&gt;イエロージャケットというのは、ここを守る人たちなのよね？
+犯人を追跡していただけるのなら心強いというもの……。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_010&lt;tab&gt;事件の調査を続けられるのであれば、
+ぜひ、エールポートに向かってみてください！</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_YELLOWJACKET04824_000_011&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿、ご一緒できて光栄でした！
+おふたりとも、どうかお気をつけて！</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_012&lt;tab&gt;イエロージャケットというのは、ここを守る人たちなのよね？
 そういう人から頼りにされてるなんて、
-&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;はすごいわ。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_013&lt;tab&gt;遠い異国の地で祭器を取り戻せるか不安だったけど、
-アナタと、さっきの彼女のおかげで一歩前進よ！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_014&lt;tab&gt;犯人たちがさらに移動してしまう前に、
-さっそくその港町へ出発しましょう！</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_015&lt;tab&gt;ワタシは、船でエールポートへ向かうわね。
-アナタも追跡の準備を整えたら、現地に来てくれると助かるわ。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_021&lt;tab&gt;ああ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！
-初めての場所で心配だったけど、無事に合流できてよかった。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_022&lt;tab&gt;移動中、船頭といろいろとお話しして、
+&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;はすごいわ。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_013&lt;tab&gt;遠い異国の地で祭器を取り戻せるか不安だったけど、
+アナタと、さっきの彼女のおかげで一歩前進よ！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_014&lt;tab&gt;犯人たちがさらに移動してしまう前に、
+さっそくその港町へ出発しましょう！</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_015&lt;tab&gt;ワタシは、船でエールポートへ向かうわね。
+アナタも追跡の準備を整えたら、現地に来てくれると助かるわ。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_021&lt;tab&gt;ああ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！
+初めての場所で心配だったけど、無事に合流できてよかった。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_022&lt;tab&gt;移動中、船頭といろいろとお話しして、
 エールポート周辺の地理についても教わっておいたわ。
-犯人の追跡中に、道に迷ったら大変だからね。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_023&lt;tab&gt;あと、行商人の二人組を乗せなかったか聞いてみたけど、
-珍しい種族の組み合わせではないから、わからないって。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_024&lt;tab&gt;そのかわりに、耳寄りな情報をもらったわ。
+犯人の追跡中に、道に迷ったら大変だからね。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_023&lt;tab&gt;あと、行商人の二人組を乗せなかったか聞いてみたけど、
+珍しい種族の組み合わせではないから、わからないって。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_024&lt;tab&gt;そのかわりに、耳寄りな情報をもらったわ。
 エールポートで長らく働いている商人がいるそうでね、
-港に出入りしている人のことなら知ってるかもしれないと。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_025&lt;tab&gt;相変わらず、手がかりは多くないけど、
-なんとか犯人の尻尾を掴みたいわね……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_026&lt;tab&gt;ひとまず、その「エールポートの商人」と話してみましょう。
+港に出入りしている人のことなら知ってるかもしれないと。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_025&lt;tab&gt;相変わらず、手がかりは多くないけど、
+なんとか犯人の尻尾を掴みたいわね……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_026&lt;tab&gt;ひとまず、その「エールポートの商人」と話してみましょう。
 この時間なら、スカルバレー側の門の近くで、
-お仕事をしているそうよ。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_027&lt;tab&gt;船頭が言っていた「エールポートの商人」は、
-この人みたいね。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_KINGBA211_04825_MERCHANT04825A_000_031&lt;tab&gt;おや、何か入用か？</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_KINGBA211_04825_MERCHANT04825A_000_032&lt;tab&gt;ララフェル族の男と、ヒューラン族の女……
+お仕事をしているそうよ。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_027&lt;tab&gt;船頭が言っていた「エールポートの商人」は、
+この人みたいね。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_MERCHANT04825A_000_031&lt;tab&gt;おや、何か入用か？</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_MERCHANT04825A_000_032&lt;tab&gt;ララフェル族の男と、ヒューラン族の女……
 ああ、その組み合わせの行商人だったらさっき見たぞ。
-知らない顔だったから、印象に残ってなぁ。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_KINGBA211_04825_MERCHANT04825A_000_033&lt;tab&gt;駆け出しの冒険者相手に、安価で錬金薬を売っていた。
-新米の支援がてら、必需品を安く売るヤツがたまにいるんだ。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_034&lt;tab&gt;錬金薬を……？
+知らない顔だったから、印象に残ってなぁ。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_MERCHANT04825A_000_033&lt;tab&gt;駆け出しの冒険者相手に、安価で錬金薬を売っていた。
+新米の支援がてら、必需品を安く売るヤツがたまにいるんだ。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_034&lt;tab&gt;錬金薬を……？
 その行商人がワタシたちの追っている人だとしたら、
-薬に何か仕込んでいる可能性があるわ。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_KINGBA211_04825_MERCHANT04825A_000_035&lt;tab&gt;おいおい、それは本当なのか？
+薬に何か仕込んでいる可能性があるわ。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_MERCHANT04825A_000_035&lt;tab&gt;おいおい、それは本当なのか？
 薬を買った冒険者……斧術士のウィスルムと幻術士のゼリグなら、
-農民の護衛を引き受けて、ここを発ったところだぞ。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_KINGBA211_04825_MERCHANT04825A_000_036&lt;tab&gt;たしか、スウィフトパーチ入植地まで行くと言っていた。
+農民の護衛を引き受けて、ここを発ったところだぞ。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_MERCHANT04825A_000_036&lt;tab&gt;たしか、スウィフトパーチ入植地まで行くと言っていた。
 彼らはとても気のいいヤツらなんだ……
-追いかけてやってもらえないか？</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_037&lt;tab&gt;ええ、わかったわ！</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_038&lt;tab&gt;たしか、「スウィフトパーチ入植地」はここから南東よね？
-&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、急いで追いかけましょう！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_KINGBA211_04825_MERCHANT04825A_000_039&lt;tab&gt;俺は商談でここを離れてしまうが、
-「スウィフトパーチ入植地」へ向かったふたりを、どうか頼む。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_041&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、
+追いかけてやってもらえないか？</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_037&lt;tab&gt;ええ、わかったわ！</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_038&lt;tab&gt;たしか、「スウィフトパーチ入植地」はここから南東よね？
+&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、急いで追いかけましょう！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_MERCHANT04825A_000_039&lt;tab&gt;俺は商談でここを離れてしまうが、
+「スウィフトパーチ入植地」へ向かったふたりを、どうか頼む。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_041&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、
 どこからかわからないけど、視線を感じるわ。
-今もまだ、何かに「見られている」ような……。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_KINGBA211_04825_ZERIG_000_042&lt;tab&gt;しゃっくりが、ひっく、止まらなっ……。
-「ウィスルム」を、ひっく、助けてやって……ひっく！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_KINGBA211_04825_MERCHANT04825B_000_043&lt;tab&gt;あ、危ないところでした……。
-助けてくださって、ありがとうございます！</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_045&lt;tab&gt;ふぅ……。
-ありがとよ、もう大丈夫だ！</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_046&lt;tab&gt;エールポートで買った錬金薬が不良品だったのか、
+今もまだ、何かに「見られている」ような……。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ZERIG_000_042&lt;tab&gt;しゃっくりが、ひっく、止まらなっ……。
+「ウィスルム」を、ひっく、助けてやって……ひっく！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_MERCHANT04825B_000_043&lt;tab&gt;あ、危ないところでした……。
+助けてくださって、ありがとうございます！</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_045&lt;tab&gt;ふぅ……。
+ありがとよ、もう大丈夫だ！</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_046&lt;tab&gt;エールポートで買った錬金薬が不良品だったのか、
 相棒が飲んだら、しゃっくりが止まんなくなっちまってな。
-魔法も唱えられなくなって、焦ったぜ……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_KINGBA211_04825_ZERIG_000_047&lt;tab&gt;ひっく……。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_100_047&lt;tab&gt;そのしゃっくりが毒によるものだとしたら、
-リムサ・ロミンサのときと同じで、エスナで治せるはずよ。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_100_048&lt;tab&gt;毒だぁ！？
-……いやいやっ、その話は後回しだな！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_048&lt;tab&gt;助けてもらったってのに、さらに図々しいこと言っちまうが、
-こいつ……ゼリグに「エスナ」を頼めねぇか？</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_049&lt;tab&gt;助けてもらっておいて図々しいこと言っちまうけど、
-ゼリグに「エスナ」を頼めねぇか？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_110_050&lt;tab&gt;ゼリグのしゃっくりが毒によるものだとしたら、
+魔法も唱えられなくなって、焦ったぜ……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ZERIG_000_047&lt;tab&gt;ひっく……。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_100_047&lt;tab&gt;そのしゃっくりが毒によるものだとしたら、
+リムサ・ロミンサのときと同じで、エスナで治せるはずよ。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_100_048&lt;tab&gt;毒だぁ！？
+……いやいやっ、その話は後回しだな！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_048&lt;tab&gt;助けてもらったってのに、さらに図々しいこと言っちまうが、
+こいつ……ゼリグに「エスナ」を頼めねぇか？</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_049&lt;tab&gt;助けてもらっておいて図々しいこと言っちまうけど、
+ゼリグに「エスナ」を頼めねぇか？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_110_050&lt;tab&gt;ゼリグのしゃっくりが毒によるものだとしたら、
 リムサ・ロミンサのときと同じで、エスナで治せるはずよ。
-私は周囲を警戒しておくから、アナタは彼を癒やしてあげて。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_KINGBA211_04825_ZERIG_000_051&lt;tab&gt;ひっく……。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_KINGBA211_04825_SYSTEM_000_052&lt;tab&gt;ゼリグは、しゃっくりが止まらず困っているようだ。
-「エスナ」を使って治そう。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_KINGBA211_04825_ZERIG_000_053&lt;tab&gt;すまない、助かった。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_054&lt;tab&gt;ったく、どうして魔法人形なんかがいやがったんだ？
-それにあの行商人……妙な錬金薬を売りつけやがって！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_055&lt;tab&gt;そこにいるのは、誰？</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_000_056&lt;tab&gt;(-？？？？-)えぇ、怖ぁ～い！
-どうして気づくかなぁ……？</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_057&lt;tab&gt;あっ、てめぇ！
-俺らに錬金薬を売った行商人じゃねえか！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_000_058&lt;tab&gt;(-ヒューラン族の女-)薬に沈黙の毒を仕込んだはずなのに、
-しゃっくりし始めるから、笑っちゃったわ！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_KINGBA211_04825_KOKONOWA_000_059&lt;tab&gt;(-ララフェル族の男-)毒が薬の成分と混ざって、変な風に作用したのでは？
-まあ、面白かったからいいんじゃないですかね。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_060&lt;tab&gt;毒……！
-やっぱり、アナタたちが祭器を奪った「自由の扉」の一味ね！</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_000_061&lt;tab&gt;(-ヒューラン族の女-)ふぅん、その名前を知ってるんだ！
-それなら、ここは名乗りを上げておこうかなぁ～？</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_000_062&lt;tab&gt;私は自由の扉の一員にして、
-腕利きの錬金術師「エルレット」よ！</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_KINGBA211_04825_KOKONOWA_000_063&lt;tab&gt;どうも、お姉さんたち。
-エルレットの助手をやっている、彫金師の「ココノワ」です。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_000_064&lt;tab&gt;あ、もしかしてお姉さんってば、あの部族の人？
-祭器を取り返すために、わざわざ長旅ご苦労さま～！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_065&lt;tab&gt;祭器で毒を盛るなんて、目的は何……？
-これも、自由の扉が狙っている「国家転覆」のためだというの？</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_100_066&lt;tab&gt;あっは、たしかにウチの組織はそんな目標掲げてるけど、
-正直言って、そういうの興味なくって～。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_000_066&lt;tab&gt;私はただ、趣味の「イタズラ」を楽しんでるだけ！
+私は周囲を警戒しておくから、アナタは彼を癒やしてあげて。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ZERIG_000_051&lt;tab&gt;ひっく……。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_SYSTEM_000_052&lt;tab&gt;ゼリグは、しゃっくりが止まらず困っているようだ。
+「エスナ」を使って治そう。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ZERIG_000_053&lt;tab&gt;すまない、助かった。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_054&lt;tab&gt;ったく、どうして魔法人形なんかがいやがったんだ？
+それにあの行商人……妙な錬金薬を売りつけやがって！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_055&lt;tab&gt;そこにいるのは、誰？</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_000_056&lt;tab&gt;(-？？？？-)えぇ、怖ぁ～い！
+どうして気づくかなぁ……？</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_057&lt;tab&gt;あっ、てめぇ！
+俺らに錬金薬を売った行商人じゃねえか！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_000_058&lt;tab&gt;(-ヒューラン族の女-)薬に沈黙の毒を仕込んだはずなのに、
+しゃっくりし始めるから、笑っちゃったわ！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_KOKONOWA_000_059&lt;tab&gt;(-ララフェル族の男-)毒が薬の成分と混ざって、変な風に作用したのでは？
+まあ、面白かったからいいんじゃないですかね。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_060&lt;tab&gt;毒……！
+やっぱり、アナタたちが祭器を奪った「自由の扉」の一味ね！</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_000_061&lt;tab&gt;(-ヒューラン族の女-)ふぅん、その名前を知ってるんだ！
+それなら、ここは名乗りを上げておこうかなぁ～？</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_000_062&lt;tab&gt;私は自由の扉の一員にして、
+腕利きの錬金術師「エルレット」よ！</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_KOKONOWA_000_063&lt;tab&gt;どうも、お姉さんたち。
+エルレットの助手をやっている、彫金師の「ココノワ」です。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_000_064&lt;tab&gt;あ、もしかしてお姉さんってば、あの部族の人？
+祭器を取り返すために、わざわざ長旅ご苦労さま～！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_065&lt;tab&gt;祭器で毒を盛るなんて、目的は何……？
+これも、自由の扉が狙っている「国家転覆」のためだというの？</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_100_066&lt;tab&gt;あっは、たしかにウチの組織はそんな目標掲げてるけど、
+正直言って、そういうの興味なくって～。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_000_066&lt;tab&gt;私はただ、趣味の「イタズラ」を楽しんでるだけ！
 この祭器って、扱いに慣れてくると、
-使える毒の種類も強度も増えるし、ほんと面白いよねぇ！</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_000_067&lt;tab&gt;お姉さんのお友だちは腕のいい癒やし手みたいだけど……
+使える毒の種類も強度も増えるし、ほんと面白いよねぇ！</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_000_067&lt;tab&gt;お姉さんのお友だちは腕のいい癒やし手みたいだけど……
 もう少し練習すれば、簡単には解毒できない強烈なヤツも、
-使えるようになったりして～！</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_KINGBA211_04825_ELLERETE_000_068&lt;tab&gt;さてと、イタズラも成功したことだし、そろそろ帰ろ～っと！
-それじゃあ、またねぇ～！</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_069&lt;tab&gt;待ちなさい！</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_070&lt;tab&gt;くっせえ！
-煙幕もひでえ臭いとか、嫌がらせにもほどがあんだろ！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_KINGBA211_04825_ZERIG_000_071&lt;tab&gt;ああ、つらい……心も体もつらい……。
-黒衣森の清らかな空気が恋しい……。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_072&lt;tab&gt;おいおい、しっかりしてくれよ相棒！
-ヤツらもいなくなったし、依頼人を送り届けてやんねぇと。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_KINGBA211_04825_WYSSULM_000_073&lt;tab&gt;護衛の最中だったからよ、俺らはそろそろ出発するわ。
-助けてくれて感謝してるぜ、えーっと……。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_074&lt;tab&gt;ワタシはローシュカナで、こちらは&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
-お仕事、がんばってね。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_075&lt;tab&gt;彼女たちもさすがに警戒はするだろうから、
+使えるようになったりして～！</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ELLERETE_000_068&lt;tab&gt;さてと、イタズラも成功したことだし、そろそろ帰ろ～っと！
+それじゃあ、またねぇ～！</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_069&lt;tab&gt;待ちなさい！</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_070&lt;tab&gt;くっせえ！
+煙幕もひでえ臭いとか、嫌がらせにもほどがあんだろ！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_ZERIG_000_071&lt;tab&gt;ああ、つらい……心も体もつらい……。
+黒衣森の清らかな空気が恋しい……。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_072&lt;tab&gt;おいおい、しっかりしてくれよ相棒！
+ヤツらもいなくなったし、依頼人を送り届けてやんねぇと。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_WYSSULM_000_073&lt;tab&gt;護衛の最中だったからよ、俺らはそろそろ出発するわ。
+助けてくれて感謝してるぜ、えーっと……。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_074&lt;tab&gt;ワタシはローシュカナで、こちらは&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+お仕事、がんばってね。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_075&lt;tab&gt;彼女たちもさすがに警戒はするだろうから、
 ここで悪事を続けるとは考えにくいわ。
-ひとまず「リムサ・ロミンサ」へ戻りましょうか。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_081&lt;tab&gt;おかえりなさい、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
-今回もアナタが同行してくれたおかげで助かったわ。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_082&lt;tab&gt;彼女……エルレットは「イタズラ」と言っていたけど、
-毒を使うなんて度が過ぎてる。</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_083&lt;tab&gt;祭器をおもちゃのように扱うなんて……
+ひとまず「リムサ・ロミンサ」へ戻りましょうか。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_081&lt;tab&gt;おかえりなさい、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+今回もアナタが同行してくれたおかげで助かったわ。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_082&lt;tab&gt;彼女……エルレットは「イタズラ」と言っていたけど、
+毒を使うなんて度が過ぎてる。</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_083&lt;tab&gt;祭器をおもちゃのように扱うなんて……
 故郷の子どもたちのほうが、よほど分別があるわ。
-まったく、腹立たしい人たちね。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_084&lt;tab&gt;祭器を取り戻すことはできなかったものの、
-名前と容姿を把握できたから、格段に追いやすくなるはずよ。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_KINGBA211_04825_LOASHKANA_000_085&lt;tab&gt;これを手がかりに、また情報を探っておくから、
-どうかまた、力を貸してね。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_KINGBA211_04825_KOKONAWA_000_059&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_KINGBA211_04825_KOKONAWA_000_063&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_001&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_002&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_003&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_007&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_012&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_013&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_014&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_015&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_021&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_022&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_023&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_024&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_025&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_026&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_027&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_034&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_037&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_038&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_041&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_100_047&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_110_050&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_055&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_060&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_065&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="147" approved="yes"><source>147</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_069&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="148" approved="yes"><source>148</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_074&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="149" approved="yes"><source>149</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_075&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="150" approved="yes"><source>150</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_081&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="151" approved="yes"><source>151</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_082&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="152" approved="yes"><source>152</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_083&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="153" approved="yes"><source>153</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_084&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="154" approved="yes"><source>154</source><target state="final">TEXT_KINGBA211_04825_LOALHKANA_000_085&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit></body></file></xliff>
+まったく、腹立たしい人たちね。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_084&lt;tab&gt;祭器を取り戻すことはできなかったものの、
+名前と容姿を把握できたから、格段に追いやすくなるはずよ。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOASHKANA_000_085&lt;tab&gt;これを手がかりに、また情報を探っておくから、
+どうかまた、力を貸してね。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_KOKONAWA_000_059&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_KOKONAWA_000_063&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_001&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_002&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_003&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_007&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_012&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_013&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_014&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_015&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_021&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_022&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_023&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_024&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_025&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_026&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_027&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_034&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_037&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_038&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_041&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_100_047&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_110_050&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_055&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="145" approved="yes">
+				<source>145</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_060&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="146" approved="yes">
+				<source>146</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_065&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="147" approved="yes">
+				<source>147</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_069&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="148" approved="yes">
+				<source>148</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_074&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="149" approved="yes">
+				<source>149</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_075&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="150" approved="yes">
+				<source>150</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_081&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="151" approved="yes">
+				<source>151</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_082&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="152" approved="yes">
+				<source>152</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_083&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="153" approved="yes">
+				<source>153</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_084&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="154" approved="yes">
+				<source>154</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBA211_04825_LOALHKANA_000_085&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,143 +1,585 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="ClsHrv600_02052" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_CLSHRV600_02052_SEQ_00&lt;tab&gt;エーテライト・プラザのムジ・ミュリラーは冒険者の来訪を歓迎しているようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_CLSHRV600_02052_SEQ_01&lt;tab&gt;ムジ・ミュリラーと話していると、バジールから、ムジ・ミュリラーの記事がキッカケで、罪に問われてしまったと通信がきた。アバラシア雲海のキャンプ・クラウドトップにいる「バジール」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_CLSHRV600_02052_SEQ_02&lt;tab&gt;バジールのもとに来ていた騎士ヴァンクトロワと司祭オビエロによると、国外のギサールの野菜を栽培していることが罪に問われた原因らしい。バジールの罪に対する反論の論拠を探すため、グリダニアの園芸師ギルドにいる「フフチャ」に相談しよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_CLSHRV600_02052_SEQ_03&lt;tab&gt;フフチャによると、バジールに提供したギサールの野菜こそが、真の「クルザス原産の純粋種」に近いらしい。フフチャから&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;を受け取った。「&lt;var 28 ((Item)) F2326401 /var&gt;」を3個調達し、イシュガルドの聖レマノー大聖堂にいる本草学者「マルティノー」に見せて、2種の野菜を比較してもらおう。&lt;var 28 ((Item)) F2326401 /var&gt;は、クルザス西部高地のあまり人の立ち入らない草刈場で草刈できるようだ。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_CLSHRV600_02052_SEQ_04&lt;tab&gt;マルティノーに&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;と&lt;var 28 ((Item)) F2326401 /var&gt;を見せて、2種の野菜が同系統のものだというお墨付きと、その旨をしたためた&lt;var 28 ((EventItem)) F61E8B0201 /var&gt;を預かった。キャンプ・クラウドトップの「バジール」に&lt;var 28 ((Item)) F2326401 /var&gt;を3個納品しよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_CLSHRV600_02052_SEQ_05&lt;tab&gt;バジールに&lt;var 28 ((Item)) F2326401 /var&gt;を納品した。バジールも、カベイジの野菜を目にしたのは初めてのようだ。キャンプ・クラウドトップの「バジール」に&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;と&lt;var 28 ((EventItem)) F61E8B0201 /var&gt;を渡そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_CLSHRV600_02052_SEQ_06&lt;tab&gt;バジールに&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;と&lt;var 28 ((EventItem)) F61E8B0201 /var&gt;を渡し、この2種が同じ系統であると、ヴァンクトロワとオビエロに説明した。司祭オビエロは、その言葉に理解を示し去っていった。キャンプ・クラウドトップの「バジール」と話そう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_CLSHRV600_02052_SEQ_07&lt;tab&gt;バジールから、ムジ・ミュリラーに顛末を伝えるよう頼まれた。イシュガルドのエーテライト・プラザにいる「ムジ・ミュリラー」と話そう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_CLSHRV600_02052_SEQ_08&lt;tab&gt;ムジ・ミュリラーと話した。園芸師ギルド名義で寄付をしたのは、実際は彼女だったようだ。グリダニアの園芸師ギルドにいる「フフチャ」にも事態の報告をしよう。</target></trans-unit><trans-unit id="9" approved="yes"><source>9</source><target state="final">TEXT_CLSHRV600_02052_SEQ_09&lt;tab&gt;フフチャによると、ムジ・ミュリラーの書いた記事は大きな反響を呼んだようだ。園芸師ギルドにも多くの人が訪ねてきているらしい。フフチャからも、園芸師として以前よりも輝いて見えると賞賛された。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="ClsHrv600_02052" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_00&lt;tab&gt;エーテライト・プラザのムジ・ミュリラーは冒険者の来訪を歓迎しているようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_01&lt;tab&gt;ムジ・ミュリラーと話していると、バジールから、ムジ・ミュリラーの記事がキッカケで、罪に問われてしまったと通信がきた。アバラシア雲海のキャンプ・クラウドトップにいる「バジール」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_02&lt;tab&gt;バジールのもとに来ていた騎士ヴァンクトロワと司祭オビエロによると、国外のギサールの野菜を栽培していることが罪に問われた原因らしい。バジールの罪に対する反論の論拠を探すため、グリダニアの園芸師ギルドにいる「フフチャ」に相談しよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_03&lt;tab&gt;フフチャによると、バジールに提供したギサールの野菜こそが、真の「クルザス原産の純粋種」に近いらしい。フフチャから&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;を受け取った。「&lt;var 28 ((Item)) F2326401 /var&gt;」を3個調達し、イシュガルドの聖レマノー大聖堂にいる本草学者「マルティノー」に見せて、2種の野菜を比較してもらおう。&lt;var 28 ((Item)) F2326401 /var&gt;は、クルザス西部高地のあまり人の立ち入らない草刈場で草刈できるようだ。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_04&lt;tab&gt;マルティノーに&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;と&lt;var 28 ((Item)) F2326401 /var&gt;を見せて、2種の野菜が同系統のものだというお墨付きと、その旨をしたためた&lt;var 28 ((EventItem)) F61E8B0201 /var&gt;を預かった。キャンプ・クラウドトップの「バジール」に&lt;var 28 ((Item)) F2326401 /var&gt;を3個納品しよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_05&lt;tab&gt;バジールに&lt;var 28 ((Item)) F2326401 /var&gt;を納品した。バジールも、カベイジの野菜を目にしたのは初めてのようだ。キャンプ・クラウドトップの「バジール」に&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;と&lt;var 28 ((EventItem)) F61E8B0201 /var&gt;を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_06&lt;tab&gt;バジールに&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;と&lt;var 28 ((EventItem)) F61E8B0201 /var&gt;を渡し、この2種が同じ系統であると、ヴァンクトロワとオビエロに説明した。司祭オビエロは、その言葉に理解を示し去っていった。キャンプ・クラウドトップの「バジール」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_07&lt;tab&gt;バジールから、ムジ・ミュリラーに顛末を伝えるよう頼まれた。イシュガルドのエーテライト・プラザにいる「ムジ・ミュリラー」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_08&lt;tab&gt;ムジ・ミュリラーと話した。園芸師ギルド名義で寄付をしたのは、実際は彼女だったようだ。グリダニアの園芸師ギルドにいる「フフチャ」にも事態の報告をしよう。</target>
+			</trans-unit>
+			<trans-unit id="9" approved="yes">
+				<source>9</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SEQ_09&lt;tab&gt;フフチャによると、ムジ・ミュリラーの書いた記事は大きな反響を呼んだようだ。園芸師ギルドにも多くの人が訪ねてきているらしい。フフチャからも、園芸師として以前よりも輝いて見えると賞賛された。
 
 ※以下の条件を満たすと、園芸師ギルドのフフチャから、新たなクラスクエストを受注することができます。
 1.「メインクエスト：竜詩戦争 戦後編」の、
-　「宿命の果て」を完了する。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_CLSHRV600_02052_TODO_00&lt;tab&gt;キャンプ・クラウドトップのバジールと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_CLSHRV600_02052_TODO_01&lt;tab&gt;園芸師ギルドのフフチャと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_CLSHRV600_02052_TODO_02&lt;tab&gt;&lt;var 08 E3E802E803 ((クルザス西部高地で&lt;var 28 ((Item)) F2326401 /var&gt;を草刈)) ((イシュガルドのマルティノーに&lt;var 28 ((Item)) F2326401 /var&gt;を見せる)) /var&gt;</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_CLSHRV600_02052_TODO_03&lt;tab&gt;キャンプ・クラウドトップのバジールに&lt;var 28 ((Item)) F2326401 /var&gt;を納品</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_CLSHRV600_02052_TODO_04&lt;tab&gt;バジールに&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;と&lt;var 28 ((EventItem)) F61E8B0201 /var&gt;を渡す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_CLSHRV600_02052_TODO_05&lt;tab&gt;バジールと話す</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_CLSHRV600_02052_TODO_06&lt;tab&gt;イシュガルドのムジ・ミュリラーと話す</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">TEXT_CLSHRV600_02052_TODO_07&lt;tab&gt;園芸師ギルドのフフチャに報告</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_100_000&lt;tab&gt;おおっ、訪ねてきてくださり、ありがとうございます！
-でも、まだバジールさんから依頼は……おや？</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_100_001&lt;tab&gt;おおっ！　噂をすれば、バジールさんじゃないですか～！</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_101_000&lt;tab&gt;バジールさん、お元気ですか～。
-……………………って、ええええええええっ！！</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_000&lt;tab&gt;たた、大変です……！
+　「宿命の果て」を完了する。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_TODO_00&lt;tab&gt;キャンプ・クラウドトップのバジールと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_TODO_01&lt;tab&gt;園芸師ギルドのフフチャと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_TODO_02&lt;tab&gt;&lt;var 08 E3E802E803 ((クルザス西部高地で&lt;var 28 ((Item)) F2326401 /var&gt;を草刈)) ((イシュガルドのマルティノーに&lt;var 28 ((Item)) F2326401 /var&gt;を見せる)) /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_TODO_03&lt;tab&gt;キャンプ・クラウドトップのバジールに&lt;var 28 ((Item)) F2326401 /var&gt;を納品</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_TODO_04&lt;tab&gt;バジールに&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;と&lt;var 28 ((EventItem)) F61E8B0201 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_TODO_05&lt;tab&gt;バジールと話す</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_TODO_06&lt;tab&gt;イシュガルドのムジ・ミュリラーと話す</target>
+			</trans-unit>
+			<trans-unit id="31" approved="yes">
+				<source>31</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_TODO_07&lt;tab&gt;園芸師ギルドのフフチャに報告</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_100_000&lt;tab&gt;おおっ、訪ねてきてくださり、ありがとうございます！
+でも、まだバジールさんから依頼は……おや？</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_100_001&lt;tab&gt;おおっ！　噂をすれば、バジールさんじゃないですか～！</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_101_000&lt;tab&gt;バジールさん、お元気ですか～。
+……………………って、ええええええええっ！！</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_000&lt;tab&gt;たた、大変です……！
 わたしの書いた記事が、お偉方の目に留まって、
-バジールさんが罪に問われているそうなんです！</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_001&lt;tab&gt;機密に関わるような部分は伏せていたので、
-そのあたりの罪に問われてはいないようですが……。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_002&lt;tab&gt;背景には、貴族たちの利権争いがあるみたいです……！
+バジールさんが罪に問われているそうなんです！</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_001&lt;tab&gt;機密に関わるような部分は伏せていたので、
+そのあたりの罪に問われてはいないようですが……。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_002&lt;tab&gt;背景には、貴族たちの利権争いがあるみたいです……！
 あの浮島を管理しているのは、アインハルト家。
-対立するゼーメル家が、お偉方を焚きつけたみたいで……。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_003&lt;tab&gt;「バジール」さんから、お話を伺ってきてもらえませんか？
-わたしも何かできないか、探ってみます！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_004&lt;tab&gt;「バジール」さんから、お話を伺ってきてもらえませんか？
-わたしも何かできないか、探ってみます！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_010&lt;tab&gt;他国の作物を植えるなど、軽率が過ぎたな……。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_CLSHRV600_02052_VAINCTOROIX_000_015&lt;tab&gt;ふん、たかが園芸師が、勝手をしおってからに！</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_020&lt;tab&gt;とんでもないことになりました……。
+対立するゼーメル家が、お偉方を焚きつけたみたいで……。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_003&lt;tab&gt;「バジール」さんから、お話を伺ってきてもらえませんか？
+わたしも何かできないか、探ってみます！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_004&lt;tab&gt;「バジール」さんから、お話を伺ってきてもらえませんか？
+わたしも何かできないか、探ってみます！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_010&lt;tab&gt;他国の作物を植えるなど、軽率が過ぎたな……。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_VAINCTOROIX_000_015&lt;tab&gt;ふん、たかが園芸師が、勝手をしおってからに！</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_020&lt;tab&gt;とんでもないことになりました……。
 園芸師ギルドの協力を得ていたことを問題にして、
-ヴァンクトロワ卿という神殿騎士様がやってきて……。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_CLSHRV600_02052_VAINCTOROIX_000_021&lt;tab&gt;……なんだ、貴様は？
-バジールのところに出入りしている園芸師か。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_CLSHRV600_02052_VAINCTOROIX_000_022&lt;tab&gt;バジール、そこらで栽培しているギサールの野菜……！
+ヴァンクトロワ卿という神殿騎士様がやってきて……。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_VAINCTOROIX_000_021&lt;tab&gt;……なんだ、貴様は？
+バジールのところに出入りしている園芸師か。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_VAINCTOROIX_000_022&lt;tab&gt;バジール、そこらで栽培しているギサールの野菜……！
 聞けば、グリダニアから取り寄せたものと言うではないか。
-我らが領内に、なんとおぞましい株を植えたものだ！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_CLSHRV600_02052_VAINCTOROIX_000_023&lt;tab&gt;此度の件は、教皇庁でも大きな問題となっている……。
+我らが領内に、なんとおぞましい株を植えたものだ！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_VAINCTOROIX_000_023&lt;tab&gt;此度の件は、教皇庁でも大きな問題となっている……。
 司祭であるオビエロ神父にも来ていただいた。
-神父から、事の重大さを伺うといい！</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_024&lt;tab&gt;イシュガルドにおいては、常識に属する話だが……。
+神父から、事の重大さを伺うといい！</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_024&lt;tab&gt;イシュガルドにおいては、常識に属する話だが……。
 一般的に「ギサールの野菜」と呼ばれる葉物には、
-クルザス原産種と近東原産種のふたつが存在している。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_025&lt;tab&gt;近東原産種が、エオルゼア各地で栽培されたため、
+クルザス原産種と近東原産種のふたつが存在している。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_025&lt;tab&gt;近東原産種が、エオルゼア各地で栽培されたため、
 共通語の「ギサールの野菜」という呼び名が有名だ……。
-しかし、古エレゼン語では異なる名で呼ばれていた。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_100_025&lt;tab&gt;いくら他国において、近東原産種が主流になろうとも、
+しかし、古エレゼン語では異なる名で呼ばれていた。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_100_025&lt;tab&gt;いくら他国において、近東原産種が主流になろうとも、
 イシュガルドではクルザスの恵みたる古来の純粋種を守りとおす。
-……それが、我が国の伝統であり、誇りだったはず。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_026&lt;tab&gt;貴様は、我が国の誇りに泥を塗った。
+……それが、我が国の伝統であり、誇りだったはず。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_026&lt;tab&gt;貴様は、我が国の誇りに泥を塗った。
 口先だけの言い訳などは不要……。
-抗弁があるなら、確かな証拠とともに示してみよ。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_CLSHRV600_02052_VAINCTOROIX_100_026&lt;tab&gt;我々は、そこで待たせてもらう。
+抗弁があるなら、確かな証拠とともに示してみよ。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_VAINCTOROIX_100_026&lt;tab&gt;我々は、そこで待たせてもらう。
 証拠を用意できないときは、わかっているだろうな。
-決闘裁判にかけられることを覚悟しておけ！</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_100_027&lt;tab&gt;け、決闘裁判だなんて、そんな……。
+決闘裁判にかけられることを覚悟しておけ！</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_100_027&lt;tab&gt;け、決闘裁判だなんて、そんな……。
 私は、ここを開拓して、ゆくゆくは、
-イシュガルドを豊かにしようとしていただけなのに……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_027&lt;tab&gt;私が罪を免れるには、反論の論拠が必要なようです……。
+イシュガルドを豊かにしようとしていただけなのに……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_027&lt;tab&gt;私が罪を免れるには、反論の論拠が必要なようです……。
 お手数をおかけしますが、ギサールの野菜を提供してくれた、
-園芸師ギルドの「フフチャ」さんに相談していただけませんか？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_028&lt;tab&gt;私が罪を免れるには、反論の論拠が必要なようです……。
+園芸師ギルドの「フフチャ」さんに相談していただけませんか？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_028&lt;tab&gt;私が罪を免れるには、反論の論拠が必要なようです……。
 お手数をおかけしますが、ギサールの野菜を提供してくれた、
-園芸師ギルドの「フフチャ」さんに相談していただけませんか？</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_035&lt;tab&gt;……まぁ、そんなことが！
+園芸師ギルドの「フフチャ」さんに相談していただけませんか？</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_035&lt;tab&gt;……まぁ、そんなことが！
 なんと頭の堅い人たちでしょう！
-自然界に、自分たちの理屈を無理矢理あてはめるなんて。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_036&lt;tab&gt;ええ、証明することは可能です。
+自然界に、自分たちの理屈を無理矢理あてはめるなんて。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_036&lt;tab&gt;ええ、証明することは可能です。
 だって、私がバジールさんに提供したギサールの野菜のほうが、
-彼らのいう「純粋種」に近いんですもの！</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_037&lt;tab&gt;あのギサールの野菜は、近東産ではありません。
+彼らのいう「純粋種」に近いんですもの！</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_037&lt;tab&gt;あのギサールの野菜は、近東産ではありません。
 数代前のギルドマスターが持ち帰ったクルザス産の品種を、
-こちらで保管してきたものなんです……！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_038&lt;tab&gt;そして、彼らの知らない事実がもうひとつ……。
+こちらで保管してきたものなんです……！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_038&lt;tab&gt;そして、彼らの知らない事実がもうひとつ……。
 現在、イシュガルドで栽培されている「純粋種」の多くは、
-近東原産種に取って替わられているという研究があるのです。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_039&lt;tab&gt;この説が正しければ、私が提供したギサールの野菜の方が、
-彼らが心酔する「クルザス原産の純粋種」に近いことになる。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_040&lt;tab&gt;この「&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;」を持っていきなさい。
-バジールさんに提供した、ギサールの野菜と同じものです。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_045&lt;tab&gt;こちらのほうこそ、本当の意味での「純粋種」……。
+近東原産種に取って替わられているという研究があるのです。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_039&lt;tab&gt;この説が正しければ、私が提供したギサールの野菜の方が、
+彼らが心酔する「クルザス原産の純粋種」に近いことになる。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_040&lt;tab&gt;この「&lt;var 28 ((EventItem)) F61E8B0101 /var&gt;」を持っていきなさい。
+バジールさんに提供した、ギサールの野菜と同じものです。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_045&lt;tab&gt;こちらのほうこそ、本当の意味での「純粋種」……。
 クルザスの野生種「カベイジの野菜」を改良した種です。
-一流の専門家なら、同じ系統の品種とわかるはずだけど……。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_046&lt;tab&gt;……なんと、高名なマルティノー博士と面識があると！？
+一流の専門家なら、同じ系統の品種とわかるはずだけど……。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_046&lt;tab&gt;……なんと、高名なマルティノー博士と面識があると！？
 でしたら、彼に証明してもらったらどうでしょう！
-野生の「&lt;var 28 ((Item)) F2326401 /var&gt;」を採集し、比較してもらうんです。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_047&lt;tab&gt;発表された学説によると、「クルザス西部高地」の、
+野生の「&lt;var 28 ((Item)) F2326401 /var&gt;」を採集し、比較してもらうんです。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_047&lt;tab&gt;発表された学説によると、「クルザス西部高地」の、
 あまり人が足を踏み入れていない地域になら、
-当時のままの純粋種が現存する可能性はあるそうです。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_048&lt;tab&gt;なんとか「&lt;var 28 ((Item)) F2326401 /var&gt;」を探し出して、
+当時のままの純粋種が現存する可能性はあるそうです。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_048&lt;tab&gt;なんとか「&lt;var 28 ((Item)) F2326401 /var&gt;」を探し出して、
 イシュガルドの本草学者「マルティノー」さんに見せるのです。
-比較のためには、3つほどあれば大丈夫なはず……！</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_049&lt;tab&gt;発表された学説によると、「クルザス西部高地」の、
+比較のためには、3つほどあれば大丈夫なはず……！</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_049&lt;tab&gt;発表された学説によると、「クルザス西部高地」の、
 あまり人が足を踏み入れていない地域になら、
-当時のままの純粋種が現存する可能性はあるそうです。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_050&lt;tab&gt;なんとか「&lt;var 28 ((Item)) F2326401 /var&gt;」を探し出して、
+当時のままの純粋種が現存する可能性はあるそうです。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_050&lt;tab&gt;なんとか「&lt;var 28 ((Item)) F2326401 /var&gt;」を探し出して、
 イシュガルドの本草学者「マルティノー」さんに見せるのです。
-比較のためには、3つほどあれば大丈夫なはず……！</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_CLSHRV600_02052_MARTINEAU_000_060&lt;tab&gt;……おや、ずいぶんと切羽詰まった顔だな。
-今度は、どんな難題に直面しているのだ？</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_CLSHRV600_02052_MARTINEAU_000_065&lt;tab&gt;ほう、「カベイジの野菜」ではないか！
+比較のためには、3つほどあれば大丈夫なはず……！</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MARTINEAU_000_060&lt;tab&gt;……おや、ずいぶんと切羽詰まった顔だな。
+今度は、どんな難題に直面しているのだ？</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MARTINEAU_000_065&lt;tab&gt;ほう、「カベイジの野菜」ではないか！
 これはまた、貴重な野草を持ち込んだものだ……。
-……ふむ、私にもうひとつ見せたいものがあると？</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_CLSHRV600_02052_MARTINEAU_100_065&lt;tab&gt;おお、こちらのギサールの野菜も素晴らしい。
+……ふむ、私にもうひとつ見せたいものがあると？</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MARTINEAU_100_065&lt;tab&gt;おお、こちらのギサールの野菜も素晴らしい。
 しかし、これらの品を、ただ見せにきたわけではなかろう……。
-さて、何をお望みかな……？</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_CLSHRV600_02052_MARTINEAU_000_066&lt;tab&gt;……そういうことか。
+さて、何をお望みかな……？</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MARTINEAU_000_066&lt;tab&gt;……そういうことか。
 まったく、古い慣習に縛られている連中ほど、
-質の悪いものはない。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_CLSHRV600_02052_MARTINEAU_000_067&lt;tab&gt;外葉に隠れて見えにくいが、中身の色合いは瓜ふたつだ。
-……このふたつは、間違いなく同系統のものだな。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_CLSHRV600_02052_MARTINEAU_000_068&lt;tab&gt;私からも、書状をしたためてやろう……。
-頭の固まった連中に、しっかりと叩きつけてやるといい。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_CLSHRV600_02052_MARTINEAU_000_069&lt;tab&gt;私からも、書状をしたためてやろう……。
-頭の固まった連中に、しっかりと叩きつけてやるといい。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_070&lt;tab&gt;……どうでしょう、反論の論拠を示せそうですか？
-今は、あなただけが頼りなのです……。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_080&lt;tab&gt;……どうでしょう、反論の論拠を示せそうですか？
-今は、あなただけが頼りなのです……。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_081&lt;tab&gt;これは……ギサールの野菜……でしょうか？
+質の悪いものはない。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MARTINEAU_000_067&lt;tab&gt;外葉に隠れて見えにくいが、中身の色合いは瓜ふたつだ。
+……このふたつは、間違いなく同系統のものだな。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MARTINEAU_000_068&lt;tab&gt;私からも、書状をしたためてやろう……。
+頭の固まった連中に、しっかりと叩きつけてやるといい。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MARTINEAU_000_069&lt;tab&gt;私からも、書状をしたためてやろう……。
+頭の固まった連中に、しっかりと叩きつけてやるといい。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_070&lt;tab&gt;……どうでしょう、反論の論拠を示せそうですか？
+今は、あなただけが頼りなのです……。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_080&lt;tab&gt;……どうでしょう、反論の論拠を示せそうですか？
+今は、あなただけが頼りなのです……。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_081&lt;tab&gt;これは……ギサールの野菜……でしょうか？
 しかし、このような品種は見たことがない……これはいったい？
-……まだあるというのですか？</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_100_081&lt;tab&gt;あなたが持ってきてくださった、この野菜……。
+……まだあるというのですか？</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_100_081&lt;tab&gt;あなたが持ってきてくださった、この野菜……。
 私が、今まで見たことのない品種です。
-これが、私を救う論拠となるのですか……？</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_101_081&lt;tab&gt;……ギサールの野菜が、もうひとつ？
-それに、この書状は……？</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_082&lt;tab&gt;………………こ、これは！
+これが、私を救う論拠となるのですか……？</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_101_081&lt;tab&gt;……ギサールの野菜が、もうひとつ？
+それに、この書状は……？</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_082&lt;tab&gt;………………こ、これは！
 まさか、こんな事実があったなんて！
-さっそく、彼らに申し開きを行いましょう！</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_100&lt;tab&gt;純粋なクルザス原産種は、もうイシュガルドには存在せず、
+さっそく、彼らに申し開きを行いましょう！</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_100&lt;tab&gt;純粋なクルザス原産種は、もうイシュガルドには存在せず、
 グリダニアの園芸師にのみ伝わっている……。
-そう簡単に、信じられる話ではないな。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_CLSHRV600_02052_VAINCTOROIX_000_101&lt;tab&gt;ふん、何を根拠にそのような戯言を……！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_102&lt;tab&gt;ここにある、ふたつのギサールの野菜のうち、
-ひとつは、グリダニアの園芸ギルドより、取り寄せたもの。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_103&lt;tab&gt;そして、もうひとつが、
+そう簡単に、信じられる話ではないな。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_VAINCTOROIX_000_101&lt;tab&gt;ふん、何を根拠にそのような戯言を……！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_102&lt;tab&gt;ここにある、ふたつのギサールの野菜のうち、
+ひとつは、グリダニアの園芸ギルドより、取り寄せたもの。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_103&lt;tab&gt;そして、もうひとつが、
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さんが探しだしてくれた、
-クルザスの野生種……「カベイジの野菜」です。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_104&lt;tab&gt;皇都における本草学の権威、マルティノー様の鑑定によれば、
-このふたつは間違いなく、同じ系統に属するとのこと。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_105&lt;tab&gt;その証拠に、グリダニアからもたらされたギサールの野菜は、
-冷涼な浮島の大地にも、しっかりと馴染んでおります……。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_106&lt;tab&gt;マルティノー様からの書状には、こうも書かれています。
+クルザスの野生種……「カベイジの野菜」です。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_104&lt;tab&gt;皇都における本草学の権威、マルティノー様の鑑定によれば、
+このふたつは間違いなく、同じ系統に属するとのこと。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_105&lt;tab&gt;その証拠に、グリダニアからもたらされたギサールの野菜は、
+冷涼な浮島の大地にも、しっかりと馴染んでおります……。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_106&lt;tab&gt;マルティノー様からの書状には、こうも書かれています。
 「種とは、鳥や人の手により広まるもの。
-　いかに都の門扉を閉じようとも、広まりゆくのが道理」と。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_CLSHRV600_02052_VAINCTOROIX_000_107&lt;tab&gt;……貴様、今の発言、マルティノーともども、
-イシュガルドの政策を揶揄したものと受け取るぞ。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_109&lt;tab&gt;国策を侮蔑する気は毛頭ございません。
+　いかに都の門扉を閉じようとも、広まりゆくのが道理」と。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_VAINCTOROIX_000_107&lt;tab&gt;……貴様、今の発言、マルティノーともども、
+イシュガルドの政策を揶揄したものと受け取るぞ。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_109&lt;tab&gt;国策を侮蔑する気は毛頭ございません。
 お聞き願いたいのは、イシュガルドが門を閉ざすはるか前、
-優に100年以上も昔のことです……。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_110&lt;tab&gt;交易により、近東原産の「ギサールの野菜」が流入……。
+優に100年以上も昔のことです……。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_110&lt;tab&gt;交易により、近東原産の「ギサールの野菜」が流入……。
 旺盛な繁殖力が、エオルゼアでの栽培に適していたこともあり、
-瞬く間に、土着の野菜を駆逐しました。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_111&lt;tab&gt;イシュガルドで、クルザス原産種が絶えたのもそのため。
+瞬く間に、土着の野菜を駆逐しました。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_111&lt;tab&gt;イシュガルドで、クルザス原産種が絶えたのもそのため。
 ですが、園芸師ギルドでは、冷涼な高地に適した品種として、
-冷害に備えて栽培を続けていたのです。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_112&lt;tab&gt;クルザスの「カベイジの野菜」から品種改良された種は、
+冷害に備えて栽培を続けていたのです。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_112&lt;tab&gt;クルザスの「カベイジの野菜」から品種改良された種は、
 遠きグリダニアの地に住む園芸師の手によって、
-新たな故郷を見出しました……。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_113&lt;tab&gt;「一粒の種に国境なし。
+新たな故郷を見出しました……。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_113&lt;tab&gt;「一粒の種に国境なし。
 　野菜の種は、国土ではなく、黒土に芽吹くもの」
-……マルティノー様の書状は、そう結ばれています。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_114&lt;tab&gt;係争中の案件なので、今まで黙っていたのだが……
+……マルティノー様の書状は、そう結ばれています。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_114&lt;tab&gt;係争中の案件なので、今まで黙っていたのだが……
 実は、グリダニアの園芸師ギルドのギルドマスター、
-フフチャ殿から、手紙をいただいていたのだよ。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_115&lt;tab&gt;「1000年後の子孫の繁栄のためにお使いください」と、
-多数の種の寄付を申し出る手紙をな。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_116&lt;tab&gt;他国の民の、1000年後の子孫の幸福……。
+フフチャ殿から、手紙をいただいていたのだよ。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_115&lt;tab&gt;「1000年後の子孫の繁栄のためにお使いください」と、
+多数の種の寄付を申し出る手紙をな。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_116&lt;tab&gt;他国の民の、1000年後の子孫の幸福……。
 我々は、そのような遠大な視点で、
-物事を考えたことがあっただろうか……。</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_CLSHRV600_02052_VAINCTOROIX_000_117&lt;tab&gt;オビエロ神父……！
-よもや、バジールの処分を撤回されるおつもりですか！？</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_118&lt;tab&gt;我々が望む「クルザス原産の純粋種」は目の前にあった。
-……ならば、何の問題もあるまい？</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_CLSHRV600_02052_AUBIERAULT_000_119&lt;tab&gt;バジールよ、我々がいささか狭量だったようだ。
+物事を考えたことがあっただろうか……。</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_VAINCTOROIX_000_117&lt;tab&gt;オビエロ神父……！
+よもや、バジールの処分を撤回されるおつもりですか！？</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_118&lt;tab&gt;我々が望む「クルザス原産の純粋種」は目の前にあった。
+……ならば、何の問題もあるまい？</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_AUBIERAULT_000_119&lt;tab&gt;バジールよ、我々がいささか狭量だったようだ。
 これ以上、貴様を罪に問うことはすまい。
-心ゆくまで、やってみるがいい……。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_000_130&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん。
-本当に、あなたには感謝の念しかありません。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_100_130&lt;tab&gt;あなたからいただいた数々の助言を胸に、
+心ゆくまで、やってみるがいい……。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_000_130&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん。
+本当に、あなたには感謝の念しかありません。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_100_130&lt;tab&gt;あなたからいただいた数々の助言を胸に、
 今後は、私たちだけで、なんとかがんばってみます！
-そしていつか、ヴァンクトロワ卿も納得させてみせますよ！</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_CLSHRV600_02052_BASYLE_101_130&lt;tab&gt;そうだ、「ムジ・ミュリラー」さんにも、
+そしていつか、ヴァンクトロワ卿も納得させてみせますよ！</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_BASYLE_101_130&lt;tab&gt;そうだ、「ムジ・ミュリラー」さんにも、
 顛末をお伝えくださいますか？
-これまで、本当にありがとうございました……！</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_140&lt;tab&gt;……ええ～！　そんな展開になったんですか！
+これまで、本当にありがとうございました……！</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_140&lt;tab&gt;……ええ～！　そんな展開になったんですか！
 「一粒の種に国境なし」……素晴らしい言葉ですね！
-ふふふ、この騒動を記事にすれば、大反響間違いなし！</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_141&lt;tab&gt;……って、冗談です！　記事になんてしませんよ！
+ふふふ、この騒動を記事にすれば、大反響間違いなし！</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_141&lt;tab&gt;……って、冗談です！　記事になんてしませんよ！
 バジールさんの真摯な努力や、園芸師の交流などをまとめて、
-最終回とするつもりです。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_142&lt;tab&gt;あーあ……それにしても、これで一文無しだなぁ。
+最終回とするつもりです。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_142&lt;tab&gt;あーあ……それにしても、これで一文無しだなぁ。
 連載が好評で、特別ボーナスまで出たのに、
-種を送るのに全部使っちゃったし……。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_143&lt;tab&gt;…………あっ！
+種を送るのに全部使っちゃったし……。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_143&lt;tab&gt;…………あっ！
 あの……今のは、えっと……。
-な、内緒ですよう……？</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_144&lt;tab&gt;迷惑をかけたお詫びにと、
+な、内緒ですよう……？</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_144&lt;tab&gt;迷惑をかけたお詫びにと、
 園芸師ギルド名義で、種の寄付をしておいたんです……。
-えへへ、少しは役にたちましたかね？</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_100_144&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん。
-今日まで取材させていただいて、ありがとうございました！</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_101_144&lt;tab&gt;週刊レイヴンの中でも、これまでの私の記者人生の中でも、
+えへへ、少しは役にたちましたかね？</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_100_144&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん。
+今日まで取材させていただいて、ありがとうございました！</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_101_144&lt;tab&gt;週刊レイヴンの中でも、これまでの私の記者人生の中でも、
 いっちばんステキな連載になりました！
-一文無しだけど、私は今、とっても幸せですよ！</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_145&lt;tab&gt;そうだ、今回の報酬は、園芸師ギルドに送ってあります。
-報告も兼ねて、「フフチャ」さんを訪ねてくださいね！</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_146&lt;tab&gt;そうだ、今回の報酬は、園芸師ギルドに送ってあります。
-報告も兼ねて、「フフチャ」さんを訪ねてくださいね！</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_150&lt;tab&gt;……無事に終わったようですね。
+一文無しだけど、私は今、とっても幸せですよ！</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_145&lt;tab&gt;そうだ、今回の報酬は、園芸師ギルドに送ってあります。
+報告も兼ねて、「フフチャ」さんを訪ねてくださいね！</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_MUJIHMEWRILAH_000_146&lt;tab&gt;そうだ、今回の報酬は、園芸師ギルドに送ってあります。
+報告も兼ねて、「フフチャ」さんを訪ねてくださいね！</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_150&lt;tab&gt;……無事に終わったようですね。
 こちらも、いい報告がありますよ。
-ムジ・ミュリラーさんの記事が大反響なんです！</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_151&lt;tab&gt;記事に惹かれて、園芸師を目指してみたいという人や、
+ムジ・ミュリラーさんの記事が大反響なんです！</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_151&lt;tab&gt;記事に惹かれて、園芸師を目指してみたいという人や、
 一度、園芸師の夢を諦めたような人が、ギルドを訪れたりして。
-ふたりのおかげで、素晴らしい効果がありましたね！</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_152&lt;tab&gt;それから、イシュガルドから書状が届いたのですよ。
+ふたりのおかげで、素晴らしい効果がありましたね！</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_152&lt;tab&gt;それから、イシュガルドから書状が届いたのですよ。
 「貴重な御寄付を賜り、誠にありがとうございます」という……。
-……ただ、心当たりがないのですよね。</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_CLSHRV600_02052_Q1_000_000&lt;tab&gt;誰の仕業だと伝える？</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_CLSHRV600_02052_A1_000_001&lt;tab&gt;どこかの篤志家</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_CLSHRV600_02052_A1_000_002&lt;tab&gt;どこかの奇特な記者</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_160&lt;tab&gt;篤志家だとしても、園芸師ギルドの名義にするなんて、
+……ただ、心当たりがないのですよね。</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_Q1_000_000&lt;tab&gt;誰の仕業だと伝える？</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_A1_000_001&lt;tab&gt;どこかの篤志家</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_A1_000_002&lt;tab&gt;どこかの奇特な記者</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_160&lt;tab&gt;篤志家だとしても、園芸師ギルドの名義にするなんて、
 変わった人もいたものですね……。
-ああ、引き止めてしまってすみません。</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_170&lt;tab&gt;記者って……ははあ、なるほど。
+ああ、引き止めてしまってすみません。</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_170&lt;tab&gt;記者って……ははあ、なるほど。
 ふふふ、世の中には素直になれない人もいるものですね。
-ああ、引き止めてしまってすみません。</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_CLSHRV600_02052_FUFUCHA_000_180&lt;tab&gt;ムジ・ミュリラーさんから預かった報酬です。
+ああ、引き止めてしまってすみません。</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_FUFUCHA_000_180&lt;tab&gt;ムジ・ミュリラーさんから預かった報酬です。
 園芸師として、とてつもない難題をこなしたあなたが、
-以前よりも輝いて見えますよ！</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_CLSHRV600_02052_SYSTEM_000_044&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_CLSHRV600_02052_SYSTEM_000_500&lt;tab&gt;「園芸師」の物語が、ひとつの区切りを迎えました！
+以前よりも輝いて見えますよ！</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SYSTEM_000_044&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SYSTEM_000_500&lt;tab&gt;「園芸師」の物語が、ひとつの区切りを迎えました！
 次の「園芸師」のクラスクエストを開始するためには、
-以下の条件を満たす必要があります。</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_CLSHRV600_02052_SYSTEM_000_501&lt;tab&gt;1.「メインクエスト：竜詩戦争 戦後編」の、
-　「宿命の果て」を完了する。</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_CLSHRV600_02052_SYSTEM_000_502&lt;tab&gt;条件を満たし、園芸師ギルドの「フフチャ」に話しかけ、
-新たなクラスクエストを開始しましょう！</target></trans-unit></body></file></xliff>
+以下の条件を満たす必要があります。</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SYSTEM_000_501&lt;tab&gt;1.「メインクエスト：竜詩戦争 戦後編」の、
+　「宿命の果て」を完了する。</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_CLSHRV600_02052_SYSTEM_000_502&lt;tab&gt;条件を満たし、園芸師ギルドの「フフチャ」に話しかけ、
+新たなクラスクエストを開始しましょう！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

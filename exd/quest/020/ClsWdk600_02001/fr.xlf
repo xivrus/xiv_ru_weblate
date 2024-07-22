@@ -1,5 +1,335 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="ClsWdk600_02001" datatype="plaintext" source-language="en" target-language="fr" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_CLSWDK600_02001_SEQ_00&lt;tab&gt;Barthovieu a encore perdu face à Nguruvilu.
-&lt;var 1A 02 /var&gt;* Cette quête requiert de livrer un ou plusieurs objets dont la synthèse n'est possible qu'après avoir appris les recettes de “Menuiserie experte III”.&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_CLSWDK600_02001_SEQ_01&lt;tab&gt;Barthovieu pense qu'en examinant le piège détruit par Nguruvilu, il saura peut-être quel est le point faible du dragon. Il vous a demandé d'aller discuter avec le chevalier de garde du Convictoire, dans les Hautes terres du Coerthas occidental.</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_CLSWDK600_02001_SEQ_02&lt;tab&gt;Le chevalier de garde vous a dit que les restes du piège avaient été transformés en bois de chauffage, mais que les templiers avaient trouvé &lt;var 33 ((EventItem)) 02F61E8B120202 /var&gt; à l'intérieur. Allez le donner à Barthovieu, qui attend votre retour à Brouillasse.</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_CLSWDK600_02001_SEQ_03&lt;tab&gt;&lt;var 2B ((&lt;var 33 ((EventItem)) 07F61E8B120202 /var&gt;)) /var&gt; est cer&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;ne&lt;var 16 /var&gt;ment la preuve que le père de Barthovieu est mort en tentant de vaincre Nguruvilu. Pour laver l'honneur de son géniteur et venger sa mort, Barthovieu a décidé d'abandonner son arc et de redevenir maître d'hast. Il vous a demandé de lui fabriquer &lt;var 33 ((ItemHQ)) 02F229710202 /var&gt; et de le lui livrer à Brouillasse.
-&lt;var 1A 02 /var&gt;* Il est nécessaire d'avoir appris les recettes de “Menuiserie experte III” pour synthétiser l'objet demandé.&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_CLSWDK600_02001_SEQ_04&lt;tab&gt;Vous avez livré &lt;var 33 ((ItemHQ)) 02F229710202 /var&gt; à Barthovieu, qui souhaiterait maintenant que vous alliez expliquer à son fils pourquoi il tient tant à tuer ce dragon. Philipallais est pro&lt;var 16 /var&gt;ba&lt;var 16 /var&gt;ble&lt;var 16 /var&gt;ment retourné jouer près des Saintes Écuries.</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_CLSWDK600_02001_SEQ_05&lt;tab&gt;Philipallais tient à tout prix à voir son père se battre. Allez le rejoindre au nord du Convictoire et assistez avec lui au combat de Barthovieu.</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_CLSWDK600_02001_SEQ_06&lt;tab&gt;Barthovieu a enfin vaincu Nguruvilu. Allez le féliciter chaudement&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_CLSWDK600_02001_SEQ_07&lt;tab&gt;Barthovieu voudrait que vous alliez vous recueillir sur la tombe de son père avec son fils et lui. Il a été enterré à l'est des bergeries de Gorgagne, dans les Hautes terres du Coerthas occidental.</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_CLSWDK600_02001_SEQ_08&lt;tab&gt;Grâce à vous, Barthovieu a vengé son père, mais a surtout lavé son honneur. En bon&lt;var 08 E905 ((ne)) (()) /var&gt; menuisi&lt;var 08 E905 ((ère)) ((er)) /var&gt; que vous êtes, vous avez aidé votre client à atteindre son but. Continuez à vous per&lt;var 16 /var&gt;fec&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;ner, car d'autres personnes voudront cer&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;ne&lt;var 16 /var&gt;ment faire appel à vos services&lt;var 1D /var&gt;!
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="ClsWdk600_02001" datatype="plaintext" source-language="en" target-language="fr">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_00&lt;tab&gt;Barthovieu a encore perdu face à Nguruvilu.
+&lt;var 1A 02 /var&gt;* Cette quête requiert de livrer un ou plusieurs objets dont la synthèse n'est possible qu'après avoir appris les recettes de “Menuiserie experte III”.&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_01&lt;tab&gt;Barthovieu pense qu'en examinant le piège détruit par Nguruvilu, il saura peut-être quel est le point faible du dragon. Il vous a demandé d'aller discuter avec le chevalier de garde du Convictoire, dans les Hautes terres du Coerthas occidental.</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_02&lt;tab&gt;Le chevalier de garde vous a dit que les restes du piège avaient été transformés en bois de chauffage, mais que les templiers avaient trouvé &lt;var 33 ((EventItem)) 02F61E8B120202 /var&gt; à l'intérieur. Allez le donner à Barthovieu, qui attend votre retour à Brouillasse.</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_03&lt;tab&gt;&lt;var 2B ((&lt;var 33 ((EventItem)) 07F61E8B120202 /var&gt;)) /var&gt; est cer&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;ne&lt;var 16 /var&gt;ment la preuve que le père de Barthovieu est mort en tentant de vaincre Nguruvilu. Pour laver l'honneur de son géniteur et venger sa mort, Barthovieu a décidé d'abandonner son arc et de redevenir maître d'hast. Il vous a demandé de lui fabriquer &lt;var 33 ((ItemHQ)) 02F229710202 /var&gt; et de le lui livrer à Brouillasse.
+&lt;var 1A 02 /var&gt;* Il est nécessaire d'avoir appris les recettes de “Menuiserie experte III” pour synthétiser l'objet demandé.&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_04&lt;tab&gt;Vous avez livré &lt;var 33 ((ItemHQ)) 02F229710202 /var&gt; à Barthovieu, qui souhaiterait maintenant que vous alliez expliquer à son fils pourquoi il tient tant à tuer ce dragon. Philipallais est pro&lt;var 16 /var&gt;ba&lt;var 16 /var&gt;ble&lt;var 16 /var&gt;ment retourné jouer près des Saintes Écuries.</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_05&lt;tab&gt;Philipallais tient à tout prix à voir son père se battre. Allez le rejoindre au nord du Convictoire et assistez avec lui au combat de Barthovieu.</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_06&lt;tab&gt;Barthovieu a enfin vaincu Nguruvilu. Allez le féliciter chaudement&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_07&lt;tab&gt;Barthovieu voudrait que vous alliez vous recueillir sur la tombe de son père avec son fils et lui. Il a été enterré à l'est des bergeries de Gorgagne, dans les Hautes terres du Coerthas occidental.</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SEQ_08&lt;tab&gt;Grâce à vous, Barthovieu a vengé son père, mais a surtout lavé son honneur. En bon&lt;var 08 E905 ((ne)) (()) /var&gt; menuisi&lt;var 08 E905 ((ère)) ((er)) /var&gt; que vous êtes, vous avez aidé votre client à atteindre son but. Continuez à vous per&lt;var 16 /var&gt;fec&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;ner, car d'autres personnes voudront cer&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;ne&lt;var 16 /var&gt;ment faire appel à vos services&lt;var 1D /var&gt;!
 
-* Il est nécessaire de terminer la quête de l'épopée “Aux confins du destin” pour commencer une nouvelle quête de menuisier auprès de Beatin.</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_CLSWDK600_02001_TODO_00&lt;tab&gt;Parler au chevalier de garde au Convictoire</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_CLSWDK600_02001_TODO_01&lt;tab&gt;Donner &lt;var 33 ((EventItem)) 03F61E8B120202 /var&gt; à Barthovieu à Brouillasse</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_CLSWDK600_02001_TODO_02&lt;tab&gt;&lt;var 08 E3E802E803 ((Fabriquer &lt;var 33 ((ItemHQ)) 02F229710202 /var&gt;)) ((Livrer &lt;var 33 ((ItemHQ)) 03F229710202 /var&gt; à Barthovieu)) /var&gt;</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_CLSWDK600_02001_TODO_03&lt;tab&gt;Parler à Philipallais</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_CLSWDK600_02001_TODO_04&lt;tab&gt;Rejoindre Barthovieu au nord du Convictoire</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_CLSWDK600_02001_TODO_05&lt;tab&gt;Parler à Barthovieu au nord du Convictoire</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_CLSWDK600_02001_TODO_06&lt;tab&gt;Parler à Barthovieu à l'est des bergeries de Gorgagne</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_000&lt;tab&gt;Je ne sais pas quoi dire... J'ai encore échoué. Le piège a fonctionné à merveille et je me voyais déjà tuer Nguruvilu. J'ai même éprouvé un plaisir coupable en le voyant se débattre.</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_001&lt;tab&gt;Le bois était solide, c'est sûr, mais nous avions oublié un détail plutôt important... le souffle de feu des dragons. Le piège a été réduit en cendres en moins de temps qu'il ne faut pour le dire.</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_002&lt;tab&gt;J'ai tiré toutes mes flèches sur lui, mais elles n'ont fait que rebondir mollement sur ses solides écailles. À court d'idées et face à un dragon en furie, j'ai bien été obligé de penser à mon fils et de prendre mes jambes à mon cou.</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_003&lt;tab&gt;Mais Nguruvilu ne va pas s'en tirer comme ça. Il a forcément un point faible et j'aimerais que vous m'aidiez à le trouver&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_004&lt;tab&gt;J'y ai beaucoup réfléchi et je pense que s'il existe un indice quelque part, il se trouve peut-être dans les vestiges calcinés de notre piège. Qui sait quelle information essentielle s'y cache&lt;var 1D /var&gt;? Ça pourrait nous mettre sur la voie.</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_005&lt;tab&gt;Les templiers ont récupéré ce qui restait du piège et ils l'ont entreposé au Convictoire. Va voir le chevalier qui monte la garde là-bas. Si tu lui dis que tu viens de ma part, il te laissera sans doute mener ton enquête.</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_006&lt;tab&gt;Reviens après, quand tu en sauras plus. Ça nous permettra d'y voir un peu plus clair pour la suite.</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_010&lt;tab&gt;Les templiers ont récupéré ce qui restait de mon piège et ils l'ont entreposé au Convictoire. Tu devrais aller t'adresser au chevalier qui monte la garde là-bas. Si tu lui dis que tu viens de ma part, il te laissera sans doute l'examiner.</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_CLSWDK600_02001_SAMUGARI02001_000_020&lt;tab&gt;C'est Barthovieu qui vous envoie&lt;var 1D /var&gt;? Ah, j'avais oublié qu'il voulait voir son piège. Pas de chance, on en a fait du bois de chauffage&lt;var 1D /var&gt;! C'est qu'il fait froid, ici.</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_CLSWDK600_02001_SAMUGARI02001_000_021&lt;tab&gt;Par contre, je peux vous donner &lt;var 33 ((EventItem)) 03F61E8B120202 /var&gt; qui était coincé dedans. De toute façon, ça brûle pas, ça. Il devait être pris entre deux écailles du dragon et il est tombé quand le monstre s'est débattu.</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_CLSWDK600_02001_SAMUGARI02001_000_025&lt;tab&gt;Ben quoi... &lt;var 2B ((&lt;var 33 ((EventItem)) 07F61E8B120202 /var&gt;)) /var&gt;, c'est un joli trophée, non&lt;var 1D /var&gt;? Il était sans doute planté entre deux écailles du dragon et il est tombé quand le monstre s'est débattu.</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_030&lt;tab&gt;Alors, tu as appris des choses in&lt;var 16 /var&gt;té&lt;var 16 /var&gt;res&lt;var 16 /var&gt;santes&lt;var 1D /var&gt;? Comme le point faible du dragon, par exemple&lt;var 1D /var&gt;?</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_031&lt;tab&gt;Mince alors... Tu te souviens de cette hampe que tu m'as rapportée&lt;var 1D /var&gt;? Je suis sûr que ce fer la coiffait à l'origine&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_032&lt;tab&gt;(snif)... Ça veut dire que mon père n'était pas ce pleutre dont tout Ishgard se moque. C'était un héros, mort face à Nguruvilu&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_033&lt;tab&gt;J'imagine que dans les derniers instants du combat, il a dû planter cette lame entre les écailles de ce monstre, et qu'il l'a enfoncée si pro&lt;var 16 /var&gt;fon&lt;var 16 /var&gt;dé&lt;var 16 /var&gt;ment qu'elle est restée fichée là pendant près de vingt ans.</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_034&lt;tab&gt;Le dragon est ensuite parti hiberner et ne s'est réveillé que récemment. J'imagine que la lance s'est brisée alors qu'il survolait la forêt de Sombrelinceul. Le manche a dû tomber, mais le fer est resté planté dans sa chair.</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_035&lt;tab&gt;Le destin est facétieux. Le manche de la lance nous aura permis de nous rencontrer et son fer a pointé la faiblesse de la bête.</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_036&lt;tab&gt;Et celle-ci n'est autre que la blessure laissée par mon père. Si le fer n'est tombé que récemment, la plaie devait être par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;cu&lt;var 16 /var&gt;liè&lt;var 16 /var&gt;rement profonde. Elle n'a cer&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;ne&lt;var 16 /var&gt;ment pas encore eu le temps de cicatriser.</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_037&lt;tab&gt;En visant cette blessure, je pourrais sans doute infliger un coup fatal à Nguruvilu sans avoir à m'inquiéter de ses écailles. Par contre, j'ai bien peur que mes talents d'archer ne me permettent pas d'atteindre une cible aussi petite. Je ferais mieux de m'armer d'une lance.</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_038&lt;tab&gt;Non, pitié&lt;var 1D /var&gt;! Redeviens pas maître d'hast&lt;var 1D /var&gt;! On sait tous les deux que t'en réchapperas pas&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_039&lt;tab&gt;Le dragon t'a laissé aucune chance quand tu l'as attaqué avec ta lance&lt;var 1D /var&gt;! Et la dernière fois, tu n'as pu fuir que parce que l'arc t'a permis de l'affronter à distance.</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_040&lt;tab&gt;Ne t'inquiète pas, je manie beaucoup mieux la lance que l'arc. Et cette fois-ci, j'ai un&lt;var 08 E905 ((e)) (()) /var&gt; allié&lt;var 08 E905 ((e)) (()) /var&gt; de choix&lt;var 1D /var&gt;: &lt;var 08 E905 ((la)) ((le)) /var&gt; meilleur&lt;var 08 E905 ((e)) (()) /var&gt; menuisi&lt;var 08 E905 ((ère)) ((er)) /var&gt; d'Éorzéa&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_041&lt;tab&gt;&lt;var 08 E905 ((Elle)) ((Il)) /var&gt; me fabrique des objets que papy n'aurait jamais pu espérer manipuler&lt;var 1D /var&gt;! Crois-moi, je ne peux pas échouer.</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_042&lt;tab&gt;Sale menteur&lt;var 1D /var&gt;! Pourquoi je devrais te croire&lt;var 1D /var&gt;!?</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_043&lt;tab&gt;Je comprends sa détresse, mais ma décision est prise. J'abandonne l'archerie. Le fer de la lance utilisée par mon père a été forgé dans du minerai de halonite. C'était déjà très bien, mais si je pouvais en avoir un en adamantium, ce serait encore mieux.</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_100_000&lt;tab&gt;Tu veux bien me fabriquer &lt;var 33 ((Item)) 02F229710202 /var&gt; de haute qualité&lt;var 1D /var&gt;? Je te paierai, ne t'en fais pas. J'ai encore quelques gils de côté... J'ai toujours un père à venger et un nom à laver.</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_CLSWDK600_02001_SYSTEM_900_000&lt;tab&gt;Il est nécessaire d'avoir appris les recettes de “Menuiserie experte III” pour synthétiser des &lt;var 33 ((ItemHQ)) 0DF229710302 /var&gt;.</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_100_010&lt;tab&gt;J'aimerais que tu me fabriques &lt;var 33 ((Item)) 02F229710202 /var&gt; de haute qualité. Je te paierai, évidemment. J'ai encore assez de gils de côté pour financer ma vengeance et laver l'honneur de mon père.</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_050&lt;tab&gt;Quelle beauté... Le fer est si acéré et fin qu'on dirait que ses dents s'allongent à l'infini. Et sa hampe est si légère que la prise en main est un véritable jeu d'enfant&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_051&lt;tab&gt;Mon père a peut-être préparé le terrain, il va quand même falloir que je plante cette lance plus pro&lt;var 16 /var&gt;fon&lt;var 16 /var&gt;dé&lt;var 16 /var&gt;ment encore si je veux tuer Nguruvilu. Ceci dit, j'ai bien l'impression que cette arme pourrait transpercer n'importe quoi&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_052&lt;tab&gt;Je vais aller me placer en embuscade au nord-ouest du Convictoire et je ne raterai pas le dragon quand il passera par là. Je sais que j'ai beaucoup abusé de ta gentillesse, mais j'ai un dernier service à te demander.</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_053&lt;tab&gt;Tu veux bien aller dire à Philipallais que je n'échouerai pas&lt;var 1D /var&gt;? Je laverai l'honneur de mon père et je reviendrai quand j'aurai accompli ma mission. Je pense que mon fils est retourné aux Saintes Écuries.</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_055&lt;tab&gt;Tu veux bien aller retrouver Philipallais aux Saintes Écuries et lui dire que je n'échouerai pas&lt;var 1D /var&gt;? Je laverai l'honneur de mon père et je reviendrai quand j'aurai accompli ma mission.</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_060&lt;tab&gt;Quoi&lt;var 1D /var&gt;? Papa part venger papy&lt;var 1D /var&gt;?</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_061&lt;tab&gt;Il ne m'en a jamais parlé en bien... Il a dû lui pardonner alors.</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_062&lt;tab&gt;Hum... Peut-être que je devrais lui laisser une chance moi aussi. En tout cas, je peux pas attendre ici les bras croisés&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_100_020&lt;tab&gt;Tu veux bien m'emmener à un endroit où je pourrais le voir combattre&lt;var 1D /var&gt;? Je te promets de ne pas faire de folies. J'aimerais juste voir mon papa tuer le dragon. Et puis si tu m'emmènes pas, j'irai quand même de toute façon. Allez, on se voit là-bas&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_065&lt;tab&gt;Tu as parlé à Philipallais&lt;var 1D /var&gt;? Tant mieux, je vais pouvoir me rendre au nord-ouest du Convictoire le cœur léger. Il va voir ce que je vais lui mettre, ce dragon. Compte sur moi pour rentrer triomphant&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_070&lt;tab&gt;Regarde le dragon&lt;var 1D /var&gt;! Le trident est planté dedans. Papa a réussi&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_071&lt;tab&gt;Mon cher papa, où que tu sois, j'espère que tu m'as vu planter cette lance dans la plaie que tu avais ouverte.</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_072&lt;tab&gt;Papa, t'es trop fort. Tu as vaincu le dragon. Tu as tué Nguruvilu&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_073&lt;tab&gt;Qu'est-ce que tu fais là&lt;var 1D /var&gt;!? Tu es vraiment in&lt;var 16 /var&gt;cor&lt;var 16 /var&gt;ri&lt;var 16 /var&gt;gi&lt;var 16 /var&gt;ble.</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_074&lt;tab&gt;T'étais incroyable avec cette lance. Et puis t'es enfin un vrai chasseur de dragons&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_075&lt;tab&gt;C'est le moins qu'on puisse dire. J'espère bien faire d'un dragon trois coups&lt;var 1D /var&gt;: récupérer ce titre, venger mon père et laver notre honneur.</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_076&lt;tab&gt;Si on veut bien faire de moi un chevalier, je vais enfin pouvoir t'offrir la vie que tu mérites.</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_077&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, je dois te remercier d'avoir veillé sur mon fils au point de l'accompagner jusqu'ici. Tu nous auras vraiment soutenus du début à la fin de cette aventure. Merci...</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_078&lt;tab&gt;C'est une arme de premier choix que tu m'as fabriquée. Comme prévu, son fer acéré et sa légèreté en ont fait l'instrument idéal pour transpercer Nguruvilu. J'aurais aimé que mon père bénéficie d'un tel outil.</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_079&lt;tab&gt;Je me suis laissé convaincre par les on-dit et j'ai douté de ses capacités. Je m'en veux tellement de lui avoir manqué de respect.</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_080&lt;tab&gt;Tu ne sais pas où il a été enterré&lt;var 1D /var&gt;?</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_081&lt;tab&gt;Si, mais je ne suis jamais allé me recueillir sur sa tombe. Elle est à deux pas d'ici pourtant. J'aurais voulu qu'il puisse rencontrer son petit-fils... C'est peut-être l'occasion d'y aller.</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_090&lt;tab&gt;Philipallais et moi, on ne va pas tarder à aller se recueillir sur la tombe de mon père. Tu pourrais venir avec nous. Je te dois la vie après tout. Ça me ferait plaisir...</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_091&lt;tab&gt;Il a été enterré à deux pas des bergeries de Gorgagne.</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_100_030&lt;tab&gt;Jamais j'aurais cru que papa était si fort&lt;var 1D /var&gt;! Merci de m'avoir permis d'assister à ce spectacle.</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_095&lt;tab&gt;Mon fils et moi, on va aller se recueillir sur la tombe de mon père. J'aimerais bien que tu viennes avec nous. Il a été enterré près des bergeries de Gorgagne.</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_100&lt;tab&gt;Papa, je voulais te présenter &lt;var 08 E905 ((la femme)) ((l'homme)) /var&gt; qui a fabriqué ma lance. Sans ce&lt;var 08 E905 ((tte)) (()) /var&gt; menuisi&lt;var 08 E905 ((ère)) ((er)) /var&gt; hors pair, jamais je n'aurais pu battre Nguruvilu.</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_101&lt;tab&gt;Et je voulais aussi te présenter ton petit-fils, Philipallais. J'aurais dû le faire il y a déjà bien longtemps.</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_102&lt;tab&gt;Je suis désolé de t'avoir pris pour un moins-que-rien. Je sais que même si j'ai vaincu ce dragon, ça ne veut pas dire que je vaux mieux que toi.</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_103&lt;tab&gt;J'ai juste profité de tes exploits et de l'aide précieuse de cet&lt;var 08 E905 ((te)) (()) /var&gt; aventuri&lt;var 08 E905 ((ère)) ((er)) /var&gt;. Bon, on se reverra bientôt en tout cas. Je passerai te voir plus souvent maintenant.</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_CLSWDK600_02001_BARTHOVIEU_000_104&lt;tab&gt;Merci d'être resté&lt;var 08 E905 ((e)) (()) /var&gt; à nos côtés du début à la fin. Je peux maintenant aller voir les templiers avec mon fils et leur raconter tout ce que nous avons vécu. Je suis sûr qu'on se reverra en tout cas&lt;var 1D /var&gt;!</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_CLSWDK600_02001_SYSTEM_100_001&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_CLSWDK600_02001_SYSTEM_100_002&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_CLSWDK600_02001_PHILIPALLAIS_100_040&lt;tab&gt;Jamais j'aurais cru que papa était un tel guerrier&lt;var 1D /var&gt;! Merci de m'avoir permis d'assister à ce spectacle.</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_CLSWDK600_02001_SYSTEM_000_500&lt;tab&gt;Vous venez de parvenir à une étape dans la trame des quêtes de menuisier.</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_CLSWDK600_02001_SYSTEM_000_501&lt;tab&gt;Il est nécessaire de terminer la quête de l'épopée “Aux confins du destin” pour poursuivre cette histoire.</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_CLSWDK600_02001_SYSTEM_000_502&lt;tab&gt;Il vous suffira ensuite de vous adresser à Beatin, à la guilde des menuisiers, afin de commencer une nouvelle quête pour cette classe.</target></trans-unit></body></file></xliff>
+* Il est nécessaire de terminer la quête de l'épopée “Aux confins du destin” pour commencer une nouvelle quête de menuisier auprès de Beatin.</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_TODO_00&lt;tab&gt;Parler au chevalier de garde au Convictoire</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_TODO_01&lt;tab&gt;Donner &lt;var 33 ((EventItem)) 03F61E8B120202 /var&gt; à Barthovieu à Brouillasse</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_TODO_02&lt;tab&gt;&lt;var 08 E3E802E803 ((Fabriquer &lt;var 33 ((ItemHQ)) 02F229710202 /var&gt;)) ((Livrer &lt;var 33 ((ItemHQ)) 03F229710202 /var&gt; à Barthovieu)) /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_TODO_03&lt;tab&gt;Parler à Philipallais</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_TODO_04&lt;tab&gt;Rejoindre Barthovieu au nord du Convictoire</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_TODO_05&lt;tab&gt;Parler à Barthovieu au nord du Convictoire</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_TODO_06&lt;tab&gt;Parler à Barthovieu à l'est des bergeries de Gorgagne</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_000&lt;tab&gt;Je ne sais pas quoi dire... J'ai encore échoué. Le piège a fonctionné à merveille et je me voyais déjà tuer Nguruvilu. J'ai même éprouvé un plaisir coupable en le voyant se débattre.</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_001&lt;tab&gt;Le bois était solide, c'est sûr, mais nous avions oublié un détail plutôt important... le souffle de feu des dragons. Le piège a été réduit en cendres en moins de temps qu'il ne faut pour le dire.</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_002&lt;tab&gt;J'ai tiré toutes mes flèches sur lui, mais elles n'ont fait que rebondir mollement sur ses solides écailles. À court d'idées et face à un dragon en furie, j'ai bien été obligé de penser à mon fils et de prendre mes jambes à mon cou.</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_003&lt;tab&gt;Mais Nguruvilu ne va pas s'en tirer comme ça. Il a forcément un point faible et j'aimerais que vous m'aidiez à le trouver&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_004&lt;tab&gt;J'y ai beaucoup réfléchi et je pense que s'il existe un indice quelque part, il se trouve peut-être dans les vestiges calcinés de notre piège. Qui sait quelle information essentielle s'y cache&lt;var 1D /var&gt;? Ça pourrait nous mettre sur la voie.</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_005&lt;tab&gt;Les templiers ont récupéré ce qui restait du piège et ils l'ont entreposé au Convictoire. Va voir le chevalier qui monte la garde là-bas. Si tu lui dis que tu viens de ma part, il te laissera sans doute mener ton enquête.</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_006&lt;tab&gt;Reviens après, quand tu en sauras plus. Ça nous permettra d'y voir un peu plus clair pour la suite.</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_010&lt;tab&gt;Les templiers ont récupéré ce qui restait de mon piège et ils l'ont entreposé au Convictoire. Tu devrais aller t'adresser au chevalier qui monte la garde là-bas. Si tu lui dis que tu viens de ma part, il te laissera sans doute l'examiner.</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SAMUGARI02001_000_020&lt;tab&gt;C'est Barthovieu qui vous envoie&lt;var 1D /var&gt;? Ah, j'avais oublié qu'il voulait voir son piège. Pas de chance, on en a fait du bois de chauffage&lt;var 1D /var&gt;! C'est qu'il fait froid, ici.</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SAMUGARI02001_000_021&lt;tab&gt;Par contre, je peux vous donner &lt;var 33 ((EventItem)) 03F61E8B120202 /var&gt; qui était coincé dedans. De toute façon, ça brûle pas, ça. Il devait être pris entre deux écailles du dragon et il est tombé quand le monstre s'est débattu.</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SAMUGARI02001_000_025&lt;tab&gt;Ben quoi... &lt;var 2B ((&lt;var 33 ((EventItem)) 07F61E8B120202 /var&gt;)) /var&gt;, c'est un joli trophée, non&lt;var 1D /var&gt;? Il était sans doute planté entre deux écailles du dragon et il est tombé quand le monstre s'est débattu.</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_030&lt;tab&gt;Alors, tu as appris des choses in&lt;var 16 /var&gt;té&lt;var 16 /var&gt;res&lt;var 16 /var&gt;santes&lt;var 1D /var&gt;? Comme le point faible du dragon, par exemple&lt;var 1D /var&gt;?</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_031&lt;tab&gt;Mince alors... Tu te souviens de cette hampe que tu m'as rapportée&lt;var 1D /var&gt;? Je suis sûr que ce fer la coiffait à l'origine&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_032&lt;tab&gt;(snif)... Ça veut dire que mon père n'était pas ce pleutre dont tout Ishgard se moque. C'était un héros, mort face à Nguruvilu&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_033&lt;tab&gt;J'imagine que dans les derniers instants du combat, il a dû planter cette lame entre les écailles de ce monstre, et qu'il l'a enfoncée si pro&lt;var 16 /var&gt;fon&lt;var 16 /var&gt;dé&lt;var 16 /var&gt;ment qu'elle est restée fichée là pendant près de vingt ans.</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_034&lt;tab&gt;Le dragon est ensuite parti hiberner et ne s'est réveillé que récemment. J'imagine que la lance s'est brisée alors qu'il survolait la forêt de Sombrelinceul. Le manche a dû tomber, mais le fer est resté planté dans sa chair.</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_035&lt;tab&gt;Le destin est facétieux. Le manche de la lance nous aura permis de nous rencontrer et son fer a pointé la faiblesse de la bête.</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_036&lt;tab&gt;Et celle-ci n'est autre que la blessure laissée par mon père. Si le fer n'est tombé que récemment, la plaie devait être par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;cu&lt;var 16 /var&gt;liè&lt;var 16 /var&gt;rement profonde. Elle n'a cer&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;ne&lt;var 16 /var&gt;ment pas encore eu le temps de cicatriser.</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_037&lt;tab&gt;En visant cette blessure, je pourrais sans doute infliger un coup fatal à Nguruvilu sans avoir à m'inquiéter de ses écailles. Par contre, j'ai bien peur que mes talents d'archer ne me permettent pas d'atteindre une cible aussi petite. Je ferais mieux de m'armer d'une lance.</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_038&lt;tab&gt;Non, pitié&lt;var 1D /var&gt;! Redeviens pas maître d'hast&lt;var 1D /var&gt;! On sait tous les deux que t'en réchapperas pas&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_039&lt;tab&gt;Le dragon t'a laissé aucune chance quand tu l'as attaqué avec ta lance&lt;var 1D /var&gt;! Et la dernière fois, tu n'as pu fuir que parce que l'arc t'a permis de l'affronter à distance.</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_040&lt;tab&gt;Ne t'inquiète pas, je manie beaucoup mieux la lance que l'arc. Et cette fois-ci, j'ai un&lt;var 08 E905 ((e)) (()) /var&gt; allié&lt;var 08 E905 ((e)) (()) /var&gt; de choix&lt;var 1D /var&gt;: &lt;var 08 E905 ((la)) ((le)) /var&gt; meilleur&lt;var 08 E905 ((e)) (()) /var&gt; menuisi&lt;var 08 E905 ((ère)) ((er)) /var&gt; d'Éorzéa&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_041&lt;tab&gt;&lt;var 08 E905 ((Elle)) ((Il)) /var&gt; me fabrique des objets que papy n'aurait jamais pu espérer manipuler&lt;var 1D /var&gt;! Crois-moi, je ne peux pas échouer.</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_042&lt;tab&gt;Sale menteur&lt;var 1D /var&gt;! Pourquoi je devrais te croire&lt;var 1D /var&gt;!?</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_043&lt;tab&gt;Je comprends sa détresse, mais ma décision est prise. J'abandonne l'archerie. Le fer de la lance utilisée par mon père a été forgé dans du minerai de halonite. C'était déjà très bien, mais si je pouvais en avoir un en adamantium, ce serait encore mieux.</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_100_000&lt;tab&gt;Tu veux bien me fabriquer &lt;var 33 ((Item)) 02F229710202 /var&gt; de haute qualité&lt;var 1D /var&gt;? Je te paierai, ne t'en fais pas. J'ai encore quelques gils de côté... J'ai toujours un père à venger et un nom à laver.</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SYSTEM_900_000&lt;tab&gt;Il est nécessaire d'avoir appris les recettes de “Menuiserie experte III” pour synthétiser des &lt;var 33 ((ItemHQ)) 0DF229710302 /var&gt;.</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_100_010&lt;tab&gt;J'aimerais que tu me fabriques &lt;var 33 ((Item)) 02F229710202 /var&gt; de haute qualité. Je te paierai, évidemment. J'ai encore assez de gils de côté pour financer ma vengeance et laver l'honneur de mon père.</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_050&lt;tab&gt;Quelle beauté... Le fer est si acéré et fin qu'on dirait que ses dents s'allongent à l'infini. Et sa hampe est si légère que la prise en main est un véritable jeu d'enfant&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_051&lt;tab&gt;Mon père a peut-être préparé le terrain, il va quand même falloir que je plante cette lance plus pro&lt;var 16 /var&gt;fon&lt;var 16 /var&gt;dé&lt;var 16 /var&gt;ment encore si je veux tuer Nguruvilu. Ceci dit, j'ai bien l'impression que cette arme pourrait transpercer n'importe quoi&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_052&lt;tab&gt;Je vais aller me placer en embuscade au nord-ouest du Convictoire et je ne raterai pas le dragon quand il passera par là. Je sais que j'ai beaucoup abusé de ta gentillesse, mais j'ai un dernier service à te demander.</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_053&lt;tab&gt;Tu veux bien aller dire à Philipallais que je n'échouerai pas&lt;var 1D /var&gt;? Je laverai l'honneur de mon père et je reviendrai quand j'aurai accompli ma mission. Je pense que mon fils est retourné aux Saintes Écuries.</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_055&lt;tab&gt;Tu veux bien aller retrouver Philipallais aux Saintes Écuries et lui dire que je n'échouerai pas&lt;var 1D /var&gt;? Je laverai l'honneur de mon père et je reviendrai quand j'aurai accompli ma mission.</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_060&lt;tab&gt;Quoi&lt;var 1D /var&gt;? Papa part venger papy&lt;var 1D /var&gt;?</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_061&lt;tab&gt;Il ne m'en a jamais parlé en bien... Il a dû lui pardonner alors.</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_062&lt;tab&gt;Hum... Peut-être que je devrais lui laisser une chance moi aussi. En tout cas, je peux pas attendre ici les bras croisés&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_100_020&lt;tab&gt;Tu veux bien m'emmener à un endroit où je pourrais le voir combattre&lt;var 1D /var&gt;? Je te promets de ne pas faire de folies. J'aimerais juste voir mon papa tuer le dragon. Et puis si tu m'emmènes pas, j'irai quand même de toute façon. Allez, on se voit là-bas&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_065&lt;tab&gt;Tu as parlé à Philipallais&lt;var 1D /var&gt;? Tant mieux, je vais pouvoir me rendre au nord-ouest du Convictoire le cœur léger. Il va voir ce que je vais lui mettre, ce dragon. Compte sur moi pour rentrer triomphant&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_070&lt;tab&gt;Regarde le dragon&lt;var 1D /var&gt;! Le trident est planté dedans. Papa a réussi&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_071&lt;tab&gt;Mon cher papa, où que tu sois, j'espère que tu m'as vu planter cette lance dans la plaie que tu avais ouverte.</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_072&lt;tab&gt;Papa, t'es trop fort. Tu as vaincu le dragon. Tu as tué Nguruvilu&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_073&lt;tab&gt;Qu'est-ce que tu fais là&lt;var 1D /var&gt;!? Tu es vraiment in&lt;var 16 /var&gt;cor&lt;var 16 /var&gt;ri&lt;var 16 /var&gt;gi&lt;var 16 /var&gt;ble.</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_074&lt;tab&gt;T'étais incroyable avec cette lance. Et puis t'es enfin un vrai chasseur de dragons&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_075&lt;tab&gt;C'est le moins qu'on puisse dire. J'espère bien faire d'un dragon trois coups&lt;var 1D /var&gt;: récupérer ce titre, venger mon père et laver notre honneur.</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_076&lt;tab&gt;Si on veut bien faire de moi un chevalier, je vais enfin pouvoir t'offrir la vie que tu mérites.</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_077&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, je dois te remercier d'avoir veillé sur mon fils au point de l'accompagner jusqu'ici. Tu nous auras vraiment soutenus du début à la fin de cette aventure. Merci...</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_078&lt;tab&gt;C'est une arme de premier choix que tu m'as fabriquée. Comme prévu, son fer acéré et sa légèreté en ont fait l'instrument idéal pour transpercer Nguruvilu. J'aurais aimé que mon père bénéficie d'un tel outil.</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_079&lt;tab&gt;Je me suis laissé convaincre par les on-dit et j'ai douté de ses capacités. Je m'en veux tellement de lui avoir manqué de respect.</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_000_080&lt;tab&gt;Tu ne sais pas où il a été enterré&lt;var 1D /var&gt;?</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_081&lt;tab&gt;Si, mais je ne suis jamais allé me recueillir sur sa tombe. Elle est à deux pas d'ici pourtant. J'aurais voulu qu'il puisse rencontrer son petit-fils... C'est peut-être l'occasion d'y aller.</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_090&lt;tab&gt;Philipallais et moi, on ne va pas tarder à aller se recueillir sur la tombe de mon père. Tu pourrais venir avec nous. Je te dois la vie après tout. Ça me ferait plaisir...</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_091&lt;tab&gt;Il a été enterré à deux pas des bergeries de Gorgagne.</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_100_030&lt;tab&gt;Jamais j'aurais cru que papa était si fort&lt;var 1D /var&gt;! Merci de m'avoir permis d'assister à ce spectacle.</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_095&lt;tab&gt;Mon fils et moi, on va aller se recueillir sur la tombe de mon père. J'aimerais bien que tu viennes avec nous. Il a été enterré près des bergeries de Gorgagne.</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_100&lt;tab&gt;Papa, je voulais te présenter &lt;var 08 E905 ((la femme)) ((l'homme)) /var&gt; qui a fabriqué ma lance. Sans ce&lt;var 08 E905 ((tte)) (()) /var&gt; menuisi&lt;var 08 E905 ((ère)) ((er)) /var&gt; hors pair, jamais je n'aurais pu battre Nguruvilu.</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_101&lt;tab&gt;Et je voulais aussi te présenter ton petit-fils, Philipallais. J'aurais dû le faire il y a déjà bien longtemps.</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_102&lt;tab&gt;Je suis désolé de t'avoir pris pour un moins-que-rien. Je sais que même si j'ai vaincu ce dragon, ça ne veut pas dire que je vaux mieux que toi.</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_103&lt;tab&gt;J'ai juste profité de tes exploits et de l'aide précieuse de cet&lt;var 08 E905 ((te)) (()) /var&gt; aventuri&lt;var 08 E905 ((ère)) ((er)) /var&gt;. Bon, on se reverra bientôt en tout cas. Je passerai te voir plus souvent maintenant.</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_BARTHOVIEU_000_104&lt;tab&gt;Merci d'être resté&lt;var 08 E905 ((e)) (()) /var&gt; à nos côtés du début à la fin. Je peux maintenant aller voir les templiers avec mon fils et leur raconter tout ce que nous avons vécu. Je suis sûr qu'on se reverra en tout cas&lt;var 1D /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SYSTEM_100_001&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SYSTEM_100_002&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_PHILIPALLAIS_100_040&lt;tab&gt;Jamais j'aurais cru que papa était un tel guerrier&lt;var 1D /var&gt;! Merci de m'avoir permis d'assister à ce spectacle.</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SYSTEM_000_500&lt;tab&gt;Vous venez de parvenir à une étape dans la trame des quêtes de menuisier.</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SYSTEM_000_501&lt;tab&gt;Il est nécessaire de terminer la quête de l'épopée “Aux confins du destin” pour poursuivre cette histoire.</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_CLSWDK600_02001_SYSTEM_000_502&lt;tab&gt;Il vous suffira ensuite de vous adresser à Beatin, à la guilde des menuisiers, afin de commencer une nouvelle quête pour cette classe.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

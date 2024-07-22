@@ -1,15 +1,177 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="RegSeaBeginnerGuideBook_00340" datatype="plaintext" source-language="en" target-language="en" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_Q1_000_000&lt;tab&gt;Which entry will you read?</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_001&lt;tab&gt;Typing commands to execute actions.</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_002&lt;tab&gt;Making use of macros.</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_003&lt;tab&gt;Signs and marks.</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_004&lt;tab&gt;Playing your role.</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_005&lt;tab&gt;Learning the lingo.</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_006&lt;tab&gt;Cancel.</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_010&lt;tab&gt;(-Entry for “Callow Conjurer”-)&lt;var 1A 02 /var&gt;Greetings, fellow fledgling adventurer! We may never meet, so I thought I'd leave a handy hint that the “masters” of this hall neglected to teach me!&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_011&lt;tab&gt;In addition to using the icons placed on your hotbar, you can execute actions via text commands entered in the chat input bar. Typing &lt;var 48 F20222 /var&gt;/action Cure&lt;var 48 01 /var&gt; for example, will allow you to cast the Cure spell.</target></trans-unit><trans-unit id="9" approved="yes"><source>9</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_012&lt;tab&gt;You can also designate a target for the action. To target your own character, leave a space after the action name, then type &lt;var 48 F20222 /var&gt;&lt;me&gt;&lt;var 48 01 /var&gt;. Or, to use an action on your currently selected target, simply add &lt;var 48 F20222 /var&gt;&lt;t&gt;&lt;var 48 01 /var&gt;.</target></trans-unit><trans-unit id="10" approved="yes"><source>10</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_013&lt;tab&gt;In addition to executing actions, text commands can also be used to change targets, display UI elements, and perform many other convenient shortcuts.</target></trans-unit><trans-unit id="11" approved="yes"><source>11</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_014&lt;tab&gt;A complete list of text commands can be viewed via the &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;User Macro&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; window opened from the &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;System&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; menu.</target></trans-unit><trans-unit id="12" approved="yes"><source>12</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_020&lt;tab&gt;(-Entry for “Miqo'te Myrmidon”-)&lt;var 1A 02 /var&gt;Do you ever find that the more desperate the situation, the harder it is to perform techniques you've drilled a thousand times? For me, it was incredibly helpful to sit down and write out my most common combat procedures before heading into battle!&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="13" approved="yes"><source>13</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_021&lt;tab&gt;Using the macro editor, it is possible to create custom macros that automatically execute registered text commands. One of the most convenient features of this macro system is the ability to execute multiple text commands in quick succession.</target></trans-unit><trans-unit id="14" approved="yes"><source>14</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_022&lt;tab&gt;To access the macro editor, open the &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;System&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; menu and select &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;User Macros&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. The following are some examples of common macros.</target></trans-unit><trans-unit id="15" approved="yes"><source>15</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_023&lt;tab&gt;Use Shield Lob on target and mark with sign:
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="RegSeaBeginnerGuideBook_00340" datatype="plaintext" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_Q1_000_000&lt;tab&gt;Which entry will you read?</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_001&lt;tab&gt;Typing commands to execute actions.</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_002&lt;tab&gt;Making use of macros.</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_003&lt;tab&gt;Signs and marks.</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_004&lt;tab&gt;Playing your role.</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_005&lt;tab&gt;Learning the lingo.</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_A1_000_006&lt;tab&gt;Cancel.</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_010&lt;tab&gt;(-Entry for “Callow Conjurer”-)&lt;var 1A 02 /var&gt;Greetings, fellow fledgling adventurer! We may never meet, so I thought I'd leave a handy hint that the “masters” of this hall neglected to teach me!&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_011&lt;tab&gt;In addition to using the icons placed on your hotbar, you can execute actions via text commands entered in the chat input bar. Typing &lt;var 48 F20222 /var&gt;/action Cure&lt;var 48 01 /var&gt; for example, will allow you to cast the Cure spell.</target>
+			</trans-unit>
+			<trans-unit id="9" approved="yes">
+				<source>9</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_012&lt;tab&gt;You can also designate a target for the action. To target your own character, leave a space after the action name, then type &lt;var 48 F20222 /var&gt;&lt;me&gt;&lt;var 48 01 /var&gt;. Or, to use an action on your currently selected target, simply add &lt;var 48 F20222 /var&gt;&lt;t&gt;&lt;var 48 01 /var&gt;.</target>
+			</trans-unit>
+			<trans-unit id="10" approved="yes">
+				<source>10</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_013&lt;tab&gt;In addition to executing actions, text commands can also be used to change targets, display UI elements, and perform many other convenient shortcuts.</target>
+			</trans-unit>
+			<trans-unit id="11" approved="yes">
+				<source>11</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_014&lt;tab&gt;A complete list of text commands can be viewed via the &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;User Macro&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; window opened from the &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;System&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; menu.</target>
+			</trans-unit>
+			<trans-unit id="12" approved="yes">
+				<source>12</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_020&lt;tab&gt;(-Entry for “Miqo'te Myrmidon”-)&lt;var 1A 02 /var&gt;Do you ever find that the more desperate the situation, the harder it is to perform techniques you've drilled a thousand times? For me, it was incredibly helpful to sit down and write out my most common combat procedures before heading into battle!&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="13" approved="yes">
+				<source>13</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_021&lt;tab&gt;Using the macro editor, it is possible to create custom macros that automatically execute registered text commands. One of the most convenient features of this macro system is the ability to execute multiple text commands in quick succession.</target>
+			</trans-unit>
+			<trans-unit id="14" approved="yes">
+				<source>14</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_022&lt;tab&gt;To access the macro editor, open the &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;System&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; menu and select &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;User Macros&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. The following are some examples of common macros.</target>
+			</trans-unit>
+			<trans-unit id="15" approved="yes">
+				<source>15</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_023&lt;tab&gt;Use Shield Lob on target and mark with sign:
 &lt;var 48 F20222 /var&gt;/marking attack1 &lt;t&gt;
-/action “Shield Lob” &lt;t&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="16" approved="yes"><source>16</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_024&lt;tab&gt;Target nearest enemy and face target:
+/action “Shield Lob” &lt;t&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="16" approved="yes">
+				<source>16</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_024&lt;tab&gt;Target nearest enemy and face target:
 &lt;var 48 F20222 /var&gt;/tenemy
-/ft&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="17" approved="yes"><source>17</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_025&lt;tab&gt;Declare action being executed in party chat:
+/ft&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="17" approved="yes">
+				<source>17</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_025&lt;tab&gt;Declare action being executed in party chat:
 &lt;var 48 F20222 /var&gt;/p Raising &lt;t&gt;!
-/action Raise &lt;t&gt;&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="18" approved="yes"><source>18</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_026&lt;tab&gt;Macros such as these make it easy to perform complex actions with reliability and minimal input. Experiment with the editor, and you'll soon have a set of user macros to suit all your adventuring needs.</target></trans-unit><trans-unit id="19" approved="yes"><source>19</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_030&lt;tab&gt;(-Entry for “Vagabond Lalafell”-)&lt;var 1A 02 /var&gt;The one thing all party members should learn how to do is communicate! And not just through words─you might be surprised at how easily an agreed-upon sign can save time...not to mention unnecessary injury!&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="20" approved="yes"><source>20</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_031&lt;tab&gt;Signs and waymarks are communication tools that are visible to your entire party.</target></trans-unit><trans-unit id="21" approved="yes"><source>21</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_032&lt;tab&gt;Signs, for example, can be used to mark any target─friendly or hostile─with an eye-catching symbol.</target></trans-unit><trans-unit id="22" approved="yes"><source>22</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_033&lt;tab&gt;Among the varieties of signs, there is a set of symbols that appear as large numbers above the targets. These are especially helpful when establishing the order in which you wish to defeat a troublesome group of enemies.</target></trans-unit><trans-unit id="23" approved="yes"><source>23</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_034&lt;tab&gt;Waymarks, on the other hand, are used to highlight specific points on the ground. This can be a convenient method for marking a location where you wish the party to gather.</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_035&lt;tab&gt;The various signs and waymarks can be found under &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Party&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; in the main menu.</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_040&lt;tab&gt;(-Entry for “Anxious Adventurer”-)&lt;var 1A 02 /var&gt;I was always too afraid to join a party─afraid that I'd do the wrong thing. Then the masters explained to me how everyone has a role, and what exactly those roles are. That advice instilled me with confidence, and mayhap it will do the same for you...&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_041&lt;tab&gt;Every Disciple of War or Magic plays one of three distinct roles during party combat. These roles are commonly known as tank, healer, and DPS.</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_042&lt;tab&gt;The Tank (Gladiator, Marauder)
-Tank classes are hardy bulwarks with mountains of HP and excellent defensive attributes. Tanks protect their companions by building enmity with opponents and bearing the brunt of enemy attacks.</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_043&lt;tab&gt;The Healer (Conjurer)
-Healers are specialists in the restorative arts. It is their job to keep their companions alive by restoring lost HP and cleansing detrimental effects such as poison.</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_044&lt;tab&gt;The DPS (Pugilist, Lancer, Archer, Rogue, Thaumaturge, Arcanist)
-DPS (short for Damage Per Second) classes are the masters of inflicting harm. These damage dealers must be careful not to invite an enemy's wrath by exceeding the enmity built by the tank.</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_045&lt;tab&gt;DPS classes are often further divided into two categories: melee DPS (close combat specialists) and ranged DPS (damage from a distance).</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_046&lt;tab&gt;Once you understand your role, it becomes clear what actions are expected of you in a group situation. When everyone plays their part, you truly become a “party”─a band of companions capable of defeating foes far more powerful than could any adventurer fighting alone.</target></trans-unit><trans-unit id="32" approved="yes"><source>32</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_050&lt;tab&gt;(-Entry for “Rustic Roegadyn”-)&lt;var 1A 02 /var&gt;Sometimes me mates would use words that made no bloody sense...an' I'd just nod along. But ye can be sure I began askin' what they meant after me fear o' lookin' foolish almost got me skewered...&lt;var 1A 01 /var&gt;</target></trans-unit><trans-unit id="33" approved="yes"><source>33</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_051&lt;tab&gt;When players discuss certain aspects of the game, they often use specialized terms and abbreviations. Here are some common examples.</target></trans-unit><trans-unit id="34" approved="yes"><source>34</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_052&lt;tab&gt;Spawn: Verb or noun used when a monster (re)appears in the world.
+/action Raise &lt;t&gt;&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="18" approved="yes">
+				<source>18</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_026&lt;tab&gt;Macros such as these make it easy to perform complex actions with reliability and minimal input. Experiment with the editor, and you'll soon have a set of user macros to suit all your adventuring needs.</target>
+			</trans-unit>
+			<trans-unit id="19" approved="yes">
+				<source>19</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_030&lt;tab&gt;(-Entry for “Vagabond Lalafell”-)&lt;var 1A 02 /var&gt;The one thing all party members should learn how to do is communicate! And not just through words─you might be surprised at how easily an agreed-upon sign can save time...not to mention unnecessary injury!&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="20" approved="yes">
+				<source>20</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_031&lt;tab&gt;Signs and waymarks are communication tools that are visible to your entire party.</target>
+			</trans-unit>
+			<trans-unit id="21" approved="yes">
+				<source>21</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_032&lt;tab&gt;Signs, for example, can be used to mark any target─friendly or hostile─with an eye-catching symbol.</target>
+			</trans-unit>
+			<trans-unit id="22" approved="yes">
+				<source>22</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_033&lt;tab&gt;Among the varieties of signs, there is a set of symbols that appear as large numbers above the targets. These are especially helpful when establishing the order in which you wish to defeat a troublesome group of enemies.</target>
+			</trans-unit>
+			<trans-unit id="23" approved="yes">
+				<source>23</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_034&lt;tab&gt;Waymarks, on the other hand, are used to highlight specific points on the ground. This can be a convenient method for marking a location where you wish the party to gather.</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_035&lt;tab&gt;The various signs and waymarks can be found under &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Party&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; in the main menu.</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_040&lt;tab&gt;(-Entry for “Anxious Adventurer”-)&lt;var 1A 02 /var&gt;I was always too afraid to join a party─afraid that I'd do the wrong thing. Then the masters explained to me how everyone has a role, and what exactly those roles are. That advice instilled me with confidence, and mayhap it will do the same for you...&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_041&lt;tab&gt;Every Disciple of War or Magic plays one of three distinct roles during party combat. These roles are commonly known as tank, healer, and DPS.</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_042&lt;tab&gt;The Tank (Gladiator, Marauder)
+Tank classes are hardy bulwarks with mountains of HP and excellent defensive attributes. Tanks protect their companions by building enmity with opponents and bearing the brunt of enemy attacks.</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_043&lt;tab&gt;The Healer (Conjurer)
+Healers are specialists in the restorative arts. It is their job to keep their companions alive by restoring lost HP and cleansing detrimental effects such as poison.</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_044&lt;tab&gt;The DPS (Pugilist, Lancer, Archer, Rogue, Thaumaturge, Arcanist)
+DPS (short for Damage Per Second) classes are the masters of inflicting harm. These damage dealers must be careful not to invite an enemy's wrath by exceeding the enmity built by the tank.</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_045&lt;tab&gt;DPS classes are often further divided into two categories: melee DPS (close combat specialists) and ranged DPS (damage from a distance).</target>
+			</trans-unit>
+			<trans-unit id="31" approved="yes">
+				<source>31</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_046&lt;tab&gt;Once you understand your role, it becomes clear what actions are expected of you in a group situation. When everyone plays their part, you truly become a “party”─a band of companions capable of defeating foes far more powerful than could any adventurer fighting alone.</target>
+			</trans-unit>
+			<trans-unit id="32" approved="yes">
+				<source>32</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_050&lt;tab&gt;(-Entry for “Rustic Roegadyn”-)&lt;var 1A 02 /var&gt;Sometimes me mates would use words that made no bloody sense...an' I'd just nod along. But ye can be sure I began askin' what they meant after me fear o' lookin' foolish almost got me skewered...&lt;var 1A 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="33" approved="yes">
+				<source>33</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_051&lt;tab&gt;When players discuss certain aspects of the game, they often use specialized terms and abbreviations. Here are some common examples.</target>
+			</trans-unit>
+			<trans-unit id="34" approved="yes">
+				<source>34</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_052&lt;tab&gt;Spawn: Verb or noun used when a monster (re)appears in the world.
 Add: Used to describe sudden enemy reinforcements.
-Pull: The act of bringing a distant foe to the party's location.</target></trans-unit><trans-unit id="35" approved="yes"><source>35</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_053&lt;tab&gt;Aggro: Enmity. The gauge of an enemy's likelihood to attack you. Also known as “hate” or “threat.”
+Pull: The act of bringing a distant foe to the party's location.</target>
+			</trans-unit>
+			<trans-unit id="35" approved="yes">
+				<source>35</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_053&lt;tab&gt;Aggro: Enmity. The gauge of an enemy's likelihood to attack you. Also known as “hate” or “threat.”
 Buff: Positive effects that improve attributes.
-Debuff: Negative effects that weaken attributes.</target></trans-unit><trans-unit id="36" approved="yes"><source>36</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_054&lt;tab&gt;DoT: Abbreviation for “Damage over Time.”
-AE/AoE: Abbreviation for “Area (of) Effect.”</target></trans-unit><trans-unit id="37" approved="yes"><source>37</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_055&lt;tab&gt;There are many more terms that may be unfamiliar to players new to the game, so don't be afraid to ask a mentor or party member for an explanation!</target></trans-unit><trans-unit id="38" approved="yes"><source>38</source><target state="final">TEXT_REGSEABEGINNERGUIDEBOOK_00340_TALK_ACTOR&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit></body></file></xliff>
+Debuff: Negative effects that weaken attributes.</target>
+			</trans-unit>
+			<trans-unit id="36" approved="yes">
+				<source>36</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_054&lt;tab&gt;DoT: Abbreviation for “Damage over Time.”
+AE/AoE: Abbreviation for “Area (of) Effect.”</target>
+			</trans-unit>
+			<trans-unit id="37" approved="yes">
+				<source>37</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_055&lt;tab&gt;There are many more terms that may be unfamiliar to players new to the game, so don't be afraid to ask a mentor or party member for an explanation!</target>
+			</trans-unit>
+			<trans-unit id="38" approved="yes">
+				<source>38</source>
+				<target state="final" xml:space="preserve">TEXT_REGSEABEGINNERGUIDEBOOK_00340_TALK_ACTOR&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

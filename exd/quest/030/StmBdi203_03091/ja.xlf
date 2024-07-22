@@ -1,111 +1,597 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="StmBdi203_03091" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_STMBDI203_03091_SEQ_00&lt;tab&gt;大道具部屋のジェノミス・レクセンテールは、調査の内容を伝えたいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_STMBDI203_03091_SEQ_01&lt;tab&gt;イヴァリースの歴史上、リドルアナと呼ばれる大穴は存在しなかったようだ。ラムザとジェノミスは、ある推測があるようだ。リドルアナ大灯台へ向かうため、大道具部屋の「ラムザ・レクセンテール」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_STMBDI203_03091_SEQ_02&lt;tab&gt;リドルアナ大灯台へ向けて出発した。なお、ブリッジの「ジェノミス・レクセンテール」に話しかければ、再度リドルアナ大灯台へ移動させてもらえるようだ。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_STMBDI203_03091_SEQ_03&lt;tab&gt;リドルアナ大灯台に到着した。リドルアナ大灯台の「&lt;var 28 ((EObj)) F61EA98501 /var&gt;」で、ラムザから手渡された望遠鏡を使い「バッガモナン」を探そう。なお、ブリッジの「ジェノミス・レクセンテール」に話しかければ、再度リドルアナ大灯台へ移動させてもらえるようだ。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_STMBDI203_03091_SEQ_04&lt;tab&gt;バッガモナンは、冒険者たちが帝国兵に見えていたようだ。聖石ドゥマに影響を受けたバッガモナンは、光に包まれ姿を消した。ブリッジの「ジェノミス・レクセンテール」と話そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_STMBDI203_03091_SEQ_05&lt;tab&gt;ジェノミス・レクセンテールと話した。彼も、バッガモナンの変化に驚愕を隠せないようだ。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_STMBDI203_03091_TODO_00&lt;tab&gt;ラムザ・レクセンテールと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_STMBDI203_03091_TODO_01&lt;tab&gt;ラムザ・レクセンテールと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_STMBDI203_03091_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EA98501 /var&gt;で、望遠鏡を使いバッガモナンを探す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_STMBDI203_03091_TODO_03&lt;tab&gt;ジェノミス・レクセンテールと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_200_005&lt;tab&gt;……なんとしても、ヒントを見つけてみせますよ。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_000&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_030&lt;tab&gt;ラバナスタの南、バルナード海に浮かぶリドルアナ大灯台、
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="StmBdi203_03091" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_SEQ_00&lt;tab&gt;大道具部屋のジェノミス・レクセンテールは、調査の内容を伝えたいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_SEQ_01&lt;tab&gt;イヴァリースの歴史上、リドルアナと呼ばれる大穴は存在しなかったようだ。ラムザとジェノミスは、ある推測があるようだ。リドルアナ大灯台へ向かうため、大道具部屋の「ラムザ・レクセンテール」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_SEQ_02&lt;tab&gt;リドルアナ大灯台へ向けて出発した。なお、ブリッジの「ジェノミス・レクセンテール」に話しかければ、再度リドルアナ大灯台へ移動させてもらえるようだ。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_SEQ_03&lt;tab&gt;リドルアナ大灯台に到着した。リドルアナ大灯台の「&lt;var 28 ((EObj)) F61EA98501 /var&gt;」で、ラムザから手渡された望遠鏡を使い「バッガモナン」を探そう。なお、ブリッジの「ジェノミス・レクセンテール」に話しかければ、再度リドルアナ大灯台へ移動させてもらえるようだ。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_SEQ_04&lt;tab&gt;バッガモナンは、冒険者たちが帝国兵に見えていたようだ。聖石ドゥマに影響を受けたバッガモナンは、光に包まれ姿を消した。ブリッジの「ジェノミス・レクセンテール」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_SEQ_05&lt;tab&gt;ジェノミス・レクセンテールと話した。彼も、バッガモナンの変化に驚愕を隠せないようだ。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_TODO_00&lt;tab&gt;ラムザ・レクセンテールと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_TODO_01&lt;tab&gt;ラムザ・レクセンテールと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EA98501 /var&gt;で、望遠鏡を使いバッガモナンを探す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_TODO_03&lt;tab&gt;ジェノミス・レクセンテールと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_200_005&lt;tab&gt;……なんとしても、ヒントを見つけてみせますよ。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_000&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_030&lt;tab&gt;ラバナスタの南、バルナード海に浮かぶリドルアナ大灯台、
 リドルアナと呼ばれる巨大な穴に船舶などが落ちぬよう、
-ダルマスカ王国はその大灯台を長年にわたり管理していた。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_031&lt;tab&gt;だが、帝国の支配下に置かれてからは無人となり、
+ダルマスカ王国はその大灯台を長年にわたり管理していた。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_031&lt;tab&gt;だが、帝国の支配下に置かれてからは無人となり、
 この30年間で魔物の巣窟となってしまったらしい。
-ミコトとブワジの情報が合致しているので確かだろう。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_032&lt;tab&gt;ここまでは皆が知るリドルアナ大瀑布と大灯台に関する情報です。
+ミコトとブワジの情報が合致しているので確かだろう。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_032&lt;tab&gt;ここまでは皆が知るリドルアナ大瀑布と大灯台に関する情報です。
 この灯台がイヴァリース伝説とどうつながっているのかを、
-父とふたりで調べてみました。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_033&lt;tab&gt;残念なことに「リドルアナ」という地名はおろか、
-似た単語を発見することはできませんでした。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_034&lt;tab&gt;では、リドルアナ大灯台とイヴァリースは無関係なのか、
+父とふたりで調べてみました。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_033&lt;tab&gt;残念なことに「リドルアナ」という地名はおろか、
+似た単語を発見することはできませんでした。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_034&lt;tab&gt;では、リドルアナ大灯台とイヴァリースは無関係なのか、
 そう考えますよね？　でも違うんです、
-ひとつ大きな点を見逃していたんですッ！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_035&lt;tab&gt;時代が違うのだから同じ名称ではないはず、そう考え、
+ひとつ大きな点を見逃していたんですッ！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_035&lt;tab&gt;時代が違うのだから同じ名称ではないはず、そう考え、
 現代史とボクたちが調べたイヴァリース史を比較したのですが、
-やはりそれらしき単語を発見できず……！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_036&lt;tab&gt;そこで気づいたんです！
+やはりそれらしき単語を発見できず……！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_036&lt;tab&gt;そこで気づいたんです！
 そもそも、「リドルアナ」と呼ばれる大穴が、
-デュライ白書には存在していないことを！！</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_037&lt;tab&gt;バルナード海に関する記述は確かにあるので、
+デュライ白書には存在していないことを！！</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_037&lt;tab&gt;バルナード海に関する記述は確かにあるので、
 こう推測することができます……。
-イヴァリース時代にその大穴は存在しなかった……と！！</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_038&lt;tab&gt;我々の推測が正しければおそらく大灯台は……。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_039&lt;tab&gt;とにかくリドルアナ大灯台へ行ってみましょう。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_STMBDI203_03091_LINAMEWRILAH_000_045&lt;tab&gt;ん～、なんとも思わせぶりな発言ですね～。
-推測でもいいから言ってほしいもんですよ～。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_048&lt;tab&gt;我々の推測が正しければおそらく大灯台は……。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_STMBDI203_03091_ALMALEXENTALE_000_050&lt;tab&gt;やはり、リドルアナ大灯台へ行くことになるんですね。
+イヴァリース時代にその大穴は存在しなかった……と！！</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_038&lt;tab&gt;我々の推測が正しければおそらく大灯台は……。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_039&lt;tab&gt;とにかくリドルアナ大灯台へ行ってみましょう。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_LINAMEWRILAH_000_045&lt;tab&gt;ん～、なんとも思わせぶりな発言ですね～。
+推測でもいいから言ってほしいもんですよ～。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_048&lt;tab&gt;我々の推測が正しければおそらく大灯台は……。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_ALMALEXENTALE_000_050&lt;tab&gt;やはり、リドルアナ大灯台へ行くことになるんですね。
 バッガモナンさんが心配ではありますけど、
-私はみなさんのことがもっと……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_STMBDI203_03091_MONTBLANC_000_053&lt;tab&gt;いよいよリドルアナ大灯台クポ！
+私はみなさんのことがもっと……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MONTBLANC_000_053&lt;tab&gt;いよいよリドルアナ大灯台クポ！
 もちろん、モグも上陸部隊に同行するクポ！
-ダメって言われても絶対に参加するクポ～～！！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_STMBDI203_03091_HURDY_000_055&lt;tab&gt;兄ちゃん、張り切っているけど心配クポ。
+ダメって言われても絶対に参加するクポ～～！！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_HURDY_000_055&lt;tab&gt;兄ちゃん、張り切っているけど心配クポ。
 モグたち流浪のモーグリ族は泳ぎが苦手、
-モンブラン兄ちゃんは水に顔をつけるのすら苦手クポ……。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_058&lt;tab&gt;兄貴……無事でいてクレェ……。
-でないとオレは……オレは……。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_STMBDI203_03091_GIJUK_000_060&lt;tab&gt;聖石ドゥマなんて狙わなければよかったんだ！
+モンブラン兄ちゃんは水に顔をつけるのすら苦手クポ……。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_058&lt;tab&gt;兄貴……無事でいてクレェ……。
+でないとオレは……オレは……。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_GIJUK_000_060&lt;tab&gt;聖石ドゥマなんて狙わなければよかったんだ！
 だが、兄貴は聖石があれば死んだ人間を復活させることが、
-できるっていう伝説を本当に信じていたようでサ……。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_STMBDI203_03091_RINOK_000_063&lt;tab&gt;盗賊稼業に身をやつしたとはいえ、
+できるっていう伝説を本当に信じていたようでサ……。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RINOK_000_063&lt;tab&gt;盗賊稼業に身をやつしたとはいえ、
 ここまで生きてこられたのはバッガモナンのおかげ……。
-無事でいてほしいヨ、心の底からそう願う……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_080&lt;tab&gt;準備はよろしいですか？
-バルナード海へ劇場艇を移動させます！</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_STMBDI203_03091_Q1_000_000&lt;tab&gt;何と答える？</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_STMBDI203_03091_A1_000_001&lt;tab&gt;バッチリだ！　いざ、リドルアナ大灯台へ出発しよう！</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_STMBDI203_03091_A1_000_002&lt;tab&gt;ごめん、用事を思い出した。しばしお待ちを！</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_100&lt;tab&gt;では、出発しましょう！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_120&lt;tab&gt;わかりました。
-準備ができたら声を掛けてくださいね。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_200&lt;tab&gt;ここがリドルアナ大灯台か……。
-なんとも禍々しい気を感じるな……。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_201&lt;tab&gt;ボクはちょっと調べたいことがあるのでここに残ります。
-バッガモナンの捜索にはこれを使ってください。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_202&lt;tab&gt;兄貴、いったい何処にいるんだ……。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_300&lt;tab&gt;リドルアナ大灯台へ行くんじゃないのかね？
-準備ができたら声を掛けてくれたまえ。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_STMBDI203_03091_Q2_000_000&lt;tab&gt;何と答える？</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_STMBDI203_03091_A2_000_001&lt;tab&gt;もう一度、リドルアナ大灯台へ行きます！</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_STMBDI203_03091_A2_000_002&lt;tab&gt;まだ、用事が終わってなかった。もうちょっとお待ちを！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_305&lt;tab&gt;では、行こうか！</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_310&lt;tab&gt;わかったわかった。
-準備ができたら声を掛けてくれたまえ。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_STMBDI203_03091_LINAMEWRILAH_000_330&lt;tab&gt;帝国との戦禍に巻き込まれたのでしょうね、
+無事でいてほしいヨ、心の底からそう願う……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_080&lt;tab&gt;準備はよろしいですか？
+バルナード海へ劇場艇を移動させます！</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_Q1_000_000&lt;tab&gt;何と答える？</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A1_000_001&lt;tab&gt;バッチリだ！　いざ、リドルアナ大灯台へ出発しよう！</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A1_000_002&lt;tab&gt;ごめん、用事を思い出した。しばしお待ちを！</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_100&lt;tab&gt;では、出発しましょう！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_120&lt;tab&gt;わかりました。
+準備ができたら声を掛けてくださいね。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_200&lt;tab&gt;ここがリドルアナ大灯台か……。
+なんとも禍々しい気を感じるな……。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_201&lt;tab&gt;ボクはちょっと調べたいことがあるのでここに残ります。
+バッガモナンの捜索にはこれを使ってください。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_202&lt;tab&gt;兄貴、いったい何処にいるんだ……。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_300&lt;tab&gt;リドルアナ大灯台へ行くんじゃないのかね？
+準備ができたら声を掛けてくれたまえ。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_Q2_000_000&lt;tab&gt;何と答える？</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A2_000_001&lt;tab&gt;もう一度、リドルアナ大灯台へ行きます！</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A2_000_002&lt;tab&gt;まだ、用事が終わってなかった。もうちょっとお待ちを！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_305&lt;tab&gt;では、行こうか！</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_310&lt;tab&gt;わかったわかった。
+準備ができたら声を掛けてくれたまえ。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_LINAMEWRILAH_000_330&lt;tab&gt;帝国との戦禍に巻き込まれたのでしょうね、
 この大灯台もボロボロです……。
-さらに、人の手が入らなくなるとあっという間に廃墟です……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_STMBDI203_03091_MONTBLANC_000_335&lt;tab&gt;こ……恐くないクポ……。
+さらに、人の手が入らなくなるとあっという間に廃墟です……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MONTBLANC_000_335&lt;tab&gt;こ……恐くないクポ……。
 だけど……とても禍々しいエーテルを……感じるクポ……。
-か……帰りたいけど……プライドが許さない……クポ。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_340&lt;tab&gt;兄貴、いったい何処にいるんだ……。
-早く捜さないと……。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_STMBDI203_03091_GIJUK_000_345&lt;tab&gt;お～～い、兄貴～～ッ！
+か……帰りたいけど……プライドが許さない……クポ。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_340&lt;tab&gt;兄貴、いったい何処にいるんだ……。
+早く捜さないと……。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_GIJUK_000_345&lt;tab&gt;お～～い、兄貴～～ッ！
 オレだ、オレたちダヨ～～ッ！
-迎えに来たよ～～、いるなら返事してくんろ～～ッ！！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_STMBDI203_03091_RINOK_000_350&lt;tab&gt;兄貴ーーッ！　何処にいるンだよーーッ！
-聞こえているなら返事しておくれーーッ！</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_STMBDI203_03091_ALMALEXENTALE_000_360&lt;tab&gt;ど、どうかしたんですか！！
-兄さんは……みなさんはご無事なんですか？？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_STMBDI203_03091_HURDY_000_365&lt;tab&gt;！！！？？？
-兄ちゃんは！！？　モンブラン兄ちゃんは？？</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_STMBDI203_03091_SYSTEM_000_320&lt;tab&gt;この遺跡に登れば、遠くまで見渡せそうだ。
-ラムザから受け取った望遠鏡でバッガモナンを探そう。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_400&lt;tab&gt;兄貴を見つけたのか！？</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_401&lt;tab&gt;傷だらけじゃないか！
-あれじゃァ、死んじまうッ！！</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_402&lt;tab&gt;そうか……この先に行けば……逢えるんだな……
-ラスラ閣下と……アーシェ王女に…………。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_403&lt;tab&gt;…………謝らネェと……国を守れなかった……
+迎えに来たよ～～、いるなら返事してくんろ～～ッ！！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RINOK_000_350&lt;tab&gt;兄貴ーーッ！　何処にいるンだよーーッ！
+聞こえているなら返事しておくれーーッ！</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_ALMALEXENTALE_000_360&lt;tab&gt;ど、どうかしたんですか！！
+兄さんは……みなさんはご無事なんですか？？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_HURDY_000_365&lt;tab&gt;！！！？？？
+兄ちゃんは！！？　モンブラン兄ちゃんは？？</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_SYSTEM_000_320&lt;tab&gt;この遺跡に登れば、遠くまで見渡せそうだ。
+ラムザから受け取った望遠鏡でバッガモナンを探そう。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_400&lt;tab&gt;兄貴を見つけたのか！？</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_401&lt;tab&gt;傷だらけじゃないか！
+あれじゃァ、死んじまうッ！！</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_402&lt;tab&gt;そうか……この先に行けば……逢えるんだな……
+ラスラ閣下と……アーシェ王女に…………。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_403&lt;tab&gt;…………謝らネェと……国を守れなかった……
 ……あの方たちを守れなかった…………
-許されるはずもないが……せめて一言…………。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_404&lt;tab&gt;兄貴ーーッ！！　待ってくれーーッ！！</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_405&lt;tab&gt;帝国兵ッ！？
+許されるはずもないが……せめて一言…………。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_404&lt;tab&gt;兄貴ーーッ！！　待ってくれーーッ！！</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_405&lt;tab&gt;帝国兵ッ！？
 オメェらが、帝国兵を連れてくるたァなぁ！
-このオレ様を裏切ろうってンかッ！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_STMBDI203_03091_GIJUK_000_406&lt;tab&gt;あ、兄貴？　何言っテンだよ？？
-帝国兵なんざ、ここにはいネェよッ！？</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_407&lt;tab&gt;そうか、テメェらァ！！
+このオレ様を裏切ろうってンかッ！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_GIJUK_000_406&lt;tab&gt;あ、兄貴？　何言っテンだよ？？
+帝国兵なんざ、ここにはいネェよッ！？</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_407&lt;tab&gt;そうか、テメェらァ！！
 このオレ様を捕らえにきやがったんだなァッ！
-閣下とアーシェ王女に逢わせまいと……ソウダロッ！！</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_STMBDI203_03091_LINAMEWRILAH_000_408&lt;tab&gt;さ、錯乱してるわ！</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_STMBDI203_03091_MONTBLANC_000_409&lt;tab&gt;あのクリスタルだクポ～！
+閣下とアーシェ王女に逢わせまいと……ソウダロッ！！</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_LINAMEWRILAH_000_408&lt;tab&gt;さ、錯乱してるわ！</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MONTBLANC_000_409&lt;tab&gt;あのクリスタルだクポ～！
 アレがバッガモナンに幻覚を見せているクポ～ッ！
-恐怖そのものを幻視させているクポ～～ッ！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_410&lt;tab&gt;ダ、ダルマスカの魔女ッッッ！！！</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_411&lt;tab&gt;リナさん……？</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_412&lt;tab&gt;(-ブワジ、ギジュー、リノ-)兄貴ィ～～～ッッッ！！！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_413&lt;tab&gt;(-バッガモナン-)このオレ様がこんなところで……死ぬ？
-そんなバカな…………</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_414&lt;tab&gt;(-聖石ドゥマ-)解き放て…………　おのが魂を…………
+恐怖そのものを幻視させているクポ～～ッ！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_410&lt;tab&gt;ダ、ダルマスカの魔女ッッッ！！！</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_411&lt;tab&gt;リナさん……？</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_412&lt;tab&gt;(-ブワジ、ギジュー、リノ-)兄貴ィ～～～ッッッ！！！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_413&lt;tab&gt;(-バッガモナン-)このオレ様がこんなところで……死ぬ？
+そんなバカな…………</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_414&lt;tab&gt;(-聖石ドゥマ-)解き放て…………　おのが魂を…………
 我に託せ…………　その切なる願いを…………
-唱えよ…………　契約の韻を…………</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_415&lt;tab&gt;戦士は……剣を……て……に……取り……</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_416&lt;tab&gt;しっかりしてくれ、兄貴ィ！！</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_417&lt;tab&gt;……記憶を……その……に……刻み……</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_STMBDI203_03091_GIJUK_000_418&lt;tab&gt;死んじゃダメだ！　オレたちをおいていくなァッ！！</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_419&lt;tab&gt;……技を……そ……石に……託す……</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_STMBDI203_03091_RINOK_000_420&lt;tab&gt;死ぬときはみんな一緒だって約束したジャないィッ！</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_STMBDI203_03091_BAGGAMONAN_000_421&lt;tab&gt;……より…………れ………石に……継がれ…………る…………</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_422&lt;tab&gt;何が……何が起きているんだ……？
-まさか…………聖石ドゥマが……？</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_423&lt;tab&gt;何があったのかわかりませんが、
-いったん、劇場艇へ戻りましょう！！</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_STMBDI203_03091_LINAMEWRILAH_000_430&lt;tab&gt;正直言ってビックリです……。
+唱えよ…………　契約の韻を…………</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_415&lt;tab&gt;戦士は……剣を……て……に……取り……</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_416&lt;tab&gt;しっかりしてくれ、兄貴ィ！！</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_417&lt;tab&gt;……記憶を……その……に……刻み……</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_GIJUK_000_418&lt;tab&gt;死んじゃダメだ！　オレたちをおいていくなァッ！！</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_419&lt;tab&gt;……技を……そ……石に……託す……</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RINOK_000_420&lt;tab&gt;死ぬときはみんな一緒だって約束したジャないィッ！</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BAGGAMONAN_000_421&lt;tab&gt;……より…………れ………石に……継がれ…………る…………</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_422&lt;tab&gt;何が……何が起きているんだ……？
+まさか…………聖石ドゥマが……？</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_423&lt;tab&gt;何があったのかわかりませんが、
+いったん、劇場艇へ戻りましょう！！</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_LINAMEWRILAH_000_430&lt;tab&gt;正直言ってビックリです……。
 あれが聖石の力なんですか？
-だとしたら、なんとも恐ろしいモノですね……。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_435&lt;tab&gt;まさかバッガモナンが聖石に取り込まれることになるなんて。
+だとしたら、なんとも恐ろしいモノですね……。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RAMZALEXENTALE_000_435&lt;tab&gt;まさかバッガモナンが聖石に取り込まれることになるなんて。
 想定外の出来事でしたが、
-盗賊という悪事に手を染めた者の末路……ということでしょうか。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_STMBDI203_03091_ALMALEXENTALE_000_440&lt;tab&gt;やはり、聖石は恐ろしいものだったんですね……。
+盗賊という悪事に手を染めた者の末路……ということでしょうか。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_ALMALEXENTALE_000_440&lt;tab&gt;やはり、聖石は恐ろしいものだったんですね……。
 ……どうして「聖石」なんて呼ばれたのだろう？
-どう考えても邪悪な感じしかしないのに。</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_STMBDI203_03091_MONTBLANC_000_445&lt;tab&gt;正直言うと、とっても恐かったクポ……。
+どう考えても邪悪な感じしかしないのに。</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MONTBLANC_000_445&lt;tab&gt;正直言うと、とっても恐かったクポ……。
 でも、この冒険を避けてはいけない気がするクポ……。
-モグの運命のような気がするクポ……。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_STMBDI203_03091_HURDY_000_450&lt;tab&gt;もう兄ちゃんは行かなくていいクポ？
+モグの運命のような気がするクポ……。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_HURDY_000_450&lt;tab&gt;もう兄ちゃんは行かなくていいクポ？
 だって足手まといに決まってるし、口だけで何もできないクポ。
-……行かせたくないクポ……心配クポ。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_STMBDI203_03091_BWAGI_000_455&lt;tab&gt;もう兄貴を助け出すことは無理なんだろうカ……。
+……行かせたくないクポ……心配クポ。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_000_455&lt;tab&gt;もう兄貴を助け出すことは無理なんだろうカ……。
 いや、諦めるには早いヨナ。
-頼む、お願いダ、アンタの力で兄貴を救ってやって欲しい……！</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_STMBDI203_03091_GIJUK_000_460&lt;tab&gt;兄貴はいったいどうしちマッタンだ……。
-オレたちゃ、これからいったいどうすれバ……。</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_STMBDI203_03091_RINOK_000_465&lt;tab&gt;アタイはまだ諦めちゃいないよ……。
+頼む、お願いダ、アンタの力で兄貴を救ってやって欲しい……！</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_GIJUK_000_460&lt;tab&gt;兄貴はいったいどうしちマッタンだ……。
+オレたちゃ、これからいったいどうすれバ……。</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RINOK_000_465&lt;tab&gt;アタイはまだ諦めちゃいないよ……。
 あの兄貴が「異形の者」になったと決まったワケじゃナイ！
-ただ、そのときはアンタの手で必ず兄貴を……うう……。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_500&lt;tab&gt;バッガモナンが！？
+ただ、そのときはアンタの手で必ず兄貴を……うう……。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_JENOMISLEXENTALE_000_500&lt;tab&gt;バッガモナンが！？
 ……まさか、聖石ドゥマに取り込まれたとでもいうのか？
-そんな、まさか…………。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_050_000&lt;tab&gt;リドルアナ大灯台……文献で読んだことはあるのですが、
+そんな、まさか…………。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_050_000&lt;tab&gt;リドルアナ大灯台……文献で読んだことはあるのですが、
 見たことはもちろんありません。
-……イヴァリースとどんな関係があるのでしょう？</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_010_001&lt;tab&gt;ところで何か聞きたいことはございます？</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_070_000&lt;tab&gt;仕事を途中で放り投げて逃げ出したいこともありますよね。
-私には理解できませんが理解するふりはできます。</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_070_001&lt;tab&gt;ところで何か聞きたいことはございます？</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_080_000&lt;tab&gt;想定外といえば想定外の結果ではありますね。
+……イヴァリースとどんな関係があるのでしょう？</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_010_001&lt;tab&gt;ところで何か聞きたいことはございます？</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_070_000&lt;tab&gt;仕事を途中で放り投げて逃げ出したいこともありますよね。
+私には理解できませんが理解するふりはできます。</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_070_001&lt;tab&gt;ところで何か聞きたいことはございます？</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_080_000&lt;tab&gt;想定外といえば想定外の結果ではありますね。
 やはり持ち主の意志が強いほど……
-聖石との相性とでもいうべき仕組みがあるのでしょうね。</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_090_001&lt;tab&gt;ところで何か聞きたいことはございます？</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_STMBDI203_03091_Q3_000_000&lt;tab&gt;何を聞く？</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_STMBDI203_03091_A3_000_000&lt;tab&gt;聖石の仕組みについて</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_STMBDI203_03091_A3_000_001&lt;tab&gt;聖石オティスについて</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_STMBDI203_03091_A3_000_002&lt;tab&gt;聖石ドゥマについて</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_STMBDI203_03091_A3_000_003&lt;tab&gt;リドルアナ大灯台について</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_STMBDI203_03091_A3_000_100&lt;tab&gt;キャンセル</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_700&lt;tab&gt;あくまでも推測でしかありませんが、使用した者の意思を吸収し、
+聖石との相性とでもいうべき仕組みがあるのでしょうね。</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_090_001&lt;tab&gt;ところで何か聞きたいことはございます？</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_Q3_000_000&lt;tab&gt;何を聞く？</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A3_000_000&lt;tab&gt;聖石の仕組みについて</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A3_000_001&lt;tab&gt;聖石オティスについて</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A3_000_002&lt;tab&gt;聖石ドゥマについて</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A3_000_003&lt;tab&gt;リドルアナ大灯台について</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_A3_000_100&lt;tab&gt;キャンセル</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_700&lt;tab&gt;あくまでも推測でしかありませんが、使用した者の意思を吸収し、
 それを物理的に再現する能力があると考えられます。
-吸収されたエーテルが切れるまで繰り返し再生するようですね。</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_701&lt;tab&gt;イヴァリース史で「聖石」と呼ばれるこのクリスタルですが、
+吸収されたエーテルが切れるまで繰り返し再生するようですね。</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_701&lt;tab&gt;イヴァリース史で「聖石」と呼ばれるこのクリスタルですが、
 何者かが意思をもって人工的に創り出したモノと考えられます。
-誰が何のために創ったのか、それはまったくわかりません。</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_720&lt;tab&gt;聖石オティスの所有者はジェノミスさんということになりますが、
+誰が何のために創ったのか、それはまったくわかりません。</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_720&lt;tab&gt;聖石オティスの所有者はジェノミスさんということになりますが、
 調べたかぎり、そのオティスに特定波長、
-つまりジェノミスさんのエーテルが取り込まれた形跡はありません。</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_721&lt;tab&gt;つまり、空っぽの初期状態ということになります。
+つまりジェノミスさんのエーテルが取り込まれた形跡はありません。</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_721&lt;tab&gt;つまり、空っぽの初期状態ということになります。
 どうやったらエーテルを取り込ませることができるのか、
-いわばスイッチとしての機能が何かは不明です。</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_740&lt;tab&gt;聖石ドゥマには最後の所有者だったアルガス氏の「切なる願い」が、
+いわばスイッチとしての機能が何かは不明です。</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_740&lt;tab&gt;聖石ドゥマには最後の所有者だったアルガス氏の「切なる願い」が、
 取り込まれ、誰かがあの王都ルザリアの遺跡を訪れるたびに、
-その「切なる願い」が再生されていたようです。</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_741&lt;tab&gt;前回、ドゥマに取り込まれたアルガスのエーテルをすべて、
+その「切なる願い」が再生されていたようです。</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_741&lt;tab&gt;前回、ドゥマに取り込まれたアルガスのエーテルをすべて、
 &lt;var 08 E905 ((貴女)) ((貴方)) /var&gt;が発散させたことで、
-オティス同様に空っぽの初期状態に戻ったと推測されます。</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_760&lt;tab&gt;聖石ドゥマには最後の所有者だったアルガス氏の「切なる願い」が、
+オティス同様に空っぽの初期状態に戻ったと推測されます。</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_760&lt;tab&gt;聖石ドゥマには最後の所有者だったアルガス氏の「切なる願い」が、
 取り込まれ、誰かがあの王都ルザリアの遺跡を訪れるたびに、
-その「切なる願い」が再生されていたようです。</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_761&lt;tab&gt;前回、ドゥマに取り込まれたアルガスのエーテルをすべて、
+その「切なる願い」が再生されていたようです。</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_761&lt;tab&gt;前回、ドゥマに取り込まれたアルガスのエーテルをすべて、
 &lt;var 08 E905 ((貴女)) ((貴方)) /var&gt;が発散させたことで、
-オティス同様に空っぽの初期状態に戻ったと推測されます。</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_762&lt;tab&gt;ですが、聖石ドゥマに魅せられたバッガモナン氏は、
+オティス同様に空っぽの初期状態に戻ったと推測されます。</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_762&lt;tab&gt;ですが、聖石ドゥマに魅せられたバッガモナン氏は、
 結果としてドゥマに、
-その「切なる願い」ごと取り込まれてしまったようですね。</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_763&lt;tab&gt;ドゥマの波長と相性がよかったのか、
+その「切なる願い」ごと取り込まれてしまったようですね。</target>
+			</trans-unit>
+			<trans-unit id="145" approved="yes">
+				<source>145</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_763&lt;tab&gt;ドゥマの波長と相性がよかったのか、
 それともドゥマがバッガモナン氏に合わせたのか、
-そのメカニズムは不明ですが、やはり意志を感じます。</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_780&lt;tab&gt;ラバナスタから遥か南、バルナード海の海上に、
-地獄へ続くと言われている巨大な穴「リドルアナ」があります。</target></trans-unit><trans-unit id="147" approved="yes"><source>147</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_781&lt;tab&gt;周囲の海水は巨大な瀑布となって穴に流れ込んでおり、
-その海水がどうなるのかは誰も知りません。</target></trans-unit><trans-unit id="148" approved="yes"><source>148</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_782&lt;tab&gt;幾人もの勇気ある探検家が飛空艇を駆り、穴底を目指しましたが、
+そのメカニズムは不明ですが、やはり意志を感じます。</target>
+			</trans-unit>
+			<trans-unit id="146" approved="yes">
+				<source>146</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_780&lt;tab&gt;ラバナスタから遥か南、バルナード海の海上に、
+地獄へ続くと言われている巨大な穴「リドルアナ」があります。</target>
+			</trans-unit>
+			<trans-unit id="147" approved="yes">
+				<source>147</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_781&lt;tab&gt;周囲の海水は巨大な瀑布となって穴に流れ込んでおり、
+その海水がどうなるのかは誰も知りません。</target>
+			</trans-unit>
+			<trans-unit id="148" approved="yes">
+				<source>148</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_782&lt;tab&gt;幾人もの勇気ある探検家が飛空艇を駆り、穴底を目指しましたが、
 瀑布が起こす乱気流と、落下する大量の海水の「圧」により、
-またたくまに墜落、帰還したものは一人もいないそうです。</target></trans-unit><trans-unit id="149" approved="yes"><source>149</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_783&lt;tab&gt;この大穴の縁に小島があり、そこに大きな灯台が建設されました。
+またたくまに墜落、帰還したものは一人もいないそうです。</target>
+			</trans-unit>
+			<trans-unit id="149" approved="yes">
+				<source>149</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_783&lt;tab&gt;この大穴の縁に小島があり、そこに大きな灯台が建設されました。
 リドルアナ近海を航行する船舶が落ちないようにと、
-注意を促すために建設されたと伝えられています。</target></trans-unit><trans-unit id="150" approved="yes"><source>150</source><target state="final">TEXT_STMBDI203_03091_MIKOTO_000_784&lt;tab&gt;ただ、その大灯台を誰がいつ建てたのか、一切、不明です。
+注意を促すために建設されたと伝えられています。</target>
+			</trans-unit>
+			<trans-unit id="150" approved="yes">
+				<source>150</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MIKOTO_000_784&lt;tab&gt;ただ、その大灯台を誰がいつ建てたのか、一切、不明です。
 ダルマスカ王国が大灯台を管理・運営していましたが、
-建設自体ははるか昔だとか。</target></trans-unit><trans-unit id="151" approved="yes"><source>151</source><target state="final">TEXT_STMBDI203_03091_LINAMEWRILAH_200_000&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="152" approved="yes"><source>152</source><target state="final">TEXT_STMBDI203_03091_ALMALEXENTALE_200_010&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="153" approved="yes"><source>153</source><target state="final">TEXT_STMBDI203_03091_MONTBLANC_200_015&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="154" approved="yes"><source>154</source><target state="final">TEXT_STMBDI203_03091_HURDY_200_020&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="155" approved="yes"><source>155</source><target state="final">TEXT_STMBDI203_03091_BWAGI_200_025&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="156" approved="yes"><source>156</source><target state="final">TEXT_STMBDI203_03091_GIJUK_200_030&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="157" approved="yes"><source>157</source><target state="final">TEXT_STMBDI203_03091_RINOK_200_035&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit></body></file></xliff>
+建設自体ははるか昔だとか。</target>
+			</trans-unit>
+			<trans-unit id="151" approved="yes">
+				<source>151</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_LINAMEWRILAH_200_000&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="152" approved="yes">
+				<source>152</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_ALMALEXENTALE_200_010&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="153" approved="yes">
+				<source>153</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_MONTBLANC_200_015&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="154" approved="yes">
+				<source>154</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_HURDY_200_020&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="155" approved="yes">
+				<source>155</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_BWAGI_200_025&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="156" approved="yes">
+				<source>156</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_GIJUK_200_030&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="157" approved="yes">
+				<source>157</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDI203_03091_RINOK_200_035&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

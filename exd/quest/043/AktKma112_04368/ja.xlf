@@ -1,132 +1,630 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="AktKma112_04368" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_AKTKMA112_04368_SEQ_00&lt;tab&gt;メインホールのサンクレッドは、サベネア島に出発したいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_AKTKMA112_04368_SEQ_01&lt;tab&gt;サンクレッドたちとサベネア島を目指すことになった。オールド・シャーレアンの転送魔法研究所にいる「キット」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_AKTKMA112_04368_SEQ_02&lt;tab&gt;キットから新型エーテライトを紹介された。オールド・シャーレアンのエーテライト・プラザにある「&lt;var 28 ((EObj)) F61EB32B01 /var&gt;」で待機しよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_AKTKMA112_04368_SEQ_03&lt;tab&gt;キットの協力でサベネア島へ転送してもらった。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_AKTKMA112_04368_SEQ_04&lt;tab&gt;サベネア島に到着したが、酷いエーテル酔いに見舞われた……。イェドリマンで「エスティニアン」を探そう。
-ほかの地に移動してしまった場合は、オールド・シャーレアンの「キット」に話しかけることで、サベネア島へ転送してもらえるようだ。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_AKTKMA112_04368_SEQ_05&lt;tab&gt;今まさにぼったくられようとしているエスティニアンを見つけた。イェドリマンの「エスティニアン」に、エモート「否定する」をしよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_AKTKMA112_04368_SEQ_06&lt;tab&gt;エスティニアンは適正価格でラッシーを手に入れた！イェドリマンの「ウリエンジェ」に「&lt;var 28 ((EventItem)) F61E90EC01 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_AKTKMA112_04368_SEQ_07&lt;tab&gt;ウリエンジェは少し楽になったようだ。イェドリマンの「サンクレッド」に「&lt;var 28 ((EventItem)) F61E90EC01 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_AKTKMA112_04368_SEQ_08&lt;tab&gt;サンクレッドも回復したが、エスティニアンの財布は結局護れなかった。イェドリマンでは不正価格での取引が横行してしまっているようだ。仲間たちと、その背景を調べていこう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_AKTKMA112_04368_TODO_00&lt;tab&gt;転送魔法研究所のキットと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_AKTKMA112_04368_TODO_01&lt;tab&gt;&lt;var 28 ((EObj)) F61EB32B01 /var&gt;で待機</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_AKTKMA112_04368_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EB32B01 /var&gt;で待機</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_AKTKMA112_04368_TODO_03&lt;tab&gt;エスティニアンを探す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_AKTKMA112_04368_TODO_04&lt;tab&gt;エスティニアンに「否定する」をする</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_AKTKMA112_04368_TODO_05&lt;tab&gt;ウリエンジェに&lt;var 28 ((EventItem)) F61E90EC01 /var&gt;を渡す</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_AKTKMA112_04368_TODO_06&lt;tab&gt;サンクレッドに&lt;var 28 ((EventItem)) F61E90EC01 /var&gt;を渡す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_000&lt;tab&gt;ラザハンに係る本は読めど、当地を訪れるのは初めてのこと。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="AktKma112_04368" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_00&lt;tab&gt;メインホールのサンクレッドは、サベネア島に出発したいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_01&lt;tab&gt;サンクレッドたちとサベネア島を目指すことになった。オールド・シャーレアンの転送魔法研究所にいる「キット」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_02&lt;tab&gt;キットから新型エーテライトを紹介された。オールド・シャーレアンのエーテライト・プラザにある「&lt;var 28 ((EObj)) F61EB32B01 /var&gt;」で待機しよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_03&lt;tab&gt;キットの協力でサベネア島へ転送してもらった。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_04&lt;tab&gt;サベネア島に到着したが、酷いエーテル酔いに見舞われた……。イェドリマンで「エスティニアン」を探そう。
+ほかの地に移動してしまった場合は、オールド・シャーレアンの「キット」に話しかけることで、サベネア島へ転送してもらえるようだ。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_05&lt;tab&gt;今まさにぼったくられようとしているエスティニアンを見つけた。イェドリマンの「エスティニアン」に、エモート「否定する」をしよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_06&lt;tab&gt;エスティニアンは適正価格でラッシーを手に入れた！イェドリマンの「ウリエンジェ」に「&lt;var 28 ((EventItem)) F61E90EC01 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_07&lt;tab&gt;ウリエンジェは少し楽になったようだ。イェドリマンの「サンクレッド」に「&lt;var 28 ((EventItem)) F61E90EC01 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SEQ_08&lt;tab&gt;サンクレッドも回復したが、エスティニアンの財布は結局護れなかった。イェドリマンでは不正価格での取引が横行してしまっているようだ。仲間たちと、その背景を調べていこう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_TODO_00&lt;tab&gt;転送魔法研究所のキットと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_TODO_01&lt;tab&gt;&lt;var 28 ((EObj)) F61EB32B01 /var&gt;で待機</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EB32B01 /var&gt;で待機</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_TODO_03&lt;tab&gt;エスティニアンを探す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_TODO_04&lt;tab&gt;エスティニアンに「否定する」をする</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_TODO_05&lt;tab&gt;ウリエンジェに&lt;var 28 ((EventItem)) F61E90EC01 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_TODO_06&lt;tab&gt;サンクレッドに&lt;var 28 ((EventItem)) F61E90EC01 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_000&lt;tab&gt;ラザハンに係る本は読めど、当地を訪れるのは初めてのこと。
 いかにして終末の塔に抗わんとしているのか、
-学ばせていただきたく思います。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_005&lt;tab&gt;しかし、サベネア島か……。
-行くことがわかっていたら、もう少し装備を考えたんだがな。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_010&lt;tab&gt;クルルから、依頼内容を記した指示書を預かった。
-いつでもサベネア島に出発できるぞ。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_011&lt;tab&gt;俺はともかく、お前たちはどうやって行くつもりだ？
+学ばせていただきたく思います。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_005&lt;tab&gt;しかし、サベネア島か……。
+行くことがわかっていたら、もう少し装備を考えたんだがな。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_010&lt;tab&gt;クルルから、依頼内容を記した指示書を預かった。
+いつでもサベネア島に出発できるぞ。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_011&lt;tab&gt;俺はともかく、お前たちはどうやって行くつもりだ？
 ここからサベネア島まで船を使うとなると、
-相当な時間がかかると思うが……。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_012&lt;tab&gt;ああ、それについてもクルルから指示があってな。
+相当な時間がかかると思うが……。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_012&lt;tab&gt;ああ、それについてもクルルから指示があってな。
 「転送魔法研究所」の協力を取りつけてあるから、
-訪ねてみろ、とのことだ。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_013&lt;tab&gt;転送魔法研究所……ですか……。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_014&lt;tab&gt;まあ、お前にとっては、
-顔を出しにくい場所かもしれないがな。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_015&lt;tab&gt;……あなたは覚えておいででしょうか。
+訪ねてみろ、とのことだ。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_013&lt;tab&gt;転送魔法研究所……ですか……。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_014&lt;tab&gt;まあ、お前にとっては、
+顔を出しにくい場所かもしれないがな。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_015&lt;tab&gt;……あなたは覚えておいででしょうか。
 かつて、氷の巫女がスノークローク大氷壁から逃走する際に、
-転移先のエーテライトを止めることで、追手を阻んだことを。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_016&lt;tab&gt;その対策のために呼ばれたのが、ムーンブリダでした。
+転移先のエーテライトを止めることで、追手を阻んだことを。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_016&lt;tab&gt;その対策のために呼ばれたのが、ムーンブリダでした。
 彼女自身はエーテル学を専門としていましたが、
-知識を的確に転送網の再形成に活用してみせた……。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_017&lt;tab&gt;それには、相応の事情があったのです。
-彼女のご両親は、転送魔法研究所で働く研究者なのですから。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_018&lt;tab&gt;お前、こっちについてから、挨拶には行ったのか？</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_019&lt;tab&gt;さきほどの自由時間の際、伺おうと試みましたが……
-意気地のないことに、できませんでした。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_020&lt;tab&gt;ご両親には彼女の訃報に際して、手紙を送ったきり。
+知識を的確に転送網の再形成に活用してみせた……。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_017&lt;tab&gt;それには、相応の事情があったのです。
+彼女のご両親は、転送魔法研究所で働く研究者なのですから。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_018&lt;tab&gt;お前、こっちについてから、挨拶には行ったのか？</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_019&lt;tab&gt;さきほどの自由時間の際、伺おうと試みましたが……
+意気地のないことに、できませんでした。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_020&lt;tab&gt;ご両親には彼女の訃報に際して、手紙を送ったきり。
 折に触れて連絡をとろうとは考えましたが、
-いずれも果たせずに終わっています。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_021&lt;tab&gt;私はまだ、わからないのです。
+いずれも果たせずに終わっています。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_021&lt;tab&gt;私はまだ、わからないのです。
 何を伝えればいいのか……
-どんな言葉なら、この心を表せるのか……。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_022&lt;tab&gt;俺には、そのあたりの事情はわからん。
-行くか行かないかは自分で決めろ。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_023&lt;tab&gt;……無理なら、こっちでどうにかするだけだ。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_024&lt;tab&gt;お心づかいに感謝します。
+どんな言葉なら、この心を表せるのか……。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_022&lt;tab&gt;俺には、そのあたりの事情はわからん。
+行くか行かないかは自分で決めろ。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_023&lt;tab&gt;……無理なら、こっちでどうにかするだけだ。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_024&lt;tab&gt;お心づかいに感謝します。
 されど、ここに留まるつもりはございません。
-ともに転送魔法研究所へ参りましょう。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_025&lt;tab&gt;だったら出発だな。
+ともに転送魔法研究所へ参りましょう。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_025&lt;tab&gt;だったら出発だな。
 クルルから紹介されたのは「キット」という研究員だ。
-転送魔法研究所で、探してみるとしよう。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_030&lt;tab&gt;あれ……？
+転送魔法研究所で、探してみるとしよう。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_030&lt;tab&gt;あれ……？
 なんだか厳つい人がぞろぞろと……
-私、なんかしちゃったっけ？</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_031&lt;tab&gt;俺たちは、バルデシオン委員会のクルルの紹介で来た。
+私、なんかしちゃったっけ？</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_031&lt;tab&gt;俺たちは、バルデシオン委員会のクルルの紹介で来た。
 ここで、サベネア島までの移動手段を、
-提供してもらえると聞いたんだが？</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_032&lt;tab&gt;あー、はいはい！　実験台の人！
-いやぁ待ってたよ～！</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_033&lt;tab&gt;実験……台……？</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_034&lt;tab&gt;おや聞いてない？
-じゃあ、サクサクッと説明するね。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_035&lt;tab&gt;私たちが研究している転送魔法……
+提供してもらえると聞いたんだが？</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_032&lt;tab&gt;あー、はいはい！　実験台の人！
+いやぁ待ってたよ～！</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_033&lt;tab&gt;実験……台……？</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_034&lt;tab&gt;おや聞いてない？
+じゃあ、サクサクッと説明するね。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_035&lt;tab&gt;私たちが研究している転送魔法……
 ああ、自分を移動させるときは「転移魔法」とも言うけど、
-指してるものは同じだし、呼びやすい方で呼んでね。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_036&lt;tab&gt;ともかくそれらの魔法は、自身を一時的にエーテル化して、
+指してるものは同じだし、呼びやすい方で呼んでね。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_036&lt;tab&gt;ともかくそれらの魔法は、自身を一時的にエーテル化して、
 地脈や風脈といったエーテルの流れに乗せ、
-目印であるエーテライトまで運ぶって仕組みなのさ。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_037&lt;tab&gt;最初は怖いかもしれないけど、
-慣れちゃえば、こんなに便利な移動手段ってないよね！</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_038&lt;tab&gt;……けど、エーテライトを用いた転送魔法にも、
-ひとつだけ、解決できていなかった課題があるんだ。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_039&lt;tab&gt;ズバリ、原則として、
-一度交感したエーテライトにしか移動できない……ってこと！</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_040&lt;tab&gt;私たち、転送魔法の研究者たちは、
+目印であるエーテライトまで運ぶって仕組みなのさ。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_037&lt;tab&gt;最初は怖いかもしれないけど、
+慣れちゃえば、こんなに便利な移動手段ってないよね！</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_038&lt;tab&gt;……けど、エーテライトを用いた転送魔法にも、
+ひとつだけ、解決できていなかった課題があるんだ。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_039&lt;tab&gt;ズバリ、原則として、
+一度交感したエーテライトにしか移動できない……ってこと！</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_040&lt;tab&gt;私たち、転送魔法の研究者たちは、
 長年その課題の克服に心血を注いできた。
-より自由に、人や物が行き交う未来を目指してね。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_041&lt;tab&gt;……で、ついに完成したってわけ！
-事前の交感を必要としない、新型のエーテライトが！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_042&lt;tab&gt;それはすごいな……！
-かなり画期的な発明なんじゃないか？</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_043&lt;tab&gt;いやぁ、まだどこへでも行けるってわけじゃないんだけどね～。
+より自由に、人や物が行き交う未来を目指してね。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_041&lt;tab&gt;……で、ついに完成したってわけ！
+事前の交感を必要としない、新型のエーテライトが！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_042&lt;tab&gt;それはすごいな……！
+かなり画期的な発明なんじゃないか？</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_043&lt;tab&gt;いやぁ、まだどこへでも行けるってわけじゃないんだけどね～。
 製造過程で関連づけを済ませてる、
-新型エーテライト同士じゃないとダメなのさ。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_044&lt;tab&gt;新型は、1基がこの街のエーテライト・プラザに置かれてて、
+新型エーテライト同士じゃないとダメなのさ。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_044&lt;tab&gt;新型は、1基がこの街のエーテライト・プラザに置かれてて、
 もう1基が、サベネア島の「イェドリマン」って港町で、
-試運転をしてるところだよ。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_045&lt;tab&gt;開発にあたって、ラザハン錬金術師たちの力を借りたからね。
-あの国は、中立国で古くから親交もある友邦だし！</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_046&lt;tab&gt;なるほど、読めてきたぞ。
-俺たちはその新型を使わせてもらえるってわけだな。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_047&lt;tab&gt;だが、俺はちょっとした事故のせいで、
+試運転をしてるところだよ。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_045&lt;tab&gt;開発にあたって、ラザハン錬金術師たちの力を借りたからね。
+あの国は、中立国で古くから親交もある友邦だし！</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_046&lt;tab&gt;なるほど、読めてきたぞ。
+俺たちはその新型を使わせてもらえるってわけだな。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_047&lt;tab&gt;だが、俺はちょっとした事故のせいで、
 エーテルの制御がままならなくなっててな……
-正直、テレポすら怪しいところなんだ。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_048&lt;tab&gt;ああ、心配いらないよ。
+正直、テレポすら怪しいところなんだ。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_048&lt;tab&gt;ああ、心配いらないよ。
 新型エーテライト間の転移であれば、
-装置内に組み込まれた術式によって転移できるのさ！</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_049&lt;tab&gt;そいつは願ったり叶ったりだな。
+装置内に組み込まれた術式によって転移できるのさ！</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_049&lt;tab&gt;そいつは願ったり叶ったりだな。
 あとは、そんな大層な新発明を使う許可が、
-俺たちに出ればいいが……。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_050&lt;tab&gt;その点も心配なし！
+俺たちに出ればいいが……。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_050&lt;tab&gt;その点も心配なし！
 新型エーテライトの機能を使ってくれる人は、
-常に募集中だからね！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_051&lt;tab&gt;……ほら、転送魔法って、事故っちゃうと酷いでしょ？
-永久に地脈の中を彷徨うはめになったりさ。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_052&lt;tab&gt;だから、試してくれる人が少ないんだよね～！
+常に募集中だからね！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_051&lt;tab&gt;……ほら、転送魔法って、事故っちゃうと酷いでしょ？
+永久に地脈の中を彷徨うはめになったりさ。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_052&lt;tab&gt;だから、試してくれる人が少ないんだよね～！
 いやぁ、さすがバルデシオン委員会が紹介してくれた人たち！
-怖いもの知らずにグッドラック！</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_053&lt;tab&gt;……失礼、もうひとつだけ質問を。
+怖いもの知らずにグッドラック！</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_053&lt;tab&gt;……失礼、もうひとつだけ質問を。
 本日、こちらにウィルフスン氏かブローウィダ氏は、
-いらっしゃいますか？</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_054&lt;tab&gt;残念、あのご夫妻なら、うちの研究所を辞めちゃったんだ。
-優秀な人たちだったから、別のチームに引き抜かれたのさ。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_055&lt;tab&gt;噂によると、哲学者議会が直々に指揮をとってる、
+いらっしゃいますか？</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_054&lt;tab&gt;残念、あのご夫妻なら、うちの研究所を辞めちゃったんだ。
+優秀な人たちだったから、別のチームに引き抜かれたのさ。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_055&lt;tab&gt;噂によると、哲学者議会が直々に指揮をとってる、
 一大プロジェクトへの抜擢だとか……
-真偽のほどはわからないけどね！</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_056&lt;tab&gt;そう……でしたか……。
-ありがとうございます……。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_057&lt;tab&gt;ささ、気が変わらないうちに、サベネア島に行っちゃおう！
-出発の準備をして、エーテライト・プラザで待っててね。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_060&lt;tab&gt;出発の準備をして、エーテライト・プラザで待っててね。
+真偽のほどはわからないけどね！</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_056&lt;tab&gt;そう……でしたか……。
+ありがとうございます……。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_057&lt;tab&gt;ささ、気が変わらないうちに、サベネア島に行っちゃおう！
+出発の準備をして、エーテライト・プラザで待っててね。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_060&lt;tab&gt;出発の準備をして、エーテライト・プラザで待っててね。
 ちなみにあのエーテライトは、旧来の使い方もできるよ。
-そっちでもたくさん活用してほしいな！</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_065&lt;tab&gt;エンシェント・テレポ然り、
+そっちでもたくさん活用してほしいな！</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_065&lt;tab&gt;エンシェント・テレポ然り、
 転移魔法にはいい思い出がないんだが……
-クルルが推薦してくれたんだ、実績はあるんだろう。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_070&lt;tab&gt;気持ちを切り替え、サベネア島の調査に集中いたします。
+クルルが推薦してくれたんだ、実績はあるんだろう。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_070&lt;tab&gt;気持ちを切り替え、サベネア島の調査に集中いたします。
 かの地で塔に抗う人々を、
-少しでも助けられると良いのですが……。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_075&lt;tab&gt;言っておくが、俺は前にサベネア島に行ったとき、
+少しでも助けられると良いのですが……。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_075&lt;tab&gt;言っておくが、俺は前にサベネア島に行ったとき、
 エーテライトに交感しているからな。
-わざわざ実験に付き合ってやるつもりはないぞ。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_AKTKMA112_04368_KYTTE_000_080&lt;tab&gt;あれ、戻ってきちゃったの？
-もう一回、「サベネア島」に送ろうか？</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_AKTKMA112_04368_Q1_000_081&lt;tab&gt;「サベネア島」へ移動しますか？</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_AKTKMA112_04368_SYSTEM_000_090&lt;tab&gt;&lt;var 29 EB02 /var&gt;は、気合で立ち上がった。
+わざわざ実験に付き合ってやるつもりはないぞ。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_KYTTE_000_080&lt;tab&gt;あれ、戻ってきちゃったの？
+もう一回、「サベネア島」に送ろうか？</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_Q1_000_081&lt;tab&gt;「サベネア島」へ移動しますか？</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SYSTEM_000_090&lt;tab&gt;&lt;var 29 EB02 /var&gt;は、気合で立ち上がった。
 しかし、酷いエーテル酔いだ……！
-無事にエスティニアンのもとまで移動できるだろうか……。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_095&lt;tab&gt;さすが……「暁」の英雄……だな……。
-頼んだぞ……俺たちの……活動資金……を……ウッ……！</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_100&lt;tab&gt;……………………。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_110&lt;tab&gt;おい、何か飲み物を3つ頼む。
-酔いに効くようなヤツがいい。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_AKTKMA112_04368_MERCHANT04368_000_111&lt;tab&gt;ま、まさかあんた、外からのお客さんかね！</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_AKTKMA112_04368_MERCHANT04368_000_112&lt;tab&gt;いやぁ、この店を覗いてくれて正解だ！
+無事にエスティニアンのもとまで移動できるだろうか……。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_095&lt;tab&gt;さすが……「暁」の英雄……だな……。
+頼んだぞ……俺たちの……活動資金……を……ウッ……！</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_100&lt;tab&gt;……………………。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_110&lt;tab&gt;おい、何か飲み物を3つ頼む。
+酔いに効くようなヤツがいい。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_MERCHANT04368_000_111&lt;tab&gt;ま、まさかあんた、外からのお客さんかね！</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_MERCHANT04368_000_112&lt;tab&gt;いやぁ、この店を覗いてくれて正解だ！
 二日酔いも船酔いもシャキッと治る、
-「特製アームララッシー」があるんだよ！</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_AKTKMA112_04368_MERCHANT04368_000_113&lt;tab&gt;3つで、1万9800ギルだ！
-贅沢な材料を使ってるからね、これでも超お買い得ッ！</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_114&lt;tab&gt;ふむ……。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_AKTKMA112_04368_SYSTEM_000_115&lt;tab&gt;エスティニアンは、まんざらではない様子だ。
+「特製アームララッシー」があるんだよ！</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_MERCHANT04368_000_113&lt;tab&gt;3つで、1万9800ギルだ！
+贅沢な材料を使ってるからね、これでも超お買い得ッ！</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_114&lt;tab&gt;ふむ……。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SYSTEM_000_115&lt;tab&gt;エスティニアンは、まんざらではない様子だ。
 「それはどう考えても高い」と伝えたいが、
-口を開くと別のものが込み上げてくる……！</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_AKTKMA112_04368_SYSTEM_000_116&lt;tab&gt;身振りでエスティニアンを「否定」しよう……！</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_120&lt;tab&gt;1万ギル……まあ、そんなものか……？</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_AKTKMA112_04368_SYSTEM_000_121&lt;tab&gt;エスティニアンに「それはどう考えても高い」と伝えたいが、
+口を開くと別のものが込み上げてくる……！</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SYSTEM_000_116&lt;tab&gt;身振りでエスティニアンを「否定」しよう……！</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_120&lt;tab&gt;1万ギル……まあ、そんなものか……？</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SYSTEM_000_121&lt;tab&gt;エスティニアンに「それはどう考えても高い」と伝えたいが、
 口を開くと別のものが込み上げてくる……。
-身振りで彼を「否定」しよう……！</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_122&lt;tab&gt;ラッシーとやらの相場はよくわからんが、
-高級な材料を使ってるなら、こんなところか……。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_AKTKMA112_04368_SYSTEM_000_123&lt;tab&gt;ダメだ、まるで伝わっていない……！
-身振りでエスティニアンを「否定」しよう……！</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_124&lt;tab&gt;ん……？
+身振りで彼を「否定」しよう……！</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_122&lt;tab&gt;ラッシーとやらの相場はよくわからんが、
+高級な材料を使ってるなら、こんなところか……。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_SYSTEM_000_123&lt;tab&gt;ダメだ、まるで伝わっていない……！
+身振りでエスティニアンを「否定」しよう……！</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_124&lt;tab&gt;ん……？
 お前、休んでいなくてよかったのか？
-しかも何だ、そんな必死になって……。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_125&lt;tab&gt;……このラッシーを買うなとでも言いたげだな。
-もしや……割高……なのか？</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_AKTKMA112_04368_MERCHANT04368_000_126&lt;tab&gt;ギクゥッ！</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_AKTKMA112_04368_MERCHANT04368_000_127&lt;tab&gt;お、おおっといけない！
+しかも何だ、そんな必死になって……。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_125&lt;tab&gt;……このラッシーを買うなとでも言いたげだな。
+もしや……割高……なのか？</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_MERCHANT04368_000_126&lt;tab&gt;ギクゥッ！</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_MERCHANT04368_000_127&lt;tab&gt;お、おおっといけない！
 ほかの商品と値段を間違えてたみたいだ。
-特製アームララッシーは、3つで1980ギルさ！</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_128&lt;tab&gt;やれやれ、とんだうっかりだな。
-それじゃあ、1980ギルでもらっていくぞ。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_129&lt;tab&gt;このラッシーは、お前が持っていけ。
+特製アームララッシーは、3つで1980ギルさ！</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_128&lt;tab&gt;やれやれ、とんだうっかりだな。
+それじゃあ、1980ギルでもらっていくぞ。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_129&lt;tab&gt;このラッシーは、お前が持っていけ。
 ウリエンジェとサンクレッドにも渡して、
-3人で大人しく休んでいろよ。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_130&lt;tab&gt;俺は、街を一周してから戻る。
-……それじゃあ、またあとでな。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_135&lt;tab&gt;なにが「ちょーっと酔う」だ……。
+3人で大人しく休んでいろよ。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_130&lt;tab&gt;俺は、街を一周してから戻る。
+……それじゃあ、またあとでな。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_135&lt;tab&gt;なにが「ちょーっと酔う」だ……。
 お嬢さん方と……飲み明かした翌日だって……
-ここまでじゃなかったぞ……。</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_140&lt;tab&gt;……………………。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_141&lt;tab&gt;これ、は……。
-ああ……臓腑が洗われていくようです……。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_142&lt;tab&gt;助かりました……。
+ここまでじゃなかったぞ……。</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_140&lt;tab&gt;……………………。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_141&lt;tab&gt;これ、は……。
+ああ……臓腑が洗われていくようです……。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_142&lt;tab&gt;助かりました……。
 あなたとエスティニアン……
-そして南国の果実に……感謝を……。</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_145&lt;tab&gt;このように恐ろしい体験をしたのは初めてです……。
-新型エーテライト……兵器としての活用も考えられている……？</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_150&lt;tab&gt;ああ……護って、くれたんだな……俺たちの活動費を……。
-これで、タタルにも叱られずに…………ウグッ。</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_151&lt;tab&gt;ありがとな……。
+そして南国の果実に……感謝を……。</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_145&lt;tab&gt;このように恐ろしい体験をしたのは初めてです……。
+新型エーテライト……兵器としての活用も考えられている……？</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_150&lt;tab&gt;ああ……護って、くれたんだな……俺たちの活動費を……。
+これで、タタルにも叱られずに…………ウグッ。</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_151&lt;tab&gt;ありがとな……。
 お前も、楽にして自分の分を飲め……。
-本当に……よくがんばったな……。</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_152&lt;tab&gt;よし……おかげさまで、どうにかこうにか動けそうだ。
-効いたな、あのラッシー。</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_153&lt;tab&gt;ちょうどいい頃合いだったみたいだな。</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_154&lt;tab&gt;おや、その髪は……。</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_155&lt;tab&gt;ああ、結った。
+本当に……よくがんばったな……。</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_152&lt;tab&gt;よし……おかげさまで、どうにかこうにか動けそうだ。
+効いたな、あのラッシー。</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_153&lt;tab&gt;ちょうどいい頃合いだったみたいだな。</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_154&lt;tab&gt;おや、その髪は……。</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_155&lt;tab&gt;ああ、結った。
 塔がある手前、鎧を脱ぐわけにもいかないが、
-この島は暑いからな……。</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_156&lt;tab&gt;……一応聞いておきたいんだが、その髪紐はどうしたんだ？</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_157&lt;tab&gt;この街を見回りがてら買った。
-丈夫なサベネア織で、簡単にはほつれないそうだ。</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_158&lt;tab&gt;…………いくらでだ？</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_AKTKMA112_04368_ESTINIEN_000_159&lt;tab&gt;確か……9400ギルくらいだったか。
+この島は暑いからな……。</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_156&lt;tab&gt;……一応聞いておきたいんだが、その髪紐はどうしたんだ？</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_157&lt;tab&gt;この街を見回りがてら買った。
+丈夫なサベネア織で、簡単にはほつれないそうだ。</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_158&lt;tab&gt;…………いくらでだ？</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_ESTINIEN_000_159&lt;tab&gt;確か……9400ギルくらいだったか。
 洒落こむわけでもなし、頑丈ならどんな紐でもいいからな。
-サベネア織にしては特価だと言われたものを選んだぞ。</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_160&lt;tab&gt;すごいな……タタルどころか、アルフィノが先生になれそうだ。</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_AKTKMA112_04368_Q2_000_161&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_AKTKMA112_04368_A2_000_162&lt;tab&gt;どの店も、ぼったくりすぎでは……？</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_AKTKMA112_04368_A2_000_163&lt;tab&gt;ラザハン商人は、みんなこうなのか……？</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_AKTKMA112_04368_A2_000_164&lt;tab&gt;元蒼の竜騎士、チョロすぎでは……？</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_165&lt;tab&gt;ええ、私もそのように感じました。
-しかし、これが常というわけではないでしょう……。</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_166&lt;tab&gt;それはどうでしょうか……。
-むしろ、今の状況が異常事態なのかもしれません。</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_167&lt;tab&gt;それについては、回答いたしかねますが……
+サベネア織にしては特価だと言われたものを選んだぞ。</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_160&lt;tab&gt;すごいな……タタルどころか、アルフィノが先生になれそうだ。</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_Q2_000_161&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_A2_000_162&lt;tab&gt;どの店も、ぼったくりすぎでは……？</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_A2_000_163&lt;tab&gt;ラザハン商人は、みんなこうなのか……？</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_A2_000_164&lt;tab&gt;元蒼の竜騎士、チョロすぎでは……？</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_165&lt;tab&gt;ええ、私もそのように感じました。
+しかし、これが常というわけではないでしょう……。</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_166&lt;tab&gt;それはどうでしょうか……。
+むしろ、今の状況が異常事態なのかもしれません。</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_167&lt;tab&gt;それについては、回答いたしかねますが……
 前提として、これほど横暴な取引が蔓延していること自体が、
-異常なのではないでしょうか。</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_168&lt;tab&gt;そも、サベネア島を領有するラザハンは、
-非常に長い歴史を持つ国です。</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_169&lt;tab&gt;島の先住民にあたるのは、
-マタンガの一派「アルカソーダラ族」だといいます。</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_170&lt;tab&gt;彼らが築いてきた文化に、
+異常なのではないでしょうか。</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_168&lt;tab&gt;そも、サベネア島を領有するラザハンは、
+非常に長い歴史を持つ国です。</target>
+			</trans-unit>
+			<trans-unit id="145" approved="yes">
+				<source>145</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_169&lt;tab&gt;島の先住民にあたるのは、
+マタンガの一派「アルカソーダラ族」だといいます。</target>
+			</trans-unit>
+			<trans-unit id="146" approved="yes">
+				<source>146</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_170&lt;tab&gt;彼らが築いてきた文化に、
 後に流入してきた異民族の文化が溶け合って、
-独自の様式を形成している……。</target></trans-unit><trans-unit id="147" approved="yes"><source>147</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_171&lt;tab&gt;そこから生み出される工芸品、こと織物については、
-諸外国でも大変な人気を誇るといいます。</target></trans-unit><trans-unit id="148" approved="yes"><source>148</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_172&lt;tab&gt;加えて、洋の東西を結ぶこの立地……
+独自の様式を形成している……。</target>
+			</trans-unit>
+			<trans-unit id="147" approved="yes">
+				<source>147</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_171&lt;tab&gt;そこから生み出される工芸品、こと織物については、
+諸外国でも大変な人気を誇るといいます。</target>
+			</trans-unit>
+			<trans-unit id="148" approved="yes">
+				<source>148</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_172&lt;tab&gt;加えて、洋の東西を結ぶこの立地……
 ゆえにこそ、ラザハンは古くから、
-交易大国として栄えてきました。</target></trans-unit><trans-unit id="149" approved="yes"><source>149</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_173&lt;tab&gt;とすると、国の玄関口でもある港町で、
+交易大国として栄えてきました。</target>
+			</trans-unit>
+			<trans-unit id="149" approved="yes">
+				<source>149</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_173&lt;tab&gt;とすると、国の玄関口でもある港町で、
 不正価格での取引が横行しているってのは、
-体面上よろしくないだろうな……。</target></trans-unit><trans-unit id="150" approved="yes"><source>150</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_174&lt;tab&gt;不正を取り締まれないほど、国が麻痺しているか……
-あるいは、そうせざるを得ないほど、人々が困窮しているか。</target></trans-unit><trans-unit id="151" approved="yes"><source>151</source><target state="final">TEXT_AKTKMA112_04368_URIANGER_000_175&lt;tab&gt;いずれにせよ、この島で活動をするにあたって、
+体面上よろしくないだろうな……。</target>
+			</trans-unit>
+			<trans-unit id="150" approved="yes">
+				<source>150</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_174&lt;tab&gt;不正を取り締まれないほど、国が麻痺しているか……
+あるいは、そうせざるを得ないほど、人々が困窮しているか。</target>
+			</trans-unit>
+			<trans-unit id="151" approved="yes">
+				<source>151</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_URIANGER_000_175&lt;tab&gt;いずれにせよ、この島で活動をするにあたって、
 実情を知っておくべきかもしれません。
-塔の出現による弊害……という線もありましょう。</target></trans-unit><trans-unit id="152" approved="yes"><source>152</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_176&lt;tab&gt;俺としては、ウリエンジェの意見に賛成だ。</target></trans-unit><trans-unit id="153" approved="yes"><source>153</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_177&lt;tab&gt;クルルに手紙を寄越した依頼人がいるのは、
+塔の出現による弊害……という線もありましょう。</target>
+			</trans-unit>
+			<trans-unit id="152" approved="yes">
+				<source>152</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_176&lt;tab&gt;俺としては、ウリエンジェの意見に賛成だ。</target>
+			</trans-unit>
+			<trans-unit id="153" approved="yes">
+				<source>153</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_177&lt;tab&gt;クルルに手紙を寄越した依頼人がいるのは、
 さらに先にある集落らしいんだが、
-一旦この街で情報収集をしていかないか？</target></trans-unit><trans-unit id="154" approved="yes"><source>154</source><target state="final">TEXT_AKTKMA112_04368_THANCRED_000_178&lt;tab&gt;よし、名誉挽回といこう。
-情けない姿を晒した分、ここからきっちりキメてくぞ。</target></trans-unit></body></file></xliff>
+一旦この街で情報収集をしていかないか？</target>
+			</trans-unit>
+			<trans-unit id="154" approved="yes">
+				<source>154</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKMA112_04368_THANCRED_000_178&lt;tab&gt;よし、名誉挽回といこう。
+情けない姿を晒した分、ここからきっちりキメてくぞ。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

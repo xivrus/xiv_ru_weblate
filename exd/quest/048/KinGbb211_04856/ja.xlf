@@ -1,78 +1,388 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="KinGbb211_04856" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_KINGBB211_04856_SEQ_00&lt;tab&gt;名士区前のクポポは、冒険者に風格を感じているようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_KINGBB211_04856_SEQ_01&lt;tab&gt;クポポの友だちとは、絵画魔法の使い手であるベルルという少女らしい。ベルルの情報を得るため、クポポと彼女が旅した道筋を辿ることになった。クルザス中央高地のキャンプ・ドラゴンヘッドにいる「クポポ」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_KINGBB211_04856_SEQ_02&lt;tab&gt;困り果てた道士と再会した。彼は会談のためにやってきたが、会談相手が怪我を負ってしまい、それによる毒気を浄化しきれず困っていたようだ。治療には&lt;var 28 ((EventItem)) F61E922B01 /var&gt;が必要らしいので、冒険者が採ってくることになった。まずはキャンプ・ドラゴンヘッドでハーテビーストの情報を集めよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_KINGBB211_04856_SEQ_03&lt;tab&gt;ハーテビーストがスチールヴィジル付近で目撃されたようだ。クルザス中央高地のスチールヴィジル付近にある「&lt;var 28 ((EObj)) F61EBA2B01 /var&gt;」で見渡し、ハーテビーストを探そう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_KINGBB211_04856_SEQ_04&lt;tab&gt;ハーテビーストを発見した。クルザス中央高地の聖ダナフェンの落涙前にいる「&lt;var 28 ((BNpcName)) F2349E01 /var&gt;」を討伐して「&lt;var 28 ((EventItem)) F61E922B01 /var&gt;」を入手しよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_KINGBB211_04856_SEQ_05&lt;tab&gt;&lt;var 28 ((EventItem)) F61E922B01 /var&gt;を入手した。キャンプ・ドラゴンヘッドの「困り果てた道士」に「&lt;var 28 ((EventItem)) F61E922B01 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_KINGBB211_04856_SEQ_06&lt;tab&gt;&lt;var 28 ((EventItem)) F61E922B01 /var&gt;を渡すと、困り果てた道士は治療に向かった。それを見たクポポは、旅先で人助けすることこそピクトマンサーの生き様だと言う。再度クポポがベルルの情報を集めている間、さらに旅を続けてピクトマンサーとして成長しておこう。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="KinGbb211_04856" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SEQ_00&lt;tab&gt;名士区前のクポポは、冒険者に風格を感じているようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SEQ_01&lt;tab&gt;クポポの友だちとは、絵画魔法の使い手であるベルルという少女らしい。ベルルの情報を得るため、クポポと彼女が旅した道筋を辿ることになった。クルザス中央高地のキャンプ・ドラゴンヘッドにいる「クポポ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SEQ_02&lt;tab&gt;困り果てた道士と再会した。彼は会談のためにやってきたが、会談相手が怪我を負ってしまい、それによる毒気を浄化しきれず困っていたようだ。治療には&lt;var 28 ((EventItem)) F61E922B01 /var&gt;が必要らしいので、冒険者が採ってくることになった。まずはキャンプ・ドラゴンヘッドでハーテビーストの情報を集めよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SEQ_03&lt;tab&gt;ハーテビーストがスチールヴィジル付近で目撃されたようだ。クルザス中央高地のスチールヴィジル付近にある「&lt;var 28 ((EObj)) F61EBA2B01 /var&gt;」で見渡し、ハーテビーストを探そう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SEQ_04&lt;tab&gt;ハーテビーストを発見した。クルザス中央高地の聖ダナフェンの落涙前にいる「&lt;var 28 ((BNpcName)) F2349E01 /var&gt;」を討伐して「&lt;var 28 ((EventItem)) F61E922B01 /var&gt;」を入手しよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SEQ_05&lt;tab&gt;&lt;var 28 ((EventItem)) F61E922B01 /var&gt;を入手した。キャンプ・ドラゴンヘッドの「困り果てた道士」に「&lt;var 28 ((EventItem)) F61E922B01 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SEQ_06&lt;tab&gt;&lt;var 28 ((EventItem)) F61E922B01 /var&gt;を渡すと、困り果てた道士は治療に向かった。それを見たクポポは、旅先で人助けすることこそピクトマンサーの生き様だと言う。再度クポポがベルルの情報を集めている間、さらに旅を続けてピクトマンサーとして成長しておこう。
 
-※ピクトマンサーのレベルが85以上になると、キャンプ・ドラゴンヘッドのクポポから次のピクトマンサークエストを受注することができます。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_KINGBB211_04856_TODO_00&lt;tab&gt;キャンプ・ドラゴンヘッドのクポポと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_KINGBB211_04856_TODO_01&lt;tab&gt;警戒中の騎兵と話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_KINGBB211_04856_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EBA2B01 /var&gt;で見渡す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_KINGBB211_04856_TODO_03&lt;tab&gt;&lt;var 28 ((BNpcName)) F2349E01 /var&gt;を討伐し、
-&lt;var 28 ((EventItem)) F61E922B01 /var&gt;を入手</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_KINGBB211_04856_TODO_04&lt;tab&gt;困り果てた道士に&lt;var 28 ((EventItem)) F61E922B01 /var&gt;を渡す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_KINGBB211_04856_SYSTEM_100_001&lt;tab&gt;本クエストを進行するためには、
+※ピクトマンサーのレベルが85以上になると、キャンプ・ドラゴンヘッドのクポポから次のピクトマンサークエストを受注することができます。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_TODO_00&lt;tab&gt;キャンプ・ドラゴンヘッドのクポポと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_TODO_01&lt;tab&gt;警戒中の騎兵と話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_TODO_02&lt;tab&gt;&lt;var 28 ((EObj)) F61EBA2B01 /var&gt;で見渡す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_TODO_03&lt;tab&gt;&lt;var 28 ((BNpcName)) F2349E01 /var&gt;を討伐し、
+&lt;var 28 ((EventItem)) F61E922B01 /var&gt;を入手</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_TODO_04&lt;tab&gt;困り果てた道士に&lt;var 28 ((EventItem)) F61E922B01 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SYSTEM_100_001&lt;tab&gt;本クエストを進行するためには、
 「メインクエスト：蒼天のイシュガルド」の、
-「蒼天のイシュガルド」を完了する必要があります。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_001&lt;tab&gt;むむむ……&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、
-さては、はりきって修行してきたクポね？</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_002&lt;tab&gt;モグにはわかるクポ。
+「蒼天のイシュガルド」を完了する必要があります。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_001&lt;tab&gt;むむむ……&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、
+さては、はりきって修行してきたクポね？</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_002&lt;tab&gt;モグにはわかるクポ。
 キミの佇まいから、熟練のピクトマンサー特有の風格が、
-ポワポワと漏れ伝わってきているクポ……！</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_003&lt;tab&gt;何を隠そう、このクポポ……
-ふたりのピクトマンサーといっしょに旅をしていたクポ！</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_004&lt;tab&gt;ひとりは、キミに託したソウルクリスタルの元の持ち主、
-エレゼン族の偉大なピクトマンサー、ジャンクティラク様！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_005&lt;tab&gt;もうひとりが彼の弟子、ベルル！
+ポワポワと漏れ伝わってきているクポ……！</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_003&lt;tab&gt;何を隠そう、このクポポ……
+ふたりのピクトマンサーといっしょに旅をしていたクポ！</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_004&lt;tab&gt;ひとりは、キミに託したソウルクリスタルの元の持ち主、
+エレゼン族の偉大なピクトマンサー、ジャンクティラク様！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_005&lt;tab&gt;もうひとりが彼の弟子、ベルル！
 弱冠、16歳にして絵画魔法を極めた天才少女クポ！
-行方知れずになってるモグの友だちというのは、この子クポ！</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_KINGBB211_04856_Q1_000_000&lt;tab&gt;何と答える？</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_KINGBB211_04856_A1_000_001&lt;tab&gt;ソウルクリスタルの元の持ち主に会ってみたい</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_KINGBB211_04856_A1_000_002&lt;tab&gt;16歳の少女が行方不明なのは、かなりマズいのでは？</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_007&lt;tab&gt;……残念だけど、それは無理クポ。
-ジャンクティラク様は、すでにお亡くなりになっているクポ……。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_008&lt;tab&gt;だからこそベルルは、
+行方知れずになってるモグの友だちというのは、この子クポ！</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_Q1_000_000&lt;tab&gt;何と答える？</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_A1_000_001&lt;tab&gt;ソウルクリスタルの元の持ち主に会ってみたい</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_A1_000_002&lt;tab&gt;16歳の少女が行方不明なのは、かなりマズいのでは？</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_007&lt;tab&gt;……残念だけど、それは無理クポ。
+ジャンクティラク様は、すでにお亡くなりになっているクポ……。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_008&lt;tab&gt;だからこそベルルは、
 家族同然だった師を喪って、孤独を感じているはず……。
-どうにか見つけ出して、仲直りしたいクポ。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_009&lt;tab&gt;ベルルは、ちょっとした殺人鬼くらいなら、
+どうにか見つけ出して、仲直りしたいクポ。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_009&lt;tab&gt;ベルルは、ちょっとした殺人鬼くらいなら、
 片手でひねることができるほど、強い絵画魔法の使い手クポ。
-だから、危険な目に遭うとは心配してないけど……</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_010&lt;tab&gt;いまの彼女は、
+だから、危険な目に遭うとは心配してないけど……</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_010&lt;tab&gt;いまの彼女は、
 家族同然だった師を喪って、孤独を感じているはず……。
-どうにか見つけ出して、仲直りしたいクポ。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_011&lt;tab&gt;ただ、今のところ、
-ベルルの行方に繋がる情報は入ってきてないクポ……。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_012&lt;tab&gt;だから、彼女たちといっしょに旅した道筋を辿りながら、
-目撃した人がいないか探しつつ、人助けをしていこうと思うクポ！</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_013&lt;tab&gt;ありがとクポ！
+どうにか見つけ出して、仲直りしたいクポ。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_011&lt;tab&gt;ただ、今のところ、
+ベルルの行方に繋がる情報は入ってきてないクポ……。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_012&lt;tab&gt;だから、彼女たちといっしょに旅した道筋を辿りながら、
+目撃した人がいないか探しつつ、人助けをしていこうと思うクポ！</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_013&lt;tab&gt;ありがとクポ！
 それじゃあ、まずはジャンクティラク様の出身地であり、
-旅の始まりの地でもある、クルザスに向かってみるクポ！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_014&lt;tab&gt;目的地はクルザス中央高地、
-「キャンプ・ドラゴンヘッド」クポ～！</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_020&lt;tab&gt;さささささ、さむいクポ……。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_021&lt;tab&gt;ベルルやジャンクティラク様と訪れたときも、
-とっても寒かったのを思い出したクポ。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_022&lt;tab&gt;あのときは、ベルルが初めて見る雪に大はしゃぎしたっけ。
+旅の始まりの地でもある、クルザスに向かってみるクポ！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_014&lt;tab&gt;目的地はクルザス中央高地、
+「キャンプ・ドラゴンヘッド」クポ～！</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_020&lt;tab&gt;さささささ、さむいクポ……。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_021&lt;tab&gt;ベルルやジャンクティラク様と訪れたときも、
+とっても寒かったのを思い出したクポ。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_022&lt;tab&gt;あのときは、ベルルが初めて見る雪に大はしゃぎしたっけ。
 ものすごい勢いで、雪玉を投げてきて、
-そりゃもう、モグは……</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_023&lt;tab&gt;(-？？？？-)困った、困った……。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_024&lt;tab&gt;そうそう、困った、困ったクポ……。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_025&lt;tab&gt;って、グリダニアの道士さん！？
-なんでここで、なんでまた困り果てているクポ～？</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_026&lt;tab&gt;おや、貴方たちは……これまた奇遇ですね。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_027&lt;tab&gt;実は、グリダニアを代表する使者として、
+そりゃもう、モグは……</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_023&lt;tab&gt;(-？？？？-)困った、困った……。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_024&lt;tab&gt;そうそう、困った、困ったクポ……。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_025&lt;tab&gt;って、グリダニアの道士さん！？
+なんでここで、なんでまた困り果てているクポ～？</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_026&lt;tab&gt;おや、貴方たちは……これまた奇遇ですね。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_027&lt;tab&gt;実は、グリダニアを代表する使者として、
 イシュガルドの国境警備を司る、この拠点を訪れたのですが……
-会談予定だった騎士殿が、訓練中に負傷されたそうでしてね。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_028&lt;tab&gt;私も幻術士として、治癒魔法の心得がありますので、
-状態を診させていただいたのですが、予後が芳しくないのです。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_029&lt;tab&gt;そんなに傷が深かったクポ？</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_030&lt;tab&gt;いえ、怪我の程度は軽かったのですが、
+会談予定だった騎士殿が、訓練中に負傷されたそうでしてね。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_028&lt;tab&gt;私も幻術士として、治癒魔法の心得がありますので、
+状態を診させていただいたのですが、予後が芳しくないのです。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_029&lt;tab&gt;そんなに傷が深かったクポ？</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_030&lt;tab&gt;いえ、怪我の程度は軽かったのですが、
 傷口から毒気が入ったようで、高熱に苦しまれているのです。
-もちろん魔法で浄化を試みましたが、効果には限度がありましてね。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_031&lt;tab&gt;ハーテビーストという珍しい魔物の角さえあれば、
+もちろん魔法で浄化を試みましたが、効果には限度がありましてね。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_031&lt;tab&gt;ハーテビーストという珍しい魔物の角さえあれば、
 効果的な解毒薬を作ることもできるのですが、
-私には、狩りの心得がなく……。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_032&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、出番クポ！
+私には、狩りの心得がなく……。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_032&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、出番クポ！
 ピクトマンサーの絵画魔法なら魔物くらいイチコロ！
-道士さんの困りごとを、パパッと解決できるクポ～！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_033&lt;tab&gt;なんと、またもや助けていただけると？</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_034&lt;tab&gt;でしたら……あちらにおられる騎兵のみなさんに、
+道士さんの困りごとを、パパッと解決できるクポ～！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_033&lt;tab&gt;なんと、またもや助けていただけると？</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_034&lt;tab&gt;でしたら……あちらにおられる騎兵のみなさんに、
 ハーテビーストが近くで目撃されていないか、尋ねてみてください。
-珍しい魔物ですが、地元の方ならご存知かもしれませんので。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_035&lt;tab&gt;クポポ～！
+珍しい魔物ですが、地元の方ならご存知かもしれませんので。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_035&lt;tab&gt;クポポ～！
 お熱に苦しむ騎士さんを助けるため、
-「&lt;var 28 ((EventItem)) F61E922B01 /var&gt;」を手に入れるクポ～！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_040&lt;tab&gt;ハーテビーストは、警戒心が強く頻繁に移動を繰り返します。
+「&lt;var 28 ((EventItem)) F61E922B01 /var&gt;」を手に入れるクポ～！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_040&lt;tab&gt;ハーテビーストは、警戒心が強く頻繁に移動を繰り返します。
 ですが、定期的に地域を巡回している騎兵たちなら、
-あるいは居所を知っているかもしれません。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_045&lt;tab&gt;旅先で出会った人を助ける……
-これぞ、ピクトマンサーの真骨頂クポ！</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_KINGBB211_04856_SQUIRE04856_000_050&lt;tab&gt;おや、貴殿は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……！
-私になにかご用でしょうか？</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_KINGBB211_04856_SQUIRE04856_000_051&lt;tab&gt;ほう、ハーテビーストを探しておられると……。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_KINGBB211_04856_SQUIRE04856_000_052&lt;tab&gt;あの魔物は、滅多に姿を現さないのですが、
+あるいは居所を知っているかもしれません。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_045&lt;tab&gt;旅先で出会った人を助ける……
+これぞ、ピクトマンサーの真骨頂クポ！</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SQUIRE04856_000_050&lt;tab&gt;おや、貴殿は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……！
+私になにかご用でしょうか？</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SQUIRE04856_000_051&lt;tab&gt;ほう、ハーテビーストを探しておられると……。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SQUIRE04856_000_052&lt;tab&gt;あの魔物は、滅多に姿を現さないのですが、
 仲間が「スチールヴィジル」周辺で見たと言っていたような……。
-昨日のことですので、まだ近くにいるかもしれませんよ。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_KINGBB211_04856_SQUIRE04856_000_055&lt;tab&gt;あの魔物は、滅多に姿を現さないのですが、
+昨日のことですので、まだ近くにいるかもしれませんよ。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SQUIRE04856_000_055&lt;tab&gt;あの魔物は、滅多に姿を現さないのですが、
 仲間が「スチールヴィジル」周辺で見たと言っていたような……。
-昨日のことですので、まだ近くにいるかもしれませんよ。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_KINGBB211_04856_SYSTEM_000_060&lt;tab&gt;聖ダナフェンの落涙の方に魔物らしき姿が見えた！
-ハーテビーストかもしれないので、確認しに行こう。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_KINGBB211_04856_SYSTEM_000_061&lt;tab&gt;あたりにハーテビーストらしき姿はない。
-別の場所で見渡してみよう。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_080&lt;tab&gt;お戻りになったのですね！
-もしや、手にしているものは……！</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_081&lt;tab&gt;おお、これはまさしく「&lt;var 28 ((EventItem)) F61E922B01 /var&gt;」！
-本当にありがとうございます。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_KINGBB211_04856_CONJURER04854_000_082&lt;tab&gt;さっそくですが、薬茶を煎じて、
+昨日のことですので、まだ近くにいるかもしれませんよ。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SYSTEM_000_060&lt;tab&gt;聖ダナフェンの落涙の方に魔物らしき姿が見えた！
+ハーテビーストかもしれないので、確認しに行こう。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_SYSTEM_000_061&lt;tab&gt;あたりにハーテビーストらしき姿はない。
+別の場所で見渡してみよう。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_080&lt;tab&gt;お戻りになったのですね！
+もしや、手にしているものは……！</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_081&lt;tab&gt;おお、これはまさしく「&lt;var 28 ((EventItem)) F61E922B01 /var&gt;」！
+本当にありがとうございます。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_CONJURER04854_000_082&lt;tab&gt;さっそくですが、薬茶を煎じて、
 高熱に苦しむ騎士殿に届けたいと思います。
-それでは失礼……！</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_083&lt;tab&gt;クポポ～！
-到着して早々に人助けをするとは、さすがクポ！</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_084&lt;tab&gt;助ける相手が、また同じ人になるとは想定外、
+それでは失礼……！</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_083&lt;tab&gt;クポポ～！
+到着して早々に人助けをするとは、さすがクポ！</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_084&lt;tab&gt;助ける相手が、また同じ人になるとは想定外、
 でもでも、二度目の一期一会があっても問題ナシ！
-これぞ旅先で人助けをするピクトマンサーの生き様クポ～！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_KINGBB211_04856_Q2_000_000&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_KINGBB211_04856_A2_000_001&lt;tab&gt;なぜ旅にこだわる？</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_KINGBB211_04856_A2_000_002&lt;tab&gt;なぜ人助けにこだわる？</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_086&lt;tab&gt;これは前回も少し触れたことだけど、
+これぞ旅先で人助けをするピクトマンサーの生き様クポ～！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_Q2_000_000&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_A2_000_001&lt;tab&gt;なぜ旅にこだわる？</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_A2_000_002&lt;tab&gt;なぜ人助けにこだわる？</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_086&lt;tab&gt;これは前回も少し触れたことだけど、
 旅先で未知なるものと出会ったときの刺激が、
-想像力を広げて、絵画魔法をより強く輝かせるクポ！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_087&lt;tab&gt;ひとところに留まって、
+想像力を広げて、絵画魔法をより強く輝かせるクポ！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_087&lt;tab&gt;ひとところに留まって、
 同じ日々を繰り返すだけではピクトマンサーとしての感性は、
-磨くことができないクポ～！</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_088&lt;tab&gt;キャンバスに描かれる絵画とは違って、
+磨くことができないクポ～！</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_088&lt;tab&gt;キャンバスに描かれる絵画とは違って、
 絵画魔法の輝きは瞬間的で、形としては残らないものクポ。
-でも、困難な運命を塗り替える力があるクポ！</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_089&lt;tab&gt;芸術としての絵画が、人の心を揺さぶるように、
+でも、困難な運命を塗り替える力があるクポ！</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_089&lt;tab&gt;芸術としての絵画が、人の心を揺さぶるように、
 魔法としての絵画もまた、人にとって助けとなるように……。
-それが、開祖リルムの願いでもあるクポ～！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_090&lt;tab&gt;ところで、キミはイシュガルドは初めてじゃないクポね？
-初めて訪れたときの思い出や、強く焼き付いている感情はあるクポ？</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_KINGBB211_04856_Q3_000_000&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_KINGBB211_04856_A3_000_001&lt;tab&gt;逃げ延びた先での優しさが心に染みた</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_KINGBB211_04856_A3_000_002&lt;tab&gt;千年続く戦いに心を揺さぶられた</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_KINGBB211_04856_A3_000_003&lt;tab&gt;友を喪った悲しみを忘れない</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_092&lt;tab&gt;キミの旅は、とっても過酷だったクポね。
-モグには想像もできないくらいに……。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_093&lt;tab&gt;でも、だからこそ、
+それが、開祖リルムの願いでもあるクポ～！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_090&lt;tab&gt;ところで、キミはイシュガルドは初めてじゃないクポね？
+初めて訪れたときの思い出や、強く焼き付いている感情はあるクポ？</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_Q3_000_000&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_A3_000_001&lt;tab&gt;逃げ延びた先での優しさが心に染みた</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_A3_000_002&lt;tab&gt;千年続く戦いに心を揺さぶられた</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_A3_000_003&lt;tab&gt;友を喪った悲しみを忘れない</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_092&lt;tab&gt;キミの旅は、とっても過酷だったクポね。
+モグには想像もできないくらいに……。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_093&lt;tab&gt;でも、だからこそ、
 辛かったときに自分がされたように、
-他者に対して、優しくなれるんだと思うクポ……。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_094&lt;tab&gt;でも、だからこそ、
+他者に対して、優しくなれるんだと思うクポ……。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_094&lt;tab&gt;でも、だからこそ、
 戦いの犠牲になる弱い立場の人たちにも、
-寄り添えるんだと思うクポ……。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_095&lt;tab&gt;でも、だからこそ、
+寄り添えるんだと思うクポ……。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_095&lt;tab&gt;でも、だからこそ、
 友だちが守ろうとしたもののために、
-戦い続けることができるんだと思うクポ……。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_096&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;のお話を聞いて、
-モグも、なんだか頑張ろうって気持ちになってきたクポ！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_KINGBB211_04856_KUPOPO_000_097&lt;tab&gt;しばらくモグは、ここで大切な友だち……
+戦い続けることができるんだと思うクポ……。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_096&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;のお話を聞いて、
+モグも、なんだか頑張ろうって気持ちになってきたクポ！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_KINGBB211_04856_KUPOPO_000_097&lt;tab&gt;しばらくモグは、ここで大切な友だち……
 ベルルについての目撃情報がないか、聞き込みをしてみるクポ！
-また修行をしながら、折を見て声をかけてほしいクポ～！</target></trans-unit></body></file></xliff>
+また修行をしながら、折を見て声をかけてほしいクポ～！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

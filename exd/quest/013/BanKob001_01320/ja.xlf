@@ -1,120 +1,502 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="BanKob001_01320" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_BANKOB001_01320_SEQ_00&lt;tab&gt;黒渦団：軍令部のトラッハレート少甲士は、冒険者に折り入って頼みたいことがあるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_BANKOB001_01320_SEQ_01&lt;tab&gt;黒渦団の運搬していた「人造硝石」が、何者かに強奪されたらしい。調査のため、まずは西ラノシアのスウィフトパーチ入植地にいる「スケートスィス少甲士」の元へ行き、話を聞こう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_BANKOB001_01320_SEQ_02&lt;tab&gt;スケートスィス少甲士から犯人の手掛かりを捜してほしいと頼まれた。「スウィフトパーチ入植地」内を調べ、犯人の証拠品を追おう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_BANKOB001_01320_SEQ_03&lt;tab&gt;入植地内で犯人の遺留物らしき証拠品を発見した。「&lt;var 28 ((EventItem)) F61E895001 /var&gt;」を、スウィフトパーチ入植地の「スケートスィス少甲士」に見せよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_BANKOB001_01320_SEQ_04&lt;tab&gt;冒険者とスケートスィス少甲士は、事件はコボルド族の犯行ではないかと推察した。コボルド族に詳しい、外地ラノシアのキャンプ・オーバールックにいる「ブルーエイディン少甲佐」に話を聞きにいこう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_BANKOB001_01320_SEQ_05&lt;tab&gt;ブルーエイディン少甲佐と、その場に居合わせ捕縛されたコボルド族の証言から、事件の犯人は「第789洞穴団の採掘地」にいるコボルド族の一団ではないかとの情報を得た。外地ラノシアの第789洞穴団の採掘地に赴き、人造硝石を捜そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_BANKOB001_01320_SEQ_06&lt;tab&gt;第789洞穴団の採掘地で、ついに強奪された人造硝石を発見した。しかし犯人であるコボルド族の様子が少しおかしい。第789洞穴団の採掘地に同行している「スケートスィス少甲士」の話を聞こう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_BANKOB001_01320_SEQ_07&lt;tab&gt;スケートスィス少甲士は強奪された人造硝石の回収をするらしい。彼女に犯人であるコボルド族の犯行動機を聞き出せと頼まれた。第789洞穴団の採掘地の代表者「ピックマン789 ギ・グ」に話を聞こう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_BANKOB001_01320_SEQ_08&lt;tab&gt;ピックマン789 ギ・グは「人造硝石」を盗んだことを深く反省しているらしい。彼らが強奪事件を起こしたのには、何やら深い事情があるようなのだが……。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_BANKOB001_01320_TODO_00&lt;tab&gt;スウィフトパーチ入植地のスケートスィス少甲士と話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_BANKOB001_01320_TODO_01&lt;tab&gt;スウィフトパーチ入植地で犯人の証拠を捜す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_BANKOB001_01320_TODO_02&lt;tab&gt;スケートスィス少甲士に&lt;var 28 ((EventItem)) F61E895001 /var&gt;を見せる</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_BANKOB001_01320_TODO_03&lt;tab&gt;キャンプ・オーバールックのブルーエイディン少甲佐と話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_BANKOB001_01320_TODO_04&lt;tab&gt;第789洞穴団の採掘地で人造硝石を捜す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_BANKOB001_01320_TODO_05&lt;tab&gt;スケートスィス少甲士と話す</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_BANKOB001_01320_TODO_06&lt;tab&gt;ピックマン789 ギ・グと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_BANKOB001_01320_TRACHRAET_000_001&lt;tab&gt;む、貴方は冒険者ですね？
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="BanKob001_01320" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_00&lt;tab&gt;黒渦団：軍令部のトラッハレート少甲士は、冒険者に折り入って頼みたいことがあるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_01&lt;tab&gt;黒渦団の運搬していた「人造硝石」が、何者かに強奪されたらしい。調査のため、まずは西ラノシアのスウィフトパーチ入植地にいる「スケートスィス少甲士」の元へ行き、話を聞こう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_02&lt;tab&gt;スケートスィス少甲士から犯人の手掛かりを捜してほしいと頼まれた。「スウィフトパーチ入植地」内を調べ、犯人の証拠品を追おう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_03&lt;tab&gt;入植地内で犯人の遺留物らしき証拠品を発見した。「&lt;var 28 ((EventItem)) F61E895001 /var&gt;」を、スウィフトパーチ入植地の「スケートスィス少甲士」に見せよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_04&lt;tab&gt;冒険者とスケートスィス少甲士は、事件はコボルド族の犯行ではないかと推察した。コボルド族に詳しい、外地ラノシアのキャンプ・オーバールックにいる「ブルーエイディン少甲佐」に話を聞きにいこう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_05&lt;tab&gt;ブルーエイディン少甲佐と、その場に居合わせ捕縛されたコボルド族の証言から、事件の犯人は「第789洞穴団の採掘地」にいるコボルド族の一団ではないかとの情報を得た。外地ラノシアの第789洞穴団の採掘地に赴き、人造硝石を捜そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_06&lt;tab&gt;第789洞穴団の採掘地で、ついに強奪された人造硝石を発見した。しかし犯人であるコボルド族の様子が少しおかしい。第789洞穴団の採掘地に同行している「スケートスィス少甲士」の話を聞こう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_07&lt;tab&gt;スケートスィス少甲士は強奪された人造硝石の回収をするらしい。彼女に犯人であるコボルド族の犯行動機を聞き出せと頼まれた。第789洞穴団の採掘地の代表者「ピックマン789 ギ・グ」に話を聞こう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SEQ_08&lt;tab&gt;ピックマン789 ギ・グは「人造硝石」を盗んだことを深く反省しているらしい。彼らが強奪事件を起こしたのには、何やら深い事情があるようなのだが……。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TODO_00&lt;tab&gt;スウィフトパーチ入植地のスケートスィス少甲士と話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TODO_01&lt;tab&gt;スウィフトパーチ入植地で犯人の証拠を捜す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TODO_02&lt;tab&gt;スケートスィス少甲士に&lt;var 28 ((EventItem)) F61E895001 /var&gt;を見せる</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TODO_03&lt;tab&gt;キャンプ・オーバールックのブルーエイディン少甲佐と話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TODO_04&lt;tab&gt;第789洞穴団の採掘地で人造硝石を捜す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TODO_05&lt;tab&gt;スケートスィス少甲士と話す</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TODO_06&lt;tab&gt;ピックマン789 ギ・グと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TRACHRAET_000_001&lt;tab&gt;む、貴方は冒険者ですね？
 見たところ、かなりの腕とお見受けしますが、
-実は折り入って、お願いしたいことがあるのです。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_BANKOB001_01320_TRACHRAET_000_002&lt;tab&gt;この話はくれぐれも内密にして頂きたいのですが……
+実は折り入って、お願いしたいことがあるのです。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TRACHRAET_000_002&lt;tab&gt;この話はくれぐれも内密にして頂きたいのですが……
 実は数日前、我々黒渦団が輸送していた「人造硝石」が、
-何者かに強奪されてしまったのです！</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_BANKOB001_01320_TRACHRAET_000_003&lt;tab&gt;「人造硝石」は、火薬の原料となるもの。
+何者かに強奪されてしまったのです！</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TRACHRAET_000_003&lt;tab&gt;「人造硝石」は、火薬の原料となるもの。
 これが大量に奪われたとなると……事態は深刻です。
-悪用されれば、大量の犠牲者を出す大惨事となり兼ねません！</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_BANKOB001_01320_TRACHRAET_000_004&lt;tab&gt;しかし強奪した犯人は、未だ不明。
+悪用されれば、大量の犠牲者を出す大惨事となり兼ねません！</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TRACHRAET_000_004&lt;tab&gt;しかし強奪した犯人は、未だ不明。
 軍令部は事件解決に、特務隊士を派遣したのですが、
-未だ、犯人の手掛かりひとつ見つかっていないようです。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_BANKOB001_01320_TRACHRAET_000_005&lt;tab&gt;件の特務隊士は私の昔なじみでしてね。
+未だ、犯人の手掛かりひとつ見つかっていないようです。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TRACHRAET_000_005&lt;tab&gt;件の特務隊士は私の昔なじみでしてね。
 なんとか手を貸してやりたいのですが、
-私は自分の任務で動けぬ身……。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_BANKOB001_01320_TRACHRAET_000_006&lt;tab&gt;そこで、冒険者さんに協力してほしいのです！
+私は自分の任務で動けぬ身……。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TRACHRAET_000_006&lt;tab&gt;そこで、冒険者さんに協力してほしいのです！
 「スウィフトパーチ入植地」に赴き、当地で調査中の我が友、
-「スケートスィス少甲士」に手を貸してやってください。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_BANKOB001_01320_TRACHRAET_000_007&lt;tab&gt;「スウィフトパーチ入植地」に赴き、当地で調査中の我が友、
-「スケートスィス少甲士」に手を貸してやってください。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_010&lt;tab&gt;うううう、困った……困ったなぁ。
+「スケートスィス少甲士」に手を貸してやってください。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_TRACHRAET_000_007&lt;tab&gt;「スウィフトパーチ入植地」に赴き、当地で調査中の我が友、
+「スケートスィス少甲士」に手を貸してやってください。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_010&lt;tab&gt;うううう、困った……困ったなぁ。
 これはまさに、迷宮入り必至の難事件ってやつね……。
-……ん？　どちらさまですか？</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_011&lt;tab&gt;えっ？　トラッハレートに頼まれて助力を？
+……ん？　どちらさまですか？</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_011&lt;tab&gt;えっ？　トラッハレートに頼まれて助力を？
 ……へぇ、アイツ、なかなか憎いことするじゃない。
-アタシは黒渦団特務隊所属のスケートスィス少甲士といいます！</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_012&lt;tab&gt;事件の概要は、彼から聞いてますか？
+アタシは黒渦団特務隊所属のスケートスィス少甲士といいます！</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_012&lt;tab&gt;事件の概要は、彼から聞いてますか？
 我々、黒渦団がリムサ・ロミンサからエールポートに
-陸路で輸送していた「人造硝石」が盗まれたんです。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_013&lt;tab&gt;犯行現場は、まさにこの場所。
+陸路で輸送していた「人造硝石」が盗まれたんです。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_013&lt;tab&gt;犯行現場は、まさにこの場所。
 輸送兵たちが、歩哨も立てずに小休止していた隙に、
-放置した物資が、ゴッソリなくなったんです。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_014&lt;tab&gt;「人造硝石」はかなりの量だったから、多分、犯行は複数犯。
+放置した物資が、ゴッソリなくなったんです。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_014&lt;tab&gt;「人造硝石」はかなりの量だったから、多分、犯行は複数犯。
 入植地の入口には、門番が常駐していたから、
-犯人たちは別経路から侵入、逃走したと思われます。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_015&lt;tab&gt;冒険者さん、よろしかったらアタシと共に、
+犯人たちは別経路から侵入、逃走したと思われます。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_015&lt;tab&gt;冒険者さん、よろしかったらアタシと共に、
 証拠探しを手伝ってもらえないでしょうか？
-この集落内に絶対、犯人の残した手掛かりがあると思うの！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_016&lt;tab&gt;う～むむむむむ……あれだけの「人造硝石」を、
+この集落内に絶対、犯人の残した手掛かりがあると思うの！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_016&lt;tab&gt;う～むむむむむ……あれだけの「人造硝石」を、
 短時間で手際よく盗み出すとは……これはプロの犯行ね！
-……何のプロかは分かんないけど。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_BANKOB001_01320_KOKKADANA01320_000_017&lt;tab&gt;ううう……やっべぇ……
+……何のプロかは分かんないけど。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOKKADANA01320_000_017&lt;tab&gt;ううう……やっべぇ……
 大変なことになっちゃったぞ……。
-減給かなぁ……もしくは……クビ……？</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_BANKOB001_01320_KOKKADANB01320_000_018&lt;tab&gt;一瞬……ほんの一瞬、目を離した隙に……
+減給かなぁ……もしくは……クビ……？</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOKKADANB01320_000_018&lt;tab&gt;一瞬……ほんの一瞬、目を離した隙に……
 ごめんよぅ……目的地のエールポートも目前だったし、
-ついつい、気が緩んじまったんだよぅ！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_030&lt;tab&gt;冒険者さん……えーと、お名前は……
+ついつい、気が緩んじまったんだよぅ！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_030&lt;tab&gt;冒険者さん……えーと、お名前は……
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さんっていうんですね。
-……何か、証拠は見つかりましたか？</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_031&lt;tab&gt;えっ？　これが逃走経路と思われる場所に落ちてたですって？
+……何か、証拠は見つかりましたか？</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_031&lt;tab&gt;えっ？　これが逃走経路と思われる場所に落ちてたですって？
 ……こ、これはっ！
-間違いなく、犯人の残した遺留品ですよっ！</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_032&lt;tab&gt;でも、この「&lt;var 28 ((EventItem)) F61E895001 /var&gt;」ですけど……
+間違いなく、犯人の残した遺留品ですよっ！</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_032&lt;tab&gt;でも、この「&lt;var 28 ((EventItem)) F61E895001 /var&gt;」ですけど……
 なんか形も大きさもヘンテコですねぇ。
-どうみても、人が使う道具じゃないみたい……。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_033&lt;tab&gt;って、まてよ？　「人が使う道具じゃない」ってことは、
+どうみても、人が使う道具じゃないみたい……。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_033&lt;tab&gt;って、まてよ？　「人が使う道具じゃない」ってことは、
 「人以外の者が使う道具」ってことじゃない？
-……つまり犯人は、「人以外の者」ってこと！？</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_034&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん！
+……つまり犯人は、「人以外の者」ってこと！？</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_034&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん！
 この大きさの道具を使う「人以外の犯人」って、
-誰だと思いますか？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_BANKOB001_01320_Q1_000_000&lt;tab&gt;謎はすべて解けた！　犯人は……</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_BANKOB001_01320_A1_000_001&lt;tab&gt;ルガディン族？</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_BANKOB001_01320_A1_000_002&lt;tab&gt;コボルド族！</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_035&lt;tab&gt;よぉし、分かった！
+誰だと思いますか？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_Q1_000_000&lt;tab&gt;謎はすべて解けた！　犯人は……</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_A1_000_001&lt;tab&gt;ルガディン族？</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_A1_000_002&lt;tab&gt;コボルド族！</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_035&lt;tab&gt;よぉし、分かった！
 そうそう、アタシみたいなルガディンが……
-こーやってー、使ったりして……って、オイ！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_036&lt;tab&gt;どーみても違いますよね！？
+こーやってー、使ったりして……って、オイ！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_036&lt;tab&gt;どーみても違いますよね！？
 それにさっき「犯人は人以外の者」って言ったじゃないですか！
-&lt;var 09 E948 ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((ルガディンは人じゃない……って、自虐すぎません！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) /var&gt;</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_037&lt;tab&gt;……やっぱり。
+&lt;var 09 E948 ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((ルガディンは人じゃない……って、自虐すぎません！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) ((アタシこうみえて、れっきとした人ですけど！？)) /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_037&lt;tab&gt;……やっぱり。
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さんも、そう思いますよね？
-アタシもちょうど、同じこと考えていたんですよ。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_038&lt;tab&gt;ズバリ、犯人は「コボルド族」！
+アタシもちょうど、同じこと考えていたんですよ。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_038&lt;tab&gt;ズバリ、犯人は「コボルド族」！
 コボルド族は採掘に「つるはし」を使いますし、
-爆発物も使うから「人造硝石」を奪う動機もあります。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_039&lt;tab&gt;ふふふ、ネタはあがったなっ！
+爆発物も使うから「人造硝石」を奪う動機もあります。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_039&lt;tab&gt;ふふふ、ネタはあがったなっ！
 よーし、コボルド族について詳しい仲間と連絡をとって、
-犯人の足取りを追いましょう！</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_040&lt;tab&gt;外地ラノシアの「キャンプ・オーバールック」にいる、
-ブルーエイディン少甲佐殿が適任かもしれませんね！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_041&lt;tab&gt;あそこは、対コボルド族防衛の前線基地。
+犯人の足取りを追いましょう！</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_040&lt;tab&gt;外地ラノシアの「キャンプ・オーバールック」にいる、
+ブルーエイディン少甲佐殿が適任かもしれませんね！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_041&lt;tab&gt;あそこは、対コボルド族防衛の前線基地。
 そこに詰める少甲佐殿は、奴らの行動や生態を熟知しています。
-話を聞けば、きっと有力な情報が得られるはず！</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_042&lt;tab&gt;そうと決まれば早速、キャンプ・オーバールックにしゅっぱーつ！
+話を聞けば、きっと有力な情報が得られるはず！</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_042&lt;tab&gt;そうと決まれば早速、キャンプ・オーバールックにしゅっぱーつ！
 ……もちろん、ついてきてくれますよね？
-&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん！</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_BANKOB001_01320_KOBOLDA01320_000_043&lt;tab&gt;はなーせ！　このヤーロ！
-縄　とーけ！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_BANKOB001_01320_BLOEIDIN_000_050&lt;tab&gt;なんだぁ？　俺は今、忙しいんだよ。
+&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん！</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDA01320_000_043&lt;tab&gt;はなーせ！　このヤーロ！
+縄　とーけ！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_BLOEIDIN_000_050&lt;tab&gt;なんだぁ？　俺は今、忙しいんだよ。
 とっ捕まえたコボルド族から、
-大事な情報を聞き出してる最中なんでな。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_BANKOB001_01320_KOBOLDA01320_000_051&lt;tab&gt;おのーれ　はなーせ！　縄　とーけ！
-オレーのナカーマ　黙っちゃ　いねーぞっ！</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_BANKOB001_01320_BLOEIDIN_000_052&lt;tab&gt;うっせぇ、モグラ野郎！
+大事な情報を聞き出してる最中なんでな。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDA01320_000_051&lt;tab&gt;おのーれ　はなーせ！　縄　とーけ！
+オレーのナカーマ　黙っちゃ　いねーぞっ！</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_BLOEIDIN_000_052&lt;tab&gt;うっせぇ、モグラ野郎！
 お前らコボルド族が企んでる「計画」とやらを、
-さっさと吐いちまいな！</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_BANKOB001_01320_KOBOLDA01320_000_053&lt;tab&gt;「ケイカーク」？　なんのこーと？
-オレ　しらーん！</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_BANKOB001_01320_BLOEIDIN_000_054&lt;tab&gt;トボけるんじゃねぇ！
+さっさと吐いちまいな！</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDA01320_000_053&lt;tab&gt;「ケイカーク」？　なんのこーと？
+オレ　しらーん！</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_BLOEIDIN_000_054&lt;tab&gt;トボけるんじゃねぇ！
 最近、ウ・ガマロ武装鉱山が騒がしいみてぇじゃねぇか。
-お前らが、何か良からぬことを企ててるのは分かってんだ！</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_055&lt;tab&gt;少甲佐殿、お久しぶりです！
-特殊戦教練の際は、お世話になりました！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_BANKOB001_01320_BLOEIDIN_000_056&lt;tab&gt;おうおうおう？
+お前らが、何か良からぬことを企ててるのは分かってんだ！</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_055&lt;tab&gt;少甲佐殿、お久しぶりです！
+特殊戦教練の際は、お世話になりました！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_BLOEIDIN_000_056&lt;tab&gt;おうおうおう？
 誰かと思ったら、スケートスィスじゃねぇか！
-キャンプ・オーバールックに何か用か？</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_057&lt;tab&gt;実はコボルド族について、少甲佐殿に聞きたいことが……
+キャンプ・オーバールックに何か用か？</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_057&lt;tab&gt;実はコボルド族について、少甲佐殿に聞きたいことが……
 西ラノシアで輸送中の「人造硝石」が、
-何者かに強奪された事件はご存知ですよね？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_BANKOB001_01320_KOBOLDA01320_000_058&lt;tab&gt;しょうせーき　ごうだーつ！？
-あちゃー　もうバレたーの！？</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_BANKOB001_01320_BLOEIDIN_000_059&lt;tab&gt;何っ……！？
-てめぇ！　何か知ってんのか！</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_BANKOB001_01320_KOBOLDA01320_000_060&lt;tab&gt;ギクッ！　しらなーい　しらなーいよ！
+何者かに強奪された事件はご存知ですよね？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDA01320_000_058&lt;tab&gt;しょうせーき　ごうだーつ！？
+あちゃー　もうバレたーの！？</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_BLOEIDIN_000_059&lt;tab&gt;何っ……！？
+てめぇ！　何か知ってんのか！</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDA01320_000_060&lt;tab&gt;ギクッ！　しらなーい　しらなーいよ！
 それに　オレじゃなーい　オレたちじゃないーよ！
-アイツーラ　だーよ！</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_061&lt;tab&gt;……アイツーラ？
-あいつらって……誰！？</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_BANKOB001_01320_KOBOLDA01320_000_062&lt;tab&gt;アイツーラは　アイツーラ！
-崖下の採掘地にすーむ　ヤツーラよ！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_BANKOB001_01320_BLOEIDIN_000_063&lt;tab&gt;……崖下の採掘地？
+アイツーラ　だーよ！</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_061&lt;tab&gt;……アイツーラ？
+あいつらって……誰！？</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDA01320_000_062&lt;tab&gt;アイツーラは　アイツーラ！
+崖下の採掘地にすーむ　ヤツーラよ！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_BLOEIDIN_000_063&lt;tab&gt;……崖下の採掘地？
 そういえば、最近、オーバールックの崖下に、
-コボルド族どもが新しい洞穴を掘り始めたと聞いたが……。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_BANKOB001_01320_KOBOLDA01320_000_064&lt;tab&gt;……あんなヤツーラ　関わりたーく　ないーよ！
+コボルド族どもが新しい洞穴を掘り始めたと聞いたが……。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDA01320_000_064&lt;tab&gt;……あんなヤツーラ　関わりたーく　ないーよ！
 「第789洞穴団の採掘地」のヤツーラは　サイアークよ！
-恐ろしーい！　ブルブルブル……。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_065&lt;tab&gt;ブルーエイディン少甲佐殿。
+恐ろしーい！　ブルブルブル……。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_065&lt;tab&gt;ブルーエイディン少甲佐殿。
 アタシたち、その採掘地とやらに行ってみます。
-恐らく、そこにいる奴らが……強奪犯なのでしょう。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_BANKOB001_01320_BLOEIDIN_000_066&lt;tab&gt;うむ、スケートスィス、気をつけろよ！
+恐らく、そこにいる奴らが……強奪犯なのでしょう。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_BLOEIDIN_000_066&lt;tab&gt;うむ、スケートスィス、気をつけろよ！
 コボルド族はナリは小さいが、かなり手強い相手だ！
-それに危険なボムを飼いならし、操ってきやがるからな！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_067&lt;tab&gt;ありがとうございます！
+それに危険なボムを飼いならし、操ってきやがるからな！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_067&lt;tab&gt;ありがとうございます！
 女神リムレーンの加護あらんことを！
-「海が全てを呑み込むまで」！</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_068&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、準備は万全かしら？
+「海が全てを呑み込むまで」！</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_068&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、準備は万全かしら？
 コボルド族と一戦交える覚悟で行きますよ！
-こういうとき、アナタみたいな冒険者って頼りになるなぁ！</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_BANKOB001_01320_BLOEIDIN_000_069&lt;tab&gt;いいか？　コボルド族をナメるなよ！
+こういうとき、アナタみたいな冒険者って頼りになるなぁ！</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_BLOEIDIN_000_069&lt;tab&gt;いいか？　コボルド族をナメるなよ！
 奴らは俺たちルガディン族にも負けない剛腕の持ち主。
-しかも、ボムを使い、爆破を自在に操る危険な蛮族だ！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_BANKOB001_01320_KOBOLDA01320_000_070&lt;tab&gt;「第789洞穴団の採掘地」に　行くつもーり？
+しかも、ボムを使い、爆破を自在に操る危険な蛮族だ！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDA01320_000_070&lt;tab&gt;「第789洞穴団の採掘地」に　行くつもーり？
 やめといたほうが　いいーよ！
-ゼッテー　後悔するーよ！　間違いないーよ！</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_080&lt;tab&gt;これは……盗まれた黒渦団の物資……。
-間違いないわ、やっとみつけた。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_081&lt;tab&gt;やはり犯人はコボルド族……。
-動かぬ証拠ってやつね。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_082&lt;tab&gt;むっ！？</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_BANKOB001_01320_KOBOLDB01320_000_083&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_BANKOB001_01320_KOBOLDC01320_000_084&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_BANKOB001_01320_KOBOLDD01320_000_085&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_086&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_087&lt;tab&gt;か、数が多い！
-気をつけて、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_088&lt;tab&gt;かかってきなさいっ！
-蛮族なんかに、負けないんだからっ！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_BANKOB001_01320_GIGU_000_089&lt;tab&gt;(-リーダーらしきコボルド族-)ゴメンナサーイ。
-もう　しませーん！</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_090&lt;tab&gt;…………えっ？</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_BANKOB001_01320_KOBOLD01320_000_091&lt;tab&gt;(-第789洞穴団のコボルドたち-)ゴメンナサーイー。
-ゴメンナサーイー。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_092&lt;tab&gt;……………………どういうこと？</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_100&lt;tab&gt;……なんだか、よく分かんないけど、
+ゼッテー　後悔するーよ！　間違いないーよ！</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_080&lt;tab&gt;これは……盗まれた黒渦団の物資……。
+間違いないわ、やっとみつけた。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_081&lt;tab&gt;やはり犯人はコボルド族……。
+動かぬ証拠ってやつね。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_082&lt;tab&gt;むっ！？</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDB01320_000_083&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDC01320_000_084&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLDD01320_000_085&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_086&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_087&lt;tab&gt;か、数が多い！
+気をつけて、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_088&lt;tab&gt;かかってきなさいっ！
+蛮族なんかに、負けないんだからっ！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_GIGU_000_089&lt;tab&gt;(-リーダーらしきコボルド族-)ゴメンナサーイ。
+もう　しませーん！</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_090&lt;tab&gt;…………えっ？</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_KOBOLD01320_000_091&lt;tab&gt;(-第789洞穴団のコボルドたち-)ゴメンナサーイー。
+ゴメンナサーイー。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_092&lt;tab&gt;……………………どういうこと？</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_100&lt;tab&gt;……なんだか、よく分かんないけど、
 とりあえず物資は返してくれるみたいだし、
-事件は解決……みたいですね……。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_101&lt;tab&gt;てっきり大乱闘になると思ったんだけど……
+事件は解決……みたいですね……。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_101&lt;tab&gt;てっきり大乱闘になると思ったんだけど……
 コボルド族たちも、敵意はないみたいだし……
-……なんか、肩透かしって感じ。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_102&lt;tab&gt;アタシはひとまず、キャンプ・オーバールックに報告に行き、
+……なんか、肩透かしって感じ。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_102&lt;tab&gt;アタシはひとまず、キャンプ・オーバールックに報告に行き、
 奪われた物資の回収を手配したいと思います。
-その間、ここのコボルド族たちに話を聞いてもらえますか？</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_BANKOB001_01320_SKAETSWYS_000_103&lt;tab&gt;どうやら、採掘地の奥にいる、
+その間、ここのコボルド族たちに話を聞いてもらえますか？</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_SKAETSWYS_000_103&lt;tab&gt;どうやら、採掘地の奥にいる、
 「ピックマン789 ギ・グ」って奴がリーダーのようです。
-じゃあ、よろしくお願いします！</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_BANKOB001_01320_GIGU_000_104&lt;tab&gt;うう……ヒトーだぁ……コワーイ　ヒトがきたーよ……。
+じゃあ、よろしくお願いします！</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_GIGU_000_104&lt;tab&gt;うう……ヒトーだぁ……コワーイ　ヒトがきたーよ……。
 やっぱーり　ヒトからモノを盗むの　ダメだーった……。
-ゴメンナサーイ……。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_BANKOB001_01320_GIGU_000_110&lt;tab&gt;うあ！　ゴ　ゴメンナサーイ！
+ゴメンナサーイ……。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_GIGU_000_110&lt;tab&gt;うあ！　ゴ　ゴメンナサーイ！
 もうしませーん！　悪気はなかったんでーす！
-だかーら　殴ったりしないーでっ！</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_BANKOB001_01320_GIGU_000_111&lt;tab&gt;う……　え？　あ……　は　はーい……。
+だかーら　殴ったりしないーでっ！</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_GIGU_000_111&lt;tab&gt;う……　え？　あ……　は　はーい……。
 ボクは「ピックマン789 ギ・グ」といいまーす。
-この「第789洞穴団の採掘地」の責任者でーす……いちおう。</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_BANKOB001_01320_GIGU_000_112&lt;tab&gt;……え？　「人造硝石」を盗んで　何を企んでいたかーって？
+この「第789洞穴団の採掘地」の責任者でーす……いちおう。</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_GIGU_000_112&lt;tab&gt;……え？　「人造硝石」を盗んで　何を企んでいたかーって？
 そんな　企むなんーて　めっそーもなーい！
-ヒト様にタテつこうなんーて　これっぽっちも思ってませーん！</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_BANKOB001_01320_GIGU_000_113&lt;tab&gt;これにーは　深い深い事情がありましーて……
-ボクたーち　どうしてーも　硝石が必要だったんでーす。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_BANKOB001_01320_GIGU_000_114&lt;tab&gt;あの　その……あちこち探して　ウロウーロしてるうーちに
+ヒト様にタテつこうなんーて　これっぽっちも思ってませーん！</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_GIGU_000_113&lt;tab&gt;これにーは　深い深い事情がありましーて……
+ボクたーち　どうしてーも　硝石が必要だったんでーす。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_GIGU_000_114&lt;tab&gt;あの　その……あちこち探して　ウロウーロしてるうーちに
 いつのまーにか　海の方まで　出ちゃいましーて……
-硝石ドッサリ　見つけたんーで　ついデキゴコローで……。</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_BANKOB001_01320_GIGU_000_115&lt;tab&gt;ぼ　冒険者さーん　すみませーんが
+硝石ドッサリ　見つけたんーで　ついデキゴコローで……。</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_BANKOB001_01320_GIGU_000_115&lt;tab&gt;ぼ　冒険者さーん　すみませーんが
 帰る前に　ボクたちの話を　聞いてくださいませーんか？
-お願いでーす　どうかこのとーり！</target></trans-unit></body></file></xliff>
+お願いでーす　どうかこのとーり！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,126 +1,608 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="JobSam540_02562" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_JOBSAM540_02562_SEQ_00&lt;tab&gt;溺れた海豚亭のムソウサイは、冒険者の到来を待っているようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_JOBSAM540_02562_SEQ_01&lt;tab&gt;ムソウサイから、刀による連続殺人事件の話を聞いた。リムサ・ロミンサの国際街商通りで事件の情報を集めよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_JOBSAM540_02562_SEQ_02&lt;tab&gt;国際街商通りで情報を集めた。被害者に特に共通点はないようだ。リムサ・ロミンサの国際街広場にいる「ムソウサイ」に報告しよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_JOBSAM540_02562_SEQ_03&lt;tab&gt;ムソウサイに報告した。彼は、犯人が桟橋を通りがかった者を無差別に狙ったと考え、囮捜査をすることになった。リムサ・ロミンサの網倉にいる「ムソウサイ」と合流しよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_JOBSAM540_02562_SEQ_04&lt;tab&gt;ムソウサイと合流した。囮捜査を実行したが、犯人に逃げられてしまった。ムソウサイは犯人が持っていた刀から、正体はララフェル族の豪商と推理して、ゲゲルジュを追及することになった。東ラノシアのコスタ・デル・ソルにいる「ゲゲルジュ」と話そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_JOBSAM540_02562_SEQ_05&lt;tab&gt;ゲゲルジュと話した。彼によると、犯人はグルミ・ボルルミという豪商だという。ゲゲルジュから、グルミ・ボルルミが開く船上の宴の招待状を受け取った。悪を懲らしめるため、コスタ・デル・ソルの船着場にいる「グルミ・ボルルミの従者」に「&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_JOBSAM540_02562_SEQ_06&lt;tab&gt;グルミ・ボルルミの従者に&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;を渡し、船上の宴へ向かった。船上にて用心棒のオスティルグレインを倒した。東ラノシアへ向かおう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_JOBSAM540_02562_SEQ_07&lt;tab&gt;逃げ出した連続殺人犯のグルミ・ボルルミを成敗した。これにて、一件落着したようだ。グリダニアのカーラインカフェへ向かった「ムソウサイ」と合流しよう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_JOBSAM540_02562_SEQ_08&lt;tab&gt;ムソウサイと合流した。モモジゴは情報収集をすると言って去っていった。鍛錬を積んで、またムソウサイを訪ねよう。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="JobSam540_02562" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_00&lt;tab&gt;溺れた海豚亭のムソウサイは、冒険者の到来を待っているようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_01&lt;tab&gt;ムソウサイから、刀による連続殺人事件の話を聞いた。リムサ・ロミンサの国際街商通りで事件の情報を集めよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_02&lt;tab&gt;国際街商通りで情報を集めた。被害者に特に共通点はないようだ。リムサ・ロミンサの国際街広場にいる「ムソウサイ」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_03&lt;tab&gt;ムソウサイに報告した。彼は、犯人が桟橋を通りがかった者を無差別に狙ったと考え、囮捜査をすることになった。リムサ・ロミンサの網倉にいる「ムソウサイ」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_04&lt;tab&gt;ムソウサイと合流した。囮捜査を実行したが、犯人に逃げられてしまった。ムソウサイは犯人が持っていた刀から、正体はララフェル族の豪商と推理して、ゲゲルジュを追及することになった。東ラノシアのコスタ・デル・ソルにいる「ゲゲルジュ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_05&lt;tab&gt;ゲゲルジュと話した。彼によると、犯人はグルミ・ボルルミという豪商だという。ゲゲルジュから、グルミ・ボルルミが開く船上の宴の招待状を受け取った。悪を懲らしめるため、コスタ・デル・ソルの船着場にいる「グルミ・ボルルミの従者」に「&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_06&lt;tab&gt;グルミ・ボルルミの従者に&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;を渡し、船上の宴へ向かった。船上にて用心棒のオスティルグレインを倒した。東ラノシアへ向かおう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_07&lt;tab&gt;逃げ出した連続殺人犯のグルミ・ボルルミを成敗した。これにて、一件落着したようだ。グリダニアのカーラインカフェへ向かった「ムソウサイ」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SEQ_08&lt;tab&gt;ムソウサイと合流した。モモジゴは情報収集をすると言って去っていった。鍛錬を積んで、またムソウサイを訪ねよう。
 
-※侍のレベルが56以上になると、カーラインカフェのムソウサイから次の侍クエストを受注することができます。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_JOBSAM540_02562_TODO_00&lt;tab&gt;国際街商通りで情報を集める</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_JOBSAM540_02562_TODO_01&lt;tab&gt;ムソウサイに報告</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_JOBSAM540_02562_TODO_02&lt;tab&gt;ムソウサイと合流</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_JOBSAM540_02562_TODO_03&lt;tab&gt;コスタ・デル・ソルのゲゲルジュと話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_JOBSAM540_02562_TODO_04&lt;tab&gt;グルミ・ボルルミの従者に&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;を渡す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_JOBSAM540_02562_TODO_05&lt;tab&gt;グルミ・ボルルミの従者に&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;を渡す</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_JOBSAM540_02562_TODO_06&lt;tab&gt;カーラインカフェのムソウサイと合流</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_100_000&lt;tab&gt;爺さんが魚商で魚を買ってきたんだけど、
+※侍のレベルが56以上になると、カーラインカフェのムソウサイから次の侍クエストを受注することができます。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_TODO_00&lt;tab&gt;国際街商通りで情報を集める</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_TODO_01&lt;tab&gt;ムソウサイに報告</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_TODO_02&lt;tab&gt;ムソウサイと合流</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_TODO_03&lt;tab&gt;コスタ・デル・ソルのゲゲルジュと話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_TODO_04&lt;tab&gt;グルミ・ボルルミの従者に&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_TODO_05&lt;tab&gt;グルミ・ボルルミの従者に&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_TODO_06&lt;tab&gt;カーラインカフェのムソウサイと合流</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_100_000&lt;tab&gt;爺さんが魚商で魚を買ってきたんだけど、
 刀でさばいて、そのまま生で食っちまったんだ。
-美味いぞって勧められたけど……遠慮しといたよ。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_000&lt;tab&gt;待っていたぞ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿。
+美味いぞって勧められたけど……遠慮しといたよ。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_000&lt;tab&gt;待っていたぞ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿。
 お主の刀を差した佇まいも板についてきたな。
-「うるだは」の悪を討ったことで、侍の風格が出てきたようだ。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_001&lt;tab&gt;さて、この潮の香り漂う都で、悪を探っていたところ、
+「うるだは」の悪を討ったことで、侍の風格が出てきたようだ。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_001&lt;tab&gt;さて、この潮の香り漂う都で、悪を探っていたところ、
 「いえろうじゃけっと」と申す者たちに捕まりかけてな。
-聞けば、この街で連続殺人事件が起きているというではないか。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_002&lt;tab&gt;被害者は皆、鋭利な刃物で斬り付けられていたもので、
-腰に刀を差していたワシが、犯人と疑われてのう……。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_003&lt;tab&gt;モモジゴの証言で事なきを得たが、
+聞けば、この街で連続殺人事件が起きているというではないか。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_002&lt;tab&gt;被害者は皆、鋭利な刃物で斬り付けられていたもので、
+腰に刀を差していたワシが、犯人と疑われてのう……。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_003&lt;tab&gt;モモジゴの証言で事なきを得たが、
 遺体を検分させてもらったところ、確かに刀傷が残されておった。
-もしや、我らと同じ侍の仕業……？</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_004&lt;tab&gt;無暗に殺生を繰り返すとは、刀を持つ者にあるまじき所業。
+もしや、我らと同じ侍の仕業……？</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_004&lt;tab&gt;無暗に殺生を繰り返すとは、刀を持つ者にあるまじき所業。
 この事件の犯人こそ、この都の討つべき悪とみた。
-侍の大義にかけて、悪を許さず！</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_005&lt;tab&gt;よーし、犯人捜しといこう。
+侍の大義にかけて、悪を許さず！</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_005&lt;tab&gt;よーし、犯人捜しといこう。
 なんだか、わくわくしてきたぞ……。
-さっそく、人が集まる「国際街商通り」で、事件の情報を集めようぜ！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_008&lt;tab&gt;うーむ、被害者の共通点とは……？</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_009&lt;tab&gt;イエロージャケットに捕まったときは、そら大変だったよ。
-刀を差した東方風の爺さんなんて、いかにも怪しげだもんな……。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_JOBSAM540_02562_SWOZBLAET_000_010&lt;tab&gt;連続殺人事件？
+さっそく、人が集まる「国際街商通り」で、事件の情報を集めようぜ！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_008&lt;tab&gt;うーむ、被害者の共通点とは……？</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_009&lt;tab&gt;イエロージャケットに捕まったときは、そら大変だったよ。
+刀を差した東方風の爺さんなんて、いかにも怪しげだもんな……。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SWOZBLAET_000_010&lt;tab&gt;連続殺人事件？
 ああ、この国際街商通りでも、もっぱらの話題さ。
-なんせ、被害者に馴染の客がいたもんでね、早期解決を望むよ。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_JOBSAM540_02562_BAENSYNG_000_011&lt;tab&gt;あの事件のことを聞きたいのかい？
+なんせ、被害者に馴染の客がいたもんでね、早期解決を望むよ。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_BAENSYNG_000_011&lt;tab&gt;あの事件のことを聞きたいのかい？
 酷い話でね、この街に寄った旅人まで殺されたんだ。
-いったい、何の恨みがあってそんなことをするんだろうか……。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_JOBSAM540_02562_KYOKYOROON_000_012&lt;tab&gt;連続殺人！　怖いっちゃ！
+いったい、何の恨みがあってそんなことをするんだろうか……。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_KYOKYOROON_000_012&lt;tab&gt;連続殺人！　怖いっちゃ！
 だって、キキルン族もやられたっちゃ！
-がたがた、ぶるぶる、夜も眠れないっちゃ！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_JOBSAM540_02562_SWOZBLAET_000_015&lt;tab&gt;連続殺人事件は、この国際街商通りでも、もっぱらの話題さ。
-なんせ、被害者に馴染の客がいたもんでね、早期解決を望むよ。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_JOBSAM540_02562_BAENSYNG_000_016&lt;tab&gt;酷い話でね、この街に寄った旅人まで殺されたんだ。
-いったい、何の恨みがあってそんなことをするんだろうか……。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_JOBSAM540_02562_KYOKYOROON_000_017&lt;tab&gt;連続殺人！　怖いっちゃ！
+がたがた、ぶるぶる、夜も眠れないっちゃ！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_SWOZBLAET_000_015&lt;tab&gt;連続殺人事件は、この国際街商通りでも、もっぱらの話題さ。
+なんせ、被害者に馴染の客がいたもんでね、早期解決を望むよ。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_BAENSYNG_000_016&lt;tab&gt;酷い話でね、この街に寄った旅人まで殺されたんだ。
+いったい、何の恨みがあってそんなことをするんだろうか……。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_KYOKYOROON_000_017&lt;tab&gt;連続殺人！　怖いっちゃ！
 だって、キキルン族もやられたっちゃ！
-がたがた、ぶるぶる、夜も眠れないっちゃ！</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_020&lt;tab&gt;市場の馴染客と旅人、そして「ききるん族」か……。
-被害者に共通点は見受けられぬようだ。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_021&lt;tab&gt;こちらが集めた情報では、被害者は皆、
-船着場付近で行方がわからなくなって、遺体で発見されている。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_022&lt;tab&gt;ふむ……犯人は無差別に、
-桟橋を通りがかった者を殺していると見た。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_023&lt;tab&gt;通り魔ってやつか、恐ろしいねぇ……。
-だが、そうなってくると、どう犯人を捜せばいいんだ？</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_024&lt;tab&gt;ここは、囮を仕掛けるというのはどうだ。
+がたがた、ぶるぶる、夜も眠れないっちゃ！</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_020&lt;tab&gt;市場の馴染客と旅人、そして「ききるん族」か……。
+被害者に共通点は見受けられぬようだ。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_021&lt;tab&gt;こちらが集めた情報では、被害者は皆、
+船着場付近で行方がわからなくなって、遺体で発見されている。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_022&lt;tab&gt;ふむ……犯人は無差別に、
+桟橋を通りがかった者を殺していると見た。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_023&lt;tab&gt;通り魔ってやつか、恐ろしいねぇ……。
+だが、そうなってくると、どう犯人を捜せばいいんだ？</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_024&lt;tab&gt;ここは、囮を仕掛けるというのはどうだ。
 人通りの少ない深夜の桟橋を歩き回り、
-犯人を誘き寄せて、ひっ捕らえるのだ。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_025&lt;tab&gt;そいつはいい考えだ！
-で、誰が、囮となるんだい……？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_026&lt;tab&gt;ええっ！　俺っ！？
-な、なんでまた、俺なんだよ～！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_027&lt;tab&gt;被害者に共通点はないと言ったが、
+犯人を誘き寄せて、ひっ捕らえるのだ。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_025&lt;tab&gt;そいつはいい考えだ！
+で、誰が、囮となるんだい……？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_026&lt;tab&gt;ええっ！　俺っ！？
+な、なんでまた、俺なんだよ～！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_027&lt;tab&gt;被害者に共通点はないと言ったが、
 不思議と、この街に多い海賊連中は含まれておらん。
-つまり、武器を持っていない者だけが狙われたわけじゃ。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_028&lt;tab&gt;ということで、腰に刀を差しているワシも、
+つまり、武器を持っていない者だけが狙われたわけじゃ。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_028&lt;tab&gt;ということで、腰に刀を差しているワシも、
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿も、囮役は務まらん。
-いやはや、残念至極である……。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_029&lt;tab&gt;臆するな、犯人が現れたら、すぐにワシらが捕えてやる。
-それでは、「船着場」の方へ向かうとしよう。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_030&lt;tab&gt;ああ、なんでまたこんな目に……。
-くわばら、くわばら……。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_035&lt;tab&gt;しからば、いい頃合いになったら、
-作戦開始といこう。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_036&lt;tab&gt;で、で、で、出たァァァァ～ッ！！</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_037&lt;tab&gt;むう、あの刀は……。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_038&lt;tab&gt;ひっ捕らえる間もなく、犯人に逃げられてしまったな……。
-お主の悲鳴に大層たまげたようだ。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_039&lt;tab&gt;め、面目ない……。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_040&lt;tab&gt;まあよい、実はあやつが持つ刀に見覚えがあってのう……。
+いやはや、残念至極である……。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_029&lt;tab&gt;臆するな、犯人が現れたら、すぐにワシらが捕えてやる。
+それでは、「船着場」の方へ向かうとしよう。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_030&lt;tab&gt;ああ、なんでまたこんな目に……。
+くわばら、くわばら……。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_035&lt;tab&gt;しからば、いい頃合いになったら、
+作戦開始といこう。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_036&lt;tab&gt;で、で、で、出たァァァァ～ッ！！</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_037&lt;tab&gt;むう、あの刀は……。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_038&lt;tab&gt;ひっ捕らえる間もなく、犯人に逃げられてしまったな……。
+お主の悲鳴に大層たまげたようだ。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_039&lt;tab&gt;め、面目ない……。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_040&lt;tab&gt;まあよい、実はあやつが持つ刀に見覚えがあってのう……。
 祖国の港街クガネでは、「えおるぜあ」から来た豪商が、
-銘刀を買い漁っていると、たいそう噂になっておった。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_041&lt;tab&gt;立ち寄った小鍛冶の店先で、売約済みになっておった刀に、
+銘刀を買い漁っていると、たいそう噂になっておった。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_041&lt;tab&gt;立ち寄った小鍛冶の店先で、売約済みになっておった刀に、
 あの一振りに似た銘刀があったのを思い出したのだ。
-確か買い手は、「ららふぇる族」の豪商という話じゃったが……。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_042&lt;tab&gt;この辺りのララフェル族の豪商といえば……ゲゲルジュさんだ。
+確か買い手は、「ららふぇる族」の豪商という話じゃったが……。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_042&lt;tab&gt;この辺りのララフェル族の豪商といえば……ゲゲルジュさんだ。
 俺は踊り子の興行でお世話になったことがあるけど、
-あの人がそんなことを……？</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_043&lt;tab&gt;該当する者がいるのだな、その者を追及してみよう。
-して、どこへ向かえばいいのだ？</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_044&lt;tab&gt;ゲゲルジュさんは、「コスタ・デル・ソル」に住んでいるよ。
-何かの間違いだと思うけどなぁ……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_045&lt;tab&gt;さあ、単刀直入に、この者を追及してみよう。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_046&lt;tab&gt;ゲゲルジュさんは、下衆なところもあるけれど、
-それは、ほら、あっち方面のことだからなぁ……。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_100_050&lt;tab&gt;ワシのまどろみを邪魔する者は誰じゃ……？
-妙な東方の者まで連れだって、どんな用件で参ったというのだ？</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_050&lt;tab&gt;ワシのまどろみを邪魔する者は誰じゃ……って、あなたは？
-三大珍味を集めてくれた冒険者殿ではないか！</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_051&lt;tab&gt;きょ、今日はまた、東方の者まで連れだって、
-いったい、どんな用件で参られたのじゃ？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_052&lt;tab&gt;なるほど、ワシに連続殺人の疑いがかかっておると……。
+あの人がそんなことを……？</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_043&lt;tab&gt;該当する者がいるのだな、その者を追及してみよう。
+して、どこへ向かえばいいのだ？</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_044&lt;tab&gt;ゲゲルジュさんは、「コスタ・デル・ソル」に住んでいるよ。
+何かの間違いだと思うけどなぁ……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_045&lt;tab&gt;さあ、単刀直入に、この者を追及してみよう。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_046&lt;tab&gt;ゲゲルジュさんは、下衆なところもあるけれど、
+それは、ほら、あっち方面のことだからなぁ……。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_100_050&lt;tab&gt;ワシのまどろみを邪魔する者は誰じゃ……？
+妙な東方の者まで連れだって、どんな用件で参ったというのだ？</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_050&lt;tab&gt;ワシのまどろみを邪魔する者は誰じゃ……って、あなたは？
+三大珍味を集めてくれた冒険者殿ではないか！</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_051&lt;tab&gt;きょ、今日はまた、東方の者まで連れだって、
+いったい、どんな用件で参られたのじゃ？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_052&lt;tab&gt;なるほど、ワシに連続殺人の疑いがかかっておると……。
 もちろんそれは間違いじゃ、ワシは潔白である。
-じゃが……犯人に心当たりがあるぞ。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_053&lt;tab&gt;それはきっと、「グルミ・ボルルミ」の奴であろう。
+じゃが……犯人に心当たりがあるぞ。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_053&lt;tab&gt;それはきっと、「グルミ・ボルルミ」の奴であろう。
 貿易で巨万の富を得て、悠々自適に暮らす道楽者じゃ。
-そいつは、東方の物のコレクターでな、特に刀を集めておる。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_054&lt;tab&gt;こないだも、由緒ある銘刀とやらを自慢しながら、
+そいつは、東方の物のコレクターでな、特に刀を集めておる。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_054&lt;tab&gt;こないだも、由緒ある銘刀とやらを自慢しながら、
 人を斬ってみたいとぼやいておったが……まさか実行するとはな。
-昔から趣味の悪い奴だったものの、ついに一線を越えよったか……。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_055&lt;tab&gt;その者で間違いなさそうだな。
-おのれ、道楽で人を斬るとは、まさしく鬼畜の所業……。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_056&lt;tab&gt;ゲゲルジュ殿、一度は疑ってしまったこと、誠にあいすまぬ。
-どうか、その不届き者の居場所を教えてもらえぬか？</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_057&lt;tab&gt;奴は船に住んでおってな、しばらくはこの辺りに投錨していたが、
-そろそろ、場所を変えるとか言っていたのう。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_058&lt;tab&gt;船か、乗り込むのは難しそうだな。
-でも、今逃してしまうと、もっと困難なことに……。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_059&lt;tab&gt;ぬほほほほ、ちょうどよかったのう～。
+昔から趣味の悪い奴だったものの、ついに一線を越えよったか……。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_055&lt;tab&gt;その者で間違いなさそうだな。
+おのれ、道楽で人を斬るとは、まさしく鬼畜の所業……。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_056&lt;tab&gt;ゲゲルジュ殿、一度は疑ってしまったこと、誠にあいすまぬ。
+どうか、その不届き者の居場所を教えてもらえぬか？</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_057&lt;tab&gt;奴は船に住んでおってな、しばらくはこの辺りに投錨していたが、
+そろそろ、場所を変えるとか言っていたのう。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_058&lt;tab&gt;船か、乗り込むのは難しそうだな。
+でも、今逃してしまうと、もっと困難なことに……。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_059&lt;tab&gt;ぬほほほほ、ちょうどよかったのう～。
 実はワシのもとに、そのグルミ・ボルルミから、
-船上で開かれる「&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;」が届いておったところなのじゃ。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_100_060&lt;tab&gt;どうせ行くつもりもなかったので、その招待状をやろう。
-船着場で待っている、「グルミ・ボルルミの従者」に渡すがいい。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_060&lt;tab&gt;冒険者殿に借りを返すためにも、その招待状をやろう。
-船着場で待っている、「グルミ・ボルルミの従者」に渡すがいい。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_061&lt;tab&gt;そこの興行師にでも、ワシの変装をさせれば、
+船上で開かれる「&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;」が届いておったところなのじゃ。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_100_060&lt;tab&gt;どうせ行くつもりもなかったので、その招待状をやろう。
+船着場で待っている、「グルミ・ボルルミの従者」に渡すがいい。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_060&lt;tab&gt;冒険者殿に借りを返すためにも、その招待状をやろう。
+船着場で待っている、「グルミ・ボルルミの従者」に渡すがいい。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_061&lt;tab&gt;そこの興行師にでも、ワシの変装をさせれば、
 気付かれずに、他の者も従者として船に乗り込めるであろう。
-奴は厄介な商売敵でもある、片付けてもらえば、こちらも助かる。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_062&lt;tab&gt;かたじけない、恩に着る。
-では、モモジゴには変装をしてもらい、船着場へと向かおう。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_063&lt;tab&gt;もしかして……
-また、俺が危険な目に遭うんじゃないか……？</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_064&lt;tab&gt;なかなか、風光明媚な眺めじゃな。
-紅玉海を思い出すわい……。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_065&lt;tab&gt;ぬほほほほほ、船上の宴とはまた、高まるのう～！
-……似てる？</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_066&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;」を、
+奴は厄介な商売敵でもある、片付けてもらえば、こちらも助かる。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_062&lt;tab&gt;かたじけない、恩に着る。
+では、モモジゴには変装をしてもらい、船着場へと向かおう。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_063&lt;tab&gt;もしかして……
+また、俺が危険な目に遭うんじゃないか……？</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_064&lt;tab&gt;なかなか、風光明媚な眺めじゃな。
+紅玉海を思い出すわい……。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_065&lt;tab&gt;ぬほほほほほ、船上の宴とはまた、高まるのう～！
+……似てる？</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_066&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8D1301 /var&gt;」を、
 船着場で待っている、「グルミ・ボルルミの従者」に渡すがいい。
-奴は厄介な商売敵でもある、片付けてもらえば、こちらも助かる。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_JOBSAM540_02562_ATTENDANT02562_000_067&lt;tab&gt;これはこれは、ゲゲルジュ様のお付きの方ですね。
-それでは、招待状を拝見してもよろしいでしょうか？</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_JOBSAM540_02562_ATTENDANT02562_000_068&lt;tab&gt;……確かに。
-それでは、グルミ・ボルルミ様の船へとご案内します。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_JOBSAM540_02562_INVITEE02562_000_070&lt;tab&gt;さすがはグルミ・ボルルミ殿！
-宴も東方の趣向を凝らしていて、実にお見事！</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_071&lt;tab&gt;ホッホッホ、こんなものは大したことない。
-さて、自慢の刀のお披露目といこうかのう……。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_072&lt;tab&gt;これは、ゲゲルジュ殿……よくぞ、いらしてくださった。
+奴は厄介な商売敵でもある、片付けてもらえば、こちらも助かる。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_ATTENDANT02562_000_067&lt;tab&gt;これはこれは、ゲゲルジュ様のお付きの方ですね。
+それでは、招待状を拝見してもよろしいでしょうか？</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_ATTENDANT02562_000_068&lt;tab&gt;……確かに。
+それでは、グルミ・ボルルミ様の船へとご案内します。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_INVITEE02562_000_070&lt;tab&gt;さすがはグルミ・ボルルミ殿！
+宴も東方の趣向を凝らしていて、実にお見事！</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_071&lt;tab&gt;ホッホッホ、こんなものは大したことない。
+さて、自慢の刀のお披露目といこうかのう……。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_072&lt;tab&gt;これは、ゲゲルジュ殿……よくぞ、いらしてくださった。
 おやおや、貴方も東方の侍風の用心棒を、
-雇われたようですな！</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_073&lt;tab&gt;それは、結構、結構。
-しかし、私の刀のコレクションにはかないますまい！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_074&lt;tab&gt;罪なき人々を斬った刀を見せびらかす気か……？
-鬼畜の沙汰も、ここまでだ。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_075&lt;tab&gt;お主、ゲゲルジュではないな……？
-しかし、どこかで……。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_076&lt;tab&gt;アンタに斬り殺されかけた者だよ。
-忘れたとは、言わせねーぜ！</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_077&lt;tab&gt;そうか、あの夜の……。
+雇われたようですな！</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_073&lt;tab&gt;それは、結構、結構。
+しかし、私の刀のコレクションにはかないますまい！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_074&lt;tab&gt;罪なき人々を斬った刀を見せびらかす気か……？
+鬼畜の沙汰も、ここまでだ。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_075&lt;tab&gt;お主、ゲゲルジュではないな……？
+しかし、どこかで……。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_076&lt;tab&gt;アンタに斬り殺されかけた者だよ。
+忘れたとは、言わせねーぜ！</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_077&lt;tab&gt;そうか、あの夜の……。
 フフフ、刀というのはな、眺めるだけより使うほうが、
-何倍も愉しめると気付いてしまってのう……。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_078&lt;tab&gt;外道め……もはや縄をかける気も失せた。
-……斬捨御免。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_079&lt;tab&gt;善良な市民の宴に押しかけて、脅しをかけるというのか？
+何倍も愉しめると気付いてしまってのう……。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_078&lt;tab&gt;外道め……もはや縄をかける気も失せた。
+……斬捨御免。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_079&lt;tab&gt;善良な市民の宴に押しかけて、脅しをかけるというのか？
 よかろう、私の用心棒と手合せしてもらおう。
-余興には持ってこいだ……表へ出よ。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_080&lt;tab&gt;出あえ、オスティルグレイン！</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_081&lt;tab&gt;……刀の握り方がなっとらん。
-格好だけの偽者と見た。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_JOBSAM540_02562_OSTYRGREIN_000_082&lt;tab&gt;偽者も本物もあるもんか。
+余興には持ってこいだ……表へ出よ。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_080&lt;tab&gt;出あえ、オスティルグレイン！</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_081&lt;tab&gt;……刀の握り方がなっとらん。
+格好だけの偽者と見た。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_OSTYRGREIN_000_082&lt;tab&gt;偽者も本物もあるもんか。
 侍ってのは、刀を持った剣術士のことだろう？
-俺は剣術を極めたんだ、この銘刀の斬れ味を試してやるぜ。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_083&lt;tab&gt;やれやれ……。
+俺は剣術を極めたんだ、この銘刀の斬れ味を試してやるぜ。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_083&lt;tab&gt;やれやれ……。
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、
-本物の侍の違いを見せてやろうぞ。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_100_083&lt;tab&gt;いや待て……すぐ終わってしまってはつまらん。
+本物の侍の違いを見せてやろうぞ。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_100_083&lt;tab&gt;いや待て……すぐ終わってしまってはつまらん。
 お主の出番は最後にとっておこう。
-うってつけの前座を呼んでやる。</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_100_084&lt;tab&gt;さあ、我らは高みの見物といこう。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_100_085&lt;tab&gt;ほう……ではワシも下がるとしよう。
+うってつけの前座を呼んでやる。</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_100_084&lt;tab&gt;さあ、我らは高みの見物といこう。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_100_085&lt;tab&gt;ほう……ではワシも下がるとしよう。
 偽者どもなんぞ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、
-お主ひとりで充分じゃろう。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_084&lt;tab&gt;者ども、この曲者を斬り捨てぇい！</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_100_084&lt;tab&gt;やっと追い詰めたぞ。
-船を捨ててまで逃げおって、この卑怯者めが……観念せい。</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_085&lt;tab&gt;わ、私の部下を全滅させるとは……。
-お主ら、いったい何者……？</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_086&lt;tab&gt;我が名はムソウサイ、
+お主ひとりで充分じゃろう。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_084&lt;tab&gt;者ども、この曲者を斬り捨てぇい！</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_100_084&lt;tab&gt;やっと追い詰めたぞ。
+船を捨ててまで逃げおって、この卑怯者めが……観念せい。</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_085&lt;tab&gt;わ、私の部下を全滅させるとは……。
+お主ら、いったい何者……？</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_086&lt;tab&gt;我が名はムソウサイ、
 そして、この者は我が弟子&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿。
-人の姿をした浮世の鬼に、天誅を下しに参った侍である。</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_087&lt;tab&gt;ムソウサイ……どこかで聞いたような……。
+人の姿をした浮世の鬼に、天誅を下しに参った侍である。</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_087&lt;tab&gt;ムソウサイ……どこかで聞いたような……。
 ハッ、東方で刀を買い付けるときに聞いた、
-伝説の剣豪の名ではないか！　どおりでかなわぬわけだ……！</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_088&lt;tab&gt;え、ええい、いくら剣豪といえども、
-私の持つ銘刀の切れ味にはかなうまい……！</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_JOBSAM540_02562_GURUMIBORLUMI_100_088&lt;tab&gt;お主もこの刃の餌食となるがいいッ！！</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_089&lt;tab&gt;罪なき人々を殺めておいて、反省の色ひとつないとはな……。
-よんどころなし……斬る。</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_090&lt;tab&gt;このような者、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿には斬らせたくもない、
-ワシの務めじゃ……。</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_091&lt;tab&gt;さて、思わぬエセ侍との戦いになったが、
-冒険者殿にとっては役不足であったろうな。</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_092&lt;tab&gt;侍にとって、最もよい修行となるのは、
+伝説の剣豪の名ではないか！　どおりでかなわぬわけだ……！</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_000_088&lt;tab&gt;え、ええい、いくら剣豪といえども、
+私の持つ銘刀の切れ味にはかなうまい……！</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GURUMIBORLUMI_100_088&lt;tab&gt;お主もこの刃の餌食となるがいいッ！！</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_089&lt;tab&gt;罪なき人々を殺めておいて、反省の色ひとつないとはな……。
+よんどころなし……斬る。</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_090&lt;tab&gt;このような者、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿には斬らせたくもない、
+ワシの務めじゃ……。</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_091&lt;tab&gt;さて、思わぬエセ侍との戦いになったが、
+冒険者殿にとっては役不足であったろうな。</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_092&lt;tab&gt;侍にとって、最もよい修行となるのは、
 実力が拮抗する侍と、剣を交えることなのだ。
-しかし、この地には、なかなかおらんのが難点じゃのう……。</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_093&lt;tab&gt;ふう、解決したね。
-それにしても、爺さん、アンタすげー人らしいな？</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_094&lt;tab&gt;なあに、昔の話じゃ。
-今は気ままな、隠居の老いぼれよ……。</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_100_094&lt;tab&gt;グルミ・ボルルミの奴を片付けてくれたか。
-越えてはならん一線を越えたのだ、当然の報いよの……。</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_100_095&lt;tab&gt;この後始末は、任せておくがいい。
-ワシの私有地で起こったこと……外には漏らさぬ。</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_100_095&lt;tab&gt;何から何まで、かたじけない、恩に着る。</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_100_096&lt;tab&gt;これにて一件落着。
-悪の蔓延る世は栄え……</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_095&lt;tab&gt;爺さんっ！　大丈夫かっ！？</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_096&lt;tab&gt;ああ……案ずるでない。
-少し、疲れたまで……歳は取りたくないのう……。</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_100&lt;tab&gt;さあ、次の都へ向かおう。
-風の向くまま、気の向くまま……。</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_101&lt;tab&gt;ほう、どうも森の方に風が向いているようだ。
-モモジゴよ、森の都へと参ろうぞ。</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_102&lt;tab&gt;森都といえば、グ、「グリダニア」か。
-あそこは……まあ、いいや、向かおうか。</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_098&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="147" approved="yes"><source>147</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_105&lt;tab&gt;ハ、ハハハ……あ、相変わらずいい街だね。</target></trans-unit><trans-unit id="148" approved="yes"><source>148</source><target state="final">TEXT_JOBSAM540_02562_GEGERUJU_000_099&lt;tab&gt;グルミ・ボルルミの奴は、
-越えてはならん一線を越えたのだ、当然の報いよ……。</target></trans-unit><trans-unit id="149" approved="yes"><source>149</source><target state="final">TEXT_JOBSAM540_02562_MUSOSAI_000_110&lt;tab&gt;森と調和した、素晴らしき街ではないか。
+しかし、この地には、なかなかおらんのが難点じゃのう……。</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_093&lt;tab&gt;ふう、解決したね。
+それにしても、爺さん、アンタすげー人らしいな？</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_094&lt;tab&gt;なあに、昔の話じゃ。
+今は気ままな、隠居の老いぼれよ……。</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_100_094&lt;tab&gt;グルミ・ボルルミの奴を片付けてくれたか。
+越えてはならん一線を越えたのだ、当然の報いよの……。</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_100_095&lt;tab&gt;この後始末は、任せておくがいい。
+ワシの私有地で起こったこと……外には漏らさぬ。</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_100_095&lt;tab&gt;何から何まで、かたじけない、恩に着る。</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_100_096&lt;tab&gt;これにて一件落着。
+悪の蔓延る世は栄え……</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_095&lt;tab&gt;爺さんっ！　大丈夫かっ！？</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_096&lt;tab&gt;ああ……案ずるでない。
+少し、疲れたまで……歳は取りたくないのう……。</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_100&lt;tab&gt;さあ、次の都へ向かおう。
+風の向くまま、気の向くまま……。</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_101&lt;tab&gt;ほう、どうも森の方に風が向いているようだ。
+モモジゴよ、森の都へと参ろうぞ。</target>
+			</trans-unit>
+			<trans-unit id="145" approved="yes">
+				<source>145</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_102&lt;tab&gt;森都といえば、グ、「グリダニア」か。
+あそこは……まあ、いいや、向かおうか。</target>
+			</trans-unit>
+			<trans-unit id="146" approved="yes">
+				<source>146</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_098&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="147" approved="yes">
+				<source>147</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_105&lt;tab&gt;ハ、ハハハ……あ、相変わらずいい街だね。</target>
+			</trans-unit>
+			<trans-unit id="148" approved="yes">
+				<source>148</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_GEGERUJU_000_099&lt;tab&gt;グルミ・ボルルミの奴は、
+越えてはならん一線を越えたのだ、当然の報いよ……。</target>
+			</trans-unit>
+			<trans-unit id="149" approved="yes">
+				<source>149</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MUSOSAI_000_110&lt;tab&gt;森と調和した、素晴らしき街ではないか。
 しかし、そんな街にも隠れた悪はいるもの。
-ワシらが探り当てるまで、お主は己で鍛錬を積んでおいてくれ。</target></trans-unit><trans-unit id="150" approved="yes"><source>150</source><target state="final">TEXT_JOBSAM540_02562_MOMOZIGO_000_111&lt;tab&gt;さ、さっそく、俺、この街の悪を探すため、
-情報収集に行ってくるよ～！</target></trans-unit></body></file></xliff>
+ワシらが探り当てるまで、お主は己で鍛錬を積んでおいてくれ。</target>
+			</trans-unit>
+			<trans-unit id="150" approved="yes">
+				<source>150</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM540_02562_MOMOZIGO_000_111&lt;tab&gt;さ、さっそく、俺、この街の悪を探すため、
+情報収集に行ってくるよ～！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

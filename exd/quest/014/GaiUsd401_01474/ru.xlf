@@ -1,7 +1,929 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="GaiUsd401_01474" datatype="plaintext" source-language="en" target-language="ru" xml:space="preserve"><body><trans-unit id="0" approved="no"><source>0</source><target state="translated">TEXT_GAIUSD401_01474_SEQ_00&lt;tab&gt;Рамброс разочарован тем, что экспедиция команды «Ной» в Кристальную Башню совсем не продвигается.</target></trans-unit><trans-unit id="1" approved="no"><source>1</source><target state="translated">TEXT_GAIUSD401_01474_SEQ_01&lt;tab&gt;Рамброс сообщил вам, что исследование Кристальной Башни не может продолжаться по довольно глупой причине: на пути оказались ворота, которые не получается открыть. Пока Сид и Г'раха Тиа ломали голову, пытаясь найти решение, объявились два странных человека и предложили помощь. Они представились как Дога и Уней, учёные Балдесиана, специализирующиеся на истории древнего Аллага. Хотя Рамброс поначалу отнёсся к ним с подозрением, Г'раха Тиа всё же убедил его позволить им присоединиться с команде "Ной" в качестве консультантов. Без лишних церемоний Догу и Уней попросили осмотреть запертые ворота, ведущие в Башню Сиркус. Сопроводите новоприбывших учёных к Восьми Стражам и поговорите с Биггсом.</target></trans-unit><trans-unit id="2" approved="no"><source>2</source><target state="translated">TEXT_GAIUSD401_01474_SEQ_02&lt;tab&gt;К общему изумлению, Дога и Уней открыли ворота с такой лёгкостью, словно они были рождены для этого. Поговорите с Догой и выясните, как им это удалось.</target></trans-unit><trans-unit id="3" approved="no"><source>3</source><target state="translated">TEXT_GAIUSD401_01474_SEQ_03&lt;tab&gt;Дога и Уней заявили, что являются «клонами» – копиями двух людей, которые называли себя потомками императора Занде, основателя Аллаганской империи. Занде мечтал завоевать весь мир и ради этого решил использовать тёмные силы. Настоящих Догу и Уней испугали его зловещие планы, и они пытались помешать императору. Они наделили клонов собственной волей, чтобы те могли продолжить работу в случае их гибели. Теперь, после тысячелетнего сна, два клона хотят закончить то, что начали их создатели, но им нужна ваша помощь. Члены команды "Ной" единогласно откликнулись на их призыв. Рамброс поручил вам уничтожить любые враждебные силы в Башне Сиркус и наконец-то победить императора Занде. Когда будете готовы к походу, поговорите с Г'рахой Тиа.</target></trans-unit><trans-unit id="4" approved="no"><source>4</source><target state="translated">TEXT_GAIUSD401_01474_SEQ_04&lt;tab&gt;Вы сообщили Г'рахе Тиа о своей готовности войти в Башню Сиркус. Пробейтесь с боем к вершине башни и сразите императора Занде.
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="GaiUsd401_01474" datatype="plaintext" source-language="en" target-language="ru">
+		<body>
+			<trans-unit id="0" approved="no">
+				<source>0</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_SEQ_00&lt;tab&gt;Рамброс разочарован тем, что экспедиция команды «Ной» в Кристальную Башню совсем не продвигается.</target>
+			</trans-unit>
+			<trans-unit id="1" approved="no">
+				<source>1</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_SEQ_01&lt;tab&gt;Рамброс сообщил вам, что исследование Кристальной Башни не может продолжаться по довольно глупой причине: на пути оказались ворота, которые не получается открыть. Пока Сид и Г'раха Тиа ломали голову, пытаясь найти решение, объявились два странных человека и предложили помощь. Они представились как Дога и Уней, учёные Балдесиана, специализирующиеся на истории древнего Аллага. Хотя Рамброс поначалу отнёсся к ним с подозрением, Г'раха Тиа всё же убедил его позволить им присоединиться с команде "Ной" в качестве консультантов. Без лишних церемоний Догу и Уней попросили осмотреть запертые ворота, ведущие в Башню Сиркус. Сопроводите новоприбывших учёных к Восьми Стражам и поговорите с Биггсом.</target>
+			</trans-unit>
+			<trans-unit id="2" approved="no">
+				<source>2</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_SEQ_02&lt;tab&gt;К общему изумлению, Дога и Уней открыли ворота с такой лёгкостью, словно они были рождены для этого. Поговорите с Догой и выясните, как им это удалось.</target>
+			</trans-unit>
+			<trans-unit id="3" approved="no">
+				<source>3</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_SEQ_03&lt;tab&gt;Дога и Уней заявили, что являются «клонами» – копиями двух людей, которые называли себя потомками императора Занде, основателя Аллаганской империи. Занде мечтал завоевать весь мир и ради этого решил использовать тёмные силы. Настоящих Догу и Уней испугали его зловещие планы, и они пытались помешать императору. Они наделили клонов собственной волей, чтобы те могли продолжить работу в случае их гибели. Теперь, после тысячелетнего сна, два клона хотят закончить то, что начали их создатели, но им нужна ваша помощь. Члены команды "Ной" единогласно откликнулись на их призыв. Рамброс поручил вам уничтожить любые враждебные силы в Башне Сиркус и наконец-то победить императора Занде. Когда будете готовы к походу, поговорите с Г'рахой Тиа.</target>
+			</trans-unit>
+			<trans-unit id="4" approved="no">
+				<source>4</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_SEQ_04&lt;tab&gt;Вы сообщили Г'рахе Тиа о своей готовности войти в Башню Сиркус. Пробейтесь с боем к вершине башни и сразите императора Занде.
 
-※Войти в «Башню Сиркус» можно с помощью функции «Поиск миссий».</target></trans-unit><trans-unit id="5" approved="no"><source>5</source><target state="translated">TEXT_GAIUSD401_01474_SEQ_05&lt;tab&gt;Вы победили Занде, но радость от победы была недолгой. Как только Дога и Уней попытались разорвать тёмный договор, заключённый императором, некая сущность, назвавшая себя Облаком Тьмы, втянула их в пространственный разлом, который возник прямо перед троном. Неро, руководствуясь какими-то своими мотивами, сделал попытку их спасти, но в итоге лишь разделил их судьбу.</target></trans-unit><trans-unit id="6" approved="no"><source>6</source><target state="translated">TEXT_GAIUSD401_01474_SEQ_06&lt;tab&gt;Разлом исчез, и теперь вы никак не можете помочь своим друзьям. Вернитесь в Находку Святого Конаха и посоветуйтесь с Рамбросом. Возможно, он знает, как их вернуть.</target></trans-unit><trans-unit id="7" approved="no"><source>7</source><target state="translated">TEXT_GAIUSD401_01474_SEQ_07&lt;tab&gt;Рамброс считает, что Дога, Уней и Неро через пространственный разлом попали в бездну. Члены команды "Ной" полны решимости спасти своих товарищей и устранить угрозу, исходящую от Облака Тьмы, хотя никто еще не знает, как это сделать. Рамброс пообещал, что найдёт способ. Пока что вы можете отдохнуть и подготовиться к грядущей спасательной операции. Вне всякого сомнения, вам предстоит сыграть в ней ключевую роль.</target></trans-unit><trans-unit id="24" approved="no"><source>24</source><target state="translated">TEXT_GAIUSD401_01474_TODO_00&lt;tab&gt;Поговорите с Биггсом у Восьми Стражей.</target></trans-unit><trans-unit id="25" approved="no"><source>25</source><target state="translated">TEXT_GAIUSD401_01474_TODO_01&lt;tab&gt;Поговорите с Догой у Восьми Стражей.</target></trans-unit><trans-unit id="26" approved="no"><source>26</source><target state="translated">TEXT_GAIUSD401_01474_TODO_02&lt;tab&gt;Поговорите с Г'рахой Тиа у Восьми Стражей.</target></trans-unit><trans-unit id="27" approved="no"><source>27</source><target state="translated">TEXT_GAIUSD401_01474_TODO_03&lt;tab&gt;Войдите в Башню Сиркус.</target></trans-unit><trans-unit id="28" approved="no"><source>28</source><target state="translated">TEXT_GAIUSD401_01474_TODO_04&lt;tab&gt;Войдите в Башню Сиркус.</target></trans-unit><trans-unit id="29" approved="no"><source>29</source><target state="translated">TEXT_GAIUSD401_01474_TODO_05&lt;tab&gt;Поговорите с Рамбросом.</target></trans-unit><trans-unit id="48" approved="no"><source>48</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_000&lt;tab&gt;А, это вы, &lt;var 08 E905 ((моя дорогая)) ((дорогой друг)) /var&gt;. Не сомневаюсь, вам не терпится узнать, каких успехов в изучении Кристальной Башни мы добились.</target></trans-unit><trans-unit id="49" approved="no"><source>49</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_001&lt;tab&gt;Отлично, я был бы разочарован, если бы услышал другой ответ. Хотя последние несколько дней я ничего не чувствую, кроме разочарования. Стыдно сказать, но мне нечем похвастаться. Успехов нет.</target></trans-unit><trans-unit id="50" approved="no"><source>50</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_002&lt;tab&gt;Сыны продолжают исследовать Лабиринт Древних, и каждый день приносит новые открытия. Увы, этого нельзя сказать о самой Кристальной Башне. Мы не смогли в неё войти. Даже через порог не переступили.</target></trans-unit><trans-unit id="51" approved="no"><source>51</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_003&lt;tab&gt;Вы ведь помните, как в самом начале Восемь Стражей помешали нам войти в лабиринт.</target></trans-unit><trans-unit id="52" approved="no"><source>52</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_004&lt;tab&gt;Оказалось, что главный шпиль — аллагцы называли его Башней Сиркус, — тоже защищен технологиями, куда более продвинутыми, чем наши.</target></trans-unit><trans-unit id="53" approved="no"><source>53</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_005&lt;tab&gt;Мы с Сидом перепробовали все известные нам приёмы, но ничего не добились. Откровенно говоря, мы в полной растерянности.</target></trans-unit><trans-unit id="54" approved="no"><source>54</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_006&lt;tab&gt;Ситуация удручающая, но мы не можем сдаться. &lt;var 1A 02 /var&gt;Должен&lt;var 1A 01 /var&gt; быть способ войти.</target></trans-unit><trans-unit id="55" approved="no"><source>55</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_007&lt;tab&gt;...Вот так обстоят дела, &lt;var 08 E905 ((моя дорогая)) ((друг мой)) /var&gt;. Пока мы не придумаем, как проникнуть в основной шпиль, боюсь, у нас не будет способа применить ваши таланты. Мне тоже не нравится, что на это уходит столько времени, но я намерен поручить своим людям изучать все древние тексты, какие есть у нас под рукой.</target></trans-unit><trans-unit id="56" approved="no"><source>56</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_008&lt;tab&gt;(-???-)Полагаю, мы можем вам помочь.</target></trans-unit><trans-unit id="57" approved="no"><source>57</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_009&lt;tab&gt;А вы?..</target></trans-unit><trans-unit id="58" approved="no"><source>58</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_010&lt;tab&gt;(-???-)Не волнуйтесь, друзья, у нас с вами общая цель.</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_GAIUSD401_01474_UNEI_000_011&lt;tab&gt;Я Уней, а моего спутника зовут Дога. Нас прислали Учёные Балдесиана, чтобы помочь вам. Мы специализируемся на истории аллаганской цивилизации.</target></trans-unit><trans-unit id="60" approved="no"><source>60</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_012&lt;tab&gt;Уней и Дога? Весьма необычные имена для нашего времени, уж простите меня за это замечание. Впрочем, не важно.</target></trans-unit><trans-unit id="61" approved="no"><source>61</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_013&lt;tab&gt;Вы утверждаете, что вас прислали Учёные Балдесиана, но нас никто об этом не предупреждал. Согласитесь, у нас есть причины не доверять вам.</target></trans-unit><trans-unit id="62" approved="no"><source>62</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_014&lt;tab&gt;Вы утверждаете, что вас прислали Учёные Балдесиана, но нас никто об этом не предупреждал. Кроме того, в свете недавнего инцидента на острове Уэл, я думаю, они сейчас заняты несколько иными проблемами.</target></trans-unit><trans-unit id="63" approved="no"><source>63</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_015&lt;tab&gt;Могу лишь предположить, что письмо не добралось до вас из-за какой-то ошибки. Уверяю, мы здесь, чтобы вам помочь.</target></trans-unit><trans-unit id="64" approved="no"><source>64</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_016&lt;tab&gt;Г'раха, что-то не так?</target></trans-unit><trans-unit id="65" approved="no"><source>65</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_017&lt;tab&gt;Агрх... Всё в порядке. Вдруг стало... больно. Но боль сразу утихла.</target></trans-unit><trans-unit id="66" approved="no"><source>66</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_018&lt;tab&gt;Как интересно. Ваш правый глаз того же цвета, что и у нас.</target></trans-unit><trans-unit id="67" approved="no"><source>67</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_019&lt;tab&gt;Того же? Вы... у вас тоже аллаганские глаза?</target></trans-unit><trans-unit id="68" approved="no"><source>68</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_020&lt;tab&gt;Говорят, глаза красного цвета были только у аллаганцев! И всё же я унаследовал такой глаз от своего отца, как и он от своего.</target></trans-unit><trans-unit id="69" approved="no"><source>69</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_021&lt;tab&gt;За целое поколение только один ребёнок рождается с таким глазом. Всю свою жизнь я пытался выяснить, какова его природа. Если вам что-то известно, умоляю, расскажите мне!</target></trans-unit><trans-unit id="70" approved="no"><source>70</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_022&lt;tab&gt;Простите, но у нас нет для вас ответов. Могу сказать лишь одно: судьбы всех людей, которые рождаются с такими глазами, неразрывно связаны с Аллагом.</target></trans-unit><trans-unit id="71" approved="no"><source>71</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_023&lt;tab&gt;Ваш глаз привёл вас в это место. Также и мы пришли сюда, чтобы исполнить наше предназначение. Как бы абсурдно это ни звучало, это правда.</target></trans-unit><trans-unit id="72" approved="no"><source>72</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_024&lt;tab&gt;Мне кажется, мы ничего не потеряем, если примем их помощь. Что скажете?</target></trans-unit><trans-unit id="73" approved="no"><source>73</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_025&lt;tab&gt;Если желаешь, так тому и быть.</target></trans-unit><trans-unit id="74" approved="no"><source>74</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_026&lt;tab&gt;Но учтите, я намерен связаться с Учёными Балдесиана и проверить вашу историю, как только появится возможность. Надеюсь, никто не возражает.</target></trans-unit><trans-unit id="75" approved="no"><source>75</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_027&lt;tab&gt;Хорошо. С этого момента Уней и Дога назначаются консультантами команды «Ной». А теперь, чтобы не откладывать это дело в долгий ящик, предлагаю вам осмотреть вход в Башню Сиркус.</target></trans-unit><trans-unit id="76" approved="no"><source>76</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_028&lt;tab&gt;Обещаю, у вас не будет причин сожалеть о вашем решении.</target></trans-unit><trans-unit id="77" approved="no"><source>77</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_029&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, буду очень признателен, если вы сопроводите наших новых друзей к Башне. Биггс и Ведж в данный момент осматривают Восемь Стражей. Эта парочка укажет вам путь.</target></trans-unit><trans-unit id="78" approved="no"><source>78</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_030&lt;tab&gt;По прибытии поговорите с мастером Гарлондом. Он проинформирует вас о текущей ситуации.</target></trans-unit><trans-unit id="79" approved="no"><source>79</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_031&lt;tab&gt;Я тоже пойду с тобой, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;. Знаешь, у тебя есть это сверхъестественное умение приводить историю в движение. К тому же теперь с нами Уней и Дога, так что, надеюсь, дело сдвинется с мёртвой точки.</target></trans-unit><trans-unit id="80" approved="no"><source>80</source><target state="translated">TEXT_GAIUSD401_01474_WEDGE_000_040&lt;tab&gt;Мы осматриваем обломки в надежде найти хоть какую-нибудь подсказку, как проникнуть в Башню Сиркус.
-...По нам видно, что мы в отчаянии?</target></trans-unit><trans-unit id="81" approved="no"><source>81</source><target state="translated">TEXT_GAIUSD401_01474_BIGGS_000_050&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, здравствуй! Готов поспорить, ты хочешь войти в Башню Сиркус и истребить там всё, что шевелится, да? Всё не так просто. Башня заперта наглухо, тараном не пробьёшь.</target></trans-unit><trans-unit id="82" approved="no"><source>82</source><target state="translated">TEXT_GAIUSD401_01474_BIGGS_000_051&lt;tab&gt;...Говоришь, прибыли новые друзья? Учёные Балдесиана? Отлично! У шефа дела продвигались медленно — вернее, совсем &lt;var 1A 02 /var&gt;не&lt;var 1A 01 /var&gt; продвигались. Он не откажется от помощи.</target></trans-unit><trans-unit id="83" approved="no"><source>83</source><target state="translated">TEXT_GAIUSD401_01474_BIGGS_000_052&lt;tab&gt;Следуйте за мной, я провожу вас к нему.</target></trans-unit><trans-unit id="84" approved="no"><source>84</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_060&lt;tab&gt;Ба, знакомые лица, как я рад вас видеть!... И парочка новых лиц в придачу.</target></trans-unit><trans-unit id="85" approved="no"><source>85</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_061&lt;tab&gt;Это Уней и Дога. Они представляют Учёных Балдесиана, прибыли сюда, чтобы помочь нам. Оба изучали историю древнего Аллага.</target></trans-unit><trans-unit id="86" approved="no"><source>86</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_062&lt;tab&gt;Нам сказали, что у вас не получается обойти систему защиты башни. Надеюсь, мы сможем помочь.</target></trans-unit><trans-unit id="87" approved="no"><source>87</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_063&lt;tab&gt;Одеяния у вас подходящие. Я заранее благодарен вам за помощь.</target></trans-unit><trans-unit id="88" approved="no"><source>88</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_064&lt;tab&gt;Для начала давайте объясню, что у нас здесь. Перед вами вход в Башню Сиркус. Это главная часть большого комплекса, известного под общим названием Кристальная Башня.</target></trans-unit><trans-unit id="89" approved="no"><source>89</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_065&lt;tab&gt;Внутрь можно попасть только через парадную дверь — через эти самые ворота, которые вы видите перед собой. Проблема в том, что они не открываются. Запечатаны механизмом, принцип работы которого мы понять не можем.</target></trans-unit><trans-unit id="90" approved="no"><source>90</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_066&lt;tab&gt;После того как &lt;var 1A 02 /var&gt;ортодоксальные&lt;var 1A 01 /var&gt; методы не принесли успеха, я перепробовал на этих вратах всё — от кирки до магитеховой пушки. Но их даже поцарапать оказалось невозможно.</target></trans-unit><trans-unit id="91" approved="no"><source>91</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_067&lt;tab&gt;К счастью, врата хотя бы не пытаются превратить нас в пепел, как Восемь Стражей. Но они всё равно оказались очень эффективной мерой безопасности. Я уже готов на стенку лезть. Такое простое препятствие — и мы ничего не можем сделать.</target></trans-unit><trans-unit id="92" approved="no"><source>92</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_068&lt;tab&gt;Единственная подсказка, которая у нас есть, — это барельефы на вратах. Мужчина и женщина, изображены вертикально и лицом друг к другу. Я думаю, это члены аллаганской королевской семьи.</target></trans-unit><trans-unit id="93" approved="no"><source>93</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_069&lt;tab&gt;Впрочем, мы не знаем, кем именно были эти люди. Также неизвестно, есть ли у барельефов какое-то практическое значение или они чисто декоративные.</target></trans-unit><trans-unit id="94" approved="no"><source>94</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_070&lt;tab&gt;Если хотите выломать ворота силой, не стоит и пытаться. Уж поверьте, я пробовал много раз, а получил только мозоли на руках.</target></trans-unit><trans-unit id="95" approved="no"><source>95</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_071&lt;tab&gt;Не волнуйтесь, мы не собираемся тратить силы понапрасну.</target></trans-unit><trans-unit id="96" approved="no"><source>96</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_072&lt;tab&gt;Верно. Зачем нам напрягаться... если врата откроются сами собой?</target></trans-unit><trans-unit id="97" approved="no"><source>97</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_073&lt;tab&gt;&lt;var 1A 02 /var&gt;Такого&lt;var 1A 01 /var&gt; мы точно не ожидали...</target></trans-unit><trans-unit id="98" approved="no"><source>98</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_074&lt;tab&gt;Седьмое пекло... Что это? Что вы сделали? Кто... Кто вы такие?</target></trans-unit><trans-unit id="99" approved="no"><source>99</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_075&lt;tab&gt;(-???-)«Дотянувшись до неба, собирает там свет
-Символ славы и мощи на тысячу лет».</target></trans-unit><trans-unit id="100" approved="no"><source>100</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_076&lt;tab&gt;(-???-)«И лишь тот золотую отпереть сможет дверь,
+※Войти в «Башню Сиркус» можно с помощью функции «Поиск миссий».</target>
+			</trans-unit>
+			<trans-unit id="5" approved="no">
+				<source>5</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_SEQ_05&lt;tab&gt;Вы победили Занде, но радость от победы была недолгой. Как только Дога и Уней попытались разорвать тёмный договор, заключённый императором, некая сущность, назвавшая себя Облаком Тьмы, втянула их в пространственный разлом, который возник прямо перед троном. Неро, руководствуясь какими-то своими мотивами, сделал попытку их спасти, но в итоге лишь разделил их судьбу.</target>
+			</trans-unit>
+			<trans-unit id="6" approved="no">
+				<source>6</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_SEQ_06&lt;tab&gt;Разлом исчез, и теперь вы никак не можете помочь своим друзьям. Вернитесь в Находку Святого Конаха и посоветуйтесь с Рамбросом. Возможно, он знает, как их вернуть.</target>
+			</trans-unit>
+			<trans-unit id="7" approved="no">
+				<source>7</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_SEQ_07&lt;tab&gt;Рамброс считает, что Дога, Уней и Неро через пространственный разлом попали в бездну. Члены команды "Ной" полны решимости спасти своих товарищей и устранить угрозу, исходящую от Облака Тьмы, хотя никто еще не знает, как это сделать. Рамброс пообещал, что найдёт способ. Пока что вы можете отдохнуть и подготовиться к грядущей спасательной операции. Вне всякого сомнения, вам предстоит сыграть в ней ключевую роль.</target>
+			</trans-unit>
+			<trans-unit id="24" approved="no">
+				<source>24</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_TODO_00&lt;tab&gt;Поговорите с Биггсом у Восьми Стражей.</target>
+			</trans-unit>
+			<trans-unit id="25" approved="no">
+				<source>25</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_TODO_01&lt;tab&gt;Поговорите с Догой у Восьми Стражей.</target>
+			</trans-unit>
+			<trans-unit id="26" approved="no">
+				<source>26</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_TODO_02&lt;tab&gt;Поговорите с Г'рахой Тиа у Восьми Стражей.</target>
+			</trans-unit>
+			<trans-unit id="27" approved="no">
+				<source>27</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_TODO_03&lt;tab&gt;Войдите в Башню Сиркус.</target>
+			</trans-unit>
+			<trans-unit id="28" approved="no">
+				<source>28</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_TODO_04&lt;tab&gt;Войдите в Башню Сиркус.</target>
+			</trans-unit>
+			<trans-unit id="29" approved="no">
+				<source>29</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_TODO_05&lt;tab&gt;Поговорите с Рамбросом.</target>
+			</trans-unit>
+			<trans-unit id="48" approved="no">
+				<source>48</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_000&lt;tab&gt;А, это вы, &lt;var 08 E905 ((моя дорогая)) ((дорогой друг)) /var&gt;. Не сомневаюсь, вам не терпится узнать, каких успехов в изучении Кристальной Башни мы добились.</target>
+			</trans-unit>
+			<trans-unit id="49" approved="no">
+				<source>49</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_001&lt;tab&gt;Отлично, я был бы разочарован, если бы услышал другой ответ. Хотя последние несколько дней я ничего не чувствую, кроме разочарования. Стыдно сказать, но мне нечем похвастаться. Успехов нет.</target>
+			</trans-unit>
+			<trans-unit id="50" approved="no">
+				<source>50</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_002&lt;tab&gt;Сыны продолжают исследовать Лабиринт Древних, и каждый день приносит новые открытия. Увы, этого нельзя сказать о самой Кристальной Башне. Мы не смогли в неё войти. Даже через порог не переступили.</target>
+			</trans-unit>
+			<trans-unit id="51" approved="no">
+				<source>51</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_003&lt;tab&gt;Вы ведь помните, как в самом начале Восемь Стражей помешали нам войти в лабиринт.</target>
+			</trans-unit>
+			<trans-unit id="52" approved="no">
+				<source>52</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_004&lt;tab&gt;Оказалось, что главный шпиль — аллагцы называли его Башней Сиркус, — тоже защищен технологиями, куда более продвинутыми, чем наши.</target>
+			</trans-unit>
+			<trans-unit id="53" approved="no">
+				<source>53</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_005&lt;tab&gt;Мы с Сидом перепробовали все известные нам приёмы, но ничего не добились. Откровенно говоря, мы в полной растерянности.</target>
+			</trans-unit>
+			<trans-unit id="54" approved="no">
+				<source>54</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_006&lt;tab&gt;Ситуация удручающая, но мы не можем сдаться. &lt;var 1A 02 /var&gt;Должен&lt;var 1A 01 /var&gt; быть способ войти.</target>
+			</trans-unit>
+			<trans-unit id="55" approved="no">
+				<source>55</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_007&lt;tab&gt;...Вот так обстоят дела, &lt;var 08 E905 ((моя дорогая)) ((друг мой)) /var&gt;. Пока мы не придумаем, как проникнуть в основной шпиль, боюсь, у нас не будет способа применить ваши таланты. Мне тоже не нравится, что на это уходит столько времени, но я намерен поручить своим людям изучать все древние тексты, какие есть у нас под рукой.</target>
+			</trans-unit>
+			<trans-unit id="56" approved="no">
+				<source>56</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_008&lt;tab&gt;(-???-)Полагаю, мы можем вам помочь.</target>
+			</trans-unit>
+			<trans-unit id="57" approved="no">
+				<source>57</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_009&lt;tab&gt;А вы?..</target>
+			</trans-unit>
+			<trans-unit id="58" approved="no">
+				<source>58</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_010&lt;tab&gt;(-???-)Не волнуйтесь, друзья, у нас с вами общая цель.</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_011&lt;tab&gt;Я Уней, а моего спутника зовут Дога. Нас прислали Учёные Балдесиана, чтобы помочь вам. Мы специализируемся на истории аллаганской цивилизации.</target>
+			</trans-unit>
+			<trans-unit id="60" approved="no">
+				<source>60</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_012&lt;tab&gt;Уней и Дога? Весьма необычные имена для нашего времени, уж простите меня за это замечание. Впрочем, не важно.</target>
+			</trans-unit>
+			<trans-unit id="61" approved="no">
+				<source>61</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_013&lt;tab&gt;Вы утверждаете, что вас прислали Учёные Балдесиана, но нас никто об этом не предупреждал. Согласитесь, у нас есть причины не доверять вам.</target>
+			</trans-unit>
+			<trans-unit id="62" approved="no">
+				<source>62</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_014&lt;tab&gt;Вы утверждаете, что вас прислали Учёные Балдесиана, но нас никто об этом не предупреждал. Кроме того, в свете недавнего инцидента на острове Уэл, я думаю, они сейчас заняты несколько иными проблемами.</target>
+			</trans-unit>
+			<trans-unit id="63" approved="no">
+				<source>63</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_015&lt;tab&gt;Могу лишь предположить, что письмо не добралось до вас из-за какой-то ошибки. Уверяю, мы здесь, чтобы вам помочь.</target>
+			</trans-unit>
+			<trans-unit id="64" approved="no">
+				<source>64</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_016&lt;tab&gt;Г'раха, что-то не так?</target>
+			</trans-unit>
+			<trans-unit id="65" approved="no">
+				<source>65</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_017&lt;tab&gt;Агрх... Всё в порядке. Вдруг стало... больно. Но боль сразу утихла.</target>
+			</trans-unit>
+			<trans-unit id="66" approved="no">
+				<source>66</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_018&lt;tab&gt;Как интересно. Ваш правый глаз того же цвета, что и у нас.</target>
+			</trans-unit>
+			<trans-unit id="67" approved="no">
+				<source>67</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_019&lt;tab&gt;Того же? Вы... у вас тоже аллаганские глаза?</target>
+			</trans-unit>
+			<trans-unit id="68" approved="no">
+				<source>68</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_020&lt;tab&gt;Говорят, глаза красного цвета были только у аллаганцев! И всё же я унаследовал такой глаз от своего отца, как и он от своего.</target>
+			</trans-unit>
+			<trans-unit id="69" approved="no">
+				<source>69</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_021&lt;tab&gt;За целое поколение только один ребёнок рождается с таким глазом. Всю свою жизнь я пытался выяснить, какова его природа. Если вам что-то известно, умоляю, расскажите мне!</target>
+			</trans-unit>
+			<trans-unit id="70" approved="no">
+				<source>70</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_022&lt;tab&gt;Простите, но у нас нет для вас ответов. Могу сказать лишь одно: судьбы всех людей, которые рождаются с такими глазами, неразрывно связаны с Аллагом.</target>
+			</trans-unit>
+			<trans-unit id="71" approved="no">
+				<source>71</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_023&lt;tab&gt;Ваш глаз привёл вас в это место. Также и мы пришли сюда, чтобы исполнить наше предназначение. Как бы абсурдно это ни звучало, это правда.</target>
+			</trans-unit>
+			<trans-unit id="72" approved="no">
+				<source>72</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_024&lt;tab&gt;Мне кажется, мы ничего не потеряем, если примем их помощь. Что скажете?</target>
+			</trans-unit>
+			<trans-unit id="73" approved="no">
+				<source>73</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_025&lt;tab&gt;Если желаешь, так тому и быть.</target>
+			</trans-unit>
+			<trans-unit id="74" approved="no">
+				<source>74</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_026&lt;tab&gt;Но учтите, я намерен связаться с Учёными Балдесиана и проверить вашу историю, как только появится возможность. Надеюсь, никто не возражает.</target>
+			</trans-unit>
+			<trans-unit id="75" approved="no">
+				<source>75</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_027&lt;tab&gt;Хорошо. С этого момента Уней и Дога назначаются консультантами команды «Ной». А теперь, чтобы не откладывать это дело в долгий ящик, предлагаю вам осмотреть вход в Башню Сиркус.</target>
+			</trans-unit>
+			<trans-unit id="76" approved="no">
+				<source>76</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_028&lt;tab&gt;Обещаю, у вас не будет причин сожалеть о вашем решении.</target>
+			</trans-unit>
+			<trans-unit id="77" approved="no">
+				<source>77</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_029&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, буду очень признателен, если вы сопроводите наших новых друзей к Башне. Биггс и Ведж в данный момент осматривают Восемь Стражей. Эта парочка укажет вам путь.</target>
+			</trans-unit>
+			<trans-unit id="78" approved="no">
+				<source>78</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_030&lt;tab&gt;По прибытии поговорите с мастером Гарлондом. Он проинформирует вас о текущей ситуации.</target>
+			</trans-unit>
+			<trans-unit id="79" approved="no">
+				<source>79</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_031&lt;tab&gt;Я тоже пойду с тобой, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;. Знаешь, у тебя есть это сверхъестественное умение приводить историю в движение. К тому же теперь с нами Уней и Дога, так что, надеюсь, дело сдвинется с мёртвой точки.</target>
+			</trans-unit>
+			<trans-unit id="80" approved="no">
+				<source>80</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_WEDGE_000_040&lt;tab&gt;Мы осматриваем обломки в надежде найти хоть какую-нибудь подсказку, как проникнуть в Башню Сиркус.
+...По нам видно, что мы в отчаянии?</target>
+			</trans-unit>
+			<trans-unit id="81" approved="no">
+				<source>81</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_BIGGS_000_050&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, здравствуй! Готов поспорить, ты хочешь войти в Башню Сиркус и истребить там всё, что шевелится, да? Всё не так просто. Башня заперта наглухо, тараном не пробьёшь.</target>
+			</trans-unit>
+			<trans-unit id="82" approved="no">
+				<source>82</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_BIGGS_000_051&lt;tab&gt;...Говоришь, прибыли новые друзья? Учёные Балдесиана? Отлично! У шефа дела продвигались медленно — вернее, совсем &lt;var 1A 02 /var&gt;не&lt;var 1A 01 /var&gt; продвигались. Он не откажется от помощи.</target>
+			</trans-unit>
+			<trans-unit id="83" approved="no">
+				<source>83</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_BIGGS_000_052&lt;tab&gt;Следуйте за мной, я провожу вас к нему.</target>
+			</trans-unit>
+			<trans-unit id="84" approved="no">
+				<source>84</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_060&lt;tab&gt;Ба, знакомые лица, как я рад вас видеть!... И парочка новых лиц в придачу.</target>
+			</trans-unit>
+			<trans-unit id="85" approved="no">
+				<source>85</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_061&lt;tab&gt;Это Уней и Дога. Они представляют Учёных Балдесиана, прибыли сюда, чтобы помочь нам. Оба изучали историю древнего Аллага.</target>
+			</trans-unit>
+			<trans-unit id="86" approved="no">
+				<source>86</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_062&lt;tab&gt;Нам сказали, что у вас не получается обойти систему защиты башни. Надеюсь, мы сможем помочь.</target>
+			</trans-unit>
+			<trans-unit id="87" approved="no">
+				<source>87</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_063&lt;tab&gt;Одеяния у вас подходящие. Я заранее благодарен вам за помощь.</target>
+			</trans-unit>
+			<trans-unit id="88" approved="no">
+				<source>88</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_064&lt;tab&gt;Для начала давайте объясню, что у нас здесь. Перед вами вход в Башню Сиркус. Это главная часть большого комплекса, известного под общим названием Кристальная Башня.</target>
+			</trans-unit>
+			<trans-unit id="89" approved="no">
+				<source>89</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_065&lt;tab&gt;Внутрь можно попасть только через парадную дверь — через эти самые ворота, которые вы видите перед собой. Проблема в том, что они не открываются. Запечатаны механизмом, принцип работы которого мы понять не можем.</target>
+			</trans-unit>
+			<trans-unit id="90" approved="no">
+				<source>90</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_066&lt;tab&gt;После того как &lt;var 1A 02 /var&gt;ортодоксальные&lt;var 1A 01 /var&gt; методы не принесли успеха, я перепробовал на этих вратах всё — от кирки до магитеховой пушки. Но их даже поцарапать оказалось невозможно.</target>
+			</trans-unit>
+			<trans-unit id="91" approved="no">
+				<source>91</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_067&lt;tab&gt;К счастью, врата хотя бы не пытаются превратить нас в пепел, как Восемь Стражей. Но они всё равно оказались очень эффективной мерой безопасности. Я уже готов на стенку лезть. Такое простое препятствие — и мы ничего не можем сделать.</target>
+			</trans-unit>
+			<trans-unit id="92" approved="no">
+				<source>92</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_068&lt;tab&gt;Единственная подсказка, которая у нас есть, — это барельефы на вратах. Мужчина и женщина, изображены вертикально и лицом друг к другу. Я думаю, это члены аллаганской королевской семьи.</target>
+			</trans-unit>
+			<trans-unit id="93" approved="no">
+				<source>93</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_069&lt;tab&gt;Впрочем, мы не знаем, кем именно были эти люди. Также неизвестно, есть ли у барельефов какое-то практическое значение или они чисто декоративные.</target>
+			</trans-unit>
+			<trans-unit id="94" approved="no">
+				<source>94</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_070&lt;tab&gt;Если хотите выломать ворота силой, не стоит и пытаться. Уж поверьте, я пробовал много раз, а получил только мозоли на руках.</target>
+			</trans-unit>
+			<trans-unit id="95" approved="no">
+				<source>95</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_071&lt;tab&gt;Не волнуйтесь, мы не собираемся тратить силы понапрасну.</target>
+			</trans-unit>
+			<trans-unit id="96" approved="no">
+				<source>96</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_072&lt;tab&gt;Верно. Зачем нам напрягаться... если врата откроются сами собой?</target>
+			</trans-unit>
+			<trans-unit id="97" approved="no">
+				<source>97</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_073&lt;tab&gt;&lt;var 1A 02 /var&gt;Такого&lt;var 1A 01 /var&gt; мы точно не ожидали...</target>
+			</trans-unit>
+			<trans-unit id="98" approved="no">
+				<source>98</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_074&lt;tab&gt;Седьмое пекло... Что это? Что вы сделали? Кто... Кто вы такие?</target>
+			</trans-unit>
+			<trans-unit id="99" approved="no">
+				<source>99</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_075&lt;tab&gt;(-???-)«Дотянувшись до неба, собирает там свет
+Символ славы и мощи на тысячу лет».</target>
+			</trans-unit>
+			<trans-unit id="100" approved="no">
+				<source>100</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_076&lt;tab&gt;(-???-)«И лишь тот золотую отпереть сможет дверь,
 В чьих жилах течёт древних кровь королей».
-...Всё как в старинной легенде, это просто изумительно.</target></trans-unit><trans-unit id="101" approved="no"><source>101</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_077&lt;tab&gt;Прошу прощения, что прерываю вас. Просто вы нашли такие любопытные... &lt;var 1A 02 /var&gt;игрушки&lt;var 1A 01 /var&gt;.</target></trans-unit><trans-unit id="102" approved="no"><source>102</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_078&lt;tab&gt;Н-Неро?! Ты всё еще жив?!</target></trans-unit><trans-unit id="103" approved="no"><source>103</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_079&lt;tab&gt;Гарлонд, Гарлонд. Если бы я не знал тебя лучше, то решил бы, что ты не рад меня видеть... Шучу! Учитывая, как прошла наша предыдущая встреча, у тебя есть полное право быть настороже.</target></trans-unit><trans-unit id="104" approved="no"><source>104</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_080&lt;tab&gt;Не волнуйтесь, я больше не представляю для вас угрозы. Мой легион фактически больше не существует, а если я попытаюсь связаться с ним, это гарантирует мне билет в Гарлемалд — прямиком на виселицу. Так что с недавних пор я всего лишь обычный странник. Путешествую по Эорзии в своё удовольствие.</target></trans-unit><trans-unit id="105" approved="no"><source>105</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_081&lt;tab&gt;И вот, пока я странствовал, птичка нашептала мне о вашей экспедиции. Это было так интересно, что я решил прийти сюда и присоединиться к вам.</target></trans-unit><trans-unit id="106" approved="no"><source>106</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_082&lt;tab&gt;После всего, что ты натворил? Думаешь, мы настолько доверчивые?</target></trans-unit><trans-unit id="107" approved="no"><source>107</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_083&lt;tab&gt;Да, у вас есть причины сомневаться во мне. Но я полон решимости исправиться. И в качестве жеста доброй воли я расскажу вам всё, что знаю... а начну с &lt;var 1A 02 /var&gt;этих&lt;var 1A 01 /var&gt; двух странных персонажей.</target></trans-unit><trans-unit id="108" approved="no"><source>108</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_084&lt;tab&gt;Вы, несомненно, знаете, что Кристальная Башня была символом могущества и процветания древнего Аллага. Войти туда дозволялось только членам императорской семьи и отдельным избранным.</target></trans-unit><trans-unit id="109" approved="no"><source>109</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_085&lt;tab&gt;Судя по тем сведениям, которые я раскопал, открыть врата могли только люди, принадлежавшие к императорскому роду. Другими словами, император и его дети были живыми ключами.</target></trans-unit><trans-unit id="110" approved="no"><source>110</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_086&lt;tab&gt;Хочешь сказать, эти двое — потомки аллаганской императорской семьи?!</target></trans-unit><trans-unit id="111" approved="no"><source>111</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_087&lt;tab&gt;Не совсем.</target></trans-unit><trans-unit id="112" approved="no"><source>112</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_088&lt;tab&gt;Как бы объяснить попроще... Они представляют собой &lt;var 1A 02 /var&gt;имитации&lt;var 1A 01 /var&gt; царственных особ — живые ключи, созданные каким-то изобретательным аллагцем.</target></trans-unit><trans-unit id="113" approved="no"><source>113</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_089&lt;tab&gt;Полагаю, создатели называли вас «клонами». Верно я говорю?</target></trans-unit><trans-unit id="114" approved="no"><source>114</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_090&lt;tab&gt;Кажется, пришло время сбросить маски.</target></trans-unit><trans-unit id="115" approved="no"><source>115</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_091&lt;tab&gt;Прошу, простите нас. Мы не хотели никого обманывать. Если бы мы признались раньше времени, то вы испугались бы и приняли нас за безумцев.</target></trans-unit><trans-unit id="116" approved="no"><source>116</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_092&lt;tab&gt;Если вы не против, давайте вернёмся к Восьми Стражам. Нам многое нужно рассказать.</target></trans-unit><trans-unit id="117" approved="no"><source>117</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_093&lt;tab&gt;Хорошо.</target></trans-unit><trans-unit id="118" approved="no"><source>118</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_094&lt;tab&gt;Седьмое пекло... Ты &lt;var 1A 02 /var&gt;действительно&lt;var 1A 01 /var&gt; вознамерился к нам присоединиться?</target></trans-unit><trans-unit id="119" approved="no"><source>119</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_095&lt;tab&gt;Да брось, Гарлонд. Ты хорошо меня знаешь и должен понимать, что я вовсе не шутил. Что мне ещё сделать, чтобы мы, наконец, помирились? Может, хочешь подарок?</target></trans-unit><trans-unit id="120" approved="no"><source>120</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_096&lt;tab&gt;Вот, аллаганская скрижаль. На ней много разной информации, включая и то, что я только что вам рассказал. Прежде эта скрижаль была собственностью Четырнадцатого легиона и тщательно охранялась, а теперь она твоя. Приятного чтения, Сид.</target></trans-unit><trans-unit id="121" approved="no"><source>121</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_097&lt;tab&gt;Я уже предвкушаю, как мы будем работать вместе, старый друг.</target></trans-unit><trans-unit id="122" approved="no"><source>122</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_100&lt;tab&gt;Вы имеете полное право не доверять нам, но я прошу — пожалуйста, выслушайте нас. Мы так долго ждали возможности исполнить наше предназначение.</target></trans-unit><trans-unit id="123" approved="no"><source>123</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_105&lt;tab&gt;Давай послушаем, что Уней и Дога нам расскажут. После этого и решим, что нам делать дальше.</target></trans-unit><trans-unit id="124" approved="no"><source>124</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_110&lt;tab&gt;Неро мы доверять не можем, в этом я уверен на сто процентов. Не спускай с него глаз, ладно?</target></trans-unit><trans-unit id="125" approved="no"><source>125</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_115&lt;tab&gt;Слушай, может, у нас и были противоречия в прошлом, но что минуло, то сгинуло. Вчера мы были врагами, а сегодня можем подружиться. Верно я говорю, Воин Света?</target></trans-unit><trans-unit id="126" approved="no"><source>126</source><target state="translated">TEXT_GAIUSD401_01474_BIGGS_000_120&lt;tab&gt;Шеф и Неро знают друг друга со времён учёбы в Академии Магитех. Это особая школа в столице, куда принимают только детей имперской элиты.</target></trans-unit><trans-unit id="127" approved="no"><source>127</source><target state="translated">TEXT_GAIUSD401_01474_BIGGS_000_121&lt;tab&gt;Подробностей я не знаю, но, говорят, они ещё тогда друг друга терпеть не могли, и с тех пор мало что изменилось. Что за злая судьба снова свела их вместе?</target></trans-unit><trans-unit id="128" approved="no"><source>128</source><target state="translated">TEXT_GAIUSD401_01474_WEDGE_000_125&lt;tab&gt;Подумать только, что аллагцы умели копировать &lt;var 1A 02 /var&gt;людей&lt;var 1A 01 /var&gt;... Если эти знания попадут не в те руки, мир станет сплошным кошмаром. Как представлю себе, что вместо одного Биггса мне выносят мозг двенадцать его клонов...</target></trans-unit><trans-unit id="129" approved="no"><source>129</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_130&lt;tab&gt;Если вы готовы слушать, мы вам всё расскажем.</target></trans-unit><trans-unit id="130" approved="no"><source>130</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_131&lt;tab&gt;Ваш лидер, Рамброс, наверняка пожелает присутствовать. Ведь разговор будет касаться вашей экспедиции.</target></trans-unit><trans-unit id="131" approved="no"><source>131</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_140&lt;tab&gt;Прежде чем мы начнём, позвольте мне ещё раз принести извинения. Мы не собирались вас обманывать.</target></trans-unit><trans-unit id="132" approved="no"><source>132</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_141&lt;tab&gt;Вы уже знаете, что мы не имеем никакого отношения к Учёным Балдесиана. Мы клоны — копии людей, которые когда-то существовали. Аллаганская технология вдохнула в нас жизнь.</target></trans-unit><trans-unit id="133" approved="no"><source>133</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_142&lt;tab&gt;Всё фантастичнее и фантастичнее...</target></trans-unit><trans-unit id="134" approved="no"><source>134</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_100_142&lt;tab&gt;Не знаю, насколько вежливо задавать такой вопрос, но... для чего вы были созданы? Какова ваша цель?</target></trans-unit><trans-unit id="135" approved="no"><source>135</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_143&lt;tab&gt;Чтобы ответить на этот вопрос, нам нужно обратиться к истории Аллага.</target></trans-unit><trans-unit id="136" approved="no"><source>136</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_144&lt;tab&gt;Аллаганская империя достигла пика своего развития задолго до того, как мы появились на свет.</target></trans-unit><trans-unit id="137" approved="no"><source>137</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_145&lt;tab&gt;В те славные времена Кристальная Башня была символом гордости всех аллагцев. Родители приводили своих детей, чтобы показать им башню и рассказать о том, как она принесла процветание нашей цивилизации. Башня была источником практически бесконечной энергии.</target></trans-unit><trans-unit id="138" approved="no"><source>138</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_146&lt;tab&gt;Но со временем процветание сменилось упадком, и в Империи появились признаки застоя. В семье правителей не было сильных лидеров, из-за чего всё лишь усугублялось.</target></trans-unit><trans-unit id="139" approved="no"><source>139</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_147&lt;tab&gt;Спустя нескольких поколений аллаганская цивилизация стала бледной тенью самой себя. Города, прежде такие прекрасные, погрузились в разруху, а приграничные земли были отданы на откуп дикой природе.</target></trans-unit><trans-unit id="140" approved="no"><source>140</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_148&lt;tab&gt;Один учёный не мог смириться с тем, что Империя так выродилась. И он решил посвятить свою жизнь тому, чтобы вернуть Аллагу его величие.</target></trans-unit><trans-unit id="141" approved="no"><source>141</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_149&lt;tab&gt;Этого человека звали Амон, и он считал, что загнивающую страну может возродить только сильный правитель. А самым сильным лидером в истории Аллага был отец-основатель, которого Амон решил воскресить.</target></trans-unit><trans-unit id="142" approved="no"><source>142</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_150&lt;tab&gt;Отец-основатель? Только не говорите, что речь идёт об императоре Занде!</target></trans-unit><trans-unit id="143" approved="no"><source>143</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_151&lt;tab&gt;Вы угадали. Одним из экспериментов Амона стало создание клонов потомков императора. Мы и есть результаты этого эксперимента — копии Уней и Доги.</target></trans-unit><trans-unit id="144" approved="no"><source>144</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_152&lt;tab&gt;В исторических хрониках упоминаются два аллаганских императора, которые носили имя Занде.</target></trans-unit><trans-unit id="145" approved="no"><source>145</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_153&lt;tab&gt;Принято считать, что второй Занде просто взял себе имя предшественника. В те времена и царственные особы, и простолюдины так делали. Подумать только, фактически оба императора на самом деле были одним и тем же человеком...</target></trans-unit><trans-unit id="146" approved="no"><source>146</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_154&lt;tab&gt;Да, Занде был возвращён из мёртвых и занял трон. Как и предсказывал Амон, отец-основатель сумел возродить Империю, и она вновь стала великой и процветающей. И если бы только Занде удовлетворился этим...</target></trans-unit><trans-unit id="147" approved="no"><source>147</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_155&lt;tab&gt;В прежней жизни у императора была мечта — захватить весь мир под знаменем Аллага и господствовать всюду. Исполнить эту мечту он не успел, но, получив второй шанс, император решил во что бы то ни стало добиться своего.</target></trans-unit><trans-unit id="148" approved="no"><source>148</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_156&lt;tab&gt;Завоевательная война требовала много сил, и Занде обратил свой взор на запретный источник силы — тьму. Чтобы подчинить её своей власти, он превратил Кристальную Башню в оплот тайных исследований.</target></trans-unit><trans-unit id="149" approved="no"><source>149</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_157&lt;tab&gt;Тьма... &lt;var 1A 02 /var&gt;опять&lt;var 1A 01 /var&gt;? Седьмое пекло, откуда берутся эти тираны, страдающие манией величия, которые настолько жаждут власти, что им непременно нужно использовать запретные силы?</target></trans-unit><trans-unit id="150" approved="no"><source>150</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_158&lt;tab&gt;Ну, хотя бы этот Занде не доставит нам хлопот, раз уж он умер тысячу лет назад.</target></trans-unit><trans-unit id="151" approved="no"><source>151</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_159&lt;tab&gt;Хотел бы я сказать, что вы правы, мастер Гарлонд.</target></trans-unit><trans-unit id="152" approved="no"><source>152</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_160&lt;tab&gt;К сожалению, император Занде еще жив. Он обитает в Башне Сиркус, и, хотя его империя давным-давно обратилась в ничто, он по-прежнему одержим своей мечтой.</target></trans-unit><trans-unit id="153" approved="no"><source>153</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_170&lt;tab&gt;Использование тёмных сил требовало огромного количества энергии, и даже Кристальная Башня неспособна была выработать так много. Чтобы перекрыть недостаток, Занде поднял в небо искусственную луну — Даламуд. Там, в вышине, она собирала солнечную энергию и направляла её вниз, на Башню.</target></trans-unit><trans-unit id="154" approved="no"><source>154</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_171&lt;tab&gt;Однажды из-за ошибки в вычислениях произошёл выплеск энергии. Эта энергия ушла в землю и спровоцировала землетрясение небывалой силы; Катаклизм — так у вас принято говорить? Тогда и началась Четвертая Умбральная эра.</target></trans-unit><trans-unit id="155" approved="no"><source>155</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_172&lt;tab&gt;В мгновение ока могучая Аллаганская империя рухнула, как карточный домик.</target></trans-unit><trans-unit id="156" approved="no"><source>156</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_173&lt;tab&gt;Но когда Кристальная Башня стала погружаться под землю, учёный Амон, самый верный соратник императора Занде, использовал мощное заклинание и остановил течение времени.</target></trans-unit><trans-unit id="157" approved="no"><source>157</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_174&lt;tab&gt;Занде погрузился в глубокий сон вместе со всеми, кто был внутри башни, мечтая о том дне, когда он проснётся и, наконец, заставит весь мир склониться перед ним.</target></trans-unit><trans-unit id="158" approved="no"><source>158</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_175&lt;tab&gt;Время шло, эпохи сменяли друг друга. После тысячелетнего бездействия луна Даламуд была обрушена на землю, и произошёл Седьмой Умбральный Катаклизм. Кристальная Башня истолковала это как знак того, что пришло время вернуться на поверхность.</target></trans-unit><trans-unit id="159" approved="no"><source>159</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_176&lt;tab&gt;Тогда-то и пробудился император Занде.</target></trans-unit><trans-unit id="160" approved="no"><source>160</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_177&lt;tab&gt;Он так жаждал власти, что тьма полностью поработила его. И хотя от его империи остались лишь воспоминания, он не остановится ни перед чем, чтобы воплотить свою мечту.</target></trans-unit><trans-unit id="161" approved="no"><source>161</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_180&lt;tab&gt;Дога и я живём лишь ради того, чтобы положить конец безумию Занде. Это судьба, дарованная нам создателями — настоящими Уней и Догой.</target></trans-unit><trans-unit id="162" approved="no"><source>162</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_181&lt;tab&gt;Они понимали, какой страшный мир хочет построить Занде, и стремились помешать императору. Они наделили нас своей волей, чтобы мы могли завершить начатое, даже если они оба погибнут.</target></trans-unit><trans-unit id="163" approved="no"><source>163</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_182&lt;tab&gt;Мы очнулись внутри Кристальной Башни и сразу обдумали план действий. Поскольку мы сами не можем победить Занде, мы отправились искать сильных союзников. На это ушли годы, но теперь наши поиски, наконец, завершены.</target></trans-unit><trans-unit id="164" approved="no"><source>164</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_183&lt;tab&gt;Обычный человек неспособен пробиться через стражей Лабиринта Древних. Значит, если вы поможете нам, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, то мы точно одолеем Занде и положим конец его тёмным козням раз и навсегда.</target></trans-unit><trans-unit id="165" approved="no"><source>165</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_184&lt;tab&gt;То есть я рано радовался, что злой тиран остался в прошлом... Но если отбросить этот момент, теперь я понимаю, откуда вы знали об Учёных Балдесиана и прочем — вы всё это время наблюдали за нашей экспедицией.</target></trans-unit><trans-unit id="166" approved="no"><source>166</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_185&lt;tab&gt;Что будем делать, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;? Мир снова в опасности, и так уж вышло, что ты у нас главный эксперт по его спасению.</target></trans-unit><trans-unit id="167" approved="no"><source>167</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_186&lt;tab&gt;Мы в вечном долгу перед вами. Давайте вместе положим конец тёмному прошлому Аллаганской империи.</target></trans-unit><trans-unit id="168" approved="no"><source>168</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_187&lt;tab&gt;Целью нашей экспедиции было восстановление утерянных знаний аллаганской цивилизации. Но зачем нам эти знания, если ради них придётся подвергнуть опасности Эорзию?</target></trans-unit><trans-unit id="169" approved="no"><source>169</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_188&lt;tab&gt;Признаюсь, мне очень не нравится, что вместе с башней придётся похоронить все её секреты, но ради высшего блага нужно чем-то жертвовать. Кроме того, никакие древние реликвии не сравнятся с нашими друзьями Уней и Догой. Они же настоящие живые аллагцы!</target></trans-unit><trans-unit id="170" approved="no"><source>170</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_189&lt;tab&gt;Поэтому я официально объявляю, что цели команды «Ной» изменились. Мы сделаем всё возможное, чтобы запечатать Башню Сиркус. Её тёмные секреты должны быть заперты внутри — навечно.</target></trans-unit><trans-unit id="171" approved="no"><source>171</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_190&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, ты уже &lt;var 08 E905 ((успела)) ((успел)) /var&gt; побывать в Лабиринте Древних, а теперь я прошу тебя сделать такую же вылазку в Башню и уничтожить любые источники угрозы. Это касается и самого императора Занде.</target></trans-unit><trans-unit id="172" approved="no"><source>172</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_191&lt;tab&gt;Тем временем остальные должны найти способ изолировать Башню Сиркус от внешнего мира. Так, ребята, за работу!</target></trans-unit><trans-unit id="173" approved="no"><source>173</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_192&lt;tab&gt;Постойте. Я хочу задать вам один вопрос. Мой правый глаз того же цвета, что и ваши глаза. Неужели... неужели это значит...?</target></trans-unit><trans-unit id="174" approved="no"><source>174</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_193&lt;tab&gt;Вы сказали, что унаследовали эту черту от своего отца. А клоны не могут иметь потомства. У вас нет причин для беспокойства.</target></trans-unit><trans-unit id="175" approved="no"><source>175</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_194&lt;tab&gt;Вы назвали его аллаганским, но для нас это королевское око, ведь такие глаза бывают только у тех, в чьих жилах течёт кровь императора.</target></trans-unit><trans-unit id="176" approved="no"><source>176</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_195&lt;tab&gt;Я не знаю, почему в вашей семье это око стало наследственной чертой, но... вряд ли это простое совпадение.</target></trans-unit><trans-unit id="177" approved="no"><source>177</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_196&lt;tab&gt;Не сомневаюсь, что вы горите желанием поскорее раскрыть эту тайну, но наберитесь терпения. Всему своё время.</target></trans-unit><trans-unit id="178" approved="no"><source>178</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_200&lt;tab&gt;Дога и Уней были достойными людьми, пусть их имена и не вошли в историю. Оба были не без недостатков. Но превыше всего они ставили благо народа.</target></trans-unit><trans-unit id="179" approved="no"><source>179</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_201&lt;tab&gt;Когда Занде вернулся с того света и решил взойти на трон, они поддержали его в надежде, что под его руководством империя снова станет процветать.</target></trans-unit><trans-unit id="180" approved="no"><source>180</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_202&lt;tab&gt;Потом выяснилось, что Занде связался с тёмными силами, и тогда Уней и Дога попытались остановить его. Они сделали всё, что могли. Именно тогда они наделили нас, двух обычных клонов, своей волей.</target></trans-unit><trans-unit id="181" approved="no"><source>181</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_205&lt;tab&gt;В Башне Сиркус вам встретятся клоны, которые внешне похожи на нас.</target></trans-unit><trans-unit id="182" approved="no"><source>182</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_206&lt;tab&gt;Эти клоны тоже были созданы по образу и подобию Доги и Уней, но они лишь пустые оболочки, не имеющие собственной воли. Их единственная цель — уничтожать тех, кто незаконно проник в Башню.</target></trans-unit><trans-unit id="183" approved="no"><source>183</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_207&lt;tab&gt;Возможно, вам не понравится убивать существ, которые выглядят как мы с Уней, но поверьте, жалеть их не нужно.</target></trans-unit><trans-unit id="184" approved="no"><source>184</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_210&lt;tab&gt;Технологии сделали Аллаганскую империю великой, но они же обрекли её на гибель. А теперь гарлеанцы решили наступить на те же грабли, вот болваны. Правильно говорят: история движется по кругу.</target></trans-unit><trans-unit id="185" approved="no"><source>185</source><target state="translated">TEXT_GAIUSD401_01474_BIGGS_000_215&lt;tab&gt;...Неро? Он только что куда-то ушёл. Одни боги знают, что у этого мерзавца на уме. Моя воля — так я бы запер его в темнице, а ключ выбросил в Серебряное озеро.</target></trans-unit><trans-unit id="186" approved="no"><source>186</source><target state="translated">TEXT_GAIUSD401_01474_WEDGE_000_220&lt;tab&gt;Пока ты будешь зачищать Башню Сиркус от всяких гадостей, мы с Биггсом пройдемся по Лабиринту и проверим, не осталось ли там недобитков.</target></trans-unit><trans-unit id="187" approved="no"><source>187</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_230&lt;tab&gt;Извини, если я заставил тебя волноваться. Я в полном порядке, честное слово. Просто мне было над чем поразмыслить.</target></trans-unit><trans-unit id="188" approved="no"><source>188</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_231&lt;tab&gt;Но сейчас не время думать о всякой ерунде, время действовать. Башня Сиркус ждёт нас!</target></trans-unit><trans-unit id="189" approved="no"><source>189</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_232&lt;tab&gt;Твоя задача — уничтожить всех врагов внутри сооружения, включая самого Занде. Тогда у нас будет возможность запечатать это место. Да защитит тебя Кристалл!</target></trans-unit><trans-unit id="190" approved="no"><source>190</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_240&lt;tab&gt;По правде говоря, я всё думаю о моём глазе, но сейчас мы должны сосредоточиться на общей задаче. Не волнуйся, я выброшу посторонние мысли из головы.</target></trans-unit><trans-unit id="191" approved="no"><source>191</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_250&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;!</target></trans-unit><trans-unit id="192" approved="no"><source>192</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_251&lt;tab&gt;У тебя получилось! Ты &lt;var 08 E905 ((победила)) ((победил)) /var&gt; императора Занде!</target></trans-unit><trans-unit id="193" approved="no"><source>193</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_252&lt;tab&gt;Империи появляются и исчезают, но неутомимый человеческий дух будет существовать всегда. Воистину, вы тот самый чемпион, которого мы искали все эти годы, &lt;var 29 EB02 /var&gt;.</target></trans-unit><trans-unit id="194" approved="no"><source>194</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_253&lt;tab&gt;Император Занде остался в прошлом, и его тёмное наследие больше никому не навредит.</target></trans-unit><trans-unit id="195" approved="no"><source>195</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_254&lt;tab&gt;Неро, что ты задумал на этот раз? Зачем надел броню?</target></trans-unit><trans-unit id="196" approved="no"><source>196</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_255&lt;tab&gt;Гарлонд. Ты ведь в курсе, что это опасное место. Будешь отчитывать меня за излишнюю осторожность?</target></trans-unit><trans-unit id="197" approved="no"><source>197</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_256&lt;tab&gt;В любом случае, не нужно за мной приглядывать. Я вполне способен позаботиться о себе сам. Давай, сделай то, ради чего ты сюда пришёл.</target></trans-unit><trans-unit id="198" approved="no"><source>198</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_257&lt;tab&gt;Есть два способа обезвредить Башню Сиркус: либо изолировать ее от внешнего мира, либо лишить её возможности производить энергию.</target></trans-unit><trans-unit id="199" approved="no"><source>199</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_258&lt;tab&gt;Вам решать, какой метод мы используем. Но прежде нам с Догой нужно будет сделать кое-что важное.</target></trans-unit><trans-unit id="200" approved="no"><source>200</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_259&lt;tab&gt;Искривление пространства... Что это такое?</target></trans-unit><trans-unit id="201" approved="no"><source>201</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_260&lt;tab&gt;Источником силы, который Занде хотел использовать, была Бездна. Или Мир Тьмы, как называли его в наше время.</target></trans-unit><trans-unit id="202" approved="no"><source>202</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_261&lt;tab&gt;Занде планировал призвать армию порождений Бездны.</target></trans-unit><trans-unit id="203" approved="no"><source>203</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_262&lt;tab&gt;Демоны питаются эфиром, а в нашем мире эфира предостаточно.</target></trans-unit><trans-unit id="204" approved="no"><source>204</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_263&lt;tab&gt;Дабы получить их в союзники, Занде заключил тёмный договор. Он согласился открыть врата, через которые порождения Бездны могли бы свободно проникать в наш мир.</target></trans-unit><trans-unit id="205" approved="no"><source>205</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_264&lt;tab&gt;Боюсь, что договор всё еще в силе. Но мы с Уней — потомки императора, а значит, мы можем аннулировать это соглашение.</target></trans-unit><trans-unit id="206" approved="no"><source>206</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_265&lt;tab&gt;Своей кровью Занде скрепил тёмный договор. А мы своей кровью расторгнем его.</target></trans-unit><trans-unit id="207" approved="no"><source>207</source><target state="translated">TEXT_GAIUSD401_01474_DOGA_000_266&lt;tab&gt;Время пришло.</target></trans-unit><trans-unit id="208" approved="no"><source>208</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_267&lt;tab&gt;Да, Дога. Наконец-то мы исполним своё предназначение.</target></trans-unit><trans-unit id="209" approved="no"><source>209</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_268&lt;tab&gt;Ха-ха-ха-ха-ха... А-ХА-ХА-ХА-ХА-ХА!</target></trans-unit><trans-unit id="210" approved="no"><source>210</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_269&lt;tab&gt;Давно уже моё сердце не билось так часто!</target></trans-unit><trans-unit id="211" approved="no"><source>211</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_270&lt;tab&gt;А я волновался, что эта прогулка меня разочарует. Но показания прибора верные! Даже Ультима не сравнится с этим!</target></trans-unit><trans-unit id="212" approved="no"><source>212</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_271&lt;tab&gt;Что ты несёшь?!</target></trans-unit><trans-unit id="213" approved="no"><source>213</source><target state="translated">TEXT_GAIUSD401_01474_CLOUDOFDARKNESS_000_272&lt;tab&gt;(-???-)Договор... вечен...</target></trans-unit><trans-unit id="214" approved="no"><source>214</source><target state="translated">TEXT_GAIUSD401_01474_XANDE_000_280&lt;tab&gt;Итак, Меракидия захвачена. Скоро весь мир будет объединён под властью Аллаганской империи.</target></trans-unit><trans-unit id="215" approved="no"><source>215</source><target state="translated">TEXT_GAIUSD401_01474_XANDE_000_281&lt;tab&gt;И всё же... чем ближе я подбираюсь к цели, тем ярче становятся воспоминания о смерти... Это бесконечная пустота, лишённая света и тепла.</target></trans-unit><trans-unit id="216" approved="no"><source>216</source><target state="translated">TEXT_GAIUSD401_01474_XANDE_000_282&lt;tab&gt;Может, я и победил смерть, но от этого мне не легче. Её острые когти изувечили мою душу. Пока я жив, я не буду знать покоя.</target></trans-unit><trans-unit id="217" approved="no"><source>217</source><target state="translated">TEXT_GAIUSD401_01474_XANDE_000_283&lt;tab&gt;Безвольные существа. Вам не понять мою ярость. Мою тоску. Мой &lt;var 1A 02 /var&gt;страх&lt;var 1A 01 /var&gt;.</target></trans-unit><trans-unit id="218" approved="no"><source>218</source><target state="translated">TEXT_GAIUSD401_01474_XANDE_000_284&lt;tab&gt;Зачем копить богатства, зачем бороться за власть, если рано или поздно ты всё потеряешь? Лишь тому человеку, у которого ничего нет, неведома боль утраты.</target></trans-unit><trans-unit id="219" approved="no"><source>219</source><target state="translated">TEXT_GAIUSD401_01474_XANDE_000_285&lt;tab&gt;Так пускай &lt;var 1A 02 /var&gt;ничего&lt;var 1A 01 /var&gt; не будет.</target></trans-unit><trans-unit id="220" approved="no"><source>220</source><target state="translated">TEXT_GAIUSD401_01474_XANDE_000_286&lt;tab&gt;Соберите больше энергии, чтобы можно было полностью открыть врата. Пусть Облако Тьмы придёт и поглотит этот мир вместе со всей жизнью, всеми надеждами и мечтами. Пусть всё превратится в небытие.</target></trans-unit><trans-unit id="221" approved="no"><source>221</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_290&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Соберись!</target></trans-unit><trans-unit id="222" approved="no"><source>222</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_291&lt;tab&gt;Им нет числа! Седьмое пекло, да что здесь творится?!</target></trans-unit><trans-unit id="223" approved="no"><source>223</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_292&lt;tab&gt;Агрх! Проклятье, только не сейчас!</target></trans-unit><trans-unit id="224" approved="no"><source>224</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_293&lt;tab&gt;Неро! Сражение с этой ордой тоже было частью твоего гениального плана?</target></trans-unit><trans-unit id="225" approved="no"><source>225</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_294&lt;tab&gt;Кончай шутить, Гарлонд! Я не для того терпел твою наглую рожу, чтобы возиться с этими никчёмными клонами!</target></trans-unit><trans-unit id="226" approved="no"><source>226</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_295&lt;tab&gt;Ими кто-то управляет. Какое-то порождение Бездны, причём необычное.</target></trans-unit><trans-unit id="227" approved="no"><source>227</source><target state="translated">TEXT_GAIUSD401_01474_UNEI_000_296&lt;tab&gt;Дога!</target></trans-unit><trans-unit id="228" approved="no"><source>228</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_297&lt;tab&gt;Только не это! Без них контролировать тьму будет невозможно!</target></trans-unit><trans-unit id="229" approved="no"><source>229</source><target state="translated">TEXT_GAIUSD401_01474_NERO_000_298&lt;tab&gt;Эта сила... должна быть &lt;var 1A 02 /var&gt;моей&lt;var 1A 01 /var&gt;!</target></trans-unit><trans-unit id="230" approved="no"><source>230</source><target state="translated">TEXT_GAIUSD401_01474_CID_100_298&lt;tab&gt;Неро!</target></trans-unit><trans-unit id="231" approved="no"><source>231</source><target state="translated">TEXT_GAIUSD401_01474_CLOUDOFDARKNESS_000_299&lt;tab&gt;(-???-)Договор будет исполнен.</target></trans-unit><trans-unit id="232" approved="no"><source>232</source><target state="translated">TEXT_GAIUSD401_01474_CLOUDOFDARKNESS_000_300&lt;tab&gt;(-Облако Тьмы-)Я есть Облако Тьмы. Я сожру ваш свет, и ваш мир вернётся в Бездну.</target></trans-unit><trans-unit id="233" approved="no"><source>233</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_301&lt;tab&gt;Проклятье, разлома больше нет! И что нам теперь делать?</target></trans-unit><trans-unit id="234" approved="no"><source>234</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_302&lt;tab&gt;Мне не хочется уходить без них, но сейчас мы никак не можем им помочь. Нужно вернуться в Находку Святого Конаха и посоветоваться с Рамбросом.</target></trans-unit><trans-unit id="235" approved="no"><source>235</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_310&lt;tab&gt;У меня такое чувство, будто я забыл что-то важное. Хоть убей, не могу вспомнить, что именно...</target></trans-unit><trans-unit id="236" approved="no"><source>236</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_315&lt;tab&gt;Рамброс может знать способ вернуть наших друзей. Скорее, нужно с ним посоветоваться.</target></trans-unit><trans-unit id="237" approved="no"><source>237</source><target state="translated">TEXT_GAIUSD401_01474_BIGGS_000_320&lt;tab&gt;А? Слушай, я ценю твоё внимание и всё такое, но у тебя, наверное, есть дела поважнее, чем болтать со мной.</target></trans-unit><trans-unit id="238" approved="no"><source>238</source><target state="translated">TEXT_GAIUSD401_01474_WEDGE_000_325&lt;tab&gt;У всех, кто вернулся с вылазки, физиономии мрачнее некуда. Я... Я так понимаю, что миссия не увенчалась успехом?</target></trans-unit><trans-unit id="239" approved="no"><source>239</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_330&lt;tab&gt;Всё это произошло в Башне? Храни нас боги...</target></trans-unit><trans-unit id="240" approved="no"><source>240</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_331&lt;tab&gt;Тот разлом, что возник перед троном, явно вёл в Бездну.</target></trans-unit><trans-unit id="241" approved="no"><source>241</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_332&lt;tab&gt;Существует огромное количество разных порождений Бездны. Чем сильнее демон, тем больше должны быть врата, чтобы он мог через них пройти.</target></trans-unit><trans-unit id="242" approved="no"><source>242</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_333&lt;tab&gt;Вероятно, Занде планировал открыть врата гигантских размеров, которые могли бы впустить в наш мир Облако Тьмы.</target></trans-unit><trans-unit id="243" approved="no"><source>243</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_334&lt;tab&gt;К счастью для всего человечества, у него ничего не получилось. Я боюсь подумать, на что способно чудовище по ту сторону врат.</target></trans-unit><trans-unit id="244" approved="no"><source>244</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_335&lt;tab&gt;Не важно, насколько оно страшное. Мы не можем бросить наших друзей. Неужели нет возможности их спасти?</target></trans-unit><trans-unit id="245" approved="no"><source>245</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_336&lt;tab&gt;Не хочу давать вам ложных надежд, мастер Гарлонд. Ситуация скверная.</target></trans-unit><trans-unit id="246" approved="no"><source>246</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_337&lt;tab&gt;Хотя порождения Бездны могут проникать в наш мир, нет задокументированных свидетельств о людях, которым удавалось попасть через портал в Бездну. Мне не хочется это говорить, но... мы даже не знаем, выжили наши друзья или нет.</target></trans-unit><trans-unit id="247" approved="no"><source>247</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_338&lt;tab&gt;Проклятье... Я чувствую себя таким беспомощным...</target></trans-unit><trans-unit id="248" approved="no"><source>248</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_339&lt;tab&gt;Нет, я отказываюсь сдаваться. Мы должны спасти Догу и Уней.</target></trans-unit><trans-unit id="249" approved="no"><source>249</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_340&lt;tab&gt;Я хочу это сделать вовсе не потому, что у нас с ними одинаковые глаза.</target></trans-unit><trans-unit id="250" approved="no"><source>250</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_341&lt;tab&gt;У них была миссия, они тысячи лет шли к тому, чтобы её выполнить... разве можно допустить, чтобы их история закончилось вот так? Кроме того...</target></trans-unit><trans-unit id="251" approved="no"><source>251</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_342&lt;tab&gt;Мы не можем оставить всё как есть.</target></trans-unit><trans-unit id="252" approved="no"><source>252</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_343&lt;tab&gt;Пока тёмный договор, заключённый Занде, остаётся в силе, наш мир всегда будет в опасности. Рано или поздно Облако Тьмы может проникнуть сюда, и мы должны это предотвратить.</target></trans-unit><trans-unit id="253" approved="no"><source>253</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_344&lt;tab&gt;Г'раха. С тех пор, как вы встретили Уней и Догу, вы сами на себя не похожи. Скажите мне, только честно — с вашим глазом всё в порядке?</target></trans-unit><trans-unit id="254" approved="no"><source>254</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_345&lt;tab&gt;Я не уверен. Знаю только, что я должен вспомнить нечто важное.</target></trans-unit><trans-unit id="255" approved="no"><source>255</source><target state="translated">TEXT_GAIUSD401_01474_GRAHATIA_000_346&lt;tab&gt;Когда-то давно отец сказал мне, что ответ на вопрос о происхождении наших глаз связан с Аллагом. С тех пор я безуспешно гонялся за этим ответом... и однажды я &lt;var 1A 02 /var&gt;точно&lt;var 1A 01 /var&gt; узнаю правду.</target></trans-unit><trans-unit id="256" approved="no"><source>256</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_347&lt;tab&gt;Я согласен с Г'рахой.</target></trans-unit><trans-unit id="257" approved="no"><source>257</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_348&lt;tab&gt;Нужно попытаться спасти Уней и Догу, даже если шансы невелики. Да и этого проходимца Неро не мешало бы вернуть в наш мир. По крайней мере, я буду уверен, что он не устроит нам проблемы с &lt;var 1A 02 /var&gt;той&lt;var 1A 01 /var&gt; стороны.</target></trans-unit><trans-unit id="258" approved="no"><source>258</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_349&lt;tab&gt;Вы правы. Дога и Уней — наши товарищи, пусть мы и знали их совсем недолго. Нельзя их бросать.</target></trans-unit><trans-unit id="259" approved="no"><source>259</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_350&lt;tab&gt;Я подниму на уши всех экспертов и перерою всю литературу по этой теме. Клянусь, я не успокоюсь, пока не найду решение.</target></trans-unit><trans-unit id="260" approved="no"><source>260</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_351&lt;tab&gt;Но вы должны понимать, что пройдёт некоторое время, прежде чем мы будем готовы действовать. Пожалуйста, наберитесь терпения. Когда имеешь дело с Бездной, нельзя быть чересчур осторожным.</target></trans-unit><trans-unit id="261" approved="no"><source>261</source><target state="translated">TEXT_GAIUSD401_01474_RAMMBROES_000_352&lt;tab&gt;Еще раз благодарю вас за помощь. Отдыхайте, пока есть возможность. Ибо, когда придёт время идти спасать наших друзей, вы должны быть готовы.</target></trans-unit><trans-unit id="262" approved="no"><source>262</source><target state="translated">TEXT_GAIUSD401_01474_CID_000_353&lt;tab&gt;Мы их точно спасём, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Запомни мои слова!</target></trans-unit></body></file></xliff>
+...Всё как в старинной легенде, это просто изумительно.</target>
+			</trans-unit>
+			<trans-unit id="101" approved="no">
+				<source>101</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_077&lt;tab&gt;Прошу прощения, что прерываю вас. Просто вы нашли такие любопытные... &lt;var 1A 02 /var&gt;игрушки&lt;var 1A 01 /var&gt;.</target>
+			</trans-unit>
+			<trans-unit id="102" approved="no">
+				<source>102</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_078&lt;tab&gt;Н-Неро?! Ты всё еще жив?!</target>
+			</trans-unit>
+			<trans-unit id="103" approved="no">
+				<source>103</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_079&lt;tab&gt;Гарлонд, Гарлонд. Если бы я не знал тебя лучше, то решил бы, что ты не рад меня видеть... Шучу! Учитывая, как прошла наша предыдущая встреча, у тебя есть полное право быть настороже.</target>
+			</trans-unit>
+			<trans-unit id="104" approved="no">
+				<source>104</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_080&lt;tab&gt;Не волнуйтесь, я больше не представляю для вас угрозы. Мой легион фактически больше не существует, а если я попытаюсь связаться с ним, это гарантирует мне билет в Гарлемалд — прямиком на виселицу. Так что с недавних пор я всего лишь обычный странник. Путешествую по Эорзии в своё удовольствие.</target>
+			</trans-unit>
+			<trans-unit id="105" approved="no">
+				<source>105</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_081&lt;tab&gt;И вот, пока я странствовал, птичка нашептала мне о вашей экспедиции. Это было так интересно, что я решил прийти сюда и присоединиться к вам.</target>
+			</trans-unit>
+			<trans-unit id="106" approved="no">
+				<source>106</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_082&lt;tab&gt;После всего, что ты натворил? Думаешь, мы настолько доверчивые?</target>
+			</trans-unit>
+			<trans-unit id="107" approved="no">
+				<source>107</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_083&lt;tab&gt;Да, у вас есть причины сомневаться во мне. Но я полон решимости исправиться. И в качестве жеста доброй воли я расскажу вам всё, что знаю... а начну с &lt;var 1A 02 /var&gt;этих&lt;var 1A 01 /var&gt; двух странных персонажей.</target>
+			</trans-unit>
+			<trans-unit id="108" approved="no">
+				<source>108</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_084&lt;tab&gt;Вы, несомненно, знаете, что Кристальная Башня была символом могущества и процветания древнего Аллага. Войти туда дозволялось только членам императорской семьи и отдельным избранным.</target>
+			</trans-unit>
+			<trans-unit id="109" approved="no">
+				<source>109</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_085&lt;tab&gt;Судя по тем сведениям, которые я раскопал, открыть врата могли только люди, принадлежавшие к императорскому роду. Другими словами, император и его дети были живыми ключами.</target>
+			</trans-unit>
+			<trans-unit id="110" approved="no">
+				<source>110</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_086&lt;tab&gt;Хочешь сказать, эти двое — потомки аллаганской императорской семьи?!</target>
+			</trans-unit>
+			<trans-unit id="111" approved="no">
+				<source>111</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_087&lt;tab&gt;Не совсем.</target>
+			</trans-unit>
+			<trans-unit id="112" approved="no">
+				<source>112</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_088&lt;tab&gt;Как бы объяснить попроще... Они представляют собой &lt;var 1A 02 /var&gt;имитации&lt;var 1A 01 /var&gt; царственных особ — живые ключи, созданные каким-то изобретательным аллагцем.</target>
+			</trans-unit>
+			<trans-unit id="113" approved="no">
+				<source>113</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_089&lt;tab&gt;Полагаю, создатели называли вас «клонами». Верно я говорю?</target>
+			</trans-unit>
+			<trans-unit id="114" approved="no">
+				<source>114</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_090&lt;tab&gt;Кажется, пришло время сбросить маски.</target>
+			</trans-unit>
+			<trans-unit id="115" approved="no">
+				<source>115</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_091&lt;tab&gt;Прошу, простите нас. Мы не хотели никого обманывать. Если бы мы признались раньше времени, то вы испугались бы и приняли нас за безумцев.</target>
+			</trans-unit>
+			<trans-unit id="116" approved="no">
+				<source>116</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_092&lt;tab&gt;Если вы не против, давайте вернёмся к Восьми Стражам. Нам многое нужно рассказать.</target>
+			</trans-unit>
+			<trans-unit id="117" approved="no">
+				<source>117</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_093&lt;tab&gt;Хорошо.</target>
+			</trans-unit>
+			<trans-unit id="118" approved="no">
+				<source>118</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_094&lt;tab&gt;Седьмое пекло... Ты &lt;var 1A 02 /var&gt;действительно&lt;var 1A 01 /var&gt; вознамерился к нам присоединиться?</target>
+			</trans-unit>
+			<trans-unit id="119" approved="no">
+				<source>119</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_095&lt;tab&gt;Да брось, Гарлонд. Ты хорошо меня знаешь и должен понимать, что я вовсе не шутил. Что мне ещё сделать, чтобы мы, наконец, помирились? Может, хочешь подарок?</target>
+			</trans-unit>
+			<trans-unit id="120" approved="no">
+				<source>120</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_096&lt;tab&gt;Вот, аллаганская скрижаль. На ней много разной информации, включая и то, что я только что вам рассказал. Прежде эта скрижаль была собственностью Четырнадцатого легиона и тщательно охранялась, а теперь она твоя. Приятного чтения, Сид.</target>
+			</trans-unit>
+			<trans-unit id="121" approved="no">
+				<source>121</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_097&lt;tab&gt;Я уже предвкушаю, как мы будем работать вместе, старый друг.</target>
+			</trans-unit>
+			<trans-unit id="122" approved="no">
+				<source>122</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_100&lt;tab&gt;Вы имеете полное право не доверять нам, но я прошу — пожалуйста, выслушайте нас. Мы так долго ждали возможности исполнить наше предназначение.</target>
+			</trans-unit>
+			<trans-unit id="123" approved="no">
+				<source>123</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_105&lt;tab&gt;Давай послушаем, что Уней и Дога нам расскажут. После этого и решим, что нам делать дальше.</target>
+			</trans-unit>
+			<trans-unit id="124" approved="no">
+				<source>124</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_110&lt;tab&gt;Неро мы доверять не можем, в этом я уверен на сто процентов. Не спускай с него глаз, ладно?</target>
+			</trans-unit>
+			<trans-unit id="125" approved="no">
+				<source>125</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_115&lt;tab&gt;Слушай, может, у нас и были противоречия в прошлом, но что минуло, то сгинуло. Вчера мы были врагами, а сегодня можем подружиться. Верно я говорю, Воин Света?</target>
+			</trans-unit>
+			<trans-unit id="126" approved="no">
+				<source>126</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_BIGGS_000_120&lt;tab&gt;Шеф и Неро знают друг друга со времён учёбы в Академии Магитех. Это особая школа в столице, куда принимают только детей имперской элиты.</target>
+			</trans-unit>
+			<trans-unit id="127" approved="no">
+				<source>127</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_BIGGS_000_121&lt;tab&gt;Подробностей я не знаю, но, говорят, они ещё тогда друг друга терпеть не могли, и с тех пор мало что изменилось. Что за злая судьба снова свела их вместе?</target>
+			</trans-unit>
+			<trans-unit id="128" approved="no">
+				<source>128</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_WEDGE_000_125&lt;tab&gt;Подумать только, что аллагцы умели копировать &lt;var 1A 02 /var&gt;людей&lt;var 1A 01 /var&gt;... Если эти знания попадут не в те руки, мир станет сплошным кошмаром. Как представлю себе, что вместо одного Биггса мне выносят мозг двенадцать его клонов...</target>
+			</trans-unit>
+			<trans-unit id="129" approved="no">
+				<source>129</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_130&lt;tab&gt;Если вы готовы слушать, мы вам всё расскажем.</target>
+			</trans-unit>
+			<trans-unit id="130" approved="no">
+				<source>130</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_131&lt;tab&gt;Ваш лидер, Рамброс, наверняка пожелает присутствовать. Ведь разговор будет касаться вашей экспедиции.</target>
+			</trans-unit>
+			<trans-unit id="131" approved="no">
+				<source>131</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_140&lt;tab&gt;Прежде чем мы начнём, позвольте мне ещё раз принести извинения. Мы не собирались вас обманывать.</target>
+			</trans-unit>
+			<trans-unit id="132" approved="no">
+				<source>132</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_141&lt;tab&gt;Вы уже знаете, что мы не имеем никакого отношения к Учёным Балдесиана. Мы клоны — копии людей, которые когда-то существовали. Аллаганская технология вдохнула в нас жизнь.</target>
+			</trans-unit>
+			<trans-unit id="133" approved="no">
+				<source>133</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_142&lt;tab&gt;Всё фантастичнее и фантастичнее...</target>
+			</trans-unit>
+			<trans-unit id="134" approved="no">
+				<source>134</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_100_142&lt;tab&gt;Не знаю, насколько вежливо задавать такой вопрос, но... для чего вы были созданы? Какова ваша цель?</target>
+			</trans-unit>
+			<trans-unit id="135" approved="no">
+				<source>135</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_143&lt;tab&gt;Чтобы ответить на этот вопрос, нам нужно обратиться к истории Аллага.</target>
+			</trans-unit>
+			<trans-unit id="136" approved="no">
+				<source>136</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_144&lt;tab&gt;Аллаганская империя достигла пика своего развития задолго до того, как мы появились на свет.</target>
+			</trans-unit>
+			<trans-unit id="137" approved="no">
+				<source>137</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_145&lt;tab&gt;В те славные времена Кристальная Башня была символом гордости всех аллагцев. Родители приводили своих детей, чтобы показать им башню и рассказать о том, как она принесла процветание нашей цивилизации. Башня была источником практически бесконечной энергии.</target>
+			</trans-unit>
+			<trans-unit id="138" approved="no">
+				<source>138</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_146&lt;tab&gt;Но со временем процветание сменилось упадком, и в Империи появились признаки застоя. В семье правителей не было сильных лидеров, из-за чего всё лишь усугублялось.</target>
+			</trans-unit>
+			<trans-unit id="139" approved="no">
+				<source>139</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_147&lt;tab&gt;Спустя нескольких поколений аллаганская цивилизация стала бледной тенью самой себя. Города, прежде такие прекрасные, погрузились в разруху, а приграничные земли были отданы на откуп дикой природе.</target>
+			</trans-unit>
+			<trans-unit id="140" approved="no">
+				<source>140</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_148&lt;tab&gt;Один учёный не мог смириться с тем, что Империя так выродилась. И он решил посвятить свою жизнь тому, чтобы вернуть Аллагу его величие.</target>
+			</trans-unit>
+			<trans-unit id="141" approved="no">
+				<source>141</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_149&lt;tab&gt;Этого человека звали Амон, и он считал, что загнивающую страну может возродить только сильный правитель. А самым сильным лидером в истории Аллага был отец-основатель, которого Амон решил воскресить.</target>
+			</trans-unit>
+			<trans-unit id="142" approved="no">
+				<source>142</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_150&lt;tab&gt;Отец-основатель? Только не говорите, что речь идёт об императоре Занде!</target>
+			</trans-unit>
+			<trans-unit id="143" approved="no">
+				<source>143</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_151&lt;tab&gt;Вы угадали. Одним из экспериментов Амона стало создание клонов потомков императора. Мы и есть результаты этого эксперимента — копии Уней и Доги.</target>
+			</trans-unit>
+			<trans-unit id="144" approved="no">
+				<source>144</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_152&lt;tab&gt;В исторических хрониках упоминаются два аллаганских императора, которые носили имя Занде.</target>
+			</trans-unit>
+			<trans-unit id="145" approved="no">
+				<source>145</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_153&lt;tab&gt;Принято считать, что второй Занде просто взял себе имя предшественника. В те времена и царственные особы, и простолюдины так делали. Подумать только, фактически оба императора на самом деле были одним и тем же человеком...</target>
+			</trans-unit>
+			<trans-unit id="146" approved="no">
+				<source>146</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_154&lt;tab&gt;Да, Занде был возвращён из мёртвых и занял трон. Как и предсказывал Амон, отец-основатель сумел возродить Империю, и она вновь стала великой и процветающей. И если бы только Занде удовлетворился этим...</target>
+			</trans-unit>
+			<trans-unit id="147" approved="no">
+				<source>147</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_155&lt;tab&gt;В прежней жизни у императора была мечта — захватить весь мир под знаменем Аллага и господствовать всюду. Исполнить эту мечту он не успел, но, получив второй шанс, император решил во что бы то ни стало добиться своего.</target>
+			</trans-unit>
+			<trans-unit id="148" approved="no">
+				<source>148</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_156&lt;tab&gt;Завоевательная война требовала много сил, и Занде обратил свой взор на запретный источник силы — тьму. Чтобы подчинить её своей власти, он превратил Кристальную Башню в оплот тайных исследований.</target>
+			</trans-unit>
+			<trans-unit id="149" approved="no">
+				<source>149</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_157&lt;tab&gt;Тьма... &lt;var 1A 02 /var&gt;опять&lt;var 1A 01 /var&gt;? Седьмое пекло, откуда берутся эти тираны, страдающие манией величия, которые настолько жаждут власти, что им непременно нужно использовать запретные силы?</target>
+			</trans-unit>
+			<trans-unit id="150" approved="no">
+				<source>150</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_158&lt;tab&gt;Ну, хотя бы этот Занде не доставит нам хлопот, раз уж он умер тысячу лет назад.</target>
+			</trans-unit>
+			<trans-unit id="151" approved="no">
+				<source>151</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_159&lt;tab&gt;Хотел бы я сказать, что вы правы, мастер Гарлонд.</target>
+			</trans-unit>
+			<trans-unit id="152" approved="no">
+				<source>152</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_160&lt;tab&gt;К сожалению, император Занде еще жив. Он обитает в Башне Сиркус, и, хотя его империя давным-давно обратилась в ничто, он по-прежнему одержим своей мечтой.</target>
+			</trans-unit>
+			<trans-unit id="153" approved="no">
+				<source>153</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_170&lt;tab&gt;Использование тёмных сил требовало огромного количества энергии, и даже Кристальная Башня неспособна была выработать так много. Чтобы перекрыть недостаток, Занде поднял в небо искусственную луну — Даламуд. Там, в вышине, она собирала солнечную энергию и направляла её вниз, на Башню.</target>
+			</trans-unit>
+			<trans-unit id="154" approved="no">
+				<source>154</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_171&lt;tab&gt;Однажды из-за ошибки в вычислениях произошёл выплеск энергии. Эта энергия ушла в землю и спровоцировала землетрясение небывалой силы; Катаклизм — так у вас принято говорить? Тогда и началась Четвертая Умбральная эра.</target>
+			</trans-unit>
+			<trans-unit id="155" approved="no">
+				<source>155</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_172&lt;tab&gt;В мгновение ока могучая Аллаганская империя рухнула, как карточный домик.</target>
+			</trans-unit>
+			<trans-unit id="156" approved="no">
+				<source>156</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_173&lt;tab&gt;Но когда Кристальная Башня стала погружаться под землю, учёный Амон, самый верный соратник императора Занде, использовал мощное заклинание и остановил течение времени.</target>
+			</trans-unit>
+			<trans-unit id="157" approved="no">
+				<source>157</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_174&lt;tab&gt;Занде погрузился в глубокий сон вместе со всеми, кто был внутри башни, мечтая о том дне, когда он проснётся и, наконец, заставит весь мир склониться перед ним.</target>
+			</trans-unit>
+			<trans-unit id="158" approved="no">
+				<source>158</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_175&lt;tab&gt;Время шло, эпохи сменяли друг друга. После тысячелетнего бездействия луна Даламуд была обрушена на землю, и произошёл Седьмой Умбральный Катаклизм. Кристальная Башня истолковала это как знак того, что пришло время вернуться на поверхность.</target>
+			</trans-unit>
+			<trans-unit id="159" approved="no">
+				<source>159</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_176&lt;tab&gt;Тогда-то и пробудился император Занде.</target>
+			</trans-unit>
+			<trans-unit id="160" approved="no">
+				<source>160</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_177&lt;tab&gt;Он так жаждал власти, что тьма полностью поработила его. И хотя от его империи остались лишь воспоминания, он не остановится ни перед чем, чтобы воплотить свою мечту.</target>
+			</trans-unit>
+			<trans-unit id="161" approved="no">
+				<source>161</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_180&lt;tab&gt;Дога и я живём лишь ради того, чтобы положить конец безумию Занде. Это судьба, дарованная нам создателями — настоящими Уней и Догой.</target>
+			</trans-unit>
+			<trans-unit id="162" approved="no">
+				<source>162</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_181&lt;tab&gt;Они понимали, какой страшный мир хочет построить Занде, и стремились помешать императору. Они наделили нас своей волей, чтобы мы могли завершить начатое, даже если они оба погибнут.</target>
+			</trans-unit>
+			<trans-unit id="163" approved="no">
+				<source>163</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_182&lt;tab&gt;Мы очнулись внутри Кристальной Башни и сразу обдумали план действий. Поскольку мы сами не можем победить Занде, мы отправились искать сильных союзников. На это ушли годы, но теперь наши поиски, наконец, завершены.</target>
+			</trans-unit>
+			<trans-unit id="164" approved="no">
+				<source>164</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_183&lt;tab&gt;Обычный человек неспособен пробиться через стражей Лабиринта Древних. Значит, если вы поможете нам, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, то мы точно одолеем Занде и положим конец его тёмным козням раз и навсегда.</target>
+			</trans-unit>
+			<trans-unit id="165" approved="no">
+				<source>165</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_184&lt;tab&gt;То есть я рано радовался, что злой тиран остался в прошлом... Но если отбросить этот момент, теперь я понимаю, откуда вы знали об Учёных Балдесиана и прочем — вы всё это время наблюдали за нашей экспедицией.</target>
+			</trans-unit>
+			<trans-unit id="166" approved="no">
+				<source>166</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_185&lt;tab&gt;Что будем делать, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;? Мир снова в опасности, и так уж вышло, что ты у нас главный эксперт по его спасению.</target>
+			</trans-unit>
+			<trans-unit id="167" approved="no">
+				<source>167</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_186&lt;tab&gt;Мы в вечном долгу перед вами. Давайте вместе положим конец тёмному прошлому Аллаганской империи.</target>
+			</trans-unit>
+			<trans-unit id="168" approved="no">
+				<source>168</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_187&lt;tab&gt;Целью нашей экспедиции было восстановление утерянных знаний аллаганской цивилизации. Но зачем нам эти знания, если ради них придётся подвергнуть опасности Эорзию?</target>
+			</trans-unit>
+			<trans-unit id="169" approved="no">
+				<source>169</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_188&lt;tab&gt;Признаюсь, мне очень не нравится, что вместе с башней придётся похоронить все её секреты, но ради высшего блага нужно чем-то жертвовать. Кроме того, никакие древние реликвии не сравнятся с нашими друзьями Уней и Догой. Они же настоящие живые аллагцы!</target>
+			</trans-unit>
+			<trans-unit id="170" approved="no">
+				<source>170</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_189&lt;tab&gt;Поэтому я официально объявляю, что цели команды «Ной» изменились. Мы сделаем всё возможное, чтобы запечатать Башню Сиркус. Её тёмные секреты должны быть заперты внутри — навечно.</target>
+			</trans-unit>
+			<trans-unit id="171" approved="no">
+				<source>171</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_190&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;, ты уже &lt;var 08 E905 ((успела)) ((успел)) /var&gt; побывать в Лабиринте Древних, а теперь я прошу тебя сделать такую же вылазку в Башню и уничтожить любые источники угрозы. Это касается и самого императора Занде.</target>
+			</trans-unit>
+			<trans-unit id="172" approved="no">
+				<source>172</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_191&lt;tab&gt;Тем временем остальные должны найти способ изолировать Башню Сиркус от внешнего мира. Так, ребята, за работу!</target>
+			</trans-unit>
+			<trans-unit id="173" approved="no">
+				<source>173</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_192&lt;tab&gt;Постойте. Я хочу задать вам один вопрос. Мой правый глаз того же цвета, что и ваши глаза. Неужели... неужели это значит...?</target>
+			</trans-unit>
+			<trans-unit id="174" approved="no">
+				<source>174</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_193&lt;tab&gt;Вы сказали, что унаследовали эту черту от своего отца. А клоны не могут иметь потомства. У вас нет причин для беспокойства.</target>
+			</trans-unit>
+			<trans-unit id="175" approved="no">
+				<source>175</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_194&lt;tab&gt;Вы назвали его аллаганским, но для нас это королевское око, ведь такие глаза бывают только у тех, в чьих жилах течёт кровь императора.</target>
+			</trans-unit>
+			<trans-unit id="176" approved="no">
+				<source>176</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_195&lt;tab&gt;Я не знаю, почему в вашей семье это око стало наследственной чертой, но... вряд ли это простое совпадение.</target>
+			</trans-unit>
+			<trans-unit id="177" approved="no">
+				<source>177</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_196&lt;tab&gt;Не сомневаюсь, что вы горите желанием поскорее раскрыть эту тайну, но наберитесь терпения. Всему своё время.</target>
+			</trans-unit>
+			<trans-unit id="178" approved="no">
+				<source>178</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_200&lt;tab&gt;Дога и Уней были достойными людьми, пусть их имена и не вошли в историю. Оба были не без недостатков. Но превыше всего они ставили благо народа.</target>
+			</trans-unit>
+			<trans-unit id="179" approved="no">
+				<source>179</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_201&lt;tab&gt;Когда Занде вернулся с того света и решил взойти на трон, они поддержали его в надежде, что под его руководством империя снова станет процветать.</target>
+			</trans-unit>
+			<trans-unit id="180" approved="no">
+				<source>180</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_202&lt;tab&gt;Потом выяснилось, что Занде связался с тёмными силами, и тогда Уней и Дога попытались остановить его. Они сделали всё, что могли. Именно тогда они наделили нас, двух обычных клонов, своей волей.</target>
+			</trans-unit>
+			<trans-unit id="181" approved="no">
+				<source>181</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_205&lt;tab&gt;В Башне Сиркус вам встретятся клоны, которые внешне похожи на нас.</target>
+			</trans-unit>
+			<trans-unit id="182" approved="no">
+				<source>182</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_206&lt;tab&gt;Эти клоны тоже были созданы по образу и подобию Доги и Уней, но они лишь пустые оболочки, не имеющие собственной воли. Их единственная цель — уничтожать тех, кто незаконно проник в Башню.</target>
+			</trans-unit>
+			<trans-unit id="183" approved="no">
+				<source>183</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_207&lt;tab&gt;Возможно, вам не понравится убивать существ, которые выглядят как мы с Уней, но поверьте, жалеть их не нужно.</target>
+			</trans-unit>
+			<trans-unit id="184" approved="no">
+				<source>184</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_210&lt;tab&gt;Технологии сделали Аллаганскую империю великой, но они же обрекли её на гибель. А теперь гарлеанцы решили наступить на те же грабли, вот болваны. Правильно говорят: история движется по кругу.</target>
+			</trans-unit>
+			<trans-unit id="185" approved="no">
+				<source>185</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_BIGGS_000_215&lt;tab&gt;...Неро? Он только что куда-то ушёл. Одни боги знают, что у этого мерзавца на уме. Моя воля — так я бы запер его в темнице, а ключ выбросил в Серебряное озеро.</target>
+			</trans-unit>
+			<trans-unit id="186" approved="no">
+				<source>186</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_WEDGE_000_220&lt;tab&gt;Пока ты будешь зачищать Башню Сиркус от всяких гадостей, мы с Биггсом пройдемся по Лабиринту и проверим, не осталось ли там недобитков.</target>
+			</trans-unit>
+			<trans-unit id="187" approved="no">
+				<source>187</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_230&lt;tab&gt;Извини, если я заставил тебя волноваться. Я в полном порядке, честное слово. Просто мне было над чем поразмыслить.</target>
+			</trans-unit>
+			<trans-unit id="188" approved="no">
+				<source>188</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_231&lt;tab&gt;Но сейчас не время думать о всякой ерунде, время действовать. Башня Сиркус ждёт нас!</target>
+			</trans-unit>
+			<trans-unit id="189" approved="no">
+				<source>189</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_232&lt;tab&gt;Твоя задача — уничтожить всех врагов внутри сооружения, включая самого Занде. Тогда у нас будет возможность запечатать это место. Да защитит тебя Кристалл!</target>
+			</trans-unit>
+			<trans-unit id="190" approved="no">
+				<source>190</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_240&lt;tab&gt;По правде говоря, я всё думаю о моём глазе, но сейчас мы должны сосредоточиться на общей задаче. Не волнуйся, я выброшу посторонние мысли из головы.</target>
+			</trans-unit>
+			<trans-unit id="191" approved="no">
+				<source>191</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_250&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="192" approved="no">
+				<source>192</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_251&lt;tab&gt;У тебя получилось! Ты &lt;var 08 E905 ((победила)) ((победил)) /var&gt; императора Занде!</target>
+			</trans-unit>
+			<trans-unit id="193" approved="no">
+				<source>193</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_252&lt;tab&gt;Империи появляются и исчезают, но неутомимый человеческий дух будет существовать всегда. Воистину, вы тот самый чемпион, которого мы искали все эти годы, &lt;var 29 EB02 /var&gt;.</target>
+			</trans-unit>
+			<trans-unit id="194" approved="no">
+				<source>194</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_253&lt;tab&gt;Император Занде остался в прошлом, и его тёмное наследие больше никому не навредит.</target>
+			</trans-unit>
+			<trans-unit id="195" approved="no">
+				<source>195</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_254&lt;tab&gt;Неро, что ты задумал на этот раз? Зачем надел броню?</target>
+			</trans-unit>
+			<trans-unit id="196" approved="no">
+				<source>196</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_255&lt;tab&gt;Гарлонд. Ты ведь в курсе, что это опасное место. Будешь отчитывать меня за излишнюю осторожность?</target>
+			</trans-unit>
+			<trans-unit id="197" approved="no">
+				<source>197</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_256&lt;tab&gt;В любом случае, не нужно за мной приглядывать. Я вполне способен позаботиться о себе сам. Давай, сделай то, ради чего ты сюда пришёл.</target>
+			</trans-unit>
+			<trans-unit id="198" approved="no">
+				<source>198</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_257&lt;tab&gt;Есть два способа обезвредить Башню Сиркус: либо изолировать ее от внешнего мира, либо лишить её возможности производить энергию.</target>
+			</trans-unit>
+			<trans-unit id="199" approved="no">
+				<source>199</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_258&lt;tab&gt;Вам решать, какой метод мы используем. Но прежде нам с Догой нужно будет сделать кое-что важное.</target>
+			</trans-unit>
+			<trans-unit id="200" approved="no">
+				<source>200</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_259&lt;tab&gt;Искривление пространства... Что это такое?</target>
+			</trans-unit>
+			<trans-unit id="201" approved="no">
+				<source>201</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_260&lt;tab&gt;Источником силы, который Занде хотел использовать, была Бездна. Или Мир Тьмы, как называли его в наше время.</target>
+			</trans-unit>
+			<trans-unit id="202" approved="no">
+				<source>202</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_261&lt;tab&gt;Занде планировал призвать армию порождений Бездны.</target>
+			</trans-unit>
+			<trans-unit id="203" approved="no">
+				<source>203</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_262&lt;tab&gt;Демоны питаются эфиром, а в нашем мире эфира предостаточно.</target>
+			</trans-unit>
+			<trans-unit id="204" approved="no">
+				<source>204</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_263&lt;tab&gt;Дабы получить их в союзники, Занде заключил тёмный договор. Он согласился открыть врата, через которые порождения Бездны могли бы свободно проникать в наш мир.</target>
+			</trans-unit>
+			<trans-unit id="205" approved="no">
+				<source>205</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_264&lt;tab&gt;Боюсь, что договор всё еще в силе. Но мы с Уней — потомки императора, а значит, мы можем аннулировать это соглашение.</target>
+			</trans-unit>
+			<trans-unit id="206" approved="no">
+				<source>206</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_265&lt;tab&gt;Своей кровью Занде скрепил тёмный договор. А мы своей кровью расторгнем его.</target>
+			</trans-unit>
+			<trans-unit id="207" approved="no">
+				<source>207</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_DOGA_000_266&lt;tab&gt;Время пришло.</target>
+			</trans-unit>
+			<trans-unit id="208" approved="no">
+				<source>208</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_267&lt;tab&gt;Да, Дога. Наконец-то мы исполним своё предназначение.</target>
+			</trans-unit>
+			<trans-unit id="209" approved="no">
+				<source>209</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_268&lt;tab&gt;Ха-ха-ха-ха-ха... А-ХА-ХА-ХА-ХА-ХА!</target>
+			</trans-unit>
+			<trans-unit id="210" approved="no">
+				<source>210</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_269&lt;tab&gt;Давно уже моё сердце не билось так часто!</target>
+			</trans-unit>
+			<trans-unit id="211" approved="no">
+				<source>211</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_270&lt;tab&gt;А я волновался, что эта прогулка меня разочарует. Но показания прибора верные! Даже Ультима не сравнится с этим!</target>
+			</trans-unit>
+			<trans-unit id="212" approved="no">
+				<source>212</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_271&lt;tab&gt;Что ты несёшь?!</target>
+			</trans-unit>
+			<trans-unit id="213" approved="no">
+				<source>213</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CLOUDOFDARKNESS_000_272&lt;tab&gt;(-???-)Договор... вечен...</target>
+			</trans-unit>
+			<trans-unit id="214" approved="no">
+				<source>214</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_XANDE_000_280&lt;tab&gt;Итак, Меракидия захвачена. Скоро весь мир будет объединён под властью Аллаганской империи.</target>
+			</trans-unit>
+			<trans-unit id="215" approved="no">
+				<source>215</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_XANDE_000_281&lt;tab&gt;И всё же... чем ближе я подбираюсь к цели, тем ярче становятся воспоминания о смерти... Это бесконечная пустота, лишённая света и тепла.</target>
+			</trans-unit>
+			<trans-unit id="216" approved="no">
+				<source>216</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_XANDE_000_282&lt;tab&gt;Может, я и победил смерть, но от этого мне не легче. Её острые когти изувечили мою душу. Пока я жив, я не буду знать покоя.</target>
+			</trans-unit>
+			<trans-unit id="217" approved="no">
+				<source>217</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_XANDE_000_283&lt;tab&gt;Безвольные существа. Вам не понять мою ярость. Мою тоску. Мой &lt;var 1A 02 /var&gt;страх&lt;var 1A 01 /var&gt;.</target>
+			</trans-unit>
+			<trans-unit id="218" approved="no">
+				<source>218</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_XANDE_000_284&lt;tab&gt;Зачем копить богатства, зачем бороться за власть, если рано или поздно ты всё потеряешь? Лишь тому человеку, у которого ничего нет, неведома боль утраты.</target>
+			</trans-unit>
+			<trans-unit id="219" approved="no">
+				<source>219</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_XANDE_000_285&lt;tab&gt;Так пускай &lt;var 1A 02 /var&gt;ничего&lt;var 1A 01 /var&gt; не будет.</target>
+			</trans-unit>
+			<trans-unit id="220" approved="no">
+				<source>220</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_XANDE_000_286&lt;tab&gt;Соберите больше энергии, чтобы можно было полностью открыть врата. Пусть Облако Тьмы придёт и поглотит этот мир вместе со всей жизнью, всеми надеждами и мечтами. Пусть всё превратится в небытие.</target>
+			</trans-unit>
+			<trans-unit id="221" approved="no">
+				<source>221</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_290&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Соберись!</target>
+			</trans-unit>
+			<trans-unit id="222" approved="no">
+				<source>222</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_291&lt;tab&gt;Им нет числа! Седьмое пекло, да что здесь творится?!</target>
+			</trans-unit>
+			<trans-unit id="223" approved="no">
+				<source>223</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_292&lt;tab&gt;Агрх! Проклятье, только не сейчас!</target>
+			</trans-unit>
+			<trans-unit id="224" approved="no">
+				<source>224</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_293&lt;tab&gt;Неро! Сражение с этой ордой тоже было частью твоего гениального плана?</target>
+			</trans-unit>
+			<trans-unit id="225" approved="no">
+				<source>225</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_294&lt;tab&gt;Кончай шутить, Гарлонд! Я не для того терпел твою наглую рожу, чтобы возиться с этими никчёмными клонами!</target>
+			</trans-unit>
+			<trans-unit id="226" approved="no">
+				<source>226</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_295&lt;tab&gt;Ими кто-то управляет. Какое-то порождение Бездны, причём необычное.</target>
+			</trans-unit>
+			<trans-unit id="227" approved="no">
+				<source>227</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_UNEI_000_296&lt;tab&gt;Дога!</target>
+			</trans-unit>
+			<trans-unit id="228" approved="no">
+				<source>228</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_297&lt;tab&gt;Только не это! Без них контролировать тьму будет невозможно!</target>
+			</trans-unit>
+			<trans-unit id="229" approved="no">
+				<source>229</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_NERO_000_298&lt;tab&gt;Эта сила... должна быть &lt;var 1A 02 /var&gt;моей&lt;var 1A 01 /var&gt;!</target>
+			</trans-unit>
+			<trans-unit id="230" approved="no">
+				<source>230</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_100_298&lt;tab&gt;Неро!</target>
+			</trans-unit>
+			<trans-unit id="231" approved="no">
+				<source>231</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CLOUDOFDARKNESS_000_299&lt;tab&gt;(-???-)Договор будет исполнен.</target>
+			</trans-unit>
+			<trans-unit id="232" approved="no">
+				<source>232</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CLOUDOFDARKNESS_000_300&lt;tab&gt;(-Облако Тьмы-)Я есть Облако Тьмы. Я сожру ваш свет, и ваш мир вернётся в Бездну.</target>
+			</trans-unit>
+			<trans-unit id="233" approved="no">
+				<source>233</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_301&lt;tab&gt;Проклятье, разлома больше нет! И что нам теперь делать?</target>
+			</trans-unit>
+			<trans-unit id="234" approved="no">
+				<source>234</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_302&lt;tab&gt;Мне не хочется уходить без них, но сейчас мы никак не можем им помочь. Нужно вернуться в Находку Святого Конаха и посоветоваться с Рамбросом.</target>
+			</trans-unit>
+			<trans-unit id="235" approved="no">
+				<source>235</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_310&lt;tab&gt;У меня такое чувство, будто я забыл что-то важное. Хоть убей, не могу вспомнить, что именно...</target>
+			</trans-unit>
+			<trans-unit id="236" approved="no">
+				<source>236</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_315&lt;tab&gt;Рамброс может знать способ вернуть наших друзей. Скорее, нужно с ним посоветоваться.</target>
+			</trans-unit>
+			<trans-unit id="237" approved="no">
+				<source>237</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_BIGGS_000_320&lt;tab&gt;А? Слушай, я ценю твоё внимание и всё такое, но у тебя, наверное, есть дела поважнее, чем болтать со мной.</target>
+			</trans-unit>
+			<trans-unit id="238" approved="no">
+				<source>238</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_WEDGE_000_325&lt;tab&gt;У всех, кто вернулся с вылазки, физиономии мрачнее некуда. Я... Я так понимаю, что миссия не увенчалась успехом?</target>
+			</trans-unit>
+			<trans-unit id="239" approved="no">
+				<source>239</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_330&lt;tab&gt;Всё это произошло в Башне? Храни нас боги...</target>
+			</trans-unit>
+			<trans-unit id="240" approved="no">
+				<source>240</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_331&lt;tab&gt;Тот разлом, что возник перед троном, явно вёл в Бездну.</target>
+			</trans-unit>
+			<trans-unit id="241" approved="no">
+				<source>241</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_332&lt;tab&gt;Существует огромное количество разных порождений Бездны. Чем сильнее демон, тем больше должны быть врата, чтобы он мог через них пройти.</target>
+			</trans-unit>
+			<trans-unit id="242" approved="no">
+				<source>242</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_333&lt;tab&gt;Вероятно, Занде планировал открыть врата гигантских размеров, которые могли бы впустить в наш мир Облако Тьмы.</target>
+			</trans-unit>
+			<trans-unit id="243" approved="no">
+				<source>243</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_334&lt;tab&gt;К счастью для всего человечества, у него ничего не получилось. Я боюсь подумать, на что способно чудовище по ту сторону врат.</target>
+			</trans-unit>
+			<trans-unit id="244" approved="no">
+				<source>244</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_335&lt;tab&gt;Не важно, насколько оно страшное. Мы не можем бросить наших друзей. Неужели нет возможности их спасти?</target>
+			</trans-unit>
+			<trans-unit id="245" approved="no">
+				<source>245</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_336&lt;tab&gt;Не хочу давать вам ложных надежд, мастер Гарлонд. Ситуация скверная.</target>
+			</trans-unit>
+			<trans-unit id="246" approved="no">
+				<source>246</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_337&lt;tab&gt;Хотя порождения Бездны могут проникать в наш мир, нет задокументированных свидетельств о людях, которым удавалось попасть через портал в Бездну. Мне не хочется это говорить, но... мы даже не знаем, выжили наши друзья или нет.</target>
+			</trans-unit>
+			<trans-unit id="247" approved="no">
+				<source>247</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_338&lt;tab&gt;Проклятье... Я чувствую себя таким беспомощным...</target>
+			</trans-unit>
+			<trans-unit id="248" approved="no">
+				<source>248</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_339&lt;tab&gt;Нет, я отказываюсь сдаваться. Мы должны спасти Догу и Уней.</target>
+			</trans-unit>
+			<trans-unit id="249" approved="no">
+				<source>249</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_340&lt;tab&gt;Я хочу это сделать вовсе не потому, что у нас с ними одинаковые глаза.</target>
+			</trans-unit>
+			<trans-unit id="250" approved="no">
+				<source>250</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_341&lt;tab&gt;У них была миссия, они тысячи лет шли к тому, чтобы её выполнить... разве можно допустить, чтобы их история закончилось вот так? Кроме того...</target>
+			</trans-unit>
+			<trans-unit id="251" approved="no">
+				<source>251</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_342&lt;tab&gt;Мы не можем оставить всё как есть.</target>
+			</trans-unit>
+			<trans-unit id="252" approved="no">
+				<source>252</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_343&lt;tab&gt;Пока тёмный договор, заключённый Занде, остаётся в силе, наш мир всегда будет в опасности. Рано или поздно Облако Тьмы может проникнуть сюда, и мы должны это предотвратить.</target>
+			</trans-unit>
+			<trans-unit id="253" approved="no">
+				<source>253</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_344&lt;tab&gt;Г'раха. С тех пор, как вы встретили Уней и Догу, вы сами на себя не похожи. Скажите мне, только честно — с вашим глазом всё в порядке?</target>
+			</trans-unit>
+			<trans-unit id="254" approved="no">
+				<source>254</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_345&lt;tab&gt;Я не уверен. Знаю только, что я должен вспомнить нечто важное.</target>
+			</trans-unit>
+			<trans-unit id="255" approved="no">
+				<source>255</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_GRAHATIA_000_346&lt;tab&gt;Когда-то давно отец сказал мне, что ответ на вопрос о происхождении наших глаз связан с Аллагом. С тех пор я безуспешно гонялся за этим ответом... и однажды я &lt;var 1A 02 /var&gt;точно&lt;var 1A 01 /var&gt; узнаю правду.</target>
+			</trans-unit>
+			<trans-unit id="256" approved="no">
+				<source>256</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_347&lt;tab&gt;Я согласен с Г'рахой.</target>
+			</trans-unit>
+			<trans-unit id="257" approved="no">
+				<source>257</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_348&lt;tab&gt;Нужно попытаться спасти Уней и Догу, даже если шансы невелики. Да и этого проходимца Неро не мешало бы вернуть в наш мир. По крайней мере, я буду уверен, что он не устроит нам проблемы с &lt;var 1A 02 /var&gt;той&lt;var 1A 01 /var&gt; стороны.</target>
+			</trans-unit>
+			<trans-unit id="258" approved="no">
+				<source>258</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_349&lt;tab&gt;Вы правы. Дога и Уней — наши товарищи, пусть мы и знали их совсем недолго. Нельзя их бросать.</target>
+			</trans-unit>
+			<trans-unit id="259" approved="no">
+				<source>259</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_350&lt;tab&gt;Я подниму на уши всех экспертов и перерою всю литературу по этой теме. Клянусь, я не успокоюсь, пока не найду решение.</target>
+			</trans-unit>
+			<trans-unit id="260" approved="no">
+				<source>260</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_351&lt;tab&gt;Но вы должны понимать, что пройдёт некоторое время, прежде чем мы будем готовы действовать. Пожалуйста, наберитесь терпения. Когда имеешь дело с Бездной, нельзя быть чересчур осторожным.</target>
+			</trans-unit>
+			<trans-unit id="261" approved="no">
+				<source>261</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_RAMMBROES_000_352&lt;tab&gt;Еще раз благодарю вас за помощь. Отдыхайте, пока есть возможность. Ибо, когда придёт время идти спасать наших друзей, вы должны быть готовы.</target>
+			</trans-unit>
+			<trans-unit id="262" approved="no">
+				<source>262</source>
+				<target state="translated" xml:space="preserve">TEXT_GAIUSD401_01474_CID_000_353&lt;tab&gt;Мы их точно спасём, &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;! Запомни мои слова!</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

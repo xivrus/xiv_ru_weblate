@@ -1,393 +1,1771 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="ComArmGcArmyOfficer_00342" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_YES&lt;tab&gt;はい</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_NO&lt;tab&gt;いいえ</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL&lt;tab&gt;キャンセル</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL2&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 46 /var&gt;)) (()) /var&gt;キャンセル</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_RANK_UP&lt;tab&gt;小隊ランク &lt;var 20 E802 /var&gt;</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_WAITING&lt;tab&gt;実行中の小隊任務命令： なし</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_EXPEDITION&lt;tab&gt;実行中の小隊任務： &lt;var 28 ((GcArmyExpeditionType)) ((&lt;var 28 ((GcArmyExpedition)) E80208 /var&gt;)) 01 /var&gt;  &lt;var 28 ((GcArmyExpedition)) E80209 /var&gt;
-完了予定：&lt;var 08 E1E80301 ((完了)) ((残り&lt;var 08 E1E80501 ((&lt;var 20 E805 /var&gt;時間&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;分後)) (()) /var&gt;)) ((&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;分)) ((1分以内)) /var&gt;)) /var&gt;)) /var&gt; [&lt;var 07 E806 /var&gt;&lt;var 20 DF /var&gt;/&lt;var 20 DE /var&gt;/&lt;var 20 DC /var&gt; &lt;var 20 DB /var&gt;:&lt;var 24 DA /var&gt;]</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_TRAINING&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_001&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 46 /var&gt;)) (()) /var&gt;小隊任務を確認する</target></trans-unit><trans-unit id="9" approved="yes"><source>9</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_002&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 46 /var&gt;)) (()) /var&gt;実行中の小隊任務を中止する</target></trans-unit><trans-unit id="10" approved="yes"><source>10</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_003&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 46 /var&gt;)) (()) /var&gt;指南書を読む</target></trans-unit><trans-unit id="11" approved="yes"><source>11</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_004&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 66 /var&gt;)) (()) /var&gt;&lt;var 48 F20224 /var&gt;新たな任務（攻略任務）&lt;var 48 01 /var&gt;</target></trans-unit><trans-unit id="12" approved="yes"><source>12</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_MENU_005&lt;tab&gt;攻略任務を確認する</target></trans-unit><trans-unit id="13" approved="yes"><source>13</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_000&lt;tab&gt;命令を実行していないため、
-中止することはできません。</target></trans-unit><trans-unit id="14" approved="yes"><source>14</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_010&lt;tab&gt;実行した命令が完了しているため、
-中止することはできません。</target></trans-unit><trans-unit id="15" approved="yes"><source>15</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_020&lt;tab&gt;所持品もしくはクリスタル枠の空きが足りないため、
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="ComArmGcArmyOfficer_00342" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_YES&lt;tab&gt;はい</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_NO&lt;tab&gt;いいえ</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL&lt;tab&gt;キャンセル</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL2&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 46 /var&gt;)) (()) /var&gt;キャンセル</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_RANK_UP&lt;tab&gt;小隊ランク &lt;var 20 E802 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_WAITING&lt;tab&gt;実行中の小隊任務命令： なし</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_EXPEDITION&lt;tab&gt;実行中の小隊任務： &lt;var 28 ((GcArmyExpeditionType)) ((&lt;var 28 ((GcArmyExpedition)) E80208 /var&gt;)) 01 /var&gt;  &lt;var 28 ((GcArmyExpedition)) E80209 /var&gt;
+完了予定：&lt;var 08 E1E80301 ((完了)) ((残り&lt;var 08 E1E80501 ((&lt;var 20 E805 /var&gt;時間&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;分後)) (()) /var&gt;)) ((&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;分)) ((1分以内)) /var&gt;)) /var&gt;)) /var&gt; [&lt;var 07 E806 /var&gt;&lt;var 20 DF /var&gt;/&lt;var 20 DE /var&gt;/&lt;var 20 DC /var&gt; &lt;var 20 DB /var&gt;:&lt;var 24 DA /var&gt;]</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_TRAINING&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_001&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 46 /var&gt;)) (()) /var&gt;小隊任務を確認する</target>
+			</trans-unit>
+			<trans-unit id="9" approved="yes">
+				<source>9</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_002&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 46 /var&gt;)) (()) /var&gt;実行中の小隊任務を中止する</target>
+			</trans-unit>
+			<trans-unit id="10" approved="yes">
+				<source>10</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_003&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 46 /var&gt;)) (()) /var&gt;指南書を読む</target>
+			</trans-unit>
+			<trans-unit id="11" approved="yes">
+				<source>11</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_004&lt;tab&gt;&lt;var 08 E1E80201 ((&lt;var 12 66 /var&gt;)) (()) /var&gt;&lt;var 48 F20224 /var&gt;新たな任務（攻略任務）&lt;var 48 01 /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="12" approved="yes">
+				<source>12</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_MENU_005&lt;tab&gt;攻略任務を確認する</target>
+			</trans-unit>
+			<trans-unit id="13" approved="yes">
+				<source>13</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_000&lt;tab&gt;命令を実行していないため、
+中止することはできません。</target>
+			</trans-unit>
+			<trans-unit id="14" approved="yes">
+				<source>14</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_010&lt;tab&gt;実行した命令が完了しているため、
+中止することはできません。</target>
+			</trans-unit>
+			<trans-unit id="15" approved="yes">
+				<source>15</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_020&lt;tab&gt;所持品もしくはクリスタル枠の空きが足りないため、
 任務の結果報告を受けることができません。
-所持品を整理してから、再度、話しかけてください。</target></trans-unit><trans-unit id="16" approved="yes"><source>16</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_OBTAIN_TITLE&lt;tab&gt;以下の所持数が上限に達するため、すべての報酬は受け取れません。
+所持品を整理してから、再度、話しかけてください。</target>
+			</trans-unit>
+			<trans-unit id="16" approved="yes">
+				<source>16</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_OBTAIN_TITLE&lt;tab&gt;以下の所持数が上限に達するため、すべての報酬は受け取れません。
 よろしいですか？
 &lt;var 08 E1E80201 ((
 　・軍票)) (()) /var&gt;&lt;var 08 E1E80301 ((
 　・MGP)) (()) /var&gt;&lt;var 08 E1E80401 ((
 　・&lt;var 28 ((Item)) E80601 /var&gt;)) (()) /var&gt;&lt;var 08 E1E80501 ((
-　・&lt;var 28 ((Item)) E80701 /var&gt;)) (()) /var&gt;</target></trans-unit><trans-unit id="17" approved="yes"><source>17</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO&lt;tab&gt;&lt;var 28 ((GcArmyExpeditionType)) ((&lt;var 28 ((GcArmyExpedition)) E80208 /var&gt;)) 01 /var&gt;  &lt;var 28 ((GcArmyExpedition)) E80209 /var&gt;
+　・&lt;var 28 ((Item)) E80701 /var&gt;)) (()) /var&gt;</target>
+			</trans-unit>
+			<trans-unit id="17" approved="yes">
+				<source>17</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO&lt;tab&gt;&lt;var 28 ((GcArmyExpeditionType)) ((&lt;var 28 ((GcArmyExpedition)) E80208 /var&gt;)) 01 /var&gt;  &lt;var 28 ((GcArmyExpedition)) E80209 /var&gt;
 完了予定：&lt;var 08 E1E80401 ((&lt;var 20 E804 /var&gt;時間&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;分後)) (()) /var&gt;)) ((&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;分)) ((1分以内)) /var&gt;)) /var&gt; [&lt;var 07 E805 /var&gt;&lt;var 20 DF /var&gt;/&lt;var 20 DE /var&gt;/&lt;var 20 DC /var&gt; &lt;var 20 DB /var&gt;:&lt;var 24 DA /var&gt;]
-小隊任務を中止しますか？</target></trans-unit><trans-unit id="18" approved="yes"><source>18</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO_TRAINING&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="19" approved="yes"><source>19</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_TITLE&lt;tab&gt;何についての項目を読みますか？</target></trans-unit><trans-unit id="20" approved="yes"><source>20</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_001&lt;tab&gt;小隊任務について</target></trans-unit><trans-unit id="21" approved="yes"><source>21</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_002&lt;tab&gt;訓練について</target></trans-unit><trans-unit id="22" approved="yes"><source>22</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_003&lt;tab&gt;志願兵を集めるには</target></trans-unit><trans-unit id="23" approved="yes"><source>23</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_004&lt;tab&gt;志願兵を入隊させるには？</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_005&lt;tab&gt;小隊総合能力の上限について</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_006&lt;tab&gt;小隊員のクラスを変更するには？</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_007&lt;tab&gt;ジンクスについて</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_008&lt;tab&gt;ランダムボーナスについて</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_009&lt;tab&gt;攻略任務について</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_010&lt;tab&gt;攻略任務の作戦について</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_011&lt;tab&gt;小隊員の武具投影について</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_CANCEL&lt;tab&gt;キャンセル</target></trans-unit><trans-unit id="32" approved="yes"><source>32</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_270&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="33" approved="yes"><source>33</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_270&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="34" approved="yes"><source>34</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_270&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="35" approved="yes"><source>35</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_280&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="36" approved="yes"><source>36</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_280&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="37" approved="yes"><source>37</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_280&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="38" approved="yes"><source>38</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_281&lt;tab&gt;「攻略手帳」の項目を達成していくことで、
-まれに「志願兵」が現れることがあります。</target></trans-unit><trans-unit id="39" approved="yes"><source>39</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_282&lt;tab&gt;志願兵が現れた際には、
+小隊任務を中止しますか？</target>
+			</trans-unit>
+			<trans-unit id="18" approved="yes">
+				<source>18</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO_TRAINING&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="19" approved="yes">
+				<source>19</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_TITLE&lt;tab&gt;何についての項目を読みますか？</target>
+			</trans-unit>
+			<trans-unit id="20" approved="yes">
+				<source>20</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_001&lt;tab&gt;小隊任務について</target>
+			</trans-unit>
+			<trans-unit id="21" approved="yes">
+				<source>21</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_002&lt;tab&gt;訓練について</target>
+			</trans-unit>
+			<trans-unit id="22" approved="yes">
+				<source>22</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_003&lt;tab&gt;志願兵を集めるには</target>
+			</trans-unit>
+			<trans-unit id="23" approved="yes">
+				<source>23</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_004&lt;tab&gt;志願兵を入隊させるには？</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_005&lt;tab&gt;小隊総合能力の上限について</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_006&lt;tab&gt;小隊員のクラスを変更するには？</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_007&lt;tab&gt;ジンクスについて</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_008&lt;tab&gt;ランダムボーナスについて</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_009&lt;tab&gt;攻略任務について</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_010&lt;tab&gt;攻略任務の作戦について</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_011&lt;tab&gt;小隊員の武具投影について</target>
+			</trans-unit>
+			<trans-unit id="31" approved="yes">
+				<source>31</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_GUIDE_CANCEL&lt;tab&gt;キャンセル</target>
+			</trans-unit>
+			<trans-unit id="32" approved="yes">
+				<source>32</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_270&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="33" approved="yes">
+				<source>33</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_270&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="34" approved="yes">
+				<source>34</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_270&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="35" approved="yes">
+				<source>35</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_280&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="36" approved="yes">
+				<source>36</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_280&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="37" approved="yes">
+				<source>37</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_280&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="38" approved="yes">
+				<source>38</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_281&lt;tab&gt;「攻略手帳」の項目を達成していくことで、
+まれに「志願兵」が現れることがあります。</target>
+			</trans-unit>
+			<trans-unit id="39" approved="yes">
+				<source>39</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_282&lt;tab&gt;志願兵が現れた際には、
 画面中央にメッセージが表示され、
-兵舎に「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」が配置されます。</target></trans-unit><trans-unit id="40" approved="yes"><source>40</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_283&lt;tab&gt;また、現在の志願兵の有無は、
+兵舎に「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」が配置されます。</target>
+			</trans-unit>
+			<trans-unit id="40" approved="yes">
+				<source>40</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_283&lt;tab&gt;また、現在の志願兵の有無は、
 メインコマンドの「コンテンツ情報」から、
-「コンテンツ情報一覧」を選ぶと確認できます。</target></trans-unit><trans-unit id="41" approved="yes"><source>41</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_284&lt;tab&gt;志願兵が現れたら、兵舎に赴いて「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」を確認し、
-「冒険者小隊」に配属するかどうか決めましょう。</target></trans-unit><trans-unit id="42" approved="yes"><source>42</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_290&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="43" approved="yes"><source>43</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_291&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="44" approved="yes"><source>44</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_292&lt;tab&gt;「志願兵」を入隊させるかどうかは、
-「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」を選択することで決定することができます。</target></trans-unit><trans-unit id="45" approved="yes"><source>45</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_100_292&lt;tab&gt;なお、小隊員の総数が、定員の8名に達している場合に、
+「コンテンツ情報一覧」を選ぶと確認できます。</target>
+			</trans-unit>
+			<trans-unit id="41" approved="yes">
+				<source>41</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_284&lt;tab&gt;志願兵が現れたら、兵舎に赴いて「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」を確認し、
+「冒険者小隊」に配属するかどうか決めましょう。</target>
+			</trans-unit>
+			<trans-unit id="42" approved="yes">
+				<source>42</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_290&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="43" approved="yes">
+				<source>43</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_291&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="44" approved="yes">
+				<source>44</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_292&lt;tab&gt;「志願兵」を入隊させるかどうかは、
+「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」を選択することで決定することができます。</target>
+			</trans-unit>
+			<trans-unit id="45" approved="yes">
+				<source>45</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_100_292&lt;tab&gt;なお、小隊員の総数が、定員の8名に達している場合に、
 新しい小隊員を迎えるには、
-所属済みの小隊員のいずれかを「除隊」させる必要があります。</target></trans-unit><trans-unit id="46" approved="yes"><source>46</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_290&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="47" approved="yes"><source>47</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_291&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_290&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_291&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_200_292&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_300&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_301&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_300&lt;tab&gt;「小隊任務」とは、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;が小隊に遂行してほしい任務のことです。
-小隊員の中から派遣する小隊員を4名選び、任務を任せてください。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_301&lt;tab&gt;「小隊任務」派遣時には、小隊員に軍票を支払う必要があります。
-小隊任務の所要時間は、（地球時間）18時間ほどです。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_302&lt;tab&gt;また、完了時間はメインコマンドの「コンテンツ情報」から、
-「コンテンツ情報一覧」を選ぶと確認できます。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_303&lt;tab&gt;「小隊任務」の実行と結果の確認は、
-&lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;より行うことができます。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_304&lt;tab&gt;「小隊任務」の達成状況、および「適性能力」は、
+所属済みの小隊員のいずれかを「除隊」させる必要があります。</target>
+			</trans-unit>
+			<trans-unit id="46" approved="yes">
+				<source>46</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_290&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="47" approved="yes">
+				<source>47</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_291&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_290&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_291&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_200_292&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_300&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_301&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_300&lt;tab&gt;「小隊任務」とは、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;が小隊に遂行してほしい任務のことです。
+小隊員の中から派遣する小隊員を4名選び、任務を任せてください。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_301&lt;tab&gt;「小隊任務」派遣時には、小隊員に軍票を支払う必要があります。
+小隊任務の所要時間は、（地球時間）18時間ほどです。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_302&lt;tab&gt;また、完了時間はメインコマンドの「コンテンツ情報」から、
+「コンテンツ情報一覧」を選ぶと確認できます。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_303&lt;tab&gt;「小隊任務」の実行と結果の確認は、
+&lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;より行うことができます。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_304&lt;tab&gt;「小隊任務」の達成状況、および「適性能力」は、
 （地球時間）毎週&lt;var 06 1203 /var&gt;&lt;var 09 DD ((日)) ((月)) ((火)) ((水)) ((木)) ((金)) ((土)) /var&gt;曜日の&lt;var 08 E0DB0D ((午後)) ((午前)) /var&gt;&lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var&gt;)) 01 /var&gt;時にリセットされます。
-なお、各任務は1週間に1回、達成することができます。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_302&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_305&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_300&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_301&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_302&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_300&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_301&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_302&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_310&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_311&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_312&lt;tab&gt;「訓練」では、小隊の「小隊総合能力」、
+なお、各任務は1週間に1回、達成することができます。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_302&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_305&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_300&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_301&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_302&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_300&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_301&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_302&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_310&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_311&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_312&lt;tab&gt;「訓練」では、小隊の「小隊総合能力」、
 すなわち「総合身体能力」、「総合精神力」、「総合戦術練度」を、
-鍛え上げることができます。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_313&lt;tab&gt;選択した訓練の種類に応じて、
+鍛え上げることができます。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_313&lt;tab&gt;選択した訓練の種類に応じて、
 どの小隊総合能力が上昇しやすいのかが変わるので、
-各小隊任務の達成に必要な能力値を目安に、訓練を行いましょう！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_314&lt;tab&gt;「訓練」は、（地球時間）1時間ほどかかります。
+各小隊任務の達成に必要な能力値を目安に、訓練を行いましょう！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_314&lt;tab&gt;「訓練」は、（地球時間）1時間ほどかかります。
 完了時間は、メインコマンドの「コンテンツ情報」から、
-「コンテンツ情報一覧」を選ぶと確認できます。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_315&lt;tab&gt;「訓練」の実行と結果の確認は、
-&lt;var 28 ((EObj)) F61EA06E01 /var&gt;より行うことができます。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_316&lt;tab&gt;また、「訓練」は1日に3回まで行なうことができます。
-訓練実行回数は、（地球時間）毎日、&lt;var 06 06 /var&gt;&lt;var 08 E0DB0D ((午後)) ((午前)) /var&gt;&lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var&gt;)) 01 /var&gt;時にリセットされます。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_310&lt;tab&gt;（★未使用／削除予定★） </target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_311&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_310&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_311&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_310&lt;tab&gt;「小隊総合能力」の合計には上限値があります。
+「コンテンツ情報一覧」を選ぶと確認できます。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_315&lt;tab&gt;「訓練」の実行と結果の確認は、
+&lt;var 28 ((EObj)) F61EA06E01 /var&gt;より行うことができます。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_316&lt;tab&gt;また、「訓練」は1日に3回まで行なうことができます。
+訓練実行回数は、（地球時間）毎日、&lt;var 06 06 /var&gt;&lt;var 08 E0DB0D ((午後)) ((午前)) /var&gt;&lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var&gt;)) 01 /var&gt;時にリセットされます。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_310&lt;tab&gt;（★未使用／削除予定★） </target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_311&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_310&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_311&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_310&lt;tab&gt;「小隊総合能力」の合計には上限値があります。
 上限に達して以降は、特定の総合能力を上げようとする場合、
-別の総合能力が下がってしまいます。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_311&lt;tab&gt;なお、「小隊総合能力」の上限値は、
+別の総合能力が下がってしまいます。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_311&lt;tab&gt;なお、「小隊総合能力」の上限値は、
 「小隊ランク」を高めることで、引きあげることができます。
-特殊な小隊任務を成功させ、ランクを上昇させましょう。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_320&lt;tab&gt;小隊員のクラスを変更するには、
-クラスを変更するためのアイテムを持っている必要があります。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_321&lt;tab&gt;「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」を調べ、「小隊情報を見る」から、
+特殊な小隊任務を成功させ、ランクを上昇させましょう。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_320&lt;tab&gt;小隊員のクラスを変更するには、
+クラスを変更するためのアイテムを持っている必要があります。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_321&lt;tab&gt;「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」を調べ、「小隊情報を見る」から、
 小隊員を選択し、サブコマンドから「クラス変更」を選ぶことで、
-対象のクラスを変更することができます。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_330&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_331&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_330&lt;tab&gt;小隊任務から帰還した小隊員は、
-まれに「ジンクス」を発生させることがあります。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_331&lt;tab&gt;ジンクスとは、小隊任務に対して発揮されるもので、
+対象のクラスを変更することができます。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_330&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_331&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_330&lt;tab&gt;小隊任務から帰還した小隊員は、
+まれに「ジンクス」を発生させることがあります。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_331&lt;tab&gt;ジンクスとは、小隊任務に対して発揮されるもので、
 派遣する小隊員の種族構成など、特定の発生条件を満たすことで、
-能力の上昇や報酬の増加といった効果を得ることができます。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_332&lt;tab&gt;「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」を調べ、「小隊情報を見る」から、
+能力の上昇や報酬の増加といった効果を得ることができます。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_332&lt;tab&gt;「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」を調べ、「小隊情報を見る」から、
 小隊員を選択し、サブコマンドから「ジンクス管理」を選ぶことで、
-対象のジンクスの設定や変更を行うことができます。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_333&lt;tab&gt;ジンクスは、発生しただけでは効果を発揮せず、
+対象のジンクスの設定や変更を行うことができます。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_333&lt;tab&gt;ジンクスは、発生しただけでは効果を発揮せず、
 そのまま次の小隊任務に派遣すると、消えてしまいます。
-発生後は、忘れず「ジンクス管理」から設定しましょう。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_340&lt;tab&gt;小隊任務一覧にある「ランダムボーナス」には、
+発生後は、忘れず「ジンクス管理」から設定しましょう。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_340&lt;tab&gt;小隊任務一覧にある「ランダムボーナス」には、
 各々の小隊任務に対して、有効な種族やクラスが書かれており、
-該当する小隊員を派遣させると、ジンクスが強化されます。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_341&lt;tab&gt;難易度の高い小隊任務になると、「ランダムボーナス」も、
+該当する小隊員を派遣させると、ジンクスが強化されます。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_341&lt;tab&gt;難易度の高い小隊任務になると、「ランダムボーナス」も、
 小隊任務の達成に大きく関わってきますので、
-内容を参考にしながら、小隊員を編成するとよいでしょう。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_342&lt;tab&gt;「ランダムボーナス」は、通常任務と特殊任務で発生し、
-（地球時間）毎週&lt;var 06 1203 /var&gt;&lt;var 09 DD ((日)) ((月)) ((火)) ((水)) ((木)) ((金)) ((土)) /var&gt;曜日の&lt;var 08 E0DB0D ((午後)) ((午前)) /var&gt;&lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var&gt;)) 01 /var&gt;時にリセットされます。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_000_GRD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_001_GRD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_002_GRD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_003_GRD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_000_LIM&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_001_LIM&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_002_LIM&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_003_LIM&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_000_ULD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_001_ULD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_002_ULD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_021_003_ULD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_340&lt;tab&gt;「攻略任務」とは、任意に選んだ3名の小隊員を同行させ、
-特定のインスタンスダンジョンを攻略する任務のことです。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_341&lt;tab&gt;その際、自分自身と同行させる小隊員を含めて、
+内容を参考にしながら、小隊員を編成するとよいでしょう。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_342&lt;tab&gt;「ランダムボーナス」は、通常任務と特殊任務で発生し、
+（地球時間）毎週&lt;var 06 1203 /var&gt;&lt;var 09 DD ((日)) ((月)) ((火)) ((水)) ((木)) ((金)) ((土)) /var&gt;曜日の&lt;var 08 E0DB0D ((午後)) ((午前)) /var&gt;&lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var&gt;)) 01 /var&gt;時にリセットされます。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_000_GRD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_001_GRD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_002_GRD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_003_GRD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_000_LIM&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_001_LIM&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_002_LIM&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_003_LIM&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_000_ULD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_001_ULD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_002_ULD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_021_003_ULD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_340&lt;tab&gt;「攻略任務」とは、任意に選んだ3名の小隊員を同行させ、
+特定のインスタンスダンジョンを攻略する任務のことです。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_341&lt;tab&gt;その際、自分自身と同行させる小隊員を含めて、
 「TANK:1/HEALER:1/DPS:2」というロール構成に、
-準ずる必要があります。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_342&lt;tab&gt;なお、攻略任務中の小隊員たちは、
+準ずる必要があります。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_342&lt;tab&gt;なお、攻略任務中の小隊員たちは、
 自らの判断で、自動的に行動しますが、
-「号令」を発することで、ある程度の指示が可能です。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_343&lt;tab&gt;号令には、「号令：戦闘開始」、「号令：一時撤退」、
+「号令」を発することで、ある程度の指示が可能です。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_343&lt;tab&gt;号令には、「号令：戦闘開始」、「号令：一時撤退」、
 「号令：リミットブレイク」の3種類が存在し、
-専用のホットバーから実行できます。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_344&lt;tab&gt;「号令：戦闘開始」を出すと小隊員たちは、
+専用のホットバーから実行できます。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_344&lt;tab&gt;「号令：戦闘開始」を出すと小隊員たちは、
 ターゲットしている敵に対して、
-戦闘を開始します。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_345&lt;tab&gt;「号令：一時撤退」を出すと小隊員たちは、
-戦闘を中断し、プレイヤーの近くに集まります。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_346&lt;tab&gt;また、「号令：一時撤退」を出すと、
-その号令は「号令：撤退解除」に変化します。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_347&lt;tab&gt;一時撤退を解除したい場合は、
-「号令：撤退解除」か「号令：戦闘開始」を出しましょう。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_348&lt;tab&gt;「号令：リミットブレイク」を出すと、
-小隊員たちが協力し、リミットブレイクを放ちます。</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_349&lt;tab&gt;このリミットブレイクは、レベル1専用アクションで、
+戦闘を開始します。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_345&lt;tab&gt;「号令：一時撤退」を出すと小隊員たちは、
+戦闘を中断し、プレイヤーの近くに集まります。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_346&lt;tab&gt;また、「号令：一時撤退」を出すと、
+その号令は「号令：撤退解除」に変化します。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_347&lt;tab&gt;一時撤退を解除したい場合は、
+「号令：撤退解除」か「号令：戦闘開始」を出しましょう。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_348&lt;tab&gt;「号令：リミットブレイク」を出すと、
+小隊員たちが協力し、リミットブレイクを放ちます。</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_349&lt;tab&gt;このリミットブレイクは、レベル1専用アクションで、
 「リミットゲージ」が2段階たまっていても、
-消費は1段階分となります。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_350&lt;tab&gt;なお、号令を通常のホットバーに登録したい場合は、
+消費は1段階分となります。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_350&lt;tab&gt;なお、号令を通常のホットバーに登録したい場合は、
 メインコマンド「マイキャラクター」→「アクションリスト」→
-「ORDERS」→「冒険者小隊」から選択してください。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_351&lt;tab&gt;攻略任務の実行と結果の確認は、
-&lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;より行うことができます。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_360&lt;tab&gt;「作戦」とは、攻略任務中の小隊員たちの、
-行動方針と能力に関わる要素です。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_361&lt;tab&gt;最初は「自由」しか修得していませんが、
-攻略任務から帰還した際に、まれに新たな作戦を修得します。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_362&lt;tab&gt;作戦には、攻撃を重視する「攻勢」、
+「ORDERS」→「冒険者小隊」から選択してください。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_351&lt;tab&gt;攻略任務の実行と結果の確認は、
+&lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;より行うことができます。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_360&lt;tab&gt;「作戦」とは、攻略任務中の小隊員たちの、
+行動方針と能力に関わる要素です。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_361&lt;tab&gt;最初は「自由」しか修得していませんが、
+攻略任務から帰還した際に、まれに新たな作戦を修得します。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_362&lt;tab&gt;作戦には、攻撃を重視する「攻勢」、
 堅実さを重視する「定石」、防御を重視する「守勢」などが存在し、
-行動方針が変わり、専用のバフが付与されます。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_363&lt;tab&gt;また、作戦は攻略任務を重ねることで、
-まれに「作戦熟練度」がアップし、効果が高まっていきます。</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_364&lt;tab&gt;各小隊員に話しかけ、「作戦指示」を選ぶことで、
-作戦を変更できるため、好みに応じて設定しておきましょう。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_370&lt;tab&gt;小隊員のレベルが51以上の場合、
+行動方針が変わり、専用のバフが付与されます。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_363&lt;tab&gt;また、作戦は攻略任務を重ねることで、
+まれに「作戦熟練度」がアップし、効果が高まっていきます。</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_364&lt;tab&gt;各小隊員に話しかけ、「作戦指示」を選ぶことで、
+作戦を変更できるため、好みに応じて設定しておきましょう。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_370&lt;tab&gt;小隊員のレベルが51以上の場合、
 話しかけ「武具投影」を選ぶことで、
-対象者の装備品のデザインを変更することができます。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_371&lt;tab&gt;投影する装備品は、所持品から選択できます。
-その際、触媒を消費しますが、装備品は消費しません。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_100&lt;tab&gt;お待ちしておりました、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿！
+対象者の装備品のデザインを変更することができます。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_371&lt;tab&gt;投影する装備品は、所持品から選択できます。
+その際、触媒を消費しますが、装備品は消費しません。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_100&lt;tab&gt;お待ちしておりました、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿！
 本日より部隊を指揮していただくわけですが、
-そうは言っても、何をすべきか戸惑ってしまいますよね？</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_136&lt;tab&gt;まずは、小隊員の補充をお願いします。
+そうは言っても、何をすべきか戸惑ってしまいますよね？</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_136&lt;tab&gt;まずは、小隊員の補充をお願いします。
 我が部隊には現在、3名の小隊員がいますが、
-新たに1名加え、合計4名に増員してほしいのです。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_137&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
+新たに1名加え、合計4名に増員してほしいのです。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_137&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
 その姿を見た者たちが「志願兵」として現れることでしょう。
-その中から、新たな小隊員を選ぶのです！</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_138&lt;tab&gt;「攻略手帳」の項目を達成していくことで、
-まれに「志願兵」が現れることがあります。</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_139&lt;tab&gt;志願兵が現れた際には、
+その中から、新たな小隊員を選ぶのです！</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_138&lt;tab&gt;「攻略手帳」の項目を達成していくことで、
+まれに「志願兵」が現れることがあります。</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_139&lt;tab&gt;志願兵が現れた際には、
 画面中央にメッセージが表示され、
-兵舎に「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」が配置されます。</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_140&lt;tab&gt;また、現在の志願兵の有無は、
+兵舎に「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」が配置されます。</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_140&lt;tab&gt;また、現在の志願兵の有無は、
 メインコマンドの「コンテンツ情報」から、
-「コンテンツ情報一覧」を選ぶと確認できます。</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_141&lt;tab&gt;志願兵が現れたら、兵舎に赴いて「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」を確認し、
-「冒険者小隊」に配属するかどうか決めましょう。</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_110&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_111&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_101&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_102&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_110&lt;tab&gt;いよいよ、初の「小隊任務」ですね！
+「コンテンツ情報一覧」を選ぶと確認できます。</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_141&lt;tab&gt;志願兵が現れたら、兵舎に赴いて「&lt;var 28 ((EObj)) F61EA07101 /var&gt;」を確認し、
+「冒険者小隊」に配属するかどうか決めましょう。</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_110&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_111&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_101&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_102&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_110&lt;tab&gt;いよいよ、初の「小隊任務」ですね！
 通常は、いくつかの任務から派遣すべきものを、
-小隊長殿に選んでいただくのですが……。</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_111&lt;tab&gt;今回は初めての挑戦ということですので、
-僭越ながら小官が、特別にひとつの任務を選んでおきました。</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_112&lt;tab&gt;それでは、さっそく派遣する小隊員を選び、
-出撃の号令を発してください！</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_113&lt;tab&gt;「小隊任務」は、4名1組で行われます。
+小隊長殿に選んでいただくのですが……。</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_111&lt;tab&gt;今回は初めての挑戦ということですので、
+僭越ながら小官が、特別にひとつの任務を選んでおきました。</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_112&lt;tab&gt;それでは、さっそく派遣する小隊員を選び、
+出撃の号令を発してください！</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_113&lt;tab&gt;「小隊任務」は、4名1組で行われます。
 部隊に所属する小隊員の中から、派遣する4名を選び、
-「任務開始」を選択して、人選を確定させましょう。</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_120&lt;tab&gt;これで出撃準備が整いましたね。
+「任務開始」を選択して、人選を確定させましょう。</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_120&lt;tab&gt;これで出撃準備が整いましたね。
 そうそう、今回は特例として小官が支給しておきましたが、
-「小隊任務」派遣時には、小隊員に軍票を支払う必要があります。</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_121&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;は、兵を無給で働かせるような、
+「小隊任務」派遣時には、小隊員に軍票を支払う必要があります。</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_121&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;は、兵を無給で働かせるような、
 無茶苦茶な組織ではないのであります！
-次回からは&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が「軍票」を支給してくださいね。</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_122&lt;tab&gt;……さて、小隊任務には、少し時間がかかります。
+次回からは&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が「軍票」を支給してくださいね。</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_122&lt;tab&gt;……さて、小隊任務には、少し時間がかかります。
 完了する頃合いを見計らって、
-結果を確認しに、小官をお訪ねください！</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_124&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_125&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_126&lt;tab&gt;&lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;に話しかけることで、
-「小隊任務」の結果を確認することができます。</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_123&lt;tab&gt;完了時間は、メインコマンドの「コンテンツ情報」から、
-「コンテンツ情報一覧」を選ぶと確認できます。</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_130&lt;tab&gt;どうやら、初の「小隊任務」は成功のようですね。
+結果を確認しに、小官をお訪ねください！</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_124&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_125&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_126&lt;tab&gt;&lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;に話しかけることで、
+「小隊任務」の結果を確認することができます。</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_123&lt;tab&gt;完了時間は、メインコマンドの「コンテンツ情報」から、
+「コンテンツ情報一覧」を選ぶと確認できます。</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_130&lt;tab&gt;どうやら、初の「小隊任務」は成功のようですね。
 ……もっとも、こんなお使い程度の任務に失敗するようでは、
-先が思いやられるというものですが……。</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_131&lt;tab&gt;ともかく、このように「小隊任務」で経験を積むことで、
+先が思いやられるというものですが……。</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_131&lt;tab&gt;ともかく、このように「小隊任務」で経験を積むことで、
 小隊員たちは、「個人能力」を高めていくことになります。
-そして、個々の能力が高くなるほど、任務の成功率も上がるでしょう。</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_132&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_133&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="147" approved="yes"><source>147</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_134&lt;tab&gt;これ以降、「小隊任務」の実行と結果の確認は、
-&lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;より行うことができます。</target></trans-unit><trans-unit id="148" approved="yes"><source>148</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_135&lt;tab&gt;「小隊任務」の達成状況は、
+そして、個々の能力が高くなるほど、任務の成功率も上がるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="145" approved="yes">
+				<source>145</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_132&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="146" approved="yes">
+				<source>146</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_133&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="147" approved="yes">
+				<source>147</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_134&lt;tab&gt;これ以降、「小隊任務」の実行と結果の確認は、
+&lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;より行うことができます。</target>
+			</trans-unit>
+			<trans-unit id="148" approved="yes">
+				<source>148</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_135&lt;tab&gt;「小隊任務」の達成状況は、
 （地球時間）毎週&lt;var 06 1203 /var&gt;&lt;var 09 DD ((日)) ((月)) ((火)) ((水)) ((木)) ((金)) ((土)) /var&gt;曜日の&lt;var 08 E0DB0D ((午後)) ((午前)) /var&gt;&lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var&gt;)) 01 /var&gt;時にリセットされます。
-なお、各任務は1週間に1回、達成することができます。</target></trans-unit><trans-unit id="149" approved="yes"><source>149</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_136&lt;tab&gt;……さて、次は「訓練」について説明しましょう。
+なお、各任務は1週間に1回、達成することができます。</target>
+			</trans-unit>
+			<trans-unit id="149" approved="yes">
+				<source>149</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_136&lt;tab&gt;……さて、次は「訓練」について説明しましょう。
 「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
-個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target></trans-unit><trans-unit id="150" approved="yes"><source>150</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_137&lt;tab&gt;小隊を「訓練」させたいときには、
-ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target></trans-unit><trans-unit id="151" approved="yes"><source>151</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_138&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
+個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target>
+			</trans-unit>
+			<trans-unit id="150" approved="yes">
+				<source>150</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_137&lt;tab&gt;小隊を「訓練」させたいときには、
+ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target>
+			</trans-unit>
+			<trans-unit id="151" approved="yes">
+				<source>151</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_138&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
 「訓練」なくして、勝利なし！
-……小官が、かつての上官から教えていただいた言葉であります。</target></trans-unit><trans-unit id="152" approved="yes"><source>152</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_139&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
-我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target></trans-unit><trans-unit id="153" approved="yes"><source>153</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_150&lt;tab&gt;最近、小隊員の成長も著しく、
+……小官が、かつての上官から教えていただいた言葉であります。</target>
+			</trans-unit>
+			<trans-unit id="152" approved="yes">
+				<source>152</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_139&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
+我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target>
+			</trans-unit>
+			<trans-unit id="153" approved="yes">
+				<source>153</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_150&lt;tab&gt;最近、小隊員の成長も著しく、
 より難度の高い小隊任務にも挑戦できるようになってきました。
-難しい任務を成功させれば、小隊の実力もさらに高まるでしょう。</target></trans-unit><trans-unit id="154" approved="yes"><source>154</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_151&lt;tab&gt;レベル20に達した小隊員が現れたことで、
+難しい任務を成功させれば、小隊の実力もさらに高まるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="154" approved="yes">
+				<source>154</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_151&lt;tab&gt;レベル20に達した小隊員が現れたことで、
 ランク上昇の条件となる小隊任務に挑戦可能になりました。
-この任務を成功させることで、小隊ランクを高めることができます。</target></trans-unit><trans-unit id="155" approved="yes"><source>155</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_152&lt;tab&gt;ただし、この小隊任務は難易度が高く、
+この任務を成功させることで、小隊ランクを高めることができます。</target>
+			</trans-unit>
+			<trans-unit id="155" approved="yes">
+				<source>155</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_152&lt;tab&gt;ただし、この小隊任務は難易度が高く、
 そう簡単には、成功させることができません。
-小隊員の個人能力を成長させ、成功率を高めてから挑みましょう。</target></trans-unit><trans-unit id="156" approved="yes"><source>156</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_160&lt;tab&gt;なんと、あの難しい小隊任務を成功に導いたのですね！
-これでますます、我が部隊の名声も高まるというものでしょう！</target></trans-unit><trans-unit id="157" approved="yes"><source>157</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_161&lt;tab&gt;小隊ランクが2に上昇しました！
+小隊員の個人能力を成長させ、成功率を高めてから挑みましょう。</target>
+			</trans-unit>
+			<trans-unit id="156" approved="yes">
+				<source>156</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_160&lt;tab&gt;なんと、あの難しい小隊任務を成功に導いたのですね！
+これでますます、我が部隊の名声も高まるというものでしょう！</target>
+			</trans-unit>
+			<trans-unit id="157" approved="yes">
+				<source>157</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_161&lt;tab&gt;小隊ランクが2に上昇しました！
 これに伴い、「簡易任務」に加えて「通常任務」という、
-より高難易度の小隊任務に挑めるようになります。</target></trans-unit><trans-unit id="158" approved="yes"><source>158</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_162&lt;tab&gt;また、任務の成功報酬として、「&lt;var 28 ((Item)) F23D9C01 /var&gt;」という、
-小隊員のクラスを変更するためのアイテムを入手しました。</target></trans-unit><trans-unit id="159" approved="yes"><source>159</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_163&lt;tab&gt;「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」を調べ、「小隊情報を見る」から、
+より高難易度の小隊任務に挑めるようになります。</target>
+			</trans-unit>
+			<trans-unit id="158" approved="yes">
+				<source>158</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_162&lt;tab&gt;また、任務の成功報酬として、「&lt;var 28 ((Item)) F23D9C01 /var&gt;」という、
+小隊員のクラスを変更するためのアイテムを入手しました。</target>
+			</trans-unit>
+			<trans-unit id="159" approved="yes">
+				<source>159</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_163&lt;tab&gt;「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」を調べ、「小隊情報を見る」から、
 小隊員を選択し、サブコマンドから「クラス変更」を選ぶことで、
-対象のクラスを変更することができます。</target></trans-unit><trans-unit id="160" approved="yes"><source>160</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_170&lt;tab&gt;ところで小隊長殿は、「ジンクス」をご存知ですか？
+対象のクラスを変更することができます。</target>
+			</trans-unit>
+			<trans-unit id="160" approved="yes">
+				<source>160</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_170&lt;tab&gt;ところで小隊長殿は、「ジンクス」をご存知ですか？
 いっしょに出かける時は、必ず天気が良くなる「晴れ男」とか、
-そういった迷信みたいなヤツのことですよ。</target></trans-unit><trans-unit id="161" approved="yes"><source>161</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_171&lt;tab&gt;兵というのは、こうした願掛けにこだわるものでして、
+そういった迷信みたいなヤツのことですよ。</target>
+			</trans-unit>
+			<trans-unit id="161" approved="yes">
+				<source>161</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_171&lt;tab&gt;兵というのは、こうした願掛けにこだわるものでして、
 我らが部隊の間でも、「ジンクス」が生じ始めているようです。
-小隊任務の編成時に、参考にしてみてもいいかもしれませんね。</target></trans-unit><trans-unit id="162" approved="yes"><source>162</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_172&lt;tab&gt;小隊任務から帰還した小隊員は、
-まれに「ジンクス」を発生させることがあります。</target></trans-unit><trans-unit id="163" approved="yes"><source>163</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_173&lt;tab&gt;ジンクスとは、小隊任務に対して発揮されるもので、
+小隊任務の編成時に、参考にしてみてもいいかもしれませんね。</target>
+			</trans-unit>
+			<trans-unit id="162" approved="yes">
+				<source>162</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_172&lt;tab&gt;小隊任務から帰還した小隊員は、
+まれに「ジンクス」を発生させることがあります。</target>
+			</trans-unit>
+			<trans-unit id="163" approved="yes">
+				<source>163</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_173&lt;tab&gt;ジンクスとは、小隊任務に対して発揮されるもので、
 派遣する小隊員の種族構成など、特定の発生条件を満たすことで、
-能力の上昇や報酬の増加といった効果を得ることができます。</target></trans-unit><trans-unit id="164" approved="yes"><source>164</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_174&lt;tab&gt;「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」を調べ、「小隊情報を見る」から、
+能力の上昇や報酬の増加といった効果を得ることができます。</target>
+			</trans-unit>
+			<trans-unit id="164" approved="yes">
+				<source>164</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_174&lt;tab&gt;「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」を調べ、「小隊情報を見る」から、
 小隊員を選択し、サブコマンドから「ジンクス管理」を選ぶことで、
-対象のジンクスの設定や変更を行うことができます。</target></trans-unit><trans-unit id="165" approved="yes"><source>165</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_175&lt;tab&gt;ジンクスは、発生しただけでは効果を発揮せず、
+対象のジンクスの設定や変更を行うことができます。</target>
+			</trans-unit>
+			<trans-unit id="165" approved="yes">
+				<source>165</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_175&lt;tab&gt;ジンクスは、発生しただけでは効果を発揮せず、
 そのまま次の小隊任務に派遣すると、消えてしまいます。
-発生後は、忘れず「ジンクス管理」から設定しましょう。</target></trans-unit><trans-unit id="166" approved="yes"><source>166</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_180&lt;tab&gt;我らが部隊の実力も、ますます高まってきました。
+発生後は、忘れず「ジンクス管理」から設定しましょう。</target>
+			</trans-unit>
+			<trans-unit id="166" approved="yes">
+				<source>166</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_180&lt;tab&gt;我らが部隊の実力も、ますます高まってきました。
 &lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高まっておりますし、
-ゆくゆくは、特殊任務を任されるようになるかもしれませんね。</target></trans-unit><trans-unit id="167" approved="yes"><source>167</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_181&lt;tab&gt;レベル40に達した小隊員が現れたことで、
+ゆくゆくは、特殊任務を任されるようになるかもしれませんね。</target>
+			</trans-unit>
+			<trans-unit id="167" approved="yes">
+				<source>167</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_181&lt;tab&gt;レベル40に達した小隊員が現れたことで、
 ランク上昇の条件となる小隊任務に挑戦可能になりました。
-この任務を成功させることで、小隊ランクを高めることができます。</target></trans-unit><trans-unit id="168" approved="yes"><source>168</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_182&lt;tab&gt;ただし、この小隊任務は難易度が非常に高く、
+この任務を成功させることで、小隊ランクを高めることができます。</target>
+			</trans-unit>
+			<trans-unit id="168" approved="yes">
+				<source>168</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_182&lt;tab&gt;ただし、この小隊任務は難易度が非常に高く、
 成功させるには、かなりの実力が求められます。
-小隊員の個人能力を成長させ、成功率を高めてから挑みましょう。</target></trans-unit><trans-unit id="169" approved="yes"><source>169</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_190&lt;tab&gt;我らが部隊が、またもややってくれましたね！
+小隊員の個人能力を成長させ、成功率を高めてから挑みましょう。</target>
+			</trans-unit>
+			<trans-unit id="169" approved="yes">
+				<source>169</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_190&lt;tab&gt;我らが部隊が、またもややってくれましたね！
 極めて難度の高い、重要な任務を成功させたことで、
-友軍部隊から祝福の言葉が、続々と届いていますよ！</target></trans-unit><trans-unit id="170" approved="yes"><source>170</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_191&lt;tab&gt;小隊ランクが3に上昇しました！
+友軍部隊から祝福の言葉が、続々と届いていますよ！</target>
+			</trans-unit>
+			<trans-unit id="170" approved="yes">
+				<source>170</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_191&lt;tab&gt;小隊ランクが3に上昇しました！
 これに伴い、新たに「特殊任務」という、
-より高難易度の小隊任務に挑めるようになります。</target></trans-unit><trans-unit id="171" approved="yes"><source>171</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_192&lt;tab&gt;「特殊任務」を成功させることができれば、
+より高難易度の小隊任務に挑めるようになります。</target>
+			</trans-unit>
+			<trans-unit id="171" approved="yes">
+				<source>171</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_192&lt;tab&gt;「特殊任務」を成功させることができれば、
 特別な報酬を入手することができます。
-積極的に挑戦してみましょう。</target></trans-unit><trans-unit id="172" approved="yes"><source>172</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_193&lt;tab&gt;なお、複数ある特殊任務のうち、
+積極的に挑戦してみましょう。</target>
+			</trans-unit>
+			<trans-unit id="172" approved="yes">
+				<source>172</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_193&lt;tab&gt;なお、複数ある特殊任務のうち、
 いずれかを成功させると、カウントがリセットされるまで、
-ほかの特殊任務を受けることができません。</target></trans-unit><trans-unit id="173" approved="yes"><source>173</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_194&lt;tab&gt;特殊任務の達成状況は、
-（地球時間）毎週&lt;var 06 1203 /var&gt;&lt;var 09 DD ((日)) ((月)) ((火)) ((水)) ((木)) ((金)) ((土)) /var&gt;曜日の&lt;var 08 E0DB0D ((午後)) ((午前)) /var&gt;&lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var&gt;)) 01 /var&gt;時にリセットされます。</target></trans-unit><trans-unit id="174" approved="yes"><source>174</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_195&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
-もうひとつ重要な話がございます。</target></trans-unit><trans-unit id="175" approved="yes"><source>175</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_196&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
+ほかの特殊任務を受けることができません。</target>
+			</trans-unit>
+			<trans-unit id="173" approved="yes">
+				<source>173</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_194&lt;tab&gt;特殊任務の達成状況は、
+（地球時間）毎週&lt;var 06 1203 /var&gt;&lt;var 09 DD ((日)) ((月)) ((火)) ((水)) ((木)) ((金)) ((土)) /var&gt;曜日の&lt;var 08 E0DB0D ((午後)) ((午前)) /var&gt;&lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0102030405060708090A0B0C /var&gt;)) 01 /var&gt;時にリセットされます。</target>
+			</trans-unit>
+			<trans-unit id="174" approved="yes">
+				<source>174</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_195&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
+もうひとつ重要な話がございます。</target>
+			</trans-unit>
+			<trans-unit id="175" approved="yes">
+				<source>175</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_196&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
 &lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="176" approved="yes"><source>176</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_197&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="176" approved="yes">
+				<source>176</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_197&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「&lt;var 08 E1E93501 ((中甲士)) (()) /var&gt;&lt;var 08 E1E93601 ((中牙士)) (()) /var&gt;&lt;var 08 E1E93701 ((中闘士)) (()) /var&gt;」に任ずる。
-より一層の奮起を期待する、以上。</target></trans-unit><trans-unit id="177" approved="yes"><source>177</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_198&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
+より一層の奮起を期待する、以上。</target>
+			</trans-unit>
+			<trans-unit id="177" approved="yes">
+				<source>177</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_198&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
 本当におめでとうございます！
-部下のひとりとして、小官も誇りに思います！</target></trans-unit><trans-unit id="178" approved="yes"><source>178</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_330&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="179" approved="yes"><source>179</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_331&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93501 ((&lt;var 28 ((GCRankLimsaMaleText)) E93501 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93601 ((&lt;var 28 ((GCRankGridaniaMaleText)) E93601 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93701 ((&lt;var 28 ((GCRankUldahMaleText)) E93701 /var&gt;)) (()) /var&gt;率いる冒険者小隊に対し、
+部下のひとりとして、小官も誇りに思います！</target>
+			</trans-unit>
+			<trans-unit id="178" approved="yes">
+				<source>178</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_330&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="179" approved="yes">
+				<source>179</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_331&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93501 ((&lt;var 28 ((GCRankLimsaMaleText)) E93501 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93601 ((&lt;var 28 ((GCRankGridaniaMaleText)) E93601 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93701 ((&lt;var 28 ((GCRankUldahMaleText)) E93701 /var&gt;)) (()) /var&gt;率いる冒険者小隊に対し、
 新たに「攻略任務」を発令する。
-奮戦されたし、以上。</target></trans-unit><trans-unit id="180" approved="yes"><source>180</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_332&lt;tab&gt;なんと、新しい任務とは！
-我が部隊の実力が、認められたということですね！</target></trans-unit><trans-unit id="181" approved="yes"><source>181</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_333&lt;tab&gt;しかし、これは&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;からの期待が、
+奮戦されたし、以上。</target>
+			</trans-unit>
+			<trans-unit id="180" approved="yes">
+				<source>180</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_332&lt;tab&gt;なんと、新しい任務とは！
+我が部隊の実力が、認められたということですね！</target>
+			</trans-unit>
+			<trans-unit id="181" approved="yes">
+				<source>181</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_333&lt;tab&gt;しかし、これは&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;からの期待が、
 より大きくなったということでもあります。
-気を引き締めて、攻略任務に当たりましょう！</target></trans-unit><trans-unit id="182" approved="yes"><source>182</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_334&lt;tab&gt;「攻略任務」が開放されました。
+気を引き締めて、攻略任務に当たりましょう！</target>
+			</trans-unit>
+			<trans-unit id="182" approved="yes">
+				<source>182</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_334&lt;tab&gt;「攻略任務」が開放されました。
 攻略任務とは、任意に選んだ3名の小隊員を同行させ、
-特定のインスタンスダンジョンを攻略する任務のことです。</target></trans-unit><trans-unit id="183" approved="yes"><source>183</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_335&lt;tab&gt;任務を成功させると、特別な報酬が入手できる可能性があります。
+特定のインスタンスダンジョンを攻略する任務のことです。</target>
+			</trans-unit>
+			<trans-unit id="183" approved="yes">
+				<source>183</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_335&lt;tab&gt;任務を成功させると、特別な報酬が入手できる可能性があります。
 &lt;var 08 E1E93501 ((小隊付甲軍曹)) (()) /var&gt;&lt;var 08 E1E93601 ((小隊付牙軍曹)) (()) /var&gt;&lt;var 08 E1E93701 ((小隊付闘軍曹)) (()) /var&gt;に話しかけることで実行できるので、
-積極的に挑戦してみましょう。</target></trans-unit><trans-unit id="184" approved="yes"><source>184</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_336&lt;tab&gt;なお、攻略任務の詳細については、
+積極的に挑戦してみましょう。</target>
+			</trans-unit>
+			<trans-unit id="184" approved="yes">
+				<source>184</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_336&lt;tab&gt;なお、攻略任務の詳細については、
 「指南書を読む」から確認することができます。
-任務に挑む前に、一度、確認しておきましょう。</target></trans-unit><trans-unit id="185" approved="yes"><source>185</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_CAPTURE_UNLOCK&lt;tab&gt;（★未使用／削除予定★）
-●攻略任務解放しますー</target></trans-unit><trans-unit id="186" approved="yes"><source>186</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_210&lt;tab&gt;小隊任務が完了しているようですよ！
-さっそく、結果を確認してみてください！</target></trans-unit><trans-unit id="187" approved="yes"><source>187</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_220&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
-もうひとつ重要な話がございます。</target></trans-unit><trans-unit id="188" approved="yes"><source>188</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_221&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
+任務に挑む前に、一度、確認しておきましょう。</target>
+			</trans-unit>
+			<trans-unit id="185" approved="yes">
+				<source>185</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_CAPTURE_UNLOCK&lt;tab&gt;（★未使用／削除予定★）
+●攻略任務解放しますー</target>
+			</trans-unit>
+			<trans-unit id="186" approved="yes">
+				<source>186</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_210&lt;tab&gt;小隊任務が完了しているようですよ！
+さっそく、結果を確認してみてください！</target>
+			</trans-unit>
+			<trans-unit id="187" approved="yes">
+				<source>187</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_220&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
+もうひとつ重要な話がございます。</target>
+			</trans-unit>
+			<trans-unit id="188" approved="yes">
+				<source>188</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_221&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
 &lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="189" approved="yes"><source>189</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_222&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="189" approved="yes">
+				<source>189</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_222&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「&lt;var 08 E1E93501 ((中甲士)) (()) /var&gt;&lt;var 08 E1E93601 ((中牙士)) (()) /var&gt;&lt;var 08 E1E93701 ((中闘士)) (()) /var&gt;」に任ずる。
-より一層の奮起を期待する、以上。</target></trans-unit><trans-unit id="190" approved="yes"><source>190</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_223&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
+より一層の奮起を期待する、以上。</target>
+			</trans-unit>
+			<trans-unit id="190" approved="yes">
+				<source>190</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_223&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
 本当におめでとうございます！
-部下のひとりとして、小官も誇りに思います！</target></trans-unit><trans-unit id="191" approved="yes"><source>191</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_230&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
-さぁ、小隊に何をさせるか、決めてください！！</target></trans-unit><trans-unit id="192" approved="yes"><source>192</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_240&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="193" approved="yes"><source>193</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_250&lt;tab&gt;我が部隊には現在、3名の小隊員がいますが、
-新たに1名加え、合計4名に増員してほしいのです。</target></trans-unit><trans-unit id="194" approved="yes"><source>194</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_251&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
+部下のひとりとして、小官も誇りに思います！</target>
+			</trans-unit>
+			<trans-unit id="191" approved="yes">
+				<source>191</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_230&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
+さぁ、小隊に何をさせるか、決めてください！！</target>
+			</trans-unit>
+			<trans-unit id="192" approved="yes">
+				<source>192</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_240&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="193" approved="yes">
+				<source>193</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_250&lt;tab&gt;我が部隊には現在、3名の小隊員がいますが、
+新たに1名加え、合計4名に増員してほしいのです。</target>
+			</trans-unit>
+			<trans-unit id="194" approved="yes">
+				<source>194</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_251&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
 その姿を見た者たちが「志願兵」として現れることでしょう。
-その中から、新たな小隊員を選ぶのです！</target></trans-unit><trans-unit id="195" approved="yes"><source>195</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_252&lt;tab&gt;「攻略手帳」の項目を達成していくことで、
-まれに「志願兵」が現れることがあります。</target></trans-unit><trans-unit id="196" approved="yes"><source>196</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_260&lt;tab&gt;「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
-個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target></trans-unit><trans-unit id="197" approved="yes"><source>197</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_261&lt;tab&gt;小隊を「訓練」させたいときには、
-ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target></trans-unit><trans-unit id="198" approved="yes"><source>198</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_262&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
+その中から、新たな小隊員を選ぶのです！</target>
+			</trans-unit>
+			<trans-unit id="195" approved="yes">
+				<source>195</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_252&lt;tab&gt;「攻略手帳」の項目を達成していくことで、
+まれに「志願兵」が現れることがあります。</target>
+			</trans-unit>
+			<trans-unit id="196" approved="yes">
+				<source>196</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_260&lt;tab&gt;「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
+個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target>
+			</trans-unit>
+			<trans-unit id="197" approved="yes">
+				<source>197</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_261&lt;tab&gt;小隊を「訓練」させたいときには、
+ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target>
+			</trans-unit>
+			<trans-unit id="198" approved="yes">
+				<source>198</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_262&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
 「訓練」なくして、勝利なし！
-……小官が、かつての上官から教えていただいた言葉であります。</target></trans-unit><trans-unit id="199" approved="yes"><source>199</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_263&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
-我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target></trans-unit><trans-unit id="200" approved="yes"><source>200</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_320&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の小隊の活躍は、
-&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;でも噂になっておりましたよ。</target></trans-unit><trans-unit id="201" approved="yes"><source>201</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_321&lt;tab&gt;&lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高いですし、
-重要任務に挑んでみてはいかがでしょうか？</target></trans-unit><trans-unit id="202" approved="yes"><source>202</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_322&lt;tab&gt;通常任務から重要任務に挑戦可能です。
-この任務を成功させることで、階級を上げることができます。</target></trans-unit><trans-unit id="203" approved="yes"><source>203</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_100&lt;tab&gt;お待ちしておりました、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿！
+……小官が、かつての上官から教えていただいた言葉であります。</target>
+			</trans-unit>
+			<trans-unit id="199" approved="yes">
+				<source>199</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_263&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
+我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target>
+			</trans-unit>
+			<trans-unit id="200" approved="yes">
+				<source>200</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_320&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の小隊の活躍は、
+&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;でも噂になっておりましたよ。</target>
+			</trans-unit>
+			<trans-unit id="201" approved="yes">
+				<source>201</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_321&lt;tab&gt;&lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高いですし、
+重要任務に挑んでみてはいかがでしょうか？</target>
+			</trans-unit>
+			<trans-unit id="202" approved="yes">
+				<source>202</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_322&lt;tab&gt;通常任務から重要任務に挑戦可能です。
+この任務を成功させることで、階級を上げることができます。</target>
+			</trans-unit>
+			<trans-unit id="203" approved="yes">
+				<source>203</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_100&lt;tab&gt;お待ちしておりました、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿！
 本日より部隊を指揮していただくわけですが、
-そうは言っても、何をすべきか戸惑ってしまいますよね？</target></trans-unit><trans-unit id="204" approved="yes"><source>204</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_136&lt;tab&gt;まずは、小隊員の補充をお願いします。
+そうは言っても、何をすべきか戸惑ってしまいますよね？</target>
+			</trans-unit>
+			<trans-unit id="204" approved="yes">
+				<source>204</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_136&lt;tab&gt;まずは、小隊員の補充をお願いします。
 我が部隊には現在、3名の小隊員がいますが、
-新たに1名加え、合計4名に増員してほしいのです。</target></trans-unit><trans-unit id="205" approved="yes"><source>205</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_137&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
+新たに1名加え、合計4名に増員してほしいのです。</target>
+			</trans-unit>
+			<trans-unit id="205" approved="yes">
+				<source>205</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_137&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
 その姿を見た者たちが「志願兵」として現れることでしょう。
-その中から、新たな小隊員を選ぶのです！</target></trans-unit><trans-unit id="206" approved="yes"><source>206</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_110&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="207" approved="yes"><source>207</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_111&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="208" approved="yes"><source>208</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_101&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="209" approved="yes"><source>209</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_110&lt;tab&gt;いよいよ、初の「小隊任務」ですね！
+その中から、新たな小隊員を選ぶのです！</target>
+			</trans-unit>
+			<trans-unit id="206" approved="yes">
+				<source>206</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_110&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="207" approved="yes">
+				<source>207</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_111&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="208" approved="yes">
+				<source>208</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_101&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="209" approved="yes">
+				<source>209</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_110&lt;tab&gt;いよいよ、初の「小隊任務」ですね！
 通常は、いくつかの任務から派遣すべきものを、
-小隊長殿に選んでいただくのですが……。</target></trans-unit><trans-unit id="210" approved="yes"><source>210</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_111&lt;tab&gt;今回は初めての挑戦ということですので、
-僭越ながら小官が、特別にひとつの任務を選んでおきました。</target></trans-unit><trans-unit id="211" approved="yes"><source>211</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_112&lt;tab&gt;それでは、さっそく派遣する小隊員を選び、
-出撃の号令を発してください！</target></trans-unit><trans-unit id="212" approved="yes"><source>212</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_120&lt;tab&gt;これで出撃準備が整いましたね。
+小隊長殿に選んでいただくのですが……。</target>
+			</trans-unit>
+			<trans-unit id="210" approved="yes">
+				<source>210</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_111&lt;tab&gt;今回は初めての挑戦ということですので、
+僭越ながら小官が、特別にひとつの任務を選んでおきました。</target>
+			</trans-unit>
+			<trans-unit id="211" approved="yes">
+				<source>211</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_112&lt;tab&gt;それでは、さっそく派遣する小隊員を選び、
+出撃の号令を発してください！</target>
+			</trans-unit>
+			<trans-unit id="212" approved="yes">
+				<source>212</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_120&lt;tab&gt;これで出撃準備が整いましたね。
 そうそう、今回は特例として小官が支給しておきましたが、
-「小隊任務」派遣時には、小隊員に軍票を支払う必要があります。</target></trans-unit><trans-unit id="213" approved="yes"><source>213</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_121&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;は、兵を無給で働かせるような、
+「小隊任務」派遣時には、小隊員に軍票を支払う必要があります。</target>
+			</trans-unit>
+			<trans-unit id="213" approved="yes">
+				<source>213</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_121&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;は、兵を無給で働かせるような、
 無茶苦茶な組織ではないのであります！
-次回からは&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が「軍票」を支給してくださいね。</target></trans-unit><trans-unit id="214" approved="yes"><source>214</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_122&lt;tab&gt;……さて、小隊任務には、少し時間がかかります。
+次回からは&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が「軍票」を支給してくださいね。</target>
+			</trans-unit>
+			<trans-unit id="214" approved="yes">
+				<source>214</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_122&lt;tab&gt;……さて、小隊任務には、少し時間がかかります。
 完了する頃合いを見計らって、
-結果を確認しに、小官をお訪ねください！</target></trans-unit><trans-unit id="215" approved="yes"><source>215</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_124&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="216" approved="yes"><source>216</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_125&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="217" approved="yes"><source>217</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_130&lt;tab&gt;どうやら、初の「小隊任務」は成功のようですね。
+結果を確認しに、小官をお訪ねください！</target>
+			</trans-unit>
+			<trans-unit id="215" approved="yes">
+				<source>215</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_124&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="216" approved="yes">
+				<source>216</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_125&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="217" approved="yes">
+				<source>217</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_130&lt;tab&gt;どうやら、初の「小隊任務」は成功のようですね。
 ……もっとも、こんなお使い程度の任務に失敗するようでは、
-先が思いやられるというものですが……。</target></trans-unit><trans-unit id="218" approved="yes"><source>218</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_131&lt;tab&gt;ともかく、このように「小隊任務」で経験を積むことで、
+先が思いやられるというものですが……。</target>
+			</trans-unit>
+			<trans-unit id="218" approved="yes">
+				<source>218</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_131&lt;tab&gt;ともかく、このように「小隊任務」で経験を積むことで、
 小隊員たちは、「個人能力」を高めていくことになります。
-そして、個々の能力が高くなるほど、任務の成功率も上がるでしょう。</target></trans-unit><trans-unit id="219" approved="yes"><source>219</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_132&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="220" approved="yes"><source>220</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_133&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="221" approved="yes"><source>221</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_136&lt;tab&gt;……さて、次は「訓練」について説明しましょう。
+そして、個々の能力が高くなるほど、任務の成功率も上がるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="219" approved="yes">
+				<source>219</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_132&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="220" approved="yes">
+				<source>220</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_133&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="221" approved="yes">
+				<source>221</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_136&lt;tab&gt;……さて、次は「訓練」について説明しましょう。
 「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
-個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target></trans-unit><trans-unit id="222" approved="yes"><source>222</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_137&lt;tab&gt;小隊を「訓練」させたいときには、
-ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target></trans-unit><trans-unit id="223" approved="yes"><source>223</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_138&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
+個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target>
+			</trans-unit>
+			<trans-unit id="222" approved="yes">
+				<source>222</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_137&lt;tab&gt;小隊を「訓練」させたいときには、
+ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target>
+			</trans-unit>
+			<trans-unit id="223" approved="yes">
+				<source>223</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_138&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
 「訓練」なくして、勝利なし！
-……小官が、かつての上官から教えていただいた言葉であります。</target></trans-unit><trans-unit id="224" approved="yes"><source>224</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_139&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
-我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target></trans-unit><trans-unit id="225" approved="yes"><source>225</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_150&lt;tab&gt;最近、小隊員の成長も著しく、
+……小官が、かつての上官から教えていただいた言葉であります。</target>
+			</trans-unit>
+			<trans-unit id="224" approved="yes">
+				<source>224</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_139&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
+我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target>
+			</trans-unit>
+			<trans-unit id="225" approved="yes">
+				<source>225</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_150&lt;tab&gt;最近、小隊員の成長も著しく、
 より難度の高い小隊任務にも挑戦できるようになってきました。
-難しい任務を成功させれば、小隊の実力もさらに高まるでしょう。</target></trans-unit><trans-unit id="226" approved="yes"><source>226</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_160&lt;tab&gt;なんと、あの難しい小隊任務を成功に導いたのですね！
-これでますます、我が部隊の名声も高まるというものでしょう！</target></trans-unit><trans-unit id="227" approved="yes"><source>227</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_170&lt;tab&gt;ところで小隊長殿は、「ジンクス」をご存知ですか？
+難しい任務を成功させれば、小隊の実力もさらに高まるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="226" approved="yes">
+				<source>226</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_160&lt;tab&gt;なんと、あの難しい小隊任務を成功に導いたのですね！
+これでますます、我が部隊の名声も高まるというものでしょう！</target>
+			</trans-unit>
+			<trans-unit id="227" approved="yes">
+				<source>227</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_170&lt;tab&gt;ところで小隊長殿は、「ジンクス」をご存知ですか？
 いっしょに出かける時は、必ず天気が良くなる「晴れ男」とか、
-そういった迷信みたいなヤツのことですよ。</target></trans-unit><trans-unit id="228" approved="yes"><source>228</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_171&lt;tab&gt;兵というのは、こうした願掛けにこだわるものでして、
+そういった迷信みたいなヤツのことですよ。</target>
+			</trans-unit>
+			<trans-unit id="228" approved="yes">
+				<source>228</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_171&lt;tab&gt;兵というのは、こうした願掛けにこだわるものでして、
 我らが部隊の間でも、「ジンクス」が生じ始めているようです。
-小隊任務の編成時に、参考にしてみてもいいかもしれませんね。</target></trans-unit><trans-unit id="229" approved="yes"><source>229</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_180&lt;tab&gt;我らが部隊の実力も、ますます高まってきました。
+小隊任務の編成時に、参考にしてみてもいいかもしれませんね。</target>
+			</trans-unit>
+			<trans-unit id="229" approved="yes">
+				<source>229</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_180&lt;tab&gt;我らが部隊の実力も、ますます高まってきました。
 &lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高まっておりますし、
-ゆくゆくは、特殊任務を任されるようになるかもしれませんね。</target></trans-unit><trans-unit id="230" approved="yes"><source>230</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_190&lt;tab&gt;我らが部隊が、またもややってくれましたね！
+ゆくゆくは、特殊任務を任されるようになるかもしれませんね。</target>
+			</trans-unit>
+			<trans-unit id="230" approved="yes">
+				<source>230</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_190&lt;tab&gt;我らが部隊が、またもややってくれましたね！
 極めて難度の高い、重要な任務を成功させたことで、
-友軍部隊から祝福の言葉が、続々と届いていますよ！</target></trans-unit><trans-unit id="231" approved="yes"><source>231</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_195&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
-もうひとつ重要な話がございます。</target></trans-unit><trans-unit id="232" approved="yes"><source>232</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_196&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
+友軍部隊から祝福の言葉が、続々と届いていますよ！</target>
+			</trans-unit>
+			<trans-unit id="231" approved="yes">
+				<source>231</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_195&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
+もうひとつ重要な話がございます。</target>
+			</trans-unit>
+			<trans-unit id="232" approved="yes">
+				<source>232</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_196&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
 &lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="233" approved="yes"><source>233</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_197&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="233" approved="yes">
+				<source>233</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_197&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「&lt;var 08 E1E93501 ((中甲士)) (()) /var&gt;&lt;var 08 E1E93601 ((中牙士)) (()) /var&gt;&lt;var 08 E1E93701 ((中闘士)) (()) /var&gt;」に任ずる。
-より一層の奮起を期待する、以上。</target></trans-unit><trans-unit id="234" approved="yes"><source>234</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_198&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
+より一層の奮起を期待する、以上。</target>
+			</trans-unit>
+			<trans-unit id="234" approved="yes">
+				<source>234</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_198&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
 本当におめでとうございます！
-部下のひとりとして、小官も誇りに思います！</target></trans-unit><trans-unit id="235" approved="yes"><source>235</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_330&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="236" approved="yes"><source>236</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_331&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93501 ((&lt;var 28 ((GCRankLimsaMaleText)) E93501 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93601 ((&lt;var 28 ((GCRankGridaniaMaleText)) E93601 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93701 ((&lt;var 28 ((GCRankUldahMaleText)) E93701 /var&gt;)) (()) /var&gt;率いる冒険者小隊に対し、
+部下のひとりとして、小官も誇りに思います！</target>
+			</trans-unit>
+			<trans-unit id="235" approved="yes">
+				<source>235</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_330&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="236" approved="yes">
+				<source>236</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_331&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93501 ((&lt;var 28 ((GCRankLimsaMaleText)) E93501 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93601 ((&lt;var 28 ((GCRankGridaniaMaleText)) E93601 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93701 ((&lt;var 28 ((GCRankUldahMaleText)) E93701 /var&gt;)) (()) /var&gt;率いる冒険者小隊に対し、
 新たに「攻略任務」を発令する。
-奮戦されたし、以上。</target></trans-unit><trans-unit id="237" approved="yes"><source>237</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_332&lt;tab&gt;なんと、新しい任務とは！
-我が部隊の実力が、認められたということですね！</target></trans-unit><trans-unit id="238" approved="yes"><source>238</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_333&lt;tab&gt;しかし、これは&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;からの期待が、
+奮戦されたし、以上。</target>
+			</trans-unit>
+			<trans-unit id="237" approved="yes">
+				<source>237</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_332&lt;tab&gt;なんと、新しい任務とは！
+我が部隊の実力が、認められたということですね！</target>
+			</trans-unit>
+			<trans-unit id="238" approved="yes">
+				<source>238</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_333&lt;tab&gt;しかし、これは&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;からの期待が、
 より大きくなったということでもあります。
-気を引き締めて、攻略任務に当たりましょう！</target></trans-unit><trans-unit id="239" approved="yes"><source>239</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_210&lt;tab&gt;小隊任務が完了しているようですよ！
-さっそく、結果を確認してみてください！</target></trans-unit><trans-unit id="240" approved="yes"><source>240</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_220&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
-もうひとつ重要な話がございます。</target></trans-unit><trans-unit id="241" approved="yes"><source>241</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_221&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
+気を引き締めて、攻略任務に当たりましょう！</target>
+			</trans-unit>
+			<trans-unit id="239" approved="yes">
+				<source>239</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_210&lt;tab&gt;小隊任務が完了しているようですよ！
+さっそく、結果を確認してみてください！</target>
+			</trans-unit>
+			<trans-unit id="240" approved="yes">
+				<source>240</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_220&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
+もうひとつ重要な話がございます。</target>
+			</trans-unit>
+			<trans-unit id="241" approved="yes">
+				<source>241</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_221&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
 &lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="242" approved="yes"><source>242</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_222&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="242" approved="yes">
+				<source>242</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_222&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「&lt;var 08 E1E93501 ((中甲士)) (()) /var&gt;&lt;var 08 E1E93601 ((中牙士)) (()) /var&gt;&lt;var 08 E1E93701 ((中闘士)) (()) /var&gt;」に任ずる。
-より一層の奮起を期待する、以上。</target></trans-unit><trans-unit id="243" approved="yes"><source>243</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_223&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
+より一層の奮起を期待する、以上。</target>
+			</trans-unit>
+			<trans-unit id="243" approved="yes">
+				<source>243</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_223&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
 本当におめでとうございます！
-部下のひとりとして、小官も誇りに思います！</target></trans-unit><trans-unit id="244" approved="yes"><source>244</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_230&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
-さぁ、小隊に何をさせるか、決めてください！！</target></trans-unit><trans-unit id="245" approved="yes"><source>245</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_240&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="246" approved="yes"><source>246</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_250&lt;tab&gt;我が部隊には現在、3名の小隊員がいますが、
-新たに1名加え、合計4名に増員してほしいのです。</target></trans-unit><trans-unit id="247" approved="yes"><source>247</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_251&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
+部下のひとりとして、小官も誇りに思います！</target>
+			</trans-unit>
+			<trans-unit id="244" approved="yes">
+				<source>244</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_230&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
+さぁ、小隊に何をさせるか、決めてください！！</target>
+			</trans-unit>
+			<trans-unit id="245" approved="yes">
+				<source>245</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_240&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="246" approved="yes">
+				<source>246</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_250&lt;tab&gt;我が部隊には現在、3名の小隊員がいますが、
+新たに1名加え、合計4名に増員してほしいのです。</target>
+			</trans-unit>
+			<trans-unit id="247" approved="yes">
+				<source>247</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_251&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
 その姿を見た者たちが「志願兵」として現れることでしょう。
-その中から、新たな小隊員を選ぶのです！</target></trans-unit><trans-unit id="248" approved="yes"><source>248</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_260&lt;tab&gt;「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
-個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target></trans-unit><trans-unit id="249" approved="yes"><source>249</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_261&lt;tab&gt;小隊を「訓練」させたいときには、
-ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target></trans-unit><trans-unit id="250" approved="yes"><source>250</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_262&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
+その中から、新たな小隊員を選ぶのです！</target>
+			</trans-unit>
+			<trans-unit id="248" approved="yes">
+				<source>248</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_260&lt;tab&gt;「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
+個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target>
+			</trans-unit>
+			<trans-unit id="249" approved="yes">
+				<source>249</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_261&lt;tab&gt;小隊を「訓練」させたいときには、
+ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target>
+			</trans-unit>
+			<trans-unit id="250" approved="yes">
+				<source>250</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_262&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
 「訓練」なくして、勝利なし！
-……小官が、かつての上官から教えていただいた言葉であります。</target></trans-unit><trans-unit id="251" approved="yes"><source>251</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_263&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
-我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target></trans-unit><trans-unit id="252" approved="yes"><source>252</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_320&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の小隊の活躍は、
-&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;でも噂になっておりましたよ。</target></trans-unit><trans-unit id="253" approved="yes"><source>253</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_321&lt;tab&gt;&lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高いですし、
-重要任務に挑んでみてはいかがでしょうか？</target></trans-unit><trans-unit id="254" approved="yes"><source>254</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_100&lt;tab&gt;お待ちしておりました、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿！
+……小官が、かつての上官から教えていただいた言葉であります。</target>
+			</trans-unit>
+			<trans-unit id="251" approved="yes">
+				<source>251</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_263&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
+我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target>
+			</trans-unit>
+			<trans-unit id="252" approved="yes">
+				<source>252</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_320&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の小隊の活躍は、
+&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;でも噂になっておりましたよ。</target>
+			</trans-unit>
+			<trans-unit id="253" approved="yes">
+				<source>253</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_321&lt;tab&gt;&lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高いですし、
+重要任務に挑んでみてはいかがでしょうか？</target>
+			</trans-unit>
+			<trans-unit id="254" approved="yes">
+				<source>254</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_100&lt;tab&gt;お待ちしておりました、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿！
 本日より部隊を指揮していただくわけですが、
-そうは言っても、何をすべきか戸惑ってしまいますよね？</target></trans-unit><trans-unit id="255" approved="yes"><source>255</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_136&lt;tab&gt;まずは、小隊員の補充をお願いします。
+そうは言っても、何をすべきか戸惑ってしまいますよね？</target>
+			</trans-unit>
+			<trans-unit id="255" approved="yes">
+				<source>255</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_136&lt;tab&gt;まずは、小隊員の補充をお願いします。
 我が部隊には現在、3名の小隊員がいますが、
-新たに1名加え、合計4名に増員してほしいのです。</target></trans-unit><trans-unit id="256" approved="yes"><source>256</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_137&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
+新たに1名加え、合計4名に増員してほしいのです。</target>
+			</trans-unit>
+			<trans-unit id="256" approved="yes">
+				<source>256</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_137&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
 その姿を見た者たちが「志願兵」として現れることでしょう。
-その中から、新たな小隊員を選ぶのです！</target></trans-unit><trans-unit id="257" approved="yes"><source>257</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_110&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="258" approved="yes"><source>258</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_111&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="259" approved="yes"><source>259</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_101&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="260" approved="yes"><source>260</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_110&lt;tab&gt;いよいよ、初の「小隊任務」ですね！
+その中から、新たな小隊員を選ぶのです！</target>
+			</trans-unit>
+			<trans-unit id="257" approved="yes">
+				<source>257</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_110&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="258" approved="yes">
+				<source>258</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_111&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="259" approved="yes">
+				<source>259</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_101&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="260" approved="yes">
+				<source>260</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_110&lt;tab&gt;いよいよ、初の「小隊任務」ですね！
 通常は、いくつかの任務から派遣すべきものを、
-小隊長殿に選んでいただくのですが……。</target></trans-unit><trans-unit id="261" approved="yes"><source>261</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_111&lt;tab&gt;今回は初めての挑戦ということですので、
-僭越ながら小官が、特別にひとつの任務を選んでおきました。</target></trans-unit><trans-unit id="262" approved="yes"><source>262</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_112&lt;tab&gt;それでは、さっそく派遣する小隊員を選び、
-出撃の号令を発してください！</target></trans-unit><trans-unit id="263" approved="yes"><source>263</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_120&lt;tab&gt;これで出撃準備が整いましたね。
+小隊長殿に選んでいただくのですが……。</target>
+			</trans-unit>
+			<trans-unit id="261" approved="yes">
+				<source>261</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_111&lt;tab&gt;今回は初めての挑戦ということですので、
+僭越ながら小官が、特別にひとつの任務を選んでおきました。</target>
+			</trans-unit>
+			<trans-unit id="262" approved="yes">
+				<source>262</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_112&lt;tab&gt;それでは、さっそく派遣する小隊員を選び、
+出撃の号令を発してください！</target>
+			</trans-unit>
+			<trans-unit id="263" approved="yes">
+				<source>263</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_120&lt;tab&gt;これで出撃準備が整いましたね。
 そうそう、今回は特例として小官が支給しておきましたが、
-「小隊任務」派遣時には、小隊員に軍票を支払う必要があります。</target></trans-unit><trans-unit id="264" approved="yes"><source>264</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_121&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;は、兵を無給で働かせるような、
+「小隊任務」派遣時には、小隊員に軍票を支払う必要があります。</target>
+			</trans-unit>
+			<trans-unit id="264" approved="yes">
+				<source>264</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_121&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;は、兵を無給で働かせるような、
 無茶苦茶な組織ではないのであります！
-次回からは&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が「軍票」を支給してくださいね。</target></trans-unit><trans-unit id="265" approved="yes"><source>265</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_122&lt;tab&gt;……さて、小隊任務には、少し時間がかかります。
+次回からは&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が「軍票」を支給してくださいね。</target>
+			</trans-unit>
+			<trans-unit id="265" approved="yes">
+				<source>265</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_122&lt;tab&gt;……さて、小隊任務には、少し時間がかかります。
 完了する頃合いを見計らって、
-結果を確認しに、小官をお訪ねください！</target></trans-unit><trans-unit id="266" approved="yes"><source>266</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_124&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="267" approved="yes"><source>267</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_125&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="268" approved="yes"><source>268</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_130&lt;tab&gt;どうやら、初の「小隊任務」は成功のようですね。
+結果を確認しに、小官をお訪ねください！</target>
+			</trans-unit>
+			<trans-unit id="266" approved="yes">
+				<source>266</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_124&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="267" approved="yes">
+				<source>267</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_125&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="268" approved="yes">
+				<source>268</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_130&lt;tab&gt;どうやら、初の「小隊任務」は成功のようですね。
 ……もっとも、こんなお使い程度の任務に失敗するようでは、
-先が思いやられるというものですが……。</target></trans-unit><trans-unit id="269" approved="yes"><source>269</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_131&lt;tab&gt;ともかく、このように「小隊任務」で経験を積むことで、
+先が思いやられるというものですが……。</target>
+			</trans-unit>
+			<trans-unit id="269" approved="yes">
+				<source>269</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_131&lt;tab&gt;ともかく、このように「小隊任務」で経験を積むことで、
 小隊員たちは、「個人能力」を高めていくことになります。
-そして、個々の能力が高くなるほど、任務の成功率も上がるでしょう。</target></trans-unit><trans-unit id="270" approved="yes"><source>270</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_132&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="271" approved="yes"><source>271</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_133&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="272" approved="yes"><source>272</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_136&lt;tab&gt;……さて、次は「訓練」について説明しましょう。
+そして、個々の能力が高くなるほど、任務の成功率も上がるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="270" approved="yes">
+				<source>270</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_132&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="271" approved="yes">
+				<source>271</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_133&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="272" approved="yes">
+				<source>272</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_136&lt;tab&gt;……さて、次は「訓練」について説明しましょう。
 「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
-個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target></trans-unit><trans-unit id="273" approved="yes"><source>273</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_137&lt;tab&gt;小隊を「訓練」させたいときには、
-ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target></trans-unit><trans-unit id="274" approved="yes"><source>274</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_138&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
+個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target>
+			</trans-unit>
+			<trans-unit id="273" approved="yes">
+				<source>273</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_137&lt;tab&gt;小隊を「訓練」させたいときには、
+ここにある「&lt;var 28 ((EObj)) F61EA06E01 /var&gt;」から指示を出してください。</target>
+			</trans-unit>
+			<trans-unit id="274" approved="yes">
+				<source>274</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_138&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
 「訓練」なくして、勝利なし！
-……小官が、かつての上官から教えていただいた言葉であります。</target></trans-unit><trans-unit id="275" approved="yes"><source>275</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_139&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
-我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target></trans-unit><trans-unit id="276" approved="yes"><source>276</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_150&lt;tab&gt;最近、小隊員の成長も著しく、
+……小官が、かつての上官から教えていただいた言葉であります。</target>
+			</trans-unit>
+			<trans-unit id="275" approved="yes">
+				<source>275</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_139&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
+我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target>
+			</trans-unit>
+			<trans-unit id="276" approved="yes">
+				<source>276</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_150&lt;tab&gt;最近、小隊員の成長も著しく、
 より難度の高い小隊任務にも挑戦できるようになってきました。
-難しい任務を成功させれば、小隊の実力もさらに高まるでしょう。</target></trans-unit><trans-unit id="277" approved="yes"><source>277</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_160&lt;tab&gt;なんと、あの難しい小隊任務を成功に導いたのですね！
-これでますます、我が部隊の名声も高まるというものでしょう！</target></trans-unit><trans-unit id="278" approved="yes"><source>278</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_170&lt;tab&gt;ところで小隊長殿は、「ジンクス」をご存知ですか？
+難しい任務を成功させれば、小隊の実力もさらに高まるでしょう。</target>
+			</trans-unit>
+			<trans-unit id="277" approved="yes">
+				<source>277</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_160&lt;tab&gt;なんと、あの難しい小隊任務を成功に導いたのですね！
+これでますます、我が部隊の名声も高まるというものでしょう！</target>
+			</trans-unit>
+			<trans-unit id="278" approved="yes">
+				<source>278</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_170&lt;tab&gt;ところで小隊長殿は、「ジンクス」をご存知ですか？
 いっしょに出かける時は、必ず天気が良くなる「晴れ男」とか、
-そういった迷信みたいなヤツのことですよ。</target></trans-unit><trans-unit id="279" approved="yes"><source>279</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_171&lt;tab&gt;兵というのは、こうした願掛けにこだわるものでして、
+そういった迷信みたいなヤツのことですよ。</target>
+			</trans-unit>
+			<trans-unit id="279" approved="yes">
+				<source>279</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_171&lt;tab&gt;兵というのは、こうした願掛けにこだわるものでして、
 我らが部隊の間でも、「ジンクス」が生じ始めているようです。
-小隊任務の編成時に、参考にしてみてもいいかもしれませんね。</target></trans-unit><trans-unit id="280" approved="yes"><source>280</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_180&lt;tab&gt;我らが部隊の実力も、ますます高まってきました。
+小隊任務の編成時に、参考にしてみてもいいかもしれませんね。</target>
+			</trans-unit>
+			<trans-unit id="280" approved="yes">
+				<source>280</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_180&lt;tab&gt;我らが部隊の実力も、ますます高まってきました。
 &lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高まっておりますし、
-ゆくゆくは、特殊任務を任されるようになるかもしれませんね。</target></trans-unit><trans-unit id="281" approved="yes"><source>281</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_190&lt;tab&gt;我らが部隊が、またもややってくれましたね！
+ゆくゆくは、特殊任務を任されるようになるかもしれませんね。</target>
+			</trans-unit>
+			<trans-unit id="281" approved="yes">
+				<source>281</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_190&lt;tab&gt;我らが部隊が、またもややってくれましたね！
 極めて難度の高い、重要な任務を成功させたことで、
-友軍部隊から祝福の言葉が、続々と届いていますよ！</target></trans-unit><trans-unit id="282" approved="yes"><source>282</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_195&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
-もうひとつ重要な話がございます。</target></trans-unit><trans-unit id="283" approved="yes"><source>283</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_196&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
+友軍部隊から祝福の言葉が、続々と届いていますよ！</target>
+			</trans-unit>
+			<trans-unit id="282" approved="yes">
+				<source>282</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_195&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
+もうひとつ重要な話がございます。</target>
+			</trans-unit>
+			<trans-unit id="283" approved="yes">
+				<source>283</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_196&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
 &lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="284" approved="yes"><source>284</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_197&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="284" approved="yes">
+				<source>284</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_197&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「&lt;var 08 E1E93501 ((中甲士)) (()) /var&gt;&lt;var 08 E1E93601 ((中牙士)) (()) /var&gt;&lt;var 08 E1E93701 ((中闘士)) (()) /var&gt;」に任ずる。
-より一層の奮起を期待する、以上。</target></trans-unit><trans-unit id="285" approved="yes"><source>285</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_198&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
+より一層の奮起を期待する、以上。</target>
+			</trans-unit>
+			<trans-unit id="285" approved="yes">
+				<source>285</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_198&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
 本当におめでとうございます！
-部下のひとりとして、小官も誇りに思います！</target></trans-unit><trans-unit id="286" approved="yes"><source>286</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_330&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="287" approved="yes"><source>287</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_331&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93501 ((&lt;var 28 ((GCRankLimsaMaleText)) E93501 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93601 ((&lt;var 28 ((GCRankGridaniaMaleText)) E93601 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93701 ((&lt;var 28 ((GCRankUldahMaleText)) E93701 /var&gt;)) (()) /var&gt;率いる冒険者小隊に対し、
+部下のひとりとして、小官も誇りに思います！</target>
+			</trans-unit>
+			<trans-unit id="286" approved="yes">
+				<source>286</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_330&lt;tab&gt;&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="287" approved="yes">
+				<source>287</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_331&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;&lt;var 08 E1E93501 ((&lt;var 28 ((GCRankLimsaMaleText)) E93501 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93601 ((&lt;var 28 ((GCRankGridaniaMaleText)) E93601 /var&gt;)) (()) /var&gt;&lt;var 08 E1E93701 ((&lt;var 28 ((GCRankUldahMaleText)) E93701 /var&gt;)) (()) /var&gt;率いる冒険者小隊に対し、
 新たに「攻略任務」を発令する。
-奮戦されたし、以上。</target></trans-unit><trans-unit id="288" approved="yes"><source>288</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_332&lt;tab&gt;なんと、新しい任務とは！
-我が部隊の実力が、認められたということですね！</target></trans-unit><trans-unit id="289" approved="yes"><source>289</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_333&lt;tab&gt;しかし、これは&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;からの期待が、
+奮戦されたし、以上。</target>
+			</trans-unit>
+			<trans-unit id="288" approved="yes">
+				<source>288</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_332&lt;tab&gt;なんと、新しい任務とは！
+我が部隊の実力が、認められたということですね！</target>
+			</trans-unit>
+			<trans-unit id="289" approved="yes">
+				<source>289</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_333&lt;tab&gt;しかし、これは&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;からの期待が、
 より大きくなったということでもあります。
-気を引き締めて、攻略任務に当たりましょう！</target></trans-unit><trans-unit id="290" approved="yes"><source>290</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_210&lt;tab&gt;小隊任務が完了しているようですよ！
-さっそく、結果を確認してみてください！</target></trans-unit><trans-unit id="291" approved="yes"><source>291</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_220&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
-もうひとつ重要な話がございます。</target></trans-unit><trans-unit id="292" approved="yes"><source>292</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_221&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
+気を引き締めて、攻略任務に当たりましょう！</target>
+			</trans-unit>
+			<trans-unit id="290" approved="yes">
+				<source>290</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_210&lt;tab&gt;小隊任務が完了しているようですよ！
+さっそく、結果を確認してみてください！</target>
+			</trans-unit>
+			<trans-unit id="291" approved="yes">
+				<source>291</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_220&lt;tab&gt;……さて、実は&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に、
+もうひとつ重要な話がございます。</target>
+			</trans-unit>
+			<trans-unit id="292" approved="yes">
+				<source>292</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_221&lt;tab&gt;小隊をここまで育て上げた&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿に対して、
 &lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;より、伝言を預かっているのです。
-さっそく読み上げましょう。</target></trans-unit><trans-unit id="293" approved="yes"><source>293</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_222&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+さっそく読み上げましょう。</target>
+			</trans-unit>
+			<trans-unit id="293" approved="yes">
+				<source>293</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_222&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「&lt;var 08 E1E93501 ((中甲士)) (()) /var&gt;&lt;var 08 E1E93601 ((中牙士)) (()) /var&gt;&lt;var 08 E1E93701 ((中闘士)) (()) /var&gt;」に任ずる。
-より一層の奮起を期待する、以上。</target></trans-unit><trans-unit id="294" approved="yes"><source>294</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_223&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
+より一層の奮起を期待する、以上。</target>
+			</trans-unit>
+			<trans-unit id="294" approved="yes">
+				<source>294</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_223&lt;tab&gt;そうです、昇級の辞令が届いたのですよ！
 本当におめでとうございます！
-部下のひとりとして、小官も誇りに思います！</target></trans-unit><trans-unit id="295" approved="yes"><source>295</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_230&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
-さぁ、小隊に何をさせるか、決めてください！！</target></trans-unit><trans-unit id="296" approved="yes"><source>296</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_240&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target></trans-unit><trans-unit id="297" approved="yes"><source>297</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_250&lt;tab&gt;我が部隊には現在、3名の小隊員がいますが、
-新たに1名加え、合計4名に増員してほしいのです。</target></trans-unit><trans-unit id="298" approved="yes"><source>298</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_251&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
+部下のひとりとして、小官も誇りに思います！</target>
+			</trans-unit>
+			<trans-unit id="295" approved="yes">
+				<source>295</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_230&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
+さぁ、小隊に何をさせるか、決めてください！！</target>
+			</trans-unit>
+			<trans-unit id="296" approved="yes">
+				<source>296</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_240&lt;tab&gt;ようこそ、小隊員たちも待ちわびていましたよ！
+さらなる高みを目指すべく、訓練や小隊任務に励みましょう！</target>
+			</trans-unit>
+			<trans-unit id="297" approved="yes">
+				<source>297</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_250&lt;tab&gt;我が部隊には現在、3名の小隊員がいますが、
+新たに1名加え、合計4名に増員してほしいのです。</target>
+			</trans-unit>
+			<trans-unit id="298" approved="yes">
+				<source>298</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_251&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;小隊長殿が、冒険者として活躍すれば、
 その姿を見た者たちが「志願兵」として現れることでしょう。
-その中から、新たな小隊員を選ぶのです！</target></trans-unit><trans-unit id="299" approved="yes"><source>299</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_260&lt;tab&gt;「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
-個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target></trans-unit><trans-unit id="300" approved="yes"><source>300</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_261&lt;tab&gt;小隊を「訓練」させたいときには、
-ここにある「&lt;var 28 ((EObj)) F61EA07001 /var&gt;」から指示を出してください。</target></trans-unit><trans-unit id="301" approved="yes"><source>301</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_262&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
+その中から、新たな小隊員を選ぶのです！</target>
+			</trans-unit>
+			<trans-unit id="299" approved="yes">
+				<source>299</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_260&lt;tab&gt;「訓練」とは、我が小隊の「小隊総合能力」を鍛えるもの。
+個人の成長も促せますが、基本は小隊そのものの強さに影響します。</target>
+			</trans-unit>
+			<trans-unit id="300" approved="yes">
+				<source>300</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_261&lt;tab&gt;小隊を「訓練」させたいときには、
+ここにある「&lt;var 28 ((EObj)) F61EA07001 /var&gt;」から指示を出してください。</target>
+			</trans-unit>
+			<trans-unit id="301" approved="yes">
+				<source>301</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_262&lt;tab&gt;高難度の小隊任務を成功させるためには、「訓練」は必須です。
 「訓練」なくして、勝利なし！
-……小官が、かつての上官から教えていただいた言葉であります。</target></trans-unit><trans-unit id="302" approved="yes"><source>302</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_263&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
-我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target></trans-unit><trans-unit id="303" approved="yes"><source>303</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_320&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の小隊の活躍は、
-&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;でも噂になっておりましたよ。</target></trans-unit><trans-unit id="304" approved="yes"><source>304</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_321&lt;tab&gt;&lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高いですし、
-重要任務に挑んでみてはいかがでしょうか？</target></trans-unit><trans-unit id="305" approved="yes"><source>305</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_006_001_LIM&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="306" approved="yes"><source>306</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_006_001_GRD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="307" approved="yes"><source>307</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_006_001_ULD&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="308" approved="yes"><source>308</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_400&lt;tab&gt;統合司令部より、新たな重要任務の要請が入りました！
+……小官が、かつての上官から教えていただいた言葉であります。</target>
+			</trans-unit>
+			<trans-unit id="302" approved="yes">
+				<source>302</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_263&lt;tab&gt;それではさっそく、小隊員に「訓練」を課して、
+我が部隊を、&lt;var 08 E1E93501 ((黒渦団)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊)) (()) /var&gt;随一の精鋭に鍛え上げてください！</target>
+			</trans-unit>
+			<trans-unit id="303" approved="yes">
+				<source>303</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_320&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿の小隊の活躍は、
+&lt;var 08 E1E93501 ((黒渦団：軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((双蛇党：統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((不滅隊：作戦本部)) (()) /var&gt;でも噂になっておりましたよ。</target>
+			</trans-unit>
+			<trans-unit id="304" approved="yes">
+				<source>304</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_321&lt;tab&gt;&lt;var 08 E1E93501 ((軍令部)) (()) /var&gt;&lt;var 08 E1E93601 ((統合司令部)) (()) /var&gt;&lt;var 08 E1E93701 ((作戦本部)) (()) /var&gt;からの期待も高いですし、
+重要任務に挑んでみてはいかがでしょうか？</target>
+			</trans-unit>
+			<trans-unit id="305" approved="yes">
+				<source>305</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_006_001_LIM&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="306" approved="yes">
+				<source>306</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_006_001_GRD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="307" approved="yes">
+				<source>307</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_006_001_ULD&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="308" approved="yes">
+				<source>308</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_400&lt;tab&gt;統合司令部より、新たな重要任務の要請が入りました！
 この任務を成功させることができれば、我らが部隊の評価も、
-一段と高まることでしょう！</target></trans-unit><trans-unit id="309" approved="yes"><source>309</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_401&lt;tab&gt;攻略任務を5ヵ所以上で成功させたことにより、
-新たな重要任務に挑戦可能になりました。</target></trans-unit><trans-unit id="310" approved="yes"><source>310</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_402&lt;tab&gt;この重要任務は難易度が非常に高く、
+一段と高まることでしょう！</target>
+			</trans-unit>
+			<trans-unit id="309" approved="yes">
+				<source>309</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_401&lt;tab&gt;攻略任務を5ヵ所以上で成功させたことにより、
+新たな重要任務に挑戦可能になりました。</target>
+			</trans-unit>
+			<trans-unit id="310" approved="yes">
+				<source>310</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_402&lt;tab&gt;この重要任務は難易度が非常に高く、
 成功させるには、かなりの実力が求められます。
-小隊員の個人能力を成長させ、成功率を高めてから挑みましょう。</target></trans-unit><trans-unit id="311" approved="yes"><source>311</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_410&lt;tab&gt;重要任務の成功、おめでとうございます！
+小隊員の個人能力を成長させ、成功率を高めてから挑みましょう。</target>
+			</trans-unit>
+			<trans-unit id="311" approved="yes">
+				<source>311</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_410&lt;tab&gt;重要任務の成功、おめでとうございます！
 小官とて、我らが部隊の実力は信じておりましたが、
-任務成功の第一報を聞いた時には、思わず心が熱くなりましたよ！</target></trans-unit><trans-unit id="312" approved="yes"><source>312</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_411&lt;tab&gt;おっと、来客のようですね……。
-どうぞお入りください！</target></trans-unit><trans-unit id="313" approved="yes"><source>313</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_412&lt;tab&gt;(-？？？？-)ここが、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;中牙士が指揮する小隊の兵舎だな？
-失礼させてもらおう。</target></trans-unit><trans-unit id="314" approved="yes"><source>314</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_413&lt;tab&gt;なんと、スウェスリク大牙将ではありませんか！
-一体、どうされたというのですか！？</target></trans-unit><trans-unit id="315" approved="yes"><source>315</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_414&lt;tab&gt;我らが双蛇党が誇る英雄に、直接話したいことがあってな。
-ちょうど任務から帰還したところと聞き、寄らせてもらったのだよ。</target></trans-unit><trans-unit id="316" approved="yes"><source>316</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_415&lt;tab&gt;昨今の情勢が、極めて厳しいものであることは承知のとおりだ。
+任務成功の第一報を聞いた時には、思わず心が熱くなりましたよ！</target>
+			</trans-unit>
+			<trans-unit id="312" approved="yes">
+				<source>312</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_411&lt;tab&gt;おっと、来客のようですね……。
+どうぞお入りください！</target>
+			</trans-unit>
+			<trans-unit id="313" approved="yes">
+				<source>313</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_412&lt;tab&gt;(-？？？？-)ここが、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;中牙士が指揮する小隊の兵舎だな？
+失礼させてもらおう。</target>
+			</trans-unit>
+			<trans-unit id="314" approved="yes">
+				<source>314</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_413&lt;tab&gt;なんと、スウェスリク大牙将ではありませんか！
+一体、どうされたというのですか！？</target>
+			</trans-unit>
+			<trans-unit id="315" approved="yes">
+				<source>315</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_414&lt;tab&gt;我らが双蛇党が誇る英雄に、直接話したいことがあってな。
+ちょうど任務から帰還したところと聞き、寄らせてもらったのだよ。</target>
+			</trans-unit>
+			<trans-unit id="316" approved="yes">
+				<source>316</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_415&lt;tab&gt;昨今の情勢が、極めて厳しいものであることは承知のとおりだ。
 そんな状況だからこそ、君たちの小隊の活躍は、
-多くの将兵にとって希望となっている。</target></trans-unit><trans-unit id="317" approved="yes"><source>317</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_416&lt;tab&gt;それゆえ統合司令部として、ひとつの決定を下してね。
-最後に、私から伝えさせてもらおう。</target></trans-unit><trans-unit id="318" approved="yes"><source>318</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_417&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+多くの将兵にとって希望となっている。</target>
+			</trans-unit>
+			<trans-unit id="317" approved="yes">
+				<source>317</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_416&lt;tab&gt;それゆえ統合司令部として、ひとつの決定を下してね。
+最後に、私から伝えさせてもらおう。</target>
+			</trans-unit>
+			<trans-unit id="318" approved="yes">
+				<source>318</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_417&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「大牙士」に任ずる！
-今後も、精霊の導きとともに活躍されたし、以上！</target></trans-unit><trans-unit id="319" approved="yes"><source>319</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_418&lt;tab&gt;す、すばらしい朗報ではありませんか！
+今後も、精霊の導きとともに活躍されたし、以上！</target>
+			</trans-unit>
+			<trans-unit id="319" approved="yes">
+				<source>319</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_418&lt;tab&gt;す、すばらしい朗報ではありませんか！
 小隊長殿の大牙士への昇進はもちろんのこと、
-大牙将からのお言葉は、小隊員一同の誇りとなるでしょう！</target></trans-unit><trans-unit id="320" approved="yes"><source>320</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_419&lt;tab&gt;本当におめでとうございます！
-これからも、ともに全力で戦っていきましょう！</target></trans-unit><trans-unit id="321" approved="yes"><source>321</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_400&lt;tab&gt;軍令部より、新たな重要任務の要請が入りました！
+大牙将からのお言葉は、小隊員一同の誇りとなるでしょう！</target>
+			</trans-unit>
+			<trans-unit id="320" approved="yes">
+				<source>320</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_419&lt;tab&gt;本当におめでとうございます！
+これからも、ともに全力で戦っていきましょう！</target>
+			</trans-unit>
+			<trans-unit id="321" approved="yes">
+				<source>321</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_400&lt;tab&gt;軍令部より、新たな重要任務の要請が入りました！
 この任務を成功させることができれば、我らが部隊の評価も、
-一段と高まることでしょう！</target></trans-unit><trans-unit id="322" approved="yes"><source>322</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_410&lt;tab&gt;重要任務の成功、おめでとうございます！
+一段と高まることでしょう！</target>
+			</trans-unit>
+			<trans-unit id="322" approved="yes">
+				<source>322</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_410&lt;tab&gt;重要任務の成功、おめでとうございます！
 小官とて、我らが部隊の実力は信じておりましたが、
-任務成功の第一報を聞いた時には、思わず心が熱くなりましたよ！</target></trans-unit><trans-unit id="323" approved="yes"><source>323</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_411&lt;tab&gt;おっと、来客のようですね……。
-どうぞお入りください！</target></trans-unit><trans-unit id="324" approved="yes"><source>324</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_412&lt;tab&gt;(-？？？？-)邪魔させてもらうぞ。
-ここが&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;の小隊の兵舎だな？</target></trans-unit><trans-unit id="325" approved="yes"><source>325</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_413&lt;tab&gt;なんと、エインザル・スラフィルシン大甲将ではありませんか！
-一体、どうされたというのですか！？</target></trans-unit><trans-unit id="326" approved="yes"><source>326</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_414&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;と直接、話したいことがあったもんでな。
-ちょうど任務から帰還したところと聞き、寄らせてもらったわけだ。</target></trans-unit><trans-unit id="327" approved="yes"><source>327</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_415&lt;tab&gt;昨今の情勢が、極めて厳しいってことは、わかっているだろう？
+任務成功の第一報を聞いた時には、思わず心が熱くなりましたよ！</target>
+			</trans-unit>
+			<trans-unit id="323" approved="yes">
+				<source>323</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_411&lt;tab&gt;おっと、来客のようですね……。
+どうぞお入りください！</target>
+			</trans-unit>
+			<trans-unit id="324" approved="yes">
+				<source>324</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_412&lt;tab&gt;(-？？？？-)邪魔させてもらうぞ。
+ここが&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;の小隊の兵舎だな？</target>
+			</trans-unit>
+			<trans-unit id="325" approved="yes">
+				<source>325</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_413&lt;tab&gt;なんと、エインザル・スラフィルシン大甲将ではありませんか！
+一体、どうされたというのですか！？</target>
+			</trans-unit>
+			<trans-unit id="326" approved="yes">
+				<source>326</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_414&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;と直接、話したいことがあったもんでな。
+ちょうど任務から帰還したところと聞き、寄らせてもらったわけだ。</target>
+			</trans-unit>
+			<trans-unit id="327" approved="yes">
+				<source>327</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_415&lt;tab&gt;昨今の情勢が、極めて厳しいってことは、わかっているだろう？
 そんな状況だからな、お前たちの小隊の活躍は、
-多くの連中にとっての希望になっているんだ。</target></trans-unit><trans-unit id="328" approved="yes"><source>328</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_416&lt;tab&gt;そんなわけで、軍令部としてひとつの決定を下したんだ。
-どうせなら、ソレを俺の口から伝えておこうと思ってな。</target></trans-unit><trans-unit id="329" approved="yes"><source>329</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_417&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+多くの連中にとっての希望になっているんだ。</target>
+			</trans-unit>
+			<trans-unit id="328" approved="yes">
+				<source>328</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_416&lt;tab&gt;そんなわけで、軍令部としてひとつの決定を下したんだ。
+どうせなら、ソレを俺の口から伝えておこうと思ってな。</target>
+			</trans-unit>
+			<trans-unit id="329" approved="yes">
+				<source>329</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_417&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「大甲士」に任ずる！
-今後も黒渦団を導く操舵士として活躍されたし、以上！</target></trans-unit><trans-unit id="330" approved="yes"><source>330</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_418&lt;tab&gt;す、すばらしい朗報ではありませんか！
+今後も黒渦団を導く操舵士として活躍されたし、以上！</target>
+			</trans-unit>
+			<trans-unit id="330" approved="yes">
+				<source>330</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_418&lt;tab&gt;す、すばらしい朗報ではありませんか！
 小隊長殿の大甲士への昇進はもちろんのこと、
-大甲将からのお言葉は、小隊員一同の誇りとなるでしょう！</target></trans-unit><trans-unit id="331" approved="yes"><source>331</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_419&lt;tab&gt;本当におめでとうございます！
-これからも、ともに全力で戦っていきましょう！</target></trans-unit><trans-unit id="332" approved="yes"><source>332</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_400&lt;tab&gt;作戦本部より、新たな重要任務の要請が入りました！
+大甲将からのお言葉は、小隊員一同の誇りとなるでしょう！</target>
+			</trans-unit>
+			<trans-unit id="331" approved="yes">
+				<source>331</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_419&lt;tab&gt;本当におめでとうございます！
+これからも、ともに全力で戦っていきましょう！</target>
+			</trans-unit>
+			<trans-unit id="332" approved="yes">
+				<source>332</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_400&lt;tab&gt;作戦本部より、新たな重要任務の要請が入りました！
 この任務を成功させることができれば、我らが部隊の評価も、
-一段と高まることでしょう！</target></trans-unit><trans-unit id="333" approved="yes"><source>333</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_410&lt;tab&gt;重要任務の成功、おめでとうございます！
+一段と高まることでしょう！</target>
+			</trans-unit>
+			<trans-unit id="333" approved="yes">
+				<source>333</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_410&lt;tab&gt;重要任務の成功、おめでとうございます！
 小官とて、我らが部隊の実力は信じておりましたが、
-任務成功の第一報を聞いた時には、思わず心が熱くなりましたよ！</target></trans-unit><trans-unit id="334" approved="yes"><source>334</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_411&lt;tab&gt;おっと、来客のようですね……。
-どうぞお入りください！</target></trans-unit><trans-unit id="335" approved="yes"><source>335</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_412&lt;tab&gt;(-？？？？-)ここが、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;中闘士が指揮する小隊の兵舎だね？
-失礼させてもらうよ。</target></trans-unit><trans-unit id="336" approved="yes"><source>336</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_413&lt;tab&gt;なんと、スティル・リバー大闘将ではありませんか！
-一体、どうされたというのですか！？</target></trans-unit><trans-unit id="337" approved="yes"><source>337</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_414&lt;tab&gt;我らが不滅隊が誇る英雄に、直接話したいことがあったのです。
-ちょうど任務から帰還したところと聞き、寄らせてもらったのですよ。</target></trans-unit><trans-unit id="338" approved="yes"><source>338</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_415&lt;tab&gt;昨今の情勢が、極めて厳しいものであることは承知のとおり。
+任務成功の第一報を聞いた時には、思わず心が熱くなりましたよ！</target>
+			</trans-unit>
+			<trans-unit id="334" approved="yes">
+				<source>334</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_411&lt;tab&gt;おっと、来客のようですね……。
+どうぞお入りください！</target>
+			</trans-unit>
+			<trans-unit id="335" approved="yes">
+				<source>335</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_412&lt;tab&gt;(-？？？？-)ここが、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;中闘士が指揮する小隊の兵舎だね？
+失礼させてもらうよ。</target>
+			</trans-unit>
+			<trans-unit id="336" approved="yes">
+				<source>336</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_413&lt;tab&gt;なんと、スティル・リバー大闘将ではありませんか！
+一体、どうされたというのですか！？</target>
+			</trans-unit>
+			<trans-unit id="337" approved="yes">
+				<source>337</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_414&lt;tab&gt;我らが不滅隊が誇る英雄に、直接話したいことがあったのです。
+ちょうど任務から帰還したところと聞き、寄らせてもらったのですよ。</target>
+			</trans-unit>
+			<trans-unit id="338" approved="yes">
+				<source>338</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_415&lt;tab&gt;昨今の情勢が、極めて厳しいものであることは承知のとおり。
 そんな状況だからこそ、君たちの小隊の活躍は、
-多くの将兵にとって希望となっています。</target></trans-unit><trans-unit id="339" approved="yes"><source>339</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_416&lt;tab&gt;それゆえ作戦本部では、ひとつの決定を下しましてね。
-最後に、私自身の口から伝えておこうと思います。</target></trans-unit><trans-unit id="340" approved="yes"><source>340</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_417&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
+多くの将兵にとって希望となっています。</target>
+			</trans-unit>
+			<trans-unit id="339" approved="yes">
+				<source>339</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_416&lt;tab&gt;それゆえ作戦本部では、ひとつの決定を下しましてね。
+最後に、私自身の口から伝えておこうと思います。</target>
+			</trans-unit>
+			<trans-unit id="340" approved="yes">
+				<source>340</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_417&lt;tab&gt;本日を以て、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;を、
 「大闘士」に任ずる！
-今後も、不滅隊の輝ける星として活躍されたし、以上！</target></trans-unit><trans-unit id="341" approved="yes"><source>341</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_418&lt;tab&gt;す、すばらしい朗報ではありませんか！
+今後も、不滅隊の輝ける星として活躍されたし、以上！</target>
+			</trans-unit>
+			<trans-unit id="341" approved="yes">
+				<source>341</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_418&lt;tab&gt;す、すばらしい朗報ではありませんか！
 小隊長殿の大闘士への昇進はもちろんのこと、
-大闘将からのお言葉は、小隊員一同の誇りとなるでしょう！</target></trans-unit><trans-unit id="342" approved="yes"><source>342</source><target state="final">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_419&lt;tab&gt;本当におめでとうございます！
-これからも、ともに全力で戦っていきましょう！</target></trans-unit></body></file></xliff>
+大闘将からのお言葉は、小隊員一同の誇りとなるでしょう！</target>
+			</trans-unit>
+			<trans-unit id="342" approved="yes">
+				<source>342</source>
+				<target state="final" xml:space="preserve">TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_419&lt;tab&gt;本当におめでとうございます！
+これからも、ともに全力で戦っていきましょう！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

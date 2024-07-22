@@ -1,141 +1,607 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="HeaVnc108_02238" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_HEAVNC108_02238_SEQ_00&lt;tab&gt;ファルコンネストのサンクレッドは落ち着いたようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_HEAVNC108_02238_SEQ_01&lt;tab&gt;サンクレッドから、皇都への帰還を促された。イシュガルドの神殿騎士団総長室にいる「アイメリク」と話そう。神殿騎士団総長室へは、神殿騎士団本部にいる「神殿騎士団の衛兵」が案内してくれるようだ。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_HEAVNC108_02238_SEQ_02&lt;tab&gt;アイメリクとフォルタン伯爵に、ファルコンネストでの一件を説明した。アイメリクは変革を諦めることなく、民に新たな希望をもたらすため、三国との合同軍事演習を行うことを決意した。神殿騎士団本部の「サンクレッド」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_HEAVNC108_02238_SEQ_03&lt;tab&gt;サンクレッドと話し、イシュガルドの変革を見届けることにした。神殿騎士団本部の「ルキア」と話そう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_HEAVNC108_02238_SEQ_04&lt;tab&gt;ルキアから、混成軍の編成にあたっての書簡を託された。イシュガルドの雲霧街にいる「ヒルダ」に「&lt;var 28 ((EventItem)) F61E8C1901 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_HEAVNC108_02238_SEQ_05&lt;tab&gt;ヒルダに書簡を渡し、自警団からの精鋭選出を進めてもらうことになった。最後に、イシュガルドの上層で「エマネラン」を探そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_HEAVNC108_02238_SEQ_06&lt;tab&gt;エマネランを見つけた。彼は悩んだ末、自らアイメリクの意見を聞いて判断をしたいと申し出た。イシュガルドの神殿騎士団本部にいる「神殿騎士団の衛兵」と話し、エマネランとともに神殿騎士団総長室へ向かおう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_HEAVNC108_02238_SEQ_07&lt;tab&gt;アイメリクと言葉を交わしたエマネランが、合同演習への参戦を心に決めた。また、冒険者も、イシュガルドのかけがえのない盟友として参戦することとなった。神殿騎士団本部の「サンクレッド」と話そう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_HEAVNC108_02238_SEQ_08&lt;tab&gt;サンクレッドと話した。様々な思惑があったとしても、冒険者がアイメリクたちから厚く信頼されていることは間違いないようだ。仲間のために、イシュガルドを勝利に導こう！</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_HEAVNC108_02238_TODO_00&lt;tab&gt;神殿騎士団総長室のアイメリクと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_HEAVNC108_02238_TODO_01&lt;tab&gt;サンクレッドと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_HEAVNC108_02238_TODO_02&lt;tab&gt;ルキアと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_HEAVNC108_02238_TODO_03&lt;tab&gt;ヒルダに&lt;var 28 ((EventItem)) F61E8C1901 /var&gt;を渡す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_HEAVNC108_02238_TODO_04&lt;tab&gt;上層でエマネランを探す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_HEAVNC108_02238_TODO_05&lt;tab&gt;神殿騎士団本部の神殿騎士団総長室に向かう</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_HEAVNC108_02238_TODO_06&lt;tab&gt;サンクレッドと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_000&lt;tab&gt;残る騎兵たちに指示をだしたら、私もすぐに皇都へ戻る。
-アイメリク様への報告、頼んだぞ。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_HEAVNC108_02238_ARTOIREL_000_005&lt;tab&gt;私はしばらくここに残り、
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="HeaVnc108_02238" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_00&lt;tab&gt;ファルコンネストのサンクレッドは落ち着いたようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_01&lt;tab&gt;サンクレッドから、皇都への帰還を促された。イシュガルドの神殿騎士団総長室にいる「アイメリク」と話そう。神殿騎士団総長室へは、神殿騎士団本部にいる「神殿騎士団の衛兵」が案内してくれるようだ。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_02&lt;tab&gt;アイメリクとフォルタン伯爵に、ファルコンネストでの一件を説明した。アイメリクは変革を諦めることなく、民に新たな希望をもたらすため、三国との合同軍事演習を行うことを決意した。神殿騎士団本部の「サンクレッド」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_03&lt;tab&gt;サンクレッドと話し、イシュガルドの変革を見届けることにした。神殿騎士団本部の「ルキア」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_04&lt;tab&gt;ルキアから、混成軍の編成にあたっての書簡を託された。イシュガルドの雲霧街にいる「ヒルダ」に「&lt;var 28 ((EventItem)) F61E8C1901 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_05&lt;tab&gt;ヒルダに書簡を渡し、自警団からの精鋭選出を進めてもらうことになった。最後に、イシュガルドの上層で「エマネラン」を探そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_06&lt;tab&gt;エマネランを見つけた。彼は悩んだ末、自らアイメリクの意見を聞いて判断をしたいと申し出た。イシュガルドの神殿騎士団本部にいる「神殿騎士団の衛兵」と話し、エマネランとともに神殿騎士団総長室へ向かおう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_07&lt;tab&gt;アイメリクと言葉を交わしたエマネランが、合同演習への参戦を心に決めた。また、冒険者も、イシュガルドのかけがえのない盟友として参戦することとなった。神殿騎士団本部の「サンクレッド」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SEQ_08&lt;tab&gt;サンクレッドと話した。様々な思惑があったとしても、冒険者がアイメリクたちから厚く信頼されていることは間違いないようだ。仲間のために、イシュガルドを勝利に導こう！</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TODO_00&lt;tab&gt;神殿騎士団総長室のアイメリクと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TODO_01&lt;tab&gt;サンクレッドと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TODO_02&lt;tab&gt;ルキアと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TODO_03&lt;tab&gt;ヒルダに&lt;var 28 ((EventItem)) F61E8C1901 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TODO_04&lt;tab&gt;上層でエマネランを探す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TODO_05&lt;tab&gt;神殿騎士団本部の神殿騎士団総長室に向かう</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TODO_06&lt;tab&gt;サンクレッドと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_000&lt;tab&gt;残る騎兵たちに指示をだしたら、私もすぐに皇都へ戻る。
+アイメリク様への報告、頼んだぞ。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_ARTOIREL_000_005&lt;tab&gt;私はしばらくここに残り、
 暴動の被害にあった者を見舞うとしよう。
-……それでも、失った信頼を取り戻せるかはわからないが。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_010&lt;tab&gt;あの様子なら、オノロワはエマネランが看るだろう。
+……それでも、失った信頼を取り戻せるかはわからないが。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_010&lt;tab&gt;あの様子なら、オノロワはエマネランが看るだろう。
 俺たちは、アイメリク卿に報告をするんだったな。
-……皇都へ行こう、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_020&lt;tab&gt;おお、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿……！
-貴殿は、怪我などしていないのだな……！？</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_HEAVNC108_02238_TEMPLEKIGHTGATE_000_030&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿、伝令から事情は伺っております。
-アイメリク総長がお待ちですので、すぐに総長室へ！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_HEAVNC108_02238_Q1_000_031&lt;tab&gt;「神殿騎士団総長室」へ移動しますか？</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_040&lt;tab&gt;待っていたぞ。
+……皇都へ行こう、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_020&lt;tab&gt;おお、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿……！
+貴殿は、怪我などしていないのだな……！？</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TEMPLEKIGHTGATE_000_030&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿、伝令から事情は伺っております。
+アイメリク総長がお待ちですので、すぐに総長室へ！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_Q1_000_031&lt;tab&gt;「神殿騎士団総長室」へ移動しますか？</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_040&lt;tab&gt;待っていたぞ。
 ファルコンネストでの暴動について、概略は聞いている。
-君たちを巻き込んでしまったこと、本当に申し訳ない……。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_041&lt;tab&gt;我が息子がしでかしたことと、従者負傷の報を受け、
+君たちを巻き込んでしまったこと、本当に申し訳ない……。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_041&lt;tab&gt;我が息子がしでかしたことと、従者負傷の報を受け、
 私も詳しい事情を聞きに参じたのだ。
-どうか、貴殿らが見聞きしたことを教えてくれないだろうか？</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_042&lt;tab&gt;それが、暴動の真相……
-なんとも胸の痛む話だ。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_043&lt;tab&gt;だが、共感できてしまうからこそ恐ろしい。
+どうか、貴殿らが見聞きしたことを教えてくれないだろうか？</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_042&lt;tab&gt;それが、暴動の真相……
+なんとも胸の痛む話だ。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_043&lt;tab&gt;だが、共感できてしまうからこそ恐ろしい。
 反乱者たちの訴えは、民の心に燻っていた悲しみを煽り、
-過去へと押し戻しかねないもの。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_044&lt;tab&gt;やっとここまで繋いできたイシュガルド変革の希望が、
-この一件が広まることによって、絶たれてしまうのでは……。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_045&lt;tab&gt;……そうはさせない。
+過去へと押し戻しかねないもの。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_044&lt;tab&gt;やっとここまで繋いできたイシュガルド変革の希望が、
+この一件が広まることによって、絶たれてしまうのでは……。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_045&lt;tab&gt;……そうはさせない。
 復讐のみが生きる道だなどと、
-もう誰にも言わせるものか……！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_046&lt;tab&gt;確かに……強く変革を求めることは、
+もう誰にも言わせるものか……！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_046&lt;tab&gt;確かに……強く変革を求めることは、
 これまでの過去を否定するのと同じこと。
-傷ついた民ならば、やりきれない思いも抱こう……。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_047&lt;tab&gt;だが、イシュガルドの千年の戦いの歴史や、
-そこに散った数々の命は、決して無意味になりはしない！</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_048&lt;tab&gt;戦いはつらく、悲しいものだったが、
+傷ついた民ならば、やりきれない思いも抱こう……。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_047&lt;tab&gt;だが、イシュガルドの千年の戦いの歴史や、
+そこに散った数々の命は、決して無意味になりはしない！</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_048&lt;tab&gt;戦いはつらく、悲しいものだったが、
 そこで培った強さがあるからこそ、我々は明日を生きられる。
-過去を背負っているからこそ、前に進むのだ……！</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_049&lt;tab&gt;……変革の意志は揺るぎないようですな。
+過去を背負っているからこそ、前に進むのだ……！</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_049&lt;tab&gt;……変革の意志は揺るぎないようですな。
 確かに、その思いが民の心にも刻まれていれば、
-暴動の件が広まろうとも、過去に囚われはしますまい。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_100_049&lt;tab&gt;しかし、散々の遊説を経ても、今回の暴動が起きたのです。
+暴動の件が広まろうとも、過去に囚われはしますまい。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_100_049&lt;tab&gt;しかし、散々の遊説を経ても、今回の暴動が起きたのです。
 信じるべきものを失い、誇りをも奪われて嘆く民には、
-いかに言葉を尽せど、伝わらない思いなのでしょう……。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_050&lt;tab&gt;かように人心が揺れたとき、かつての我が国であれば、
+いかに言葉を尽せど、伝わらない思いなのでしょう……。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_050&lt;tab&gt;かように人心が揺れたとき、かつての我が国であれば、
 征竜の戦をもって民をまとめあげたもの……。
-言葉に代わり、民の心を動かす何かが必要なのでは……？</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_100_050&lt;tab&gt;……私は、それぞれの民が失ったものの代わりにはなれない。
+言葉に代わり、民の心を動かす何かが必要なのでは……？</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_100_050&lt;tab&gt;……私は、それぞれの民が失ったものの代わりにはなれない。
 だからこそ、新生イシュガルドらしい方法で、
-継いできた命や強さを誇れるよう模索し続けたいのだ。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_051&lt;tab&gt;ひとつ、提案がある。
+継いできた命や強さを誇れるよう模索し続けたいのだ。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_051&lt;tab&gt;ひとつ、提案がある。
 先日、我が国の「エオルゼア都市軍事同盟」復帰を記念して、
-四国で「合同演習」……模擬戦をしないかと打診があった。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_052&lt;tab&gt;先にヴィゾーヴニルとの式典をと思い、保留にしていたが……
-式典をしばし延期し、この「合同演習」を行ってはどうか？</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_053&lt;tab&gt;無論、ただ騎士の力を見せつけようというわけではない。
+四国で「合同演習」……模擬戦をしないかと打診があった。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_052&lt;tab&gt;先にヴィゾーヴニルとの式典をと思い、保留にしていたが……
+式典をしばし延期し、この「合同演習」を行ってはどうか？</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_053&lt;tab&gt;無論、ただ騎士の力を見せつけようというわけではない。
 神殿騎士団のみならず、平民の自警団にも参戦を要請し、
-新たな「イシュガルド軍」たる混成軍を結成するのだ。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_054&lt;tab&gt;この混成軍が、三国グランドカンパニーに勝利すれば……
+新たな「イシュガルド軍」たる混成軍を結成するのだ。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_054&lt;tab&gt;この混成軍が、三国グランドカンパニーに勝利すれば……
 建国以来、貴族主導で竜と戦い続けてきた我が国にとって、
-まったく新しい未来を象徴する快挙となるだろう。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_055&lt;tab&gt;ふむ……皆少なからず、感じ入るものがあるでしょうな……。
+まったく新しい未来を象徴する快挙となるだろう。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_055&lt;tab&gt;ふむ……皆少なからず、感じ入るものがあるでしょうな……。
 このまま暴動に対して沈黙し、式典を強行するよりも、
-よほどいい案かもしれませぬ……。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_056&lt;tab&gt;わかりました。
+よほどいい案かもしれませぬ……。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_056&lt;tab&gt;わかりました。
 さようであれば、その軍の末席に、
-我が息子エマネランも加えてはいただけぬでしょうか？</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_057&lt;tab&gt;息子は此度の行いにより、民の信頼を大いに損なった……。
+我が息子エマネランも加えてはいただけぬでしょうか？</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_057&lt;tab&gt;息子は此度の行いにより、民の信頼を大いに損なった……。
 名家と呼ばれた貴族でも、国のためには等しく剣を取るのだと、
-奴自身の手で示させてほしいのです。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_058&lt;tab&gt;わかった……。
-もし本人に強い意志があるのならば、提案を受け入れよう。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_059&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿。
+奴自身の手で示させてほしいのです。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_058&lt;tab&gt;わかった……。
+もし本人に強い意志があるのならば、提案を受け入れよう。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_059&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿。
 すまないが、階下のルキアに事情を話し、
-混成軍の編成を進めるよう伝えてもらえないだろうか。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_060&lt;tab&gt;私は急ぎ、各国の盟主に連絡をとり、
-「合同演習」開催の段取りを整えるとしよう。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_061&lt;tab&gt;私からも……
+混成軍の編成を進めるよう伝えてもらえないだろうか。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_060&lt;tab&gt;私は急ぎ、各国の盟主に連絡をとり、
+「合同演習」開催の段取りを整えるとしよう。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_061&lt;tab&gt;私からも……
 もしエマネランを見かけることがあれば、
-奴に事情を伝えてやってほしい。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_062&lt;tab&gt;エマネランは、そろそろ皇都に戻っているはずだが……
+奴に事情を伝えてやってほしい。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_062&lt;tab&gt;エマネランは、そろそろ皇都に戻っているはずだが……
 奴のことだ、今は私を避けるだろう。
-貴殿の方が先に見つけられるかもしれない。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_HEAVNC108_02238_AYMERIC_000_070&lt;tab&gt;すまないが、階下のルキアに事情を話し、
-混成軍の編成を進めるよう伝えてもらえないだろうか。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_HEAVNC108_02238_EDMONT_000_075&lt;tab&gt;もしエマネランを見かけることがあれば、
-奴に事情を伝えてやってほしい。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_080&lt;tab&gt;ああ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。
-こちらも、今しがた帰還したところだ。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_090&lt;tab&gt;「合同演習」ね……。
+貴殿の方が先に見つけられるかもしれない。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_AYMERIC_000_070&lt;tab&gt;すまないが、階下のルキアに事情を話し、
+混成軍の編成を進めるよう伝えてもらえないだろうか。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EDMONT_000_075&lt;tab&gt;もしエマネランを見かけることがあれば、
+奴に事情を伝えてやってほしい。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_080&lt;tab&gt;ああ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。
+こちらも、今しがた帰還したところだ。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_090&lt;tab&gt;「合同演習」ね……。
 なるほど、どのみち正解がない問題ならば、
-それもまた道かもしれないな。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_091&lt;tab&gt;しかし、お前はここの連中に、ずいぶん信頼されてるんだな。
+それもまた道かもしれないな。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_091&lt;tab&gt;しかし、お前はここの連中に、ずいぶん信頼されてるんだな。
 はたから見ていて、正直なところ感心したよ。
-やっぱり、お前はそういう宿命を持っているのか……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_092&lt;tab&gt;……で、いろいろ頼まれてたが、どうする？
-このままイシュガルドの変革に付き合うつもりか？</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_HEAVNC108_02238_Q2_000_093&lt;tab&gt;サンクレッドに何と答える？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_HEAVNC108_02238_A2_000_094&lt;tab&gt;もちろん、付き合おう</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_HEAVNC108_02238_A2_000_095&lt;tab&gt;友に託されたから</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_HEAVNC108_02238_A3_000_096&lt;tab&gt;まったくうんざりだ……</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_100&lt;tab&gt;そうこなくっちゃな！
-お前がそのつもりなら、俺もとことん付き合うぜ。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_105&lt;tab&gt;ふぅん……？
+やっぱり、お前はそういう宿命を持っているのか……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_092&lt;tab&gt;……で、いろいろ頼まれてたが、どうする？
+このままイシュガルドの変革に付き合うつもりか？</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_Q2_000_093&lt;tab&gt;サンクレッドに何と答える？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_A2_000_094&lt;tab&gt;もちろん、付き合おう</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_A2_000_095&lt;tab&gt;友に託されたから</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_A3_000_096&lt;tab&gt;まったくうんざりだ……</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_100&lt;tab&gt;そうこなくっちゃな！
+お前がそのつもりなら、俺もとことん付き合うぜ。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_105&lt;tab&gt;ふぅん……？
 そう言いながらも、付き合ってやるんだろう？
-お前って奴は、託された思いには全力で尽くしちまうからな。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_106&lt;tab&gt;それに、争いの火種が残っているとなれば、
+お前って奴は、託された思いには全力で尽くしちまうからな。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_106&lt;tab&gt;それに、争いの火種が残っているとなれば、
 アシエンにも利用されかねない。
-俺も付き合うから、もう少し見守ってみようぜ。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_110&lt;tab&gt;……なるほどな。
+俺も付き合うから、もう少し見守ってみようぜ。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_110&lt;tab&gt;……なるほどな。
 誰を思って言ったのかは、あえて聞かないさ。
-俺もその気持ちはよくわかるし、とことん付き合うぜ。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_115&lt;tab&gt;アイメリク卿は、神殿騎士団と自警団で、
+俺もその気持ちはよくわかるし、とことん付き合うぜ。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_115&lt;tab&gt;アイメリク卿は、神殿騎士団と自警団で、
 混成軍を編成すると言っていたよな？
-自警団を率いてるのは、以前会った「ヒルダ」か……。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_116&lt;tab&gt;だったら俺は、お前がルキアに事情を伝えている間に、
+自警団を率いてるのは、以前会った「ヒルダ」か……。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_116&lt;tab&gt;だったら俺は、お前がルキアに事情を伝えている間に、
 雲霧街でヒルダを探して、話を通しておくことにしよう。
-メッセンジャーくらいはやらせてくれよ、じゃあな。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_120&lt;tab&gt;ああ、ルキアへの伝言は済んだのか？
-こちらも、ヒルダに事情を伝えておいたぞ。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_HEAVNC108_02238_SYMME_000_125&lt;tab&gt;祭りだ、祭りだ！
+メッセンジャーくらいはやらせてくれよ、じゃあな。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_120&lt;tab&gt;ああ、ルキアへの伝言は済んだのか？
+こちらも、ヒルダに事情を伝えておいたぞ。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SYMME_000_125&lt;tab&gt;祭りだ、祭りだ！
 ヒルダの姐さん率いる自警団が出るとありゃあ、
-どんな奴が相手だって負けやしないぜ！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_HEAVNC108_02238_EUDESTAND_000_130&lt;tab&gt;模擬戦をするときには、神殿騎士団と自警団の精鋭が、
+どんな奴が相手だって負けやしないぜ！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EUDESTAND_000_130&lt;tab&gt;模擬戦をするときには、神殿騎士団と自警団の精鋭が、
 皇都を離れることになるわけだろ？
-だったら俺たちは残って、いつも以上に警備に励むさ。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_HEAVNC108_02238_HILDA_000_135&lt;tab&gt;なかなか面白い話が、進んでいるようじゃないか。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_140&lt;tab&gt;ああ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。
+だったら俺たちは残って、いつも以上に警備に励むさ。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_HILDA_000_135&lt;tab&gt;なかなか面白い話が、進んでいるようじゃないか。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_140&lt;tab&gt;ああ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。
 こちらも、今しがた帰還したところだ。
-アイメリク様への報告は済んだのか？</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_141&lt;tab&gt;……アイメリク様が、「合同演習」を執り行うと？
+アイメリク様への報告は済んだのか？</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_141&lt;tab&gt;……アイメリク様が、「合同演習」を執り行うと？
 三国から申し入れがあったことは知っているが、
-まさか民を鼓舞するために利用しようとは……。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_142&lt;tab&gt;だが、あの方らしい、思い切った手法だ。
+まさか民を鼓舞するために利用しようとは……。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_142&lt;tab&gt;だが、あの方らしい、思い切った手法だ。
 結局、ドラゴン族との戦いを続け、復讐を遂げさせても、
-残るのは塞ぎようもない心の傷だけだからな……。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_143&lt;tab&gt;相手に疎まれようとも真っ直ぐに進み、
+残るのは塞ぎようもない心の傷だけだからな……。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_143&lt;tab&gt;相手に疎まれようとも真っ直ぐに進み、
 迷いなく手を差し伸べる……
-私を救ったときも、あれはそういう方だったよ。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_144&lt;tab&gt;……よし、事情はすべて了解した。
+私を救ったときも、あれはそういう方だったよ。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_144&lt;tab&gt;……よし、事情はすべて了解した。
 「合同演習」に向けて、神殿騎士団から精鋭を選出しよう。
-自警団の方は……</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_145&lt;tab&gt;ほう、サンクレッド殿が、
+自警団の方は……</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_145&lt;tab&gt;ほう、サンクレッド殿が、
 事情を伝えにいってくれているのか。
-助かるぞ、それならば話は早そうだ。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_146&lt;tab&gt;自警団から選出してもらいたい人材について、書簡にまとめる。
+助かるぞ、それならば話は早そうだ。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_146&lt;tab&gt;自警団から選出してもらいたい人材について、書簡にまとめる。
 サンクレッド殿と合流し、書簡をヒルダに渡してくれないか？
-すまないが、よろしく頼む。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_150&lt;tab&gt;サンクレッド殿と合流し、
+すまないが、よろしく頼む。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_150&lt;tab&gt;サンクレッド殿と合流し、
 書簡をヒルダに渡してくれないか？
-すまないが、よろしく頼む。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_HEAVNC108_02238_HILDA_000_160&lt;tab&gt;ああ、サンクレッドから事情は聞いてるよ。
+すまないが、よろしく頼む。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_HILDA_000_160&lt;tab&gt;ああ、サンクレッドから事情は聞いてるよ。
 同盟国相手にイシュガルドの底力を見せつけて、
-みんなを沸してやろうってんだろ？</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_HEAVNC108_02238_HILDA_000_161&lt;tab&gt;わかりやすくて、いいじゃないか！
+みんなを沸してやろうってんだろ？</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_HILDA_000_161&lt;tab&gt;わかりやすくて、いいじゃないか！
 自警団からも、とびきりの猛者を出すよ。
-しかし、人数やら装備は……</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_HEAVNC108_02238_HILDA_000_162&lt;tab&gt;おっ、ルキアのまとめてくれた書簡かい？
-助かるよ、これで滞りなく準備が進められそうだ。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_HEAVNC108_02238_HILDA_000_163&lt;tab&gt;何より、アンタが持ってきてくれたってのがいいね。
+しかし、人数やら装備は……</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_HILDA_000_162&lt;tab&gt;おっ、ルキアのまとめてくれた書簡かい？
+助かるよ、これで滞りなく準備が進められそうだ。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_HILDA_000_163&lt;tab&gt;何より、アンタが持ってきてくれたってのがいいね。
 自警団の中で、アンタは人気者なんだ。
-それが一枚噛んでくれてるとなりゃ、立候補も多いだろうよ。</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_164&lt;tab&gt;これで、残る候補者はエマネランか……。
-まともに話を聞いてくれればいいがな。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_165&lt;tab&gt;とりあえず、この周辺は俺が見ておこう。
+それが一枚噛んでくれてるとなりゃ、立候補も多いだろうよ。</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_164&lt;tab&gt;これで、残る候補者はエマネランか……。
+まともに話を聞いてくれればいいがな。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_165&lt;tab&gt;とりあえず、この周辺は俺が見ておこう。
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;は、上層をひと回りしてきたらどうだ？
-あとで、神殿騎士団本部で合流しよう。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_170&lt;tab&gt;残る候補者はエマネランか……。
+あとで、神殿騎士団本部で合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_170&lt;tab&gt;残る候補者はエマネランか……。
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;は、上層をひと回りしてきたらどうだ？
-あとで、神殿騎士団本部で合流しよう。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_HEAVNC108_02238_HILDA_000_175&lt;tab&gt;へえ、サンクレッドが、あの次男坊を殴ったのかい？
+あとで、神殿騎士団本部で合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_HILDA_000_175&lt;tab&gt;へえ、サンクレッドが、あの次男坊を殴ったのかい？
 あいつもついに、腹を決めるときが来るかねぇ……。
-ともかく、こっちは準備を進めておくよ。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_180&lt;tab&gt;ヒルダに書簡を渡してくれたのだな。
-ありがとう、おかげで準備が円滑に進められる。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_190&lt;tab&gt;…………オマエかよ。
-心配しなくても、オノロワならちゃんと屋敷まで運んだぞ。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_191&lt;tab&gt;まだ目は覚めないけど、かかりつけの治療師が看てくれてる。
-だから……絶対に大丈夫だ。</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_192&lt;tab&gt;……「合同演習」だ？
-そこにオレも参加しろって？</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_100_192&lt;tab&gt;チッ……。
-親父の奴、また勝手なことを…………。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_193&lt;tab&gt;…………なあ、相棒。
+ともかく、こっちは準備を進めておくよ。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_180&lt;tab&gt;ヒルダに書簡を渡してくれたのだな。
+ありがとう、おかげで準備が円滑に進められる。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_190&lt;tab&gt;…………オマエかよ。
+心配しなくても、オノロワならちゃんと屋敷まで運んだぞ。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_191&lt;tab&gt;まだ目は覚めないけど、かかりつけの治療師が看てくれてる。
+だから……絶対に大丈夫だ。</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_192&lt;tab&gt;……「合同演習」だ？
+そこにオレも参加しろって？</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_100_192&lt;tab&gt;チッ……。
+親父の奴、また勝手なことを…………。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_193&lt;tab&gt;…………なあ、相棒。
 冒険者っていうのは、進む道を自分で決めるんだろ？
-そういう生き方、つらくないのかよ。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_194&lt;tab&gt;オレは名家の次男に生まれて、
+そういう生き方、つらくないのかよ。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_194&lt;tab&gt;オレは名家の次男に生まれて、
 できることもできないことも、最初から全部決まってた。
-イシュガルド人として進むべき道を、ずっと示されてきた……。</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_195&lt;tab&gt;そんな世界が急に壊れて、「さあどうする？」ってさ……
+イシュガルド人として進むべき道を、ずっと示されてきた……。</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_195&lt;tab&gt;そんな世界が急に壊れて、「さあどうする？」ってさ……
 迷ってるうちに、まわりはどんどん立派に主張しだして、
-オレ……焦ったんだ……。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_196&lt;tab&gt;どいつの主張も正しいような気がしてくる……
-だけど、どこかピンとこなくてさ。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_100_196&lt;tab&gt;考えるほど、わけがわからなくなった……。
+オレ……焦ったんだ……。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_196&lt;tab&gt;どいつの主張も正しいような気がしてくる……
+だけど、どこかピンとこなくてさ。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_100_196&lt;tab&gt;考えるほど、わけがわからなくなった……。
 だから、デキる奴が最適な道を選んでくれるまで、
-いつもどおりにして待ってるのがいいって思ったんだ。</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_197&lt;tab&gt;……なのに、アイツに殴られた痕が、いつまでも痛いんだよ。</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_198&lt;tab&gt;オノロワをあんな風にさせたことも……
+いつもどおりにして待ってるのがいいって思ったんだ。</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_197&lt;tab&gt;……なのに、アイツに殴られた痕が、いつまでも痛いんだよ。</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_198&lt;tab&gt;オノロワをあんな風にさせたことも……
 オレが全部悪いわけじゃないって自分に弁解しても、
-悔しくて……ムカついて……最低に格好悪いんだ…………ッ！</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_199&lt;tab&gt;だからせめて、この後のことくらいは自分で決める。
+悔しくて……ムカついて……最低に格好悪いんだ…………ッ！</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_199&lt;tab&gt;だからせめて、この後のことくらいは自分で決める。
 合同演習に参加するかどうか、
-ちゃんと自分で話を聞いて、自分で答えを返す……。</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_200&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。
+ちゃんと自分で話を聞いて、自分で答えを返す……。</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_200&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。
 オレを、アイメリク卿に取り次いでくれないか？
-……神殿騎士団本部で待ってる。</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_205&lt;tab&gt;エマネラン、見つけたみたいだな。</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_HEAVNC108_02238_EMMANELLAIN_000_210&lt;tab&gt;……今度は、ちゃんと自分で決める。
-だから、オレを取り次いでくれ。</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_HEAVNC108_02238_TEMPLEKIGHTGATE_000_220&lt;tab&gt;これは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿。
+……神殿騎士団本部で待ってる。</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_205&lt;tab&gt;エマネラン、見つけたみたいだな。</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_EMMANELLAIN_000_210&lt;tab&gt;……今度は、ちゃんと自分で決める。
+だから、オレを取り次いでくれ。</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TEMPLEKIGHTGATE_000_220&lt;tab&gt;これは、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 03 /var&gt;殿。
 アイメリク卿なら、公務で忙しくしておいでですが……
-何か大事なご用でしょうか？</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_HEAVNC108_02238_TEMPLEKIGHTGATE_000_221&lt;tab&gt;……わかりました。
+何か大事なご用でしょうか？</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_TEMPLEKIGHTGATE_000_221&lt;tab&gt;……わかりました。
 そういうことであれば、無論お通ししましょう。
-さあ、お連れ様と一緒にこちらへ。</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_HEAVNC108_02238_Q3_000_223&lt;tab&gt;「神殿騎士団総長室」へ移動しますか？</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_230&lt;tab&gt;話は聞かせてもらった。
+さあ、お連れ様と一緒にこちらへ。</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_Q3_000_223&lt;tab&gt;「神殿騎士団総長室」へ移動しますか？</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_230&lt;tab&gt;話は聞かせてもらった。
 アイメリク様のおっしゃるとおり、
-貴殿はもう、イシュガルドの変革と切り離せない存在だ。</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_HEAVNC108_02238_LUCIA_000_235&lt;tab&gt;どうか、ともに戦い、我々の歩みを見届けてほしい。
-……よろしく頼むぞ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_240&lt;tab&gt;まったく……
-惚れこまれたもんだな、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_241&lt;tab&gt;最強の冒険者たるお前がどこにつくかは、
+貴殿はもう、イシュガルドの変革と切り離せない存在だ。</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_LUCIA_000_235&lt;tab&gt;どうか、ともに戦い、我々の歩みを見届けてほしい。
+……よろしく頼むぞ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_240&lt;tab&gt;まったく……
+惚れこまれたもんだな、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_241&lt;tab&gt;最強の冒険者たるお前がどこにつくかは、
 「合同演習」の結果を決める、大きな要素になる。
-だからこそ自軍に誘ったと考えるのが、妥当なんだろうが……</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_242&lt;tab&gt;あの総長殿ときたら、お前が頷いたとき、
+だからこそ自軍に誘ったと考えるのが、妥当なんだろうが……</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_242&lt;tab&gt;あの総長殿ときたら、お前が頷いたとき、
 心底嬉しいって顔をしたもんだ。
-あれは意外と、嘘のつけない奴なんじゃないか？</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_HEAVNC108_02238_THANCRED_000_243&lt;tab&gt;俺も、ここまできたからには参加したい……が、
+あれは意外と、嘘のつけない奴なんじゃないか？</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_THANCRED_000_243&lt;tab&gt;俺も、ここまできたからには参加したい……が、
 さすがにそれは野暮ってものだな。
-……お前が信じた仲間たちを、全力で導いてやれよ。</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_HEAVNC108_02238_SCENE00005_EVENTAREA_WARP_YESNO_TITLE&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_HEAVNC108_02238_SCENE00005_EVENTAREA_WARP_YESNO_YES&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_HEAVNC108_02238_SCENE00005_EVENTAREA_WARP_YESNO_NO&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_HEAVNC108_02238_A1_000_032&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_HEAVNC108_02238_A1_000_033&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">TEXT_HEAVNC108_02238_A3_000_224&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">TEXT_HEAVNC108_02238_A3_000_225&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit></body></file></xliff>
+……お前が信じた仲間たちを、全力で導いてやれよ。</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SCENE00005_EVENTAREA_WARP_YESNO_TITLE&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SCENE00005_EVENTAREA_WARP_YESNO_YES&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_SCENE00005_EVENTAREA_WARP_YESNO_NO&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_A1_000_032&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_A1_000_033&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="145" approved="yes">
+				<source>145</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_A3_000_224&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="146" approved="yes">
+				<source>146</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNC108_02238_A3_000_225&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

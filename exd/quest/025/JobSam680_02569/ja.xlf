@@ -1,72 +1,366 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="JobSam680_02569" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_JOBSAM680_02569_SEQ_00&lt;tab&gt;赤誠組屯所のマコトは、冒険者を待っているようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_JOBSAM680_02569_SEQ_01&lt;tab&gt;マコトと話した。ウゲツの潜伏先が判明し、コンゴウからウゲツの追撃を頼まれた。ヤンサのナマイ村付近へ向かった「マコト」と合流しよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_JOBSAM680_02569_SEQ_02&lt;tab&gt;マコトと合流した。彼女から廃墟の周辺にいる侍の討伐を頼まれた。ヤンサの無二江流域の「指定地点」で見渡して、現れた「&lt;var 28 ((BNpcName)) F216E501 /var&gt;」を討伐しよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_JOBSAM680_02569_SEQ_03&lt;tab&gt;指定地点で見渡して、現れた&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐した。無二江流域の「指定地点」で再度見渡して、現れた「&lt;var 28 ((BNpcName)) F216E501 /var&gt;」を討伐しよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_JOBSAM680_02569_SEQ_04&lt;tab&gt;指定地点で見渡して、現れた&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐した。無二江流域の「指定地点」でさらに見渡して、現れた「&lt;var 28 ((BNpcName)) F216E501 /var&gt;」を討伐しよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_JOBSAM680_02569_SEQ_05&lt;tab&gt;指定地点で見渡して、現れた&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐した。無二江流域の「マコト」と合流しよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_JOBSAM680_02569_SEQ_06&lt;tab&gt;マコトと合流した。ウゲツ一派の侍によると、ウゲツはクガネへ向かったという。無二江流域の「マコト」と話して、急いでクガネへ戻ろう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_JOBSAM680_02569_SEQ_07&lt;tab&gt;マコトと話して、クガネへ戻った。ウゲツは赤誠組屯所に乗り込んでいて、コンゴウが討たれてしまう。そして、マコトがウゲツの実妹であることが判明し、冒険者がムソウサイの弟子であることが赤誠組隊士たちに知られてしまう。後日、ウゲツ一派と決戦することになったが……。赤誠組屯所の「マコト」と話そう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_JOBSAM680_02569_SEQ_08&lt;tab&gt;マコトと話した。彼女は兄であるウゲツの凶行によって両親が処刑されてしまい、ウゲツを討つために侍になったと語る。赤誠組隊士たちの間に動揺が広がっているようだ。局長亡き今、マコトが頼れるのは冒険者だけ。折を見てまた、マコトを訪ねよう。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="JobSam680_02569" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_00&lt;tab&gt;赤誠組屯所のマコトは、冒険者を待っているようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_01&lt;tab&gt;マコトと話した。ウゲツの潜伏先が判明し、コンゴウからウゲツの追撃を頼まれた。ヤンサのナマイ村付近へ向かった「マコト」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_02&lt;tab&gt;マコトと合流した。彼女から廃墟の周辺にいる侍の討伐を頼まれた。ヤンサの無二江流域の「指定地点」で見渡して、現れた「&lt;var 28 ((BNpcName)) F216E501 /var&gt;」を討伐しよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_03&lt;tab&gt;指定地点で見渡して、現れた&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐した。無二江流域の「指定地点」で再度見渡して、現れた「&lt;var 28 ((BNpcName)) F216E501 /var&gt;」を討伐しよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_04&lt;tab&gt;指定地点で見渡して、現れた&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐した。無二江流域の「指定地点」でさらに見渡して、現れた「&lt;var 28 ((BNpcName)) F216E501 /var&gt;」を討伐しよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_05&lt;tab&gt;指定地点で見渡して、現れた&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐した。無二江流域の「マコト」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_06&lt;tab&gt;マコトと合流した。ウゲツ一派の侍によると、ウゲツはクガネへ向かったという。無二江流域の「マコト」と話して、急いでクガネへ戻ろう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_07&lt;tab&gt;マコトと話して、クガネへ戻った。ウゲツは赤誠組屯所に乗り込んでいて、コンゴウが討たれてしまう。そして、マコトがウゲツの実妹であることが判明し、冒険者がムソウサイの弟子であることが赤誠組隊士たちに知られてしまう。後日、ウゲツ一派と決戦することになったが……。赤誠組屯所の「マコト」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SEQ_08&lt;tab&gt;マコトと話した。彼女は兄であるウゲツの凶行によって両親が処刑されてしまい、ウゲツを討つために侍になったと語る。赤誠組隊士たちの間に動揺が広がっているようだ。局長亡き今、マコトが頼れるのは冒険者だけ。折を見てまた、マコトを訪ねよう。
 
-※侍のレベルが70以上になると、赤誠組屯所のマコトから次の侍クエストを受注することができます。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_JOBSAM680_02569_TODO_00&lt;tab&gt;ナマイ村付近のマコトと合流</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_JOBSAM680_02569_TODO_01&lt;tab&gt;指定地点で見渡して&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_JOBSAM680_02569_TODO_02&lt;tab&gt;指定地点で再度見渡して&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_JOBSAM680_02569_TODO_03&lt;tab&gt;指定地点でさらに見渡して&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_JOBSAM680_02569_TODO_04&lt;tab&gt;マコトと合流</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_JOBSAM680_02569_TODO_05&lt;tab&gt;マコトと話す</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_JOBSAM680_02569_TODO_06&lt;tab&gt;マコトと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_000&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、お待ちしておりました。
+※侍のレベルが70以上になると、赤誠組屯所のマコトから次の侍クエストを受注することができます。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_TODO_00&lt;tab&gt;ナマイ村付近のマコトと合流</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_TODO_01&lt;tab&gt;指定地点で見渡して&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_TODO_02&lt;tab&gt;指定地点で再度見渡して&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_TODO_03&lt;tab&gt;指定地点でさらに見渡して&lt;var 28 ((BNpcName)) F216E501 /var&gt;を討伐</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_TODO_04&lt;tab&gt;マコトと合流</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_TODO_05&lt;tab&gt;マコトと話す</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_TODO_06&lt;tab&gt;マコトと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_000&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、お待ちしておりました。
 あれから、屯所内の副局長の部屋を調べたところ、
-ウゲツの潜伏先が判明したのです！</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_001&lt;tab&gt;詳しくは、局長のコンゴウさんから、
-お話していただきますので、しばし、お待ちください。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_002&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、よく来てくれた。
+ウゲツの潜伏先が判明したのです！</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_001&lt;tab&gt;詳しくは、局長のコンゴウさんから、
+お話していただきますので、しばし、お待ちください。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_002&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、よく来てくれた。
 シデンがウゲツとやり取りしていた密書が見つかってな、
-ウゲツが、ヤンサにある廃墟を根城にしていることがわかった。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_003&lt;tab&gt;とはいえ、シデンが討ち取られたことは、敵とて先刻承知のはず。
-潜伏先が露見したことも、理解しているとみていいだろう。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_004&lt;tab&gt;しかし、ここで逃げの一手を打つことはあるまい。
+ウゲツが、ヤンサにある廃墟を根城にしていることがわかった。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_003&lt;tab&gt;とはいえ、シデンが討ち取られたことは、敵とて先刻承知のはず。
+潜伏先が露見したことも、理解しているとみていいだろう。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_004&lt;tab&gt;しかし、ここで逃げの一手を打つことはあるまい。
 赤誠組にシデンという右腕を斃されたまま、逃げたとなれば、
-求心力は低下し、今後、仲間を募るのも難しくなるからな。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_005&lt;tab&gt;となれば、ウゲツの取り得る手はふたつ。
+求心力は低下し、今後、仲間を募るのも難しくなるからな。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_005&lt;tab&gt;となれば、ウゲツの取り得る手はふたつ。
 潜伏先で追っ手を待ち受けて、返り討ちを目論むか、
-いっそ屯所に乗り込んで、我らを討とうとするか……。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_006&lt;tab&gt;ウゲツは、ムソウサイの弟子たる剣の達人……。
+いっそ屯所に乗り込んで、我らを討とうとするか……。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_006&lt;tab&gt;ウゲツは、ムソウサイの弟子たる剣の達人……。
 そんな奴を斬れるとしたら、赤誠組局長のワシか、
-シデンをも凌駕する腕を持つ、お主しかおるまい。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_007&lt;tab&gt;そこで、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿には、
-マコトとともに、ヤンサへと向かってもらいたい！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_008&lt;tab&gt;かたじけない！
+シデンをも凌駕する腕を持つ、お主しかおるまい。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_007&lt;tab&gt;そこで、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿には、
+マコトとともに、ヤンサへと向かってもらいたい！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_008&lt;tab&gt;かたじけない！
 ウゲツが大胆にもクガネに現れたのなら、
-このワシが刺し違えてでも、仕留めてみせようぞ。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_009&lt;tab&gt;目的地は紅玉海を渡った先、ヤンサの地です。
+このワシが刺し違えてでも、仕留めてみせようぞ。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_009&lt;tab&gt;目的地は紅玉海を渡った先、ヤンサの地です。
 一旦、「ナマイ村」という集落で休憩をとり、
-ウゲツ一派の追撃、私とともに果たしましょう！</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_015&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_020&lt;tab&gt;ウゲツの潜伏先と思われる廃墟は、すぐ近くです……。
+ウゲツ一派の追撃、私とともに果たしましょう！</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_015&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_020&lt;tab&gt;ウゲツの潜伏先と思われる廃墟は、すぐ近くです……。
 これより先、私はウゲツの姿を探しますので、
-貴方は周辺にいる侍の討伐をお願いします。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_JOBSAM680_02569_SAMURAI02569_100_025&lt;tab&gt;クソッ……幕府の犬め……。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_030&lt;tab&gt;おかしい……ウゲツの姿がありません。
-まさか、クガネに……！</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_JOBSAM680_02569_SAMURAI02569_000_031&lt;tab&gt;ど、どうやら……入れ違いだったようだぜ……。
+貴方は周辺にいる侍の討伐をお願いします。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SAMURAI02569_100_025&lt;tab&gt;クソッ……幕府の犬め……。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_030&lt;tab&gt;おかしい……ウゲツの姿がありません。
+まさか、クガネに……！</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SAMURAI02569_000_031&lt;tab&gt;ど、どうやら……入れ違いだったようだぜ……。
 ウゲツ様は……クガネへ向かったところだ。
-赤誠組に……挨拶するためにな……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_032&lt;tab&gt;や、やはり！
-急いでクガネへ戻らねば……！</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_JOBSAM680_02569_SAMURAI02569_000_035&lt;tab&gt;ウゲツ様は……クガネへ向かったところだ。
-赤誠組に……挨拶するためにな……。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_040&lt;tab&gt;さあ、急いでクガネへ戻りましょう！</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_JOBSAM680_02569_Q1_000_041&lt;tab&gt;クガネへ戻る？</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_JOBSAM680_02569_A1_000_042&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_JOBSAM680_02569_A2_000_043&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_064&lt;tab&gt;局長っ！！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_065&lt;tab&gt;無念……力……及ばず……。
-ワシは……ここまでだ……。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_JOBSAM680_02569_KONGO_000_066&lt;tab&gt;赤誠組のことは……
-一番組組頭のそなたに……頼んだ……ぞ……。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_067&lt;tab&gt;なんと、これは驚いた。
-我が妹カゲツが、赤誠組の一員となっていようとはな……。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_068&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_069&lt;tab&gt;……ふむ。
+赤誠組に……挨拶するためにな……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_032&lt;tab&gt;や、やはり！
+急いでクガネへ戻らねば……！</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_SAMURAI02569_000_035&lt;tab&gt;ウゲツ様は……クガネへ向かったところだ。
+赤誠組に……挨拶するためにな……。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_040&lt;tab&gt;さあ、急いでクガネへ戻りましょう！</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_Q1_000_041&lt;tab&gt;クガネへ戻る？</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_A1_000_042&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_A2_000_043&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_064&lt;tab&gt;局長っ！！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_065&lt;tab&gt;無念……力……及ばず……。
+ワシは……ここまでだ……。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_KONGO_000_066&lt;tab&gt;赤誠組のことは……
+一番組組頭のそなたに……頼んだ……ぞ……。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_067&lt;tab&gt;なんと、これは驚いた。
+我が妹カゲツが、赤誠組の一員となっていようとはな……。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_068&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_069&lt;tab&gt;……ふむ。
 その構え、紛れもなく我が師のもの。
-シデンを討った、ムソウサイの「最後の弟子」だな……？</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_070&lt;tab&gt;お初にお目に掛かる、私の名はウゲツ。
+シデンを討った、ムソウサイの「最後の弟子」だな……？</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_070&lt;tab&gt;お初にお目に掛かる、私の名はウゲツ。
 お前同様、ムソウサイのくだらぬ修行に付き合わされた、
-言わば兄弟子といったところだ。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_071&lt;tab&gt;「ひんがしの国」はな……太平の世が続きすぎた。
+言わば兄弟子といったところだ。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_071&lt;tab&gt;「ひんがしの国」はな……太平の世が続きすぎた。
 世を統べる者は志を失い、怠惰に時を過ごし、腐敗を極めている。
-最早、幕府を討つことでしか、この国は変えられぬほどにな……。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_072&lt;tab&gt;それゆえ、シデンに大老暗殺を命じたのだが、
-お前たちによって、計画は見事に打ち砕かれた……。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_073&lt;tab&gt;もう、コソコソするのは終いだ。
+最早、幕府を討つことでしか、この国は変えられぬほどにな……。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_072&lt;tab&gt;それゆえ、シデンに大老暗殺を命じたのだが、
+お前たちによって、計画は見事に打ち砕かれた……。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_073&lt;tab&gt;もう、コソコソするのは終いだ。
 幸いこの国には、私の考えに賛同してくれる者も少なくない。
-より多くの同志を募れば、真正面から幕府を倒すこともできよう。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_074&lt;tab&gt;赤誠組の局長を討ったのは、その手始めよ。
-隊士に未だ志在る侍がいれば、同志に迎えるためにな。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_100_074&lt;tab&gt;カゲツ、そして&lt;var 08 E905 ((妹弟子)) ((弟弟子)) /var&gt;よ……私とともに新たな世を創らぬか？</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_075&lt;tab&gt;断るッ！
+より多くの同志を募れば、真正面から幕府を倒すこともできよう。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_074&lt;tab&gt;赤誠組の局長を討ったのは、その手始めよ。
+隊士に未だ志在る侍がいれば、同志に迎えるためにな。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_100_074&lt;tab&gt;カゲツ、そして&lt;var 08 E905 ((妹弟子)) ((弟弟子)) /var&gt;よ……私とともに新たな世を創らぬか？</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_075&lt;tab&gt;断るッ！
 今、幕府が倒れれば、乱世に逆戻りするだけのこと……
-新たな世は、刀で創るものではない！</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_076&lt;tab&gt;この国を変えるには、もう一度、乱世に戻すしかないのだ。
-その戦乱から新たな世が生まれるというもの……。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_077&lt;tab&gt;偽りの平和を終わらせ、やがて来る真の太平のため、
-群雄割拠の世で刀を振るう……それこそ、侍の本懐だとは思わぬか？</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_078&lt;tab&gt;侍とは、太平の世を護るためにこそ刀を振るう者！
-それがムソウサイ様の教えであり、侍の本懐だ！</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_079&lt;tab&gt;……ほかの者はどうだ？
+新たな世は、刀で創るものではない！</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_076&lt;tab&gt;この国を変えるには、もう一度、乱世に戻すしかないのだ。
+その戦乱から新たな世が生まれるというもの……。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_077&lt;tab&gt;偽りの平和を終わらせ、やがて来る真の太平のため、
+群雄割拠の世で刀を振るう……それこそ、侍の本懐だとは思わぬか？</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_078&lt;tab&gt;侍とは、太平の世を護るためにこそ刀を振るう者！
+それがムソウサイ様の教えであり、侍の本懐だ！</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_079&lt;tab&gt;……ほかの者はどうだ？
 赤誠組にいても、幕府や大名の犬となるだけだ。
-それよりも、この国を変えるために私とともに来ないか？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_080&lt;tab&gt;……残念だ。
-相容れぬということならば……仕方がない。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_081&lt;tab&gt;後日、ベッコウ島にて、雌雄を決しようではないか。
-余計な血を流すのは、私とて本意ではないからな。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_JOBSAM680_02569_UGETSU_000_082&lt;tab&gt;もっとも……腑抜けの隊士たちは、動揺を隠せぬ様子……。
-お前たちと私の関係……どうやら初耳だったと見える。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_083&lt;tab&gt;皆の者、これからは一番組組頭の私が、
-亡き局長の志を引き継ぎ、赤誠組局長代理となる！</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_084&lt;tab&gt;ウゲツ一派との戦いは熾烈を極めるであろう……。
+それよりも、この国を変えるために私とともに来ないか？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_080&lt;tab&gt;……残念だ。
+相容れぬということならば……仕方がない。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_081&lt;tab&gt;後日、ベッコウ島にて、雌雄を決しようではないか。
+余計な血を流すのは、私とて本意ではないからな。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_UGETSU_000_082&lt;tab&gt;もっとも……腑抜けの隊士たちは、動揺を隠せぬ様子……。
+お前たちと私の関係……どうやら初耳だったと見える。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_083&lt;tab&gt;皆の者、これからは一番組組頭の私が、
+亡き局長の志を引き継ぎ、赤誠組局長代理となる！</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_084&lt;tab&gt;ウゲツ一派との戦いは熾烈を極めるであろう……。
 しかし、私たちは「ひんがしの国」の太平のため、
-決して負けるわけにはゆかぬぞ！</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_090&lt;tab&gt;ウゲツが実兄だということ、黙っていて申し訳ありません。
+決して負けるわけにはゆかぬぞ！</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_090&lt;tab&gt;ウゲツが実兄だということ、黙っていて申し訳ありません。
 マコトという名も偽名で、本名はカゲツと申します。
-されど、その名は遠い昔に斬って捨てました。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_091&lt;tab&gt;私はひんがしの国の都「ブキョウ」の武家に生まれました。
+されど、その名は遠い昔に斬って捨てました。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_091&lt;tab&gt;私はひんがしの国の都「ブキョウ」の武家に生まれました。
 ウゲツは幼い頃から神童と呼ばれるほど剣術に長けていて、
-心優しく正義感にあふれた、自慢の兄でした。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_092&lt;tab&gt;そして、孤高の剣豪ムソウサイ様に、
+心優しく正義感にあふれた、自慢の兄でした。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_092&lt;tab&gt;そして、孤高の剣豪ムソウサイ様に、
 弟子入りを果たし、修行の旅へと出ていったのです。
-しかし、その旅から戻ってからというもの、兄は変わってしまった。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_093&lt;tab&gt;口を開けば、幕府や大名の不正や欺瞞ばかりを語り、
+しかし、その旅から戻ってからというもの、兄は変わってしまった。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_093&lt;tab&gt;口を開けば、幕府や大名の不正や欺瞞ばかりを語り、
 まるで祖国に対して、絶望したかのような様子でした。
-自ずと兄は、ムソウサイ様からも離れていった……。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_094&lt;tab&gt;そんな兄が、私に剣術を指南するようになりました。
+自ずと兄は、ムソウサイ様からも離れていった……。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_094&lt;tab&gt;そんな兄が、私に剣術を指南するようになりました。
 思えば、この頃から乱世の再現を夢想していたのかもしれません。
-戦乱の世でも生きていけるよう、妹に剣技を仕込んだのです。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_095&lt;tab&gt;私が上達すると程なくして、兄は要人を斬るという件の凶行に走り、
-家はお取り潰しにあい、両親は打ち首となりました。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_096&lt;tab&gt;路頭に迷った私は、クガネへと渡り、
+戦乱の世でも生きていけるよう、妹に剣技を仕込んだのです。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_095&lt;tab&gt;私が上達すると程なくして、兄は要人を斬るという件の凶行に走り、
+家はお取り潰しにあい、両親は打ち首となりました。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_096&lt;tab&gt;路頭に迷った私は、クガネへと渡り、
 名を偽って、隊士となるべく赤誠組の門を叩いたのです。
-そう、逆賊の兄を討つために……。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_097&lt;tab&gt;私はウゲツを許すことができません。
-兄のせいで、父と母は処刑されてしまったのですから……。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_098&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_099&lt;tab&gt;しかし、兄は強く、一派の力も侮れない。
+そう、逆賊の兄を討つために……。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_097&lt;tab&gt;私はウゲツを許すことができません。
+兄のせいで、父と母は処刑されてしまったのですから……。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_098&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_099&lt;tab&gt;しかし、兄は強く、一派の力も侮れない。
 そのうえ、私たちとウゲツの関係が知られたことで、
-隊士たちの間に、動揺が広がっています。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_100&lt;tab&gt;この国では、血筋や師弟関係は重要視されているのです。
-もう、赤誠組は以前のようには、まとまらないかもしれない……。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_000_101&lt;tab&gt;局長亡き今、頼れるのは己の大義と折れぬ刃、
-そして、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……あなたです。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_JOBSAM680_02569_MAKOTO_100_102&lt;tab&gt;私は刺し違えてでも、兄を……ウゲツを討ちます。
-どうか、この戦いに、最後までお付き合いください！</target></trans-unit></body></file></xliff>
+隊士たちの間に、動揺が広がっています。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_100&lt;tab&gt;この国では、血筋や師弟関係は重要視されているのです。
+もう、赤誠組は以前のようには、まとまらないかもしれない……。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_000_101&lt;tab&gt;局長亡き今、頼れるのは己の大義と折れぬ刃、
+そして、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……あなたです。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_JOBSAM680_02569_MAKOTO_100_102&lt;tab&gt;私は刺し違えてでも、兄を……ウゲツを討ちます。
+どうか、この戦いに、最後までお付き合いください！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

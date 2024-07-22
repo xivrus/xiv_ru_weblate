@@ -1,66 +1,340 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="ChrHdb103_01206" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_CHRHDB103_01206_SEQ_00&lt;tab&gt;情報屋のワイモンドは、盗難の被害者について教えたいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_CHRHDB103_01206_SEQ_01&lt;tab&gt;ワイモンドに、盗難の被害者について教えてもらった。裁縫師ギルドにいる「イエロー・ムーン」に話しかけよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_CHRHDB103_01206_SEQ_02&lt;tab&gt;イエロー・ムーンによると、用事を片付けた後、気がついたら片手幻具「ピュアハート」がなくなっていたらしい。犯人の痕跡を探すため、織物店「サンシルク」に向かい、「ヒルディブランド」に話しかけよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_CHRHDB103_01206_SEQ_03&lt;tab&gt;サンシルクの前では、とくに重要な証拠を得ることはできなかった。次はコロセウムの前に向かい、「ヒルディブランド」に話しかけよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_CHRHDB103_01206_SEQ_04&lt;tab&gt;コロセウムの前で、ヒルディブランドは何かを思いついたようだ。一方のナシュ・マカラッカは、&lt;var 28 ((EObj)) F61E903901 /var&gt;が気になっているらしい。「ナシュ・マカラッカ」に話しかけてみよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_CHRHDB103_01206_SEQ_05&lt;tab&gt;ナシュ・マカラッカによると、木箱の中が怪しいらしい。彼女にもらった「&lt;var 28 ((EventItem)) F61E88E601 /var&gt;」を「&lt;var 28 ((EObj)) F61E903901 /var&gt;」に使ってみよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_CHRHDB103_01206_SEQ_06&lt;tab&gt;&lt;var 28 ((EObj)) F61E903901 /var&gt;を破壊したところ、中から怪しい人々が現れた。「ヒルディブランド」に報告しよう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_CHRHDB103_01206_SEQ_07&lt;tab&gt;犯人は、イエロー・ムーン親衛隊の人々だった。そこに現れた新聞記者のエリーいわく、彼らは噂の「武器怪盗」の事件とは無関係らしい。彼女に詳細を聞いてみよう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_CHRHDB103_01206_TODO_00&lt;tab&gt;イエロー・ムーンと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_CHRHDB103_01206_TODO_01&lt;tab&gt;織物「サンシルク」のヒルディブランドと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_CHRHDB103_01206_TODO_02&lt;tab&gt;ヒルディブランドと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_CHRHDB103_01206_TODO_03&lt;tab&gt;ナシュ・マカラッカと話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_CHRHDB103_01206_TODO_04&lt;tab&gt;&lt;var 28 ((EObj)) F61E903901 /var&gt;に&lt;var 28 ((EventItem)) F61E88E601 /var&gt;を使う</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_CHRHDB103_01206_TODO_05&lt;tab&gt;ヒルディブランドと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_CHRHDB103_01206_WYMOND_000_000&lt;tab&gt;やれやれ、オッサンは本当に行っちまったな……。
-……えっと、盗難の被害にあった女の子の話だよな。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_CHRHDB103_01206_WYMOND_000_001&lt;tab&gt;被害者は、裁縫師ギルドにいる
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="ChrHdb103_01206" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SEQ_00&lt;tab&gt;情報屋のワイモンドは、盗難の被害者について教えたいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SEQ_01&lt;tab&gt;ワイモンドに、盗難の被害者について教えてもらった。裁縫師ギルドにいる「イエロー・ムーン」に話しかけよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SEQ_02&lt;tab&gt;イエロー・ムーンによると、用事を片付けた後、気がついたら片手幻具「ピュアハート」がなくなっていたらしい。犯人の痕跡を探すため、織物店「サンシルク」に向かい、「ヒルディブランド」に話しかけよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SEQ_03&lt;tab&gt;サンシルクの前では、とくに重要な証拠を得ることはできなかった。次はコロセウムの前に向かい、「ヒルディブランド」に話しかけよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SEQ_04&lt;tab&gt;コロセウムの前で、ヒルディブランドは何かを思いついたようだ。一方のナシュ・マカラッカは、&lt;var 28 ((EObj)) F61E903901 /var&gt;が気になっているらしい。「ナシュ・マカラッカ」に話しかけてみよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SEQ_05&lt;tab&gt;ナシュ・マカラッカによると、木箱の中が怪しいらしい。彼女にもらった「&lt;var 28 ((EventItem)) F61E88E601 /var&gt;」を「&lt;var 28 ((EObj)) F61E903901 /var&gt;」に使ってみよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SEQ_06&lt;tab&gt;&lt;var 28 ((EObj)) F61E903901 /var&gt;を破壊したところ、中から怪しい人々が現れた。「ヒルディブランド」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SEQ_07&lt;tab&gt;犯人は、イエロー・ムーン親衛隊の人々だった。そこに現れた新聞記者のエリーいわく、彼らは噂の「武器怪盗」の事件とは無関係らしい。彼女に詳細を聞いてみよう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_TODO_00&lt;tab&gt;イエロー・ムーンと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_TODO_01&lt;tab&gt;織物「サンシルク」のヒルディブランドと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_TODO_02&lt;tab&gt;ヒルディブランドと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_TODO_03&lt;tab&gt;ナシュ・マカラッカと話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_TODO_04&lt;tab&gt;&lt;var 28 ((EObj)) F61E903901 /var&gt;に&lt;var 28 ((EventItem)) F61E88E601 /var&gt;を使う</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_TODO_05&lt;tab&gt;ヒルディブランドと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_WYMOND_000_000&lt;tab&gt;やれやれ、オッサンは本当に行っちまったな……。
+……えっと、盗難の被害にあった女の子の話だよな。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_WYMOND_000_001&lt;tab&gt;被害者は、裁縫師ギルドにいる
 「イエロー・ムーン」っていう女の子だ。
-お前も行って、オッサンを手伝ってやってくれよ。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_010&lt;tab&gt;やだ～、今度はお気に入りの片手幻具、
+お前も行って、オッサンを手伝ってやってくれよ。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_010&lt;tab&gt;やだ～、今度はお気に入りの片手幻具、
 「ピュアハート」がなくなってる～！
-イエロー・ムーン、困っちゃむ～ん！</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_011&lt;tab&gt;フッフッフ……聞こえましたぞ……。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_012&lt;tab&gt;可憐なる乙女の涙に濡れた、悲しみの事件が……
-ヒルディブランドの心を、キャッチしましたぞ！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_013&lt;tab&gt;あ、アナタはだれっ？</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_014&lt;tab&gt;天知る地知る、事件知る、旅の事件屋……。
-ヒルディィィィィィィィィブランドゥッ！！</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_015&lt;tab&gt;助手のナシュです～。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_016&lt;tab&gt;冒険者殿、私の先をこすとは、お見事ですぞ！
+イエロー・ムーン、困っちゃむ～ん！</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_011&lt;tab&gt;フッフッフ……聞こえましたぞ……。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_012&lt;tab&gt;可憐なる乙女の涙に濡れた、悲しみの事件が……
+ヒルディブランドの心を、キャッチしましたぞ！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_013&lt;tab&gt;あ、アナタはだれっ？</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_014&lt;tab&gt;天知る地知る、事件知る、旅の事件屋……。
+ヒルディィィィィィィィィブランドゥッ！！</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_015&lt;tab&gt;助手のナシュです～。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_016&lt;tab&gt;冒険者殿、私の先をこすとは、お見事ですぞ！
 そこまでして、この事件屋の協力をしたいと……。
-貴方の情熱、キャッチしましたぞ！</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_017&lt;tab&gt;さあ、お嬢さん、事件解決は我々にお任せあれ！
+貴方の情熱、キャッチしましたぞ！</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_017&lt;tab&gt;さあ、お嬢さん、事件解決は我々にお任せあれ！
 まずは、お嬢さんが受けた被害について、
-詳しく教えて頂けますかな？</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_018&lt;tab&gt;えっと～、最近、色々な私物が盗まれちゃってるの……。
+詳しく教えて頂けますかな？</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_018&lt;tab&gt;えっと～、最近、色々な私物が盗まれちゃってるの……。
 今回盗まれたのは、片手幻具の「ピュアハート」よ。
-花咲く乙女を演出する流行の杖……大事にしてたのに～！</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_019&lt;tab&gt;お散歩に出る前までは、確かに持っていたの……。
+花咲く乙女を演出する流行の杖……大事にしてたのに～！</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_019&lt;tab&gt;お散歩に出る前までは、確かに持っていたの……。
 でも、「サンシルク」と「コロセウム」にお出かけした後、
-ここに戻ってきた時には、もうなくなってて……うぇ～ん！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_020&lt;tab&gt;ふぅむ、盗難場所は不明……と。
+ここに戻ってきた時には、もうなくなってて……うぇ～ん！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_020&lt;tab&gt;ふぅむ、盗難場所は不明……と。
 では、立ち寄った場所で犯人の痕跡を探しましょう。
-まずは……サンシルクに向かいますぞー！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_023&lt;tab&gt;うぇ～ん、私の宝物はどこいったんだろ～？
-イエロー・ムーン、困っちゃむ～ん！</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_025&lt;tab&gt;う～ん、とくに何もないなぁ～。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_030&lt;tab&gt;ふぅむ……特に怪しい痕跡はありませんな。
-お嬢さん、ここではどんなことが？</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_031&lt;tab&gt;う～ん……。
+まずは……サンシルクに向かいますぞー！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_023&lt;tab&gt;うぇ～ん、私の宝物はどこいったんだろ～？
+イエロー・ムーン、困っちゃむ～ん！</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_025&lt;tab&gt;う～ん、とくに何もないなぁ～。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_030&lt;tab&gt;ふぅむ……特に怪しい痕跡はありませんな。
+お嬢さん、ここではどんなことが？</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_031&lt;tab&gt;う～ん……。
 ここで服を見ていたら、知らない男の人に告白されてぇ～。
-イエロー・ムーン驚いちゃって、荷物を落としちゃったの～。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_032&lt;tab&gt;その荷物が、男の人のつま先に落ちちゃって、
+イエロー・ムーン驚いちゃって、荷物を落としちゃったの～。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_032&lt;tab&gt;その荷物が、男の人のつま先に落ちちゃって、
 男の人は悲鳴をあげて、どこかにいっちゃったの～。
-その荷物、120ポンズくらいあったから……。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_033&lt;tab&gt;120ポンズって、ララフェル族の二人分はありますぞ……。
-お、お嬢さんは、力持ちなのですな……。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_034&lt;tab&gt;と、とりあえず、次の現場も確認しましょう。
-確か「コロセウム」の前でしたな！</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_045&lt;tab&gt;うぇ～ん、私の宝物はどこいったんだろ～？
-イエロー・ムーン、困っちゃむ～ん！</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_CHRHDB103_01206_BOX_000_046&lt;tab&gt;(-暑苦しい木箱-)…………。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_047&lt;tab&gt;なんかさっき……動いたような……？</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_050&lt;tab&gt;ふぅむ……ここにも妙な痕跡はなし……と。
-お嬢さん、ここではどんなことが？</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_051&lt;tab&gt;う～ん……。
+その荷物、120ポンズくらいあったから……。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_033&lt;tab&gt;120ポンズって、ララフェル族の二人分はありますぞ……。
+お、お嬢さんは、力持ちなのですな……。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_034&lt;tab&gt;と、とりあえず、次の現場も確認しましょう。
+確か「コロセウム」の前でしたな！</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_045&lt;tab&gt;うぇ～ん、私の宝物はどこいったんだろ～？
+イエロー・ムーン、困っちゃむ～ん！</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_BOX_000_046&lt;tab&gt;(-暑苦しい木箱-)…………。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_047&lt;tab&gt;なんかさっき……動いたような……？</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_050&lt;tab&gt;ふぅむ……ここにも妙な痕跡はなし……と。
+お嬢さん、ここではどんなことが？</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_051&lt;tab&gt;う～ん……。
 コロセウムの対戦カードを確認してたら、
-今度は、知らない剣闘士の人に告白されちゃってぇ……。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_052&lt;tab&gt;大きな剣を持ってたから、怖くなっちゃって……。
-持ってた荷物を振り回したら、その剣闘士の顎に……。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_053&lt;tab&gt;あ、あたったんですな……その剣闘士に……。
-120ポンズもの荷物が……。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_054&lt;tab&gt;ふーむ……しかし、見えてきましたぞ……？
-犯人は、お嬢さんに恨みを持つ人物……！</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_055&lt;tab&gt;う～ん。
-この箱……はじめからありましたっけ～？</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_070&lt;tab&gt;フッフッフ……事件の全貌が見えてきましたぞ……！？</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_090&lt;tab&gt;この木箱、さっきからずっとついて来てませんか～？
-なんだかヒトの息遣いが聞こえてくるような……。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_091&lt;tab&gt;……そうだ～！
+今度は、知らない剣闘士の人に告白されちゃってぇ……。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_052&lt;tab&gt;大きな剣を持ってたから、怖くなっちゃって……。
+持ってた荷物を振り回したら、その剣闘士の顎に……。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_053&lt;tab&gt;あ、あたったんですな……その剣闘士に……。
+120ポンズもの荷物が……。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_054&lt;tab&gt;ふーむ……しかし、見えてきましたぞ……？
+犯人は、お嬢さんに恨みを持つ人物……！</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_055&lt;tab&gt;う～ん。
+この箱……はじめからありましたっけ～？</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_070&lt;tab&gt;フッフッフ……事件の全貌が見えてきましたぞ……！？</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_090&lt;tab&gt;この木箱、さっきからずっとついて来てませんか～？
+なんだかヒトの息遣いが聞こえてくるような……。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_091&lt;tab&gt;……そうだ～！
 ナシュ特製の&lt;var 28 ((EventItem)) F61E88E601 /var&gt;で、木箱を壊してみてください～！
-なにか、楽しい物が入っているかもしれませんよ～！</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_100&lt;tab&gt;ナシュ特製の&lt;var 28 ((EventItem)) F61E88E601 /var&gt;で、木箱を壊してみてください～！
-なにか、楽しい物が入っているかもしれませんよ～！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_CHRHDB103_01206_SHINEI_000_0105&lt;tab&gt;ひ、ひぃい～！
+なにか、楽しい物が入っているかもしれませんよ～！</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_100&lt;tab&gt;ナシュ特製の&lt;var 28 ((EventItem)) F61E88E601 /var&gt;で、木箱を壊してみてください～！
+なにか、楽しい物が入っているかもしれませんよ～！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SHINEI_000_0105&lt;tab&gt;ひ、ひぃい～！
 イエロー・ムーンちゃんが生で握ってた、
-ピュアハートがぁっ！！</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_106&lt;tab&gt;わぁ～、これってなくなった杖、ピュアハートですよね～！
-ヒルディブランド様に報告しなきゃ～！</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_120&lt;tab&gt;事件に隠された「真実」……。
-それは鏡の迷宮で彷徨う、哀れな子羊のようなもの……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_121&lt;tab&gt;しかし、このヒルディブランド……。
-事件という迷宮から、真実を今……エスコォーーット！！</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_122&lt;tab&gt;武器怪盗はきっと、コロセウムで出会った剣闘士！
+ピュアハートがぁっ！！</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_106&lt;tab&gt;わぁ～、これってなくなった杖、ピュアハートですよね～！
+ヒルディブランド様に報告しなきゃ～！</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_120&lt;tab&gt;事件に隠された「真実」……。
+それは鏡の迷宮で彷徨う、哀れな子羊のようなもの……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_121&lt;tab&gt;しかし、このヒルディブランド……。
+事件という迷宮から、真実を今……エスコォーーット！！</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_122&lt;tab&gt;武器怪盗はきっと、コロセウムで出会った剣闘士！
 自分より腕力のあるお嬢さんに出会い、
-剣闘士としての誇りを傷つけられ、卑劣な嫌がらせを……！</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_123&lt;tab&gt;ヒルディブランド様～、
+剣闘士としての誇りを傷つけられ、卑劣な嫌がらせを……！</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_NASHUMHAKARACCA_000_123&lt;tab&gt;ヒルディブランド様～、
 こっちに「ピュアハート」を持った人がいます～！
-ナシュ、お手柄ですね～。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_CHRHDB103_01206_SHINEI_000_124&lt;tab&gt;ひ、ひぃぃいいい！　許してください！
-私たちはただの……イエロー・ムーンちゃん親衛隊です！</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_CHRHDB103_01206_SHINEI_000_125&lt;tab&gt;……イエロー・ムーンちゃんの私物が欲しくって。
+ナシュ、お手柄ですね～。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SHINEI_000_124&lt;tab&gt;ひ、ひぃぃいいい！　許してください！
+私たちはただの……イエロー・ムーンちゃん親衛隊です！</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SHINEI_000_125&lt;tab&gt;……イエロー・ムーンちゃんの私物が欲しくって。
 彼女を見守り、落とし物を拝借することだけが喜びの……
-へ、平和主義の親衛隊でっす！</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_CHRHDB103_01206_YELLOWMOON_000_126&lt;tab&gt;勝手に物を盗んでいたのは、あなたたちだったのね～！
-イエロー・ムーン、怒っちゃむ～ん！</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_CHRHDB103_01206_SHINEI_000_127&lt;tab&gt;ああ～っ！
-怒った姿も美しい～！！</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_128&lt;tab&gt;はっ……はっはっは！
+へ、平和主義の親衛隊でっす！</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_YELLOWMOON_000_126&lt;tab&gt;勝手に物を盗んでいたのは、あなたたちだったのね～！
+イエロー・ムーン、怒っちゃむ～ん！</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_SHINEI_000_127&lt;tab&gt;ああ～っ！
+怒った姿も美しい～！！</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_128&lt;tab&gt;はっ……はっはっは！
 さすがは我が助手、ナシュ！
-私の指示通り、怪しい木箱を破壊していたのですな？</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_129&lt;tab&gt;すべては、この私の推理通り……。
+私の指示通り、怪しい木箱を破壊していたのですな？</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_129&lt;tab&gt;すべては、この私の推理通り……。
 彼らが、噂の武器怪盗に違いありませんぞ？
-さぁ、彼らを追って、銅刃団に引き渡しましょう！</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_CHRHDB103_01206_ELLIE_000_130&lt;tab&gt;(-？？？？-)いいえ、彼らは無関係よ。
-盗難の手口が、噂の武器怪盗とはまるで違う……。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_CHRHDB103_01206_ELLIE_000_131&lt;tab&gt;(-見知らぬ女性-)武器怪盗は、まず武器を奪う相手に「戦い」を挑むの。
+さぁ、彼らを追って、銅刃団に引き渡しましょう！</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_ELLIE_000_130&lt;tab&gt;(-？？？？-)いいえ、彼らは無関係よ。
+盗難の手口が、噂の武器怪盗とはまるで違う……。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_ELLIE_000_131&lt;tab&gt;(-見知らぬ女性-)武器怪盗は、まず武器を奪う相手に「戦い」を挑むの。
 それで、勝負に勝ったら、その証として武器を奪う……。
-今回の事件とは、完全に別物よ。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_CHRHDB103_01206_ELLIE_000_132&lt;tab&gt;私は経済誌「ミスリルアイ」の記者、エリー。
-噂の武器怪盗の事件は、私が記事の担当をしているの。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_CHRHDB103_01206_ELLIE_000_133&lt;tab&gt;貴方、事件屋ヒルディブランドって言ったわね？
-本当の「武器怪盗の被害者」を紹介してあげてもいいわ。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_CHRHDB103_01206_ELLIE_000_134&lt;tab&gt;事件屋を名乗るのなら……
-この武器怪盗の事件、解決してみなさいよ。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_CHRHDB103_01206_HILDIBRAND_000_135&lt;tab&gt;なるほど……そうでしたか！
+今回の事件とは、完全に別物よ。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_ELLIE_000_132&lt;tab&gt;私は経済誌「ミスリルアイ」の記者、エリー。
+噂の武器怪盗の事件は、私が記事の担当をしているの。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_ELLIE_000_133&lt;tab&gt;貴方、事件屋ヒルディブランドって言ったわね？
+本当の「武器怪盗の被害者」を紹介してあげてもいいわ。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_ELLIE_000_134&lt;tab&gt;事件屋を名乗るのなら……
+この武器怪盗の事件、解決してみなさいよ。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_HILDIBRAND_000_135&lt;tab&gt;なるほど……そうでしたか！
 貴重な情報提供、感謝いたしますぞ！
-すぐさま、本物の武器怪盗の調査に入ることにしましょう。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_CHRHDB103_01206_ELLIE_000_137&lt;tab&gt;ふーん、返事だけはいいみたいね。
-いい、本当の被害者がいるのは……。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_CHRHDB103_01206_ELLIE_000_138&lt;tab&gt;ち、ちょっとぉー！
-まだ、場所教えてないんだけどぉ！</target></trans-unit></body></file></xliff>
+すぐさま、本物の武器怪盗の調査に入ることにしましょう。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_ELLIE_000_137&lt;tab&gt;ふーん、返事だけはいいみたいね。
+いい、本当の被害者がいるのは……。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_CHRHDB103_01206_ELLIE_000_138&lt;tab&gt;ち、ちょっとぉー！
+まだ、場所教えてないんだけどぉ！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

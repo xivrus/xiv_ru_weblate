@@ -1,69 +1,319 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="HeaVna313_01614" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_HEAVNA313_01614_SEQ_00&lt;tab&gt;ヴァスの塚のイゼルは、思い悩んでいるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_HEAVNA313_01614_SEQ_01&lt;tab&gt;グナース族の蛮神を倒すと決意したイゼルに、協力することとなった。しかし、蛮神を戦うための方法が思いつかず、グナース族から情報を集めることになった。ヴァスの塚のグナース族から、情報を集めよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_HEAVNA313_01614_SEQ_02&lt;tab&gt;グナース族から聞きこみをしたが、まだ情報が足りないようだ。ヴァスの塚の「ナンカイーター」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_HEAVNA313_01614_SEQ_03&lt;tab&gt;ナンカイーターから話を聞こうとしたところ、&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;を要求された。ウィロームリバーの「&lt;var 28 ((BNpcName)) F20DF201 /var&gt;」から「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」を入手しよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_HEAVNA313_01614_SEQ_04&lt;tab&gt;&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;を入手した。ヴァスの塚の「ナンカイーター」に「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_HEAVNA313_01614_SEQ_05&lt;tab&gt;ナンカイーターから話を聞いた。蛮神を召喚した繋がりし者たちは、繋ぎ止めし者によって意思を繋げられているそうだ。ヴァスの塚の「アルフィノ」と話そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_HEAVNA313_01614_SEQ_06&lt;tab&gt;冒険者たちは、集めた情報を交換した。この情報を元に、冒険者たちが思いついた方法とは……？</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_HEAVNA313_01614_TODO_00&lt;tab&gt;ヴァスの塚で情報を集める</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_HEAVNA313_01614_TODO_01&lt;tab&gt;ナンカイーターと話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_HEAVNA313_01614_TODO_02&lt;tab&gt;&lt;var 28 ((BNpcName)) F20DF201 /var&gt;から&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;を入手</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_HEAVNA313_01614_TODO_03&lt;tab&gt;ナンカイーターに&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;を渡す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_HEAVNA313_01614_TODO_04&lt;tab&gt;アルフィノと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_HEAVNA313_01614_ICEHEART_000_000&lt;tab&gt;私は、蛮神の力に頼った身だ……。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="HeaVna313_01614" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_SEQ_00&lt;tab&gt;ヴァスの塚のイゼルは、思い悩んでいるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_SEQ_01&lt;tab&gt;グナース族の蛮神を倒すと決意したイゼルに、協力することとなった。しかし、蛮神を戦うための方法が思いつかず、グナース族から情報を集めることになった。ヴァスの塚のグナース族から、情報を集めよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_SEQ_02&lt;tab&gt;グナース族から聞きこみをしたが、まだ情報が足りないようだ。ヴァスの塚の「ナンカイーター」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_SEQ_03&lt;tab&gt;ナンカイーターから話を聞こうとしたところ、&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;を要求された。ウィロームリバーの「&lt;var 28 ((BNpcName)) F20DF201 /var&gt;」から「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」を入手しよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_SEQ_04&lt;tab&gt;&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;を入手した。ヴァスの塚の「ナンカイーター」に「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_SEQ_05&lt;tab&gt;ナンカイーターから話を聞いた。蛮神を召喚した繋がりし者たちは、繋ぎ止めし者によって意思を繋げられているそうだ。ヴァスの塚の「アルフィノ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_SEQ_06&lt;tab&gt;冒険者たちは、集めた情報を交換した。この情報を元に、冒険者たちが思いついた方法とは……？</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_TODO_00&lt;tab&gt;ヴァスの塚で情報を集める</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_TODO_01&lt;tab&gt;ナンカイーターと話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_TODO_02&lt;tab&gt;&lt;var 28 ((BNpcName)) F20DF201 /var&gt;から&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;を入手</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_TODO_03&lt;tab&gt;ナンカイーターに&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_TODO_04&lt;tab&gt;アルフィノと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ICEHEART_000_000&lt;tab&gt;私は、蛮神の力に頼った身だ……。
 神降ろしが、星の命を蝕むと知ったうえでな。
-必要悪であったと信じているし、罪を背負う覚悟もある。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_HEAVNA313_01614_ICEHEART_000_001&lt;tab&gt;だが、グナース族は、領地を広げんと神を降ろしたという。
+必要悪であったと信じているし、罪を背負う覚悟もある。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ICEHEART_000_001&lt;tab&gt;だが、グナース族は、領地を広げんと神を降ろしたという。
 彼らから罪を背負う覚悟が感じられないのは、
-私が傲慢だからだろうか……。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_002&lt;tab&gt;私の祖父ルイゾワも、第七霊災を防ぐため、
+私が傲慢だからだろうか……。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_002&lt;tab&gt;私の祖父ルイゾワも、第七霊災を防ぐため、
 カルテノーで、エオルゼア十二神の神降ろしを試みている。
-……だからイゼル、あなたの気持ちもわからないではない。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_003&lt;tab&gt;しかし、グナース族の望みは単純な領土欲だ……。
+……だからイゼル、あなたの気持ちもわからないではない。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_003&lt;tab&gt;しかし、グナース族の望みは単純な領土欲だ……。
 もしそれが本当だとすれば、あまりに無邪気に思える。
-やはり、彼らの蛮神を討伐しなければなるまい。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_HEAVNA313_01614_ESTINIEN_000_004&lt;tab&gt;言うは易しだな、アルフィノ……。
+やはり、彼らの蛮神を討伐しなければなるまい。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ESTINIEN_000_004&lt;tab&gt;言うは易しだな、アルフィノ……。
 お前がグナース族の蛮神と戦うというのなら別だが、
-蛮神討伐となれば、「光の戦士」に頼るほかあるまい？</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_005&lt;tab&gt;……か、返す言葉もない。
+蛮神討伐となれば、「光の戦士」に頼るほかあるまい？</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_005&lt;tab&gt;……か、返す言葉もない。
 私が蛮神討伐などと軽々しく言うのは、
-それこそ傲慢というものだ……。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_100_005&lt;tab&gt;すまない、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_HEAVNA313_01614_Q1_000_000&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_HEAVNA313_01614_A1_000_001&lt;tab&gt;蛮神は自分が倒す</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_HEAVNA313_01614_A1_000_002&lt;tab&gt;…………</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_HEAVNA313_01614_ICEHEART_000_006&lt;tab&gt;いや、私がやろう……。
+それこそ傲慢というものだ……。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_100_005&lt;tab&gt;すまない、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_Q1_000_000&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_A1_000_001&lt;tab&gt;蛮神は自分が倒す</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_A1_000_002&lt;tab&gt;…………</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ICEHEART_000_006&lt;tab&gt;いや、私がやろう……。
 私とて「超える力」の持ち主なのだ。
-&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、手を貸してくれるか。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_HEAVNA313_01614_ESTINIEN_000_007&lt;tab&gt;さすがは「氷の巫女」殿。
+&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、手を貸してくれるか。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ESTINIEN_000_007&lt;tab&gt;さすがは「氷の巫女」殿。
 ドラゴン族を助けるためなら、危険も顧みないか……。
-だが、どうやって蛮神を、戦いの場に引きずり出すつもりだ？</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_008&lt;tab&gt;グナース族の蛮神に近づくため、
+だが、どうやって蛮神を、戦いの場に引きずり出すつもりだ？</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_008&lt;tab&gt;グナース族の蛮神に近づくため、
 何かいい方法がないか、ここの住人たちに聞いてみよう。
-作戦を考えることくらい、私にも手伝わせてくれ。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_HEAVNA313_01614_ESTINIEN_101_007&lt;tab&gt;フン……。
-坊ちゃんなりに、必死さがでてきたじゃないか。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_009&lt;tab&gt;グナース族が、神降ろしをしたのは、
-自らの領土を拡大するためというのか……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_HEAVNA313_01614_ESTINIEN_100_009&lt;tab&gt;深手を負っていたとはいえドラゴン族を、
-よってたかってなぶり殺しとは、やるじゃないか。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_HEAVNA313_01614_STORYTELLER_000_010&lt;tab&gt;シシシシ……「神」に会いたいと？
+作戦を考えることくらい、私にも手伝わせてくれ。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ESTINIEN_101_007&lt;tab&gt;フン……。
+坊ちゃんなりに、必死さがでてきたじゃないか。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_009&lt;tab&gt;グナース族が、神降ろしをしたのは、
+自らの領土を拡大するためというのか……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ESTINIEN_100_009&lt;tab&gt;深手を負っていたとはいえドラゴン族を、
+よってたかってなぶり殺しとは、やるじゃないか。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_STORYTELLER_000_010&lt;tab&gt;シシシシ……「神」に会いたいと？
 それなら、生け贄にされるのが手っ取り早い。
-生きてはかえれぬだろうがな……シシシシシ。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_HEAVNA313_01614_STORYTELLER_000_011&lt;tab&gt;シシシシ……「神」に会いたいと？
+生きてはかえれぬだろうがな……シシシシシ。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_STORYTELLER_000_011&lt;tab&gt;シシシシ……「神」に会いたいと？
 それなら、生け贄にされるのが手っ取り早い。
-生きてはかえれぬだろうがな……シシシシシ。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_HEAVNA313_01614_GNATHELDER01614_000_010&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_HEAVNA313_01614_GNATHELDER01614_000_011&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_HEAVNA313_01614_CIBLEROIT_000_020&lt;tab&gt;俺たちは、「分かたれし者たち」……
+生きてはかえれぬだろうがな……シシシシシ。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_GNATHELDER01614_000_010&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_GNATHELDER01614_000_011&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_CIBLEROIT_000_020&lt;tab&gt;俺たちは、「分かたれし者たち」……
 「繋がりし者たち」と違って、奴らの意思は聞こえない。
-だから、奴らの考えもわからない……シシシシシ。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_HEAVNA313_01614_CIBLEROIT_000_021&lt;tab&gt;俺たちは、「分かたれし者たち」……
+だから、奴らの考えもわからない……シシシシシ。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_CIBLEROIT_000_021&lt;tab&gt;俺たちは、「分かたれし者たち」……
 「繋がりし者たち」と違って、奴らの意思は聞こえない。
-だから、奴らの考えもわからない……シシシシシ。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_HEAVNA313_01614_GNATHMOBA01614_000_020&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_HEAVNA313_01614_GNATHMOBA01614_000_021&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_HEAVNA313_01614_IDATEN_000_030&lt;tab&gt;シシシシシ……気前のいい狩人たちよ。
+だから、奴らの考えもわからない……シシシシシ。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_GNATHMOBA01614_000_020&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_GNATHMOBA01614_000_021&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_IDATEN_000_030&lt;tab&gt;シシシシシ……気前のいい狩人たちよ。
 「神」に会えば、魂を取られてしまうのだぞ？
-魂を差し出そうとは、まったく気前がよすぎるというものだ。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_HEAVNA313_01614_IDATEN_000_031&lt;tab&gt;シシシシシ……気前のいい狩人たちよ。
+魂を差し出そうとは、まったく気前がよすぎるというものだ。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_IDATEN_000_031&lt;tab&gt;シシシシシ……気前のいい狩人たちよ。
 「神」に会えば、魂を取られてしまうのだぞ？
-魂を差し出そうとは、まったく気前がよすぎるというものだ。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_040&lt;tab&gt;神を呼び降ろしたという「繋がりし者たち」に、
-接近する方法はないのだろうか？</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_HEAVNA313_01614_ICEHEART_000_041&lt;tab&gt;彼らの話し方は、回りくどくてわかりにくいな。
-いったい、どのような信仰を持っているというのか……。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_HEAVNA313_01614_ESTINIEN_000_042&lt;tab&gt;何だって自分たちの「神」であるはずの蛮神について、
-こいつらは、ここまで無知なんだ？</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_050&lt;tab&gt;シシシシシ……お前たちが、とびきり気前のいい狩人か。
+魂を差し出そうとは、まったく気前がよすぎるというものだ。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_040&lt;tab&gt;神を呼び降ろしたという「繋がりし者たち」に、
+接近する方法はないのだろうか？</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ICEHEART_000_041&lt;tab&gt;彼らの話し方は、回りくどくてわかりにくいな。
+いったい、どのような信仰を持っているというのか……。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ESTINIEN_000_042&lt;tab&gt;何だって自分たちの「神」であるはずの蛮神について、
+こいつらは、ここまで無知なんだ？</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_050&lt;tab&gt;シシシシシ……お前たちが、とびきり気前のいい狩人か。
 だが、俺はまだ分け前を貰ってはいないぞ？
-ひとつ……ひとつでいい。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_051&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」ひとつで手を打つぞ、狩人よ。
+ひとつ……ひとつでいい。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_051&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」ひとつで手を打つぞ、狩人よ。
 「&lt;var 28 ((BNpcName)) F20DF201 /var&gt;」を倒して、取ってくるがいい。
-そしたら、話を聞かせてやろう……話をな。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_052&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」ひとつで手を打つぞ、狩人よ。
+そしたら、話を聞かせてやろう……話をな。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_052&lt;tab&gt;「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」ひとつで手を打つぞ、狩人よ。
 「&lt;var 28 ((BNpcName)) F20DF201 /var&gt;」を倒して、取ってくるがいい。
-そしたら、話を聞かせてやろう……話をな。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_053&lt;tab&gt;どうやら、彼らグナース族には、
+そしたら、話を聞かせてやろう……話をな。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_053&lt;tab&gt;どうやら、彼らグナース族には、
 元々、個人名という概念がなかったらしい。
-人をマネて、適当な名前を名乗っているようだ。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_HEAVNA313_01614_ESTINIEN_000_054&lt;tab&gt;おいおい、それのどこが信仰に関する情報なんだ？
-と言っても、こっちにも収穫はないんだが……。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_HEAVNA313_01614_ICEHEART_000_055&lt;tab&gt;グナース族と話していると、
-何だか、頭が痛くなってくるな……。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_060&lt;tab&gt;シシシシシ……。
+人をマネて、適当な名前を名乗っているようだ。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ESTINIEN_000_054&lt;tab&gt;おいおい、それのどこが信仰に関する情報なんだ？
+と言っても、こっちにも収穫はないんだが……。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ICEHEART_000_055&lt;tab&gt;グナース族と話していると、
+何だか、頭が痛くなってくるな……。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_060&lt;tab&gt;シシシシシ……。
 求めているのは「&lt;var 28 ((EventItem)) F61E8AAB01 /var&gt;」。
-用意できているのか、気前のいい狩人よ。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_061&lt;tab&gt;シシシシシ……本当に気前のいい狩人だな！
-よし、話を聞かせてやろう……話をな。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_062&lt;tab&gt;いいか、「繋ぎ止めし者」によって意思を繋げられた、
-「繋がりし者たち」は、同じ物を見、同じ思いを抱くのよ。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_063&lt;tab&gt;ひとりが見れば、百の同胞が見たも同じ。
+用意できているのか、気前のいい狩人よ。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_061&lt;tab&gt;シシシシシ……本当に気前のいい狩人だな！
+よし、話を聞かせてやろう……話をな。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_062&lt;tab&gt;いいか、「繋ぎ止めし者」によって意思を繋げられた、
+「繋がりし者たち」は、同じ物を見、同じ思いを抱くのよ。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_063&lt;tab&gt;ひとりが見れば、百の同胞が見たも同じ。
 ひとりが怒れば、千の同胞が怒るのも同じ……。
-見つからずに神のもとに近づくなど、無理というものよ！</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_064&lt;tab&gt;いいか、「繋ぎ止めし者」によって意思を繋げられた、
-「繋がりし者たち」は、同じ物を見、同じ思いを抱くのよ。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_HEAVNA313_01614_NANKAEATER_000_065&lt;tab&gt;ひとりが見れば、百の同胞が見たも同じ。
+見つからずに神のもとに近づくなど、無理というものよ！</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_064&lt;tab&gt;いいか、「繋ぎ止めし者」によって意思を繋げられた、
+「繋がりし者たち」は、同じ物を見、同じ思いを抱くのよ。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_NANKAEATER_000_065&lt;tab&gt;ひとりが見れば、百の同胞が見たも同じ。
 ひとりが怒れば、千の同胞が怒るのも同じ……。
-見つからずに神のもとに近づくなど、無理というものよ！</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_HEAVNA313_01614_ESTINIEN_000_066&lt;tab&gt;考えていることが、仲間に筒抜けとはな。
-まったく、ゾッとするぜ……。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_HEAVNA313_01614_ICEHEART_000_067&lt;tab&gt;意思が繋がっているのが当然だとすると、
+見つからずに神のもとに近づくなど、無理というものよ！</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ESTINIEN_000_066&lt;tab&gt;考えていることが、仲間に筒抜けとはな。
+まったく、ゾッとするぜ……。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ICEHEART_000_067&lt;tab&gt;意思が繋がっているのが当然だとすると、
 話がわかりにくいのも、頷けるというものだ。
-そもそも話す必要がないという文化なのだから……。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_070&lt;tab&gt;彼らの話しぶりでは、いまいち要領を得ないが、
-少し、わかってきたことがある。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_071&lt;tab&gt;どうやらグナース族は、
+そもそも話す必要がないという文化なのだから……。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_070&lt;tab&gt;彼らの話しぶりでは、いまいち要領を得ないが、
+少し、わかってきたことがある。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_071&lt;tab&gt;どうやらグナース族は、
 「繋ぎ止めし者」という「王」のような存在を中心に、
-言葉によらず、意思の疎通を図ることができるようだ。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_072&lt;tab&gt;それがコロニーに棲む多数派の「繋がりし者たち」であり、
-彼らの総意に基づいて、神降ろしが行われた……。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_HEAVNA313_01614_ALPHINAUD_000_073&lt;tab&gt;だが、ここに棲む「分かたれし者たち」は、
+言葉によらず、意思の疎通を図ることができるようだ。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_072&lt;tab&gt;それがコロニーに棲む多数派の「繋がりし者たち」であり、
+彼らの総意に基づいて、神降ろしが行われた……。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ALPHINAUD_000_073&lt;tab&gt;だが、ここに棲む「分かたれし者たち」は、
 何らかの事情で、意思を繋げることができないようだ。
-だからこそ、「繋がりし者たち」の考えを理解していない……。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_HEAVNA313_01614_ESTINIEN_000_074&lt;tab&gt;なるほどな……。
+だからこそ、「繋がりし者たち」の考えを理解していない……。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ESTINIEN_000_074&lt;tab&gt;なるほどな……。
 こいつらが、自分たちの神であるはずの蛮神について、
-意外なほどに無知なのは、そのためか……。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_HEAVNA313_01614_ICEHEART_000_075&lt;tab&gt;しかし、こうも言っていたぞ。
+意外なほどに無知なのは、そのためか……。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_HEAVNA313_01614_ICEHEART_000_075&lt;tab&gt;しかし、こうも言っていたぞ。
 領地を侵して捕らえられれば、必ずや生け贄として、
-神に差し出されることになるとな……。</target></trans-unit></body></file></xliff>
+神に差し出されることになるとな……。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

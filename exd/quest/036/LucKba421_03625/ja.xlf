@@ -1,153 +1,707 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="LucKba421_03625" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_LUCKBA421_03625_SEQ_00&lt;tab&gt;モルド・スークのケリッグは、困っているようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_LUCKBA421_03625_SEQ_01&lt;tab&gt;目覚めた少年は、テイナーという名前以外なにも覚えていないらしい。モルド・スークの「テイナー」と話してみよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_LUCKBA421_03625_SEQ_02&lt;tab&gt;テイナーは莫大な魔力を有しており、魔道士の師匠を持っていた可能性が高いようだ。テイナーの保護者を探すため、モルド・スークに出入りしている「熟練の旅商」と話そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_LUCKBA421_03625_SEQ_03&lt;tab&gt;旅商は、子どもとはぐれたという闘病中の魔道士を見かけたという。アム・アレーンの旅立ちの宿で「宿の世話人」と話そう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_LUCKBA421_03625_SEQ_04&lt;tab&gt;魔道士は、テイナーの保護者ではなかった。ケリッグは、テイナーを人に預けるべきだと冒険者に告げてきた。旅立ちの宿で「ケリッグ」と話そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_LUCKBA421_03625_SEQ_05&lt;tab&gt;テイナーが、宿に運び込まれた魔道士の息子と喧嘩になり、飛び出していってしまったらしい。アム・アレーンのアンバーフィールドで「テイナー」を探そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_LUCKBA421_03625_SEQ_06&lt;tab&gt;テイナーに襲いかかっていた、はぐれ罪喰いを討伐した。アンバーフィールドで「テイナー」を救助しよう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_LUCKBA421_03625_SEQ_07&lt;tab&gt;テイナーの過去を視た。テイナーは、過去に幼い頃のナイルベルトと知り合いだったようだ。しかし、テイナーだけが今も幼いままだ。ひとまず旅立ちの宿に戻り、「影のある少年」と話そう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_LUCKBA421_03625_SEQ_08&lt;tab&gt;少年は、テイナーの記憶が戻ったことを喜んでくれた。モルド・スークに戻り「ケリッグ」と話そう。</target></trans-unit><trans-unit id="9" approved="yes"><source>9</source><target state="final">TEXT_LUCKBA421_03625_SEQ_09&lt;tab&gt;テイナーとナイルベルトの時間のズレについては不明のままだが、彼らは「虚ろ」を生み出すための訓練を受けていたようだ。ケリッグは、引き続きテイナーの世話をすることを決めた。テイナーの記憶が戻るのを待とう。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="LucKba421_03625" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_00&lt;tab&gt;モルド・スークのケリッグは、困っているようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_01&lt;tab&gt;目覚めた少年は、テイナーという名前以外なにも覚えていないらしい。モルド・スークの「テイナー」と話してみよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_02&lt;tab&gt;テイナーは莫大な魔力を有しており、魔道士の師匠を持っていた可能性が高いようだ。テイナーの保護者を探すため、モルド・スークに出入りしている「熟練の旅商」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_03&lt;tab&gt;旅商は、子どもとはぐれたという闘病中の魔道士を見かけたという。アム・アレーンの旅立ちの宿で「宿の世話人」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_04&lt;tab&gt;魔道士は、テイナーの保護者ではなかった。ケリッグは、テイナーを人に預けるべきだと冒険者に告げてきた。旅立ちの宿で「ケリッグ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_05&lt;tab&gt;テイナーが、宿に運び込まれた魔道士の息子と喧嘩になり、飛び出していってしまったらしい。アム・アレーンのアンバーフィールドで「テイナー」を探そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_06&lt;tab&gt;テイナーに襲いかかっていた、はぐれ罪喰いを討伐した。アンバーフィールドで「テイナー」を救助しよう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_07&lt;tab&gt;テイナーの過去を視た。テイナーは、過去に幼い頃のナイルベルトと知り合いだったようだ。しかし、テイナーだけが今も幼いままだ。ひとまず旅立ちの宿に戻り、「影のある少年」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_08&lt;tab&gt;少年は、テイナーの記憶が戻ったことを喜んでくれた。モルド・スークに戻り「ケリッグ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="9" approved="yes">
+				<source>9</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SEQ_09&lt;tab&gt;テイナーとナイルベルトの時間のズレについては不明のままだが、彼らは「虚ろ」を生み出すための訓練を受けていたようだ。ケリッグは、引き続きテイナーの世話をすることを決めた。テイナーの記憶が戻るのを待とう。
 
-※いずれかのソーサラー系DPSジョブのレベルが76以上になると、モルド・スークのケリッグから次のソーサラー系DPSロールクエストを受注することができます。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_LUCKBA421_03625_TODO_00&lt;tab&gt;テイナーと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_LUCKBA421_03625_TODO_01&lt;tab&gt;熟練の旅商と話す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_LUCKBA421_03625_TODO_02&lt;tab&gt;旅立ちの宿で、宿の世話人と話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_LUCKBA421_03625_TODO_03&lt;tab&gt;ケリッグと話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_LUCKBA421_03625_TODO_04&lt;tab&gt;テイナーを探す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_LUCKBA421_03625_TODO_05&lt;tab&gt;テイナーを救助</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_LUCKBA421_03625_TODO_06&lt;tab&gt;影のある少年と話す</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">TEXT_LUCKBA421_03625_TODO_07&lt;tab&gt;モルド・スークのケリッグと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_000&lt;tab&gt;待っていたぜ！　少年が目を覚ましたんだ。
-幸い、特に後遺症もないようなんだが、困ったことがあってな。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_001&lt;tab&gt;どうも……過去の記憶をほとんど失っているらしいんだ。
+※いずれかのソーサラー系DPSジョブのレベルが76以上になると、モルド・スークのケリッグから次のソーサラー系DPSロールクエストを受注することができます。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TODO_00&lt;tab&gt;テイナーと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TODO_01&lt;tab&gt;熟練の旅商と話す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TODO_02&lt;tab&gt;旅立ちの宿で、宿の世話人と話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TODO_03&lt;tab&gt;ケリッグと話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TODO_04&lt;tab&gt;テイナーを探す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TODO_05&lt;tab&gt;テイナーを救助</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TODO_06&lt;tab&gt;影のある少年と話す</target>
+			</trans-unit>
+			<trans-unit id="31" approved="yes">
+				<source>31</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TODO_07&lt;tab&gt;モルド・スークのケリッグと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_000&lt;tab&gt;待っていたぜ！　少年が目を覚ましたんだ。
+幸い、特に後遺症もないようなんだが、困ったことがあってな。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_001&lt;tab&gt;どうも……過去の記憶をほとんど失っているらしいんだ。
 自分が何故「虚ろ」の中にいたのかも含め、
-何もわからないと言っている。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_002&lt;tab&gt;唯一、覚えていたことと言えば、自分の名前くらいのもんでな。
-あの少年は……「テイナー」という名らしい。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_003&lt;tab&gt;俺のマズいメシも文句なく食べる、いい奴だが……
+何もわからないと言っている。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_002&lt;tab&gt;唯一、覚えていたことと言えば、自分の名前くらいのもんでな。
+あの少年は……「テイナー」という名らしい。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_003&lt;tab&gt;俺のマズいメシも文句なく食べる、いい奴だが……
 記憶のない状態で独りぼっちは心細かろう。
-さっさと保護者を見つけて引き渡してやらないとな。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_004&lt;tab&gt;今は、何か思い出せることはないかと、
+さっさと保護者を見つけて引き渡してやらないとな。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_004&lt;tab&gt;今は、何か思い出せることはないかと、
 「モルド・スーク」内を見て回っている。
-さあ、お前も「テイナー」に会ってやってくれ。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_010&lt;tab&gt;プロネーシス打倒という目的からは逸れちまうが……
+さあ、お前も「テイナー」に会ってやってくれ。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_010&lt;tab&gt;プロネーシス打倒という目的からは逸れちまうが……
 記憶喪失の子どもを放り出すわけにもいかん。
-さっさと保護者を見つけ出し、本来の仕事に戻ろう。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_020&lt;tab&gt;この温かい感覚……真っ暗闇の中、同じエーテルを感じました。
-あなたが「虚ろ」の中のぼくに呼びかけてくれた人ですね？</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_021&lt;tab&gt;さすがだな、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;と会っただけで、
-そのことに気づくとは……。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_022&lt;tab&gt;治癒師に、異常はないか診てもらって判明したんだが……
+さっさと保護者を見つけ出し、本来の仕事に戻ろう。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_020&lt;tab&gt;この温かい感覚……真っ暗闇の中、同じエーテルを感じました。
+あなたが「虚ろ」の中のぼくに呼びかけてくれた人ですね？</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_021&lt;tab&gt;さすがだな、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;と会っただけで、
+そのことに気づくとは……。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_022&lt;tab&gt;治癒師に、異常はないか診てもらって判明したんだが……
 テイナーは、年齢に見合わぬ大量の魔力を有しているらしい。
-魔法の使い手として、才があるってことだな。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_024&lt;tab&gt;ただ……ごめんなさい。
+魔法の使い手として、才があるってことだな。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_024&lt;tab&gt;ただ……ごめんなさい。
 ぼく自身は、何も覚えていなくて……
-気がついたら、もう暗闇……「虚ろ」の中にいたんです。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_025&lt;tab&gt;いいさ、それほどの恐怖だったんだろう……。
-ところで「虚ろ」の中での出来事は覚えているのか？</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_026&lt;tab&gt;暗闇の中、ぼくの近くを、
+気がついたら、もう暗闇……「虚ろ」の中にいたんです。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_025&lt;tab&gt;いいさ、それほどの恐怖だったんだろう……。
+ところで「虚ろ」の中での出来事は覚えているのか？</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_026&lt;tab&gt;暗闇の中、ぼくの近くを、
 まるで誰かが通過するような、不思議な感覚がありました……。
-ぼくが目覚めたのも、その感覚のせいだと思います。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_027&lt;tab&gt;ふむ、「虚ろ」の中は、この世界の外側……次元の狭間だという。
+ぼくが目覚めたのも、その感覚のせいだと思います。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_027&lt;tab&gt;ふむ、「虚ろ」の中は、この世界の外側……次元の狭間だという。
 そんなところを誰かが通過していったって……？
-最近、この世界に、よその世界の者がやってきたってか？</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_LUCKBA421_03625_Q1_000_000&lt;tab&gt;ケリッグに何と答える？</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_LUCKBA421_03625_A1_000_000&lt;tab&gt;そうかもしれない</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_LUCKBA421_03625_A2_000_000&lt;tab&gt;そんなわけない</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_030&lt;tab&gt;ん？　なにか思い当たることがあるってか？
-まあ、口を濁すからには、確信のある話じゃないんだろうな。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_035&lt;tab&gt;まあ、次元の狭間のことなんざ理解の範疇外だよな。
-「虚ろ」については、わかっていることの方が少ないんだ。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_040&lt;tab&gt;さて、これ以上、わからない事を考えても仕方ない。
+最近、この世界に、よその世界の者がやってきたってか？</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_Q1_000_000&lt;tab&gt;ケリッグに何と答える？</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_A1_000_000&lt;tab&gt;そうかもしれない</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_A2_000_000&lt;tab&gt;そんなわけない</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_030&lt;tab&gt;ん？　なにか思い当たることがあるってか？
+まあ、口を濁すからには、確信のある話じゃないんだろうな。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_035&lt;tab&gt;まあ、次元の狭間のことなんざ理解の範疇外だよな。
+「虚ろ」については、わかっていることの方が少ないんだ。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_040&lt;tab&gt;さて、これ以上、わからない事を考えても仕方ない。
 今はできること……テイナーの保護者探しを優先しよう。
-記憶については、ゆっくり向き合うしかないさ。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_041&lt;tab&gt;ふたりとも仕事があるのに、いいんですか？
+記憶については、ゆっくり向き合うしかないさ。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_041&lt;tab&gt;ふたりとも仕事があるのに、いいんですか？
 こうして保護してくれただけでも、ありがたいのに、
-ぼく、迷惑じゃ……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_042&lt;tab&gt;お前は、何も悪くはないさ。
-それに、お前の素性のヒントが何もないわけじゃないしな。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_043&lt;tab&gt;まず、一番最悪の可能性は、
+ぼく、迷惑じゃ……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_042&lt;tab&gt;お前は、何も悪くはないさ。
+それに、お前の素性のヒントが何もないわけじゃないしな。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_043&lt;tab&gt;まず、一番最悪の可能性は、
 お前が身寄りのない天涯孤独の身だという場合だが……。
-俺は、この可能性は低いと考えている。</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_044&lt;tab&gt;根拠は、お前が有していた莫大な魔力さ。
+俺は、この可能性は低いと考えている。</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_044&lt;tab&gt;根拠は、お前が有していた莫大な魔力さ。
 生まれ持った才だけでは、そうはなるまい。
-お前に魔術を教えた、師匠にあたる人物がいたはずなんだ。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_045&lt;tab&gt;そいつが肉親かどうかはともかく、
+お前に魔術を教えた、師匠にあたる人物がいたはずなんだ。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_045&lt;tab&gt;そいつが肉親かどうかはともかく、
 お前を保護し、教育していた奴がいたってことだな……。
-だから、そう沈み込むんじゃない。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_046&lt;tab&gt;はい……ぼく、家族に会いたいです……！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_047&lt;tab&gt;よし！　じゃあ、具体的な話に移るぞ。
+だから、そう沈み込むんじゃない。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_046&lt;tab&gt;はい……ぼく、家族に会いたいです……！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_047&lt;tab&gt;よし！　じゃあ、具体的な話に移るぞ。
 モルド・スークとクリスタリウムをざっと調べたが、
-テイナーと特徴が合致する行方不明者の届け出はなかった。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_048&lt;tab&gt;となると、それ以外の場所について考えるべきだろう。
+テイナーと特徴が合致する行方不明者の届け出はなかった。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_048&lt;tab&gt;となると、それ以外の場所について考えるべきだろう。
 モルド・スークに出入りする「熟練の旅商」にあたって、
-心当たりがないか聞いてみよう。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_060&lt;tab&gt;テイナーの奴、不安が漏れ出ちゃいるが、
-この歳で冷静さを保っているのは大したもんだ。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_065&lt;tab&gt;ふたりとも……やさしいんですね。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_LUCKBA421_03625_TRAVELINGMERCHANT03625_000_080&lt;tab&gt;この坊っちゃんみたいな、行方不明者を捜している人物……。
-……ふむ、ひとり思い当たる奴がいるな。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_LUCKBA421_03625_TRAVELINGMERCHANT03625_000_081&lt;tab&gt;ここに来る前、「旅立ちの宿」に寄ったんだがね。
+心当たりがないか聞いてみよう。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_060&lt;tab&gt;テイナーの奴、不安が漏れ出ちゃいるが、
+この歳で冷静さを保っているのは大したもんだ。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_065&lt;tab&gt;ふたりとも……やさしいんですね。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TRAVELINGMERCHANT03625_000_080&lt;tab&gt;この坊っちゃんみたいな、行方不明者を捜している人物……。
+……ふむ、ひとり思い当たる奴がいるな。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TRAVELINGMERCHANT03625_000_081&lt;tab&gt;ここに来る前、「旅立ちの宿」に寄ったんだがね。
 「罪喰いに襲われ、子どもとはぐれた」という、
-闘病中の魔道士の男と会ったんだ。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_082&lt;tab&gt;おお！　さっそく、ドンピシャな情報じゃないか！
+闘病中の魔道士の男と会ったんだ。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_082&lt;tab&gt;おお！　さっそく、ドンピシャな情報じゃないか！
 父親とはぐれた後に「プロネーシス」と遭遇したと考えれば、
-テイナーの状況と辻褄も合う。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_083&lt;tab&gt;じゃあ、その人が……ぼくのお父さん！？
-急いで、そこに向かいましょう！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_084&lt;tab&gt;しかし、「旅立ちの宿」で闘病中か……。
+テイナーの状況と辻褄も合う。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_083&lt;tab&gt;じゃあ、その人が……ぼくのお父さん！？
+急いで、そこに向かいましょう！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_084&lt;tab&gt;しかし、「旅立ちの宿」で闘病中か……。
 あそこにいる者たちは……いや、憶測で語るべきじゃない。
-まずは「宿の世話人」に話を聞いてみよう。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_LUCKBA421_03625_TRAVELINGMERCHANT03625_000_090&lt;tab&gt;「旅立ちの宿」で、息子とはぐれたという魔道士を見たぜ。
-闘病中だったが、症状までは知らんね。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_095&lt;tab&gt;さて、テイナーを笑顔にしてやれるかどうか……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_100&lt;tab&gt;ここに、ぼくの家族が？
-でも……ここって……。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_120&lt;tab&gt;なあ、ちょいと尋ねたいんだが……
+まずは「宿の世話人」に話を聞いてみよう。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TRAVELINGMERCHANT03625_000_090&lt;tab&gt;「旅立ちの宿」で、息子とはぐれたという魔道士を見たぜ。
+闘病中だったが、症状までは知らんね。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_095&lt;tab&gt;さて、テイナーを笑顔にしてやれるかどうか……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_100&lt;tab&gt;ここに、ぼくの家族が？
+でも……ここって……。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_120&lt;tab&gt;なあ、ちょいと尋ねたいんだが……
 子どもとはぐれた魔道士が、ここに収容されていると聞いた。
-そいつの子どもは、まだ見つかっていないのか？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_LUCKBA421_03625_NURSE03625_000_121&lt;tab&gt;いえ、その方の息子でしたら無事に保護され……ここに。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_122&lt;tab&gt;そ、そんな！　人違い……！？</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_LUCKBA421_03625_NURSE03625_000_123&lt;tab&gt;……その子も、家族を探しているのですか？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_124&lt;tab&gt;ああ、それで、旅立ちの宿に、
-保護者がいるかと期待したんだが……。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_125&lt;tab&gt;あ、あの……ここには、
+そいつの子どもは、まだ見つかっていないのか？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_NURSE03625_000_121&lt;tab&gt;いえ、その方の息子でしたら無事に保護され……ここに。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_122&lt;tab&gt;そ、そんな！　人違い……！？</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_NURSE03625_000_123&lt;tab&gt;……その子も、家族を探しているのですか？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_124&lt;tab&gt;ああ、それで、旅立ちの宿に、
+保護者がいるかと期待したんだが……。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_125&lt;tab&gt;あ、あの……ここには、
 ほかにも、多くの人がいるんですよね？
-その中にぼくの家族がいないか、探してもいいですか？</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_LUCKBA421_03625_NURSE03625_000_126&lt;tab&gt;構いませんが、ここで闘病している人の中には、
+その中にぼくの家族がいないか、探してもいいですか？</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_NURSE03625_000_126&lt;tab&gt;構いませんが、ここで闘病している人の中には、
 かなり……その、未来を憂いて苦しんでいる人もいます。
-なので、子どもがひとりで歩きまわるのは……。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_127&lt;tab&gt;そうだな。
-俺か&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;が同行すれば……。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_128&lt;tab&gt;……なら、ボクが一緒に行くよ。
-ボクも、その方が気が紛れるから……。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_129&lt;tab&gt;……わかった、それがいいだろう。
-悪いが、頼めるかい？</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_130&lt;tab&gt;いま、気が紛れる、と言っていたが、
-あの子の父親だという魔道士は……？</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_LUCKBA421_03625_NURSE03625_000_131&lt;tab&gt;先ほど、罪喰いと化しそうになり……旅立っていきました。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_LUCKBA421_03625_NURSE03625_000_132&lt;tab&gt;なんとか、あの子も最期を見送ることができました。
+なので、子どもがひとりで歩きまわるのは……。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_127&lt;tab&gt;そうだな。
+俺か&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;が同行すれば……。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_128&lt;tab&gt;……なら、ボクが一緒に行くよ。
+ボクも、その方が気が紛れるから……。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_129&lt;tab&gt;……わかった、それがいいだろう。
+悪いが、頼めるかい？</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_130&lt;tab&gt;いま、気が紛れる、と言っていたが、
+あの子の父親だという魔道士は……？</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_NURSE03625_000_131&lt;tab&gt;先ほど、罪喰いと化しそうになり……旅立っていきました。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_NURSE03625_000_132&lt;tab&gt;なんとか、あの子も最期を見送ることができました。
 ですが、あの年齢の子が、父が罪喰い化しようという姿を、
-目にすることが、はたして良かったのかどうか……。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_LUCKBA421_03625_NURSE03625_000_133&lt;tab&gt;幸い、彼はクリスタリウムに親族がいるそうですので、
-この後、私たちで送っていくつもりです。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_134&lt;tab&gt;そうか……俺たちも、そろそろ、
-テイナーを預ける先を考えなきゃならなそうだな。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_135&lt;tab&gt;……そんな顔をするな。
+目にすることが、はたして良かったのかどうか……。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_NURSE03625_000_133&lt;tab&gt;幸い、彼はクリスタリウムに親族がいるそうですので、
+この後、私たちで送っていくつもりです。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_134&lt;tab&gt;そうか……俺たちも、そろそろ、
+テイナーを預ける先を考えなきゃならなそうだな。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_135&lt;tab&gt;……そんな顔をするな。
 保護者探しを中止しようってんじゃない。
-ただ、テイナーの面倒を見ながらは無理だと言っているんだ。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_136&lt;tab&gt;俺だって、保護者を見つけるまで面倒見るのが筋だと思うさ。
+ただ、テイナーの面倒を見ながらは無理だと言っているんだ。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_136&lt;tab&gt;俺だって、保護者を見つけるまで面倒見るのが筋だと思うさ。
 しかし、本来の目的である「プロネーシス」討伐を、
-疎かにするわけにもいかないだろう……？</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_137&lt;tab&gt;テイナーは安全な場所に預ける。
+疎かにするわけにもいかないだろう……？</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_137&lt;tab&gt;テイナーは安全な場所に預ける。
 俺たちは本来の仕事を進めつつ、調査などで赴いた地で、
-保護者探しを続ける……それが一番いい形じゃないか？</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_LUCKBA421_03625_Q1_000_100&lt;tab&gt;ケリッグに何と答える？</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_LUCKBA421_03625_A1_000_100&lt;tab&gt;もう少し、できることはないか</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_LUCKBA421_03625_A2_000_100&lt;tab&gt;安全な場所のあてはあるのか？</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_140&lt;tab&gt;気持ちはわかるが……
+保護者探しを続ける……それが一番いい形じゃないか？</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_Q1_000_100&lt;tab&gt;ケリッグに何と答える？</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_A1_000_100&lt;tab&gt;もう少し、できることはないか</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_A2_000_100&lt;tab&gt;安全な場所のあてはあるのか？</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_140&lt;tab&gt;気持ちはわかるが……
 それこそテイナーのような犠牲者を増やさないためにも、
-プロネーシスの打倒は重要なはずだろう？</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_145&lt;tab&gt;ああ……。
+プロネーシスの打倒は重要なはずだろう？</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_145&lt;tab&gt;ああ……。
 彷徨う階段亭のマスターなら、情に厚いし顔も広い。
-里親捜しは、彼に協力してもらうつもりだ。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_150&lt;tab&gt;不本意な結果になりそうだが……ひとまず結論は出たな。
+里親捜しは、彼に協力してもらうつもりだ。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_150&lt;tab&gt;不本意な結果になりそうだが……ひとまず結論は出たな。
 それじゃ、テイナーと合流しよう。
-……決めたのは俺だ、俺が話すさ。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_LUCKBA421_03625_NURSE03625_000_160&lt;tab&gt;テイナーくんの力になれなくて、すみません。
-彼の家族が見つかるといいですね。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_165&lt;tab&gt;ごめんな、さい……ボクのせいで……！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_170&lt;tab&gt;マズイことになった……。
+……決めたのは俺だ、俺が話すさ。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_NURSE03625_000_160&lt;tab&gt;テイナーくんの力になれなくて、すみません。
+彼の家族が見つかるといいですね。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_165&lt;tab&gt;ごめんな、さい……ボクのせいで……！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_170&lt;tab&gt;マズイことになった……。
 どうやら、彼とテイナーが喧嘩になったそうでな。
-テイナーの奴、外へ飛び出して行っちまったらしい。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_171&lt;tab&gt;テイナーが、自分が「虚ろ」から出てきたと喋っちまったらしい。
+テイナーの奴、外へ飛び出して行っちまったらしい。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_171&lt;tab&gt;テイナーが、自分が「虚ろ」から出てきたと喋っちまったらしい。
 それで彼は、直接テイナーが罪喰いの攻撃を受けたんだと、
-早合点したらしくてな……。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_172&lt;tab&gt;ボク、父さんが罪喰いに変化しようとしたみたいに、
+早合点したらしくてな……。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_172&lt;tab&gt;ボク、父さんが罪喰いに変化しようとしたみたいに、
 テイナーも、罪喰いになっちゃうのかもと思って……
-思わず、大丈夫なのか聞いちゃったんだ。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_173&lt;tab&gt;そしたら、「どういうこと？」って聞き返されてさ。
+思わず、大丈夫なのか聞いちゃったんだ。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_173&lt;tab&gt;そしたら、「どういうこと？」って聞き返されてさ。
 何も知らないくせに、必死な顔でしつこく……。
-それで……ついカッとなって……。</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_174&lt;tab&gt;「お前も、罪喰いになるんじゃないか！？」って、
-そう、言っちゃったんだ……！</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_175&lt;tab&gt;テイナーは記憶を失っていて、不安でいっぱいなんだ。
+それで……ついカッとなって……。</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_174&lt;tab&gt;「お前も、罪喰いになるんじゃないか！？」って、
+そう、言っちゃったんだ……！</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_175&lt;tab&gt;テイナーは記憶を失っていて、不安でいっぱいなんだ。
 同じく余裕のない君に、それを伝えなかった俺の責任さ。
-つらい思いをさせてしまったな……。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_176&lt;tab&gt;彼とテイナーのためにも、何としても探し出そう。
-俺は、宿の西側を探すから、お前は東側を頼む。</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_180&lt;tab&gt;ボク、テイナーに謝りたい。
-だから、どうか……お願いします……。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_200&lt;tab&gt;戦闘音を聞きつけて飛んできたが……
-ふたりとも、無事みたいだな。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_201&lt;tab&gt;すみません……。
-ぼくのせいで、危ない目にあわせちゃって。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_202&lt;tab&gt;このまま記憶が戻らなかったらどうしようって不安で……
+つらい思いをさせてしまったな……。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_176&lt;tab&gt;彼とテイナーのためにも、何としても探し出そう。
+俺は、宿の西側を探すから、お前は東側を頼む。</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_180&lt;tab&gt;ボク、テイナーに謝りたい。
+だから、どうか……お願いします……。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_200&lt;tab&gt;戦闘音を聞きつけて飛んできたが……
+ふたりとも、無事みたいだな。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_201&lt;tab&gt;すみません……。
+ぼくのせいで、危ない目にあわせちゃって。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_202&lt;tab&gt;このまま記憶が戻らなかったらどうしようって不安で……
 そんな中、自分はもう「人」じゃないのかもって思ったら、
-どうしたらいいか、わからなくなっちゃったんです。</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_203&lt;tab&gt;……治癒師に診てもらったとき、聞いたんだ。
+どうしたらいいか、わからなくなっちゃったんです。</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_203&lt;tab&gt;……治癒師に診てもらったとき、聞いたんだ。
 お前は、直接、罪喰いに攻撃されたわけじゃない。
-罪喰いにはならないよ。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_204&lt;tab&gt;そうだったんですね……良かった。
+罪喰いにはならないよ。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_204&lt;tab&gt;そうだったんですね……良かった。
 じゃあ、あの子に謝らないと……
-事情も知らず、罪喰い化のことをしつこく聞いてごめんって。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_205&lt;tab&gt;……そうだな。
+事情も知らず、罪喰い化のことをしつこく聞いてごめんって。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_205&lt;tab&gt;……そうだな。
 でも、不安だった気持ちは本当なんだろ？
-あんまり、自分の本心を押し殺す必要はないと思うぜ。</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_206&lt;tab&gt;……ぼくは、この世界のことを、なにも知りません。
+あんまり、自分の本心を押し殺す必要はないと思うぜ。</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_206&lt;tab&gt;……ぼくは、この世界のことを、なにも知りません。
 ぼくのことを知っている人も見つからなかった……。
-このまま、ずっと、独りぼっちなんでしょうか。</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_207&lt;tab&gt;悔しい、せめて、記憶が戻れば……！
+このまま、ずっと、独りぼっちなんでしょうか。</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_207&lt;tab&gt;悔しい、せめて、記憶が戻れば……！
 そうすれば、ぼくのことを知っている人のことも思い出せる。
-独りかもしれないって、不安で、寂しくて……もう嫌だ！</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_LUCKBA421_03625_MAGELEADER_000_208&lt;tab&gt;次はお前だ、テイナー。
-……ほら、一度の失敗くらいで、弱気になるんじゃない。</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_LUCKBA421_03625_NYELBERT_000_209&lt;tab&gt;(-利発そうな少年-)大丈夫だよ、僕も君も、持ってる魔力の量はほとんど同じなんだ。
-集中すれば、簡単さ。</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_210&lt;tab&gt;わかった……ナイルベルト。
-やってみるよ。</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_211&lt;tab&gt;おい、急にどうしたんだ……？</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_212&lt;tab&gt;そうだ……ぼく、前にもこうして荒野で悔しくて立ち尽くしてた。
-でも、あのとき隣にいたのは、ナイルベルトで……。</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_213&lt;tab&gt;……あれ、ナイルベルトって……？</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_214&lt;tab&gt;……何が起きたのか知らんが、ここは相談の場所には不向きだ。
-ひとまず、旅立ちの宿に戻ろうや。</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_220&lt;tab&gt;そうだ、彼にも謝らないと……。</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_225&lt;tab&gt;難しいことを相談する前に、
-子どもたち同士、話をつけさせてやろう。</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_240&lt;tab&gt;テイナー、無事でよかった……。
-さっきはヒドイこと言って、ごめん……！</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_241&lt;tab&gt;ぼくこそ、ごめん……。
-それと……外に飛び出して、少しだけ記憶が戻ったよ。</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_242&lt;tab&gt;本当に！？
-やったじゃん！　不安な気持ち……これで減ったね。</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_243&lt;tab&gt;ボク、これからはクリスタリウムで暮らすんだ。
-記憶が戻って落ち着いたら、遊びにおいでよ。</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_244&lt;tab&gt;うん、約束するよ……。
-きっと会いに行くから。</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_245&lt;tab&gt;ひとつ約束も増えたところで「モルド・スーク」へ戻るぞ。
-整理することが、大量にあるからな。</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_260&lt;tab&gt;記憶の中の……彼とも、
-さっきみたいな約束をしたりしたのかな。</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_280&lt;tab&gt;さて……。
+独りかもしれないって、不安で、寂しくて……もう嫌だ！</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_MAGELEADER_000_208&lt;tab&gt;次はお前だ、テイナー。
+……ほら、一度の失敗くらいで、弱気になるんじゃない。</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_NYELBERT_000_209&lt;tab&gt;(-利発そうな少年-)大丈夫だよ、僕も君も、持ってる魔力の量はほとんど同じなんだ。
+集中すれば、簡単さ。</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_210&lt;tab&gt;わかった……ナイルベルト。
+やってみるよ。</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_211&lt;tab&gt;おい、急にどうしたんだ……？</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_212&lt;tab&gt;そうだ……ぼく、前にもこうして荒野で悔しくて立ち尽くしてた。
+でも、あのとき隣にいたのは、ナイルベルトで……。</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_213&lt;tab&gt;……あれ、ナイルベルトって……？</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_214&lt;tab&gt;……何が起きたのか知らんが、ここは相談の場所には不向きだ。
+ひとまず、旅立ちの宿に戻ろうや。</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_220&lt;tab&gt;そうだ、彼にも謝らないと……。</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_225&lt;tab&gt;難しいことを相談する前に、
+子どもたち同士、話をつけさせてやろう。</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_240&lt;tab&gt;テイナー、無事でよかった……。
+さっきはヒドイこと言って、ごめん……！</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_241&lt;tab&gt;ぼくこそ、ごめん……。
+それと……外に飛び出して、少しだけ記憶が戻ったよ。</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_242&lt;tab&gt;本当に！？
+やったじゃん！　不安な気持ち……これで減ったね。</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_SHADOWYBOY03625_000_243&lt;tab&gt;ボク、これからはクリスタリウムで暮らすんだ。
+記憶が戻って落ち着いたら、遊びにおいでよ。</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_244&lt;tab&gt;うん、約束するよ……。
+きっと会いに行くから。</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_245&lt;tab&gt;ひとつ約束も増えたところで「モルド・スーク」へ戻るぞ。
+整理することが、大量にあるからな。</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_260&lt;tab&gt;記憶の中の……彼とも、
+さっきみたいな約束をしたりしたのかな。</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_280&lt;tab&gt;さて……。
 お前が目眩を起こした直後、テイナーの記憶が甦った。
-あのとき何が起きていたのか、しっかり話してもらおうか。</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_290&lt;tab&gt;過去を視る力、ねえ……。</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_100_290&lt;tab&gt;実際、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;の視た過去は、
-テイナーの思い出した内容と一致しているんだな？</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_291&lt;tab&gt;……これは、とんでもないことだぜ。
-過去視の中でテイナーと一緒にいた「ナイルベルト」。</target></trans-unit><trans-unit id="147" approved="yes"><source>147</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_292&lt;tab&gt;それは、かつての「光の戦士」であり、
+あのとき何が起きていたのか、しっかり話してもらおうか。</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_290&lt;tab&gt;過去を視る力、ねえ……。</target>
+			</trans-unit>
+			<trans-unit id="145" approved="yes">
+				<source>145</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_100_290&lt;tab&gt;実際、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;の視た過去は、
+テイナーの思い出した内容と一致しているんだな？</target>
+			</trans-unit>
+			<trans-unit id="146" approved="yes">
+				<source>146</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_291&lt;tab&gt;……これは、とんでもないことだぜ。
+過去視の中でテイナーと一緒にいた「ナイルベルト」。</target>
+			</trans-unit>
+			<trans-unit id="147" approved="yes">
+				<source>147</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_292&lt;tab&gt;それは、かつての「光の戦士」であり、
 今は、はぐれ罪喰い「プロネーシス」と化している男の名だ！
-そいつの少年時代となると、100年以上昔ってことだぞ……！</target></trans-unit><trans-unit id="148" approved="yes"><source>148</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_293&lt;tab&gt;同姓同名の別人だと思いたいが……
+そいつの少年時代となると、100年以上昔ってことだぞ……！</target>
+			</trans-unit>
+			<trans-unit id="148" approved="yes">
+				<source>148</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_293&lt;tab&gt;同姓同名の別人だと思いたいが……
 そんな大罪人の名を、子どもにつける親なんざいやしない。
-……同一人物だと考えるしかないだろうな。</target></trans-unit><trans-unit id="149" approved="yes"><source>149</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_294&lt;tab&gt;ここへ戻るまでに、もう少し思い出したことがあります。
-ぼくとナイルベルトが一緒にいた魔道士について……。</target></trans-unit><trans-unit id="150" approved="yes"><source>150</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_295&lt;tab&gt;魔道士は、ひとりではなく集団で……次元に穴を開ける術、
+……同一人物だと考えるしかないだろうな。</target>
+			</trans-unit>
+			<trans-unit id="149" approved="yes">
+				<source>149</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_294&lt;tab&gt;ここへ戻るまでに、もう少し思い出したことがあります。
+ぼくとナイルベルトが一緒にいた魔道士について……。</target>
+			</trans-unit>
+			<trans-unit id="150" approved="yes">
+				<source>150</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_295&lt;tab&gt;魔道士は、ひとりではなく集団で……次元に穴を開ける術、
 つまり「虚ろ」を生み出す方法を研究していました。
-そして、その術者に選ばれたのが、ぼくらふたり……。</target></trans-unit><trans-unit id="151" approved="yes"><source>151</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_296&lt;tab&gt;マジかよ……。
+そして、その術者に選ばれたのが、ぼくらふたり……。</target>
+			</trans-unit>
+			<trans-unit id="151" approved="yes">
+				<source>151</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_296&lt;tab&gt;マジかよ……。
 つまり、プロネーシスが「虚ろ」を生み出せるのは、
-生前に修得していた術に起因していたってことか。</target></trans-unit><trans-unit id="152" approved="yes"><source>152</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_297&lt;tab&gt;そして、テイナーが「虚ろ」の中で生存できたのは、
+生前に修得していた術に起因していたってことか。</target>
+			</trans-unit>
+			<trans-unit id="152" approved="yes">
+				<source>152</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_297&lt;tab&gt;そして、テイナーが「虚ろ」の中で生存できたのは、
 ナイルベルトと同様に、それを操る術を学んでいたから……と。
-……だが、なぜテイナーだけが子どものままなんだ？</target></trans-unit><trans-unit id="153" approved="yes"><source>153</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_298&lt;tab&gt;……わかりません。
+……だが、なぜテイナーだけが子どものままなんだ？</target>
+			</trans-unit>
+			<trans-unit id="153" approved="yes">
+				<source>153</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_298&lt;tab&gt;……わかりません。
 ですが、もっと記憶が戻れば、ふたりが求めていた、
-「虚ろ」を封じる方法がわかるかも……。</target></trans-unit><trans-unit id="154" approved="yes"><source>154</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_299&lt;tab&gt;たしかに、その可能性はあるだろうが、無理はするなよ。
-ゆっくり思い出せばいい……その間は俺が面倒見てやる。</target></trans-unit><trans-unit id="155" approved="yes"><source>155</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_300&lt;tab&gt;……ただの被害者だと思っていたテイナーが、
+「虚ろ」を封じる方法がわかるかも……。</target>
+			</trans-unit>
+			<trans-unit id="154" approved="yes">
+				<source>154</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_299&lt;tab&gt;たしかに、その可能性はあるだろうが、無理はするなよ。
+ゆっくり思い出せばいい……その間は俺が面倒見てやる。</target>
+			</trans-unit>
+			<trans-unit id="155" approved="yes">
+				<source>155</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_300&lt;tab&gt;……ただの被害者だと思っていたテイナーが、
 過去にプロネーシス……いや、この場合はナイルベルトか？
-とにかく、奴と繋がっていたとわかったんだ。</target></trans-unit><trans-unit id="156" approved="yes"><source>156</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_301&lt;tab&gt;俺たちの目的がプロネーシスの打倒である以上、
+とにかく、奴と繋がっていたとわかったんだ。</target>
+			</trans-unit>
+			<trans-unit id="156" approved="yes">
+				<source>156</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_301&lt;tab&gt;俺たちの目的がプロネーシスの打倒である以上、
 関係者であるテイナーを放置しては、進められんだろう。
-世話は、俺たちですべきだと考え直したのさ。</target></trans-unit><trans-unit id="157" approved="yes"><source>157</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_100_301&lt;tab&gt;しかも……俺たちのため、
-懸命に、記憶を取り戻そうとまでしてくれているんだからよ。</target></trans-unit><trans-unit id="158" approved="yes"><source>158</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_302&lt;tab&gt;とはいえ、あせっても仕方ない。
+世話は、俺たちですべきだと考え直したのさ。</target>
+			</trans-unit>
+			<trans-unit id="157" approved="yes">
+				<source>157</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_100_301&lt;tab&gt;しかも……俺たちのため、
+懸命に、記憶を取り戻そうとまでしてくれているんだからよ。</target>
+			</trans-unit>
+			<trans-unit id="158" approved="yes">
+				<source>158</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_302&lt;tab&gt;とはいえ、あせっても仕方ない。
 今しばらくは、テイナーの記憶が戻るのを待ちつつ、
-各々、決戦に備えて修行でもしておこう……。</target></trans-unit><trans-unit id="159" approved="yes"><source>159</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_100_302&lt;tab&gt;……って、勝手に話を進めちまったな。
-もちろん、テイナーがよければだが……。</target></trans-unit><trans-unit id="160" approved="yes"><source>160</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_303&lt;tab&gt;えっと……あの、ごめんなさい。
-ぼくなんかを……。</target></trans-unit><trans-unit id="161" approved="yes"><source>161</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_304&lt;tab&gt;おっと……！　俺の世話を受け入れてくれるのなら、
-その「ごめんなさい」とか「ぼくなんか」はやめてくれ。</target></trans-unit><trans-unit id="162" approved="yes"><source>162</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_305&lt;tab&gt;この短い間でも、お前が年齢の割に聞き分けがよくて……
-内に溜め込む性格だってのは、よくわかった。</target></trans-unit><trans-unit id="163" approved="yes"><source>163</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_306&lt;tab&gt;だが、俺たちだって、自分の目的のためにお前を保護するんだ。
+各々、決戦に備えて修行でもしておこう……。</target>
+			</trans-unit>
+			<trans-unit id="159" approved="yes">
+				<source>159</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_100_302&lt;tab&gt;……って、勝手に話を進めちまったな。
+もちろん、テイナーがよければだが……。</target>
+			</trans-unit>
+			<trans-unit id="160" approved="yes">
+				<source>160</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_303&lt;tab&gt;えっと……あの、ごめんなさい。
+ぼくなんかを……。</target>
+			</trans-unit>
+			<trans-unit id="161" approved="yes">
+				<source>161</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_304&lt;tab&gt;おっと……！　俺の世話を受け入れてくれるのなら、
+その「ごめんなさい」とか「ぼくなんか」はやめてくれ。</target>
+			</trans-unit>
+			<trans-unit id="162" approved="yes">
+				<source>162</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_305&lt;tab&gt;この短い間でも、お前が年齢の割に聞き分けがよくて……
+内に溜め込む性格だってのは、よくわかった。</target>
+			</trans-unit>
+			<trans-unit id="163" approved="yes">
+				<source>163</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_306&lt;tab&gt;だが、俺たちだって、自分の目的のためにお前を保護するんだ。
 だから、ここはひとつ同盟関係だとでも思ってくれ。
-互いを助け合う、仲間ってわけだな。</target></trans-unit><trans-unit id="164" approved="yes"><source>164</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_307&lt;tab&gt;えっと……じゃあ……。</target></trans-unit><trans-unit id="165" approved="yes"><source>165</source><target state="final">TEXT_LUCKBA421_03625_TAYNOR_000_308&lt;tab&gt;ありがとう、ございます。
-それと……これから、よろしくおねがいします。</target></trans-unit><trans-unit id="166" approved="yes"><source>166</source><target state="final">TEXT_LUCKBA421_03625_CERIGG_000_309&lt;tab&gt;上出来だ。
-こちらこそ、よろしく頼む。</target></trans-unit></body></file></xliff>
+互いを助け合う、仲間ってわけだな。</target>
+			</trans-unit>
+			<trans-unit id="164" approved="yes">
+				<source>164</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_307&lt;tab&gt;えっと……じゃあ……。</target>
+			</trans-unit>
+			<trans-unit id="165" approved="yes">
+				<source>165</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_TAYNOR_000_308&lt;tab&gt;ありがとう、ございます。
+それと……これから、よろしくおねがいします。</target>
+			</trans-unit>
+			<trans-unit id="166" approved="yes">
+				<source>166</source>
+				<target state="final" xml:space="preserve">TEXT_LUCKBA421_03625_CERIGG_000_309&lt;tab&gt;上出来だ。
+こちらこそ、よろしく頼む。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

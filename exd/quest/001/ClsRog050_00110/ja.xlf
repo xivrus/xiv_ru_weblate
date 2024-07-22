@@ -1,142 +1,648 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="ClsRog050_00110" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_CLSROG050_00110_SEQ_00&lt;tab&gt;双剣士ギルドのジャックは、冒険者に初仕事を任せたいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_CLSROG050_00110_SEQ_01&lt;tab&gt;ジャックから、初仕事を任せられた。今回の相棒となる、双剣士ギルドの「ペリム・ハウリム」と話そう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_CLSROG050_00110_SEQ_02&lt;tab&gt;ペリム・ハウリムから、肩慣らしをするように言われた。攻撃を避けることを意識しながら、低地ラノシアにいる「&lt;var 28 ((BNpcName)) F2023301 /var&gt;」を3匹討伐しよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_CLSROG050_00110_SEQ_03&lt;tab&gt;&lt;var 28 ((BNpcName)) F2023301 /var&gt;を討伐した。双剣士ギルドの「ペリム・ハウリム」に報告しよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_CLSROG050_00110_SEQ_04&lt;tab&gt;ペリム・ハウリムに報告すると、いよいよ仕事をはじめることになった。リムサ・ロミンサの溺れた海豚亭にいる「イ・トルワン」に、「薄めたエール」を注文してみよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_CLSROG050_00110_SEQ_05&lt;tab&gt;注文を受けたイ・トルワンは双剣士で、仕事に関する情報を提供してくれた。標的の「撃滅粉砕団」は、中央ラノシアのサマーフォードにある、ゴブリン族のキャンプを使っているらしい。キャンプ周辺で「ペリム・ハウリム」と合流しよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_CLSROG050_00110_SEQ_06&lt;tab&gt;ペリム・ハウリムと合流し、キャンプに襲撃を仕掛けることになった。ゴブリン族のキャンプにいる「&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;」を討伐して、「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪還しよう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_CLSROG050_00110_SEQ_07&lt;tab&gt;&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;から&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を奪還した。キャンプ周辺の「ペリム・ハウリム」に「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を見せよう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_CLSROG050_00110_SEQ_08&lt;tab&gt;ペリム・ハウリムに、奪還した品を確認してもらった。双剣士ギルドの「ジャック」に「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を渡そう。</target></trans-unit><trans-unit id="9" approved="yes"><source>9</source><target state="final">TEXT_CLSROG050_00110_SEQ_09&lt;tab&gt;ジャックに&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を渡した。冒険者をつけてきた「撃滅粉砕団」によって、かつて双剣士がシーフと呼ばれていたことが明らかになった。双剣士ギルドの「ジャック」に詳しい事情を聞こう。</target></trans-unit><trans-unit id="10" approved="yes"><source>10</source><target state="final">TEXT_CLSROG050_00110_SEQ_10&lt;tab&gt;ジャックから、双剣士ギルドの成立ちについて説明された。名前は変われど、双剣士の役目は変わらない。次の仕事も成功させられるよう、腕を磨いていこう。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="ClsRog050_00110" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_00&lt;tab&gt;双剣士ギルドのジャックは、冒険者に初仕事を任せたいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_01&lt;tab&gt;ジャックから、初仕事を任せられた。今回の相棒となる、双剣士ギルドの「ペリム・ハウリム」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_02&lt;tab&gt;ペリム・ハウリムから、肩慣らしをするように言われた。攻撃を避けることを意識しながら、低地ラノシアにいる「&lt;var 28 ((BNpcName)) F2023301 /var&gt;」を3匹討伐しよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_03&lt;tab&gt;&lt;var 28 ((BNpcName)) F2023301 /var&gt;を討伐した。双剣士ギルドの「ペリム・ハウリム」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_04&lt;tab&gt;ペリム・ハウリムに報告すると、いよいよ仕事をはじめることになった。リムサ・ロミンサの溺れた海豚亭にいる「イ・トルワン」に、「薄めたエール」を注文してみよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_05&lt;tab&gt;注文を受けたイ・トルワンは双剣士で、仕事に関する情報を提供してくれた。標的の「撃滅粉砕団」は、中央ラノシアのサマーフォードにある、ゴブリン族のキャンプを使っているらしい。キャンプ周辺で「ペリム・ハウリム」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_06&lt;tab&gt;ペリム・ハウリムと合流し、キャンプに襲撃を仕掛けることになった。ゴブリン族のキャンプにいる「&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;」を討伐して、「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪還しよう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_07&lt;tab&gt;&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;から&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を奪還した。キャンプ周辺の「ペリム・ハウリム」に「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を見せよう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_08&lt;tab&gt;ペリム・ハウリムに、奪還した品を確認してもらった。双剣士ギルドの「ジャック」に「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を渡そう。</target>
+			</trans-unit>
+			<trans-unit id="9" approved="yes">
+				<source>9</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_09&lt;tab&gt;ジャックに&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を渡した。冒険者をつけてきた「撃滅粉砕団」によって、かつて双剣士がシーフと呼ばれていたことが明らかになった。双剣士ギルドの「ジャック」に詳しい事情を聞こう。</target>
+			</trans-unit>
+			<trans-unit id="10" approved="yes">
+				<source>10</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_SEQ_10&lt;tab&gt;ジャックから、双剣士ギルドの成立ちについて説明された。名前は変われど、双剣士の役目は変わらない。次の仕事も成功させられるよう、腕を磨いていこう。
 
-※双剣士のレベルが10以上になると、ジャックから次の双剣士クエストを受注することができます。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_CLSROG050_00110_TODO_00&lt;tab&gt;ペリム・ハウリムと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_CLSROG050_00110_TODO_01&lt;tab&gt;&lt;var 28 ((BNpcName)) F2023301 /var&gt;を討伐</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_CLSROG050_00110_TODO_02&lt;tab&gt;双剣士ギルドのペリム・ハウリムに報告</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_CLSROG050_00110_TODO_03&lt;tab&gt;溺れた海豚亭のイ・トルワンと話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_CLSROG050_00110_TODO_04&lt;tab&gt;サマーフォード付近のペリム・ハウリムと話す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_CLSROG050_00110_TODO_05&lt;tab&gt;&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;から&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を奪還する</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_CLSROG050_00110_TODO_06&lt;tab&gt;ペリム・ハウリムに&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を見せる</target></trans-unit><trans-unit id="31" approved="yes"><source>31</source><target state="final">TEXT_CLSROG050_00110_TODO_07&lt;tab&gt;双剣士ギルドのジャックに&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を渡す</target></trans-unit><trans-unit id="32" approved="yes"><source>32</source><target state="final">TEXT_CLSROG050_00110_TODO_08&lt;tab&gt;ジャックと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_000&lt;tab&gt;よう、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
-双剣の扱いには、それなりに慣れてきたみたいだな。</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_001&lt;tab&gt;そろそろ、簡単な仕事なら任せられそうだ。
-さっそく、双剣士として腕を発揮してもらおうじゃねぇか。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_002&lt;tab&gt;今回の仕事は……そうだな……
-お前は、よそから来た冒険者だし、前提から説明しとこう。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_003&lt;tab&gt;知ってのとおり、リムサ・ロミンサは海賊業で発展した国だが、
+※双剣士のレベルが10以上になると、ジャックから次の双剣士クエストを受注することができます。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_00&lt;tab&gt;ペリム・ハウリムと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_01&lt;tab&gt;&lt;var 28 ((BNpcName)) F2023301 /var&gt;を討伐</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_02&lt;tab&gt;双剣士ギルドのペリム・ハウリムに報告</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_03&lt;tab&gt;溺れた海豚亭のイ・トルワンと話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_04&lt;tab&gt;サマーフォード付近のペリム・ハウリムと話す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_05&lt;tab&gt;&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;から&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を奪還する</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_06&lt;tab&gt;ペリム・ハウリムに&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を見せる</target>
+			</trans-unit>
+			<trans-unit id="31" approved="yes">
+				<source>31</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_07&lt;tab&gt;双剣士ギルドのジャックに&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;を渡す</target>
+			</trans-unit>
+			<trans-unit id="32" approved="yes">
+				<source>32</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_TODO_08&lt;tab&gt;ジャックと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_000&lt;tab&gt;よう、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+双剣の扱いには、それなりに慣れてきたみたいだな。</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_001&lt;tab&gt;そろそろ、簡単な仕事なら任せられそうだ。
+さっそく、双剣士として腕を発揮してもらおうじゃねぇか。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_002&lt;tab&gt;今回の仕事は……そうだな……
+お前は、よそから来た冒険者だし、前提から説明しとこう。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_003&lt;tab&gt;知ってのとおり、リムサ・ロミンサは海賊業で発展した国だが、
 メルウィブ提督が就任してからは、
-海賊行為が全面的に禁止されている。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_004&lt;tab&gt;そのくせ、街に海賊があふれてるのは何故だと思う？
-……ひとつだけ、海賊行為が認められる方法があるからさ。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_005&lt;tab&gt;それが、政庁の発行する「私掠免許」の取得……。
-ガレマール帝国の船にかぎっては、略奪を認めるって証だよ。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_006&lt;tab&gt;帝国にかぎると言っても、属州まで含めるとデカいからな……。
-海賊も、襲う船には事欠かないってわけだ。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_007&lt;tab&gt;そうやって略奪された品は、
+海賊行為が全面的に禁止されている。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_004&lt;tab&gt;そのくせ、街に海賊があふれてるのは何故だと思う？
+……ひとつだけ、海賊行為が認められる方法があるからさ。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_005&lt;tab&gt;それが、政庁の発行する「私掠免許」の取得……。
+ガレマール帝国の船にかぎっては、略奪を認めるって証だよ。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_006&lt;tab&gt;帝国にかぎると言っても、属州まで含めるとデカいからな……。
+海賊も、襲う船には事欠かないってわけだ。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_007&lt;tab&gt;そうやって略奪された品は、
 港に戻ってから売買されるんだが……
-今回、その取引の中で事件が起きた。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_008&lt;tab&gt;ある海賊団が売りに出そうとした魔導兵器の部品、
+今回、その取引の中で事件が起きた。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_008&lt;tab&gt;ある海賊団が売りに出そうとした魔導兵器の部品、
 「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」って代物を、
-口八丁で、だましとった連中がいるんだ。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_009&lt;tab&gt;これは「掟」のひとつ、
+口八丁で、だましとった連中がいるんだ。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_009&lt;tab&gt;これは「掟」のひとつ、
 「略奪品の取引で詐欺を行うべからず」に反する。
-……そこで、「掟」の番人である双剣士の出番ってわけだ。</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_010&lt;tab&gt;お、ちょうどいいところに……。
-こっちへ来い、ペリム・ハウリム！</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_011&lt;tab&gt;今から、お前らは相棒同士だ。
+……そこで、「掟」の番人である双剣士の出番ってわけだ。</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_010&lt;tab&gt;お、ちょうどいいところに……。
+こっちへ来い、ペリム・ハウリム！</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_011&lt;tab&gt;今から、お前らは相棒同士だ。
 ふたりで協力し、詐欺を働いた掟破りをシメて、
-「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪還してこい！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_012&lt;tab&gt;うぇぇっ！？
-オレも行くんですか！？</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_013&lt;tab&gt;お前は新人係だろ！
+「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪還してこい！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_012&lt;tab&gt;うぇぇっ！？
+オレも行くんですか！？</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_013&lt;tab&gt;お前は新人係だろ！
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;にとっちゃ初仕事だ。
-最初くらい、きっちり見てやれよ？</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_014&lt;tab&gt;し、新人係って……そんなの初耳ですよ……。
-アニキは、いつでも無茶言うんだから……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_015&lt;tab&gt;ああ……えっと……
+最初くらい、きっちり見てやれよ？</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_014&lt;tab&gt;し、新人係って……そんなの初耳ですよ……。
+アニキは、いつでも無茶言うんだから……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_015&lt;tab&gt;ああ……えっと……
 一応、あんたの先輩にあたる「ペリム・ハウリム」です。
-どうぞよろしく。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_016&lt;tab&gt;心配しなくても、こいつ、腕は確かだぜ。
-指示を聞いて、必ず仕事をやりとげてくれ。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_020&lt;tab&gt;さてと……。
+どうぞよろしく。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_016&lt;tab&gt;心配しなくても、こいつ、腕は確かだぜ。
+指示を聞いて、必ず仕事をやりとげてくれ。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_020&lt;tab&gt;さてと……。
 初仕事といっても、失敗したらアニキが怖いんで、
-先に肩慣らしをしておきましょうか。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_021&lt;tab&gt;もうわかってると思いますが、
+先に肩慣らしをしておきましょうか。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_021&lt;tab&gt;もうわかってると思いますが、
 双剣で戦うときは、標的に近づかなきゃなりません。
-だけど、オレたちは、打たれ強いわけじゃない……。</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_022&lt;tab&gt;だから「避けられる攻撃は避ける」が基本です！
-相手が攻撃してくる予兆を感じたら、距離をとってください。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_100_022&lt;tab&gt;いざってときには「残影」を使うといいですよ。
+だけど、オレたちは、打たれ強いわけじゃない……。</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_022&lt;tab&gt;だから「避けられる攻撃は避ける」が基本です！
+相手が攻撃してくる予兆を感じたら、距離をとってください。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_100_022&lt;tab&gt;いざってときには「残影」を使うといいですよ。
 すばやい動きは影を残して、相手を惑わす……。
-強力な攻撃を、多少なりとも逸らせますから。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_023&lt;tab&gt;……それを意識しながら、低地ラノシアにいる
+強力な攻撃を、多少なりとも逸らせますから。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_023&lt;tab&gt;……それを意識しながら、低地ラノシアにいる
 「&lt;var 28 ((BNpcName)) F2023301 /var&gt;」を3匹、倒してきてもらえますか？
-あいつらの一撃は痛いので、油断しないでくださいね！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_030&lt;tab&gt;攻撃を避けることを意識しながら、低地ラノシアにいる
+あいつらの一撃は痛いので、油断しないでくださいね！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_030&lt;tab&gt;攻撃を避けることを意識しながら、低地ラノシアにいる
 「&lt;var 28 ((BNpcName)) F2023301 /var&gt;」を3匹、倒してきてもらえますか？
-あいつらの一撃は痛いので、油断しないでくださいね！</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_040&lt;tab&gt;肩慣らしは済んだようですね、おつかれさま！
+あいつらの一撃は痛いので、油断しないでくださいね！</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_040&lt;tab&gt;肩慣らしは済んだようですね、おつかれさま！
 どうです？　ちゃんと攻撃を避けられました？
-どんな戦況でも焦らないよう、基本は大事に……です！</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_041&lt;tab&gt;……それじゃ、体も緊張もほぐれたようですし、
-仕事を始めましょうか！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_042&lt;tab&gt;まずは、「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」をだましとった犯人を
-突き止める必要がありますね……。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_043&lt;tab&gt;オレたち双剣士は、各地に仲間を散らして、
+どんな戦況でも焦らないよう、基本は大事に……です！</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_041&lt;tab&gt;……それじゃ、体も緊張もほぐれたようですし、
+仕事を始めましょうか！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_042&lt;tab&gt;まずは、「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」をだましとった犯人を
+突き止める必要がありますね……。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_043&lt;tab&gt;オレたち双剣士は、各地に仲間を散らして、
 仕事に関する情報を集めてるんです。
-今回の犯人についても、何か情報を掴んでるかも！</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_044&lt;tab&gt;さっそく、仲間に尋ねてみましょうか。
+今回の犯人についても、何か情報を掴んでるかも！</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_044&lt;tab&gt;さっそく、仲間に尋ねてみましょうか。
 溺れた海豚亭にいる、給仕の「イ・トルワン」に、
-「薄めたエール」を注文してみてください。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_045&lt;tab&gt;……大丈夫、頼んでみればわかります。
-マズい思いはさせませんよ！</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_050&lt;tab&gt;注文は「薄めたエール」ですよ。
-……大丈夫、頼んでみればわかります。</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_060&lt;tab&gt;いらっしゃいませ、溺れた海豚亭へようこそ！
-ご注文は何になさいますか？</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_CLSROG050_00110_Q1_000_061&lt;tab&gt;注文は……</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_CLSROG050_00110_A1_000_062&lt;tab&gt;冷えたエール</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_CLSROG050_00110_A1_000_063&lt;tab&gt;強烈なエール</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_CLSROG050_00110_A1_000_064&lt;tab&gt;薄めたエール</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_070&lt;tab&gt;はい、かしこまりました。
+「薄めたエール」を注文してみてください。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_045&lt;tab&gt;……大丈夫、頼んでみればわかります。
+マズい思いはさせませんよ！</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_050&lt;tab&gt;注文は「薄めたエール」ですよ。
+……大丈夫、頼んでみればわかります。</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_060&lt;tab&gt;いらっしゃいませ、溺れた海豚亭へようこそ！
+ご注文は何になさいますか？</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_Q1_000_061&lt;tab&gt;注文は……</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_A1_000_062&lt;tab&gt;冷えたエール</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_A1_000_063&lt;tab&gt;強烈なエール</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_A1_000_064&lt;tab&gt;薄めたエール</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_070&lt;tab&gt;はい、かしこまりました。
 席について、少々お待ちくださいね。
-……あら、ご注文を変更するのですか？</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_080&lt;tab&gt;あらまぁ、おかしな注文ですね！
-うちは安酒は出しますが、酔えない酒は出さない主義ですよ。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_081&lt;tab&gt;酔うつもりのないあなたは、さしずめ仕事の虜かしら？
-エールの代わりに、情報はいかがです？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_082&lt;tab&gt;ふふ、私も双剣士ギルドの一員なんです。
+……あら、ご注文を変更するのですか？</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_080&lt;tab&gt;あらまぁ、おかしな注文ですね！
+うちは安酒は出しますが、酔えない酒は出さない主義ですよ。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_081&lt;tab&gt;酔うつもりのないあなたは、さしずめ仕事の虜かしら？
+エールの代わりに、情報はいかがです？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_082&lt;tab&gt;ふふ、私も双剣士ギルドの一員なんです。
 今はこうして給仕をしながら、情報を集めています。
-……それで、あなたは何を聞きに？</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_083&lt;tab&gt;……なるほど、「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪った犯人ですね。
-それなら、目星がついていますよ。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_084&lt;tab&gt;犯人と思われるのは「撃滅粉砕団」という、
+……それで、あなたは何を聞きに？</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_083&lt;tab&gt;……なるほど、「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪った犯人ですね。
+それなら、目星がついていますよ。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_084&lt;tab&gt;犯人と思われるのは「撃滅粉砕団」という、
 奇妙な名をした海賊あがりの荒くれ者たち……。
-近頃、帝国製の機械を探し回っているようです。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_085&lt;tab&gt;彼らの特徴は、ゴブリン族と結託していること。
+近頃、帝国製の機械を探し回っているようです。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_085&lt;tab&gt;彼らの特徴は、ゴブリン族と結託していること。
 ゴブリン族に上納品を渡すことで、
-中央ラノシアにあるキャンプを使っているのだとか……。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_086&lt;tab&gt;その上納品というのが、帝国製の機械なんです。
+中央ラノシアにあるキャンプを使っているのだとか……。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_086&lt;tab&gt;その上納品というのが、帝国製の機械なんです。
 ゴブリン族は、機械いじりが大好きですからね。
-「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」も大喜びで受け取るでしょう。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_087&lt;tab&gt;装置を奪還するおつもりなら、サマーフォードへ……。
+「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」も大喜びで受け取るでしょう。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_087&lt;tab&gt;装置を奪還するおつもりなら、サマーフォードへ……。
 そこに、「撃滅粉砕団」が使っている、
-ゴブリン族のキャンプがあるはずです。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_088&lt;tab&gt;それじゃあ、そのキャンプの近くで合流しましょう。
-姑息な相手みたいですから、慎重にいかないと……。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_CLSROG050_00110_ITOLWANN_000_090&lt;tab&gt;装置を奪還するおつもりなら、サマーフォードへ……。
+ゴブリン族のキャンプがあるはずです。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_088&lt;tab&gt;それじゃあ、そのキャンプの近くで合流しましょう。
+姑息な相手みたいですから、慎重にいかないと……。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_ITOLWANN_000_090&lt;tab&gt;装置を奪還するおつもりなら、サマーフォードへ……。
 そこに、「撃滅粉砕団」が使っている、
-ゴブリン族のキャンプがあるはずです。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_100&lt;tab&gt;ああ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+ゴブリン族のキャンプがあるはずです。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_100&lt;tab&gt;ああ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
 川の向こうにあるのが、「撃滅粉砕団」が使っている、
-ゴブリン族のキャンプみたいですよ……。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_101&lt;tab&gt;肝心の「撃滅粉砕団」らしき姿は見えないけど……
+ゴブリン族のキャンプみたいですよ……。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_101&lt;tab&gt;肝心の「撃滅粉砕団」らしき姿は見えないけど……
 キャンプにいる「&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;」が、
-「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を背嚢にしまったのが見えました。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_102&lt;tab&gt;イ・トルワンの情報は、大当たりってことですね……！
+「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を背嚢にしまったのが見えました。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_102&lt;tab&gt;イ・トルワンの情報は、大当たりってことですね……！
 逃げられないうちに「&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;」を倒して、
-「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪還しましょう！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_103&lt;tab&gt;ゴブリン族といえば、強力な爆弾の使い手です。
+「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪還しましょう！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_103&lt;tab&gt;ゴブリン族といえば、強力な爆弾の使い手です。
 あれは「残影」でも逸らしきれないかもしれません。
-距離をとって避けることを意識してくださいね！</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_110&lt;tab&gt;まずは、お手並み拝見です！
+距離をとって避けることを意識してくださいね！</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_110&lt;tab&gt;まずは、お手並み拝見です！
 「&lt;var 28 ((BNpcName)) F20C1B01 /var&gt;」を倒して、
-「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪還してください。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_120&lt;tab&gt;やるじゃないですか！
+「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」を奪還してください。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_120&lt;tab&gt;やるじゃないですか！
 オレの出番なんてありませんでしたよ。
-……それで、「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」は奪還できましたか？</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_121&lt;tab&gt;うんうん、間違いなく目的の品です。
-結果は上々ですね！</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_122&lt;tab&gt;それじゃあ、一度、ギルドに戻りましょうか。
+……それで、「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」は奪還できましたか？</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_121&lt;tab&gt;うんうん、間違いなく目的の品です。
+結果は上々ですね！</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_122&lt;tab&gt;それじゃあ、一度、ギルドに戻りましょうか。
 掟破りの「撃滅粉砕団」をシメてませんが、
-留守にしてるなら、出直すしかありませんし……。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_123&lt;tab&gt;その「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」は、
+留守にしてるなら、出直すしかありませんし……。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_123&lt;tab&gt;その「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」は、
 あんたからジャックに渡してください。
-まごうことなく、あんたの戦利品ですしね！</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_CLSROG050_00110_KOBUNA00110_000_124&lt;tab&gt;親分、俺たち「撃滅粉砕団」の大ピンチですよぉ～！
-ちょっと飲みにいってる間に、ゴブリン族が倒されちまった！</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_CLSROG050_00110_KOBUNB00110_000_125&lt;tab&gt;親分、このままじゃマズイですよぉ～！
-せっかくかっぱらった品が、持っていかれちまう～！</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_126&lt;tab&gt;グヌヌヌ……！
+まごうことなく、あんたの戦利品ですしね！</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_KOBUNA00110_000_124&lt;tab&gt;親分、俺たち「撃滅粉砕団」の大ピンチですよぉ～！
+ちょっと飲みにいってる間に、ゴブリン族が倒されちまった！</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_KOBUNB00110_000_125&lt;tab&gt;親分、このままじゃマズイですよぉ～！
+せっかくかっぱらった品が、持っていかれちまう～！</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_126&lt;tab&gt;グヌヌヌ……！
 俺様たちの持ち物に手を出そうとは、
-いい度胸をしてるじゃねぇか。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_127&lt;tab&gt;どこのどいつだか知らないが、今に後悔させてやる……！
-オイ、てめぇら！　行くぞ！</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_CLSROG050_00110_KOBUNAB00110_000_128&lt;tab&gt;(-撃滅粉砕団の手下たち-)へいっ！</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_130&lt;tab&gt;その「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」は、
+いい度胸をしてるじゃねぇか。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_127&lt;tab&gt;どこのどいつだか知らないが、今に後悔させてやる……！
+オイ、てめぇら！　行くぞ！</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_KOBUNAB00110_000_128&lt;tab&gt;(-撃滅粉砕団の手下たち-)へいっ！</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_130&lt;tab&gt;その「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」は、
 あんたからジャックに渡してください。
-まごうことなく、あんたの戦利品ですしね！</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_140&lt;tab&gt;初仕事の首尾はどうだ？
-「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」は奪還できたのかよ。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_150&lt;tab&gt;……よし、確かに。
-「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」奪還完了だ！</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_151&lt;tab&gt;出だし好調じゃねぇか、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+まごうことなく、あんたの戦利品ですしね！</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_140&lt;tab&gt;初仕事の首尾はどうだ？
+「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」は奪還できたのかよ。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_150&lt;tab&gt;……よし、確かに。
+「&lt;var 28 ((EventItem)) F61E8A6301 /var&gt;」奪還完了だ！</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_151&lt;tab&gt;出だし好調じゃねぇか、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
 これっぽっちの品でも、帝国の船から命がけで取ったものだ。
-依頼人は喜ぶだろうよ。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_152&lt;tab&gt;でも、肝心の「撃滅粉砕団」が見つかってない……。
-このままじゃ終われないですよ。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_153&lt;tab&gt;ああ……。
+依頼人は喜ぶだろうよ。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_152&lt;tab&gt;でも、肝心の「撃滅粉砕団」が見つかってない……。
+このままじゃ終われないですよ。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_153&lt;tab&gt;ああ……。
 掟破りに始末をつけるのも、俺たちの仕事だ。
-このまま、とんずらさせはしねぇ。</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_154&lt;tab&gt;(-？？？？-)オウオウオウ！
-やけに賑やかな倉庫だなぁ、オイ！</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_155&lt;tab&gt;えっと……どちら様です……？</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_156&lt;tab&gt;グハハハ！　わからねぇのも無理はねぇ！
+このまま、とんずらさせはしねぇ。</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_154&lt;tab&gt;(-？？？？-)オウオウオウ！
+やけに賑やかな倉庫だなぁ、オイ！</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_155&lt;tab&gt;えっと……どちら様です……？</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_156&lt;tab&gt;グハハハ！　わからねぇのも無理はねぇ！
 俺様たちの作戦は、常に完璧だからなぁ～！
-だが、名乗ったら……チビるぜぇ？</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_157&lt;tab&gt;俺様たちは、泣く子も黙る、新進気鋭の大悪党……
-その名も「撃滅粉砕団」だぁーーーーッ！</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_CLSROG050_00110_KOBUNA00110_000_158&lt;tab&gt;親分、いましたぜ！
-俺たちの戦利品を奪った奴でさぁ！</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_CLSROG050_00110_KOBUNB00110_000_159&lt;tab&gt;ええ、間違いないですぜ！
-俺たちの尾行に気付かずに、のこのことアジトに帰った奴だ！</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_CLSROG050_00110_KOBUNAB00110_000_160&lt;tab&gt;(-撃滅粉砕団の手下たち-)ま・ぬ・け！　ま・ぬ・け～！</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_161&lt;tab&gt;オイオイ～、そう煽ってやるなよ。
-俺様たちは、平和的な「話し合い」をしに来たんだからよぅ～？</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_162&lt;tab&gt;オウ、そこの人畜無害なツラした兄ちゃん。
-ここの責任者を呼んでくれねぇかなぁ～？</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_163&lt;tab&gt;てめぇんところの仲間が、
+だが、名乗ったら……チビるぜぇ？</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_157&lt;tab&gt;俺様たちは、泣く子も黙る、新進気鋭の大悪党……
+その名も「撃滅粉砕団」だぁーーーーッ！</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_KOBUNA00110_000_158&lt;tab&gt;親分、いましたぜ！
+俺たちの戦利品を奪った奴でさぁ！</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_KOBUNB00110_000_159&lt;tab&gt;ええ、間違いないですぜ！
+俺たちの尾行に気付かずに、のこのことアジトに帰った奴だ！</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_KOBUNAB00110_000_160&lt;tab&gt;(-撃滅粉砕団の手下たち-)ま・ぬ・け！　ま・ぬ・け～！</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_161&lt;tab&gt;オイオイ～、そう煽ってやるなよ。
+俺様たちは、平和的な「話し合い」をしに来たんだからよぅ～？</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_162&lt;tab&gt;オウ、そこの人畜無害なツラした兄ちゃん。
+ここの責任者を呼んでくれねぇかなぁ～？</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_163&lt;tab&gt;てめぇんところの仲間が、
 俺様の大事なモンを奪いやがってなぁ。
-手厚～い謝罪をしてくれねぇと、帰れないんだわぁ～？</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_164&lt;tab&gt;ほほう……俺が、人畜無害な下っ端に見えると……。</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_165&lt;tab&gt;先にひとつ聞かせてもらうが、
-お前らは、ここが「どこ」だかわかってるのか？</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_166&lt;tab&gt;アァン……？
+手厚～い謝罪をしてくれねぇと、帰れないんだわぁ～？</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_164&lt;tab&gt;ほほう……俺が、人畜無害な下っ端に見えると……。</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_165&lt;tab&gt;先にひとつ聞かせてもらうが、
+お前らは、ここが「どこ」だかわかってるのか？</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_166&lt;tab&gt;アァン……？
 どこって、「エーデルワイス商会」の倉庫だろ？
-外の倉庫番を脅したら、すぐに白状したぜぇ。</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_167&lt;tab&gt;……だとしたら、入ってくるべきじゃなかったな。
-ここは、お前の思ってる場所じゃねぇよ。</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_168&lt;tab&gt;アアッ？　てめぇ、俺様をおちょくってんのか！？
-無名商会の分際で、エラそうな口を利きやがって……！</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_169&lt;tab&gt;オイ、こいつらみんな、シメちまえ！
-俺たち「撃滅粉砕団」が、身の程ってモンを教えてやるよッ！</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_CLSROG050_00110_VKEBBE_000_170&lt;tab&gt;(-赤髪の双剣士-)身の程を知るのは、そっち……。
-あなたたちは、倉庫番に「通された」だけ……。</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_CLSROG050_00110_VKEBBE_000_171&lt;tab&gt;(-赤髪の双剣士-)倉庫番がよそ者を通す条件は、3つある。
+外の倉庫番を脅したら、すぐに白状したぜぇ。</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_167&lt;tab&gt;……だとしたら、入ってくるべきじゃなかったな。
+ここは、お前の思ってる場所じゃねぇよ。</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_168&lt;tab&gt;アアッ？　てめぇ、俺様をおちょくってんのか！？
+無名商会の分際で、エラそうな口を利きやがって……！</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_169&lt;tab&gt;オイ、こいつらみんな、シメちまえ！
+俺たち「撃滅粉砕団」が、身の程ってモンを教えてやるよッ！</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_VKEBBE_000_170&lt;tab&gt;(-赤髪の双剣士-)身の程を知るのは、そっち……。
+あなたたちは、倉庫番に「通された」だけ……。</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_VKEBBE_000_171&lt;tab&gt;(-赤髪の双剣士-)倉庫番がよそ者を通す条件は、3つある。
 ひとつ、依頼人が来たとき……。
-ふたつ、有望な新入りが来たとき……。</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_CLSROG050_00110_KOBUNB00110_000_172&lt;tab&gt;く、くそおおおお……！</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_CLSROG050_00110_KOBUNB00110_000_173&lt;tab&gt;まずは、お前からだ！</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_174&lt;tab&gt;話は最後まで聞いときましょうよ。
-倉庫番がよそ者を通す、最後の条件はですね……</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_175&lt;tab&gt;こうやって、おバカな標的が、
-自分から転がり込んできたとき……ですよ。</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_176&lt;tab&gt;そ、双剣だと……！？
-なんてこった……まさかお前らは……ッ！</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_177&lt;tab&gt;裏社会のワルに恐れられている、「掟」の番人……！
+ふたつ、有望な新入りが来たとき……。</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_KOBUNB00110_000_172&lt;tab&gt;く、くそおおおお……！</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_KOBUNB00110_000_173&lt;tab&gt;まずは、お前からだ！</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_174&lt;tab&gt;話は最後まで聞いときましょうよ。
+倉庫番がよそ者を通す、最後の条件はですね……</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_PERIMUHAURIMU_000_175&lt;tab&gt;こうやって、おバカな標的が、
+自分から転がり込んできたとき……ですよ。</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_176&lt;tab&gt;そ、双剣だと……！？
+なんてこった……まさかお前らは……ッ！</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_177&lt;tab&gt;裏社会のワルに恐れられている、「掟」の番人……！
 最近は「双剣士」だとか呼ばれてるらしいが、
-俺様が海賊だったころには、もっと怖ぇ名がついていた！</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_178&lt;tab&gt;そう、「シーフ」ッ！
-伝説の……命までをも盗む者ッ！</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_179&lt;tab&gt;あ、あ、相手が誰であろうが関係ねぇ！
-俺様は、さ、最強無敵の「撃滅粉砕団」親分ッ！</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_CLSROG050_00110_OYABUN00110_000_180&lt;tab&gt;うおおおおおおおおお！
-粉砕ッ！　粉砕ッ！　粉砕ッ！　粉砕ィィィィィッ！！</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_181&lt;tab&gt;闇にひそみ、人にまぎれるのが俺たちだ。
-……人畜無害なツラには気をつけろよ、オヤブン？</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_182&lt;tab&gt;命までは盗っちゃいねぇ。
-縛って、街の適当なとこに吊るしとけ。</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_183&lt;tab&gt;……まあ、今聞いたとおりだ。
-お前の初仕事も終わったようだし、改めて挨拶しとこうか。</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_184&lt;tab&gt;ようこそ、リムサ・ロミンサの裏側へ。
+俺様が海賊だったころには、もっと怖ぇ名がついていた！</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_178&lt;tab&gt;そう、「シーフ」ッ！
+伝説の……命までをも盗む者ッ！</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_179&lt;tab&gt;あ、あ、相手が誰であろうが関係ねぇ！
+俺様は、さ、最強無敵の「撃滅粉砕団」親分ッ！</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_OYABUN00110_000_180&lt;tab&gt;うおおおおおおおおお！
+粉砕ッ！　粉砕ッ！　粉砕ッ！　粉砕ィィィィィッ！！</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_181&lt;tab&gt;闇にひそみ、人にまぎれるのが俺たちだ。
+……人畜無害なツラには気をつけろよ、オヤブン？</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_182&lt;tab&gt;命までは盗っちゃいねぇ。
+縛って、街の適当なとこに吊るしとけ。</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_183&lt;tab&gt;……まあ、今聞いたとおりだ。
+お前の初仕事も終わったようだし、改めて挨拶しとこうか。</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_184&lt;tab&gt;ようこそ、リムサ・ロミンサの裏側へ。
 ここは双剣士ギルド……
-かつて「シーフギルド」と呼ばれた場所だ。</target></trans-unit><trans-unit id="145" approved="yes"><source>145</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_190&lt;tab&gt;いろいろと黙ってて悪かった。
+かつて「シーフギルド」と呼ばれた場所だ。</target>
+			</trans-unit>
+			<trans-unit id="145" approved="yes">
+				<source>145</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_190&lt;tab&gt;いろいろと黙ってて悪かった。
 最初にシーフの名を出すと、誤解されると思ってな……。
-改めて、このギルドの成立ちを説明させてくれ。</target></trans-unit><trans-unit id="146" approved="yes"><source>146</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_191&lt;tab&gt;……かつて、海賊が隆盛を極めていたころ。
-「掟」を守っていたのは、各海賊団から選出された精鋭だった。</target></trans-unit><trans-unit id="147" approved="yes"><source>147</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_192&lt;tab&gt;どんな状況でも奪われた品を奪還し、
+改めて、このギルドの成立ちを説明させてくれ。</target>
+			</trans-unit>
+			<trans-unit id="146" approved="yes">
+				<source>146</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_191&lt;tab&gt;……かつて、海賊が隆盛を極めていたころ。
+「掟」を守っていたのは、各海賊団から選出された精鋭だった。</target>
+			</trans-unit>
+			<trans-unit id="147" approved="yes">
+				<source>147</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_192&lt;tab&gt;どんな状況でも奪われた品を奪還し、
 ときに掟破りの罰として命まで奪うことから、
-番人たちは、盗る者……「シーフ」と呼ばれてたんだ。</target></trans-unit><trans-unit id="148" approved="yes"><source>148</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_193&lt;tab&gt;「シーフ」となることができたのは、
+番人たちは、盗る者……「シーフ」と呼ばれてたんだ。</target>
+			</trans-unit>
+			<trans-unit id="148" approved="yes">
+				<source>148</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_193&lt;tab&gt;「シーフ」となることができたのは、
 所属していた海賊団をはじめ、
-あらゆる組織から手を切った者だけ……。</target></trans-unit><trans-unit id="149" approved="yes"><source>149</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_194&lt;tab&gt;そうして、海賊から生まれたが海賊ではない集団……
-「シーフギルド」が確立されていったのさ。</target></trans-unit><trans-unit id="150" approved="yes"><source>150</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_195&lt;tab&gt;……後年、メルウィブ提督の就任にあたって、
-シーフギルドは提督の理想に賛同し、手を結ぶことにした。</target></trans-unit><trans-unit id="151" approved="yes"><source>151</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_196&lt;tab&gt;それを機に「双剣士ギルド」と名を変え、
+あらゆる組織から手を切った者だけ……。</target>
+			</trans-unit>
+			<trans-unit id="149" approved="yes">
+				<source>149</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_194&lt;tab&gt;そうして、海賊から生まれたが海賊ではない集団……
+「シーフギルド」が確立されていったのさ。</target>
+			</trans-unit>
+			<trans-unit id="150" approved="yes">
+				<source>150</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_195&lt;tab&gt;……後年、メルウィブ提督の就任にあたって、
+シーフギルドは提督の理想に賛同し、手を結ぶことにした。</target>
+			</trans-unit>
+			<trans-unit id="151" approved="yes">
+				<source>151</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_196&lt;tab&gt;それを機に「双剣士ギルド」と名を変え、
 冒険者の入門も認めるようになったが、役目は今も変わらねぇ。
-「掟」の番人として、裏社会の秩序を守ること……。</target></trans-unit><trans-unit id="152" approved="yes"><source>152</source><target state="final">TEXT_CLSROG050_00110_JACKE_000_197&lt;tab&gt;そう……今回、お前が仕事をやりとげたようにな！
-この調子で次も頼むぜ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！</target></trans-unit></body></file></xliff>
+「掟」の番人として、裏社会の秩序を守ること……。</target>
+			</trans-unit>
+			<trans-unit id="152" approved="yes">
+				<source>152</source>
+				<target state="final" xml:space="preserve">TEXT_CLSROG050_00110_JACKE_000_197&lt;tab&gt;そう……今回、お前が仕事をやりとげたようにな！
+この調子で次も頼むぜ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

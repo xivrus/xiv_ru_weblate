@@ -1,114 +1,564 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="AktKea101_04536" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_AKTKEA101_04536_SEQ_00&lt;tab&gt;バルデシオン分館の新顔のバルデシオン委員は、冒険者の到来を待っていたようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_AKTKEA101_04536_SEQ_01&lt;tab&gt;新顔のバルデシオン委員がクルルとグ・ラハ・ティアを連れてきてくれ、依頼に関する話を聞いた。情報を持ちかけたラムブルースに会うためにモードゥナへ向かい、レヴナンツトールの「&lt;var 28 ((EObj)) F61EB6BC01 /var&gt;」で待機しよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_AKTKEA101_04536_SEQ_02&lt;tab&gt;ラムブルースから、幻域というエリアが発見されたという話を聞いた。詳細を聞くため、銀泪湖畔で第一発見者の「探検家」を探そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_AKTKEA101_04536_SEQ_03&lt;tab&gt;探検家デリックと話した。銀泪湖畔にあるという幻域「オムファロス」へと向かおう。オムファロスへは、モードゥナの銀泪湖畔から移動できるようだ。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_AKTKEA101_04536_SEQ_04&lt;tab&gt;探検家のデリックに案内され、幻域オムファロスに足を踏み入れた。同じくオムファロスに立ち入った「グ・ラハ・ティア」と話そう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_AKTKEA101_04536_SEQ_05&lt;tab&gt;グ・ラハ・ティアと話した。「オムファロス」内の気になるものを調べてみよう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_AKTKEA101_04536_SEQ_06&lt;tab&gt;気になるモニュメントや境界などを調べた。オムファロスの「デリック」に報告しよう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_AKTKEA101_04536_SEQ_07&lt;tab&gt;グ・ラハ・ティアは幻域の正体について考えあぐねているようだ。幻域は、誰が、なんのために造った場所なのだろう……。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_AKTKEA101_04536_TODO_00&lt;tab&gt;レヴナンツトールの&lt;var 28 ((EObj)) F61EB6BC01 /var&gt;で待機</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_AKTKEA101_04536_TODO_01&lt;tab&gt;探検家の手がかりを探す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_AKTKEA101_04536_TODO_02&lt;tab&gt;探検家の手がかりを探す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_AKTKEA101_04536_TODO_03&lt;tab&gt;オムファロスのグ・ラハ・ティアと話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_AKTKEA101_04536_TODO_04&lt;tab&gt;オムファロス内を調べる</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_AKTKEA101_04536_TODO_05&lt;tab&gt;デリックと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_AKTKEA101_04536_BALDESIONSTAFF04536_000_000&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、
-おかえりなさい！</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_AKTKEA101_04536_BALDESIONSTAFF04536_000_001&lt;tab&gt;もしかして「とある依頼」の件で、いらっしゃってくれました？
-クルルさんがあなたに相談したいと話していたっていう……。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_AKTKEA101_04536_BALDESIONSTAFF04536_000_002&lt;tab&gt;それならすぐに呼んできます！
-ちょっと待っていてくださいね！</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_003&lt;tab&gt;ありがとう、来てくれたのね！
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="AktKea101_04536" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SEQ_00&lt;tab&gt;バルデシオン分館の新顔のバルデシオン委員は、冒険者の到来を待っていたようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SEQ_01&lt;tab&gt;新顔のバルデシオン委員がクルルとグ・ラハ・ティアを連れてきてくれ、依頼に関する話を聞いた。情報を持ちかけたラムブルースに会うためにモードゥナへ向かい、レヴナンツトールの「&lt;var 28 ((EObj)) F61EB6BC01 /var&gt;」で待機しよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SEQ_02&lt;tab&gt;ラムブルースから、幻域というエリアが発見されたという話を聞いた。詳細を聞くため、銀泪湖畔で第一発見者の「探検家」を探そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SEQ_03&lt;tab&gt;探検家デリックと話した。銀泪湖畔にあるという幻域「オムファロス」へと向かおう。オムファロスへは、モードゥナの銀泪湖畔から移動できるようだ。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SEQ_04&lt;tab&gt;探検家のデリックに案内され、幻域オムファロスに足を踏み入れた。同じくオムファロスに立ち入った「グ・ラハ・ティア」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SEQ_05&lt;tab&gt;グ・ラハ・ティアと話した。「オムファロス」内の気になるものを調べてみよう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SEQ_06&lt;tab&gt;気になるモニュメントや境界などを調べた。オムファロスの「デリック」に報告しよう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SEQ_07&lt;tab&gt;グ・ラハ・ティアは幻域の正体について考えあぐねているようだ。幻域は、誰が、なんのために造った場所なのだろう……。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_TODO_00&lt;tab&gt;レヴナンツトールの&lt;var 28 ((EObj)) F61EB6BC01 /var&gt;で待機</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_TODO_01&lt;tab&gt;探検家の手がかりを探す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_TODO_02&lt;tab&gt;探検家の手がかりを探す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_TODO_03&lt;tab&gt;オムファロスのグ・ラハ・ティアと話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_TODO_04&lt;tab&gt;オムファロス内を調べる</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_TODO_05&lt;tab&gt;デリックと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_BALDESIONSTAFF04536_000_000&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さん、
+おかえりなさい！</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_BALDESIONSTAFF04536_000_001&lt;tab&gt;もしかして「とある依頼」の件で、いらっしゃってくれました？
+クルルさんがあなたに相談したいと話していたっていう……。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_BALDESIONSTAFF04536_000_002&lt;tab&gt;それならすぐに呼んできます！
+ちょっと待っていてくださいね！</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_003&lt;tab&gt;ありがとう、来てくれたのね！
 以前にも話したとおり、
-あなたとラハくんに持ちかけたい話があったの。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_004&lt;tab&gt;前に言ってた「例の件」についてだよな？
-分館の活動記録の整理もひと区切りついたし、任せてくれ！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_005&lt;tab&gt;それに……
+あなたとラハくんに持ちかけたい話があったの。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_004&lt;tab&gt;前に言ってた「例の件」についてだよな？
+分館の活動記録の整理もひと区切りついたし、任せてくれ！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_005&lt;tab&gt;それに……
 海底遺跡の探検に行って、あらためて気づいたんだよ。
-フィールドワークの良さってやつにさ。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_006&lt;tab&gt;そういう意味では、まさにお望みの依頼ね。
-まずは前提を伝えさせてちょうだい。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_007&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さんも知ってのとおり、
+フィールドワークの良さってやつにさ。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_006&lt;tab&gt;そういう意味では、まさにお望みの依頼ね。
+まずは前提を伝えさせてちょうだい。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_007&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;さんも知ってのとおり、
 バルデシオン委員会は、おじいちゃん……
-ガラフ・バルデシオンが創立した調査研究機関よ。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_008&lt;tab&gt;その究極的な研究目標は、星のありようの解明……。
+ガラフ・バルデシオンが創立した調査研究機関よ。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_008&lt;tab&gt;その究極的な研究目標は、星のありようの解明……。
 「星の意思」や、それに接触し得る「超える力」について、
-研究していたのもそのためだけど……</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_AKTKEA101_04536_KRILE_100_008&lt;tab&gt;あなたを含めた「暁」のおかげで、多くの謎が解けたわ。
+研究していたのもそのためだけど……</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_100_008&lt;tab&gt;あなたを含めた「暁」のおかげで、多くの謎が解けたわ。
 委員会は存在意義を果たし終えたんだって、思えるほどにね。
-でも、本当にそうかしら……？</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_009&lt;tab&gt;思い出して……私たちは、
+でも、本当にそうかしら……？</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_009&lt;tab&gt;思い出して……私たちは、
 研究の過程で知り得た「世界の脅威」についての対策も行ってきた。
-クリスタルタワー調査団への参加も、その一環ね。</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_010&lt;tab&gt;思い出して……私たちは、
+クリスタルタワー調査団への参加も、その一環ね。</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_010&lt;tab&gt;思い出して……私たちは、
 研究の過程で知り得た「世界の脅威」についての対策も行ってきた。
-クリスタルタワーや三闘神に関する調査も、その一環ね。</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_011&lt;tab&gt;それらの脅威への対抗は、すべて「知る」ことから始まっていた。
+クリスタルタワーや三闘神に関する調査も、その一環ね。</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_011&lt;tab&gt;それらの脅威への対抗は、すべて「知る」ことから始まっていた。
 なら、私たちは、まだ知的探求を止めるべきじゃない。
-そう思っているの。</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_012&lt;tab&gt;バル島の消滅によって、
+そう思っているの。</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_012&lt;tab&gt;バル島の消滅によって、
 本部と人員の多くを失ってしまったけれど……。
-委員会のみんなの想いを継いでいきたいから。</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_013&lt;tab&gt;命を懸けて世界の脅威と戦ったおじいちゃんたち……
+委員会のみんなの想いを継いでいきたいから。</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_013&lt;tab&gt;命を懸けて世界の脅威と戦ったおじいちゃんたち……
 そんなバルデシオン委員会のみんなの、
-遺志を継いでいきたいから。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_014&lt;tab&gt;ごめんなさい、堅い話になっちゃったわね。
-本題に戻しましょうか。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_015&lt;tab&gt;私たちは、バルデシオン委員会の活動記録だけじゃなく、
+遺志を継いでいきたいから。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_014&lt;tab&gt;ごめんなさい、堅い話になっちゃったわね。
+本題に戻しましょうか。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_015&lt;tab&gt;私たちは、バルデシオン委員会の活動記録だけじゃなく、
 委員会宛てに届いた依頼も整理していたの。
-そのなかに、気になる案件があったというわけ。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_AKTKEA101_04536_KRILE_100_015&lt;tab&gt;依頼主は、ご存知、聖コイナク財団のラムブルースさんよ。
-ラハくんも、これは初耳でしょう？</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_016&lt;tab&gt;マジかよ！
-ってことは、モードゥナの調査地でなにか異変があったのか？</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_017&lt;tab&gt;ええ、バルデシオン委員会に引き取ってほしい案件があるみたい。
-クリスタルタワーの一件で、監査役を務めた実績もあるしね。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_018&lt;tab&gt;詳細は不明だけど、なんでも……
+そのなかに、気になる案件があったというわけ。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_100_015&lt;tab&gt;依頼主は、ご存知、聖コイナク財団のラムブルースさんよ。
+ラハくんも、これは初耳でしょう？</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_016&lt;tab&gt;マジかよ！
+ってことは、モードゥナの調査地でなにか異変があったのか？</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_017&lt;tab&gt;ええ、バルデシオン委員会に引き取ってほしい案件があるみたい。
+クリスタルタワーの一件で、監査役を務めた実績もあるしね。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_018&lt;tab&gt;詳細は不明だけど、なんでも……
 古代アラグ文明の調査を専門とする聖コイナク財団では手に余る、
-「未知」に出会ったのだとか。</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_019&lt;tab&gt;今回お願いしたいのは、その先行調査よ。
+「未知」に出会ったのだとか。</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_019&lt;tab&gt;今回お願いしたいのは、その先行調査よ。
 ラムブルースさんに会って、詳細を聞いてきてほしいの。
-……どうかしら？</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_020&lt;tab&gt;ありがとう、助かるわ！
+……どうかしら？</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_020&lt;tab&gt;ありがとう、助かるわ！
 じゃあふたりで、レヴナンツトールに向かってもらえる？
-ラムブルースさんが迎えに来てくれるはずよ。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_AKTKEA101_04536_KRILE_000_021&lt;tab&gt;私は分館の管理のために残るけれど……
+ラムブルースさんが迎えに来てくれるはずよ。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_KRILE_000_021&lt;tab&gt;私は分館の管理のために残るけれど……
 もしも人手が不足するような事態になったら、
-いつでも呼んでね。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_022&lt;tab&gt;さあ行こう、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！
+いつでも呼んでね。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_022&lt;tab&gt;さあ行こう、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！
 準備を整えたらすぐに向かうから、
-あんたは先に「レヴナンツトール」で待っててくれ！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_040&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！
-ラムブルースはまだ来てないみたいだな。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_AKTKEA101_04536_RAMMBROES_000_041&lt;tab&gt;(-ラムブルースの声-)すまない、待たせてしまったかな。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_042&lt;tab&gt;ラムブルース！
-元気だったか？</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_AKTKEA101_04536_RAMMBROES_000_043&lt;tab&gt;ええ。
+あんたは先に「レヴナンツトール」で待っててくれ！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_040&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;！
+ラムブルースはまだ来てないみたいだな。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_RAMMBROES_000_041&lt;tab&gt;(-ラムブルースの声-)すまない、待たせてしまったかな。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_042&lt;tab&gt;ラムブルース！
+元気だったか？</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_RAMMBROES_000_043&lt;tab&gt;ええ。
 グ・ラハ・ティア、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
-あなた方こそ、お元気そうでなにより。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_AKTKEA101_04536_RAMMBROES_000_044&lt;tab&gt;そして、要請に応えてくれてありがたい。
-さっそく本題に入ってしまうが……</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_AKTKEA101_04536_RAMMBROES_000_045&lt;tab&gt;実は、我々のもとに、
-「&lt;var 4A ((幻域)) ((げんいき)) /var&gt;」を発見した、という探検家が現れたのだ。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_046&lt;tab&gt;幻域って、あの！？
-クルルの言ってた「未知」ってそういうことか……！</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_047&lt;tab&gt;あんたは知らないか？
-一種の都市伝説みたいなものなんだが……</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_048&lt;tab&gt;このエオルゼアには、
+あなた方こそ、お元気そうでなにより。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_RAMMBROES_000_044&lt;tab&gt;そして、要請に応えてくれてありがたい。
+さっそく本題に入ってしまうが……</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_RAMMBROES_000_045&lt;tab&gt;実は、我々のもとに、
+「&lt;var 4A ((幻域)) ((げんいき)) /var&gt;」を発見した、という探検家が現れたのだ。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_046&lt;tab&gt;幻域って、あの！？
+クルルの言ってた「未知」ってそういうことか……！</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_047&lt;tab&gt;あんたは知らないか？
+一種の都市伝説みたいなものなんだが……</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_048&lt;tab&gt;このエオルゼアには、
 蜃気楼のように現れるが、入ろうと近づくと消えてしまう、
-幻の領域が点在するって噂なんだ。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_049&lt;tab&gt;古くから伝承はあったようだが、未だに実在は証明されておらず、
-歴史書や公的な記録にも、ほとんど登場しない。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_050&lt;tab&gt;それなのに、見たという噂や与太話は絶えず語られる。
-多くの探検家の心を掴んで離さないロマンってわけさ。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_051&lt;tab&gt;あんたが話を寄越すくらいだから嘘じゃないだろうが、
-その……本当に実在したのか？</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_052&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_AKTKEA101_04536_RAMMBROES_000_052&lt;tab&gt;ええ、私たちも疑ったが、その探検家の話に嘘偽りはなかった。
-しかしそれは、我々の専門分野を凌駕するものだったのです。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_053&lt;tab&gt;考古学を専門とするあんたが、そう断言するとなると……
-過去文明の遺跡を見間違えたって線は薄いか。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_100_053&lt;tab&gt;とにかく、自分の目で確かめてみないことには始まらない、よな。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_AKTKEA101_04536_RAMMBROES_110_053&lt;tab&gt;バルデシオン委員会が、
-「真実」にたどり着けるように願っているよ。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_AKTKEA101_04536_RAMMBROES_000_054&lt;tab&gt;くだんの探検家には、
+幻の領域が点在するって噂なんだ。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_049&lt;tab&gt;古くから伝承はあったようだが、未だに実在は証明されておらず、
+歴史書や公的な記録にも、ほとんど登場しない。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_050&lt;tab&gt;それなのに、見たという噂や与太話は絶えず語られる。
+多くの探検家の心を掴んで離さないロマンってわけさ。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_051&lt;tab&gt;あんたが話を寄越すくらいだから嘘じゃないだろうが、
+その……本当に実在したのか？</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_052&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_RAMMBROES_000_052&lt;tab&gt;ええ、私たちも疑ったが、その探検家の話に嘘偽りはなかった。
+しかしそれは、我々の専門分野を凌駕するものだったのです。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_053&lt;tab&gt;考古学を専門とするあんたが、そう断言するとなると……
+過去文明の遺跡を見間違えたって線は薄いか。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_100_053&lt;tab&gt;とにかく、自分の目で確かめてみないことには始まらない、よな。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_RAMMBROES_110_053&lt;tab&gt;バルデシオン委員会が、
+「真実」にたどり着けるように願っているよ。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_RAMMBROES_000_054&lt;tab&gt;くだんの探検家には、
 バルデシオン委員会の到着を待ってほしいと伝えたのだが……。
-「人を待つのは性分じゃない」と、ひとり探索を続けている。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_AKTKEA101_04536_RAMMBROES_000_055&lt;tab&gt;「銀泪湖」の周辺にいるはずだから、彼に案内を頼むといい。
-私たちよりも、幻域に詳しいはずだ。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_056&lt;tab&gt;ああ、ありがとうラムブルース！</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_057&lt;tab&gt;じゃあ手分けをして、その探検家を探そう！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_AKTKEA101_04536_SYSTEM_000_070&lt;tab&gt;この辺りに人がいる様子はない……。
-他の場所を探してみよう。</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_AKTKEA101_04536_SYSTEM_100_070&lt;tab&gt;小さなオポオポが佇んでいる。
-まさか、探検家というのは彼のことなのだろうか……？</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_071&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……？
-あんたまさか、そいつを探検家だと思ってないだろうな……！？</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_072&lt;tab&gt;俺はデリック、幻域を発見した探検家だ。
-わざわざ探してくれたみたいで、悪かったな。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_073&lt;tab&gt;ああ、こいつが気になるか。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_074&lt;tab&gt;以前、怪我していたのを見つけてな。
+「人を待つのは性分じゃない」と、ひとり探索を続けている。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_RAMMBROES_000_055&lt;tab&gt;「銀泪湖」の周辺にいるはずだから、彼に案内を頼むといい。
+私たちよりも、幻域に詳しいはずだ。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_056&lt;tab&gt;ああ、ありがとうラムブルース！</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_057&lt;tab&gt;じゃあ手分けをして、その探検家を探そう！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SYSTEM_000_070&lt;tab&gt;この辺りに人がいる様子はない……。
+他の場所を探してみよう。</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SYSTEM_100_070&lt;tab&gt;小さなオポオポが佇んでいる。
+まさか、探検家というのは彼のことなのだろうか……？</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_071&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;……？
+あんたまさか、そいつを探検家だと思ってないだろうな……！？</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_072&lt;tab&gt;俺はデリック、幻域を発見した探検家だ。
+わざわざ探してくれたみたいで、悪かったな。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_073&lt;tab&gt;ああ、こいつが気になるか。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_074&lt;tab&gt;以前、怪我していたのを見つけてな。
 助けてやったら、ついて来るようになっちまったんだ。
-まぁ、気にしないでくれ。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_AKTKEA101_04536_BABYOPOOPO_000_075&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_076&lt;tab&gt;そっちの&lt;var 08 E905 ((彼女)) ((彼)) /var&gt;が、終末から星を救った英雄だろう？
+まぁ、気にしないでくれ。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_BABYOPOOPO_000_075&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_076&lt;tab&gt;そっちの&lt;var 08 E905 ((彼女)) ((彼)) /var&gt;が、終末から星を救った英雄だろう？
 噂は聞いてるよ、あんたが来てくれるとは僥倖だ。
-幻域の調査を請け負ってくれるのか？</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_077&lt;tab&gt;それについてなんだが、正式に引き受けるかを判断するために、
+幻域の調査を請け負ってくれるのか？</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_077&lt;tab&gt;それについてなんだが、正式に引き受けるかを判断するために、
 まずは先行調査という形をとらせてくれ。
-そもそも、幻域は本当に実在するのか？</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_078&lt;tab&gt;ああ、ここモードゥナに突如として現れた、
-幻域に至る門……</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_079&lt;tab&gt;前人未到の、探検家たちの夢はすぐそこに。
-さあ、案内するよ。</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_080&lt;tab&gt;お、おい……！？</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_081&lt;tab&gt;すごいだろ？
+そもそも、幻域は本当に実在するのか？</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_078&lt;tab&gt;ああ、ここモードゥナに突如として現れた、
+幻域に至る門……</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_079&lt;tab&gt;前人未到の、探検家たちの夢はすぐそこに。
+さあ、案内するよ。</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_080&lt;tab&gt;お、おい……！？</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_081&lt;tab&gt;すごいだろ？
 門の出現と同時に、魔法が発動したみたいでな。
-こうして歩けるようになってる。</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_AKTKEA101_04536_Q2_000&lt;tab&gt;何と言う？</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_AKTKEA101_04536_A2_001&lt;tab&gt;本当に大丈夫……？</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_AKTKEA101_04536_A2_002&lt;tab&gt;ウリエンジェ式水上歩行術……！</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_082&lt;tab&gt;自力でやってのけた奴がいるのか？
-それは……ずいぶんと奇骨な奴もいたもんだな。</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_083&lt;tab&gt;大丈夫だから。
-ほら、来いよ。</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_084&lt;tab&gt;すごいな、本当に足場があるみたいだ！
+こうして歩けるようになってる。</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_Q2_000&lt;tab&gt;何と言う？</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_A2_001&lt;tab&gt;本当に大丈夫……？</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_A2_002&lt;tab&gt;ウリエンジェ式水上歩行術……！</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_082&lt;tab&gt;自力でやってのけた奴がいるのか？
+それは……ずいぶんと奇骨な奴もいたもんだな。</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_083&lt;tab&gt;大丈夫だから。
+ほら、来いよ。</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_084&lt;tab&gt;すごいな、本当に足場があるみたいだ！
 レビテトみたいな浮遊魔法とも違う感覚だし、
-永続的にかかっているなら、いったいどんな原理で……。</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_085&lt;tab&gt;っと、今は先に進まないとな。
-じゃあ、行ってみるか……！</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_AKTKEA101_04536_Q3_000_000&lt;tab&gt;「幻域」へ移動しますか？</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_091&lt;tab&gt;ここが、幻域……！？</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_100_091&lt;tab&gt;銀泪湖から、こんな場所に繋がるなんて……</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_110_091&lt;tab&gt;地面の感触に、不自然な点はなし。
+永続的にかかっているなら、いったいどんな原理で……。</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_085&lt;tab&gt;っと、今は先に進まないとな。
+じゃあ、行ってみるか……！</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_Q3_000_000&lt;tab&gt;「幻域」へ移動しますか？</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_091&lt;tab&gt;ここが、幻域……！？</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_100_091&lt;tab&gt;銀泪湖から、こんな場所に繋がるなんて……</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_110_091&lt;tab&gt;地面の感触に、不自然な点はなし。
 細かな土埃や匂いに至るまで、何から何まで本物……
-この場所は魔法でも幻影でもなく、本当に実在しているんだ……！</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_092&lt;tab&gt;ようこそ、始まりの幻域「オムファロス」へ。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_100&lt;tab&gt;驚いたか？</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_AKTKEA101_04536_BABYOPOOPO_000_105&lt;tab&gt;ウキッ！　ウキキッ！</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_110&lt;tab&gt;なぁ、デリック。
+この場所は魔法でも幻影でもなく、本当に実在しているんだ……！</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_092&lt;tab&gt;ようこそ、始まりの幻域「オムファロス」へ。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_100&lt;tab&gt;驚いたか？</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_BABYOPOOPO_000_105&lt;tab&gt;ウキッ！　ウキキッ！</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_110&lt;tab&gt;なぁ、デリック。
 ここについてひとつ聞きたいんだが、
-その「オムファロス」っていうのは？</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_111&lt;tab&gt;呼び名がないと不便だと思って、俺が考えた。
+その「オムファロス」っていうのは？</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_111&lt;tab&gt;呼び名がないと不便だと思って、俺が考えた。
 モードゥナはアルデナード小大陸の中心に位置するからな。
-「ヘソ」って意味の古語から引用したんだ。</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_112&lt;tab&gt;ご覧のとおり、
+「ヘソ」って意味の古語から引用したんだ。</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_112&lt;tab&gt;ご覧のとおり、
 人工物が存在するのに、人の気配はない。
-それでいて、妙にきれいで手入れされていたかのようだ。</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_113&lt;tab&gt;ここの調査を、君たちに手伝ってもらいたい。
-なんのためにあるのか、誰が造ったのか……。</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_100_113&lt;tab&gt;ああ、それにこの幻域が出現した理由も知りたい。
+それでいて、妙にきれいで手入れされていたかのようだ。</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_113&lt;tab&gt;ここの調査を、君たちに手伝ってもらいたい。
+なんのためにあるのか、誰が造ったのか……。</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_100_113&lt;tab&gt;ああ、それにこの幻域が出現した理由も知りたい。
 いままで秘されていたのか、いまやっと見つかったのか、
-気になるだろ？</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_114&lt;tab&gt;ともかく、まずは観察してみなくちゃな！
-この一帯を見てまわってみよう！</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_120&lt;tab&gt;あのオポオポは、オムファロスに慣れてるみたいだな。
-デリックは、それだけここに足を運んでたってことか……？</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_125&lt;tab&gt;俺のことはいいから、
-ほら、オムファロスを見てまわるんだろう？</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_AKTKEA101_04536_SYSTEM_000_130&lt;tab&gt;人工的なモニュメントが建っていて、
+気になるだろ？</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_114&lt;tab&gt;ともかく、まずは観察してみなくちゃな！
+この一帯を見てまわってみよう！</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_120&lt;tab&gt;あのオポオポは、オムファロスに慣れてるみたいだな。
+デリックは、それだけここに足を運んでたってことか……？</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_125&lt;tab&gt;俺のことはいいから、
+ほら、オムファロスを見てまわるんだろう？</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SYSTEM_000_130&lt;tab&gt;人工的なモニュメントが建っていて、
 足元には見覚えのある意匠が施されている。
-誰が造ったのだろうか……。</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_AKTKEA101_04536_SYSTEM_000_131&lt;tab&gt;不可思議な建造物が、
+誰が造ったのだろうか……。</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SYSTEM_000_131&lt;tab&gt;不可思議な建造物が、
 オムファロスに点在している。
-なんのために造られたのだろうか……？</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_132&lt;tab&gt;エオルゼアの各国の建築様式とは、明らかに違うよな？
-なんというか、よく出来すぎてる……。</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_AKTKEA101_04536_SYSTEM_000_134&lt;tab&gt;遠くにクリスタルタワーのようなものが見える。
-雲に隠れて見えにくいが、ここは銀泪湖上空のようだ。</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_AKTKEA101_04536_SYSTEM_000_135&lt;tab&gt;外界からは見えていなかったが、
-この島は、ずっとここに浮かんでいたのだろうか？</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_139&lt;tab&gt;どうだ、変なところだろ？</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_140&lt;tab&gt;ああ、ひととおり見てきたが、
-あんたの言うとおり、謎の多い場所だな。</target></trans-unit><trans-unit id="136" approved="yes"><source>136</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_141&lt;tab&gt;雲海の先に見えてる塔……
-あれって、クリスタルタワーで間違いないよな？</target></trans-unit><trans-unit id="137" approved="yes"><source>137</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_142&lt;tab&gt;となると、湖上に仕掛けられていた転送魔法で、
+なんのために造られたのだろうか……？</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_132&lt;tab&gt;エオルゼアの各国の建築様式とは、明らかに違うよな？
+なんというか、よく出来すぎてる……。</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SYSTEM_000_134&lt;tab&gt;遠くにクリスタルタワーのようなものが見える。
+雲に隠れて見えにくいが、ここは銀泪湖上空のようだ。</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_SYSTEM_000_135&lt;tab&gt;外界からは見えていなかったが、
+この島は、ずっとここに浮かんでいたのだろうか？</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_139&lt;tab&gt;どうだ、変なところだろ？</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_140&lt;tab&gt;ああ、ひととおり見てきたが、
+あんたの言うとおり、謎の多い場所だな。</target>
+			</trans-unit>
+			<trans-unit id="136" approved="yes">
+				<source>136</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_141&lt;tab&gt;雲海の先に見えてる塔……
+あれって、クリスタルタワーで間違いないよな？</target>
+			</trans-unit>
+			<trans-unit id="137" approved="yes">
+				<source>137</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_142&lt;tab&gt;となると、湖上に仕掛けられていた転送魔法で、
 オレたちは銀泪湖のはるか上空に飛ばされた。
-と考えるのが妥当だが……</target></trans-unit><trans-unit id="138" approved="yes"><source>138</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_143&lt;tab&gt;銀泪湖の上空と言えば、
+と考えるのが妥当だが……</target>
+			</trans-unit>
+			<trans-unit id="138" approved="yes">
+				<source>138</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_143&lt;tab&gt;銀泪湖の上空と言えば、
 帝国の飛空戦艦とミドガルズオルムが激戦を繰り広げた空域だ。
-浮島があったら、影響を受けないはずがない。</target></trans-unit><trans-unit id="139" approved="yes"><source>139</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_144&lt;tab&gt;だから、なんというか、ここは……
+浮島があったら、影響を受けないはずがない。</target>
+			</trans-unit>
+			<trans-unit id="139" approved="yes">
+				<source>139</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_144&lt;tab&gt;だから、なんというか、ここは……
 モードゥナであってモードゥナではない空間、
-「次元の狭間」とは言わないが、なにかがズレているんだと思う。</target></trans-unit><trans-unit id="140" approved="yes"><source>140</source><target state="final">TEXT_AKTKEA101_04536_DERYK_000_145&lt;tab&gt;ズレた場所とは、言い得て妙だ。
-ほかにも、気になることがあるか？</target></trans-unit><trans-unit id="141" approved="yes"><source>141</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_146&lt;tab&gt;ああ、そこにある建造物の意匠……
-エオルゼア十二神のシンボルだよな？</target></trans-unit><trans-unit id="142" approved="yes"><source>142</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_147&lt;tab&gt;つまりここは、十二神への信仰のため、
-人為的に造られた場所である可能性が高い。</target></trans-unit><trans-unit id="143" approved="yes"><source>143</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_148&lt;tab&gt;だが、銀泪湖上空戦の後、
+「次元の狭間」とは言わないが、なにかがズレているんだと思う。</target>
+			</trans-unit>
+			<trans-unit id="140" approved="yes">
+				<source>140</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_DERYK_000_145&lt;tab&gt;ズレた場所とは、言い得て妙だ。
+ほかにも、気になることがあるか？</target>
+			</trans-unit>
+			<trans-unit id="141" approved="yes">
+				<source>141</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_146&lt;tab&gt;ああ、そこにある建造物の意匠……
+エオルゼア十二神のシンボルだよな？</target>
+			</trans-unit>
+			<trans-unit id="142" approved="yes">
+				<source>142</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_147&lt;tab&gt;つまりここは、十二神への信仰のため、
+人為的に造られた場所である可能性が高い。</target>
+			</trans-unit>
+			<trans-unit id="143" approved="yes">
+				<source>143</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_148&lt;tab&gt;だが、銀泪湖上空戦の後、
 これほどの規模の設備を造った上で、魔法的に隠蔽する……
-そんなことができるヤツがいるとも思えないんだ。</target></trans-unit><trans-unit id="144" approved="yes"><source>144</source><target state="final">TEXT_AKTKEA101_04536_GRAHATIA_000_149&lt;tab&gt;推察をするにも、判断材料が少なすぎるな……。</target></trans-unit></body></file></xliff>
+そんなことができるヤツがいるとも思えないんだ。</target>
+			</trans-unit>
+			<trans-unit id="144" approved="yes">
+				<source>144</source>
+				<target state="final" xml:space="preserve">TEXT_AKTKEA101_04536_GRAHATIA_000_149&lt;tab&gt;推察をするにも、判断材料が少なすぎるな……。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

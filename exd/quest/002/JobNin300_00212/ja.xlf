@@ -1,111 +1,533 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="JobNin300_00212" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_JOBNIN300_00212_SEQ_00&lt;tab&gt;双剣士ギルドのジャックは、冒険者に変わった仕事を依頼したいようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_JOBNIN300_00212_SEQ_01&lt;tab&gt;ジャックから、素性のわからない不審な集団の調査を依頼された。東ラノシアのワインポートにいる「ペリム・ハウリム」と合流しよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_JOBNIN300_00212_SEQ_02&lt;tab&gt;ペリム・ハウリムは、悲鳴が聞こえたと言っている。「ワインポート」で異変を探してみよう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_JOBNIN300_00212_SEQ_03&lt;tab&gt;海賊に襲われたという、不思議な農婦を見つけた。ペリム・ハウリムは不思議な農婦に違和感を抱いているらしい。農婦を探すため、ワインポートの東に向かった「ペリム・ハウリム」を追おう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_JOBNIN300_00212_SEQ_04&lt;tab&gt;ペリム・ハウリムは、武器を持った農民たちの惨状を見つけ、ますます農婦への疑いを深めていた。高地ラノシアに向かった「不思議な農婦」を追おう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_JOBNIN300_00212_SEQ_05&lt;tab&gt;不思議な農婦は、ドマの隠れ里からやってきた忍者だった。彼らは、裏切り者の誅殺のためにエオルゼアにやってきたという。オボロは、冒険者に忍術を伝授する代わりに、力と知識を貸りたいようだ。オボロとの取引に応じるならば、東ラノシアの船着場：レインキャッチャー付近の平屋の前にいる「オボロ」と話そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_JOBNIN300_00212_SEQ_06&lt;tab&gt;オボロは、冒険者が協力してくれることに感謝した。冒険者が平屋の中に入るための合い言葉は、「アヤメ」という問いに対して、「カエデ」と答えることらしい。船着場の平屋の前にいる「ビャクブ」に合い言葉を伝えよう。</target></trans-unit><trans-unit id="7" approved="yes"><source>7</source><target state="final">TEXT_JOBNIN300_00212_SEQ_07&lt;tab&gt;ビャクブに合い言葉を伝え、平屋の中に入ることができた。船着場の平屋の中にいる「オボロ」と話そう。</target></trans-unit><trans-unit id="8" approved="yes"><source>8</source><target state="final">TEXT_JOBNIN300_00212_SEQ_08&lt;tab&gt;オボロに「天の印」と「忍術」を教えてもらった。「&lt;var 28 ((Item)) F21ECE01 /var&gt;」を装備し、正式な忍者となってから、再度オボロと話そう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_JOBNIN300_00212_TODO_00&lt;tab&gt;ワインポートのペリム・ハウリムと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_JOBNIN300_00212_TODO_01&lt;tab&gt;ワインポートで異変を探す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_JOBNIN300_00212_TODO_02&lt;tab&gt;ペリム・ハウリムと話す</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_JOBNIN300_00212_TODO_03&lt;tab&gt;ブロンズレイクの不思議な農婦と話す</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_JOBNIN300_00212_TODO_04&lt;tab&gt;船着場：レインキャッチャーの平屋前のオボロと話す</target></trans-unit><trans-unit id="29" approved="yes"><source>29</source><target state="final">TEXT_JOBNIN300_00212_TODO_05&lt;tab&gt;ビャクブと話す</target></trans-unit><trans-unit id="30" approved="yes"><source>30</source><target state="final">TEXT_JOBNIN300_00212_TODO_06&lt;tab&gt;オボロと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_JOBNIN300_00212_JACKE_000_000&lt;tab&gt;よう、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="JobNin300_00212" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_00&lt;tab&gt;双剣士ギルドのジャックは、冒険者に変わった仕事を依頼したいようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_01&lt;tab&gt;ジャックから、素性のわからない不審な集団の調査を依頼された。東ラノシアのワインポートにいる「ペリム・ハウリム」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_02&lt;tab&gt;ペリム・ハウリムは、悲鳴が聞こえたと言っている。「ワインポート」で異変を探してみよう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_03&lt;tab&gt;海賊に襲われたという、不思議な農婦を見つけた。ペリム・ハウリムは不思議な農婦に違和感を抱いているらしい。農婦を探すため、ワインポートの東に向かった「ペリム・ハウリム」を追おう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_04&lt;tab&gt;ペリム・ハウリムは、武器を持った農民たちの惨状を見つけ、ますます農婦への疑いを深めていた。高地ラノシアに向かった「不思議な農婦」を追おう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_05&lt;tab&gt;不思議な農婦は、ドマの隠れ里からやってきた忍者だった。彼らは、裏切り者の誅殺のためにエオルゼアにやってきたという。オボロは、冒険者に忍術を伝授する代わりに、力と知識を貸りたいようだ。オボロとの取引に応じるならば、東ラノシアの船着場：レインキャッチャー付近の平屋の前にいる「オボロ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_06&lt;tab&gt;オボロは、冒険者が協力してくれることに感謝した。冒険者が平屋の中に入るための合い言葉は、「アヤメ」という問いに対して、「カエデ」と答えることらしい。船着場の平屋の前にいる「ビャクブ」に合い言葉を伝えよう。</target>
+			</trans-unit>
+			<trans-unit id="7" approved="yes">
+				<source>7</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_07&lt;tab&gt;ビャクブに合い言葉を伝え、平屋の中に入ることができた。船着場の平屋の中にいる「オボロ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="8" approved="yes">
+				<source>8</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_SEQ_08&lt;tab&gt;オボロに「天の印」と「忍術」を教えてもらった。「&lt;var 28 ((Item)) F21ECE01 /var&gt;」を装備し、正式な忍者となってから、再度オボロと話そう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TODO_00&lt;tab&gt;ワインポートのペリム・ハウリムと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TODO_01&lt;tab&gt;ワインポートで異変を探す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TODO_02&lt;tab&gt;ペリム・ハウリムと話す</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TODO_03&lt;tab&gt;ブロンズレイクの不思議な農婦と話す</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TODO_04&lt;tab&gt;船着場：レインキャッチャーの平屋前のオボロと話す</target>
+			</trans-unit>
+			<trans-unit id="29" approved="yes">
+				<source>29</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TODO_05&lt;tab&gt;ビャクブと話す</target>
+			</trans-unit>
+			<trans-unit id="30" approved="yes">
+				<source>30</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TODO_06&lt;tab&gt;オボロと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_JACKE_000_000&lt;tab&gt;よう、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
 あの「断罪党」とも渡り合ったお前の腕を見込んで、
-変わった仕事を任せたいんだが……いいか？</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_JOBNIN300_00212_JACKE_000_001&lt;tab&gt;今回追ってもらうのは、掟破りじゃねぇ。
+変わった仕事を任せたいんだが……いいか？</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_JACKE_000_001&lt;tab&gt;今回追ってもらうのは、掟破りじゃねぇ。
 「ワインポート」の周辺に、
-素性の知れねぇ、怪しい連中が住み着いているらしくてな。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_JOBNIN300_00212_JACKE_000_002&lt;tab&gt;移民者を装ってはいるんだが、
+素性の知れねぇ、怪しい連中が住み着いているらしくてな。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_JACKE_000_002&lt;tab&gt;移民者を装ってはいるんだが、
 完璧なまでに正体を隠していて、出自がわからねぇ……。
-どうにも、裏社会に生きる者の匂いがするんだよ。</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_JOBNIN300_00212_JACKE_000_003&lt;tab&gt;俺たちは、「リムサ・ロミンサの裏社会」の番人でもある。
-外から裏の連中が入ってきたのなら、監視しておきたい。</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_JOBNIN300_00212_JACKE_000_004&lt;tab&gt;すでに「ペリム・ハウリム」が現地に向かってる。
+どうにも、裏社会に生きる者の匂いがするんだよ。</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_JACKE_000_003&lt;tab&gt;俺たちは、「リムサ・ロミンサの裏社会」の番人でもある。
+外から裏の連中が入ってきたのなら、監視しておきたい。</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_JACKE_000_004&lt;tab&gt;すでに「ペリム・ハウリム」が現地に向かってる。
 手間をかけるが、「ワインポート」であいつと合流して、
-件の連中を追ってみてくれ。</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_JOBNIN300_00212_JACKE_000_015&lt;tab&gt;すでに「ペリム・ハウリム」が現地に向かってる。
+件の連中を追ってみてくれ。</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_JACKE_000_015&lt;tab&gt;すでに「ペリム・ハウリム」が現地に向かってる。
 手間をかけるが、「ワインポート」であいつと合流して、
-件の連中を追ってみてくれ。</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_030&lt;tab&gt;あれ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;じゃないですか！
-あんたが手伝いにきてくれるなんて、心強いです。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_031&lt;tab&gt;……とはいえ、申し訳ないんですが、
-まだ標的の正体に迫る情報は、手に入ってないんですよ。</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_032&lt;tab&gt;周辺住民には「南洋からの移民者」と名乗ってるようですが、
+件の連中を追ってみてくれ。</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_030&lt;tab&gt;あれ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;じゃないですか！
+あんたが手伝いにきてくれるなんて、心強いです。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_031&lt;tab&gt;……とはいえ、申し訳ないんですが、
+まだ標的の正体に迫る情報は、手に入ってないんですよ。</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_032&lt;tab&gt;周辺住民には「南洋からの移民者」と名乗ってるようですが、
 税関公社に問い合わせても、該当する移民船はなし……。
-どうやって島に渡ってきたのかも、わからないんです。</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_033&lt;tab&gt;こうなったら、多少の危険は承知のうえで、
-直接、接触するしかないと思っていたところですが……</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_034&lt;tab&gt;………………ん？
-何か悲鳴が聞こえませんでしたか？</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_035&lt;tab&gt;気のせい……いや、違う。
-ここから北西の方角、遠くはない場所だ……行きましょう！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_050&lt;tab&gt;ひ、ひぃっ……この人たちの仲間！？
-やっ、やめてください、お金はありません！！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_051&lt;tab&gt;……穏やかな状況じゃないですね。
+どうやって島に渡ってきたのかも、わからないんです。</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_033&lt;tab&gt;こうなったら、多少の危険は承知のうえで、
+直接、接触するしかないと思っていたところですが……</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_034&lt;tab&gt;………………ん？
+何か悲鳴が聞こえませんでしたか？</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_035&lt;tab&gt;気のせい……いや、違う。
+ここから北西の方角、遠くはない場所だ……行きましょう！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_050&lt;tab&gt;ひ、ひぃっ……この人たちの仲間！？
+やっ、やめてください、お金はありません！！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_051&lt;tab&gt;……穏やかな状況じゃないですね。
 お姉さん、オレたちはあんたに危害を加えたりしません。
-いったい、何があったんですか？</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_052&lt;tab&gt;あ、あの……。
+いったい、何があったんですか？</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_052&lt;tab&gt;あ、あの……。
 人探しの途中で、怖い人たちにぶつかって……
-因縁をつけられていたんです……。</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_053&lt;tab&gt;と、ところが、途中から、
-彼らは言い合いを始めて仲間割れを……。</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_054&lt;tab&gt;そういうことでしたか、運が良かったですね。
+因縁をつけられていたんです……。</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_053&lt;tab&gt;と、ところが、途中から、
+彼らは言い合いを始めて仲間割れを……。</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_054&lt;tab&gt;そういうことでしたか、運が良かったですね。
 この辺りは酒を買い付けに来る海賊も少なくありませんし、
-気をつけた方がいいですよ。</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_055&lt;tab&gt;そうなのですね……ご忠告ありがとうございます。
-では、私は待ち合わせがあるので、これで失礼します。</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_056&lt;tab&gt;……&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、どう思います？</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_JOBNIN300_00212_Q1_000_000&lt;tab&gt;不思議な農婦についてどう思う？</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_JOBNIN300_00212_A1_000_001&lt;tab&gt;怪しいと思う</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_JOBNIN300_00212_A1_000_002&lt;tab&gt;とくに何も思わない</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_057&lt;tab&gt;あんたもですか、実はオレもです。
+気をつけた方がいいですよ。</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_055&lt;tab&gt;そうなのですね……ご忠告ありがとうございます。
+では、私は待ち合わせがあるので、これで失礼します。</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_056&lt;tab&gt;……&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、どう思います？</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_Q1_000_000&lt;tab&gt;不思議な農婦についてどう思う？</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_A1_000_001&lt;tab&gt;怪しいと思う</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_A1_000_002&lt;tab&gt;とくに何も思わない</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_057&lt;tab&gt;あんたもですか、実はオレもです。
 彼女は「仲間割れをしていた」というけど、
-見てください……倒れてる連中は、綺麗に一撃でのされてます。</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_058&lt;tab&gt;そうですか……オレは少し、違和感があるんですよね。
+見てください……倒れてる連中は、綺麗に一撃でのされてます。</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_058&lt;tab&gt;そうですか……オレは少し、違和感があるんですよね。
 彼女は「仲間割れをしていた」というけど、
-見てください……倒れてる連中は、綺麗に一撃でのされてます。</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_059&lt;tab&gt;ともかく、あの女性を追ってみましょう。
-向かったのは東の方角です。</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_70&lt;tab&gt;……見てください、ひどい状況だ。
+見てください……倒れてる連中は、綺麗に一撃でのされてます。</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_059&lt;tab&gt;ともかく、あの女性を追ってみましょう。
+向かったのは東の方角です。</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_70&lt;tab&gt;……見てください、ひどい状況だ。
 あの女性は、裏の者にでも喧嘩を売ったんですかね？
-こいつらは武器を持っている……農夫なんかじゃない。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_JOBNIN300_00212_NINJA00212_000_71&lt;tab&gt;(-農夫らしき男-)俺はもう……だめだ……。
-頼む……これをオボロ殿か、ツバメ様に……。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_72&lt;tab&gt;……ダメです、もう息がない。
+こいつらは武器を持っている……農夫なんかじゃない。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_NINJA00212_000_71&lt;tab&gt;(-農夫らしき男-)俺はもう……だめだ……。
+頼む……これをオボロ殿か、ツバメ様に……。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_72&lt;tab&gt;……ダメです、もう息がない。
 その受け取った袋に入っている「石」みたいなのは、
-お守りか何かですかね？</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_73&lt;tab&gt;……先ほどの女性を追いましょう。
-どうやら、高地ラノシア方面に向かったようです。</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_100&lt;tab&gt;(-？？？？-)見ぃ～～つけたぁ～～～～～！</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_101&lt;tab&gt;(-奇妙な男-)はいはぁ～い、こんにちわぁ～ん！
-そんなしょうもない変装で、ボクを騙せるとでもォ？</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_102&lt;tab&gt;(-奇妙な男-)ウププ、なぁに守っちゃってんノ？
-かぁっこい～い！</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_103&lt;tab&gt;(-奇妙な男-)でも、お・バ・カ・さ・ん！
-……その女、ただの農婦じゃないよぉ～ん。</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_104&lt;tab&gt;(-奇妙な男-)はぁ～～～、教科書どおりのダッサい暗殺作法……。
-……相変わらずの優等生らしい石頭だネェ、オボロくぅ～ん。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_105&lt;tab&gt;(-オボロと呼ばれた男-)お前の減らず口も、相変わらずでござろう、カラス！</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_106&lt;tab&gt;(-カラスと呼ばれた男-)ああ、ボクは悲しいヨォ。
+お守りか何かですかね？</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_73&lt;tab&gt;……先ほどの女性を追いましょう。
+どうやら、高地ラノシア方面に向かったようです。</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_100&lt;tab&gt;(-？？？？-)見ぃ～～つけたぁ～～～～～！</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_101&lt;tab&gt;(-奇妙な男-)はいはぁ～い、こんにちわぁ～ん！
+そんなしょうもない変装で、ボクを騙せるとでもォ？</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_102&lt;tab&gt;(-奇妙な男-)ウププ、なぁに守っちゃってんノ？
+かぁっこい～い！</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_103&lt;tab&gt;(-奇妙な男-)でも、お・バ・カ・さ・ん！
+……その女、ただの農婦じゃないよぉ～ん。</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_104&lt;tab&gt;(-奇妙な男-)はぁ～～～、教科書どおりのダッサい暗殺作法……。
+……相変わらずの優等生らしい石頭だネェ、オボロくぅ～ん。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_105&lt;tab&gt;(-オボロと呼ばれた男-)お前の減らず口も、相変わらずでござろう、カラス！</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_106&lt;tab&gt;(-カラスと呼ばれた男-)ああ、ボクは悲しいヨォ。
 同じ故郷を持つオトモダチ同士で、殺し合いなんてさァ。
-…………と、違ったネ。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_107&lt;tab&gt;(-カラスと呼ばれた男-)口寄せた記憶のないゴミが、二匹ィ……。
-ボクの筋書きに、登場予定はなかったんだけど……ネェ？</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_108&lt;tab&gt;(-カラスと呼ばれた男-)……へェ、キミっていい感じだネ！
+…………と、違ったネ。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_107&lt;tab&gt;(-カラスと呼ばれた男-)口寄せた記憶のないゴミが、二匹ィ……。
+ボクの筋書きに、登場予定はなかったんだけど……ネェ？</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_108&lt;tab&gt;(-カラスと呼ばれた男-)……へェ、キミっていい感じだネ！
 手合わせした人の「結末」って、大体わかるんだけどサ……。
-キミのはちょっと……想像できないみたいだ。</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_JOBNIN300_00212_KARASU_000_109&lt;tab&gt;(-カラスと呼ばれた男-)うん、「謎の双剣使い」の登場か……面白い展開だヨ。
+キミのはちょっと……想像できないみたいだ。</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_KARASU_000_109&lt;tab&gt;(-カラスと呼ばれた男-)うん、「謎の双剣使い」の登場か……面白い展開だヨ。
 今日のところはドロンと退散がイイかなァ……。
-……それじゃぁまたね、あっは～ん。</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_110&lt;tab&gt;(-オボロと呼ばれた男-)待て、カラス！！
-……チッ、相変わらず逃げ足が速い。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_111&lt;tab&gt;(-不思議な農婦-)あなた方は、先ほどの……。
-どうして、ここに……？</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_112&lt;tab&gt;オレたちは、双剣士ギルドの者……。
-あんたたちに聞きたいことがあって、追ってきたんですよ。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_113&lt;tab&gt;あんたたちは、いったい何者です？
+……それじゃぁまたね、あっは～ん。</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_110&lt;tab&gt;(-オボロと呼ばれた男-)待て、カラス！！
+……チッ、相変わらず逃げ足が速い。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_111&lt;tab&gt;(-不思議な農婦-)あなた方は、先ほどの……。
+どうして、ここに……？</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_112&lt;tab&gt;オレたちは、双剣士ギルドの者……。
+あんたたちに聞きたいことがあって、追ってきたんですよ。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_113&lt;tab&gt;あんたたちは、いったい何者です？
 オレたちと同じ……裏に生きてきた者、特有の臭いがする。
-……答えによっては、見過ごせませんね。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_114&lt;tab&gt;(-オボロと呼ばれた男-)あの武術、やはりユウギリ様に聞いた「双剣士」か。
+……答えによっては、見過ごせませんね。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_114&lt;tab&gt;(-オボロと呼ばれた男-)あの武術、やはりユウギリ様に聞いた「双剣士」か。
 蛇の道は蛇……もっと早くあなた方に接触するべきであった。
-承知した、嘘偽りなくお話しいたそう。</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_115&lt;tab&gt;(-オボロと呼ばれた男-)なるほど、あなた方が噂に聞く「双剣士ギルド」の……。
+承知した、嘘偽りなくお話しいたそう。</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_115&lt;tab&gt;(-オボロと呼ばれた男-)なるほど、あなた方が噂に聞く「双剣士ギルド」の……。
 蛇の道は蛇……もっと早く、あなた方に接触するべきであった。
-……承知した、嘘偽りなくお話しいたそう。</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_116&lt;tab&gt;我が名はオボロ、そして彼女はツバメと申す。
+……承知した、嘘偽りなくお話しいたそう。</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_116&lt;tab&gt;我が名はオボロ、そして彼女はツバメと申す。
 我々は、東州オサード小大陸の辺境の地……
-ドマの隠れ里よりやってきた「忍び」の者。</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_117&lt;tab&gt;ドマの隠れ里から来た「忍び」……だって？
-ガレマール帝国に制圧されて属州にされた、あのドマ！？</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_118&lt;tab&gt;……はい。
+ドマの隠れ里よりやってきた「忍び」の者。</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_117&lt;tab&gt;ドマの隠れ里から来た「忍び」……だって？
+ガレマール帝国に制圧されて属州にされた、あのドマ！？</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_118&lt;tab&gt;……はい。
 あれは、厳しいのは確かだったものの、勝てたはずの戦……。
-里の忍びたちは、全力を尽くしました。</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_119&lt;tab&gt;しかし、里のひとりが裏切り、
+里の忍びたちは、全力を尽くしました。</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_119&lt;tab&gt;しかし、里のひとりが裏切り、
 帝国に情報を売ったことで、戦況は一変……。
-多くの命が失われ、結果、ドマは属州に戻ったのです。</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_120&lt;tab&gt;その裏切り者は、帝国軍「隠密諜報部隊」の長となった。
-……それが先ほどの男……カラス。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_121&lt;tab&gt;里を知り尽くした者を、敵軍に残しておくわけにはいかぬ……。
-我々は、里の長からの命を受け、カラスの誅殺に参った。</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_122&lt;tab&gt;ドマの忍びが裏切り者の誅殺……ですか。
-なるほど、事情はわかりました。</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_123&lt;tab&gt;今回も、カラスをこの地まで誘導して挟撃する予定が……
-……多くの仲間を失うことになった。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_124&lt;tab&gt;……それは、亡くなった仲間の「忍者の証」。
+多くの命が失われ、結果、ドマは属州に戻ったのです。</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_120&lt;tab&gt;その裏切り者は、帝国軍「隠密諜報部隊」の長となった。
+……それが先ほどの男……カラス。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_121&lt;tab&gt;里を知り尽くした者を、敵軍に残しておくわけにはいかぬ……。
+我々は、里の長からの命を受け、カラスの誅殺に参った。</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_122&lt;tab&gt;ドマの忍びが裏切り者の誅殺……ですか。
+なるほど、事情はわかりました。</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_123&lt;tab&gt;今回も、カラスをこの地まで誘導して挟撃する予定が……
+……多くの仲間を失うことになった。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_124&lt;tab&gt;……それは、亡くなった仲間の「忍者の証」。
 預かってくれていたのか、恩に着る……。
-役目を終えた者の「証」は、里に帰すことになっているのだ……。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_125&lt;tab&gt;なっ！？　「証」が反応している……？
+役目を終えた者の「証」は、里に帰すことになっているのだ……。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_125&lt;tab&gt;なっ！？　「証」が反応している……？
 驚いた、お主には忍びたる素質が備わっている様子。
-……どうだろう、我々と取引をせぬか？</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_126&lt;tab&gt;我々がお主に「忍術」を伝授する代わりに、
+……どうだろう、我々と取引をせぬか？</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_126&lt;tab&gt;我々がお主に「忍術」を伝授する代わりに、
 それで得た「力」と、この地に関する「知識」を、
-我々の任務のために貸してほしい。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_127&lt;tab&gt;お、オボロ様！？
-里の技を、外の者に伝えるなど……良いのですか？</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_128&lt;tab&gt;……ツバメ、手が足りぬのだ。
+我々の任務のために貸してほしい。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_127&lt;tab&gt;お、オボロ様！？
+里の技を、外の者に伝えるなど……良いのですか？</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_128&lt;tab&gt;……ツバメ、手が足りぬのだ。
 命を受けた忍びの中で、残る戦力は、もう我々ふたりのみ。
-それに、この地の知識をもたねば、隠密行動すら危うい。</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_129&lt;tab&gt;双剣士ギルドとしては、止めたいところですけど……。
+それに、この地の知識をもたねば、隠密行動すら危うい。</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_129&lt;tab&gt;双剣士ギルドとしては、止めたいところですけど……。
 ……まぁ、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
-あんたみたいな冒険者にとっちゃ、ワクワクする話でしょうね？</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_130&lt;tab&gt;興味があるなら、手伝ってあげては？
-この人たちが変なことをしないか、見張りを兼ねるってことで！</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_131&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;とやら、この取引に興味があるなら、
+あんたみたいな冒険者にとっちゃ、ワクワクする話でしょうね？</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_130&lt;tab&gt;興味があるなら、手伝ってあげては？
+この人たちが変なことをしないか、見張りを兼ねるってことで！</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_131&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;とやら、この取引に興味があるなら、
 「レインキャッチャー樹林」にある、
-船着場の平屋に参られよ。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_132&lt;tab&gt;……やれやれ！
+船着場の平屋に参られよ。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_PERIMUHAURIMU_000_132&lt;tab&gt;……やれやれ！
 それじゃあオレは帰りますよ、次の仕事が待ってますからね。
-&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、あとは任せました。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_140&lt;tab&gt;先ほどカラスの放った刃をかわした、あなたの才……。
-もしかして、本当に忍びたる素質が……？</target></trans-unit><trans-unit id="111" approved="yes"><source>111</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_160&lt;tab&gt;……ここに現れたということは、
-取引に応じると解釈してよいのであろうな？</target></trans-unit><trans-unit id="112" approved="yes"><source>112</source><target state="final">TEXT_JOBNIN300_00212_Q2_000_000&lt;tab&gt;取引に応じる？</target></trans-unit><trans-unit id="113" approved="yes"><source>113</source><target state="final">TEXT_JOBNIN300_00212_Q2_000_001&lt;tab&gt;はい</target></trans-unit><trans-unit id="114" approved="yes"><source>114</source><target state="final">TEXT_JOBNIN300_00212_Q2_000_002&lt;tab&gt;いいえ</target></trans-unit><trans-unit id="115" approved="yes"><source>115</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_165&lt;tab&gt;……感謝する。
-忍びの里を代表する者として、礼を言わせてくれ。</target></trans-unit><trans-unit id="116" approved="yes"><source>116</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_166&lt;tab&gt;詳しい話は、この中で話そう。
+&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;、あとは任せました。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_140&lt;tab&gt;先ほどカラスの放った刃をかわした、あなたの才……。
+もしかして、本当に忍びたる素質が……？</target>
+			</trans-unit>
+			<trans-unit id="111" approved="yes">
+				<source>111</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_160&lt;tab&gt;……ここに現れたということは、
+取引に応じると解釈してよいのであろうな？</target>
+			</trans-unit>
+			<trans-unit id="112" approved="yes">
+				<source>112</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_Q2_000_000&lt;tab&gt;取引に応じる？</target>
+			</trans-unit>
+			<trans-unit id="113" approved="yes">
+				<source>113</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_Q2_000_001&lt;tab&gt;はい</target>
+			</trans-unit>
+			<trans-unit id="114" approved="yes">
+				<source>114</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_Q2_000_002&lt;tab&gt;いいえ</target>
+			</trans-unit>
+			<trans-unit id="115" approved="yes">
+				<source>115</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_165&lt;tab&gt;……感謝する。
+忍びの里を代表する者として、礼を言わせてくれ。</target>
+			</trans-unit>
+			<trans-unit id="116" approved="yes">
+				<source>116</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_166&lt;tab&gt;詳しい話は、この中で話そう。
 ここは、かぎられた者しか入れぬように、
-合い言葉を取り決めている。</target></trans-unit><trans-unit id="117" approved="yes"><source>117</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_167&lt;tab&gt;そこにいる、ビャクブという門番に話しかけ、
+合い言葉を取り決めている。</target>
+			</trans-unit>
+			<trans-unit id="117" approved="yes">
+				<source>117</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_167&lt;tab&gt;そこにいる、ビャクブという門番に話しかけ、
 「アヤメ」と問われたら、「カエデ」と答えてくれ。
-さすれば、中に入ることができよう。</target></trans-unit><trans-unit id="118" approved="yes"><source>118</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_170&lt;tab&gt;そうか……残念だ。
-気持ちに変化があったら、いつでも言ってほしい。</target></trans-unit><trans-unit id="119" approved="yes"><source>119</source><target state="final">TEXT_JOBNIN300_00212_TSUBAME_000_175&lt;tab&gt;オボロ様の決めたことなら従います。
-どうか、ご協力のほど、よろしくお願いいたします。</target></trans-unit><trans-unit id="120" approved="yes"><source>120</source><target state="final">TEXT_JOBNIN300_00212_BYAKUBU_000_180&lt;tab&gt;……合言葉を述べよ。
-アヤメ……。</target></trans-unit><trans-unit id="121" approved="yes"><source>121</source><target state="final">TEXT_JOBNIN300_00212_Q3_000_000&lt;tab&gt;何と答える？</target></trans-unit><trans-unit id="122" approved="yes"><source>122</source><target state="final">TEXT_JOBNIN300_00212_A3_000_001&lt;tab&gt;カエデ</target></trans-unit><trans-unit id="123" approved="yes"><source>123</source><target state="final">TEXT_JOBNIN300_00212_A3_000_002&lt;tab&gt;カエル</target></trans-unit><trans-unit id="124" approved="yes"><source>124</source><target state="final">TEXT_JOBNIN300_00212_BYAKUBU_000_181&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="125" approved="yes"><source>125</source><target state="final">TEXT_JOBNIN300_00212_A3_000_003&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="126" approved="yes"><source>126</source><target state="final">TEXT_JOBNIN300_00212_BYAKUBU_000_185&lt;tab&gt;……お前を迎えよう。
-オボロ様が、お待ちだ……。</target></trans-unit><trans-unit id="127" approved="yes"><source>127</source><target state="final">TEXT_JOBNIN300_00212_BYAKUBU_000_190&lt;tab&gt;……立ち去るがいい。</target></trans-unit><trans-unit id="128" approved="yes"><source>128</source><target state="final">TEXT_JOBNIN300_00212_BYAKUBU_000_200&lt;tab&gt;……お前を迎えよう。
-オボロ様が、お待ちだ……。</target></trans-unit><trans-unit id="129" approved="yes"><source>129</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_210&lt;tab&gt;よく来てくれた、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
-……ここは、エオルゼアにおける我らが拠点。</target></trans-unit><trans-unit id="130" approved="yes"><source>130</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_211&lt;tab&gt;この位置なら帝国軍の基地もほど近く、
+さすれば、中に入ることができよう。</target>
+			</trans-unit>
+			<trans-unit id="118" approved="yes">
+				<source>118</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_170&lt;tab&gt;そうか……残念だ。
+気持ちに変化があったら、いつでも言ってほしい。</target>
+			</trans-unit>
+			<trans-unit id="119" approved="yes">
+				<source>119</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_TSUBAME_000_175&lt;tab&gt;オボロ様の決めたことなら従います。
+どうか、ご協力のほど、よろしくお願いいたします。</target>
+			</trans-unit>
+			<trans-unit id="120" approved="yes">
+				<source>120</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_BYAKUBU_000_180&lt;tab&gt;……合言葉を述べよ。
+アヤメ……。</target>
+			</trans-unit>
+			<trans-unit id="121" approved="yes">
+				<source>121</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_Q3_000_000&lt;tab&gt;何と答える？</target>
+			</trans-unit>
+			<trans-unit id="122" approved="yes">
+				<source>122</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_A3_000_001&lt;tab&gt;カエデ</target>
+			</trans-unit>
+			<trans-unit id="123" approved="yes">
+				<source>123</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_A3_000_002&lt;tab&gt;カエル</target>
+			</trans-unit>
+			<trans-unit id="124" approved="yes">
+				<source>124</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_BYAKUBU_000_181&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="125" approved="yes">
+				<source>125</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_A3_000_003&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="126" approved="yes">
+				<source>126</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_BYAKUBU_000_185&lt;tab&gt;……お前を迎えよう。
+オボロ様が、お待ちだ……。</target>
+			</trans-unit>
+			<trans-unit id="127" approved="yes">
+				<source>127</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_BYAKUBU_000_190&lt;tab&gt;……立ち去るがいい。</target>
+			</trans-unit>
+			<trans-unit id="128" approved="yes">
+				<source>128</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_BYAKUBU_000_200&lt;tab&gt;……お前を迎えよう。
+オボロ様が、お待ちだ……。</target>
+			</trans-unit>
+			<trans-unit id="129" approved="yes">
+				<source>129</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_210&lt;tab&gt;よく来てくれた、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;。
+……ここは、エオルゼアにおける我らが拠点。</target>
+			</trans-unit>
+			<trans-unit id="130" approved="yes">
+				<source>130</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_211&lt;tab&gt;この位置なら帝国軍の基地もほど近く、
 カラスの動きを見張るには丁度よくてな。
-地元の船渡しに雇われる形で、ここに住み込んでいる。</target></trans-unit><trans-unit id="131" approved="yes"><source>131</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_212&lt;tab&gt;……さて、「忍者の証」だが、改めてお主に託そうと思う。
+地元の船渡しに雇われる形で、ここに住み込んでいる。</target>
+			</trans-unit>
+			<trans-unit id="131" approved="yes">
+				<source>131</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_212&lt;tab&gt;……さて、「忍者の証」だが、改めてお主に託そうと思う。
 一族の忍びの魂が込められた、その輝石を身に帯びることで、
-お主は「忍者」たる覚悟を「心」に据えることとなろう。</target></trans-unit><trans-unit id="132" approved="yes"><source>132</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_213&lt;tab&gt;忍びが扱う「忍術」は、隠れ里に伝わってきた歴史ある技……。
+お主は「忍者」たる覚悟を「心」に据えることとなろう。</target>
+			</trans-unit>
+			<trans-unit id="132" approved="yes">
+				<source>132</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_213&lt;tab&gt;忍びが扱う「忍術」は、隠れ里に伝わってきた歴史ある技……。
 乱世に生きる民が己の身を守るため編み出し、
-磨き上げてきた独自の技術でござる。</target></trans-unit><trans-unit id="133" approved="yes"><source>133</source><target state="final">TEXT_JOBNIN300_00212_OBORO_100_213&lt;tab&gt;天地人のすべてに満ちる気……
+磨き上げてきた独自の技術でござる。</target>
+			</trans-unit>
+			<trans-unit id="133" approved="yes">
+				<source>133</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_100_213&lt;tab&gt;天地人のすべてに満ちる気……
 お主たちエオルゼアの民は、「エーテル」というのであったな。
-これを操りつつ、体術と合わせ闘うのが「忍者」だ。</target></trans-unit><trans-unit id="134" approved="yes"><source>134</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_214&lt;tab&gt;その基本となるのが、気を結ぶための「印」……。
+これを操りつつ、体術と合わせ闘うのが「忍者」だ。</target>
+			</trans-unit>
+			<trans-unit id="134" approved="yes">
+				<source>134</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_214&lt;tab&gt;その基本となるのが、気を結ぶための「印」……。
 最初に教えるのは、大気に満ちるエーテルを結ぶ「天の印」。
-そして、結んだ気を力と成して放つ技……「忍術」だ！</target></trans-unit><trans-unit id="135" approved="yes"><source>135</source><target state="final">TEXT_JOBNIN300_00212_OBORO_000_215&lt;tab&gt;扱い方を伝授するのは、
+そして、結んだ気を力と成して放つ技……「忍術」だ！</target>
+			</trans-unit>
+			<trans-unit id="135" approved="yes">
+				<source>135</source>
+				<target state="final" xml:space="preserve">TEXT_JOBNIN300_00212_OBORO_000_215&lt;tab&gt;扱い方を伝授するのは、
 お主が正式な「忍者」となってからとしよう……。
-「&lt;var 28 ((Item)) F21ECE01 /var&gt;」を装備してから、再度、私に声をかけるがよい。</target></trans-unit></body></file></xliff>
+「&lt;var 28 ((Item)) F21ECE01 /var&gt;」を装備してから、再度、私に声をかけるがよい。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

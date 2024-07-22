@@ -1,80 +1,386 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><xliff version="1.2"><file original="StmBdz218_02690" datatype="plaintext" source-language="en" target-language="ja" xml:space="preserve"><body><trans-unit id="0" approved="yes"><source>0</source><target state="final">TEXT_STMBDZ218_02690_SEQ_00&lt;tab&gt;サカズキ島のツキカゲは、心配事があるようだ。</target></trans-unit><trans-unit id="1" approved="yes"><source>1</source><target state="final">TEXT_STMBDZ218_02690_SEQ_01&lt;tab&gt;ツキカゲは、スズメがハンサクに仇討するつもりだと予想している。紅玉海のサカズキ島にいる「スズメ」と話し、仇討を止めよう。</target></trans-unit><trans-unit id="2" approved="yes"><source>2</source><target state="final">TEXT_STMBDZ218_02690_SEQ_02&lt;tab&gt;スズメと話して、仇討を思いとどまらせた。取引場所の安全を確保するため、サカズキ島の「&lt;var 28 ((EObj)) F61EA5FE01 /var&gt;」で見渡そう。</target></trans-unit><trans-unit id="3" approved="yes"><source>3</source><target state="final">TEXT_STMBDZ218_02690_SEQ_03&lt;tab&gt;&lt;var 28 ((EObj)) F61EA5FE01 /var&gt;の安全を確認した。サカズキ島の北にいる「スズメ」と合流しよう。</target></trans-unit><trans-unit id="4" approved="yes"><source>4</source><target state="final">TEXT_STMBDZ218_02690_SEQ_04&lt;tab&gt;スズメを襲う魔物を討伐した。サカズキ島の北にいる「スズメ」を救助しよう。</target></trans-unit><trans-unit id="5" approved="yes"><source>5</source><target state="final">TEXT_STMBDZ218_02690_SEQ_05&lt;tab&gt;スズメを救助し、キキモへの荷の引き渡しも無事に終わりそうだ。紅玉海の筋違砦にいる「ツキカゲ」と話そう。</target></trans-unit><trans-unit id="6" approved="yes"><source>6</source><target state="final">TEXT_STMBDZ218_02690_SEQ_06&lt;tab&gt;ツキカゲと話した。冒険者の協力によって、海賊衆の財政難は解決の方向に向かう兆しが見えた。勘定方の海賊衆の絆も深まり、海賊衆はさらなる活躍をみせることだろう。</target></trans-unit><trans-unit id="24" approved="yes"><source>24</source><target state="final">TEXT_STMBDZ218_02690_TODO_00&lt;tab&gt;サカズキ島のスズメと話す</target></trans-unit><trans-unit id="25" approved="yes"><source>25</source><target state="final">TEXT_STMBDZ218_02690_TODO_01&lt;tab&gt;&lt;var 28 ((EObj)) F61EA5FE01 /var&gt;で見渡す</target></trans-unit><trans-unit id="26" approved="yes"><source>26</source><target state="final">TEXT_STMBDZ218_02690_TODO_02&lt;tab&gt;スズメと合流</target></trans-unit><trans-unit id="27" approved="yes"><source>27</source><target state="final">TEXT_STMBDZ218_02690_TODO_03&lt;tab&gt;スズメを救助</target></trans-unit><trans-unit id="28" approved="yes"><source>28</source><target state="final">TEXT_STMBDZ218_02690_TODO_04&lt;tab&gt;筋違砦のツキカゲと話す</target></trans-unit><trans-unit id="48" approved="yes"><source>48</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_000&lt;tab&gt;スズメは、ハンサクに仇討するために、
-取引場所の安全確保に向かったのやもしれん……！</target></trans-unit><trans-unit id="49" approved="yes"><source>49</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_001&lt;tab&gt;海賊衆は、様々な過去を背負った者たちの集団じゃ。
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+	<file original="StmBdz218_02690" datatype="plaintext" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="0" approved="yes">
+				<source>0</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SEQ_00&lt;tab&gt;サカズキ島のツキカゲは、心配事があるようだ。</target>
+			</trans-unit>
+			<trans-unit id="1" approved="yes">
+				<source>1</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SEQ_01&lt;tab&gt;ツキカゲは、スズメがハンサクに仇討するつもりだと予想している。紅玉海のサカズキ島にいる「スズメ」と話し、仇討を止めよう。</target>
+			</trans-unit>
+			<trans-unit id="2" approved="yes">
+				<source>2</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SEQ_02&lt;tab&gt;スズメと話して、仇討を思いとどまらせた。取引場所の安全を確保するため、サカズキ島の「&lt;var 28 ((EObj)) F61EA5FE01 /var&gt;」で見渡そう。</target>
+			</trans-unit>
+			<trans-unit id="3" approved="yes">
+				<source>3</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SEQ_03&lt;tab&gt;&lt;var 28 ((EObj)) F61EA5FE01 /var&gt;の安全を確認した。サカズキ島の北にいる「スズメ」と合流しよう。</target>
+			</trans-unit>
+			<trans-unit id="4" approved="yes">
+				<source>4</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SEQ_04&lt;tab&gt;スズメを襲う魔物を討伐した。サカズキ島の北にいる「スズメ」を救助しよう。</target>
+			</trans-unit>
+			<trans-unit id="5" approved="yes">
+				<source>5</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SEQ_05&lt;tab&gt;スズメを救助し、キキモへの荷の引き渡しも無事に終わりそうだ。紅玉海の筋違砦にいる「ツキカゲ」と話そう。</target>
+			</trans-unit>
+			<trans-unit id="6" approved="yes">
+				<source>6</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SEQ_06&lt;tab&gt;ツキカゲと話した。冒険者の協力によって、海賊衆の財政難は解決の方向に向かう兆しが見えた。勘定方の海賊衆の絆も深まり、海賊衆はさらなる活躍をみせることだろう。</target>
+			</trans-unit>
+			<trans-unit id="24" approved="yes">
+				<source>24</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TODO_00&lt;tab&gt;サカズキ島のスズメと話す</target>
+			</trans-unit>
+			<trans-unit id="25" approved="yes">
+				<source>25</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TODO_01&lt;tab&gt;&lt;var 28 ((EObj)) F61EA5FE01 /var&gt;で見渡す</target>
+			</trans-unit>
+			<trans-unit id="26" approved="yes">
+				<source>26</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TODO_02&lt;tab&gt;スズメと合流</target>
+			</trans-unit>
+			<trans-unit id="27" approved="yes">
+				<source>27</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TODO_03&lt;tab&gt;スズメを救助</target>
+			</trans-unit>
+			<trans-unit id="28" approved="yes">
+				<source>28</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TODO_04&lt;tab&gt;筋違砦のツキカゲと話す</target>
+			</trans-unit>
+			<trans-unit id="48" approved="yes">
+				<source>48</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_000&lt;tab&gt;スズメは、ハンサクに仇討するために、
+取引場所の安全確保に向かったのやもしれん……！</target>
+			</trans-unit>
+			<trans-unit id="49" approved="yes">
+				<source>49</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_001&lt;tab&gt;海賊衆は、様々な過去を背負った者たちの集団じゃ。
 ゆえに、ひとたび海賊衆に入ったのであれば過去を捨て、
-たとえ親の仇と言えど、身内同士の私闘は禁止じゃ。</target></trans-unit><trans-unit id="50" approved="yes"><source>50</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_002&lt;tab&gt;スズメめ……海賊衆をも捨てる覚悟か！？
-何とかして、ふたりを護らねば！！</target></trans-unit><trans-unit id="51" approved="yes"><source>51</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_003&lt;tab&gt;だが、そろそろ船を出港させねば、取引に間に合わん。
+たとえ親の仇と言えど、身内同士の私闘は禁止じゃ。</target>
+			</trans-unit>
+			<trans-unit id="50" approved="yes">
+				<source>50</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_002&lt;tab&gt;スズメめ……海賊衆をも捨てる覚悟か！？
+何とかして、ふたりを護らねば！！</target>
+			</trans-unit>
+			<trans-unit id="51" approved="yes">
+				<source>51</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_003&lt;tab&gt;だが、そろそろ船を出港させねば、取引に間に合わん。
 船はわしが指揮せにゃならんが、
-取引場所につくころには、スズメが仇討を果たしてしまう！</target></trans-unit><trans-unit id="52" approved="yes"><source>52</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_004&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、急ぎハンサクのもとへ向かい、
-スズメを止めてくれ！</target></trans-unit><trans-unit id="53" approved="yes"><source>53</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_009&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、急ぎハンサクのもとへ向かい、
-スズメを止めてくれ！</target></trans-unit><trans-unit id="54" approved="yes"><source>54</source><target state="final">TEXT_STMBDZ218_02690_HANSAKU_000_009&lt;tab&gt;スズメさんが、昔の仲間たちが襲った村の出だったなんて……。
-オレは……オレは……。</target></trans-unit><trans-unit id="55" approved="yes"><source>55</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_010&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、止めてくれるな！
+取引場所につくころには、スズメが仇討を果たしてしまう！</target>
+			</trans-unit>
+			<trans-unit id="52" approved="yes">
+				<source>52</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_004&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、急ぎハンサクのもとへ向かい、
+スズメを止めてくれ！</target>
+			</trans-unit>
+			<trans-unit id="53" approved="yes">
+				<source>53</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_009&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、急ぎハンサクのもとへ向かい、
+スズメを止めてくれ！</target>
+			</trans-unit>
+			<trans-unit id="54" approved="yes">
+				<source>54</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_HANSAKU_000_009&lt;tab&gt;スズメさんが、昔の仲間たちが襲った村の出だったなんて……。
+オレは……オレは……。</target>
+			</trans-unit>
+			<trans-unit id="55" approved="yes">
+				<source>55</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_010&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿、止めてくれるな！
 でないと、貴方にも刃を向けることになっちまう！
-誰も、アタシの仇討の邪魔はさせないよ！</target></trans-unit><trans-unit id="56" approved="yes"><source>56</source><target state="final">TEXT_STMBDZ218_02690_Q1_000_000&lt;tab&gt;スズメに何と言う？</target></trans-unit><trans-unit id="57" approved="yes"><source>57</source><target state="final">TEXT_STMBDZ218_02690_A1_000_001&lt;tab&gt;海賊衆どうしの仇討は禁止だ</target></trans-unit><trans-unit id="58" approved="yes"><source>58</source><target state="final">TEXT_STMBDZ218_02690_A1_000_002&lt;tab&gt;海賊衆入りしたときに、過去は捨てたはず</target></trans-unit><trans-unit id="59" approved="yes"><source>59</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_011&lt;tab&gt;海賊衆同士の仇討が禁じられてるのはわかってる！
+誰も、アタシの仇討の邪魔はさせないよ！</target>
+			</trans-unit>
+			<trans-unit id="56" approved="yes">
+				<source>56</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_Q1_000_000&lt;tab&gt;スズメに何と言う？</target>
+			</trans-unit>
+			<trans-unit id="57" approved="yes">
+				<source>57</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_A1_000_001&lt;tab&gt;海賊衆どうしの仇討は禁止だ</target>
+			</trans-unit>
+			<trans-unit id="58" approved="yes">
+				<source>58</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_A1_000_002&lt;tab&gt;海賊衆入りしたときに、過去は捨てたはず</target>
+			</trans-unit>
+			<trans-unit id="59" approved="yes">
+				<source>59</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_011&lt;tab&gt;海賊衆同士の仇討が禁じられてるのはわかってる！
 でも、頑固者の父ちゃんも、優しかった母ちゃんも……。
-こいつらのせいで、こいつらのせいで……！</target></trans-unit><trans-unit id="60" approved="yes"><source>60</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_012&lt;tab&gt;そう簡単に、捨てられるものかよ！？
+こいつらのせいで、こいつらのせいで……！</target>
+			</trans-unit>
+			<trans-unit id="60" approved="yes">
+				<source>60</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_012&lt;tab&gt;そう簡単に、捨てられるものかよ！？
 頑固者の父ちゃんも、優しかった母ちゃんも……
-こいつらのせいで、こいつらのせいで……！</target></trans-unit><trans-unit id="61" approved="yes"><source>61</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_013&lt;tab&gt;仇討しなきゃ、気が済まない！
-あの世の両親に顔向けができないじゃないか！</target></trans-unit><trans-unit id="62" approved="yes"><source>62</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_014&lt;tab&gt;(-響き渡る声-)この、大うつけがぁ！！
-海賊衆を抜けるんは、船に乗れなくなったときのみじゃ！</target></trans-unit><trans-unit id="63" approved="yes"><source>63</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_015&lt;tab&gt;海賊衆は、みな家族！
+こいつらのせいで、こいつらのせいで……！</target>
+			</trans-unit>
+			<trans-unit id="61" approved="yes">
+				<source>61</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_013&lt;tab&gt;仇討しなきゃ、気が済まない！
+あの世の両親に顔向けができないじゃないか！</target>
+			</trans-unit>
+			<trans-unit id="62" approved="yes">
+				<source>62</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_014&lt;tab&gt;(-響き渡る声-)この、大うつけがぁ！！
+海賊衆を抜けるんは、船に乗れなくなったときのみじゃ！</target>
+			</trans-unit>
+			<trans-unit id="63" approved="yes">
+				<source>63</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_015&lt;tab&gt;海賊衆は、みな家族！
 その家族に手をかけたもんは、例外なく死罪じゃ！
-うぬに、その覚悟はあるんじゃろな！？</target></trans-unit><trans-unit id="64" approved="yes"><source>64</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_016&lt;tab&gt;もちろんです……！
-そのつもりで、ここに来ました……！！</target></trans-unit><trans-unit id="65" approved="yes"><source>65</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_017&lt;tab&gt;フン、そこまで言うなら、承知した。
+うぬに、その覚悟はあるんじゃろな！？</target>
+			</trans-unit>
+			<trans-unit id="64" approved="yes">
+				<source>64</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_016&lt;tab&gt;もちろんです……！
+そのつもりで、ここに来ました……！！</target>
+			</trans-unit>
+			<trans-unit id="65" approved="yes">
+				<source>65</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_017&lt;tab&gt;フン、そこまで言うなら、承知した。
 スズメの納得いくようにすればいい。
-だが、落とし前をつけるのは、キキモ殿との取引の後にせい！</target></trans-unit><trans-unit id="66" approved="yes"><source>66</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_018&lt;tab&gt;この取引には、海賊衆すべての未来がかかっとる！
-うぬの手前勝手な理由で、海賊衆を総崩れにさせるつもりか！？</target></trans-unit><trans-unit id="67" approved="yes"><source>67</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_019&lt;tab&gt;う……世話になったみなに、迷惑をかけるわけには……。
-取引が終わるまでは、しかと役目を果たします……。</target></trans-unit><trans-unit id="68" approved="yes"><source>68</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_020&lt;tab&gt;よし、ならば、さっさと取引場所周辺の安全を確保せい！
-いけ、スズメ、ハンサク！！</target></trans-unit><trans-unit id="69" approved="yes"><source>69</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_021&lt;tab&gt;(-スズメとハンサク-)合点承知！！</target></trans-unit><trans-unit id="70" approved="yes"><source>70</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_022&lt;tab&gt;スズメ、抜け駆けは許さんぞ！！
-すべてが終わるまで、ハンサクへの手出しは一切厳禁じゃ！</target></trans-unit><trans-unit id="71" approved="yes"><source>71</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_023&lt;tab&gt;も、もちろんです！</target></trans-unit><trans-unit id="72" approved="yes"><source>72</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_024&lt;tab&gt;ふぅ……間一髪間に合ったな。
+だが、落とし前をつけるのは、キキモ殿との取引の後にせい！</target>
+			</trans-unit>
+			<trans-unit id="66" approved="yes">
+				<source>66</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_018&lt;tab&gt;この取引には、海賊衆すべての未来がかかっとる！
+うぬの手前勝手な理由で、海賊衆を総崩れにさせるつもりか！？</target>
+			</trans-unit>
+			<trans-unit id="67" approved="yes">
+				<source>67</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_019&lt;tab&gt;う……世話になったみなに、迷惑をかけるわけには……。
+取引が終わるまでは、しかと役目を果たします……。</target>
+			</trans-unit>
+			<trans-unit id="68" approved="yes">
+				<source>68</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_020&lt;tab&gt;よし、ならば、さっさと取引場所周辺の安全を確保せい！
+いけ、スズメ、ハンサク！！</target>
+			</trans-unit>
+			<trans-unit id="69" approved="yes">
+				<source>69</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_021&lt;tab&gt;(-スズメとハンサク-)合点承知！！</target>
+			</trans-unit>
+			<trans-unit id="70" approved="yes">
+				<source>70</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_022&lt;tab&gt;スズメ、抜け駆けは許さんぞ！！
+すべてが終わるまで、ハンサクへの手出しは一切厳禁じゃ！</target>
+			</trans-unit>
+			<trans-unit id="71" approved="yes">
+				<source>71</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_023&lt;tab&gt;も、もちろんです！</target>
+			</trans-unit>
+			<trans-unit id="72" approved="yes">
+				<source>72</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_024&lt;tab&gt;ふぅ……間一髪間に合ったな。
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が、
-スズメを止めてくれたおかげじゃ、かたじけない！</target></trans-unit><trans-unit id="73" approved="yes"><source>73</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_025&lt;tab&gt;わしは積荷の見張りに戻るが、予断は許さん状況じゃ。
+スズメを止めてくれたおかげじゃ、かたじけない！</target>
+			</trans-unit>
+			<trans-unit id="73" approved="yes">
+				<source>73</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_025&lt;tab&gt;わしは積荷の見張りに戻るが、予断は許さん状況じゃ。
 &lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿も、
-島の北側で辺りを見回し、安全を確認してくれ。</target></trans-unit><trans-unit id="74" approved="yes"><source>74</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_026&lt;tab&gt;それが済んだら、スズメの様子も見てやってほしい。
-よろしく頼んだぞ。</target></trans-unit><trans-unit id="75" approved="yes"><source>75</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_029&lt;tab&gt;お前さんは、島の北側の安全を確認してくれ。
+島の北側で辺りを見回し、安全を確認してくれ。</target>
+			</trans-unit>
+			<trans-unit id="74" approved="yes">
+				<source>74</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_026&lt;tab&gt;それが済んだら、スズメの様子も見てやってほしい。
+よろしく頼んだぞ。</target>
+			</trans-unit>
+			<trans-unit id="75" approved="yes">
+				<source>75</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_029&lt;tab&gt;お前さんは、島の北側の安全を確認してくれ。
 それが済んだら、スズメの様子も見てやってほしい。
-よろしく頼んだぞ。</target></trans-unit><trans-unit id="76" approved="yes"><source>76</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_029&lt;tab&gt;ちくしょー、ちくしょー！
-魔物もハンサクも、みんな仕留めてやる！</target></trans-unit><trans-unit id="77" approved="yes"><source>77</source><target state="final">TEXT_STMBDZ218_02690_HANSAKU_000_029&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="78" approved="yes"><source>78</source><target state="final">TEXT_STMBDZ218_02690_SYSTEM_000_039&lt;tab&gt;この付近には、魔物がいないようだ。
-スズメの様子を確認しよう。</target></trans-unit><trans-unit id="79" approved="yes"><source>79</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_039&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……
+よろしく頼んだぞ。</target>
+			</trans-unit>
+			<trans-unit id="76" approved="yes">
+				<source>76</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_029&lt;tab&gt;ちくしょー、ちくしょー！
+魔物もハンサクも、みんな仕留めてやる！</target>
+			</trans-unit>
+			<trans-unit id="77" approved="yes">
+				<source>77</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_HANSAKU_000_029&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="78" approved="yes">
+				<source>78</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SYSTEM_000_039&lt;tab&gt;この付近には、魔物がいないようだ。
+スズメの様子を確認しよう。</target>
+			</trans-unit>
+			<trans-unit id="79" approved="yes">
+				<source>79</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_039&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……
 ハンサクが駆けつけてくれたが、ふたりしてこのザマだ。
-まだ魔物が残ってる……ブッ倒してくれ……。</target></trans-unit><trans-unit id="80" approved="yes"><source>80</source><target state="final">TEXT_STMBDZ218_02690_POPMESSAGE_000_000&lt;tab&gt;敵が襲いかかってきた！！</target></trans-unit><trans-unit id="81" approved="yes"><source>81</source><target state="final">TEXT_STMBDZ218_02690_HANSAKU_000_039&lt;tab&gt;スズメさんをかばって、このザマだ……。
-じきに動けるようになる……。</target></trans-unit><trans-unit id="82" approved="yes"><source>82</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_040&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……気張ってくれ。
-すまないが、アタシらはまだ動けそうにない。</target></trans-unit><trans-unit id="83" approved="yes"><source>83</source><target state="final">TEXT_STMBDZ218_02690_HANSAKU_000_049&lt;tab&gt;また助けてもらっちまったな……。
+まだ魔物が残ってる……ブッ倒してくれ……。</target>
+			</trans-unit>
+			<trans-unit id="80" approved="yes">
+				<source>80</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_POPMESSAGE_000_000&lt;tab&gt;敵が襲いかかってきた！！</target>
+			</trans-unit>
+			<trans-unit id="81" approved="yes">
+				<source>81</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_HANSAKU_000_039&lt;tab&gt;スズメさんをかばって、このザマだ……。
+じきに動けるようになる……。</target>
+			</trans-unit>
+			<trans-unit id="82" approved="yes">
+				<source>82</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_040&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……気張ってくれ。
+すまないが、アタシらはまだ動けそうにない。</target>
+			</trans-unit>
+			<trans-unit id="83" approved="yes">
+				<source>83</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_HANSAKU_000_049&lt;tab&gt;また助けてもらっちまったな……。
 俺は、これぐらい、どうってことない……。
-先に、スズメさんを見てやってくれ……。</target></trans-unit><trans-unit id="84" approved="yes"><source>84</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_050&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……。
-危ないところを、ありがとう。</target></trans-unit><trans-unit id="85" approved="yes"><source>85</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_051&lt;tab&gt;怒りのあまり、背後の魔物に気付くのが遅れちまった。
+先に、スズメさんを見てやってくれ……。</target>
+			</trans-unit>
+			<trans-unit id="84" approved="yes">
+				<source>84</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_050&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……。
+危ないところを、ありがとう。</target>
+			</trans-unit>
+			<trans-unit id="85" approved="yes">
+				<source>85</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_051&lt;tab&gt;怒りのあまり、背後の魔物に気付くのが遅れちまった。
 ハンサクが盾になってくれたおかげで、命拾いしたが……
-これは罪滅ぼしのつもりか！？</target></trans-unit><trans-unit id="86" approved="yes"><source>86</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_052&lt;tab&gt;（★未使用／削除予定★）</target></trans-unit><trans-unit id="87" approved="yes"><source>87</source><target state="final">TEXT_STMBDZ218_02690_HANSAKU_000_052&lt;tab&gt;そ、そんなんじゃない……。
+これは罪滅ぼしのつもりか！？</target>
+			</trans-unit>
+			<trans-unit id="86" approved="yes">
+				<source>86</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_052&lt;tab&gt;（★未使用／削除予定★）</target>
+			</trans-unit>
+			<trans-unit id="87" approved="yes">
+				<source>87</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_HANSAKU_000_052&lt;tab&gt;そ、そんなんじゃない……。
 とっさのことで、考えるヒマさえなかった。
-身体が勝手に動いただけで……ともかく、無事でよかった。</target></trans-unit><trans-unit id="88" approved="yes"><source>88</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_053&lt;tab&gt;ハッ……。
+身体が勝手に動いただけで……ともかく、無事でよかった。</target>
+			</trans-unit>
+			<trans-unit id="88" approved="yes">
+				<source>88</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_053&lt;tab&gt;ハッ……。
 確かに、そそっかしいハンサクが、
-後先なんて、考えるはずもないか……。</target></trans-unit><trans-unit id="89" approved="yes"><source>89</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_054&lt;tab&gt;照れるな、褒めちゃいないぞ！
+後先なんて、考えるはずもないか……。</target>
+			</trans-unit>
+			<trans-unit id="89" approved="yes">
+				<source>89</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_054&lt;tab&gt;照れるな、褒めちゃいないぞ！
 自分を殺そうとしているヤツを助ける野郎なんざ、
-やっぱり、ハンサクじゃなくてヌケサクだ……。</target></trans-unit><trans-unit id="90" approved="yes"><source>90</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_055&lt;tab&gt;ハァ……あほらしい……。
+やっぱり、ハンサクじゃなくてヌケサクだ……。</target>
+			</trans-unit>
+			<trans-unit id="90" approved="yes">
+				<source>90</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_055&lt;tab&gt;ハァ……あほらしい……。
 今を生きようと必死に駆けずりまわるハンサクを見ていたら、
-変えられない過去にこだわる自分が、ちっぽけに思えてきたよ。</target></trans-unit><trans-unit id="91" approved="yes"><source>91</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_056&lt;tab&gt;ようやく気付いたか、スズメよ。
-ならば、ハンサクとわしに何を言うべきかわかるじゃろ？</target></trans-unit><trans-unit id="92" approved="yes"><source>92</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_057&lt;tab&gt;ハンサク、すまない……。
+変えられない過去にこだわる自分が、ちっぽけに思えてきたよ。</target>
+			</trans-unit>
+			<trans-unit id="91" approved="yes">
+				<source>91</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_056&lt;tab&gt;ようやく気付いたか、スズメよ。
+ならば、ハンサクとわしに何を言うべきかわかるじゃろ？</target>
+			</trans-unit>
+			<trans-unit id="92" approved="yes">
+				<source>92</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_057&lt;tab&gt;ハンサク、すまない……。
 そして、助けてくれて、ありがとう。
-こんなアタシだが……海賊衆に残っててもいいか？</target></trans-unit><trans-unit id="93" approved="yes"><source>93</source><target state="final">TEXT_STMBDZ218_02690_HANSAKU_000_058&lt;tab&gt;残るもなにも……
-スズメさんの居場所は、海賊衆だけだ！</target></trans-unit><trans-unit id="94" approved="yes"><source>94</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_059&lt;tab&gt;親分、お願いします……。
+こんなアタシだが……海賊衆に残っててもいいか？</target>
+			</trans-unit>
+			<trans-unit id="93" approved="yes">
+				<source>93</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_HANSAKU_000_058&lt;tab&gt;残るもなにも……
+スズメさんの居場所は、海賊衆だけだ！</target>
+			</trans-unit>
+			<trans-unit id="94" approved="yes">
+				<source>94</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_059&lt;tab&gt;親分、お願いします……。
 ハンサクよりも、ずっとうつけ者ですが、
-これからもアタシを海賊衆においてください！</target></trans-unit><trans-unit id="95" approved="yes"><source>95</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_060&lt;tab&gt;はっ、もとより、そのつもりじゃ。
+これからもアタシを海賊衆においてください！</target>
+			</trans-unit>
+			<trans-unit id="95" approved="yes">
+				<source>95</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_060&lt;tab&gt;はっ、もとより、そのつもりじゃ。
 海賊衆は、家柄にも、過去の栄光にも、ましてや国にも頼らん。
-ただ家族たる仲間との絆にのみ頼り、生きていくんじゃ！</target></trans-unit><trans-unit id="96" approved="yes"><source>96</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_061&lt;tab&gt;(-スズメとハンサク-)はいッ！</target></trans-unit><trans-unit id="97" approved="yes"><source>97</source><target state="final">TEXT_STMBDZ218_02690_HANSAKU_000_062&lt;tab&gt;と、ところで、親分……
+ただ家族たる仲間との絆にのみ頼り、生きていくんじゃ！</target>
+			</trans-unit>
+			<trans-unit id="96" approved="yes">
+				<source>96</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_061&lt;tab&gt;(-スズメとハンサク-)はいッ！</target>
+			</trans-unit>
+			<trans-unit id="97" approved="yes">
+				<source>97</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_HANSAKU_000_062&lt;tab&gt;と、ところで、親分……
 キキモ殿が、そろそろ到着する頃合いじゃないんですかい？
-大切な取引相手を、ほっぽり出しておくのはマズいんじゃ……。</target></trans-unit><trans-unit id="98" approved="yes"><source>98</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_063&lt;tab&gt;これで取引がご破算になったとしても、
+大切な取引相手を、ほっぽり出しておくのはマズいんじゃ……。</target>
+			</trans-unit>
+			<trans-unit id="98" approved="yes">
+				<source>98</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_063&lt;tab&gt;これで取引がご破算になったとしても、
 大切な家族を同時にふたりも失うよりマシじゃ！
-家族がおれば、力を合わせて難局を打破できるからのう！</target></trans-unit><trans-unit id="99" approved="yes"><source>99</source><target state="final">TEXT_STMBDZ218_02690_KIKIMO_000_064&lt;tab&gt;(-呼びかける声-)誰が、取引をご破算にするですって？</target></trans-unit><trans-unit id="100" approved="yes"><source>100</source><target state="final">TEXT_STMBDZ218_02690_KIKIMO_000_065&lt;tab&gt;取引場所に着いても、荷を見張る配下の者のみで、
+家族がおれば、力を合わせて難局を打破できるからのう！</target>
+			</trans-unit>
+			<trans-unit id="99" approved="yes">
+				<source>99</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_KIKIMO_000_064&lt;tab&gt;(-呼びかける声-)誰が、取引をご破算にするですって？</target>
+			</trans-unit>
+			<trans-unit id="100" approved="yes">
+				<source>100</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_KIKIMO_000_065&lt;tab&gt;取引場所に着いても、荷を見張る配下の者のみで、
 ツキカゲ殿がいないと荷は渡せぬと言われ、捜しにきました。
-ひとまずご無事のようで安心しました。</target></trans-unit><trans-unit id="101" approved="yes"><source>101</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_066&lt;tab&gt;こ、これは、キキモ殿……
-身内の恥をさらしてしまったようじゃのう……。</target></trans-unit><trans-unit id="102" approved="yes"><source>102</source><target state="final">TEXT_STMBDZ218_02690_KIKIMO_000_067&lt;tab&gt;いえいえ、むしろ取引相手を見極めるいい機会でしたわ。
+ひとまずご無事のようで安心しました。</target>
+			</trans-unit>
+			<trans-unit id="101" approved="yes">
+				<source>101</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_066&lt;tab&gt;こ、これは、キキモ殿……
+身内の恥をさらしてしまったようじゃのう……。</target>
+			</trans-unit>
+			<trans-unit id="102" approved="yes">
+				<source>102</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_KIKIMO_000_067&lt;tab&gt;いえいえ、むしろ取引相手を見極めるいい機会でしたわ。
 海賊衆が結束力に優れた、信頼に値する組織だとわかりました。
-ぜひとも我が商会との独占契約を結ばせてください。</target></trans-unit><trans-unit id="103" approved="yes"><source>103</source><target state="final">TEXT_STMBDZ218_02690_KIKIMO_000_068&lt;tab&gt;さあ、まずは最初の取引を完了させましょう。
-あれほどの荷を、船に運びこむのは大変難儀ですので。</target></trans-unit><trans-unit id="104" approved="yes"><source>104</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_000_069&lt;tab&gt;は、はい、すぐに運び入れます！</target></trans-unit><trans-unit id="105" approved="yes"><source>105</source><target state="final">TEXT_STMBDZ218_02690_SUZUME_100_069&lt;tab&gt;ハンサク、行くぞ！</target></trans-unit><trans-unit id="106" approved="yes"><source>106</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_070&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……
+ぜひとも我が商会との独占契約を結ばせてください。</target>
+			</trans-unit>
+			<trans-unit id="103" approved="yes">
+				<source>103</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_KIKIMO_000_068&lt;tab&gt;さあ、まずは最初の取引を完了させましょう。
+あれほどの荷を、船に運びこむのは大変難儀ですので。</target>
+			</trans-unit>
+			<trans-unit id="104" approved="yes">
+				<source>104</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_000_069&lt;tab&gt;は、はい、すぐに運び入れます！</target>
+			</trans-unit>
+			<trans-unit id="105" approved="yes">
+				<source>105</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_SUZUME_100_069&lt;tab&gt;ハンサク、行くぞ！</target>
+			</trans-unit>
+			<trans-unit id="106" approved="yes">
+				<source>106</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_070&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……
 何から何まで、世話になった。
-荷の受け渡しに戻るゆえ、のちほど筋違砦で会おう！</target></trans-unit><trans-unit id="107" approved="yes"><source>107</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_080&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……
+荷の受け渡しに戻るゆえ、のちほど筋違砦で会おう！</target>
+			</trans-unit>
+			<trans-unit id="107" approved="yes">
+				<source>107</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_080&lt;tab&gt;&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿……
 取引も無事に終わり、紅玉海産の贅沢品と、
-押収品の買い取りの継続的な契約まで取り付けたんじゃ。</target></trans-unit><trans-unit id="108" approved="yes"><source>108</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_081&lt;tab&gt;スズメとハンサクも家族同然に、協力して仕事に励んでおってな。
-これで、海賊衆の窮状も、どうにか持ちなおせるじゃろう。</target></trans-unit><trans-unit id="109" approved="yes"><source>109</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_082&lt;tab&gt;すべては、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が、
+押収品の買い取りの継続的な契約まで取り付けたんじゃ。</target>
+			</trans-unit>
+			<trans-unit id="108" approved="yes">
+				<source>108</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_081&lt;tab&gt;スズメとハンサクも家族同然に、協力して仕事に励んでおってな。
+これで、海賊衆の窮状も、どうにか持ちなおせるじゃろう。</target>
+			</trans-unit>
+			<trans-unit id="109" approved="yes">
+				<source>109</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_082&lt;tab&gt;すべては、&lt;var 2C ((&lt;var 29 EB02 /var&gt;)) (( )) 02 /var&gt;殿が、
 わしらに力を貸して、絆を結んでくれたおかげじゃ。
-本当に、ありがとう。</target></trans-unit><trans-unit id="110" approved="yes"><source>110</source><target state="final">TEXT_STMBDZ218_02690_TSUKIKAGE_000_083&lt;tab&gt;お前さんも、わしら海賊衆の一員じゃと思っとる。
+本当に、ありがとう。</target>
+			</trans-unit>
+			<trans-unit id="110" approved="yes">
+				<source>110</source>
+				<target state="final" xml:space="preserve">TEXT_STMBDZ218_02690_TSUKIKAGE_000_083&lt;tab&gt;お前さんも、わしら海賊衆の一員じゃと思っとる。
 好きなときに、顔を出してくれ。
-いつでも歓迎するぞ。</target></trans-unit></body></file></xliff>
+いつでも歓迎するぞ。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
