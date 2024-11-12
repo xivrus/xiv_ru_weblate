@@ -111,7 +111,7 @@ A winning hand can be formed in one of two ways:
       <trans-unit id="49" approved="yes" xml:space="preserve">
         <source>49</source>
         <target state="final">1. Tsumo: When a tile is drawn
-When a winning hand is formed with a tile drawn by the player, the point value is calculated, and each of the other three players pays this point cost.
+When a winning hand is formed with a tile drawn by the player, the point value is calculated. This is divided between the other three players, who each pay an even share.
 If the dealer calls a winning hand, the point value is increased by 50%.
 If the dealer has to pay another player, they must pay double.</target>
       </trans-unit>
@@ -3422,7 +3422,7 @@ Each type of content awards unique achievements, which unlock a variety of mount
 Losing or winning a casual match has no effect on riser or tier.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Ranked Matches■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Loss or victory in these competitive matches affects participants' risers and tiers. Thus, when playing a ranked match, you will be matched with players of similar tier and riser to your own.
+Loss or victory in these competitive matches affects participants' risers and tiers. Thus, when playing a ranked match, you will be matched with players of similar tier and riser to your own. Furthermore, a match can only take place on selected data centers, which alternate each season.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Custom Matches■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Custom matches allow participants to customize their group, arena, and other match settings. Members may be recruited via the Party Finder. The results of a custom match will not be reflected on Player PvP profiles, count toward achievements, or affect risers or tiers. Additionally, PvP EXP, Series EXP, Wolf Marks, and similar rewards cannot be earned during custom matches.
@@ -3474,7 +3474,11 @@ If neither team reaches the goal by the time limit, and progress for both teams 
 
 ・Should the opposing team have the greater progress score upon the commencement of overtime, you must beat their progress score during overtime to win.
 
-・Should the teams have equal progress scores upon the commencement of overtime, you must beat the opposing team's progress score during overtime to win.</target>
+・Should the teams have equal progress scores upon the commencement of overtime, you must beat the opposing team's progress score during overtime to win.
+
+Should neither team fulfill victory requirements by the end of overtime, the team with the greater progress score will declared the winner.
+If the teams have equal progress scores, victory will be awarded to the team that moved the tactical crystal closest to the goal point.
+In the event progress scores are equal, and the tactical crystal remains at the center of the field, the match will end in a draw.</target>
       </trans-unit>
       <trans-unit id="595" approved="yes" xml:space="preserve">
         <source>595</source>
@@ -3572,7 +3576,9 @@ The locations of black chocobo feathers are indicated by markers on the ground. 
       </trans-unit>
       <trans-unit id="612" approved="yes" xml:space="preserve">
         <source>612</source>
-        <target state="final">Turbulence also leaves behind a twister at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister.</target>
+        <target state="final">Turbulence also leaves behind a twister and gale sphere at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister.
+
+Gale spheres, on the other hand, will greatly increase movement speed. Only one player may use any given gale sphere, and they will reappear after a fixed period of time while turbulence is active.</target>
       </trans-unit>
       <trans-unit id="613" approved="yes" xml:space="preserve">
         <source>613</source>
@@ -3583,7 +3589,7 @@ Crystalline Conflict matches can be entered via the Duty Finder. To register, pa
 There are no restrictions on the balance of roles within a team. However, there cannot be two players of the same job on one team.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Time Limit■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-A standard match lasts five minutes. In the event that neither team claims victory in the allotted time, the match will go into overtime.
+A standard match lasts five minutes. In the event that neither team claims victory in the allotted time, the match will go into overtime, which may last up to ten minutes.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Retaliation■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Incapacitated players will be returned to their base, where they will be allowed to rejoin combat after a short delay─however, this delay increases with each incapacitation. Players will return to their senses with HP and MP fully restored and all action recast timers reset. Furthermore, they will be invulnerable so long as they remain at their base. This effect will be lost upon returning to the battlefield.
@@ -5583,7 +5589,7 @@ Remove unwanted sets from the list. The numbers assigned to these sets will also
 
 A special sidequest will unlock customization options allowing you to use these favored pieces to change the appearance of other equipment. Combined with the flexibility of gear sets, you control how you wish to look as you forge ahead on your adventures.
 
-The Glamour Guide can be accessed via the interface for each of these customization features, offering a detailed explanation of the various options available to create a style all your own.</target>
+The ensemble customization guide can be accessed via the &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;? button&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; found on each of these customization features, offering a detailed explanation of the various options available to create a style all your own.</target>
       </trans-unit>
       <trans-unit id="952" approved="yes" xml:space="preserve">
         <source>952</source>
@@ -6136,10 +6142,7 @@ Example: Level 100 gear cannot be glamoured onto gear equippable at levels 1 thr
 ※Unaffected by item level (IL).
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;2. The base item's class or role requirement is not compatible with that of the glamour cast.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Example: Tank-specific gear cannot be glamoured onto healer-specific gear.
-
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;3. The base item's gear category does not match that of the glamour cast.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Example: Gear that affects the body and head cannot be glamoured onto gear that only affects the body.</target>
+Example: Tank-specific gear cannot be glamoured onto healer-specific gear.</target>
       </trans-unit>
       <trans-unit id="1060" approved="yes" xml:space="preserve">
         <source>1060</source>
@@ -6177,7 +6180,9 @@ If you wish to equip a stored item directly, you may retrieve it from the glamou
       </trans-unit>
       <trans-unit id="1066" approved="yes" xml:space="preserve">
         <source>1066</source>
-        <target state="final">To determine whether a given item can be stored in the glamour dresser, navigate to the item help window. If the glamour dresser icon in the upper right corner is lit up, the item can be stored.</target>
+        <target state="final">To determine whether a given item can be stored in the glamour dresser, navigate to the item help window. If the glamour dresser icon in the upper right corner is lit up, the item can be stored.
+
+※A “+” mark indicates the item can be used as part of an outfit glamour.</target>
       </trans-unit>
       <trans-unit id="1067" approved="yes" xml:space="preserve">
         <source>1067</source>
@@ -6385,6 +6390,358 @@ Calamity salvagers can be found in the following locations:
 ・Ul'dah, Steps of Thal
 ・Old Gridania
 </target>
+      </trans-unit>
+      <trans-unit id="1101" approved="yes" xml:space="preserve">
+        <source>1101</source>
+        <target state="final">Basics of Combat</target>
+      </trans-unit>
+      <trans-unit id="1102" approved="yes" xml:space="preserve">
+        <source>1102</source>
+        <target state="final">Attack Markers</target>
+      </trans-unit>
+      <trans-unit id="1103" approved="yes" xml:space="preserve">
+        <source>1103</source>
+        <target state="final">Some enemy attacks will show an indication of where they will strike in the form of a marker. In most cases, you can avoid taking damage by moving outside of the highlighted area before it lands.</target>
+      </trans-unit>
+      <trans-unit id="1104" approved="yes" xml:space="preserve">
+        <source>1104</source>
+        <target state="final">These markers take many forms.</target>
+      </trans-unit>
+      <trans-unit id="1105" approved="yes" xml:space="preserve">
+        <source>1105</source>
+        <target state="final">Enmity</target>
+      </trans-unit>
+      <trans-unit id="1106" approved="yes" xml:space="preserve">
+        <source>1106</source>
+        <target state="final">Enmity is the priority system by which an enemy chooses a target. All players entered into combat with the enemy generate enmity through dealing damage or healing allies.
+
+There are two ways to check your current enmity level:
+
+①The Enmity List
+The enmity list shows all enemies with whom you have generated enmity. The icon on the left indicates your current enmity level. The four levels are displayed below in order of greatest to least.</target>
+      </trans-unit>
+      <trans-unit id="1107" approved="yes" xml:space="preserve">
+        <source>1107</source>
+        <target state="final">②The Party List
+The party list shows each party member's enmity level with the currently selected enemy, as indicated in the lower left corner of the class/job icon.
+
+The player with the greatest enmity is marked with A, followed by 2, 3, and so on. The adjacent gauge shows the relative difference in enmity compared to the player with the most.</target>
+      </trans-unit>
+      <trans-unit id="1108" approved="yes" xml:space="preserve">
+        <source>1108</source>
+        <target state="final">During party combat, if you find that the enemies are swarming you instead of the tank, you may wish to withhold your attacks until the tank has regained enmity.
+
+■ Tank Stance
+Each tank job has a special action that helps to keep their enmity level high.</target>
+      </trans-unit>
+      <trans-unit id="1109" approved="yes" xml:space="preserve">
+        <source>1109</source>
+        <target state="final">With tank stance active, attacks dealt to enemies will generate significantly higher enmity, controlling the focus of enemy attacks and thereby helping to keep allies safe. This is a key aspect of playing as a tank in party combat.</target>
+      </trans-unit>
+      <trans-unit id="1110" approved="yes" xml:space="preserve">
+        <source>1110</source>
+        <target state="final">Enhancements and Enfeeblements</target>
+      </trans-unit>
+      <trans-unit id="1111" approved="yes" xml:space="preserve">
+        <source>1111</source>
+        <target state="final">An enhancement is a status effect that strengthens the player, whereas an enfeeblement is one that weakens the player. The icons for enhancements and enfeeblements you receive will appear in the Status Effects element of your HUD layout.</target>
+      </trans-unit>
+      <trans-unit id="1112" approved="yes" xml:space="preserve">
+        <source>1112</source>
+        <target state="final">Enhancements have icons shaped like upward arrows, whereas enfeeblements are shaped like downward arrows. A white line across the top of the icon indicates that the enfeeblement can be removed with certain healing actions such as Esuna.</target>
+      </trans-unit>
+      <trans-unit id="1113" approved="yes" xml:space="preserve">
+        <source>1113</source>
+        <target state="final">Types of Markers</target>
+      </trans-unit>
+      <trans-unit id="1114" approved="yes" xml:space="preserve">
+        <source>1114</source>
+        <target state="final">Targeting Markers</target>
+      </trans-unit>
+      <trans-unit id="1115" approved="yes" xml:space="preserve">
+        <source>1115</source>
+        <target state="final">This marker indicates that you have been targeted with some manner of attack.</target>
+      </trans-unit>
+      <trans-unit id="1116" approved="yes" xml:space="preserve">
+        <source>1116</source>
+        <target state="final">The specifics of the ensuing attack will vary depending on the enemy and/or duty, but in all cases, it will involve you in some way.</target>
+      </trans-unit>
+      <trans-unit id="1117" approved="yes" xml:space="preserve">
+        <source>1117</source>
+        <target state="final">Area of Effect Markers</target>
+      </trans-unit>
+      <trans-unit id="1118" approved="yes" xml:space="preserve">
+        <source>1118</source>
+        <target state="final">This marker indicates that you have been targeted with an area of effect attack. Targeted players should move away from their allies, and vice versa.</target>
+      </trans-unit>
+      <trans-unit id="1119" approved="yes" xml:space="preserve">
+        <source>1119</source>
+        <target state="final">Stack Markers</target>
+      </trans-unit>
+      <trans-unit id="1120" approved="yes" xml:space="preserve">
+        <source>1120</source>
+        <target state="final">This marker indicates that a powerful area of effect attack is imminent. As a stack marker is all but impossible to survive alone, it is imperative that the targeted player stand with as many allies as possible to divide the damage evenly.
+
+Note that there are two different types of stack marker:
+
+■ Circle Stack</target>
+      </trans-unit>
+      <trans-unit id="1121" approved="yes" xml:space="preserve">
+        <source>1121</source>
+        <target state="final">■ Line Stack</target>
+      </trans-unit>
+      <trans-unit id="1122" approved="yes" xml:space="preserve">
+        <source>1122</source>
+        <target state="final">Lethal Attack Markers</target>
+      </trans-unit>
+      <trans-unit id="1123" approved="yes" xml:space="preserve">
+        <source>1123</source>
+        <target state="final">This marker warns of an incredibly powerful attack. Typically, it targets the player with the most enmity, and because it deals tremendous damage, most non-tank jobs are unlikely to survive it.
+
+Should you be targeted, your defensive abilities can help keep you safe. For example, tanks can use Rampart to lower damage sustained as well as Reprisal to lower enemy damage output. For all other roles, check the Actions &amp; Traits menu to see which defensive abilities your job can learn.
+
+Note that there are a few different markers, each with different areas of effect:</target>
+      </trans-unit>
+      <trans-unit id="1124" approved="yes" xml:space="preserve">
+        <source>1124</source>
+        <target state="final">■ Solo Marker
+Depending on the enemy, these may inflict an area of effect attack.</target>
+      </trans-unit>
+      <trans-unit id="1125" approved="yes" xml:space="preserve">
+        <source>1125</source>
+        <target state="final">■ Area of Effect Marker</target>
+      </trans-unit>
+      <trans-unit id="1126" approved="yes" xml:space="preserve">
+        <source>1126</source>
+        <target state="final">■ Line / Cleave Marker
+These attacks will strike the entire area behind the target.</target>
+      </trans-unit>
+      <trans-unit id="1127" approved="yes" xml:space="preserve">
+        <source>1127</source>
+        <target state="final">■ Stack Marker
+The spheres orbiting the center indicate how many players are needed to withstand the attack.</target>
+      </trans-unit>
+      <trans-unit id="1128" approved="yes" xml:space="preserve">
+        <source>1128</source>
+        <target state="final">Homing Area of Effect Markers</target>
+      </trans-unit>
+      <trans-unit id="1129" approved="yes" xml:space="preserve">
+        <source>1129</source>
+        <target state="final">This marker indicates that you will be chased by a series of area of effect attacks targeting your current location.
+
+Because these attacks will strike rapidly and repeatedly, the best course of action is to stay on the move, away from your allies.</target>
+      </trans-unit>
+      <trans-unit id="1130" approved="yes" xml:space="preserve">
+        <source>1130</source>
+        <target state="final">Knockback Markers</target>
+      </trans-unit>
+      <trans-unit id="1131" approved="yes" xml:space="preserve">
+        <source>1131</source>
+        <target state="final">This marker indicates that a knockback attack is imminent. When it strikes, you will be pushed a set distance away from the point of impact based on your relative location. Keep this in mind and either position yourself accordingly or use an action that nullifies knockback effects.</target>
+      </trans-unit>
+      <trans-unit id="1132" approved="yes" xml:space="preserve">
+        <source>1132</source>
+        <target state="final">Note that there are different types of knockback:
+
+■ Radial Knockback
+Players will be pushed outwards from the point of impact. If the marker is purple, like this one, it cannot be nullified by job actions.</target>
+      </trans-unit>
+      <trans-unit id="1133" approved="yes" xml:space="preserve">
+        <source>1133</source>
+        <target state="final">■ Directional Knockback
+Players will be pushed in a single set direction.</target>
+      </trans-unit>
+      <trans-unit id="1134" approved="yes" xml:space="preserve">
+        <source>1134</source>
+        <target state="final">Area of Effect Knockback Markers</target>
+      </trans-unit>
+      <trans-unit id="1135" approved="yes" xml:space="preserve">
+        <source>1135</source>
+        <target state="final">This area of effect marker has an accompanying knockback effect. When it strikes, you will be pushed a set distance away from the point of impact based on your relative location. You will take damage if you stand inside its bounds, so you should position yourself along its outer edges.</target>
+      </trans-unit>
+      <trans-unit id="1136" approved="yes" xml:space="preserve">
+        <source>1136</source>
+        <target state="final">If the marker is purple, like this one, it cannot be nullified by job actions.</target>
+      </trans-unit>
+      <trans-unit id="1137" approved="yes" xml:space="preserve">
+        <source>1137</source>
+        <target state="final">Flare Markers</target>
+      </trans-unit>
+      <trans-unit id="1138" approved="yes" xml:space="preserve">
+        <source>1138</source>
+        <target state="final">This marker indicates that a proximity-based area of effect attack is imminent. The closer you stand to its point of impact, the more damage you will take, so retreat as far as you can.</target>
+      </trans-unit>
+      <trans-unit id="1139" approved="yes" xml:space="preserve">
+        <source>1139</source>
+        <target state="final">Sometimes these proximity attacks will target a specific player. To minimize damage, the target should move away from the rest of their party, and vice versa. </target>
+      </trans-unit>
+      <trans-unit id="1140" approved="yes" xml:space="preserve">
+        <source>1140</source>
+        <target state="final">Tower Markers</target>
+      </trans-unit>
+      <trans-unit id="1141" approved="yes" xml:space="preserve">
+        <source>1141</source>
+        <target state="final">This marker indicates that a tower attack is imminent. If left unoccupied by at least one player, the entire party will take significant damage.</target>
+      </trans-unit>
+      <trans-unit id="1142" approved="yes" xml:space="preserve">
+        <source>1142</source>
+        <target state="final">Note that there are different tower markers with different effects:
+
+■ Tank Tower
+This type of tower hits especially hard. Only a tank should occupy it.</target>
+      </trans-unit>
+      <trans-unit id="1143" approved="yes" xml:space="preserve">
+        <source>1143</source>
+        <target state="final">■ Multi-player Towers
+Some towers require a specific number of players to fully absorb the attack. This number will be indicated by the marker. Displayed below are two examples of two-player towers.</target>
+      </trans-unit>
+      <trans-unit id="1144" approved="yes" xml:space="preserve">
+        <source>1144</source>
+        <target state="final">Proximity Tether Markers</target>
+      </trans-unit>
+      <trans-unit id="1145" approved="yes" xml:space="preserve">
+        <source>1145</source>
+        <target state="final">This spiky marker indicates that you have been tethered to a hostile force. Remain in close proximity and you will receive some manner of negative effect, be it damage or an enfeeblement.
+
+Fortunately, this type of tether can be negated by moving away until the spikes disappear, like so:</target>
+      </trans-unit>
+      <trans-unit id="1146" approved="yes" xml:space="preserve">
+        <source>1146</source>
+        <target state="final">Another type of proximity tether, also known as a chain, will continuously damage both players to whom it is connected so long as they remain in close proximity of one another. Affected players can break this tether by moving away from each other.</target>
+      </trans-unit>
+      <trans-unit id="1147" approved="yes" xml:space="preserve">
+        <source>1147</source>
+        <target state="final">Interceptible Tether Markers</target>
+      </trans-unit>
+      <trans-unit id="1148" approved="yes" xml:space="preserve">
+        <source>1148</source>
+        <target state="final">This marker indicates that an attack will strike the current target. Depending on the situation, it may be necessary for a player to intercept it by physically blocking it from its target.</target>
+      </trans-unit>
+      <trans-unit id="1149" approved="yes" xml:space="preserve">
+        <source>1149</source>
+        <target state="final">Gaze Markers</target>
+      </trans-unit>
+      <trans-unit id="1150" approved="yes" xml:space="preserve">
+        <source>1150</source>
+        <target state="final">This marker indicates that a gaze attack is imminent. Any player facing the enemy when this attack strikes will receive some manner of negative effect. Alternatively, sometimes the gaze marker will originate from a player instead.
+
+In both cases, it can be negated by facing away from its source before the attack strikes.</target>
+      </trans-unit>
+      <trans-unit id="1151" approved="yes" xml:space="preserve">
+        <source>1151</source>
+        <target state="final">Other Markers</target>
+      </trans-unit>
+      <trans-unit id="1152" approved="yes" xml:space="preserve">
+        <source>1152</source>
+        <target state="final">Here you will find descriptions of other attack markers encountered in combat.
+
+■ Number Markers
+These markers indicate the order in which players will be attacked, starting with the player whose marker has the fewest orbs.</target>
+      </trans-unit>
+      <trans-unit id="1153" approved="yes" xml:space="preserve">
+        <source>1153</source>
+        <target state="final">■ Multi-player Markers
+This marker indicates the number of players who must stand together to survive the attack, as shown by the number of orbs.</target>
+      </trans-unit>
+      <trans-unit id="1154" approved="yes" xml:space="preserve">
+        <source>1154</source>
+        <target state="final">■ Countdown Markers
+These markers count down to an imminent attack, and if you are caught doing a forbidden action when it reaches zero, you will be penalized with damage or an enfeeblement.
+
+All countdown markers serve the same function regardless of enemy or duty, and over time you will learn the forbidden actions typically associated with each one.</target>
+      </trans-unit>
+      <trans-unit id="1155" approved="yes" xml:space="preserve">
+        <source>1155</source>
+        <target state="final">Playing with Character Voices</target>
+      </trans-unit>
+      <trans-unit id="1156" approved="yes" xml:space="preserve">
+        <source>1156</source>
+        <target state="final">About Mahjong Character Voices</target>
+      </trans-unit>
+      <trans-unit id="1157" approved="yes" xml:space="preserve">
+        <source>1157</source>
+        <target state="final">By enabling &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Mahjong Character Voices&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, one of several characters you've encountered on your adventures can be selected to cheer you on during your matches of mahjong.
+When in a position to call certain hands, or when match points are tallied, character portraits will display with accompanying voiced lines over the course of the match.
+※Characters selected by other players will not be shown.</target>
+      </trans-unit>
+      <trans-unit id="1158" approved="yes" xml:space="preserve">
+        <source>1158</source>
+        <target state="final">Character Voice Settings</target>
+      </trans-unit>
+      <trans-unit id="1159" approved="yes" xml:space="preserve">
+        <source>1159</source>
+        <target state="final">Character voices can be enabled after acquiring special items purchased from &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 28 ((ENpcResident)) F60FF16701 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; in Wonder Square.
+※Players must first complete the main scenario quest “&lt;var 28 ((Quest)) F601068501 /var&gt;.”
+
+Once purchased, you can open the Gold Saucer menu and navigate to the Mahjong tab. Then, under Mahjong Character Voices, you can select your desired character to be used during matches. You may also select what attire will be used in the selected character's portrait, unlocking additional outfits as you progress through the main scenario.</target>
+      </trans-unit>
+      <trans-unit id="1160" approved="yes" xml:space="preserve">
+        <source>1160</source>
+        <target state="final">What Are Outfit Glamours?</target>
+      </trans-unit>
+      <trans-unit id="1161" approved="yes" xml:space="preserve">
+        <source>1161</source>
+        <target state="final">Creating Outfit Glamours</target>
+      </trans-unit>
+      <trans-unit id="1162" approved="yes" xml:space="preserve">
+        <source>1162</source>
+        <target state="final">Outfit Glamour-ready Gear</target>
+      </trans-unit>
+      <trans-unit id="1163" approved="yes" xml:space="preserve">
+        <source>1163</source>
+        <target state="final">Items Comprising an Outfit Glamour</target>
+      </trans-unit>
+      <trans-unit id="1164" approved="yes" xml:space="preserve">
+        <source>1164</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Outfit glamours&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; are a means of projecting the appearance of specific item combinations onto an outfit that can be stored in the glamour dresser. Outfits stored in this manner only take up a single glamour slot.
+
+As with standard glamours, outfit glamours can be projected onto your gear or added to glamour plates.
+
+To create an outfit glamour, you must possess the corresponding combination of items of identical quality, and an equivalent number of glamour prisms.</target>
+      </trans-unit>
+      <trans-unit id="1165" approved="yes" xml:space="preserve">
+        <source>1165</source>
+        <target state="final">When opening the glamour dresser, outfit glamour-ready items are identified by the button displayed in the Glamour Creation window.</target>
+      </trans-unit>
+      <trans-unit id="1166" approved="yes" xml:space="preserve">
+        <source>1166</source>
+        <target state="final">Selecting this button will open the Outfit Glamour Creation window. Here you can select items from your Inventory and Armory Chest to include in the outfit glamour. Gear with condition below 100% cannot be used to form an outfit glamour.
+
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Unlike standard glamours, the color of dyed gear is not transferred to an outfit glamour.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+※Outfit glamours can still be dyed after being projected onto gear or added to a glamour plate.
+
+When creating an outfit glamour, several items are combined as an ensemble and saved to the glamour dresser.</target>
+      </trans-unit>
+      <trans-unit id="1167" approved="yes" xml:space="preserve">
+        <source>1167</source>
+        <target state="final">You can check which items can be combined to form an outfit glamour by selecting the “View Outfit Glamour-ready Items” subcommand of an outfit glamour-ready item.</target>
+      </trans-unit>
+      <trans-unit id="1168" approved="yes" xml:space="preserve">
+        <source>1168</source>
+        <target state="final">Item combinations saved as outfit glamours can be viewed under the Outfits tab of the glamour dresser.</target>
+      </trans-unit>
+      <trans-unit id="1169" approved="yes" xml:space="preserve">
+        <source>1169</source>
+        <target state="final">In addition to viewing currently saved outfits under this tab, you can also inspect the individual items that form an outfit by selecting the “Inspect Outfit” subcommand. This subcommand is also accessible via each individual item.
+
+As with standard glamours, individual items that form part of an outfit glamour are displayed under their corresponding tab in the glamour dresser. These items are identified as such in the corresponding item details window.
+
+Restoring an outfit glamour will return each included item to its original form.
+
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※Specific items from an outfit glamour cannot be restored individually.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="1170" approved="yes" xml:space="preserve">
+        <source>1170</source>
+        <target state="final">Cast Bars</target>
+      </trans-unit>
+      <trans-unit id="1171" approved="yes" xml:space="preserve">
+        <source>1171</source>
+        <target state="final">Some enemy attacks take time to cast before they strike. A progress bar will appear beside the name of the caster, and once this bar fills completely, the attack will be unleashed.</target>
+      </trans-unit>
+      <trans-unit id="1172" approved="yes" xml:space="preserve">
+        <source>1172</source>
+        <target state="final">Note that attacks with no cast time will not display a cast bar.</target>
       </trans-unit>
     </body>
   </file>

@@ -849,7 +849,7 @@ Il est possible de spécifier un niveau avec le nombre correspondant, ou une fou
 - Grandes compagnies&lt;var 1D /var&gt;:
 maelstrom (Maelstrom), vipères (Ordre des Deux Vipères), immortels (Immortels).
 - Lieux&lt;var 1D /var&gt;:
-monde (Monde entier), limsa (Limsa Lominsa), gridania (Gridania), uldah (Ul'dah), goldsaucer (Gold Saucer), antredesloups (Antre des loups), ishgard (Ishgard), idyllée (Idyllée), kugane (Kugane), rhalgr (Étendue de Rhalgr), cristarium (Cristarium), eulmore (Eulmore), sharlayan (Vieille Sharlayan), radzathan (Radz-at-Han), tuliyollal (Tuliyollal), solutionneuf (Solution Neuf) noscea (La Noscea), sombrelinceul (Sombrelinceul), thanalan (Thanalan), coerthas (Coerthas), mordhona (Mor Dhona), abalathia (Abalathia), dravania (Dravania), gyrabania (Gyr Abania), othard (Othard), norvrandt (Norvrandt), thavnair (Thavnair), garlemald (Garlemald), labyrinthos (Labyrinthos), yoktural (Yok Tural), xaktural (Xak Tural), autres.
+monde (Monde entier), limsa (Limsa Lominsa), gridania (Gridania), uldah (Ul'dah), goldsaucer (Gold Saucer), antredesloups (Antre des loups), ishgard (Ishgard), idyllée (Idyllée), kugane (Kugane), rhalgr (Étendue de Rhalgr), cristarium (Cristarium), eulmore (Eulmore), sharlayan (Vieille Sharlayan), radzathan (Radz-at-Han), tuliyollal (Tuliyollal), solutionneuf (Solution Neuf), noscea (La Noscea), sombrelinceul (Sombrelinceul), thanalan (Thanalan), coerthas (Coerthas), mordhona (Mor Dhona), abalathia (Abalathia), dravania (Dravania), gyrabania (Gyr Abania), othard (Othard), norvrandt (Norvrandt), thavnair (Thavnair), garlemald (Garlemald), labyrinthos (Labyrinthos), yoktural (Yok Tural), xaktural (Xak Tural), autres.
 * Si aucun nom de lieu n'est spécifié, la recherche couvre le monde entier.
 - Langues&lt;var 1D /var&gt;:
 japonais (ja), anglais (en), allemand (de), français (fr).
@@ -985,8 +985,8 @@ Se déconnecte et ferme le jeu.&lt;tab&gt;/quitter&lt;tab&gt;/quitterjeu&lt;tab&
 Utilisation&lt;var 1D /var&gt;: /triéquipe [sous-commande] [sous-commande]
 Trie la liste des équipiers dans un ordre défini.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
-[numéro d'équipier (2 à 8)]   Intervertit la position des équipiers dont le numéro a été spécifié dans la liste des équipiers.
-Si aucun numéro n'est spécifié, la liste est triée dans l'ordre défini dans Configuration personnage &gt; Interface et fenêtres &gt; Liste des équipiers &gt; Paramètres de la liste des équipiers.
+[numéro d'équipier (1 à 8)]   Intervertit la position des équipiers dont le numéro a été spécifié dans la liste des équipiers.
+Si aucun numéro n'est spécifié, la liste est triée dans l'ordre défini dans Configuration personnage &gt; Interface et fenêtres &gt; Liste des équipiers &gt; Ordre des rôles dans la liste des équipiers.
 
 &gt;&gt; Exemples&lt;var 1D /var&gt;:
 /triéquipe 2 3
@@ -1486,7 +1486,7 @@ Si aucune sous-commande n'est spécifiée, alterne entre les deux états.&lt;tab
 Utilisation&lt;var 1D /var&gt;: /cherchéquipe [classes/jobs] [sous-commande]
 Change l'état en ligne du personnage en "Cherche une équipe" et spécifie les classes/jobs désirés.
 &gt;&gt; Classes/jobs&lt;var 1D /var&gt;:
-GLA (gladiateur), PGL (pugiliste), MRD (maraudeur), HAS (maître d'hast), ARC (archer), ELM (élé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;lis&lt;var 16 /var&gt;te), OCC (occultiste), ACN (arcaniste), SUR (surineur), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur), PLD (paladin), MOI (moine), GUE (guerrier), DRG (chevalier dragon), BRD (barde), MBL (mage blanc), MNO (mage noir), INV (invocateur), ERU (érudit), NIN (ninja), CHN (chevalier noir), MCH (machiniste), AST (astromancien), SAM (samouraï), MRG (mage rouge), MBU (mage bleu), PSB (pistosabreur), DNS (danseur), SAG (sage), FCH (faucheur).
+PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;lis&lt;var 16 /var&gt;te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
 Si aucun nom de classe ou de job n'est spécifié, la recherche les couvre tous.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Passe en état "Cherche une équipe".
@@ -2309,7 +2309,7 @@ Règle le volume des effets sonores venant des autres joueurs sur la valeur spé
         <target state="final">/vhautparleur, /vhp, /systemsoundsspeaker
 Utilisation&lt;var 1D /var&gt;: /vhautparleur [sous-commande]
 Règle le volume du haut-parleur de la manette sans fil pour les sons système sur la valeur spécifiée.
-* Version PlayStation®4, PlayStation®5 et  Windows®(DirectX11) uniquement.
+* Version PlayStation®4, PlayStation®5 et  Windows® uniquement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 [0-100]  Règle le volume sur la valeur correspondante.
 * Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.&lt;tab&gt;/vhautparleur&lt;tab&gt;/vhp&lt;tab&gt;/systemsoundsspeaker&lt;tab&gt;</target>
@@ -4527,6 +4527,60 @@ Utilisation&lt;var 1D /var&gt;: /grandéventail [sous-commande]
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/grandéventail&lt;tab&gt;/géventail&lt;tab&gt;/uchiwasshoi&lt;tab&gt;/bigfan</target>
+      </trans-unit>
+      <trans-unit id="680" approved="yes" xml:space="preserve">
+        <source>680</source>
+        <target state="final">/attendreordre, /attordre, /attend
+Utilisation&lt;var 1D /var&gt;: /attendreordre [sous-commande]
+Attend les ordres.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/attendreordre&lt;tab&gt;/attordre&lt;tab&gt;/attend&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="681" approved="yes" xml:space="preserve">
+        <source>681</source>
+        <target state="final">/arroser, /arrosoir, /water
+Utilisation&lt;var 1D /var&gt;: /arroser [sous-commande]
+Arrose autour de soi.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/arroser&lt;tab&gt;/arrosoir&lt;tab&gt;/water&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="682" approved="yes" xml:space="preserve">
+        <source>682</source>
+        <target state="final">/mélangercocktail, /cocktail, /shakedrink
+Utilisation&lt;var 1D /var&gt;: /mélangercocktail [sous-commande]
+Mélange un cocktail.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mélangercocktail&lt;tab&gt;/cocktail&lt;tab&gt;/shakedrink&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="684" approved="yes" xml:space="preserve">
+        <source>684</source>
+        <target state="final">/offrirfleurs, /fleurs, /bouquet
+Utilisation&lt;var 1D /var&gt;: /offrirfleurs [sous-commande]
+Offre des fleurs.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/offrirfleurs&lt;tab&gt;/fleurs&lt;tab&gt;/bouquet&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="685" approved="yes" xml:space="preserve">
+        <source>685</source>
+        <target state="final">/bullesdesavon, /bulles, /blowbubbles
+Utilisation&lt;var 1D /var&gt;: /bullesdesavon [sous-commande]
+Souffle des bulles de savon.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bullesdesavon&lt;tab&gt;/bulles&lt;tab&gt;/blowbubbles&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="686" approved="yes" xml:space="preserve">
+        <source>686</source>
+        <target state="final">/ohokaliy, /hanuhanu
+Utilisation&lt;var 1D /var&gt;: /ohokaliy [sous-commande]
+Salue à la manière des Hanu Hanu.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/ohokaliy&lt;tab&gt;/hanuhanu&lt;tab&gt;/ohokaliy&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

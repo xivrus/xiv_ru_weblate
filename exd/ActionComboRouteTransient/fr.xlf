@@ -591,7 +591,9 @@ Si les conditions ne sont pas réunies pour la technique d'arme suivante, retour
 
 Si les conditions ne sont pas réunies pour la technique d'arme suivante, retourne à la première.
 
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Serment de l'épée, devient Absolution.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Absolution préparée, devient Absolution.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Oraison préparée, devient Oraison.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Sépulcre préparé, devient Sépulcre.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="51" approved="yes" xml:space="preserve">
         <source>51</source>
@@ -615,7 +617,9 @@ Si les conditions ne sont pas réunies pour la technique d'arme suivante, retour
 
 Si les conditions ne sont pas réunies pour la technique d'arme suivante, retourne à la première.
 
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Sang noir, devient Marée de sang.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Sang noir, devient Delirium écarlate.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Sang noir et Punition réciproque préparée, devient Punition réciproque.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Sang noir et Brise-montagne préparé, devient Brise-montagne.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="53" approved="yes" xml:space="preserve">
         <source>53</source>
@@ -640,18 +644,19 @@ Si les conditions ne sont pas réunies pour la technique d'arme suivante, retour
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec En avant, devient Cascade inversée.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec En avant et après un combo réussi avec Cascade, devient Fontaine en cascade.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Danse du sabre préparée, devient Danse du sabre.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Danse du sabre préparée, devient Danse du sabre.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Danse du sabre préparée et Liens de l'aurore, devient Danse de l'aurore.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="55" approved="yes" xml:space="preserve">
         <source>55</source>
         <target state="final">Effectue l'une après l'autre les techniques d'arme du combo suivant&lt;var 1D /var&gt;:
 
-1. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Volée de coups&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-2. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Coup de poing direct&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-3. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Coup de poing brusque&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-4. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tacle du dragon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-5. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Serpents jumeaux&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-6. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Démolition&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+1. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tacle du dragon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+2. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Serpents jumeaux&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+3. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Démolition&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+4. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bond de l'opo-opo&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+5. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Percée du raptor&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+6. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Plongeon du coeurl&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 7. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Rixe évanescente&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 Si les conditions ne sont pas réunies pour la technique d'arme suivante, retourne à la première.</target>
@@ -663,10 +668,12 @@ Si les conditions ne sont pas réunies pour la technique d'arme suivante, retour
 1. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Percée Raiden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 2. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Croc-et-griffe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 3. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Percée tournante&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+4. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Fléau du dragon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 Si les conditions ne sont pas réunies pour la technique d'arme suivante, retourne à la première.
 
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Percée céleste préparée, devient Percée céleste.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Percée céleste préparée, devient Percée céleste.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Traversée céleste préparée, devient Traversée céleste.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="57" approved="yes" xml:space="preserve">
         <source>57</source>
@@ -680,7 +687,8 @@ Si les conditions ne sont pas réunies pour la technique d'arme suivante, retour
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Dissimulation, devient Assassinement.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Trimudrâ, devient Griffe de Raijû.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Croc de Raijû préparé, devient Croc de Raijû.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Croc de Raijû préparé, devient Croc de Raijû.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Zeshô Meppô préparé, devient Zeshô Meppô.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="58" approved="yes" xml:space="preserve">
         <source>58</source>
@@ -704,9 +712,9 @@ Si les conditions ne sont pas réunies pour la technique d'arme suivante, retour
 2. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tranchage blafard&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 3. &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tranchage infernal&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Moissonneur d'âmes, devient Guillotine.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Guillotine tortionnaire préparée, devient Guillotine tortionnaire.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Lémure, devient Fauchage du néant.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Lémure et Fauchage croisé préparé, devient Fauchage croisé.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Avec Lémure et après un combo réussi avec Fauchage du néant, devient Fauchage croisé.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="60" approved="yes" xml:space="preserve">
         <source>60</source>

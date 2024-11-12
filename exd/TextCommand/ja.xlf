@@ -1029,9 +1029,9 @@ HUDレイアウトに関する操作を行う。
 パーティリストを指定した順番に並び替える。
 &gt;&gt;サブコマンド
 番号1 番号2
-　…指定したパーティ番号(2-8)のメンバーを入れ替える。
+　…指定したパーティ番号(1-8)のメンバーを入れ替える。
 ※サブコマンド省略
-　…キャラクターコンフィグ＞ユーザーインターフェース設定＞パーティリスト＞パーティリストの並び順設定で設定された順番に並び替える。
+　…キャラクターコンフィグ＞ユーザーインターフェース設定＞パーティリスト＞パーティリストの並べ替え設定で設定された順番に並び替える。
 
 実行例
 /partysort 2 3
@@ -1599,7 +1599,7 @@ off
 ※サブコマンド省略
 　…「パーティ希望」と「オンライン」のスイッチ切り替え。
 &gt;&gt;クラス・ジョブ（※順不同で複数指定可能）
-剣術士(GLA)　格闘士(PGL)　斧術士(MRD)　槍術士(LNC)　弓術士(ARC)　双剣士(ROG)　幻術士(CNJ)　呪術士(THM)　巴術士(ACN)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)　ナイト(PLD)　モンク(MNK)　戦士(WAR)　竜騎士(DRG)　吟遊詩人(BRD)　忍者(NIN)　白魔道士(WHM)　黒魔道士(BLM)　召喚士(SMN)　学者(SCH)　暗黒騎士(DRK)　機工士(MCH)　占星術師(AST)　侍(SAM)　赤魔道士(RDM)　青魔道士(BLU)　ガンブレイカー(GNB)　踊り子(DNC)　賢者(SGE)　リーパー(RPR)
+ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　ヴァイパー(VPR)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　ピクトマンサー(PCT)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
 ※省略した場合は、現在のクラス・ジョブを指定。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lookingforparty&lt;tab&gt;/lfp</target>
       </trans-unit>
       <trans-unit id="234" approved="yes" xml:space="preserve">
@@ -2565,7 +2565,7 @@ BGMの音量を変更する。
         <source>338</source>
         <target state="final">/systemsoundsspeaker サブコマンド
 ワイヤレスコントローラーのスピーカーからのシステム音の音量を変更する。
-※PlayStation®4／PlayStation®5／Windows®(DX11)版のみ有効。
+※PlayStation®4／PlayStation®5／Windows版のみ有効。
 &gt;&gt;サブコマンド
 数値(0-100)
 　…指定した数値に音量を変更する。
@@ -5023,6 +5023,66 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/uchiwasshoi&lt;tab&gt;/bigfan</target>
+      </trans-unit>
+      <trans-unit id="680" approved="yes" xml:space="preserve">
+        <source>680</source>
+        <target state="final">/attend サブコマンド
+指示を待つ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/attend&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="681" approved="yes" xml:space="preserve">
+        <source>681</source>
+        <target state="final">/water サブコマンド
+水をまく。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/water&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="682" approved="yes" xml:space="preserve">
+        <source>682</source>
+        <target state="final">/shakedrink サブコマンド
+シェイカーを振る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/shakedrink&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="684" approved="yes" xml:space="preserve">
+        <source>684</source>
+        <target state="final">/bouquet サブコマンド
+花束を贈る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bouquet&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="685" approved="yes" xml:space="preserve">
+        <source>685</source>
+        <target state="final">/blowbubbles サブコマンド
+シャボン玉を吹く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/blowbubbles&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="686" approved="yes" xml:space="preserve">
+        <source>686</source>
+        <target state="final">/ohokaliy サブコマンド
+オフォカリーをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/ohokaliy&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

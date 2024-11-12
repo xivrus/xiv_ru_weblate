@@ -242,7 +242,7 @@ Nachdem er Riichi ausgerufen hat, kann dieser Spieler keine aufgenommenen Ziegel
         <source>72</source>
         <target state="final">■ Besonderheiten von Riichi
 　1.　Die Hand des Spielers wird automatisch ein Yaku, egal, ob sie andere Yaku enthält oder nicht.
-　2.　Die anderen Spieler wissen, dass dem Spieler, der Yaku ausruft, nur noch ein Ziegel zu einer vollständigen Hand fehlt.
+　2.　Die anderen Spieler wissen, dass dem Spieler, der Riichi ausruft, nur noch ein Ziegel zu einer vollständigen Hand fehlt.
 　3.　Der ausrufende Spieler kann keine Ziegel auf seiner Hand mehr austauschen.
 　4.　Der ausrufende Spieler muss 1.000 Punkte - angezeigt durch ein Punktestäbchen in der Mitte des Tisches - bezahlen, die an den Gewinner der Hand gehen.
 
@@ -966,7 +966,7 @@ Der Bau einer Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaftswerkstätte kos
 
 ■ Die Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaftswerkstätte entfernen
 
-Wird die Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaftswerkstätte nicht mehr gebraucht, kann sie ohne Weiteres entfernt werden. Allerdings werden dabei auch alle Aufzeichnungen über dort ausgeführte Projekte verworfen.
+Wird die Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaftswerkstätte nicht mehr gebraucht, kann sie ohne Weiteres entfernt werden. Allerdings werden dabei auch alle Auf&lt;var 16 /var&gt;zeich&lt;var 16 /var&gt;nun&lt;var 16 /var&gt;gen über dort ausgeführte Projekte verworfen.
 
 ・ Vorgang des Entfernens der Werkstätte
 - Alle Luftschiff- und Tauchboot-Expeditionen müssen demontiert sein.
@@ -1498,7 +1498,7 @@ Auch Gegenstände, die nur gezeigt werden, verbrauchen die Kapazität des Gehilf
       </trans-unit>
       <trans-unit id="232" approved="yes" xml:space="preserve">
         <source>232</source>
-        <target state="final">Aufzeichnungen einer defekten Maschine</target>
+        <target state="final">Auf&lt;var 16 /var&gt;zeich&lt;var 16 /var&gt;nun&lt;var 16 /var&gt;gen einer defekten Maschine</target>
       </trans-unit>
       <trans-unit id="233" approved="yes" xml:space="preserve">
         <source>233</source>
@@ -2853,7 +2853,7 @@ Ferner kannst du durch das Erobern des Inhalts Gegenstände erwerben, die du geg
       </trans-unit>
       <trans-unit id="485" approved="yes" xml:space="preserve">
         <source>485</source>
-        <target state="final">Konoggs Aufzeichnungen</target>
+        <target state="final">Konoggs Auf&lt;var 16 /var&gt;zeich&lt;var 16 /var&gt;nun&lt;var 16 /var&gt;gen</target>
       </trans-unit>
       <trans-unit id="486" approved="yes" xml:space="preserve">
         <source>486</source>
@@ -3555,7 +3555,7 @@ Für jeden PvP-Inhalt gibt es spezielle Errungenschaften. Schließt du sie ab, w
 Ein Freund&lt;var 16 /var&gt;schafts&lt;var 16 /var&gt;spiel, bei dem Sieg oder Niederlage keinerlei Einfluss auf Kampfklasse und Rang hat. Diese spielen auch bei der Gruppenbildung keine Rolle und es kann ohne Einschränkung gegen- und miteinander angetreten werden.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Gewertetes Spiel&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Wie der Name schon verrät, beeinflusst ein Gewertetes Spiel die eigene Wertung, also die Kampfklasse und den Rang. Hierbei stehen sich auch nur Spieler gegenüber, deren Kampfklasse und Rang nahe beieinander liegen.
+Wie der Name schon verrät, beeinflusst ein Gewertetes Spiel die eigene Wertung, also die Kampfklasse und den Rang. Hierbei stehen sich auch nur Spieler gegenüber, deren Kampfklasse und Rang nahe beieinander liegen. Des Weiteren kann ein Gewertes Spiel nur auf ausgewählten Datenzentren stattfinden. Jede Saison wechseln sich die Datenzentren ab.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Schaukampf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 In diesem Modus wird unabhängig von Kampfklasse und Rang gespielt. Ein Schaukampf kann über die Gruppen&lt;var 16 /var&gt;suche im Hauptmenü geplant werden. Außerdem können Spieler direkt dazu eingeladen werden. Der Ausgang einer solchen Partie hat keinerlei Einfluss auf das eigene PvP-Profil, Errungenschaften oder Kampfklasse und Rang. Auch verleiht er weder PvP-Routine noch Serien-Routine oder Wolfsmarken.
@@ -3612,7 +3612,12 @@ Das gegnerische Team muss 3 Sekunden lang davon abgehalten werden, den Kreis des
 Dein Team muss die zurückgelegte Strecke eurer Gegner schlagen.
 
 ・Bei gleicher Eskortstrecke:
-Dein Team muss die zurückgelegte Strecke eurer Gegner schlagen.</target>
+Dein Team muss die zurückgelegte Strecke eurer Gegner schlagen.
+
+・ Nach abgelaufener Verlängerung:
+Falls selbst nach abgelaufener Verlängerungszeit das Spiel nicht entschieden werden kann, gewinnt das Team mit der längeren Eskortstrecke.
+Falls hierbei die Eskortstrecke beider Teams exakt gleich lang sind, gewinnt das Team, das zum Zeitpunkt der abgelaufenen Verlängerungszeit den taktischen Kristall auf der Seite des gegnerischen Teams positioniert hat.
+Falls sich der taktische Kristall hierbei am zentralen Punkt genau in der Mitte der Arena befindet, gilt das Spiel als unentschieden.</target>
       </trans-unit>
       <trans-unit id="595" approved="yes" xml:space="preserve">
         <source>595</source>
@@ -3710,8 +3715,13 @@ Wo genau schwarze Chocobo-Federn in der Luft schweben, wird durch Markierungen a
       </trans-unit>
       <trans-unit id="612" approved="yes" xml:space="preserve">
         <source>612</source>
-        <target state="final">Auf die Turbulenzen folgt schließlich ein Tornado, der für eine kurze Zeit über die Arena fegt. Er schleudert Spieler zurück, die ihm zu nahe kommen, und fügt ihnen dabei Schaden zu.
-Außerdem hebt Kontakt mit dem Tornado den Status „Wehr“ auf.</target>
+        <target state="final">Auf die Turbulenzen folgt schließlich ein Tornado und Windorbis, die für eine kurze Zeit über die Arena fegen.
+Der Tornardo schleudert Spieler zurück, die ihm zu nahe kommen, und fügt ihnen dabei Schaden zu.
+Außerdem hebt Kontakt mit dem Tornado den Status „Wehr“ auf.
+
+Windorbis erhöhen bei Kontakt die Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit der Spieler.
+Wenn ein Spieler mit einem Windorbis in Berührung kommt, verschwindet es.
+Während der Turbulenzen tauchen Windorbis nach einer gewissen Zeit wieder an gleicher Stelle auf.</target>
       </trans-unit>
       <trans-unit id="613" approved="yes" xml:space="preserve">
         <source>613</source>
@@ -3722,7 +3732,7 @@ Um teilnehmen zu können, muss man eine Klasse oder einen Job auf mindestens Stu
 Es gibt keine Rollenbeschränkungen für ein Team, allerdings sind gleiche Rollen nicht zulässig und werden dem&lt;var 16 /var&gt;ent&lt;var 16 /var&gt;spre&lt;var 16 /var&gt;chend auch nie vorkommen.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Zeitlimit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Das Zeitlimit für ein Spiel ist 5 Minuten. Steht nach Ablauf dieser Zeit kein Sieger fest, geht es in die Verlängerung.
+Das Zeitlimit für ein Spiel ist 5 Minuten. Steht nach Ablauf dieser Zeit kein Sieger fest, geht es für maximal 10 Minuten in die Verlängerung.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Schneller Wiedereinstieg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Sollte man in einem Spiel kampfunfähig werden, so wird man nach kurzer Wartezeit automatisch am Startpunkt des eigenen Teams wiederbelebt - mit vollen LP und MP, sowie mit Zurücksetzung aller Reaktivierungs-Timer. Solange man sich nach dem Wiedereinstieg am Startpunkt aufhält, wird man durch den Status „Unverwundbar“ geschützt. Erst wenn man den Startpunkt verlässt, wird man wieder verwundbar.
@@ -5720,7 +5730,7 @@ Die Menge an Steinen variiert allerdings von Inhalt zu Inhalt, doch das Mogpendi
         <source>977</source>
         <target state="final">Jeder Spieler erhält eigene wöchentliche Ziele, die bei Abschluss eine Menge ungewöhnlicher Allagischer Steine wert sind. Ist ein Ziel abgeschlossen, kannst du es im Mogpendium einlösen und deine Belohnung so erhalten.
 
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※ Bitte beachte, dass es für das Einlösen des Minimogs eine Frist gibt.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※ Bitte beachte, dass es für das Einlösen dieser Ziele eine Frist gibt.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 In der Folgewoche werden sich neue Ziele im Mogpendium finden, also halte bitte stets ein Auge auf den Stichtag!</target>
       </trans-unit>
@@ -5732,7 +5742,7 @@ In der Folgewoche werden sich neue Ziele im Mogpendium finden, also halte bitte 
         <source>979</source>
         <target state="final">Der wöchentliche Minimog ist eine besondere Heraus&lt;var 16 /var&gt;forde&lt;var 16 /var&gt;rung, die einmal pro Woche abgeschlossen werden kann. Hast du die Heraus&lt;var 16 /var&gt;forde&lt;var 16 /var&gt;rung gemeistert, kannst du sie im Mogpendium einlösen und deine Belohnung so erhalten.
 
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※ Bitte beachte, dass es für das Einlösen dieser Ziele eine Frist gibt.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※ Bitte beachte, dass es für das Einlösen des Minimogs eine Frist gibt.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 In der Folgewoche wird sich ein neuer Minimog im Mogpendium finden, also halte bitte stets ein Auge auf den Stichtag!</target>
       </trans-unit>
@@ -6108,7 +6118,7 @@ Die momentane Menge an MGR kann bei der Gold Saucer-Dienerin auf dem Stolpervill
 
 Das Aussehen von projizierten Gegenständen lässt sich auch nach der Projektion erneut verändern oder in den ursprünglichen Zustand zurückversetzen.
 
-Jede Projektion benötigt ein sogenanntes &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Projektionprisma&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; als Katalysator.</target>
+Jede Projektion benötigt ein sogenanntes &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Projektionsprisma&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; als Katalysator.</target>
       </trans-unit>
       <trans-unit id="1054" approved="yes" xml:space="preserve">
         <source>1054</source>
@@ -6154,18 +6164,14 @@ Gegenstand A - Ausrüstung, dessen Aussehen verändert werden soll
 Gegenstand B - Ausrüstung, dessen Aussehen projiziert werden soll
 
 
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fall 1: Die Ausrüstungssstufe von Gegenstand A ist niedriger als die von Gegenstand B&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fall 1: Die Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;stufe von Gegenstand A ist niedriger als die von Gegenstand B&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Beispiel: 
 Ein Gegenstand mit Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;stufe 100 kann nicht auf einen Gegenstand mit Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;stufe 99 oder niedriger projiziert werden.
 ※ Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe ist hiervon nicht betroffen.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fall 2: Gegenstand A und B können nicht von der gleichen Klasse bzw. dem gleichen Job ausgerüstet werden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Beispiel:
-Jobspezifische Ausrüstung kann nicht auf jobspezifische Ausrüstung eines anderen Jobs projiziert werden.
-
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fall 3: Wenn Gegenstand A mehrere Ausrüstungskategorien umschließt und Gegenstand B nur eine einzelne, kann dieser nicht projiziert werden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Beispiel:
-Ein Torso-Gegenstand kann nicht auf einen Gegenstand projiziert werden, der Kopf und Torso verbindet.</target>
+Jobspezifische Ausrüstung kann nicht auf jobspezifische Ausrüstung eines anderen Jobs projiziert werden.</target>
       </trans-unit>
       <trans-unit id="1060" approved="yes" xml:space="preserve">
         <source>1060</source>
@@ -6218,7 +6224,8 @@ Gegenstände, welche in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kom
       <trans-unit id="1066" approved="yes" xml:space="preserve">
         <source>1066</source>
         <target state="final">Ob ein Gegenstand zu einer Projektion umgewandelt werden kann, zeigt dir das kleine Symbol oben rechts in der Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;beschrei&lt;var 16 /var&gt;bung. 
-Leuchtet das Symbol hell, kann der Gegenstand umgewandelt werden.</target>
+Leuchtet das Symbol hell, kann der Gegenstand umgewandelt werden.
+※ Bei Gegenständen mit einem „＋“ kann auch eine Setprojektion angewendet werden.</target>
       </trans-unit>
       <trans-unit id="1067" approved="yes" xml:space="preserve">
         <source>1067</source>
@@ -6263,7 +6270,7 @@ Nun kannst du pro Ausrüstungsgegenstand eine passende Projektion auswählen. Da
 
 Natürlich kannst du die ausgewählten Aus&lt;var 16 /var&gt;rüs&lt;var 16 /var&gt;tungs&lt;var 16 /var&gt;teile auf der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;platte auch färben - dabei zählt die Färbung aus&lt;var 16 /var&gt;schließ&lt;var 16 /var&gt;lich für die ausgewählte Platte, der in der Kommode hinterlegte Gegenstand behält sein eigentliches Aussehen bei. Möchtest du einen Gegenstand von der Platte entfernen, kannst du das ganz einfach über das Untermenü tun.
 
-Bist du mit deinem neuen Gewand zufrieden, musst du die Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;platte nur noch &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Speichern&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Ob du sie sofort anwendest oder nicht ist dabei gänzlich dir überlassen.</target>
+Bist du mit deinem neuen Gewand zufrieden, musst du die Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;platte nur noch &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Speichern&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Ob du sie sofort anwendest oder nicht, ist dabei gänzlich dir überlassen.</target>
       </trans-unit>
       <trans-unit id="1071" approved="yes" xml:space="preserve">
         <source>1071</source>
@@ -6287,7 +6294,7 @@ Dazu musst du lediglich das Charakterfenster aufrufen und das Icon für &lt;var 
         <source>1074</source>
         <target state="final">Wählst du &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Entfernen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; in der oberen rechten Ecke einer Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;platte, kannst du alle Projektionen von all den Ausrüstungsfeldern entfernen, die auf der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;platte bedient sind.
 
-Allerdings kostet dich das im Gegensatz zum Anwenden einer Projektion entsprechend viele &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Entprojizierungskristalle &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+Allerdings kostet dich das im Gegensatz zum Anwenden einer Projektion entsprechend viele &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Entprojizierungskristalle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="1075" approved="yes" xml:space="preserve">
         <source>1075</source>
@@ -6452,6 +6459,367 @@ Fundsachenverwalter findest du hier:
 Limsa Lominsa: Obere Decks
 Ul'dah: Thal-Kreuzgang
 Gridania: Alt-Gridania</target>
+      </trans-unit>
+      <trans-unit id="1101" approved="yes" xml:space="preserve">
+        <source>1101</source>
+        <target state="final">Grundlegendes zum Kampf</target>
+      </trans-unit>
+      <trans-unit id="1102" approved="yes" xml:space="preserve">
+        <source>1102</source>
+        <target state="final">Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reiche von Angriffen</target>
+      </trans-unit>
+      <trans-unit id="1103" approved="yes" xml:space="preserve">
+        <source>1103</source>
+        <target state="final">Als &lt;var 08 E905 ((Abenteurerin)) ((Abenteurer)) /var&gt; hast du ein Gespür dafür, auf wen gegnerische Angriffe gerichtet sind und wie groß ihr Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reich sein wird. Als Faustregel solltest du stets versuchen, dich nicht innerhalb dieser Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reiche zu befinden, wenn der Gegner seinen Angriff ausführt, um ihm so auszuweichen.</target>
+      </trans-unit>
+      <trans-unit id="1104" approved="yes" xml:space="preserve">
+        <source>1104</source>
+        <target state="final">Angriffe kommen in allen möglichen Variationen.</target>
+      </trans-unit>
+      <trans-unit id="1105" approved="yes" xml:space="preserve">
+        <source>1105</source>
+        <target state="final">Feindseligkeit</target>
+      </trans-unit>
+      <trans-unit id="1106" approved="yes" xml:space="preserve">
+        <source>1106</source>
+        <target state="final">Bei Feindseligkeit handelt es sich um den Hauptparameter, der bestimmt, welchen Spieler Gegner mit ihren Angriffen fokussieren. Bekämpfen also mehrere Spieler denselben Gegner, so greift dieser den Spieler an, dessen Feindseligkeit am höchsten ist.
+Deine Feindseligkeit erhöht sich unter anderem, wenn du einen Gegner angreifst oder einen sich im Kampf befindenden Spieler heilst.
+
+■ Feindseligkeit überprüfen
+Es existieren zwei Methoden, um deine momentane Feindseligkeit zu überprüfen.
+
+1. Gegnerliste
+Als Teil deines HUD wird dir eine Liste angezeigt, in der alle Gegner aufgeführt werden, die dir momentan feindlich gesinnt sind. Über das Symbol am linken Rand dieser Liste kannst du erkennen, wie hoch deine Feindseligkeit bei den verschiedenen Gegnern ist. Im unteren Beispiel siehst du die vier Stufen der Höhe nach sortiert.</target>
+      </trans-unit>
+      <trans-unit id="1107" approved="yes" xml:space="preserve">
+        <source>1107</source>
+        <target state="final">2. Gruppenliste
+Unter den Namen der Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder in der Gruppenliste wird die momentane Feindseligkeit des anvisierten Gegners gegenüber dem jeweiligen Spieler in einem kleinen Balken angezeigt. Darüber hinaus befindet sich am linken Ende des Balkens entweder der Buchstabe „A“ für den momentan vom Gegner anvisierten Spieler (Höchste Feindseligkeit) oder Zahlen, die aufsteigend die Position an Feindseligkeit im Verhältnis zu den anderen Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern angeben.</target>
+      </trans-unit>
+      <trans-unit id="1108" approved="yes" xml:space="preserve">
+        <source>1108</source>
+        <target state="final">Solltest du in einer Gruppe die Rolle eines Heilers oder Angreifers über&lt;var 16 /var&gt;nehmen und dich dennoch als Ziel eines Gegners wiederfinden, so kann es hilfreich sein, deine Angriffe kurzfristig einzustellen. Hierdurch verschaffst du dem Verteidiger Zeit, seine Feindseligkeit zu erhöhen und so die Angriffe des Gegners auf sich zu lenken.
+
+■ Feindseligkeit erhöhen
+Verteidiger besitzen rollenspezifische Kommandos, mit denen sie ihre Feindseligkeit erhöhen und somit die Aufmerksamkeit von Gegnern auf sich ziehen können.</target>
+      </trans-unit>
+      <trans-unit id="1109" approved="yes" xml:space="preserve">
+        <source>1109</source>
+        <target state="final">Greifen sie unter Einfluss dieser Kommandos Gegner an, so erhöht sich ihre Feindseligkeit deutlich stärker als normal.
+
+Um die Gruppe effektiv vor mächtigen Angriffen zu beschützen, ist es eine der wichtigsten Aufgaben der Verteidiger, durchgehend ihre Feindseligkeit aufrechtzuerhalten und somit gegnerische Angriffe auf sich zu fokussieren.</target>
+      </trans-unit>
+      <trans-unit id="1110" approved="yes" xml:space="preserve">
+        <source>1110</source>
+        <target state="final">Statuseffekte</target>
+      </trans-unit>
+      <trans-unit id="1111" approved="yes" xml:space="preserve">
+        <source>1111</source>
+        <target state="final">Statuseffekte belegen deinen Charakter mit allerlei verschiedenen Effekten. Positive Statuseffekte bieten dir hierbei einen Vorteil, während dich negative Statuseffekte schwächen. Wenn du unter dem Einfluss eines Statuseffekts liegst, so wird das entsprechende Symbol des Effekts im HUD-Element „Statuseffekte“ angezeigt.</target>
+      </trans-unit>
+      <trans-unit id="1112" approved="yes" xml:space="preserve">
+        <source>1112</source>
+        <target state="final">Die Form der Symbole zeigt dir, ob es sich um einen positiven oder negativen Statuseffekt handelt. Positive Statuseffekte sehen wie ein aufwärts gerichteter Pfeil aus, negative Statuseffekte wie ein nach unten gerichteter Pfeil.
+Weiterhin befindet sich über einigen negativen Statuseffekten eine weiße Linie. Diese zeigt an, dass der Effekt mithilfe des Heiler-Kommandos „Medica“ oder ähnlichen Kommandos entfernt werden kann.</target>
+      </trans-unit>
+      <trans-unit id="1113" approved="yes" xml:space="preserve">
+        <source>1113</source>
+        <target state="final">Angriffsindikatoren</target>
+      </trans-unit>
+      <trans-unit id="1114" approved="yes" xml:space="preserve">
+        <source>1114</source>
+        <target state="final">Zielindikatoren</target>
+      </trans-unit>
+      <trans-unit id="1115" approved="yes" xml:space="preserve">
+        <source>1115</source>
+        <target state="final">Führen Gegner bestimmte Angriffe aus, kann es vorkommen, dass ihr Ziel mit einem entsprechenden Indikator markiert wird.</target>
+      </trans-unit>
+      <trans-unit id="1116" approved="yes" xml:space="preserve">
+        <source>1116</source>
+        <target state="final">Was genau die verschiedenen Indikatoren jeweils bedeuten oder anzeigen, unterscheidet sich je nach Gegner und Spielinhalt, aber es kann in jedem Fall davon ausgegangen werden, dass der markierte Spieler das Ziel eines Angriffs ist.</target>
+      </trans-unit>
+      <trans-unit id="1117" approved="yes" xml:space="preserve">
+        <source>1117</source>
+        <target state="final">Flächenangriff</target>
+      </trans-unit>
+      <trans-unit id="1118" approved="yes" xml:space="preserve">
+        <source>1118</source>
+        <target state="final">Dieser Indikator zeigt an, dass der markierte Spieler das Ziel eines Flächenangriffs ist. Sobald der Angriff ausgeführt wird, trifft er sowohl den markierten Spieler als auch den angezeigten Radius um ihn herum.
+Wirst du mit einem solchen Indikator markiert, solltest du dich so positionieren, dass nur du getroffen wirst, um deinen Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern keinen unnötigen Schaden zuzufügen.</target>
+      </trans-unit>
+      <trans-unit id="1119" approved="yes" xml:space="preserve">
+        <source>1119</source>
+        <target state="final">Angriff mit geteiltem Schaden</target>
+      </trans-unit>
+      <trans-unit id="1120" approved="yes" xml:space="preserve">
+        <source>1120</source>
+        <target state="final">Dieser Indikator zeigt einen überaus mächtigen Flächenangriff an, der um das Ziel herum ausgeführt wird. Der extrem hohe Schaden dieses Angriffs lässt sich jedoch auf alle Spieler aufteilen, die von ihm getroffen werden. Es sollten sich daher möglichst alle Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder an einem Ort versammeln, um den Schaden so gering wie möglich zu halten.
+
+Je nach Form des Angriffs kann sich der Indikator leicht ändern.
+
+■ Kreisförmiger Angriff</target>
+      </trans-unit>
+      <trans-unit id="1121" approved="yes" xml:space="preserve">
+        <source>1121</source>
+        <target state="final">■ Linienförmiger Angriff</target>
+      </trans-unit>
+      <trans-unit id="1122" approved="yes" xml:space="preserve">
+        <source>1122</source>
+        <target state="final">Mächtiger Angriff</target>
+      </trans-unit>
+      <trans-unit id="1123" approved="yes" xml:space="preserve">
+        <source>1123</source>
+        <target state="final">Dieser Indikator zeigt das Ziel eines mächtigen Angriffs an. Für gewöhnlich werden für diese Angriffe die Spieler fokussiert, die zum jeweiligen Zeitpunkt die höchste Feindseligkeit besitzen.
+Angriffe dieser Art verursachen Schaden von einer Stärke, die lediglich von Verteidigern überwunden werden kann. Findest du dich als Ziel eines solchen Angriffs, solltest du dich auf hohen Schaden vorbereiten und entsprechende Kommandos einsetzen, um den Schaden so weit wie möglich zu verringern. So besitzen beispielsweise alle Verteidiger die Rollenkommandos „Schutzwall“ und „Reflexion“, mit denen sie erhaltenen Schaden verringern bzw. gegnerischen Schaden schwächen können.
+Auch die anderen Rollen besitzen eine Vielzahl an Kommandos, mit denen Schaden verringert werden kann. Wirf also auf jeden Fall einen Blick auf deine Kommandoliste.
+
+Je nach Art des mächtigen Angriffs kann sich der Indikator leicht ändern.</target>
+      </trans-unit>
+      <trans-unit id="1124" approved="yes" xml:space="preserve">
+        <source>1124</source>
+        <target state="final">■ Einzelangriff/FlächenangriffDiese Markierung kann sowohl einen Einzel- als auch einen Flächenangriff signalisieren. Die genaue Art und Form is hierbei von dem jeweiligen Gegner abhängig.</target>
+      </trans-unit>
+      <trans-unit id="1125" approved="yes" xml:space="preserve">
+        <source>1125</source>
+        <target state="final">■ Flächenangriff</target>
+      </trans-unit>
+      <trans-unit id="1126" approved="yes" xml:space="preserve">
+        <source>1126</source>
+        <target state="final">■ Linienangriff/Fächerangriff
+Diese Angriffe treffen nicht nur das Ziel, sondern auch alles in dessen Richtung, weshalb besondere Vorsicht geboten ist.</target>
+      </trans-unit>
+      <trans-unit id="1127" approved="yes" xml:space="preserve">
+        <source>1127</source>
+        <target state="final">■ Verteilungsangriff
+Die Anzahl an Kugeln, die in der Mitte des Indikators schweben, zeigt an, wie viele Verteidiger den Schaden des Angriffs unter sich aufteilen sollten.</target>
+      </trans-unit>
+      <trans-unit id="1128" approved="yes" xml:space="preserve">
+        <source>1128</source>
+        <target state="final">Verfolgungsangriff</target>
+      </trans-unit>
+      <trans-unit id="1129" approved="yes" xml:space="preserve">
+        <source>1129</source>
+        <target state="final">Angriffe dieser Art erzeugen mehrere Flächenangriffe an der letzten Position des ausgewählten Spielers und verfolgen diesen für eine gewisse Zeit. Die Angriffe werden hierbei in relativ kurzem Abstand voneinander ausgeführt. Findest du dich also als Ziel eines solchen Angriffs wieder, solltest du durchgehend in Bewegung bleiben, um nicht von den Angriffen eingeholt zu werden. Pass beim Weglaufen aber darauf auf, nicht deine Mitstreiter zu gefährden.</target>
+      </trans-unit>
+      <trans-unit id="1130" approved="yes" xml:space="preserve">
+        <source>1130</source>
+        <target state="final">Rückstoß</target>
+      </trans-unit>
+      <trans-unit id="1131" approved="yes" xml:space="preserve">
+        <source>1131</source>
+        <target state="final">Diese Art von Indikatoren zeigt an, dass Spieler vom Zentrum der Markierung aus zurückgestoßen werden. Sei dir also der Stärke des Rückstoßes bewusst und positioniere dich entsprechend, um keinen unnötigen Schaden zu nehmen oder gar aus der Arena zu fallen. Darüber hinaus besitzt jeder Job ein Kommando, welches eine Vielzahl an Rückstoßeffekten wirkungslos macht.</target>
+      </trans-unit>
+      <trans-unit id="1132" approved="yes" xml:space="preserve">
+        <source>1132</source>
+        <target state="final">Auch von diesen Indikatoren gibt es einige Variationen.
+
+■ Runder Rückstoß
+Stößt vom Zentrum aus zurück. Ist der Indikator violett gefärbt, so kann der Rückstoß nicht mithilfe von Kommandos wirkungslos gemacht werden.</target>
+      </trans-unit>
+      <trans-unit id="1133" approved="yes" xml:space="preserve">
+        <source>1133</source>
+        <target state="final">■ Seitenrückstoß
+Stößt aus einer festen Richtung zurück.</target>
+      </trans-unit>
+      <trans-unit id="1134" approved="yes" xml:space="preserve">
+        <source>1134</source>
+        <target state="final">Rückstoßangriff</target>
+      </trans-unit>
+      <trans-unit id="1135" approved="yes" xml:space="preserve">
+        <source>1135</source>
+        <target state="final">Diese Angriffe fügen extrem hohen Schaden am Ausgangspunkt zu und stoßen Spieler ebenfalls zurück. Positioniere dich so am Rand des Ausgangspunktes, dass du weder vom Angriff selbst getroffen noch durch den Rückstoß an einen ungünstigen Ort geschleudert wirst.</target>
+      </trans-unit>
+      <trans-unit id="1136" approved="yes" xml:space="preserve">
+        <source>1136</source>
+        <target state="final">Ist der Indikator violett gefärbt, so kann der Rückstoß nicht mithilfe von Kommandos wirkungslos gemacht werden.</target>
+      </trans-unit>
+      <trans-unit id="1137" approved="yes" xml:space="preserve">
+        <source>1137</source>
+        <target state="final">Proximitätsangriff</target>
+      </trans-unit>
+      <trans-unit id="1138" approved="yes" xml:space="preserve">
+        <source>1138</source>
+        <target state="final">Angriffe dieser Art fügen deutlich erhöhten Schaden zu, je näher man sich am Ausgangspunkt des Angriffs befindet. Entferne dich also möglichst weit von ihm, um den ausgehenden Schaden zu minimieren.</target>
+      </trans-unit>
+      <trans-unit id="1139" approved="yes" xml:space="preserve">
+        <source>1139</source>
+        <target state="final">Proximitätsangriffe können auch von Spielern als Zentrum ausgehen. In diesen Fällen sollten sich die markierten Spieler vom Rest der Gruppe entfernen, um den ausgehenden Schaden zu minimieren.</target>
+      </trans-unit>
+      <trans-unit id="1140" approved="yes" xml:space="preserve">
+        <source>1140</source>
+        <target state="final">Türme</target>
+      </trans-unit>
+      <trans-unit id="1141" approved="yes" xml:space="preserve">
+        <source>1141</source>
+        <target state="final">Diese turmförmigen Indikatoren zeigen an, dass der dort einschlagende Angriff von Spielern abgefangen werden kann. Befindet sich kein Spieler innerhalb des Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reichs, wenn der Angriff ausgeführt wird, so löst dieser extrem hohen Gruppenschaden aus.</target>
+      </trans-unit>
+      <trans-unit id="1142" approved="yes" xml:space="preserve">
+        <source>1142</source>
+        <target state="final">Von dieser Art Angriff gibt es einige Variationen.
+
+■ Verteidiger-Turm
+Diese Angriffe können zwar abgefangen werden, fügen dabei jedoch Schaden von einer Höhe zu, der nur von Verteidigern überstanden werden kann.</target>
+      </trans-unit>
+      <trans-unit id="1143" approved="yes" xml:space="preserve">
+        <source>1143</source>
+        <target state="final">■ Gruppen-Turm
+Bei dieser Variation müssen sich mehrere Spieler innerhalb des Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reichs befinden, um den Angriff erfolgreich abzufangen. Die benötigte Anzahl an Spielern wird als Teil des Indikators angezeigt.
+Die unteren Beispiele zeigen jeweils Türme, die zwei Spieler benötigen, um den Schaden abzufangen.</target>
+      </trans-unit>
+      <trans-unit id="1144" approved="yes" xml:space="preserve">
+        <source>1144</source>
+        <target state="final">Linienangriffe (Distanz)</target>
+      </trans-unit>
+      <trans-unit id="1145" approved="yes" xml:space="preserve">
+        <source>1145</source>
+        <target state="final">Bei diesen Angriffen werden Spieler über eine Linie mit einem bestimmten Ziel verbunden. Ist die Distanz zwischen dem verbundenen Spieler und dem Ziel bei Ausführung des Angriffs nicht groß genug, so fügt dieses entweder großen Schaden zu oder belegt den Spieler mit negativen Statuseffekten. Um den Schaden bestmöglich zu minimieren, solltest du dich also so weit von dem verbundenen Ziel entfernen, bis die Linie ihre Form ändert.</target>
+      </trans-unit>
+      <trans-unit id="1146" approved="yes" xml:space="preserve">
+        <source>1146</source>
+        <target state="final">Werden wiederum zwei Spieler mit einer Kette verbunden, so nehmen diese über den gesamten Zeitraum, in dem die Verbindung bestehen bleibt, stetig Schaden. Um diesen so gering wie möglich zu halten, sollten sich diese Spieler schnell voneinander entfernen und die Kette so brechen.</target>
+      </trans-unit>
+      <trans-unit id="1147" approved="yes" xml:space="preserve">
+        <source>1147</source>
+        <target state="final">Linienangriffe (abfangbar)</target>
+      </trans-unit>
+      <trans-unit id="1148" approved="yes" xml:space="preserve">
+        <source>1148</source>
+        <target state="final">Bei dieser Art Angriff ist es Spielern möglich, sie von ihrem momentanen Ziel auf sich selbst zu lenken. Sollte es dem aktuell anvisierten Spieler also nicht möglich sein, den Angriff zu überstehen, so kann sich ein anderes Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glied zwischen ihn und den Gegner stellen und so die Linie und den damit verbundenen Schaden auf sich ziehen. </target>
+      </trans-unit>
+      <trans-unit id="1149" approved="yes" xml:space="preserve">
+        <source>1149</source>
+        <target state="final">Blick-Angriff</target>
+      </trans-unit>
+      <trans-unit id="1150" approved="yes" xml:space="preserve">
+        <source>1150</source>
+        <target state="final">Blickt ein Charakter in die Richtung, aus der ein Blick-Angriff ausgeführt wird, so können diesen eine Vielzahl an negativen Statuseffekten befallen. Blick-Angriffe können hierbei von Gegnern, festen Orten oder sogar anderen Spielern ausgehen.</target>
+      </trans-unit>
+      <trans-unit id="1151" approved="yes" xml:space="preserve">
+        <source>1151</source>
+        <target state="final">Andere Angriffe</target>
+      </trans-unit>
+      <trans-unit id="1152" approved="yes" xml:space="preserve">
+        <source>1152</source>
+        <target state="final">Die Angriffe dieser Kategorie sind speziell, aber sollten nicht ohne Erwähnung bleiben.
+
+■ Reihenfolge-Indikator
+Erscheinen diese Symbole in unter&lt;var 16 /var&gt;schied&lt;var 16 /var&gt;licher Anzahl über allen Spielern, so wird der nächste Angriff in aufsteigender Reihenfolge auf alle Spieler ausgeführt.</target>
+      </trans-unit>
+      <trans-unit id="1153" approved="yes" xml:space="preserve">
+        <source>1153</source>
+        <target state="final">■ Gruppen-Indikator
+Angriffe dieser Art benötigen eine exakt genaue Anzahl an Spielern innerhalb des Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reichs, um sie korrekt abzufangen. Befinden sich bei Ausführung des Angriffs zu viele oder zu wenige Spieler im Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reich, so nehmen alle sich im Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reich befindlichen Spieler enormen Schaden.</target>
+      </trans-unit>
+      <trans-unit id="1154" approved="yes" xml:space="preserve">
+        <source>1154</source>
+        <target state="final">■ Countdown-Angriff
+Diese Art Angriff gibt über einen Countdown an, wann genau sie ausgeführt wird. Führen die betroffenen Spieler zu diesem Zeitpunkt eine bestimmte Handlung aus, so erhalten sie entweder enormen Schaden oder werden mit negativen Statuseffekten belegt.
+
+Die angezeigten Markierungen behalten stets ihre grundlegenden Bedeutungen bei, unabhängig von Gegner und Spielinhalt. Behältst du diese im Hinterkopf, bist du also für eine Vielzahl an Heraus&lt;var 16 /var&gt;forde&lt;var 16 /var&gt;rungen bestens gewappnet! </target>
+      </trans-unit>
+      <trans-unit id="1155" approved="yes" xml:space="preserve">
+        <source>1155</source>
+        <target state="final">Vertonte Spielbegleiter</target>
+      </trans-unit>
+      <trans-unit id="1156" approved="yes" xml:space="preserve">
+        <source>1156</source>
+        <target state="final">Was sind „vertonte Spielbegleiter“?</target>
+      </trans-unit>
+      <trans-unit id="1157" approved="yes" xml:space="preserve">
+        <source>1157</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vertonte Spielbegleiter&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ist eine Funktion, die es dir ermöglicht, dich von allerlei Freunden und Verbündeten, die du auf deinen Reisen getroffen hast, beim Mahjongspielen anfeuern zu lassen.
+
+An verschiedenen Stellen des Spielverlaufs meldet sich die von dir als vertonter Spielbegleiter auserkorene Person zu Wort und kommentiert zum Beispiel das Spielergebnis oder wenn du oder deine Gegner Riichi, Tsumo oder Ron ausrufen.
+※ Die anderen Teilnehmer können deinen vertonten Spielbegleiter nicht vernehmen.</target>
+      </trans-unit>
+      <trans-unit id="1158" approved="yes" xml:space="preserve">
+        <source>1158</source>
+        <target state="final">Vertonte Spielbegleiter auswählen</target>
+      </trans-unit>
+      <trans-unit id="1159" approved="yes" xml:space="preserve">
+        <source>1159</source>
+        <target state="final">Vertonte Spielbegleiter können durch das Verwenden bestimmter Spezialgegenstände freigeschaltet werden.
+Am &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Platz der Wunder&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; können diese bei &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 28 ((ENpcResident)) F60FF16701 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; für neue vertonte Spielbegleiter eingetauscht werden.
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※ Um Spezialgegenstände bei &lt;var 28 ((ENpcResident)) F60FF16701 /var&gt; eintauschen zu können, muss der Auftrag &lt;var 28 ((Quest)) F601068501 /var&gt; des Hauptszenarios abgeschlossen sein.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+Du kannst im entsprechenden Fenster im Hauptmenü unter Charakter → Gold Saucer → Mahjong auswählen, welcher vertonte Spielbegleiter an deiner Seite spielen soll. Hier kannst du dich nicht nur für einen vertonten Spielbegleiter deiner Wahl entscheiden, sondern auch wie die Person aussehen soll, wenn sie eingeblendet wird.
+ 
+Mit dem Fortschritt des Hauptszenarios wird die Auswahl durch weitere Stimmen samt Outfit erweitert&lt;var 1D /var&gt;- es lohnt sich also ab und zu vor&lt;var 16 /var&gt;bei&lt;var 16 /var&gt;zu&lt;var 16 /var&gt;schau&lt;var 16 /var&gt;en.
+
+Hoffentlich macht dir Domanisches Mahjong mit deinem Lieblingsspielbegleitern gleich doppelt so viel Spaß!</target>
+      </trans-unit>
+      <trans-unit id="1160" approved="yes" xml:space="preserve">
+        <source>1160</source>
+        <target state="final">Was ist eine Setprojektion?</target>
+      </trans-unit>
+      <trans-unit id="1161" approved="yes" xml:space="preserve">
+        <source>1161</source>
+        <target state="final">Als Setprojektion ins Kabinett legen</target>
+      </trans-unit>
+      <trans-unit id="1162" approved="yes" xml:space="preserve">
+        <source>1162</source>
+        <target state="final">Mögliche Setprojektionen</target>
+      </trans-unit>
+      <trans-unit id="1163" approved="yes" xml:space="preserve">
+        <source>1163</source>
+        <target state="final">Als Set projizierte Gegenstände</target>
+      </trans-unit>
+      <trans-unit id="1164" approved="yes" xml:space="preserve">
+        <source>1164</source>
+        <target state="final">Mithilfe einer &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Setprojektion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lassen sich mehrere bestimmte Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände als ein Set projizieren und in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode lagern.
+Ein auf diese Weise projiziertes Set nimmt dabei nur einen Lagerplatz in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode ein.
+
+Projektionen von Gegenständen, die Teil einer Setprojektion sind, können wie alle anderen Projektionen auf Einzelgegenstände und Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;platten projiziert werden.
+
+Um eine Setprojektion vorzunehmen, müssen die jeweiligen Gegenstände eines zu projizierenden Sets in gleicher Qualität sowie die entsprechende Anzahl an Projektionsprismen vorliegen. </target>
+      </trans-unit>
+      <trans-unit id="1165" approved="yes" xml:space="preserve">
+        <source>1165</source>
+        <target state="final">Gegenstände, bei denen eine Setprojektion möglich ist, haben im entsprechenden Fenster in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode eine Schaltfläche dazu.</target>
+      </trans-unit>
+      <trans-unit id="1166" approved="yes" xml:space="preserve">
+        <source>1166</source>
+        <target state="final">Mit einem Klick auf die Schaltfläche öffnet sich ein Fenster, in dem du Sets aus Inventar und Arsenal für eine Setprojektion auswählen kannst.
+
+Dabei muss der Zustand aller zu projizierenden Gegenstände bei 100&lt;var 1D /var&gt;% liegen.
+
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Anders als bei normalen Projektionen werden die Farben bereits gefärbter Ausrüstung nicht in Setprojektionen übernommen.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+※ Das Färben von Gegenständen ist nach der Projektion auf Ausrüstung und Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;platten nach wie vor möglich.
+
+Bei Ausführung einer Setprojektion werden mehrere Gegenstände als Set gespeichert und als einzelne Projektion in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode gelagert.</target>
+      </trans-unit>
+      <trans-unit id="1167" approved="yes" xml:space="preserve">
+        <source>1167</source>
+        <target state="final">Welche Gegenstände untereinander als Set projizierbar sind, kann im Untermenü eines Gegenstands unter „Auf Setprojektion prüfen“ überprüft werden.</target>
+      </trans-unit>
+      <trans-unit id="1168" approved="yes" xml:space="preserve">
+        <source>1168</source>
+        <target state="final">Bereits als Set projizierte und eingelagerte Projektionen können in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode im Reiter „Sets“ nachgesehen werden.</target>
+      </trans-unit>
+      <trans-unit id="1169" approved="yes" xml:space="preserve">
+        <source>1169</source>
+        <target state="final">Nicht nur können in diesem Reiter die jeweiligen Setprojektionen, sondern auch die einzelnen Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände, aus denen sie sich zusammensetzen, überprüft werden.
+
+Dabei hilft das Untermenü „Zugehörige Setprojektion einsehen“, das mit einem Klick alle interessanten Einzelheiten auflistet. Dies kann auch über die Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;beschrei&lt;var 16 /var&gt;bung des projizierten Gegenstandes erfolgen.
+
+Gegenstände eines bereits projizierten Ausrüstungssets werden beim Durchschalten der Reiter jeweiliger Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände Seite an Seite mit normalen Projektionen angezeigt.
+
+Zur leichteren Unterscheidung werden als Set projizierte Gegenstände in der Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;beschrei&lt;var 16 /var&gt;bung mit „Als Set projiziert“ gekennzeichnet.
+
+Als Set projizierte Gegenstände werden bei der Entnahme aus der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode als ganzes Set in Ausrüstung zurückverwandelt.
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※ Die Entnahme und Zurückverwandlung von einzelnen Gegenständen eines Projektionssets ist nicht möglich.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="1170" approved="yes" xml:space="preserve">
+        <source>1170</source>
+        <target state="final">Angriffe mit Fortschrittsbalken</target>
+      </trans-unit>
+      <trans-unit id="1171" approved="yes" xml:space="preserve">
+        <source>1171</source>
+        <target state="final">Bestimmte Angriffe können von Gegnern nicht sofort ausgeführt werden, sondern müssen zuerst über einen gewissen Vorbereitungszeitraum gewirkt werden. Im sogenannten „Fortschrittsbalken“, der neben dem Namen des Gegners angezeigt wird, kannst du erkennen, wie weit der Angriff bereits gewirkt wurde. Der Angriff wird dann ausgeführt, sobald sich dieser Balken vollständig gefüllt hat.</target>
+      </trans-unit>
+      <trans-unit id="1172" approved="yes" xml:space="preserve">
+        <source>1172</source>
+        <target state="final">Bei Angriffen, die sofort ausgeführt werden, wird kein Fortschrittsbalken angezeigt.</target>
       </trans-unit>
     </body>
   </file>

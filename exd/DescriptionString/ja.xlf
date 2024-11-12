@@ -893,9 +893,9 @@ Lodestoneの「ライバルウィングズ」ガイドページを参照して�
 「大容量青燐水タンク」、「ゴブ式興奮剤」、「ゴブリタンク認証鍵」の、
 すべての効果が得られます。</target>
       </trans-unit>
-      <trans-unit id="159" approved="no" xml:space="preserve">
+      <trans-unit id="159" approved="yes" xml:space="preserve">
         <source>159</source>
-        <target state="needs-translation">マーシナリー</target>
+        <target state="final">マーシナリー</target>
       </trans-unit>
       <trans-unit id="160" approved="yes" xml:space="preserve">
         <source>160</source>
@@ -1149,9 +1149,9 @@ Lodestoneの「ライバルウィングズ」ガイドページを参照して�
 
 </target>
       </trans-unit>
-      <trans-unit id="180" approved="no" xml:space="preserve">
+      <trans-unit id="180" approved="yes" xml:space="preserve">
         <source>180</source>
-        <target state="needs-translation">9.　個室について</target>
+        <target state="final">9.　個室について</target>
       </trans-unit>
       <trans-unit id="181" approved="yes" xml:space="preserve">
         <source>181</source>
@@ -1351,9 +1351,9 @@ Lodestoneの「ライバルウィングズ」ガイドページを参照して�
         <target state="final">■個人ハウス（ハウスの出入り許可）/（ハウスの出入り不許可）
 　 自身の個人ハウス（ハウスの出入り許可）/（ハウスの出入り不許可）</target>
       </trans-unit>
-      <trans-unit id="195" approved="no" xml:space="preserve">
+      <trans-unit id="195" approved="yes" xml:space="preserve">
         <source>195</source>
-        <target state="needs-translation">■自身のシェアハウス（ハウスの出入り許可）/（ハウスの出入り不許可）</target>
+        <target state="final">■自身のシェアハウス（ハウスの出入り許可）/（ハウスの出入り不許可）</target>
       </trans-unit>
       <trans-unit id="196" approved="yes" xml:space="preserve">
         <source>196</source>
@@ -4693,6 +4693,8 @@ PvPコンテンツに参加すると、
 勝敗に応じて階級や階位が変動する、
 より競技性の高いマッチングルールです。
 自身の階級や階位に近いプレイヤーとマッチングされます。
+また、ランクマッチは特定のデータセンターでのみ開催されます。
+開催されるデータセンターはシーズンごとに変更されます。
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■カスタムマッチ■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 任意のメンバーで対戦ができるマッチングルールです。
@@ -4788,7 +4790,14 @@ PvPの毎シーズン終了時に、すべてのプレイヤーの階級と階�
 相手チームよりも進行度で上回る。
 
 ・相手チームと進行度が同じだった場合
-相手チームよりも進行度で上回る。</target>
+相手チームよりも進行度で上回る。
+
+オーバータイムでも決着が付かずに時間切れとなった場合は、
+進行度で上回ったチームの勝ちとなります。
+進行度が同じ場合は、時間切れとなった時点でタクティカルクリスタルを、
+セントラルポイントよりも相手チーム側に移送していたチームの勝ちとなります。
+進行度が同じで、タクティカルクリスタルがセントラルポイントにある場合は、
+引き分けとなります。</target>
       </trans-unit>
       <trans-unit id="595" approved="yes" xml:space="preserve">
         <source>595</source>
@@ -4930,9 +4939,14 @@ HPが100％のプレイヤーはメディカルキットに触れることがで
       </trans-unit>
       <trans-unit id="612" approved="yes" xml:space="preserve">
         <source>612</source>
-        <target state="final">乱気流が発生したあとは、しばらくの間ステージ上に竜巻が発生します。
-竜巻に巻き込まれると、ダメージを受け、さらにノックバックされます。
-また、「防御」の効果中に竜巻に巻き込まれると、防御の効果が解除されます。</target>
+        <target state="final">乱気流が発生したあとは、しばらくの間ステージ上に竜巻と風球が出現します。
+
+竜巻はプレイヤーが巻き込まれると、ダメージを受け、さらにノックバックされます。
+また、「防御」の効果中に竜巻に巻き込まれると、防御の効果が解除されます。
+
+風球はプレイヤーが触れることで、移動速度が大幅に上昇します。
+ひとつの風球に触れることができるのはプレイヤーひとりのみとなります。
+乱気流の発生中であれば、風球は一定時間後に再出現します。</target>
       </trans-unit>
       <trans-unit id="613" approved="yes" xml:space="preserve">
         <source>613</source>
@@ -4947,7 +4961,7 @@ HPが100％のプレイヤーはメディカルキットに触れることがで
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■制限時間■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 1試合の制限時間は「5分」です。
 制限時間内に決着が付かなかった場合は、
-延長戦（オーバータイム）に突入します。
+最長で10分間の延長戦（オーバータイム）に突入します。
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■再出撃■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 他のプレイヤーとの戦闘によって戦闘不能になってしまった場合でも、
@@ -8012,8 +8026,8 @@ Lodestone内で閲覧できるランキングに掲載されることがあり�
 ギアセットと合わせて活用することで、
 さまざまなオシャレを楽しみながら冒険を進められます。
 
-染色・投影などの各ウィンドウから、
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「コーディネート機能解説」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;を選ぶと、
+染色・投影などの各ウィンドウにある「？」ボタンから、
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「コーディネートに関する解説を見る」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;を選ぶと、
 現在利用できるコーディネート機能の詳細が確認できます。</target>
       </trans-unit>
       <trans-unit id="952" approved="yes" xml:space="preserve">
@@ -8235,7 +8249,6 @@ Lodestone内で閲覧できるランキングに掲載されることがあり�
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■プログレスゲージ：自軍を左に固定して表示する■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 自チームが「チーム・アストラ」か「チーム・アンブラ」かに関わらず、
 プログレスゲージの左側が常に自チームの表示になります。
-※試合中に設定変更した場合は、次の試合から設定が反映されます。
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■マップ：自軍を左に固定して表示する■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 自チームが「チーム・アストラ」か「チーム・アンブラ」かに関わらず、
@@ -8454,7 +8467,7 @@ MGFの現在値は、MGF交換窓口で確認できます。
 
 2：
 コンテンツからの退出ボタンです。 自身がすでに敗退していたときのみ
-押下可能です。
+押すことができます。
 
 3：
 自身が勝ち抜けているか敗退しているかが表示されます。</target>
@@ -8716,12 +8729,7 @@ MGFの現在値は、MGF交換窓口で確認できます。
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;②アイテムA・Bの装備可能クラスが一致していない場合&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 例：
-ジョブ専用装備アイテムに、他のジョブ専用装備アイテムは武具投影できません。
-
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;③アイテムAが複数の装備部位がまたがるアイテムで、
-　アイテムBが単一部位のアイテムの場合&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-例：
-頭・胴が一体となった防具に、胴のみの防具は武具投影できません。</target>
+ジョブ専用装備アイテムに、他のジョブ専用装備アイテムは武具投影できません。</target>
       </trans-unit>
       <trans-unit id="1060" approved="yes" xml:space="preserve">
         <source>1060</source>
@@ -8797,7 +8805,8 @@ MGFの現在値は、MGF交換窓口で確認できます。
         <source>1066</source>
         <target state="final">アイテムが幻影化できるかどうかは、
 アイテム詳細の右上のアイコンで確認できます。
-色が明るい場合は、幻影化可能です。</target>
+色が明るい場合は、幻影化可能です。
+※「＋」マークがついている場合、「まとめて幻影化」も可能です。</target>
       </trans-unit>
       <trans-unit id="1067" approved="yes" xml:space="preserve">
         <source>1067</source>
@@ -8829,7 +8838,8 @@ MGFの現在値は、MGF交換窓口で確認できます。
 「ミラージュプレート」に転写することができます。
 
 ミラージュプレートは複数枚用意されており、
-「ミラージュドレッサー」または「愛蔵品キャビネット」に収納した、それぞれのアイテムで作ったコーディネートを保存して、
+「ミラージュドレッサー」または「愛蔵品キャビネット」に収納した、
+それぞれのアイテムで作ったコーディネートを保存して、
 一括で武具投影を行うことができます。</target>
       </trans-unit>
       <trans-unit id="1069" approved="yes" xml:space="preserve">
@@ -9133,6 +9143,480 @@ MGFの現在値は、MGF交換窓口で確認できます。
 グリダニア：旧市街
 にいます。
 </target>
+      </trans-unit>
+      <trans-unit id="1101" approved="yes" xml:space="preserve">
+        <source>1101</source>
+        <target state="final">バトルの予備知識</target>
+      </trans-unit>
+      <trans-unit id="1102" approved="yes" xml:space="preserve">
+        <source>1102</source>
+        <target state="final">攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1103" approved="yes" xml:space="preserve">
+        <source>1103</source>
+        <target state="final">敵が攻撃を実行する際、その攻撃範囲が「予兆」として表示されることがあります。
+基本的に、攻撃が発動する前に予兆の範囲外に移動することで攻撃を回避できます。</target>
+      </trans-unit>
+      <trans-unit id="1104" approved="yes" xml:space="preserve">
+        <source>1104</source>
+        <target state="final">攻撃の予兆には、さまざまな形状があります。</target>
+      </trans-unit>
+      <trans-unit id="1105" approved="yes" xml:space="preserve">
+        <source>1105</source>
+        <target state="final">「敵視」について</target>
+      </trans-unit>
+      <trans-unit id="1106" approved="yes" xml:space="preserve">
+        <source>1106</source>
+        <target state="final">「敵視」とは、敵が攻撃対象を選ぶ際の指標となるパラメータです。
+複数のキャラクターが、1体の敵を攻撃している場合、
+敵は、最も敵視の高いキャラクターから優先して攻撃を行います。
+
+敵視は、敵に対して攻撃を行ったり、
+敵と戦闘状態にあるキャラクターに対して回復などを行うことで高まります。
+
+■敵視を確認するには
+敵視の確認方法は、二通りあります。
+
+①敵対リストで確認する方法
+自身を敵視している相手は「敵対リスト」のHUDに表示されます。
+HUDの左側に表示されるアイコンを見ることで、敵視の量を確認可能です。
+下の例では、リストの上から順に敵視の量が多いことを示しています。</target>
+      </trans-unit>
+      <trans-unit id="1107" approved="yes" xml:space="preserve">
+        <source>1107</source>
+        <target state="final">②パーティリストで確認する方法
+「パーティリスト」HUDのクラス／ジョブアイコンの下には、
+自分が現在ターゲットしている敵の、
+パーティメンバーに対する敵視の量が表示されています。
+
+最も敵視が高いパーティメンバーには「A」と表記され、
+以降は高い順に数字が表記されます。
+ゲージは、「A」と表記されたプレイヤーとの相対的な敵視の差を示しています。</target>
+      </trans-unit>
+      <trans-unit id="1108" approved="yes" xml:space="preserve">
+        <source>1108</source>
+        <target state="final">もし、タンク以外のロールでパーティに参加しているときに、
+敵視を多く取ってしまった場合には、攻撃などを一時的に中断してみましょう。
+タンクロールが敵視を集めるのを待つことで、
+敵からの攻撃にさらされ続ける状態から脱することができるはずです。
+
+■敵視の上昇について
+タンクロールのクラス／ジョブは、敵視を自身に集中させるためのアクションを持っています。</target>
+      </trans-unit>
+      <trans-unit id="1109" approved="yes" xml:space="preserve">
+        <source>1109</source>
+        <target state="final">このようなアクションの効果が付与されている状態で敵に攻撃を行うと、
+自身に向けられる敵視が大きく上昇します。
+タンクロールのクラス／ジョブにとって、敵視を高く保ち敵の攻撃を積極的に受け止めることは、
+パーティプレイにおいて非常に重要な役割となります。</target>
+      </trans-unit>
+      <trans-unit id="1110" approved="yes" xml:space="preserve">
+        <source>1110</source>
+        <target state="final">バフ／デバフ効果</target>
+      </trans-unit>
+      <trans-unit id="1111" approved="yes" xml:space="preserve">
+        <source>1111</source>
+        <target state="final">バフとは、キャラクターを強化する効果のある状態のこと、
+デバフとは、キャラクターを弱化させる効果のある状態のことです。
+
+キャラクターがバフ／デバフの効果を受けると、
+「バフ・デバフステータス情報」HUDにそのアイコンが表示されます。</target>
+      </trans-unit>
+      <trans-unit id="1112" approved="yes" xml:space="preserve">
+        <source>1112</source>
+        <target state="final">バフを示すアイコンは上向きの矢印形状で、
+デバフを示すアイコンは下向きの矢印形状で表示されます。
+デバフのうち、アイコンの上部に横線が付いているステータスは、
+ヒーラーロールのアクション「エスナ」などで解除することができます。</target>
+      </trans-unit>
+      <trans-unit id="1113" approved="yes" xml:space="preserve">
+        <source>1113</source>
+        <target state="final">予兆表現の種類</target>
+      </trans-unit>
+      <trans-unit id="1114" approved="yes" xml:space="preserve">
+        <source>1114</source>
+        <target state="final">ターゲット予兆</target>
+      </trans-unit>
+      <trans-unit id="1115" approved="yes" xml:space="preserve">
+        <source>1115</source>
+        <target state="final">敵が何らかの攻撃を実行する際、キャラクターに、
+攻撃対象として狙われていることを示す予兆が表示されることがあります。</target>
+      </trans-unit>
+      <trans-unit id="1116" approved="yes" xml:space="preserve">
+        <source>1116</source>
+        <target state="final">それぞれのターゲット予兆が持つ意味は敵やコンテンツにより異なりますが、
+どのような場合も「自身が攻撃の対象になっていること」を示していますので、
+適切な対処を考えましょう。</target>
+      </trans-unit>
+      <trans-unit id="1117" approved="yes" xml:space="preserve">
+        <source>1117</source>
+        <target state="final">範囲攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1118" approved="yes" xml:space="preserve">
+        <source>1118</source>
+        <target state="final">範囲攻撃の対象となった際に、表示される予兆です。
+対象を中心に範囲攻撃が発生します。
+
+自身に表示された場合は味方を巻き込まないように、
+味方に表示された場合は自身が巻き込まれないように立ち位置を注意しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1119" approved="yes" xml:space="preserve">
+        <source>1119</source>
+        <target state="final">頭割りダメージ攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1120" approved="yes" xml:space="preserve">
+        <source>1120</source>
+        <target state="final">強力な範囲攻撃の対象となった際に、表示される予兆です。
+対象を中心に範囲攻撃が発生します。
+
+この予兆の後に発生する攻撃のダメージは、同時に受けた味方全員で分割されます。
+なるべく多くの味方とともに攻撃を受け、耐え抜きましょう。
+
+なお、頭割りダメージ攻撃の予兆は、攻撃範囲に応じて複数種類存在しています。
+
+【円範囲】</target>
+      </trans-unit>
+      <trans-unit id="1121" approved="yes" xml:space="preserve">
+        <source>1121</source>
+        <target state="final">【直線範囲】</target>
+      </trans-unit>
+      <trans-unit id="1122" approved="yes" xml:space="preserve">
+        <source>1122</source>
+        <target state="final">強攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1123" approved="yes" xml:space="preserve">
+        <source>1123</source>
+        <target state="final">強力な攻撃の対象となった際に、表示される予兆です。
+この予兆を伴う攻撃は、敵視の高いキャラクターに対して実行されることが多く、
+また非常に大きなダメージを伴うため、タンクロールのクラス／ジョブでなければ、
+耐えることが難しい攻撃となります。
+
+この予兆が表示されたら、被ダメージの軽減効果を持つアクションを使用して、
+ダメージを抑えるように心がけましょう。
+
+例えば、タンクロールではアクション「ランパート」で自身の被ダメージを軽減し、
+アクション「リプライザル」で相手の与ダメージを低下させることができます。
+その他のロールもダメージを軽減するアクションを修得しますので、アクションリストをご確認ください。
+
+なお、強攻撃の予兆は、攻撃範囲に応じて複数種類存在しています。</target>
+      </trans-unit>
+      <trans-unit id="1124" approved="yes" xml:space="preserve">
+        <source>1124</source>
+        <target state="final">【単体攻撃／範囲攻撃】
+単体攻撃もしくは範囲攻撃が発生します。
+範囲攻撃の形状は敵のアクションよって異なります。</target>
+      </trans-unit>
+      <trans-unit id="1125" approved="yes" xml:space="preserve">
+        <source>1125</source>
+        <target state="final">【円形範囲攻撃】</target>
+      </trans-unit>
+      <trans-unit id="1126" approved="yes" xml:space="preserve">
+        <source>1126</source>
+        <target state="final">【直線範囲攻撃／扇範囲攻撃】
+対象の後方にも攻撃が及ぶため注意が必要です。</target>
+      </trans-unit>
+      <trans-unit id="1127" approved="yes" xml:space="preserve">
+        <source>1127</source>
+        <target state="final">【分割ダメージ攻撃】
+中心に表示される球体の数が、攻撃を受けるべき人数を示します。</target>
+      </trans-unit>
+      <trans-unit id="1128" approved="yes" xml:space="preserve">
+        <source>1128</source>
+        <target state="final">追尾範囲攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1129" approved="yes" xml:space="preserve">
+        <source>1129</source>
+        <target state="final">キャラクターを追尾する範囲攻撃の対象となった際に、表示される予兆です。
+予兆の対象を中心に範囲攻撃が発動します。
+
+この予兆を伴う攻撃は、
+短い間隔で複数回、攻撃対象のいる位置めがけて発生します。
+味方を巻き込まないような位置取りで、移動し続けて回避しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1130" approved="yes" xml:space="preserve">
+        <source>1130</source>
+        <target state="final">ノックバック攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1131" approved="yes" xml:space="preserve">
+        <source>1131</source>
+        <target state="final">ノックバックを伴う攻撃の際に、表示される予兆です。
+攻撃が発動すると、予兆の中心を基準として放射状に吹き飛ばされます。
+
+ノックバックされる距離や方向を意識して、立ち位置を調整したり、
+ノックバックを無効化するアクションを使用して対応しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1132" approved="yes" xml:space="preserve">
+        <source>1132</source>
+        <target state="final">なお、ノックバック攻撃の予兆は、攻撃範囲に応じて複数種類存在しています。
+
+【円形範囲攻撃】
+予兆の中心から放射状にノックバック効果が発生します。
+この予兆によるノックバック効果はアクションで防ぐことができません。</target>
+      </trans-unit>
+      <trans-unit id="1133" approved="yes" xml:space="preserve">
+        <source>1133</source>
+        <target state="final">【直線範囲攻撃】
+特定の方向に対してノックバック効果が発生します。</target>
+      </trans-unit>
+      <trans-unit id="1134" approved="yes" xml:space="preserve">
+        <source>1134</source>
+        <target state="final">ノックバック強攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1135" approved="yes" xml:space="preserve">
+        <source>1135</source>
+        <target state="final">ノックバックを伴う強力な攻撃の際に、表示される予兆です。
+攻撃が発動すると、予兆の中心を基準として放射状に吹き飛ばされますが、
+中心に近い円範囲内にいると大ダメージを受けてしまうため、
+範囲外に位置取り、攻撃を受けるように対応しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1136" approved="yes" xml:space="preserve">
+        <source>1136</source>
+        <target state="final">この予兆によるノックバック効果はアクションで防ぐことができません。</target>
+      </trans-unit>
+      <trans-unit id="1137" approved="yes" xml:space="preserve">
+        <source>1137</source>
+        <target state="final">距離減衰ダメージ攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1138" approved="yes" xml:space="preserve">
+        <source>1138</source>
+        <target state="final">距離減衰ダメージを伴う範囲攻撃の際に、表示される予兆です。
+中心に近い場所にいるほど多くのダメージを受けてしまうため、
+より遠くに位置取り、攻撃を受けるように対応しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1139" approved="yes" xml:space="preserve">
+        <source>1139</source>
+        <target state="final">距離減衰ダメージ攻撃は、地面に対してだけではなく、
+特定のキャラクターを中心に実行されることもあります。
+その場合は、予兆の表示されたキャラクターから離れることで、
+ダメージを軽減することができます。</target>
+      </trans-unit>
+      <trans-unit id="1140" approved="yes" xml:space="preserve">
+        <source>1140</source>
+        <target state="final">受け止め攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1141" approved="yes" xml:space="preserve">
+        <source>1141</source>
+        <target state="final">受け止めることで被害を軽減できる攻撃の際に、表示される予兆です。
+この予兆を伴う攻撃を、予兆の表示位置で受け止めなかった場合、
+広範囲に大ダメージが発生してしまいます。</target>
+      </trans-unit>
+      <trans-unit id="1142" approved="yes" xml:space="preserve">
+        <source>1142</source>
+        <target state="final">この攻撃は、予兆の種類により対応方法が異なります。
+
+【大ダメージ攻撃】
+予兆の範囲内であっても強力なダメージを受けるため、
+タンクロールが予兆の範囲内に入りましょう。</target>
+      </trans-unit>
+      <trans-unit id="1143" approved="yes" xml:space="preserve">
+        <source>1143</source>
+        <target state="final">【人数指定攻撃】
+複数人で予兆の範囲内に入り、攻撃を受ける必要があります。
+適切な人数を示す表現が予兆に追加されます。
+以下の例では２人で予兆の範囲に入ることで被害を軽減できます。</target>
+      </trans-unit>
+      <trans-unit id="1144" approved="yes" xml:space="preserve">
+        <source>1144</source>
+        <target state="final">チャネリングライン予兆（距離調整型）</target>
+      </trans-unit>
+      <trans-unit id="1145" approved="yes" xml:space="preserve">
+        <source>1145</source>
+        <target state="final">キャラクターが、何らかの対象と線で繋がれる予兆です。
+繋がれた対象から距離をとらないと、ダメージやデバフ効果を受けてしまいます。
+
+このような予兆の場合は、一定時間が経過することでダメージが発生します。
+対象から離れることで被害を防ぐことができるので、
+立ち位置を調整して対応しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1146" approved="yes" xml:space="preserve">
+        <source>1146</source>
+        <target state="final">このような予兆の場合は、繋がれた対象同士に継続的にダメージが発生します。
+対象同士が離れることで被害を防ぐことができるので、
+立ち位置を調整して対応しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1147" approved="yes" xml:space="preserve">
+        <source>1147</source>
+        <target state="final">チャネリングライン予兆（対象奪取型）</target>
+      </trans-unit>
+      <trans-unit id="1148" approved="yes" xml:space="preserve">
+        <source>1148</source>
+        <target state="final">キャラクターが、何らかの対象と線で繋がれる予兆です。
+この予兆は繋がれた線を遮った相手に、対象を移すことができます。
+状況に応じて、自身が対象となるべきかどうか判断しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1149" approved="yes" xml:space="preserve">
+        <source>1149</source>
+        <target state="final">視線攻撃の予兆</target>
+      </trans-unit>
+      <trans-unit id="1150" approved="yes" xml:space="preserve">
+        <source>1150</source>
+        <target state="final">視線攻撃の際に、表示される予兆です。
+視線攻撃とは、キャラクターが発動者のほうを向いていると、
+デバフ効果などを受けてしまう攻撃のことです。
+
+視線攻撃は、敵だけでなく味方から発生することもあります。</target>
+      </trans-unit>
+      <trans-unit id="1151" approved="yes" xml:space="preserve">
+        <source>1151</source>
+        <target state="final">その他の予兆</target>
+      </trans-unit>
+      <trans-unit id="1152" approved="yes" xml:space="preserve">
+        <source>1152</source>
+        <target state="final">この項目では特殊な予兆表現について説明します。
+
+【順番を示す予兆】
+異なる数の球体が複数のキャラクターに表示される予兆です。
+この予兆ののち、球体の数が少なかった対象から順に攻撃の対象となります。</target>
+      </trans-unit>
+      <trans-unit id="1153" approved="yes" xml:space="preserve">
+        <source>1153</source>
+        <target state="final">【人数を示す予兆】
+特定の人数で受け止める必要のある攻撃の際に、表示される予兆です。
+球体の数に応じたキャラクターが範囲内に入ることで対応が可能です。</target>
+      </trans-unit>
+      <trans-unit id="1154" approved="yes" xml:space="preserve">
+        <source>1154</source>
+        <target state="final">【カウントダウンを示す予兆】
+攻撃までのカウントダウンを表示する予兆です。
+カウントダウン終了時に特定の行動をしていると、
+ペナルティとしてダメージやデバフ効果を受けてしまうため、適切な行動で対処しましょう。
+
+敵やコンテンツによらず、表示される予兆ごとの意味は同じであるため、
+それぞれの対処法を覚えておきましょう。</target>
+      </trans-unit>
+      <trans-unit id="1155" approved="yes" xml:space="preserve">
+        <source>1155</source>
+        <target state="final">「ドマ式麻雀」の応援演出</target>
+      </trans-unit>
+      <trans-unit id="1156" approved="yes" xml:space="preserve">
+        <source>1156</source>
+        <target state="final">「ドマ式麻雀ボイス」とは</target>
+      </trans-unit>
+      <trans-unit id="1157" approved="yes" xml:space="preserve">
+        <source>1157</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「ドマ式麻雀ボイス」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;は、冒険の中で出会ったキャラクターがドマ式麻雀の対戦でプレイヤーを応援して盛り上げてくれる機能です。
+
+対戦中「リーチ」したときや「ロン」や「ツモ」であがったとき、点数や対局結果が表示されるときにキャラクターのボイスが再生されます。
+また、自分が「リーチ」、「ロン」、「ツモ」をする場面では、キャラクターのカットインが表示され、より豪華な演出でドマ式麻雀を遊ぶことができます。
+※キャラクターの応援演出は、対戦している他のプレイヤーには表示されません。</target>
+      </trans-unit>
+      <trans-unit id="1158" approved="yes" xml:space="preserve">
+        <source>1158</source>
+        <target state="final">「ドマ式麻雀ボイス」のキャラクター設定</target>
+      </trans-unit>
+      <trans-unit id="1159" approved="yes" xml:space="preserve">
+        <source>1159</source>
+        <target state="final">ボイスキャラクターは、専用アイテムを使用することで開放されます。
+専用アイテムはゴールドソーサーの&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「ワンダースクウェア」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;にいる
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「&lt;var 28 ((ENpcResident)) F60FF16701 /var&gt;」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;に話しかけると交換することができます。
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※&lt;var 28 ((ENpcResident)) F60FF16701 /var&gt;から専用アイテムを交換するには、メインクエストの
+　「&lt;var 28 ((Quest)) F601068501 /var&gt;」をコンプリートしている必要があります。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+ボイスキャラクターを設定するには、メインコマンド「ゴールドソーサー」の「MAHJONG」から、「ドマ式麻雀ボイス」の「ボイスキャラクター選択」を開きます。「ボイスキャラクター選択」では、対戦中応援してくれるキャラクターを設定できるほか、カットインで表示されるキャラクターの衣装を変更することもできます。
+
+ボイスキャラクターや衣装は、メインクエストを進行することで増えていきます。
+メインクエストが一区切りついたら「ボイスキャラクター選択」を確認しましょう。
+
+是非あなたのお気に入りのキャラクターで「ドマ式麻雀」を遊んでみてください！</target>
+      </trans-unit>
+      <trans-unit id="1160" approved="yes" xml:space="preserve">
+        <source>1160</source>
+        <target state="final">「まとめて幻影化」とは</target>
+      </trans-unit>
+      <trans-unit id="1161" approved="yes" xml:space="preserve">
+        <source>1161</source>
+        <target state="final">「まとめて幻影化」で収納する</target>
+      </trans-unit>
+      <trans-unit id="1162" approved="yes" xml:space="preserve">
+        <source>1162</source>
+        <target state="final">「まとめて幻影化」が可能な装備品</target>
+      </trans-unit>
+      <trans-unit id="1163" approved="yes" xml:space="preserve">
+        <source>1163</source>
+        <target state="final">「まとめて幻影化」したアイテムについて</target>
+      </trans-unit>
+      <trans-unit id="1164" approved="yes" xml:space="preserve">
+        <source>1164</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「まとめて幻影化」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;とは、
+特定の組み合わせの装備品数点を、装備一式としてまとめて幻影化し、
+ミラージュドレッサーに保管できる機能です。
+この際、ミラージュドレッサーに保管される幻影の数は1つだけになります。
+
+装備一式として保管された幻影も、通常の幻影と同様に、
+それぞれの装備品ごとに、他の装備品やミラージュプレートへの投影が可能です。
+
+「まとめて幻影化」を行うには、
+特定の組み合わせの装備一式を、同じ品質で揃えたうえで、
+装備品と同じ数の触媒アイテム「ミラージュプリズム」が必要となります。</target>
+      </trans-unit>
+      <trans-unit id="1165" approved="yes" xml:space="preserve">
+        <source>1165</source>
+        <target state="final">「まとめて幻影化」が可能なアイテムは、
+ミラージュドレッサーを開いた際、「幻影化」ウィンドウに、
+まとめて幻影化を行うためのボタンが表示されます。</target>
+      </trans-unit>
+      <trans-unit id="1166" approved="yes" xml:space="preserve">
+        <source>1166</source>
+        <target state="final">ボタンを選ぶと「まとめて幻影化」ウィンドウが開くので、
+装備一式として幻影化させるアイテム群を、
+自分の所持品やアーマリーチェストの中から選択します。
+
+この際、幻影化するすべてのアイテムの耐久度が、
+100%以上である必要があります。
+
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;なお「まとめて幻影化」した場合、通常の幻影化と異なり、
+装備品の染色は保存されませんのでご注意ください。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+※装備やミラージュプレートに投影した後での染色は可能です。
+
+幻影化を実行すると、
+複数のアイテムが、1つの装備一式の「幻影」に変わり、
+ミラージュドレッサーへ保管されます。</target>
+      </trans-unit>
+      <trans-unit id="1167" approved="yes" xml:space="preserve">
+        <source>1167</source>
+        <target state="final">「まとめて幻影化」が可能なアイテムは、そのアイテムのサブコマンドから、
+「まとめて幻影化できる内容を確認」を選ぶことで、
+組み合わせて幻影化できるアイテム一式を確認できます。</target>
+      </trans-unit>
+      <trans-unit id="1168" approved="yes" xml:space="preserve">
+        <source>1168</source>
+        <target state="final">装備一式として保管している幻影は、
+ミラージュドレッサーの「装備一式」タブで確認できます。</target>
+      </trans-unit>
+      <trans-unit id="1169" approved="yes" xml:space="preserve">
+        <source>1169</source>
+        <target state="final">このタブでは、装備一式として保管している幻影を一覧できるほか、
+装備一式それぞれを構成する、装備品の内容を確認することができます。
+
+幻影のサブコマンド「装備一式の内容を確認する」を選択することで、
+装備一式の内容を確認可能です。
+また、幻影のアイテム詳細からも確認ができます。
+
+装備一式の幻影に含まれる装備品は、
+ミラージュドレッサーの各装備箇所のタブを選ぶと、
+通常の幻影と同じように表示されます。
+
+そのような幻影には、アイテム詳細の記載に、
+「装備一式として幻影化されたアイテム」と追加されています。 
+
+ミラージュドレッサーから取り出す際は、
+装備一式単位で装備品のアイテム化が可能です。
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※装備一式の中から1部位のみ取り出すことはできません。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="1170" approved="yes" xml:space="preserve">
+        <source>1170</source>
+        <target state="final">攻撃アクションの詠唱</target>
+      </trans-unit>
+      <trans-unit id="1171" approved="yes" xml:space="preserve">
+        <source>1171</source>
+        <target state="final">敵は魔法など一部の攻撃を実行する際に、
+そのアクションを発動するための準備として「詠唱」を行うことがあります。
+詠唱の進行度は、敵の名前の横に表示される「キャストバー」に示され、
+ゲージが満ちた時点で、攻撃が発動されます。</target>
+      </trans-unit>
+      <trans-unit id="1172" approved="yes" xml:space="preserve">
+        <source>1172</source>
+        <target state="final">なお、即時発動する攻撃には、「キャストバー」は表示されません。</target>
       </trans-unit>
     </body>
   </file>
