@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="DescriptionString" datatype="plaintext" source-language="en" target-language="ru">
     <body>
@@ -106,9 +106,12 @@
 Победная рука может быть сформирована одним из двух способов:
 </target>
       </trans-unit>
-      <trans-unit id="49" xml:space="preserve">
+      <trans-unit id="49" xml:space="preserve" approved="no">
         <source>49</source>
-        <target></target>
+        <target state="translated">1. Тсумо: когда кость добрана
+Когда победная рука сформирована добранной костью, три других игрока вместе отдают очки победителю согласно собранной руке.
+Если дилер объявил победную руку, то количество очков увеличивается на 50%.
+Если дилер должен отдать очки, то он должен отдать в два раза больше.</target>
       </trans-unit>
       <trans-unit id="50" approved="no" xml:space="preserve">
         <source>50</source>
@@ -528,7 +531,7 @@
       </trans-unit>
       <trans-unit id="124" xml:space="preserve">
         <source>124</source>
-        <target></target>
+        <target/>
       </trans-unit>
       <trans-unit id="125" approved="no" xml:space="preserve">
         <source>125</source>
@@ -3365,7 +3368,7 @@ PvP параметры накладываются на персонажа в PvP
       </trans-unit>
       <trans-unit id="588" xml:space="preserve">
         <source>588</source>
-        <target></target>
+        <target/>
       </trans-unit>
       <trans-unit id="589" approved="no" xml:space="preserve">
         <source>589</source>
@@ -3400,9 +3403,20 @@ PvP параметры накладываются на персонажа в PvP
         <source>593</source>
         <target state="needs-translation">Чтобы выиграть в Кристальной битве необходимо совместно с командой доставить тактический кристалл до финишной точки.</target>
       </trans-unit>
-      <trans-unit id="594" xml:space="preserve">
+      <trans-unit id="594" xml:space="preserve" approved="no">
         <source>594</source>
-        <target></target>
+        <target state="translated">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Условия победы■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Чтобы победить, команда должна передвинуть тактический кристалл из центра поля до финишной точки. Если ни одна из команд не успеет передвинуть кристалл до окончания времени, то победа достанется команде с самым большим прогрессом. Прогресс будет виден на экране в течение матча. Прогресс показывает лучший результат, на который команда смогла провести кристалл, независимо от его текущего положения. Поэтому даже если вражеская команда перехватит кристалл, то прогресс не будет уменьшаться.
+
+Если ни одна из команд не достигла вражеской базы за ограниченное время и прогресс обеих команд равен, либо если проигрывающая команда на данный момент находится внутри зоны кристалла, то матч будет продолжаться за счёт дополнительного времени. Условие победы в таком случае будет зависеть только от прогресса команд.
+
+・Если у вашей команды прогресс больше и вражеская команда не находится в зоне кристалла больше трёх секунд, то вы побеждаете.
+
+・Если у вражеской команды прогресс больше вашего, то вам нужно перебить их прогресс за дополнительное время.
+
+・Если оба прогресса равны, то вам нужно обогнать прогресс вражеской команды чтобы победить
+
+Если по окончании дополнительного времени ни одна команда не достигнет условий победы, победителем станет команда с наибольшим прогрессом. Если у команд одинаковый прогресс, победа достанется команде, которой удалось сдвинуть кристалл ближе всего к своей цели. Если и в данном случае у команд равные условия, то матч завершится ничьёй.</target>
       </trans-unit>
       <trans-unit id="595" approved="no" xml:space="preserve">
         <source>595</source>
@@ -3498,13 +3512,39 @@ PvP параметры накладываются на персонажа в PvP
 
 Местоположение перьев отображается маркером на земле во время турбулентности. Чтобы избежать подбрасывания игроки могут использовать Guard.</target>
       </trans-unit>
-      <trans-unit id="612" xml:space="preserve">
+      <trans-unit id="612" xml:space="preserve" approved="no">
         <source>612</source>
-        <target></target>
+        <target state="translated">Турбулентность так же вызывает появление вихрей и ветряной сферы.
+
+Столкновение с вихрями приведет к получению урона и отталкиванию. Если на вас был эффект Guard, то он будет отменен вихрем.
+
+Столкновение с ветряными сферами значительно повышает скорость передвижения. Только один игрок может воспользоваться бонусом от одной сферы. После использования ветряная сфера снова появится через определённое время, покуда турбулентность ещё активна.</target>
       </trans-unit>
-      <trans-unit id="613" xml:space="preserve">
+      <trans-unit id="613" xml:space="preserve" approved="no">
         <source>613</source>
-        <target></target>
+        <target state="translated">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Требования для участия■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Вступить в кристальную битву можно через Поиск миссий. Чтобы начать поиск, необходима профессия 30 уровня или выше.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Требования по ролям■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Нет ограничения по балансу ролей в команде, однако две одинаковые профессии не могут находится в одной команде.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Ограничение по времени■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Стандартный матч длится пять минут. В случае если команды не довели кристалл за отведенное время, матч будет продлён вплоть до дополнительных 10 минут.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Возвращение в бой■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Поверженные игроки вернутся на базу, откуда они смогут вернуться в бой после небольшой задержки─но эта задержка будет увеличиваться после каждого последующего поражения. После возвращения они восстановят ОЗ, ОМ и восстановят все способности. В дополнение на них будет неуязвимость, которое пропадет спустя некоторое время после выхода с базы.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Другие ограничения■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+В Кристальной битве нельзя использовать следующее:
+　・Чат (Разрешено использование боевых фраз)
+　　* Не ограничивает пользовательские матчи
+　・Смена профессии
+　・Смена снаряжения
+　・Предметы
+　・Чокобо компаньён
+　・Транспорт
+　・Телепортация
+　・Возврат</target>
       </trans-unit>
       <trans-unit id="614" approved="no" xml:space="preserve">
         <source>614</source>
@@ -3882,7 +3922,7 @@ Islander's Cowries — ещё одна валюта, характерная дл
       </trans-unit>
       <trans-unit id="694" xml:space="preserve">
         <source>694</source>
-        <target></target>
+        <target/>
       </trans-unit>
       <trans-unit id="695" approved="no" xml:space="preserve">
         <source>695</source>
@@ -5323,7 +5363,7 @@ You may stow your current accessory via the “Use” subcommand in the Fashion 
       </trans-unit>
       <trans-unit id="912" xml:space="preserve">
         <source>912</source>
-        <target></target>
+        <target/>
       </trans-unit>
       <trans-unit id="913" approved="no" xml:space="preserve">
         <source>913</source>
@@ -5479,7 +5519,7 @@ Remove unwanted sets from the list. The numbers assigned to these sets will also
       </trans-unit>
       <trans-unit id="940" xml:space="preserve">
         <source>940</source>
-        <target></target>
+        <target/>
       </trans-unit>
       <trans-unit id="952" approved="no" xml:space="preserve">
         <source>952</source>
