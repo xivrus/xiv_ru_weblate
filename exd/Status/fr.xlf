@@ -5466,7 +5466,7 @@ Sous un effet augmentant les chances de coups nets et critiques, les dégâts in
       </trans-unit>
       <trans-unit id="1393" xml:space="preserve" approved="yes">
         <source>1393</source>
-        <target state="final">Chaîne de sorts&lt;tab&gt;Le prochain sort est instantané.</target>
+        <target state="final">Chaîne de sorts&lt;tab&gt;Le prochain sort est instantané. Cet effet ne s'applique qu'aux actions de job de mage rouge.</target>
       </trans-unit>
       <trans-unit id="1394" xml:space="preserve" approved="yes">
         <source>1394</source>
@@ -7787,7 +7787,7 @@ Effet sup&lt;var 16 /var&gt;plé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;tai&lt;
       </trans-unit>
       <trans-unit id="1978" xml:space="preserve" approved="yes">
         <source>1978</source>
-        <target state="final">Rempart&lt;tab&gt;Les dégâts reçus sont réduits.</target>
+        <target state="final">Rempart&lt;tab&gt;Les dégâts reçus sont réduits et les effets de récupération de PV sont augmentés.</target>
       </trans-unit>
       <trans-unit id="1979" xml:space="preserve" approved="yes">
         <source>1979</source>
@@ -12215,7 +12215,7 @@ Recevoir certaines attaques permet d'annuler l'effet sans subir lesdits dégâts
       </trans-unit>
       <trans-unit id="3149" xml:space="preserve" approved="yes">
         <source>3149</source>
-        <target state="final">Surchauffe&lt;tab&gt;Pyro-explosion peut être lancée. De plus, la vitesse de déplacement est augmentée.</target>
+        <target state="final">Surchauffe&lt;tab&gt;Tir ardent peut être lancé. De plus, la vitesse de déplacement est augmentée.</target>
       </trans-unit>
       <trans-unit id="3150" xml:space="preserve" approved="yes">
         <source>3150</source>
@@ -15356,6 +15356,10 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
         <source>3997</source>
         <target state="final">Camouflage&lt;tab&gt;Un subterfuge permet de tromper les regards hostiles à une certaine distance.</target>
       </trans-unit>
+      <trans-unit id="3998" xml:space="preserve" approved="yes">
+        <source>3998</source>
+        <target state="final">_rsv_3998_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_3998_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
       <trans-unit id="3999" xml:space="preserve" approved="yes">
         <source>3999</source>
         <target state="final">Accumulateur de foudre&lt;tab&gt;Un dispositif accumulant l'éther de foudre est fixé au corps. Il émettra des étincelles à la fin de l'effet, chaque attaque de foudre subie élargissant proportionnellement l'aire d'effet.</target>
@@ -15752,6 +15756,14 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
         <source>4136</source>
         <target state="final">Accumulation d'éther&lt;tab&gt;L'organisme a accumulé de l'éther élémentaire, lequel sera libéré après une attaque.</target>
       </trans-unit>
+      <trans-unit id="4137" xml:space="preserve" approved="yes">
+        <source>4137</source>
+        <target state="final">Saignement&lt;tab&gt;Des dégâts périodiques neutres sont subis.</target>
+      </trans-unit>
+      <trans-unit id="4138" xml:space="preserve" approved="yes">
+        <source>4138</source>
+        <target state="final">Saignement&lt;tab&gt;Des dégâts périodiques neutres sont subis.</target>
+      </trans-unit>
       <trans-unit id="4139" xml:space="preserve" approved="yes">
         <source>4139</source>
         <target state="final">Ectoplasme&lt;tab&gt;Il est possible de traverser les obstacles, mais certaines attaques seront fatales.</target>
@@ -15822,23 +15834,23 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
       </trans-unit>
       <trans-unit id="4157" xml:space="preserve" approved="yes">
         <source>4157</source>
-        <target state="final">_rsv_4157_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4157_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Chaînes de Lumière infinie&lt;tab&gt;Des chaînes de Lumière enlacent le corps. Lorsque l'effet prend fin, la victime subit Lien de Lumière infinie.</target>
       </trans-unit>
       <trans-unit id="4158" xml:space="preserve" approved="yes">
         <source>4158</source>
-        <target state="final">_rsv_4158_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4158_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Lien de Lumière infinie&lt;tab&gt;Des dégâts neutres de zone sont subis si les deux personnes reliées par le lien de Lumière infinie se rapprochent trop l'une de l'autre.</target>
       </trans-unit>
       <trans-unit id="4159" xml:space="preserve" approved="yes">
         <source>4159</source>
-        <target state="final">_rsv_4159_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4159_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Présage de Lumière intense&lt;tab&gt;La victime est marquée. Explosion sacrée se déclenche à la fin de l'effet.</target>
       </trans-unit>
       <trans-unit id="4160" xml:space="preserve" approved="yes">
         <source>4160</source>
-        <target state="final">_rsv_4160_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4160_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Admonestation de la prêtresse de la Lumière&lt;tab&gt;La victime a reçu l'admonestation de la prêtresse de la Lumière. Les dégâts reçus d'une certaine cible sont augmentés.</target>
       </trans-unit>
       <trans-unit id="4161" xml:space="preserve" approved="yes">
         <source>4161</source>
-        <target state="final">_rsv_4161_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4161_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Admonestation de la prêtresse des Ténèbres&lt;tab&gt;La victime a reçu l'admonestation de la prêtresse des Ténèbres. Les dégâts reçus d'une certaine cible sont augmentés.</target>
       </trans-unit>
       <trans-unit id="4162" xml:space="preserve" approved="yes">
         <source>4162</source>
@@ -15854,11 +15866,11 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
       </trans-unit>
       <trans-unit id="4165" xml:space="preserve" approved="yes">
         <source>4165</source>
-        <target state="final">_rsv_4165_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4165_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Marque de mort explosive&lt;tab&gt;Fait l'objet d'un marquage de mort qui provoque une puissante explosion en cas de K.O.</target>
       </trans-unit>
       <trans-unit id="4166" xml:space="preserve" approved="yes">
         <source>4166</source>
-        <target state="final">_rsv_4166_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4166_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Marquage fatal enchaîné&lt;tab&gt;Fait l'objet d'un marquage fatal enchaîné qui provoque une explosion aux emplacements de la victime et de l'équipier le plus proche à la fin de l'effet.</target>
       </trans-unit>
       <trans-unit id="4168" xml:space="preserve" approved="yes">
         <source>4168</source>
@@ -15874,11 +15886,11 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
       </trans-unit>
       <trans-unit id="4171" xml:space="preserve" approved="yes">
         <source>4171</source>
-        <target state="final">_rsv_4171_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4171_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Sort déphasé&lt;var 1D /var&gt;: Extra Retour&lt;tab&gt;Extra Retour est retardé et sera lancé sur cette cible à la fin de cet effet.</target>
       </trans-unit>
       <trans-unit id="4172" xml:space="preserve" approved="yes">
         <source>4172</source>
-        <target state="final">_rsv_4172_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4172_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Extra Retour&lt;tab&gt;Touché par le sort de magie temporelle Extra Retour, l'être a laissé une trace dans l'espace-temps. À la fin de l'effet, la victime est renvoyée de force à l'emplacement de cette trace.</target>
       </trans-unit>
       <trans-unit id="4173" xml:space="preserve" approved="yes">
         <source>4173</source>
@@ -15898,11 +15910,11 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
       </trans-unit>
       <trans-unit id="4177" xml:space="preserve" approved="yes">
         <source>4177</source>
-        <target state="final">_rsv_4177_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4177_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Barrière de Ténèbres&lt;var 1D /var&gt;: intérieur&lt;tab&gt;À l'intérieur de la barrière de Ténèbres, les attaques sur les suppôts de Ténèbres n'ont aucun effet.</target>
       </trans-unit>
       <trans-unit id="4178" xml:space="preserve" approved="yes">
         <source>4178</source>
-        <target state="final">_rsv_4178_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4178_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Barrière de Ténèbres&lt;var 1D /var&gt;: extérieur&lt;tab&gt;À l'extérieur de la barrière de Ténèbres, les attaques sur le Nuage de Ténèbres n'ont aucun effet.</target>
       </trans-unit>
       <trans-unit id="4179" xml:space="preserve" approved="yes">
         <source>4179</source>
@@ -15910,15 +15922,15 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
       </trans-unit>
       <trans-unit id="4180" xml:space="preserve" approved="yes">
         <source>4180</source>
-        <target state="final">_rsv_4180_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4180_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Déploiement arcanique&lt;tab&gt;Des cercles arcaniques sont déployés. Bénéficie de redoutables sorts avec une puissance magique accrue en échange d'une augmentation des dégâts subis.</target>
       </trans-unit>
       <trans-unit id="4181" xml:space="preserve" approved="yes">
         <source>4181</source>
-        <target state="final">_rsv_4181_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4181_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Enlacement ténébreux&lt;tab&gt;Les Ténèbres enlacent la victime et des dégâts périodiques sont subis. Provoque l'effet Étreinte d'archée à la fin de l'effet, broyant son âme.</target>
       </trans-unit>
       <trans-unit id="4182" xml:space="preserve" approved="yes">
         <source>4182</source>
-        <target state="final">_rsv_4182_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4182_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Vapeurs caustiques&lt;tab&gt;De l'énergie magique concentrée sera libérée lors de la prochaine utilisation de Ténèbres acérées.</target>
       </trans-unit>
       <trans-unit id="4183" xml:space="preserve" approved="yes">
         <source>4183</source>
@@ -15987,6 +15999,10 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
       <trans-unit id="4208" xml:space="preserve" approved="yes">
         <source>4208</source>
         <target state="final">Sort déphasé&lt;var 1D /var&gt;: Retour&lt;tab&gt;Retour est retardé et sera lancé sur cette cible à la fin de cet effet.</target>
+      </trans-unit>
+      <trans-unit id="4209" xml:space="preserve" approved="yes">
+        <source>4209</source>
+        <target state="final">Foulée&lt;tab&gt;La vitesse de déplacement est augmentée. L'effet prend fin lorsque de l'inimitié est générée.</target>
       </trans-unit>
       <trans-unit id="4210" xml:space="preserve" approved="yes">
         <source>4210</source>
@@ -16296,6 +16312,42 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
         <source>4386</source>
         <target state="final">Résistance à la foudre réduite&lt;tab&gt;La résistance à l'élément foudre est réduite.</target>
       </trans-unit>
+      <trans-unit id="4389" xml:space="preserve" approved="yes">
+        <source>4389</source>
+        <target state="final">_rsv_4389_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4389_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4390" xml:space="preserve" approved="yes">
+        <source>4390</source>
+        <target state="final">_rsv_4390_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4390_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4391" xml:space="preserve" approved="yes">
+        <source>4391</source>
+        <target state="final">_rsv_4391_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4391_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4392" xml:space="preserve" approved="yes">
+        <source>4392</source>
+        <target state="final">_rsv_4392_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4392_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4393" xml:space="preserve" approved="yes">
+        <source>4393</source>
+        <target state="final">_rsv_4393_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4393_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4394" xml:space="preserve" approved="yes">
+        <source>4394</source>
+        <target state="final">_rsv_4394_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4394_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4395" xml:space="preserve" approved="yes">
+        <source>4395</source>
+        <target state="final">_rsv_4395_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4395_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4396" xml:space="preserve" approved="yes">
+        <source>4396</source>
+        <target state="final">_rsv_4396_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4396_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4397" xml:space="preserve" approved="yes">
+        <source>4397</source>
+        <target state="final">_rsv_4397_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4397_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
       <trans-unit id="4399" xml:space="preserve" approved="yes">
         <source>4399</source>
         <target state="final">Giga Ruine préparée&lt;tab&gt;Giga Ruine peut être lancée.</target>
@@ -16391,6 +16443,218 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
       <trans-unit id="4436" xml:space="preserve" approved="yes">
         <source>4436</source>
         <target state="final">Vulnérabilité diminuée&lt;tab&gt;Les dégâts reçus sont réduits.</target>
+      </trans-unit>
+      <trans-unit id="4448" xml:space="preserve" approved="yes">
+        <source>4448</source>
+        <target state="final">_rsv_4448_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4448_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4449" xml:space="preserve" approved="yes">
+        <source>4449</source>
+        <target state="final">Coup de chaud&lt;tab&gt;La chaleur extrême inflige des dégâts périodiques.</target>
+      </trans-unit>
+      <trans-unit id="4450" xml:space="preserve" approved="yes">
+        <source>4450</source>
+        <target state="final">_rsv_4450_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4450_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4451" xml:space="preserve" approved="yes">
+        <source>4451</source>
+        <target state="final">_rsv_4451_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4451_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4452" xml:space="preserve" approved="yes">
+        <source>4452</source>
+        <target state="final">_rsv_4452_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4452_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4453" xml:space="preserve" approved="yes">
+        <source>4453</source>
+        <target state="final">_rsv_4453_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4453_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4454" xml:space="preserve" approved="yes">
+        <source>4454</source>
+        <target state="final">_rsv_4454_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4454_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4455" xml:space="preserve" approved="yes">
+        <source>4455</source>
+        <target state="final">Résistance au feu accrue&lt;tab&gt;La résistance à l'élément feu est augmentée.</target>
+      </trans-unit>
+      <trans-unit id="4456" xml:space="preserve" approved="yes">
+        <source>4456</source>
+        <target state="final">Résistance à la foudre réduite+&lt;tab&gt;La résistance à l'élément foudre est considérablement réduite.</target>
+      </trans-unit>
+      <trans-unit id="4457" xml:space="preserve" approved="yes">
+        <source>4457</source>
+        <target state="final">_rsv_4457_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4457_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4459" xml:space="preserve" approved="yes">
+        <source>4459</source>
+        <target state="final">_rsv_4459_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4459_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4460" xml:space="preserve" approved="yes">
+        <source>4460</source>
+        <target state="final">Enfer du disco&lt;tab&gt;Le corps est entraîné par le rythme et ne peut s'empêcher de danser. À la fin de l'effet, prend une pose. Des dégâts sont subis lorsque celle-ci est effectuée en dehors de la lumière des projecteurs.</target>
+      </trans-unit>
+      <trans-unit id="4461" xml:space="preserve" approved="yes">
+        <source>4461</source>
+        <target state="final">_rsv_4461_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4461_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4462" xml:space="preserve" approved="yes">
+        <source>4462</source>
+        <target state="final">_rsv_4462_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4462_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4463" xml:space="preserve" approved="yes">
+        <source>4463</source>
+        <target state="final">_rsv_4463_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4463_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4464" xml:space="preserve" approved="yes">
+        <source>4464</source>
+        <target state="final">Groove parfait&lt;tab&gt;La fièvre de l'Arcadion a été par&lt;var 16 /var&gt;fai&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment exécutée, ce qui provoque une certaine euphorie. Les dégâts infligés sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4466" xml:space="preserve" approved="yes">
+        <source>4466</source>
+        <target state="final">_rsv_4466_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4466_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4467" xml:space="preserve" approved="yes">
+        <source>4467</source>
+        <target state="final">_rsv_4467_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4467_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4468" xml:space="preserve" approved="yes">
+        <source>4468</source>
+        <target state="final">_rsv_4468_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4468_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4469" xml:space="preserve" approved="yes">
+        <source>4469</source>
+        <target state="final">_rsv_4469_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4469_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4471" xml:space="preserve" approved="yes">
+        <source>4471</source>
+        <target state="final">Pose réussie&lt;tab&gt;La pose finale a été réalisée avec succès. Toutefois, la con&lt;var 16 /var&gt;cen&lt;var 16 /var&gt;tra&lt;var 16 /var&gt;tion sur la danse entraîne une augmentation des dégâts magiques subis.</target>
+      </trans-unit>
+      <trans-unit id="4472" xml:space="preserve" approved="yes">
+        <source>4472</source>
+        <target state="final">Pose ratée&lt;tab&gt;Échec de la pose finale. La chute entraîne une très forte augmentation des dégâts magiques subis.</target>
+      </trans-unit>
+      <trans-unit id="4475" xml:space="preserve" approved="yes">
+        <source>4475</source>
+        <target state="final">Gravité figée&lt;tab&gt;L'organisme n'accepte plus les changements d'élévation.</target>
+      </trans-unit>
+      <trans-unit id="4476" xml:space="preserve" approved="yes">
+        <source>4476</source>
+        <target state="final">Ravage&lt;tab&gt;Les dégâts reçus sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4477" xml:space="preserve" approved="yes">
+        <source>4477</source>
+        <target state="final">Vélocité&lt;tab&gt;La vitesse de déplacement est grandement augmentée. Insensible aux altérations d'état soignables avec Dépuration, aux projections et aux attractions.</target>
+      </trans-unit>
+      <trans-unit id="4478" xml:space="preserve" approved="yes">
+        <source>4478</source>
+        <target state="final">Célérité extrême&lt;tab&gt;Le temps de lancement et de recharge des sorts et des techniques d'arme est réduit. En outre, la vitesse de déplacement est augmentée.</target>
+      </trans-unit>
+      <trans-unit id="4479" xml:space="preserve" approved="yes">
+        <source>4479</source>
+        <target state="final">Courage&lt;tab&gt;Les dégâts infligés sont augmentés et les dégâts reçus sont réduits.</target>
+      </trans-unit>
+      <trans-unit id="4480" xml:space="preserve" approved="yes">
+        <source>4480</source>
+        <target state="final">Émoussement&lt;tab&gt;Les dégâts infligés et la puissance des effets curatifs prodigués sont réduits.</target>
+      </trans-unit>
+      <trans-unit id="4481" xml:space="preserve" approved="yes">
+        <source>4481</source>
+        <target state="final">Extra Cuirasse&lt;tab&gt;Insensible à un certain montant de dégâts.</target>
+      </trans-unit>
+      <trans-unit id="4482" xml:space="preserve" approved="yes">
+        <source>4482</source>
+        <target state="final">Diabrosis&lt;tab&gt;L'effet des sorts de restauration des PV est réduit.</target>
+      </trans-unit>
+      <trans-unit id="4483" xml:space="preserve" approved="yes">
+        <source>4483</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Ravage&lt;tab&gt;Ravage a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4484" xml:space="preserve" approved="yes">
+        <source>4484</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Rempart&lt;tab&gt;Rempart a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4485" xml:space="preserve" approved="yes">
+        <source>4485</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Plein élan&lt;tab&gt;Plein élan a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4486" xml:space="preserve" approved="yes">
+        <source>4486</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Bain de sang&lt;tab&gt;Bain de sang a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4487" xml:space="preserve" approved="yes">
+        <source>4487</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Vélocité&lt;tab&gt;Vélocité a été choisie comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4488" xml:space="preserve" approved="yes">
+        <source>4488</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Châtiment&lt;tab&gt;Châtiment a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4489" xml:space="preserve" approved="yes">
+        <source>4489</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Célérité extrême&lt;tab&gt;Célérité extrême a été choisie comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4490" xml:space="preserve" approved="yes">
+        <source>4490</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Courage&lt;tab&gt;Courage a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4491" xml:space="preserve" approved="yes">
+        <source>4491</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Œil d'aigle&lt;tab&gt;Œil d'aigle a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4492" xml:space="preserve" approved="yes">
+        <source>4492</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Comète&lt;tab&gt;Comète a été choisie comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4493" xml:space="preserve" approved="yes">
+        <source>4493</source>
+        <target state="final">PvPロールアクション：バリア&lt;tab&gt;PvPロールアクションとしてバリアを選択している状態。</target>
+      </trans-unit>
+      <trans-unit id="4494" xml:space="preserve" approved="yes">
+        <source>4494</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Émoussement&lt;tab&gt;Émoussement a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4495" xml:space="preserve" approved="yes">
+        <source>4495</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Soin&lt;tab&gt;Soin a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4496" xml:space="preserve" approved="yes">
+        <source>4496</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Extra Cuirasse&lt;tab&gt;Extra Cuirasse a été choisie comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4497" xml:space="preserve" approved="yes">
+        <source>4497</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Diabrosis&lt;tab&gt;Diabrosis a été choisie comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4498" xml:space="preserve" approved="yes">
+        <source>4498</source>
+        <target state="final">Économie d'énergie&lt;tab&gt;Lorsque les PV sont réduits à zéro, ils sont entièrement restaurés et le compte augmente d'un point. L'état est annulé lorsque le compte atteint un total de cinq points.</target>
+      </trans-unit>
+      <trans-unit id="4499" xml:space="preserve" approved="yes">
+        <source>4499</source>
+        <target state="final">_rsv_4499_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4499_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4500" xml:space="preserve" approved="yes">
+        <source>4500</source>
+        <target state="final">_rsv_4500_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4500_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4501" xml:space="preserve" approved="yes">
+        <source>4501</source>
+        <target state="final">_rsv_4501_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4501_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4502" xml:space="preserve" approved="yes">
+        <source>4502</source>
+        <target state="final">_rsv_4502_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4502_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4516" xml:space="preserve" approved="yes">
+        <source>4516</source>
+        <target state="final">Action de rôle JcJ&lt;var 1D /var&gt;: Projectile fantôme&lt;tab&gt;Projectile fantôme a été choisi comme action de rôle JcJ.</target>
+      </trans-unit>
+      <trans-unit id="4517" xml:space="preserve" approved="yes">
+        <source>4517</source>
+        <target state="final">Exhaltation du champion&lt;tab&gt;L'exaltation du combat permet de renforcer certaines attaques grâce au pouvoir de l'âme du loup mystique.</target>
+      </trans-unit>
+      <trans-unit id="4537" xml:space="preserve" approved="yes">
+        <source>4537</source>
+        <target state="final">Malédiction pétrificante&lt;tab&gt;État de pétrification. Une attaque provoque le KO.</target>
       </trans-unit>
     </body>
   </file>

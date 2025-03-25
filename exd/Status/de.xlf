@@ -4778,11 +4778,11 @@ Zusatzeffekt bei Schwarzblut II: Füllt den Blutbalken bei Treffern mit Waf&lt;v
       </trans-unit>
       <trans-unit id="1219" xml:space="preserve" approved="yes">
         <source>1219</source>
-        <target state="final">Bekenntnis&lt;tab&gt;Ein Teil der Heilmagie des verursachenden Weißmagiers löst bei erfolgreicher Ausführung einen zusätzlichen Heileffekt aus, der LP regeneriert.</target>
+        <target state="final">Vollkommener Ablass&lt;tab&gt;Ein Teil der Heilmagie des verursachenden Weißmagiers löst bei erfolgreicher Ausführung einen zusätzlichen Heileffekt aus, der LP regeneriert.</target>
       </trans-unit>
       <trans-unit id="1220" xml:space="preserve" approved="yes">
         <source>1220</source>
-        <target state="final">Weise Voraussicht&lt;tab&gt;LP werden regeneriert, wenn sie unter einen bestimmten Betrag fallen oder die Wirkungsdauer endet.</target>
+        <target state="final">Weise Voraussicht&lt;tab&gt;LP werden regeneriert, wenn sie auf bzw. unter einen bestimmten Betrag fallen oder die Wirkungsdauer endet.</target>
       </trans-unit>
       <trans-unit id="1221" xml:space="preserve" approved="yes">
         <source>1221</source>
@@ -5463,7 +5463,7 @@ Der Attacke-Wert von &lt;var 08 E4E94524 ((&lt;var 08 E0E94943 ((&lt;var 48 F201
       </trans-unit>
       <trans-unit id="1393" xml:space="preserve" approved="yes">
         <source>1393</source>
-        <target state="final">Doppelzauber&lt;tab&gt;Nächster Zauber kann sofort gewirkt werden.</target>
+        <target state="final">Doppelzauber&lt;tab&gt;Nächster Zauber kann sofort gewirkt werden. Nur bei Job-Kommandos des Rotmagiers wirksam.</target>
       </trans-unit>
       <trans-unit id="1394" xml:space="preserve" approved="yes">
         <source>1394</source>
@@ -7786,7 +7786,7 @@ Treffer an der vorderen, linken und rechten Seite des Körpers führen zu hohem 
       </trans-unit>
       <trans-unit id="1978" xml:space="preserve" approved="yes">
         <source>1978</source>
-        <target state="final">Schutzwall&lt;tab&gt;Erlittener Schaden ist verringert.</target>
+        <target state="final">Schutzwall&lt;tab&gt;Erlittener Schaden ist verringert, erhaltene Heileffekte sind erhöht.</target>
       </trans-unit>
       <trans-unit id="1979" xml:space="preserve" approved="yes">
         <source>1979</source>
@@ -10487,7 +10487,7 @@ Erhält bevorzugte Teilnahme am kritischen Gefecht: Hashmallim der Einiger</targ
       </trans-unit>
       <trans-unit id="2685" xml:space="preserve" approved="yes">
         <source>2685</source>
-        <target state="final">Katharsis des Korunds&lt;tab&gt;LP werden regeneriert, wenn sie unter einen bestimmten Betrag fallen oder die Wirkungsdauer endet.</target>
+        <target state="final">Katharsis des Korunds&lt;tab&gt;LP werden regeneriert, wenn sie auf bzw. unter einen bestimmten Betrag fallen oder die Wirkungsdauer endet.</target>
       </trans-unit>
       <trans-unit id="2686" xml:space="preserve" approved="yes">
         <source>2686</source>
@@ -15376,6 +15376,10 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>3997</source>
         <target state="final">Verborgen&lt;tab&gt;Kann aus der Entfernung nicht gesehen werden.</target>
       </trans-unit>
+      <trans-unit id="3998" xml:space="preserve" approved="yes">
+        <source>3998</source>
+        <target state="final">_rsv_3998_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_3998_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
       <trans-unit id="3999" xml:space="preserve" approved="yes">
         <source>3999</source>
         <target state="final">Blitzspeicher&lt;tab&gt;Von Elektrob umgeben, das Blitz-Äther speichert. Bei Ablauf der Wirkungsdauer wird Funken eingesetzt. Der Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reich von Funken vergrößert sich je nach Anzahl an Blitz-Angriffen, die während der Wirkungsdauer erlitten wurden.</target>
@@ -15772,6 +15776,14 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4136</source>
         <target state="final">Ätheransammlung&lt;tab&gt;Sammelt elementaren Äther im Körperinneren, der nach einem Angriff entfesselt wird.</target>
       </trans-unit>
+      <trans-unit id="4137" xml:space="preserve" approved="yes">
+        <source>4137</source>
+        <target state="final">Blutung&lt;tab&gt;Erleidet schrittweise Schaden.</target>
+      </trans-unit>
+      <trans-unit id="4138" xml:space="preserve" approved="yes">
+        <source>4138</source>
+        <target state="final">Blutung&lt;tab&gt;Erleidet schrittweise Schaden.</target>
+      </trans-unit>
       <trans-unit id="4139" xml:space="preserve" approved="yes">
         <source>4139</source>
         <target state="final">Vergeistert&lt;tab&gt;Kann durch Objekte gleiten, aber erleidet durch bestimmte Attacken erheblichen Schaden.</target>
@@ -15842,23 +15854,23 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       </trans-unit>
       <trans-unit id="4157" xml:space="preserve" approved="yes">
         <source>4157</source>
-        <target state="final">_rsv_4157_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4157_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Ketten des ewigen Lichts&lt;tab&gt;In gleißende Ketten gelegt. Bei Ablauf der Wirkungsdauer tritt &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bann des ewigen Lichts&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ein.</target>
       </trans-unit>
       <trans-unit id="4158" xml:space="preserve" approved="yes">
         <source>4158</source>
-        <target state="final">_rsv_4158_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4158_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Bann des ewigen Lichts&lt;tab&gt;Vom Licht verflucht. Nähert man sich gefesselten Partnern zu sehr, wird allen im Umkreis elementneutraler Schaden zufügt.</target>
       </trans-unit>
       <trans-unit id="4159" xml:space="preserve" approved="yes">
         <source>4159</source>
-        <target state="final">_rsv_4159_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4159_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Gleißendes Omen&lt;tab&gt;Im Fokus des Lichts. Bei Ablauf der Wirkungsdauer wird &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Entladenes Licht&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ausgelöst.</target>
       </trans-unit>
       <trans-unit id="4160" xml:space="preserve" approved="yes">
         <source>4160</source>
-        <target state="final">_rsv_4160_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4160_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Lichtlektion des Orakels&lt;tab&gt;Im Fokus des Orakels des Lichts. Erleidet erhöhten Schaden von bestimmten Zielen.</target>
       </trans-unit>
       <trans-unit id="4161" xml:space="preserve" approved="yes">
         <source>4161</source>
-        <target state="final">_rsv_4161_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4161_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Schattenlektion des Orakels&lt;tab&gt;Im Fokus des Orakels der Dunkelheit. Erleidet erhöhten Schaden von bestimmten Zielen.</target>
       </trans-unit>
       <trans-unit id="4162" xml:space="preserve" approved="yes">
         <source>4162</source>
@@ -15874,11 +15886,11 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       </trans-unit>
       <trans-unit id="4165" xml:space="preserve" approved="yes">
         <source>4165</source>
-        <target state="final">_rsv_4165_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4165_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Todesmal&lt;tab&gt;Mit einem schwarzen Zeichen versehen. Bei Kampfunfähigkeit wird eine große Explosion ausgelöst.</target>
       </trans-unit>
       <trans-unit id="4166" xml:space="preserve" approved="yes">
         <source>4166</source>
-        <target state="final">_rsv_4166_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4166_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Stetes Pulvermal&lt;tab&gt;Mit einem schwelenden Zeichen versehen. Beim Ende dieses Effekts wird eine große Explosion auf sich selbst und dem nähesten Verbündeten ausgelöst.</target>
       </trans-unit>
       <trans-unit id="4168" xml:space="preserve" approved="yes">
         <source>4168</source>
@@ -15894,11 +15906,11 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       </trans-unit>
       <trans-unit id="4171" xml:space="preserve" approved="yes">
         <source>4171</source>
-        <target state="final">_rsv_4171_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4171_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Verzögerung: Mega-Rückführung&lt;tab&gt;Mit verzögerter &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mega-Rückführung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; belegt. Der Zauber wird mit dem Ende dieses Effekts ausgelöst.</target>
       </trans-unit>
       <trans-unit id="4172" xml:space="preserve" approved="yes">
         <source>4172</source>
-        <target state="final">_rsv_4172_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4172_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Mega-Rückführung&lt;tab&gt;Ätherisch mit der temporären Kopie verflochten. Wird beim Ende dieses Effekts gezwungen, sich zum Standort der Ätherspur zu bewegen.</target>
       </trans-unit>
       <trans-unit id="4173" xml:space="preserve" approved="yes">
         <source>4173</source>
@@ -15918,11 +15930,11 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       </trans-unit>
       <trans-unit id="4177" xml:space="preserve" approved="yes">
         <source>4177</source>
-        <target state="final">_rsv_4177_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4177_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Innere Nichtsbarriere&lt;tab&gt;Im Inneren der Nichtsbarriere. Angriffe auf Feinde, die der Dunkelheit außerhalb der Barriere entspringen, sind wirkungslos.</target>
       </trans-unit>
       <trans-unit id="4178" xml:space="preserve" approved="yes">
         <source>4178</source>
-        <target state="final">_rsv_4178_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4178_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Äußere Nichtsbarriere&lt;tab&gt;Außerhalb der Nichtsbarriere. Angriffe auf die Wolke der Dunkelheit innerhalb der Barriere sind wirkungslos.</target>
       </trans-unit>
       <trans-unit id="4179" xml:space="preserve" approved="yes">
         <source>4179</source>
@@ -15930,15 +15942,15 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       </trans-unit>
       <trans-unit id="4180" xml:space="preserve" approved="yes">
         <source>4180</source>
-        <target state="final">_rsv_4180_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4180_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Arkane Enthüllung&lt;tab&gt;Arkane Muster zieren den Boden. Das magische Potenzial ist erhöht und mächtigere Zauber sind ermöglicht. Dafür ist der erlittene Schaden erhöht.</target>
       </trans-unit>
       <trans-unit id="4181" xml:space="preserve" approved="yes">
         <source>4181</source>
-        <target state="final">_rsv_4181_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4181_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Schwarze Umarmung&lt;tab&gt;Erleidet schrittweise Schaden. Bei Ende des Effekts taucht eine &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Hand des Todes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf und zerquetscht die Seele des Ziels.</target>
       </trans-unit>
       <trans-unit id="4182" xml:space="preserve" approved="yes">
         <source>4182</source>
-        <target state="final">_rsv_4182_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4182_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+        <target state="final">Wolkenschneide&lt;tab&gt;Magie sammelt sich um einen Klingenarm. Die nächste &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schwarze Schneide&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; setzt arkane Energie frei.</target>
       </trans-unit>
       <trans-unit id="4183" xml:space="preserve" approved="yes">
         <source>4183</source>
@@ -16007,6 +16019,10 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       <trans-unit id="4208" xml:space="preserve" approved="yes">
         <source>4208</source>
         <target state="final">Verzögerung: Rückführung&lt;tab&gt;Mit verzögertem &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Rückführung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; belegt. Der Zauber wird mit dem Ende dieses Effekts ausgelöst.</target>
+      </trans-unit>
+      <trans-unit id="4209" xml:space="preserve" approved="yes">
+        <source>4209</source>
+        <target state="final">Dauerlauf&lt;tab&gt;Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit ist erhöht. Effekt endet bei Eintritt in den Kampf.</target>
       </trans-unit>
       <trans-unit id="4210" xml:space="preserve" approved="yes">
         <source>4210</source>
@@ -16316,6 +16332,42 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4386</source>
         <target state="final">Blitzresistenz -&lt;tab&gt;Blitzresistenz ist verringert.</target>
       </trans-unit>
+      <trans-unit id="4389" xml:space="preserve" approved="yes">
+        <source>4389</source>
+        <target state="final">_rsv_4389_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4389_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4390" xml:space="preserve" approved="yes">
+        <source>4390</source>
+        <target state="final">_rsv_4390_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4390_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4391" xml:space="preserve" approved="yes">
+        <source>4391</source>
+        <target state="final">_rsv_4391_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4391_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4392" xml:space="preserve" approved="yes">
+        <source>4392</source>
+        <target state="final">_rsv_4392_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4392_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4393" xml:space="preserve" approved="yes">
+        <source>4393</source>
+        <target state="final">_rsv_4393_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4393_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4394" xml:space="preserve" approved="yes">
+        <source>4394</source>
+        <target state="final">_rsv_4394_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4394_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4395" xml:space="preserve" approved="yes">
+        <source>4395</source>
+        <target state="final">_rsv_4395_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4395_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4396" xml:space="preserve" approved="yes">
+        <source>4396</source>
+        <target state="final">_rsv_4396_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4396_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4397" xml:space="preserve" approved="yes">
+        <source>4397</source>
+        <target state="final">_rsv_4397_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4397_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
       <trans-unit id="4399" xml:space="preserve" approved="yes">
         <source>4399</source>
         <target state="final">Rand des Ruins&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Ruinka&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; kann ausgeführt werden.</target>
@@ -16411,6 +16463,218 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       <trans-unit id="4436" xml:space="preserve" approved="yes">
         <source>4436</source>
         <target state="final">Verringerte Verwundbarkeit&lt;tab&gt;Erlittener Schaden ist verringert.</target>
+      </trans-unit>
+      <trans-unit id="4448" xml:space="preserve" approved="yes">
+        <source>4448</source>
+        <target state="final">_rsv_4448_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4448_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4449" xml:space="preserve" approved="yes">
+        <source>4449</source>
+        <target state="final">Hitzeschock&lt;tab&gt;Verliert stetig LP aufgrund der enormen Hitze.</target>
+      </trans-unit>
+      <trans-unit id="4450" xml:space="preserve" approved="yes">
+        <source>4450</source>
+        <target state="final">_rsv_4450_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4450_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4451" xml:space="preserve" approved="yes">
+        <source>4451</source>
+        <target state="final">_rsv_4451_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4451_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4452" xml:space="preserve" approved="yes">
+        <source>4452</source>
+        <target state="final">_rsv_4452_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4452_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4453" xml:space="preserve" approved="yes">
+        <source>4453</source>
+        <target state="final">_rsv_4453_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4453_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4454" xml:space="preserve" approved="yes">
+        <source>4454</source>
+        <target state="final">_rsv_4454_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4454_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4455" xml:space="preserve" approved="yes">
+        <source>4455</source>
+        <target state="final">Feuerresistenz +&lt;tab&gt;Resistenz gegen Feuer ist erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4456" xml:space="preserve" approved="yes">
+        <source>4456</source>
+        <target state="final">Blitzresistenz - (stark)&lt;tab&gt;Resistenz gegen Blitz ist stark verringert.</target>
+      </trans-unit>
+      <trans-unit id="4457" xml:space="preserve" approved="yes">
+        <source>4457</source>
+        <target state="final">_rsv_4457_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4457_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4459" xml:space="preserve" approved="yes">
+        <source>4459</source>
+        <target state="final">_rsv_4459_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4459_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4460" xml:space="preserve" approved="yes">
+        <source>4460</source>
+        <target state="final">Höllendisco&lt;tab&gt;Kann die Aufforderung zum Tanz nicht ablehnen und posiert bei Ablauf des Effekts. Löst negative Effekte aus, wenn man sich zu diesem Zeitpunkt nicht im Rampenlicht befindet.</target>
+      </trans-unit>
+      <trans-unit id="4461" xml:space="preserve" approved="yes">
+        <source>4461</source>
+        <target state="final">_rsv_4461_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4461_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4462" xml:space="preserve" approved="yes">
+        <source>4462</source>
+        <target state="final">_rsv_4462_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4462_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4463" xml:space="preserve" approved="yes">
+        <source>4463</source>
+        <target state="final">_rsv_4463_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4463_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4464" xml:space="preserve" approved="yes">
+        <source>4464</source>
+        <target state="final">Perfekter Groove&lt;tab&gt;Arkadion-Tanzfieber wurde perfekt ausgeführt, wodurch die Stimmung durch die Decke geht. Ausgeteilter Schaden ist erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4466" xml:space="preserve" approved="yes">
+        <source>4466</source>
+        <target state="final">_rsv_4466_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4466_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4467" xml:space="preserve" approved="yes">
+        <source>4467</source>
+        <target state="final">_rsv_4467_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4467_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4468" xml:space="preserve" approved="yes">
+        <source>4468</source>
+        <target state="final">_rsv_4468_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4468_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4469" xml:space="preserve" approved="yes">
+        <source>4469</source>
+        <target state="final">_rsv_4469_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4469_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4471" xml:space="preserve" approved="yes">
+        <source>4471</source>
+        <target state="final">Fette Pose&lt;tab&gt;Legt eindrucksvolle Tanzschritte auf das Parkett und ist vom Kampfgeschehen abgelenkt. Erlittener magischer Schaden ist erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4472" xml:space="preserve" approved="yes">
+        <source>4472</source>
+        <target state="final">Lahme Pose&lt;tab&gt;Ist über die eigenen Füße gestolpert und hingefallen. Erlittener magischer Schaden ist stark erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4475" xml:space="preserve" approved="yes">
+        <source>4475</source>
+        <target state="final">Fixierte Gravitation&lt;tab&gt;Auf der momentanen Höhe fixiert. Unempfänglich für höhenverändernde Effekte.</target>
+      </trans-unit>
+      <trans-unit id="4476" xml:space="preserve" approved="yes">
+        <source>4476</source>
+        <target state="final">Amok&lt;tab&gt;Erlittener Schaden ist erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4477" xml:space="preserve" approved="yes">
+        <source>4477</source>
+        <target state="final">Eile&lt;tab&gt;Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit ist enorm erhöht. Außerdem immun gegen Rückstoß- und Heranzieheffekte sowie gegen alle Statuseffekte, die von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Purifikation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aufgehoben werden können.</target>
+      </trans-unit>
+      <trans-unit id="4478" xml:space="preserve" approved="yes">
+        <source>4478</source>
+        <target state="final">Derwisch&lt;tab&gt;(Re-)Ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zei&lt;var 16 /var&gt;ten von Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten und Magie sind verkürzt. Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit ist erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4479" xml:space="preserve" approved="yes">
+        <source>4479</source>
+        <target state="final">Courage&lt;tab&gt;Ausgeteilter Schaden ist erhöht, erlittener Schaden ist verringert.</target>
+      </trans-unit>
+      <trans-unit id="4480" xml:space="preserve" approved="yes">
+        <source>4480</source>
+        <target state="final">Stumpfe Klinge&lt;tab&gt;Ausgeteilter Schaden und erhaltene Heileffekte sind verringert.</target>
+      </trans-unit>
+      <trans-unit id="4481" xml:space="preserve" approved="yes">
+        <source>4481</source>
+        <target state="final">Steinrahaut&lt;tab&gt;Erlittener Schaden ist um einen bestimmten Betrag verringert.</target>
+      </trans-unit>
+      <trans-unit id="4482" xml:space="preserve" approved="yes">
+        <source>4482</source>
+        <target state="final">Diablose&lt;tab&gt;Erhaltene Heileffekte sind verringert.</target>
+      </trans-unit>
+      <trans-unit id="4483" xml:space="preserve" approved="yes">
+        <source>4483</source>
+        <target state="final">PvP-Rollenkommando: Amok&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Amok&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4484" xml:space="preserve" approved="yes">
+        <source>4484</source>
+        <target state="final">PvP-Rollenkommando: Schutzwall&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schutzwall&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4485" xml:space="preserve" approved="yes">
+        <source>4485</source>
+        <target state="final">PvP-Rollenkommando: Voller Schwinger&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Voller Schwinger&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4486" xml:space="preserve" approved="yes">
+        <source>4486</source>
+        <target state="final">PvP-Rollenkommando: Blutbad&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Blutbad&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4487" xml:space="preserve" approved="yes">
+        <source>4487</source>
+        <target state="final">PvP-Rollenkommando: Eile&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Eile&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4488" xml:space="preserve" approved="yes">
+        <source>4488</source>
+        <target state="final">PvP-Rollenkommando: Zerschlagung&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Zerschlagung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4489" xml:space="preserve" approved="yes">
+        <source>4489</source>
+        <target state="final">PvP-Rollenkommando: Derwisch&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Derwisch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4490" xml:space="preserve" approved="yes">
+        <source>4490</source>
+        <target state="final">PvP-Rollenkommando: Courage&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Courage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4491" xml:space="preserve" approved="yes">
+        <source>4491</source>
+        <target state="final">PvP-Rollenkommando: Adlerauge&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Adlerauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4492" xml:space="preserve" approved="yes">
+        <source>4492</source>
+        <target state="final">PvP-Rollenkommando: Komet&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Komet&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4493" xml:space="preserve" approved="yes">
+        <source>4493</source>
+        <target state="final">PvPロールアクション：バリア&lt;tab&gt;PvPロールアクションとしてバリアを選択している状態。</target>
+      </trans-unit>
+      <trans-unit id="4494" xml:space="preserve" approved="yes">
+        <source>4494</source>
+        <target state="final">PvP-Rollenkommando: Stumpfe Klinge&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Stumpfe Klinge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4495" xml:space="preserve" approved="yes">
+        <source>4495</source>
+        <target state="final">PvP-Rollenkommando: Heilung&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Heilung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4496" xml:space="preserve" approved="yes">
+        <source>4496</source>
+        <target state="final">PvP-Rollenkommando: Steinrahaut&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Steinrahaut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4497" xml:space="preserve" approved="yes">
+        <source>4497</source>
+        <target state="final">PvP-Rollenkommando: Diablose&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Diablose&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4498" xml:space="preserve" approved="yes">
+        <source>4498</source>
+        <target state="final">Energiereserven&lt;tab&gt;Fallen die LP auf 0, werden sofort alle LP regeneriert und ein Stapel hinzugefügt. Bei 5 Stapeln hebt sich dieser Status auf.</target>
+      </trans-unit>
+      <trans-unit id="4499" xml:space="preserve" approved="yes">
+        <source>4499</source>
+        <target state="final">_rsv_4499_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4499_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4500" xml:space="preserve" approved="yes">
+        <source>4500</source>
+        <target state="final">_rsv_4500_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4500_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4501" xml:space="preserve" approved="yes">
+        <source>4501</source>
+        <target state="final">_rsv_4501_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4501_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4502" xml:space="preserve" approved="yes">
+        <source>4502</source>
+        <target state="final">_rsv_4502_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4502_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
+      </trans-unit>
+      <trans-unit id="4516" xml:space="preserve" approved="yes">
+        <source>4516</source>
+        <target state="final">PvP-Rollenkommando: Phantompfeil&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Phantompfeil&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde als PvP-Rollenkommando ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="4517" xml:space="preserve" approved="yes">
+        <source>4517</source>
+        <target state="final">Euphorie des Wolfes&lt;tab&gt;Vom Hochgefühl des Kampfes erfüllt. Bestimmte Angriffe werden von der Seele der Wolfsbestie verstärkt.</target>
+      </trans-unit>
+      <trans-unit id="4537" xml:space="preserve" approved="yes">
+        <source>4537</source>
+        <target state="final">Steinfluch&lt;tab&gt;Versteinert. Erlittener Schaden führt zu Kampfunfähigkeit.</target>
       </trans-unit>
     </body>
   </file>

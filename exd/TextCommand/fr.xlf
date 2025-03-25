@@ -1594,7 +1594,7 @@ Cible le PJ le plus proche dans un certain rayon.&lt;tab&gt;/ciblerpj&lt;tab&gt;
       <trans-unit id="255" xml:space="preserve" approved="yes">
         <source>255</source>
         <target state="final">/ciblerpnj, /cpnj, /targetnpc, /tnpc
-Cible le PNJ le plus proche dans un certain rayon.&lt;tab&gt;/ciblerpnj&lt;tab&gt;/cpnj&lt;tab&gt;/targetnpc&lt;tab&gt;/tnpc</target>
+Cible le PNJ ou l'objet le plus proche dans un certain rayon.&lt;tab&gt;/ciblerpnj&lt;tab&gt;/cpnj&lt;tab&gt;/targetnpc&lt;tab&gt;/tnpc</target>
       </trans-unit>
       <trans-unit id="256" xml:space="preserve" approved="yes">
         <source>256</source>
@@ -1970,6 +1970,7 @@ Crystalline Conflict - log de combat&lt;var 1D /var&gt;: CConflictLog (Crystalli
 Crystalline Conflict - carte&lt;var 1D /var&gt;: CConflictCarte (CrystallineConflict:Map)
 Le Front - jauge de combat&lt;var 1D /var&gt;: JaugeCombat (Frontline:BattleGauge)
 Le Front - score&lt;var 1D /var&gt;: FrontScore (Frontline:Score)
+Le Front - situation de combat&lt;var 1D /var&gt;: FrontSituation (Frontline:CampaignInfo)
 Ailes rivales - jauges des tours/cœurs&lt;var 1D /var&gt;: ARjauges (RivalWings:Gauge)
 Ailes rivales - liste d'alliance&lt;var 1D /var&gt;: ARalliance (RivalWings:Alliance)
 Ailes rivales - gare&lt;var 1D /var&gt;: ARgare (RivalWings:Station)
@@ -2309,7 +2310,7 @@ Règle le volume des effets sonores venant des autres joueurs sur la valeur spé
         <target state="final">/vhautparleur, /vhp, /systemsoundsspeaker
 Utilisation&lt;var 1D /var&gt;: /vhautparleur [sous-commande]
 Règle le volume du haut-parleur de la manette sans fil pour les sons système sur la valeur spécifiée.
-* Version PlayStation®4, PlayStation®5 et  Windows® uniquement.
+* Version PlayStation®4, PlayStation®5 et Windows® uniquement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 [0-100]  Règle le volume sur la valeur correspondante.
 * Si aucune sous-commande n'est spécifiée, alterne entre activé/désactivé.&lt;tab&gt;/vhautparleur&lt;tab&gt;/vhp&lt;tab&gt;/systemsoundsspeaker&lt;tab&gt;</target>
@@ -2368,12 +2369,12 @@ Si aucune sous-commande n'est spécifiée, le message apparaît en même temps q
       </trans-unit>
       <trans-unit id="404" xml:space="preserve" approved="yes">
         <source>404</source>
-        <target state="final">/furieux, /rage, /furious
+        <target state="final">/furieux, /furious
 Utilisation&lt;var 1D /var&gt;: /furieux [sous-commande]
 Enrager.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/furieux&lt;tab&gt;/rage&lt;tab&gt;/furious&lt;tab&gt;</target>
+Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/furieux&lt;tab&gt;&lt;tab&gt;/furious&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="405" xml:space="preserve" approved="yes">
         <source>405</source>
@@ -4599,6 +4600,42 @@ Prend une photo.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/photographier&lt;tab&gt;/photo&lt;tab&gt;/photograph&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="692" xml:space="preserve" approved="yes">
+        <source>692</source>
+        <target state="final">/stupeurexagérée, /stupeurex, /overreact
+Utilisation&lt;var 1D /var&gt;: /stupeurexagérée [sous-commande]
+Exprime sa stupeur de façon exagérée.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/stupeurexagérée&lt;tab&gt;/stupeurex&lt;tab&gt;/overreact&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="694" xml:space="preserve" approved="yes">
+        <source>694</source>
+        <target state="final">/chanceler, /dazed
+Utilisation&lt;var 1D /var&gt;: /chanceler [sous-commande]
+Chancelle.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/chanceler&lt;tab&gt;&lt;tab&gt;/dazed&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="696" xml:space="preserve" approved="yes">
+        <source>696</source>
+        <target state="final">/mémoquartzcontinu, /mémoquartzcont, /tomescroll
+Utilisation&lt;var 1D /var&gt;: /mémoquartzcontinu [sous-commande]
+Utilise son mémoquartz en continu.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mémoquartzcontinu&lt;tab&gt;/mémoquartzcont&lt;tab&gt;/tomescroll&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="697" xml:space="preserve" approved="yes">
+        <source>697</source>
+        <target state="final">/lireunlivrecontinu, /lirecont, /study
+Utilisation&lt;var 1D /var&gt;: /lireunlivrecontinu [sous-commande]
+Lit un livre en continu.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lireunlivrecontinu&lt;tab&gt;/lirecont&lt;tab&gt;/study&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

@@ -1663,7 +1663,7 @@ Wählt den zweiten Charakter in der Gruppenliste als Ziel aus.&lt;tab&gt;/ziel&l
       <trans-unit id="255" xml:space="preserve" approved="yes">
         <source>255</source>
         <target state="final">/zielnpc, /targetnpc, /tnpc
-→ Der nächste NPC im Umkreis wird als Ziel ausgewählt.&lt;tab&gt;/zielnpc&lt;tab&gt;&lt;tab&gt;/targetnpc&lt;tab&gt;/tnpc</target>
+→ Der nächste NPC oder das nächste Objekt im Umkreis wird als Ziel ausgewählt.&lt;tab&gt;/zielnpc&lt;tab&gt;&lt;tab&gt;/targetnpc&lt;tab&gt;/tnpc</target>
       </trans-unit>
       <trans-unit id="256" xml:space="preserve" approved="yes">
         <source>256</source>
@@ -2020,7 +2020,7 @@ VERWENDUNG:
 /hud [Element] [Unterbefehl]
 → Blendet das angegebene Element ein/aus.
 &gt;&gt;HUD-Elemente:
-Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
+Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Carteneauer Front: Schlachtinfo (FrontInfo), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
 &gt;&gt;Unterbefehle:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Element anzeigen
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Element ausblenden
@@ -2770,12 +2770,12 @@ VERWENDUNG:
       </trans-unit>
       <trans-unit id="437" xml:space="preserve" approved="yes">
         <source>437</source>
-        <target state="final">/taumel, /stagger
+        <target state="final">/torkel, /stagger
 VERWENDUNG:
-/taumel [Unterbefehl]
-→ Du taumelst einen Augenblick.
+/torkel [Unterbefehl]
+→ Du torkelst einen Augenblick.
 &gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/taumel&lt;tab&gt;&lt;tab&gt;/stagger&lt;tab&gt;</target>
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/torkel&lt;tab&gt;&lt;tab&gt;/stagger&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="438" xml:space="preserve" approved="yes">
         <source>438</source>
@@ -4744,6 +4744,42 @@ VERWENDUNG:
 → Du machst ein Foto.
 &gt;&gt;Unterbefehl:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/foto&lt;tab&gt;&lt;tab&gt;/photograph&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="692" xml:space="preserve" approved="yes">
+        <source>692</source>
+        <target state="final">/socken, /overreact
+VERWENDUNG:
+/socken [Unterbefehl]
+→ Du bist vollkommen von den Socken.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/socken&lt;tab&gt;&lt;tab&gt;/overreact&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="694" xml:space="preserve" approved="yes">
+        <source>694</source>
+        <target state="final">/taumeln, /dazed
+VERWENDUNG:
+/taumeln [Unterbefehl]
+→ Du taumelst benommen.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/taumeln&lt;tab&gt;&lt;tab&gt;/dazed&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="696" xml:space="preserve" approved="yes">
+        <source>696</source>
+        <target state="final">/steinstarren, /tomescroll
+VERWENDUNG:
+/steinstarren [Unterbefehl]
+→ Du hörst nicht auf, auf deinen Allagischen Stein zu starren.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/steinstarren&lt;tab&gt;&lt;tab&gt;/tomescroll&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="697" xml:space="preserve" approved="yes">
+        <source>697</source>
+        <target state="final">/schmökern, /study
+VERWENDUNG:
+/schmökern [Unterbefehl]
+→ Du hörst nicht auf, konzentriert zu lesen.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/schmökern&lt;tab&gt;&lt;tab&gt;/study&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

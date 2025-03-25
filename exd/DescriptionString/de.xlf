@@ -1705,9 +1705,7 @@ Das Neue Spiel+ kann nach Beendigung des Inhalts fortgesetzt werden.
 - Gehilfenklingel
 - Jagdbrett und Clan-Jagdbrett
 - bestimmte Post-Mogry
-- Meteorologen
 - bestimmte Händler
-- bestimmte Reparateure
 - bestimmte NPCs mit Gesprächsoptionen
 - funktionale Einrichtung in Gästezimmern
 - Stadtätheryten und nicht harmonisierte Ätheryten
@@ -1722,7 +1720,7 @@ Das Neue Spiel+ kann nach Beendigung des Inhalts fortgesetzt werden.
 - Staatlichen Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaften
 - Freien Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaften
 - der Anfänger-Arena
-- dem Ewiger Bund
+- dem Ewigen Bund
 
 ■ Gebrauch von Abenteuergeschichten
 
@@ -1760,9 +1758,9 @@ Jedes Match ist auf 20 Minuten Spielzeit ausgelegt.
 Sollte man in einem Match kampfunfähig werden, so wird man nach kurzer Wartezeit automatisch am Startpunkt des eigenen Teams wiederbelebt. Solange man sich nach dem Wiedereinstieg am Startpunkt aufhält, wird man durch den Status „Unverwundbar“ geschützt. Erst wenn man den Startpunkt verlässt, wird man wieder verwundbar.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Reittiere&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-An der Carteneauer Front kann der Spieler wie auch im offenen Gelände auf seinem Reittier aufsitzen. Dies ist selbst im Kampf möglich.
+An der Carteneauer Front kann der Spieler wie auch im offenen Gelände sein Reittier besteigen. Dies ist selbst im Kampf möglich.
 
-Da ein Spieler jedoch den Status „Lahm“ erleidet, wenn er während des Reitens von Gegnern getroffen wird, empfiehlt es sich gerade dann, ein wachsames Auge auf die Umgebung zu haben.
+Da ein Spieler jedoch fünf Sekunden lang den Status „Reittier-Blockade“ erleidet, wenn er während des Reitens von Gegnern getroffen wird, empfiehlt es sich gerade dann, ein wachsames Auge auf die Umgebung zu haben.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Rückführung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Man kann während eines Matches auch das Kommando Rückführung verwenden. Man wird dann automatisch zum Startpunkt des eigenen Teams teleportiert. An der Carteneauer Front kann man auch im Kampf die Rückführung verwenden. Eine Re&lt;var 16 /var&gt;ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zeit für das Kommando gibt es nicht. Allerdings bricht der Zauber ab, wenn ein Spieler beim Ausführen getroffen wird.
@@ -1825,7 +1823,22 @@ Wenn keiner der drei Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaften die vo
       </trans-unit>
       <trans-unit id="283" xml:space="preserve" approved="yes">
         <source>283</source>
-        <target state="final">Die Schlüsselpositionen in den allagischen Ruinen sind durch die Flaggenmasten gekennzeichnet. Sie tragen die Flagge der Staatlichen Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaft, die die Stellung gerade kontrolliert. Zu Beginn des Matches sind die Positionen noch unbesetzt (neutral). Sobald sich ein Spieler einem Flaggenmast nähert, wird die Position langsam in Besitz genommen. Je mehr Spieler vom eigenen Team sich in der Nähe des Flaggenmastes aufhalten, desto schneller schreitet die Inbesitznahme voran. Wenn sich Mitglieder unter&lt;var 16 /var&gt;schied&lt;var 16 /var&gt;licher Teams in Reichweite befinden, so zählt die Differenz der Spieler. Bereits besetzte Schlüsselpositionen können allerdings auch wieder zurückerobert werden. Dabei werden sie zuerst neutralisiert und -&lt;var 1D /var&gt;falls unangefochten&lt;var 1D /var&gt;- im Anschluss für das jeweilige Team erobert.</target>
+        <target state="final">Die Schlüsselpositionen in den allagischen Ruinen sind durch die Flaggenmasten gekennzeichnet. Sie tragen die Flagge der Staatlichen Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaft, die die Stellung gerade kontrolliert. Zu Beginn des Matches sind die Positionen noch unbesetzt (neutral). Sobald sich ein Spieler einem Flaggenmast nähert, wird die Position langsam in Besitz genommen. Je mehr Spieler vom eigenen Team sich in der Nähe des Flaggenmastes aufhalten, desto schneller schreitet die Inbesitznahme voran. Wenn sich Mitglieder unter&lt;var 16 /var&gt;schied&lt;var 16 /var&gt;licher Teams in Reichweite befinden, so zählt die Differenz der Spieler.
+
+Je nach der Menge der eingenommenen Schlüsselpositionen werden alle drei Sekunden Siegpunkte vergeben:
+- 2 Punkte für eine besetzte Schlüsselposition
+- 4 Punkte für zwei besetzte Schlüsselpositionen
+- 6 Punkte für drei besetzte Schlüsselpositionen
+- 10 Punkte für vier besetzte Schlüsselpositionen
+- 12 Punkte für fünf besetzte Schlüsselpositionen
+- 14 Punkte für sechs besetzte Schlüsselpositionen
+- 18 Punkte für sieben besetzte Schlüsselpositionen
+- 20 Punkte für acht besetzte Schlüsselpositionen
+- 22 Punkte für neun besetzte Schlüsselpositionen
+
+Spieler, die sich im Bereich einer Schlüsselposition aufhalten, erhalten außerdem den Status „Fest entschlossen“ und ihr ausgeteilter Schaden wird erheblich gesteigert. Man sollte diesen Status nutzen, um dafür zu sorgen, dass sich nur Spieler des eigenen Teams im Bereich aufhalten, um die Schlüsselposition effektiv besetzen zu können.
+
+Bereits besetzte Schlüsselpositionen können allerdings auch wieder zurückerobert werden. Dabei werden sie zuerst neutralisiert und -&lt;var 1D /var&gt;falls unangefochten&lt;var 1D /var&gt;- im Anschluss für das jeweilige Team erobert.</target>
       </trans-unit>
       <trans-unit id="284" xml:space="preserve" approved="yes">
         <source>284</source>
@@ -2474,7 +2487,7 @@ Gegenstände werden nicht als Spezialkommando registriert, sondern können direk
 Aktiviere das im HUD angezeigte Kommando mit der &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt; linken Maustaste&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. (Die Belegung kann geändert werden.)
 
 ■ Einsatz bei Controllersteuerung
-Rufe das Kreuz-Kommandomenü auf (&lt;var 1E 0F /var&gt;&lt;var 1E 10 /var&gt; drücken) und aktiviere das Kommando mit &lt;var 1E 12 /var&gt;.
+Rufe das Kreuz-Kommandomenü auf (&lt;var 1E 0F /var&gt;&lt;var 1E 10 /var&gt; drücken) und aktiviere das Kommando mit &lt;var 12 12 /var&gt;.
 
 ■ Einsatz von Gegenständen
 Öffne das Register über das rote Spezialfenster und wähle den Gegenstand. Gegenstände können auch im Kommandomenü abgelegt werden.</target>
@@ -6827,6 +6840,64 @@ Als Set projizierte Gegenstände werden bei der Entnahme aus der Pro&lt;var 16 /
       <trans-unit id="1172" xml:space="preserve" approved="yes">
         <source>1172</source>
         <target state="final">Bei Angriffen, die sofort ausgeführt werden, wird kein Fortschrittsbalken angezeigt.</target>
+      </trans-unit>
+      <trans-unit id="1263" xml:space="preserve" approved="yes">
+        <source>1263</source>
+        <target state="final">Die Waffentransportvorrichtung</target>
+      </trans-unit>
+      <trans-unit id="1264" xml:space="preserve" approved="yes">
+        <source>1264</source>
+        <target state="final">Während der Kampfeswirren kann es vorkommen, dass die Waffentransportvorrichtung aktiviert wird. Dann tauchen im Heliodrom, also im Zentrum des Schlachtfelds, neutrale Feinde auf, die für keine Seite kämpfen. Es gibt drei Arten dieser Waffen:
+1. Die Interzeptor-Drohne
+2. Der Interzeptor-Kommandant
+3. Das Interzeptor-Modul
+
+</target>
+      </trans-unit>
+      <trans-unit id="1265" xml:space="preserve" approved="yes">
+        <source>1265</source>
+        <target state="final">Die Interzeptor-Drohne</target>
+      </trans-unit>
+      <trans-unit id="1266" xml:space="preserve" approved="yes">
+        <source>1266</source>
+        <target state="final">Interzeptor-Drohnen sind kleine, neutrale Gegner, die in Gruppen auftauchen und mit ihren Auto-Kanonen auf umstehende Spieler feuern. Nach einer Weile jagen sie sich selbst in die Luft. Wird eine Drohne davor jedoch besiegt, werden Siegpunkte je nach proportional angerichtetem Schaden vergeben. Das Team, das den meisten Schaden verursacht hat, erhält außerdem einen Siegpunkt-Bonus.
+Bei einem Interzeptor-Drohnen-Angriff besteht außerdem die Chance, dass eine goldene Interzeptor-Drohne α erscheint. Sie verleiht wesentlich mehr Siegpunkte als die reguläre Version&lt;var 1D /var&gt;- es lohnt sich also, die Augen offen zu halten. Es erscheinen durchgehend solange neue normale und goldene Interzeptor-Drohnen, wie die Waffentransportvorrichtung aktiv ist.</target>
+      </trans-unit>
+      <trans-unit id="1267" xml:space="preserve" approved="yes">
+        <source>1267</source>
+        <target state="final">Der Interzeptor-Kommandant</target>
+      </trans-unit>
+      <trans-unit id="1268" xml:space="preserve" approved="yes">
+        <source>1268</source>
+        <target state="final">Der Interzeptor-Kommandant ist ein mittelgroßer, neutraler Gegner, der nicht angegriffen werden kann und kontinuierlich dieselbe Attacke ausführt. Ahnt ein Spieler sie jedoch korrekt voraus und blockt die Attacke, kann der Schaden verringert werden. Außerdem erhält man mit einem erfolgreichen Block sowohl Siegpunkte als auch Euphorie.</target>
+      </trans-unit>
+      <trans-unit id="1269" xml:space="preserve" approved="yes">
+        <source>1269</source>
+        <target state="final">Das Interzeptor-Modul</target>
+      </trans-unit>
+      <trans-unit id="1270" xml:space="preserve" approved="yes">
+        <source>1270</source>
+        <target state="final">Das Interzeptor-Modul ist ein großer, neutraler Gegner, der nach Erscheinen eine der folgenden Attacken auf die umstehenden Spieler ausführt:
+- Bodenoffensive:
+Eine weite Flächenattacke zu Füßen des Ziels
+- Fokusoffensive:
+Eine Stapelattacke auf ein bestimmtes Ziel
+- Zielsuchoffensive:
+Ein das Ziel verfolgender Fernangriff
+
+Jedes Mal, wenn das Interzeptor-Modul auf 0 LP fällt, erhält es einen Stapel. Bei fünf Stapeln beginnt es zu blinken und zeigt damit an, dass es nun endgültig besiegt werden kann. Mit jedem Stapel werden außerdem Siegpunkte proportional zum verursachten Schaden verteilt.</target>
+      </trans-unit>
+      <trans-unit id="1271" xml:space="preserve" approved="yes">
+        <source>1271</source>
+        <target state="final">Der Einheitentransporter</target>
+      </trans-unit>
+      <trans-unit id="1272" xml:space="preserve" approved="yes">
+        <source>1272</source>
+        <target state="final">Überall auf der Karte befinden sich sogenannte Einheitentransporter, die Spieler zu den Ausgängen bringen können - allerdings nicht wieder zurück. Je nach dem Stand der Schlacht sind sie entweder aktiv oder inaktiv geschaltet.
+Aktiv:
+Dreißig Sekunden bevor die Waffentransportvorrichtung aktiv wird.
+Inaktiv:
+Sobald sich die Waffentransportvorrichtung inaktiv schaltet. Zu Beginn eines Matches sind die Einheitentransporter ebenfalls ausgeschaltet.</target>
       </trans-unit>
     </body>
   </file>

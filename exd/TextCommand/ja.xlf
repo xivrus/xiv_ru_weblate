@@ -1721,7 +1721,7 @@ off
       <trans-unit id="255" xml:space="preserve" approved="yes">
         <source>255</source>
         <target state="final">/targetnpc(/tnpc)
-ターゲット可能範囲にいるNPCで、一番近い位置にいるキャラクターをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetnpc&lt;tab&gt;/tnpc</target>
+ターゲット可能範囲にいるNPCで、一番近い位置にいるキャラクター・オブジェクトをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/targetnpc&lt;tab&gt;/tnpc</target>
       </trans-unit>
       <trans-unit id="256" xml:space="preserve" approved="yes">
         <source>256</source>
@@ -2150,6 +2150,7 @@ EXホットバー(HotbarEx)
 クリスタルコンフリクト：マップ(CConflict:Map)
 フロントライン：戦意ゲージ(Frontline:BattleGauge)
 フロントライン：スコア情報(Frontline:Score)
+フロントライン：戦況情報(Frontline:CampaignInfo)
 ライバルウィングズ：タワー・コアゲージ(RivalWings:Gauge)
 ライバルウィングズ：アライアンスリスト(RivalWings:Alliance)
 ライバルウィングズ：ステーション情報(RivalWings:Station)
@@ -5103,6 +5104,46 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/photograph&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="692" xml:space="preserve" approved="yes">
+        <source>692</source>
+        <target state="final">/overreact サブコマンド
+大げさに驚く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/overreact&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="694" xml:space="preserve" approved="yes">
+        <source>694</source>
+        <target state="final">/dazed サブコマンド
+ふらつく。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/dazed&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="696" xml:space="preserve" approved="yes">
+        <source>696</source>
+        <target state="final">/tomescroll サブコマンド
+トームストーンを愛で続ける。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/tomescroll&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="697" xml:space="preserve" approved="yes">
+        <source>697</source>
+        <target state="final">/study サブコマンド
+本を熟読する。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/study&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

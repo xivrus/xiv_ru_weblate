@@ -1636,7 +1636,6 @@ Pour vous inscrire à d'autres missions, vous devez d'abord suspendre votre Nouv
  - Tableaux du clan Centurio
  - Sonnettes
  - Objets des chambres d'auberge
- - Météorologues
  - Éthérites et éthérites urbaines auxquelles vous n'êtes pas harmonisé&lt;var 08 E905 ((e)) (()) /var&gt;
  - Missions accessibles par l'intermédiaire d'un PNJ
  - Certains mandats
@@ -1647,9 +1646,8 @@ Pour vous inscrire à d'autres missions, vous devez d'abord suspendre votre Nouv
  - Compagnie libre
  - Salle des novices
  - Lien éternel
- - Certaines échoppes
  - Certains Mogs postiers
- - Certains réparateurs
+ - Certaines échoppes
  - Interactions avec certains éléments du décor
  - Dialogues avec certains PNJ
 
@@ -1679,14 +1677,14 @@ Chaque joueur est placé dans l'équipe d'une grande compagnie de façon arbitra
       <trans-unit id="274" xml:space="preserve" approved="yes">
         <source>274</source>
         <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Informations générales&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Les joueurs participant au Front sont séparés en trois camps, selon leur grande compagnie. Chaque camp est composé d'un maximum de 24 joueurs, permettant de se lancer dans des batailles pouvant compter jusqu'à 72 par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pants au total, pour des af&lt;var 16 /var&gt;fron&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment d'une durée de 20 minutes.
+Les joueurs participant au Front sont séparés en trois camps, selon leur grande compagnie. Chaque camp est composé d'un maximum de 24 joueurs, permettant de se lancer dans des batailles pouvant compter jusqu'à 72 par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pants au total, pour des af&lt;var 16 /var&gt;fron&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ments d'une durée de 20 minutes.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Retour au combat&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Lorsqu'un participant du Front est vaincu, il se réveille au débarcadère de sa grande compagnie après un temps donné. Il peut reprendre le combat autant de fois qu'il le désire.
 Lorsque le joueur quitte le débarcadère pour retourner sur le champ de bataille, l'effet “Invulnérable” lui est temporairement attribué.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Montures&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Les montures peuvent être utilisées au Front. Cependant, tout dégât reçu à dos de monture inflige au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment l'effet “Boitement”.
+Les montures peuvent être utilisées au Front. Cependant, tout dégât reçu à dos de monture éjecte le joueur de celle-ci et inflige au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment l'effet “Monte impossible” pendant une durée de 5 secondes.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Rapatriement&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Lorsqu'un participant choisit d'être rapatrié en cours de combat, il retourne au point de départ. Cette action est également disponible en plein combat sans délai, mais l'incantation sera interrompue si un coup est reçu.
@@ -1741,7 +1739,21 @@ Si aucun camp n'a remporté la victoire avant la fin du temps imparti, le classe
       </trans-unit>
       <trans-unit id="283" xml:space="preserve" approved="yes">
         <source>283</source>
-        <target state="final">Plusieurs postes sont placés sur le terrain de jeu, ils sont neutres en début de partie. Il est possible de prendre possession d'un d'entre eux, en se tenant à proximité de l'étendard placé en leur centre, en nombre supérieur à l'ennemi. Le délai est calculé en fonction de la différence entre soldats alliés et adverses. Un score fixe est attribué lors de la prise de contrôle d'un poste, et le maintien de son occupation permet d'augmenter ré&lt;var 16 /var&gt;gu&lt;var 16 /var&gt;liè&lt;var 16 /var&gt;re&lt;var 16 /var&gt;ment le score stratégique de sa grande compagnie. 
+        <target state="final">Plusieurs postes sont placés sur le terrain de jeu, ils sont neutres en début de partie. Il est possible de prendre possession d'un d'entre eux, en se tenant à proximité de l'étendard placé en leur centre, en nombre supérieur à l'ennemi. Le délai est calculé en fonction de la différence entre soldats alliés et adverses. Un score fixe est attribué lors de la prise de contrôle d'un poste, et le maintien de son occupation permet d'augmenter ré&lt;var 16 /var&gt;gu&lt;var 16 /var&gt;liè&lt;var 16 /var&gt;re&lt;var 16 /var&gt;ment le score stratégique de sa grande compagnie.
+
+Toutes les trois secondes, des points sont attribués en fonction du nombre de postes occupés&lt;var 1D /var&gt;:
+- Le contrôle d'un seul poste rapporte 2 points
+- Le contrôle simultané de deux postes rapporte 4 points
+- Le contrôle simultané de trois postes rapporte 6 points
+- Le contrôle simultané de quatre postes rapporte 10 points
+- Le contrôle simultané de cinq postes rapporte 12 points
+- Le contrôle simultané de six postes rapporte 14 points
+- Le contrôle simultané de sept postes rapporte 18 points
+- Le contrôle simultané de huit postes rapporte 20 points
+- Le contrôle simultané de neuf postes rapporte 22 points
+
+Les joueurs positionnés dans l'enceinte d'un poste occupé bénéficient de l'état “Détermination” qui augmente considérablement les dégâts infligés, ce qui leur procure davantage de chances de mettre leurs adversaires K.O. afin de les empêcher de prendre possession du poste à leur tour.
+
 Un poste peut être contesté par une grande compagnie rivale, si au moins un de ses soldats est proche du drapeau. Si cette action réussit, le contrôle du poste est perdu, et ce dernier redevient neutre.</target>
       </trans-unit>
       <trans-unit id="284" xml:space="preserve" approved="yes">
@@ -2426,7 +2438,7 @@ Effectuer un &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;clic gauche&
 &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* Une touche de raccourci peut être attribuée à chaque action de mission à partir de la fenêtre Attribution des touches.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 ■En mode de contrôle à la manette
-Activer la croix de raccourcis (en appuyant sur &lt;var 1E 0F /var&gt; ou &lt;var 1E 10 /var&gt;), puis appuyer sur &lt;var 1E 12 /var&gt;.
+Activer la croix de raccourcis (en appuyant sur &lt;var 1E 0F /var&gt; ou &lt;var 1E 10 /var&gt;), puis appuyer sur &lt;var 12 12 /var&gt;.
 
 Les actions oubliées de type “objet” peuvent quant à elles être ajoutées normalement à la barre de raccourcis depuis le mémento comme vous le feriez avec n'importe quel objet standard.</target>
       </trans-unit>
@@ -3566,12 +3578,15 @@ Si une équipe a la meilleure progression au début des pro&lt;var 16 /var&gt;lo
 
 Si une équipe a la moins bonne progression au début des pro&lt;var 16 /var&gt;lon&lt;var 16 /var&gt;ga&lt;var 16 /var&gt;tions, elle devra, pour remporter la partie, dépasser la progression de l'équipe adverse.
 
-Si les deux équipes ont la même progression au début des pro&lt;var 16 /var&gt;lon&lt;var 16 /var&gt;ga&lt;var 16 /var&gt;tions, elles devront, pour remporter la partie, dépasser la progression de l'équipe adverse.
+Lorsque les pro&lt;var 16 /var&gt;lon&lt;var 16 /var&gt;ga&lt;var 16 /var&gt;tions se terminent sans qu'aucune équipe ne remplisse les conditions de victoire, l'équipe gagnante est déterminée selon les conditions suivantes&lt;var 1D /var&gt;:
 
-Si les pro&lt;var 16 /var&gt;lon&lt;var 16 /var&gt;ga&lt;var 16 /var&gt;tions se terminent sans qu'aucune équipe ne remplisse les conditions de victoire, l'équipe dont la progression est la plus avancée sera déclarée gagnante.
-Si la progression des deux équipes est équivalente à la fin du temps imparti, alors l'équipe ayant la progression la plus avancée au début des pro&lt;var 16 /var&gt;lon&lt;var 16 /var&gt;ga&lt;var 16 /var&gt;tions emportera la victoire. 
-Dans le cas où la progression des deux équipes est équivalente au début et à la fin des pro&lt;var 16 /var&gt;lon&lt;var 16 /var&gt;ga&lt;var 16 /var&gt;tions, alors l'équipe qui aura amené le cristal tactique le plus près du camp adverse emportera la victoire.
-Si dans ce cas de figure, le cristal tactique se situe au centre de l'arène, alors la rencontre se soldera par un match nul.</target>
+- Si la progression des équipes diffère, l'équipe dont la progression est la plus avancée sera déclarée gagnante.
+
+- Si la progression des deux équipes est équivalente à la fin du temps imparti, l'équipe ayant la progression la plus avancée au début des pro&lt;var 16 /var&gt;lon&lt;var 16 /var&gt;ga&lt;var 16 /var&gt;tions remportera la victoire.
+
+- Si la progression des deux équipes est équivalente au début et à la fin des pro&lt;var 16 /var&gt;lon&lt;var 16 /var&gt;ga&lt;var 16 /var&gt;tions, l'équipe qui aura amené le cristal tactique le plus près du camp adverse remportera la victoire.
+
+Dans le dernier cas de figure, si le cristal tactique se situe au centre de l'arène, alors la rencontre se soldera par un match nul.</target>
       </trans-unit>
       <trans-unit id="595" xml:space="preserve" approved="yes">
         <source>595</source>
@@ -7051,7 +7066,7 @@ De plus, lorsque vous annoncerez “riichi”, “ron” ou “tsumo”, son por
 Ils peuvent être échangés auprès de &lt;var 28 ((ENpcResident)) F60FF16701 /var&gt; au &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;square des merveilles&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; du Gold Saucer.
 &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* Vous devez avoir préalablement terminé la quête “&lt;var 28 ((Quest)) F601068501 /var&gt;”.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
-Le choix du personnage ainsi que la tenue qu'il porte lors de l'affichage de son portrait peuvent être modifiés depuis la rubrique Mahjong du menu Gold Saucer, puis en sélectionnant 'Modifier“ sous ”Voix en partie“ et enfin ”Personnages“.
+Le choix du personnage ainsi que la tenue qu'il porte lors de l'affichage de son portrait peuvent être modifiés depuis la rubrique Mahjong du menu Gold Saucer, puis en sélectionnant “Modifier” sous “Voix en partie” et enfin “Personnages”.
 
 Davantage de choix deviendront accessibles au fil de votre progression dans l'épopée, pensez donc à consulter cette rubrique ré&lt;var 16 /var&gt;gu&lt;var 16 /var&gt;liè&lt;var 16 /var&gt;re&lt;var 16 /var&gt;ment.
 
@@ -7075,11 +7090,11 @@ Entre deux aventures, n'hésitez pas à inviter votre personnage favori à succo
       </trans-unit>
       <trans-unit id="1164" xml:space="preserve" approved="yes">
         <source>1164</source>
-        <target state="final">Un &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;mirage d’ensemble&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; est une nouvelle fonctionnalité permettant de transformer plusieurs équipements en mirage sous forme d’ensemble unique, puis de conserver ce dernier dans la coiffeuse mirage. Ainsi, vous gagnerez de la place dans la coiffeuse en ne prenant qu’un seul emplacement pour plusieurs équipements.
+        <target state="final">Un &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;mirage d'ensemble&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; est une nouvelle fonctionnalité permettant de transformer plusieurs équipements en mirage sous forme d'ensemble unique, puis de conserver ce dernier dans la coiffeuse mirage. Ainsi, vous gagnerez de la place dans la coiffeuse en ne prenant qu'un seul emplacement pour plusieurs équipements.
 
-Les mirages d’ensemble obtenus peuvent, à l’instar des mirages classiques, être ensuite appliqués à d’autres équipements ou sur une planche mirage.
+Les mirages d'ensemble obtenus peuvent, à l'instar des mirages classiques, être ensuite appliqués à d'autres équipements ou sur une planche mirage.
 
-Pour obtenir un mirage d’ensemble, vous devez disposer d’un ensemble complet d’équipements de même qualité, ainsi que d’autant de prismes mirage que de pièces d’équipement dont est composé l’ensemble.</target>
+Pour obtenir un mirage d'ensemble, vous devez disposer d'un ensemble complet d'équipements de même qualité, ainsi que d'autant de prismes mirage que de pièces d'équipement dont est composé l'ensemble.</target>
       </trans-unit>
       <trans-unit id="1165" xml:space="preserve" approved="yes">
         <source>1165</source>
@@ -7087,14 +7102,14 @@ Pour obtenir un mirage d’ensemble, vous devez disposer d’un ensemble complet
       </trans-unit>
       <trans-unit id="1166" xml:space="preserve" approved="yes">
         <source>1166</source>
-        <target state="final">Sélectionnez le bouton pour ouvrir la fenêtre des mirages d’ensemble et vous pourrez choisir les équipements à transformer en mirage d’ensemble parmi ceux que vous possédez dans votre inventaire ou votre arsenal.
+        <target state="final">Sélectionnez le bouton pour ouvrir la fenêtre des mirages d'ensemble et vous pourrez choisir les équipements à transformer en mirage d'ensemble parmi ceux que vous possédez dans votre inventaire ou votre arsenal.
 
-Pour réaliser un mirage d’ensemble, il est nécessaire que la condition de chaque pièce d’équipement soit de 100%.
+Pour réaliser un mirage d'ensemble, il est nécessaire que la condition de chaque pièce d'équipement soit de 100%.
 
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Veuillez également noter que, contrairement aux mirages classiques, les teintures appliquées sur les équipements ne sont pas conservées lors d’un mirage d’ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Veuillez également noter que, contrairement aux mirages classiques, les teintures appliquées sur les équipements ne sont pas conservées lors d'un mirage d'ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 * Il reste possible de teindre vos équipements ou vos planches mirage après le processus.
 
-Une fois la transformation en mirage d’ensemble terminée, les équipements transformés se fondent en un seul mirage, qui est ensuite rangé tel quel dans la coiffeuse mirage.</target>
+Une fois la transformation en mirage d'ensemble terminée, les équipements transformés se fondent en un seul mirage, qui est ensuite rangé tel quel dans la coiffeuse mirage.</target>
       </trans-unit>
       <trans-unit id="1167" xml:space="preserve" approved="yes">
         <source>1167</source>
@@ -7106,12 +7121,12 @@ Une fois la transformation en mirage d’ensemble terminée, les équipements tr
       </trans-unit>
       <trans-unit id="1169" xml:space="preserve" approved="yes">
         <source>1169</source>
-        <target state="final">L’onglet “Ensemble complet” vous permet aussi de vérifier les pièces d’équipements individuelles qui composent chaque ensemble transformé en mirage. Pour cela, sélectionnez “Vérifier l'ensemble complet” dans le sous-menu d’un mirage pour connaître le détail des équipements qui le composent. Vous pouvez aussi obtenir cette information à partir des détails de l’objet transformé en mirage.
+        <target state="final">L'onglet “Ensemble complet” vous permet aussi de vérifier les pièces d'équipements individuelles qui composent chaque ensemble transformé en mirage. Pour cela, sélectionnez “Vérifier l'ensemble complet” dans le sous-menu d'un mirage pour connaître le détail des équipements qui le composent. Vous pouvez aussi obtenir cette information à partir des détails de l'objet transformé en mirage.
 
-Chaque pièce d’équipement qui compose un mirage d’ensemble est affichée individuellement, comme les mirages classiques, lorsque vous sélectionnez l’onglet d’un type d’équipement. Vous pourrez alors voir dans les détails de l’équipement la mention “Objets transformés en mirage d’ensemble”.
+Chaque pièce d'équipement qui compose un mirage d'ensemble est affichée individuellement, comme les mirages classiques, lorsque vous sélectionnez l'onglet d'un type d'équipement. Vous pourrez alors voir dans les détails de l'équipement la mention “Objets transformés en mirage d'ensemble”.
 
 Lorsque vous retirez un ensemble de la coiffeuse mirage, vous pourrez le convertir en objet unique que vous pouvez équiper.
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* Il n’est pas possible de retirer une pièce spécifique d’un ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* Il n'est pas possible de retirer une pièce spécifique d'un ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="1170" xml:space="preserve" approved="yes">
         <source>1170</source>
@@ -7125,6 +7140,72 @@ La progression de l'incantation peut être visualisée sur la “barre de progre
       <trans-unit id="1172" xml:space="preserve" approved="yes">
         <source>1172</source>
         <target state="final">Pour les attaques instantanées, aucune barre de progression ne s'affiche.</target>
+      </trans-unit>
+      <trans-unit id="1263" xml:space="preserve" approved="yes">
+        <source>1263</source>
+        <target state="final">Système d'arsenal mobile</target>
+      </trans-unit>
+      <trans-unit id="1264" xml:space="preserve" approved="yes">
+        <source>1264</source>
+        <target state="final">Le système d'arsenal mobile s'enclenche à intervalles réguliers durant la bataille.
+Lorsqu'il est activé, des monstres spécifiques qui n'appartiennent à aucune équipe ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent sur l'Héliodrome.
+Ces monstres peuvent être de trois types différents&lt;var 1D /var&gt;:
+
+1. Drones de neutralisation
+2. Commandants de neutralisation
+3. Sphères de neutralisation</target>
+      </trans-unit>
+      <trans-unit id="1265" xml:space="preserve" approved="yes">
+        <source>1265</source>
+        <target state="final">Drones de neutralisation</target>
+      </trans-unit>
+      <trans-unit id="1266" xml:space="preserve" approved="yes">
+        <source>1266</source>
+        <target state="final">Les drones de neutralisation sont des ennemis de petite taille.
+Une fois les joueurs entrés dans leur périmètre de sur&lt;var 16 /var&gt;veil&lt;var 16 /var&gt;lan&lt;var 16 /var&gt;ce, les drones les attaquent avec des canons automatiques à rayons laser, puis s'autodétruisent au bout d'un certain temps.
+Après les avoir vaincus, les joueurs remportent un nombre de points proportionnel aux dégâts infligés par leur équipe, avec un bonus sup&lt;var 16 /var&gt;plé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;re pour l'équipe ayant fait le plus de dégâts.
+
+Lors du déploiement des drones de neutralisation, il arrive qu'une version dorée nommée “drone de neutralisation α” fasse son apparition. Son élimination rapporte davantage de points que la version normale.
+Les drones de neutralisation ainsi que leur version “α” sont déployés en continu tant que l'arsenal est activé.</target>
+      </trans-unit>
+      <trans-unit id="1267" xml:space="preserve" approved="yes">
+        <source>1267</source>
+        <target state="final">Commandants de neutralisation</target>
+      </trans-unit>
+      <trans-unit id="1268" xml:space="preserve" approved="yes">
+        <source>1268</source>
+        <target state="final">Les commandants de neutralisation sont des ennemis de taille moyenne.
+Ils sont invincibles et attaquent continuellement les joueurs dès qu'ils
+ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent.
+En anticipant leurs attaques, les joueurs peuvent réduire les dégâts reçus tout en augmentant le nombre de points obtenus ainsi que leur jauge d'ivresse.</target>
+      </trans-unit>
+      <trans-unit id="1269" xml:space="preserve" approved="yes">
+        <source>1269</source>
+        <target state="final">Sphères de neutralisation</target>
+      </trans-unit>
+      <trans-unit id="1270" xml:space="preserve" approved="yes">
+        <source>1270</source>
+        <target state="final">Les sphères de neutralisation sont des ennemis de grande taille.
+Une fois les joueurs entrés dans leur périmètre de sur&lt;var 16 /var&gt;veil&lt;var 16 /var&gt;lan&lt;var 16 /var&gt;ce, elles les attaquent de trois façons différentes.
+- Alerte au sol (lance une attaque à aire d'effet large)
+- Alerte lourde (lance une attaque à dégâts partagés)
+- Alerte ciblée (lance une attaque à tête chercheuse)
+
+Lorsque les PV d'une sphère de neutralisation sont réduits à zéro, son compte augmente d'un point jusqu'à un maximum de cinq. Elle se met alors à clignoter, ce qui indique qu'elle peut être définitivement vaincue.
+Chaque fois que ses PV sont réduits à zéro, l'équipe qui lui a infligé le plus de dégâts obtient le plus grand nombre de points.</target>
+      </trans-unit>
+      <trans-unit id="1271" xml:space="preserve" approved="yes">
+        <source>1271</source>
+        <target state="final">Téléporteurs</target>
+      </trans-unit>
+      <trans-unit id="1272" xml:space="preserve" approved="yes">
+        <source>1272</source>
+        <target state="final">Des téléporteurs individuels à sens unique sont installés un peu partout sur le terrain.
+Ils peuvent mener à la sortie, mais ne permettent pas de faire le chemin inverse. En outre, ils peuvent être activés ou désactivés selon la situation de combat.
+
+Les conditions faisant alterner leur statut sont les suivantes&lt;var 1D /var&gt;:
+- Activés&lt;var 1D /var&gt;: trente secondes avant la mise en marche du système d'arsenal mobile
+- Désactivés&lt;var 1D /var&gt;: lorsque le système d'arsenal mobile se met à l'arrêt, ainsi qu'au commencement d'une bataille</target>
       </trans-unit>
     </body>
   </file>

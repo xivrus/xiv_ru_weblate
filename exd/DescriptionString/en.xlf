@@ -1574,7 +1574,6 @@ To access unrelated duties, please suspend New Game+ and return to the standard 
 ・Clan Hunt boards
 ・Summoning bells
 ・Inn room features
-・Weather forecasts
 ・Unattuned aetherytes and Aethernet shards
 ・Duties accessible from NPCs
 ・All leves
@@ -1587,7 +1586,6 @@ To access unrelated duties, please suspend New Game+ and return to the standard 
 ・Eternal Bonding ceremonies
 ・Certain delivery moogles
 ・Certain vendors
-・Certain menders
 ・Interaction with certain objects
 ・Conversation with certain NPCs
 
@@ -1626,7 +1624,7 @@ Incapacitated players will be returned to their Grand Company's landing, where t
 Furthermore, players will be temporarily invulnerable when leaving their Grand Company's landing.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Mounts■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Players are free to use mounts during Frontline campaigns. However, players taking damage while mounted will be afflicted with the Limp status effect.
+Players are free to use mounts during Frontline campaigns. However, players taking damage while mounted will be forced off and afflicted with the Hoofing It status effect for five seconds.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Return■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Using Return will teleport players back to their landing point. Moreover, this action has no recast time during Frontline campaigns. Please note, however, casting will be interrupted by attacks.
@@ -1680,7 +1678,20 @@ In the event that none of the three alliances reaches the specified tactical rat
       </trans-unit>
       <trans-unit id="283" xml:space="preserve" approved="yes">
         <source>283</source>
-        <target state="final">Key locations such as outposts and Allagan ruins can be identified by flags, indicating the Grand Company that currently controls them. At the start of each match, all locations will be unoccupied. By remaining in close proximity to the flags at these locations, players can occupy them to improve their team's tactical rating. The location will become occupied more quickly when you have a higher number of team members near the flag than the opposing alliances. The greater the difference in players, the quicker it will be occupied. However, these areas may turn neutral should enemies come within proximity of a flag controlled by your team, or vice versa.</target>
+        <target state="final">Key locations such as outposts and Allagan ruins can be identified by flags, indicating the Grand Company that currently controls them. At the start of each match, all locations will be unoccupied. By remaining in close proximity to the flags at these locations, players can occupy them to improve their team's tactical rating.
+
+Every three seconds, tactical points will be accrued as follows:
+　・When occupying one key location, an increase of 2
+　・When occupying two key locations, an increase of 4
+　・When occupying three key locations, an increase of 6
+　・When occupying four key locations, an increase of 10
+　・When occupying five key locations, an increase of 12
+　・When occupying six key locations, an increase of 14
+　・When occupying seven key locations, an increase of 18
+　・When occupying eight key locations, an increase of 20
+　・When occupying nine key locations, an increase of 22
+
+While standing in key locations, players will be buffed with the status Sheer Will, greatly increasing damage dealt. The location will become occupied more quickly when you have a higher number of team members near the flag than the opposing alliances. The greater the difference in players, the quicker it will be occupied. However, these areas may turn neutral should enemies come within proximity of a flag controlled by your team, or vice versa.</target>
       </trans-unit>
       <trans-unit id="284" xml:space="preserve" approved="yes">
         <source>284</source>
@@ -2307,7 +2318,7 @@ Lost actions from the item category, however, are unique in that they may be use
 All duty actions and items can be used by left-clicking their icon, but can be bound to other keys.
 
 ■Gamepad
-Duty actions are used by pressing &lt;var 1E 12 /var&gt; while holding down both &lt;var 1E 0F /var&gt; and &lt;var 1E 10 /var&gt;. Lost actions from the item category must be selected from the lost finds holster. They may also be assigned to your hotbar.</target>
+Duty actions are used by pressing &lt;var 12 12 /var&gt; while holding down both &lt;var 1E 0F /var&gt; and &lt;var 1E 10 /var&gt;. Lost actions from the item category must be selected from the lost finds holster. They may also be assigned to your hotbar.</target>
       </trans-unit>
       <trans-unit id="411" xml:space="preserve" approved="yes">
         <source>411</source>
@@ -6709,7 +6720,7 @@ To create an outfit glamour, you must possess the corresponding combination of i
       </trans-unit>
       <trans-unit id="1166" xml:space="preserve" approved="yes">
         <source>1166</source>
-        <target state="final">Selecting this button will open the Outfit Glamour Creation window. Here you can select items from your Inventory and Armory Chest to include in the outfit glamour. Gear with condition below 100% cannot be used to form an outfit glamour.
+        <target state="final">Selecting this button will open the Outfit Glamour Creation window. Here you can select items from your Inventory and Armoury Chest to include in the outfit glamour. Gear with condition below 100% cannot be used to form an outfit glamour.
 
 &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Unlike standard glamours, the color of dyed gear is not transferred to an outfit glamour.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
@@ -6746,6 +6757,66 @@ Restoring an outfit glamour will return each included item to its original form.
       <trans-unit id="1172" xml:space="preserve" approved="yes">
         <source>1172</source>
         <target state="final">Note that attacks with no cast time will not display a cast bar.</target>
+      </trans-unit>
+      <trans-unit id="1263" xml:space="preserve" approved="yes">
+        <source>1263</source>
+        <target state="final">Weaponry Displacement System</target>
+      </trans-unit>
+      <trans-unit id="1264" xml:space="preserve" approved="yes">
+        <source>1264</source>
+        <target state="final">As the battle progresses, the weaponry displacement system will come into effect. While activated, three types of neutral weaponry may be deployed around the Heliodrome:
+
+　1. Interceptor Drones
+　2. Interceptor Command Systems
+　3. Interceptor Nodes
+</target>
+      </trans-unit>
+      <trans-unit id="1265" xml:space="preserve" approved="yes">
+        <source>1265</source>
+        <target state="final">Interceptor Drones</target>
+      </trans-unit>
+      <trans-unit id="1266" xml:space="preserve" approved="yes">
+        <source>1266</source>
+        <target state="final">Interceptor drones are small enemies that engage surrounding players with automatic cannons before self-detonating after an allotted time has passed. Defeating them will distribute tactical points proportional to damage contribution and raise the rating of the party that contributed the most.
+
+When interceptor drones are deployed, a golden interceptor drone α may appear. Defeating these rare enemies will result in greater rewards than regular interceptor drones. Both types of enemies will keep respawning as long as the weaponry displacement system is in effect.</target>
+      </trans-unit>
+      <trans-unit id="1267" xml:space="preserve" approved="yes">
+        <source>1267</source>
+        <target state="final">Interceptor Command Systems</target>
+      </trans-unit>
+      <trans-unit id="1268" xml:space="preserve" approved="yes">
+        <source>1268</source>
+        <target state="final">Interceptor command systems are medium-sized enemies that cannot be targeted and attack continuously after deployment. By swiftly absorbing attacks according to its indicators, players can reduce damage taken, earn tactical points, and increase rating.</target>
+      </trans-unit>
+      <trans-unit id="1269" xml:space="preserve" approved="yes">
+        <source>1269</source>
+        <target state="final">Interceptor Nodes</target>
+      </trans-unit>
+      <trans-unit id="1270" xml:space="preserve" approved="yes">
+        <source>1270</source>
+        <target state="final">Interceptor nodes are large enemies that indiscriminately target surrounding players with a variety of attacks.
+　・Ground Interference:
+　　A large area-of-effect attack.
+　・Heavy Interference:
+　　A stack marker attack.
+　・Targeted Interference:
+　　A honing attack.
+
+Every time this enemy's HP is reduced to zero, it will gain one point. When it has accrued five points, it will begin to flash, indicating that it may be defeated. Teams will accrue tactical points according to damage contribution each time the interceptor node's HP is reduced to zero.</target>
+      </trans-unit>
+      <trans-unit id="1271" xml:space="preserve" approved="yes">
+        <source>1271</source>
+        <target state="final">Personnel Displacement Panels</target>
+      </trans-unit>
+      <trans-unit id="1272" xml:space="preserve" approved="yes">
+        <source>1272</source>
+        <target state="final">Personnel displacement panels are one-way teleporters installed throughout the field for personal use. They may be active or inactive depending on the state of battle.
+　・Active:
+　　Thirty seconds before the weaponry displacement system activates.
+　・Inactive:
+　　When the weaponry displacement system deactivates and at the
+　　start of battle.</target>
       </trans-unit>
     </body>
   </file>
