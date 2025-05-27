@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="Addon" datatype="plaintext" source-language="en" target-language="ja">
     <body>
@@ -10697,6 +10697,10 @@ CLASS :</target>
       <trans-unit id="2734" xml:space="preserve" approved="yes">
         <source>2734</source>
         <target state="final">転送網</target>
+      </trans-unit>
+      <trans-unit id="2735" xml:space="preserve" approved="yes">
+        <source>2735</source>
+        <target state="final">AETHERNET</target>
       </trans-unit>
       <trans-unit id="2738" xml:space="preserve" approved="yes">
         <source>2738</source>
@@ -34906,6 +34910,11 @@ Immerse™を継続してご利用いただくには、
         <source>9893</source>
         <target state="final">シーズナルイベントで入手</target>
       </trans-unit>
+      <trans-unit id="9894" xml:space="preserve" approved="yes">
+        <source>9894</source>
+        <target state="final">&lt;var 28 ((ContentFinderCondition)) E8022C /var&gt;
+&lt;var 28 ((DynamicEvent)) E8030C /var&gt;</target>
+      </trans-unit>
       <trans-unit id="9979" xml:space="preserve" approved="yes">
         <source>9979</source>
         <target state="final">REWARD ACQUISITION</target>
@@ -40634,6 +40643,14 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
       <trans-unit id="11516" xml:space="preserve" approved="yes">
         <source>11516</source>
         <target state="final">使用できなくても受け取る</target>
+      </trans-unit>
+      <trans-unit id="11517" xml:space="preserve" approved="yes">
+        <source>11517</source>
+        <target state="final">すでに交換したことのある武器ですが、再度交換しますか？</target>
+      </trans-unit>
+      <trans-unit id="11518" xml:space="preserve" approved="yes">
+        <source>11518</source>
+        <target state="final">それでも交換する</target>
       </trans-unit>
       <trans-unit id="11520" xml:space="preserve" approved="yes">
         <source>11520</source>
@@ -52012,9 +52029,9 @@ PvPコンテンツ「クリスタルコンフリクト」や、
         <source>14820</source>
         <target state="final">Home World</target>
       </trans-unit>
-      <trans-unit id="14821" xml:space="preserve" approved="no">
+      <trans-unit id="14821" xml:space="preserve" approved="yes">
         <source>14821</source>
-        <target state="needs-translation">(キャラクター名を確認できません)</target>
+        <target state="final">(キャラクター名を確認できません)</target>
       </trans-unit>
       <trans-unit id="14822" xml:space="preserve" approved="yes">
         <source>14822</source>
@@ -55814,9 +55831,9 @@ Lv&lt;var 20 E808 /var&gt;</target>
         <source>15948</source>
         <target state="final">&lt;var 28 ((PublicContent)) E80604 /var&gt;のノートリアスモンスターを&lt;var 20 E809 /var&gt;体討伐する。</target>
       </trans-unit>
-      <trans-unit id="15949" xml:space="preserve" approved="no">
+      <trans-unit id="15949" xml:space="preserve" approved="yes">
         <source>15949</source>
-        <target state="needs-translation">&lt;var 28 ((PublicContent)) E80604 /var&gt;のクリティカルエンゲージメントを&lt;var 20 E809 /var&gt;回達成する。</target>
+        <target state="final">&lt;var 28 ((PublicContent)) E80604 /var&gt;のクリティカルエンゲージメントを&lt;var 20 E809 /var&gt;回達成する。</target>
       </trans-unit>
       <trans-unit id="15950" xml:space="preserve" approved="yes">
         <source>15950</source>
@@ -56784,6 +56801,26 @@ WQHD描画
         <source>16294</source>
         <target state="final">フェスティバル</target>
       </trans-unit>
+      <trans-unit id="16295" xml:space="preserve" approved="yes">
+        <source>16295</source>
+        <target state="final">サポートアクション切り替え</target>
+      </trans-unit>
+      <trans-unit id="16296" xml:space="preserve" approved="yes">
+        <source>16296</source>
+        <target state="final">サポートアクション実行</target>
+      </trans-unit>
+      <trans-unit id="16297" xml:space="preserve" approved="yes">
+        <source>16297</source>
+        <target state="final">選択中のサポートアクションを実行する。</target>
+      </trans-unit>
+      <trans-unit id="16298" xml:space="preserve" approved="yes">
+        <source>16298</source>
+        <target state="final">サポートアクション切り替え</target>
+      </trans-unit>
+      <trans-unit id="16299" xml:space="preserve" approved="yes">
+        <source>16299</source>
+        <target state="final">サポートアクションを切り替えて、実行するアクションを選択する。</target>
+      </trans-unit>
       <trans-unit id="16300" xml:space="preserve" approved="yes">
         <source>16300</source>
         <target state="final">カスタム</target>
@@ -57356,6 +57393,443 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
         <source>16481</source>
         <target state="final">現在のクラス・ジョブではこの訓練は挑戦できません</target>
       </trans-unit>
+      <trans-unit id="16580" xml:space="preserve" approved="yes">
+        <source>16580</source>
+        <target state="final">&lt;var 28 ((MKDSupportJob)) E80202 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16581" xml:space="preserve" approved="yes">
+        <source>16581</source>
+        <target state="final">&lt;var 28 ((MKDSupportJob)) E80201 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16582" xml:space="preserve" approved="yes">
+        <source>16582</source>
+        <target state="final">&lt;var 28 ((MKDSupportJob)) E80205 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16583" xml:space="preserve" approved="yes">
+        <source>16583</source>
+        <target state="final">&lt;var 28 ((MKDSupportJob)) E80201 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16584" xml:space="preserve" approved="yes">
+        <source>16584</source>
+        <target state="final">&lt;var 28 ((MKDSupportJob)) E80205 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16585" xml:space="preserve" approved="yes">
+        <source>16585</source>
+        <target state="final">&lt;var 28 ((MKDSupportJob)) E80201 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16586" xml:space="preserve" approved="yes">
+        <source>16586</source>
+        <target state="final">南征編</target>
+      </trans-unit>
+      <trans-unit id="16588" xml:space="preserve" approved="yes">
+        <source>16588</source>
+        <target state="final">knowledge</target>
+      </trans-unit>
+      <trans-unit id="16589" xml:space="preserve" approved="yes">
+        <source>16589</source>
+        <target state="final">ph. exp</target>
+      </trans-unit>
+      <trans-unit id="16590" xml:space="preserve" approved="yes">
+        <source>16590</source>
+        <target state="final">閉じる</target>
+      </trans-unit>
+      <trans-unit id="16597" xml:space="preserve" approved="yes">
+        <source>16597</source>
+        <target state="final">十二都市銀貨</target>
+      </trans-unit>
+      <trans-unit id="16598" xml:space="preserve" approved="yes">
+        <source>16598</source>
+        <target state="final">十二都市金貨</target>
+      </trans-unit>
+      <trans-unit id="16599" xml:space="preserve" approved="yes">
+        <source>16599</source>
+        <target state="final">魔紋起動証:力の塔</target>
+      </trans-unit>
+      <trans-unit id="16600" xml:space="preserve" approved="yes">
+        <source>16600</source>
+        <target state="final">&lt;var 29 EA02 /var&gt;&lt;var 1D /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16601" xml:space="preserve" approved="yes">
+        <source>16601</source>
+        <target state="final">&lt;var 08 E804 ((&lt;var 1A 02 /var&gt;&lt;var 12 3F /var&gt;&lt;var 29 EA02 /var&gt;&lt;var 1A 01 /var&gt;)) ((&lt;var 29 EA02 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16602" xml:space="preserve" approved="yes">
+        <source>16602</source>
+        <target state="final">&lt;var 08 E804 ((&lt;var 28 ((ClassJob)) E80302 /var&gt;  &lt;var 12 3F /var&gt;&lt;var 1A 02 /var&gt;&lt;var 29 EA02 /var&gt;&lt;var 1A 01 /var&gt;)) ((&lt;var 28 ((ClassJob)) E80302 /var&gt;  &lt;var 29 EA02 /var&gt;)) /var&gt;    &lt;var 08 E1E80801 ((EXP --/--)) ((&lt;var 08 E1E80701 ((&lt;var 12 4D /var&gt;&lt;WARNING: unknown macro code ('levelCapColor')&gt;EXP &lt;var 22 E805 ((,)) /var&gt; / &lt;var 22 E806 ((,)) /var&gt;&lt;WARNING: unknown macro code ('/levelCapColor')&gt;)) ((EXP &lt;var 22 E805 ((,)) /var&gt; / &lt;var 22 E806 ((,)) /var&gt;)) /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16603" xml:space="preserve" approved="yes">
+        <source>16603</source>
+        <target state="final">&lt;var 08 E804 ((&lt;var 1A 02 /var&gt;&lt;var 12 3F /var&gt;&lt;var 29 EA02 /var&gt; &lt;var 29 EA03 /var&gt;&lt;var 1A 01 /var&gt;)) ((&lt;var 08 E806 ((&lt;var 29 EA02 /var&gt; &lt;var 29 EA03 /var&gt;)) ((&lt;var 08 E805 ((&lt;var 29 EA03 /var&gt;)) ((&lt;var 29 EA02 /var&gt; &lt;var 29 EA03 /var&gt;)) /var&gt;)) /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16604" xml:space="preserve" approved="yes">
+        <source>16604</source>
+        <target state="final">&lt;var 08 E803 ((&lt;var 29 EA02 /var&gt;)) ((?? &lt;var 29 EA02 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16605" xml:space="preserve" approved="yes">
+        <source>16605</source>
+        <target state="final">&lt;var 08 E802 ((&lt;var 29 EA03 /var&gt; )) (()) /var&gt;&lt;var 08 E805 ((&lt;var 29 EA06 /var&gt; )) (()) /var&gt;&lt;var 29 EA04 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16606" xml:space="preserve" approved="yes">
+        <source>16606</source>
+        <target state="final">&lt;var 08 E1E80202 ((&lt;var 20 E802 /var&gt;)) ((??)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16607" xml:space="preserve" approved="yes">
+        <source>16607</source>
+        <target state="final">知見</target>
+      </trans-unit>
+      <trans-unit id="16608" xml:space="preserve" approved="yes">
+        <source>16608</source>
+        <target state="final">MASTER!</target>
+      </trans-unit>
+      <trans-unit id="16609" xml:space="preserve" approved="yes">
+        <source>16609</source>
+        <target state="final">残り時間順</target>
+      </trans-unit>
+      <trans-unit id="16610" xml:space="preserve" approved="yes">
+        <source>16610</source>
+        <target state="final">ナレッジレベル順</target>
+      </trans-unit>
+      <trans-unit id="16611" xml:space="preserve" approved="yes">
+        <source>16611</source>
+        <target state="final">サポートジョブ順</target>
+      </trans-unit>
+      <trans-unit id="16612" xml:space="preserve" approved="yes">
+        <source>16612</source>
+        <target state="final">--</target>
+      </trans-unit>
+      <trans-unit id="16613" xml:space="preserve" approved="yes">
+        <source>16613</source>
+        <target state="final">/</target>
+      </trans-unit>
+      <trans-unit id="16614" xml:space="preserve" approved="yes">
+        <source>16614</source>
+        <target state="final">クリティカルエンカウント
+『&lt;var 29 EA02 /var&gt;』
+が発生しました！ あなたはこの発生に貢献したため、直接突入が可能です。今すぐ移動しますか？
+&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;※一度突入すると、デジョン以外での退出はできません。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16615" xml:space="preserve" approved="yes">
+        <source>16615</source>
+        <target state="final">はい</target>
+      </trans-unit>
+      <trans-unit id="16616" xml:space="preserve" approved="yes">
+        <source>16616</source>
+        <target state="final">いいえ</target>
+      </trans-unit>
+      <trans-unit id="16617" xml:space="preserve" approved="yes">
+        <source>16617</source>
+        <target state="final">保留</target>
+      </trans-unit>
+      <trans-unit id="16618" xml:space="preserve" approved="yes">
+        <source>16618</source>
+        <target state="final">サポート経験値</target>
+      </trans-unit>
+      <trans-unit id="16619" xml:space="preserve" approved="yes">
+        <source>16619</source>
+        <target state="final">クリティカルエンカウント</target>
+      </trans-unit>
+      <trans-unit id="16620" xml:space="preserve" approved="yes">
+        <source>16620</source>
+        <target state="final">ナレッジレベルをシンク</target>
+      </trans-unit>
+      <trans-unit id="16621" xml:space="preserve" approved="yes">
+        <source>16621</source>
+        <target state="final">ナレッジレベルシンクを解除</target>
+      </trans-unit>
+      <trans-unit id="16622" xml:space="preserve" approved="yes">
+        <source>16622</source>
+        <target state="final">クリティカルエンカウントが発生中！
+開始まで &lt;var 29 EA02 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16623" xml:space="preserve" approved="yes">
+        <source>16623</source>
+        <target state="final">クリティカルエンカウントは
+まもなく開始されます。</target>
+      </trans-unit>
+      <trans-unit id="16624" xml:space="preserve" approved="yes">
+        <source>16624</source>
+        <target state="final">参加募集中　残り時間 &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16625" xml:space="preserve" approved="yes">
+        <source>16625</source>
+        <target state="final">開始準備中　残り時間 &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16626" xml:space="preserve" approved="yes">
+        <source>16626</source>
+        <target state="final">戦闘開始　残り時間 &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;&lt;var 08 E3E80401 (()) ((
+進行度 &lt;var 20 E804 /var&gt;%)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16630" xml:space="preserve" approved="yes">
+        <source>16630</source>
+        <target state="final">獲得できる知見・サポート経験値は対象エリア内で表示されます。</target>
+      </trans-unit>
+      <trans-unit id="16631" xml:space="preserve" approved="yes">
+        <source>16631</source>
+        <target state="final">&lt;var 28 ((Status)) E80301 /var&gt; Lv&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16632" xml:space="preserve" approved="yes">
+        <source>16632</source>
+        <target state="final">Knowledge Level</target>
+      </trans-unit>
+      <trans-unit id="16633" xml:space="preserve" approved="yes">
+        <source>16633</source>
+        <target state="final">Support Job</target>
+      </trans-unit>
+      <trans-unit id="16634" xml:space="preserve" approved="yes">
+        <source>16634</source>
+        <target state="final">Next</target>
+      </trans-unit>
+      <trans-unit id="16635" xml:space="preserve" approved="yes">
+        <source>16635</source>
+        <target state="final">Chain</target>
+      </trans-unit>
+      <trans-unit id="16636" xml:space="preserve" approved="yes">
+        <source>16636</source>
+        <target state="final">パーティのナレッジレベルをシンクして
+適正レベルパーティにします。</target>
+      </trans-unit>
+      <trans-unit id="16637" xml:space="preserve" approved="yes">
+        <source>16637</source>
+        <target state="final">パーティのナレッジレベルシンク中です。
+押すとシンクが解除されます。</target>
+      </trans-unit>
+      <trans-unit id="16638" xml:space="preserve" approved="yes">
+        <source>16638</source>
+        <target state="final">パーティのナレッジレベルが適正ではありません。
+シンク操作はパーティリーダーが行います。</target>
+      </trans-unit>
+      <trans-unit id="16639" xml:space="preserve" approved="yes">
+        <source>16639</source>
+        <target state="final">パーティのナレッジレベルシンク中です。</target>
+      </trans-unit>
+      <trans-unit id="16640" xml:space="preserve" approved="yes">
+        <source>16640</source>
+        <target state="final">Lv</target>
+      </trans-unit>
+      <trans-unit id="16641" xml:space="preserve" approved="yes">
+        <source>16641</source>
+        <target state="final">Lv&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16642" xml:space="preserve" approved="yes">
+        <source>16642</source>
+        <target state="final">三日月島探査記録帳</target>
+      </trans-unit>
+      <trans-unit id="16643" xml:space="preserve" approved="yes">
+        <source>16643</source>
+        <target state="final"></target>
+      </trans-unit>
+      <trans-unit id="16644" xml:space="preserve" approved="yes">
+        <source>16644</source>
+        <target state="final">&lt;var 08 E804 ((&lt;var 1A 02 /var&gt;&lt;var 12 3F /var&gt;KNOWLEDGE LEVEL &lt;var 20 E802 /var&gt;&lt;var 1A 01 /var&gt;)) ((KNOWLEDGE LEVEL &lt;var 20 E802 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16645" xml:space="preserve" approved="yes">
+        <source>16645</source>
+        <target state="final">残り時間　&lt;var 08 E3E80202 ((1分以内)) ((&lt;var 20 E802 /var&gt;分)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16646" xml:space="preserve" approved="yes">
+        <source>16646</source>
+        <target state="final">&lt;var 28 ((MKDSupportJob)) E80201 /var&gt;　&lt;var 08 E1E80364 ((MASTER!)) ((Lv &lt;var 20 E803 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16647" xml:space="preserve" approved="yes">
+        <source>16647</source>
+        <target state="final">サポートジョブ詳細</target>
+      </trans-unit>
+      <trans-unit id="16648" xml:space="preserve" approved="yes">
+        <source>16648</source>
+        <target state="final">サポートジョブチェンジ</target>
+      </trans-unit>
+      <trans-unit id="16649" xml:space="preserve" approved="yes">
+        <source>16649</source>
+        <target state="final">&lt;var 08 E1E80301 ((&lt;var 1A 02 /var&gt;&lt;var 20 E802 /var&gt;&lt;var 1A 01 /var&gt;)) ((&lt;var 20 E802 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16650" xml:space="preserve" approved="yes">
+        <source>16650</source>
+        <target state="final">SUPPORT JOB</target>
+      </trans-unit>
+      <trans-unit id="16651" xml:space="preserve" approved="yes">
+        <source>16651</source>
+        <target state="final">サポートジョブ</target>
+      </trans-unit>
+      <trans-unit id="16652" xml:space="preserve" approved="yes">
+        <source>16652</source>
+        <target state="final">魔紋起動証:力の塔×&lt;var 20 E802 /var&gt;を使用します。よろしいですか？
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;使用した魔紋起動証:力の塔は、魔紋起動失敗時や転送対象者になれなかった場合返却されますが、転送対象者が時間内に魔紋に入らなかった場合は返却されません。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16653" xml:space="preserve" approved="yes">
+        <source>16653</source>
+        <target state="final">Support Actions</target>
+      </trans-unit>
+      <trans-unit id="16654" xml:space="preserve" approved="yes">
+        <source>16654</source>
+        <target state="final">Support Traits</target>
+      </trans-unit>
+      <trans-unit id="16656" xml:space="preserve" approved="yes">
+        <source>16656</source>
+        <target state="final">サポートアクション設定</target>
+      </trans-unit>
+      <trans-unit id="16657" xml:space="preserve" approved="yes">
+        <source>16657</source>
+        <target state="final">サポートジョブやクレセントアイルの解説を表示</target>
+      </trans-unit>
+      <trans-unit id="16658" xml:space="preserve" approved="yes">
+        <source>16658</source>
+        <target state="final">SUPPORT JOB LIST</target>
+      </trans-unit>
+      <trans-unit id="16659" xml:space="preserve" approved="yes">
+        <source>16659</source>
+        <target state="final">修得済みサポートジョブ</target>
+      </trans-unit>
+      <trans-unit id="16660" xml:space="preserve" approved="yes">
+        <source>16660</source>
+        <target state="final">Lv&lt;var 20 E802 /var&gt;&lt;var 1D /var&gt;&lt;var 28 ((Action)) E80301 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16661" xml:space="preserve" approved="yes">
+        <source>16661</source>
+        <target state="final">Lv&lt;var 28 ((MKDTrait)) E80202 /var&gt;&lt;var 1D /var&gt;&lt;var 28 ((MKDTrait)) E80204 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16662" xml:space="preserve" approved="yes">
+        <source>16662</source>
+        <target state="final">サポートアクションの基本スロットに割り当てる</target>
+      </trans-unit>
+      <trans-unit id="16663" xml:space="preserve" approved="yes">
+        <source>16663</source>
+        <target state="final">サポートアクションスロットに表示しない</target>
+      </trans-unit>
+      <trans-unit id="16664" xml:space="preserve" approved="yes">
+        <source>16664</source>
+        <target state="final">サポートアクションスロットに表示する</target>
+      </trans-unit>
+      <trans-unit id="16665" xml:space="preserve" approved="yes">
+        <source>16665</source>
+        <target state="final">--/--</target>
+      </trans-unit>
+      <trans-unit id="16666" xml:space="preserve" approved="yes">
+        <source>16666</source>
+        <target state="final">CRESCENT INFO</target>
+      </trans-unit>
+      <trans-unit id="16667" xml:space="preserve" approved="yes">
+        <source>16667</source>
+        <target state="final">レベル・通貨確認</target>
+      </trans-unit>
+      <trans-unit id="16668" xml:space="preserve" approved="yes">
+        <source>16668</source>
+        <target state="final">三日月島探査記録帳&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16669" xml:space="preserve" approved="yes">
+        <source>16669</source>
+        <target state="final">「&lt;var 28 ((MKDLore)) E80206 /var&gt;」についての情報が記録された！</target>
+      </trans-unit>
+      <trans-unit id="16670" xml:space="preserve" approved="yes">
+        <source>16670</source>
+        <target state="final">転送魔紋に使用する&lt;var 28 ((Item)) E80201 /var&gt;の数を決めてください。
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;力の塔への転送所定人数を超えて使用された場合、
+使用した数が多い人から優先して転送されます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16671" xml:space="preserve" approved="yes">
+        <source>16671</source>
+        <target state="final">自分が使用した数</target>
+      </trans-unit>
+      <trans-unit id="16672" xml:space="preserve" approved="yes">
+        <source>16672</source>
+        <target state="final">現時点の使用人数</target>
+      </trans-unit>
+      <trans-unit id="16673" xml:space="preserve" approved="yes">
+        <source>16673</source>
+        <target state="final">使用する</target>
+      </trans-unit>
+      <trans-unit id="16674" xml:space="preserve" approved="yes">
+        <source>16674</source>
+        <target state="final">キャンセル</target>
+      </trans-unit>
+      <trans-unit id="16675" xml:space="preserve" approved="yes">
+        <source>16675</source>
+        <target state="final">TREASURE ACQUISITION</target>
+      </trans-unit>
+      <trans-unit id="16676" xml:space="preserve" approved="yes">
+        <source>16676</source>
+        <target state="final">CRESCENT ISLE NOTE</target>
+      </trans-unit>
+      <trans-unit id="16677" xml:space="preserve" approved="yes">
+        <source>16677</source>
+        <target state="final">三日月島探査記録帳 </target>
+      </trans-unit>
+      <trans-unit id="16678" xml:space="preserve" approved="yes">
+        <source>16678</source>
+        <target state="final">？？？？</target>
+      </trans-unit>
+      <trans-unit id="16679" xml:space="preserve" approved="yes">
+        <source>16679</source>
+        <target state="final">未探査項目</target>
+      </trans-unit>
+      <trans-unit id="16680" xml:space="preserve" approved="yes">
+        <source>16680</source>
+        <target state="final">SUPPORT ACTION SETTING</target>
+      </trans-unit>
+      <trans-unit id="16681" xml:space="preserve" approved="yes">
+        <source>16681</source>
+        <target state="final">サポートアクション設定</target>
+      </trans-unit>
+      <trans-unit id="16682" xml:space="preserve" approved="yes">
+        <source>16682</source>
+        <target state="final">全般設定</target>
+      </trans-unit>
+      <trans-unit id="16683" xml:space="preserve" approved="yes">
+        <source>16683</source>
+        <target state="final">&lt;var 08 E1E94C01 ((コントローラー)) ((ゲームパッド)) /var&gt;での入力操作</target>
+      </trans-unit>
+      <trans-unit id="16684" xml:space="preserve" approved="yes">
+        <source>16684</source>
+        <target state="final">&lt;var 1E 0F /var&gt;+&lt;var 12 12 /var&gt;: アクション選択 / &lt;var 1E 10 /var&gt;+&lt;var 12 12 /var&gt;: アクション実行</target>
+      </trans-unit>
+      <trans-unit id="16685" xml:space="preserve" approved="yes">
+        <source>16685</source>
+        <target state="final">&lt;var 1E 0F /var&gt;+&lt;var 12 12 /var&gt;: アクション実行 / &lt;var 1E 10 /var&gt;+&lt;var 12 12 /var&gt;: アクション選択</target>
+      </trans-unit>
+      <trans-unit id="16686" xml:space="preserve" approved="yes">
+        <source>16686</source>
+        <target state="final">サポートアクションリングの回転方向</target>
+      </trans-unit>
+      <trans-unit id="16687" xml:space="preserve" approved="yes">
+        <source>16687</source>
+        <target state="final">順方向(反時計回り)</target>
+      </trans-unit>
+      <trans-unit id="16688" xml:space="preserve" approved="yes">
+        <source>16688</source>
+        <target state="final">逆方向(時計回り)</target>
+      </trans-unit>
+      <trans-unit id="16689" xml:space="preserve" approved="yes">
+        <source>16689</source>
+        <target state="final">アクション実行後は基本スロットに戻す</target>
+      </trans-unit>
+      <trans-unit id="16690" xml:space="preserve" approved="yes">
+        <source>16690</source>
+        <target state="final">適用</target>
+      </trans-unit>
+      <trans-unit id="16691" xml:space="preserve" approved="yes">
+        <source>16691</source>
+        <target state="final">戻る</target>
+      </trans-unit>
+      <trans-unit id="16692" xml:space="preserve" approved="yes">
+        <source>16692</source>
+        <target state="final">&lt;var 08 E1E94C01 ((コントローラー)) ((ゲームパッド)) /var&gt;入力設定</target>
+      </trans-unit>
+      <trans-unit id="16693" xml:space="preserve" approved="yes">
+        <source>16693</source>
+        <target state="final">サポートアクションリングのアクション選択操作で、どちらの回転方向のアクションを次の実行対象とするかを設定します。</target>
+      </trans-unit>
+      <trans-unit id="16694" xml:space="preserve" approved="yes">
+        <source>16694</source>
+        <target state="final">設定を有効にすると、スロットの選択状態を毎回、実行したサポートアクションから基本スロットに割り当てたサポートアクションに戻します。</target>
+      </trans-unit>
+      <trans-unit id="16695" xml:space="preserve" approved="yes">
+        <source>16695</source>
+        <target state="final">&lt;var 08 E1E94C01 ((コントローラー)) ((ゲームパッド)) /var&gt;の2つの入力のうち、どちらをサポートアクション選択操作、どちらをサポートアクション実行操作に割り当てるかを設定します。</target>
+      </trans-unit>
+      <trans-unit id="16696" xml:space="preserve" approved="yes">
+        <source>16696</source>
+        <target state="final">このまま閉じると設定が破棄されます。
+よろしいですか？</target>
+      </trans-unit>
       <trans-unit id="16697" xml:space="preserve" approved="yes">
         <source>16697</source>
         <target state="final">&lt;var 28 ((ClassJob)) E80201 /var&gt;</target>
@@ -57562,11 +58036,11 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
       </trans-unit>
       <trans-unit id="16771" xml:space="preserve" approved="yes">
         <source>16771</source>
-        <target state="final">ゴールドグレード：残り時間 &lt;var 07 E802 /var&gt;&lt;var 24 DA /var&gt;:&lt;var 24 D9 /var&gt; ～ (&lt;var 08 E1E80301 ((獲得済み)) ((未獲得)) /var&gt;)</target>
+        <target state="final">ゴールドグレード：残り時間 &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt; ～ (&lt;var 08 E1E80401 ((獲得済み)) ((未獲得)) /var&gt;)</target>
       </trans-unit>
       <trans-unit id="16772" xml:space="preserve" approved="yes">
         <source>16772</source>
-        <target state="final">シルバーグレード：残り時間 &lt;var 07 E802 /var&gt;&lt;var 24 DA /var&gt;:&lt;var 24 D9 /var&gt; ～</target>
+        <target state="final">シルバーグレード：残り時間 &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt; ～</target>
       </trans-unit>
       <trans-unit id="16773" xml:space="preserve" approved="yes">
         <source>16773</source>
@@ -57646,7 +58120,7 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
       </trans-unit>
       <trans-unit id="16792" xml:space="preserve" approved="yes">
         <source>16792</source>
-        <target state="final">残り時間 &lt;var 07 E802 /var&gt;&lt;var 24 DA /var&gt;:&lt;var 24 D9 /var&gt;以上</target>
+        <target state="final">残り時間 &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;以上</target>
       </trans-unit>
       <trans-unit id="16793" xml:space="preserve" approved="yes">
         <source>16793</source>
@@ -57690,7 +58164,7 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
       </trans-unit>
       <trans-unit id="16803" xml:space="preserve" approved="yes">
         <source>16803</source>
-        <target state="final">&lt;var 07 E802 /var&gt; &lt;var 24 DA /var&gt;:&lt;var 24 D9 /var&gt;</target>
+        <target state="final"> &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;</target>
       </trans-unit>
       <trans-unit id="16804" xml:space="preserve" approved="yes">
         <source>16804</source>
@@ -58344,7 +58818,7 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
       </trans-unit>
       <trans-unit id="16971" xml:space="preserve" approved="yes">
         <source>16971</source>
-        <target state="final"> &lt;var 07 E802 /var&gt;&lt;var 24 DA /var&gt;:&lt;var 24 D9 /var&gt;/&lt;var 07 E803 /var&gt;&lt;var 24 DA /var&gt;:&lt;var 24 D9 /var&gt;</target>
+        <target state="final"> &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;/&lt;var 20 E804 /var&gt;:&lt;var 24 E805 /var&gt;</target>
       </trans-unit>
       <trans-unit id="16972" xml:space="preserve" approved="yes">
         <source>16972</source>
@@ -58369,7 +58843,7 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
       </trans-unit>
       <trans-unit id="16977" xml:space="preserve" approved="yes">
         <source>16977</source>
-        <target state="final"> &lt;var 07 E802 /var&gt;&lt;var 24 DA /var&gt;:&lt;var 24 D9 /var&gt;</target>
+        <target state="final"> &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;</target>
       </trans-unit>
       <trans-unit id="16981" xml:space="preserve" approved="yes">
         <source>16981</source>
