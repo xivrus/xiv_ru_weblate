@@ -561,6 +561,18 @@ VERWENDUNG:
 　　Deaktiviert die Einstellung.
 Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.&lt;tab&gt;/automatischanvisieren&lt;tab&gt;&lt;tab&gt;/autotargetpriority&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="49" xml:space="preserve" approved="yes">
+        <source>49</source>
+        <target state="final">/vieraohren, /vieraears
+VERWENDUNG:
+→ Macht Viera-Ohren bei bestimmten Kopfbedeckungen sichtbar oder verborgen.
+&gt;&gt;Unterbefehle:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　　Viera-Ohren sind sichtbar.
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　　Viera-Ohren sind verborgen.
+Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.&lt;tab&gt;/vieraohren&lt;tab&gt;&lt;tab&gt;/vieraears&lt;tab&gt;/vears</target>
+      </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
         <target state="final">/pvpteam, /pt
@@ -1809,8 +1821,8 @@ VERWENDUNG:
 /statusaus "[Status]"
 → Deaktiviert den angegebenen positiven Statuseffekt.
 &gt;&gt;Beispiel:
-/statusaus "Lanzenschärfung"
-Entfernt den Status Lanzenschärfung.&lt;tab&gt;/statusaus&lt;tab&gt;&lt;tab&gt;/statusoff&lt;tab&gt;</target>
+/statusaus "Schutzwall"
+Entfernt den Status Schutzwall.&lt;tab&gt;/statusaus&lt;tab&gt;&lt;tab&gt;/statusoff&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="276" xml:space="preserve" approved="yes">
         <source>276</source>
@@ -4808,6 +4820,69 @@ VERWENDUNG:
 → Du hörst nicht auf, konzentriert zu lesen.
 &gt;&gt;Unterbefehl:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/schmökern&lt;tab&gt;&lt;tab&gt;/study&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="699" xml:space="preserve" approved="yes">
+        <source>699</source>
+        <target state="final">/gridanischesschlückchen, /gridaniansip
+VERWENDUNG:
+/gridanischersip [Unterbefehl]
+→ Du trinkst einen Schluck gridanischen Kinderpunsches.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/gridanischesschlückchen&lt;tab&gt;&lt;tab&gt;/gridaniansip&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="700" xml:space="preserve" approved="yes">
+        <source>700</source>
+        <target state="final">/uldhischesschlückchen, /uldahnsip
+VERWENDUNG:
+/uldhischersip [Unterbefehl]
+→ Du trinkst einen Schluck ul'dhischen Kinderpunsches.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/uldhischesschlückchen&lt;tab&gt;&lt;tab&gt;/uldahnsip&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="701" xml:space="preserve" approved="yes">
+        <source>701</source>
+        <target state="final">/limsischesschlückchen, /lominsansip
+VERWENDUNG:
+/limsischersip [Unterbefehl]
+→ Du trinkst einen Schluck limsischen Kinderpunsches.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/limsischesschlückchen&lt;tab&gt;&lt;tab&gt;/lominsansip&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="702" xml:space="preserve" approved="yes">
+        <source>702</source>
+        <target state="final">/gridanischerschluck, /gridaniangulp
+VERWENDUNG:
+/gridanischerschluck [Unterbefehl]
+→ Du genießt einen Becher gridanischen Kinderpunsches.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/gridanischerschluck&lt;tab&gt;&lt;tab&gt;/gridaniangulp&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="703" xml:space="preserve" approved="yes">
+        <source>703</source>
+        <target state="final">/uldhischerschluck, /uldahngulp
+VERWENDUNG:
+/uldhischerschluck [Unterbefehl]
+→ Du genießt einen Becher ul'dhischen Kinderpunsches.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/uldhischerschluck&lt;tab&gt;&lt;tab&gt;/uldahngulp&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="704" xml:space="preserve" approved="yes">
+        <source>704</source>
+        <target state="final">/limsischerschluck, /lominsangulp
+VERWENDUNG:
+/limsischerschluck [Unterbefehl]
+→ Du genießt einen Becher limsischen Kinderpunsches.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/limsischerschluck&lt;tab&gt;&lt;tab&gt;/lominsangulp&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="708" xml:space="preserve" approved="yes">
+        <source>708</source>
+        <target state="final">/beschwingtnotieren, /pen
+VERWENDUNG:
+/beschwingtnotieren [Unterbefehl]
+→ Du machst die mit deiner Feder ein paar Notizen.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/beschwingtnotieren&lt;tab&gt;&lt;tab&gt;/pen&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

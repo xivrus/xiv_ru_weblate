@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="Status" datatype="plaintext" source-language="en" target-language="fr">
     <body>
@@ -6016,9 +6016,9 @@ Sous un effet augmentant les chances de coups nets et critiques, les dégâts in
         <source>1530</source>
         <target state="final">Transcendance&lt;tab&gt;L'éther accumulé a permis d'outrepasser les limites naturelles de sa propre puissance.</target>
       </trans-unit>
-      <trans-unit id="1531" xml:space="preserve" approved="no">
+      <trans-unit id="1531" xml:space="preserve" approved="yes">
         <source>1531</source>
-        <target state="needs-translation">Lapinou&lt;var 1D /var&gt;!&lt;tab&gt;Le personnage est guidé vers un trésor.</target>
+        <target state="final">Piste au trésor&lt;tab&gt;Le personnage est guidé vers un trésor.</target>
       </trans-unit>
       <trans-unit id="1532" xml:space="preserve" approved="yes">
         <source>1532</source>
@@ -7803,7 +7803,7 @@ Effet sup&lt;var 16 /var&gt;plé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;tai&lt;
       </trans-unit>
       <trans-unit id="1982" xml:space="preserve" approved="yes">
         <source>1982</source>
-        <target state="final">Bain de sang&lt;tab&gt;Les attaques physiques absorbent des PV.</target>
+        <target state="final">Bain de sang&lt;tab&gt;Les dégâts infligés sont augmentés et les attaques absorbent des PV.</target>
       </trans-unit>
       <trans-unit id="1983" xml:space="preserve" approved="yes">
         <source>1983</source>
@@ -12211,7 +12211,7 @@ Recevoir certaines attaques permet d'annuler l'effet sans subir lesdits dégâts
       </trans-unit>
       <trans-unit id="3148" xml:space="preserve" approved="yes">
         <source>3148</source>
-        <target state="final">Chaleur&lt;tab&gt;Enclenche Surchauffe au bout du 4e degré de Chaleur.</target>
+        <target state="final">Chaleur&lt;tab&gt;Enclenche Surchauffe au bout du 3e degré de Chaleur.</target>
       </trans-unit>
       <trans-unit id="3149" xml:space="preserve" approved="yes">
         <source>3149</source>
@@ -12267,7 +12267,7 @@ Recevoir certaines attaques permet d'annuler l'effet sans subir lesdits dégâts
       </trans-unit>
       <trans-unit id="3162" xml:space="preserve" approved="yes">
         <source>3162</source>
-        <target state="final">Danse tranchante&lt;tab&gt;Des dégâts physiques périodiques sont infligés aux ennemis alentour, et les dégâts reçus sont réduits.</target>
+        <target state="final">Danse tranchante&lt;tab&gt;Des dégâts physiques périodiques sont infligés aux ennemis alentour, les dégâts reçus sont réduits et la vitesse de déplacement est augmentée.</target>
       </trans-unit>
       <trans-unit id="3163" xml:space="preserve" approved="yes">
         <source>3163</source>
@@ -12339,7 +12339,7 @@ Recevoir certaines attaques permet d'annuler l'effet sans subir lesdits dégâts
       </trans-unit>
       <trans-unit id="3180" xml:space="preserve" approved="yes">
         <source>3180</source>
-        <target state="final">Vertigineux&lt;tab&gt;Saute très haut dans les airs et ne peut être pris pour cible.</target>
+        <target state="final">Vertigineux&lt;tab&gt;Saute très haut dans les airs, ne peut être pris pour cible et la vitesse de déplacement est augmentée.</target>
       </trans-unit>
       <trans-unit id="3181" xml:space="preserve" approved="yes">
         <source>3181</source>
@@ -13517,9 +13517,9 @@ Recevoir certaines attaques permet d'annuler l'effet sans subir lesdits dégâts
         <source>3492</source>
         <target state="final">Recouvrement&lt;tab&gt;Des PV sont récupérés périodiquement.</target>
       </trans-unit>
-      <trans-unit id="3493" xml:space="preserve" approved="no">
+      <trans-unit id="3493" xml:space="preserve" approved="yes">
         <source>3493</source>
-        <target state="needs-translation">Méga Lenteur&lt;tab&gt;La vitesse des attaques automatiques est réduite, et les temps de lancement et de recharge des sorts et des techniques d'arme sont allongés.</target>
+        <target state="final">Méga Lenteur&lt;tab&gt;La vitesse des attaques automatiques est réduite, et les temps de lancement et de recharge des sorts et des techniques d'arme sont allongés.</target>
       </trans-unit>
       <trans-unit id="3494" xml:space="preserve" approved="yes">
         <source>3494</source>
@@ -16106,7 +16106,7 @@ Au troisième degré, Leurre modeste ne peut plus être utilisé.</target>
       </trans-unit>
       <trans-unit id="4235" xml:space="preserve" approved="yes">
         <source>4235</source>
-        <target state="final">Fureur&lt;tab&gt;Utilise continuellement des attaques automatiques sur l'ennemi le plus proche.
+        <target state="final">Fureur&lt;tab&gt;Effectue continuellement des attaques physiques dans une zone en éventail vers les ennemis à proximité.
 Certaines altérations d'état sont annulées et la plupart des projections et attractions sont sans effet.</target>
       </trans-unit>
       <trans-unit id="4236" xml:space="preserve" approved="yes">
@@ -16127,11 +16127,13 @@ Certaines altérations d'état sont annulées et la plupart des projections et a
       </trans-unit>
       <trans-unit id="4240" xml:space="preserve" approved="yes">
         <source>4240</source>
-        <target state="final">Ciblage&lt;tab&gt;Les chances de critiques et de coups nets sont augmentées.</target>
+        <target state="final">Ciblage&lt;tab&gt;Les chances de critiques et de coups nets sont augmentées.
+Ne s'applique pas aux actions curatives.</target>
       </trans-unit>
       <trans-unit id="4241" xml:space="preserve" approved="yes">
         <source>4241</source>
-        <target state="final">Ciblage sûr&lt;tab&gt;Les chances de critiques et de coups nets sont augmentées et les attaques touchent à coup sûr.</target>
+        <target state="final">Ciblage sûr&lt;tab&gt;Les chances de critiques et de coups nets sont augmentées et les attaques touchent à coup sûr.
+Ne s'applique pas aux actions curatives.</target>
       </trans-unit>
       <trans-unit id="4242" xml:space="preserve" approved="yes">
         <source>4242</source>
@@ -16781,6 +16783,10 @@ Certaines altérations d'état sont annulées et la plupart des projections et a
         <source>4410</source>
         <target state="final">Invulnérable&lt;tab&gt;Aucun dégât n'est subi.</target>
       </trans-unit>
+      <trans-unit id="4415" xml:space="preserve" approved="yes">
+        <source>4415</source>
+        <target state="final">Marque de contributeur exemplaire&lt;tab&gt;Prouve l'obtention du titre de contributeur exemplaire sur une période donnée. Artisans et récolteurs uniquement.</target>
+      </trans-unit>
       <trans-unit id="4416" xml:space="preserve" approved="yes">
         <source>4416</source>
         <target state="final">Résistance à Interruption&lt;tab&gt;Interruption n'a aucun effet.</target>
@@ -17113,6 +17119,10 @@ Certaines altérations d'état sont annulées et la plupart des projections et a
         <source>4504</source>
         <target state="final">Électrocution&lt;tab&gt;Des dégâts périodiques de foudre sont subis.</target>
       </trans-unit>
+      <trans-unit id="4509" xml:space="preserve" approved="yes">
+        <source>4509</source>
+        <target state="final">Entraves flottantes&lt;tab&gt;Le corps est entravé dans les airs et tout déplacement est impossible.</target>
+      </trans-unit>
       <trans-unit id="4513" xml:space="preserve" approved="yes">
         <source>4513</source>
         <target state="final">Transfert de pilote&lt;tab&gt;Le pilote est transféré au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment.</target>
@@ -17149,8 +17159,84 @@ Certaines altérations d'état sont annulées et la plupart des projections et a
         <source>4540</source>
         <target state="final">Résistance au perforant réduite&lt;tab&gt;La résistance au perforant est réduite.</target>
       </trans-unit>
+      <trans-unit id="4542" xml:space="preserve" approved="yes">
+        <source>4542</source>
+        <target state="final">Astreinte du bourreau α&lt;tab&gt;La victime est liée à son bourreau. Seules les attaques sur celui-ci ont un effet.</target>
+      </trans-unit>
+      <trans-unit id="4543" xml:space="preserve" approved="yes">
+        <source>4543</source>
+        <target state="final">Astreinte du bourreau β&lt;tab&gt;La victime est liée à son bourreau. Seules les attaques sur celui-ci ont un effet.</target>
+      </trans-unit>
+      <trans-unit id="4544" xml:space="preserve" approved="yes">
+        <source>4544</source>
+        <target state="final">Astreinte du bourreau γ&lt;tab&gt;La victime est liée à son bourreau. Seules les attaques sur celui-ci ont un effet.</target>
+      </trans-unit>
+      <trans-unit id="4545" xml:space="preserve" approved="yes">
+        <source>4545</source>
+        <target state="final">Astreinte du bourreau δ&lt;tab&gt;La victime est liée à son bourreau. Seules les attaques sur celui-ci ont un effet.</target>
+      </trans-unit>
+      <trans-unit id="4546" xml:space="preserve" approved="yes">
+        <source>4546</source>
+        <target state="final">Astreinte du condamné α&lt;tab&gt;S'est lié à un(e) condamné(e). Uniquement vulnérable aux attaques du personnage subissant Astreinte du bourreau α.</target>
+      </trans-unit>
+      <trans-unit id="4547" xml:space="preserve" approved="yes">
+        <source>4547</source>
+        <target state="final">Astreinte du condamné β&lt;tab&gt;S'est lié à un(e) condamné(e). Uniquement vulnérable aux attaques du personnage subissant Astreinte du bourreau β.</target>
+      </trans-unit>
+      <trans-unit id="4548" xml:space="preserve" approved="yes">
+        <source>4548</source>
+        <target state="final">Astreinte du condamné γ&lt;tab&gt;S'est lié à un(e) condamné(e). Uniquement vulnérable aux attaques du personnage subissant Astreinte du bourreau γ.</target>
+      </trans-unit>
+      <trans-unit id="4549" xml:space="preserve" approved="yes">
+        <source>4549</source>
+        <target state="final">Astreinte du condamné δ&lt;tab&gt;S'est lié à un(e) condamné(e). Uniquement vulnérable aux attaques du personnage subissant Astreinte du bourreau δ.</target>
+      </trans-unit>
+      <trans-unit id="4550" xml:space="preserve" approved="yes">
+        <source>4550</source>
+        <target state="final">Délivrance du condamné&lt;tab&gt;A vaincu son bourreau. Les attaques sur les autres bourreaux ont de nouveau un effet.</target>
+      </trans-unit>
+      <trans-unit id="4551" xml:space="preserve" approved="yes">
+        <source>4551</source>
+        <target state="final">Charge positive&lt;tab&gt;La force du champ électromagnétique est positive.</target>
+      </trans-unit>
+      <trans-unit id="4552" xml:space="preserve" approved="yes">
+        <source>4552</source>
+        <target state="final">Charge négative&lt;tab&gt;La force du champ électromagnétique est négative.</target>
+      </trans-unit>
+      <trans-unit id="4553" xml:space="preserve" approved="yes">
+        <source>4553</source>
+        <target state="final">Troubles sensoriels&lt;tab&gt;Les sens sont troublés, ce qui empêche de prévoir les attaques ennemies.</target>
+      </trans-unit>
       <trans-unit id="4558" xml:space="preserve" approved="yes">
         <source>4558</source>
+        <target state="final">Glas&lt;tab&gt;Mort certaine lorsque le compteur atteint zéro.</target>
+      </trans-unit>
+      <trans-unit id="4578" xml:space="preserve" approved="yes">
+        <source>4578</source>
+        <target state="final">Attache&lt;tab&gt;Toute action est impossible.</target>
+      </trans-unit>
+      <trans-unit id="4580" xml:space="preserve" approved="yes">
+        <source>4580</source>
+        <target state="final">Tir préventif&lt;tab&gt;Dans la mire d'Oméga. Après un certain temps, l'attaque est lancée en direction de la cible.</target>
+      </trans-unit>
+      <trans-unit id="4581" xml:space="preserve" approved="yes">
+        <source>4581</source>
+        <target state="final">Paradis transcendé&lt;tab&gt;La conscience a discerné la contrefaçon du monde matériel et peut désormais le manipuler à volonté.</target>
+      </trans-unit>
+      <trans-unit id="4594" xml:space="preserve" approved="yes">
+        <source>4594</source>
+        <target state="final">Glas&lt;tab&gt;Mort certaine lorsque le compteur atteint zéro.</target>
+      </trans-unit>
+      <trans-unit id="4610" xml:space="preserve" approved="yes">
+        <source>4610</source>
+        <target state="final">Destro-frappes&lt;tab&gt;Toutes les attaques physiques de mêlée deviennent des coups critiques pendant la durée de l'effet.</target>
+      </trans-unit>
+      <trans-unit id="4618" xml:space="preserve" approved="yes">
+        <source>4618</source>
+        <target state="final">Tenir bon&lt;tab&gt;Les pré&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;ra&lt;var 16 /var&gt;tions nécessaires ont été faites pour subir un assaut dévastateur.</target>
+      </trans-unit>
+      <trans-unit id="4683" xml:space="preserve" approved="yes">
+        <source>4683</source>
         <target state="final">Glas&lt;tab&gt;Mort certaine lorsque le compteur atteint zéro.</target>
       </trans-unit>
     </body>

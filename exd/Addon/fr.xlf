@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="Addon" datatype="plaintext" source-language="en" target-language="fr">
     <body>
@@ -4812,6 +4812,18 @@ Elle se déclenchera &lt;var 08 E4E80502 ((1 minute)) ((&lt;var 20 E805 /var&gt;
         <source>1263</source>
         <target state="final">Affichage des noms</target>
       </trans-unit>
+      <trans-unit id="1264" xml:space="preserve" approved="yes">
+        <source>1264</source>
+        <target state="final">Transparence du champ de saisie</target>
+      </trans-unit>
+      <trans-unit id="1265" xml:space="preserve" approved="yes">
+        <source>1265</source>
+        <target state="final">Bulles de discussion</target>
+      </trans-unit>
+      <trans-unit id="1266" xml:space="preserve" approved="yes">
+        <source>1266</source>
+        <target state="final">Paramètres</target>
+      </trans-unit>
       <trans-unit id="1270" xml:space="preserve" approved="yes">
         <source>1270</source>
         <target state="final">Choisissez les préréglages voulus pour cet onglet.</target>
@@ -9093,6 +9105,10 @@ Procéder quand même à l'échange&lt;var 1D /var&gt;?</target>
         <source>2440</source>
         <target state="final">Retour</target>
       </trans-unit>
+      <trans-unit id="2441" xml:space="preserve" approved="yes">
+        <source>2441</source>
+        <target state="final">Déguisements</target>
+      </trans-unit>
       <trans-unit id="2445" xml:space="preserve" approved="yes">
         <source>2445</source>
         <target state="final">Vents éthérés</target>
@@ -11401,6 +11417,14 @@ Utilisez &lt;var 1E 06 /var&gt; ou les touches directionnelles vers le haut ou l
         <source>3167</source>
         <target state="final">Opérations de guilde</target>
       </trans-unit>
+      <trans-unit id="3176" xml:space="preserve" approved="yes">
+        <source>3176</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="3177" xml:space="preserve" approved="yes">
+        <source>3177</source>
+        <target state="final">Afficher l'aide</target>
+      </trans-unit>
       <trans-unit id="3180" xml:space="preserve" approved="yes">
         <source>3180</source>
         <target state="final">Personnage JcJ</target>
@@ -12060,7 +12084,7 @@ Les majuscules/minuscules sont prises en compte lors de la recherche.</target>
       </trans-unit>
       <trans-unit id="3393" xml:space="preserve" approved="yes">
         <source>3393</source>
-        <target state="final">Jeu à la manette.</target>
+        <target state="final">Jeu à la &lt;var 42 02 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="3394" xml:space="preserve" approved="yes">
         <source>3394</source>
@@ -12121,6 +12145,10 @@ Les majuscules/minuscules sont prises en compte lors de la recherche.</target>
       <trans-unit id="3416" xml:space="preserve" approved="yes">
         <source>3416</source>
         <target state="final">Aucun objet ajouté récemment.</target>
+      </trans-unit>
+      <trans-unit id="3417" xml:space="preserve" approved="yes">
+        <source>3417</source>
+        <target state="final">Afficher les objets pour la classe/le job actuel</target>
       </trans-unit>
       <trans-unit id="3420" xml:space="preserve" approved="yes">
         <source>3420</source>
@@ -14345,7 +14373,7 @@ Progression&lt;var 1D /var&gt;: &lt;var 20 E803 /var&gt;%</target>
       </trans-unit>
       <trans-unit id="4174" xml:space="preserve" approved="yes">
         <source>4174</source>
-        <target state="final">Paramètres &lt;var 08 E4E94C01 ((manette)) ((&lt;var 08 E4E94F64 ((manette sans fil)) ((manette sans fil Xbox)) /var&gt;)) /var&gt;</target>
+        <target state="final">Paramètres &lt;var 42 16 /var&gt;</target>
       </trans-unit>
       <trans-unit id="4175" xml:space="preserve" approved="yes">
         <source>4175</source>
@@ -18681,7 +18709,8 @@ Une plus belle récompense vous attend, si vous faites d'autres lignes avec les 
       </trans-unit>
       <trans-unit id="5608" xml:space="preserve" approved="yes">
         <source>5608</source>
-        <target state="final">Réussissez une des aventures ci-dessus pour obtenir une vignette.</target>
+        <target state="final">Réussissez une des aventures ci-dessus pour obtenir une vignette.
+* Il est possible de vérifier les missions concernées via le sous-menu.</target>
       </trans-unit>
       <trans-unit id="5609" xml:space="preserve" approved="yes">
         <source>5609</source>
@@ -19513,6 +19542,18 @@ Continuer&lt;var 1D /var&gt;?</target>
         <source>5844</source>
         <target state="final">Rendre le carnet quand même.</target>
       </trans-unit>
+      <trans-unit id="5845" xml:space="preserve" approved="yes">
+        <source>5845</source>
+        <target state="final">Liste des missions</target>
+      </trans-unit>
+      <trans-unit id="5847" xml:space="preserve" approved="yes">
+        <source>5847</source>
+        <target state="final">Afficher</target>
+      </trans-unit>
+      <trans-unit id="5848" xml:space="preserve" approved="yes">
+        <source>5848</source>
+        <target state="final">Missions éligibles</target>
+      </trans-unit>
       <trans-unit id="5860" xml:space="preserve" approved="yes">
         <source>5860</source>
         <target state="final">Nombre</target>
@@ -19752,11 +19793,11 @@ Manette&lt;var 1D /var&gt;: &lt;var 08 E1E94C01 ((joy)) (()) /var&gt;stick &lt;v
       </trans-unit>
       <trans-unit id="5935" xml:space="preserve" approved="yes">
         <source>5935</source>
-        <target state="final">Distance de la caméra</target>
+        <target state="final">En modifiant la distance de la caméra, vous pouvez zoomer ou dézoomer sur l'image. Réduire la distance permet de mettre l'accent sur le sujet, tandis qu'augmenter cette distance va élargir la perspective et donner de la profondeur à vos clichés.</target>
       </trans-unit>
       <trans-unit id="5936" xml:space="preserve" approved="yes">
         <source>5936</source>
-        <target state="final">Rotation de la caméra</target>
+        <target state="final">La rotation de la caméra permet, comme son nom l'indique, de faire pivoter l'objectif dans un sens ou dans l'autre. Modifier l'angle d'une image peut apporter une touche de dynamisme et d'originalité à votre composition.</target>
       </trans-unit>
       <trans-unit id="5937" xml:space="preserve" approved="yes">
         <source>5937</source>
@@ -19944,11 +19985,11 @@ Manette&lt;var 1D /var&gt;: &lt;var 08 E1E94C01 ((touche)) ((bouton)) /var&gt; &
       </trans-unit>
       <trans-unit id="5983" xml:space="preserve" approved="yes">
         <source>5983</source>
-        <target state="final">Général</target>
+        <target state="final">Réglages de la caméra</target>
       </trans-unit>
       <trans-unit id="5984" xml:space="preserve" approved="yes">
         <source>5984</source>
-        <target state="final">Altérations et cadres</target>
+        <target state="final">Paramètres de l'écran</target>
       </trans-unit>
       <trans-unit id="5985" xml:space="preserve" approved="yes">
         <source>5985</source>
@@ -24339,7 +24380,7 @@ Elles ne peuvent être sauvegardées et chargées que dans certaines missions.</
       </trans-unit>
       <trans-unit id="7516" xml:space="preserve" approved="yes">
         <source>7516</source>
-        <target state="final">Mode manette</target>
+        <target state="final">Mode &lt;var 42 02 /var&gt;</target>
       </trans-unit>
       <trans-unit id="7517" xml:space="preserve" approved="yes">
         <source>7517</source>
@@ -26153,21 +26194,29 @@ Elles ne peuvent être sauvegardées et chargées que dans certaines missions.</
         <source>7982</source>
         <target state="final">Fixe</target>
       </trans-unit>
+      <trans-unit id="7983" xml:space="preserve" approved="yes">
+        <source>7983</source>
+        <target state="final">Clavier&lt;var 1D /var&gt;: fermer systématiquement</target>
+      </trans-unit>
       <trans-unit id="7984" xml:space="preserve" approved="yes">
         <source>7984</source>
-        <target state="final">Clavier&lt;var 1D /var&gt;: fermer systématiquement</target>
+        <target state="final">Manette&lt;var 1D /var&gt;: fermer si active</target>
       </trans-unit>
       <trans-unit id="7985" xml:space="preserve" approved="yes">
         <source>7985</source>
-        <target state="final">Manette&lt;var 1D /var&gt;: fermer si active</target>
+        <target state="final">Standard</target>
+      </trans-unit>
+      <trans-unit id="7986" xml:space="preserve" approved="yes">
+        <source>7986</source>
+        <target state="final">Aligné à gauche (priorité)</target>
       </trans-unit>
       <trans-unit id="7987" xml:space="preserve" approved="yes">
         <source>7987</source>
-        <target state="final">Standard</target>
+        <target state="final">Plaques de nom des ennemis</target>
       </trans-unit>
       <trans-unit id="7988" xml:space="preserve" approved="yes">
         <source>7988</source>
-        <target state="final">Aligné à gauche (priorité)</target>
+        <target state="final">Afficher la barre de progression (boss et ennemis puissants)</target>
       </trans-unit>
       <trans-unit id="7990" xml:space="preserve" approved="yes">
         <source>7990</source>
@@ -26856,6 +26905,18 @@ Informer vos équipiers que vous êtes prêt&lt;var 08 E905 ((e)) (()) /var&gt;&
         <source>8186</source>
         <target state="final">60%</target>
       </trans-unit>
+      <trans-unit id="8187" xml:space="preserve" approved="yes">
+        <source>8187</source>
+        <target state="final">Maximale</target>
+      </trans-unit>
+      <trans-unit id="8188" xml:space="preserve" approved="yes">
+        <source>8188</source>
+        <target state="final">Grande</target>
+      </trans-unit>
+      <trans-unit id="8189" xml:space="preserve" approved="yes">
+        <source>8189</source>
+        <target state="final">Moyenne</target>
+      </trans-unit>
       <trans-unit id="8190" xml:space="preserve" approved="yes">
         <source>8190</source>
         <target state="final">Copie des paramètres écran/ATH</target>
@@ -26894,6 +26955,10 @@ Continuer&lt;var 1D /var&gt;?</target>
       <trans-unit id="8198" xml:space="preserve" approved="yes">
         <source>8198</source>
         <target state="final">Écran mode lecture à distance</target>
+      </trans-unit>
+      <trans-unit id="8199" xml:space="preserve" approved="yes">
+        <source>8199</source>
+        <target state="final">Distance d'affichage des personnages</target>
       </trans-unit>
       <trans-unit id="8200" xml:space="preserve" approved="yes">
         <source>8200</source>
@@ -26986,6 +27051,10 @@ Continuer&lt;var 1D /var&gt;?</target>
       <trans-unit id="8222" xml:space="preserve" approved="yes">
         <source>8222</source>
         <target state="final">Aucun</target>
+      </trans-unit>
+      <trans-unit id="8224" xml:space="preserve" approved="yes">
+        <source>8224</source>
+        <target state="final">Automatique</target>
       </trans-unit>
       <trans-unit id="8225" xml:space="preserve" approved="yes">
         <source>8225</source>
@@ -32828,7 +32897,7 @@ Les duels sont sur le point de commencer.</target>
       </trans-unit>
       <trans-unit id="9866" xml:space="preserve" approved="yes">
         <source>9866</source>
-        <target state="final">Voix en partie</target>
+        <target state="final">Paramètres</target>
       </trans-unit>
       <trans-unit id="9868" xml:space="preserve" approved="yes">
         <source>9868</source>
@@ -32840,7 +32909,7 @@ Les duels sont sur le point de commencer.</target>
       </trans-unit>
       <trans-unit id="9870" xml:space="preserve" approved="yes">
         <source>9870</source>
-        <target state="final">&lt;var 28 ((EmjVoiceNpc)) E8021B /var&gt;</target>
+        <target state="final">&lt;var 28 ((EmjVoiceNpc)) E8021C /var&gt;</target>
       </trans-unit>
       <trans-unit id="9871" xml:space="preserve" approved="yes">
         <source>9871</source>
@@ -32860,7 +32929,7 @@ Les duels sont sur le point de commencer.</target>
       </trans-unit>
       <trans-unit id="9876" xml:space="preserve" approved="yes">
         <source>9876</source>
-        <target state="final">&lt;var 28 ((EmjVoiceNpc)) E8021B /var&gt;</target>
+        <target state="final">&lt;var 28 ((EmjVoiceNpc)) E8021C /var&gt;</target>
       </trans-unit>
       <trans-unit id="9878" xml:space="preserve" approved="yes">
         <source>9878</source>
@@ -32927,6 +32996,14 @@ après avoir terminé la quête de l'épopée “&lt;var 08 E1E80301 ((???)) ((&
         <source>9894</source>
         <target state="final">&lt;var 2B ((&lt;var 28 ((ContentFinderCondition)) E8032C /var&gt;)) /var&gt;
 &lt;var 2B ((&lt;var 28 ((DynamicEvent)) E8030C /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="9895" xml:space="preserve" approved="yes">
+        <source>9895</source>
+        <target state="final">Affichage</target>
+      </trans-unit>
+      <trans-unit id="9896" xml:space="preserve" approved="yes">
+        <source>9896</source>
+        <target state="final">--/--/----</target>
       </trans-unit>
       <trans-unit id="9979" xml:space="preserve" approved="yes">
         <source>9979</source>
@@ -33676,7 +33753,7 @@ Celle-ci s'appliquera à tous les types de missions utilisant la fonction de gro
         <source>10163</source>
         <target state="final">Permet de rejoindre une équipe dans laquelle il manque un ou plusieurs membres afin de poursuivre une mission en cours. Ce paramètre est également pris en compte pour d'autres instances que celles de l'outil de mission.
 
-&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;* Uniquement si le personnage ne fait pas partie d'une équipe.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;* Uniquement si le personnage ne fait pas partie d'une équipe et que les missions sé&lt;var 16 /var&gt;lec&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;nées ont déjà toutes été terminées une fois.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="10165" xml:space="preserve" approved="yes">
         <source>10165</source>
@@ -34564,7 +34641,7 @@ Vous pourrez obtenir l'objet requis en échange de médailles Yo-kai. Ces derni�
       </trans-unit>
       <trans-unit id="10405" xml:space="preserve" approved="yes">
         <source>10405</source>
-        <target state="final">&lt;var 08 E1E80301 ((Étage)) ((Sous-sol)) /var&gt; &lt;var 20 E802 /var&gt;</target>
+        <target state="final">&lt;var 09 E803 ((Sous-sol &lt;var 20 E802 /var&gt;)) ((Étage &lt;var 20 E802 /var&gt;)) ((Zone &lt;var 20 E802 /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="10406" xml:space="preserve" approved="yes">
         <source>10406</source>
@@ -34811,14 +34888,6 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
         <source>10466</source>
         <target state="final">Voir les classements</target>
       </trans-unit>
-      <trans-unit id="10467" xml:space="preserve" approved="yes">
-        <source>10467</source>
-        <target state="final">https://sqex.to/fkM</target>
-      </trans-unit>
-      <trans-unit id="10468" xml:space="preserve" approved="yes">
-        <source>10468</source>
-        <target state="final">https://sqex.to/Bry</target>
-      </trans-unit>
       <trans-unit id="10469" xml:space="preserve" approved="yes">
         <source>10469</source>
         <target state="final">&lt;var 2B ((&lt;var 28 ((ClassJob)) E80201 /var&gt;)) /var&gt;&lt;var 08 E1E80301 ((/&lt;var 2B ((&lt;var 28 ((ClassJob)) E80301 /var&gt;)) /var&gt;)) (()) /var&gt;</target>
@@ -34835,14 +34904,6 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
       <trans-unit id="10472" xml:space="preserve" approved="yes">
         <source>10472</source>
         <target state="final">&lt;var 2B ((&lt;var 29 EA02 /var&gt;)) /var&gt;</target>
-      </trans-unit>
-      <trans-unit id="10473" xml:space="preserve" approved="yes">
-        <source>10473</source>
-        <target state="final">https://sqex.to/C_D</target>
-      </trans-unit>
-      <trans-unit id="10474" xml:space="preserve" approved="yes">
-        <source>10474</source>
-        <target state="final">https://sqex.to/J43</target>
       </trans-unit>
       <trans-unit id="10475" xml:space="preserve" approved="yes">
         <source>10475</source>
@@ -35888,88 +35949,6 @@ Spectateurs&lt;var 1D /var&gt;: 1 à 8 joueurs (si disponible)</target>
         <target state="final">Les systèmes de jeu JcJ faisant l'objet d'une refonte, cette mission est temporairement indisponible.
 Sa réouverture sera annoncée dans les notes d'une future mise à jour.</target>
       </trans-unit>
-      <trans-unit id="10834" xml:space="preserve" approved="yes">
-        <source>10834</source>
-        <target state="final">&lt;var 08 E4E80201 (()) ((Difficulté réduite)) /var&gt;</target>
-      </trans-unit>
-      <trans-unit id="10835" xml:space="preserve" approved="yes">
-        <source>10835</source>
-        <target state="final">Les changements suivants ont été apportés aux missions sadiques&lt;var 1D /var&gt;:
- - Le système qui mémorisait la progression a été retiré et il est désormais possible de refaire chaque instance autant de fois que désiré.
- - L'option “Progression” a été retirée des conditions de recrutement.
- - La récompense minimum est désormais de deux coffres.
- - La limite hebdomadaire d'objets pouvant être obtenus dans les coffres a été supprimée.</target>
-      </trans-unit>
-      <trans-unit id="10836" xml:space="preserve" approved="yes">
-        <source>10836</source>
-        <target state="final">Options</target>
-      </trans-unit>
-      <trans-unit id="10837" xml:space="preserve" approved="yes">
-        <source>10837</source>
-        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition de groupement&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-“Déjà terminé” n'est disponible que pour les missions préalablement réussies.
-
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Objectif&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-“Réussir le raid” n'est sélectionnable que si la récompense hebdomadaire n'a pas encore été obtenue.
-
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Phase&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Cette option n'est disponible que si l'objectif “Entraînement” a été sélectionné. Spécifier une phase ne permet pas de sauter celles précédentes.
-
-L'enregistrement sera annulé si la remise à zéro hebdomadaire a lieu entre-temps.</target>
-      </trans-unit>
-      <trans-unit id="10838" xml:space="preserve" approved="yes">
-        <source>10838</source>
-        <target state="final">Progression individuelle</target>
-      </trans-unit>
-      <trans-unit id="10839" xml:space="preserve" approved="yes">
-        <source>10839</source>
-        <target state="final">La progression des missions “sadiques” les plus récentes est enregistrée indépendamment pour chaque joueur à des temps donnés, leur permettant de reprendre l'incursion à l'endroit où ils étaient parvenus.
-
-Elle est réinitialisée tous les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 06 1203 /var&gt;&lt;var 09 DD ((dimanches)) ((lundis)) ((mardis)) ((mercredis)) ((jeudis)) ((vendredis)) ((samedis)) /var&gt; à &lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0D0E0F101112131415161718 /var&gt;)) 01 /var&gt;h (temps réel)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
-      </trans-unit>
-      <trans-unit id="10840" xml:space="preserve" approved="yes">
-        <source>10840</source>
-        <target state="final">Récompenses et coffres</target>
-      </trans-unit>
-      <trans-unit id="10841" xml:space="preserve" approved="yes">
-        <source>10841</source>
-        <target state="final">Les personnages qui participent à une mission “sadique” qu'ils ont déjà terminée pendant la semaine en cours ne reçoivent pas de récompenses.
-
-Par ailleurs, le nombre de ces joueurs influence celui des coffres apparaissant lors de l'incursion.
- - Un coffre si entre un et quatre joueurs ont déjà accompli le raid dans la semaine en cours.
- - Aucun coffre si cinq joueurs ou plus ont déjà accompli le raid dans la semaine en cours.
-
-En cas d'enregistrement seul ou en équipe de moins de huit joueurs, le nombre de coffres peut varier en fonction de la progression des membres ajoutés par groupement automatique.</target>
-      </trans-unit>
-      <trans-unit id="10842" xml:space="preserve" approved="yes">
-        <source>10842</source>
-        <target state="final">Composition de l'équipe</target>
-      </trans-unit>
-      <trans-unit id="10843" xml:space="preserve" approved="yes">
-        <source>10843</source>
-        <target state="final">Pour les missions “sadiques”, l'outil de raid forme des équipes composées de membres ayant des jobs différents.
-Pour les DPS, la répartition se fait selon la structure suivante&lt;var 1D /var&gt;: mêlée / physique à distance / magique à distance / libre.
-
-L'objectif choisi joue également sur la possibilité ou non d'avoir des jobs identiques dans les équipes préformées.
- - “Réussir le raid”&lt;var 1D /var&gt;: jobs identiques impossibles.
- - “Entraînement”&lt;var 1D /var&gt;: jobs identiques possibles.
-
-L'outil de raid ne peut pas être utilisé si l'équipe compte &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;plus d'un soigneur pur ou plus d'un soigneur axé barrières&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
- - Soigneurs purs&lt;var 1D /var&gt;: mages blancs et astromanciens. Ils se focalisent sur les regains de PV.
- - Soigneurs axés barrières&lt;var 1D /var&gt;: érudits et sages. Ils se focalisent sur la mitigation en octroyant des barrières protectrices qui annulent les dégâts reçus.</target>
-      </trans-unit>
-      <trans-unit id="10844" xml:space="preserve" approved="yes">
-        <source>10844</source>
-        <target state="final">Participation en équipe</target>
-      </trans-unit>
-      <trans-unit id="10845" xml:space="preserve" approved="yes">
-        <source>10845</source>
-        <target state="final">Dans le cas d'une par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion à une mission “sadique” en équipe préformée, le point d'incursion est déterminé par la progression du chef d'équipe.
-
-Des joueurs dont la progression diffère de celle du chef d'équipe peuvent participer au raid sous certaines conditions&lt;var 1D /var&gt;:
- - Ceux qui sont moins avancés verront leur progression alignée sur celle du chef d'équipe.
- - Ceux qui sont allés plus loin ne verront pas leur progression alignée sur celle du chef d'équipe.</target>
-      </trans-unit>
       <trans-unit id="10846" xml:space="preserve" approved="yes">
         <source>10846</source>
         <target state="final">* Seule une partie des conditions non remplies est affichée.</target>
@@ -36335,9 +36314,7 @@ Seuls les 10 premiers résultats sont affichés.</target>
         <source>10957</source>
         <target state="final">Le personnage “&lt;var 29 EA02 /var&gt;” va être ajouté à votre liste noire. Dorénavant, vous ne le verrez plus dans le jeu et ses messages seront cachés. Ceci s'appliquera également à tous les autres personnages du même compte de service.
 Le nom et le monde d'origine du personnage enregistré seront sauvegardés localement.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Si vous désirez simplement cacher les messages de ce personnage, vous pouvez l'ajouter à votre liste muette.
-(Lorsqu'un personnage présent dans la liste muette est ajouté à la liste noire, il est transféré de la première à la seconde.)
-&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Si vous désirez simplement cacher les messages de ce personnage, vous pouvez l'ajouter à votre liste muette.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="10958" xml:space="preserve" approved="yes">
         <source>10958</source>
@@ -39927,11 +39904,11 @@ Cette opération a les effets suivants&lt;var 1D /var&gt;:
   - Réinitialise le taux de symbiose à 0% et la condition à 100%.
   - Liera l'objet au personnage s'il est retiré de la coiffeuse ultérieurement.</target>
       </trans-unit>
-      <trans-unit id="11995" xml:space="preserve" approved="no">
+      <trans-unit id="11995" xml:space="preserve" approved="yes">
         <source>11995</source>
-        <target state="needs-translation">Utiliser &lt;var 20 E803 /var&gt; &lt;var 33 ((Item)) 0DE8020302 /var&gt; pour transformer tous les équipements sélectionnés en mirage d'ensemble et les placer dans la coiffeuse&lt;var 1D /var&gt;?
+        <target state="final">Utiliser &lt;var 20 E803 /var&gt; &lt;var 33 ((Item)) 0DE8020302 /var&gt; pour transformer tous les équipements sélectionnés en mirage d'ensemble et les placer dans la coiffeuse&lt;var 1D /var&gt;?
 Cette opération a les effets suivants&lt;var 1D /var&gt;:
-  - Retire les signatures, les matérias serties, les mirages, les blasons et certains bonus des équipements éthéréens.
+  - Retire les signatures, les matérias serties, les teintures, les mirages, les blasons et certains bonus des équipements éthéréens.
   - Réinitialise le taux de symbiose à 0% et la condition à 100%.
   - Liera les objets au personnage s'ils sont retirés de la coiffeuse ultérieurement.</target>
       </trans-unit>
@@ -39946,6 +39923,10 @@ Cette opération a les effets suivants&lt;var 1D /var&gt;:
       <trans-unit id="11998" xml:space="preserve" approved="yes">
         <source>11998</source>
         <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Certains objets sont enregistrés dans une tenue.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11999" xml:space="preserve" approved="yes">
+        <source>11999</source>
+        <target state="final">Les teintures seront réinitialisées et le blason retiré.</target>
       </trans-unit>
       <trans-unit id="12002" xml:space="preserve" approved="yes">
         <source>12002</source>
@@ -40881,6 +40862,10 @@ Score tactique</target>
         <source>12243</source>
         <target state="final">---</target>
       </trans-unit>
+      <trans-unit id="12244" xml:space="preserve" approved="yes">
+        <source>12244</source>
+        <target state="final">Certains résultats de recherche doivent être vérifiés par le joueur. Ceux qui affichent un &lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;?&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; comportent des in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tions obsolètes au moment de la dernière connexion du client. Pour obtenir des in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tions plus récentes, veuillez accéder à ces emplacements après chaque nouvelle connexion.</target>
+      </trans-unit>
       <trans-unit id="12246" xml:space="preserve" approved="yes">
         <source>12246</source>
         <target state="final">Actions actives</target>
@@ -41412,7 +41397,7 @@ Vous pourrez ensuite les ajouter à vos barres ou à vos croix de raccourcis.</t
       </trans-unit>
       <trans-unit id="12391" xml:space="preserve" approved="yes">
         <source>12391</source>
-        <target state="final">Paramètres</target>
+        <target state="final">Modifier</target>
       </trans-unit>
       <trans-unit id="12392" xml:space="preserve" approved="yes">
         <source>12392</source>
@@ -41512,7 +41497,7 @@ Vous pourrez ensuite les ajouter à vos barres ou à vos croix de raccourcis.</t
       </trans-unit>
       <trans-unit id="12416" xml:space="preserve" approved="yes">
         <source>12416</source>
-        <target state="final">Paramètres du mahjong</target>
+        <target state="final">Paramètres d'affichage du mahjong</target>
       </trans-unit>
       <trans-unit id="12417" xml:space="preserve" approved="yes">
         <source>12417</source>
@@ -46827,6 +46812,71 @@ Répète ré&lt;var 16 /var&gt;gu&lt;var 16 /var&gt;liè&lt;var 16 /var&gt;re&lt
         <target state="final">Répétition des mouvements&lt;var 1D /var&gt;: désactivée
 Le personnage retourne à sa position neutre une fois le mouvement effectué.</target>
       </trans-unit>
+      <trans-unit id="14013" xml:space="preserve" approved="yes">
+        <source>14013</source>
+        <target state="final">Zoom (distance de la caméra)</target>
+      </trans-unit>
+      <trans-unit id="14014" xml:space="preserve" approved="yes">
+        <source>14014</source>
+        <target state="final">Rotation</target>
+      </trans-unit>
+      <trans-unit id="14015" xml:space="preserve" approved="yes">
+        <source>14015</source>
+        <target state="final">Aberration chromatique</target>
+      </trans-unit>
+      <trans-unit id="14016" xml:space="preserve" approved="yes">
+        <source>14016</source>
+        <target state="final">Aperçu mode portrait</target>
+      </trans-unit>
+      <trans-unit id="14017" xml:space="preserve" approved="yes">
+        <source>14017</source>
+        <target state="final">Mode portrait</target>
+      </trans-unit>
+      <trans-unit id="14018" xml:space="preserve" approved="yes">
+        <source>14018</source>
+        <target state="final">Paramètres des effets</target>
+      </trans-unit>
+      <trans-unit id="14019" xml:space="preserve" approved="yes">
+        <source>14019</source>
+        <target state="final">Paramètres généraux</target>
+      </trans-unit>
+      <trans-unit id="14020" xml:space="preserve" approved="yes">
+        <source>14020</source>
+        <target state="final">Paramètres de maniement</target>
+      </trans-unit>
+      <trans-unit id="14021" xml:space="preserve" approved="yes">
+        <source>14021</source>
+        <target state="final">Orientation initiale vers la caméra</target>
+      </trans-unit>
+      <trans-unit id="14022" xml:space="preserve" approved="yes">
+        <source>14022</source>
+        <target state="final">Correction caméra lors des rotations</target>
+      </trans-unit>
+      <trans-unit id="14023" xml:space="preserve" approved="yes">
+        <source>14023</source>
+        <target state="final">Paramètres du mode portrait</target>
+      </trans-unit>
+      <trans-unit id="14024" xml:space="preserve" approved="yes">
+        <source>14024</source>
+        <target state="final">Rotation de l'écran</target>
+      </trans-unit>
+      <trans-unit id="14025" xml:space="preserve" approved="yes">
+        <source>14025</source>
+        <target state="final">Horaire</target>
+      </trans-unit>
+      <trans-unit id="14026" xml:space="preserve" approved="yes">
+        <source>14026</source>
+        <target state="final">Antihoraire</target>
+      </trans-unit>
+      <trans-unit id="14027" xml:space="preserve" approved="yes">
+        <source>14027</source>
+        <target state="final">Intensité du filtre</target>
+      </trans-unit>
+      <trans-unit id="14028" xml:space="preserve" approved="yes">
+        <source>14028</source>
+        <target state="final">L'aberration chromatique est un phénomène de distorsion des couleurs lorsque la lumière passe à travers une lentille.
+Ce paramètre ajoute un liseré rouge, bleu et vert au niveau des bords de l'écran pour un effet des plus saisissant.</target>
+      </trans-unit>
       <trans-unit id="14050" xml:space="preserve" approved="yes">
         <source>14050</source>
         <target state="final">Autocollants</target>
@@ -48987,11 +49037,9 @@ Mettre à jour le portrait instantané avec votre équipement actuel&lt;var 1D /
       </trans-unit>
       <trans-unit id="14835" xml:space="preserve" approved="yes">
         <source>14835</source>
-        <target state="final">Le personnage “&lt;var 29 EA02 /var&gt;” va être ajouté à votre liste muette. Dorénavant, ses messages seront cachés. Ceci s'appliquera également à tous les autres personnages du même compte de service.
-Le nom et le monde d'origine du personnage enregistré seront sauvegardés localement.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Si vous désirez également ne plus voir ce personnage dans le jeu, vous pouvez l'ajouter à votre liste noire.
-(Lorsqu'un personnage présent dans la liste muette est ajouté à la liste noire, il est transféré de la première à la seconde.)
-&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+        <target state="final">Le personnage “&lt;var 29 EA02 /var&gt;” va être ajouté à votre liste muette. Dorénavant, ses messages seront cachés.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;* Le nom et le monde d'origine du personnage enregistré seront sauvegardés localement.
+* Si vous désirez également ne plus voir ce personnage dans le jeu, vous pouvez l'ajouter à votre liste noire.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="14836" xml:space="preserve" approved="yes">
         <source>14836</source>
@@ -51173,7 +51221,7 @@ de l'arsenal dans...</target>
       </trans-unit>
       <trans-unit id="15490" xml:space="preserve" approved="yes">
         <source>15490</source>
-        <target state="final">En changeant votre job en &lt;var 28 ((ClassJob)) E80201 /var&gt;, vous avez la possibilité de transférer les paramètres des barres et croix de raccourcis de la classe &lt;var 28 ((ClassJob)) ((&lt;var 28 ((ClassJob)) E8021D /var&gt;)) 01 /var&gt;.</target>
+        <target state="final">En changeant votre job en &lt;var 28 ((ClassJob)) E80201 /var&gt;, vous avez la possibilité de transférer les paramètres des barres et croix de raccourcis de la classe &lt;var 28 ((ClassJob)) ((&lt;var 28 ((ClassJob)) E8021E /var&gt;)) 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="15491" xml:space="preserve" approved="yes">
         <source>15491</source>
@@ -51185,7 +51233,7 @@ de l'arsenal dans...</target>
       </trans-unit>
       <trans-unit id="15493" xml:space="preserve" approved="yes">
         <source>15493</source>
-        <target state="final">Le job &lt;var 28 ((ClassJob)) E80201 /var&gt; utilisant les mêmes actions que la classe &lt;var 28 ((ClassJob)) ((&lt;var 28 ((ClassJob)) E8021D /var&gt;)) 01 /var&gt;, transférer les paramètres vous permettrait de le jouer de la même façon.
+        <target state="final">Le job &lt;var 28 ((ClassJob)) E80201 /var&gt; utilisant les mêmes actions que la classe &lt;var 28 ((ClassJob)) ((&lt;var 28 ((ClassJob)) E8021E /var&gt;)) 01 /var&gt;, transférer les paramètres vous permettrait de le jouer de la même façon.
 
 Le transfert est recommandé si vous avez peu d'expérience en &lt;var 28 ((ClassJob)) E80201 /var&gt;.
 
@@ -51587,6 +51635,18 @@ Les objets enregistrés en tant que mobilier insulaire peuvent être placés aut
       <trans-unit id="15588" xml:space="preserve" approved="yes">
         <source>15588</source>
         <target state="final">Besoins</target>
+      </trans-unit>
+      <trans-unit id="15589" xml:space="preserve" approved="yes">
+        <source>15589</source>
+        <target state="final">Maximiser les jours</target>
+      </trans-unit>
+      <trans-unit id="15590" xml:space="preserve" approved="yes">
+        <source>15590</source>
+        <target state="final">Choisit le nombre maximum de jours pour une expédition sans changer le lieu. Uniquement disponible lorsqu'aucun matériau n'a été collecté.</target>
+      </trans-unit>
+      <trans-unit id="15591" xml:space="preserve" approved="yes">
+        <source>15591</source>
+        <target state="final">Utiliser &lt;var 20 E802 /var&gt; assignats insulaires azur pour maximiser les jours d'expédition&lt;var 1D /var&gt;?</target>
       </trans-unit>
       <trans-unit id="15600" xml:space="preserve" approved="yes">
         <source>15600</source>
@@ -52271,6 +52331,10 @@ Veuillez patienter jusqu'au prochain événement, kupo.</target>
         <source>15912</source>
         <target state="final">En cours</target>
       </trans-unit>
+      <trans-unit id="15913" xml:space="preserve" approved="yes">
+        <source>15913</source>
+        <target state="final">Participer à une partie non classée de Crystalline Conflict.</target>
+      </trans-unit>
       <trans-unit id="15914" xml:space="preserve" approved="yes">
         <source>15914</source>
         <target state="final">Récompenses disponibles</target>
@@ -52419,7 +52483,7 @@ Nv &lt;var 20 E808 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15948" xml:space="preserve" approved="yes">
         <source>15948</source>
-        <target state="final">Abattre &lt;var 20 E809 /var&gt; &lt;var 08 E4E80902 ((monstre célèbre)) ((monstres célèbres)) /var&gt; à Eurêka.</target>
+        <target state="final">Abattre &lt;var 20 E809 /var&gt; &lt;var 08 E4E80902 ((monstre célèbre)) ((monstres célèbres)) /var&gt; &lt;var 08 E4E806F2011B ((à Eurêka Anemos)) ((&lt;var 08 E4E806F20245 ((à Eurêka Pagos)) ((&lt;var 08 E4E806F20256 ((à Eurêka Pyros)) ((à Eurêka Hydatos)) /var&gt;)) /var&gt;)) /var&gt;.</target>
       </trans-unit>
       <trans-unit id="15949" xml:space="preserve" approved="yes">
         <source>15949</source>
@@ -52490,6 +52554,14 @@ Nv &lt;var 20 E808 /var&gt;</target>
       <trans-unit id="15967" xml:space="preserve" approved="yes">
         <source>15967</source>
         <target state="final">Livrer &lt;var 20 E809 /var&gt; &lt;var 08 E4E80902 ((commande spéciale)) ((commandes spéciales)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="15968" xml:space="preserve" approved="yes">
+        <source>15968</source>
+        <target state="final">Collecter &lt;var 20 E809 /var&gt; &lt;var 08 E2E80902 ((vignette)) ((vignettes)) /var&gt; dans le carnet de Khloe.</target>
+      </trans-unit>
+      <trans-unit id="15969" xml:space="preserve" approved="yes">
+        <source>15969</source>
+        <target state="final">Participer à &lt;var 20 E809 /var&gt; &lt;var 08 E2E80902 ((course)) ((courses)) /var&gt; de chocobos.</target>
       </trans-unit>
       <trans-unit id="15970" xml:space="preserve" approved="yes">
         <source>15970</source>
@@ -52672,6 +52744,26 @@ Dans une manche de type survie, affiche dans l'ordre les joueurs éliminés.</ta
       <trans-unit id="16027" xml:space="preserve" approved="yes">
         <source>16027</source>
         <target state="final">Dernier lieu&lt;var 1D /var&gt;: &lt;var 08 E1E80201 ((&lt;var 29 EA03 /var&gt;)) ((aucun)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16030" xml:space="preserve" approved="yes">
+        <source>16030</source>
+        <target state="final">Mirages</target>
+      </trans-unit>
+      <trans-unit id="16031" xml:space="preserve" approved="yes">
+        <source>16031</source>
+        <target state="final">Équipements</target>
+      </trans-unit>
+      <trans-unit id="16032" xml:space="preserve" approved="yes">
+        <source>16032</source>
+        <target state="final">Afficher les pièces d'équipement projetées en mirages</target>
+      </trans-unit>
+      <trans-unit id="16033" xml:space="preserve" approved="yes">
+        <source>16033</source>
+        <target state="final">Afficher les pièces d'équipement portées</target>
+      </trans-unit>
+      <trans-unit id="16035" xml:space="preserve" approved="yes">
+        <source>16035</source>
+        <target state="final">Aperçu des mirages</target>
       </trans-unit>
       <trans-unit id="16040" xml:space="preserve" approved="yes">
         <source>16040</source>
@@ -53252,6 +53344,14 @@ Pour plus d'in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tion
         <source>16236</source>
         <target state="final">Les appartements et les chambres individuelles ne sont pas éligibles au déménagement ou à la rénovation.</target>
       </trans-unit>
+      <trans-unit id="16237" xml:space="preserve" approved="yes">
+        <source>16237</source>
+        <target state="final">Ajouter aux favoris (&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;)</target>
+      </trans-unit>
+      <trans-unit id="16238" xml:space="preserve" approved="yes">
+        <source>16238</source>
+        <target state="final">Retirer des favoris (&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;)</target>
+      </trans-unit>
       <trans-unit id="16280" xml:space="preserve" approved="yes">
         <source>16280</source>
         <target state="final">Afficher les paramètres avancés</target>
@@ -53330,7 +53430,7 @@ Pour plus d'in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tion
       </trans-unit>
       <trans-unit id="16300" xml:space="preserve" approved="yes">
         <source>16300</source>
-        <target state="final">Personnalisée</target>
+        <target state="final">Personnalisés</target>
       </trans-unit>
       <trans-unit id="16301" xml:space="preserve" approved="yes">
         <source>16301</source>
@@ -53864,6 +53964,10 @@ MNO/INV/MRG</target>
         <target state="final">Impossible d'effectuer cet exercice 
 dans la classe ou le job actuel.</target>
       </trans-unit>
+      <trans-unit id="16482" xml:space="preserve" approved="yes">
+        <source>16482</source>
+        <target state="final">Lancement</target>
+      </trans-unit>
       <trans-unit id="16580" xml:space="preserve" approved="yes">
         <source>16580</source>
         <target state="final">&lt;var 28 ((MKDSupportJob)) E80202 /var&gt;</target>
@@ -53891,6 +53995,30 @@ dans la classe ou le job actuel.</target>
       <trans-unit id="16590" xml:space="preserve" approved="yes">
         <source>16590</source>
         <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="16591" xml:space="preserve" approved="yes">
+        <source>16591</source>
+        <target state="final">Votre offre actuelle vous attribue une place.</target>
+      </trans-unit>
+      <trans-unit id="16592" xml:space="preserve" approved="yes">
+        <source>16592</source>
+        <target state="final">Avec une offre de &lt;var 08 E1E80264 ((99 sceaux, votre place dépend d'un tirage au sort.)) ((&lt;var 20 E802 /var&gt; &lt;var 08 E4E80202 ((sceau)) ((sceaux)) /var&gt;, une place vous est attribuée.)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16593" xml:space="preserve" approved="yes">
+        <source>16593</source>
+        <target state="final">Votre offre actuelle est insuffisante.</target>
+      </trans-unit>
+      <trans-unit id="16594" xml:space="preserve" approved="yes">
+        <source>16594</source>
+        <target state="final">Votre place dépend ac&lt;var 16 /var&gt;tu&lt;var 16 /var&gt;el&lt;var 16 /var&gt;le&lt;var 16 /var&gt;ment d'un tirage au sort.</target>
+      </trans-unit>
+      <trans-unit id="16595" xml:space="preserve" approved="yes">
+        <source>16595</source>
+        <target state="final">Une place vous est ac&lt;var 16 /var&gt;tu&lt;var 16 /var&gt;el&lt;var 16 /var&gt;le&lt;var 16 /var&gt;ment attribuée.</target>
+      </trans-unit>
+      <trans-unit id="16596" xml:space="preserve" approved="yes">
+        <source>16596</source>
+        <target state="final">&lt;var 08 E1E802E803 ((&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;&lt;var 20 E802 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 20 E802 /var&gt;)) /var&gt;/&lt;var 20 E803 /var&gt;</target>
       </trans-unit>
       <trans-unit id="16597" xml:space="preserve" approved="yes">
         <source>16597</source>
@@ -53960,25 +54088,6 @@ dans la classe ou le job actuel.</target>
         <source>16613</source>
         <target state="final">/</target>
       </trans-unit>
-      <trans-unit id="16614" xml:space="preserve" approved="yes">
-        <source>16614</source>
-        <target state="final">クリティカルエンカウント
-『&lt;var 29 EA02 /var&gt;』
-が発生しました！ あなたはこの発生に貢献したため、直接突入が可能です。今すぐ移動しますか？
-&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;※一度突入すると、デジョン以外での退出はできません。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
-      </trans-unit>
-      <trans-unit id="16615" xml:space="preserve" approved="yes">
-        <source>16615</source>
-        <target state="final">はい</target>
-      </trans-unit>
-      <trans-unit id="16616" xml:space="preserve" approved="yes">
-        <source>16616</source>
-        <target state="final">いいえ</target>
-      </trans-unit>
-      <trans-unit id="16617" xml:space="preserve" approved="yes">
-        <source>16617</source>
-        <target state="final">保留</target>
-      </trans-unit>
       <trans-unit id="16618" xml:space="preserve" approved="yes">
         <source>16618</source>
         <target state="final">Expérience de soutien</target>
@@ -54020,6 +54129,18 @@ Temps restant&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;m&lt;var 24 E803 /var&
         <target state="final">En cours
 Temps restant&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;m&lt;var 24 E803 /var&gt;s&lt;var 08 E3E80401 (()) ((
 Progression&lt;var 1D /var&gt;: &lt;var 20 E804 /var&gt;%)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16627" xml:space="preserve" approved="yes">
+        <source>16627</source>
+        <target state="final">Places attribuées</target>
+      </trans-unit>
+      <trans-unit id="16628" xml:space="preserve" approved="yes">
+        <source>16628</source>
+        <target state="final">Candidats/Places restantes</target>
+      </trans-unit>
+      <trans-unit id="16629" xml:space="preserve" approved="yes">
+        <source>16629</source>
+        <target state="final">&lt;var 08 E1E803E802 ((Offre la plus faible)) ((Pour tirage au sort)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="16630" xml:space="preserve" approved="yes">
         <source>16630</source>
@@ -54121,6 +54242,10 @@ Progression&lt;var 1D /var&gt;: &lt;var 20 E804 /var&gt;%)) /var&gt;</target>
         <source>16654</source>
         <target state="final">Traits de soutien</target>
       </trans-unit>
+      <trans-unit id="16655" xml:space="preserve" approved="yes">
+        <source>16655</source>
+        <target state="final">* Valeurs mises à jour périodiquement</target>
+      </trans-unit>
       <trans-unit id="16656" xml:space="preserve" approved="yes">
         <source>16656</source>
         <target state="final">Modifier</target>
@@ -54173,7 +54298,9 @@ a été ajouté au calepin du croissant&lt;var 1D /var&gt;!</target>
       <trans-unit id="16670" xml:space="preserve" approved="yes">
         <source>16670</source>
         <target state="final">Choisissez le nombre de sceaux arcaniques à offrir.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Si la capacité de téléportation est dépassée, la priorité sera donnée aux offres les plus généreuses.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;* Téléportation possible à partir de 24 offres
+* Si plus de 48 offres, priorité aux meilleures offres
+* Si nécessaire, tirage au sort pour départager les offres identiques&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="16671" xml:space="preserve" approved="yes">
         <source>16671</source>
@@ -54181,7 +54308,7 @@ a été ajouté au calepin du croissant&lt;var 1D /var&gt;!</target>
       </trans-unit>
       <trans-unit id="16672" xml:space="preserve" approved="yes">
         <source>16672</source>
-        <target state="final">Participants</target>
+        <target state="final">Offres</target>
       </trans-unit>
       <trans-unit id="16673" xml:space="preserve" approved="yes">
         <source>16673</source>
@@ -54265,7 +54392,8 @@ a été ajouté au calepin du croissant&lt;var 1D /var&gt;!</target>
       </trans-unit>
       <trans-unit id="16695" xml:space="preserve" approved="yes">
         <source>16695</source>
-        <target state="final">Choisit les raccourcis de changement et d'utilisation d'action de soutien.</target>
+        <target state="final">Choisit les raccourcis de changement et d'utilisation d'action de soutien.
+* Si une seule action est disponible, les deux raccourcis servent à utiliser l'action.</target>
       </trans-unit>
       <trans-unit id="16696" xml:space="preserve" approved="yes">
         <source>16696</source>
@@ -54278,6 +54406,11 @@ a été ajouté au calepin du croissant&lt;var 1D /var&gt;!</target>
       <trans-unit id="16698" xml:space="preserve" approved="yes">
         <source>16698</source>
         <target state="final">&lt;var 28 ((MKDSupportJob)) E80201 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16699" xml:space="preserve" approved="yes">
+        <source>16699</source>
+        <target state="final">Les Tours fourchues sont des &lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;raids de haute difficulté&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, les épreuves les plus ardues de l'île de Lunule.
+Tirez la quintessence de vos jobs de soutien et coordonnez vos efforts avec les autres aventuriers pour les conquérir&lt;var 1D /var&gt;!</target>
       </trans-unit>
       <trans-unit id="16716" xml:space="preserve" approved="yes">
         <source>16716</source>
@@ -54303,6 +54436,10 @@ a été ajouté au calepin du croissant&lt;var 1D /var&gt;!</target>
       <trans-unit id="16722" xml:space="preserve" approved="yes">
         <source>16722</source>
         <target state="final">Aucun contributeur à afficher.</target>
+      </trans-unit>
+      <trans-unit id="16724" xml:space="preserve" approved="yes">
+        <source>16724</source>
+        <target state="final">Interventions mécaniques</target>
       </trans-unit>
       <trans-unit id="16729" xml:space="preserve" approved="yes">
         <source>16729</source>
@@ -54418,7 +54555,9 @@ a été ajouté au calepin du croissant&lt;var 1D /var&gt;!</target>
       </trans-unit>
       <trans-unit id="16759" xml:space="preserve" approved="yes">
         <source>16759</source>
-        <target state="final">Indisponible dans&lt;var 1D /var&gt;: &lt;var 08 E1E80201 ((&lt;var 20 E802 /var&gt;m)) (()) /var&gt; &lt;var 20 E803 /var&gt;s</target>
+        <target state="final">Les missions successives deviendront indisponibles dans les cas suivants :
+• Une autre mission est acceptée
+• La mission en cours est abandonnée</target>
       </trans-unit>
       <trans-unit id="16760" xml:space="preserve" approved="yes">
         <source>16760</source>
@@ -54627,7 +54766,7 @@ Terminez un autre type de mission pour pouvoir accepter à nouveau une mission t
       </trans-unit>
       <trans-unit id="16814" xml:space="preserve" approved="yes">
         <source>16814</source>
-        <target state="final">Parlez à Researchingway, à la station sélénienne, pour déverrouiller l'accès à la recherche cosmique.</target>
+        <target state="final">Parlez à &lt;var 28 ((ENpcResident)) E80301 /var&gt;, &lt;var 28 ((PlaceName)) E8020903 /var&gt;, pour déverrouiller l'accès à la recherche cosmique.</target>
       </trans-unit>
       <trans-unit id="16815" xml:space="preserve" approved="yes">
         <source>16815</source>
@@ -54816,11 +54955,11 @@ Fin de l'in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tion 
       </trans-unit>
       <trans-unit id="16864" xml:space="preserve" approved="yes">
         <source>16864</source>
-        <target state="final">Obtenir un rang or lors de la &lt;var 29 EA02 /var&gt; suivante :</target>
+        <target state="final">Mission successive disponible</target>
       </trans-unit>
       <trans-unit id="16865" xml:space="preserve" approved="yes">
         <source>16865</source>
-        <target state="final">“&lt;var 29 EA02 /var&gt;”</target>
+        <target state="final">Mission non disponible. La progression de l'exploration cosmique doit d'abord atteindre une certaine étape.</target>
       </trans-unit>
       <trans-unit id="16866" xml:space="preserve" approved="yes">
         <source>16866</source>
@@ -54905,13 +55044,13 @@ Souhaitez-vous tout de même sortir de la zone et annuler votre par&lt;var 16 /v
         <source>16888</source>
         <target state="final">Progression : &lt;var 29 EA02 /var&gt; terminé</target>
       </trans-unit>
-      <trans-unit id="16889" xml:space="preserve" approved="no">
+      <trans-unit id="16889" xml:space="preserve" approved="yes">
         <source>16889</source>
-        <target state="needs-translation">Début du prochain ouvrage collectif dans &lt;var 08 E1E80201 ((&lt;var 20 E802 /var&gt;h)) (()) /var&gt;&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;m)) ((&lt;var 08 E1E80201 (()) ((moins d'une minute)) /var&gt;)) /var&gt;&lt;var 07 E804 /var&gt;[&lt;var 20 DC /var&gt;.&lt;var 20 DE /var&gt; à &lt;var 20 DB /var&gt;h&lt;var 24 DA /var&gt;]</target>
+        <target state="final">Début du prochain ouvrage collectif dans &lt;var 08 E1E80201 ((&lt;var 20 E802 /var&gt;h)) (()) /var&gt;&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;m)) ((&lt;var 08 E1E80201 (()) ((moins d'une minute)) /var&gt;)) /var&gt;&lt;var 07 E804 /var&gt;[&lt;var 20 DC /var&gt;.&lt;var 20 DE /var&gt; à &lt;var 20 DB /var&gt;h&lt;var 24 DA /var&gt;]</target>
       </trans-unit>
-      <trans-unit id="16890" xml:space="preserve" approved="no">
+      <trans-unit id="16890" xml:space="preserve" approved="yes">
         <source>16890</source>
-        <target state="needs-translation">Fin de l'ouvrage collectif dans &lt;var 08 E1E80201 ((&lt;var 20 E802 /var&gt;h)) (()) /var&gt;&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;m)) ((&lt;var 08 E1E80201 (()) ((moins d'une minute)) /var&gt;)) /var&gt;&lt;var 07 E804 /var&gt;[&lt;var 20 DC /var&gt;.&lt;var 20 DE /var&gt; à &lt;var 20 DB /var&gt;h&lt;var 24 DA /var&gt;]</target>
+        <target state="final">Fin de l'ouvrage collectif dans &lt;var 08 E1E80201 ((&lt;var 20 E802 /var&gt;h)) (()) /var&gt;&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;m)) ((&lt;var 08 E1E80201 (()) ((moins d'une minute)) /var&gt;)) /var&gt;&lt;var 07 E804 /var&gt;[&lt;var 20 DC /var&gt;.&lt;var 20 DE /var&gt; à &lt;var 20 DB /var&gt;h&lt;var 24 DA /var&gt;]</target>
       </trans-unit>
       <trans-unit id="16891" xml:space="preserve" approved="yes">
         <source>16891</source>
@@ -54948,11 +55087,7 @@ Souhaitez-vous tout de même sortir de la zone et annuler votre par&lt;var 16 /v
       </trans-unit>
       <trans-unit id="16899" xml:space="preserve" approved="yes">
         <source>16899</source>
-        <target state="final">Évaluation : &lt;var 22 E802 ((&lt;var 1D /var&gt;)) /var&gt; / Rang argent : &lt;var 22 E803 ((&lt;var 1D /var&gt;)) /var&gt;</target>
-      </trans-unit>
-      <trans-unit id="16900" xml:space="preserve" approved="yes">
-        <source>16900</source>
-        <target state="final">Évaluation : &lt;var 22 E802 ((&lt;var 1D /var&gt;)) /var&gt; / Rang or : &lt;var 22 E803 ((&lt;var 1D /var&gt;)) /var&gt;</target>
+        <target state="final">Évaluation : &lt;var 22 E802 ((&lt;var 1D /var&gt;)) /var&gt; / Rang argent : &lt;var 22 E803 ((&lt;var 1D /var&gt;)) /var&gt; / Rang or : &lt;var 22 E804 ((&lt;var 1D /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="16901" xml:space="preserve" approved="yes">
         <source>16901</source>
@@ -55083,10 +55218,6 @@ Souhaitez-vous tout de même sortir de la zone et annuler votre par&lt;var 16 /v
       <trans-unit id="16937" xml:space="preserve" approved="yes">
         <source>16937</source>
         <target state="final">Rapports d'études envoyés</target>
-      </trans-unit>
-      <trans-unit id="16938" xml:space="preserve" approved="yes">
-        <source>16938</source>
-        <target state="final">Aucun</target>
       </trans-unit>
       <trans-unit id="16939" xml:space="preserve" approved="yes">
         <source>16939</source>
@@ -55301,11 +55432,11 @@ Voulez-vous consulter la page d'aide et obtenir plus de détails&lt;var 1D /var&
       </trans-unit>
       <trans-unit id="16998" xml:space="preserve" approved="yes">
         <source>16998</source>
-        <target state="final">Votre niveau d'objet moyen étant trop bas par rapport au niveau idéal de la mission sé&lt;var 16 /var&gt;lec&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;née, il vous sera difficile d'obtenir un rang de haut niveau. Si vous souhaitez augmenter vos chances d'atteindre le rang or, procurez-vous les équipements adaptés auprès de Godgyth à la station sélénienne.</target>
+        <target state="final">Votre niveau d'objet moyen étant trop bas par rapport au niveau idéal de la mission sé&lt;var 16 /var&gt;lec&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;née, il vous sera difficile d'obtenir un rang de haut niveau. Si vous souhaitez augmenter vos chances d'atteindre le rang or, procurez-vous les équipements adaptés auprès de &lt;var 28 ((ENpcResident)) E80301 /var&gt; &lt;var 28 ((PlaceName)) E8020903 /var&gt;.</target>
       </trans-unit>
-      <trans-unit id="16999" xml:space="preserve" approved="no">
+      <trans-unit id="16999" xml:space="preserve" approved="yes">
         <source>16999</source>
-        <target state="needs-translation">Ne plus afficher ce message</target>
+        <target state="final">Ne plus afficher ce message</target>
       </trans-unit>
       <trans-unit id="17000" xml:space="preserve" approved="yes">
         <source>17000</source>
@@ -55326,6 +55457,257 @@ Voulez-vous consulter la page d'aide et obtenir plus de détails&lt;var 1D /var&
       <trans-unit id="17004" xml:space="preserve" approved="yes">
         <source>17004</source>
         <target state="final">missions de classe B</target>
+      </trans-unit>
+      <trans-unit id="17011" xml:space="preserve" approved="yes">
+        <source>17011</source>
+        <target state="final">Évaluation :</target>
+      </trans-unit>
+      <trans-unit id="17012" xml:space="preserve" approved="yes">
+        <source>17012</source>
+        <target state="final">&lt;var 08 E1E80301 ((QN)) ((HQ)) /var&gt; = &lt;var 20 E802 /var&gt; pts</target>
+      </trans-unit>
+      <trans-unit id="17013" xml:space="preserve" approved="yes">
+        <source>17013</source>
+        <target state="final">&lt;var 08 E1E80301 ((Taille normale)) ((Taille énorme)) /var&gt; = &lt;var 20 E802 /var&gt; pts</target>
+      </trans-unit>
+      <trans-unit id="17014" xml:space="preserve" approved="yes">
+        <source>17014</source>
+        <target state="final">Temps restant :   &lt;var 08 E1E80201 ((&lt;var 20 E802 /var&gt;m)) (()) /var&gt;&lt;var 20 E803 /var&gt;s</target>
+      </trans-unit>
+      <trans-unit id="17018" xml:space="preserve" approved="yes">
+        <source>17018</source>
+        <target state="final">Paramètres</target>
+      </trans-unit>
+      <trans-unit id="17019" xml:space="preserve" approved="yes">
+        <source>17019</source>
+        <target state="final">Annonces concernant l'exploration cosmique</target>
+      </trans-unit>
+      <trans-unit id="17020" xml:space="preserve" approved="yes">
+        <source>17020</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="17021" xml:space="preserve" approved="yes">
+        <source>17021</source>
+        <target state="final">Suivant&lt;var 1D /var&gt;: &lt;var 08 E1E80301 ((&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;)) ((--/--)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17022" xml:space="preserve" approved="yes">
+        <source>17022</source>
+        <target state="final">Oméga</target>
+      </trans-unit>
+      <trans-unit id="17023" xml:space="preserve" approved="yes">
+        <source>17023</source>
+        <target state="final">Ultima</target>
+      </trans-unit>
+      <trans-unit id="17024" xml:space="preserve" approved="yes">
+        <source>17024</source>
+        <target state="final">Échelon suivant&lt;var 1D /var&gt;:</target>
+      </trans-unit>
+      <trans-unit id="17025" xml:space="preserve" approved="yes">
+        <source>17025</source>
+        <target state="final">Utilisation de queues de phénix impossible</target>
+      </trans-unit>
+      <trans-unit id="17026" xml:space="preserve" approved="yes">
+        <source>17026</source>
+        <target state="final">Actuel</target>
+      </trans-unit>
+      <trans-unit id="17027" xml:space="preserve" approved="yes">
+        <source>17027</source>
+        <target state="final">&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17028" xml:space="preserve" approved="yes">
+        <source>17028</source>
+        <target state="final">&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17029" xml:space="preserve" approved="yes">
+        <source>17029</source>
+        <target state="final">&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17030" xml:space="preserve" approved="yes">
+        <source>17030</source>
+        <target state="final">Ouvrir le carnet de Khloe</target>
+      </trans-unit>
+      <trans-unit id="17031" xml:space="preserve" approved="yes">
+        <source>17031</source>
+        <target state="final">&lt;var 08 E1E80201 ((Course de chocobos)) ((???)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17032" xml:space="preserve" approved="yes">
+        <source>17032</source>
+        <target state="final">&lt;var 08 E1E80201 ((Course de chocobos)) ((???)) /var&gt;
+Nv &lt;var 20 E808 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17033" xml:space="preserve" approved="yes">
+        <source>17033</source>
+        <target state="final">&lt;var 08 E1E80201 ((Crystalline Conflict)) ((???)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17034" xml:space="preserve" approved="yes">
+        <source>17034</source>
+        <target state="final">&lt;var 08 E1E80201 ((Crystalline Conflict)) ((???)) /var&gt;
+Nv &lt;var 20 E808 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17050" xml:space="preserve" approved="yes">
+        <source>17050</source>
+        <target state="final">Quota de quêtes quotidiennes</target>
+      </trans-unit>
+      <trans-unit id="17051" xml:space="preserve" approved="yes">
+        <source>17051</source>
+        <target state="final">&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17052" xml:space="preserve" approved="yes">
+        <source>17052</source>
+        <target state="final">Peuple allié (&lt;var 28 ((BeastTribe)) E8020C /var&gt;)</target>
+      </trans-unit>
+      <trans-unit id="17053" xml:space="preserve" approved="yes">
+        <source>17053</source>
+        <target state="final">Paramètres d'affichage pour la tête</target>
+      </trans-unit>
+      <trans-unit id="17054" xml:space="preserve" approved="yes">
+        <source>17054</source>
+        <target state="final">Afficher/Cacher les oreilles (si disponible)</target>
+      </trans-unit>
+      <trans-unit id="17110" xml:space="preserve" approved="yes">
+        <source>17110</source>
+        <target state="final">Paramètres des bulles de discussion</target>
+      </trans-unit>
+      <trans-unit id="17112" xml:space="preserve" approved="yes">
+        <source>17112</source>
+        <target state="final">Configuration par mode</target>
+      </trans-unit>
+      <trans-unit id="17113" xml:space="preserve" approved="yes">
+        <source>17113</source>
+        <target state="final">Paramètres généraux</target>
+      </trans-unit>
+      <trans-unit id="17114" xml:space="preserve" approved="yes">
+        <source>17114</source>
+        <target state="final">Activer les bulles de discussion</target>
+      </trans-unit>
+      <trans-unit id="17115" xml:space="preserve" approved="yes">
+        <source>17115</source>
+        <target state="final">En activant cette option, une partie des discussions des joueurs s'affichera dans une bulle au-dessus de la tête de leur personnage.</target>
+      </trans-unit>
+      <trans-unit id="17116" xml:space="preserve" approved="yes">
+        <source>17116</source>
+        <target state="final">Appliquer</target>
+      </trans-unit>
+      <trans-unit id="17117" xml:space="preserve" approved="yes">
+        <source>17117</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="17118" xml:space="preserve" approved="yes">
+        <source>17118</source>
+        <target state="final">Réinitialiser</target>
+      </trans-unit>
+      <trans-unit id="17119" xml:space="preserve" approved="yes">
+        <source>17119</source>
+        <target state="final">Paramètres de base</target>
+      </trans-unit>
+      <trans-unit id="17120" xml:space="preserve" approved="yes">
+        <source>17120</source>
+        <target state="final">Nombre maximum de bulles affichées</target>
+      </trans-unit>
+      <trans-unit id="17121" xml:space="preserve" approved="yes">
+        <source>17121</source>
+        <target state="final">Afficher une bulle pour soi-même</target>
+      </trans-unit>
+      <trans-unit id="17122" xml:space="preserve" approved="yes">
+        <source>17122</source>
+        <target state="final">Afficher les bulles en combat</target>
+      </trans-unit>
+      <trans-unit id="17123" xml:space="preserve" approved="yes">
+        <source>17123</source>
+        <target state="final">Taille des bulles</target>
+      </trans-unit>
+      <trans-unit id="17124" xml:space="preserve" approved="yes">
+        <source>17124</source>
+        <target state="final">Moyenne</target>
+      </trans-unit>
+      <trans-unit id="17125" xml:space="preserve" approved="yes">
+        <source>17125</source>
+        <target state="final">Grande</target>
+      </trans-unit>
+      <trans-unit id="17126" xml:space="preserve" approved="yes">
+        <source>17126</source>
+        <target state="final">Maximale</target>
+      </trans-unit>
+      <trans-unit id="17127" xml:space="preserve" approved="yes">
+        <source>17127</source>
+        <target state="final">Paramètres spécifiques de mission</target>
+      </trans-unit>
+      <trans-unit id="17128" xml:space="preserve" approved="yes">
+        <source>17128</source>
+        <target state="final">Assauts à grande échelle (Front et Ailes rivales)</target>
+      </trans-unit>
+      <trans-unit id="17129" xml:space="preserve" approved="yes">
+        <source>17129</source>
+        <target state="final">Crystalline Conflict&lt;var 1D /var&gt;: expressions figées</target>
+      </trans-unit>
+      <trans-unit id="17130" xml:space="preserve" approved="yes">
+        <source>17130</source>
+        <target state="final">Rétablir les paramètres par défaut&lt;var 1D /var&gt;?
+Sélectionnez la rubrique à réinitialiser</target>
+      </trans-unit>
+      <trans-unit id="17131" xml:space="preserve" approved="yes">
+        <source>17131</source>
+        <target state="final">Quitter sans sauvegarder les changements&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="17132" xml:space="preserve" approved="yes">
+        <source>17132</source>
+        <target state="final">Configuration par mode</target>
+      </trans-unit>
+      <trans-unit id="17133" xml:space="preserve" approved="yes">
+        <source>17133</source>
+        <target state="final">Couleur du texte ou des bulles</target>
+      </trans-unit>
+      <trans-unit id="17134" xml:space="preserve" approved="yes">
+        <source>17134</source>
+        <target state="final">Paramètres généraux</target>
+      </trans-unit>
+      <trans-unit id="17135" xml:space="preserve" approved="yes">
+        <source>17135</source>
+        <target state="final">Format des bulles</target>
+      </trans-unit>
+      <trans-unit id="17136" xml:space="preserve" approved="yes">
+        <source>17136</source>
+        <target state="final">Une ligne</target>
+      </trans-unit>
+      <trans-unit id="17137" xml:space="preserve" approved="yes">
+        <source>17137</source>
+        <target state="final">Deux lignes</target>
+      </trans-unit>
+      <trans-unit id="17150" xml:space="preserve" approved="yes">
+        <source>17150</source>
+        <target state="final">Configuration du projet d'exploration cosmique</target>
+      </trans-unit>
+      <trans-unit id="17152" xml:space="preserve" approved="yes">
+        <source>17152</source>
+        <target state="final">Interface planétaire</target>
+      </trans-unit>
+      <trans-unit id="17153" xml:space="preserve" approved="yes">
+        <source>17153</source>
+        <target state="final">Afficher la jauge de progression de l'exploration cosmique</target>
+      </trans-unit>
+      <trans-unit id="17154" xml:space="preserve" approved="yes">
+        <source>17154</source>
+        <target state="final">Registre du projet</target>
+      </trans-unit>
+      <trans-unit id="17155" xml:space="preserve" approved="yes">
+        <source>17155</source>
+        <target state="final">Afficher une notification quand un ouvrage collectif est terminé</target>
+      </trans-unit>
+      <trans-unit id="17156" xml:space="preserve" approved="yes">
+        <source>17156</source>
+        <target state="final">Quitter sans sauvegarder les changements&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="17157" xml:space="preserve" approved="yes">
+        <source>17157</source>
+        <target state="final">Appliquer</target>
+      </trans-unit>
+      <trans-unit id="17158" xml:space="preserve" approved="yes">
+        <source>17158</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="17200" xml:space="preserve" approved="yes">
+        <source>17200</source>
+        <target state="final">Jobs identiques impossibles</target>
       </trans-unit>
       <trans-unit id="101000" xml:space="preserve" approved="yes">
         <source>101000</source>
@@ -57214,7 +57596,7 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
       </trans-unit>
       <trans-unit id="102517" xml:space="preserve" approved="yes">
         <source>102517</source>
-        <target state="final">&lt;var 28 ((BeastTribe)) E8020B /var&gt;</target>
+        <target state="final">&lt;var 28 ((BeastTribe)) E8020C /var&gt;</target>
       </trans-unit>
       <trans-unit id="102518" xml:space="preserve" approved="yes">
         <source>102518</source>

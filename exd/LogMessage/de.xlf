@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="LogMessage" datatype="plaintext" source-language="en" target-language="de">
     <body>
@@ -5577,15 +5577,15 @@ Dies ist eine Maßnahme zur Suchtprävention.</target>
       </trans-unit>
       <trans-unit id="1415" xml:space="preserve" approved="yes">
         <source>1415</source>
-        <target state="final">Du hast &lt;var 32 ((Item)) 02E802020502 /var&gt; erhalten, weil du die Prämienvoraussetzungen von neuen oder bevorzugten Welten erfüllt hast.</target>
+        <target state="final">Du hast &lt;var 32 ((Item)) 02E802020502 /var&gt; erhalten, weil du die Prämienvoraussetzungen von bevorzugten Welten+ oder bevorzugten Welten erfüllt hast.</target>
       </trans-unit>
       <trans-unit id="1416" xml:space="preserve" approved="yes">
         <source>1416</source>
-        <target state="final">Du hast &lt;var 20 E803 /var&gt; &lt;var 08 E4E80302 ((&lt;var 32 ((Item)) 06E802020502 /var&gt;)) ((&lt;var 32 ((Item)) 06E802030502 /var&gt;)) /var&gt; erhalten, weil du die Prämienvoraussetzungen von neuen oder bevorzugten Welten erfüllt hast.</target>
+        <target state="final">Du hast &lt;var 20 E803 /var&gt; &lt;var 08 E4E80302 ((&lt;var 32 ((Item)) 06E802020502 /var&gt;)) ((&lt;var 32 ((Item)) 06E802030502 /var&gt;)) /var&gt; erhalten, weil du die Prämienvoraussetzungen von bevorzugten Welten+ oder bevorzugten Welten erfüllt hast.</target>
       </trans-unit>
       <trans-unit id="1417" xml:space="preserve" approved="yes">
         <source>1417</source>
-        <target state="final">Du hast &lt;var 22 E802 ((.)) /var&gt; Gil erhalten, weil du die Prämienvoraussetzungen von neuen oder bevorzugten Welten erfüllt hast.</target>
+        <target state="final">Du hast &lt;var 22 E802 ((.)) /var&gt; Gil erhalten, weil du die Prämienvoraussetzungen von bevorzugten Welten+ erfüllt hast.</target>
       </trans-unit>
       <trans-unit id="1418" xml:space="preserve" approved="yes">
         <source>1418</source>
@@ -6004,7 +6004,7 @@ Nimm deine Belohnung im Mogpendium entgegen.</target>
       </trans-unit>
       <trans-unit id="1522" xml:space="preserve" approved="yes">
         <source>1522</source>
-        <target state="final">„&lt;var 28 ((InstanceContent)) E80204 /var&gt;“ wurde abgebrochen.</target>
+        <target state="final">„&lt;var 28 ((InstanceContent)) E80204 /var&gt;“ ist fehlgeschlagen oder wurde abgebrochen.</target>
       </trans-unit>
       <trans-unit id="1523" xml:space="preserve" approved="yes">
         <source>1523</source>
@@ -6674,6 +6674,14 @@ da sich dieser seltene Gegenstand nur einmal im Inventar befinden darf.</target>
       <trans-unit id="1767" xml:space="preserve" approved="yes">
         <source>1767</source>
         <target state="final">Du kannst den Gegenstand nicht annehmen, weil du keinen Platz im Inventar hast.</target>
+      </trans-unit>
+      <trans-unit id="1768" xml:space="preserve" approved="yes">
+        <source>1768</source>
+        <target state="final">Die Einstellungen wurden geändert.</target>
+      </trans-unit>
+      <trans-unit id="1769" xml:space="preserve" approved="yes">
+        <source>1769</source>
+        <target state="final">Die Änderungen wurden verworfen.</target>
       </trans-unit>
       <trans-unit id="1770" xml:space="preserve" approved="yes">
         <source>1770</source>
@@ -14889,6 +14897,14 @@ Charaktername@Weltenname</target>
         <source>3898</source>
         <target state="final">Das automatische Anvisieren von Zielen bei Ausführung einer Attacke wurde &lt;var 08 E1E80201 ((aktiviert)) ((deaktiviert)) /var&gt;.</target>
       </trans-unit>
+      <trans-unit id="3899" xml:space="preserve" approved="yes">
+        <source>3899</source>
+        <target state="final">Viera-Ohren sind nun &lt;var 08 E1E80201 ((sichtbar)) ((verborgen)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="3900" xml:space="preserve" approved="yes">
+        <source>3900</source>
+        <target state="final">Aktion kann mit dem momentanen Volk nicht ausgeführt werden.</target>
+      </trans-unit>
       <trans-unit id="3901" xml:space="preserve" approved="yes">
         <source>3901</source>
         <target state="final">Du brauchst mindestens &lt;var 22 E802 ((.)) /var&gt; Gil, um dich von Jandelaine verschönern zu lassen.</target>
@@ -16169,7 +16185,7 @@ ein stärkender Status auf deinen Charakter angewendet.</target>
       </trans-unit>
       <trans-unit id="4219" xml:space="preserve" approved="yes">
         <source>4219</source>
-        <target state="final">Durch die Kraft des Transzendierens werden der ausgeteilte Schaden, die LP-Regeneration und die Maximal-LP um &lt;var 20 E802 /var&gt; % erhöht.</target>
+        <target state="final">Durch die Kraft des Transzendierens werden der ausgeteilte Schaden, die LP-Regeneration und die Maximal-LP um &lt;var 20 E802 /var&gt;&lt;var 1D /var&gt;% erhöht.</target>
       </trans-unit>
       <trans-unit id="4220" xml:space="preserve" approved="yes">
         <source>4220</source>
@@ -19019,6 +19035,10 @@ Wenn du nicht innerhalb des Zeitlimits dorthin zurückkehrst, wird der Inhalt ab
         <source>5268</source>
         <target state="final">Du hast &lt;var 08 E4E80202 ((&lt;var 32 ((Item)) 02E803020502 /var&gt;)) ((&lt;var 22 E802 ((.)) /var&gt; &lt;var 32 ((Item)) 06E803030502 /var&gt;)) /var&gt; erhalten.</target>
       </trans-unit>
+      <trans-unit id="5269" xml:space="preserve" approved="yes">
+        <source>5269</source>
+        <target state="final">Der Gegenstand kann hier nicht verwendet werden. Versuche es innerhalb des entsprechenden Inhalts noch einmal.</target>
+      </trans-unit>
       <trans-unit id="5270" xml:space="preserve" approved="yes">
         <source>5270</source>
         <target state="final">&lt;var 20 E802 /var&gt; Beutel genießbaren Kristallsand erhalten.</target>
@@ -19635,7 +19655,8 @@ Du hat eine neue Ninjutsu-Technik erworben!</target>
       </trans-unit>
       <trans-unit id="5436" xml:space="preserve" approved="yes">
         <source>5436</source>
-        <target state="final">Alisaie hat die Führung übernommen!</target>
+        <target state="final">Alisaie hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5437" xml:space="preserve" approved="yes">
         <source>5437</source>
@@ -19643,11 +19664,13 @@ Du hat eine neue Ninjutsu-Technik erworben!</target>
       </trans-unit>
       <trans-unit id="5438" xml:space="preserve" approved="yes">
         <source>5438</source>
-        <target state="final">Ailouros hat die Führung übernommen!</target>
+        <target state="final">Ailouros hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5439" xml:space="preserve" approved="yes">
         <source>5439</source>
-        <target state="final">Die torkelnde Deepa hat die Führung übernommen!</target>
+        <target state="final">Die torkelnde Deepa hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5440" xml:space="preserve" approved="yes">
         <source>5440</source>
@@ -19655,11 +19678,13 @@ Du hat eine neue Ninjutsu-Technik erworben!</target>
       </trans-unit>
       <trans-unit id="5441" xml:space="preserve" approved="yes">
         <source>5441</source>
-        <target state="final">Der gleißende Hund hat die Führung übernommen!</target>
+        <target state="final">Der gleißende Hund hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5442" xml:space="preserve" approved="yes">
         <source>5442</source>
-        <target state="final">Der junge Wissenschaftler hat die Führung übernommen!</target>
+        <target state="final">Der junge Wissenschaftler hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5443" xml:space="preserve" approved="yes">
         <source>5443</source>
@@ -19747,11 +19772,13 @@ Du hat eine neue Ninjutsu-Technik erworben!</target>
       </trans-unit>
       <trans-unit id="5464" xml:space="preserve" approved="yes">
         <source>5464</source>
-        <target state="final">&lt;var 12 40 /var&gt;Wenn du jemanden verfolgst, wird der Zielort nicht auf der Karte angezeigt.</target>
+        <target state="final">&lt;var 12 40 /var&gt;Wenn du jemanden verfolgst, wird der Zielort nicht auf der Karte angezeigt.
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5465" xml:space="preserve" approved="yes">
         <source>5465</source>
-        <target state="final">Alphinaud und Alisaie haben die Führung übernommen!</target>
+        <target state="final">Alphinaud und Alisaie haben die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5466" xml:space="preserve" approved="yes">
         <source>5466</source>
@@ -19775,11 +19802,13 @@ Du hat eine neue Ninjutsu-Technik erworben!</target>
       </trans-unit>
       <trans-unit id="5471" xml:space="preserve" approved="yes">
         <source>5471</source>
-        <target state="final">Der seltsame Hanuman-Langur hat die Führung übernommen!</target>
+        <target state="final">Der seltsame Hanuman-Langur hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5472" xml:space="preserve" approved="yes">
         <source>5472</source>
-        <target state="final">Das aufgewühlte Mädchen hat die Führung übernommen!</target>
+        <target state="final">Das aufgewühlte Mädchen hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="5473" xml:space="preserve" approved="yes">
         <source>5473</source>
@@ -21472,6 +21501,10 @@ den Hauptszenario-Auftrag „Himmelwärts“ abschließen muss.</target>
         <source>6117</source>
         <target state="final">Innenraum wurde angepasst.</target>
       </trans-unit>
+      <trans-unit id="6121" xml:space="preserve" approved="yes">
+        <source>6121</source>
+        <target state="final">&lt;var 2B ((&lt;var 32 ((Item)) 03E802020202 /var&gt;)) /var&gt; kann nicht auf dem Marktbrett gehandelt und daher auch nicht der Merkliste hinzugefügt werden.</target>
+      </trans-unit>
       <trans-unit id="6965" xml:space="preserve" approved="yes">
         <source>6965</source>
         <target state="final">Ihr konntet die Verlockung nicht voll ausschöpfen&lt;var 1D /var&gt;...</target>
@@ -22294,7 +22327,7 @@ für den Fortschritt mehr hat.</target>
       </trans-unit>
       <trans-unit id="7283" xml:space="preserve" approved="yes">
         <source>7283</source>
-        <target state="final">Diese Speicherdaten können nicht konvertiert werden.</target>
+        <target state="final">Diese Speicherdaten können aufgrund des Fortschritts nicht konvertiert werden.</target>
       </trans-unit>
       <trans-unit id="7284" xml:space="preserve" approved="yes">
         <source>7284</source>
@@ -24040,11 +24073,11 @@ Möglicherweise kann das Problem behoben werden, indem du das Areal wechselst.</
       </trans-unit>
       <trans-unit id="7909" xml:space="preserve" approved="yes">
         <source>7909</source>
-        <target state="final">&lt;var 28 ((EmjVoiceNpc)) E8021C /var&gt; begleitet dich nun beim Domanischen Mahjong.</target>
+        <target state="final">&lt;var 28 ((EmjVoiceNpc)) E8021D /var&gt; begleitet dich nun beim Domanischen Mahjong.</target>
       </trans-unit>
       <trans-unit id="7910" xml:space="preserve" approved="yes">
         <source>7910</source>
-        <target state="final">Du hast das Kostüm von &lt;var 28 ((EmjVoiceNpc)) E8021C /var&gt; zu „&lt;var 28 ((EmjCostumeData)) E80301 /var&gt;“ geändert.</target>
+        <target state="final">Du hast das Kostüm von &lt;var 28 ((EmjVoiceNpc)) E8021D /var&gt; zu „&lt;var 28 ((EmjCostumeData)) E80301 /var&gt;“ geändert.</target>
       </trans-unit>
       <trans-unit id="7920" xml:space="preserve" approved="yes">
         <source>7920</source>
@@ -24271,6 +24304,14 @@ weil ein Mitglied den Inhalt zum ersten Mal abgeschlossen hat.</target>
       <trans-unit id="7994" xml:space="preserve" approved="yes">
         <source>7994</source>
         <target state="final">Die gewünschte Aktion ist in Inhalten nicht möglich.</target>
+      </trans-unit>
+      <trans-unit id="7995" xml:space="preserve" approved="yes">
+        <source>7995</source>
+        <target state="final">Dieser Inhalt kann nicht über die Inhaltssuche betreten werden.</target>
+      </trans-unit>
+      <trans-unit id="7996" xml:space="preserve" approved="yes">
+        <source>7996</source>
+        <target state="final">Dieser Inhalt wurde noch nicht freigespielt.</target>
       </trans-unit>
       <trans-unit id="7997" xml:space="preserve" approved="yes">
         <source>7997</source>
@@ -25580,6 +25621,62 @@ weil ein Mitglied den Inhalt zum ersten Mal abgeschlossen hat.</target>
         <source>8325</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((bist)) ((ist)) /var&gt; in die Lektüre vertieft und &lt;var 08 E4EB02EB03 ((ignorierst)) ((ignoriert)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 09 05 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020502 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
       </trans-unit>
+      <trans-unit id="8328" xml:space="preserve" approved="yes">
+        <source>8328</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((trinkst)) ((trinkt)) /var&gt; einen kleinen Schluck gridanischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8329" xml:space="preserve" approved="yes">
+        <source>8329</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((trinkst)) ((trinkt)) /var&gt; vor &lt;var 08 E4EB02EB04 ((&lt;var 09 04 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020402 /var&gt;)) EB04 /var&gt;)) /var&gt; einen kleinen Schluck gridanischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8330" xml:space="preserve" approved="yes">
+        <source>8330</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((trinkst)) ((trinkt)) /var&gt; einen kleinen Schluck ul'dhischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8331" xml:space="preserve" approved="yes">
+        <source>8331</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((trinkst)) ((trinkt)) /var&gt; vor &lt;var 08 E4EB02EB04 ((&lt;var 09 04 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020402 /var&gt;)) EB04 /var&gt;)) /var&gt; einen kleinen Schluck ul'dhischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8332" xml:space="preserve" approved="yes">
+        <source>8332</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((trinkst)) ((trinkt)) /var&gt; einen kleinen Schluck limsischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8333" xml:space="preserve" approved="yes">
+        <source>8333</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((trinkst)) ((trinkt)) /var&gt; vor &lt;var 08 E4EB02EB04 ((&lt;var 09 04 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020402 /var&gt;)) EB04 /var&gt;)) /var&gt; einen kleinen Schluck limsischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8334" xml:space="preserve" approved="yes">
+        <source>8334</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((genießt)) ((genießt)) /var&gt; einen Becher gridanischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8335" xml:space="preserve" approved="yes">
+        <source>8335</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((genießt)) ((genießt)) /var&gt; vor &lt;var 08 E4EB02EB04 ((&lt;var 09 04 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020402 /var&gt;)) EB04 /var&gt;)) /var&gt; einen Becher gridanischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8336" xml:space="preserve" approved="yes">
+        <source>8336</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((genießt)) ((genießt)) /var&gt; einen Becher ul'dhischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8337" xml:space="preserve" approved="yes">
+        <source>8337</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((genießt)) ((genießt)) /var&gt; vor &lt;var 08 E4EB02EB04 ((&lt;var 09 04 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020402 /var&gt;)) EB04 /var&gt;)) /var&gt; einen Becher ul'dhischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8338" xml:space="preserve" approved="yes">
+        <source>8338</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((genießt)) ((genießt)) /var&gt; einen Becher limsischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8339" xml:space="preserve" approved="yes">
+        <source>8339</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((genießt)) ((genießt)) /var&gt; vor &lt;var 08 E4EB02EB04 ((&lt;var 09 04 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020402 /var&gt;)) EB04 /var&gt;)) /var&gt; einen Becher limsischen Kinderpunsches.</target>
+      </trans-unit>
+      <trans-unit id="8346" xml:space="preserve" approved="yes">
+        <source>8346</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((machst)) ((macht)) /var&gt; mit &lt;var 08 E4EB02EB03 ((deiner)) ((&lt;var 08 E906 ((&lt;var 09 E906 ((ihrer)) ((seiner)) /var&gt;)) ((seiner)) /var&gt;)) /var&gt; Feder ein paar Notizen.</target>
+      </trans-unit>
+      <trans-unit id="8347" xml:space="preserve" approved="yes">
+        <source>8347</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((machst)) ((macht)) /var&gt; mit &lt;var 08 E4EB02EB03 ((deiner)) ((&lt;var 08 E906 ((&lt;var 09 E906 ((ihrer)) ((seiner)) /var&gt;)) ((seiner)) /var&gt;)) /var&gt; Feder ein paar Notizen über &lt;var 08 E4EB02EB04 ((&lt;var 09 05 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020502 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
       <trans-unit id="9001" xml:space="preserve" approved="yes">
         <source>9001</source>
         <target state="final">Da du &lt;var 32 ((Item)) 05E802020502 /var&gt; besitzt, kannst du die Belohnung nicht erhalten.</target>
@@ -25671,7 +25768,7 @@ Benutze den Schlüsselgegenstand &lt;var 32 ((EventItem)) 06E803020502 /var&gt;,
       </trans-unit>
       <trans-unit id="9035" xml:space="preserve" approved="yes">
         <source>9035</source>
-        <target state="final">Die Kommandomenü- und Kreuzkommandomenü-Einstellungen von &lt;var 28 ((ClassJob)) ((&lt;var 28 ((ClassJob)) E8021D /var&gt;)) 01 /var&gt; wurden übertragen.
+        <target state="final">Die Kommandomenü- und Kreuzkommandomenü-Einstellungen von &lt;var 28 ((ClassJob)) ((&lt;var 28 ((ClassJob)) E8021E /var&gt;)) 01 /var&gt; wurden übertragen.
 Passe sie nun nach Bedarf an.</target>
       </trans-unit>
       <trans-unit id="9036" xml:space="preserve" approved="yes">
@@ -27613,7 +27710,7 @@ Dein Kampfeifer wurde zurückgesetzt.</target>
       </trans-unit>
       <trans-unit id="9710" xml:space="preserve" approved="yes">
         <source>9710</source>
-        <target state="final">Kann nicht auf die Schwarze Liste gesetzt werden, weil die Daten veraltet sind.</target>
+        <target state="final">Kann nicht auf die Schwarze Liste gesetzt werden. Die Kontaktliste stammt von einem vorherigen Login.</target>
       </trans-unit>
       <trans-unit id="9711" xml:space="preserve" approved="yes">
         <source>9711</source>
@@ -27752,6 +27849,10 @@ Er wird als „Unbekannt“ angezeigt.</target>
       <trans-unit id="9744" xml:space="preserve" approved="yes">
         <source>9744</source>
         <target state="final">Dieser Charakter kann nicht zur Freundesliste hinzugefügt werden, da er sich nicht im selben Areal befindet.</target>
+      </trans-unit>
+      <trans-unit id="9745" xml:space="preserve" approved="yes">
+        <source>9745</source>
+        <target state="final">Die Notiz kann nicht gespeichert werden. Die Version stimmt nicht mit der Version bei der Registrierung überein.</target>
       </trans-unit>
       <trans-unit id="9751" xml:space="preserve" approved="yes">
         <source>9751</source>
@@ -29679,6 +29780,10 @@ Eine Erklärung dazu findest du im Leitfaden des Inselführers.</target>
         <source>10243</source>
         <target state="final">Feldprodukte werden von spezifischen Pflanzen erhalten, die auf den Feldern angebaut werden.</target>
       </trans-unit>
+      <trans-unit id="10244" xml:space="preserve" approved="yes">
+        <source>10244</source>
+        <target state="final">Du hast &lt;var 20 E802 /var&gt; &lt;var 08 E4E80202 ((blaue Cieldaläen-Kauri)) ((blaue Cieldaläen-Kauris)) /var&gt; ausgegeben, um die Expedition auf die maximale Dauer zu verlängern.</target>
+      </trans-unit>
       <trans-unit id="10247" xml:space="preserve" approved="yes">
         <source>10247</source>
         <target state="final">Die Verteidigungstruppen wurden geschwächt!</target>
@@ -30109,7 +30214,8 @@ Eine Erklärung dazu findest du im Leitfaden des Inselführers.</target>
       </trans-unit>
       <trans-unit id="10405" xml:space="preserve" approved="yes">
         <source>10405</source>
-        <target state="final">Torgal hat die Führung übernommen!</target>
+        <target state="final">Torgal hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="10406" xml:space="preserve" approved="yes">
         <source>10406</source>
@@ -30121,7 +30227,8 @@ Eine Erklärung dazu findest du im Leitfaden des Inselführers.</target>
       </trans-unit>
       <trans-unit id="10408" xml:space="preserve" approved="yes">
         <source>10408</source>
-        <target state="final">Deryk und das Opo-Opo-Jungtier machen sich zügig auf den Weg!</target>
+        <target state="final">Deryk und das Opo-Opo-Jungtier machen sich zügig auf den Weg!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="10409" xml:space="preserve" approved="yes">
         <source>10409</source>
@@ -30198,11 +30305,13 @@ Eine Erklärung dazu findest du im Leitfaden des Inselführers.</target>
       </trans-unit>
       <trans-unit id="10427" xml:space="preserve" approved="yes">
         <source>10427</source>
-        <target state="final">Koana hat die Führung übernommen!</target>
+        <target state="final">Koana hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="10428" xml:space="preserve" approved="yes">
         <source>10428</source>
-        <target state="final">Der Äthersucher hat die Führung übernommen!</target>
+        <target state="final">Der Äthersucher hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="10429" xml:space="preserve" approved="yes">
         <source>10429</source>
@@ -30218,7 +30327,8 @@ Eine Erklärung dazu findest du im Leitfaden des Inselführers.</target>
       </trans-unit>
       <trans-unit id="10432" xml:space="preserve" approved="yes">
         <source>10432</source>
-        <target state="final">Der blauschuppige Hoobigo-Junge hat die Führung übernommen!</target>
+        <target state="final">Der blauschuppige Hoobigo-Junge hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="10433" xml:space="preserve" approved="yes">
         <source>10433</source>
@@ -30262,7 +30372,8 @@ Eine Erklärung dazu findest du im Leitfaden des Inselführers.</target>
       </trans-unit>
       <trans-unit id="10443" xml:space="preserve" approved="yes">
         <source>10443</source>
-        <target state="final">Die mysteriöse Erscheinung hat die Führung übernommen!</target>
+        <target state="final">Die mysteriöse Erscheinung hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
       </trans-unit>
       <trans-unit id="10444" xml:space="preserve" approved="yes">
         <source>10444</source>
@@ -30350,7 +30461,41 @@ Eine Erklärung dazu findest du im Leitfaden des Inselführers.</target>
       </trans-unit>
       <trans-unit id="10467" xml:space="preserve" approved="yes">
         <source>10467</source>
-        <target state="final"> Um den Auftrag annehmen zu können, musst du auf deine Stammwelt zurückkehren.</target>
+        <target state="final">Um den Auftrag annehmen zu können, musst du auf deine Stammwelt zurückkehren.</target>
+      </trans-unit>
+      <trans-unit id="10469" xml:space="preserve" approved="yes">
+        <source>10469</source>
+        <target state="final">Die Aufgabe „&lt;var 28 ((EventTutorial)) E80202 /var&gt;“ hat begonnen!&lt;var 08 E1E80301 (( Du hast dafür &lt;var 20 E803 /var&gt; Sekunden Zeit.)) (()) /var&gt;
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
+      </trans-unit>
+      <trans-unit id="10470" xml:space="preserve" approved="yes">
+        <source>10470</source>
+        <target state="final">Die Aufgaben „&lt;var 28 ((EventTutorial)) E80302 /var&gt;“ und „&lt;var 28 ((EventTutorial)) E80202 /var&gt;“ haben begonnen!&lt;var 08 E1E80401 (( Du hast dafür &lt;var 20 E804 /var&gt; Sekunden Zeit.)) (()) /var&gt;
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
+      </trans-unit>
+      <trans-unit id="10471" xml:space="preserve" approved="yes">
+        <source>10471</source>
+        <target state="final">Raubahn hat die Führung übernommen!
+Wähle das Symbol &lt;var 12 B7 /var&gt; in der Aufgabenliste, um eine Erklärung anzeigen zu lassen.</target>
+      </trans-unit>
+      <trans-unit id="10472" xml:space="preserve" approved="yes">
+        <source>10472</source>
+        <target state="final">Im momentanen Areal kann das Neue Spiel+ nicht begonnen werden.
+Wechsle das Areal und versuche es erneut.</target>
+      </trans-unit>
+      <trans-unit id="10473" xml:space="preserve" approved="yes">
+        <source>10473</source>
+        <target state="final">Im momentanen Areal kann das Neue Spiel+ nicht abgebrochen werden.
+Wechsle das Areal und versuche es erneut.</target>
+      </trans-unit>
+      <trans-unit id="10474" xml:space="preserve" approved="yes">
+        <source>10474</source>
+        <target state="final">Im momentanen Areal kann das Neue Spiel+ nicht fortgesetzt werden.
+Wechsle das Areal und versuche es erneut.</target>
+      </trans-unit>
+      <trans-unit id="10475" xml:space="preserve" approved="yes">
+        <source>10475</source>
+        <target state="final">&lt;var 12 40 /var&gt;Du hast Geode verloren! Beginne von vorne!</target>
       </trans-unit>
       <trans-unit id="10500" xml:space="preserve" approved="yes">
         <source>10500</source>
@@ -31114,6 +31259,10 @@ Sprich mit den Fundsachenverwaltern in Limsa Lominsa, Gridania oder Ul'dah, um G
         <source>10695</source>
         <target state="final">Phobos' Gift setzt sich in deinem Körper ab&lt;var 1D /var&gt;...</target>
       </trans-unit>
+      <trans-unit id="10698" xml:space="preserve" approved="yes">
+        <source>10698</source>
+        <target state="final">Erinnerungen der durch Feindeshand Ermordeten materialisieren sich ...</target>
+      </trans-unit>
       <trans-unit id="10750" xml:space="preserve" approved="yes">
         <source>10750</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((hast)) ((hat)) /var&gt; &lt;var 08 E1E80302 ((&lt;var 32 ((Item)) 02E802E8030502 /var&gt;)) ((&lt;var 32 ((Item)) 02E802020502 /var&gt;)) /var&gt; erhalten.</target>
@@ -31136,15 +31285,15 @@ Sprich mit den Fundsachenverwaltern in Limsa Lominsa, Gridania oder Ul'dah, um G
       </trans-unit>
       <trans-unit id="10755" xml:space="preserve" approved="yes">
         <source>10755</source>
-        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((kannst)) ((kann)) /var&gt; keine Gegenstände erhalten, da dein Kosmobeutel voll ist.</target>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((kannst)) ((kann)) /var&gt; keine Gegenstände erhalten, da dein Inventar voll ist.</target>
       </trans-unit>
       <trans-unit id="10756" xml:space="preserve" approved="yes">
         <source>10756</source>
-        <target state="final">Das Sammeln ist nicht möglich, da dein Kosmobeutel voll ist.</target>
+        <target state="final">Das Sammeln ist nicht möglich, da dein Inventar voll ist.</target>
       </trans-unit>
       <trans-unit id="10757" xml:space="preserve" approved="yes">
         <source>10757</source>
-        <target state="final">Synthese nicht möglich, da dein Kosmobeutel voll ist.</target>
+        <target state="final">Synthese nicht möglich, da dein Inventar voll ist.</target>
       </trans-unit>
       <trans-unit id="10758" xml:space="preserve" approved="yes">
         <source>10758</source>
@@ -31192,7 +31341,7 @@ Sprich mit den Fundsachenverwaltern in Limsa Lominsa, Gridania oder Ul'dah, um G
       </trans-unit>
       <trans-unit id="10769" xml:space="preserve" approved="yes">
         <source>10769</source>
-        <target state="final">Klicke in deinem Exotablet unter „Stellarmissionen“ auf „Berichten“ und beende die Stellarmission.</target>
+        <target state="final">Klicke im Fenster „Aktive Missionen“ auf „Berichten“, um die Stellarmission zu beenden.</target>
       </trans-unit>
       <trans-unit id="10770" xml:space="preserve" approved="yes">
         <source>10770</source>
@@ -31408,7 +31557,7 @@ Finde sie auf der Schaltfläche deines Exotablets.</target>
       </trans-unit>
       <trans-unit id="10823" xml:space="preserve" approved="yes">
         <source>10823</source>
-        <target state="final">Dein Kosmobeutel ist voll.</target>
+        <target state="final">Dein Inventar ist voll.</target>
       </trans-unit>
       <trans-unit id="10824" xml:space="preserve" approved="yes">
         <source>10824</source>
@@ -31641,9 +31790,9 @@ Einzelheiten dieser inhaltsspezifischen Währung im Exotablet unter „&lt;var 2
         <source>10879</source>
         <target state="final">Goldwertung für „&lt;var 28 ((WKSMissionUnit)) E80201 /var&gt;“ wurde im Missionslog verzeichnet.</target>
       </trans-unit>
-      <trans-unit id="10880" xml:space="preserve" approved="no">
+      <trans-unit id="10880" xml:space="preserve" approved="yes">
         <source>10880</source>
-        <target state="needs-translation">Du konntest nicht alle &lt;var 32 ((Item)) 06E802030502 /var&gt; erhalten, da du die Obergrenze erreicht hast.</target>
+        <target state="final">Du konntest nicht alle &lt;var 32 ((Item)) 06E802030502 /var&gt; erhalten, da du die Obergrenze erreicht hast.</target>
       </trans-unit>
       <trans-unit id="10881" xml:space="preserve" approved="yes">
         <source>10881</source>
@@ -31704,8 +31853,8 @@ Stelle einen neuen Antrag, wenn du dich erneut für eine Erlaubnis bewerben will
       </trans-unit>
       <trans-unit id="10895" xml:space="preserve" approved="yes">
         <source>10895</source>
-        <target state="final">Arbeit beendet.
-Einen anderen &lt;var 32 ((EObj)) 06E802020502 /var&gt; laden.</target>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((hast)) ((hat)) /var&gt; einen geladenen Energievorrat platziert.
+Finde einen anderen &lt;var 32 ((EObj)) 06E802020502 /var&gt; zum Aufladen.</target>
       </trans-unit>
       <trans-unit id="10896" xml:space="preserve" approved="yes">
         <source>10896</source>
@@ -31725,7 +31874,7 @@ Einen anderen &lt;var 32 ((EObj)) 06E802020502 /var&gt; laden.</target>
       </trans-unit>
       <trans-unit id="10900" xml:space="preserve" approved="yes">
         <source>10900</source>
-        <target state="final">&lt;var 28 ((EmjVoiceNpc)) E8021C /var&gt; kommentiert nun deine Mahjong-Partien.</target>
+        <target state="final">&lt;var 28 ((EmjVoiceNpc)) E8021D /var&gt; kommentiert nun deine Mahjong-Partien.</target>
       </trans-unit>
       <trans-unit id="10901" xml:space="preserve" approved="yes">
         <source>10901</source>
@@ -31871,6 +32020,14 @@ Einzelheiten im Exotablet unter „&lt;var 28 ((DescriptionString)) F205150119 /
         <source>10938</source>
         <target state="final">Kommando kann nicht ausgeführt werden, da es noch nicht freigeschaltet wurde.</target>
       </trans-unit>
+      <trans-unit id="10942" xml:space="preserve" approved="yes">
+        <source>10942</source>
+        <target state="final">Das Kommando „Sammlergespür“ ist für diese Mission notwendig.</target>
+      </trans-unit>
+      <trans-unit id="10943" xml:space="preserve" approved="yes">
+        <source>10943</source>
+        <target state="final">Die Annahmezeit der Notfallmission ist abgelaufen.</target>
+      </trans-unit>
       <trans-unit id="10944" xml:space="preserve" approved="yes">
         <source>10944</source>
         <target state="final">Du bist nicht mit dem notwendigen Status „Prospektion“ versehen, um die Lagerstätten oder Steinbrüche der Stellarmission zu finden.</target>
@@ -31878,6 +32035,10 @@ Einzelheiten im Exotablet unter „&lt;var 28 ((DescriptionString)) F205150119 /
       <trans-unit id="10945" xml:space="preserve" approved="yes">
         <source>10945</source>
         <target state="final">Du bist nicht mit dem notwendigen Status „Geodäsie“ versehen, um die Nutzbäume oder Vegetationsstellen der Stellarmission zu finden.</target>
+      </trans-unit>
+      <trans-unit id="10946" xml:space="preserve" approved="yes">
+        <source>10946</source>
+        <target state="final">Der Reaktivierungs-Timer für Kräutertränke wurde zurückgesetzt.</target>
       </trans-unit>
       <trans-unit id="10947" xml:space="preserve" approved="yes">
         <source>10947</source>
@@ -31937,7 +32098,7 @@ Einzelheiten im Exotablet unter „&lt;var 28 ((DescriptionString)) F205150119 /
       </trans-unit>
       <trans-unit id="10965" xml:space="preserve" approved="yes">
         <source>10965</source>
-        <target state="final">Du spürst in dieser Gegend &lt;var 20 E802 /var&gt; silberne &lt;var 08 E4E80202 ((Schatztruhe)) ((Schatztruhen)) /var&gt; und &lt;var 20 E802 /var&gt; bronzene &lt;var 08 E4E80202 ((Schatztruhe)) ((Schatztruhen)) /var&gt;!</target>
+        <target state="final">Du spürst in dieser Gegend &lt;var 20 E802 /var&gt; silberne &lt;var 08 E4E80202 ((Schatztruhe)) ((Schatztruhen)) /var&gt; und &lt;var 20 E803 /var&gt; bronzene &lt;var 08 E4E80302 ((Schatztruhe)) ((Schatztruhen)) /var&gt;!</target>
       </trans-unit>
       <trans-unit id="10966" xml:space="preserve" approved="yes">
         <source>10966</source>
@@ -32146,6 +32307,18 @@ Begib dich zum Ort des Geschehens, wenn du daran teilnehmen möchtest.</target>
         <source>11100</source>
         <target state="final">Es können keine Gegenstände ausgewählt werden, deren Zustand sich unter 100&lt;var 1D /var&gt;% befindet.</target>
       </trans-unit>
+      <trans-unit id="11101" xml:space="preserve" approved="yes">
+        <source>11101</source>
+        <target state="final">&lt;var 2B ((&lt;var 32 ((Item)) 03E802020202 /var&gt;)) /var&gt; wurde der Merkliste hinzugefügt. (&lt;var 20 E803 /var&gt;/&lt;var 20 E804 /var&gt;)</target>
+      </trans-unit>
+      <trans-unit id="11102" xml:space="preserve" approved="yes">
+        <source>11102</source>
+        <target state="final">Aktion nicht möglich. Deine Merkliste hat die maximale Anzahl an Einträgen bereits erreicht.</target>
+      </trans-unit>
+      <trans-unit id="11103" xml:space="preserve" approved="yes">
+        <source>11103</source>
+        <target state="final">&lt;var 2B ((&lt;var 32 ((Item)) 03E802020202 /var&gt;)) /var&gt; wurde von der Merkliste entfernt. (&lt;var 20 E803 /var&gt;/&lt;var 20 E804 /var&gt;)</target>
+      </trans-unit>
       <trans-unit id="11130" xml:space="preserve" approved="yes">
         <source>11130</source>
         <target state="final">Du hast die Emotes „&lt;var 28 ((Emote)) C001 /var&gt;“ und „&lt;var 28 ((Emote)) F2012701 /var&gt;“ erlernt.</target>
@@ -32195,14 +32368,6 @@ da sich dieser seltene Gegenstand nur einmal im Inventar befinden darf.</target>
         <source>11159</source>
         <target state="final">Bericht der Daten fehlgeschlagen.</target>
       </trans-unit>
-      <trans-unit id="11160" xml:space="preserve" approved="yes">
-        <source>11160</source>
-        <target state="final">●このアクションでは、巨大偏属性クリスタルを破砕できない！</target>
-      </trans-unit>
-      <trans-unit id="11161" xml:space="preserve" approved="yes">
-        <source>11161</source>
-        <target state="final">●このアクションでは、巨大菌床を粉砕できない！</target>
-      </trans-unit>
       <trans-unit id="11162" xml:space="preserve" approved="yes">
         <source>11162</source>
         <target state="final">Aufgrund von unzureichendem Einsatzbeitrag blieb die Vergütung aus.</target>
@@ -32234,6 +32399,154 @@ da sich dieser seltene Gegenstand nur einmal im Inventar befinden darf.</target>
       <trans-unit id="11169" xml:space="preserve" approved="yes">
         <source>11169</source>
         <target state="final">Der Menüpunkt „Kosmo-Forschung“ ist jetzt im Exotablet anwählbar.</target>
+      </trans-unit>
+      <trans-unit id="11170" xml:space="preserve" approved="yes">
+        <source>11170</source>
+        <target state="final">Die Reise in das instanziierte Areal ist fehlgeschlagen.</target>
+      </trans-unit>
+      <trans-unit id="11171" xml:space="preserve" approved="yes">
+        <source>11171</source>
+        <target state="final">Für &lt;var 20 E803 /var&gt; erfolgreiche Sammelsträhnen wurden &lt;var 20 E802 /var&gt; Punkte erhalten.</target>
+      </trans-unit>
+      <trans-unit id="11172" xml:space="preserve" approved="yes">
+        <source>11172</source>
+        <target state="final">Für das Auslösen von Stückzahl-Boni wurden &lt;var 20 E802 /var&gt; Punkte erhalten.</target>
+      </trans-unit>
+      <trans-unit id="11173" xml:space="preserve" approved="yes">
+        <source>11173</source>
+        <target state="final">Neben &lt;var 20 E802 /var&gt; Punkten für &lt;var 20 E804 /var&gt; erfolgreiche Sammelsträhnen wurden &lt;var 20 E803 /var&gt; Punkte für das Auslösen von Stückzahl-Boni erhalten.</target>
+      </trans-unit>
+      <trans-unit id="11174" xml:space="preserve" approved="yes">
+        <source>11174</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E908 ((&lt;var 32 ((ObjStr)) 03E908020202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((hast)) ((hat)) /var&gt; &lt;var 20 E802 /var&gt; SP während der Stellarmission verbraucht. (Gesamt: &lt;var 20 E803 /var&gt;)</target>
+      </trans-unit>
+      <trans-unit id="11175" xml:space="preserve" approved="yes">
+        <source>11175</source>
+        <target state="final">Die &lt;var 20 E802 /var&gt; SP, die während der Stellarmission verbraucht worden sind, wurden regeneriert.</target>
+      </trans-unit>
+      <trans-unit id="11181" xml:space="preserve" approved="yes">
+        <source>11181</source>
+        <target state="final">Die Mission kann nicht gestartet werden, da im Inventar nicht genug Platz ist, um die Belohnung anzunehmen.</target>
+      </trans-unit>
+      <trans-unit id="11182" xml:space="preserve" approved="yes">
+        <source>11182</source>
+        <target state="final">Die Mission kann nicht abgeschlossen werden, da im Inventar nicht genug Platz ist, um die Belohnung anzunehmen.</target>
+      </trans-unit>
+      <trans-unit id="11183" xml:space="preserve" approved="yes">
+        <source>11183</source>
+        <target state="final">Diese Aktion kann hier nicht ausgeführt werden. Begib dich in das aktuellste Areal der Kosmo-Erkundung und versuche es dort erneut.</target>
+      </trans-unit>
+      <trans-unit id="11190" xml:space="preserve" approved="yes">
+        <source>11190</source>
+        <target state="final">Die Einstellungen wurden aktualisiert.</target>
+      </trans-unit>
+      <trans-unit id="11191" xml:space="preserve" approved="yes">
+        <source>11191</source>
+        <target state="final">Die Änderungen wurden verworfen.</target>
+      </trans-unit>
+      <trans-unit id="11192" xml:space="preserve" approved="yes">
+        <source>11192</source>
+        <target state="final">Um ein Erkundungsareal der Kosmo-Erkundung zu betreten, musst du auf deine Stammwelt zurückkehren.</target>
+      </trans-unit>
+      <trans-unit id="11201" xml:space="preserve" approved="yes">
+        <source>11201</source>
+        <target state="final">Deine Wahrnehmung verzieht sich und Angriffe sind schwerer zu antizipieren ...</target>
+      </trans-unit>
+      <trans-unit id="11208" xml:space="preserve" approved="yes">
+        <source>11208</source>
+        <target state="final">Psychotika werden vorbereitet ...</target>
+      </trans-unit>
+      <trans-unit id="11210" xml:space="preserve" approved="yes">
+        <source>11210</source>
+        <target state="final">&lt;var 2B ((&lt;var 32 ((BNpcName)) 03E802020202 /var&gt;)) /var&gt; sammelt Energie&lt;var 1D /var&gt;...</target>
+      </trans-unit>
+      <trans-unit id="11211" xml:space="preserve" approved="yes">
+        <source>11211</source>
+        <target state="final">Erinnerungen von Bombenopfern materialisieren sich ...</target>
+      </trans-unit>
+      <trans-unit id="11212" xml:space="preserve" approved="yes">
+        <source>11212</source>
+        <target state="final">Erinnerungen der im Krieg Umgekommenen materialisieren sich ...</target>
+      </trans-unit>
+      <trans-unit id="11224" xml:space="preserve" approved="yes">
+        <source>11224</source>
+        <target state="final">Spring vom Luftschiff, bevor es in Schutt und Asche gelegt wird!</target>
+      </trans-unit>
+      <trans-unit id="11226" xml:space="preserve" approved="yes">
+        <source>11226</source>
+        <target state="final">Du bist dem Abgrund entkommen ...!</target>
+      </trans-unit>
+      <trans-unit id="11227" xml:space="preserve" approved="yes">
+        <source>11227</source>
+        <target state="final">Du wurdest in den Abgrund gezerrt ...</target>
+      </trans-unit>
+      <trans-unit id="11228" xml:space="preserve" approved="yes">
+        <source>11228</source>
+        <target state="final">Das Ewige Dunkel hat sich am Äther gelabt ...</target>
+      </trans-unit>
+      <trans-unit id="11230" xml:space="preserve" approved="yes">
+        <source>11230</source>
+        <target state="final">Für die momentane Klasse/Job nicht möglich.</target>
+      </trans-unit>
+      <trans-unit id="11260" xml:space="preserve" approved="yes">
+        <source>11260</source>
+        <target state="final">Du wurdest aus dem Tresor Oneiron hinausgeworfen&lt;var 1D /var&gt;...</target>
+      </trans-unit>
+      <trans-unit id="11261" xml:space="preserve" approved="yes">
+        <source>11261</source>
+        <target state="final">Ihr erwacht weit, weit weg vom Tresor Oneiron&lt;var 1D /var&gt;...</target>
+      </trans-unit>
+      <trans-unit id="11262" xml:space="preserve" approved="yes">
+        <source>11262</source>
+        <target state="final">Sammle 100 schimmernde Säcke in 90 Sekunden!</target>
+      </trans-unit>
+      <trans-unit id="11263" xml:space="preserve" approved="yes">
+        <source>11263</source>
+        <target state="final">Noch 60 Sekunden</target>
+      </trans-unit>
+      <trans-unit id="11264" xml:space="preserve" approved="yes">
+        <source>11264</source>
+        <target state="final">Noch 30 Sekunden</target>
+      </trans-unit>
+      <trans-unit id="11265" xml:space="preserve" approved="yes">
+        <source>11265</source>
+        <target state="final">Der Fiebertraum ist ausgeträumt.</target>
+      </trans-unit>
+      <trans-unit id="11266" xml:space="preserve" approved="yes">
+        <source>11266</source>
+        <target state="final">Der Hypno-Automat schimmert in merkwürdigem Licht&lt;var 1D /var&gt;...</target>
+      </trans-unit>
+      <trans-unit id="11267" xml:space="preserve" approved="yes">
+        <source>11267</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB04 ((&lt;var 09 02 ((du)) ((deiner)) ((dir)) ((dich)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 32 ((ObjStr)) 03E909020202 /var&gt;)) EB04 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB04 ((spielst)) ((spielt)) /var&gt; am Hypno-Automaten.</target>
+      </trans-unit>
+      <trans-unit id="11268" xml:space="preserve" approved="yes">
+        <source>11268</source>
+        <target state="final">Der Hypno-Automat wurde aktiviert!</target>
+      </trans-unit>
+      <trans-unit id="11269" xml:space="preserve" approved="yes">
+        <source>11269</source>
+        <target state="final">&lt;var 09 E802 ((Leise Ahnung!)) ((Fixe Idee!)) ((Großer Gedanke!)) ((Finale Fantasie!)) /var&gt;&lt;var 08 E5E80301 (( &lt;var 2B ((&lt;var 32 ((BNpcName)) 03E803020202 /var&gt;)) /var&gt; erscheint!)) (( Besiege alle Feinde!)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11270" xml:space="preserve" approved="yes">
+        <source>11270</source>
+        <target state="final">Alle Feinde wurden besiegt!</target>
+      </trans-unit>
+      <trans-unit id="11271" xml:space="preserve" approved="yes">
+        <source>11271</source>
+        <target state="final">Du hast die Emotes „&lt;var 28 ((Emote)) F2012A01 /var&gt;“,  „&lt;var 28 ((Emote)) F2012B01 /var&gt;“, „&lt;var 28 ((Emote)) F2012C01 /var&gt;“, „&lt;var 28 ((Emote)) F2012D01 /var&gt;“, „&lt;var 28 ((Emote)) F2012E01 /var&gt;“ und „&lt;var 28 ((Emote)) F2012F01 /var&gt;“ erlernt.</target>
+      </trans-unit>
+      <trans-unit id="11272" xml:space="preserve" approved="yes">
+        <source>11272</source>
+        <target state="final">Du hast die Emotes „&lt;var 28 ((Emote)) F2013101 /var&gt;“ und „&lt;var 28 ((Emote)) F2013201 /var&gt;“ erlernt.</target>
+      </trans-unit>
+      <trans-unit id="11273" xml:space="preserve" approved="yes">
+        <source>11273</source>
+        <target state="final">Du hast &lt;var 20 E802 /var&gt; &lt;var 08 E4E80202 ((schimmernden Sack)) ((schimmernde Säcke)) /var&gt; erhalten!</target>
+      </trans-unit>
+      <trans-unit id="11274" xml:space="preserve" approved="yes">
+        <source>11274</source>
+        <target state="final">Du hast &lt;var 20 E802 /var&gt; &lt;var 08 E4E80202 ((schimmernden Sack)) ((schimmernde Säcke)) /var&gt; erhalten und eine &lt;var 09 E803 ((goldene)) ((silberne)) ((bronzene)) /var&gt; Schatztruhe ist erschienen!</target>
       </trans-unit>
     </body>
   </file>

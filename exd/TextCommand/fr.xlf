@@ -14,7 +14,7 @@ Utilisation&lt;var 1D /var&gt;: /appelenregistrement [sous-commande]
 Lance un appel d'enregistrement (ou un appel de préparation à partir de la seconde fois), puis un compte à rebours si tous les équipiers ont répondu "Oui".
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 "[nombre de secondes entre 5 et 30]" Définit la durée du compte à rebours.
-Si aucune sous-commande n'est spécifiée, ouvre la fenêtre de l'appel d'enregistrement.&lt;tab&gt;/appelenregistrement&lt;tab&gt;/appelenreg&lt;tab&gt;/recordready&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, ouvre la fenêtre de l'appel d'enregistrement.&lt;tab&gt;/appelenregistrement&lt;tab&gt;/appelenreg&lt;tab&gt;/recordready&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="3" xml:space="preserve" approved="yes">
         <source>3</source>
@@ -63,7 +63,7 @@ set "Nom d'action de magie bleue" on    Ajoute le sort de magie bleue au set act
 set "Nom d'action de magie bleue" off    Retire le sort de magie bleue du set actif.
 preset "Numéro du set sauvegardé" (1 à 5)   Charge le set spécifié par le numéro.
 clear    Retire toutes les actions du set actif.
-Si aucune sous-commande n'est spécifiée, ouvre le grimoire de magie bleue.
+* Si aucune sous-commande n'est spécifiée, ouvre le grimoire de magie bleue.
 
 &gt;&gt; Exemples&lt;var 1D /var&gt;:
 /grimoiremagiebleue set Tir d'eau
@@ -98,7 +98,7 @@ Active la configuration automatique du plateau Magia en fonction de la cible sé
 attaque (attack)   Active le mode offensif.
 défense (defense)   Active le mode défensif.
 off   Désactive la configuration automatique du plateau Magia.
-Si aucune sous-commande n'est spécifiée, les différents modes sont activés à tour de rôle.
+* Si aucune sous-commande n'est spécifiée, les différents modes sont activés à tour de rôle.
 &gt;&gt; Exemple&lt;var 1D /var&gt;:
 /magiaauto attaque
   Active la configuration automatique du plateau Magia en mode offensif.&lt;tab&gt;/magiaauto&lt;tab&gt;&lt;tab&gt;/magiaauto&lt;tab&gt;</target>
@@ -380,7 +380,7 @@ Ifrit-Egi
 Selene
 * Aucune apparence spécifiée ou avec "annuler"&lt;var 1D /var&gt;:
   Rend au familier son apparence d'origine.
-Si aucune sous-commande n'est spécifiée, affiche la liste des apparences actuelles.
+* Si aucune sous-commande n'est spécifiée, affiche la liste des apparences actuelles.
 &gt;&gt; Exemple
 /miragefamilier "Garuda-Egi" "Carbuncle rubis"
 Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.
@@ -448,7 +448,7 @@ Permet de désactiver le ciblage des personnages joueurs en cliquant sur le bout
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on) Désactive le ciblage par clic droit.
 désactivé (off) Active le ciblage par clic droit.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/clicdroitpj&lt;tab&gt;/clicdpj&lt;tab&gt;/rclickpc&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/clicdroitpj&lt;tab&gt;/clicdpj&lt;tab&gt;/rclickpc&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="40" xml:space="preserve" approved="yes">
         <source>40</source>
@@ -458,7 +458,7 @@ Permet de désactiver le ciblage des personnages non-joueurs dans les instances 
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on) Désactive le ciblage par clic droit.
 désactivé (off) Active le ciblage par clic droit.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/clicdroitpnj&lt;tab&gt;/clicdpnj&lt;tab&gt;/rclickbattlenpc&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/clicdroitpnj&lt;tab&gt;/clicdpnj&lt;tab&gt;/rclickbattlenpc&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="41" xml:space="preserve" approved="yes">
         <source>41</source>
@@ -468,7 +468,7 @@ Permet de désactiver le ciblage des mascottes en cliquant sur le bouton droit d
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on) Désactive le ciblage par clic droit.
 désactivé (off) Active le ciblage par clic droit.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/clicdroitmascotte&lt;tab&gt;/clicdmas&lt;tab&gt;/rclickminion&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/clicdroitmascotte&lt;tab&gt;/clicdmas&lt;tab&gt;/rclickminion&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="42" xml:space="preserve" approved="yes">
         <source>42</source>
@@ -526,6 +526,16 @@ Permet d'activer/désactiver le ciblage automatique d'un ennemi en effectuant un
 activé (on) Active le ciblage automatique d'un ennemi en effectuant une action offensive.
 désactivé (off) Désactive le ciblage automatique d'un ennemi en effectuant une action offensive.
 * Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/ciblageautomatique&lt;tab&gt;/cibauto&lt;tab&gt;/autotargetpriority&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="49" xml:space="preserve" approved="yes">
+        <source>49</source>
+        <target state="final">/oreillesviera,/oviera,/vears
+Permet d'activer/désactiver l'affichage des oreilles des Viéras.
+* Les oreilles ne peuvent être affichées qu'avec des pièces d'équipement de tête compatibles.
+&gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
+activé (on) Affiche les oreilles à travers l'équipement de tête
+désactivé (off) Masque les oreilles sous l'équipement de tête.
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/oreillesviera&lt;tab&gt;/oviera&lt;tab&gt;/vieraears&lt;tab&gt;/vears</target>
       </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
@@ -731,7 +741,7 @@ Pour annuler, déplacez-vous dans la direction opposée.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)        Active la course automatique.
 désactivé (off)    Désactive la course automatique.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/courseauto&lt;tab&gt;/courir&lt;tab&gt;/automove&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/courseauto&lt;tab&gt;/courir&lt;tab&gt;/automove&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="134" xml:space="preserve" approved="yes">
         <source>134</source>
@@ -1136,7 +1146,7 @@ Enclenche un compte à rebours pour indiquer le début du combat aux équipiers.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 "[nombre de secondes entre 5 et 30]"   Définit la durée du compte à rebours.
 * En cas d'utilisation de cette fonction avec la commande texte, le nombre de secondes n'est pas sauvegardé et le message de rappel apparaissant toutes les cinq secondes ne s'affiche pas dans la fenêtre du log.
-Si aucune sous-commande n'est spécifiée, ouvre le menu Compte à rebours.
+* Si aucune sous-commande n'est spécifiée, ouvre le menu Compte à rebours.
 &gt;&gt; Exemple&lt;var 1D /var&gt;:
 /compteàrebours 10
 Enclenche un compte à rebours de 10 secondes.&lt;tab&gt;/compteàrebours&lt;tab&gt;/càr&lt;tab&gt;/countdown&lt;tab&gt;/cd</target>
@@ -1175,7 +1185,7 @@ Affiche ou cache la marque des Douze, qui apparaît sur le cou de ceux qui ont s
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)        Affiche la marque.
 désactivé (off)    Cache la marque.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/marquelegacy&lt;tab&gt;/mleg&lt;tab&gt;/legacymark&lt;tab&gt;/lmark</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/marquelegacy&lt;tab&gt;/mleg&lt;tab&gt;/legacymark&lt;tab&gt;/lmark</target>
       </trans-unit>
       <trans-unit id="206" xml:space="preserve" approved="yes">
         <source>206</source>
@@ -1184,7 +1194,7 @@ Utilisation&lt;var 1D /var&gt;: /salutgc [sous-commande]
 Effectue le salut de votre grande compagnie.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutgc&lt;tab&gt;&lt;tab&gt;/gcsalute&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutgc&lt;tab&gt;&lt;tab&gt;/gcsalute&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="207" xml:space="preserve" approved="yes">
         <source>207</source>
@@ -1228,7 +1238,7 @@ change [nombre1]/[nomdelatenue] [nombre2]   S'équipe de la tenue n°[nombre1] (
 voir [nombre]/[nomdelatenue]   Affiche la liste des objets de la tenue n°[nombre] (ou [nomdelatenue]).
 enregistrer [nombre]/[nomdelatenue]   Sauvegarde la tenue portée sous le numéro n°[nombre] (ou [nomdelatenue]).
 supprimer [nombre]/[nomdelatenue]   Efface la tenue n°[nombre] (ou [nomdelatenue]).
-Si aucune sous-commande n'est spécifiée, ouvre la liste des tenues.
+* Si aucune sous-commande n'est spécifiée, ouvre la liste des tenues.
 Le nom de la tenue peut être abrégé. Dans ce cas, la première tenue dans la liste commençant par les lettres données sera sé&lt;var 16 /var&gt;lec&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;née.
 &gt;&gt; Exemple&lt;var 1D /var&gt;:
 /tenue change 1 1
@@ -1297,7 +1307,7 @@ Commande de macro. Affiche/cache les messages d'erreur de syntaxe des macros ou 
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)   Affiche les messages d'erreur des macros.
 désactivé (off)   Cache les messages d'erreur des macros.
-Si aucune sous-commande n'est saisie, alterne entre les deux options.&lt;tab&gt;/erreurmacro&lt;tab&gt;/errmac&lt;tab&gt;/macroerror&lt;tab&gt;/merror</target>
+* Si aucune sous-commande n'est saisie, alterne entre les deux options.&lt;tab&gt;/erreurmacro&lt;tab&gt;/errmac&lt;tab&gt;/macroerror&lt;tab&gt;/merror</target>
       </trans-unit>
       <trans-unit id="216" xml:space="preserve" approved="yes">
         <source>216</source>
@@ -1366,7 +1376,7 @@ Cette commande peut uniquement être effectuée dans une zone d'af&lt;var 16 /va
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)    Active le blocage des demandes.
 désactivé (off)    Désactive le blocage des demandes.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.
 &lt;tab&gt;/refuscombatsingulier&lt;tab&gt;/refuscomsing&lt;tab&gt;/duelswitch&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="224" xml:space="preserve" approved="yes">
@@ -1377,7 +1387,7 @@ Permet de recevoir ou refuser au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;va
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)    Reçoit les invitations.
 désactivé (off)    Refuse au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment les invitations.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/invitationréseaunovices&lt;tab&gt;/invrdn&lt;tab&gt;/beginnerchannelinvitation&lt;tab&gt;/bchannelinvitation</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/invitationréseaunovices&lt;tab&gt;/invrdn&lt;tab&gt;/beginnerchannelinvitation&lt;tab&gt;/bchannelinvitation</target>
       </trans-unit>
       <trans-unit id="225" xml:space="preserve" approved="yes">
         <source>225</source>
@@ -1409,7 +1419,7 @@ Ifrit-Egi
 Selene
 * Aucune apparence spécifiée ou avec "annuler"&lt;var 1D /var&gt;:
   Rend à l'Egi son apparence d'origine.
-Si aucune sous-commande n'est spécifiée, affiche la liste des apparences actuelles.
+* Si aucune sous-commande n'est spécifiée, affiche la liste des apparences actuelles.
 &gt;&gt; Exemple
 /mirageegi "Garuda-Egi" "Carbuncle rubis"
 Donne l'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.
@@ -1468,7 +1478,7 @@ Change l'état en ligne du personnage en "Occupé(e)".
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)    Passe en état "Occupé(e)".
 désactivé (off)    Passe en état "En ligne".
-Si aucune sous-commande n'est spécifiée, alterne entre les deux états.&lt;tab&gt;/occupé&lt;tab&gt;&lt;tab&gt;/busy&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux états.&lt;tab&gt;/occupé&lt;tab&gt;&lt;tab&gt;/busy&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="232" xml:space="preserve" approved="yes">
         <source>232</source>
@@ -1478,7 +1488,7 @@ Change l'état en ligne du personnage en "Absent(e)".
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Passe en état "Absent(e)".
 désactivé (off)    Passe en état "En ligne".
-Si aucune sous-commande n'est spécifiée, alterne entre les deux états.&lt;tab&gt;/absent&lt;tab&gt;&lt;tab&gt;/away&lt;tab&gt;/afk</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux états.&lt;tab&gt;/absent&lt;tab&gt;&lt;tab&gt;/away&lt;tab&gt;/afk</target>
       </trans-unit>
       <trans-unit id="233" xml:space="preserve" approved="yes">
         <source>233</source>
@@ -1501,7 +1511,7 @@ Change l'état en ligne du personnage en "Sertisseur(se) de matérias".
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Passe en état "Sertisseur(se) de matérias".
 désactivé (off)    Passe en état "En ligne".
-Si aucune sous-commande n'est spécifiée, alterne entre les deux états.&lt;tab&gt;/sertismatéria&lt;tab&gt;/sertmat&lt;tab&gt;/lookingformeld&lt;tab&gt;/lfm</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux états.&lt;tab&gt;/sertismatéria&lt;tab&gt;/sertmat&lt;tab&gt;/lookingformeld&lt;tab&gt;/lfm</target>
       </trans-unit>
       <trans-unit id="235" xml:space="preserve" approved="yes">
         <source>235</source>
@@ -1517,7 +1527,7 @@ Active ou désactive l'état en ligne "Novice".
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Active l'état en ligne "Novice".
 désactivé (off)    Désactive l'état en ligne "Novice".
-Si aucune sous-commande n'est spécifiée, alterne entre les deux états.
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux états.
 &gt;&gt; Exemple&lt;var 1D /var&gt;:
 /étatnovice activé     Active l'état en ligne "Novice".&lt;tab&gt;/étatnovice&lt;tab&gt;/énovice&lt;tab&gt;/beginnerstatus&lt;tab&gt;/bstatus</target>
       </trans-unit>
@@ -1529,7 +1539,7 @@ Active ou désactive la par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Active la par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion automatique et tente la connexion au réseau des novices.
 désactivé (off)    Désactive la par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion automatique et permet de quitter le réseau des novices.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux états.
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux états.
 &gt;&gt; Exemple&lt;var 1D /var&gt;:
 /réseaunovices activé     Active la par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion automatique au réseau des novices.&lt;tab&gt;/réseaunovices&lt;tab&gt;/rnovices&lt;tab&gt;/beginnerchannel&lt;tab&gt;/bchannel</target>
       </trans-unit>
@@ -1574,7 +1584,7 @@ Alterne entre le mode passif et le mode actif.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)        Passe en mode actif.
 désactivé (off)   Passe en mode passif.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/modecombat&lt;tab&gt;/mcombat&lt;tab&gt;/battlemode&lt;tab&gt;/bm</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/modecombat&lt;tab&gt;/mcombat&lt;tab&gt;/battlemode&lt;tab&gt;/bm</target>
       </trans-unit>
       <trans-unit id="253" xml:space="preserve" approved="yes">
         <source>253</source>
@@ -1650,7 +1660,7 @@ Verrouille la cible sur le personnage ac&lt;var 16 /var&gt;tu&lt;var 16 /var&gt;
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)    Verrouille la cible.
 désactivé (off)    Déverrouille la cible.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/verrouillercible&lt;tab&gt;/verrcib&lt;tab&gt;/lockon&lt;tab&gt;/lo</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/verrouillercible&lt;tab&gt;/verrcib&lt;tab&gt;/lockon&lt;tab&gt;/lo</target>
       </trans-unit>
       <trans-unit id="265" xml:space="preserve" approved="yes">
         <source>265</source>
@@ -1741,8 +1751,8 @@ La mascotte spécifiée est appelée. Si le nom est omis ou qu'une mascotte est 
 Utilisation&lt;var 1D /var&gt;: /annuleffet "[nom d'effet]"
 Annule l'effet bénéfique désigné.
 &gt;&gt; Exemple&lt;var 1D /var&gt;:
-/annuleffet "Du sang pour du sang"
-  Annule l'effet Du sang pour du sang.&lt;tab&gt;/annuleffet&lt;tab&gt;/anneffet&lt;tab&gt;/statusoff&lt;tab&gt;</target>
+/annuleffet "Rempart"
+  Annule l'effet Rempart.&lt;tab&gt;/annuleffet&lt;tab&gt;/anneffet&lt;tab&gt;/statusoff&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="276" xml:space="preserve" approved="yes">
         <source>276</source>
@@ -1785,7 +1795,7 @@ Verrouille la cible sur l'ennemi lors de l'attaque automatique.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)    Active le verrouillage automatique.
 désactivé (off)    Désactive le verrouillage automatique.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/verrouillerauto&lt;tab&gt;/verrauto&lt;tab&gt;/autolockon&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/verrouillerauto&lt;tab&gt;/verrauto&lt;tab&gt;/autolockon&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="302" xml:space="preserve" approved="yes">
         <source>302</source>
@@ -1795,7 +1805,7 @@ Tourne au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Active le pivotage automatique.
 désactivé (off)    Désactive le pivotage automatique.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/pivoteauto&lt;tab&gt;/pivauto&lt;tab&gt;/autofacetarget&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/pivoteauto&lt;tab&gt;/pivauto&lt;tab&gt;/autofacetarget&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="303" xml:space="preserve" approved="yes">
         <source>303</source>
@@ -1805,7 +1815,7 @@ Affiche le cercle de ciblage.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Affiche le cercle de ciblage.
 désactivé (off)    Cache le cercle de ciblage.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/cercleciblage&lt;tab&gt;/cercib&lt;tab&gt;/targetring&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/cercleciblage&lt;tab&gt;/cercib&lt;tab&gt;/targetring&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="304" xml:space="preserve" approved="yes">
         <source>304</source>
@@ -1815,7 +1825,7 @@ Affiche la ligne de ciblage.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Affiche la ligne de ciblage.
 désactivé (off)    Cache la ligne de ciblage.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/ligneciblage&lt;tab&gt;/ligncib&lt;tab&gt;/targetline&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/ligneciblage&lt;tab&gt;/ligncib&lt;tab&gt;/targetline&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="305" xml:space="preserve" approved="yes">
         <source>305</source>
@@ -1825,7 +1835,7 @@ Affiche les liens entre les monstres.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Affiche les liens de monstres.
 désactivé (off)    Cache les liens de monstres.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/liensmonstres&lt;tab&gt;/lienmon&lt;tab&gt;/linkline&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/liensmonstres&lt;tab&gt;/lienmon&lt;tab&gt;/linkline&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="306" xml:space="preserve" approved="yes">
         <source>306</source>
@@ -1835,7 +1845,7 @@ Cible au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 1
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Active le ciblage automatique.
 désactivé (off)    Désactive le ciblage automatique.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/ciblageauto&lt;tab&gt;/cibauto&lt;tab&gt;/autotarget&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/ciblageauto&lt;tab&gt;/cibauto&lt;tab&gt;/autotarget&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="307" xml:space="preserve" approved="yes">
         <source>307</source>
@@ -1845,7 +1855,7 @@ Affiche le couvre-chef porté par le personnage.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Affiche le couvre-chef.
 désactivé (off)    Cache le couvre-chef.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/affichagecouvrechef&lt;tab&gt;/affichtête&lt;tab&gt;/displayhead&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/affichagecouvrechef&lt;tab&gt;/affichtête&lt;tab&gt;/displayhead&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="308" xml:space="preserve" approved="yes">
         <source>308</source>
@@ -1855,7 +1865,7 @@ Affiche les armes et outils portés par le personnage lorsqu'ils sont rengainés
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Affiche les armes et outils.
 désactivé (off)    Cache les armes et outils.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/affichagearmes&lt;tab&gt;/afficharmes&lt;tab&gt;/displayarms&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/affichagearmes&lt;tab&gt;/afficharmes&lt;tab&gt;/displayarms&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="309" xml:space="preserve" approved="yes">
         <source>309</source>
@@ -1865,7 +1875,7 @@ Rengaine au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;va
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Fait rengainer au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment.
 désactivé (off)    Garde l'arme au clair.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/rengainerauto&lt;tab&gt;/rengauto&lt;tab&gt;/autosheathe&lt;tab&gt;/ashathe</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/rengainerauto&lt;tab&gt;/rengauto&lt;tab&gt;/autosheathe&lt;tab&gt;/ashathe</target>
       </trans-unit>
       <trans-unit id="310" xml:space="preserve" approved="yes">
         <source>310</source>
@@ -1875,7 +1885,7 @@ Permet de cliquer sur soi-même pour se cibler.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Permet de cliquer sur soi-même.
 désactivé (off)    Empêche de cliquer sur soi-même.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/cliquersursoi&lt;tab&gt;/cliqsoi&lt;tab&gt;/targetself&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/cliquersursoi&lt;tab&gt;/cliqsoi&lt;tab&gt;/targetself&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="311" xml:space="preserve" approved="yes">
         <source>311</source>
@@ -1885,7 +1895,7 @@ Permet de cliquer dans le vide pour annuler le ciblage en cours.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Annule le ciblage en cliquant dans le vide.
 désactivé (off)    N'annule pas le ciblage en cliquant dans le vide.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/cliquervide&lt;tab&gt;/cliqvide&lt;tab&gt;/groundclick&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/cliquervide&lt;tab&gt;/cliqvide&lt;tab&gt;/groundclick&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="312" xml:space="preserve" approved="yes">
         <source>312</source>
@@ -2129,7 +2139,7 @@ Affiche en permanence la croix de raccourcis.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)   Active l'affichage permanent.
 désactivé (off)   Désactive l'affichage permanent.
-Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/affichagecroixraccourcis&lt;tab&gt;/affcracc&lt;tab&gt;/crosshotbardisplay&lt;tab&gt;/chotbardisplay</target>
+* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/affichagecroixraccourcis&lt;tab&gt;/affcracc&lt;tab&gt;/crosshotbardisplay&lt;tab&gt;/chotbardisplay</target>
       </trans-unit>
       <trans-unit id="325" xml:space="preserve" approved="yes">
         <source>325</source>
@@ -2357,7 +2367,7 @@ Utilisation&lt;var 1D /var&gt;: /surprise [sous-commande]
 S'étonner.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/surprise&lt;tab&gt;&lt;tab&gt;/surprised&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/surprise&lt;tab&gt;&lt;tab&gt;/surprised&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="403" xml:space="preserve" approved="yes">
         <source>403</source>
@@ -2366,7 +2376,7 @@ Utilisation&lt;var 1D /var&gt;: /fâché [sous-commande]
 Se fâcher.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/fâché&lt;tab&gt;/colère&lt;tab&gt;/angry&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/fâché&lt;tab&gt;/colère&lt;tab&gt;/angry&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="404" xml:space="preserve" approved="yes">
         <source>404</source>
@@ -2375,7 +2385,7 @@ Utilisation&lt;var 1D /var&gt;: /furieux [sous-commande]
 Enrager.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/furieux&lt;tab&gt;&lt;tab&gt;/furious&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/furieux&lt;tab&gt;&lt;tab&gt;/furious&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="405" xml:space="preserve" approved="yes">
         <source>405</source>
@@ -2384,7 +2394,7 @@ Utilisation&lt;var 1D /var&gt;: /rougir [sous-commande]
 Rougir d'embarras.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/rougir&lt;tab&gt;/rougit&lt;tab&gt;/blush&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/rougir&lt;tab&gt;/rougit&lt;tab&gt;/blush&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="406" xml:space="preserve" approved="yes">
         <source>406</source>
@@ -2393,7 +2403,7 @@ Utilisation&lt;var 1D /var&gt;: /révérence [sous-commande]
 S'incliner.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/révérence&lt;tab&gt;/sincliner&lt;tab&gt;/bow&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/révérence&lt;tab&gt;/sincliner&lt;tab&gt;/bow&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="407" xml:space="preserve" approved="yes">
         <source>407</source>
@@ -2402,7 +2412,7 @@ Utilisation&lt;var 1D /var&gt;: /encourager [sous-commande]
 Encourager.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encourager&lt;tab&gt;&lt;tab&gt;/cheer&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encourager&lt;tab&gt;&lt;tab&gt;/cheer&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="408" xml:space="preserve" approved="yes">
         <source>408</source>
@@ -2411,7 +2421,7 @@ Utilisation&lt;var 1D /var&gt;: /applaudir [sous-commande]
 Applaudir.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/applaudir&lt;tab&gt;&lt;tab&gt;/clap&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/applaudir&lt;tab&gt;&lt;tab&gt;/clap&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="409" xml:space="preserve" approved="yes">
         <source>409</source>
@@ -2420,7 +2430,7 @@ Utilisation&lt;var 1D /var&gt;: /viens [sous-commande]
 Faire signe de venir.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/viens&lt;tab&gt;&lt;tab&gt;/beckon&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/viens&lt;tab&gt;&lt;tab&gt;/beckon&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="410" xml:space="preserve" approved="yes">
         <source>410</source>
@@ -2429,7 +2439,7 @@ Utilisation&lt;var 1D /var&gt;: /consoler [sous-commande]
 Consoler.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/consoler&lt;tab&gt;&lt;tab&gt;/comfort&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/consoler&lt;tab&gt;&lt;tab&gt;/comfort&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="411" xml:space="preserve" approved="yes">
         <source>411</source>
@@ -2438,7 +2448,7 @@ Utilisation&lt;var 1D /var&gt;: /pleurer [sous-commande]
 Pleurer.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pleurer&lt;tab&gt;&lt;tab&gt;/cry&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pleurer&lt;tab&gt;&lt;tab&gt;/cry&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="412" xml:space="preserve" approved="yes">
         <source>412</source>
@@ -2447,7 +2457,7 @@ Utilisation&lt;var 1D /var&gt;: /danser [sous-commande]
 Danser.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/danser&lt;tab&gt;&lt;tab&gt;/dance&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/danser&lt;tab&gt;&lt;tab&gt;/dance&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="413" xml:space="preserve" approved="yes">
         <source>413</source>
@@ -2456,7 +2466,7 @@ Utilisation&lt;var 1D /var&gt;: /questionner [sous-commande]
 Remettre en question, douter.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/questionner&lt;tab&gt;/douter&lt;tab&gt;/doubt&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/questionner&lt;tab&gt;/douter&lt;tab&gt;/doubt&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="414" xml:space="preserve" approved="yes">
         <source>414</source>
@@ -2465,7 +2475,7 @@ Utilisation&lt;var 1D /var&gt;: /somnoler [sous-commande]
 Somnoler. Cette commande peut également être utilisée à proximité d'un lit pour s'y coucher.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/somnoler&lt;tab&gt;&lt;tab&gt;/doze&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/somnoler&lt;tab&gt;&lt;tab&gt;/doze&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="415" xml:space="preserve" approved="yes">
         <source>415</source>
@@ -2474,7 +2484,7 @@ Utilisation&lt;var 1D /var&gt;: /dépit [sous-commande]
 Se dépiter, fulminer.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dépit&lt;tab&gt;&lt;tab&gt;/fume&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dépit&lt;tab&gt;&lt;tab&gt;/fume&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="416" xml:space="preserve" approved="yes">
         <source>416</source>
@@ -2483,7 +2493,7 @@ Utilisation&lt;var 1D /var&gt;: /aurevoir [sous-commande]
 Faire un signe d'au revoir.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/aurevoir&lt;tab&gt;/bye&lt;tab&gt;/goodbye&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/aurevoir&lt;tab&gt;/bye&lt;tab&gt;/goodbye&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="417" xml:space="preserve" approved="yes">
         <source>417</source>
@@ -2492,7 +2502,7 @@ Utilisation&lt;var 1D /var&gt;: /coucou [sous-commande]
 Faire un signe de la main.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/coucou&lt;tab&gt;&lt;tab&gt;/wave&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/coucou&lt;tab&gt;&lt;tab&gt;/wave&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="418" xml:space="preserve" approved="yes">
         <source>418</source>
@@ -2501,7 +2511,7 @@ Utilisation&lt;var 1D /var&gt;: /consterner [sous-commande]
 Montrer sa consternation.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/consterner&lt;tab&gt;/bah&lt;tab&gt;/huh&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/consterner&lt;tab&gt;/bah&lt;tab&gt;/huh&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="419" xml:space="preserve" approved="yes">
         <source>419</source>
@@ -2510,7 +2520,7 @@ Utilisation&lt;var 1D /var&gt;: /joie [sous-commande]
 Se réjouir.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/joie&lt;tab&gt;/réjouir&lt;tab&gt;/joy&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/joie&lt;tab&gt;/réjouir&lt;tab&gt;/joy&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="420" xml:space="preserve" approved="yes">
         <source>420</source>
@@ -2519,7 +2529,7 @@ Utilisation&lt;var 1D /var&gt;: /àgenoux [sous-commande]
 S'agenouiller en signe de respect.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/àgenoux&lt;tab&gt;/sagenouiller&lt;tab&gt;/kneel&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/àgenoux&lt;tab&gt;/sagenouiller&lt;tab&gt;/kneel&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="421" xml:space="preserve" approved="yes">
         <source>421</source>
@@ -2528,7 +2538,7 @@ Utilisation&lt;var 1D /var&gt;: /rire [sous-commande]
 Rire.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/rire&lt;tab&gt;/rigoler&lt;tab&gt;/chuckle&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/rire&lt;tab&gt;/rigoler&lt;tab&gt;/chuckle&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="422" xml:space="preserve" approved="yes">
         <source>422</source>
@@ -2537,7 +2547,7 @@ Utilisation&lt;var 1D /var&gt;: /sesclaffer [sous-commande]
 S'esclaffer.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sesclaffer&lt;tab&gt;/mdr&lt;tab&gt;/laugh&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sesclaffer&lt;tab&gt;/mdr&lt;tab&gt;/laugh&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="423" xml:space="preserve" approved="yes">
         <source>423</source>
@@ -2546,7 +2556,7 @@ Utilisation&lt;var 1D /var&gt;: /scruter [sous-commande]
 Scruter les environs.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/scruter&lt;tab&gt;&lt;tab&gt;/lookout&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/scruter&lt;tab&gt;&lt;tab&gt;/lookout&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="424" xml:space="preserve" approved="yes">
         <source>424</source>
@@ -2555,7 +2565,7 @@ Utilisation&lt;var 1D /var&gt;: /moi [sous-commande]
 Attirer l'attention sur soi.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/moi&lt;tab&gt;&lt;tab&gt;/me&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/moi&lt;tab&gt;&lt;tab&gt;/me&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="425" xml:space="preserve" approved="yes">
         <source>425</source>
@@ -2564,7 +2574,7 @@ Utilisation&lt;var 1D /var&gt;: /non [sous-commande]
 Refuser d'un signe de tête.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/non&lt;tab&gt;&lt;tab&gt;/no&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/non&lt;tab&gt;&lt;tab&gt;/no&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="426" xml:space="preserve" approved="yes">
         <source>426</source>
@@ -2573,7 +2583,7 @@ Utilisation&lt;var 1D /var&gt;: /refuser [sous-commande]
 Refuser ou nier énergiquement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/refuser&lt;tab&gt;&lt;tab&gt;/deny&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/refuser&lt;tab&gt;&lt;tab&gt;/deny&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="427" xml:space="preserve" approved="yes">
         <source>427</source>
@@ -2582,7 +2592,7 @@ Utilisation&lt;var 1D /var&gt;: /paniquer [sous-commande]
 Paniquer.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/paniquer&lt;tab&gt;&lt;tab&gt;/panic&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/paniquer&lt;tab&gt;&lt;tab&gt;/panic&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="428" xml:space="preserve" approved="yes">
         <source>428</source>
@@ -2591,7 +2601,7 @@ Utilisation&lt;var 1D /var&gt;: /montrer [sous-commande]
 Montrer du doigt.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/montrer&lt;tab&gt;&lt;tab&gt;/point&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/montrer&lt;tab&gt;&lt;tab&gt;/point&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="429" xml:space="preserve" approved="yes">
         <source>429</source>
@@ -2600,7 +2610,7 @@ Utilisation&lt;var 1D /var&gt;: /toucher [sous-commande]
 Titiller, toucher du doigt.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/toucher&lt;tab&gt;&lt;tab&gt;/poke&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/toucher&lt;tab&gt;&lt;tab&gt;/poke&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="430" xml:space="preserve" approved="yes">
         <source>430</source>
@@ -2609,7 +2619,7 @@ Utilisation&lt;var 1D /var&gt;: /féliciter [sous-commande]
 Féliciter chaleureusement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/féliciter&lt;tab&gt;/bravo&lt;tab&gt;/congratulate&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/féliciter&lt;tab&gt;/bravo&lt;tab&gt;/congratulate&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="431" xml:space="preserve" approved="yes">
         <source>431</source>
@@ -2618,7 +2628,7 @@ Utilisation&lt;var 1D /var&gt;: /motivation [sous-commande]
 Se motiver.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/motivation&lt;tab&gt;/moral&lt;tab&gt;/psych&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/motivation&lt;tab&gt;/moral&lt;tab&gt;/psych&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="432" xml:space="preserve" approved="yes">
         <source>432</source>
@@ -2627,7 +2637,7 @@ Utilisation&lt;var 1D /var&gt;: /saluer [sous-commande]
 Saluer solennellement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/saluer&lt;tab&gt;&lt;tab&gt;/salute&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/saluer&lt;tab&gt;&lt;tab&gt;/salute&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="433" xml:space="preserve" approved="yes">
         <source>433</source>
@@ -2636,7 +2646,7 @@ Utilisation&lt;var 1D /var&gt;: /choc [sous-commande]
 Se montrer choqué.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/choc&lt;tab&gt;&lt;tab&gt;/shocked&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/choc&lt;tab&gt;&lt;tab&gt;/shocked&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="434" xml:space="preserve" approved="yes">
         <source>434</source>
@@ -2645,7 +2655,7 @@ Utilisation&lt;var 1D /var&gt;: /épaules [sous-commande]
 Hausser les épaules.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/épaules&lt;tab&gt;/bof&lt;tab&gt;/shrug&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/épaules&lt;tab&gt;/bof&lt;tab&gt;/shrug&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="435" xml:space="preserve" approved="yes">
         <source>435</source>
@@ -2654,7 +2664,7 @@ Utilisation&lt;var 1D /var&gt;: /stimuler [sous-commande]
 Faire un geste stimulant.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/stimuler&lt;tab&gt;&lt;tab&gt;/rally&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/stimuler&lt;tab&gt;&lt;tab&gt;/rally&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="436" xml:space="preserve" approved="yes">
         <source>436</source>
@@ -2663,7 +2673,7 @@ Utilisation&lt;var 1D /var&gt;: /apaiser [sous-commande]
 Apaiser.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/apaiser&lt;tab&gt;&lt;tab&gt;/soothe&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/apaiser&lt;tab&gt;&lt;tab&gt;/soothe&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="437" xml:space="preserve" approved="yes">
         <source>437</source>
@@ -2672,7 +2682,7 @@ Utilisation&lt;var 1D /var&gt;: /tituber [sous-commande]
 Tituber.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tituber&lt;tab&gt;&lt;tab&gt;/stagger&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tituber&lt;tab&gt;&lt;tab&gt;/stagger&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="438" xml:space="preserve" approved="yes">
         <source>438</source>
@@ -2681,7 +2691,7 @@ Utilisation&lt;var 1D /var&gt;: /étirer [sous-commande]
 S'étirer.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/étirer&lt;tab&gt;&lt;tab&gt;/stretch&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/étirer&lt;tab&gt;&lt;tab&gt;/stretch&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="439" xml:space="preserve" approved="yes">
         <source>439</source>
@@ -2690,7 +2700,7 @@ Utilisation&lt;var 1D /var&gt;: /bouder [sous-commande]
 Bouder.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bouder&lt;tab&gt;&lt;tab&gt;/sulk&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bouder&lt;tab&gt;&lt;tab&gt;/sulk&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="440" xml:space="preserve" approved="yes">
         <source>440</source>
@@ -2699,7 +2709,7 @@ Utilisation&lt;var 1D /var&gt;: /penser [sous-commande]
 Réfléchir.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/penser&lt;tab&gt;&lt;tab&gt;/think&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/penser&lt;tab&gt;&lt;tab&gt;/think&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="441" xml:space="preserve" approved="yes">
         <source>441</source>
@@ -2708,7 +2718,7 @@ Utilisation&lt;var 1D /var&gt;: /déçu [sous-commande]
 Être très déçu.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/déçu&lt;tab&gt;/raslebol&lt;tab&gt;/upset&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/déçu&lt;tab&gt;/raslebol&lt;tab&gt;/upset&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="442" xml:space="preserve" approved="yes">
         <source>442</source>
@@ -2717,7 +2727,7 @@ Utilisation&lt;var 1D /var&gt;: /bienvenue [sous-commande]
 Accueillir à bras ouverts.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bienvenue&lt;tab&gt;/accueillir&lt;tab&gt;/welcome&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bienvenue&lt;tab&gt;/accueillir&lt;tab&gt;/welcome&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="443" xml:space="preserve" approved="yes">
         <source>443</source>
@@ -2726,7 +2736,7 @@ Utilisation&lt;var 1D /var&gt;: /oui [sous-commande]
 Approuver d'un signe de tête.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/oui&lt;tab&gt;/acquiescer&lt;tab&gt;/yes&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/oui&lt;tab&gt;/acquiescer&lt;tab&gt;/yes&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="444" xml:space="preserve" approved="yes">
         <source>444</source>
@@ -2735,7 +2745,7 @@ Utilisation&lt;var 1D /var&gt;: /approuver [sous-commande]
 Approuver énergiquement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/approuver&lt;tab&gt;/pouce&lt;tab&gt;/thumbsup&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/approuver&lt;tab&gt;/pouce&lt;tab&gt;/thumbsup&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="445" xml:space="preserve" approved="yes">
         <source>445</source>
@@ -2744,7 +2754,7 @@ Utilisation&lt;var 1D /var&gt;: /seregarder [sous-commande]
 Se regarder.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seregarder&lt;tab&gt;&lt;tab&gt;/examineself&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seregarder&lt;tab&gt;&lt;tab&gt;/examineself&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="446" xml:space="preserve" approved="yes">
         <source>446</source>
@@ -2753,7 +2763,7 @@ Utilisation&lt;var 1D /var&gt;: /poser [sous-commande]
 Prendre une pose.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/poser&lt;tab&gt;&lt;tab&gt;/pose&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/poser&lt;tab&gt;&lt;tab&gt;/pose&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="447" xml:space="preserve" approved="yes">
         <source>447</source>
@@ -2762,7 +2772,7 @@ Utilisation&lt;var 1D /var&gt;: /lancerbaiser [sous-commande]
 Envoyer un baiser.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lancerbaiser&lt;tab&gt;&lt;tab&gt;/blowkiss&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lancerbaiser&lt;tab&gt;&lt;tab&gt;/blowkiss&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="448" xml:space="preserve" approved="yes">
         <source>448</source>
@@ -2771,7 +2781,7 @@ Utilisation&lt;var 1D /var&gt;: /prosterner [sous-commande]
 Se prosterner.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/prosterner&lt;tab&gt;&lt;tab&gt;/grovel&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/prosterner&lt;tab&gt;&lt;tab&gt;/grovel&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="449" xml:space="preserve" approved="yes">
         <source>449</source>
@@ -2780,7 +2790,7 @@ Utilisation&lt;var 1D /var&gt;: /heureux [sous-commande]
 Jubiler.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/heureux&lt;tab&gt;/jubiler&lt;tab&gt;/happy&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/heureux&lt;tab&gt;/jubiler&lt;tab&gt;/happy&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="450" xml:space="preserve" approved="yes">
         <source>450</source>
@@ -2789,7 +2799,7 @@ Utilisation&lt;var 1D /var&gt;: /désespoir [sous-commande]
 Exprimer son désespoir.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/désespoir&lt;tab&gt;&lt;tab&gt;/disappointed&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/désespoir&lt;tab&gt;&lt;tab&gt;/disappointed&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="451" xml:space="preserve" approved="yes">
         <source>451</source>
@@ -2843,7 +2853,7 @@ Utilisation&lt;var 1D /var&gt;: /prier [sous-commande]
 Offrir une prière solennelle aux Douze ou tout autre dieu vénéré.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/prier&lt;tab&gt;&lt;tab&gt;/pray&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/prier&lt;tab&gt;&lt;tab&gt;/pray&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="460" xml:space="preserve" approved="yes">
         <source>460</source>
@@ -2852,7 +2862,7 @@ Utilisation&lt;var 1D /var&gt;: /salutimp [sous-commande]
 Effectuer le salut des Impériaux.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutimp&lt;tab&gt;&lt;tab&gt;/imperialsalute&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutimp&lt;tab&gt;&lt;tab&gt;/imperialsalute&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="461" xml:space="preserve" approved="yes">
         <source>461</source>
@@ -2866,7 +2876,7 @@ Utilisation&lt;var 1D /var&gt;: /mégabrasier [sous-commande]
 Effectue une dé&lt;var 16 /var&gt;mon&lt;var 16 /var&gt;stra&lt;var 16 /var&gt;tion pyrotechnique.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mégabrasier&lt;tab&gt;&lt;tab&gt;/megaflare&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mégabrasier&lt;tab&gt;&lt;tab&gt;/megaflare&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="464" xml:space="preserve" approved="yes">
         <source>464</source>
@@ -2893,7 +2903,7 @@ Utilisation&lt;var 1D /var&gt;: /encouragerbleu [sous-commande]
 Encourage avec des bâtons lumineux bleus.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerbleu&lt;tab&gt;&lt;tab&gt;/cheeron&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerbleu&lt;tab&gt;&lt;tab&gt;/cheeron&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="467" xml:space="preserve" approved="yes">
         <source>467</source>
@@ -2902,7 +2912,7 @@ Utilisation&lt;var 1D /var&gt;: /encouragerjaune [sous-commande]
 Encourage avec des bâtons lumineux jaunes.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerjaune&lt;tab&gt;&lt;tab&gt;/cheerwave&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerjaune&lt;tab&gt;&lt;tab&gt;/cheerwave&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="468" xml:space="preserve" approved="yes">
         <source>468</source>
@@ -2911,7 +2921,7 @@ Utilisation&lt;var 1D /var&gt;: /encouragerrouge [sous-commande]
 Encourage avec des bâtons lumineux rouges.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerrouge&lt;tab&gt;&lt;tab&gt;/cheerjump&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerrouge&lt;tab&gt;&lt;tab&gt;/cheerjump&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="469" xml:space="preserve" approved="yes">
         <source>469</source>
@@ -2920,7 +2930,7 @@ Utilisation&lt;var 1D /var&gt;: /neutre [sous-commande]
 Afficher une expression normale.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/neutre&lt;tab&gt;/normal&lt;tab&gt;/straightface&lt;tab&gt;/straight</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/neutre&lt;tab&gt;/normal&lt;tab&gt;/straightface&lt;tab&gt;/straight</target>
       </trans-unit>
       <trans-unit id="470" xml:space="preserve" approved="yes">
         <source>470</source>
@@ -3073,7 +3083,7 @@ Utilisation&lt;var 1D /var&gt;: /lancer [sous-commande]
 Lance un objet.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lancer&lt;tab&gt;&lt;tab&gt;/throw&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lancer&lt;tab&gt;&lt;tab&gt;/throw&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="491" xml:space="preserve" approved="yes">
         <source>491</source>
@@ -3088,7 +3098,7 @@ Utilisation&lt;var 1D /var&gt;: /claquettes [sous-commande]
 Fait faire des claquettes.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/claquettes&lt;tab&gt;&lt;tab&gt;/stepdance&lt;tab&gt;/sdance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/claquettes&lt;tab&gt;&lt;tab&gt;/stepdance&lt;tab&gt;/sdance</target>
       </trans-unit>
       <trans-unit id="503" xml:space="preserve" approved="yes">
         <source>503</source>
@@ -3097,7 +3107,7 @@ Utilisation&lt;var 1D /var&gt;: /dansemoissons [sous-commande]
 Exécute la danse des moissons.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansemoissons&lt;tab&gt;/dmoissons&lt;tab&gt;/harvestdance&lt;tab&gt;/hdance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansemoissons&lt;tab&gt;/dmoissons&lt;tab&gt;/harvestdance&lt;tab&gt;/hdance</target>
       </trans-unit>
       <trans-unit id="504" xml:space="preserve" approved="yes">
         <source>504</source>
@@ -3106,7 +3116,7 @@ Utilisation&lt;var 1D /var&gt;: /dansecour [sous-commande]
 Exécute la danse de la cour.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansecour&lt;tab&gt;/dcour&lt;tab&gt;/balldance&lt;tab&gt;/bdance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansecour&lt;tab&gt;/dcour&lt;tab&gt;/balldance&lt;tab&gt;/bdance</target>
       </trans-unit>
       <trans-unit id="505" xml:space="preserve" approved="yes">
         <source>505</source>
@@ -3115,7 +3125,7 @@ Utilisation&lt;var 1D /var&gt;: /dansegentilhomme [sous-commande]
 Exécute la danse du gentilhomme.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansegentilhomme&lt;tab&gt;/dghomme&lt;tab&gt;/mandervilledance&lt;tab&gt;/mdance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansegentilhomme&lt;tab&gt;/dghomme&lt;tab&gt;/mandervilledance&lt;tab&gt;/mdance</target>
       </trans-unit>
       <trans-unit id="506" xml:space="preserve" approved="yes">
         <source>506</source>
@@ -3124,7 +3134,7 @@ Utilisation&lt;var 1D /var&gt;: /caresser [sous-commande]
 Caresser.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/caresser&lt;tab&gt;/caresse&lt;tab&gt;/stroke&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/caresser&lt;tab&gt;/caresse&lt;tab&gt;/stroke&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="507" xml:space="preserve" approved="yes">
         <source>507</source>
@@ -3133,7 +3143,7 @@ Utilisation&lt;var 1D /var&gt;: /donner [sous-commande]
 Donner.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/donner&lt;tab&gt;/donne&lt;tab&gt;/handover&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/donner&lt;tab&gt;/donne&lt;tab&gt;/handover&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="510" xml:space="preserve" approved="yes">
         <source>510</source>
@@ -3142,7 +3152,7 @@ Utilisation&lt;var 1D /var&gt;: /dansebombo [sous-commande]
 Exécute la danse du bombo.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansebombo&lt;tab&gt;/dbombo&lt;tab&gt;/bombdance&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansebombo&lt;tab&gt;/dbombo&lt;tab&gt;/bombdance&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="511" xml:space="preserve" approved="yes">
         <source>511</source>
@@ -3151,7 +3161,7 @@ Utilisation&lt;var 1D /var&gt;: /hourra [sous-commande]
 Pousse un cri d'acclamation.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/hourra&lt;tab&gt;&lt;tab&gt;/hurray&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/hourra&lt;tab&gt;&lt;tab&gt;/hurray&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="512" xml:space="preserve" approved="yes">
         <source>512</source>
@@ -3160,7 +3170,7 @@ Utilisation&lt;var 1D /var&gt;: /claque [sous-commande]
 Donne une claque.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/claque&lt;tab&gt;&lt;tab&gt;/slap&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/claque&lt;tab&gt;&lt;tab&gt;/slap&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="513" xml:space="preserve" approved="yes">
         <source>513</source>
@@ -3169,7 +3179,7 @@ Utilisation&lt;var 1D /var&gt;: /accolade [sous-commande]
 Donne une accolade.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/accolade&lt;tab&gt;&lt;tab&gt;/hug&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/accolade&lt;tab&gt;&lt;tab&gt;/hug&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="514" xml:space="preserve" approved="yes">
         <source>514</source>
@@ -3178,7 +3188,7 @@ Utilisation&lt;var 1D /var&gt;: /étreinte [sous-commande]
 Étreindre quelqu'un ou quelque chose.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/étreinte&lt;tab&gt;&lt;tab&gt;/embrace&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/étreinte&lt;tab&gt;&lt;tab&gt;/embrace&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="515" xml:space="preserve" approved="yes">
         <source>515</source>
@@ -3187,7 +3197,7 @@ Utilisation&lt;var 1D /var&gt;: /hildibrand [sous-commande]
 Faire la pose du détective.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hildibrand&lt;tab&gt;/hildy</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/hildibrand&lt;tab&gt;/hildy</target>
       </trans-unit>
       <trans-unit id="516" xml:space="preserve" approved="yes">
         <source>516</source>
@@ -3196,7 +3206,7 @@ Utilisation&lt;var 1D /var&gt;: /salutpoing [sous-commande]
 Exécute un salut avec le poing.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutpoing&lt;tab&gt;/brofist&lt;tab&gt;/fistbump&lt;tab&gt;/fist</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutpoing&lt;tab&gt;/brofist&lt;tab&gt;/fistbump&lt;tab&gt;/fist</target>
       </trans-unit>
       <trans-unit id="519" xml:space="preserve" approved="yes">
         <source>519</source>
@@ -3205,7 +3215,7 @@ Utilisation&lt;var 1D /var&gt;: /dansethavnairoise [sous-commande]
 Exécute la danse thavnairoise.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansethavnairoise&lt;tab&gt;/dthavn&lt;tab&gt;/thavdance&lt;tab&gt;/tdance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansethavnairoise&lt;tab&gt;/dthavn&lt;tab&gt;/thavdance&lt;tab&gt;/tdance</target>
       </trans-unit>
       <trans-unit id="520" xml:space="preserve" approved="yes">
         <source>520</source>
@@ -3214,7 +3224,7 @@ Utilisation&lt;var 1D /var&gt;: /dansedelor [sous-commande]
 Exécute la danse de l'or.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedelor&lt;tab&gt;/ddelor&lt;tab&gt;/golddance&lt;tab&gt;/gdance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedelor&lt;tab&gt;/ddelor&lt;tab&gt;/golddance&lt;tab&gt;/gdance</target>
       </trans-unit>
       <trans-unit id="521" xml:space="preserve" approved="yes">
         <source>521</source>
@@ -3223,7 +3233,7 @@ Utilisation&lt;var 1D /var&gt;: /dansedusoleil [sous-commande]
 Exécute la danse du soleil.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedusoleil&lt;tab&gt;/dsoleil&lt;tab&gt;/sundance&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedusoleil&lt;tab&gt;/dsoleil&lt;tab&gt;/sundance&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="522" xml:space="preserve" approved="yes">
         <source>522</source>
@@ -3232,7 +3242,7 @@ Utilisation&lt;var 1D /var&gt;: /seprépareraucombat [sous-commande]
 Se prépare au combat.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seprépareraucombat&lt;tab&gt;/prépcomb&lt;tab&gt;/battlestance&lt;tab&gt;/bstance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seprépareraucombat&lt;tab&gt;/prépcomb&lt;tab&gt;/battlestance&lt;tab&gt;/bstance</target>
       </trans-unit>
       <trans-unit id="523" xml:space="preserve" approved="yes">
         <source>523</source>
@@ -3241,7 +3251,7 @@ Utilisation&lt;var 1D /var&gt;: /seréjouirdelavictoire [sous-commande]
 Se réjouit de la victoire.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seréjouirdelavictoire&lt;tab&gt;/réjvict&lt;tab&gt;/victorypose&lt;tab&gt;/vpose</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seréjouirdelavictoire&lt;tab&gt;/réjvict&lt;tab&gt;/victorypose&lt;tab&gt;/vpose</target>
       </trans-unit>
       <trans-unit id="524" xml:space="preserve" approved="yes">
         <source>524</source>
@@ -3250,7 +3260,7 @@ Utilisation&lt;var 1D /var&gt;: /saltoarrière [sous-commande]
 Effectue un salto arrière.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/saltoarrière&lt;tab&gt;/saltarr&lt;tab&gt;/backflip&lt;tab&gt;/bflip</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/saltoarrière&lt;tab&gt;/saltarr&lt;tab&gt;/backflip&lt;tab&gt;/bflip</target>
       </trans-unit>
       <trans-unit id="525" xml:space="preserve" approved="yes">
         <source>525</source>
@@ -3259,7 +3269,7 @@ Utilisation&lt;var 1D /var&gt;: /salutoriental [sous-commande]
 Fait un salut oriental.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutoriental&lt;tab&gt;/salutor&lt;tab&gt;/easterngreeting&lt;tab&gt;/egreeting</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutoriental&lt;tab&gt;/salutor&lt;tab&gt;/easterngreeting&lt;tab&gt;/egreeting</target>
       </trans-unit>
       <trans-unit id="526" xml:space="preserve" approved="yes">
         <source>526</source>
@@ -3268,7 +3278,7 @@ Utilisation&lt;var 1D /var&gt;: /éclairdegénie [sous-commande]
 A un éclair de génie.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/éclairdegénie&lt;tab&gt;/éclgénie&lt;tab&gt;/eureka&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/éclairdegénie&lt;tab&gt;/éclgénie&lt;tab&gt;/eureka&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="527" xml:space="preserve" approved="yes">
         <source>527</source>
@@ -3277,7 +3287,7 @@ Utilisation&lt;var 1D /var&gt;: /dansemog [sous-commande]
 Exécute la danse mog.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansemog&lt;tab&gt;/dmog&lt;tab&gt;/mogdance&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansemog&lt;tab&gt;/dmog&lt;tab&gt;/mogdance&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="528" xml:space="preserve" approved="yes">
         <source>528</source>
@@ -3286,7 +3296,7 @@ Utilisation&lt;var 1D /var&gt;: /haurchefant [sous-commande]
 Exécute le geste préféré d'Haurchefant.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/haurchefant&lt;tab&gt;/hknight</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/haurchefant&lt;tab&gt;/hknight</target>
       </trans-unit>
       <trans-unit id="529" xml:space="preserve" approved="yes">
         <source>529</source>
@@ -3295,7 +3305,7 @@ Utilisation&lt;var 1D /var&gt;: /étirementsorientaux [sous-commande]
 Effectue des étirements orientaux.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/étirementsorientaux&lt;tab&gt;/étirorient&lt;tab&gt;/easternstretch&lt;tab&gt;/estretch</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/étirementsorientaux&lt;tab&gt;/étirorient&lt;tab&gt;/easternstretch&lt;tab&gt;/estretch</target>
       </trans-unit>
       <trans-unit id="530" xml:space="preserve" approved="yes">
         <source>530</source>
@@ -3304,7 +3314,7 @@ Utilisation&lt;var 1D /var&gt;: /danseorientale [sous-commande]
 Exécute une danse orientale.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/danseorientale&lt;tab&gt;/dorientale&lt;tab&gt;/easterndance&lt;tab&gt;/edance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/danseorientale&lt;tab&gt;/dorientale&lt;tab&gt;/easterndance&lt;tab&gt;/edance</target>
       </trans-unit>
       <trans-unit id="531" xml:space="preserve" approved="yes">
         <source>531</source>
@@ -3313,7 +3323,7 @@ Utilisation&lt;var 1D /var&gt;: /bomboforcerouge [sous-commande]
 Exécute les mouvements de Bomboforce rouge.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcerouge&lt;tab&gt;/bbfrouge&lt;tab&gt;/rangerpose1r&lt;tab&gt;/rpose1r</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcerouge&lt;tab&gt;/bbfrouge&lt;tab&gt;/rangerpose1r&lt;tab&gt;/rpose1r</target>
       </trans-unit>
       <trans-unit id="532" xml:space="preserve" approved="yes">
         <source>532</source>
@@ -3322,7 +3332,7 @@ Utilisation&lt;var 1D /var&gt;: /bomboforcenoire [sous-commande]
 Exécute les mouvements de Bomboforce noire.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcenoire&lt;tab&gt;/bbfnoire&lt;tab&gt;/rangerpose2r&lt;tab&gt;/rpose2r</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcenoire&lt;tab&gt;/bbfnoire&lt;tab&gt;/rangerpose2r&lt;tab&gt;/rpose2r</target>
       </trans-unit>
       <trans-unit id="533" xml:space="preserve" approved="yes">
         <source>533</source>
@@ -3331,7 +3341,7 @@ Utilisation&lt;var 1D /var&gt;: /bomboforcejaune [sous-commande]
 Exécute les mouvements de Bomboforce jaune.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcejaune&lt;tab&gt;/bbfjaune&lt;tab&gt;/rangerpose3r&lt;tab&gt;/rpose3r</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcejaune&lt;tab&gt;/bbfjaune&lt;tab&gt;/rangerpose3r&lt;tab&gt;/rpose3r</target>
       </trans-unit>
       <trans-unit id="534" xml:space="preserve" approved="yes">
         <source>534</source>
@@ -3340,7 +3350,7 @@ Utilisation&lt;var 1D /var&gt;: /clindoeildroit [sous-commande]
 Fait un clin d'œil droit.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/clindoeildroit&lt;tab&gt;/cloeild&lt;tab&gt;/wink&lt;tab&gt;/rightwink</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/clindoeildroit&lt;tab&gt;/cloeild&lt;tab&gt;/wink&lt;tab&gt;/rightwink</target>
       </trans-unit>
       <trans-unit id="535" xml:space="preserve" approved="yes">
         <source>535</source>
@@ -3349,7 +3359,7 @@ Utilisation&lt;var 1D /var&gt;: /bomboforcerougeinversé [sous-commande]
 Exécute les mouvements de Bomboforce rouge inversés.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcerougeinversé&lt;tab&gt;/bbfrougeinv&lt;tab&gt;/rangerpose1l&lt;tab&gt;/rpose1l</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcerougeinversé&lt;tab&gt;/bbfrougeinv&lt;tab&gt;/rangerpose1l&lt;tab&gt;/rpose1l</target>
       </trans-unit>
       <trans-unit id="536" xml:space="preserve" approved="yes">
         <source>536</source>
@@ -3358,7 +3368,7 @@ Utilisation&lt;var 1D /var&gt;: /bomboforcenoireinversé [sous-commande]
 Exécute les mouvements de Bomboforce noire inversés.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcenoireinversé&lt;tab&gt;/bbfnoireinv&lt;tab&gt;/rangerpose2l&lt;tab&gt;/rpose2l</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcenoireinversé&lt;tab&gt;/bbfnoireinv&lt;tab&gt;/rangerpose2l&lt;tab&gt;/rpose2l</target>
       </trans-unit>
       <trans-unit id="537" xml:space="preserve" approved="yes">
         <source>537</source>
@@ -3367,7 +3377,7 @@ Utilisation&lt;var 1D /var&gt;: /bomboforcejauneinversé [sous-commande]
 Exécute les mouvements de Bomboforce jaune inversés.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcejauneinversé&lt;tab&gt;/bbfjauneinv&lt;tab&gt;/rangerpose3l&lt;tab&gt;/rpose3l</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/bomboforcejauneinversé&lt;tab&gt;/bbfjauneinv&lt;tab&gt;/rangerpose3l&lt;tab&gt;/rpose3l</target>
       </trans-unit>
       <trans-unit id="538" xml:space="preserve" approved="yes">
         <source>538</source>
@@ -3376,7 +3386,7 @@ Utilisation&lt;var 1D /var&gt;: /seprendrelatête [sous-commande]
 Se prend la tête à deux mains.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seprendrelatête&lt;tab&gt;/prentête&lt;tab&gt;/facepalm&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seprendrelatête&lt;tab&gt;/prentête&lt;tab&gt;/facepalm&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="539" xml:space="preserve" approved="yes">
         <source>539</source>
@@ -3385,7 +3395,7 @@ Utilisation&lt;var 1D /var&gt;: /zantetsuken [sous-commande]
 Tranche l'espace à la manière d'Odin.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/zantetsuken&lt;tab&gt;&lt;tab&gt;/zantetsuken&lt;tab&gt;/ztk</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/zantetsuken&lt;tab&gt;&lt;tab&gt;/zantetsuken&lt;tab&gt;/ztk</target>
       </trans-unit>
       <trans-unit id="540" xml:space="preserve" approved="yes">
         <source>540</source>
@@ -3394,7 +3404,7 @@ Utilisation&lt;var 1D /var&gt;: /contractersesmuscles [sous-commande]
 Contracte ses muscles.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/contractersesmuscles&lt;tab&gt;/muscles&lt;tab&gt;/flex&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/contractersesmuscles&lt;tab&gt;/muscles&lt;tab&gt;/flex&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="541" xml:space="preserve" approved="yes">
         <source>541</source>
@@ -3403,7 +3413,7 @@ Utilisation&lt;var 1D /var&gt;: /serecueillir [sous-commande]
 Se recueille.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/serecueillir&lt;tab&gt;&lt;tab&gt;/respect&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/serecueillir&lt;tab&gt;&lt;tab&gt;/respect&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="542" xml:space="preserve" approved="yes">
         <source>542</source>
@@ -3412,7 +3422,7 @@ Utilisation&lt;var 1D /var&gt;: /vicieux [sous-commande]
 Affiche un sourire vicieux.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/vicieux&lt;tab&gt;&lt;tab&gt;/sneer&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/vicieux&lt;tab&gt;&lt;tab&gt;/sneer&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="543" xml:space="preserve" approved="yes">
         <source>543</source>
@@ -3421,7 +3431,7 @@ Utilisation&lt;var 1D /var&gt;: /attendrir [sous-commande]
 Prend un air attendrissant.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/attendrir&lt;tab&gt;&lt;tab&gt;/prettyplease&lt;tab&gt;/pplease</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/attendrir&lt;tab&gt;&lt;tab&gt;/prettyplease&lt;tab&gt;/pplease</target>
       </trans-unit>
       <trans-unit id="544" xml:space="preserve" approved="yes">
         <source>544</source>
@@ -3430,7 +3440,7 @@ Utilisation&lt;var 1D /var&gt;: /feindrelamort [sous-commande]
 Feint la mort.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/feindrelamort&lt;tab&gt;/feinmort&lt;tab&gt;/playdead&lt;tab&gt;/pdead</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/feindrelamort&lt;tab&gt;/feinmort&lt;tab&gt;/playdead&lt;tab&gt;/pdead</target>
       </trans-unit>
       <trans-unit id="545" xml:space="preserve" approved="yes">
         <source>545</source>
@@ -3439,7 +3449,7 @@ Utilisation&lt;var 1D /var&gt;: /illusionsglacées [sous-commande]
 Émerge de la glace à la manière de Shiva.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/illusionsglacées&lt;tab&gt;/shiva&lt;tab&gt;/iceheart&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/illusionsglacées&lt;tab&gt;/shiva&lt;tab&gt;/iceheart&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="546" xml:space="preserve" approved="yes">
         <source>546</source>
@@ -3448,7 +3458,7 @@ Utilisation&lt;var 1D /var&gt;: /dansesoleiletlune [sous-commande]
 Exécute la danse du soleil et de la lune.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansesoleiletlune&lt;tab&gt;/dsoleillune&lt;tab&gt;/moonlift&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansesoleiletlune&lt;tab&gt;/dsoleillune&lt;tab&gt;/moonlift&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="547" xml:space="preserve" approved="yes">
         <source>547</source>
@@ -3457,7 +3467,7 @@ Utilisation&lt;var 1D /var&gt;: /exprimersonamour [sous-commande]
 Exprime son amour.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/exprimersonamour&lt;tab&gt;/expramour&lt;tab&gt;/dote&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/exprimersonamour&lt;tab&gt;/expramour&lt;tab&gt;/dote&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="549" xml:space="preserve" approved="yes">
         <source>549</source>
@@ -3466,7 +3476,7 @@ Utilisation&lt;var 1D /var&gt;: /ajusterseslunettes [sous-commande]
 Ajuste ses lunettes.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/ajusterseslunettes&lt;tab&gt;/ajlunettes&lt;tab&gt;/spectacles&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/ajusterseslunettes&lt;tab&gt;/ajlunettes&lt;tab&gt;/spectacles&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="550" xml:space="preserve" approved="yes">
         <source>550</source>
@@ -3475,7 +3485,7 @@ Utilisation&lt;var 1D /var&gt;: /dansedeséglantines [sous-commande]
 Exécute la danse des Églantines.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedeséglantines&lt;tab&gt;/déglantines&lt;tab&gt;/songbird&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedeséglantines&lt;tab&gt;/déglantines&lt;tab&gt;/songbird&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="551" xml:space="preserve" approved="yes">
         <source>551</source>
@@ -3496,7 +3506,7 @@ Utilisation&lt;var 1D /var&gt;: /tendreleslèvres [sous-commande]
 Ferme les yeux et tend les lèvres.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tendreleslèvres&lt;tab&gt;/tlèvres&lt;tab&gt;/puckerup&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tendreleslèvres&lt;tab&gt;/tlèvres&lt;tab&gt;/puckerup&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="554" xml:space="preserve" approved="yes">
         <source>554</source>
@@ -3505,7 +3515,7 @@ Utilisation&lt;var 1D /var&gt;: /concentrersesforces [sous-commande]
 Fait concentrer ses forces.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/concentrersesforces&lt;tab&gt;&lt;tab&gt;/powerup&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/concentrersesforces&lt;tab&gt;&lt;tab&gt;/powerup&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="555" xml:space="preserve" approved="yes">
         <source>555</source>
@@ -3514,7 +3524,7 @@ Utilisation&lt;var 1D /var&gt;: /révérenceorientale [sous-commande]
 Exécute une révérence orientale.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/révérenceorientale&lt;tab&gt;/révorientale&lt;tab&gt;/easternbow&lt;tab&gt;/ebow</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/révérenceorientale&lt;tab&gt;/révorientale&lt;tab&gt;/easternbow&lt;tab&gt;/ebow</target>
       </trans-unit>
       <trans-unit id="556" xml:space="preserve" approved="yes">
         <source>556</source>
@@ -3667,7 +3677,7 @@ Utilisation&lt;var 1D /var&gt;: /salutdécontracté [sous-commande]
 Salue de façon décontractée.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutdécontracté&lt;tab&gt;&lt;tab&gt;/greet&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/salutdécontracté&lt;tab&gt;&lt;tab&gt;/greet&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="574" xml:space="preserve" approved="yes">
         <source>574</source>
@@ -3676,7 +3686,7 @@ Utilisation&lt;var 1D /var&gt;: /pasdebase [sous-commande]
 Exécute un pas de danse de base.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pasdebase&lt;tab&gt;&lt;tab&gt;/boxstep&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pasdebase&lt;tab&gt;&lt;tab&gt;/boxstep&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="575" xml:space="preserve" approved="yes">
         <source>575</source>
@@ -3685,7 +3695,7 @@ Utilisation&lt;var 1D /var&gt;: /pasdecôté [sous-commande]
 Exécute un pas de danse de côté.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pasdecôté&lt;tab&gt;&lt;tab&gt;/sidestep&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pasdecôté&lt;tab&gt;&lt;tab&gt;/sidestep&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="576" xml:space="preserve" approved="yes">
         <source>576</source>
@@ -3694,7 +3704,7 @@ Utilisation&lt;var 1D /var&gt;: /ultima [sous-commande]
 Fait une dé&lt;var 16 /var&gt;mon&lt;var 16 /var&gt;stra&lt;var 16 /var&gt;tion du sort Ultima.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/ultima&lt;tab&gt;&lt;tab&gt;/ultima&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/ultima&lt;tab&gt;&lt;tab&gt;/ultima&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="577" xml:space="preserve" approved="yes">
         <source>577</source>
@@ -3703,7 +3713,7 @@ Utilisation&lt;var 1D /var&gt;: /dansedesyols [sous-commande]
 Exécute la danse des yols.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesyols&lt;tab&gt;&lt;tab&gt;/yoldance&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesyols&lt;tab&gt;&lt;tab&gt;/yoldance&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="579" xml:space="preserve" approved="yes">
         <source>579</source>
@@ -3712,7 +3722,7 @@ Utilisation&lt;var 1D /var&gt;: /éclabousser [sous-commande]
 Fait semblant d'asperger avec de l'eau.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/éclabousser&lt;tab&gt;&lt;tab&gt;/splash&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/éclabousser&lt;tab&gt;&lt;tab&gt;/splash&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="581" xml:space="preserve" approved="yes">
         <source>581</source>
@@ -3721,7 +3731,7 @@ Utilisation&lt;var 1D /var&gt;: /transpirer [sous-commande]
 S'essuie le front.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/transpirer&lt;tab&gt;&lt;tab&gt;/sweat&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/transpirer&lt;tab&gt;&lt;tab&gt;/sweat&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="582" xml:space="preserve" approved="yes">
         <source>582</source>
@@ -3730,7 +3740,7 @@ Utilisation&lt;var 1D /var&gt;: /grelotter [sous-commande]
 Tremble de froid.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/grelotter&lt;tab&gt;&lt;tab&gt;/shiver&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/grelotter&lt;tab&gt;&lt;tab&gt;/shiver&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="583" xml:space="preserve" approved="yes">
         <source>583</source>
@@ -3739,7 +3749,7 @@ Utilisation&lt;var 1D /var&gt;: /élucider [sous-commande]
 Se lance dans des ex&lt;var 16 /var&gt;pli&lt;var 16 /var&gt;ca&lt;var 16 /var&gt;tions.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/élucider&lt;tab&gt;&lt;tab&gt;/elucidate&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/élucider&lt;tab&gt;&lt;tab&gt;/elucidate&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="584" xml:space="preserve" approved="yes">
         <source>584</source>
@@ -3748,7 +3758,7 @@ Utilisation&lt;var 1D /var&gt;: /songeur [sous-commande]
 Est perdu dans ses pensées.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/songeur&lt;tab&gt;&lt;tab&gt;/ponder&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/songeur&lt;tab&gt;&lt;tab&gt;/ponder&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="585" xml:space="preserve" approved="yes">
         <source>585</source>
@@ -3757,7 +3767,7 @@ Utilisation&lt;var 1D /var&gt;: /clindoeilgauche [sous-commande]
 Fait un clin d'œil gauche.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/clindoeilgauche&lt;tab&gt;/cloeilg&lt;tab&gt;/leftwink&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/clindoeilgauche&lt;tab&gt;/cloeilg&lt;tab&gt;/leftwink&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="586" xml:space="preserve" approved="yes">
         <source>586</source>
@@ -3766,7 +3776,7 @@ Utilisation&lt;var 1D /var&gt;: /fantaisieurbaine [sous-commande]
 Exécute la danse "Fantaisie urbaine".
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/fantaisieurbaine&lt;tab&gt;&lt;tab&gt;/getfantasy&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/fantaisieurbaine&lt;tab&gt;&lt;tab&gt;/getfantasy&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="587" xml:space="preserve" approved="yes">
         <source>587</source>
@@ -3775,7 +3785,7 @@ Utilisation&lt;var 1D /var&gt;: /poppingpopoto [sous-commande]
 Exécute la danse "Popping popoto".
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/poppingpopoto&lt;tab&gt;&lt;tab&gt;/popotostep&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/poppingpopoto&lt;tab&gt;&lt;tab&gt;/popotostep&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="588" xml:space="preserve" approved="yes">
         <source>588</source>
@@ -3784,7 +3794,7 @@ Utilisation&lt;var 1D /var&gt;: /fredonner [sous-commande]
 Fredonne gaiement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/fredonner&lt;tab&gt;&lt;tab&gt;/hum&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/fredonner&lt;tab&gt;&lt;tab&gt;/hum&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="589" xml:space="preserve" approved="yes">
         <source>589</source>
@@ -3793,7 +3803,7 @@ Utilisation&lt;var 1D /var&gt;: /confirmer [sous-commande]
 Confirme une information.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/confirmer&lt;tab&gt;&lt;tab&gt;/confirm&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/confirmer&lt;tab&gt;&lt;tab&gt;/confirm&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="590" xml:space="preserve" approved="yes">
         <source>590</source>
@@ -3802,7 +3812,7 @@ Utilisation&lt;var 1D /var&gt;: /expliquerplan [sous-commande]
 Explique son plan.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/expliquerplan&lt;tab&gt;&lt;tab&gt;/scheme&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/expliquerplan&lt;tab&gt;&lt;tab&gt;/scheme&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="591" xml:space="preserve" approved="yes">
         <source>591</source>
@@ -3811,7 +3821,7 @@ Utilisation&lt;var 1D /var&gt;: /crispé [sous-commande]
 Prend un air crispé.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/crispé&lt;tab&gt;&lt;tab&gt;/endure&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/crispé&lt;tab&gt;&lt;tab&gt;/endure&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="592" xml:space="preserve" approved="yes">
         <source>592</source>
@@ -3820,7 +3830,7 @@ Utilisation&lt;var 1D /var&gt;: /mémoquartz [sous-commande]
 Utilise son mémoquartz.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mémoquartz&lt;tab&gt;&lt;tab&gt;/tomestone&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mémoquartz&lt;tab&gt;&lt;tab&gt;/tomestone&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="593" xml:space="preserve" approved="yes">
         <source>593</source>
@@ -3829,7 +3839,7 @@ Utilisation&lt;var 1D /var&gt;: /dansesautillante [sous-commande]
 Exécute un pas de danse sautillante.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansesautillante&lt;tab&gt;&lt;tab&gt;/heeltoe&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansesautillante&lt;tab&gt;&lt;tab&gt;/heeltoe&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="594" xml:space="preserve" approved="yes">
         <source>594</source>
@@ -3838,7 +3848,7 @@ Utilisation&lt;var 1D /var&gt;: /dansegoobbue [sous-commande]
 Exécute la danse festive du goobbue.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansegoobbue&lt;tab&gt;&lt;tab&gt;/goobbuedo&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansegoobbue&lt;tab&gt;&lt;tab&gt;/goobbuedo&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="595" xml:space="preserve" approved="yes">
         <source>595</source>
@@ -3847,7 +3857,7 @@ Utilisation&lt;var 1D /var&gt;: /charitéchafouine [sous-commande]
 Lance de l'argent en l'air.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/charitéchafouine&lt;tab&gt;&lt;tab&gt;/gratuity&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/charitéchafouine&lt;tab&gt;&lt;tab&gt;/gratuity&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="596" xml:space="preserve" approved="yes">
         <source>596</source>
@@ -3856,7 +3866,7 @@ Utilisation&lt;var 1D /var&gt;: /poingair [sous-commande]
 Exprime sa joie avec une pose victorieuse.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/poingair&lt;tab&gt;&lt;tab&gt;/fistpump&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/poingair&lt;tab&gt;&lt;tab&gt;/fistpump&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="597" xml:space="preserve" approved="yes">
         <source>597</source>
@@ -3865,7 +3875,7 @@ Utilisation&lt;var 1D /var&gt;: /réprimander [sous-commande]
 Exprime son mécontentement tout en gardant son sang-froid.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/réprimander&lt;tab&gt;&lt;tab&gt;/reprimand&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/réprimander&lt;tab&gt;&lt;tab&gt;/reprimand&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="598" xml:space="preserve" approved="yes">
         <source>598</source>
@@ -3874,7 +3884,7 @@ Utilisation&lt;var 1D /var&gt;: /pasdepampa [sous-commande]
 Imite les célèbres pas effectués par des pampas.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pasdepampa&lt;tab&gt;&lt;tab&gt;/sabotender&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pasdepampa&lt;tab&gt;&lt;tab&gt;/sabotender&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="599" xml:space="preserve" approved="yes">
         <source>599</source>
@@ -3883,7 +3893,7 @@ Utilisation&lt;var 1D /var&gt;: /mambogentilhomme [sous-commande]
 Exécute le mambo du gentilhomme.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mambogentilhomme&lt;tab&gt;&lt;tab&gt;/mandervillemambo&lt;tab&gt;/mmambo</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mambogentilhomme&lt;tab&gt;&lt;tab&gt;/mandervillemambo&lt;tab&gt;/mmambo</target>
       </trans-unit>
       <trans-unit id="600" xml:space="preserve" approved="yes">
         <source>600</source>
@@ -3892,7 +3902,7 @@ Utilisation&lt;var 1D /var&gt;: /laliho [sous-commande]
 Exécute un lali-ho nain.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/laliho&lt;tab&gt;&lt;tab&gt;/laliho&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/laliho&lt;tab&gt;&lt;tab&gt;/laliho&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="601" xml:space="preserve" approved="yes">
         <source>601</source>
@@ -3901,7 +3911,7 @@ Utilisation&lt;var 1D /var&gt;: /simulationm [sous-commande]
 Fait une dé&lt;var 16 /var&gt;mon&lt;var 16 /var&gt;stra&lt;var 16 /var&gt;tion de la simulation M.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/simulationm&lt;tab&gt;&lt;tab&gt;/simulationm&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/simulationm&lt;tab&gt;&lt;tab&gt;/simulationm&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="602" xml:space="preserve" approved="yes">
         <source>602</source>
@@ -3910,7 +3920,7 @@ Utilisation&lt;var 1D /var&gt;: /simulationf [sous-commande]
 Fait une dé&lt;var 16 /var&gt;mon&lt;var 16 /var&gt;stra&lt;var 16 /var&gt;tion de la simulation F.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/simulationf&lt;tab&gt;&lt;tab&gt;/simulationf&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/simulationf&lt;tab&gt;&lt;tab&gt;/simulationf&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="603" xml:space="preserve" approved="yes">
         <source>603</source>
@@ -3919,7 +3929,7 @@ Utilisation&lt;var 1D /var&gt;: /trinquer [sous-commande]
 Trinque à la santé et au succès de ceux qui vous entourent.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/trinquer&lt;tab&gt;&lt;tab&gt;/toast&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/trinquer&lt;tab&gt;&lt;tab&gt;/toast&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="604" xml:space="preserve" approved="yes">
         <source>604</source>
@@ -3934,7 +3944,7 @@ Utilisation&lt;var 1D /var&gt;: /migraine [sous-commande]
 Souffre de terribles maux de tête.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/migraine&lt;tab&gt;&lt;tab&gt;/headache&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/migraine&lt;tab&gt;&lt;tab&gt;/headache&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="606" xml:space="preserve" approved="yes">
         <source>606</source>
@@ -3943,7 +3953,7 @@ Utilisation&lt;var 1D /var&gt;: /claquerdesdoigts [sous-commande]
 Claque des doigts de manière audible.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/claquerdesdoigts&lt;tab&gt;/claqdoi&lt;tab&gt;/snap&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/claquerdesdoigts&lt;tab&gt;/claqdoi&lt;tab&gt;/snap&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="607" xml:space="preserve" approved="yes">
         <source>607</source>
@@ -3952,7 +3962,7 @@ Utilisation&lt;var 1D /var&gt;: /mangerdupain [sous-commande]
 Mange un bout de pain.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerdupain&lt;tab&gt;/mangpain&lt;tab&gt;/breakfast&lt;tab&gt;/bread</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerdupain&lt;tab&gt;/mangpain&lt;tab&gt;/breakfast&lt;tab&gt;/bread</target>
       </trans-unit>
       <trans-unit id="608" xml:space="preserve" approved="yes">
         <source>608</source>
@@ -3961,7 +3971,7 @@ Utilisation&lt;var 1D /var&gt;: /lireunlivre [sous-commande]
 Lit un livre.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lireunlivre&lt;tab&gt;/lire&lt;tab&gt;/read&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lireunlivre&lt;tab&gt;/lire&lt;tab&gt;/read&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="609" xml:space="preserve" approved="yes">
         <source>609</source>
@@ -3970,7 +3980,7 @@ Utilisation&lt;var 1D /var&gt;: /insister [sous-commande]
 Insiste pour bien se faire comprendre.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/insister&lt;tab&gt;&lt;tab&gt;/insist&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/insister&lt;tab&gt;&lt;tab&gt;/insist&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="610" xml:space="preserve" approved="yes">
         <source>610</source>
@@ -3979,7 +3989,7 @@ Utilisation&lt;var 1D /var&gt;: /sinterroger [sous-commande]
 S'interroge.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sinterroger&lt;tab&gt;&lt;tab&gt;/consider&lt;tab&gt;/hmm</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sinterroger&lt;tab&gt;&lt;tab&gt;/consider&lt;tab&gt;/hmm</target>
       </trans-unit>
       <trans-unit id="611" xml:space="preserve" approved="yes">
         <source>611</source>
@@ -3988,7 +3998,7 @@ Utilisation&lt;var 1D /var&gt;: /ohhisse [sous-commande]
 Fait “oh hisse&lt;var 1D /var&gt;!”.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/ohhisse&lt;tab&gt;&lt;tab&gt;/wasshoi&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/ohhisse&lt;tab&gt;&lt;tab&gt;/wasshoi&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="612" xml:space="preserve" approved="yes">
         <source>612</source>
@@ -3997,7 +4007,7 @@ Utilisation&lt;var 1D /var&gt;: /pluiedepétales [sous-commande]
 Fait tomber une pluie de pétales.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pluiedepétales&lt;tab&gt;&lt;tab&gt;/flowershower&lt;tab&gt;/petals</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pluiedepétales&lt;tab&gt;&lt;tab&gt;/flowershower&lt;tab&gt;/petals</target>
       </trans-unit>
       <trans-unit id="613" xml:space="preserve" approved="yes">
         <source>613</source>
@@ -4006,7 +4016,7 @@ Utilisation&lt;var 1D /var&gt;: /dansedesflammes [sous-commande]
 Effectue la danse des flammes.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesflammes&lt;tab&gt;&lt;tab&gt;/flamedance&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesflammes&lt;tab&gt;&lt;tab&gt;/flamedance&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="614" xml:space="preserve" approved="yes">
         <source>614</source>
@@ -4015,7 +4025,7 @@ Utilisation&lt;var 1D /var&gt;: /topelà [sous-commande]
 Tend le bras en l'air et tape énergiquement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/topelà&lt;tab&gt;&lt;tab&gt;/highfive&lt;tab&gt;/hifive</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/topelà&lt;tab&gt;&lt;tab&gt;/highfive&lt;tab&gt;/hifive</target>
       </trans-unit>
       <trans-unit id="615" xml:space="preserve" approved="yes">
         <source>615</source>
@@ -4024,7 +4034,7 @@ Utilisation&lt;var 1D /var&gt;: /monterlagarde [sous-commande]
 Monte la garde ou surveille quelqu'un.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/monterlagarde&lt;tab&gt;&lt;tab&gt;/guard&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/monterlagarde&lt;tab&gt;&lt;tab&gt;/guard&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="616" xml:space="preserve" approved="yes">
         <source>616</source>
@@ -4033,7 +4043,7 @@ Utilisation&lt;var 1D /var&gt;: /occultiste [sous-commande]
 Fait la pose de l'occultiste.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/occultiste&lt;tab&gt;&lt;tab&gt;/malevolence&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/occultiste&lt;tab&gt;&lt;tab&gt;/malevolence&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="617" xml:space="preserve" approved="yes">
         <source>617</source>
@@ -4042,7 +4052,7 @@ Utilisation&lt;var 1D /var&gt;: /dansedesabeilles [sous-commande]
 Effectue la danse des abeilles.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesabeilles&lt;tab&gt;&lt;tab&gt;/beesknees&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesabeilles&lt;tab&gt;&lt;tab&gt;/beesknees&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="618" xml:space="preserve" approved="yes">
         <source>618</source>
@@ -4051,7 +4061,7 @@ Utilisation&lt;var 1D /var&gt;: /lali-hop [sous-commande]
 Danse le lali-hop.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lali-hop&lt;tab&gt;&lt;tab&gt;/lalihop&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lali-hop&lt;tab&gt;&lt;tab&gt;/lalihop&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="621" xml:space="preserve" approved="yes">
         <source>621</source>
@@ -4060,7 +4070,7 @@ Utilisation&lt;var 1D /var&gt;: /mangerunonigiri [sous-commande]
 Mange un onigiri.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunonigiri&lt;tab&gt;/mangonigiri&lt;tab&gt;/eatriceball&lt;tab&gt;/riceball</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunonigiri&lt;tab&gt;/mangonigiri&lt;tab&gt;/eatriceball&lt;tab&gt;/riceball</target>
       </trans-unit>
       <trans-unit id="622" xml:space="preserve" approved="yes">
         <source>622</source>
@@ -4069,7 +4079,7 @@ Utilisation&lt;var 1D /var&gt;: /mangerunepomme [sous-commande]
 Mange une pomme.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunepomme&lt;tab&gt;/mangpomme&lt;tab&gt;/eatapple&lt;tab&gt;/apple</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunepomme&lt;tab&gt;/mangpomme&lt;tab&gt;/eatapple&lt;tab&gt;/apple</target>
       </trans-unit>
       <trans-unit id="623" xml:space="preserve" approved="yes">
         <source>623</source>
@@ -4078,7 +4088,7 @@ Utilisation&lt;var 1D /var&gt;: /sefrotterlesmains [sous-commande]
 Se frotte les mains.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sefrotterlesmains&lt;tab&gt;/frottmains&lt;tab&gt;/wringhands&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sefrotterlesmains&lt;tab&gt;/frottmains&lt;tab&gt;/wringhands&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="624" xml:space="preserve" approved="yes">
         <source>624</source>
@@ -4087,7 +4097,7 @@ Utilisation&lt;var 1D /var&gt;: /balayer [sous-commande]
 Passe le balai.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/balayer&lt;tab&gt;/balai&lt;tab&gt;/sweep&lt;tab&gt;/broom</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/balayer&lt;tab&gt;/balai&lt;tab&gt;/sweep&lt;tab&gt;/broom</target>
       </trans-unit>
       <trans-unit id="625" xml:space="preserve" approved="yes">
         <source>625</source>
@@ -4096,7 +4106,7 @@ Utilisation&lt;var 1D /var&gt;: /pinchoconoir [sous-commande]
 Repeint le sol en noir.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pinchoconoir&lt;tab&gt;/pinceaunoir&lt;tab&gt;/paintblack&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pinchoconoir&lt;tab&gt;/pinceaunoir&lt;tab&gt;/paintblack&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="626" xml:space="preserve" approved="yes">
         <source>626</source>
@@ -4105,7 +4115,7 @@ Utilisation&lt;var 1D /var&gt;: /pinchocorouge [sous-commande]
 Repeint le sol en rouge.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pinchocorouge&lt;tab&gt;/pinceaurouge&lt;tab&gt;/paintred&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pinchocorouge&lt;tab&gt;/pinceaurouge&lt;tab&gt;/paintred&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="627" xml:space="preserve" approved="yes">
         <source>627</source>
@@ -4114,7 +4124,7 @@ Utilisation&lt;var 1D /var&gt;: /pinchocojaune [sous-commande]
 Repeint le sol en jaune.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pinchocojaune&lt;tab&gt;/pinceaujaune&lt;tab&gt;/paintyellow&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pinchocojaune&lt;tab&gt;/pinceaujaune&lt;tab&gt;/paintyellow&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="628" xml:space="preserve" approved="yes">
         <source>628</source>
@@ -4123,7 +4133,7 @@ Utilisation&lt;var 1D /var&gt;: /pinchocobleu [sous-commande]
 Repeint le sol en bleu.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pinchocobleu&lt;tab&gt;/pinceaubleu&lt;tab&gt;/paintblue&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pinchocobleu&lt;tab&gt;/pinceaubleu&lt;tab&gt;/paintblue&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="629" xml:space="preserve" approved="yes">
         <source>629</source>
@@ -4132,7 +4142,7 @@ Utilisation&lt;var 1D /var&gt;: /sourireforcé [sous-commande]
 Affiche un sourire forcé.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sourireforcé&lt;tab&gt;&lt;tab&gt;/fakesmile&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sourireforcé&lt;tab&gt;&lt;tab&gt;/fakesmile&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="630" xml:space="preserve" approved="yes">
         <source>630</source>
@@ -4141,7 +4151,7 @@ Utilisation&lt;var 1D /var&gt;: /pantomime [sous-commande]
 Exécute un pantomime.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pantomime&lt;tab&gt;&lt;tab&gt;/pantomime&lt;tab&gt;/mime</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/pantomime&lt;tab&gt;&lt;tab&gt;/pantomime&lt;tab&gt;/mime</target>
       </trans-unit>
       <trans-unit id="631" xml:space="preserve" approved="yes">
         <source>631</source>
@@ -4150,7 +4160,7 @@ Utilisation&lt;var 1D /var&gt;: /mécontentement [sous-commande]
 Affiche votre mécontentement.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mécontentement&lt;tab&gt;&lt;tab&gt;/vexed&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mécontentement&lt;tab&gt;&lt;tab&gt;/vexed&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="632" xml:space="preserve" approved="yes">
         <source>632</source>
@@ -4159,7 +4169,7 @@ Utilisation&lt;var 1D /var&gt;: /chut [sous-commande]
 Place l'index sur les lèvres pour dire chut.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/chut&lt;tab&gt;&lt;tab&gt;/shush&lt;tab&gt;/shh</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/chut&lt;tab&gt;&lt;tab&gt;/shush&lt;tab&gt;/shh</target>
       </trans-unit>
       <trans-unit id="633" xml:space="preserve" approved="yes">
         <source>633</source>
@@ -4168,7 +4178,7 @@ Utilisation&lt;var 1D /var&gt;: /mangerunepizza [sous-commande]
 Mange une tranche de pizza.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunepizza&lt;tab&gt;/mangpizza&lt;tab&gt;/eatpizza&lt;tab&gt;/pizza</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunepizza&lt;tab&gt;/mangpizza&lt;tab&gt;/eatpizza&lt;tab&gt;/pizza</target>
       </trans-unit>
       <trans-unit id="634" xml:space="preserve" approved="yes">
         <source>634</source>
@@ -4177,7 +4187,7 @@ Utilisation&lt;var 1D /var&gt;: /setenirlatête [sous-commande]
 Se tient la tête en se contorsionnant de douleur.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/setenirlatête&lt;tab&gt;/tenirtête&lt;tab&gt;/clutchhead&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/setenirlatête&lt;tab&gt;/tenirtête&lt;tab&gt;/clutchhead&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="635" xml:space="preserve" approved="yes">
         <source>635</source>
@@ -4186,7 +4196,7 @@ Utilisation&lt;var 1D /var&gt;: /mangerunchocolat [sous-commande]
 Mange un chocolat de la Valention.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunchocolat&lt;tab&gt;/mangchocolat&lt;tab&gt;/eatchocolate&lt;tab&gt;/choco</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunchocolat&lt;tab&gt;/mangchocolat&lt;tab&gt;/eatchocolate&lt;tab&gt;/choco</target>
       </trans-unit>
       <trans-unit id="636" xml:space="preserve" approved="yes">
         <source>636</source>
@@ -4195,7 +4205,7 @@ Utilisation&lt;var 1D /var&gt;: /mangerunoeuf [sous-commande]
 Mange un œuf.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunoeuf&lt;tab&gt;/mangoeuf&lt;tab&gt;/eategg&lt;tab&gt;/egg</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunoeuf&lt;tab&gt;/mangoeuf&lt;tab&gt;/eategg&lt;tab&gt;/egg</target>
       </trans-unit>
       <trans-unit id="637" xml:space="preserve" approved="yes">
         <source>637</source>
@@ -4204,7 +4214,7 @@ Utilisation&lt;var 1D /var&gt;: /content [sous-commande]
 Affiche un air content.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/content&lt;tab&gt;&lt;tab&gt;/content&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/content&lt;tab&gt;&lt;tab&gt;/content&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="638" xml:space="preserve" approved="yes">
         <source>638</source>
@@ -4213,7 +4223,7 @@ Utilisation&lt;var 1D /var&gt;: /rengainer [sous-commande]
 Rengaine la ou les armes.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/rengainer&lt;tab&gt;&lt;tab&gt;/sheathe&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/rengainer&lt;tab&gt;&lt;tab&gt;/sheathe&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="639" xml:space="preserve" approved="yes">
         <source>639</source>
@@ -4222,7 +4232,7 @@ Utilisation&lt;var 1D /var&gt;: /dégainer [sous-commande]
 Dégaine la ou les armes.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dégainer&lt;tab&gt;&lt;tab&gt;/draw&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dégainer&lt;tab&gt;&lt;tab&gt;/draw&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="640" xml:space="preserve" approved="yes">
         <source>640</source>
@@ -4231,7 +4241,7 @@ Utilisation&lt;var 1D /var&gt;: /thé [sous-commande]
 Boit une tasse de thé.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/thé&lt;tab&gt;&lt;tab&gt;/tea&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/thé&lt;tab&gt;&lt;tab&gt;/tea&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="641" xml:space="preserve" approved="yes">
         <source>641</source>
@@ -4240,7 +4250,7 @@ Utilisation&lt;var 1D /var&gt;: /détermination [sous-commande]
 Frappe dans sa main pour montrer sa détermination.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/détermination&lt;tab&gt;&lt;tab&gt;/determined&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/détermination&lt;tab&gt;&lt;tab&gt;/determined&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="642" xml:space="preserve" approved="yes">
         <source>642</source>
@@ -4249,7 +4259,7 @@ Utilisation&lt;var 1D /var&gt;: /montrerdroite [sous-commande]
 Exhibe ce qui se trouve à sa droite.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/montrerdroite&lt;tab&gt;/montred&lt;tab&gt;/showright&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/montrerdroite&lt;tab&gt;/montred&lt;tab&gt;/showright&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="643" xml:space="preserve" approved="yes">
         <source>643</source>
@@ -4258,7 +4268,7 @@ Utilisation&lt;var 1D /var&gt;: /montrergauche [sous-commande]
 Exhibe ce qui se trouve à sa gauche.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/montrergauche&lt;tab&gt;/montreg&lt;tab&gt;/showleft&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/montrergauche&lt;tab&gt;/montreg&lt;tab&gt;/showleft&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="646" xml:space="preserve" approved="yes">
         <source>646</source>
@@ -4267,7 +4277,7 @@ Utilisation&lt;var 1D /var&gt;: /montrersoncôtérebelle [sous-commande]
 Montre son côté rebelle.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/montrersoncôtérebelle&lt;tab&gt;/rebelle&lt;tab&gt;/deride&lt;tab&gt;/pagaga</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/montrersoncôtérebelle&lt;tab&gt;/rebelle&lt;tab&gt;/deride&lt;tab&gt;/pagaga</target>
       </trans-unit>
       <trans-unit id="647" xml:space="preserve" approved="yes">
         <source>647</source>
@@ -4276,7 +4286,7 @@ Utilisation&lt;var 1D /var&gt;: /avoirdesétoilesdanslesyeux [sous-commande]
 A des étoiles dans les yeux.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/avoirdesétoilesdanslesyeux&lt;tab&gt;/fana&lt;tab&gt;/wow&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/avoirdesétoilesdanslesyeux&lt;tab&gt;/fana&lt;tab&gt;/wow&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="648" xml:space="preserve" approved="yes">
         <source>648</source>
@@ -4285,7 +4295,7 @@ Utilisation&lt;var 1D /var&gt;: /mangerunbiscuitcitrouille [sous-commande]
 Mange un biscuit citrouille.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunbiscuitcitrouille&lt;tab&gt;/mangbiscuitcitrouille&lt;tab&gt;/eatpumpkincookie&lt;tab&gt;/cookie</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerunbiscuitcitrouille&lt;tab&gt;/mangbiscuitcitrouille&lt;tab&gt;/eatpumpkincookie&lt;tab&gt;/cookie</target>
       </trans-unit>
       <trans-unit id="649" xml:space="preserve" approved="yes">
         <source>649</source>
@@ -4294,7 +4304,7 @@ Utilisation&lt;var 1D /var&gt;: /apprécierlespectacle [sous-commande]
 Apprécie le spectacle.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/apprécierlespectacle&lt;tab&gt;/apprécispectacle&lt;tab&gt;/spirit&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/apprécierlespectacle&lt;tab&gt;/apprécispectacle&lt;tab&gt;/spirit&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="650" xml:space="preserve" approved="yes">
         <source>650</source>
@@ -4303,7 +4313,7 @@ Utilisation&lt;var 1D /var&gt;: /tourdemagie [sous-commande]
 Exécute un tour de magie.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tourdemagie&lt;tab&gt;/tourmag&lt;tab&gt;/magictrick&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tourdemagie&lt;tab&gt;/tourmag&lt;tab&gt;/magictrick&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="651" xml:space="preserve" approved="yes">
         <source>651</source>
@@ -4312,7 +4322,7 @@ Utilisation&lt;var 1D /var&gt;: /dansedesprincesses [sous-commande]
 Effectue la danse des princesses.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesprincesses&lt;tab&gt;/dansprinc&lt;tab&gt;/littleladiesdance&lt;tab&gt;/ladance</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesprincesses&lt;tab&gt;/dansprinc&lt;tab&gt;/littleladiesdance&lt;tab&gt;/ladance</target>
       </trans-unit>
       <trans-unit id="652" xml:space="preserve" approved="yes">
         <source>652</source>
@@ -4321,7 +4331,7 @@ Utilisation&lt;var 1D /var&gt;: /appelvialinkperle [sous-commande]
 Passe un appel via linkperle.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/appelvialinkperle&lt;tab&gt;/applink&lt;tab&gt;/linkpearl&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/appelvialinkperle&lt;tab&gt;/applink&lt;tab&gt;/linkpearl&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="653" xml:space="preserve" approved="yes">
         <source>653</source>
@@ -4330,7 +4340,7 @@ Utilisation&lt;var 1D /var&gt;: /longuesoreillessoyeuses [sous-commande]
 Exhibe de longues oreilles soyeuses.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/longuesoreillessoyeuses&lt;tab&gt;/longorsoy&lt;tab&gt;/earwiggle&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/longuesoreillessoyeuses&lt;tab&gt;/longorsoy&lt;tab&gt;/earwiggle&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="657" xml:space="preserve" approved="yes">
         <source>657</source>
@@ -4339,7 +4349,7 @@ Utilisation&lt;var 1D /var&gt;: /effrayer [sous-commande]
 Prend un air effrayant.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/effrayer&lt;tab&gt;&lt;tab&gt;/frighten&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/effrayer&lt;tab&gt;&lt;tab&gt;/frighten&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="658" xml:space="preserve" approved="yes">
         <source>658</source>
@@ -4348,7 +4358,7 @@ Utilisation&lt;var 1D /var&gt;: /envolhéroïque [sous-commande]
 S'envole dans les airs avant de retomber poing en avant.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/envolhéroïque&lt;tab&gt;/envhér&lt;tab&gt;/adventoflight&lt;tab&gt;/advent</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/envolhéroïque&lt;tab&gt;/envhér&lt;tab&gt;/adventoflight&lt;tab&gt;/advent</target>
       </trans-unit>
       <trans-unit id="659" xml:space="preserve" approved="yes">
         <source>659</source>
@@ -4357,7 +4367,7 @@ Utilisation&lt;var 1D /var&gt;: /sautdejoie1 [sous-commande]
 Saute de joie avec un air attendrissant.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie1&lt;tab&gt;/jj1&lt;tab&gt;/jumpforjoy1&lt;tab&gt;/jj1</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie1&lt;tab&gt;/jj1&lt;tab&gt;/jumpforjoy1&lt;tab&gt;/jj1</target>
       </trans-unit>
       <trans-unit id="660" xml:space="preserve" approved="yes">
         <source>660</source>
@@ -4366,7 +4376,7 @@ Utilisation&lt;var 1D /var&gt;: /sautdejoie2 [sous-commande]
 Saute de joie avec un air heureux.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie2&lt;tab&gt;/jj2&lt;tab&gt;/jumpforjoy2&lt;tab&gt;/jj2</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie2&lt;tab&gt;/jj2&lt;tab&gt;/jumpforjoy2&lt;tab&gt;/jj2</target>
       </trans-unit>
       <trans-unit id="661" xml:space="preserve" approved="yes">
         <source>661</source>
@@ -4375,7 +4385,7 @@ Utilisation&lt;var 1D /var&gt;: /sautdejoie3 [sous-commande]
 Saute de joie avec un air déterminé.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie3&lt;tab&gt;/jj3&lt;tab&gt;/jumpforjoy3&lt;tab&gt;/jj3</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie3&lt;tab&gt;/jj3&lt;tab&gt;/jumpforjoy3&lt;tab&gt;/jj3</target>
       </trans-unit>
       <trans-unit id="662" xml:space="preserve" approved="yes">
         <source>662</source>
@@ -4384,7 +4394,7 @@ Utilisation&lt;var 1D /var&gt;: /sautdejoie4 [sous-commande]
 Saute de joie avec un air détendu.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie4&lt;tab&gt;/jj4&lt;tab&gt;/jumpforjoy4&lt;tab&gt;/jj4</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie4&lt;tab&gt;/jj4&lt;tab&gt;/jumpforjoy4&lt;tab&gt;/jj4</target>
       </trans-unit>
       <trans-unit id="663" xml:space="preserve" approved="yes">
         <source>663</source>
@@ -4393,7 +4403,7 @@ Utilisation&lt;var 1D /var&gt;: /sautdejoie5 [sous-commande]
 Saute de joie avec un air de pampa.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie5&lt;tab&gt;/jj5&lt;tab&gt;/jumpforjoy5&lt;tab&gt;/jj5</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sautdejoie5&lt;tab&gt;/jj5&lt;tab&gt;/jumpforjoy5&lt;tab&gt;/jj5</target>
       </trans-unit>
       <trans-unit id="664" xml:space="preserve" approved="yes">
         <source>664</source>
@@ -4402,7 +4412,7 @@ Utilisation&lt;var 1D /var&gt;: /mainsurlapoitrine [sous-commande]
 Met sa main sur sa poitrine.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mainsurlapoitrine&lt;tab&gt;/mainpoit&lt;tab&gt;/handtoheart&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mainsurlapoitrine&lt;tab&gt;/mainpoit&lt;tab&gt;/handtoheart&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="665" xml:space="preserve" approved="yes">
         <source>665</source>
@@ -4411,7 +4421,7 @@ Utilisation&lt;var 1D /var&gt;: /encouragerblanc [sous-commande]
 Encourage avec des bâtons lumineux blancs.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerblanc&lt;tab&gt;&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerbright</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerblanc&lt;tab&gt;&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerbright</target>
       </trans-unit>
       <trans-unit id="666" xml:space="preserve" approved="yes">
         <source>666</source>
@@ -4420,7 +4430,7 @@ Utilisation&lt;var 1D /var&gt;: /encouragerviolet [sous-commande]
 Encourage avec des bâtons lumineux violets.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerviolet&lt;tab&gt;&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerviolet</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerviolet&lt;tab&gt;&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerviolet</target>
       </trans-unit>
       <trans-unit id="667" xml:space="preserve" approved="yes">
         <source>667</source>
@@ -4429,7 +4439,7 @@ Utilisation&lt;var 1D /var&gt;: /encouragervert [sous-commande]
 Encourage avec des bâtons lumineux verts.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragervert&lt;tab&gt;&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheergreen</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragervert&lt;tab&gt;&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheergreen</target>
       </trans-unit>
       <trans-unit id="668" xml:space="preserve" approved="yes">
         <source>668</source>
@@ -4438,7 +4448,7 @@ Utilisation&lt;var 1D /var&gt;: /sortilègedelaveillée [sous-commande]
 Lance un sortilège de la Veillée des saints.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sortilègedelaveillée&lt;tab&gt;/sortveillée&lt;tab&gt;/allsaintscharm&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sortilègedelaveillée&lt;tab&gt;/sortveillée&lt;tab&gt;/allsaintscharm&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="670" xml:space="preserve" approved="yes">
         <source>670</source>
@@ -4447,7 +4457,7 @@ Utilisation&lt;var 1D /var&gt;: /dansedesloporrites [sous-commande]
 Effectue la danse des Loporrites.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesloporrites&lt;tab&gt;/danslopo&lt;tab&gt;/lophop&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansedesloporrites&lt;tab&gt;/danslopo&lt;tab&gt;/lophop&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="671" xml:space="preserve" approved="yes">
         <source>671</source>
@@ -4456,7 +4466,7 @@ Utilisation&lt;var 1D /var&gt;: /seréférer [sous-commande]
 Consulte un ouvrage de référence.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seréférer&lt;tab&gt;/référence&lt;tab&gt;/reference&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/seréférer&lt;tab&gt;/référence&lt;tab&gt;/reference&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="672" xml:space="preserve" approved="yes">
         <source>672</source>
@@ -4465,7 +4475,7 @@ Utilisation&lt;var 1D /var&gt;: /mangerdupouletfrit [sous-commande]
 Mange du poulet frit.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerdupouletfrit&lt;tab&gt;/mangpoul&lt;tab&gt;/eatchicken&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/mangerdupouletfrit&lt;tab&gt;/mangpoul&lt;tab&gt;/eatchicken&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="673" xml:space="preserve" approved="yes">
         <source>673</source>
@@ -4474,7 +4484,7 @@ Utilisation&lt;var 1D /var&gt;: /exode [sous-commande]
 Fait une dé&lt;var 16 /var&gt;mon&lt;var 16 /var&gt;stra&lt;var 16 /var&gt;tion du sort Exode.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/exode&lt;tab&gt;&lt;tab&gt;/sundering&lt;tab&gt;/exodus</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/exode&lt;tab&gt;&lt;tab&gt;/sundering&lt;tab&gt;/exodus</target>
       </trans-unit>
       <trans-unit id="674" xml:space="preserve" approved="yes">
         <source>674</source>
@@ -4483,7 +4493,7 @@ Utilisation&lt;var 1D /var&gt;: /êtreaccablé [sous-commande]
 Est accablé.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/êtreaccablé&lt;tab&gt;/accablé&lt;tab&gt;/slump&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/êtreaccablé&lt;tab&gt;/accablé&lt;tab&gt;/slump&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="675" xml:space="preserve" approved="yes">
         <source>675</source>
@@ -4492,7 +4502,7 @@ Utilisation&lt;var 1D /var&gt;: /poseencoeur [sous-commande]
 Fait la pose en cœur.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/poseencoeur&lt;tab&gt;/coeur&lt;tab&gt;/loveheart&lt;tab&gt;/heart</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/poseencoeur&lt;tab&gt;/coeur&lt;tab&gt;/loveheart&lt;tab&gt;/heart</target>
       </trans-unit>
       <trans-unit id="676" xml:space="preserve" approved="yes">
         <source>676</source>
@@ -4501,7 +4511,7 @@ Utilisation&lt;var 1D /var&gt;: /posedufanfaron [sous-commande]
 Fait la pose du fanfaron.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/posedufanfaron&lt;tab&gt;/fanfaron&lt;tab&gt;/humbletriumph&lt;tab&gt;/waitforit</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/posedufanfaron&lt;tab&gt;/fanfaron&lt;tab&gt;/humbletriumph&lt;tab&gt;/waitforit</target>
       </trans-unit>
       <trans-unit id="677" xml:space="preserve" approved="yes">
         <source>677</source>
@@ -4510,7 +4520,7 @@ Utilisation&lt;var 1D /var&gt;: /célébrationdeharicot [sous-commande]
 Exécute une célébration de haricot.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/célébrationdeharicot&lt;tab&gt;/célébharicot&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/célébrationdeharicot&lt;tab&gt;/célébharicot&lt;tab&gt;/victoryreveal&lt;tab&gt;/vreveal</target>
       </trans-unit>
       <trans-unit id="678" xml:space="preserve" approved="yes">
         <source>678</source>
@@ -4519,7 +4529,7 @@ Utilisation&lt;var 1D /var&gt;: /cuisinerunoeufauplat [sous-commande]
 Cuisine un œuf au plat.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/cuisinerunoeufauplat&lt;tab&gt;/cuisoeuf&lt;tab&gt;/fryegg&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/cuisinerunoeufauplat&lt;tab&gt;/cuisoeuf&lt;tab&gt;/fryegg&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="679" xml:space="preserve" approved="yes">
         <source>679</source>
@@ -4664,6 +4674,69 @@ Lit un livre en continu.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lireunlivrecontinu&lt;tab&gt;/lirecont&lt;tab&gt;/study&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="699" xml:space="preserve" approved="yes">
+        <source>699</source>
+        <target state="final">/tassegridania, /gridaniansip
+Utilisation&lt;var 1D /var&gt;: /tassegridania [sous-commande]
+Boit du kinderpunsch dans une tasse de Gridania.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tassegridania&lt;tab&gt;&lt;tab&gt;/gridaniansip&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="700" xml:space="preserve" approved="yes">
+        <source>700</source>
+        <target state="final">/tasseuldah, /uldahnsip
+Utilisation&lt;var 1D /var&gt;: /tasseuldah [sous-commande]
+Boit du kinderpunsch dans une tasse d'Ul'dah.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tasseuldah&lt;tab&gt;&lt;tab&gt;/uldahnsip&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="701" xml:space="preserve" approved="yes">
+        <source>701</source>
+        <target state="final">/tasselimsa, /lominsansip
+Utilisation&lt;var 1D /var&gt;: /tasselimsa [sous-commande]
+Boit du kinderpunsch dans une tasse de Limsa Lominsa.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tasselimsa&lt;tab&gt;&lt;tab&gt;/lominsansip&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="702" xml:space="preserve" approved="yes">
+        <source>702</source>
+        <target state="final">/tassegridaniacontinu, /tassegridaniacont, /gridaniangulp
+Utilisation&lt;var 1D /var&gt;: /tassegridaniacontinu [sous-commande]
+Boit du kinderpunsch dans une tasse de Gridania en continu.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tassegridaniacontinu&lt;tab&gt;/tassegridaniacont&lt;tab&gt;/gridaniangulp&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="703" xml:space="preserve" approved="yes">
+        <source>703</source>
+        <target state="final">/tasseuldahcontinu, /tasseuldahcont, /uldahngulp
+Utilisation&lt;var 1D /var&gt;: /tasseuldahcontinu [sous-commande]
+Boit du kinderpunsch dans une tasse d'Ul'dah en continu.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tasseuldahcontinu&lt;tab&gt;/tasseuldahcont&lt;tab&gt;/uldahngulp&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="704" xml:space="preserve" approved="yes">
+        <source>704</source>
+        <target state="final">/tasselimsacontinu, /tasselimsacont, /lominsangulp
+Utilisation&lt;var 1D /var&gt;: /tasselimsacontinu [sous-commande]
+Boit du kinderpunsch dans une tasse de Limsa Lominsa en continu.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tasselimsacontinu&lt;tab&gt;/tasselimsacont&lt;tab&gt;/lominsangulp&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="708" xml:space="preserve" approved="yes">
+        <source>708</source>
+        <target state="final">/écrireplume, /plume, /pen
+Utilisation&lt;var 1D /var&gt;: /écrireplume [sous-commande]
+Écrit avec une plume.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/écrireplume&lt;tab&gt;/plume&lt;tab&gt;/pen&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>
