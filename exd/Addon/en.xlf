@@ -9088,10 +9088,6 @@ Proceed with the transaction?</target>
         <source>2441</source>
         <target state="final">TRANSFIGURATION</target>
       </trans-unit>
-      <trans-unit id="2442" xml:space="preserve" approved="yes">
-        <source>2442</source>
-        <target state="final">変身キャラクター選択</target>
-      </trans-unit>
       <trans-unit id="2445" xml:space="preserve" approved="yes">
         <source>2445</source>
         <target state="final">Aether Currents</target>
@@ -27514,6 +27510,10 @@ Current settings will be overwritten. Proceed?</target>
         <source>8378</source>
         <target state="final">Mount Search</target>
       </trans-unit>
+      <trans-unit id="8379" xml:space="preserve" approved="yes">
+        <source>8379</source>
+        <target state="final">Treasure Acquired</target>
+      </trans-unit>
       <trans-unit id="8380" xml:space="preserve" approved="yes">
         <source>8380</source>
         <target state="final">One piece of gear or gear-enhancing material obtainable per week.</target>
@@ -34549,7 +34549,7 @@ Yo-kai Medals can be obtained in select FATEs.</target>
       </trans-unit>
       <trans-unit id="10405" xml:space="preserve" approved="yes">
         <source>10405</source>
-        <target state="final">Floor &lt;var 20 E802 /var&gt;</target>
+        <target state="final">&lt;var 09 E803 ((Floor &lt;var 20 E802 /var&gt;)) ((Floor &lt;var 20 E802 /var&gt;)) ((Stone &lt;var 20 E802 /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="10406" xml:space="preserve" approved="yes">
         <source>10406</source>
@@ -34570,11 +34570,11 @@ Yo-kai Medals can be obtained in select FATEs.</target>
 
 Matched party save data still allows for the creation of preformed parties as long as the party is formed before returning to the deep dungeon, and the progression of all members is identical. Any open party slots will be filled automatically via the matching system.
 
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;All special items (pomanders) will be lost upon data conversion.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;All special items will be lost upon data conversion.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Scores will not be recorded for matched parties.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
-&lt;var 08 E1E80201 (()) ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Save data that has progressed to levels which require a fixed party cannot be converted to matched party save data.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 08 E1E80201 (()) ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Save data that has progressed to &lt;var 09 E803 ((floors)) ((floors)) ((areas)) /var&gt; which require a fixed party cannot be converted to matched party save data.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 )) /var&gt;&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;※Converted data cannot be restored to its original state.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
@@ -34584,9 +34584,9 @@ Matched party save data still allows for the creation of preformed parties as lo
       </trans-unit>
       <trans-unit id="10412" xml:space="preserve" approved="yes">
         <source>10412</source>
-        <target state="final">Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from floor 1.
+        <target state="final">Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from &lt;var 09 E804 ((floor)) ((floor)) ((traverse stone)) /var&gt; 1.
 
-Floor progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.
+Dungeon progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.
 
 &lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;※Data cannot be restored once deleted.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
@@ -34744,11 +34744,11 @@ Floor progression and character level will be reset, but aetherpool arm and gear
       </trans-unit>
       <trans-unit id="10452" xml:space="preserve" approved="yes">
         <source>10452</source>
-        <target state="final">The floors beyond remain sealed.</target>
+        <target state="final">The &lt;var 09 E802 ((floors)) ((floors)) ((areas)) /var&gt; beyond remain sealed.</target>
       </trans-unit>
       <trans-unit id="10453" xml:space="preserve" approved="yes">
         <source>10453</source>
-        <target state="final">These floors are only available when party KO count is at zero.</target>
+        <target state="final">These &lt;var 09 E802 ((floors)) ((floors)) ((areas)) /var&gt; are only available when party KO count is at zero.</target>
       </trans-unit>
       <trans-unit id="10454" xml:space="preserve" approved="yes">
         <source>10454</source>
@@ -34798,6 +34798,14 @@ Floor progression and character level will be reset, but aetherpool arm and gear
         <source>10466</source>
         <target state="final">Access Ranking</target>
       </trans-unit>
+      <trans-unit id="10467" xml:space="preserve" approved="yes">
+        <source>10467</source>
+        <target state="final">Stone</target>
+      </trans-unit>
+      <trans-unit id="10468" xml:space="preserve" approved="yes">
+        <source>10468</source>
+        <target state="final">Incense</target>
+      </trans-unit>
       <trans-unit id="10469" xml:space="preserve" approved="yes">
         <source>10469</source>
         <target state="final">&lt;var 2D ((&lt;var 28 ((ClassJob)) E80201 /var&gt;)) /var&gt;&lt;var 08 E1E80301 (( / &lt;var 2D ((&lt;var 28 ((ClassJob)) E80301 /var&gt;)) /var&gt;)) (()) /var&gt;</target>
@@ -34815,13 +34823,21 @@ Floor progression and character level will be reset, but aetherpool arm and gear
         <source>10472</source>
         <target state="final">&lt;var 2D ((&lt;var 29 EA02 /var&gt;)) /var&gt;</target>
       </trans-unit>
+      <trans-unit id="10473" xml:space="preserve" approved="yes">
+        <source>10473</source>
+        <target state="final">Votive Candelabra</target>
+      </trans-unit>
+      <trans-unit id="10474" xml:space="preserve" approved="yes">
+        <source>10474</source>
+        <target state="final">Next Area</target>
+      </trans-unit>
       <trans-unit id="10475" xml:space="preserve" approved="yes">
         <source>10475</source>
         <target state="final">Magicite</target>
       </trans-unit>
       <trans-unit id="10476" xml:space="preserve" approved="yes">
         <source>10476</source>
-        <target state="final">You detect the call of the Accursed Hoard on this floor.</target>
+        <target state="final">You detect the call of the Accursed Hoard.</target>
       </trans-unit>
       <trans-unit id="10477" xml:space="preserve" approved="yes">
         <source>10477</source>
@@ -34845,7 +34861,7 @@ Floor progression and character level will be reset, but aetherpool arm and gear
       </trans-unit>
       <trans-unit id="10482" xml:space="preserve" approved="yes">
         <source>10482</source>
-        <target state="final">You are not starting from floor 1. 
+        <target state="final">You are not starting from &lt;var 09 E802 ((floor 1)) ((floor 1)) ((traverse stone 1)) /var&gt;. 
 Progress will not count towards solo completion achievements.</target>
       </trans-unit>
       <trans-unit id="10483" xml:space="preserve" approved="yes">
@@ -34883,6 +34899,26 @@ Progress will not count towards solo completion achievements.</target>
       <trans-unit id="10491" xml:space="preserve" approved="yes">
         <source>10491</source>
         <target state="final">View the deep dungeon guide.</target>
+      </trans-unit>
+      <trans-unit id="10492" xml:space="preserve" approved="yes">
+        <source>10492</source>
+        <target state="final">Altar of Return</target>
+      </trans-unit>
+      <trans-unit id="10493" xml:space="preserve" approved="yes">
+        <source>10493</source>
+        <target state="final">Pylon of Passage</target>
+      </trans-unit>
+      <trans-unit id="10494" xml:space="preserve" approved="yes">
+        <source>10494</source>
+        <target state="final">Progress toward Altar of Return activation.</target>
+      </trans-unit>
+      <trans-unit id="10495" xml:space="preserve" approved="yes">
+        <source>10495</source>
+        <target state="final">Progress toward Pylon of Passage activation.</target>
+      </trans-unit>
+      <trans-unit id="10496" xml:space="preserve" approved="yes">
+        <source>10496</source>
+        <target state="final">?</target>
       </trans-unit>
       <trans-unit id="10500" xml:space="preserve" approved="yes">
         <source>10500</source>
@@ -35855,6 +35891,34 @@ Spectator Party: 1-8 players</target>
       <trans-unit id="10832" xml:space="preserve" approved="yes">
         <source>10832</source>
         <target state="final">Due to revisions being made to the PvP system, this duty is temporarily unavailable. Further announcements will be made in upcoming patch notes or similar.</target>
+      </trans-unit>
+      <trans-unit id="10834" xml:space="preserve" approved="yes">
+        <source>10834</source>
+        <target state="final">Sacramental Offerings</target>
+      </trans-unit>
+      <trans-unit id="10835" xml:space="preserve" approved="yes">
+        <source>10835</source>
+        <target state="final">Total</target>
+      </trans-unit>
+      <trans-unit id="10836" xml:space="preserve" approved="yes">
+        <source>10836</source>
+        <target state="final">Reward Bonus</target>
+      </trans-unit>
+      <trans-unit id="10837" xml:space="preserve" approved="yes">
+        <source>10837</source>
+        <target state="final">&lt;var 08 E3E802E803 ((&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;&lt;var 20 E802 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 20 E802 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="10838" xml:space="preserve" approved="yes">
+        <source>10838</source>
+        <target state="final">Summon</target>
+      </trans-unit>
+      <trans-unit id="10839" xml:space="preserve" approved="yes">
+        <source>10839</source>
+        <target state="final">Return</target>
+      </trans-unit>
+      <trans-unit id="10840" xml:space="preserve" approved="yes">
+        <source>10840</source>
+        <target state="final">Summon Eminent Grief with the Final Verse (Quantum).</target>
       </trans-unit>
       <trans-unit id="10846" xml:space="preserve" approved="yes">
         <source>10846</source>
@@ -52339,7 +52403,7 @@ Lv. &lt;var 20 E808 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15955" xml:space="preserve" approved="yes">
         <source>15955</source>
-        <target state="final">Complete floor &lt;var 20 E804 /var&gt; of &lt;var 29 EA02 /var&gt;. &lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;</target>
+        <target state="final">Clear &lt;var 09 E803 ((floor &lt;var 20 E804 /var&gt;)) ((floor &lt;var 20 E804 /var&gt;)) ((area &lt;var 20 E804 /var&gt;)) /var&gt; of &lt;var 29 EA02 /var&gt;. &lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15956" xml:space="preserve" approved="yes">
         <source>15956</source>
@@ -55434,6 +55498,10 @@ Lv. &lt;var 20 E808 /var&gt;</target>
       <trans-unit id="17054" xml:space="preserve" approved="yes">
         <source>17054</source>
         <target state="final">Show ears through headgear (select gear only).</target>
+      </trans-unit>
+      <trans-unit id="17100" xml:space="preserve" approved="yes">
+        <source>17100</source>
+        <target state="final">Pilgrim's Traverse</target>
       </trans-unit>
       <trans-unit id="17110" xml:space="preserve" approved="yes">
         <source>17110</source>

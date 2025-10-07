@@ -27622,6 +27622,10 @@ Seuls les 30 premiers résultats seront affichés.</target>
         <source>8378</source>
         <target state="final">Recherche de monture</target>
       </trans-unit>
+      <trans-unit id="8379" xml:space="preserve" approved="yes">
+        <source>8379</source>
+        <target state="final">Obtention de trésor</target>
+      </trans-unit>
       <trans-unit id="8380" xml:space="preserve" approved="yes">
         <source>8380</source>
         <target state="final">Une seule récompense par semaine pour cette mission</target>
@@ -34666,7 +34670,9 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Aucun score n'est calculé pour les incursions en équipe formée par groupement automatique.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
-&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;* Attention&lt;var 1D /var&gt;: la conversion d'une sauvegarde ne peut pas être annulée.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 08 E1E80201 (()) ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Les sauvegardes où la phase de défi a déjà été atteinte ne peuvent pas être converties.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+)) /var&gt;&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;* Attention&lt;var 1D /var&gt;: la conversion d'une sauvegarde ne peut pas être annulée.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="10411" xml:space="preserve" approved="yes">
         <source>10411</source>
@@ -34834,7 +34840,7 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
       </trans-unit>
       <trans-unit id="10452" xml:space="preserve" approved="yes">
         <source>10452</source>
-        <target state="final">Il est nécessaire d'obtenir l'accès aux étages suivants pour progresser.</target>
+        <target state="final">Il est nécessaire d'obtenir l'accès aux &lt;var 09 E802 ((sous-sols suivants)) ((étages suivants)) ((zones suivantes)) /var&gt; pour progresser.</target>
       </trans-unit>
       <trans-unit id="10453" xml:space="preserve" approved="yes">
         <source>10453</source>
@@ -34888,6 +34894,14 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
         <source>10466</source>
         <target state="final">Voir les classements</target>
       </trans-unit>
+      <trans-unit id="10467" xml:space="preserve" approved="yes">
+        <source>10467</source>
+        <target state="final">Zone</target>
+      </trans-unit>
+      <trans-unit id="10468" xml:space="preserve" approved="yes">
+        <source>10468</source>
+        <target state="final">Encens de genévrier</target>
+      </trans-unit>
       <trans-unit id="10469" xml:space="preserve" approved="yes">
         <source>10469</source>
         <target state="final">&lt;var 2B ((&lt;var 28 ((ClassJob)) E80201 /var&gt;)) /var&gt;&lt;var 08 E1E80301 ((/&lt;var 2B ((&lt;var 28 ((ClassJob)) E80301 /var&gt;)) /var&gt;)) (()) /var&gt;</target>
@@ -34905,13 +34919,21 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
         <source>10472</source>
         <target state="final">&lt;var 2B ((&lt;var 29 EA02 /var&gt;)) /var&gt;</target>
       </trans-unit>
+      <trans-unit id="10473" xml:space="preserve" approved="yes">
+        <source>10473</source>
+        <target state="final">Candélabre de l'Aurore</target>
+      </trans-unit>
+      <trans-unit id="10474" xml:space="preserve" approved="yes">
+        <source>10474</source>
+        <target state="final">Suivant</target>
+      </trans-unit>
       <trans-unit id="10475" xml:space="preserve" approved="yes">
         <source>10475</source>
         <target state="final">Magilithes</target>
       </trans-unit>
       <trans-unit id="10476" xml:space="preserve" approved="yes">
         <source>10476</source>
-        <target state="final">Votre instinct vous dit qu'un coffre est enfoui à cet étage.</target>
+        <target state="final">Votre instinct vous dit qu'un coffre est enfoui dans les environs.</target>
       </trans-unit>
       <trans-unit id="10477" xml:space="preserve" approved="yes">
         <source>10477</source>
@@ -34935,7 +34957,7 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
       </trans-unit>
       <trans-unit id="10482" xml:space="preserve" approved="yes">
         <source>10482</source>
-        <target state="final">L'incursion n'ayant pas été faite &lt;var 08 E4E80201 ((au sous-sol 1)) ((à l'étage 1)) /var&gt;, ce score n'est pas comptabilisé
+        <target state="final">L'incursion n'ayant pas été faite &lt;var 09 E802 ((au sous-sol 1)) ((à l'étage 1)) ((à la zone 1)) /var&gt;, ce score n'est pas comptabilisé
 pour l'obtention de hauts faits en solo.</target>
       </trans-unit>
       <trans-unit id="10483" xml:space="preserve" approved="yes">
@@ -34973,6 +34995,26 @@ pour l'obtention de hauts faits en solo.</target>
       <trans-unit id="10491" xml:space="preserve" approved="yes">
         <source>10491</source>
         <target state="final">En savoir plus sur les donjons sans fond</target>
+      </trans-unit>
+      <trans-unit id="10492" xml:space="preserve" approved="yes">
+        <source>10492</source>
+        <target state="final">Autel de résurrection</target>
+      </trans-unit>
+      <trans-unit id="10493" xml:space="preserve" approved="yes">
+        <source>10493</source>
+        <target state="final">Téléporteur</target>
+      </trans-unit>
+      <trans-unit id="10494" xml:space="preserve" approved="yes">
+        <source>10494</source>
+        <target state="final">Indique l'état d'activation de l'autel de résurrection.</target>
+      </trans-unit>
+      <trans-unit id="10495" xml:space="preserve" approved="yes">
+        <source>10495</source>
+        <target state="final">Indique l'état d'activation du téléporteur.</target>
+      </trans-unit>
+      <trans-unit id="10496" xml:space="preserve" approved="yes">
+        <source>10496</source>
+        <target state="final">?</target>
       </trans-unit>
       <trans-unit id="10500" xml:space="preserve" approved="yes">
         <source>10500</source>
@@ -35948,6 +35990,34 @@ Spectateurs&lt;var 1D /var&gt;: 1 à 8 joueurs (si disponible)</target>
         <source>10832</source>
         <target state="final">Les systèmes de jeu JcJ faisant l'objet d'une refonte, cette mission est temporairement indisponible.
 Sa réouverture sera annoncée dans les notes d'une future mise à jour.</target>
+      </trans-unit>
+      <trans-unit id="10834" xml:space="preserve" approved="yes">
+        <source>10834</source>
+        <target state="final">Offrandes</target>
+      </trans-unit>
+      <trans-unit id="10835" xml:space="preserve" approved="yes">
+        <source>10835</source>
+        <target state="final">Total</target>
+      </trans-unit>
+      <trans-unit id="10836" xml:space="preserve" approved="yes">
+        <source>10836</source>
+        <target state="final">Bonus de récompenses</target>
+      </trans-unit>
+      <trans-unit id="10837" xml:space="preserve" approved="yes">
+        <source>10837</source>
+        <target state="final">&lt;var 08 E3E802E803 ((&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;&lt;var 20 E802 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 20 E802 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="10838" xml:space="preserve" approved="yes">
+        <source>10838</source>
+        <target state="final">Commencer</target>
+      </trans-unit>
+      <trans-unit id="10839" xml:space="preserve" approved="yes">
+        <source>10839</source>
+        <target state="final">Retour</target>
+      </trans-unit>
+      <trans-unit id="10840" xml:space="preserve" approved="yes">
+        <source>10840</source>
+        <target state="final">Pénétrer dans le Verset final (quantique)</target>
       </trans-unit>
       <trans-unit id="10846" xml:space="preserve" approved="yes">
         <source>10846</source>
@@ -52504,7 +52574,7 @@ Nv &lt;var 20 E808 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15955" xml:space="preserve" approved="yes">
         <source>15955</source>
-        <target state="final">Conquérir le &lt;var 08 E4E80301 ((&lt;var 20 E804 /var&gt;e sous-sol)) ((&lt;var 20 E804 /var&gt;e étage)) /var&gt; du &lt;var 29 EA02 /var&gt;. &lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;</target>
+        <target state="final">Conquérir &lt;var 09 E803 ((le &lt;var 20 E804 /var&gt;e sous-sol)) ((le &lt;var 20 E804 /var&gt;e étage)) ((la &lt;var 20 E804 /var&gt;e zone)) /var&gt; du &lt;var 29 EA02 /var&gt;. &lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15956" xml:space="preserve" approved="yes">
         <source>15956</source>
@@ -55642,6 +55712,10 @@ Nv &lt;var 20 E808 /var&gt;</target>
       <trans-unit id="17054" xml:space="preserve" approved="yes">
         <source>17054</source>
         <target state="final">Afficher/Cacher les oreilles (si disponible)</target>
+      </trans-unit>
+      <trans-unit id="17100" xml:space="preserve" approved="yes">
+        <source>17100</source>
+        <target state="final">Sanctuaire des pèlerins</target>
       </trans-unit>
       <trans-unit id="17110" xml:space="preserve" approved="yes">
         <source>17110</source>

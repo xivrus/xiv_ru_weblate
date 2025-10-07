@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="Status" datatype="plaintext" source-language="en" target-language="ja">
     <body>
@@ -17215,6 +17215,18 @@
         <source>4509</source>
         <target state="final">浮遊拘束&lt;tab&gt;浮遊したまま拘束され、移動できなくなった状態。</target>
       </trans-unit>
+      <trans-unit id="4510" xml:space="preserve" approved="yes">
+        <source>4510</source>
+        <target state="final">バインド&lt;tab&gt;移動できなくなった状態。</target>
+      </trans-unit>
+      <trans-unit id="4511" xml:space="preserve" approved="yes">
+        <source>4511</source>
+        <target state="final">火傷&lt;tab&gt;火属性ダメージにより、ＨＰが徐々に失われる状態。</target>
+      </trans-unit>
+      <trans-unit id="4512" xml:space="preserve" approved="yes">
+        <source>4512</source>
+        <target state="final">熱傷&lt;tab&gt;最大HPが低下し、受けるダメージが増加する状態。</target>
+      </trans-unit>
       <trans-unit id="4513" xml:space="preserve" approved="yes">
         <source>4513</source>
         <target state="final">パイロット転送中&lt;tab&gt;メカオペレーションのパイロットを転送している状態。</target>
@@ -17230,6 +17242,14 @@
       <trans-unit id="4517" xml:space="preserve" approved="yes">
         <source>4517</source>
         <target state="final">王者の高揚&lt;tab&gt;戦いに高揚し、魔狼の魂を用いて特定の攻撃を強化している状態。</target>
+      </trans-unit>
+      <trans-unit id="4518" xml:space="preserve" approved="yes">
+        <source>4518</source>
+        <target state="final">死出の暗闇&lt;tab&gt;死出の道に誘われ、効果時間終了時に戦闘不能になる状態。光属性の攻撃を受けると解除される。</target>
+      </trans-unit>
+      <trans-unit id="4519" xml:space="preserve" approved="yes">
+        <source>4519</source>
+        <target state="final">死出の重荷&lt;tab&gt;死出の道に誘われた状態。移動によってスタック数が増え、スタック数が8になると戦闘不能になる。</target>
       </trans-unit>
       <trans-unit id="4520" xml:space="preserve" approved="yes">
         <source>4520</source>
@@ -17303,9 +17323,78 @@
         <source>4558</source>
         <target state="final">死の宣告&lt;tab&gt;カウント0で戦闘不能に陥る状態。</target>
       </trans-unit>
+      <trans-unit id="4559" xml:space="preserve" approved="yes">
+        <source>4559</source>
+        <target state="final">闇の反響&lt;tab&gt;闇に触れ、その影響を受けた状態。ＨＰが徐々に失われる状態。カウント0で恐慌状態に陥る。</target>
+      </trans-unit>
+      <trans-unit id="4560" xml:space="preserve" approved="yes">
+        <source>4560</source>
+        <target state="final">光の反響&lt;tab&gt;光に触れ、その影響を受けた状態。カウント0で石化状態に陥る。</target>
+      </trans-unit>
+      <trans-unit id="4561" xml:space="preserve" approved="yes">
+        <source>4561</source>
+        <target state="final">魂魄同調&lt;tab&gt;繋がり合ったもうひとつの存在の力で戦いを続けている状態。</target>
+      </trans-unit>
+      <trans-unit id="4562" xml:space="preserve" approved="yes">
+        <source>4562</source>
+        <target state="final">焔の枷&lt;tab&gt;炎の枷をつけられ、移動すると火属性ダメージを受ける状態。</target>
+      </trans-unit>
+      <trans-unit id="4563" xml:space="preserve" approved="yes">
+        <source>4563</source>
+        <target state="final">焔の鎖&lt;tab&gt;炎の鎖で繋がれ、ＨＰが徐々に失われる状態。鎖が切れると、焔の鎖が発動する。</target>
+      </trans-unit>
+      <trans-unit id="4564" xml:space="preserve" approved="yes">
+        <source>4564</source>
+        <target state="final">戒めの光鎖【回復】&lt;tab&gt;特定の行動に制限をかけられた状態。ＨＰ回復系アクションを使用すると、周囲に懲罰の光鎖が発動する。</target>
+      </trans-unit>
+      <trans-unit id="4565" xml:space="preserve" approved="yes">
+        <source>4565</source>
+        <target state="final">戒めの光鎖【アビリティ】&lt;tab&gt;特定の行動に制限をかけられた状態。アビリティを使用すると、周囲に懲罰の光鎖が発動する。</target>
+      </trans-unit>
+      <trans-unit id="4566" xml:space="preserve" approved="yes">
+        <source>4566</source>
+        <target state="final">焔の園&lt;tab&gt;焔の園の影響でＨＰが徐々に失われる状態。エリア外に出ると戦闘不能になる。</target>
+      </trans-unit>
+      <trans-unit id="4567" xml:space="preserve" approved="yes">
+        <source>4567</source>
+        <target state="final">罪の蓄積&lt;tab&gt;罪の呪いが身体に蓄積されつつある状態。スタック数が最大になると爆発を起こし「罪の臨界」状態になる。なお、ほかのプレイヤーが爆発を受けることで「罪の臨界」状態になるのを防ぐことができる。</target>
+      </trans-unit>
+      <trans-unit id="4568" xml:space="preserve" approved="yes">
+        <source>4568</source>
+        <target state="final">罪の臨界&lt;tab&gt;身体に蓄積された罪の呪いが、臨界を迎えつつある状態。行動できなくなり、定期的に大爆発を起こす。</target>
+      </trans-unit>
+      <trans-unit id="4569" xml:space="preserve" approved="yes">
+        <source>4569</source>
+        <target state="final">免罪&lt;tab&gt;一時的に、罪の呪いが身体に蓄積しなくなった状態。</target>
+      </trans-unit>
+      <trans-unit id="4570" xml:space="preserve" approved="yes">
+        <source>4570</source>
+        <target state="final">火属性与ダメージ上昇&lt;tab&gt;火属性攻撃で与えるダメージが上昇した状態。</target>
+      </trans-unit>
+      <trans-unit id="4571" xml:space="preserve" approved="yes">
+        <source>4571</source>
+        <target state="final">闇属性与ダメージ上昇&lt;tab&gt;闇属性攻撃で与えるダメージが上昇した状態。</target>
+      </trans-unit>
+      <trans-unit id="4572" xml:space="preserve" approved="yes">
+        <source>4572</source>
+        <target state="final">光属性与ダメージ上昇&lt;tab&gt;光属性攻撃で与えるダメージが上昇した状態。</target>
+      </trans-unit>
+      <trans-unit id="4573" xml:space="preserve" approved="yes">
+        <source>4573</source>
+        <target state="final">こんがり肉&lt;tab&gt;こんがり肉を食べ、満足感に包まれた状態。最大ＨＰが増加し、さらに継続回復する。</target>
+      </trans-unit>
+      <trans-unit id="4574" xml:space="preserve" approved="yes">
+        <source>4574</source>
+        <target state="final">護竜の圧&lt;tab&gt;護竜の影響を受けた状態。ＨＰが徐々に失われ、かつ受けるダメージが増加する。
+なお、この状態はアルシュベルドが倒れるまで解除されない。</target>
+      </trans-unit>
       <trans-unit id="4578" xml:space="preserve" approved="yes">
         <source>4578</source>
         <target state="final">拘束&lt;tab&gt;行動できなくなった状態。</target>
+      </trans-unit>
+      <trans-unit id="4579" xml:space="preserve" approved="yes">
+        <source>4579</source>
+        <target state="final">ブレイズスパイク&lt;tab&gt;火属性の反撃ダメージを与える状態。</target>
       </trans-unit>
       <trans-unit id="4580" xml:space="preserve" approved="yes">
         <source>4580</source>
@@ -17314,6 +17403,42 @@
       <trans-unit id="4581" xml:space="preserve" approved="yes">
         <source>4581</source>
         <target state="final">真世界への改変者&lt;tab&gt;模倣された世界の構造を理解し、望むままに操れる状態。</target>
+      </trans-unit>
+      <trans-unit id="4583" xml:space="preserve" approved="yes">
+        <source>4583</source>
+        <target state="final">草人&lt;tab&gt;草人に変身した状態。アクション実行不可。</target>
+      </trans-unit>
+      <trans-unit id="4584" xml:space="preserve" approved="yes">
+        <source>4584</source>
+        <target state="final">安寧の月明かり&lt;tab&gt;最大ＨＰが増加した状態。</target>
+      </trans-unit>
+      <trans-unit id="4585" xml:space="preserve" approved="yes">
+        <source>4585</source>
+        <target state="final">感電&lt;tab&gt;雷属性ダメージにより、ＨＰが徐々に失われる状態。</target>
+      </trans-unit>
+      <trans-unit id="4586" xml:space="preserve" approved="yes">
+        <source>4586</source>
+        <target state="final">妖精&lt;tab&gt;妖精に変身した状態。アクション実行不可。</target>
+      </trans-unit>
+      <trans-unit id="4587" xml:space="preserve" approved="yes">
+        <source>4587</source>
+        <target state="final">司祭の祝福&lt;tab&gt;持続的にHPが回復している状態。</target>
+      </trans-unit>
+      <trans-unit id="4588" xml:space="preserve" approved="yes">
+        <source>4588</source>
+        <target state="final">僧兵の祝福&lt;tab&gt;与ダメージが上昇し、ＨＰ吸収効果が付与された状態。ただし受けるダメージが増加する。</target>
+      </trans-unit>
+      <trans-unit id="4589" xml:space="preserve" approved="yes">
+        <source>4589</source>
+        <target state="final">浄化の守り&lt;tab&gt;次に受ける1回の状態異常効果を防ぐ状態。</target>
+      </trans-unit>
+      <trans-unit id="4590" xml:space="preserve" approved="yes">
+        <source>4590</source>
+        <target state="final">リキャスト時間短縮&lt;tab&gt;アビリティのリキャストタイムが短縮された状態。ただしチャージアクションを除く。</target>
+      </trans-unit>
+      <trans-unit id="4591" xml:space="preserve" approved="yes">
+        <source>4591</source>
+        <target state="final">ジュニパーの香禁止&lt;tab&gt;ジュニパーの香が使用できない状態。</target>
       </trans-unit>
       <trans-unit id="4594" xml:space="preserve" approved="yes">
         <source>4594</source>
@@ -17339,13 +17464,37 @@
         <source>4618</source>
         <target state="final">ふんばる&lt;tab&gt;強烈な衝撃に備えて、踏ん張った状態。</target>
       </trans-unit>
+      <trans-unit id="4625" xml:space="preserve" approved="yes">
+        <source>4625</source>
+        <target state="final">強風無効&lt;tab&gt;流砂にはまった影響で、強風によるノックバックが無効になった状態。</target>
+      </trans-unit>
+      <trans-unit id="4652" xml:space="preserve" approved="yes">
+        <source>4652</source>
+        <target state="final">猛毒&lt;tab&gt;毒に冒された状態。ＨＰが徐々に失われる。</target>
+      </trans-unit>
       <trans-unit id="4683" xml:space="preserve" approved="yes">
         <source>4683</source>
         <target state="final">死の宣告&lt;tab&gt;カウント0で戦闘不能に陥る状態。</target>
       </trans-unit>
-      <trans-unit id="3795" xml:space="preserve" approved="no">
-        <source>3795</source>
-        <target state="needs-translation">Sustained Damage&lt;tab&gt;Sustaining damage over time.</target>
+      <trans-unit id="4708" xml:space="preserve" approved="yes">
+        <source>4708</source>
+        <target state="final">変身&lt;tab&gt;別の姿に変身した状態。</target>
+      </trans-unit>
+      <trans-unit id="4709" xml:space="preserve" approved="yes">
+        <source>4709</source>
+        <target state="final">スーパースプリント&lt;tab&gt;移動速度が大幅に上昇した状態。</target>
+      </trans-unit>
+      <trans-unit id="4710" xml:space="preserve" approved="yes">
+        <source>4710</source>
+        <target state="final">最大ＨＰアップ&lt;tab&gt;最大ＨＰが増加した状態。</target>
+      </trans-unit>
+      <trans-unit id="4718" xml:space="preserve" approved="yes">
+        <source>4718</source>
+        <target state="final">ヘイスト&lt;tab&gt;オートアタックの攻撃間隔と、ウェポンスキルおよび魔法のキャストタイムとリキャストタイムが短縮された状態。</target>
+      </trans-unit>
+      <trans-unit id="4723" xml:space="preserve" approved="yes">
+        <source>4723</source>
+        <target state="final">妖精王の加護&lt;tab&gt;妖精王の加護を受けた状態。一時的に無敵になる。</target>
       </trans-unit>
     </body>
   </file>

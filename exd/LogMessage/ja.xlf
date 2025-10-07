@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="LogMessage" datatype="plaintext" source-language="en" target-language="ja">
     <body>
@@ -10903,7 +10903,7 @@ EXホットバーから「降りる」を選択してください。</target>
       </trans-unit>
       <trans-unit id="2870" xml:space="preserve" approved="yes">
         <source>2870</source>
-        <target state="final">&lt;var 0A E802 /var&gt;が、青燐水を&lt;var 20 E803 /var&gt;CEぶん回収した！</target>
+        <target state="final">&lt;var 0A E802 /var&gt;が、青燐水を&lt;var 20 E803 /var&gt;CE分回収した！</target>
       </trans-unit>
       <trans-unit id="2871" xml:space="preserve" approved="yes">
         <source>2871</source>
@@ -20176,9 +20176,9 @@ EXホットバーから「降りる」を選択してください。</target>
         <source>5564</source>
         <target state="final">&lt;var 28 ((FishParameter)) E80202 /var&gt;</target>
       </trans-unit>
-      <trans-unit id="5565" xml:space="preserve" approved="no">
+      <trans-unit id="5565" xml:space="preserve" approved="yes">
         <source>5565</source>
-        <target state="needs-translation">いまなら、大型の獲物が釣れる予感がする！！！</target>
+        <target state="final">いまなら、大型の獲物が釣れる予感がする！！！</target>
       </trans-unit>
       <trans-unit id="5566" xml:space="preserve" approved="yes">
         <source>5566</source>
@@ -20192,9 +20192,9 @@ EXホットバーから「降りる」を選択してください。</target>
         <source>5568</source>
         <target state="final">大型の獲物をさらに続けて誘った！！</target>
       </trans-unit>
-      <trans-unit id="5569" xml:space="preserve" approved="no">
+      <trans-unit id="5569" xml:space="preserve" approved="yes">
         <source>5569</source>
-        <target state="needs-translation">いまなら、小型の獲物が釣れる予感がする！！！</target>
+        <target state="final">いまなら、小型の獲物が釣れる予感がする！！！</target>
       </trans-unit>
       <trans-unit id="5570" xml:space="preserve" approved="yes">
         <source>5570</source>
@@ -21993,7 +21993,8 @@ PCサーチなどを使い、チャットに参加していないビギナーを
       </trans-unit>
       <trans-unit id="7205" xml:space="preserve" approved="yes">
         <source>7205</source>
-        <target state="final">専用装備の強化値が規定の値に達していないため、実行できません。</target>
+        <target state="final">専用装備の強化値が規定の値に達していないため、実行できません。
+必要強化値（武器・盾）：&lt;var 20 E802 /var&gt;、必要強化値（防具）：&lt;var 20 E803 /var&gt;</target>
       </trans-unit>
       <trans-unit id="7206" xml:space="preserve" approved="yes">
         <source>7206</source>
@@ -22330,6 +22331,18 @@ PCサーチなどを使い、チャットに参加していないビギナーを
       <trans-unit id="7289" xml:space="preserve" approved="yes">
         <source>7289</source>
         <target state="final">全滅したことのあるセーブデータのため、実行できません。</target>
+      </trans-unit>
+      <trans-unit id="7290" xml:space="preserve" approved="yes">
+        <source>7290</source>
+        <target state="final">第&lt;var 20 E802 /var&gt;巡礼路</target>
+      </trans-unit>
+      <trans-unit id="7291" xml:space="preserve" approved="yes">
+        <source>7291</source>
+        <target state="final">「詩想エミネントグリーフ討滅戦」に挑戦するために必要な供物が足りません。</target>
+      </trans-unit>
+      <trans-unit id="7292" xml:space="preserve" approved="yes">
+        <source>7292</source>
+        <target state="final">この供物をこれ以上所持していません。</target>
       </trans-unit>
       <trans-unit id="7300" xml:space="preserve" approved="yes">
         <source>7300</source>
@@ -23233,7 +23246,8 @@ PCサーチなどを使い、チャットに参加していないビギナーを
       </trans-unit>
       <trans-unit id="7578" xml:space="preserve" approved="yes">
         <source>7578</source>
-        <target state="final">専用装備の強化値が条件を満たしていない</target>
+        <target state="final">専用装備の強化値が条件を満たしていない
+必要強化値（武器・盾）：&lt;var 20 E802 /var&gt;、必要強化値（防具）：&lt;var 20 E803 /var&gt;</target>
       </trans-unit>
       <trans-unit id="7579" xml:space="preserve" approved="yes">
         <source>7579</source>
@@ -23249,7 +23263,7 @@ PCサーチなどを使い、チャットに参加していないビギナーを
       </trans-unit>
       <trans-unit id="7582" xml:space="preserve" approved="yes">
         <source>7582</source>
-        <target state="final">選択した階層からの開始条件を満たしていない</target>
+        <target state="final">選択した&lt;var 09 E802 ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;からの開始条件を満たしていない</target>
       </trans-unit>
       <trans-unit id="7583" xml:space="preserve" approved="yes">
         <source>7583</source>
@@ -25640,6 +25654,22 @@ PCサーチなどを使い、チャットに参加していないビギナーを
         <source>8341</source>
         <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に張り切ってみせた。</target>
       </trans-unit>
+      <trans-unit id="8342" xml:space="preserve" approved="yes">
+        <source>8342</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は緑茶を飲んだ。</target>
+      </trans-unit>
+      <trans-unit id="8343" xml:space="preserve" approved="yes">
+        <source>8343</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に緑茶を飲んでみせた。</target>
+      </trans-unit>
+      <trans-unit id="8344" xml:space="preserve" approved="yes">
+        <source>8344</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は正座して緑茶を飲み続けた。</target>
+      </trans-unit>
+      <trans-unit id="8345" xml:space="preserve" approved="yes">
+        <source>8345</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に正座して緑茶を飲み続けてみせた。</target>
+      </trans-unit>
       <trans-unit id="8346" xml:space="preserve" approved="yes">
         <source>8346</source>
         <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は羽根ペンで記述した。</target>
@@ -27873,6 +27903,10 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       <trans-unit id="9745" xml:space="preserve" approved="yes">
         <source>9745</source>
         <target state="final">登録時とバージョンが異なるためメモを保存できません。</target>
+      </trans-unit>
+      <trans-unit id="9746" xml:space="preserve" approved="yes">
+        <source>9746</source>
+        <target state="final">フレンドリストとミュートリストの両方に登録されていた&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;を、ミュートリストから削除しました。</target>
       </trans-unit>
       <trans-unit id="9751" xml:space="preserve" approved="yes">
         <source>9751</source>
@@ -30513,6 +30547,18 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10475</source>
         <target state="final">&lt;var 12 40 /var&gt;ジオードとはぐれました。再度同行させてください。</target>
       </trans-unit>
+      <trans-unit id="10476" xml:space="preserve" approved="yes">
+        <source>10476</source>
+        <target state="final">&lt;var 12 40 /var&gt;旅のアイルーとはぐれました。再度同行させてください。</target>
+      </trans-unit>
+      <trans-unit id="10480" xml:space="preserve" approved="yes">
+        <source>10480</source>
+        <target state="final">クエスト「&lt;var 28 ((Quest)) E80201 /var&gt;」を進行しないと、このカットシーンは再生できません。</target>
+      </trans-unit>
+      <trans-unit id="10483" xml:space="preserve" approved="yes">
+        <source>10483</source>
+        <target state="final">条件を満たしていないため、実行できません。</target>
+      </trans-unit>
       <trans-unit id="10500" xml:space="preserve" approved="yes">
         <source>10500</source>
         <target state="final">興奮した動物たちが襲い掛かってきた！</target>
@@ -31049,7 +31095,7 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       </trans-unit>
       <trans-unit id="10637" xml:space="preserve" approved="yes">
         <source>10637</source>
-        <target state="final">luminous remnantに魔力が収束する……</target>
+        <target state="final">Luminous Remnantに魔力が収束する……</target>
       </trans-unit>
       <trans-unit id="10638" xml:space="preserve" approved="yes">
         <source>10638</source>
@@ -31219,6 +31265,10 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10679</source>
         <target state="final">強制移動の呪いが発動しようとしている……</target>
       </trans-unit>
+      <trans-unit id="10680" xml:space="preserve" approved="yes">
+        <source>10680</source>
+        <target state="final">祈りにより、光が満ちる……</target>
+      </trans-unit>
       <trans-unit id="10681" xml:space="preserve" approved="yes">
         <source>10681</source>
         <target state="final">三日月島南部の希少な魔物が消え去った……。</target>
@@ -31279,9 +31329,23 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10695</source>
         <target state="final">フォーボスの毒気が身体に蓄積した……</target>
       </trans-unit>
+      <trans-unit id="10696" xml:space="preserve" approved="yes">
+        <source>10696</source>
+        <target state="final">罪喰いの幻影が現れた……</target>
+      </trans-unit>
+      <trans-unit id="10697" xml:space="preserve" approved="yes">
+        <source>10697</source>
+        <target state="final">罪喰いの幻影が消え去った……</target>
+      </trans-unit>
       <trans-unit id="10698" xml:space="preserve" approved="yes">
         <source>10698</source>
         <target state="final">敵兵に倒された人々の記憶が具現化した……</target>
+      </trans-unit>
+      <trans-unit id="10699" xml:space="preserve" approved="yes">
+        <source>10699</source>
+        <target state="final">このバトルでは、旅のアイルーからもらった、
+コンテンツアクション「回復薬グレート」を使用できます。
+使用回数に制限があるため、慎重に利用しましょう。</target>
       </trans-unit>
       <trans-unit id="10750" xml:space="preserve" approved="yes">
         <source>10750</source>
@@ -31427,9 +31491,9 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10785</source>
         <target state="final">現在の状態では、支給された釣り餌を装着できませんでした。</target>
       </trans-unit>
-      <trans-unit id="10786" xml:space="preserve" approved="no">
+      <trans-unit id="10786" xml:space="preserve" approved="yes">
         <source>10786</source>
-        <target state="needs-translation">&lt;var 08 E1E80201 ((探索の軌跡に新しい記事「&lt;var 41 ((WKSPioneeringTrail)) E803E80404 ((WKSPioneeringTrailString)) 02 /var&gt;」、他&lt;var 20 E802 /var&gt;件が追加されました。)) ((探索の軌跡に新しい記事「&lt;var 41 ((WKSPioneeringTrail)) E803E80404 ((WKSPioneeringTrailString)) 02 /var&gt;」が追加されました。)) /var&gt;</target>
+        <target state="final">&lt;var 08 E1E80201 ((探索の軌跡に新しい記事「&lt;var 41 ((WKSPioneeringTrail)) E803E80404 ((WKSPioneeringTrailString)) 02 /var&gt;」、他&lt;var 20 E802 /var&gt;件が追加されました。)) ((探索の軌跡に新しい記事「&lt;var 41 ((WKSPioneeringTrail)) E803E80404 ((WKSPioneeringTrailString)) 02 /var&gt;」が追加されました。)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="10787" xml:space="preserve" approved="yes">
         <source>10787</source>
@@ -31913,17 +31977,17 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       </trans-unit>
       <trans-unit id="10902" xml:space="preserve" approved="yes">
         <source>10902</source>
-        <target state="final">未制覇の参加メンバーがいる状態で攻略に成功したため、ボーナスとして&lt;var 20 E803 /var&gt;人ぶんの報酬&lt;var 28 ((Item)) E80201 /var&gt;が追加されました。</target>
+        <target state="final">未制覇の参加メンバーがいる状態で攻略に成功したため、ボーナスとして&lt;var 20 E803 /var&gt;人分の報酬&lt;var 28 ((Item)) E80201 /var&gt;が追加されました。</target>
       </trans-unit>
       <trans-unit id="10903" xml:space="preserve" approved="yes">
         <source>10903</source>
         <target state="final">未制覇の参加メンバーがいる状態で攻略に成功したため、
-ボーナスとして&lt;var 20 E803 /var&gt;人ぶんの確率判定を追加で行い、&lt;var 20 E804 /var&gt;個の&lt;var 28 ((Item)) E80201 /var&gt;が追加されました。</target>
+ボーナスとして&lt;var 20 E803 /var&gt;人分の確率判定を追加で行い、&lt;var 20 E804 /var&gt;個の&lt;var 28 ((Item)) E80201 /var&gt;が追加されました。</target>
       </trans-unit>
       <trans-unit id="10904" xml:space="preserve" approved="yes">
         <source>10904</source>
         <target state="final">未制覇の参加メンバーがいる状態で攻略に成功したため、
-ボーナスとして&lt;var 20 E803 /var&gt;人ぶんの確率判定を追加で行いましたが、報酬&lt;var 28 ((Item)) E80201 /var&gt;の追加はありませんでした。</target>
+ボーナスとして&lt;var 20 E803 /var&gt;人分の確率判定を追加で行いましたが、報酬&lt;var 28 ((Item)) E80201 /var&gt;の追加はありませんでした。</target>
       </trans-unit>
       <trans-unit id="10905" xml:space="preserve" approved="yes">
         <source>10905</source>
@@ -32065,9 +32129,9 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10942</source>
         <target state="final">このミッションでは、アクション「収集品採集」の実行が必要です。</target>
       </trans-unit>
-      <trans-unit id="10943" xml:space="preserve" approved="no">
+      <trans-unit id="10943" xml:space="preserve" approved="yes">
         <source>10943</source>
-        <target state="needs-translation">緊急ミッションの物資の納品は締め切られました。</target>
+        <target state="final">緊急ミッションの物資の納品は締め切られました。</target>
       </trans-unit>
       <trans-unit id="10944" xml:space="preserve" approved="yes">
         <source>10944</source>
@@ -32084,6 +32148,14 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       <trans-unit id="10947" xml:space="preserve" approved="yes">
         <source>10947</source>
         <target state="final">惑星精選を使用するコスモミッション中のため、実行できません。</target>
+      </trans-unit>
+      <trans-unit id="10948" xml:space="preserve" approved="yes">
+        <source>10948</source>
+        <target state="final">護竜アルシュベルドが力を溜めている……</target>
+      </trans-unit>
+      <trans-unit id="10949" xml:space="preserve" approved="yes">
+        <source>10949</source>
+        <target state="final">護竜アルシュベルドが力を解き放つ……！</target>
       </trans-unit>
       <trans-unit id="10952" xml:space="preserve" approved="yes">
         <source>10952</source>
@@ -32375,13 +32447,17 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>11131</source>
         <target state="final">新たなエモートアクション「&lt;var 28 ((Emote)) F0CF01 /var&gt;」「&lt;var 28 ((Emote)) F2012801 /var&gt;」を修得しました。</target>
       </trans-unit>
+      <trans-unit id="11132" xml:space="preserve" approved="yes">
+        <source>11132</source>
+        <target state="final">護竜アルシュベルドから剥ぎ取りが可能になりました！</target>
+      </trans-unit>
       <trans-unit id="11142" xml:space="preserve" approved="yes">
         <source>11142</source>
-        <target state="final">コンテンツルーレットのボーナスとして、&lt;var 28 ((Addon)) E80201 /var&gt;に&lt;var 22 E803 ((,)) /var&gt;ポイントぶんのエーテルが蓄積された。</target>
+        <target state="final">コンテンツルーレットのボーナスとして、&lt;var 28 ((Addon)) E80201 /var&gt;に&lt;var 22 E803 ((,)) /var&gt;ポイント分のエーテルが蓄積された。</target>
       </trans-unit>
       <trans-unit id="11143" xml:space="preserve" approved="yes">
         <source>11143</source>
-        <target state="final">&lt;var 28 ((Addon)) E80201 /var&gt;に&lt;var 22 E803 ((,)) /var&gt;ポイントぶんのエーテルが蓄積された。</target>
+        <target state="final">&lt;var 28 ((Addon)) E80201 /var&gt;に&lt;var 22 E803 ((,)) /var&gt;ポイント分のエーテルが蓄積された。</target>
       </trans-unit>
       <trans-unit id="11144" xml:space="preserve" approved="yes">
         <source>11144</source>
@@ -32390,6 +32466,18 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       <trans-unit id="11145" xml:space="preserve" approved="yes">
         <source>11145</source>
         <target state="final">&lt;var 60 02AD /var&gt;4つの魔道球が、眩い輝きを放っている……！！！</target>
+      </trans-unit>
+      <trans-unit id="11146" xml:space="preserve" approved="yes">
+        <source>11146</source>
+        <target state="final">つむじ風から強風が吹き荒れる……</target>
+      </trans-unit>
+      <trans-unit id="11147" xml:space="preserve" approved="yes">
+        <source>11147</source>
+        <target state="final">フォーギヴン・プロファニティーの髭が輝きを放つ……</target>
+      </trans-unit>
+      <trans-unit id="11148" xml:space="preserve" approved="yes">
+        <source>11148</source>
+        <target state="final">護竜アルシュベルドがさらなる力を解き放つ……！</target>
       </trans-unit>
       <trans-unit id="11150" xml:space="preserve" approved="yes">
         <source>11150</source>
@@ -32557,6 +32645,30 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>11201</source>
         <target state="final">知覚を乱され、攻撃の予兆をうまく感じ取れなくなった……</target>
       </trans-unit>
+      <trans-unit id="11202" xml:space="preserve" approved="yes">
+        <source>11202</source>
+        <target state="final">光と闇のエーテルが中和されたようだ……</target>
+      </trans-unit>
+      <trans-unit id="11203" xml:space="preserve" approved="yes">
+        <source>11203</source>
+        <target state="final">深淵の焔が具現した……</target>
+      </trans-unit>
+      <trans-unit id="11204" xml:space="preserve" approved="yes">
+        <source>11204</source>
+        <target state="final">硝子窓が破壊された……</target>
+      </trans-unit>
+      <trans-unit id="11205" xml:space="preserve" approved="yes">
+        <source>11205</source>
+        <target state="final">エーテルを喰らい、エミネントグリーフが体力を回復した……</target>
+      </trans-unit>
+      <trans-unit id="11206" xml:space="preserve" approved="yes">
+        <source>11206</source>
+        <target state="final">次元の裂け目から、ヴォイドの瘴気が溢れ出す……</target>
+      </trans-unit>
+      <trans-unit id="11207" xml:space="preserve" approved="yes">
+        <source>11207</source>
+        <target state="final">フォーギヴン・エミュレーションの足元に光が集う……</target>
+      </trans-unit>
       <trans-unit id="11208" xml:space="preserve" approved="yes">
         <source>11208</source>
         <target state="final">薬液射出装置が起動した……</target>
@@ -32573,9 +32685,33 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>11212</source>
         <target state="final">犠牲になった人々の記憶が具現化した……</target>
       </trans-unit>
+      <trans-unit id="11213" xml:space="preserve" approved="yes">
+        <source>11213</source>
+        <target state="final">フォーギヴン・エミュレーションが狙いを定めた……</target>
+      </trans-unit>
+      <trans-unit id="11214" xml:space="preserve" approved="yes">
+        <source>11214</source>
+        <target state="final">死出の道行きは、歩むほどに死が近づく……</target>
+      </trans-unit>
+      <trans-unit id="11215" xml:space="preserve" approved="yes">
+        <source>11215</source>
+        <target state="final">光を拒む者に死出の道行きが定められた……</target>
+      </trans-unit>
+      <trans-unit id="11216" xml:space="preserve" approved="yes">
+        <source>11216</source>
+        <target state="final">光を受け入れ、死出の道行きから逃れた！</target>
+      </trans-unit>
+      <trans-unit id="11223" xml:space="preserve" approved="yes">
+        <source>11223</source>
+        <target state="final">エーテルを喰らい、侵蝕された罪喰いが体力を回復した……</target>
+      </trans-unit>
       <trans-unit id="11224" xml:space="preserve" approved="yes">
         <source>11224</source>
         <target state="final">飛空艇が破壊される前に、飛び移れ！</target>
+      </trans-unit>
+      <trans-unit id="11225" xml:space="preserve" approved="yes">
+        <source>11225</source>
+        <target state="final">エーテルドレインを無効化した！</target>
       </trans-unit>
       <trans-unit id="11226" xml:space="preserve" approved="yes">
         <source>11226</source>
@@ -32589,9 +32725,102 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>11228</source>
         <target state="final">永遠の闇がエーテルを取り込んだ……</target>
       </trans-unit>
+      <trans-unit id="11229" xml:space="preserve" approved="yes">
+        <source>11229</source>
+        <target state="final">フォーギヴン・ナイヴテイたちが噴射の構えを見せた……</target>
+      </trans-unit>
       <trans-unit id="11230" xml:space="preserve" approved="yes">
         <source>11230</source>
         <target state="final">現在のクラス・ジョブが対象に含まれていません。</target>
+      </trans-unit>
+      <trans-unit id="11231" xml:space="preserve" approved="yes">
+        <source>11231</source>
+        <target state="final">闇が増大する……</target>
+      </trans-unit>
+      <trans-unit id="11232" xml:space="preserve" approved="yes">
+        <source>11232</source>
+        <target state="final">光が増大する……</target>
+      </trans-unit>
+      <trans-unit id="11233" xml:space="preserve" approved="yes">
+        <source>11233</source>
+        <target state="final">次元の裂け目から、膨大な瘴気が溢れ出す……！</target>
+      </trans-unit>
+      <trans-unit id="11240" xml:space="preserve" approved="yes">
+        <source>11240</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は一時的にヘイスト状態になった！</target>
+      </trans-unit>
+      <trans-unit id="11241" xml:space="preserve" approved="yes">
+        <source>11241</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;たちは一時的にヘイスト状態になった！</target>
+      </trans-unit>
+      <trans-unit id="11242" xml:space="preserve" approved="yes">
+        <source>11242</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;の状態異常が解除され、一時的に受け付けなくなった！</target>
+      </trans-unit>
+      <trans-unit id="11243" xml:space="preserve" approved="yes">
+        <source>11243</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;たちの状態異常が解除され、一時的に受け付けなくなった！</target>
+      </trans-unit>
+      <trans-unit id="11244" xml:space="preserve" approved="yes">
+        <source>11244</source>
+        <target state="final">どこか遠くで不思議な気配を感じた！</target>
+      </trans-unit>
+      <trans-unit id="11245" xml:space="preserve" approved="yes">
+        <source>11245</source>
+        <target state="final">灯火の温かさに似た、不思議な気配がする……</target>
+      </trans-unit>
+      <trans-unit id="11246" xml:space="preserve" approved="yes">
+        <source>11246</source>
+        <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;では効果がないようだ……</target>
+      </trans-unit>
+      <trans-unit id="11247" xml:space="preserve" approved="yes">
+        <source>11247</source>
+        <target state="final">妖精トラップが発動した……</target>
+      </trans-unit>
+      <trans-unit id="11250" xml:space="preserve" approved="yes">
+        <source>11250</source>
+        <target state="final">&lt;var 0A E802 /var&gt;は、&lt;var 28 ((DeepDungeonMagicStone)) E8030A /var&gt;を焚き、妖精王の分体を呼んだ！</target>
+      </trans-unit>
+      <trans-unit id="11251" xml:space="preserve" approved="yes">
+        <source>11251</source>
+        <target state="final">&lt;var 0A E802 /var&gt;は、&lt;var 28 ((DeepDungeonDemiclone)) E8030A /var&gt;を焚き、妖精王の分体を呼んだ！</target>
+      </trans-unit>
+      <trans-unit id="11252" xml:space="preserve" approved="yes">
+        <source>11252</source>
+        <target state="final">既にフェオ＝ウルを召喚しているため、使用できません。</target>
+      </trans-unit>
+      <trans-unit id="11253" xml:space="preserve" approved="yes">
+        <source>11253</source>
+        <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;に張られた強い結界により、ジュニパーの香が使えなくなった……</target>
+      </trans-unit>
+      <trans-unit id="11254" xml:space="preserve" approved="yes">
+        <source>11254</source>
+        <target state="final">このコンテンツでは、突入に必要なアイテムを指定したプレイヤーのみがボス撃破時の宝箱を開くことができます。
+指定アイテムは宝箱解錠時に消費されます。</target>
+      </trans-unit>
+      <trans-unit id="11255" xml:space="preserve" approved="yes">
+        <source>11255</source>
+        <target state="final">報酬獲得のため、&lt;var 28 ((Item)) E80201 /var&gt;を&lt;var 20 E803 /var&gt;個消費しました。</target>
+      </trans-unit>
+      <trans-unit id="11256" xml:space="preserve" approved="yes">
+        <source>11256</source>
+        <target state="final">T99に到達したことで、イル＝メグの「ヴァンサウ」に
+練習用コンテンツ「エミネントグリーフ討滅戦」が追加されました！
+
+詳細は、ディープダンジョンの説明からご確認ください。</target>
+      </trans-unit>
+      <trans-unit id="11257" xml:space="preserve" approved="yes">
+        <source>11257</source>
+        <target state="final">宝箱は固く閉ざされている……。
+宝箱を開くためのアイテムを持っていないか、宝箱を開く権利がありません。</target>
+      </trans-unit>
+      <trans-unit id="11258" xml:space="preserve" approved="yes">
+        <source>11258</source>
+        <target state="final">所持品に空きがないため、宝箱を解錠できません。</target>
+      </trans-unit>
+      <trans-unit id="11259" xml:space="preserve" approved="yes">
+        <source>11259</source>
+        <target state="final">「光耀の燭台」に光が灯り、次の&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;で&lt;var 28 ((DeepDungeon4GimmickEffectTransient)) E80201 /var&gt;が発動する……！</target>
       </trans-unit>
       <trans-unit id="11260" xml:space="preserve" approved="yes">
         <source>11260</source>
@@ -32658,25 +32887,13 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>11274</source>
         <target state="final">「輝く袋」を&lt;var 20 E802 /var&gt;個取得し、&lt;var 09 E803 ((金の宝箱)) ((銀の宝箱)) ((銅の宝箱)) /var&gt;が出現した！</target>
       </trans-unit>
+      <trans-unit id="11284" xml:space="preserve" approved="yes">
+        <source>11284</source>
+        <target state="final">全滅したことのあるセーブデータのため、コンバートすることができません。</target>
+      </trans-unit>
       <trans-unit id="11332" xml:space="preserve" approved="yes">
         <source>11332</source>
         <target state="final">騎乗中のため、支給された釣り餌を装着できませんでした。</target>
-      </trans-unit>
-      <trans-unit id="9857" xml:space="preserve" approved="no">
-        <source>9857</source>
-        <target state="needs-translation">Not used. Report if shown.</target>
-      </trans-unit>
-      <trans-unit id="9861" xml:space="preserve" approved="no">
-        <source>9861</source>
-        <target state="needs-translation">Not used. Report if shown.</target>
-      </trans-unit>
-      <trans-unit id="9846" xml:space="preserve" approved="no">
-        <source>9846</source>
-        <target state="needs-translation">The beast calls for reinforcements!</target>
-      </trans-unit>
-      <trans-unit id="9859" xml:space="preserve" approved="no">
-        <source>9859</source>
-        <target state="needs-translation">Not used. Report if shown.</target>
       </trans-unit>
     </body>
   </file>

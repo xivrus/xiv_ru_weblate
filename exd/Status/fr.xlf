@@ -17123,6 +17123,18 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4509</source>
         <target state="final">Entraves flottantes&lt;tab&gt;Le corps est entravé dans les airs et tout déplacement est impossible.</target>
       </trans-unit>
+      <trans-unit id="4510" xml:space="preserve" approved="yes">
+        <source>4510</source>
+        <target state="final">Entrave&lt;tab&gt;Tout déplacement est impossible.</target>
+      </trans-unit>
+      <trans-unit id="4511" xml:space="preserve" approved="yes">
+        <source>4511</source>
+        <target state="final">Brûlure&lt;tab&gt;Des dégâts périodiques de feu sont subis.</target>
+      </trans-unit>
+      <trans-unit id="4512" xml:space="preserve" approved="yes">
+        <source>4512</source>
+        <target state="final">Morsure du feu&lt;tab&gt;Les PV maximums sont réduits et les dégâts reçus sont augmentés.</target>
+      </trans-unit>
       <trans-unit id="4513" xml:space="preserve" approved="yes">
         <source>4513</source>
         <target state="final">Transfert de pilote&lt;tab&gt;Le pilote est transféré au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment.</target>
@@ -17138,6 +17150,14 @@ Ne s'applique pas aux actions curatives.</target>
       <trans-unit id="4517" xml:space="preserve" approved="yes">
         <source>4517</source>
         <target state="final">Exhaltation du champion&lt;tab&gt;L'exaltation du combat permet de renforcer certaines attaques grâce au pouvoir de l'âme du loup mystique.</target>
+      </trans-unit>
+      <trans-unit id="4518" xml:space="preserve" approved="yes">
+        <source>4518</source>
+        <target state="final">Noirceur de l'au-delà&lt;tab&gt;L'esprit est attiré vers l'au-delà, le personnage devenant inconscient à la fin de l'effet. Subir une attaque de Lumière dissipera l'effet.</target>
+      </trans-unit>
+      <trans-unit id="4519" xml:space="preserve" approved="yes">
+        <source>4519</source>
+        <target state="final">Fardeau de l'au-delà&lt;tab&gt;L'esprit est attiré vers l'au-delà. L'effet peut se cumuler en fonction des déplacements. S'il est cumulé 8 fois, le personnage tombe inconscient.</target>
       </trans-unit>
       <trans-unit id="4520" xml:space="preserve" approved="yes">
         <source>4520</source>
@@ -17211,9 +17231,77 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4558</source>
         <target state="final">Glas&lt;tab&gt;Mort certaine lorsque le compteur atteint zéro.</target>
       </trans-unit>
+      <trans-unit id="4559" xml:space="preserve" approved="yes">
+        <source>4559</source>
+        <target state="final">Écho de Ténèbres&lt;tab&gt;L'influence des Ténèbres est subie, causant des dégâts périodiques. Inflige Hystérie lorsque le compteur atteint zéro.</target>
+      </trans-unit>
+      <trans-unit id="4560" xml:space="preserve" approved="yes">
+        <source>4560</source>
+        <target state="final">Écho de Lumière&lt;tab&gt;L'influence de la Lumière est subie. Inflige Pétrification lorsque le compteur atteint zéro.</target>
+      </trans-unit>
+      <trans-unit id="4561" xml:space="preserve" approved="yes">
+        <source>4561</source>
+        <target state="final">Concordance d'âmes&lt;tab&gt;L'âme est liée à une autre, qui lui donne sa force pour combattre.</target>
+      </trans-unit>
+      <trans-unit id="4562" xml:space="preserve" approved="yes">
+        <source>4562</source>
+        <target state="final">Chaînes de flammes&lt;tab&gt;La victime est liée par des chaînes de flammes et subit des dégâts de feu si elle se déplace.</target>
+      </trans-unit>
+      <trans-unit id="4563" xml:space="preserve" approved="yes">
+        <source>4563</source>
+        <target state="final">Chaînes incandescentes&lt;tab&gt;Des dégâts périodiques sont subis à cause des brûlures causées par les chaînes. Déclenche Chaînes incandescentes lorsque la chaîne est brisée.</target>
+      </trans-unit>
+      <trans-unit id="4564" xml:space="preserve" approved="yes">
+        <source>4564</source>
+        <target state="final">Menottes d'admonestation&lt;var 1D /var&gt;: Soin&lt;tab&gt;Le champ d'action est réduit par les menottes. Déclenche Menottes de pénitence autour de la cible si une action de régénération de PV est utilisée.</target>
+      </trans-unit>
+      <trans-unit id="4565" xml:space="preserve" approved="yes">
+        <source>4565</source>
+        <target state="final">Menottes d'admonestation&lt;var 1D /var&gt;: Aptitudes&lt;tab&gt;Le champ d'action est réduit par les menottes. Déclenche Menottes de pénitence autour de la cible si une aptitude est utilisée.</target>
+      </trans-unit>
+      <trans-unit id="4566" xml:space="preserve" approved="yes">
+        <source>4566</source>
+        <target state="final">Jardin de flammes&lt;tab&gt;Des dégâts périodiques de feu sont subis dans la zone enflammée. Sortir de la zone provoque le K.O.</target>
+      </trans-unit>
+      <trans-unit id="4567" xml:space="preserve" approved="yes">
+        <source>4567</source>
+        <target state="final">Accumulation de péchés&lt;tab&gt;Une malédiction accumule des péchés dans le corps de la victime. Lorsque le cumul maximum est atteint, celle-ci subit une explosion ainsi que Paroxysme du péché. Ce dernier effet peut être évité si un autre joueur subit les dégâts de l'explosion.</target>
+      </trans-unit>
+      <trans-unit id="4568" xml:space="preserve" approved="yes">
+        <source>4568</source>
+        <target state="final">Paroxysme du péché&lt;tab&gt;Les péchés accumulés dans le corps atteignent leur paroxysme. La victime est immobilisée et subit périodiquement des grosses explosions.</target>
+      </trans-unit>
+      <trans-unit id="4569" xml:space="preserve" approved="yes">
+        <source>4569</source>
+        <target state="final">Absolution&lt;tab&gt;Les péchés cessent de s'accumuler pendant quelques temps.</target>
+      </trans-unit>
+      <trans-unit id="4570" xml:space="preserve" approved="yes">
+        <source>4570</source>
+        <target state="final">Bonus de dégâts de feu&lt;tab&gt;Les dégâts de feu infligés sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4571" xml:space="preserve" approved="yes">
+        <source>4571</source>
+        <target state="final">Bonus de dégâts de ténèbres&lt;tab&gt;Les dégâts de ténèbres infligés sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4572" xml:space="preserve" approved="yes">
+        <source>4572</source>
+        <target state="final">Bonus de dégâts de lumière&lt;tab&gt;Les dégâts de lumière infligés sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4573" xml:space="preserve" approved="yes">
+        <source>4573</source>
+        <target state="final">Steak à point&lt;tab&gt;La sa&lt;var 16 /var&gt;tis&lt;var 16 /var&gt;fac&lt;var 16 /var&gt;tion intense d'avoir mangé un délicieux morceau de viande augmente les PV maximums et procure un effet de récupération périodique des PV.</target>
+      </trans-unit>
+      <trans-unit id="4574" xml:space="preserve" approved="yes">
+        <source>4574</source>
+        <target state="final">Pression du Gardien&lt;tab&gt;La pression infligée par l'Arkveld Gardien est à son maximum. Des dégâts périodiques sont subis, et les dégâts reçus sont augmentés. L'effet persiste tant que l'Arkveld Gardien n'est pas vaincu.</target>
+      </trans-unit>
       <trans-unit id="4578" xml:space="preserve" approved="yes">
         <source>4578</source>
         <target state="final">Attache&lt;tab&gt;Toute action est impossible.</target>
+      </trans-unit>
+      <trans-unit id="4579" xml:space="preserve" approved="yes">
+        <source>4579</source>
+        <target state="final">Pointes de feu&lt;tab&gt;Une barrière protectrice de feu blesse les attaquants.</target>
       </trans-unit>
       <trans-unit id="4580" xml:space="preserve" approved="yes">
         <source>4580</source>
@@ -17222,6 +17310,42 @@ Ne s'applique pas aux actions curatives.</target>
       <trans-unit id="4581" xml:space="preserve" approved="yes">
         <source>4581</source>
         <target state="final">Paradis transcendé&lt;tab&gt;La conscience a discerné la contrefaçon du monde matériel et peut désormais le manipuler à volonté.</target>
+      </trans-unit>
+      <trans-unit id="4583" xml:space="preserve" approved="yes">
+        <source>4583</source>
+        <target state="final">Enfeuillé&lt;tab&gt;La transformation en enfeuillé empêche toute action.</target>
+      </trans-unit>
+      <trans-unit id="4584" xml:space="preserve" approved="yes">
+        <source>4584</source>
+        <target state="final">Lumière nocturne de la quiétude&lt;tab&gt;Les PV maximums sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4585" xml:space="preserve" approved="yes">
+        <source>4585</source>
+        <target state="final">Électrocution&lt;tab&gt;Des dégâts périodiques de foudre sont subis.</target>
+      </trans-unit>
+      <trans-unit id="4586" xml:space="preserve" approved="yes">
+        <source>4586</source>
+        <target state="final">Mystiféecation&lt;tab&gt;La transformation en fée empêche toute action.</target>
+      </trans-unit>
+      <trans-unit id="4587" xml:space="preserve" approved="yes">
+        <source>4587</source>
+        <target state="final">Bénédiction des prêtres&lt;tab&gt;Des PV sont récupérés périodiquement.</target>
+      </trans-unit>
+      <trans-unit id="4588" xml:space="preserve" approved="yes">
+        <source>4588</source>
+        <target state="final">Bénédiction des moines&lt;tab&gt;Les dégâts infligés sont augmentés et les attaques absorbent des PV. En contrepartie, les dégâts reçus augmentent également.</target>
+      </trans-unit>
+      <trans-unit id="4589" xml:space="preserve" approved="yes">
+        <source>4589</source>
+        <target state="final">Charme de purification&lt;tab&gt;La prochaine altération d'état sera bloquée.</target>
+      </trans-unit>
+      <trans-unit id="4590" xml:space="preserve" approved="yes">
+        <source>4590</source>
+        <target state="final">Temps de recharge réduit&lt;tab&gt;Le temps de recharge des aptitudes est réduit, excepté pour les actions à charge.</target>
+      </trans-unit>
+      <trans-unit id="4591" xml:space="preserve" approved="yes">
+        <source>4591</source>
+        <target state="final">Encens in&lt;var 16 /var&gt;uti&lt;var 16 /var&gt;li&lt;var 16 /var&gt;sa&lt;var 16 /var&gt;ble&lt;tab&gt;L'encens de genévrier est in&lt;var 16 /var&gt;uti&lt;var 16 /var&gt;li&lt;var 16 /var&gt;sa&lt;var 16 /var&gt;ble.</target>
       </trans-unit>
       <trans-unit id="4594" xml:space="preserve" approved="yes">
         <source>4594</source>
@@ -17247,9 +17371,37 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4618</source>
         <target state="final">Tenir bon&lt;tab&gt;Les pré&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;ra&lt;var 16 /var&gt;tions nécessaires ont été faites pour subir un assaut dévastateur.</target>
       </trans-unit>
+      <trans-unit id="4625" xml:space="preserve" approved="yes">
+        <source>4625</source>
+        <target state="final">Immunisé aux rafales&lt;tab&gt;Les pieds sont pris dans les sables mouvants, empêchant d'être projeté par les rafales de vent.</target>
+      </trans-unit>
+      <trans-unit id="4652" xml:space="preserve" approved="yes">
+        <source>4652</source>
+        <target state="final">Poison violent&lt;tab&gt;Des dégâts périodiques de poison sont subis.</target>
+      </trans-unit>
       <trans-unit id="4683" xml:space="preserve" approved="yes">
         <source>4683</source>
         <target state="final">Glas&lt;tab&gt;Mort certaine lorsque le compteur atteint zéro.</target>
+      </trans-unit>
+      <trans-unit id="4708" xml:space="preserve" approved="yes">
+        <source>4708</source>
+        <target state="final">Transformation&lt;tab&gt;L'apparence est com&lt;var 16 /var&gt;plè&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment changée.</target>
+      </trans-unit>
+      <trans-unit id="4709" xml:space="preserve" approved="yes">
+        <source>4709</source>
+        <target state="final">Super sprint&lt;tab&gt;La vitesse de déplacement est grandement augmentée.</target>
+      </trans-unit>
+      <trans-unit id="4710" xml:space="preserve" approved="yes">
+        <source>4710</source>
+        <target state="final">Bonus de PV&lt;tab&gt;Les PV maximums sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4718" xml:space="preserve" approved="yes">
+        <source>4718</source>
+        <target state="final">Hâte&lt;tab&gt;La vitesse des attaques automatiques est augmentée, et les temps de lancement et de recharge des sorts et des techniques d'arme sont réduits.</target>
+      </trans-unit>
+      <trans-unit id="4723" xml:space="preserve" approved="yes">
+        <source>4723</source>
+        <target state="final">Protection du Monarque&lt;tab&gt;Invulnérable temporairement grâce à la protection du Monarque féérique.</target>
       </trans-unit>
     </body>
   </file>

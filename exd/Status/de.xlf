@@ -17140,6 +17140,18 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4509</source>
         <target state="final">Schwebende Fesseln&lt;tab&gt;In der Luft gehalten und be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;un&lt;var 16 /var&gt;fäh&lt;var 16 /var&gt;ig.</target>
       </trans-unit>
+      <trans-unit id="4510" xml:space="preserve" approved="yes">
+        <source>4510</source>
+        <target state="final">Fessel&lt;tab&gt;Bewegungsunfähig.</target>
+      </trans-unit>
+      <trans-unit id="4511" xml:space="preserve" approved="yes">
+        <source>4511</source>
+        <target state="final">Brandwunde&lt;tab&gt;Erleidet schrittweise Feuerschaden.</target>
+      </trans-unit>
+      <trans-unit id="4512" xml:space="preserve" approved="yes">
+        <source>4512</source>
+        <target state="final">Verbrennung&lt;tab&gt;Maximale LP sind verringert, erlittener Schaden ist erhöht.</target>
+      </trans-unit>
       <trans-unit id="4513" xml:space="preserve" approved="yes">
         <source>4513</source>
         <target state="final">Pilotenaussendung&lt;tab&gt;Wird als Pilot zum Einsatzgebiet eines Mecha-Einsatzes geschickt.</target>
@@ -17155,6 +17167,14 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       <trans-unit id="4517" xml:space="preserve" approved="yes">
         <source>4517</source>
         <target state="final">Euphorie des Wolfes&lt;tab&gt;Vom Hochgefühl des Kampfes erfüllt. Bestimmte Angriffe werden von der Seele der Wolfsbestie verstärkt.</target>
+      </trans-unit>
+      <trans-unit id="4518" xml:space="preserve" approved="yes">
+        <source>4518</source>
+        <target state="final">Finsternis des Todes&lt;tab&gt;Wird auf den Pfad des Todes gelockt und bei Ablauf der Wirkungsdauer kampfunfähig. Wird aufgehoben, wenn Lichtschaden erlitten wird.</target>
+      </trans-unit>
+      <trans-unit id="4519" xml:space="preserve" approved="yes">
+        <source>4519</source>
+        <target state="final">Last des Todes&lt;tab&gt;Ist auf den Pfad des Todes gelockt. Bewegung erhöht die Stapelzahl, und 8 Stapel führen zu Kampfunfähigkeit.</target>
       </trans-unit>
       <trans-unit id="4520" xml:space="preserve" approved="yes">
         <source>4520</source>
@@ -17228,9 +17248,77 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4558</source>
         <target state="final">Verhängnis&lt;tab&gt;Wird kampfunfähig, sobald der Timer auf 0 sinkt.</target>
       </trans-unit>
+      <trans-unit id="4559" xml:space="preserve" approved="yes">
+        <source>4559</source>
+        <target state="final">Echo der Dunkelheit&lt;tab&gt;Erleidet schrittweise Schaden. Verfällt in &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Panik&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, wenn der Zähler null erreicht.</target>
+      </trans-unit>
+      <trans-unit id="4560" xml:space="preserve" approved="yes">
+        <source>4560</source>
+        <target state="final">Echo des Lichts&lt;tab&gt;Wird zu &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Stein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, wenn der Zähler null erreicht.</target>
+      </trans-unit>
+      <trans-unit id="4561" xml:space="preserve" approved="yes">
+        <source>4561</source>
+        <target state="final">Seelenharmonie&lt;tab&gt;Kämpft mit der Kraft einer verbundenen Seele weiter.</target>
+      </trans-unit>
+      <trans-unit id="4562" xml:space="preserve" approved="yes">
+        <source>4562</source>
+        <target state="final">Flammenfessel&lt;tab&gt;Erleidet bei Bewegung Feuerschaden.</target>
+      </trans-unit>
+      <trans-unit id="4563" xml:space="preserve" approved="yes">
+        <source>4563</source>
+        <target state="final">Flammenkette&lt;tab&gt;Ist mit einer Feuerkette verbunden. Erleidet schrittweise Schaden. Wenn die Kette reißt, wird &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flammenkette&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ausgelöst.</target>
+      </trans-unit>
+      <trans-unit id="4564" xml:space="preserve" approved="yes">
+        <source>4564</source>
+        <target state="final">Lichtkette der Warnung: Heilung&lt;tab&gt;Löst bei Einsatz von Heilkommandos &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Lichtketten der Strafe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; in der Nähe aus.</target>
+      </trans-unit>
+      <trans-unit id="4565" xml:space="preserve" approved="yes">
+        <source>4565</source>
+        <target state="final">Lichtkette der Warnung: Kampf&lt;tab&gt;Löst bei Einsatz von Talenten &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Lichtketten der Strafe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; in der Nähe aus.</target>
+      </trans-unit>
+      <trans-unit id="4566" xml:space="preserve" approved="yes">
+        <source>4566</source>
+        <target state="final">Flammengarten&lt;tab&gt;Erleidet schrittweise Schaden. Wird bei Verlassen des Bereichs kampfunfähig.</target>
+      </trans-unit>
+      <trans-unit id="4567" xml:space="preserve" approved="yes">
+        <source>4567</source>
+        <target state="final">Anhäufen der Schuld&lt;tab&gt;Lädt nach und nach Schuld auf sich. Wenn das Maximum erreicht ist, werden eine Explosion und &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Ausbruch der Schuld&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ausgelöst.</target>
+      </trans-unit>
+      <trans-unit id="4568" xml:space="preserve" approved="yes">
+        <source>4568</source>
+        <target state="final">Ausbruch der Schuld&lt;tab&gt;Die angehäufte Schuld entlädt sich. Wird handlungsunfähig und löst regelmäßig &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Detonation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aus.</target>
+      </trans-unit>
+      <trans-unit id="4569" xml:space="preserve" approved="yes">
+        <source>4569</source>
+        <target state="final">Absolution&lt;tab&gt;Verhindert vor&lt;var 16 /var&gt;über&lt;var 16 /var&gt;gehend &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Anhäufen der Schuld&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="4570" xml:space="preserve" approved="yes">
+        <source>4570</source>
+        <target state="final">Feuerschaden +&lt;tab&gt;Erhöht ausgeteilten Feuerschaden.</target>
+      </trans-unit>
+      <trans-unit id="4571" xml:space="preserve" approved="yes">
+        <source>4571</source>
+        <target state="final">Dunkelschaden +&lt;tab&gt;Erhöht ausgeteilten Dunkelschaden.</target>
+      </trans-unit>
+      <trans-unit id="4572" xml:space="preserve" approved="yes">
+        <source>4572</source>
+        <target state="final">Lichtschaden +&lt;tab&gt;Erhöht ausgeteilten Lichtschaden.</target>
+      </trans-unit>
+      <trans-unit id="4573" xml:space="preserve" approved="yes">
+        <source>4573</source>
+        <target state="final">Gebratenes Steak&lt;tab&gt;Gut genährt fühlst du dich zufrieden und bereit für jede Heraus&lt;var 16 /var&gt;forde&lt;var 16 /var&gt;rung. Die maximalen LP sind erhöht und LP regenerieren sich über Zeit.</target>
+      </trans-unit>
+      <trans-unit id="4574" xml:space="preserve" approved="yes">
+        <source>4574</source>
+        <target state="final">Wächteraura&lt;tab&gt;Du bist von der gewaltigen Aura des Wächter-Arkvelds überwältigt. Erleidet schrittweise Schaden und erlittener Schaden ist erhöht. Dieser Status bleibt bestehen, bis der Wächter-Arkveld bezwungen ist.</target>
+      </trans-unit>
       <trans-unit id="4578" xml:space="preserve" approved="yes">
         <source>4578</source>
         <target state="final">Gefesselt&lt;tab&gt;Ist handlungsunfähig.</target>
+      </trans-unit>
+      <trans-unit id="4579" xml:space="preserve" approved="yes">
+        <source>4579</source>
+        <target state="final">Feuerstachel&lt;tab&gt;Der Gegner erleidet bei jedem Angriff Feuerschaden.</target>
       </trans-unit>
       <trans-unit id="4580" xml:space="preserve" approved="yes">
         <source>4580</source>
@@ -17239,6 +17327,42 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       <trans-unit id="4581" xml:space="preserve" approved="yes">
         <source>4581</source>
         <target state="final">Neues Paradies&lt;tab&gt;Das Bewusstsein hat die Fälschung der materiellen Welt erkannt und kann sie nun nach Belieben manipulieren.</target>
+      </trans-unit>
+      <trans-unit id="4583" xml:space="preserve" approved="yes">
+        <source>4583</source>
+        <target state="final">Wicht&lt;tab&gt;In einen Wicht verwandelt. Kommandos können nicht ausgeführt werden.</target>
+      </trans-unit>
+      <trans-unit id="4584" xml:space="preserve" approved="yes">
+        <source>4584</source>
+        <target state="final">Friedlicher Mondschein&lt;tab&gt;Maximal-LP sind erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4585" xml:space="preserve" approved="yes">
+        <source>4585</source>
+        <target state="final">Stromschlag&lt;tab&gt;Erleidet schrittweise Blitzschaden.</target>
+      </trans-unit>
+      <trans-unit id="4586" xml:space="preserve" approved="yes">
+        <source>4586</source>
+        <target state="final">Feewerdung&lt;tab&gt;In ein Feenwesen verwandelt. Kommandos können nicht ausgeführt werden.</target>
+      </trans-unit>
+      <trans-unit id="4587" xml:space="preserve" approved="yes">
+        <source>4587</source>
+        <target state="final">Segen des Lebens&lt;tab&gt;Regeneriert schrittweise LP.</target>
+      </trans-unit>
+      <trans-unit id="4588" xml:space="preserve" approved="yes">
+        <source>4588</source>
+        <target state="final">Segen der Stärke&lt;tab&gt;Ausgeteilter Schaden ist erhöht und ein Teil davon wird in LP umgewandelt. Dafür wird erlittener Schaden erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4589" xml:space="preserve" approved="yes">
+        <source>4589</source>
+        <target state="final">Reinigung&lt;tab&gt;Schützt vor dem nächsten negativen Statuseffekt.</target>
+      </trans-unit>
+      <trans-unit id="4590" xml:space="preserve" approved="yes">
+        <source>4590</source>
+        <target state="final">Schnelle Reaktivierung&lt;tab&gt;Re&lt;var 16 /var&gt;ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zeit von Talenten ist verkürzt. Kommandos mit Aufladungen sind davon ausgenommen.</target>
+      </trans-unit>
+      <trans-unit id="4591" xml:space="preserve" approved="yes">
+        <source>4591</source>
+        <target state="final">Weihrauch unwirksam&lt;tab&gt;Verhindert Einsatz von Weihrauch.</target>
       </trans-unit>
       <trans-unit id="4594" xml:space="preserve" approved="yes">
         <source>4594</source>
@@ -17264,9 +17388,37 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4618</source>
         <target state="final">Starkes Standbein&lt;tab&gt;Kann einem heftigen Angriff standhalten.</target>
       </trans-unit>
+      <trans-unit id="4625" xml:space="preserve" approved="yes">
+        <source>4625</source>
+        <target state="final">Windfestes Standbein&lt;tab&gt;Steckt im Sand und kann nicht von starken Böen oder heftigen Winden zurückgestoßen werden.</target>
+      </trans-unit>
+      <trans-unit id="4652" xml:space="preserve" approved="yes">
+        <source>4652</source>
+        <target state="final">Giftlache&lt;tab&gt;Erleidet schrittweise Schaden durch Gift.</target>
+      </trans-unit>
       <trans-unit id="4683" xml:space="preserve" approved="yes">
         <source>4683</source>
         <target state="final">Verhängnis&lt;tab&gt;Wird kampfunfähig, sobald der Timer auf 0 sinkt.</target>
+      </trans-unit>
+      <trans-unit id="4708" xml:space="preserve" approved="yes">
+        <source>4708</source>
+        <target state="final">Ver&lt;var 16 /var&gt;wand&lt;var 16 /var&gt;lung&lt;tab&gt;Die körperliche Erscheinung ist verändert.</target>
+      </trans-unit>
+      <trans-unit id="4709" xml:space="preserve" approved="yes">
+        <source>4709</source>
+        <target state="final">Supersprint&lt;tab&gt;Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit ist stark erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4710" xml:space="preserve" approved="yes">
+        <source>4710</source>
+        <target state="final">LP-Bonus&lt;tab&gt;Maximal-LP sind erhöht.</target>
+      </trans-unit>
+      <trans-unit id="4718" xml:space="preserve" approved="yes">
+        <source>4718</source>
+        <target state="final">Hast&lt;tab&gt;Die Intervalle zwischen Auto-Attacken und die (Re-)Ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zei&lt;var 16 /var&gt;ten von Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten und Magie sind verkürzt.</target>
+      </trans-unit>
+      <trans-unit id="4723" xml:space="preserve" approved="yes">
+        <source>4723</source>
+        <target state="final">Segen des Feenkönigs&lt;tab&gt;Erleidet vor&lt;var 16 /var&gt;über&lt;var 16 /var&gt;gehend keinen Schaden.</target>
       </trans-unit>
     </body>
   </file>

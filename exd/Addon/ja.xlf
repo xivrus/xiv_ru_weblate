@@ -29256,6 +29256,10 @@ PvPコンテンツにはPvP専用のバトルシステムが用意されてお�
         <source>8378</source>
         <target state="final">マウント検索</target>
       </trans-unit>
+      <trans-unit id="8379" xml:space="preserve" approved="yes">
+        <source>8379</source>
+        <target state="final">TREASURE ACQUISITION</target>
+      </trans-unit>
       <trans-unit id="8380" xml:space="preserve" approved="yes">
         <source>8380</source>
         <target state="final">※このコンテンツ内の装備関連アイテムは1週間に1つのみ取得できます。 </target>
@@ -36805,15 +36809,15 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
         <source>10410</source>
         <target state="final">固定のメンバーで攻略中のセーブデータを、メンバーが固定されないマッチングパーティのセーブデータへと変換します。
 
-マッチングパーティのセーブデータでは、攻略中の階層が同じメンバーでなら、あらかじめパーティを組んでおくことで、一緒に遊ぶことが可能となり、足りない分のメンバーは、自動的に補充されるようになります。
+マッチングパーティのセーブデータでは、攻略中の&lt;var 09 E803 ((階層)) ((階層)) ((巡礼路)) /var&gt;が同じメンバーでなら、あらかじめパーティを組んでおくことで、一緒に遊ぶことが可能となり、足りない分のメンバーは、自動的に補充されるようになります。
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;セーブデータをコンバートした場合、特殊アイテムの所持状況は引き継がれません。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;マッチングパーティでは攻略による「スコア」の算出は行われません。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;チャレンジコンテンツの階層まで進行しているセーブデータはマッチングパーティのセーブデータに変換することはできません。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 08 E1E80201 (()) ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;チャレンジコンテンツの&lt;var 09 E803 ((階層)) ((階層)) ((巡礼路)) /var&gt;まで進行しているセーブデータはマッチングパーティのセーブデータに変換することはできません。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
-&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;※一度コンバートしたセーブデータを元の状態に戻すことはできません。コンバートは慎重に行ってください。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+)) /var&gt;&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;※一度コンバートしたセーブデータを元の状態に戻すことはできません。コンバートは慎重に行ってください。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="10411" xml:space="preserve" approved="yes">
         <source>10411</source>
@@ -36823,7 +36827,7 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
         <source>10412</source>
         <target state="final">攻略中のセーブデータを削除し、ディープダンジョンを始めから遊ぶことができるようにします。
 
-セーブデータを削除すると、到達階層やレベルがリセットされますが、「&lt;var 29 EA02 /var&gt;」「&lt;var 29 EA03 /var&gt;」 の強化値はリセットされずに、継続して使用することができます。
+セーブデータを削除すると、&lt;var 09 E804 ((到達階層)) ((到達階層)) ((到達地点)) /var&gt;やレベルがリセットされますが、「&lt;var 29 EA02 /var&gt;」「&lt;var 29 EA03 /var&gt;」 の強化値はリセットされずに、継続して使用することができます。
 
 &lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;※一度削除したセーブデータを復帰することはできません。削除は慎重に行ってください。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
@@ -36986,11 +36990,11 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
       </trans-unit>
       <trans-unit id="10452" xml:space="preserve" approved="yes">
         <source>10452</source>
-        <target state="final">この先の階層を遊ぶには、コンテンツを開放する必要があります。</target>
+        <target state="final">この先の&lt;var 09 E802 ((階層)) ((階層)) ((巡礼路)) /var&gt;を遊ぶには、コンテンツを開放する必要があります。</target>
       </trans-unit>
       <trans-unit id="10453" xml:space="preserve" approved="yes">
         <source>10453</source>
-        <target state="final">この階層は、全滅回数が0のセーブデータでないと遊ぶことができません。</target>
+        <target state="final">この&lt;var 09 E802 ((階層)) ((階層)) ((巡礼路)) /var&gt;は、全滅回数が0のセーブデータでないと遊ぶことができません。</target>
       </trans-unit>
       <trans-unit id="10454" xml:space="preserve" approved="yes">
         <source>10454</source>
@@ -37045,6 +37049,14 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
         <source>10466</source>
         <target state="final">ランキングにアクセス</target>
       </trans-unit>
+      <trans-unit id="10467" xml:space="preserve" approved="yes">
+        <source>10467</source>
+        <target state="final">到達地点</target>
+      </trans-unit>
+      <trans-unit id="10468" xml:space="preserve" approved="yes">
+        <source>10468</source>
+        <target state="final">JUNIPER INCENSE</target>
+      </trans-unit>
       <trans-unit id="10469" xml:space="preserve" approved="yes">
         <source>10469</source>
         <target state="final">&lt;var 28 ((ClassJob)) E80201 /var&gt;&lt;var 08 E1E80301 (( / &lt;var 28 ((ClassJob)) E80301 /var&gt;)) (()) /var&gt;</target>
@@ -37062,13 +37074,21 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
         <source>10472</source>
         <target state="final">&lt;var 29 EA02 /var&gt;</target>
       </trans-unit>
+      <trans-unit id="10473" xml:space="preserve" approved="yes">
+        <source>10473</source>
+        <target state="final">光耀の燭台</target>
+      </trans-unit>
+      <trans-unit id="10474" xml:space="preserve" approved="yes">
+        <source>10474</source>
+        <target state="final">Next</target>
+      </trans-unit>
       <trans-unit id="10475" xml:space="preserve" approved="yes">
         <source>10475</source>
         <target state="final">MAGIC STONES</target>
       </trans-unit>
       <trans-unit id="10476" xml:space="preserve" approved="yes">
         <source>10476</source>
-        <target state="final">この階層に埋もれた財宝の気配を感知しました。</target>
+        <target state="final">埋もれた財宝の気配を感知しました。</target>
       </trans-unit>
       <trans-unit id="10477" xml:space="preserve" approved="yes">
         <source>10477</source>
@@ -37092,7 +37112,7 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
       </trans-unit>
       <trans-unit id="10482" xml:space="preserve" approved="yes">
         <source>10482</source>
-        <target state="final">突入階層が&lt;var 09 E802 ((地下1階)) ((第1層)) ((第1巡礼路)) /var&gt;ではないため、ひとりで攻略して取得できる
+        <target state="final">&lt;var 09 E802 ((突入階層が地下1階)) ((突入階層が第1層)) ((突入地点が第1巡礼路)) /var&gt;ではないため、ひとりで攻略して取得できる
 アチーブメントには反映されません。</target>
       </trans-unit>
       <trans-unit id="10483" xml:space="preserve" approved="yes">
@@ -37131,6 +37151,26 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
       <trans-unit id="10491" xml:space="preserve" approved="yes">
         <source>10491</source>
         <target state="final">ディープダンジョンの説明を見る</target>
+      </trans-unit>
+      <trans-unit id="10492" xml:space="preserve" approved="yes">
+        <source>10492</source>
+        <target state="final">再生の祭壇</target>
+      </trans-unit>
+      <trans-unit id="10493" xml:space="preserve" approved="yes">
+        <source>10493</source>
+        <target state="final">転移装置</target>
+      </trans-unit>
+      <trans-unit id="10494" xml:space="preserve" approved="yes">
+        <source>10494</source>
+        <target state="final">再生の祭壇が有効になるまでの進行状況を示します。</target>
+      </trans-unit>
+      <trans-unit id="10495" xml:space="preserve" approved="yes">
+        <source>10495</source>
+        <target state="final">転移装置が有効になるまでの進行状況を示します。</target>
+      </trans-unit>
+      <trans-unit id="10496" xml:space="preserve" approved="yes">
+        <source>10496</source>
+        <target state="final">?</target>
       </trans-unit>
       <trans-unit id="10500" xml:space="preserve" approved="yes">
         <source>10500</source>
@@ -38146,6 +38186,34 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
         <target state="final">現在PvPコンテンツに大幅な調整を行っているため、
 このコンテンツは一時的に封鎖されています。
 コンテンツ再開の際にはパッチノート等でお知らせ致します。</target>
+      </trans-unit>
+      <trans-unit id="10834" xml:space="preserve" approved="yes">
+        <source>10834</source>
+        <target state="final">Sacramental Offerings</target>
+      </trans-unit>
+      <trans-unit id="10835" xml:space="preserve" approved="yes">
+        <source>10835</source>
+        <target state="final">TOTAL</target>
+      </trans-unit>
+      <trans-unit id="10836" xml:space="preserve" approved="yes">
+        <source>10836</source>
+        <target state="final">TREASURE UP</target>
+      </trans-unit>
+      <trans-unit id="10837" xml:space="preserve" approved="yes">
+        <source>10837</source>
+        <target state="final">&lt;var 08 E3E802E803 ((&lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;&lt;var 20 E802 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 20 E802 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="10838" xml:space="preserve" approved="yes">
+        <source>10838</source>
+        <target state="final">挑戦する</target>
+      </trans-unit>
+      <trans-unit id="10839" xml:space="preserve" approved="yes">
+        <source>10839</source>
+        <target state="final">戻る</target>
+      </trans-unit>
+      <trans-unit id="10840" xml:space="preserve" approved="yes">
+        <source>10840</source>
+        <target state="final">「詩想エミネントグリーフ討滅戦」に挑戦する。</target>
       </trans-unit>
       <trans-unit id="10846" xml:space="preserve" approved="yes">
         <source>10846</source>
@@ -57583,7 +57651,7 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
       </trans-unit>
       <trans-unit id="16592" xml:space="preserve" approved="yes">
         <source>16592</source>
-        <target state="final">&lt;var 20 E802 /var&gt;以上使用すると転送優先人数に入れます。</target>
+        <target state="final">&lt;var 08 E1E80264 ((99使用すると抽選対象人数に入れます。)) ((&lt;var 20 E802 /var&gt;以上使用すると転送優先人数に入れます。)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="16593" xml:space="preserve" approved="yes">
         <source>16593</source>
@@ -59293,6 +59361,10 @@ Lv&lt;var 20 E808 /var&gt;</target>
       <trans-unit id="17054" xml:space="preserve" approved="yes">
         <source>17054</source>
         <target state="final">頭装備時に耳を隠さず表示する(対応した装備のみ)</target>
+      </trans-unit>
+      <trans-unit id="17100" xml:space="preserve" approved="yes">
+        <source>17100</source>
+        <target state="final">ピルグリム・トラバース</target>
       </trans-unit>
       <trans-unit id="17110" xml:space="preserve" approved="yes">
         <source>17110</source>
