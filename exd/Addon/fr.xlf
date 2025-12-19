@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="Addon" datatype="plaintext" source-language="en" target-language="fr">
     <body>
@@ -2175,7 +2175,7 @@ Voulez-vous retenter&lt;var 1D /var&gt;?</target>
       </trans-unit>
       <trans-unit id="579" xml:space="preserve" approved="yes">
         <source>579</source>
-        <target state="final">Mandant de grande compagnie</target>
+        <target state="final">&lt;var 20 E803 /var&gt; &lt;var 08 E4E80302 ((&lt;var 33 ((Item)) 0DE8020202 /var&gt;)) ((&lt;var 33 ((Item)) 0DE802E80302 /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="580" xml:space="preserve" approved="yes">
         <source>580</source>
@@ -3268,7 +3268,8 @@ Commencer le mandat&lt;var 1D /var&gt;?</target>
       </trans-unit>
       <trans-unit id="861" xml:space="preserve" approved="yes">
         <source>861</source>
-        <target state="final">Réparer les objets affichés pour &lt;var 22 E802 ((&lt;var 1D /var&gt;)) /var&gt; gil&lt;var 08 E2E80202 (()) ((s)) /var&gt;&lt;var 1D /var&gt;?</target>
+        <target state="final">Réparer tous les objets affichés&lt;var 1D /var&gt;?
+Coût&lt;var 1D /var&gt;: &lt;var 22 E802 ((,)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="862" xml:space="preserve" approved="yes">
         <source>862</source>
@@ -6794,12 +6795,12 @@ qui sera alors ajoutée au sous-menu.</target>
       </trans-unit>
       <trans-unit id="1810" xml:space="preserve" approved="yes">
         <source>1810</source>
-        <target state="final">Requête d'objets bonus et optionnels</target>
+        <target state="final">Requête d'objets bonus</target>
       </trans-unit>
       <trans-unit id="1811" xml:space="preserve" approved="yes">
         <source>1811</source>
-        <target state="final">Vous pouvez envoyer une requête afin d'obtenir les objets bonus qui vous ont été envoyés et les articles que vous avez achetés. Il faudra attendre un certain temps avant de pouvoir utiliser cette fonction à nouveau.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Pour recevoir le nouveau courrier, il faut fermer puis rouvrir la fenêtre du Mog postier ou de la boîte à lettres mog.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+        <target state="final">Vous pouvez envoyer une requête afin d'obtenir les objets bonus qui vous ont été envoyés. Il faudra attendre un certain temps avant de pouvoir utiliser cette fonction à nouveau.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Les articles que vous avez achetés sont envoyés à intervalles réguliers, assurez-vous donc d'avoir assez d'espace dans votre boîte à lettres mog. En ce qui concerne les articles valables pour tous les personnages d'un compte de service, veuillez vous reconnecter avec le personnage concerné.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="1812" xml:space="preserve" approved="yes">
         <source>1812</source>
@@ -10219,6 +10220,10 @@ Synchronisation au niveau &lt;var 20 E803 /var&gt;</target>
         <source>2760</source>
         <target state="final">Notifications</target>
       </trans-unit>
+      <trans-unit id="2762" xml:space="preserve" approved="yes">
+        <source>2762</source>
+        <target state="final">Inutilisable avec une torche</target>
+      </trans-unit>
       <trans-unit id="2770" xml:space="preserve" approved="yes">
         <source>2770</source>
         <target state="final">Rangs de grande compagnie</target>
@@ -11840,7 +11845,7 @@ pour attribuer une commande.</target>
       </trans-unit>
       <trans-unit id="3302" xml:space="preserve" approved="yes">
         <source>3302</source>
-        <target state="final">&lt;var 1E 0A /var&gt; Sortir</target>
+        <target state="final">&lt;var 1E 0A /var&gt; Sortir &lt;var 08 E4E80202 ((&lt;var 1E 0C /var&gt; Ajouter à la fenêtre d'accès rapide)) (()) /var&gt;</target>
       </trans-unit>
       <trans-unit id="3303" xml:space="preserve" approved="yes">
         <source>3303</source>
@@ -12605,6 +12610,54 @@ Les majuscules/minuscules sont prises en compte lors de la recherche.</target>
       <trans-unit id="3606" xml:space="preserve" approved="yes">
         <source>3606</source>
         <target state="final">Minimum de tours</target>
+      </trans-unit>
+      <trans-unit id="3607" xml:space="preserve" approved="yes">
+        <source>3607</source>
+        <target state="final">Résultats</target>
+      </trans-unit>
+      <trans-unit id="3608" xml:space="preserve" approved="yes">
+        <source>3608</source>
+        <target state="final">&lt;var 29 EA02 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="3609" xml:space="preserve" approved="yes">
+        <source>3609</source>
+        <target state="final">Prœufs d'or</target>
+      </trans-unit>
+      <trans-unit id="3610" xml:space="preserve" approved="yes">
+        <source>3610</source>
+        <target state="final">Prœufs d'argent</target>
+      </trans-unit>
+      <trans-unit id="3611" xml:space="preserve" approved="yes">
+        <source>3611</source>
+        <target state="final">Prœufs de bronze</target>
+      </trans-unit>
+      <trans-unit id="3612" xml:space="preserve" approved="yes">
+        <source>3612</source>
+        <target state="final">Monstres fauchés</target>
+      </trans-unit>
+      <trans-unit id="3613" xml:space="preserve" approved="yes">
+        <source>3613</source>
+        <target state="final">× &lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="3614" xml:space="preserve" approved="yes">
+        <source>3614</source>
+        <target state="final">Score final</target>
+      </trans-unit>
+      <trans-unit id="3615" xml:space="preserve" approved="yes">
+        <source>3615</source>
+        <target state="final">Record</target>
+      </trans-unit>
+      <trans-unit id="3616" xml:space="preserve" approved="yes">
+        <source>3616</source>
+        <target state="final">Temps restant&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;m &lt;var 24 E803 /var&gt;s</target>
+      </trans-unit>
+      <trans-unit id="3617" xml:space="preserve" approved="yes">
+        <source>3617</source>
+        <target state="final">Quitter</target>
+      </trans-unit>
+      <trans-unit id="3618" xml:space="preserve" approved="yes">
+        <source>3618</source>
+        <target state="final">Nouveau record</target>
       </trans-unit>
       <trans-unit id="3619" xml:space="preserve" approved="yes">
         <source>3619</source>
@@ -14407,14 +14460,6 @@ Progression&lt;var 1D /var&gt;: &lt;var 20 E803 /var&gt;%</target>
         <source>4183</source>
         <target state="final">Paramètres du thème visuel</target>
       </trans-unit>
-      <trans-unit id="4184" xml:space="preserve" approved="yes">
-        <source>4184</source>
-        <target state="final">Aperçu du thème sombre</target>
-      </trans-unit>
-      <trans-unit id="4185" xml:space="preserve" approved="yes">
-        <source>4185</source>
-        <target state="final">Aperçu du thème clair</target>
-      </trans-unit>
       <trans-unit id="4186" xml:space="preserve" approved="yes">
         <source>4186</source>
         <target state="final">Exemple</target>
@@ -14448,10 +14493,6 @@ Progression&lt;var 1D /var&gt;: &lt;var 20 E803 /var&gt;%</target>
         <source>4193</source>
         <target state="final">Non</target>
       </trans-unit>
-      <trans-unit id="4194" xml:space="preserve" approved="yes">
-        <source>4194</source>
-        <target state="final">Aperçu du thème FF classique</target>
-      </trans-unit>
       <trans-unit id="4195" xml:space="preserve" approved="yes">
         <source>4195</source>
         <target state="final">Voulez-vous conserver cette résolution&lt;var 1D /var&gt;?
@@ -14464,10 +14505,6 @@ Les paramètres précédents seront rétablis dans &lt;var 20 E802 /var&gt; &lt;
       <trans-unit id="4197" xml:space="preserve" approved="yes">
         <source>4197</source>
         <target state="final">Non</target>
-      </trans-unit>
-      <trans-unit id="4198" xml:space="preserve" approved="yes">
-        <source>4198</source>
-        <target state="final">Aperçu du thème bleu clair</target>
       </trans-unit>
       <trans-unit id="4200" xml:space="preserve" approved="yes">
         <source>4200</source>
@@ -14513,6 +14550,30 @@ Les paramètres précédents seront rétablis dans &lt;var 20 E802 /var&gt; &lt;
         <source>4217</source>
         <target state="final">Seulement le décor</target>
       </trans-unit>
+      <trans-unit id="4220" xml:space="preserve" approved="yes">
+        <source>4220</source>
+        <target state="final">Aperçu du thème sombre</target>
+      </trans-unit>
+      <trans-unit id="4221" xml:space="preserve" approved="yes">
+        <source>4221</source>
+        <target state="final">Aperçu du thème clair</target>
+      </trans-unit>
+      <trans-unit id="4222" xml:space="preserve" approved="yes">
+        <source>4222</source>
+        <target state="final">Aperçu du thème FF classique</target>
+      </trans-unit>
+      <trans-unit id="4223" xml:space="preserve" approved="yes">
+        <source>4223</source>
+        <target state="final">Aperçu du thème bleu clair</target>
+      </trans-unit>
+      <trans-unit id="4224" xml:space="preserve" approved="yes">
+        <source>4224</source>
+        <target state="final">Aperçu du thème gris clair</target>
+      </trans-unit>
+      <trans-unit id="4225" xml:space="preserve" approved="yes">
+        <source>4225</source>
+        <target state="final">Aperçu du thème vert clair</target>
+      </trans-unit>
       <trans-unit id="4232" xml:space="preserve" approved="yes">
         <source>4232</source>
         <target state="final">Sombre</target>
@@ -14528,6 +14589,14 @@ Les paramètres précédents seront rétablis dans &lt;var 20 E802 /var&gt; &lt;
       <trans-unit id="4235" xml:space="preserve" approved="yes">
         <source>4235</source>
         <target state="final">Bleu clair</target>
+      </trans-unit>
+      <trans-unit id="4236" xml:space="preserve" approved="yes">
+        <source>4236</source>
+        <target state="final">Gris clair</target>
+      </trans-unit>
+      <trans-unit id="4237" xml:space="preserve" approved="yes">
+        <source>4237</source>
+        <target state="final">Vert clair</target>
       </trans-unit>
       <trans-unit id="4245" xml:space="preserve" approved="yes">
         <source>4245</source>
@@ -16706,6 +16775,10 @@ Rang&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;</target>
         <source>4856</source>
         <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Les objets collectionnables ne peuvent pas être fabriqués lors des synthèses rapides.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
+      <trans-unit id="4857" xml:space="preserve" approved="yes">
+        <source>4857</source>
+        <target state="final">Fabriquer en QN uniquement</target>
+      </trans-unit>
       <trans-unit id="4860" xml:space="preserve" approved="yes">
         <source>4860</source>
         <target state="final">Réinitialiser</target>
@@ -16833,6 +16906,10 @@ Rang&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;</target>
       <trans-unit id="4895" xml:space="preserve" approved="yes">
         <source>4895</source>
         <target state="final">Exécuter la macro n°99 (Personnage actuel)</target>
+      </trans-unit>
+      <trans-unit id="4896" xml:space="preserve" approved="yes">
+        <source>4896</source>
+        <target state="final">Accès rapide</target>
       </trans-unit>
       <trans-unit id="4897" xml:space="preserve" approved="yes">
         <source>4897</source>
@@ -19585,6 +19662,10 @@ Continuer&lt;var 1D /var&gt;?</target>
       <trans-unit id="5868" xml:space="preserve" approved="yes">
         <source>5868</source>
         <target state="final">Recyclage terminé</target>
+      </trans-unit>
+      <trans-unit id="5869" xml:space="preserve" approved="yes">
+        <source>5869</source>
+        <target state="final">Obtenir des objets QN uniquement</target>
       </trans-unit>
       <trans-unit id="5880" xml:space="preserve" approved="yes">
         <source>5880</source>
@@ -33009,6 +33090,11 @@ après avoir terminé la quête de l'épopée “&lt;var 08 E1E80301 ((???)) ((&
         <source>9896</source>
         <target state="final">--/--/----</target>
       </trans-unit>
+      <trans-unit id="9897" xml:space="preserve" approved="yes">
+        <source>9897</source>
+        <target state="final">Échangeable auprès de &lt;var 28 ((ENpcResident)) F60FF16701 /var&gt; au square des merveilles du Gold Saucer,
+après avoir terminé la quête “&lt;var 08 E1E80401 ((???)) ((&lt;var 29 EA03 /var&gt;)) /var&gt;” de l'extension “&lt;var 28 ((ExVersion)) E80201 /var&gt;”.</target>
+      </trans-unit>
       <trans-unit id="9979" xml:space="preserve" approved="yes">
         <source>9979</source>
         <target state="final">Récompense</target>
@@ -33564,6 +33650,18 @@ Confirmer&lt;var 1D /var&gt;?</target>
       <trans-unit id="10115" xml:space="preserve" approved="yes">
         <source>10115</source>
         <target state="final">&lt;var 08 E4E802E803 ((&lt;var 20 E802 /var&gt; joueur&lt;var 08 E2E80202 (()) ((s)) /var&gt;)) ((&lt;var 20 E802 /var&gt; à &lt;var 20 E803 /var&gt; joueur&lt;var 08 E2E80302 (()) ((s)) /var&gt;)) /var&gt;&lt;var 08 E1E80302 (( (&lt;var 20 E804 /var&gt; tank&lt;var 08 E2E80402 (()) ((s)) /var&gt;, &lt;var 20 E805 /var&gt; soigneur&lt;var 08 E2E80502 (()) ((s)) /var&gt; pur&lt;var 08 E2E80502 (()) ((s)) /var&gt;, &lt;var 20 E805 /var&gt; soigneur&lt;var 08 E2E80602 (()) ((s)) /var&gt; axé&lt;var 08 E2E80602 (()) ((s)) /var&gt; barrières, &lt;var 20 E807 /var&gt; DPS de mêlée, &lt;var 20 E808 /var&gt; DPS à distance physique&lt;var 08 E2E80802 (()) ((s)) /var&gt;, &lt;var 20 E809 /var&gt; DPS à distance magique&lt;var 08 E2E80902 (()) ((s)) /var&gt;, &lt;var 20 E80A /var&gt; DPS libre&lt;var 08 E2E80A02 (()) ((s)) /var&gt;))) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="10116" xml:space="preserve" approved="yes">
+        <source>10116</source>
+        <target state="final">[Récompense du carnet d'objectifs]</target>
+      </trans-unit>
+      <trans-unit id="10117" xml:space="preserve" approved="yes">
+        <source>10117</source>
+        <target state="final">* Obtenable uniquement en mission.</target>
+      </trans-unit>
+      <trans-unit id="10118" xml:space="preserve" approved="yes">
+        <source>10118</source>
+        <target state="final">Accepter</target>
       </trans-unit>
       <trans-unit id="10119" xml:space="preserve" approved="yes">
         <source>10119</source>
@@ -34643,9 +34741,9 @@ Vous pourrez obtenir l'objet requis en échange de médailles Yo-kai. Ces derni�
         <source>10404</source>
         <target state="final">Commencer</target>
       </trans-unit>
-      <trans-unit id="10405" xml:space="preserve" approved="no">
+      <trans-unit id="10405" xml:space="preserve" approved="yes">
         <source>10405</source>
-        <target state="needs-translation">&lt;var 09 E803 ((Sous-sol &lt;var 20 E802 /var&gt;)) ((Étage &lt;var 20 E802 /var&gt;)) ((Zone &lt;var 20 E802 /var&gt;)) /var&gt;</target>
+        <target state="final">&lt;var 09 E803 ((Sous-sol &lt;var 20 E802 /var&gt;)) ((Étage &lt;var 20 E802 /var&gt;)) ((Zone &lt;var 20 E802 /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="10406" xml:space="preserve" approved="yes">
         <source>10406</source>
@@ -34678,9 +34776,9 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
         <source>10411</source>
         <target state="final">Accepter et effectuer la conversion</target>
       </trans-unit>
-      <trans-unit id="10412" xml:space="preserve" approved="no">
+      <trans-unit id="10412" xml:space="preserve" approved="yes">
         <source>10412</source>
-        <target state="needs-translation">Effacer la sauvegarde afin de recommencer depuis le début&lt;var 1D /var&gt;?
+        <target state="final">Effacer la sauvegarde afin de recommencer depuis le début&lt;var 1D /var&gt;?
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Ce choix réinitialisera la progression et le niveau, mais les degrés d'amélioration du &lt;var 2F ((&lt;var 29 EA02 /var&gt;)) /var&gt; et du &lt;var 2F ((&lt;var 29 EA03 /var&gt;)) /var&gt; seront conservés.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
@@ -34842,9 +34940,9 @@ Une sauvegarde en groupement automatique permet de former une équipe avec des j
         <source>10452</source>
         <target state="final">Il est nécessaire d'obtenir l'accès aux &lt;var 09 E802 ((sous-sols suivants)) ((étages suivants)) ((zones suivantes)) /var&gt; pour progresser.</target>
       </trans-unit>
-      <trans-unit id="10453" xml:space="preserve" approved="no">
+      <trans-unit id="10453" xml:space="preserve" approved="yes">
         <source>10453</source>
-        <target state="needs-translation">Cette option n'est disponible qu'avec une sauvegarde qui ne compte aucune défaite.</target>
+        <target state="final">Cette option n'est disponible qu'avec une sauvegarde qui ne compte aucune défaite.</target>
       </trans-unit>
       <trans-unit id="10454" xml:space="preserve" approved="yes">
         <source>10454</source>
@@ -39940,12 +40038,6 @@ Coût en teinture&lt;var 1D /var&gt;:</target>
         <source>11987</source>
         <target state="final"> - Pieds</target>
       </trans-unit>
-      <trans-unit id="11988" xml:space="preserve" approved="yes">
-        <source>11988</source>
-        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Des mirages d'équipement de divers jobs/classes ayant été sélectionnés, certains pourront ne pas apparaître après application.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-
-</target>
-      </trans-unit>
       <trans-unit id="11989" xml:space="preserve" approved="yes">
         <source>11989</source>
         <target state="final">Aucun objet rangé pour la catégorie “&lt;var 29 EA02 /var&gt;”.</target>
@@ -39968,7 +40060,7 @@ Coût en teinture&lt;var 1D /var&gt;:</target>
       </trans-unit>
       <trans-unit id="11994" xml:space="preserve" approved="yes">
         <source>11994</source>
-        <target state="final">Utiliser &lt;var 33 ((Item)) 02E8020202 /var&gt; pour transformer l'équipement sélectionné en mirage et le placer dans la coiffeuse&lt;var 1D /var&gt;?
+        <target state="final">Utiliser &lt;var 33 ((Item)) 02E8020202 /var&gt; pour transformer l'objet sélectionné en mirage et le placer dans la coiffeuse&lt;var 1D /var&gt;?
 Cette opération a les effets suivants&lt;var 1D /var&gt;:
   - Retire les signatures, les matérias serties, les mirages, les blasons et certains bonus des équipements éthéréens.
   - Réinitialise le taux de symbiose à 0% et la condition à 100%.
@@ -39976,7 +40068,7 @@ Cette opération a les effets suivants&lt;var 1D /var&gt;:
       </trans-unit>
       <trans-unit id="11995" xml:space="preserve" approved="yes">
         <source>11995</source>
-        <target state="final">Utiliser &lt;var 20 E803 /var&gt; &lt;var 33 ((Item)) 0DE8020302 /var&gt; pour transformer tous les équipements sélectionnés en mirage d'ensemble et les placer dans la coiffeuse&lt;var 1D /var&gt;?
+        <target state="final">Utiliser &lt;var 20 E803 /var&gt; &lt;var 33 ((Item)) 0DE8020302 /var&gt; pour transformer tous les objets sélectionnés en mirage d'ensemble et les placer dans la coiffeuse&lt;var 1D /var&gt;?
 Cette opération a les effets suivants&lt;var 1D /var&gt;:
   - Retire les signatures, les matérias serties, les teintures, les mirages, les blasons et certains bonus des équipements éthéréens.
   - Réinitialise le taux de symbiose à 0% et la condition à 100%.
@@ -40733,7 +40825,9 @@ Cette manipulation affectera toutes les linkshells inter-Monde, peu importe leur
       </trans-unit>
       <trans-unit id="12187" xml:space="preserve" approved="yes">
         <source>12187</source>
-        <target state="final">Effacer le mirage en utilisant &lt;var 08 E4E80302 ((&lt;var 33 ((Item)) 02E8020202 /var&gt;)) ((&lt;var 20 E803 /var&gt; &lt;var 33 ((Item)) 0DE8020302 /var&gt;)) /var&gt;&lt;var 1D /var&gt;? La pièce d'équipement retrouvera son apparence d'origine.</target>
+        <target state="final">Effacer le mirage en utilisant &lt;var 08 E4E80302 ((&lt;var 33 ((Item)) 02E8020202 /var&gt;)) ((&lt;var 20 E803 /var&gt; &lt;var 33 ((Item)) 0DE8020302 /var&gt;)) /var&gt;&lt;var 1D /var&gt;? &lt;var 08 E4E80302 ((La pièce d'équipement retrouvera son)) ((Les pièces d'équipement retrouveront leur)) /var&gt; apparence d'origine.
+
+* Les teintures seront réinitialisées et le blason retiré.</target>
       </trans-unit>
       <trans-unit id="12188" xml:space="preserve" approved="yes">
         <source>12188</source>
@@ -46947,6 +47041,19 @@ Le personnage retourne à sa position neutre une fois le mouvement effectué.</t
         <target state="final">L'aberration chromatique est un phénomène de distorsion des couleurs lorsque la lumière passe à travers une lentille.
 Ce paramètre ajoute un liseré rouge, bleu et vert au niveau des bords de l'écran pour un effet des plus saisissant.</target>
       </trans-unit>
+      <trans-unit id="14029" xml:space="preserve" approved="yes">
+        <source>14029</source>
+        <target state="final">Affiche un aperçu de la capture d'écran en mode portrait.</target>
+      </trans-unit>
+      <trans-unit id="14030" xml:space="preserve" approved="yes">
+        <source>14030</source>
+        <target state="final">Active le mode portait pour prendre une capture d'écran à la verticale.
+* La capture d'écran ne s'effectue pas au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment, il est toujours nécessaire de la prendre manuellement.</target>
+      </trans-unit>
+      <trans-unit id="14031" xml:space="preserve" approved="yes">
+        <source>14031</source>
+        <target state="final">Déverrouiller le ratio d'aspect</target>
+      </trans-unit>
       <trans-unit id="14050" xml:space="preserve" approved="yes">
         <source>14050</source>
         <target state="final">Autocollants</target>
@@ -47482,6 +47589,30 @@ L'état des matériaux deviendra bon au prochain tour.</target>
       <trans-unit id="14216" xml:space="preserve" approved="yes">
         <source>14216</source>
         <target state="final">Aucun objet de cette recette ne requiert d'expertise.</target>
+      </trans-unit>
+      <trans-unit id="14220" xml:space="preserve" approved="yes">
+        <source>14220</source>
+        <target state="final">Sélectionnez les paramètres de la synthèse d'essai.</target>
+      </trans-unit>
+      <trans-unit id="14221" xml:space="preserve" approved="yes">
+        <source>14221</source>
+        <target state="final">Qualité initiale</target>
+      </trans-unit>
+      <trans-unit id="14222" xml:space="preserve" approved="yes">
+        <source>14222</source>
+        <target state="final">Qualité max.&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14223" xml:space="preserve" approved="yes">
+        <source>14223</source>
+        <target state="final">Verrouiller l'état à “Normal”</target>
+      </trans-unit>
+      <trans-unit id="14224" xml:space="preserve" approved="yes">
+        <source>14224</source>
+        <target state="final">Synthèse d'essai</target>
+      </trans-unit>
+      <trans-unit id="14225" xml:space="preserve" approved="yes">
+        <source>14225</source>
+        <target state="final">Annuler</target>
       </trans-unit>
       <trans-unit id="14250" xml:space="preserve" approved="yes">
         <source>14250</source>
@@ -48368,6 +48499,391 @@ Utilisez les touches directionnelles vers le haut ou le bas pour voir l'historiq
       <trans-unit id="14498" xml:space="preserve" approved="yes">
         <source>14498</source>
         <target state="final">&lt;var 20 E802 /var&gt; s avant la dissipation du vent turbulent...</target>
+      </trans-unit>
+      <trans-unit id="14500" xml:space="preserve" approved="yes">
+        <source>14500</source>
+        <target state="final">Liste des tableaux stratégiques</target>
+      </trans-unit>
+      <trans-unit id="14502" xml:space="preserve" approved="yes">
+        <source>14502</source>
+        <target state="final">Afficher l'aide</target>
+      </trans-unit>
+      <trans-unit id="14504" xml:space="preserve" approved="yes">
+        <source>14504</source>
+        <target state="final">Créer un tableau</target>
+      </trans-unit>
+      <trans-unit id="14506" xml:space="preserve" approved="yes">
+        <source>14506</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14507" xml:space="preserve" approved="yes">
+        <source>14507</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14508" xml:space="preserve" approved="yes">
+        <source>14508</source>
+        <target state="final">Modifier</target>
+      </trans-unit>
+      <trans-unit id="14509" xml:space="preserve" approved="yes">
+        <source>14509</source>
+        <target state="final">Partager à l'équipe</target>
+      </trans-unit>
+      <trans-unit id="14510" xml:space="preserve" approved="yes">
+        <source>14510</source>
+        <target state="final">Visualiser</target>
+      </trans-unit>
+      <trans-unit id="14511" xml:space="preserve" approved="yes">
+        <source>14511</source>
+        <target state="final">Renommer</target>
+      </trans-unit>
+      <trans-unit id="14512" xml:space="preserve" approved="yes">
+        <source>14512</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14513" xml:space="preserve" approved="yes">
+        <source>14513</source>
+        <target state="final">Placer en premier</target>
+      </trans-unit>
+      <trans-unit id="14514" xml:space="preserve" approved="yes">
+        <source>14514</source>
+        <target state="final">Avancer d'une position</target>
+      </trans-unit>
+      <trans-unit id="14515" xml:space="preserve" approved="yes">
+        <source>14515</source>
+        <target state="final">Reculer d'une position</target>
+      </trans-unit>
+      <trans-unit id="14516" xml:space="preserve" approved="yes">
+        <source>14516</source>
+        <target state="final">Placer en dernier</target>
+      </trans-unit>
+      <trans-unit id="14517" xml:space="preserve" approved="yes">
+        <source>14517</source>
+        <target state="final">Supprimer</target>
+      </trans-unit>
+      <trans-unit id="14519" xml:space="preserve" approved="yes">
+        <source>14519</source>
+        <target state="final">Saisissez l'intitulé</target>
+      </trans-unit>
+      <trans-unit id="14520" xml:space="preserve" approved="yes">
+        <source>14520</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14521" xml:space="preserve" approved="yes">
+        <source>14521</source>
+        <target state="final">Voulez-vous vraiment supprimer “&lt;var 29 EA02 /var&gt;”&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="14522" xml:space="preserve" approved="yes">
+        <source>14522</source>
+        <target state="final">Modification de tableau stratégique</target>
+      </trans-unit>
+      <trans-unit id="14524" xml:space="preserve" approved="yes">
+        <source>14524</source>
+        <target state="final">Ajout d'objets</target>
+      </trans-unit>
+      <trans-unit id="14525" xml:space="preserve" approved="yes">
+        <source>14525</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14526" xml:space="preserve" approved="yes">
+        <source>14526</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14527" xml:space="preserve" approved="yes">
+        <source>14527</source>
+        <target state="final">Modification en temps réél</target>
+      </trans-unit>
+      <trans-unit id="14528" xml:space="preserve" approved="yes">
+        <source>14528</source>
+        <target state="final">Annuler</target>
+      </trans-unit>
+      <trans-unit id="14529" xml:space="preserve" approved="yes">
+        <source>14529</source>
+        <target state="final">Rétablir</target>
+      </trans-unit>
+      <trans-unit id="14530" xml:space="preserve" approved="yes">
+        <source>14530</source>
+        <target state="final">Affichage de la grille</target>
+      </trans-unit>
+      <trans-unit id="14531" xml:space="preserve" approved="yes">
+        <source>14531</source>
+        <target state="final">Ancrage sur la grille</target>
+      </trans-unit>
+      <trans-unit id="14532" xml:space="preserve" approved="yes">
+        <source>14532</source>
+        <target state="final">Ancrage des objets</target>
+      </trans-unit>
+      <trans-unit id="14533" xml:space="preserve" approved="yes">
+        <source>14533</source>
+        <target state="final">Disposition des calques</target>
+      </trans-unit>
+      <trans-unit id="14534" xml:space="preserve" approved="yes">
+        <source>14534</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14536" xml:space="preserve" approved="yes">
+        <source>14536</source>
+        <target state="final">Réglages prédéfinis du tableau stratégique</target>
+      </trans-unit>
+      <trans-unit id="14538" xml:space="preserve" approved="yes">
+        <source>14538</source>
+        <target state="final">&lt;var 08 E4E95101 ((Déplacer Redimensionner Sous-menu &lt;var 08 E4EA02EB01 ((&lt;var 08 E4EA03EB01 (()) ((&lt;var 29 EA03 /var&gt;Tourner)) /var&gt;)) ((&lt;var 08 E4EA03EB01 ((&lt;var 29 EA02 /var&gt;Tourner)) ((&lt;var 29 EA02 /var&gt;&lt;var 29 EA03 /var&gt;Tourner)) /var&gt;)) /var&gt;)) ((&lt;var 1E 15 /var&gt;Déplacer le curseur &lt;var 1E 0C /var&gt;Sélection multiple &lt;var 1E 0B /var&gt;Sous-menu)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14539" xml:space="preserve" approved="yes">
+        <source>14539</source>
+        <target state="final">&lt;var 08 E4E95101 ((Placer Redimensionner Sous-menu &lt;var 08 E4EA02EB01 ((&lt;var 08 E4EA03EB01 (()) ((&lt;var 29 EA03 /var&gt;Tourner)) /var&gt;)) ((&lt;var 08 E4EA03EB01 ((&lt;var 29 EA02 /var&gt;Tourner)) ((&lt;var 29 EA02 /var&gt;&lt;var 29 EA03 /var&gt;Tourner)) /var&gt;)) /var&gt;)) ((&lt;var 1E 15 /var&gt;Déplacer &lt;var 1E 19 /var&gt;Redimensionner &lt;var 1E 0B /var&gt;Sous-menu &lt;var 1E 0D /var&gt;&lt;var 1E 0E /var&gt;Tourner)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14540" xml:space="preserve" approved="yes">
+        <source>14540</source>
+        <target state="final">Disposition des calques</target>
+      </trans-unit>
+      <trans-unit id="14541" xml:space="preserve" approved="yes">
+        <source>14541</source>
+        <target state="final">Valider</target>
+      </trans-unit>
+      <trans-unit id="14542" xml:space="preserve" approved="yes">
+        <source>14542</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="14543" xml:space="preserve" approved="yes">
+        <source>14543</source>
+        <target state="final">Ajout d'objets</target>
+      </trans-unit>
+      <trans-unit id="14545" xml:space="preserve" approved="yes">
+        <source>14545</source>
+        <target state="final">Tableau stratégique</target>
+      </trans-unit>
+      <trans-unit id="14546" xml:space="preserve" approved="yes">
+        <source>14546</source>
+        <target state="final">Partage de tableau</target>
+      </trans-unit>
+      <trans-unit id="14547" xml:space="preserve" approved="yes">
+        <source>14547</source>
+        <target state="final">Partage en temps réel</target>
+      </trans-unit>
+      <trans-unit id="14548" xml:space="preserve" approved="yes">
+        <source>14548</source>
+        <target state="final">Un personnage de votre liste noire souhaite partager un tableau stratégique. Confirmer&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="14549" xml:space="preserve" approved="yes">
+        <source>14549</source>
+        <target state="final">Un personnage de votre liste noire souhaite partager un tableau stratégique. Confirmer&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="14550" xml:space="preserve" approved="yes">
+        <source>14550</source>
+        <target state="final">Le partage en temps réel du &lt;var 08 E4E80201 ((tableau stratégique)) ((dossier)) /var&gt; “&lt;var 29 EA03 /var&gt;” va commencer.
+Tous les changements seront enregistrés au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment. Continuer&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="14552" xml:space="preserve" approved="yes">
+        <source>14552</source>
+        <target state="final">Alignement de la sélection</target>
+      </trans-unit>
+      <trans-unit id="14553" xml:space="preserve" approved="yes">
+        <source>14553</source>
+        <target state="final">Vertical</target>
+      </trans-unit>
+      <trans-unit id="14554" xml:space="preserve" approved="yes">
+        <source>14554</source>
+        <target state="final">Horizontal</target>
+      </trans-unit>
+      <trans-unit id="14555" xml:space="preserve" approved="yes">
+        <source>14555</source>
+        <target state="final">Modifier le texte</target>
+      </trans-unit>
+      <trans-unit id="14556" xml:space="preserve" approved="yes">
+        <source>14556</source>
+        <target state="final">Modifier la couleur</target>
+      </trans-unit>
+      <trans-unit id="14557" xml:space="preserve" approved="yes">
+        <source>14557</source>
+        <target state="final">Dupliquer la sélection</target>
+      </trans-unit>
+      <trans-unit id="14558" xml:space="preserve" approved="yes">
+        <source>14558</source>
+        <target state="final">Cacher la sélection</target>
+      </trans-unit>
+      <trans-unit id="14559" xml:space="preserve" approved="yes">
+        <source>14559</source>
+        <target state="final">Afficher la sélection</target>
+      </trans-unit>
+      <trans-unit id="14560" xml:space="preserve" approved="yes">
+        <source>14560</source>
+        <target state="final">Premier plan</target>
+      </trans-unit>
+      <trans-unit id="14561" xml:space="preserve" approved="yes">
+        <source>14561</source>
+        <target state="final">Avancer d'un niveau</target>
+      </trans-unit>
+      <trans-unit id="14562" xml:space="preserve" approved="yes">
+        <source>14562</source>
+        <target state="final">Reculer d'un niveau</target>
+      </trans-unit>
+      <trans-unit id="14563" xml:space="preserve" approved="yes">
+        <source>14563</source>
+        <target state="final">Arrière-plan</target>
+      </trans-unit>
+      <trans-unit id="14564" xml:space="preserve" approved="yes">
+        <source>14564</source>
+        <target state="final">Supprimer la sélection</target>
+      </trans-unit>
+      <trans-unit id="14565" xml:space="preserve" approved="yes">
+        <source>14565</source>
+        <target state="final">Retour à la liste</target>
+      </trans-unit>
+      <trans-unit id="14566" xml:space="preserve" approved="yes">
+        <source>14566</source>
+        <target state="final">Enregistrer</target>
+      </trans-unit>
+      <trans-unit id="14567" xml:space="preserve" approved="yes">
+        <source>14567</source>
+        <target state="final">Réduire</target>
+      </trans-unit>
+      <trans-unit id="14568" xml:space="preserve" approved="yes">
+        <source>14568</source>
+        <target state="final">Agrandir</target>
+      </trans-unit>
+      <trans-unit id="14569" xml:space="preserve" approved="yes">
+        <source>14569</source>
+        <target state="final">Paramètres de visualisation</target>
+      </trans-unit>
+      <trans-unit id="14570" xml:space="preserve" approved="yes">
+        <source>14570</source>
+        <target state="final">Tableaux enregistrés</target>
+      </trans-unit>
+      <trans-unit id="14571" xml:space="preserve" approved="yes">
+        <source>14571</source>
+        <target state="final">Tableaux partagés</target>
+      </trans-unit>
+      <trans-unit id="14572" xml:space="preserve" approved="yes">
+        <source>14572</source>
+        <target state="final">Tableaux enregistrés</target>
+      </trans-unit>
+      <trans-unit id="14573" xml:space="preserve" approved="yes">
+        <source>14573</source>
+        <target state="final">Tableaux partagés</target>
+      </trans-unit>
+      <trans-unit id="14574" xml:space="preserve" approved="yes">
+        <source>14574</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14575" xml:space="preserve" approved="yes">
+        <source>14575</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14576" xml:space="preserve" approved="yes">
+        <source>14576</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14577" xml:space="preserve" approved="yes">
+        <source>14577</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14578" xml:space="preserve" approved="yes">
+        <source>14578</source>
+        <target state="final">Les changements ne seront pas sauvegardés. Confirmer&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="14579" xml:space="preserve" approved="yes">
+        <source>14579</source>
+        <target state="final">Tableau stratégique</target>
+      </trans-unit>
+      <trans-unit id="14581" xml:space="preserve" approved="yes">
+        <source>14581</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14582" xml:space="preserve" approved="yes">
+        <source>14582</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14583" xml:space="preserve" approved="yes">
+        <source>14583</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14584" xml:space="preserve" approved="yes">
+        <source>14584</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14585" xml:space="preserve" approved="yes">
+        <source>14585</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14586" xml:space="preserve" approved="yes">
+        <source>14586</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14587" xml:space="preserve" approved="yes">
+        <source>14587</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14588" xml:space="preserve" approved="yes">
+        <source>14588</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14589" xml:space="preserve" approved="yes">
+        <source>14589</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14590" xml:space="preserve" approved="yes">
+        <source>14590</source>
+        <target state="final">&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14591" xml:space="preserve" approved="yes">
+        <source>14591</source>
+        <target state="final">X&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt; / Y&lt;var 1D /var&gt;: &lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14592" xml:space="preserve" approved="yes">
+        <source>14592</source>
+        <target state="final">Aucun objet sélectionné</target>
+      </trans-unit>
+      <trans-unit id="14596" xml:space="preserve" approved="yes">
+        <source>14596</source>
+        <target state="final">Inverser horizontalement</target>
+      </trans-unit>
+      <trans-unit id="14597" xml:space="preserve" approved="yes">
+        <source>14597</source>
+        <target state="final">Inverser verticalement</target>
+      </trans-unit>
+      <trans-unit id="14598" xml:space="preserve" approved="yes">
+        <source>14598</source>
+        <target state="final">Inverser horizontalement</target>
+      </trans-unit>
+      <trans-unit id="14599" xml:space="preserve" approved="yes">
+        <source>14599</source>
+        <target state="final">Inverser verticalement</target>
+      </trans-unit>
+      <trans-unit id="14600" xml:space="preserve" approved="yes">
+        <source>14600</source>
+        <target state="final">Aucun objet.</target>
+      </trans-unit>
+      <trans-unit id="14605" xml:space="preserve" approved="yes">
+        <source>14605</source>
+        <target state="final">Partager en temps réel</target>
+      </trans-unit>
+      <trans-unit id="14608" xml:space="preserve" approved="yes">
+        <source>14608</source>
+        <target state="final">ストラテジーボード&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14609" xml:space="preserve" approved="yes">
+        <source>14609</source>
+        <target state="final">Dupliquer</target>
+      </trans-unit>
+      <trans-unit id="14610" xml:space="preserve" approved="yes">
+        <source>14610</source>
+        <target state="final">Paramètres de grou&lt;var 16 /var&gt;page</target>
+      </trans-unit>
+      <trans-unit id="14612" xml:space="preserve" approved="yes">
+        <source>14612</source>
+        <target state="final">Objets</target>
+      </trans-unit>
+      <trans-unit id="14613" xml:space="preserve" approved="yes">
+        <source>14613</source>
+        <target state="final">Liens</target>
+      </trans-unit>
+      <trans-unit id="14614" xml:space="preserve" approved="yes">
+        <source>14614</source>
+        <target state="final">&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14619" xml:space="preserve" approved="yes">
+        <source>14619</source>
+        <target state="final">Un ou plusieurs objets sélectionnés font partie d'un autre groupe. Les désolidariser pour les inclure dans ce nouveau groupe&lt;var 1D /var&gt;?</target>
       </trans-unit>
       <trans-unit id="14620" xml:space="preserve" approved="yes">
         <source>14620</source>
@@ -51065,7 +51581,7 @@ Souhaitez-vous tout de même les envoyer&lt;var 1D /var&gt;?</target>
       </trans-unit>
       <trans-unit id="15403" xml:space="preserve" approved="yes">
         <source>15403</source>
-        <target state="final">Donjons alternatifs</target>
+        <target state="final">Donjons sup&lt;var 16 /var&gt;plé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;res</target>
       </trans-unit>
       <trans-unit id="15404" xml:space="preserve" approved="yes">
         <source>15404</source>
@@ -51183,6 +51699,16 @@ Réinitialisation de la mission en cas défaite)) /var&gt;)) (()) /var&gt;</targ
       <trans-unit id="15432" xml:space="preserve" approved="yes">
         <source>15432</source>
         <target state="final">Pour pouvoir lire le journal d'exploration, vous devez avoir terminé la quête “&lt;var 28 ((Quest)) E80201 /var&gt;”.</target>
+      </trans-unit>
+      <trans-unit id="15439" xml:space="preserve" approved="yes">
+        <source>15439</source>
+        <target state="final">&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;)) 02 /var&gt; à &lt;var 20 E802 /var&gt; joueurs</target>
+      </trans-unit>
+      <trans-unit id="15440" xml:space="preserve" approved="yes">
+        <source>15440</source>
+        <target state="final">Fermer la fenêtre sans voter&lt;var 1D /var&gt;?
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Elle peut être réouverte en cliquant sur la notification avant la fin du temps imparti.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15450" xml:space="preserve" approved="yes">
         <source>15450</source>
@@ -51818,7 +52344,7 @@ Prismes mirage nécessaires&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt; (Possé
       </trans-unit>
       <trans-unit id="15626" xml:space="preserve" approved="yes">
         <source>15626</source>
-        <target state="final">Cet équipement est composé d'un ensemble de mirages. En lui rendant son apparence d'origine, vous ramènerez dans leur état initial chaque équipement dont il est composé. Souhaitez-vous continuer ?</target>
+        <target state="final">Les mirages suivants font partie d'un mirage d'ensemble. En procédant, vous retransformerez chacun d'entre eux en objets. Souhaitez-vous continuer&lt;var 1D /var&gt;?</target>
       </trans-unit>
       <trans-unit id="15627" xml:space="preserve" approved="yes">
         <source>15627</source>
@@ -51854,7 +52380,7 @@ Prismes mirage nécessaires&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt; (Possé
       </trans-unit>
       <trans-unit id="15636" xml:space="preserve" approved="yes">
         <source>15636</source>
-        <target state="final">Objets transformables en mirage d'ensemble</target>
+        <target state="final">Objet transformable en mirage d'ensemble</target>
       </trans-unit>
       <trans-unit id="15637" xml:space="preserve" approved="yes">
         <source>15637</source>
@@ -51882,7 +52408,7 @@ Prismes mirage nécessaires&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt; (Possé
       </trans-unit>
       <trans-unit id="15643" xml:space="preserve" approved="yes">
         <source>15643</source>
-        <target state="final">Objets transformés en mirage d'ensemble</target>
+        <target state="final">Objet transformé en mirage d'ensemble</target>
       </trans-unit>
       <trans-unit id="15644" xml:space="preserve" approved="yes">
         <source>15644</source>
@@ -51903,6 +52429,35 @@ Prismes mirage nécessaires&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt; (Possé
       <trans-unit id="15648" xml:space="preserve" approved="yes">
         <source>15648</source>
         <target state="final">Objets déjà transformés</target>
+      </trans-unit>
+      <trans-unit id="15659" xml:space="preserve" approved="yes">
+        <source>15659</source>
+        <target state="final">Possédés</target>
+      </trans-unit>
+      <trans-unit id="15660" xml:space="preserve" approved="yes">
+        <source>15660</source>
+        <target state="final">&lt;var 08 E1E802F203E7 ((999+)) ((&lt;var 20 E802 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="15661" xml:space="preserve" approved="yes">
+        <source>15661</source>
+        <target state="final">Ajout d'objets manquants</target>
+      </trans-unit>
+      <trans-unit id="15663" xml:space="preserve" approved="yes">
+        <source>15663</source>
+        <target state="final">Cet objet appartient à un ensemble complet existant.
+Ranger et ajouter au mirage d'ensemble&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="15664" xml:space="preserve" approved="yes">
+        <source>15664</source>
+        <target state="final">Permet d'ajouter des objets manquants à l'ensemble complet sélectionné.</target>
+      </trans-unit>
+      <trans-unit id="15665" xml:space="preserve" approved="yes">
+        <source>15665</source>
+        <target state="final">Transforme les objets sélectionnés en mirages. Un prisme mirage est nécessaire par objet.</target>
+      </trans-unit>
+      <trans-unit id="15666" xml:space="preserve" approved="yes">
+        <source>15666</source>
+        <target state="final">Objet déjà entreposé.</target>
       </trans-unit>
       <trans-unit id="15700" xml:space="preserve" approved="yes">
         <source>15700</source>
@@ -52574,7 +53129,7 @@ Nv &lt;var 20 E808 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15955" xml:space="preserve" approved="yes">
         <source>15955</source>
-        <target state="final">Conquérir &lt;var 09 E803 ((le &lt;var 20 E804 /var&gt;e sous-sol)) ((le &lt;var 20 E804 /var&gt;e étage)) ((la &lt;var 20 E804 /var&gt;e zone)) /var&gt; du &lt;var 29 EA02 /var&gt;. &lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;</target>
+        <target state="final">Conquérir &lt;var 08 E1E80401 ((&lt;var 09 E803 ((le &lt;var 20 E804 /var&gt;e sous-sol)) ((le &lt;var 20 E804 /var&gt;e étage)) ((la &lt;var 20 E804 /var&gt;e zone)) /var&gt; du &lt;var 29 EA02 /var&gt;. &lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;)) ((&lt;var 08 E4E80304 ((un étage)) ((une zone)) /var&gt; du &lt;var 29 EA02 /var&gt;. &lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="15956" xml:space="preserve" approved="yes">
         <source>15956</source>
@@ -52583,11 +53138,12 @@ Nv &lt;var 20 E808 /var&gt;</target>
       <trans-unit id="15957" xml:space="preserve" approved="yes">
         <source>15957</source>
         <target state="final">&lt;var 08 E4E80203 ((&lt;var 08 E1E8031F ((
-&lt;var 28 ((Addon)) F23E5401E802 /var&gt;)) (()) /var&gt;)) (()) /var&gt;</target>
+&lt;var 28 ((Addon)) F23E5401E802 /var&gt;)) (()) /var&gt;)) ((&lt;var 08 E4E80205 ((
+&lt;var 28 ((Addon)) F2429101E802 /var&gt;)) (()) /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="15958" xml:space="preserve" approved="yes">
         <source>15958</source>
-        <target state="final">&lt;var 28 ((Addon)) F23E5301 ((&lt;var 28 ((PlaceName)) ((&lt;var 28 ((TerritoryType)) ((&lt;var 28 ((ContentFinderCondition)) ((&lt;var 28 ((InstanceContent)) E80609 /var&gt;)) 02 /var&gt;)) 06 /var&gt;)) 01 /var&gt;)) E80FE80DE811 /var&gt;</target>
+        <target state="final">&lt;var 28 ((Addon)) F23E5301 ((&lt;var 28 ((PlaceName)) E81301 /var&gt;)) E80FE80DE811 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15959" xml:space="preserve" approved="yes">
         <source>15959</source>
@@ -53278,6 +53834,39 @@ Les ombres sont au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;t
       <trans-unit id="16144" xml:space="preserve" approved="yes">
         <source>16144</source>
         <target state="final">Limite le taux de rafraîchissement à 30 img/s.</target>
+      </trans-unit>
+      <trans-unit id="16145" xml:space="preserve" approved="yes">
+        <source>16145</source>
+        <target state="final">La repré&lt;var 16 /var&gt;sen&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;tion visuelle des sons permet d'afficher à l'écran les ondes sonores émises dans le jeu.
+La provenance des sons est indiquée à gauche et à droite de l'écran selon la position de la caméra et ils sont séparés en trois couleurs distinctes.
+Rouge&lt;var 1D /var&gt;: Sons système
+Vert&lt;var 1D /var&gt;: Effets sonores, ambiance sonore, voix et actions d'interprétation
+Bleu&lt;var 1D /var&gt;: Musique</target>
+      </trans-unit>
+      <trans-unit id="16146" xml:space="preserve" approved="yes">
+        <source>16146</source>
+        <target state="final">Permet de modifier la taille des ondes sonores qui s'affichent à l'écran lorsque la repré&lt;var 16 /var&gt;sen&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;tion visuelle des sons est activée.</target>
+      </trans-unit>
+      <trans-unit id="16147" xml:space="preserve" approved="yes">
+        <source>16147</source>
+        <target state="final">Permet de modifier la transparence des ondes sonores qui s'affichent à l'écran lorsque la repré&lt;var 16 /var&gt;sen&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;tion visuelle des sons est activée.</target>
+      </trans-unit>
+      <trans-unit id="16148" xml:space="preserve" approved="yes">
+        <source>16148</source>
+        <target state="final">Les réglages de perception des couleurs permettent d'ajuster l'intensité des couleurs en jeu afin de les différencier plus facilement.
+* Cette option doit être activée avant de pouvoir sélectionner le type de réglage souhaité.</target>
+      </trans-unit>
+      <trans-unit id="16149" xml:space="preserve" approved="yes">
+        <source>16149</source>
+        <target state="final">Permet de modifier l'intensité des réglages de perception des couleurs.</target>
+      </trans-unit>
+      <trans-unit id="16150" xml:space="preserve" approved="yes">
+        <source>16150</source>
+        <target state="final">Permet de sélectionner le type de réglage de perception des couleurs.
+Aucun réglage&lt;var 1D /var&gt;: Affichage par défaut.
+Protanopie&lt;var 1D /var&gt;: Améliore la visibilité du rouge
+Deutéranopie&lt;var 1D /var&gt;: Améliore la visibilité du vert
+Tritanopie&lt;var 1D /var&gt;: Améliore la visibilité du bleu</target>
       </trans-unit>
       <trans-unit id="16200" xml:space="preserve" approved="yes">
         <source>16200</source>
@@ -54038,6 +54627,174 @@ dans la classe ou le job actuel.</target>
         <source>16482</source>
         <target state="final">Lancement</target>
       </trans-unit>
+      <trans-unit id="16500" xml:space="preserve" approved="yes">
+        <source>16500</source>
+        <target state="final">Les changements apportés aux groupes ne seront pas sauvegardés. Confirmer&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="16501" xml:space="preserve" approved="yes">
+        <source>16501</source>
+        <target state="final">Modification d'objet texte</target>
+      </trans-unit>
+      <trans-unit id="16503" xml:space="preserve" approved="yes">
+        <source>16503</source>
+        <target state="final">新規グループ作成</target>
+      </trans-unit>
+      <trans-unit id="16504" xml:space="preserve" approved="yes">
+        <source>16504</source>
+        <target state="final">Modifier le groupe</target>
+      </trans-unit>
+      <trans-unit id="16505" xml:space="preserve" approved="yes">
+        <source>16505</source>
+        <target state="final">Dégrouper</target>
+      </trans-unit>
+      <trans-unit id="16506" xml:space="preserve" approved="yes">
+        <source>16506</source>
+        <target state="final">&lt;var 08 E802 ((一時無効にしたグループ設定を有効にする)) ((すべてのグループ設定を一時無効にする)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16507" xml:space="preserve" approved="yes">
+        <source>16507</source>
+        <target state="final">&lt;var 08 E802 ((Activer le grou&lt;var 16 /var&gt;page)) ((Désactiver le grou&lt;var 16 /var&gt;page)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16508" xml:space="preserve" approved="yes">
+        <source>16508</source>
+        <target state="final">Dégrouper la sélection</target>
+      </trans-unit>
+      <trans-unit id="16509" xml:space="preserve" approved="yes">
+        <source>16509</source>
+        <target state="final">Grouper la sélection</target>
+      </trans-unit>
+      <trans-unit id="16510" xml:space="preserve" approved="yes">
+        <source>16510</source>
+        <target state="final">Modifier les paramètres</target>
+      </trans-unit>
+      <trans-unit id="16511" xml:space="preserve" approved="yes">
+        <source>16511</source>
+        <target state="final">&lt;var 08 E802 ((Verrouiller)) ((Déverouiller)) /var&gt; la sélection</target>
+      </trans-unit>
+      <trans-unit id="16512" xml:space="preserve" approved="yes">
+        <source>16512</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="16514" xml:space="preserve" approved="yes">
+        <source>16514</source>
+        <target state="final">Paramètres de l'objet</target>
+      </trans-unit>
+      <trans-unit id="16516" xml:space="preserve" approved="yes">
+        <source>16516</source>
+        <target state="final">Enregistrement de tableau stratégique</target>
+      </trans-unit>
+      <trans-unit id="16518" xml:space="preserve" approved="yes">
+        <source>16518</source>
+        <target state="final">Emplacement</target>
+      </trans-unit>
+      <trans-unit id="16519" xml:space="preserve" approved="yes">
+        <source>16519</source>
+        <target state="final">Intitulé</target>
+      </trans-unit>
+      <trans-unit id="16520" xml:space="preserve" approved="yes">
+        <source>16520</source>
+        <target state="final">Disposition des calques</target>
+      </trans-unit>
+      <trans-unit id="16522" xml:space="preserve" approved="yes">
+        <source>16522</source>
+        <target state="final">Terrain</target>
+      </trans-unit>
+      <trans-unit id="16523" xml:space="preserve" approved="yes">
+        <source>16523</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="16524" xml:space="preserve" approved="yes">
+        <source>16524</source>
+        <target state="final">Couleur</target>
+      </trans-unit>
+      <trans-unit id="16525" xml:space="preserve" approved="yes">
+        <source>16525</source>
+        <target state="final">Création de tableau stratégique</target>
+      </trans-unit>
+      <trans-unit id="16527" xml:space="preserve" approved="yes">
+        <source>16527</source>
+        <target state="final">Créer à partir de réglages prédéfinis</target>
+      </trans-unit>
+      <trans-unit id="16528" xml:space="preserve" approved="yes">
+        <source>16528</source>
+        <target state="final">Créer à partir d'un tableau vierge</target>
+      </trans-unit>
+      <trans-unit id="16529" xml:space="preserve" approved="yes">
+        <source>16529</source>
+        <target state="final">Créer à partir d'un code de partage</target>
+      </trans-unit>
+      <trans-unit id="16530" xml:space="preserve" approved="yes">
+        <source>16530</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="16531" xml:space="preserve" approved="yes">
+        <source>16531</source>
+        <target state="final">Créer un tableau</target>
+      </trans-unit>
+      <trans-unit id="16532" xml:space="preserve" approved="yes">
+        <source>16532</source>
+        <target state="final">Créer un dossier</target>
+      </trans-unit>
+      <trans-unit id="16533" xml:space="preserve" approved="yes">
+        <source>16533</source>
+        <target state="final">Afficher la liste</target>
+      </trans-unit>
+      <trans-unit id="16534" xml:space="preserve" approved="yes">
+        <source>16534</source>
+        <target state="final">Modifier</target>
+      </trans-unit>
+      <trans-unit id="16535" xml:space="preserve" approved="yes">
+        <source>16535</source>
+        <target state="final">Partager</target>
+      </trans-unit>
+      <trans-unit id="16536" xml:space="preserve" approved="yes">
+        <source>16536</source>
+        <target state="final">Afficher en mode visualisation</target>
+      </trans-unit>
+      <trans-unit id="16537" xml:space="preserve" approved="yes">
+        <source>16537</source>
+        <target state="final">Paramètres de visualisation</target>
+      </trans-unit>
+      <trans-unit id="16539" xml:space="preserve" approved="yes">
+        <source>16539</source>
+        <target state="final">Aucun tableau sélectionné.</target>
+      </trans-unit>
+      <trans-unit id="16540" xml:space="preserve" approved="yes">
+        <source>16540</source>
+        <target state="final">&lt;var 29 EA02 /var&gt;/&lt;var 29 EA03 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16542" xml:space="preserve" approved="yes">
+        <source>16542</source>
+        <target state="final">Envoyer vers...</target>
+      </trans-unit>
+      <trans-unit id="16543" xml:space="preserve" approved="yes">
+        <source>16543</source>
+        <target state="final">Générer un code de partage</target>
+      </trans-unit>
+      <trans-unit id="16544" xml:space="preserve" approved="yes">
+        <source>16544</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="16545" xml:space="preserve" approved="yes">
+        <source>16545</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="16546" xml:space="preserve" approved="yes">
+        <source>16546</source>
+        <target state="final">Organiser</target>
+      </trans-unit>
+      <trans-unit id="16547" xml:space="preserve" approved="yes">
+        <source>16547</source>
+        <target state="final">Partager</target>
+      </trans-unit>
+      <trans-unit id="16548" xml:space="preserve" approved="yes">
+        <source>16548</source>
+        <target state="final">Aucun tableau enregistré.</target>
+      </trans-unit>
+      <trans-unit id="16549" xml:space="preserve" approved="yes">
+        <source>16549</source>
+        <target state="final">Partager le &lt;var 08 E4E80201 ((tableau stratégique)) ((dossier)) /var&gt; “&lt;var 29 EA03 /var&gt;” à l'équipe actuelle&lt;var 1D /var&gt;?</target>
+      </trans-unit>
       <trans-unit id="16551" xml:space="preserve" approved="yes">
         <source>16551</source>
         <target state="final">Orbe magique vert</target>
@@ -54505,6 +55262,62 @@ a été ajouté au calepin du croissant&lt;var 1D /var&gt;!</target>
         <source>16699</source>
         <target state="final">Les Tours fourchues sont des &lt;var 48 F201FC /var&gt;&lt;var 49 F201FD /var&gt;raids de haute difficulté&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, les épreuves les plus ardues de l'île de Lunule.
 Tirez la quintessence de vos jobs de soutien et coordonnez vos efforts avec les autres aventuriers pour les conquérir&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="16700" xml:space="preserve" approved="yes">
+        <source>16700</source>
+        <target state="final">Fermer la fenêtre après utilisation</target>
+      </trans-unit>
+      <trans-unit id="16702" xml:space="preserve" approved="yes">
+        <source>16702</source>
+        <target state="final">Ouvrir sur le dernier onglet utilisé</target>
+      </trans-unit>
+      <trans-unit id="16704" xml:space="preserve" approved="yes">
+        <source>16704</source>
+        <target state="final">Supprimer</target>
+      </trans-unit>
+      <trans-unit id="16705" xml:space="preserve" approved="yes">
+        <source>16705</source>
+        <target state="final">Déplacer</target>
+      </trans-unit>
+      <trans-unit id="16706" xml:space="preserve" approved="yes">
+        <source>16706</source>
+        <target state="final">Ajouter dans la barre de raccourcis</target>
+      </trans-unit>
+      <trans-unit id="16707" xml:space="preserve" approved="yes">
+        <source>16707</source>
+        <target state="final">Ajouter l'onglet dans la barre de raccourcis</target>
+      </trans-unit>
+      <trans-unit id="16708" xml:space="preserve" approved="yes">
+        <source>16708</source>
+        <target state="final">Paramètres</target>
+      </trans-unit>
+      <trans-unit id="16709" xml:space="preserve" approved="yes">
+        <source>16709</source>
+        <target state="final">Ouvrir à la position du curseur</target>
+      </trans-unit>
+      <trans-unit id="16710" xml:space="preserve" approved="yes">
+        <source>16710</source>
+        <target state="final">Enregistrer comme icone de l'onglet</target>
+      </trans-unit>
+      <trans-unit id="16711" xml:space="preserve" approved="yes">
+        <source>16711</source>
+        <target state="final">Afficher l'aide</target>
+      </trans-unit>
+      <trans-unit id="16712" xml:space="preserve" approved="yes">
+        <source>16712</source>
+        <target state="final">Opacité de la fenêtre</target>
+      </trans-unit>
+      <trans-unit id="16713" xml:space="preserve" approved="yes">
+        <source>16713</source>
+        <target state="final">Accès rapide</target>
+      </trans-unit>
+      <trans-unit id="16714" xml:space="preserve" approved="yes">
+        <source>16714</source>
+        <target state="final">Verrouiller le déplacement par glisser</target>
+      </trans-unit>
+      <trans-unit id="16715" xml:space="preserve" approved="yes">
+        <source>16715</source>
+        <target state="final">Réinitialiser l'icone</target>
       </trans-unit>
       <trans-unit id="16716" xml:space="preserve" approved="yes">
         <source>16716</source>
@@ -55219,10 +56032,6 @@ Souhaitez-vous tout de même sortir de la zone et annuler votre par&lt;var 16 /v
         <source>16910</source>
         <target state="final">&lt;var 20 E802 /var&gt; à &lt;var 20 E803 /var&gt; = &lt;var 20 E804 /var&gt;&lt;var 08 E1E80501 (( à &lt;var 20 E805 /var&gt;)) (()) /var&gt;</target>
       </trans-unit>
-      <trans-unit id="16911" xml:space="preserve" approved="yes">
-        <source>16911</source>
-        <target state="final">&lt;var 08 E1E80201 ((Roue de la fortune cosmique)) ((Roue de la fortune - Big Bang)) /var&gt;</target>
-      </trans-unit>
       <trans-unit id="16912" xml:space="preserve" approved="yes">
         <source>16912</source>
         <target state="final">Roulette bonus</target>
@@ -55693,6 +56502,36 @@ Nv &lt;var 20 E808 /var&gt;</target>
         <target state="final">&lt;var 08 E1E80201 ((Crystalline Conflict)) ((???)) /var&gt;
 Nv &lt;var 20 E808 /var&gt;</target>
       </trans-unit>
+      <trans-unit id="17035" xml:space="preserve" approved="yes">
+        <source>17035</source>
+        <target state="final">&lt;var 08 E1E80201 ((Mahjong domien)) ((???)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17036" xml:space="preserve" approved="yes">
+        <source>17036</source>
+        <target state="final">&lt;var 08 E1E80201 ((Mahjong domien)) ((???)) /var&gt;
+Nv &lt;var 20 E808 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17037" xml:space="preserve" approved="yes">
+        <source>17037</source>
+        <target state="final">Jouer au mahjong domien &lt;var 20 E809 /var&gt; fois contre des joueurs.
+* Les parties contre des PNJ ne comptent pas.</target>
+      </trans-unit>
+      <trans-unit id="17038" xml:space="preserve" approved="yes">
+        <source>17038</source>
+        <target state="final">Effectuer &lt;var 20 E809 /var&gt; missions de ra&lt;var 16 /var&gt;vi&lt;var 16 /var&gt;tail&lt;var 16 /var&gt;le&lt;var 16 /var&gt;ment des grandes compagnies.</target>
+      </trans-unit>
+      <trans-unit id="17039" xml:space="preserve" approved="yes">
+        <source>17039</source>
+        <target state="final">Débloqué après avoir rejoint une grande compagnie.</target>
+      </trans-unit>
+      <trans-unit id="17040" xml:space="preserve" approved="yes">
+        <source>17040</source>
+        <target state="final">Accomplir &lt;var 20 E809 /var&gt; &lt;var 08 E4E80902 ((confrontation critique)) ((confrontations critiques)) /var&gt; sur l'&lt;var 28 ((PublicContent)) E80604 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="17041" xml:space="preserve" approved="yes">
+        <source>17041</source>
+        <target state="final">* “Le Verset final” et “Le Verset final (quantique)” ne comptent pas.</target>
+      </trans-unit>
       <trans-unit id="17050" xml:space="preserve" approved="yes">
         <source>17050</source>
         <target state="final">Quota de quêtes quotidiennes</target>
@@ -55712,6 +56551,120 @@ Nv &lt;var 20 E808 /var&gt;</target>
       <trans-unit id="17054" xml:space="preserve" approved="yes">
         <source>17054</source>
         <target state="final">Afficher/Cacher les oreilles (si disponible)</target>
+      </trans-unit>
+      <trans-unit id="17071" xml:space="preserve" approved="yes">
+        <source>17071</source>
+        <target state="final">&lt;var 29 EA02 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17072" xml:space="preserve" approved="yes">
+        <source>17072</source>
+        <target state="final">X&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt; / Y&lt;var 1D /var&gt;: &lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17073" xml:space="preserve" approved="yes">
+        <source>17073</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17074" xml:space="preserve" approved="yes">
+        <source>17074</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17075" xml:space="preserve" approved="yes">
+        <source>17075</source>
+        <target state="final">Enregistrer</target>
+      </trans-unit>
+      <trans-unit id="17076" xml:space="preserve" approved="yes">
+        <source>17076</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="17077" xml:space="preserve" approved="yes">
+        <source>17077</source>
+        <target state="final">Dossier de destination</target>
+      </trans-unit>
+      <trans-unit id="17078" xml:space="preserve" approved="yes">
+        <source>17078</source>
+        <target state="final">Enregistrer</target>
+      </trans-unit>
+      <trans-unit id="17079" xml:space="preserve" approved="yes">
+        <source>17079</source>
+        <target state="final">Annuler</target>
+      </trans-unit>
+      <trans-unit id="17080" xml:space="preserve" approved="yes">
+        <source>17080</source>
+        <target state="final">Groupes</target>
+      </trans-unit>
+      <trans-unit id="17081" xml:space="preserve" approved="yes">
+        <source>17081</source>
+        <target state="final">Objets</target>
+      </trans-unit>
+      <trans-unit id="17082" xml:space="preserve" approved="yes">
+        <source>17082</source>
+        <target state="final">Grouper</target>
+      </trans-unit>
+      <trans-unit id="17083" xml:space="preserve" approved="yes">
+        <source>17083</source>
+        <target state="final">(Aucun dossier)</target>
+      </trans-unit>
+      <trans-unit id="17084" xml:space="preserve" approved="yes">
+        <source>17084</source>
+        <target state="final">Créer un nouveau dossier</target>
+      </trans-unit>
+      <trans-unit id="17085" xml:space="preserve" approved="yes">
+        <source>17085</source>
+        <target state="final">Paramètres de visualisation</target>
+      </trans-unit>
+      <trans-unit id="17087" xml:space="preserve" approved="yes">
+        <source>17087</source>
+        <target state="final">Type d'affichage des icones de DPS</target>
+      </trans-unit>
+      <trans-unit id="17088" xml:space="preserve" approved="yes">
+        <source>17088</source>
+        <target state="final">Commun</target>
+      </trans-unit>
+      <trans-unit id="17089" xml:space="preserve" approved="yes">
+        <source>17089</source>
+        <target state="final">Mêlée / Distance</target>
+      </trans-unit>
+      <trans-unit id="17090" xml:space="preserve" approved="yes">
+        <source>17090</source>
+        <target state="final">Surbrillance</target>
+      </trans-unit>
+      <trans-unit id="17091" xml:space="preserve" approved="yes">
+        <source>17091</source>
+        <target state="final">●廃止：自分のクラス・ジョブを強調する</target>
+      </trans-unit>
+      <trans-unit id="17092" xml:space="preserve" approved="yes">
+        <source>17092</source>
+        <target state="final">●廃止：指定したロールアイコンを強調する</target>
+      </trans-unit>
+      <trans-unit id="17093" xml:space="preserve" approved="yes">
+        <source>17093</source>
+        <target state="final">Permet de sélectionner la façon dont les icones de DPS sont affichés.</target>
+      </trans-unit>
+      <trans-unit id="17094" xml:space="preserve" approved="yes">
+        <source>17094</source>
+        <target state="final">Permet de mettre en surbrillance un icone de classe/job particulier en mode visualisation.
+
+Ces paramètres s'appliquent à tous les tableaux stratégiques, y compris ceux en cours d'affichage.</target>
+      </trans-unit>
+      <trans-unit id="17095" xml:space="preserve" approved="yes">
+        <source>17095</source>
+        <target state="final">Non spécifié</target>
+      </trans-unit>
+      <trans-unit id="17096" xml:space="preserve" approved="yes">
+        <source>17096</source>
+        <target state="final">Classe/Job actuel</target>
+      </trans-unit>
+      <trans-unit id="17097" xml:space="preserve" approved="yes">
+        <source>17097</source>
+        <target state="final">Nouveau tableau stratégique</target>
+      </trans-unit>
+      <trans-unit id="17098" xml:space="preserve" approved="yes">
+        <source>17098</source>
+        <target state="final">Nouveau dossier</target>
+      </trans-unit>
+      <trans-unit id="17099" xml:space="preserve" approved="yes">
+        <source>17099</source>
+        <target state="final">Déplacer</target>
       </trans-unit>
       <trans-unit id="17100" xml:space="preserve" approved="yes">
         <source>17100</source>
@@ -55858,9 +56811,299 @@ Sélectionnez la rubrique à réinitialiser</target>
         <source>17158</source>
         <target state="final">Fermer</target>
       </trans-unit>
+      <trans-unit id="17159" xml:space="preserve" approved="yes">
+        <source>17159</source>
+        <target state="final">Comporte une ou plusieurs recettes avancées</target>
+      </trans-unit>
+      <trans-unit id="17160" xml:space="preserve" approved="yes">
+        <source>17160</source>
+        <target state="final">Annonces de l'exploration cosmique</target>
+      </trans-unit>
+      <trans-unit id="17161" xml:space="preserve" approved="yes">
+        <source>17161</source>
+        <target state="final">Toujours afficher</target>
+      </trans-unit>
+      <trans-unit id="17162" xml:space="preserve" approved="yes">
+        <source>17162</source>
+        <target state="final">Afficher à l'entrée dans la zone (une fois par connexion)</target>
+      </trans-unit>
+      <trans-unit id="17163" xml:space="preserve" approved="yes">
+        <source>17163</source>
+        <target state="final">Ne pas afficher</target>
+      </trans-unit>
+      <trans-unit id="17164" xml:space="preserve" approved="yes">
+        <source>17164</source>
+        <target state="final">* Les annonces concernant l'avancement du projet d'exploration cosmique seront affichées dans tous les cas.</target>
+      </trans-unit>
+      <trans-unit id="17165" xml:space="preserve" approved="yes">
+        <source>17165</source>
+        <target state="final">Série d'or&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17166" xml:space="preserve" approved="yes">
+        <source>17166</source>
+        <target state="final">Décrochez plusieurs rangs or à la suite sur des missions de classe A ou des missions temporaires pour bénéficier d'un bonus de récompense.
+
+Série d'or&lt;var 1D /var&gt;: 1 - pas de bonus
+Série d'or&lt;var 1D /var&gt;: 2 - bonus de 5%
+Série d'or&lt;var 1D /var&gt;: 3 - bonus de 10%
+Série d'or&lt;var 1D /var&gt;: 4 - bonus de 15%
+Série d'or&lt;var 1D /var&gt;: 5 - bonus de 20%
+Série d'or MAX - bonus de 30%
+
+Récompenses concernées&lt;var 1D /var&gt;:
+- Tous types de crédits
+- Jetons de drone
+- Contribution
+
+Le compteur revient à zéro une fois la série d'or MAX atteinte.
+&lt;var 08 E1E80201 ((Série d'or actuelle&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17168" xml:space="preserve" approved="yes">
+        <source>17168</source>
+        <target state="final">Série d'or actuelle&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17169" xml:space="preserve" approved="yes">
+        <source>17169</source>
+        <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* La série d'or prendra fin si vous démarrez une mission de classe inférieure à A.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17170" xml:space="preserve" approved="yes">
+        <source>17170</source>
+        <target state="final">Série d'or actuelle&lt;var 1D /var&gt;: &lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17171" xml:space="preserve" approved="yes">
+        <source>17171</source>
+        <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* La série d'or prendra fin si vous abandonnez la mission.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
       <trans-unit id="17200" xml:space="preserve" approved="yes">
         <source>17200</source>
         <target state="final">Jobs identiques impossibles</target>
+      </trans-unit>
+      <trans-unit id="17202" xml:space="preserve" approved="yes">
+        <source>17202</source>
+        <target state="final">Un nouveau niveau a été ajouté au JACTA “As de l'air”&lt;var 1D /var&gt;!
+Profitez-en pour vous dégourdir les jambes
+dans le décor exotique des îles de Cieldalaes&lt;var 1D /var&gt;!
+
+Les horaires des JACTA ont été adaptés en conséquence.
+Pour plus d'in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tions à ce sujet, renseignez-vous auprès
+du réceptionniste dans le hall d'accueil.</target>
+      </trans-unit>
+      <trans-unit id="17210" xml:space="preserve" approved="yes">
+        <source>17210</source>
+        <target state="final">Permet de fermer au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment la fenêtre d'accès rapide après le lancement d'une des actions enregistrées.</target>
+      </trans-unit>
+      <trans-unit id="17211" xml:space="preserve" approved="yes">
+        <source>17211</source>
+        <target state="final">Permet d'ouvrir la fenêtre d'accès rapide à la position où se trouve le curseur.</target>
+      </trans-unit>
+      <trans-unit id="17212" xml:space="preserve" approved="yes">
+        <source>17212</source>
+        <target state="final">Permet d'empêcher le déplacement par glisser des actions enregistrées.</target>
+      </trans-unit>
+      <trans-unit id="17213" xml:space="preserve" approved="yes">
+        <source>17213</source>
+        <target state="final">Permet de modifier l'opacité de la fenêtre d'accès rapide.</target>
+      </trans-unit>
+      <trans-unit id="17214" xml:space="preserve" approved="yes">
+        <source>17214</source>
+        <target state="final">Enregistrer ces actions dans les barres de raccourcis permet d'ouvrir la fenêtre d'accès rapide directement dans l'onglet souhaité.</target>
+      </trans-unit>
+      <trans-unit id="17215" xml:space="preserve" approved="yes">
+        <source>17215</source>
+        <target state="final">Accès rapide (&lt;var 20 E802 /var&gt;)</target>
+      </trans-unit>
+      <trans-unit id="17216" xml:space="preserve" approved="yes">
+        <source>17216</source>
+        <target state="final">Permet d'ouvrir la fenêtre d'accès rapide dans le dernier onglet utilisé.</target>
+      </trans-unit>
+      <trans-unit id="17217" xml:space="preserve" approved="yes">
+        <source>17217</source>
+        <target state="final">Quitter sans sauvegarder les changements&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="17218" xml:space="preserve" approved="yes">
+        <source>17218</source>
+        <target state="final">Paramètres d'accès rapide</target>
+      </trans-unit>
+      <trans-unit id="17220" xml:space="preserve" approved="yes">
+        <source>17220</source>
+        <target state="final">Réparer tous les objets possédés</target>
+      </trans-unit>
+      <trans-unit id="17221" xml:space="preserve" approved="yes">
+        <source>17221</source>
+        <target state="final">Réparer tous les objets équipés, dans l'arsenal et dans l'inventaire&lt;var 1D /var&gt;?
+&lt;var 29 EA02 /var&gt; &lt;var 08 E803 ((
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vous n'avez pas le catalyseur correspondant. Un catalyseur de plus haut niveau va être utilisé.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17222" xml:space="preserve" approved="yes">
+        <source>17222</source>
+        <target state="final">Réparation automatique</target>
+      </trans-unit>
+      <trans-unit id="17224" xml:space="preserve" approved="yes">
+        <source>17224</source>
+        <target state="final">Progression</target>
+      </trans-unit>
+      <trans-unit id="17225" xml:space="preserve" approved="yes">
+        <source>17225</source>
+        <target state="final">Réparations en cours dans&lt;var 1D /var&gt;:
+“&lt;var 29 EA02 /var&gt;”</target>
+      </trans-unit>
+      <trans-unit id="17226" xml:space="preserve" approved="yes">
+        <source>17226</source>
+        <target state="final">Tous les objets ont été réparés.</target>
+      </trans-unit>
+      <trans-unit id="17227" xml:space="preserve" approved="yes">
+        <source>17227</source>
+        <target state="final">Interrompre</target>
+      </trans-unit>
+      <trans-unit id="17228" xml:space="preserve" approved="yes">
+        <source>17228</source>
+        <target state="final">Terminer</target>
+      </trans-unit>
+      <trans-unit id="17229" xml:space="preserve" approved="yes">
+        <source>17229</source>
+        <target state="final">Réparer tous les objets équipés, dans l'arsenal et dans l'inventaire&lt;var 1D /var&gt;?
+Coût&lt;var 1D /var&gt;: &lt;var 22 E802 ((,)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17250" xml:space="preserve" approved="yes">
+        <source>17250</source>
+        <target state="final">De nouveaux jobs de soutien vous attendent sur l'île de Lunule méridionale&lt;var 1D /var&gt;!
+
+D'autre part, la numismate de l'expédition propose quant à elle des objets inédits.
+
+Enfin, si vous avez accès à toutes les éthérites urbaines de Tuliyollal, vous pouvez désormais vous téléporter à la ville fantôme&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="17494" xml:space="preserve" approved="yes">
+        <source>17494</source>
+        <target state="final">Occupation</target>
+      </trans-unit>
+      <trans-unit id="17495" xml:space="preserve" approved="yes">
+        <source>17495</source>
+        <target state="final">&lt;var 20 E802 /var&gt;m&lt;var 24 E803 /var&gt;s</target>
+      </trans-unit>
+      <trans-unit id="17496" xml:space="preserve" approved="yes">
+        <source>17496</source>
+        <target state="final">Total</target>
+      </trans-unit>
+      <trans-unit id="17497" xml:space="preserve" approved="yes">
+        <source>17497</source>
+        <target state="final">Score tactique (points névralgiques)</target>
+      </trans-unit>
+      <trans-unit id="17498" xml:space="preserve" approved="yes">
+        <source>17498</source>
+        <target state="final">Score tactique (ennemis vaincus)</target>
+      </trans-unit>
+      <trans-unit id="17499" xml:space="preserve" approved="yes">
+        <source>17499</source>
+        <target state="final">Score tactique (pertes alliées)</target>
+      </trans-unit>
+      <trans-unit id="17500" xml:space="preserve" approved="yes">
+        <source>17500</source>
+        <target state="final">Contesté</target>
+      </trans-unit>
+      <trans-unit id="17501" xml:space="preserve" approved="yes">
+        <source>17501</source>
+        <target state="final">&lt;var 09 E802 ((&lt;var 12 34 /var&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;Le Maelstrom&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; capture)) ((&lt;var 12 35 /var&gt;&lt;var 48 F20217 /var&gt;&lt;var 49 F20218 /var&gt;Les Deux Vipères&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; capturent)) ((&lt;var 12 36 /var&gt;&lt;var 48 F20219 /var&gt;&lt;var 49 F2021A /var&gt;Les Immortels&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; capturent)) /var&gt; un cercle !</target>
+      </trans-unit>
+      <trans-unit id="17502" xml:space="preserve" approved="yes">
+        <source>17502</source>
+        <target state="final">Capture terminée</target>
+      </trans-unit>
+      <trans-unit id="17503" xml:space="preserve" approved="yes">
+        <source>17503</source>
+        <target state="final">&lt;var 09 E802 ((&lt;var 12 34 /var&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;Le Maelstrom&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; a capturé)) ((&lt;var 12 35 /var&gt;&lt;var 48 F20217 /var&gt;&lt;var 49 F20218 /var&gt;L'ordre des Deux Vipères&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; a capturé)) ((&lt;var 12 36 /var&gt;&lt;var 48 F20219 /var&gt;&lt;var 49 F2021A /var&gt;Les Immortels&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ont capturé)) /var&gt; un point névralgique de &lt;var 09 E803 ((rang B)) ((rang A)) ((rang S)) /var&gt;&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="17504" xml:space="preserve" approved="yes">
+        <source>17504</source>
+        <target state="final">&lt;var 20 E802 /var&gt; s avant la neige&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="17505" xml:space="preserve" approved="yes">
+        <source>17505</source>
+        <target state="final">Il commence à neiger&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="17506" xml:space="preserve" approved="yes">
+        <source>17506</source>
+        <target state="final">&lt;var 20 E802 /var&gt; s avant l'apparition d'aurores boréales&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="17507" xml:space="preserve" approved="yes">
+        <source>17507</source>
+        <target state="final">Des aurores boréales sont apparues&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="17508" xml:space="preserve" approved="yes">
+        <source>17508</source>
+        <target state="final">Importer</target>
+      </trans-unit>
+      <trans-unit id="17510" xml:space="preserve" approved="yes">
+        <source>17510</source>
+        <target state="final">Saisissez un code de partage puis cliquez sur “Décoder”.</target>
+      </trans-unit>
+      <trans-unit id="17511" xml:space="preserve" approved="yes">
+        <source>17511</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17512" xml:space="preserve" approved="yes">
+        <source>17512</source>
+        <target state="final">Coller depuis le presse-papiers</target>
+      </trans-unit>
+      <trans-unit id="17513" xml:space="preserve" approved="yes">
+        <source>17513</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17514" xml:space="preserve" approved="yes">
+        <source>17514</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17515" xml:space="preserve" approved="yes">
+        <source>17515</source>
+        <target state="final">Décoder</target>
+      </trans-unit>
+      <trans-unit id="17516" xml:space="preserve" approved="yes">
+        <source>17516</source>
+        <target state="final">Exporter</target>
+      </trans-unit>
+      <trans-unit id="17518" xml:space="preserve" approved="yes">
+        <source>17518</source>
+        <target state="final">Le code de partage a été généré.</target>
+      </trans-unit>
+      <trans-unit id="17519" xml:space="preserve" approved="yes">
+        <source>17519</source>
+        <target state="final">Intitulé</target>
+      </trans-unit>
+      <trans-unit id="17520" xml:space="preserve" approved="yes">
+        <source>17520</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="17522" xml:space="preserve" approved="yes">
+        <source>17522</source>
+        <target state="final">Copier dans le presse-papiers</target>
+      </trans-unit>
+      <trans-unit id="17523" xml:space="preserve" approved="yes">
+        <source>17523</source>
+        <target state="final">Fermer</target>
+      </trans-unit>
+      <trans-unit id="17524" xml:space="preserve" approved="yes">
+        <source>17524</source>
+        <target state="final">Enregistrer</target>
+      </trans-unit>
+      <trans-unit id="17525" xml:space="preserve" approved="yes">
+        <source>17525</source>
+        <target state="final">Décodage réussi. Voulez-vous enregistrer&lt;var 1D /var&gt;:
+“&lt;var 29 EA02 /var&gt;”&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="17526" xml:space="preserve" approved="yes">
+        <source>17526</source>
+        <target state="final">&lt;var 1D /var&gt;: </target>
+      </trans-unit>
+      <trans-unit id="17527" xml:space="preserve" approved="yes">
+        <source>17527</source>
+        <target state="final">Choisissez l'emplacement de destination du tableau stratégique&lt;var 1D /var&gt;: “&lt;var 29 EA02 /var&gt;”.</target>
+      </trans-unit>
+      <trans-unit id="17528" xml:space="preserve" approved="yes">
+        <source>17528</source>
+        <target state="final">Déplacement de tableau stratégique</target>
+      </trans-unit>
+      <trans-unit id="17530" xml:space="preserve" approved="yes">
+        <source>17530</source>
+        <target state="final">Inconnu</target>
       </trans-unit>
       <trans-unit id="101000" xml:space="preserve" approved="yes">
         <source>101000</source>

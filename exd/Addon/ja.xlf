@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="Addon" datatype="plaintext" source-language="en" target-language="ja">
     <body>
@@ -2322,7 +2322,7 @@ HUDレイアウト設定がすべて初期化されます。
       </trans-unit>
       <trans-unit id="579" xml:space="preserve" approved="yes">
         <source>579</source>
-        <target state="final">グランドカンパニーリーヴ発行</target>
+        <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;&lt;var 08 E1E80302 ((×&lt;var 20 E803 /var&gt;)) (()) /var&gt;</target>
       </trans-unit>
       <trans-unit id="580" xml:space="preserve" approved="yes">
         <source>580</source>
@@ -3449,7 +3449,7 @@ HUDレイアウト設定がすべて初期化されます。
       <trans-unit id="861" xml:space="preserve" approved="yes">
         <source>861</source>
         <target state="final">表示されているすべてのアイテムを修理しますか？
-費用:&lt;var 20 E802 /var&gt;</target>
+費用:&lt;var 22 E802 ((,)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="862" xml:space="preserve" approved="yes">
         <source>862</source>
@@ -7132,12 +7132,12 @@ HUDレイアウト設定がすべて初期化されます。
       </trans-unit>
       <trans-unit id="1810" xml:space="preserve" approved="yes">
         <source>1810</source>
-        <target state="final">特典・購入アイテム処理のリクエスト</target>
+        <target state="final">特典アイテム処理のリクエスト</target>
       </trans-unit>
       <trans-unit id="1811" xml:space="preserve" approved="yes">
         <source>1811</source>
-        <target state="final">特典・購入アイテムのレター配達リクエストを送ります。一度送ると、一定時間は再リクエストができません。
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;新着レターの受信はレターモーグリやモーグリポストからモグレターを開きなおしてください。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+        <target state="final">特典アイテムのレター配達リクエストを送ります。一度送ると、一定時間は再リクエストができません。
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;購入アイテムレターについてはボックスが空き次第、一定間隔で自動的に配送されます。サービスアカウント単位の購入アイテムの場合のみ、該当キャラクターでの再ログインが必要です。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="1812" xml:space="preserve" approved="yes">
         <source>1812</source>
@@ -8199,14 +8199,6 @@ HUDレイアウト設定がすべて初期化されます。
       <trans-unit id="2081" xml:space="preserve" approved="yes">
         <source>2081</source>
         <target state="final">「ブックマーク」リスト</target>
-      </trans-unit>
-      <trans-unit id="2082" xml:space="preserve" approved="yes">
-        <source>2082</source>
-        <target state="final">ブックマーク登録（&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;）</target>
-      </trans-unit>
-      <trans-unit id="2083" xml:space="preserve" approved="yes">
-        <source>2083</source>
-        <target state="final">ブックマーク削除（&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;）</target>
       </trans-unit>
       <trans-unit id="2084" xml:space="preserve" approved="yes">
         <source>2084</source>
@@ -10767,6 +10759,10 @@ CLASS :</target>
         <source>2761</source>
         <target state="final">お知らせリスト</target>
       </trans-unit>
+      <trans-unit id="2762" xml:space="preserve" approved="yes">
+        <source>2762</source>
+        <target state="final">ファッションアクセサリー：松明使用中に利用可</target>
+      </trans-unit>
       <trans-unit id="2770" xml:space="preserve" approved="yes">
         <source>2770</source>
         <target state="final">GRAND COMPANY RANK</target>
@@ -12540,7 +12536,7 @@ CLASS :</target>
       </trans-unit>
       <trans-unit id="3302" xml:space="preserve" approved="yes">
         <source>3302</source>
-        <target state="final">&lt;var 1E 0A /var&gt;登録モードから抜ける </target>
+        <target state="final">&lt;var 1E 0A /var&gt;登録モードから抜ける &lt;var 08 E4E80202 ((&lt;var 1E 0C /var&gt;クイックパネルに送る)) (()) /var&gt;</target>
       </trans-unit>
       <trans-unit id="3303" xml:space="preserve" approved="yes">
         <source>3303</source>
@@ -13365,6 +13361,54 @@ CLASS :</target>
       <trans-unit id="3606" xml:space="preserve" approved="yes">
         <source>3606</source>
         <target state="final">BEST TURN</target>
+      </trans-unit>
+      <trans-unit id="3607" xml:space="preserve" approved="yes">
+        <source>3607</source>
+        <target state="final">RESULTS</target>
+      </trans-unit>
+      <trans-unit id="3608" xml:space="preserve" approved="yes">
+        <source>3608</source>
+        <target state="final">&lt;var 29 EA02 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="3609" xml:space="preserve" approved="yes">
+        <source>3609</source>
+        <target state="final">アルコンエッグ【金】</target>
+      </trans-unit>
+      <trans-unit id="3610" xml:space="preserve" approved="yes">
+        <source>3610</source>
+        <target state="final">アルコンエッグ【銀】</target>
+      </trans-unit>
+      <trans-unit id="3611" xml:space="preserve" approved="yes">
+        <source>3611</source>
+        <target state="final">アルコンエッグ【銅】</target>
+      </trans-unit>
+      <trans-unit id="3612" xml:space="preserve" approved="yes">
+        <source>3612</source>
+        <target state="final">刈った魔物</target>
+      </trans-unit>
+      <trans-unit id="3613" xml:space="preserve" approved="yes">
+        <source>3613</source>
+        <target state="final">× &lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="3614" xml:space="preserve" approved="yes">
+        <source>3614</source>
+        <target state="final">トータルスコア</target>
+      </trans-unit>
+      <trans-unit id="3615" xml:space="preserve" approved="yes">
+        <source>3615</source>
+        <target state="final">ハイスコア</target>
+      </trans-unit>
+      <trans-unit id="3616" xml:space="preserve" approved="yes">
+        <source>3616</source>
+        <target state="final">コンテンツ退出まで &lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="3617" xml:space="preserve" approved="yes">
+        <source>3617</source>
+        <target state="final">退出</target>
+      </trans-unit>
+      <trans-unit id="3618" xml:space="preserve" approved="yes">
+        <source>3618</source>
+        <target state="final">New Record</target>
       </trans-unit>
       <trans-unit id="3619" xml:space="preserve" approved="yes">
         <source>3619</source>
@@ -15248,14 +15292,6 @@ CLASS :</target>
         <source>4183</source>
         <target state="final">カラーテーマ設定</target>
       </trans-unit>
-      <trans-unit id="4184" xml:space="preserve" approved="yes">
-        <source>4184</source>
-        <target state="final">ダークタイプのサンプルです。</target>
-      </trans-unit>
-      <trans-unit id="4185" xml:space="preserve" approved="yes">
-        <source>4185</source>
-        <target state="final">ライトタイプのサンプルです。</target>
-      </trans-unit>
       <trans-unit id="4186" xml:space="preserve" approved="yes">
         <source>4186</source>
         <target state="final">Sample</target>
@@ -15292,10 +15328,6 @@ CLASS :</target>
         <source>4193</source>
         <target state="final">いいえ</target>
       </trans-unit>
-      <trans-unit id="4194" xml:space="preserve" approved="yes">
-        <source>4194</source>
-        <target state="final">FFクラシックタイプのサンプルです。</target>
-      </trans-unit>
       <trans-unit id="4195" xml:space="preserve" approved="yes">
         <source>4195</source>
         <target state="final">現在の解像度設定を適用しますか？
@@ -15308,10 +15340,6 @@ CLASS :</target>
       <trans-unit id="4197" xml:space="preserve" approved="yes">
         <source>4197</source>
         <target state="final">いいえ</target>
-      </trans-unit>
-      <trans-unit id="4198" xml:space="preserve" approved="yes">
-        <source>4198</source>
-        <target state="final">クリアブルータイプのサンプルです。</target>
       </trans-unit>
       <trans-unit id="4200" xml:space="preserve" approved="yes">
         <source>4200</source>
@@ -15358,6 +15386,30 @@ CLASS :</target>
         <source>4217</source>
         <target state="final">背景のみ表示する</target>
       </trans-unit>
+      <trans-unit id="4220" xml:space="preserve" approved="yes">
+        <source>4220</source>
+        <target state="final">ダークタイプのサンプルです。</target>
+      </trans-unit>
+      <trans-unit id="4221" xml:space="preserve" approved="yes">
+        <source>4221</source>
+        <target state="final">ライトタイプのサンプルです。</target>
+      </trans-unit>
+      <trans-unit id="4222" xml:space="preserve" approved="yes">
+        <source>4222</source>
+        <target state="final">FFクラシックタイプのサンプルです。</target>
+      </trans-unit>
+      <trans-unit id="4223" xml:space="preserve" approved="yes">
+        <source>4223</source>
+        <target state="final">クリアブルータイプのサンプルです。</target>
+      </trans-unit>
+      <trans-unit id="4224" xml:space="preserve" approved="yes">
+        <source>4224</source>
+        <target state="final">クリアホワイトタイプのサンプルです。</target>
+      </trans-unit>
+      <trans-unit id="4225" xml:space="preserve" approved="yes">
+        <source>4225</source>
+        <target state="final">クリアグリーンタイプのサンプルです。</target>
+      </trans-unit>
       <trans-unit id="4232" xml:space="preserve" approved="yes">
         <source>4232</source>
         <target state="final">ダーク</target>
@@ -15373,6 +15425,14 @@ CLASS :</target>
       <trans-unit id="4235" xml:space="preserve" approved="yes">
         <source>4235</source>
         <target state="final">クリアブルー</target>
+      </trans-unit>
+      <trans-unit id="4236" xml:space="preserve" approved="yes">
+        <source>4236</source>
+        <target state="final">クリアホワイト</target>
+      </trans-unit>
+      <trans-unit id="4237" xml:space="preserve" approved="yes">
+        <source>4237</source>
+        <target state="final">クリアグリーン</target>
       </trans-unit>
       <trans-unit id="4245" xml:space="preserve" approved="yes">
         <source>4245</source>
@@ -17671,7 +17731,8 @@ Rank &lt;var 20 E802 /var&gt;</target>
       </trans-unit>
       <trans-unit id="4853" xml:space="preserve" approved="yes">
         <source>4853</source>
-        <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※簡易製作ではHQアイテムはNQアイテムと同じ扱いとなります&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+        <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※簡易製作の時にHQアイテムを素材に使用する場合は、
+　NQアイテムと同じ扱いになります&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="4854" xml:space="preserve" approved="yes">
         <source>4854</source>
@@ -17684,6 +17745,10 @@ Rank &lt;var 20 E802 /var&gt;</target>
       <trans-unit id="4856" xml:space="preserve" approved="yes">
         <source>4856</source>
         <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※簡易製作では収集品を製作することはできません&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="4857" xml:space="preserve" approved="yes">
+        <source>4857</source>
+        <target state="final">すべてNQアイテムとして製作する</target>
       </trans-unit>
       <trans-unit id="4860" xml:space="preserve" approved="yes">
         <source>4860</source>
@@ -17812,6 +17877,10 @@ Rank &lt;var 20 E802 /var&gt;</target>
       <trans-unit id="4895" xml:space="preserve" approved="yes">
         <source>4895</source>
         <target state="final">マクロ#99を実行する（このキャラクター専用）</target>
+      </trans-unit>
+      <trans-unit id="4896" xml:space="preserve" approved="yes">
+        <source>4896</source>
+        <target state="final">クイックパネル</target>
       </trans-unit>
       <trans-unit id="4897" xml:space="preserve" approved="yes">
         <source>4897</source>
@@ -20648,6 +20717,10 @@ PvPコンテンツにはPvP専用のバトルシステムが用意されてお�
       <trans-unit id="5868" xml:space="preserve" approved="yes">
         <source>5868</source>
         <target state="final">分解終了</target>
+      </trans-unit>
+      <trans-unit id="5869" xml:space="preserve" approved="yes">
+        <source>5869</source>
+        <target state="final">すべてNQアイテムとして分解する</target>
       </trans-unit>
       <trans-unit id="5880" xml:space="preserve" approved="yes">
         <source>5880</source>
@@ -28776,7 +28849,7 @@ PvPコンテンツにはPvP専用のバトルシステムが用意されてお�
       </trans-unit>
       <trans-unit id="8257" xml:space="preserve" approved="yes">
         <source>8257</source>
-        <target state="final">ポーズのランダム切り替えを有効にする</target>
+        <target state="final">立ちポーズのランダム切り替えを有効にする</target>
       </trans-unit>
       <trans-unit id="8258" xml:space="preserve" approved="yes">
         <source>8258</source>
@@ -35007,6 +35080,11 @@ Immerse™を継続してご利用いただくには、
         <source>9896</source>
         <target state="final">----/--/--</target>
       </trans-unit>
+      <trans-unit id="9897" xml:space="preserve" approved="yes">
+        <source>9897</source>
+        <target state="final">「&lt;var 28 ((ExVersion)) E80201 /var&gt;」のクロニクルクエスト「&lt;var 08 E1E80401 ((？？？？)) ((&lt;var 29 EA03 /var&gt;)) /var&gt;」コンプリート後に
+ゴールドソーサーの「ワンダースクウェア」にいる「&lt;var 28 ((ENpcResident)) F60FF16701 /var&gt;」と交換</target>
+      </trans-unit>
       <trans-unit id="9979" xml:space="preserve" approved="yes">
         <source>9979</source>
         <target state="final">REWARD ACQUISITION</target>
@@ -35592,6 +35670,18 @@ Immerse™を継続してご利用いただくには、
       <trans-unit id="10115" xml:space="preserve" approved="yes">
         <source>10115</source>
         <target state="final">&lt;var 08 E4E802E803 ((&lt;var 20 E802 /var&gt;人用)) ((&lt;var 20 E802 /var&gt;～&lt;var 20 E803 /var&gt;人用)) /var&gt;&lt;var 08 E1E80302 (((TANK:&lt;var 20 E804 /var&gt;/Pure Healer:&lt;var 20 E805 /var&gt;/Barrier Healer:&lt;var 20 E806 /var&gt;/Melee DPS:&lt;var 20 E807 /var&gt;/Physical Ranged DPS:&lt;var 20 E808 /var&gt;/Magical Ranged DPS:&lt;var 20 E809 /var&gt;/Other DPS:&lt;var 20 E80A /var&gt;))) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="10116" xml:space="preserve" approved="yes">
+        <source>10116</source>
+        <target state="final">【攻略手帳報酬】</target>
+      </trans-unit>
+      <trans-unit id="10117" xml:space="preserve" approved="yes">
+        <source>10117</source>
+        <target state="final">※コンテンツ中にのみ入手可能なアイテムです。</target>
+      </trans-unit>
+      <trans-unit id="10118" xml:space="preserve" approved="yes">
+        <source>10118</source>
+        <target state="final">受け取る</target>
       </trans-unit>
       <trans-unit id="10119" xml:space="preserve" approved="yes">
         <source>10119</source>
@@ -36784,9 +36874,9 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
         <source>10404</source>
         <target state="final">はじめから</target>
       </trans-unit>
-      <trans-unit id="10405" xml:space="preserve" approved="no">
+      <trans-unit id="10405" xml:space="preserve" approved="yes">
         <source>10405</source>
-        <target state="needs-translation">&lt;var 09 E803 ((B&lt;var 20 E802 /var&gt;)) ((&lt;var 20 E802 /var&gt;)) ((T&lt;var 20 E802 /var&gt;)) /var&gt;</target>
+        <target state="final">&lt;var 09 E803 ((B&lt;var 20 E802 /var&gt;)) ((&lt;var 20 E802 /var&gt;)) ((T&lt;var 20 E802 /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="10406" xml:space="preserve" approved="yes">
         <source>10406</source>
@@ -42402,13 +42492,6 @@ PvPチームの結成に同意しますか？</target>
         <source>11987</source>
         <target state="final">　・足</target>
       </trans-unit>
-      <trans-unit id="11988" xml:space="preserve" approved="yes">
-        <source>11988</source>
-        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;複数のクラス・ジョブの幻影が転写されているため、
-投影しても見た目として表示されない部位があります。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-
-</target>
-      </trans-unit>
       <trans-unit id="11989" xml:space="preserve" approved="yes">
         <source>11989</source>
         <target state="final">「&lt;var 29 EA02 /var&gt;」カテゴリのアイテムは保管されていません。</target>
@@ -46842,7 +46925,7 @@ PvPチームの結成に同意しますか？</target>
       </trans-unit>
       <trans-unit id="13124" xml:space="preserve" approved="yes">
         <source>13124</source>
-        <target state="final">絞り込みオフ</target>
+        <target state="final">絞り込みなし</target>
       </trans-unit>
       <trans-unit id="13125" xml:space="preserve" approved="yes">
         <source>13125</source>
@@ -49871,6 +49954,19 @@ PvPチームの結成に同意しますか？</target>
         <target state="final">色収差とは、光がレンズを通過する際に、色ごとにわずかにズレて映る現象です。
 機能を適用すると、画面の端に赤・青・緑のにじみが加わり、印象的なビジュアル効果を演出できます。</target>
       </trans-unit>
+      <trans-unit id="14029" xml:space="preserve" approved="yes">
+        <source>14029</source>
+        <target state="final">縦撮りモードで撮影した場合の構図をプレビュー表示します。</target>
+      </trans-unit>
+      <trans-unit id="14030" xml:space="preserve" approved="yes">
+        <source>14030</source>
+        <target state="final">縦長で撮影する縦撮りモードを実行します。
+※自動で撮影はされません。スクリーンショットは手動で撮影する必要があります。</target>
+      </trans-unit>
+      <trans-unit id="14031" xml:space="preserve" approved="yes">
+        <source>14031</source>
+        <target state="final">縦撮り時の比率制限を解除する</target>
+      </trans-unit>
       <trans-unit id="14050" xml:space="preserve" approved="yes">
         <source>14050</source>
         <target state="final">Sticker Mode</target>
@@ -50415,6 +50511,30 @@ PvPチームの結成に同意しますか？</target>
       <trans-unit id="14216" xml:space="preserve" approved="yes">
         <source>14216</source>
         <target state="final">このレシピに検品が必要なアイテムはありません。</target>
+      </trans-unit>
+      <trans-unit id="14220" xml:space="preserve" approved="yes">
+        <source>14220</source>
+        <target state="final">製作練習を行います。条件を設定してください。</target>
+      </trans-unit>
+      <trans-unit id="14221" xml:space="preserve" approved="yes">
+        <source>14221</source>
+        <target state="final">初期品質の設定</target>
+      </trans-unit>
+      <trans-unit id="14222" xml:space="preserve" approved="yes">
+        <source>14222</source>
+        <target state="final">初期品質上限：&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14223" xml:space="preserve" approved="yes">
+        <source>14223</source>
+        <target state="final">製作の状態を「通常」で固定する</target>
+      </trans-unit>
+      <trans-unit id="14224" xml:space="preserve" approved="yes">
+        <source>14224</source>
+        <target state="final">製作練習開始</target>
+      </trans-unit>
+      <trans-unit id="14225" xml:space="preserve" approved="yes">
+        <source>14225</source>
+        <target state="final">キャンセル</target>
       </trans-unit>
       <trans-unit id="14250" xml:space="preserve" approved="yes">
         <source>14250</source>
@@ -51372,6 +51492,423 @@ PvPチームの結成に同意しますか？</target>
       <trans-unit id="14498" xml:space="preserve" approved="yes">
         <source>14498</source>
         <target state="final">乱気流消滅まで&lt;var 20 E802 /var&gt;秒</target>
+      </trans-unit>
+      <trans-unit id="14500" xml:space="preserve" approved="yes">
+        <source>14500</source>
+        <target state="final">STRATEGY BOARD LIST</target>
+      </trans-unit>
+      <trans-unit id="14501" xml:space="preserve" approved="yes">
+        <source>14501</source>
+        <target state="final">図面一覧</target>
+      </trans-unit>
+      <trans-unit id="14502" xml:space="preserve" approved="yes">
+        <source>14502</source>
+        <target state="final">ストラテジーボードの解説を表示</target>
+      </trans-unit>
+      <trans-unit id="14504" xml:space="preserve" approved="yes">
+        <source>14504</source>
+        <target state="final">新規作成</target>
+      </trans-unit>
+      <trans-unit id="14506" xml:space="preserve" approved="yes">
+        <source>14506</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14507" xml:space="preserve" approved="yes">
+        <source>14507</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14508" xml:space="preserve" approved="yes">
+        <source>14508</source>
+        <target state="final">編集する</target>
+      </trans-unit>
+      <trans-unit id="14509" xml:space="preserve" approved="yes">
+        <source>14509</source>
+        <target state="final">パーティに共有する</target>
+      </trans-unit>
+      <trans-unit id="14510" xml:space="preserve" approved="yes">
+        <source>14510</source>
+        <target state="final">閲覧モードで表示する</target>
+      </trans-unit>
+      <trans-unit id="14511" xml:space="preserve" approved="yes">
+        <source>14511</source>
+        <target state="final">名称を変更する</target>
+      </trans-unit>
+      <trans-unit id="14512" xml:space="preserve" approved="yes">
+        <source>14512</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14513" xml:space="preserve" approved="yes">
+        <source>14513</source>
+        <target state="final">一番上にする</target>
+      </trans-unit>
+      <trans-unit id="14514" xml:space="preserve" approved="yes">
+        <source>14514</source>
+        <target state="final">ひとつ上と入れ替える</target>
+      </trans-unit>
+      <trans-unit id="14515" xml:space="preserve" approved="yes">
+        <source>14515</source>
+        <target state="final">ひとつ下と入れ替える</target>
+      </trans-unit>
+      <trans-unit id="14516" xml:space="preserve" approved="yes">
+        <source>14516</source>
+        <target state="final">一番下にする</target>
+      </trans-unit>
+      <trans-unit id="14517" xml:space="preserve" approved="yes">
+        <source>14517</source>
+        <target state="final">削除する</target>
+      </trans-unit>
+      <trans-unit id="14519" xml:space="preserve" approved="yes">
+        <source>14519</source>
+        <target state="final">名称を入力してください。</target>
+      </trans-unit>
+      <trans-unit id="14520" xml:space="preserve" approved="yes">
+        <source>14520</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14521" xml:space="preserve" approved="yes">
+        <source>14521</source>
+        <target state="final">「&lt;var 29 EA02 /var&gt;」を削除します。
+よろしいですか？</target>
+      </trans-unit>
+      <trans-unit id="14522" xml:space="preserve" approved="yes">
+        <source>14522</source>
+        <target state="final">STRATEGY BOARD EDITING </target>
+      </trans-unit>
+      <trans-unit id="14523" xml:space="preserve" approved="yes">
+        <source>14523</source>
+        <target state="final">図面編集</target>
+      </trans-unit>
+      <trans-unit id="14524" xml:space="preserve" approved="yes">
+        <source>14524</source>
+        <target state="final">オブジェクト追加</target>
+      </trans-unit>
+      <trans-unit id="14525" xml:space="preserve" approved="yes">
+        <source>14525</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14526" xml:space="preserve" approved="yes">
+        <source>14526</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14527" xml:space="preserve" approved="yes">
+        <source>14527</source>
+        <target state="final">REAL TIME EDITING</target>
+      </trans-unit>
+      <trans-unit id="14528" xml:space="preserve" approved="yes">
+        <source>14528</source>
+        <target state="final">もとに戻す</target>
+      </trans-unit>
+      <trans-unit id="14529" xml:space="preserve" approved="yes">
+        <source>14529</source>
+        <target state="final">やり直す</target>
+      </trans-unit>
+      <trans-unit id="14530" xml:space="preserve" approved="yes">
+        <source>14530</source>
+        <target state="final">グリッドライン表示切り替え</target>
+      </trans-unit>
+      <trans-unit id="14531" xml:space="preserve" approved="yes">
+        <source>14531</source>
+        <target state="final">グリッドスナップ切り替え</target>
+      </trans-unit>
+      <trans-unit id="14532" xml:space="preserve" approved="yes">
+        <source>14532</source>
+        <target state="final">オブジェクトスナップ切り替え</target>
+      </trans-unit>
+      <trans-unit id="14533" xml:space="preserve" approved="yes">
+        <source>14533</source>
+        <target state="final">レイヤーを操作する</target>
+      </trans-unit>
+      <trans-unit id="14534" xml:space="preserve" approved="yes">
+        <source>14534</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14535" xml:space="preserve" approved="yes">
+        <source>14535</source>
+        <target state="final">リアルタイム共有</target>
+      </trans-unit>
+      <trans-unit id="14536" xml:space="preserve" approved="yes">
+        <source>14536</source>
+        <target state="final">STRATEGY BOARD PRESET</target>
+      </trans-unit>
+      <trans-unit id="14537" xml:space="preserve" approved="yes">
+        <source>14537</source>
+        <target state="final">プリセット</target>
+      </trans-unit>
+      <trans-unit id="14538" xml:space="preserve" approved="yes">
+        <source>14538</source>
+        <target state="final">&lt;var 08 E4E95101 ((移動 拡縮 サブコマンド &lt;var 08 E4EA02EB01 ((&lt;var 08 E4EA03EB01 (()) ((&lt;var 29 EA03 /var&gt;回転)) /var&gt;)) ((&lt;var 08 E4EA03EB01 ((&lt;var 29 EA02 /var&gt;回転)) ((&lt;var 29 EA02 /var&gt;&lt;var 29 EA03 /var&gt;回転)) /var&gt;)) /var&gt;)) ((&lt;var 1E 15 /var&gt;カーソルの移動 &lt;var 1E 0C /var&gt;複数選択 &lt;var 1E 0B /var&gt;サブコマンド)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14539" xml:space="preserve" approved="yes">
+        <source>14539</source>
+        <target state="final">&lt;var 08 E4E95101 ((配置 拡縮 サブコマンド &lt;var 08 E4EA02EB01 ((&lt;var 08 E4EA03EB01 (()) ((&lt;var 29 EA03 /var&gt;回転)) /var&gt;)) ((&lt;var 08 E4EA03EB01 ((&lt;var 29 EA02 /var&gt;回転)) ((&lt;var 29 EA02 /var&gt;&lt;var 29 EA03 /var&gt;回転)) /var&gt;)) /var&gt;)) ((&lt;var 1E 15 /var&gt;移動 &lt;var 1E 19 /var&gt;拡縮 &lt;var 1E 0B /var&gt;サブコマンド &lt;var 1E 0D /var&gt;&lt;var 1E 0E /var&gt;回転)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14540" xml:space="preserve" approved="yes">
+        <source>14540</source>
+        <target state="final">レイヤーを操作する</target>
+      </trans-unit>
+      <trans-unit id="14541" xml:space="preserve" approved="yes">
+        <source>14541</source>
+        <target state="final">配置する</target>
+      </trans-unit>
+      <trans-unit id="14542" xml:space="preserve" approved="yes">
+        <source>14542</source>
+        <target state="final">閉じる</target>
+      </trans-unit>
+      <trans-unit id="14543" xml:space="preserve" approved="yes">
+        <source>14543</source>
+        <target state="final">OBJECT LIST</target>
+      </trans-unit>
+      <trans-unit id="14544" xml:space="preserve" approved="yes">
+        <source>14544</source>
+        <target state="final">オブジェクト選択</target>
+      </trans-unit>
+      <trans-unit id="14545" xml:space="preserve" approved="yes">
+        <source>14545</source>
+        <target state="final">ストラテジーボード</target>
+      </trans-unit>
+      <trans-unit id="14546" xml:space="preserve" approved="yes">
+        <source>14546</source>
+        <target state="final">ボード共有</target>
+      </trans-unit>
+      <trans-unit id="14547" xml:space="preserve" approved="yes">
+        <source>14547</source>
+        <target state="final">リアルタイム共有</target>
+      </trans-unit>
+      <trans-unit id="14548" xml:space="preserve" approved="yes">
+        <source>14548</source>
+        <target state="final">ブラックリスト登録者からの共有です。このまま開きますか？</target>
+      </trans-unit>
+      <trans-unit id="14549" xml:space="preserve" approved="yes">
+        <source>14549</source>
+        <target state="final">ブラックリスト登録者からの共有です。このまま開きますか？</target>
+      </trans-unit>
+      <trans-unit id="14550" xml:space="preserve" approved="yes">
+        <source>14550</source>
+        <target state="final">&lt;var 08 E4E80201 ((ストラテジーボード)) (( ストラテジーボードフォルダ)) /var&gt;「&lt;var 29 EA03 /var&gt;」のリアルタイム共有を開始します。
+操作した内容は常時保存されます。
+よろしいですか？</target>
+      </trans-unit>
+      <trans-unit id="14552" xml:space="preserve" approved="yes">
+        <source>14552</source>
+        <target state="final">選択オブジェクトを整列する</target>
+      </trans-unit>
+      <trans-unit id="14553" xml:space="preserve" approved="yes">
+        <source>14553</source>
+        <target state="final">縦軸を揃える</target>
+      </trans-unit>
+      <trans-unit id="14554" xml:space="preserve" approved="yes">
+        <source>14554</source>
+        <target state="final">横軸を揃える</target>
+      </trans-unit>
+      <trans-unit id="14555" xml:space="preserve" approved="yes">
+        <source>14555</source>
+        <target state="final">テキストを変更する</target>
+      </trans-unit>
+      <trans-unit id="14556" xml:space="preserve" approved="yes">
+        <source>14556</source>
+        <target state="final">カラーを変更する</target>
+      </trans-unit>
+      <trans-unit id="14557" xml:space="preserve" approved="yes">
+        <source>14557</source>
+        <target state="final">選択オブジェクトを複製する</target>
+      </trans-unit>
+      <trans-unit id="14558" xml:space="preserve" approved="yes">
+        <source>14558</source>
+        <target state="final">選択オブジェクトを非表示にする</target>
+      </trans-unit>
+      <trans-unit id="14559" xml:space="preserve" approved="yes">
+        <source>14559</source>
+        <target state="final">選択オブジェクトを表示にする</target>
+      </trans-unit>
+      <trans-unit id="14560" xml:space="preserve" approved="yes">
+        <source>14560</source>
+        <target state="final">一番上のレイヤーにする</target>
+      </trans-unit>
+      <trans-unit id="14561" xml:space="preserve" approved="yes">
+        <source>14561</source>
+        <target state="final">ひとつ上のレイヤーと入れ替える</target>
+      </trans-unit>
+      <trans-unit id="14562" xml:space="preserve" approved="yes">
+        <source>14562</source>
+        <target state="final">ひとつ下のレイヤーと入れ替える</target>
+      </trans-unit>
+      <trans-unit id="14563" xml:space="preserve" approved="yes">
+        <source>14563</source>
+        <target state="final">一番下のレイヤーにする</target>
+      </trans-unit>
+      <trans-unit id="14564" xml:space="preserve" approved="yes">
+        <source>14564</source>
+        <target state="final">選択オブジェクトを削除する</target>
+      </trans-unit>
+      <trans-unit id="14565" xml:space="preserve" approved="yes">
+        <source>14565</source>
+        <target state="final">リストに戻る</target>
+      </trans-unit>
+      <trans-unit id="14566" xml:space="preserve" approved="yes">
+        <source>14566</source>
+        <target state="final">保存する</target>
+      </trans-unit>
+      <trans-unit id="14567" xml:space="preserve" approved="yes">
+        <source>14567</source>
+        <target state="final">UIを縮小</target>
+      </trans-unit>
+      <trans-unit id="14568" xml:space="preserve" approved="yes">
+        <source>14568</source>
+        <target state="final">UIを拡大</target>
+      </trans-unit>
+      <trans-unit id="14569" xml:space="preserve" approved="yes">
+        <source>14569</source>
+        <target state="final">閲覧モード設定</target>
+      </trans-unit>
+      <trans-unit id="14570" xml:space="preserve" approved="yes">
+        <source>14570</source>
+        <target state="final">保存リスト</target>
+      </trans-unit>
+      <trans-unit id="14571" xml:space="preserve" approved="yes">
+        <source>14571</source>
+        <target state="final">共有リスト</target>
+      </trans-unit>
+      <trans-unit id="14572" xml:space="preserve" approved="yes">
+        <source>14572</source>
+        <target state="final">保存リストを開く</target>
+      </trans-unit>
+      <trans-unit id="14573" xml:space="preserve" approved="yes">
+        <source>14573</source>
+        <target state="final">共有リストを開く</target>
+      </trans-unit>
+      <trans-unit id="14574" xml:space="preserve" approved="yes">
+        <source>14574</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14575" xml:space="preserve" approved="yes">
+        <source>14575</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14576" xml:space="preserve" approved="yes">
+        <source>14576</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14577" xml:space="preserve" approved="yes">
+        <source>14577</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14578" xml:space="preserve" approved="yes">
+        <source>14578</source>
+        <target state="final">図面が変更されています。
+変更を保存しないまま、ウィンドウを閉じますか？</target>
+      </trans-unit>
+      <trans-unit id="14579" xml:space="preserve" approved="yes">
+        <source>14579</source>
+        <target state="final">STRATEGY BOARD</target>
+      </trans-unit>
+      <trans-unit id="14580" xml:space="preserve" approved="yes">
+        <source>14580</source>
+        <target state="final">図面閲覧</target>
+      </trans-unit>
+      <trans-unit id="14581" xml:space="preserve" approved="yes">
+        <source>14581</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14582" xml:space="preserve" approved="yes">
+        <source>14582</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14583" xml:space="preserve" approved="yes">
+        <source>14583</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14584" xml:space="preserve" approved="yes">
+        <source>14584</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14585" xml:space="preserve" approved="yes">
+        <source>14585</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14586" xml:space="preserve" approved="yes">
+        <source>14586</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14587" xml:space="preserve" approved="yes">
+        <source>14587</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14588" xml:space="preserve" approved="yes">
+        <source>14588</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14589" xml:space="preserve" approved="yes">
+        <source>14589</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="14590" xml:space="preserve" approved="yes">
+        <source>14590</source>
+        <target state="final">&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14591" xml:space="preserve" approved="yes">
+        <source>14591</source>
+        <target state="final">X:&lt;var 20 E802 /var&gt; / Y:&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14592" xml:space="preserve" approved="yes">
+        <source>14592</source>
+        <target state="final">オブジェクト未選択</target>
+      </trans-unit>
+      <trans-unit id="14596" xml:space="preserve" approved="yes">
+        <source>14596</source>
+        <target state="final">左右反転</target>
+      </trans-unit>
+      <trans-unit id="14597" xml:space="preserve" approved="yes">
+        <source>14597</source>
+        <target state="final">上下反転</target>
+      </trans-unit>
+      <trans-unit id="14598" xml:space="preserve" approved="yes">
+        <source>14598</source>
+        <target state="final">左右反転</target>
+      </trans-unit>
+      <trans-unit id="14599" xml:space="preserve" approved="yes">
+        <source>14599</source>
+        <target state="final">上下反転</target>
+      </trans-unit>
+      <trans-unit id="14600" xml:space="preserve" approved="yes">
+        <source>14600</source>
+        <target state="final">オブジェクトがありません。</target>
+      </trans-unit>
+      <trans-unit id="14605" xml:space="preserve" approved="yes">
+        <source>14605</source>
+        <target state="final">リアルタイム共有を開始する</target>
+      </trans-unit>
+      <trans-unit id="14608" xml:space="preserve" approved="yes">
+        <source>14608</source>
+        <target state="final">ストラテジーボード&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14609" xml:space="preserve" approved="yes">
+        <source>14609</source>
+        <target state="final">複製する</target>
+      </trans-unit>
+      <trans-unit id="14610" xml:space="preserve" approved="yes">
+        <source>14610</source>
+        <target state="final">GROUP SETTINGS</target>
+      </trans-unit>
+      <trans-unit id="14611" xml:space="preserve" approved="yes">
+        <source>14611</source>
+        <target state="final">グループ設定</target>
+      </trans-unit>
+      <trans-unit id="14612" xml:space="preserve" approved="yes">
+        <source>14612</source>
+        <target state="final">Object</target>
+      </trans-unit>
+      <trans-unit id="14613" xml:space="preserve" approved="yes">
+        <source>14613</source>
+        <target state="final">Link</target>
+      </trans-unit>
+      <trans-unit id="14614" xml:space="preserve" approved="yes">
+        <source>14614</source>
+        <target state="final">&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="14619" xml:space="preserve" approved="yes">
+        <source>14619</source>
+        <target state="final">すでにグループに含まれたオブジェクトが選択されています。
+グループから解除し、新しいグループを作成しますか？</target>
       </trans-unit>
       <trans-unit id="14620" xml:space="preserve" approved="yes">
         <source>14620</source>
@@ -54386,7 +54923,7 @@ PvPコンテンツ「クリスタルコンフリクト」や、
       </trans-unit>
       <trans-unit id="15403" xml:space="preserve" approved="yes">
         <source>15403</source>
-        <target state="final">アナザーダンジョン</target>
+        <target state="final">エクストラ</target>
       </trans-unit>
       <trans-unit id="15404" xml:space="preserve" approved="yes">
         <source>15404</source>
@@ -54398,7 +54935,8 @@ PvPコンテンツ「クリスタルコンフリクト」や、
       </trans-unit>
       <trans-unit id="15406" xml:space="preserve" approved="yes">
         <source>15406</source>
-        <target state="final">&lt;var 08 E1E80201 ((平均アイテムレベル &lt;var 20 E802 /var&gt;～
+        <target state="final">&lt;var 08 E1E80501 ((レベルシンク：&lt;var 20 E805 /var&gt;
+)) (()) /var&gt;&lt;var 08 E1E80201 ((平均アイテムレベル &lt;var 20 E802 /var&gt;～
 )) (()) /var&gt;&lt;var 08 E1E80301 ((アイテムレベルシンク：&lt;var 20 E803 /var&gt;
 )) (()) /var&gt;&lt;var 08 E1E80401 ((&lt;var 09 E804 ((コンテンツ内ジョブチェンジ可)) ((コンテンツ内ジョブチェンジ不可　蘇生制限)) ((コンテンツ内ジョブチェンジ不可　蘇生制限
 全滅時コンテンツリセット)) /var&gt;)) (()) /var&gt;</target>
@@ -54510,6 +55048,16 @@ PvPコンテンツ「クリスタルコンフリクト」や、
       <trans-unit id="15432" xml:space="preserve" approved="yes">
         <source>15432</source>
         <target state="final">発見した物語を読むには、クエスト「&lt;var 28 ((Quest)) E80201 /var&gt;」をコンプリートする必要があります。</target>
+      </trans-unit>
+      <trans-unit id="15439" xml:space="preserve" approved="yes">
+        <source>15439</source>
+        <target state="final">&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;)) 02 /var&gt;～&lt;var 20 E802 /var&gt;人用</target>
+      </trans-unit>
+      <trans-unit id="15440" xml:space="preserve" approved="yes">
+        <source>15440</source>
+        <target state="final">まだ投票をしていませんがウィンドウを閉じますか？
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;閉じたあとも制限時間内であれば通知欄からもう一度このウィンドウを開くことができます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15450" xml:space="preserve" approved="yes">
         <source>15450</source>
@@ -55175,7 +55723,7 @@ PvPコンテンツ「クリスタルコンフリクト」や、
         <source>15619</source>
         <target state="final">まとめて幻影化する装備を選んでください。
 同じ品質のアイテムのみ選択可能です。
-ミラージュプリズム必要数：&lt;var 20 E802 /var&gt;（所持数：&lt;var 08 E1E803F203E7 ((999+)) ((&lt;var 20 E803 /var&gt;)) /var&gt;）</target>
+ミラージュプリズム最大必要数：&lt;var 20 E802 /var&gt;（所持数：&lt;var 08 E1E803F203E7 ((999+)) ((&lt;var 20 E803 /var&gt;)) /var&gt;）</target>
       </trans-unit>
       <trans-unit id="15620" xml:space="preserve" approved="yes">
         <source>15620</source>
@@ -55297,6 +55845,35 @@ PvPコンテンツ「クリスタルコンフリクト」や、
       <trans-unit id="15648" xml:space="preserve" approved="yes">
         <source>15648</source>
         <target state="final">装備一式として幻影化されたアイテムのみ表示</target>
+      </trans-unit>
+      <trans-unit id="15659" xml:space="preserve" approved="yes">
+        <source>15659</source>
+        <target state="final">所持数</target>
+      </trans-unit>
+      <trans-unit id="15660" xml:space="preserve" approved="yes">
+        <source>15660</source>
+        <target state="final">&lt;var 08 E1E802F203E7 ((999+)) ((&lt;var 20 E802 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="15661" xml:space="preserve" approved="yes">
+        <source>15661</source>
+        <target state="final">不足している装備品を追加する</target>
+      </trans-unit>
+      <trans-unit id="15663" xml:space="preserve" approved="yes">
+        <source>15663</source>
+        <target state="final">選択した装備品を収納可能な装備一式があります。
+既に幻影化されている装備一式に収納しますか？</target>
+      </trans-unit>
+      <trans-unit id="15664" xml:space="preserve" approved="yes">
+        <source>15664</source>
+        <target state="final">選択した装備一式に、不足している装備品を追加できます。</target>
+      </trans-unit>
+      <trans-unit id="15665" xml:space="preserve" approved="yes">
+        <source>15665</source>
+        <target state="final">選択した装備品の数だけミラージュプリズムを消費して、まとめて幻影化します。</target>
+      </trans-unit>
+      <trans-unit id="15666" xml:space="preserve" approved="yes">
+        <source>15666</source>
+        <target state="final">収納済みの装備品です。</target>
       </trans-unit>
       <trans-unit id="15700" xml:space="preserve" approved="yes">
         <source>15700</source>
@@ -55988,9 +56565,9 @@ Lv&lt;var 20 E808 /var&gt;</target>
         <target state="final">&lt;var 08 E1E80201 ((マスクカーニバル)) ((？？？？)) /var&gt;
 Lv&lt;var 20 E808 /var&gt;</target>
       </trans-unit>
-      <trans-unit id="15955" xml:space="preserve" approved="no">
+      <trans-unit id="15955" xml:space="preserve" approved="yes">
         <source>15955</source>
-        <target state="needs-translation">&lt;var 29 EA02 /var&gt;の&lt;var 09 E803 ((地下&lt;var 20 E804 /var&gt;階)) ((第&lt;var 20 E804 /var&gt;層)) ((第&lt;var 20 E804 /var&gt;巡礼路)) /var&gt;を攻略する。&lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;</target>
+        <target state="final">&lt;var 29 EA02 /var&gt;の&lt;var 08 E1E80401 ((&lt;var 09 E803 ((地下&lt;var 20 E804 /var&gt;階)) ((第&lt;var 20 E804 /var&gt;層)) ((第&lt;var 20 E804 /var&gt;巡礼路)) /var&gt;を攻略する。&lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;)) ((いずれかの&lt;var 08 E4E80304 ((巡礼路)) ((階層)) /var&gt;を攻略する。&lt;var 28 ((Addon)) F23E5501E805E804 /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="15956" xml:space="preserve" approved="yes">
         <source>15956</source>
@@ -55999,11 +56576,12 @@ Lv&lt;var 20 E808 /var&gt;</target>
       <trans-unit id="15957" xml:space="preserve" approved="yes">
         <source>15957</source>
         <target state="final">&lt;var 08 E4E80203 ((&lt;var 08 E1E8031F ((
-&lt;var 28 ((Addon)) F23E5401E802 /var&gt;)) (()) /var&gt;)) (()) /var&gt;</target>
+&lt;var 28 ((Addon)) F23E5401E802 /var&gt;)) (()) /var&gt;)) ((&lt;var 08 E4E80205 ((
+&lt;var 28 ((Addon)) F2429101E802 /var&gt;)) (()) /var&gt;)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="15958" xml:space="preserve" approved="yes">
         <source>15958</source>
-        <target state="final">&lt;var 28 ((Addon)) F23E5301 ((&lt;var 28 ((PlaceName)) ((&lt;var 28 ((TerritoryType)) ((&lt;var 28 ((ContentFinderCondition)) ((&lt;var 28 ((InstanceContent)) E80609 /var&gt;)) 02 /var&gt;)) 06 /var&gt;)) 01 /var&gt;)) E80FE80DE811 /var&gt;</target>
+        <target state="final">&lt;var 28 ((Addon)) F23E5301 ((&lt;var 28 ((PlaceName)) E81301 /var&gt;)) E80FE80DE811 /var&gt;</target>
       </trans-unit>
       <trans-unit id="15959" xml:space="preserve" approved="yes">
         <source>15959</source>
@@ -56753,6 +57331,43 @@ WQHD描画
         <source>16144</source>
         <target state="final">ゲーム内のフレームレート上限を30fpsに制限する設定です。</target>
       </trans-unit>
+      <trans-unit id="16145" xml:space="preserve" approved="yes">
+        <source>16145</source>
+        <target state="final">サウンドの視覚表現を有効化するかを設定します。
+サウンドの視覚表現は、ゲーム内で流れているさまざまな音を波形として可視化して表現する機能です。現在のカメラの向きを基準に音の発生方向を左右に分けて、以下の3種に分類し、音が再生された際に波形として表示します。
+赤：システム音
+緑：効果音・環境音・ボイス・楽器演奏
+青：BGM</target>
+      </trans-unit>
+      <trans-unit id="16146" xml:space="preserve" approved="yes">
+        <source>16146</source>
+        <target state="final">サウンドの視覚表現の表示サイズを設定します。
+設定値を大きくすることで、表示される波形のサイズが大きく表示されるようになります。</target>
+      </trans-unit>
+      <trans-unit id="16147" xml:space="preserve" approved="yes">
+        <source>16147</source>
+        <target state="final">サウンドの視覚表現の透過度を設定します。
+設定値を大きくすることで、表示される波形の透過度が高くなり、より透明に表示されるようになります。</target>
+      </trans-unit>
+      <trans-unit id="16148" xml:space="preserve" approved="yes">
+        <source>16148</source>
+        <target state="final">色の補正を有効化するかを設定します。
+色の補正は、色覚の違いにより見分けにくい色を補正し、ゲーム内の表示色を見やすくする機能です。
+※設定を有効にした上で補正タイプを選択する必要があります。</target>
+      </trans-unit>
+      <trans-unit id="16149" xml:space="preserve" approved="yes">
+        <source>16149</source>
+        <target state="final">色補正の強度を調整します。
+設定値が大きいほど、補正の強度が強くなります。</target>
+      </trans-unit>
+      <trans-unit id="16150" xml:space="preserve" approved="yes">
+        <source>16150</source>
+        <target state="final">色の補正タイプを設定します。
+未設定：デフォルトの表示状態
+1型色覚（P型）：赤色が見えにくい色覚に対応した補正
+2型色覚（D型）：緑色が見えにくい色覚に対応した補正
+3型色覚（T型）：青色が見えにくい色覚に対応した補正</target>
+      </trans-unit>
       <trans-unit id="16200" xml:space="preserve" approved="yes">
         <source>16200</source>
         <target state="final">HOUSE EVICT AUTHORITY</target>
@@ -56914,14 +57529,6 @@ WQHD描画
       <trans-unit id="16236" xml:space="preserve" approved="yes">
         <source>16236</source>
         <target state="final">アパルトメント・個室では、引越・リフォームは利用できません。</target>
-      </trans-unit>
-      <trans-unit id="16237" xml:space="preserve" approved="yes">
-        <source>16237</source>
-        <target state="final">ブックマーク登録（&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;）</target>
-      </trans-unit>
-      <trans-unit id="16238" xml:space="preserve" approved="yes">
-        <source>16238</source>
-        <target state="final">ブックマーク削除（&lt;var 20 E802 /var&gt;/&lt;var 20 E803 /var&gt;）</target>
       </trans-unit>
       <trans-unit id="16280" xml:space="preserve" approved="yes">
         <source>16280</source>
@@ -57577,6 +58184,196 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
         <source>16482</source>
         <target state="final">CAST</target>
       </trans-unit>
+      <trans-unit id="16500" xml:space="preserve" approved="yes">
+        <source>16500</source>
+        <target state="final">グループの設定が変更されています。
+変更せず終了しますか？</target>
+      </trans-unit>
+      <trans-unit id="16501" xml:space="preserve" approved="yes">
+        <source>16501</source>
+        <target state="final">TEXT OBJECT</target>
+      </trans-unit>
+      <trans-unit id="16502" xml:space="preserve" approved="yes">
+        <source>16502</source>
+        <target state="final">テキストオブジェクト編集</target>
+      </trans-unit>
+      <trans-unit id="16503" xml:space="preserve" approved="yes">
+        <source>16503</source>
+        <target state="final">新規グループ作成</target>
+      </trans-unit>
+      <trans-unit id="16504" xml:space="preserve" approved="yes">
+        <source>16504</source>
+        <target state="final">グループ設定を変更する</target>
+      </trans-unit>
+      <trans-unit id="16505" xml:space="preserve" approved="yes">
+        <source>16505</source>
+        <target state="final">グループ設定を解除する</target>
+      </trans-unit>
+      <trans-unit id="16506" xml:space="preserve" approved="yes">
+        <source>16506</source>
+        <target state="final">&lt;var 08 E802 ((一時無効にしたグループ設定を有効にする)) ((すべてのグループ設定を一時無効にする)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16507" xml:space="preserve" approved="yes">
+        <source>16507</source>
+        <target state="final">&lt;var 08 E802 ((グループ設定を有効にする)) ((グループ設定を一時無効にする)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16508" xml:space="preserve" approved="yes">
+        <source>16508</source>
+        <target state="final">選択オブジェクトをグループから解除する</target>
+      </trans-unit>
+      <trans-unit id="16509" xml:space="preserve" approved="yes">
+        <source>16509</source>
+        <target state="final">選択オブジェクトからグループ作成</target>
+      </trans-unit>
+      <trans-unit id="16510" xml:space="preserve" approved="yes">
+        <source>16510</source>
+        <target state="final">パラメータを変更する</target>
+      </trans-unit>
+      <trans-unit id="16511" xml:space="preserve" approved="yes">
+        <source>16511</source>
+        <target state="final">選択オブジェクトを&lt;var 08 E802 ((ロックする)) ((ロック解除する)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16512" xml:space="preserve" approved="yes">
+        <source>16512</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="16514" xml:space="preserve" approved="yes">
+        <source>16514</source>
+        <target state="final">OBJECT PARAMETER EDIT</target>
+      </trans-unit>
+      <trans-unit id="16515" xml:space="preserve" approved="yes">
+        <source>16515</source>
+        <target state="final">オブジェクト編集</target>
+      </trans-unit>
+      <trans-unit id="16516" xml:space="preserve" approved="yes">
+        <source>16516</source>
+        <target state="final">STRATEGY BOARD SAVE</target>
+      </trans-unit>
+      <trans-unit id="16517" xml:space="preserve" approved="yes">
+        <source>16517</source>
+        <target state="final">図面保存</target>
+      </trans-unit>
+      <trans-unit id="16518" xml:space="preserve" approved="yes">
+        <source>16518</source>
+        <target state="final">保存先</target>
+      </trans-unit>
+      <trans-unit id="16519" xml:space="preserve" approved="yes">
+        <source>16519</source>
+        <target state="final">図面名</target>
+      </trans-unit>
+      <trans-unit id="16520" xml:space="preserve" approved="yes">
+        <source>16520</source>
+        <target state="final">OBJECT LAYER</target>
+      </trans-unit>
+      <trans-unit id="16521" xml:space="preserve" approved="yes">
+        <source>16521</source>
+        <target state="final">オブジェクトレイヤー</target>
+      </trans-unit>
+      <trans-unit id="16522" xml:space="preserve" approved="yes">
+        <source>16522</source>
+        <target state="final">背景</target>
+      </trans-unit>
+      <trans-unit id="16523" xml:space="preserve" approved="yes">
+        <source>16523</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="16524" xml:space="preserve" approved="yes">
+        <source>16524</source>
+        <target state="final">色の変更</target>
+      </trans-unit>
+      <trans-unit id="16525" xml:space="preserve" approved="yes">
+        <source>16525</source>
+        <target state="final">CREATE MENU</target>
+      </trans-unit>
+      <trans-unit id="16526" xml:space="preserve" approved="yes">
+        <source>16526</source>
+        <target state="final">図面作成</target>
+      </trans-unit>
+      <trans-unit id="16527" xml:space="preserve" approved="yes">
+        <source>16527</source>
+        <target state="final">プリセットを指定して新規作成</target>
+      </trans-unit>
+      <trans-unit id="16528" xml:space="preserve" approved="yes">
+        <source>16528</source>
+        <target state="final">空の図面を作成</target>
+      </trans-unit>
+      <trans-unit id="16529" xml:space="preserve" approved="yes">
+        <source>16529</source>
+        <target state="final">共有コードから作成</target>
+      </trans-unit>
+      <trans-unit id="16530" xml:space="preserve" approved="yes">
+        <source>16530</source>
+        <target state="final">閉じる</target>
+      </trans-unit>
+      <trans-unit id="16531" xml:space="preserve" approved="yes">
+        <source>16531</source>
+        <target state="final">新規作成</target>
+      </trans-unit>
+      <trans-unit id="16532" xml:space="preserve" approved="yes">
+        <source>16532</source>
+        <target state="final">フォルダを作成する</target>
+      </trans-unit>
+      <trans-unit id="16533" xml:space="preserve" approved="yes">
+        <source>16533</source>
+        <target state="final">リスト表示切り替え</target>
+      </trans-unit>
+      <trans-unit id="16534" xml:space="preserve" approved="yes">
+        <source>16534</source>
+        <target state="final">編集する</target>
+      </trans-unit>
+      <trans-unit id="16535" xml:space="preserve" approved="yes">
+        <source>16535</source>
+        <target state="final">共有する</target>
+      </trans-unit>
+      <trans-unit id="16536" xml:space="preserve" approved="yes">
+        <source>16536</source>
+        <target state="final">閲覧モードで表示</target>
+      </trans-unit>
+      <trans-unit id="16537" xml:space="preserve" approved="yes">
+        <source>16537</source>
+        <target state="final">閲覧モード設定</target>
+      </trans-unit>
+      <trans-unit id="16539" xml:space="preserve" approved="yes">
+        <source>16539</source>
+        <target state="final">図面は未設定です。</target>
+      </trans-unit>
+      <trans-unit id="16540" xml:space="preserve" approved="yes">
+        <source>16540</source>
+        <target state="final">&lt;var 29 EA02 /var&gt;/&lt;var 29 EA03 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="16542" xml:space="preserve" approved="yes">
+        <source>16542</source>
+        <target state="final">移動先フォルダを選択する</target>
+      </trans-unit>
+      <trans-unit id="16543" xml:space="preserve" approved="yes">
+        <source>16543</source>
+        <target state="final">共有コードを作成する</target>
+      </trans-unit>
+      <trans-unit id="16544" xml:space="preserve" approved="yes">
+        <source>16544</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="16545" xml:space="preserve" approved="yes">
+        <source>16545</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="16546" xml:space="preserve" approved="yes">
+        <source>16546</source>
+        <target state="final">入れ替える</target>
+      </trans-unit>
+      <trans-unit id="16547" xml:space="preserve" approved="yes">
+        <source>16547</source>
+        <target state="final">共有する</target>
+      </trans-unit>
+      <trans-unit id="16548" xml:space="preserve" approved="yes">
+        <source>16548</source>
+        <target state="final">保存された図面はありません。</target>
+      </trans-unit>
+      <trans-unit id="16549" xml:space="preserve" approved="yes">
+        <source>16549</source>
+        <target state="final">&lt;var 08 E4E80201 ((ストラテジーボード)) (( ストラテジーボードフォルダ)) /var&gt;「&lt;var 29 EA03 /var&gt;」をパーティに共有します。
+よろしいですか？</target>
+      </trans-unit>
       <trans-unit id="16551" xml:space="preserve" approved="yes">
         <source>16551</source>
         <target state="final">翠色の魔道球</target>
@@ -58067,6 +58864,62 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
         <source>16699</source>
         <target state="final">「フォークタワー」は「蜃気楼の島 クレセントアイル」における&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;最高難易度のレイドコンテンツ&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;です。
 その攻略においては、参加者同士の協力と、各個人がサポートジョブの力を存分に発揮することが求められます。</target>
+      </trans-unit>
+      <trans-unit id="16700" xml:space="preserve" approved="yes">
+        <source>16700</source>
+        <target state="final">アクション実行時にウィンドウを閉じる</target>
+      </trans-unit>
+      <trans-unit id="16702" xml:space="preserve" approved="yes">
+        <source>16702</source>
+        <target state="final">最後に利用したパネルを開く</target>
+      </trans-unit>
+      <trans-unit id="16704" xml:space="preserve" approved="yes">
+        <source>16704</source>
+        <target state="final">削除する</target>
+      </trans-unit>
+      <trans-unit id="16705" xml:space="preserve" approved="yes">
+        <source>16705</source>
+        <target state="final">移動する</target>
+      </trans-unit>
+      <trans-unit id="16706" xml:space="preserve" approved="yes">
+        <source>16706</source>
+        <target state="final">ホットバーに登録する</target>
+      </trans-unit>
+      <trans-unit id="16707" xml:space="preserve" approved="yes">
+        <source>16707</source>
+        <target state="final">タブをホットバーに登録する</target>
+      </trans-unit>
+      <trans-unit id="16708" xml:space="preserve" approved="yes">
+        <source>16708</source>
+        <target state="final">設定を開く</target>
+      </trans-unit>
+      <trans-unit id="16709" xml:space="preserve" approved="yes">
+        <source>16709</source>
+        <target state="final">マウスの位置にあわせてウィンドウを表示する</target>
+      </trans-unit>
+      <trans-unit id="16710" xml:space="preserve" approved="yes">
+        <source>16710</source>
+        <target state="final">パネルショートカットのアイコンとして登録する</target>
+      </trans-unit>
+      <trans-unit id="16711" xml:space="preserve" approved="yes">
+        <source>16711</source>
+        <target state="final">クイックパネルの解説を表示</target>
+      </trans-unit>
+      <trans-unit id="16712" xml:space="preserve" approved="yes">
+        <source>16712</source>
+        <target state="final">ウィンドウカラーの濃さ</target>
+      </trans-unit>
+      <trans-unit id="16713" xml:space="preserve" approved="yes">
+        <source>16713</source>
+        <target state="final">パネルショートカット</target>
+      </trans-unit>
+      <trans-unit id="16714" xml:space="preserve" approved="yes">
+        <source>16714</source>
+        <target state="final">ドラッグ操作をロックする</target>
+      </trans-unit>
+      <trans-unit id="16715" xml:space="preserve" approved="yes">
+        <source>16715</source>
+        <target state="final">アイコンを初期化する</target>
       </trans-unit>
       <trans-unit id="16716" xml:space="preserve" approved="yes">
         <source>16716</source>
@@ -58836,10 +59689,6 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
         <source>16910</source>
         <target state="final">　&lt;var 20 E802 /var&gt; ～ &lt;var 20 E803 /var&gt; = &lt;var 20 E804 /var&gt;&lt;var 08 E1E80501 (( ～ &lt;var 20 E805 /var&gt;)) (()) /var&gt;点</target>
       </trans-unit>
-      <trans-unit id="16911" xml:space="preserve" approved="yes">
-        <source>16911</source>
-        <target state="final">&lt;var 08 E1E80201 ((COSMIC FORTUNE)) ((COSMIC FORTUNE: BIG BANG!)) /var&gt;</target>
-      </trans-unit>
       <trans-unit id="16912" xml:space="preserve" approved="yes">
         <source>16912</source>
         <target state="final">スペシャルルーレットチャンス</target>
@@ -58873,11 +59722,6 @@ Lv30までの敵討伐時の経験値獲得量を増加できる指輪
       <trans-unit id="16919" xml:space="preserve" approved="yes">
         <source>16919</source>
         <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※開始すると、制限時間のカウントが進みます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
-      </trans-unit>
-      <trans-unit id="16920" xml:space="preserve" approved="yes">
-        <source>16920</source>
-        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;※平均アイテムレベルを満たしていないため、
-　難易度が上昇します。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="16921" xml:space="preserve" approved="yes">
         <source>16921</source>
@@ -59342,6 +60186,36 @@ Lv&lt;var 20 E808 /var&gt;</target>
         <target state="final">&lt;var 08 E1E80201 ((クリスタルコンフリクト)) ((？？？？)) /var&gt;
 Lv&lt;var 20 E808 /var&gt;</target>
       </trans-unit>
+      <trans-unit id="17035" xml:space="preserve" approved="yes">
+        <source>17035</source>
+        <target state="final">&lt;var 08 E1E80201 ((ドマ式麻雀)) ((？？？？)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17036" xml:space="preserve" approved="yes">
+        <source>17036</source>
+        <target state="final">&lt;var 08 E1E80201 ((ドマ式麻雀)) ((？？？？)) /var&gt;
+Lv&lt;var 20 E808 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17037" xml:space="preserve" approved="yes">
+        <source>17037</source>
+        <target state="final">ドマ式麻雀でプレイヤー対戦を&lt;var 20 E809 /var&gt;回行う。
+※NPC対戦は対象になりません。</target>
+      </trans-unit>
+      <trans-unit id="17038" xml:space="preserve" approved="yes">
+        <source>17038</source>
+        <target state="final">グランドカンパニーの調達任務で&lt;var 20 E809 /var&gt;回納品を行う。</target>
+      </trans-unit>
+      <trans-unit id="17039" xml:space="preserve" approved="yes">
+        <source>17039</source>
+        <target state="final">いずれかのグランドカンパニーに所属することで開放</target>
+      </trans-unit>
+      <trans-unit id="17040" xml:space="preserve" approved="yes">
+        <source>17040</source>
+        <target state="final">&lt;var 28 ((PublicContent)) E80604 /var&gt;のクリティカルエンカウントを&lt;var 20 E809 /var&gt;回達成する。</target>
+      </trans-unit>
+      <trans-unit id="17041" xml:space="preserve" approved="yes">
+        <source>17041</source>
+        <target state="final">※「エミネントグリーフ討滅戦」と「詩想エミネントグリーフ討滅戦」は対象になりません。</target>
+      </trans-unit>
       <trans-unit id="17050" xml:space="preserve" approved="yes">
         <source>17050</source>
         <target state="final">デイリークエスト受注権</target>
@@ -59361,6 +60235,125 @@ Lv&lt;var 20 E808 /var&gt;</target>
       <trans-unit id="17054" xml:space="preserve" approved="yes">
         <source>17054</source>
         <target state="final">頭装備時に耳を隠さず表示する(対応した装備のみ)</target>
+      </trans-unit>
+      <trans-unit id="17071" xml:space="preserve" approved="yes">
+        <source>17071</source>
+        <target state="final">&lt;var 29 EA02 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17072" xml:space="preserve" approved="yes">
+        <source>17072</source>
+        <target state="final">X&lt;var 20 E802 /var&gt;/Y&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17073" xml:space="preserve" approved="yes">
+        <source>17073</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17074" xml:space="preserve" approved="yes">
+        <source>17074</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17075" xml:space="preserve" approved="yes">
+        <source>17075</source>
+        <target state="final">保存</target>
+      </trans-unit>
+      <trans-unit id="17076" xml:space="preserve" approved="yes">
+        <source>17076</source>
+        <target state="final">閉じる</target>
+      </trans-unit>
+      <trans-unit id="17077" xml:space="preserve" approved="yes">
+        <source>17077</source>
+        <target state="final">移動先フォルダ</target>
+      </trans-unit>
+      <trans-unit id="17078" xml:space="preserve" approved="yes">
+        <source>17078</source>
+        <target state="final">保存する</target>
+      </trans-unit>
+      <trans-unit id="17079" xml:space="preserve" approved="yes">
+        <source>17079</source>
+        <target state="final">キャンセル</target>
+      </trans-unit>
+      <trans-unit id="17080" xml:space="preserve" approved="yes">
+        <source>17080</source>
+        <target state="final">グループ数</target>
+      </trans-unit>
+      <trans-unit id="17081" xml:space="preserve" approved="yes">
+        <source>17081</source>
+        <target state="final">オブジェクト数</target>
+      </trans-unit>
+      <trans-unit id="17082" xml:space="preserve" approved="yes">
+        <source>17082</source>
+        <target state="final">グループ作成</target>
+      </trans-unit>
+      <trans-unit id="17083" xml:space="preserve" approved="yes">
+        <source>17083</source>
+        <target state="final">(フォルダなし)</target>
+      </trans-unit>
+      <trans-unit id="17084" xml:space="preserve" approved="yes">
+        <source>17084</source>
+        <target state="final">新規フォルダを作成</target>
+      </trans-unit>
+      <trans-unit id="17085" xml:space="preserve" approved="yes">
+        <source>17085</source>
+        <target state="final">STRATEGY BOARD SETTINGS</target>
+      </trans-unit>
+      <trans-unit id="17086" xml:space="preserve" approved="yes">
+        <source>17086</source>
+        <target state="final">ストラテジーボード設定</target>
+      </trans-unit>
+      <trans-unit id="17087" xml:space="preserve" approved="yes">
+        <source>17087</source>
+        <target state="final">DPSアイコン表示スタイル</target>
+      </trans-unit>
+      <trans-unit id="17088" xml:space="preserve" approved="yes">
+        <source>17088</source>
+        <target state="final">共通スタイル</target>
+      </trans-unit>
+      <trans-unit id="17089" xml:space="preserve" approved="yes">
+        <source>17089</source>
+        <target state="final">近接・遠隔スタイル</target>
+      </trans-unit>
+      <trans-unit id="17090" xml:space="preserve" approved="yes">
+        <source>17090</source>
+        <target state="final">強調表示</target>
+      </trans-unit>
+      <trans-unit id="17091" xml:space="preserve" approved="yes">
+        <source>17091</source>
+        <target state="final">●廃止：自分のクラス・ジョブを強調する</target>
+      </trans-unit>
+      <trans-unit id="17092" xml:space="preserve" approved="yes">
+        <source>17092</source>
+        <target state="final">●廃止：指定したロールアイコンを強調する</target>
+      </trans-unit>
+      <trans-unit id="17093" xml:space="preserve" approved="yes">
+        <source>17093</source>
+        <target state="final">DPSロールの表示アイコンを、2種類のスタイルから選ぶことができます。</target>
+      </trans-unit>
+      <trans-unit id="17094" xml:space="preserve" approved="yes">
+        <source>17094</source>
+        <target state="final">閲覧モード利用時、強調表示されるクラス・ジョブアイコンを設定できます。
+
+設定内容はすべての図面に反映されます。
+また、表示中の図面に指定したアイコンが配置されている場合のみ有効です。</target>
+      </trans-unit>
+      <trans-unit id="17095" xml:space="preserve" approved="yes">
+        <source>17095</source>
+        <target state="final">設定しない</target>
+      </trans-unit>
+      <trans-unit id="17096" xml:space="preserve" approved="yes">
+        <source>17096</source>
+        <target state="final">自身のクラス・ジョブ</target>
+      </trans-unit>
+      <trans-unit id="17097" xml:space="preserve" approved="yes">
+        <source>17097</source>
+        <target state="final">未設定ストラテジーボード</target>
+      </trans-unit>
+      <trans-unit id="17098" xml:space="preserve" approved="yes">
+        <source>17098</source>
+        <target state="final">未設定フォルダ</target>
+      </trans-unit>
+      <trans-unit id="17099" xml:space="preserve" approved="yes">
+        <source>17099</source>
+        <target state="final">移動する</target>
       </trans-unit>
       <trans-unit id="17100" xml:space="preserve" approved="yes">
         <source>17100</source>
@@ -59518,9 +60511,336 @@ Lv&lt;var 20 E808 /var&gt;</target>
         <source>17158</source>
         <target state="final">閉じる</target>
       </trans-unit>
+      <trans-unit id="17159" xml:space="preserve" approved="yes">
+        <source>17159</source>
+        <target state="final">高難易度レシピが含まれるミッション</target>
+      </trans-unit>
+      <trans-unit id="17160" xml:space="preserve" approved="yes">
+        <source>17160</source>
+        <target state="final">計画機構からのお知らせ表示設定</target>
+      </trans-unit>
+      <trans-unit id="17161" xml:space="preserve" approved="yes">
+        <source>17161</source>
+        <target state="final">常に表示する</target>
+      </trans-unit>
+      <trans-unit id="17162" xml:space="preserve" approved="yes">
+        <source>17162</source>
+        <target state="final">ログイン毎の初回入場時のみ表示する</target>
+      </trans-unit>
+      <trans-unit id="17163" xml:space="preserve" approved="yes">
+        <source>17163</source>
+        <target state="final">表示しない</target>
+      </trans-unit>
+      <trans-unit id="17164" xml:space="preserve" approved="yes">
+        <source>17164</source>
+        <target state="final">この設定の場合でも、探索状況に変化があった際はお知らせが表示されます。</target>
+      </trans-unit>
+      <trans-unit id="17165" xml:space="preserve" approved="yes">
+        <source>17165</source>
+        <target state="final">GOLD COUNT &lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17166" xml:space="preserve" approved="yes">
+        <source>17166</source>
+        <target state="final">Aクラス以上の基本ミッションか、
+または臨時ミッションにおいて、
+連続でゴールドグレードを達成することで、
+報酬量が上昇します。
+
+1カウント達成時：上昇なし
+2カウント達成時：5％上昇
+3カウント達成時：10％上昇
+4カウント達成時：15％上昇
+5カウント達成時：20％上昇
+GOLD STAR達成時：30％上昇
+
+対象となる報酬
+・各クレジット
+・ドローンチップ
+・計画貢献度
+
+GOLD STAR達成後は、カウントがリセットされます。
+&lt;var 08 E1E80201 ((現在のゴールドカウント：&lt;var 20 E802 /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17168" xml:space="preserve" approved="yes">
+        <source>17168</source>
+        <target state="final">現在のゴールドカウント：&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17169" xml:space="preserve" approved="yes">
+        <source>17169</source>
+        <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※Aクラス未満のミッションを開始した場合、
+　ゴールドカウントがリセットされます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17170" xml:space="preserve" approved="yes">
+        <source>17170</source>
+        <target state="final">現在のゴールドカウント：&lt;var 20 E802 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17171" xml:space="preserve" approved="yes">
+        <source>17171</source>
+        <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※ミッションを破棄した場合、
+　ゴールドカウントがリセットされます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
       <trans-unit id="17200" xml:space="preserve" approved="yes">
         <source>17200</source>
         <target state="final">ジョブ重複不可</target>
+      </trans-unit>
+      <trans-unit id="17202" xml:space="preserve" approved="yes">
+        <source>17202</source>
+        <target state="final">ゴールドソーサー内の限定イベント「G.A.T.E.」の
+「出撃！ エアフォースパイロット」に、
+シェルダレー諸島をモチーフにした、
+新しいステージが追加されました。
+ふるってご参加ください！
+
+なお、この追加にともない、
+「G.A.T.E.」の開催スケジュールが変更されています。
+
+より詳細な情報は、
+「エントランススクウェア」のメインカウンターにいる、
+「お客様案内窓口」にてご確認ください。</target>
+      </trans-unit>
+      <trans-unit id="17210" xml:space="preserve" approved="yes">
+        <source>17210</source>
+        <target state="final">クイックパネル内のアクションを実行したとき、クイックパネルウィンドウを同時に閉じるかどうかを変更できます。</target>
+      </trans-unit>
+      <trans-unit id="17211" xml:space="preserve" approved="yes">
+        <source>17211</source>
+        <target state="final">クイックパネルを起動したとき、ウィンドウをマウスの位置にあわせて表示するかどうかを変更できます。</target>
+      </trans-unit>
+      <trans-unit id="17212" xml:space="preserve" approved="yes">
+        <source>17212</source>
+        <target state="final">クイックパネル内に配置されたアクションを、ドラッグ操作で編集できないようにロックすることができます。</target>
+      </trans-unit>
+      <trans-unit id="17213" xml:space="preserve" approved="yes">
+        <source>17213</source>
+        <target state="final">クイックパネルのウィンドウカラーの濃さを変更できます。</target>
+      </trans-unit>
+      <trans-unit id="17214" xml:space="preserve" approved="yes">
+        <source>17214</source>
+        <target state="final">ホットバーに登録することで、指定したタブを直接開くことができます。</target>
+      </trans-unit>
+      <trans-unit id="17215" xml:space="preserve" approved="yes">
+        <source>17215</source>
+        <target state="final">クイックパネル(&lt;var 20 E802 /var&gt;)</target>
+      </trans-unit>
+      <trans-unit id="17216" xml:space="preserve" approved="yes">
+        <source>17216</source>
+        <target state="final">クイックパネルを起動したとき、最後に利用したパネルを開くかどうかを変更できます。</target>
+      </trans-unit>
+      <trans-unit id="17217" xml:space="preserve" approved="yes">
+        <source>17217</source>
+        <target state="final">このまま閉じると設定が破棄されます。
+よろしいですか？</target>
+      </trans-unit>
+      <trans-unit id="17218" xml:space="preserve" approved="yes">
+        <source>17218</source>
+        <target state="final">クイックパネル設定を開く</target>
+      </trans-unit>
+      <trans-unit id="17220" xml:space="preserve" approved="yes">
+        <source>17220</source>
+        <target state="final">すべての項目をまとめて修理</target>
+      </trans-unit>
+      <trans-unit id="17221" xml:space="preserve" approved="yes">
+        <source>17221</source>
+        <target state="final">装備中、アーマリーチェスト内、所持品に含まれる
+すべての修理可能なアイテムをまとめて
+連続で修理しますか？
+&lt;var 29 EA02 /var&gt;&lt;var 08 E803 ((
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;必要な触媒を持っていないため、代わりに上位の触媒が消費されます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17222" xml:space="preserve" approved="yes">
+        <source>17222</source>
+        <target state="final">AUTO REPAIRS</target>
+      </trans-unit>
+      <trans-unit id="17223" xml:space="preserve" approved="yes">
+        <source>17223</source>
+        <target state="final">自動アイテム修理</target>
+      </trans-unit>
+      <trans-unit id="17224" xml:space="preserve" approved="yes">
+        <source>17224</source>
+        <target state="final">TARGET CATEGORY</target>
+      </trans-unit>
+      <trans-unit id="17225" xml:space="preserve" approved="yes">
+        <source>17225</source>
+        <target state="final">「&lt;var 29 EA02 /var&gt;」
+のカテゴリを修理中</target>
+      </trans-unit>
+      <trans-unit id="17226" xml:space="preserve" approved="yes">
+        <source>17226</source>
+        <target state="final">すべての修理を完了しました。</target>
+      </trans-unit>
+      <trans-unit id="17227" xml:space="preserve" approved="yes">
+        <source>17227</source>
+        <target state="final">修理中止</target>
+      </trans-unit>
+      <trans-unit id="17228" xml:space="preserve" approved="yes">
+        <source>17228</source>
+        <target state="final">修理完了</target>
+      </trans-unit>
+      <trans-unit id="17229" xml:space="preserve" approved="yes">
+        <source>17229</source>
+        <target state="final">装備中、アーマリーチェスト内、所持品に含まれる
+すべての修理可能なアイテムをまとめて
+連続で修理しますか？
+費用:&lt;var 22 E802 ((,)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17250" xml:space="preserve" approved="yes">
+        <source>17250</source>
+        <target state="final">「蜃気楼の島　クレセントアイル：南征編」に
+新たなサポートジョブおよびアイテムが追加されました！
+
+追加されたアイテムは、コンテンツ内にいるNPC
+「探査隊の古銭鑑定士」から購入できます。
+コンテンツに突入し確認してみましょう！
+
+また、「トライヨラ」の都市内エーテライトを
+すべて開放していた場合、ボーナスとして
+「蜃気楼の町」への転送が可能になります！</target>
+      </trans-unit>
+      <trans-unit id="17494" xml:space="preserve" approved="yes">
+        <source>17494</source>
+        <target state="final">総確保時間</target>
+      </trans-unit>
+      <trans-unit id="17495" xml:space="preserve" approved="yes">
+        <source>17495</source>
+        <target state="final">&lt;var 20 E802 /var&gt;:&lt;var 24 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17496" xml:space="preserve" approved="yes">
+        <source>17496</source>
+        <target state="final">戦略値（合計）</target>
+      </trans-unit>
+      <trans-unit id="17497" xml:space="preserve" approved="yes">
+        <source>17497</source>
+        <target state="final">戦略目標地から得た戦略値</target>
+      </trans-unit>
+      <trans-unit id="17498" xml:space="preserve" approved="yes">
+        <source>17498</source>
+        <target state="final">敵兵撃破で得た戦略値</target>
+      </trans-unit>
+      <trans-unit id="17499" xml:space="preserve" approved="yes">
+        <source>17499</source>
+        <target state="final">戦闘不能で失った戦略値</target>
+      </trans-unit>
+      <trans-unit id="17500" xml:space="preserve" approved="yes">
+        <source>17500</source>
+        <target state="final">争奪中</target>
+      </trans-unit>
+      <trans-unit id="17501" xml:space="preserve" approved="yes">
+        <source>17501</source>
+        <target state="final">&lt;var 09 E802 ((&lt;var 12 34 /var&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;黒渦団 占拠中！&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 12 35 /var&gt;&lt;var 48 F20217 /var&gt;&lt;var 49 F20218 /var&gt;双蛇党 占拠中！&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 12 36 /var&gt;&lt;var 48 F20219 /var&gt;&lt;var 49 F2021A /var&gt;不滅隊 占拠中！&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="17502" xml:space="preserve" approved="yes">
+        <source>17502</source>
+        <target state="final">占拠済み</target>
+      </trans-unit>
+      <trans-unit id="17503" xml:space="preserve" approved="yes">
+        <source>17503</source>
+        <target state="final">&lt;var 09 E802 ((&lt;var 12 34 /var&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;黒渦団&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 12 35 /var&gt;&lt;var 48 F20217 /var&gt;&lt;var 49 F20218 /var&gt;双蛇党&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 12 36 /var&gt;&lt;var 48 F20219 /var&gt;&lt;var 49 F2021A /var&gt;不滅隊&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;が&lt;var 09 E803 ((ランクB)) ((ランクA)) ((ランクS)) /var&gt;のオブジェクトを制圧した！</target>
+      </trans-unit>
+      <trans-unit id="17504" xml:space="preserve" approved="yes">
+        <source>17504</source>
+        <target state="final">雪発生まで&lt;var 20 E802 /var&gt;秒！</target>
+      </trans-unit>
+      <trans-unit id="17505" xml:space="preserve" approved="yes">
+        <source>17505</source>
+        <target state="final">あたりに雪が降り始めた！</target>
+      </trans-unit>
+      <trans-unit id="17506" xml:space="preserve" approved="yes">
+        <source>17506</source>
+        <target state="final">オーロラ発生まで&lt;var 20 E802 /var&gt;秒！</target>
+      </trans-unit>
+      <trans-unit id="17507" xml:space="preserve" approved="yes">
+        <source>17507</source>
+        <target state="final">オーロラが発生した！</target>
+      </trans-unit>
+      <trans-unit id="17508" xml:space="preserve" approved="yes">
+        <source>17508</source>
+        <target state="final">Import</target>
+      </trans-unit>
+      <trans-unit id="17509" xml:space="preserve" approved="yes">
+        <source>17509</source>
+        <target state="final">共有コードの読み込み</target>
+      </trans-unit>
+      <trans-unit id="17510" xml:space="preserve" approved="yes">
+        <source>17510</source>
+        <target state="final">読み込みしたい図面の共有コードを入力し、
+「読み込む」ボタンを選択してください。</target>
+      </trans-unit>
+      <trans-unit id="17511" xml:space="preserve" approved="yes">
+        <source>17511</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17512" xml:space="preserve" approved="yes">
+        <source>17512</source>
+        <target state="final">クリップボードから貼り付け</target>
+      </trans-unit>
+      <trans-unit id="17513" xml:space="preserve" approved="yes">
+        <source>17513</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17514" xml:space="preserve" approved="yes">
+        <source>17514</source>
+        <target state="final">●廃止</target>
+      </trans-unit>
+      <trans-unit id="17515" xml:space="preserve" approved="yes">
+        <source>17515</source>
+        <target state="final">読み込む</target>
+      </trans-unit>
+      <trans-unit id="17516" xml:space="preserve" approved="yes">
+        <source>17516</source>
+        <target state="final">Export</target>
+      </trans-unit>
+      <trans-unit id="17517" xml:space="preserve" approved="yes">
+        <source>17517</source>
+        <target state="final">共有コードの作成</target>
+      </trans-unit>
+      <trans-unit id="17518" xml:space="preserve" approved="yes">
+        <source>17518</source>
+        <target state="final">図面のデータを共有コードに出力しました。</target>
+      </trans-unit>
+      <trans-unit id="17519" xml:space="preserve" approved="yes">
+        <source>17519</source>
+        <target state="final">図面名称</target>
+      </trans-unit>
+      <trans-unit id="17520" xml:space="preserve" approved="yes">
+        <source>17520</source>
+        <target state="final">閉じる</target>
+      </trans-unit>
+      <trans-unit id="17522" xml:space="preserve" approved="yes">
+        <source>17522</source>
+        <target state="final">クリップボードにコピーする</target>
+      </trans-unit>
+      <trans-unit id="17523" xml:space="preserve" approved="yes">
+        <source>17523</source>
+        <target state="final">閉じる</target>
+      </trans-unit>
+      <trans-unit id="17524" xml:space="preserve" approved="yes">
+        <source>17524</source>
+        <target state="final">保存する</target>
+      </trans-unit>
+      <trans-unit id="17525" xml:space="preserve" approved="yes">
+        <source>17525</source>
+        <target state="final">ストラテジーボード「&lt;var 29 EA02 /var&gt;」の読み込みに成功しました。
+この図面を保存しますか？</target>
+      </trans-unit>
+      <trans-unit id="17526" xml:space="preserve" approved="yes">
+        <source>17526</source>
+        <target state="final">：</target>
+      </trans-unit>
+      <trans-unit id="17527" xml:space="preserve" approved="yes">
+        <source>17527</source>
+        <target state="final">ストラテジーボード：&lt;var 29 EA02 /var&gt;の移動先フォルダを選択してください。</target>
+      </trans-unit>
+      <trans-unit id="17528" xml:space="preserve" approved="yes">
+        <source>17528</source>
+        <target state="final">STRATEGY BOARD MOVE</target>
+      </trans-unit>
+      <trans-unit id="17529" xml:space="preserve" approved="yes">
+        <source>17529</source>
+        <target state="final">図面移動</target>
+      </trans-unit>
+      <trans-unit id="17530" xml:space="preserve" approved="yes">
+        <source>17530</source>
+        <target state="final">Unknown</target>
       </trans-unit>
       <trans-unit id="101000" xml:space="preserve" approved="yes">
         <source>101000</source>

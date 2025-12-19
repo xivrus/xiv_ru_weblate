@@ -338,11 +338,12 @@ Einstellungen für Freunde.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;feast&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Einstellungen für PvP-Gegner in „Crystalline Conflict“.
 
-&gt;&gt;Typen (1-4)
+&gt;&gt;Typen (1-5)
 1: Immer anzeigen
 2: Im Kampf
 3: Wenn anvisiert
 4: Nie
+5: Nicht im Kampf
 
 Beispiel:
 /namensanzeige alle 4
@@ -529,7 +530,8 @@ Beispiel:
         <source>46</source>
         <target state="final">/tondarstellung, /visualalerts
 VERWENDUNG:
-→ Aktiviert die Einstellung „Visuelle Tondarstellung“. (Nur Windows und Mac)
+/tondarstellung [Unterbefehl]
+→ Aktiviert die Einstellung „Visuelle Tondarstellung“.
 &gt;&gt;Unterbefehle:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　Aktiviert die Einstellung.
@@ -541,7 +543,8 @@ Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geä
         <source>47</source>
         <target state="final">/farbkorrektur, /colorfiltering
 VERWENDUNG:
-→ Aktiviert die Einstellung „Farbwahrnehmung: Farbkorrektur umschalten“. (Nur Windows und Mac)
+/farbkorrektur [Unterbefehl]
+→ Aktiviert die Einstellung „Farbwahrnehmung: Farbkorrektur umschalten“.
 &gt;&gt;Unterbefehle:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　Aktiviert die Einstellung.
@@ -572,6 +575,16 @@ VERWENDUNG:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　Viera-Ohren sind verborgen.
 Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.&lt;tab&gt;/vieraohren&lt;tab&gt;&lt;tab&gt;/vieraears&lt;tab&gt;/vears</target>
+      </trans-unit>
+      <trans-unit id="50" xml:space="preserve" approved="yes">
+        <source>50</source>
+        <target state="final">/kommandotafel, /quickpanel, /commandpanel
+→ Öffnet die Kommandotafel.&lt;tab&gt;/kommandotafel&lt;tab&gt;/commandpanel&lt;tab&gt;/quickpanel&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="51" xml:space="preserve" approved="yes">
+        <source>51</source>
+        <target state="final">/strategyboard, /strategiebrett
+→ Öffnet deine Strategiebretter.&lt;tab&gt;/strategiebrett&lt;tab&gt;&lt;tab&gt;/strategyboard&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
@@ -941,21 +954,21 @@ Sucht nach allen Gladiatoren Stufe 20-30, die momentan in La Noscea sind (Name, 
         <target state="final">/mark, /marking, /mk
 VERWENDUNG:
 /mark [Symbol] [Variable zur Zielbestimmung]
-→ Markiert ein Ziel mit einem Symbol.
+→ Markiert ein Ziel mit einer Feindmarkierung.
 &gt;&gt;Symbole:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;att1&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;8&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bind1&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;3&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ignor1&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;2&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-  Wird keine Ziffer eingegeben, so wird automatisch die niedrigste unzugeordnete verwendet.
+  Wird keine Ziffer eingegeben, so wird automatisch die niedrigste nicht zugeordnete verwendet.
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;kreis (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;circle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;kreuz (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;cross&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;quadr (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;square&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;drei (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;triangle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;), &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;zurück&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;clear&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;  Löscht die Markierung.
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;), &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;zurück&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;clear&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;  Löscht die Feindmarkierung.
   Bei fehlendem Unterbefehl wird das Markierungen-Menü geöffnet. Wird kein Ziel bestimmt, so wird das momentan anvisierte Ziel markiert.
 &gt;&gt;Beispiel:
   /mk att2 &lt;t&gt;
-Markiert das momentane Ziel mit dem Symbol 2 für „Angreifen“.   &lt;tab&gt;/mark&lt;tab&gt;&lt;tab&gt;/marking&lt;tab&gt;/mk</target>
+Markiert das momentane Ziel mit dem Symbol 2 für „Angreifen“.&lt;tab&gt;/mark&lt;tab&gt;&lt;tab&gt;/marking&lt;tab&gt;/mk</target>
       </trans-unit>
       <trans-unit id="157" xml:space="preserve" approved="yes">
         <source>157</source>
@@ -1740,7 +1753,7 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.&lt;tab&gt;/feststelle
         <target state="final">/fokusziel, /focustarget
 VERWENDUNG:
 /fokusziel [Variable zur Zielbestimmung]
-→ Macht den ausgewählten Charakter zu deinem Fokusziel. Wird kein Ziel angegeben, wird der gerade anvisierte Charakter zum Fokusziel gemacht.&lt;tab&gt;/fokusziel&lt;tab&gt;&lt;tab&gt;/focustarget&lt;tab&gt;</target>
+→ Macht das ausgewählte Ziel zu deinem Fokusziel. Wird kein Ziel angegeben, wird das gerade anvisierte Ziel zum Fokusziel gemacht.&lt;tab&gt;/fokusziel&lt;tab&gt;&lt;tab&gt;/focustarget&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="267" xml:space="preserve" approved="yes">
         <source>267</source>
@@ -2033,7 +2046,7 @@ VERWENDUNG:
 /hud [Element] [Unterbefehl]
 → Blendet das angegebene Element ein/aus.
 &gt;&gt;HUD-Elemente:
-Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kosmo-Erkundung: Info (KosInfo), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Carteneauer Front: Schlachtinfo (FrontInfo), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
+Details zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Jobbalken 1 (jobbalken1), Jobbalken 2 (jobbalken2), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kosmo-Erkundung: Info (KosInfo), PvP: Kampfverlauf (PvPKam), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Carteneauer Front: Schlachtinfo (FrontInfo), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld), Stolperville-Ziel (Blunder:Objective), Stolperville-Fortschritt (Blunder:Score), Stolperville-Status (Blunder:Status), Stolperville-Wettkampfverlauf (Blunder:ShowLog)
 &gt;&gt;Unterbefehle:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Element anzeigen
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;aus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Element ausblenden
@@ -3002,30 +3015,30 @@ VERWENDUNG:
       </trans-unit>
       <trans-unit id="466" xml:space="preserve" approved="yes">
         <source>466</source>
-        <target state="final">/anfeuernblau, /anblau, /cheeron
+        <target state="final">/anwippblau, /wippblau, /cheerob
 VERWENDUNG:
-/anfeuernblau [Unterbefehl]
-→ Du feuerst mit blau schimmernden Leuchtstäben an.
+/anwippblau [Unterbefehl]
+→ Du feuerst wippend mit blau schimmernden Leuchtstäben an.
 &gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anfeuernblau&lt;tab&gt;/anblau&lt;tab&gt;/cheeron&lt;tab&gt;</target>
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anwippblau&lt;tab&gt;/wippblau&lt;tab&gt;/cheeronblue&lt;tab&gt;/cheerob</target>
       </trans-unit>
       <trans-unit id="467" xml:space="preserve" approved="yes">
         <source>467</source>
-        <target state="final">/anfeuerngelb, /angelb, /cheerwave
+        <target state="final">/anschwenkgelb, /schwenkgelb, /cheerwy
 VERWENDUNG:
-/anfeuerngelb [Unterbefehl]
-→ Du feuerst mit gelb schimmernden Leuchtstäben an.
+/anschwenkgelb [Unterbefehl]
+→ Du feuerst schwenkend mit gelb schimmernden Leuchtstäben an.
 &gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anfeuerngelb&lt;tab&gt;/angelb&lt;tab&gt;/cheerwave&lt;tab&gt;</target>
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anschwenkgelb&lt;tab&gt;/schwenkgelb&lt;tab&gt;/cheerwaveyellow&lt;tab&gt;/cheerwy</target>
       </trans-unit>
       <trans-unit id="468" xml:space="preserve" approved="yes">
         <source>468</source>
-        <target state="final">/anfeuernrot, /anrot, /cheerjump
+        <target state="final">/anhüpfrot, /hüpfrot, /cheerjr
 VERWENDUNG:
-/anfeuernrot [Unterbefehl]
-→ Du feuerst mit rot schimmernden Leuchtstäben an.
+/anhüpfrot [Unterbefehl]
+→ Du feuerst hüpfend mit rot schimmernden Leuchtstäben an.
 &gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anfeuernrot&lt;tab&gt;/anrot&lt;tab&gt;/cheerjump&lt;tab&gt;</target>
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anhüpfrot&lt;tab&gt;/hüpfrot&lt;tab&gt;/cheerjumpred&lt;tab&gt;/cheerjr</target>
       </trans-unit>
       <trans-unit id="469" xml:space="preserve" approved="yes">
         <source>469</source>
@@ -4562,30 +4575,30 @@ VERWENDUNG:
       </trans-unit>
       <trans-unit id="665" xml:space="preserve" approved="yes">
         <source>665</source>
-        <target state="final">/anfeuernweiß, /anweiß, /cheerbright
+        <target state="final">/anwippweiß, /wippweiß, /cheerow
 VERWENDUNG:
-/anfeuernweiß [Unterbefehl]
+/anwippweiß [Unterbefehl]
 → Du feuerst mit weiß schimmernden Leuchtstäben an.
 &gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anfeuernweiß&lt;tab&gt;/anweiß&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerbright</target>
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anwippweiß&lt;tab&gt;/wippweiß&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerow</target>
       </trans-unit>
       <trans-unit id="666" xml:space="preserve" approved="yes">
         <source>666</source>
-        <target state="final">/anfeuernlila, /anlila, /cheerviolet
+        <target state="final">/anschwenklila, /schwenklila, /cheerwv
 VERWENDUNG:
-/anfeuernlila [Unterbefehl]
-→ Du feuerst mit lila schimmernden Leuchtstäben an.
+/anschwenklila [Unterbefehl]
+→ Du feuerst schwenkend mit lila schimmernden Leuchtstäben an.
 &gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anfeuernlila&lt;tab&gt;/anlila&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerviolet</target>
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anschwenklila&lt;tab&gt;/schwenklila&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerwv</target>
       </trans-unit>
       <trans-unit id="667" xml:space="preserve" approved="yes">
         <source>667</source>
-        <target state="final">/anfeuerngrün, /angrün, /cheergreen
+        <target state="final">/anhüpfgrün, /hüpfgrün, /cheerjg
 VERWENDUNG:
-/anfeuerngrün [Unterbefehl]
-→ Du feuerst mit grün schimmernden Leuchtstäben an.
+/anhüpfgrün [Unterbefehl]
+→ Du feuerst hüpfend mit grün schimmernden Leuchtstäben an.
 &gt;&gt;Unterbefehl:
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anfeuerngrün&lt;tab&gt;/angrün&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheergreen</target>
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anhüpfgrün&lt;tab&gt;/hüpfgrün&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheerjg</target>
       </trans-unit>
       <trans-unit id="668" xml:space="preserve" approved="yes">
         <source>668</source>
@@ -4910,6 +4923,105 @@ VERWENDUNG:
 → Du machst dir mit deiner Feder ein paar Notizen.
 &gt;&gt;Unterbefehl:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.&lt;tab&gt;/beschwingtnotieren&lt;tab&gt;&lt;tab&gt;/pen&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="711" xml:space="preserve" approved="yes">
+        <source>711</source>
+        <target state="final">/angroovrot, /groovrot, /cheerrr
+VERWENDUNG:
+/angroovrot [Unterbefehl]
+→ Du feuerst groovend mit rot schimmernden Leuchtstäben an.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/angroovrot&lt;tab&gt;/groovrot&lt;tab&gt;/cheerrhythmred&lt;tab&gt;/cheerrr</target>
+      </trans-unit>
+      <trans-unit id="712" xml:space="preserve" approved="yes">
+        <source>712</source>
+        <target state="final">/anschwofgelb, /schwofgelb, /cheerly
+VERWENDUNG:
+/anschwofgelb [Unterbefehl]
+→ Du feuerst schwofend mit gelb schimmernden Leuchtstäben an.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anschwofgelb&lt;tab&gt;/schwofgelb&lt;tab&gt;/cheerlightyellow&lt;tab&gt;/cheerly</target>
+      </trans-unit>
+      <trans-unit id="714" xml:space="preserve" approved="yes">
+        <source>714</source>
+        <target state="final">/laufstegschritt, /stegschritt, /runway
+VERWENDUNG:
+/laufstegschritt [Unterbefehl]
+→ Du läufst mit unerschütterlichem Selbst&lt;var 16 /var&gt;be&lt;var 16 /var&gt;wusst&lt;var 16 /var&gt;sein.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/laufstegschritt&lt;tab&gt;/stegschritt&lt;tab&gt;/runwaywalk&lt;tab&gt;/runway</target>
+      </trans-unit>
+      <trans-unit id="718" xml:space="preserve" approved="yes">
+        <source>718</source>
+        <target state="final">/buchtragen, /carrybook
+VERWENDUNG:
+/buchtragen [Unterbefehl]
+→ Du drückst dir ein Buch fest an die Brust.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/buchtragen&lt;tab&gt;&lt;tab&gt;/carrybook&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="719" xml:space="preserve" approved="yes">
+        <source>719</source>
+        <target state="final">/göttlicherhandschuh, /divinearm
+VERWENDUNG:
+/göttlichehalskette [Unterbefehl]
+→ Du lässt das göttliche Artefakt an deiner Hand hell erstrahlen.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/göttlicherhandschuh&lt;tab&gt;&lt;tab&gt;/divinearm&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="720" xml:space="preserve" approved="yes">
+        <source>720</source>
+        <target state="final">/göttlichehalskette, /divinedisk
+VERWENDUNG:
+/göttlichehalskette [Unterbefehl]
+→ Du lässt das göttliche Artefakt um deinen Hals hell erstrahlen.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/göttlichehalskette&lt;tab&gt;&lt;tab&gt;/divinedisk&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="721" xml:space="preserve" approved="yes">
+        <source>721</source>
+        <target state="final">/göttlichesdiadem, /divinetiara
+VERWENDUNG:
+/göttlichesdiadem [Unterbefehl]
+→ Du lässt das göttliche Artefakt auf deinem Kopf hell erstrahlen.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/göttlichesdiadem&lt;tab&gt;&lt;tab&gt;/divinetiara&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="722" xml:space="preserve" approved="yes">
+        <source>722</source>
+        <target state="final">/angroovlila, /groovlila, /cheerrv
+VERWENDUNG:
+/angroovlila [Unterbefehl]
+→ Du feuerst groovend mit lila schimmernden Leuchtstäben an.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/angroovlila&lt;tab&gt;/groovlila&lt;tab&gt;/cheerrhythmviolet&lt;tab&gt;/cheerrv</target>
+      </trans-unit>
+      <trans-unit id="723" xml:space="preserve" approved="yes">
+        <source>723</source>
+        <target state="final">/angroovweiß, /groovweiß, /cheerrw
+VERWENDUNG:
+/angroovweiß [Unterbefehl]
+→ Du feuerst groovend mit weiß schimmernden Leuchtstäben an.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/angroovweiß&lt;tab&gt;/groovweiß&lt;tab&gt;/cheerrhythmbright&lt;tab&gt;/cheerrw</target>
+      </trans-unit>
+      <trans-unit id="724" xml:space="preserve" approved="yes">
+        <source>724</source>
+        <target state="final">/anschwofblau, /schwofblau, /cheerlb
+VERWENDUNG:
+/anschwofblau [Unterbefehl]
+→ Du feuerst schwofend mit blau schimmernden Leuchtstäben an.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anschwofblau&lt;tab&gt;/schwofblau&lt;tab&gt;/cheerlightblue&lt;tab&gt;/cheerlb</target>
+      </trans-unit>
+      <trans-unit id="725" xml:space="preserve" approved="yes">
+        <source>725</source>
+        <target state="final">/anschwofgrün, /schwofgrün, /cheerlg
+VERWENDUNG:
+/anschwofgrün [Unterbefehl]
+→ Du feuerst schwofend mit grün schimmernden Leuchtstäben an.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anschwofgrün&lt;tab&gt;/schwofgrün&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
       </trans-unit>
     </body>
   </file>

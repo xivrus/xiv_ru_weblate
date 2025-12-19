@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="LogMessage" datatype="plaintext" source-language="en" target-language="ja">
     <body>
@@ -14853,7 +14853,7 @@ EXホットバーから「降りる」を選択してください。</target>
       </trans-unit>
       <trans-unit id="3883" xml:space="preserve" approved="yes">
         <source>3883</source>
-        <target state="final">「&lt;var 09 E802 ((すべてのPC)) ((自分)) ((パーティメンバー)) ((アライアンス)) ((他人)) ((フレンド)) ((クリスタルコンフリクトの敵)) /var&gt;」のネームプレートの表示設定を「&lt;var 09 E803 ((常に表示)) ((戦闘時)) ((ターゲット時)) ((表示しない)) /var&gt;」に変更しました。</target>
+        <target state="final">「&lt;var 09 E802 ((すべてのPC)) ((自分)) ((パーティメンバー)) ((アライアンス)) ((他人)) ((フレンド)) ((クリスタルコンフリクトの敵)) /var&gt;」のネームプレートの表示設定を「&lt;var 09 E803 ((常に表示)) ((戦闘時)) ((ターゲット時)) ((表示しない)) ((非戦闘時)) /var&gt;」に変更しました。</target>
       </trans-unit>
       <trans-unit id="3884" xml:space="preserve" approved="yes">
         <source>3884</source>
@@ -16839,7 +16839,7 @@ EXホットバーから「降りる」を選択してください。</target>
       <trans-unit id="4378" xml:space="preserve" approved="yes">
         <source>4378</source>
         <target state="final">ミラージュプレート&lt;var 20 E802 /var&gt;による武具投影ができない部位がありました。
-投影先アイテムの装備レベルが低いか、装備可能クラス・種族・性別が正しくない可能性があります。</target>
+投影先アイテムの種類が異なるか、装備可能な種族・性別が正しくない可能性があります。</target>
       </trans-unit>
       <trans-unit id="4379" xml:space="preserve" approved="yes">
         <source>4379</source>
@@ -17537,7 +17537,7 @@ EXホットバーから「降りる」を選択してください。</target>
       </trans-unit>
       <trans-unit id="4553" xml:space="preserve" approved="yes">
         <source>4553</source>
-        <target state="final">新しいコンテンツが特殊ダンジョン探索の「アナザーダンジョン」に登録されました。</target>
+        <target state="final">新しいコンテンツが特殊ダンジョン探索の「エクストラ」に登録されました。</target>
       </trans-unit>
       <trans-unit id="4558" xml:space="preserve" approved="yes">
         <source>4558</source>
@@ -19101,6 +19101,10 @@ EXホットバーから「降りる」を選択してください。</target>
         <source>5290</source>
         <target state="final">特定のアイテムを所持していないため、開けません。</target>
       </trans-unit>
+      <trans-unit id="5291" xml:space="preserve" approved="yes">
+        <source>5291</source>
+        <target state="final">所持品に空きがなかったため、&lt;var 08 E2E80302 ((&lt;var 28 ((Item)) E80201 /var&gt;)) ((&lt;var 28 ((Item)) E80201 /var&gt;×&lt;var 20 E803 /var&gt;)) /var&gt;が戦利品に追加されました。</target>
+      </trans-unit>
       <trans-unit id="5295" xml:space="preserve" approved="yes">
         <source>5295</source>
         <target state="final">登録内容を更新しました。</target>
@@ -20601,6 +20605,42 @@ EXホットバーから「降りる」を選択してください。</target>
         <source>5758</source>
         <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;をマーケットボードの「ブックマーク」から削除しました。（&lt;var 20 E803 /var&gt;/&lt;var 20 E804 /var&gt;）</target>
       </trans-unit>
+      <trans-unit id="5760" xml:space="preserve" approved="yes">
+        <source>5760</source>
+        <target state="final">ストラテジーボード「&lt;var 29 EA02 /var&gt;」を削除しました。</target>
+      </trans-unit>
+      <trans-unit id="5761" xml:space="preserve" approved="yes">
+        <source>5761</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;からストラテジーボード「&lt;var 29 EA03 /var&gt;」が共有されました。</target>
+      </trans-unit>
+      <trans-unit id="5762" xml:space="preserve" approved="yes">
+        <source>5762</source>
+        <target state="final">ストラテジーボード&lt;var 20 E802 /var&gt;「&lt;var 29 EA03 /var&gt;」をパーティに共有しました。</target>
+      </trans-unit>
+      <trans-unit id="5763" xml:space="preserve" approved="yes">
+        <source>5763</source>
+        <target state="final">ストラテジーボード&lt;var 20 E802 /var&gt;「&lt;var 29 EA03 /var&gt;」の共有に失敗しました。</target>
+      </trans-unit>
+      <trans-unit id="5764" xml:space="preserve" approved="yes">
+        <source>5764</source>
+        <target state="final">ストラテジーボード&lt;var 20 E802 /var&gt;「&lt;var 29 EA03 /var&gt;」の設定が不正なため共有できませんでした。</target>
+      </trans-unit>
+      <trans-unit id="5765" xml:space="preserve" approved="yes">
+        <source>5765</source>
+        <target state="final">ストラテジーボード&lt;var 20 E802 /var&gt;「&lt;var 29 EA03 /var&gt;」の表示に失敗しました。</target>
+      </trans-unit>
+      <trans-unit id="5766" xml:space="preserve" approved="yes">
+        <source>5766</source>
+        <target state="final">ストラテジーボード&lt;var 20 E802 /var&gt;「&lt;var 29 EA03 /var&gt;」の設定が不正なため表示できませんでした。</target>
+      </trans-unit>
+      <trans-unit id="5767" xml:space="preserve" approved="yes">
+        <source>5767</source>
+        <target state="final">ストラテジーボード「&lt;var 29 EA02 /var&gt;」の保存に失敗しました。</target>
+      </trans-unit>
+      <trans-unit id="5768" xml:space="preserve" approved="yes">
+        <source>5768</source>
+        <target state="final">ストラテジーボード「&lt;var 29 EA02 /var&gt;」の削除に失敗しました。</target>
+      </trans-unit>
       <trans-unit id="5769" xml:space="preserve" approved="yes">
         <source>5769</source>
         <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;をマーケットボードの「欲しい」リストに登録しました。（&lt;var 20 E803 /var&gt;/&lt;var 20 E804 /var&gt;）</target>
@@ -20612,6 +20652,18 @@ EXホットバーから「降りる」を選択してください。</target>
       <trans-unit id="5771" xml:space="preserve" approved="yes">
         <source>5771</source>
         <target state="final">商品が変更されました。幻想試着を開き直すことで表示が更新されます。</target>
+      </trans-unit>
+      <trans-unit id="5772" xml:space="preserve" approved="yes">
+        <source>5772</source>
+        <target state="final">これ以上、オブジェクトを追加できません。</target>
+      </trans-unit>
+      <trans-unit id="5773" xml:space="preserve" approved="yes">
+        <source>5773</source>
+        <target state="final">ストラテジーボードを保存することができませんでした。</target>
+      </trans-unit>
+      <trans-unit id="5774" xml:space="preserve" approved="yes">
+        <source>5774</source>
+        <target state="final">このストラテジーボードは使用することができません。</target>
       </trans-unit>
       <trans-unit id="5775" xml:space="preserve" approved="yes">
         <source>5775</source>
@@ -20988,7 +21040,7 @@ EXホットバーから「降りる」を選択してください。</target>
       </trans-unit>
       <trans-unit id="5906" xml:space="preserve" approved="yes">
         <source>5906</source>
-        <target state="final">   上昇した品質   &lt;var 20 E802 /var&gt; / &lt;var 20 E803 /var&gt;</target>
+        <target state="final">   品質   &lt;var 20 E802 /var&gt; / &lt;var 20 E803 /var&gt;</target>
       </trans-unit>
       <trans-unit id="5907" xml:space="preserve" approved="yes">
         <source>5907</source>
@@ -21045,6 +21097,10 @@ EXホットバーから「降りる」を選択してください。</target>
       <trans-unit id="5920" xml:space="preserve" approved="yes">
         <source>5920</source>
         <target state="final">製作を開始することができませんでした。</target>
+      </trans-unit>
+      <trans-unit id="5921" xml:space="preserve" approved="yes">
+        <source>5921</source>
+        <target state="final">マテリア精製により、&lt;var 28 ((Item)) E80201 /var&gt;を手に入れた。</target>
       </trans-unit>
       <trans-unit id="6000" xml:space="preserve" approved="yes">
         <source>6000</source>
@@ -22132,9 +22188,9 @@ PCサーチなどを使い、チャットに参加していないビギナーを
         <source>7239</source>
         <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;に張られた強い結界により、治癒力が低下した……</target>
       </trans-unit>
-      <trans-unit id="7240" xml:space="preserve" approved="no">
+      <trans-unit id="7240" xml:space="preserve" approved="yes">
         <source>7240</source>
-        <target state="needs-translation">立ちこめる妖霧により、魔物の力が増しているようだ……</target>
+        <target state="final">立ちこめる妖霧により、魔物の力が増しているようだ……</target>
       </trans-unit>
       <trans-unit id="7241" xml:space="preserve" approved="yes">
         <source>7241</source>
@@ -22192,13 +22248,13 @@ PCサーチなどを使い、チャットに参加していないビギナーを
         <source>7254</source>
         <target state="final">&lt;var 0A E802 /var&gt;は、&lt;var 28 ((DeepDungeonItem)) E8030A /var&gt;を叩き割った！</target>
       </trans-unit>
-      <trans-unit id="7255" xml:space="preserve" approved="no">
+      <trans-unit id="7255" xml:space="preserve" approved="yes">
         <source>7255</source>
-        <target state="needs-translation">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;のトラップが、すべて消滅した！</target>
+        <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;のトラップが、すべて消滅した！</target>
       </trans-unit>
-      <trans-unit id="7256" xml:space="preserve" approved="no">
+      <trans-unit id="7256" xml:space="preserve" approved="yes">
         <source>7256</source>
-        <target state="needs-translation">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;のマップが、すべて開示された！</target>
+        <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;のマップが、すべて開示された！</target>
       </trans-unit>
       <trans-unit id="7257" xml:space="preserve" approved="yes">
         <source>7257</source>
@@ -22232,9 +22288,9 @@ PCサーチなどを使い、チャットに参加していないビギナーを
         <source>7264</source>
         <target state="final">自身の周囲に、変化の魔法を展開した！</target>
       </trans-unit>
-      <trans-unit id="7265" xml:space="preserve" approved="no">
+      <trans-unit id="7265" xml:space="preserve" approved="yes">
         <source>7265</source>
-        <target state="needs-translation">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;の不浄な魔力が霧散した！</target>
+        <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;の不浄な魔力が霧散した！</target>
       </trans-unit>
       <trans-unit id="7266" xml:space="preserve" approved="yes">
         <source>7266</source>
@@ -22264,9 +22320,9 @@ PCサーチなどを使い、チャットに参加していないビギナーを
         <source>7272</source>
         <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;には、財宝がありそうな気がする……</target>
       </trans-unit>
-      <trans-unit id="7273" xml:space="preserve" approved="no">
+      <trans-unit id="7273" xml:space="preserve" approved="yes">
         <source>7273</source>
-        <target state="needs-translation">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;には、財宝がなさそうな気がする……</target>
+        <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;には、財宝がなさそうな気がする……</target>
       </trans-unit>
       <trans-unit id="7274" xml:space="preserve" approved="yes">
         <source>7274</source>
@@ -24006,6 +24062,14 @@ PCサーチなどを使い、チャットに参加していないビギナーを
         <source>7800</source>
         <target state="final">現在の状態ではその操作はできません。</target>
       </trans-unit>
+      <trans-unit id="7801" xml:space="preserve" approved="yes">
+        <source>7801</source>
+        <target state="final">コンテンツ参加中のため、その操作はできません。</target>
+      </trans-unit>
+      <trans-unit id="7802" xml:space="preserve" approved="yes">
+        <source>7802</source>
+        <target state="final">ストラテジーボードを編集中のため、その操作はできません。</target>
+      </trans-unit>
       <trans-unit id="7900" xml:space="preserve" approved="yes">
         <source>7900</source>
         <target state="final">同卓メンバーが揃うまでしばらくお待ちください。</target>
@@ -25678,6 +25742,94 @@ PCサーチなどを使い、チャットに参加していないビギナーを
         <source>8347</source>
         <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に羽根ペンで記述してみせた。</target>
       </trans-unit>
+      <trans-unit id="8352" xml:space="preserve" approved="yes">
+        <source>8352</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8353" xml:space="preserve" approved="yes">
+        <source>8353</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8354" xml:space="preserve" approved="yes">
+        <source>8354</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8355" xml:space="preserve" approved="yes">
+        <source>8355</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8356" xml:space="preserve" approved="yes">
+        <source>8356</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8357" xml:space="preserve" approved="yes">
+        <source>8357</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8358" xml:space="preserve" approved="yes">
+        <source>8358</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8359" xml:space="preserve" approved="yes">
+        <source>8359</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8360" xml:space="preserve" approved="yes">
+        <source>8360</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8361" xml:space="preserve" approved="yes">
+        <source>8361</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8362" xml:space="preserve" approved="yes">
+        <source>8362</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8363" xml:space="preserve" approved="yes">
+        <source>8363</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に声援を送った。</target>
+      </trans-unit>
+      <trans-unit id="8366" xml:space="preserve" approved="yes">
+        <source>8366</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;はモデルウォークで歩いた。</target>
+      </trans-unit>
+      <trans-unit id="8367" xml:space="preserve" approved="yes">
+        <source>8367</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;にモデルウォークで歩いてみせた。</target>
+      </trans-unit>
+      <trans-unit id="8374" xml:space="preserve" approved="yes">
+        <source>8374</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は本を抱えた。</target>
+      </trans-unit>
+      <trans-unit id="8375" xml:space="preserve" approved="yes">
+        <source>8375</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に本を抱えてみせた。</target>
+      </trans-unit>
+      <trans-unit id="8376" xml:space="preserve" approved="yes">
+        <source>8376</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は神機のガントレットを輝かせた。</target>
+      </trans-unit>
+      <trans-unit id="8377" xml:space="preserve" approved="yes">
+        <source>8377</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に神機のガントレットを輝かせてみせた。</target>
+      </trans-unit>
+      <trans-unit id="8378" xml:space="preserve" approved="yes">
+        <source>8378</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は神機のチョーカーを輝かせた。</target>
+      </trans-unit>
+      <trans-unit id="8379" xml:space="preserve" approved="yes">
+        <source>8379</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に神機のチョーカーを輝かせてみせた。</target>
+      </trans-unit>
+      <trans-unit id="8380" xml:space="preserve" approved="yes">
+        <source>8380</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は神機のティアラを輝かせた。</target>
+      </trans-unit>
+      <trans-unit id="8381" xml:space="preserve" approved="yes">
+        <source>8381</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;は&lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;に神機のティアラを輝かせてみせた。</target>
+      </trans-unit>
       <trans-unit id="9001" xml:space="preserve" approved="yes">
         <source>9001</source>
         <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;を所持していないため、報酬が取得できませんでした。</target>
@@ -26802,6 +26954,11 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       <trans-unit id="9465" xml:space="preserve" approved="yes">
         <source>9465</source>
         <target state="final">今後のアップデートでコンテンツサポーターに対応予定です。</target>
+      </trans-unit>
+      <trans-unit id="9466" xml:space="preserve" approved="yes">
+        <source>9466</source>
+        <target state="final">このコンテンツでは、ボス戦で全滅する度にキャラクターが戦闘不能時に再起するバフステータスが付与される状態になっています。
+このバフステータスはボスを討伐するとリセットされます。</target>
       </trans-unit>
       <trans-unit id="9468" xml:space="preserve" approved="yes">
         <source>9468</source>
@@ -29977,9 +30134,9 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10283</source>
         <target state="final">アシエン・プライムの魔力が満ちようとしている……！</target>
       </trans-unit>
-      <trans-unit id="10284" xml:space="preserve" approved="no">
+      <trans-unit id="10284" xml:space="preserve" approved="yes">
         <source>10284</source>
-        <target state="needs-translation">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;では効果がないようだ……</target>
+        <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;では効果がないようだ……</target>
       </trans-unit>
       <trans-unit id="10285" xml:space="preserve" approved="yes">
         <source>10285</source>
@@ -30049,9 +30206,9 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10301</source>
         <target state="final">コキュートスが魂を吐き戻した……</target>
       </trans-unit>
-      <trans-unit id="10302" xml:space="preserve" approved="no">
+      <trans-unit id="10302" xml:space="preserve" approved="yes">
         <source>10302</source>
-        <target state="needs-translation">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;に張られた強い結界により、デミクローン・ジェネレーターが使えなくなった……</target>
+        <target state="final">この&lt;var 09 E96E ((階層)) ((階層)) ((階層)) ((巡礼路)) /var&gt;に張られた強い結界により、デミクローン・ジェネレーターが使えなくなった……</target>
       </trans-unit>
       <trans-unit id="10303" xml:space="preserve" approved="yes">
         <source>10303</source>
@@ -30447,6 +30604,11 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10450</source>
         <target state="final">対象が弱っているようだ。「&lt;var 28 ((EventItem)) E80201 /var&gt;」を使用しよう。</target>
       </trans-unit>
+      <trans-unit id="10451" xml:space="preserve" approved="yes">
+        <source>10451</source>
+        <target state="final">午のユニコルトが「&lt;var 28 ((EventTutorial)) 0702 /var&gt;」を開始しました。
+目的リストの&lt;var 12 B7 /var&gt;から、遊び方を確認できます。</target>
+      </trans-unit>
       <trans-unit id="10452" xml:space="preserve" approved="yes">
         <source>10452</source>
         <target state="final">友好度が上昇したことで、新たな友好部族クエスト：ストーリークエストが受注可能になりました。</target>
@@ -30470,6 +30632,10 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       <trans-unit id="10457" xml:space="preserve" approved="yes">
         <source>10457</source>
         <target state="final">&lt;var 12 40 /var&gt;ジリ・アリアポーとはぐれました。再度同行させてください。</target>
+      </trans-unit>
+      <trans-unit id="10458" xml:space="preserve" approved="yes">
+        <source>10458</source>
+        <target state="final">&lt;var 12 40 /var&gt;午のユニコルトとはぐれました。再度同行させてください。</target>
       </trans-unit>
       <trans-unit id="10459" xml:space="preserve" approved="yes">
         <source>10459</source>
@@ -30551,13 +30717,29 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>10476</source>
         <target state="final">&lt;var 12 40 /var&gt;旅のアイルーとはぐれました。再度同行させてください。</target>
       </trans-unit>
+      <trans-unit id="10478" xml:space="preserve" approved="yes">
+        <source>10478</source>
+        <target state="final">&lt;var 12 40 /var&gt;ヤーナとはぐれました。再度同行させてください。</target>
+      </trans-unit>
+      <trans-unit id="10479" xml:space="preserve" approved="yes">
+        <source>10479</source>
+        <target state="final">&lt;var 12 40 /var&gt;ポムとはぐれました。再度同行させてください。</target>
+      </trans-unit>
       <trans-unit id="10480" xml:space="preserve" approved="yes">
         <source>10480</source>
         <target state="final">クエスト「&lt;var 28 ((Quest)) E80201 /var&gt;」を進行しないと、このカットシーンは再生できません。</target>
       </trans-unit>
+      <trans-unit id="10481" xml:space="preserve" approved="yes">
+        <source>10481</source>
+        <target state="final">&lt;var 12 40 /var&gt;デュラル・ザラルとはぐれました。再度同行させてください。</target>
+      </trans-unit>
       <trans-unit id="10483" xml:space="preserve" approved="yes">
         <source>10483</source>
         <target state="final">条件を満たしていないため、実行できません。</target>
+      </trans-unit>
+      <trans-unit id="10484" xml:space="preserve" approved="yes">
+        <source>10484</source>
+        <target state="final">他のプレイヤーが出現させたモンスターのため、その操作はできません。</target>
       </trans-unit>
       <trans-unit id="10500" xml:space="preserve" approved="yes">
         <source>10500</source>
@@ -31347,6 +31529,115 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
 コンテンツアクション「回復薬グレート」を使用できます。
 使用回数に制限があるため、慎重に利用しましょう。</target>
       </trans-unit>
+      <trans-unit id="10700" xml:space="preserve" approved="yes">
+        <source>10700</source>
+        <target state="final">他のメンバーが編集中のため、編集を開始することができません。</target>
+      </trans-unit>
+      <trans-unit id="10701" xml:space="preserve" approved="yes">
+        <source>10701</source>
+        <target state="final">パーティメンバーがいないため使用できません。</target>
+      </trans-unit>
+      <trans-unit id="10702" xml:space="preserve" approved="yes">
+        <source>10702</source>
+        <target state="final">戦闘中のため使用できません。</target>
+      </trans-unit>
+      <trans-unit id="10703" xml:space="preserve" approved="yes">
+        <source>10703</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;がリアルタイム共有を開始しました。</target>
+      </trans-unit>
+      <trans-unit id="10704" xml:space="preserve" approved="yes">
+        <source>10704</source>
+        <target state="final">新規ストラテジーボード&lt;var 20 E802 /var&gt;を保存しました。</target>
+      </trans-unit>
+      <trans-unit id="10705" xml:space="preserve" approved="yes">
+        <source>10705</source>
+        <target state="final">リアルタイム共同編集では、リンクを使用することはできません。</target>
+      </trans-unit>
+      <trans-unit id="10706" xml:space="preserve" approved="yes">
+        <source>10706</source>
+        <target state="final">&lt;var 29 EA02 /var&gt;オブジェクトはこれ以上追加できません。</target>
+      </trans-unit>
+      <trans-unit id="10707" xml:space="preserve" approved="yes">
+        <source>10707</source>
+        <target state="final">このストラテジーボードは現在廃止されたオブジェクトが含まれています。</target>
+      </trans-unit>
+      <trans-unit id="10708" xml:space="preserve" approved="yes">
+        <source>10708</source>
+        <target state="final">ストラテジーボードの読み込みに失敗しました。</target>
+      </trans-unit>
+      <trans-unit id="10709" xml:space="preserve" approved="yes">
+        <source>10709</source>
+        <target state="final">異なる階層のオブジェクトは選択できません。</target>
+      </trans-unit>
+      <trans-unit id="10710" xml:space="preserve" approved="yes">
+        <source>10710</source>
+        <target state="final">これ以上フォルダを作成できません。他のフォルダを選択してください。</target>
+      </trans-unit>
+      <trans-unit id="10711" xml:space="preserve" approved="yes">
+        <source>10711</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;がストラテジーボード「&lt;var 29 EA02 /var&gt;」を共有しました。</target>
+      </trans-unit>
+      <trans-unit id="10712" xml:space="preserve" approved="yes">
+        <source>10712</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;がストラテジーボードフォルダ「&lt;var 29 EA02 /var&gt;」を共有しました。</target>
+      </trans-unit>
+      <trans-unit id="10713" xml:space="preserve" approved="yes">
+        <source>10713</source>
+        <target state="final">フォルダ「&lt;var 29 EA02 /var&gt;」に格納できるストラテジーボード数の上限のため保存できませんでした。</target>
+      </trans-unit>
+      <trans-unit id="10714" xml:space="preserve" approved="yes">
+        <source>10714</source>
+        <target state="final">フォルダ「&lt;var 29 EA02 /var&gt;」に格納できるストラテジーボード数の上限のため移動できませんでした。</target>
+      </trans-unit>
+      <trans-unit id="10715" xml:space="preserve" approved="yes">
+        <source>10715</source>
+        <target state="final">これ以上ストラテジーボードを保存することができません。
+他のストラテジーボードを削除してからやり直してください。</target>
+      </trans-unit>
+      <trans-unit id="10716" xml:space="preserve" approved="yes">
+        <source>10716</source>
+        <target state="final">対象のオブジェクトがロックされているため操作できません。</target>
+      </trans-unit>
+      <trans-unit id="10717" xml:space="preserve" approved="yes">
+        <source>10717</source>
+        <target state="final">グループ化には&lt;var 20 E802 /var&gt;個以上のオブジェクトが必要なため、設定できません。</target>
+      </trans-unit>
+      <trans-unit id="10718" xml:space="preserve" approved="yes">
+        <source>10718</source>
+        <target state="final">グループ化できるオブジェクト数は&lt;var 20 E802 /var&gt;個までのため、これ以上設定できません。</target>
+      </trans-unit>
+      <trans-unit id="10719" xml:space="preserve" approved="yes">
+        <source>10719</source>
+        <target state="final">共有コードの作成に失敗しました。</target>
+      </trans-unit>
+      <trans-unit id="10720" xml:space="preserve" approved="yes">
+        <source>10720</source>
+        <target state="final">読み込んだコードはストラテジーボードとして認識できませんでした。</target>
+      </trans-unit>
+      <trans-unit id="10721" xml:space="preserve" approved="yes">
+        <source>10721</source>
+        <target state="final">フォルダ移動時にエラーが発生しました。</target>
+      </trans-unit>
+      <trans-unit id="10722" xml:space="preserve" approved="yes">
+        <source>10722</source>
+        <target state="final">フォルダ数が上限に達しているため、保存を中断しました。</target>
+      </trans-unit>
+      <trans-unit id="10723" xml:space="preserve" approved="yes">
+        <source>10723</source>
+        <target state="final">保存できるストラテジーボードの上限を超えるため保存処理を中断しました。</target>
+      </trans-unit>
+      <trans-unit id="10724" xml:space="preserve" approved="yes">
+        <source>10724</source>
+        <target state="final">テキストオブジェクトはグループ化することができません。</target>
+      </trans-unit>
+      <trans-unit id="10725" xml:space="preserve" approved="yes">
+        <source>10725</source>
+        <target state="final">保存できるストラテジーボードの上限を超えるため、操作を中断しました。</target>
+      </trans-unit>
+      <trans-unit id="10726" xml:space="preserve" approved="yes">
+        <source>10726</source>
+        <target state="final">保存できるフォルダの上限に達しているため、操作を中断しました。</target>
+      </trans-unit>
       <trans-unit id="10750" xml:space="preserve" approved="yes">
         <source>10750</source>
         <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;&lt;var 08 E1E80302 ((×&lt;var 20 E803 /var&gt;)) (()) /var&gt;が支給された。</target>
@@ -32051,11 +32342,11 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       </trans-unit>
       <trans-unit id="10924" xml:space="preserve" approved="yes">
         <source>10924</source>
-        <target state="final">_rsv_10924_-1_0_0_0_SF15185AF_EF15185AF</target>
+        <target state="final">ハウリングブレードが干渉し、転移装置の再使用可能時間が延びてしまった……</target>
       </trans-unit>
       <trans-unit id="10925" xml:space="preserve" approved="yes">
         <source>10925</source>
-        <target state="final">_rsv_10925_-1_0_0_0_SF15185AF_EF15185AF</target>
+        <target state="final">転移装置の再使用可能時間が元に戻った……！</target>
       </trans-unit>
       <trans-unit id="10926" xml:space="preserve" approved="yes">
         <source>10926</source>
@@ -32451,6 +32742,43 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>11132</source>
         <target state="final">護竜アルシュベルドから剥ぎ取りが可能になりました！</target>
       </trans-unit>
+      <trans-unit id="11133" xml:space="preserve" approved="yes">
+        <source>11133</source>
+        <target state="final">中央のケーキ台へ、食材を運搬しよう！</target>
+      </trans-unit>
+      <trans-unit id="11134" xml:space="preserve" approved="yes">
+        <source>11134</source>
+        <target state="final">必要な食材と異なるものを入手した際は、食材を取り直そう！</target>
+      </trans-unit>
+      <trans-unit id="11135" xml:space="preserve" approved="yes">
+        <source>11135</source>
+        <target state="final">必要な食材を運搬しよう！</target>
+      </trans-unit>
+      <trans-unit id="11136" xml:space="preserve" approved="yes">
+        <source>11136</source>
+        <target state="final">レシピと異なる食材だったようだ……</target>
+      </trans-unit>
+      <trans-unit id="11137" xml:space="preserve" approved="yes">
+        <source>11137</source>
+        <target state="final">すでに必要数に達していたようだ……</target>
+      </trans-unit>
+      <trans-unit id="11138" xml:space="preserve" approved="yes">
+        <source>11138</source>
+        <target state="final">&lt;var 28 ((ValentionSweetsMaterial)) E80201 /var&gt;を飾りつけた！</target>
+      </trans-unit>
+      <trans-unit id="11139" xml:space="preserve" approved="yes">
+        <source>11139</source>
+        <target state="final">制限時間が、残り半分以下となりました。</target>
+      </trans-unit>
+      <trans-unit id="11140" xml:space="preserve" approved="yes">
+        <source>11140</source>
+        <target state="final">制限時間が、残り1分をきりました。</target>
+      </trans-unit>
+      <trans-unit id="11141" xml:space="preserve" approved="yes">
+        <source>11141</source>
+        <target state="final">「マメット・パティシエ」に見つかった際は、
+「停止信号」で動きを止めてみましょう。</target>
+      </trans-unit>
       <trans-unit id="11142" xml:space="preserve" approved="yes">
         <source>11142</source>
         <target state="final">コンテンツルーレットのボーナスとして、&lt;var 28 ((Addon)) E80201 /var&gt;に&lt;var 22 E803 ((,)) /var&gt;ポイント分のエーテルが蓄積された。</target>
@@ -32478,6 +32806,11 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       <trans-unit id="11148" xml:space="preserve" approved="yes">
         <source>11148</source>
         <target state="final">護竜アルシュベルドがさらなる力を解き放つ……！</target>
+      </trans-unit>
+      <trans-unit id="11149" xml:space="preserve" approved="yes">
+        <source>11149</source>
+        <target state="final">作成中のケーキに必要な食材や個数は、
+目的リストから確認できます。</target>
       </trans-unit>
       <trans-unit id="11150" xml:space="preserve" approved="yes">
         <source>11150</source>
@@ -32640,6 +32973,31 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       <trans-unit id="11192" xml:space="preserve" approved="yes">
         <source>11192</source>
         <target state="final">「コスモエクスプローラー」の探索フィールドに向かうには、ホームワールドに戻る必要があります。</target>
+      </trans-unit>
+      <trans-unit id="11195" xml:space="preserve" approved="yes">
+        <source>11195</source>
+        <target state="final">初めてゴールドカウントが上昇しました。</target>
+      </trans-unit>
+      <trans-unit id="11196" xml:space="preserve" approved="yes">
+        <source>11196</source>
+        <target state="final">初めてゴールドカウントが上昇しました。
+詳細はエクスプローラータブレット「&lt;var 28 ((DescriptionString)) F206320119 /var&gt;」をご確認ください。</target>
+      </trans-unit>
+      <trans-unit id="11197" xml:space="preserve" approved="yes">
+        <source>11197</source>
+        <target state="final">&lt;var 20 E802 /var&gt;ゴールドカウント&lt;var 08 E1E80301 ((により、報酬量が&lt;var 20 E803 /var&gt;%増加した！)) ((を達成した!)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11198" xml:space="preserve" approved="yes">
+        <source>11198</source>
+        <target state="final">ゴールドスターを達成した事により、報酬量が&lt;var 20 E802 /var&gt;%増加し、ゴールドカウントがリセットされた。</target>
+      </trans-unit>
+      <trans-unit id="11199" xml:space="preserve" approved="yes">
+        <source>11199</source>
+        <target state="final">ゴールドグレードを達成できなかった為、ゴールドカウントがリセットされました。</target>
+      </trans-unit>
+      <trans-unit id="11200" xml:space="preserve" approved="yes">
+        <source>11200</source>
+        <target state="final">Aクラス未満のミッションを開始した為、ゴールドカウントがリセットされました。</target>
       </trans-unit>
       <trans-unit id="11201" xml:space="preserve" approved="yes">
         <source>11201</source>
@@ -32804,7 +33162,7 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
       </trans-unit>
       <trans-unit id="11256" xml:space="preserve" approved="yes">
         <source>11256</source>
-        <target state="final">T99に到達したことで、イル＝メグの「ヴァンサウ」に
+        <target state="final">T99に到達したことで、イル・メグの「ヴァンサウ」に
 練習用コンテンツ「エミネントグリーフ討滅戦」が追加されました！
 
 詳細は、ディープダンジョンの説明からご確認ください。</target>
@@ -32887,29 +33245,262 @@ CWLS「&lt;var 29 EA04 /var&gt;」のチャンネル番号がCWLS-&lt;var 20 E80
         <source>11274</source>
         <target state="final">「輝く袋」を&lt;var 20 E802 /var&gt;個取得し、&lt;var 09 E803 ((金の宝箱)) ((銀の宝箱)) ((銅の宝箱)) /var&gt;が出現した！</target>
       </trans-unit>
+      <trans-unit id="11280" xml:space="preserve" approved="yes">
+        <source>11280</source>
+        <target state="final">グラシャラボラスの口に雷気が集う……</target>
+      </trans-unit>
+      <trans-unit id="11281" xml:space="preserve" approved="yes">
+        <source>11281</source>
+        <target state="final">グラシャラボラスの前照灯が怪しく光る……</target>
+      </trans-unit>
+      <trans-unit id="11282" xml:space="preserve" approved="yes">
+        <source>11282</source>
+        <target state="final">グラシャラボラスが腕部に魔力を込める……</target>
+      </trans-unit>
+      <trans-unit id="11283" xml:space="preserve" approved="yes">
+        <source>11283</source>
+        <target state="final">異空間に飲み込まれる……</target>
+      </trans-unit>
       <trans-unit id="11284" xml:space="preserve" approved="yes">
         <source>11284</source>
         <target state="final">全滅したことのあるセーブデータのため、コンバートすることができません。</target>
+      </trans-unit>
+      <trans-unit id="11285" xml:space="preserve" approved="yes">
+        <source>11285</source>
+        <target state="final">遠くから、グラシャラボラスの咆哮が近づいてくる……！</target>
+      </trans-unit>
+      <trans-unit id="11288" xml:space="preserve" approved="yes">
+        <source>11288</source>
+        <target state="final">怪樹の実はまだ食べられないようだ……</target>
+      </trans-unit>
+      <trans-unit id="11289" xml:space="preserve" approved="yes">
+        <source>11289</source>
+        <target state="final">選択された対象はアイコンに設定できません。</target>
+      </trans-unit>
+      <trans-unit id="11290" xml:space="preserve" approved="yes">
+        <source>11290</source>
+        <target state="final">対象となる修理可能なアイテムはありませんでした。</target>
+      </trans-unit>
+      <trans-unit id="11291" xml:space="preserve" approved="yes">
+        <source>11291</source>
+        <target state="final">自動アイテム修理が中断されました。</target>
+      </trans-unit>
+      <trans-unit id="11300" xml:space="preserve" approved="yes">
+        <source>11300</source>
+        <target state="final">周囲の岩塊が崩れ去った……</target>
+      </trans-unit>
+      <trans-unit id="11301" xml:space="preserve" approved="yes">
+        <source>11301</source>
+        <target state="final">&lt;var 20 E803 /var&gt;秒後に&lt;var 09 E802 ((ランクB)) ((ランクA)) ((ランクS)) /var&gt;の&lt;var 28 ((PlaceName)) E80401 /var&gt;が制圧可能状態になるようだ……！</target>
+      </trans-unit>
+      <trans-unit id="11302" xml:space="preserve" approved="yes">
+        <source>11302</source>
+        <target state="final">&lt;var 09 E802 ((ランクB)) ((ランクA)) ((ランクS)) /var&gt;の&lt;var 28 ((PlaceName)) E80301 /var&gt;が制圧可能状態になった！</target>
+      </trans-unit>
+      <trans-unit id="11303" xml:space="preserve" approved="yes">
+        <source>11303</source>
+        <target state="final">&lt;var 09 E802 ((&lt;var 12 34 /var&gt;&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;黒渦団&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 12 35 /var&gt;&lt;var 48 F20217 /var&gt;&lt;var 49 F20218 /var&gt;双蛇党&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 12 36 /var&gt;&lt;var 48 F20219 /var&gt;&lt;var 49 F2021A /var&gt;不滅隊&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;が&lt;var 09 E803 ((ランクB)) ((ランクA)) ((ランクS)) /var&gt;の&lt;var 28 ((PlaceName)) E80401 /var&gt;を制圧した！</target>
+      </trans-unit>
+      <trans-unit id="11304" xml:space="preserve" approved="yes">
+        <source>11304</source>
+        <target state="final">&lt;var 28 ((PlaceName)) E80201 /var&gt;が無効状態となった。</target>
+      </trans-unit>
+      <trans-unit id="11307" xml:space="preserve" approved="yes">
+        <source>11307</source>
+        <target state="final">試合開始から5分経過。同時に出現する戦略目標地の数が減少した！</target>
+      </trans-unit>
+      <trans-unit id="11308" xml:space="preserve" approved="yes">
+        <source>11308</source>
+        <target state="final">試合開始から10分経過。同時に出現する戦略目標地の数が減少した！</target>
+      </trans-unit>
+      <trans-unit id="11309" xml:space="preserve" approved="yes">
+        <source>11309</source>
+        <target state="final">試合開始から15分経過。同時に出現する戦略目標地の数が減少した！</target>
+      </trans-unit>
+      <trans-unit id="11310" xml:space="preserve" approved="yes">
+        <source>11310</source>
+        <target state="final">天候が変わり、雪が降りそうだ……</target>
+      </trans-unit>
+      <trans-unit id="11311" xml:space="preserve" approved="yes">
+        <source>11311</source>
+        <target state="final">「リミットゲージ増加」状態になった！</target>
+      </trans-unit>
+      <trans-unit id="11312" xml:space="preserve" approved="yes">
+        <source>11312</source>
+        <target state="final">天候が変わり、オーロラが発生しそうだ……</target>
+      </trans-unit>
+      <trans-unit id="11313" xml:space="preserve" approved="yes">
+        <source>11313</source>
+        <target state="final">高ランクの戦略目標地が出現しやすくなった！</target>
+      </trans-unit>
+      <trans-unit id="11314" xml:space="preserve" approved="yes">
+        <source>11314</source>
+        <target state="final">草刈り魂が不足しているため、実行できません。</target>
+      </trans-unit>
+      <trans-unit id="11315" xml:space="preserve" approved="yes">
+        <source>11315</source>
+        <target state="final">草刈り魂が蓄積し、大回転刈りが使えるようになった！&lt;var 60 014F /var&gt; </target>
+      </trans-unit>
+      <trans-unit id="11316" xml:space="preserve" approved="yes">
+        <source>11316</source>
+        <target state="final">フシギナ・トラップが出現した。
+刈ると何かいいことが起こりそうな気がする……！</target>
+      </trans-unit>
+      <trans-unit id="11317" xml:space="preserve" approved="yes">
+        <source>11317</source>
+        <target state="final">アルコンエッグを見つけやすくなった！</target>
+      </trans-unit>
+      <trans-unit id="11318" xml:space="preserve" approved="yes">
+        <source>11318</source>
+        <target state="final">アルコンエッグ【金】を見つけやすくなった！</target>
+      </trans-unit>
+      <trans-unit id="11319" xml:space="preserve" approved="yes">
+        <source>11319</source>
+        <target state="final">草刈り魂が限界まで高まった！&lt;var 60 014F /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11320" xml:space="preserve" approved="yes">
+        <source>11320</source>
+        <target state="final">フシギナ・トラップを刈り、草刈り魂が蓄積した！</target>
+      </trans-unit>
+      <trans-unit id="11321" xml:space="preserve" approved="yes">
+        <source>11321</source>
+        <target state="final">障害物が消え、先に進めるようになった！</target>
+      </trans-unit>
+      <trans-unit id="11322" xml:space="preserve" approved="yes">
+        <source>11322</source>
+        <target state="final">制限時間が、残り&lt;var 08 E1E80201 ((&lt;var 20 E802 /var&gt;分)) (()) /var&gt;&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt;秒)) (()) /var&gt;をきりました。</target>
+      </trans-unit>
+      <trans-unit id="11323" xml:space="preserve" approved="yes">
+        <source>11323</source>
+        <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;は所持数の上限に達しているため、受け取れませんでした。</target>
+      </trans-unit>
+      <trans-unit id="11325" xml:space="preserve" approved="yes">
+        <source>11325</source>
+        <target state="final">逃げ遅れた住民を探せ！</target>
+      </trans-unit>
+      <trans-unit id="11326" xml:space="preserve" approved="yes">
+        <source>11326</source>
+        <target state="final">悲鳴の主を探せ！</target>
+      </trans-unit>
+      <trans-unit id="11327" xml:space="preserve" approved="yes">
+        <source>11327</source>
+        <target state="final">雷球を壊せ！</target>
+      </trans-unit>
+      <trans-unit id="11328" xml:space="preserve" approved="yes">
+        <source>11328</source>
+        <target state="final">迫りくる凶器を壊せ！</target>
+      </trans-unit>
+      <trans-unit id="11329" xml:space="preserve" approved="yes">
+        <source>11329</source>
+        <target state="final">破壊可能な凶器を壊せ！</target>
+      </trans-unit>
+      <trans-unit id="11330" xml:space="preserve" approved="yes">
+        <source>11330</source>
+        <target state="final">ミッションを破棄した為、この惑星のゴールドカウントがリセットされました。</target>
       </trans-unit>
       <trans-unit id="11332" xml:space="preserve" approved="yes">
         <source>11332</source>
         <target state="final">騎乗中のため、支給された釣り餌を装着できませんでした。</target>
       </trans-unit>
-      <trans-unit id="9857" xml:space="preserve" approved="no">
-        <source>9857</source>
-        <target state="needs-translation">Not used. Report if shown.</target>
+      <trans-unit id="11334" xml:space="preserve" approved="yes">
+        <source>11334</source>
+        <target state="final">緊急状況が宣言され、緊急ミッションの参加要請が届きました！
+エクスプローラータブレットの「コスモミッション」から、「緊急ミッション」を受注しましょう。</target>
       </trans-unit>
-      <trans-unit id="9859" xml:space="preserve" approved="no">
-        <source>9859</source>
-        <target state="needs-translation">Not used. Report if shown.</target>
+      <trans-unit id="11335" xml:space="preserve" approved="yes">
+        <source>11335</source>
+        <target state="final">緊急状況中につき、緊急ミッションの参加要請が届いています。
+エクスプローラータブレットの「コスモミッション」から、「緊急ミッション」の受注が可能です。</target>
       </trans-unit>
-      <trans-unit id="9861" xml:space="preserve" approved="no">
-        <source>9861</source>
-        <target state="needs-translation">Not used. Report if shown.</target>
+      <trans-unit id="11357" xml:space="preserve" approved="yes">
+        <source>11357</source>
+        <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;は所持数の上限に達したため、すべては受け取れませんでした。</target>
       </trans-unit>
-      <trans-unit id="9846" xml:space="preserve" approved="no">
-        <source>9846</source>
-        <target state="needs-translation">The beast calls for reinforcements!</target>
+      <trans-unit id="11363" xml:space="preserve" approved="yes">
+        <source>11363</source>
+        <target state="final">星内転送網を開放した。
+&lt;var 28 ((PlaceName)) E80201 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11364" xml:space="preserve" approved="yes">
+        <source>11364</source>
+        <target state="final">他の星内エーテライトと交感していないため、利用できません。</target>
+      </trans-unit>
+      <trans-unit id="11367" xml:space="preserve" approved="yes">
+        <source>11367</source>
+        <target state="final">雪の精霊の力で、各地に雪像が出現した！</target>
+      </trans-unit>
+      <trans-unit id="11368" xml:space="preserve" approved="yes">
+        <source>11368</source>
+        <target state="final">天候が変わり、雪は降り止んだ……</target>
+      </trans-unit>
+      <trans-unit id="11369" xml:space="preserve" approved="yes">
+        <source>11369</source>
+        <target state="final">天候が変わり、オーロラは消え去った……</target>
+      </trans-unit>
+      <trans-unit id="11371" xml:space="preserve" approved="yes">
+        <source>11371</source>
+        <target state="final">「エーテル増強」により、ヴァンプ・ファタールの一部の攻撃が強化された……</target>
+      </trans-unit>
+      <trans-unit id="11372" xml:space="preserve" approved="yes">
+        <source>11372</source>
+        <target state="final">_rsv_11372_-1_0_0_0_SF15185AF_EF15185AF</target>
+      </trans-unit>
+      <trans-unit id="11387" xml:space="preserve" approved="yes">
+        <source>11387</source>
+        <target state="final">共有コードをクリップボードにコピーしました。</target>
+      </trans-unit>
+      <trans-unit id="11390" xml:space="preserve" approved="yes">
+        <source>11390</source>
+        <target state="final">ストラテジーボードフォルダ「&lt;var 29 EA02 /var&gt;」を保存しました。</target>
+      </trans-unit>
+      <trans-unit id="11391" xml:space="preserve" approved="yes">
+        <source>11391</source>
+        <target state="final">ストラテジーボード「&lt;var 29 EA02 /var&gt;」を&lt;var 08 E4E80401 (()) ((「&lt;var 29 EA03 /var&gt;」に)) /var&gt;移動しました。</target>
+      </trans-unit>
+      <trans-unit id="11392" xml:space="preserve" approved="yes">
+        <source>11392</source>
+        <target state="final">ストラテジーボード「&lt;var 29 EA02 /var&gt;」を&lt;var 08 E4E80401 (()) ((「&lt;var 29 EA03 /var&gt;」に)) /var&gt;保存しました。</target>
+      </trans-unit>
+      <trans-unit id="11393" xml:space="preserve" approved="yes">
+        <source>11393</source>
+        <target state="final">この操作はリアルタイム共有中はできません。</target>
+      </trans-unit>
+      <trans-unit id="11394" xml:space="preserve" approved="yes">
+        <source>11394</source>
+        <target state="final">ストラテジーボードが共有中のため共有できませんでした。</target>
+      </trans-unit>
+      <trans-unit id="11395" xml:space="preserve" approved="yes">
+        <source>11395</source>
+        <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;×&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11506" xml:space="preserve" approved="yes">
+        <source>11506</source>
+        <target state="final">現在のエリアに、未交感の星内エーテライトが存在します。</target>
+      </trans-unit>
+      <trans-unit id="11507" xml:space="preserve" approved="yes">
+        <source>11507</source>
+        <target state="final">新たに星内エーテライトが設置されました。
+地図から場所を確認してみましょう！</target>
+      </trans-unit>
+      <trans-unit id="11508" xml:space="preserve" approved="yes">
+        <source>11508</source>
+        <target state="final">制限時間に達したため、コンテンツを終了しました。</target>
+      </trans-unit>
+      <trans-unit id="11524" xml:space="preserve" approved="yes">
+        <source>11524</source>
+        <target state="final">パーティ人数が変動したため、リアルタイム共有を終了しました。</target>
+      </trans-unit>
+      <trans-unit id="11525" xml:space="preserve" approved="yes">
+        <source>11525</source>
+        <target state="final">戦闘中となったため、リアルタイム共有を終了しました。</target>
+      </trans-unit>
+      <trans-unit id="11526" xml:space="preserve" approved="yes">
+        <source>11526</source>
+        <target state="final">エリア移動などにより、リアルタイム共有を終了しました。</target>
+      </trans-unit>
+      <trans-unit id="11532" xml:space="preserve" approved="yes">
+        <source>11532</source>
+        <target state="final">ストラテジーボードフォルダ「&lt;var 29 EA02 /var&gt;」を削除しました。</target>
       </trans-unit>
     </body>
   </file>

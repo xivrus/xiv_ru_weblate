@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="MassivePcContentTextData" datatype="plaintext" source-language="en" target-language="ja">
     <body>
@@ -79,7 +79,7 @@
       </trans-unit>
       <trans-unit id="121" xml:space="preserve" approved="yes">
         <source>121</source>
-        <target state="final">精選した&lt;var 28 ((Item)) E80201 /var&gt;の数</target>
+        <target state="final">精選で入手した&lt;var 28 ((Item)) E80201 /var&gt;の数</target>
       </trans-unit>
       <trans-unit id="122" xml:space="preserve" approved="yes">
         <source>122</source>
@@ -88,6 +88,10 @@
       <trans-unit id="123" xml:space="preserve" approved="yes">
         <source>123</source>
         <target state="final">&lt;var 28 ((Status)) E80201 /var&gt;スタック</target>
+      </trans-unit>
+      <trans-unit id="124" xml:space="preserve" approved="yes">
+        <source>124</source>
+        <target state="final">現在のチェーン数</target>
       </trans-unit>
       <trans-unit id="1001" xml:space="preserve" approved="yes">
         <source>1001</source>
@@ -382,7 +386,8 @@
       <trans-unit id="1074" xml:space="preserve" approved="yes">
         <source>1074</source>
         <target state="final">ムーンゲート基地「ルナホップ・ポリス」が完成したッス！
-みんなのおかげで、月面の全施設が完成したッスー！&lt;var 17 /var&gt;ここまでのご協力、ほんとにありがとうッスよー！！＜br＞探索の軌跡に、レポーティングウェイの記事も掲載されたッス！</target>
+みんなのおかげで、月面の全施設が完成したッスー！&lt;var 17 /var&gt;ここまでのご協力、ほんとにありがとうッスよー！！
+探索の軌跡に、レポーティングウェイの記事も掲載されたッス！</target>
       </trans-unit>
       <trans-unit id="1075" xml:space="preserve" approved="yes">
         <source>1075</source>
@@ -529,14 +534,14 @@
         <target state="final">トンネル設備とローバーの復旧対応は順調だ。
 引き続き物資は備蓄として預かるため、調達を頼むぞ。</target>
       </trans-unit>
-      <trans-unit id="1109" xml:space="preserve" approved="no">
+      <trans-unit id="1109" xml:space="preserve" approved="yes">
         <source>1109</source>
-        <target state="needs-translation">噴出エーテルとドローンの回収作業は、順調な進捗だ。
+        <target state="final">噴出エーテルとドローンの回収作業は、順調な進捗だ。
 引き続き物資は備蓄として預かるため、調達を頼むぞ。</target>
       </trans-unit>
-      <trans-unit id="1110" xml:space="preserve" approved="no">
+      <trans-unit id="1110" xml:space="preserve" approved="yes">
         <source>1110</source>
-        <target state="needs-translation">隕石の破砕作業と、横転したローバーの修理は順調だ。
+        <target state="final">隕石の破砕作業と、横転したローバーの修理は順調だ。
 引き続き物資は備蓄として預かるため、調達を頼むぞ。</target>
       </trans-unit>
       <trans-unit id="1111" xml:space="preserve" approved="yes">
@@ -859,9 +864,9 @@
         <target state="final">降下通路の送雷設備の換装は、無事終えられそうだ。
 稀少植物の採集や研究サンプル作成にも協力してくれたまえ。</target>
       </trans-unit>
-      <trans-unit id="1206" xml:space="preserve" approved="no">
+      <trans-unit id="1206" xml:space="preserve" approved="yes">
         <source>1206</source>
-        <target state="needs-translation">コスモライナー拠点のガラス塵は片付きつつあるようだ。
+        <target state="final">コスモライナー拠点のガラス塵は片付きつつあるようだ。
 技術がある者は、水質調査の任務にあたってもらえるだろうか。</target>
       </trans-unit>
       <trans-unit id="1207" xml:space="preserve" approved="yes">
@@ -1063,6 +1068,69 @@
         <source>1238</source>
         <target state="final">ホイールローダーを出動させ、これを破砕・回収する！
 エントリーチケットがある者には、パイロット申請を頼みたい！</target>
+      </trans-unit>
+      <trans-unit id="2001" xml:space="preserve" approved="yes">
+        <source>2001</source>
+        <target state="final">スプリグ・クリーニング</target>
+      </trans-unit>
+      <trans-unit id="2002" xml:space="preserve" approved="yes">
+        <source>2002</source>
+        <target state="final">スコア：&lt;var 20 E802 /var&gt;pts ／ ハイスコア：&lt;var 20 E803 /var&gt;pts</target>
+      </trans-unit>
+      <trans-unit id="2003" xml:space="preserve" approved="yes">
+        <source>2003</source>
+        <target state="final">アルコンエッグ【金】(&lt;var 20 E802 /var&gt;pts)</target>
+      </trans-unit>
+      <trans-unit id="2004" xml:space="preserve" approved="yes">
+        <source>2004</source>
+        <target state="final">アルコンエッグ【銀】(&lt;var 20 E802 /var&gt;pts)</target>
+      </trans-unit>
+      <trans-unit id="2005" xml:space="preserve" approved="yes">
+        <source>2005</source>
+        <target state="final">アルコンエッグ【銅】(&lt;var 20 E802 /var&gt;pts)</target>
+      </trans-unit>
+      <trans-unit id="2006" xml:space="preserve" approved="yes">
+        <source>2006</source>
+        <target state="final">刈った魔物(&lt;var 20 E802 /var&gt;pts)</target>
+      </trans-unit>
+      <trans-unit id="2007" xml:space="preserve" approved="yes">
+        <source>2007</source>
+        <target state="final">異常発生した
+草木網の魔物を刈れ！</target>
+      </trans-unit>
+      <trans-unit id="2008" xml:space="preserve" approved="yes">
+        <source>2008</source>
+        <target state="final">あっ、あれがツヨツヨ・トラップですぅ～！
+そこかしこの会場でお邪魔になっていて……！</target>
+      </trans-unit>
+      <trans-unit id="2009" xml:space="preserve" approved="yes">
+        <source>2009</source>
+        <target state="final">行く手を阻んでいた草むらが消えたぞッ！
+魔物を全て刈ったことで周囲への影響が薄れたか……先へ進もう！</target>
+      </trans-unit>
+      <trans-unit id="2010" xml:space="preserve" approved="yes">
+        <source>2010</source>
+        <target state="final">ひときわ目立つエレガントな変異種ちゃんがいるねェ！
+あの子も刈ってみてもらえるだろうか……！？</target>
+      </trans-unit>
+      <trans-unit id="2011" xml:space="preserve" approved="yes">
+        <source>2011</source>
+        <target state="final">ン～フフ、キミがそんな特別な力を得られるとは……！
+もしまた現れたら、ぜひとも逃さずに刈ってくれたまえッ！</target>
+      </trans-unit>
+      <trans-unit id="2012" xml:space="preserve" approved="yes">
+        <source>2012</source>
+        <target state="final">エッグハント・ガーデンサイズを使って、
+ひとつ残らず、刈りつくしてください！</target>
+      </trans-unit>
+      <trans-unit id="2013" xml:space="preserve" approved="yes">
+        <source>2013</source>
+        <target state="final">草刈り達成</target>
+      </trans-unit>
+      <trans-unit id="2014" xml:space="preserve" approved="yes">
+        <source>2014</source>
+        <target state="final">ここが綺麗になれば、ひとまずの催し会場は確保できそう……！
+もうひと踏ん張り、よろしくお願いしますぅ～！</target>
       </trans-unit>
     </body>
   </file>

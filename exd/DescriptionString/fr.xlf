@@ -1091,9 +1091,9 @@ Si une maison a fait l'objet d'une cession automatique, les objets qui étaient 
       </trans-unit>
       <trans-unit id="197" xml:space="preserve" approved="yes">
         <source>197</source>
-        <target state="final">Il est possible de régler la luminosité selon six degrés à l'intérieur des maisons, per&lt;var 16 /var&gt;son&lt;var 16 /var&gt;nelles ou de compagnie libre, et des chambres individuelles.
+        <target state="final">Il est possible de régler la luminosité selon des degrés allant de 0 à 5 à l'intérieur des maisons, per&lt;var 16 /var&gt;son&lt;var 16 /var&gt;nelles ou de compagnie libre, et des chambres individuelles.
 
-Pour cela, il suffit d'utiliser l'option “Régler la luminosité” dans le menu “Logement”.
+Pour cela, il suffit d'utiliser l'option “Paramètres d'ambiance” dans le menu “Logement”.
 
 </target>
       </trans-unit>
@@ -1563,6 +1563,7 @@ Le mode Nouvelle partie + ne peut pas être engagé dans les cas suivants&lt;var
  - La difficulté des batailles de quête peut être modifiée dès le premier essai.
  - Il est possible que certaines scènes cinématiques soient au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment passées si l'option “Passer les scènes des missions déjà effectuées” est activée.
  - Si une quête vous demande de livrer des objets, ils ne sont pas consommés et restent dans votre inventaire même après avoir accompli la quête.
+ - Aucune quête d'artisan ou de récolteur ne nécessite de livrer des objets collectionnables.
 
 ■Lors de l'achèvement d'une quête
  - Aucune récompense n'est octroyée.
@@ -1682,6 +1683,7 @@ Les joueurs participant au Front sont séparés en trois camps, selon leur grand
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Retour au combat&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Lorsqu'un participant du Front est vaincu, il se réveille au débarcadère de sa grande compagnie après un temps donné. Il peut reprendre le combat autant de fois qu'il le désire.
 Lorsque le joueur quitte le débarcadère pour retourner sur le champ de bataille, l'effet “Invulnérable” lui est temporairement attribué.
+Cependant, si un joueur se trouve à proximité du débarcadère d'une équipe adverse, il subit l'effet “En territoire ennemi” et perd progressivement des PV.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Montures&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Les montures peuvent être utilisées au Front. Cependant, tout dégât reçu à dos de monture éjecte le joueur de celle-ci et inflige au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment l'effet “Monte impossible” pendant une durée de 5 secondes.
@@ -5137,7 +5139,7 @@ Une fois que tout le monde sera arrivé au même point d'incursion, il sera poss
       <trans-unit id="819" xml:space="preserve" approved="yes">
         <source>819</source>
         <target state="final">Les ca&lt;var 16 /var&gt;rac&lt;var 16 /var&gt;té&lt;var 16 /var&gt;ris&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ques des substrats magiques évoluent graduellement lors de votre exploration du Palais des morts. Ceci est indiqué par des valeurs appelées &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;degrés d'amélioration&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Ces degrés peuvent être augmentés en ouvrant des coffres en argent situés ça et là dans le donjon, ou laissés par certains monstres.
+Ces degrés peuvent être augmentés en ouvrant des coffres en argent situés çà et là dans le donjon, ou laissés par certains monstres.
 
 Toutefois, les ca&lt;var 16 /var&gt;rac&lt;var 16 /var&gt;té&lt;var 16 /var&gt;ris&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ques conférées par les degrés d'amélioration de ces équipements dépendent également du niveau du personnage et de l'étage atteint. Si ce dernier est trop bas, elles seront limitées, ce qui est indiqué par une marque dans les icones.
 
@@ -5261,9 +5263,7 @@ La première vous donne la possibilité d'explorer le donjon en solo ou en équi
         <source>841</source>
         <target state="final">Des règles par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;cu&lt;var 16 /var&gt;liè&lt;var 16 /var&gt;res sont appliquées lors de l'incursion dans le Pilier des Cieux.
 
-Lorsqu'un personnage se lance dans l'exploration des lieux à partir du premier étage, il le fait au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment au &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;niveau 61&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, et ce quel que soit celui de sa classe ou de son job en dehors du donjon. Cette valeur augmentera au fur et à mesure des points d'expérience obtenus en vainquant des monstres.
-
-En cas d'incursion à partir de l'étage 21, le niveau du personnage sera le &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;niveau 70&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Lorsqu'un personnage se lance dans l'exploration des lieux à partir du premier étage, il le fait au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment au &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;niveau 61&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, et ce quel que soit celui de sa classe ou de son job en dehors du donjon. Cette valeur augmentera au fur et à mesure des points d'expérience obtenus en vainquant des monstres. Commencer l'exploration à partir de l'étage 21 octroie au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment le &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;niveau 70&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 Le niveau augmentera en vainquant des monstres au fur et à mesure de l'exploration. Cette évolution n'aura pas d'incidence en dehors du donjon. En revanche, le personnage pourra recevoir des points d'expérience classiques selon sa progression au sein des lieux.</target>
       </trans-unit>
@@ -5326,7 +5326,7 @@ Une fois que tout le monde sera arrivé au même point d'incursion, il sera poss
       <trans-unit id="852" xml:space="preserve" approved="yes">
         <source>852</source>
         <target state="final">Les ca&lt;var 16 /var&gt;rac&lt;var 16 /var&gt;té&lt;var 16 /var&gt;ris&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ques des substrats magiques évoluent graduellement lors de votre exploration du Pilier des Cieux. Ceci est indiqué par des valeurs appelées &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;degrés d'amélioration&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Ces degrés peuvent être augmentés en ouvrant des coffres en argent situés ça et là dans le donjon, ou laissés par certains monstres.
+Ces degrés peuvent être augmentés en ouvrant des coffres en argent situés çà et là dans le donjon, ou laissés par certains monstres.
 
 Toutefois, les ca&lt;var 16 /var&gt;rac&lt;var 16 /var&gt;té&lt;var 16 /var&gt;ris&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ques conférées par les degrés d'amélioration de ces équipements dépendent également du niveau du personnage et de l'étage atteint. Si ce dernier est trop bas, elles seront limitées, ce qui est indiqué par une marque dans les icones.
 
@@ -6467,20 +6467,19 @@ Exemple&lt;var 1D /var&gt;:
 Objet A&lt;var 1D /var&gt;: pièce d'équipement dont vous voulez changer l'apparence
 Objet B&lt;var 1D /var&gt;: pièce d'équipement dont vous voulez copier l'apparence
 
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;① Si l'objet A est une arme ou un outil différent de l'objet B&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Par exemple, il n'est pas possible de donner l'apparence d'une arme d'invocateur à une arme de gladiateur.
 
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;① Si le niveau de l'objet A est inférieur à celui de l'objet B&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-L'apparence d'un objet de niveau 100 ne peut pas être appliquée sur un objet de niveau 1 à 99.
-* Le niveau d'objet n'est pas pris en compte.
-
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;② Si les objets A et B ne peuvent pas être équipés par la même classe ou job&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Un équipement de classe ou de job donné ne peut pas recevoir le mirage de l'équipement d'un autre job ou classe.</target>
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;② Si les objets A et B ne peuvent pas être équipés par la même race ou le même sexe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Un équipement pour Hyur ne peut pas recevoir le mirage d'un équipement pour Élézen, de même qu'un équipement pour femme ne peut pas recevoir le mirage d'un équipement pour homme.</target>
       </trans-unit>
       <trans-unit id="1060" xml:space="preserve" approved="yes">
         <source>1060</source>
-        <target state="final">Si l'apparence d'un objet sous mirage ne correspond pas aux conditions d'équipement du joueur, cette apparence n'est pas reflétée lorsque l'objet est équipé.
+        <target state="final">Si l'apparence d'un objet sous mirage ne correspond pas aux conditions de race, de sexe ou d'allégeance à une grande compagnie du joueur, cette apparence n'est pas reflétée lorsque l'objet est équipé.
 
 Exemple&lt;var 1D /var&gt;:
-L'équipement de classe ou de job ne correspond pas à la classe ou au job actuel.</target>
+Un équipement exclusif à une race ou à un sexe ne correspond pas à la race ou au sexe du personnage du joueur.
+</target>
       </trans-unit>
       <trans-unit id="1061" xml:space="preserve" approved="yes">
         <source>1061</source>
@@ -7085,7 +7084,7 @@ Entre deux aventures, n'hésitez pas à inviter votre personnage favori à succo
       </trans-unit>
       <trans-unit id="1162" xml:space="preserve" approved="yes">
         <source>1162</source>
-        <target state="final">Équipements transformables en mirage d'ensemble</target>
+        <target state="final">Objets transformables en mirage d'ensemble</target>
       </trans-unit>
       <trans-unit id="1163" xml:space="preserve" approved="yes">
         <source>1163</source>
@@ -7093,30 +7092,30 @@ Entre deux aventures, n'hésitez pas à inviter votre personnage favori à succo
       </trans-unit>
       <trans-unit id="1164" xml:space="preserve" approved="yes">
         <source>1164</source>
-        <target state="final">Un &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;mirage d'ensemble&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; est une nouvelle fonctionnalité permettant de transformer plusieurs équipements en mirage sous forme d'ensemble unique, puis de conserver ce dernier dans la coiffeuse mirage. Ainsi, vous gagnerez de la place dans la coiffeuse en ne prenant qu'un seul emplacement pour plusieurs équipements.
+        <target state="final">Un &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;mirage d'ensemble&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; est une nouvelle fonctionnalité permettant de transformer plusieurs pièces d'équipement en mirage sous forme d'ensemble unique, puis de conserver ce dernier dans la coiffeuse mirage. Ainsi, vous gagnerez de la place dans la coiffeuse en ne prenant qu'un seul emplacement pour plusieurs éléments.
 
-Les mirages d'ensemble obtenus peuvent, à l'instar des mirages classiques, être ensuite appliqués à d'autres équipements ou sur une planche mirage.
+Les mirages d'ensemble obtenus peuvent, à l'instar des mirages classiques, être ensuite appliqués à d'autres objets ou sur une planche mirage.
 
-Pour obtenir un mirage d'ensemble, vous devez disposer d'un ensemble complet d'équipements de même qualité, ainsi que d'autant de prismes mirage que de pièces d'équipement dont est composé l'ensemble.</target>
+Pour obtenir un mirage d'ensemble, vous devez disposer d'un ensemble complet de pièces d'équipement de même qualité, ainsi que d'autant de prismes mirage que d'objets dont est composé l'ensemble.</target>
       </trans-unit>
       <trans-unit id="1165" xml:space="preserve" approved="yes">
         <source>1165</source>
-        <target state="final">Lorsque vous ouvrez la coiffeuse mirage, un bouton spécifique permettant de créer un mirage d'ensemble s'affiche dans la fenêtre des mirages si l'équipement est éligible à cette fonctionnalité.</target>
+        <target state="final">Lorsque vous ouvrez la coiffeuse mirage, un bouton spécifique permettant de créer un mirage d'ensemble s'affiche dans la fenêtre des mirages si l'objet est éligible à cette fonctionnalité.</target>
       </trans-unit>
       <trans-unit id="1166" xml:space="preserve" approved="yes">
         <source>1166</source>
-        <target state="final">Sélectionnez le bouton pour ouvrir la fenêtre des mirages d'ensemble et vous pourrez choisir les équipements à transformer en mirage d'ensemble parmi ceux que vous possédez dans votre inventaire ou votre arsenal.
+        <target state="final">Sélectionnez le bouton pour ouvrir la fenêtre des mirages d'ensemble et vous pourrez choisir les pièces à transformer en mirage d'ensemble parmi celles que vous possédez dans votre inventaire ou votre arsenal.
 
 Pour réaliser un mirage d'ensemble, il est nécessaire que la condition de chaque pièce d'équipement soit de 100%.
 
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Veuillez également noter que, contrairement aux mirages classiques, les teintures appliquées sur les équipements ne sont pas conservées lors d'un mirage d'ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-* Il reste possible de teindre vos équipements ou vos planches mirage après le processus.
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Veuillez également noter que, contrairement aux mirages classiques, les teintures appliquées sur les objets ne sont pas conservées lors d'un mirage d'ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+* Il reste possible de teindre vos pièces d'équipement ou vos planches mirage après le processus.
 
-Une fois la transformation en mirage d'ensemble terminée, les équipements transformés se fondent en un seul mirage, qui est ensuite rangé tel quel dans la coiffeuse mirage.</target>
+Une fois la transformation en mirage d'ensemble terminée, les objets transformés se fondent en un seul mirage, qui est ensuite rangé tel quel dans la coiffeuse mirage.</target>
       </trans-unit>
       <trans-unit id="1167" xml:space="preserve" approved="yes">
         <source>1167</source>
-        <target state="final">Pour chaque objet transformable en mirage d'ensemble, vous pouvez vérifier quels sont les autres équipements qui forment un ensemble avec cet objet en ouvrant son sous-menu puis en sélectionnant “Vérifier le contenu transformable en mirage d'ensemble”.</target>
+        <target state="final">Pour chaque objet transformable en mirage d'ensemble, vous pouvez vérifier quels sont les autres pièces d'équipement qui forment un ensemble avec cet objet en ouvrant son sous-menu puis en sélectionnant “Vérifier le contenu transformable en mirage d'ensemble”.</target>
       </trans-unit>
       <trans-unit id="1168" xml:space="preserve" approved="yes">
         <source>1168</source>
@@ -7124,12 +7123,8 @@ Une fois la transformation en mirage d'ensemble terminée, les équipements tran
       </trans-unit>
       <trans-unit id="1169" xml:space="preserve" approved="yes">
         <source>1169</source>
-        <target state="final">L'onglet “Ensemble complet” vous permet aussi de vérifier les pièces d'équipements individuelles qui composent chaque ensemble transformé en mirage. Pour cela, sélectionnez “Vérifier l'ensemble complet” dans le sous-menu d'un mirage pour connaître le détail des équipements qui le composent. Vous pouvez aussi obtenir cette information à partir des détails de l'objet transformé en mirage.
-
-Chaque pièce d'équipement qui compose un mirage d'ensemble est affichée individuellement, comme les mirages classiques, lorsque vous sélectionnez l'onglet d'un type d'équipement. Vous pourrez alors voir dans les détails de l'équipement la mention “Objets transformés en mirage d'ensemble”.
-
-Lorsque vous retirez un ensemble de la coiffeuse mirage, vous pourrez le convertir en objet unique que vous pouvez équiper.
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* Il n'est pas possible de retirer une pièce spécifique d'un ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+        <target state="final">L'onglet “Ensemble complet” vous permet aussi de vérifier les pièces d'équipement individuelles qui composent chaque ensemble transformé en mirage.
+Le nombre d'objets qui composent un ensemble est affiché directement sur l'icone de chaque ensemble visible au sein de l'onglet.</target>
       </trans-unit>
       <trans-unit id="1170" xml:space="preserve" approved="yes">
         <source>1170</source>
@@ -7799,7 +7794,7 @@ Rang bronze&lt;var 1D /var&gt;: aucun bonus
 Rang argent&lt;var 1D /var&gt;: récompense multipliée par 4
 Rang or&lt;var 1D /var&gt;: récompense multipliée par 5
 
-À noter que, vous recevrez un montant fixe de points d'expérience pour chaque mission réussie, et ce quelle que soit votre évaluation. De plus, les missions terminées avec le rang bronze ou argent seront marquées d'une coche dans la liste de missions, alors que les missions terminées avec un rang or auront un icone spécifique.</target>
+À noter que vous recevrez un montant fixe de points d'expérience pour chaque mission réussie, et ce quelle que soit votre évaluation. De plus, les missions terminées avec le rang bronze ou argent seront marquées d'une coche dans la liste de missions, alors que les missions terminées avec un rang or auront un icone spécifique.</target>
       </trans-unit>
       <trans-unit id="1335" xml:space="preserve" approved="yes">
         <source>1335</source>
@@ -8078,7 +8073,7 @@ Par ailleurs, il existe différents types de tickets Big Bang, qui s'obtiennent 
       </trans-unit>
       <trans-unit id="1379" xml:space="preserve" approved="yes">
         <source>1379</source>
-        <target state="final">Lorsqu'un tel événement menace le bon déroulement du projet, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;la station sélénienne peut émettre une alerte rouge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Il vous faudra alors rassembler vos compagnons pour résoudre les problèmes et surmonter cette crise.</target>
+        <target state="final">Lorsqu'un tel événement menace le bon déroulement du projet, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;votre base d'opérations peut émettre une alerte rouge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Il vous faudra alors rassembler vos compagnons pour résoudre les problèmes et surmonter cette crise.</target>
       </trans-unit>
       <trans-unit id="1380" xml:space="preserve" approved="yes">
         <source>1380</source>
@@ -8257,25 +8252,14 @@ Lorsque les prérequis sont remplis dans une zone d'exploration, les missions de
         <source>1403</source>
         <target state="final">Il existe plusieurs règles spécifiques lors des missions cosmiques.
 
-■ Synchronisation de quête
+■ Synchronisation de niveau
 Le niveau de difficulté de la fabrication, de la récolte ou de la pêche varie en fonction de votre niveau. De plus, l'expérience reçue en cas de réussite de la mission varie également selon votre niveau.
 
 ■ Récupération des PR
 Après avoir terminé une mission de récolte, vous récupérerez le montant des PR utilisés pour accomplir votre objectif. De plus, le temps de recharge des objets permettant de restaurer les PR, comme les breuvages cordiaux, sera réinitialisé.
 
-■ Points d'expérience
-La fabrication ainsi que les récoltes effectuées au cours de missions cosmiques n'octroient aucun point d'expérience. En outre, la symbiose augmentera à un taux différent.
-
-■ Restriction pour les pêcheurs
-À la fin d'une mission cosmique, l'effet Féru de pêche sera totalement réinitialisé, et ce, quel que soit le degré accumulé.
-
-■ Soutien aux in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tions mécaniques
-Lorsque vous participez aux in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tions mécaniques en tant qu'assistant&lt;var 08 E905 ((e)) (()) /var&gt;, vous pourrez obtenir un bonus de gain de crédits pour un certain nombre de missions sup&lt;var 16 /var&gt;plé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;res. Ce gain reste le même, quels que soient les objectifs à accomplir.
-
-Bonus de crédits cosmiques&lt;var 1D /var&gt;: +20
-Bonus de crédits spécifiques&lt;var 1D /var&gt;: +10
-
-Lorsqu'un bonus de gain de crédits est actif, un symbole est affiché sur le bouton “Commencer” du menu “Missions cosmiques”.</target>
+■ Actions spéciales
+Vous pourrez utiliser des actions spéciales lors de certaines missions cosmiques. Celles-ci seront indiquées sur la fiche descriptive des missions concernées.</target>
       </trans-unit>
       <trans-unit id="1404" xml:space="preserve" approved="yes">
         <source>1404</source>
@@ -8429,10 +8413,12 @@ Les joueurs souhaitant enregistrer leur candidature doivent accéder à la secti
       </trans-unit>
       <trans-unit id="1430" xml:space="preserve" approved="yes">
         <source>1430</source>
-        <target state="final">■ Rôle des assistants
-Les assistants ont pour mission de remettre un certain nombre d'objets à l'“analyseur de terrain”.
+        <target state="final">■ Analyseurs de terrain
+Lors de nombreuses in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tions mécaniques, des dispositifs appelés “analyseurs de terrain” sont déployés sur place.
 
-Lorsque ce nombre est atteint, il peut utiliser sa fonction de détection pour indiquer de nouvelles cibles aux pilotes de machines.
+Les assistants ont pour mission de leur remettre un certain nombre d'objets.
+
+Lorsque ce nombre est atteint, les analyseurs peuvent utiliser leur fonction de détection pour indiquer de nouvelles cibles aux pilotes de machines.
 
 ■ Récompense
 En cas de succès de l'in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tion mécanique, les assistants ayant suf&lt;var 16 /var&gt;fi&lt;var 16 /var&gt;sam&lt;var 16 /var&gt;ment contribué reçoivent un bonus de crédits pour un certain nombre de missions cosmiques.
@@ -8447,7 +8433,7 @@ Veuillez vous référer à la section “Missions cosmiques” pour plus de dét
         <source>1432</source>
         <target state="final">En ac&lt;var 16 /var&gt;com&lt;var 16 /var&gt;plis&lt;var 16 /var&gt;sant certaines missions de niveau élevé, vous recevrez parfois des &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;avoirs de l'exploration cosmique&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
-Accumulez-en plusieurs, et vous pourrez les échanger contre des lots spéciaux auprès de Mesouaidonque.</target>
+Accumulez-en plusieurs, et vous pourrez les échanger contre des lots spéciaux auprès de Mesouaidonque (uniquement sur les planètes concernées).</target>
       </trans-unit>
       <trans-unit id="1433" xml:space="preserve" approved="yes">
         <source>1433</source>
@@ -8562,7 +8548,7 @@ Une fois que tout le monde sera arrivé au même point d'incursion, il sera poss
       <trans-unit id="1454" xml:space="preserve" approved="yes">
         <source>1454</source>
         <target state="final">Les ca&lt;var 16 /var&gt;rac&lt;var 16 /var&gt;té&lt;var 16 /var&gt;ris&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ques des substrats magiques évoluent graduellement lors de votre exploration du Sanctuaire des pèlerins. Ceci est indiqué par des valeurs appelées &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;degrés d'amélioration&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Ces degrés peuvent être augmentés en ouvrant des coffres en argent situés ça et là dans le donjon, ou laissés par certains monstres.
+Ces degrés peuvent être augmentés en ouvrant des coffres en argent situés çà et là dans le donjon, ou laissés par certains monstres.
 
 Il arrive néanmoins que l'amélioration échoue si les degrés sont trop élevés, auquel cas il est préférable de rententer sa chance après avoir avancé vers les zones suivantes.
 De plus, les ca&lt;var 16 /var&gt;rac&lt;var 16 /var&gt;té&lt;var 16 /var&gt;ris&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ques conférées par les degrés d'amélioration de ces équipements dépendent également du niveau du personnage et de l'étage atteint. Si ce dernier est trop bas, elles seront limitées, ce qui est indiqué par une marque dans les icones.
@@ -8715,7 +8701,7 @@ Le chef d'équipe doit ensuite s'adresser au PNJ “Vanthau”, puis choisir l'o
       </trans-unit>
       <trans-unit id="1480" xml:space="preserve" approved="yes">
         <source>1480</source>
-        <target state="final">Les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;offrandes sacramentelles&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; sont des objets in&lt;var 16 /var&gt;dis&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;sa&lt;var 16 /var&gt;bles pour pouvoir pénétrer dans Le Verset final (quantique).
+        <target state="final">Les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;offrandes sacramentelles&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; sont des objets in&lt;var 16 /var&gt;dis&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;sa&lt;var 16 /var&gt;bles pour pouvoir pénétrer dans le Verset final (quantique).
 
 Il en existe de cinq sortes&lt;var 1D /var&gt;:
   - &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Spiritueux de l'Aurore&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -8752,6 +8738,187 @@ Plus les offrandes sont nombreuses et plus la récompense est grande. Par ailleu
         <source>1485</source>
         <target state="final">Les candélabres de l'Aurore</target>
       </trans-unit>
+      <trans-unit id="1486" xml:space="preserve" approved="yes">
+        <source>1486</source>
+        <target state="final">Les tableaux stratégiques</target>
+      </trans-unit>
+      <trans-unit id="1487" xml:space="preserve" approved="yes">
+        <source>1487</source>
+        <target state="final">Généralités</target>
+      </trans-unit>
+      <trans-unit id="1488" xml:space="preserve" approved="yes">
+        <source>1488</source>
+        <target state="final">Les tableaux stratégiques sont un outil conçu pour faciliter la communication entre les membres d'une équipe. Des icones et des formes peuvent être placés à loisir pour mieux permettre à tous de s'accorder sur la façon d'accomplir une mission.</target>
+      </trans-unit>
+      <trans-unit id="1489" xml:space="preserve" approved="yes">
+        <source>1489</source>
+        <target state="final">Liste des tableaux stratégiques</target>
+      </trans-unit>
+      <trans-unit id="1490" xml:space="preserve" approved="yes">
+        <source>1490</source>
+        <target state="final">Tableaux enregistrés</target>
+      </trans-unit>
+      <trans-unit id="1491" xml:space="preserve" approved="yes">
+        <source>1491</source>
+        <target state="final">Il est possible d'enregistrer jusqu'à 50 tableaux stratégiques et de définir librement leurs intitulés.
+
+Il est également possible de créer jusqu'à 55 dossiers et d'enregistrer jusqu'à 10 tableaux dans chacun d'entre eux.</target>
+      </trans-unit>
+      <trans-unit id="1492" xml:space="preserve" approved="yes">
+        <source>1492</source>
+        <target state="final">Tableaux partagés</target>
+      </trans-unit>
+      <trans-unit id="1493" xml:space="preserve" approved="yes">
+        <source>1493</source>
+        <target state="final">Jusqu'à 20 tableaux partagés par d'autres joueurs sont temporairement placés dans cette liste. Lorsque cette limite est atteinte, les nouveaux tableaux partagés écraseront les plus anciens. Pensez donc à les enregistrer avant qu'ils soient effacés.</target>
+      </trans-unit>
+      <trans-unit id="1494" xml:space="preserve" approved="yes">
+        <source>1494</source>
+        <target state="final">Visualisation</target>
+      </trans-unit>
+      <trans-unit id="1495" xml:space="preserve" approved="yes">
+        <source>1495</source>
+        <target state="final">Fenêtre de visualisation</target>
+      </trans-unit>
+      <trans-unit id="1496" xml:space="preserve" approved="yes">
+        <source>1496</source>
+        <target state="final">Il est possible de verrouiller cette fenêtre pour empêcher sa fermeture, de contrôler sa taille et de la garder affichée lors des missions.
+
+De plus, les “Paramètres de visualisation” permettent de modifier l'affichage des icones de DPS et de mettre en surbrillance un rôle spécifique.</target>
+      </trans-unit>
+      <trans-unit id="1497" xml:space="preserve" approved="yes">
+        <source>1497</source>
+        <target state="final">Utilisation</target>
+      </trans-unit>
+      <trans-unit id="1498" xml:space="preserve" approved="yes">
+        <source>1498</source>
+        <target state="final">Il suffit de sélectionner le tableau stratégique souhaité dans la liste, puis de cliquer sur “Afficher en mode visualisation” ou de choisir l'option “Visualiser” dans le sous-menu.
+
+En mode visualisation, il est également possible d'utiliser les flèches en bas à droite de la fenêtre pour naviguer entre les tableaux d'un même dossier ou d'utiliser les actions “Avance tableau” et “Retour tableau” de la rubrique “Général” de la fenêtre “Actions et traits”.</target>
+      </trans-unit>
+      <trans-unit id="1499" xml:space="preserve" approved="yes">
+        <source>1499</source>
+        <target state="final">Création et modification</target>
+      </trans-unit>
+      <trans-unit id="1500" xml:space="preserve" approved="yes">
+        <source>1500</source>
+        <target state="final">Fenêtre de modification</target>
+      </trans-unit>
+      <trans-unit id="1501" xml:space="preserve" approved="yes">
+        <source>1501</source>
+        <target state="final">En plus de la fenêtre principale, les trois fenêtres suivantes peuvent être utilisées pour exploiter pleinement les fonctionnalités des tableaux stratégiques&lt;var 1D /var&gt;:
+
+“Ajout d'objets” pour sélectionner les objets à placer
+“Disposition des calques” pour organiser la hiérarchie des objets
+“Paramètres de l'objet” pour modifier l'apparence des objets
+* Lorsque le verrouillage des fenêtres est activé, elles s'ouvriront au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment lors de la modification d'un tableau.
+
+Il est également possible d'activer ou désactiver la grille, l'ancrage sur la grille et l'ancrage des objets depuis la fenêtre principale.</target>
+      </trans-unit>
+      <trans-unit id="1502" xml:space="preserve" approved="yes">
+        <source>1502</source>
+        <target state="final">Sélection multiple</target>
+      </trans-unit>
+      <trans-unit id="1503" xml:space="preserve" approved="yes">
+        <source>1503</source>
+        <target state="final">Il est possible de sélectionner plusieurs objets afin de les manipuler simultanément.</target>
+      </trans-unit>
+      <trans-unit id="1504" xml:space="preserve" approved="yes">
+        <source>1504</source>
+        <target state="final">Réglages prédéfinis</target>
+      </trans-unit>
+      <trans-unit id="1505" xml:space="preserve" approved="yes">
+        <source>1505</source>
+        <target state="final">Lors de la création d'un tableau stratégique, sélectionner l'option “Créer à partir de réglages prédéfinis” permet de gagner du temps en paramétrant le positionnement initial de divers éléments, comme des icones de rôle ou des marqueurs.</target>
+      </trans-unit>
+      <trans-unit id="1506" xml:space="preserve" approved="yes">
+        <source>1506</source>
+        <target state="final">Fonctionnalités diverses</target>
+      </trans-unit>
+      <trans-unit id="1507" xml:space="preserve" approved="yes">
+        <source>1507</source>
+        <target state="final">■ Verrouiller/Déverrouiller la sélection
+Il est possible d'empêcher le déplacement d'objets pour parer à toute erreur de manipulation.</target>
+      </trans-unit>
+      <trans-unit id="1508" xml:space="preserve" approved="yes">
+        <source>1508</source>
+        <target state="final">■ Ancrage sur la grille
+Lorsque la grille est affichée, activer cette option permet de forcer au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment l'alignement des objets lors de leur placement.</target>
+      </trans-unit>
+      <trans-unit id="1509" xml:space="preserve" approved="yes">
+        <source>1509</source>
+        <target state="final">Paramètres de visualisation</target>
+      </trans-unit>
+      <trans-unit id="1510" xml:space="preserve" approved="yes">
+        <source>1510</source>
+        <target state="final">■ Type d'affichage des icones de DPS
+Cette option permet d'afficher le même icone pour tous les DPS ou de différencier les DPS de mêlée et les DPS à distance.
+
+■ Surbrillance
+Cette option permet de mettre en évidence un icone de classe/job spécifique.
+
+* Ces paramètres ne s'appliquent qu'à certains icones dans tous les tableaux en cours de visualisation.</target>
+      </trans-unit>
+      <trans-unit id="1513" xml:space="preserve" approved="yes">
+        <source>1513</source>
+        <target state="final">Divers objets peuvent être placés, comme des icones de classe/job, des marques au sol ou des attaques à zone d'effet.</target>
+      </trans-unit>
+      <trans-unit id="1514" xml:space="preserve" approved="yes">
+        <source>1514</source>
+        <target state="final">■ Sélectionner plusieurs objets
+Clavier et souris&lt;var 1D /var&gt;: Ctrl + Clic gauche
+Manette&lt;var 1D /var&gt;: &lt;var 08 E1E94C01 ((Touche)) ((Bouton)) /var&gt; &lt;var 1E 0C /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="1515" xml:space="preserve" approved="yes">
+        <source>1515</source>
+        <target state="final">■ Ancrage des objets
+Lorsqu'elle est activée, cette option permet aux objets de se superposer au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment lors de leur placement.</target>
+      </trans-unit>
+      <trans-unit id="1516" xml:space="preserve" approved="yes">
+        <source>1516</source>
+        <target state="final">■ Alignement de la sélection
+Lorsque plusieurs objets sont sélectionnés, l'option “Alignement de la sélection” du sous-menu permet de les repositionner verticalement ou horizontalement.</target>
+      </trans-unit>
+      <trans-unit id="1517" xml:space="preserve" approved="yes">
+        <source>1517</source>
+        <target state="final">Code de partage</target>
+      </trans-unit>
+      <trans-unit id="1518" xml:space="preserve" approved="yes">
+        <source>1518</source>
+        <target state="final">Pour utiliser cette fonctionnalité de partage, il suffit de sélectionner le tableau stratégique souhaité et de choisir l'option “Partager”, puis “Générer un code de partage” dans le sous-menu.
+
+Ainsi, les autres joueurs pourront utiliser ce code pour enregistrer une copie du tableau stratégique en sélectionnant préalablement “Créer un tableau” puis “Créer à partir d'un code de partage”.
+
+* Veuillez noter que certains codes peuvent être corrompus par la limite de caractères ou les filtres du log.</target>
+      </trans-unit>
+      <trans-unit id="1519" xml:space="preserve" approved="yes">
+        <source>1519</source>
+        <target state="final">En temps réel</target>
+      </trans-unit>
+      <trans-unit id="1520" xml:space="preserve" approved="yes">
+        <source>1520</source>
+        <target state="final">Grâce à cette fonctionnalité, il est possible de montrer à ses équipiers la modification d'un tableau stratégique en temps réel. Pour ce faire, il suffit de sélectionner l'option “Partager”, puis “Partager en temps réel” dans le sous-menu.
+
+Ainsi, le joueur qui a initié le partage peut modifier le tableau librement et les joueurs ayant accepté son invitation peuvent observer ses manipulations en mode visualisation.
+
+Le partage en temps réel est au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment interrompu lors du début d'un combat ou de modification du nombre d'équipiers. Le tableau est sauvegardé dans la liste des “Tableaux partagés” où il est possible de reprendre sa modification.
+
+Un tableau partagé en temps réel étant sauvegardé à intervalles réguliers, il est recommandé d'en faire une copie afin de conserver l'original.</target>
+      </trans-unit>
+      <trans-unit id="1521" xml:space="preserve" approved="yes">
+        <source>1521</source>
+        <target state="final">Partage</target>
+      </trans-unit>
+      <trans-unit id="1522" xml:space="preserve" approved="yes">
+        <source>1522</source>
+        <target state="final">À l'équipe</target>
+      </trans-unit>
+      <trans-unit id="1523" xml:space="preserve" approved="yes">
+        <source>1523</source>
+        <target state="final">Cette fonctionnalité permet de partager un tableau stratégique ou tout un dossier à ses équipiers. Pour ce faire, il suffit de sélectionner l'option “Partager”, puis “Partager à l'équipe” dans le sous-menu.
+
+Les tableaux qui ont été partagés avec vous sont conservés temporairement dans la liste des “Tableaux partagés” où il est possible de les visualiser.</target>
+      </trans-unit>
       <trans-unit id="1550" xml:space="preserve" approved="yes">
         <source>1550</source>
         <target state="final">Cette liste vous permet de consulter le type de missions disponibles et les in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tions sur les objectifs à atteindre.</target>
@@ -8778,7 +8945,7 @@ Il existe trois types de missions cosmiques, chacune nécessitant des conditions
       </trans-unit>
       <trans-unit id="1554" xml:space="preserve" approved="yes">
         <source>1554</source>
-        <target state="final">Lors des missions critiques, vous devrez fabriquer ou récolter des matériaux dans une zone désignée. Sur Phaenna, vous pouvez accéder au lieu de mission directement en vous adressant au PNJ “Lefleda”, à la station Souffleverre.</target>
+        <target state="final">Lors des missions critiques, vous devrez fabriquer ou récolter des matériaux dans une zone désignée. Vous pouvez accéder au lieu de mission directement en vous adressant au PNJ “Lefleda”, à la station de chaque zone d'exploration.</target>
       </trans-unit>
       <trans-unit id="1555" xml:space="preserve" approved="yes">
         <source>1555</source>
@@ -8898,6 +9065,303 @@ Le carnet d'objectif est accessible depuis le menu principal, ou en s'adressant 
 
 &lt;var 48 F20224 /var&gt;■ Trésors lumineux&lt;var 48 01 /var&gt;
 Les joueurs peuvent obtenir des &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;trésors lumineux&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; en ac&lt;var 16 /var&gt;com&lt;var 16 /var&gt;plis&lt;var 16 /var&gt;sant certains objectifs du carnet d'objectifs, ou en terminant les défis liés au Sanctuaire des pèlerins (voir la rubrique correspondante).</target>
+      </trans-unit>
+      <trans-unit id="1573" xml:space="preserve" approved="yes">
+        <source>1573</source>
+        <target state="final">Désherbage de printemps</target>
+      </trans-unit>
+      <trans-unit id="1574" xml:space="preserve" approved="yes">
+        <source>1574</source>
+        <target state="final">Informations générales</target>
+      </trans-unit>
+      <trans-unit id="1575" xml:space="preserve" approved="yes">
+        <source>1575</source>
+        <target state="final">Actions spécifiques</target>
+      </trans-unit>
+      <trans-unit id="1576" xml:space="preserve" approved="yes">
+        <source>1576</source>
+        <target state="final">Score</target>
+      </trans-unit>
+      <trans-unit id="1577" xml:space="preserve" approved="yes">
+        <source>1577</source>
+        <target state="final">Monstres spéciaux</target>
+      </trans-unit>
+      <trans-unit id="1578" xml:space="preserve" approved="yes">
+        <source>1578</source>
+        <target state="final">Votre mission, si vous l'acceptez, est d'utiliser une série d'actions spécifiques afin d'endiguer la prolifération de monstres végétaux qui ont envahi le terrain de la chasse aux Prœufs.</target>
+      </trans-unit>
+      <trans-unit id="1579" xml:space="preserve" approved="yes">
+        <source>1579</source>
+        <target state="final">■基本情報
+スプリグ・クリーニングは、ソロでのみ遊べるコンテンツです。
+コンテンツの制限時間は3分です。
+
+ゲーム中は、専用アクションを駆使して魔物を刈り、
+より多くのスコアを獲得することが目的となります。
+
+■報酬
+ゲーム中に獲得したスコアの量に応じて、
+「スペシャル・トリコエッグ」を入手することできます。
+
+スペシャル・トリコエッグは、
+ミィ・ケット野外音楽堂の「エッグドリーマー」に渡すことで、
+装備品やアイテムと交換できます。</target>
+      </trans-unit>
+      <trans-unit id="1580" xml:space="preserve" approved="yes">
+        <source>1580</source>
+        <target state="final">Trois actions spécifiques sont disponibles pendant le déroulement du jeu.</target>
+      </trans-unit>
+      <trans-unit id="1581" xml:space="preserve" approved="yes">
+        <source>1581</source>
+        <target state="final">1. Tourbi-taillage
+Effectue une coupe rotative autour de vous pour trancher les plantes alentour.
+
+2. Labourage
+Permet de se déplacer rapidement vers l'avant tout en arrachant les mauvaises herbes sur le chemin.
+
+3. Tourbi-massacre
+Cette action n'est disponible que lorsque l'âme d'élagueur est suf&lt;var 16 /var&gt;fi&lt;var 16 /var&gt;sam&lt;var 16 /var&gt;ment remplie. Effectue une coupe rotative dans une vaste zone autour de vous pour trancher les plantes alentour.
+</target>
+      </trans-unit>
+      <trans-unit id="1582" xml:space="preserve" approved="yes">
+        <source>1582</source>
+        <target state="final">Dans ce jeu, il existe plusieurs méthodes pour améliorer son score.
+
+■ Tailler des piège-mouches tenaces
+Plus le nombre de monstres tranché est important, plus le score final sera élevé.
+
+■ Récupérer des Prœufs
+Les monstres laissent parfois tomber des Prœufs d'or, d'argent ou de bronze qu'ils avaient gobés. Pensez à les ramasser, car ils octroient un nombre de points variable selon leur rareté.
+Le score actuel peut être consulté dans la liste des objectifs.</target>
+      </trans-unit>
+      <trans-unit id="1583" xml:space="preserve" approved="yes">
+        <source>1583</source>
+        <target state="final">Gardez l'œil ouvert, car des piège-mouches insolites font parfois leur apparition.</target>
+      </trans-unit>
+      <trans-unit id="1584" xml:space="preserve" approved="yes">
+        <source>1584</source>
+        <target state="final">このフシギナ・トラップを刈ると、
+以下の特殊な効果がランダムで発生します。
+
+・草刈り魂上昇
+「草刈り魂」が大幅に上昇します。
+
+・アルコンエッグ発見率上昇
+アルコンエッグを見つけやすくなります。
+
+・アルコンエッグ【金】率上昇
+見つけたアルコンエッグが、必ずアルコンエッグ【金】になります。</target>
+      </trans-unit>
+      <trans-unit id="1585" xml:space="preserve" approved="yes">
+        <source>1585</source>
+        <target state="final">■ Points d'expérience
+La fabrication ainsi que les récoltes effectuées au cours de missions cosmiques n'octroient aucun point d'expérience. En outre, la symbiose augmentera à un taux différent.
+
+■ Restriction pour les pêcheurs
+À la fin d'une mission cosmique, l'effet Féru de pêche sera totalement réinitialisé, et ce, quel que soit le degré accumulé.
+
+■ Soutien aux in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tions mécaniques
+Lorsque vous participez aux in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tions mécaniques en tant qu'assistant&lt;var 08 E905 ((e)) (()) /var&gt;, vous pourrez obtenir un bonus de gain de crédits pour un certain nombre de missions sup&lt;var 16 /var&gt;plé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;tai&lt;var 16 /var&gt;res. Ce gain reste le même, quels que soient les objectifs à accomplir.
+
+Bonus de crédits cosmiques&lt;var 1D /var&gt;: +20
+Bonus de crédits spécifiques&lt;var 1D /var&gt;: +10
+
+Lorsqu'un bonus de gain de crédits est actif, un symbole est affiché sur le bouton “Commencer” du menu “Missions cosmiques”.</target>
+      </trans-unit>
+      <trans-unit id="1586" xml:space="preserve" approved="yes">
+        <source>1586</source>
+        <target state="final">Série d'or</target>
+      </trans-unit>
+      <trans-unit id="1587" xml:space="preserve" approved="yes">
+        <source>1587</source>
+        <target state="final">Vous bénéficiez d'un bonus de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;série d'or&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; si vous parvenez à accomplir plusieurs missions difficiles de suite en décrochant un rang or.
+
+■ Poursuivre une série d'or
+Décrochez plusieurs rangs or à la suite sur des missions de classe A ou des missions temporaires pour bénéficier d'un bonus de plus en plus grand.
+
+La série se poursuivra y compris si vous terminez une mission d'une autre classe d'artisanat ou de récolte, pourvu qu'elle soit de classe A.
+
+Le compteur de série d'or grimpe de un à cinq, puis s'achève par le bonus de série d'or MAX. Après avoir bénéficié de ce dernier, vous repartirez au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment de zéro.
+
+La série d'or est sauvegardée indépendamment pour chaque zone d'exploration cosmique, et sera conservée même si vous la quittez.
+
+■ Valeur du bonus
+Le bonus de série d'or augmente les récompenses reçues en fin de mission. Vous pouvez vérifier sa valeur par palier dans la fenêtre “Missions cosmiques”.
+
+Récompenses concernées&lt;var 1D /var&gt;:
+  - Tous types de crédits
+  - Jetons de drone
+  - Contribution</target>
+      </trans-unit>
+      <trans-unit id="1588" xml:space="preserve" approved="yes">
+        <source>1588</source>
+        <target state="final">
+■ Fin de la série d'or
+La série d'or prendra fin si vous&lt;var 1D /var&gt;:
+  - Démarrez une mission cosmique de classe B, C ou D
+  - Terminez une mission avec un rang argent ou bronze
+  - Abandonnez une mission
+Une exception existe toutefois pour les missions cosmiques au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment abandonnées suite à la sélection d'un pilote pour une in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tion mécanique.
+
+À l'inverse, la série d'or se poursuivra si vous&lt;var 1D /var&gt;:
+  - Participez à une in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tion mécanique
+  - Participez à un ouvrage collectif
+  - Acceptez ou terminez une mission critique</target>
+      </trans-unit>
+      <trans-unit id="1596" xml:space="preserve" approved="yes">
+        <source>1596</source>
+        <target state="final">Deux types de chiffres peuvent être affichés : ceux en orange indiquent que toutes les pièces d'équipement dans l'ensemble ont été transformées en mirages ; ceux en blanc indiquent qu'il reste des pièces d'équipement de l'ensemble pas encore ajoutées à la coiffeuse mirage, et qui n'ont donc pas pu être transformées en mirages.
+
+Vous pouvez également vérifier les pièces d'équipement individuelles qui composent chaque ensemble transformé en mirage. Pour cela, sélectionnez “Vérifier l'ensemble complet” dans le sous-menu d'un mirage pour connaître le détail des pièces d'équipement qui le composent. Vous pouvez aussi obtenir cette information à partir des détails de l'objet transformé en mirage.
+
+Chaque pièce d'équipement qui appartient à un mirage d'ensemble est affichée individuellement, comme les mirages classiques, lorsque vous sélectionnez l'onglet d'un type d'équipement. Vous pourrez alors voir dans les détails de l'équipement la mention “Objet transformé en mirage d'ensemble”.
+
+Lorsque vous retirez un ensemble de la coiffeuse mirage, vous reconvertissez chacun des objets qui le composent en pièces d'équipement individuelles.
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* Il n'est pas possible de retirer une pièce spécifique d'un ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="1597" xml:space="preserve" approved="yes">
+        <source>1597</source>
+        <target state="final">Ajouter un objet à un mirage d'ensemble</target>
+      </trans-unit>
+      <trans-unit id="1598" xml:space="preserve" approved="yes">
+        <source>1598</source>
+        <target state="final">Il est possible d'ajouter plus tard des pièces d'équipement à un mirage d'ensemble conservé dans la coiffeuse mirage si ce dernier n'est pas complet.
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* Un prisme mirage est nécessaire pour chaque objet ajouté.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+L'ajout d'une pièce d'équipement à un ensemble existant s'effectue via l'onglet “Ensemble complet” de la coiffeuse mirage, puis en choisissant l'ensemble concerné et en sélectionnant “Ajout d'objets manquants”.
+
+Vous pouvez également effectuer un ajout vers un ensemble conservé dans la coiffeuse mirage directement depuis la fenêtre de transformation en mirage.</target>
+      </trans-unit>
+      <trans-unit id="1599" xml:space="preserve" approved="yes">
+        <source>1599</source>
+        <target state="final">Dans le cas où la pièce d'équipement sé&lt;var 16 /var&gt;lec&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;née peut être ajoutée à un ensemble, celui-ci sera affiché au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment et vous pourrez choisir d'y ajouter l'objet.
+
+Si vous ne savez pas si un ensemble existe déjà pour la pièce d'équipement choisie dans votre coiffeuse mirage, vous pouvez toujours tenter d'utiliser le bouton “Transformer en mirage d'ensemble” depuis la fenêtre de transformation en mirage.</target>
+      </trans-unit>
+      <trans-unit id="1601" xml:space="preserve" approved="yes">
+        <source>1601</source>
+        <target state="final">Worqor Chirteh (manœuvre)</target>
+      </trans-unit>
+      <trans-unit id="1602" xml:space="preserve" approved="yes">
+        <source>1602</source>
+        <target state="final">Description des lieux</target>
+      </trans-unit>
+      <trans-unit id="1603" xml:space="preserve" approved="yes">
+        <source>1603</source>
+        <target state="final">À l'ouest d'Éorzéa, loin par-delà l'océan Indigo, se trouve le Tural. C'est sur ce continent que se situe Worqor Chirteh, une région montagneuse qui aurait autrefois été le théâtre d'une grande bataille entre les clans yok huy. Les trois grandes compagnies éorzéennes ont jeté leur dévolu sur ce lieu chargé d'histoire, et ont ainsi obtenu une au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ri&lt;var 16 /var&gt;sa&lt;var 16 /var&gt;tion officielle du royaume fédéré du Tuliyollal pour y effectuer leurs manœuvres. C'est sur ce terrain escarpé et gardé par les esprits des neiges que des bataillons d'aventuriers vont s'affronter au cours d'exercices militaires.</target>
+      </trans-unit>
+      <trans-unit id="1604" xml:space="preserve" approved="yes">
+        <source>1604</source>
+        <target state="final">Conditions de victoire</target>
+      </trans-unit>
+      <trans-unit id="1605" xml:space="preserve" approved="yes">
+        <source>1605</source>
+        <target state="final">Dans l'instance “Worqor Chirteh (manœuvre)”, chaque camp se voit attribuer un score tactique en fonction de ses actions. L'équipe atteignant le plus rapidement le montant de points fixé remporte la bataille.
+Les joueurs peuvent augmenter le score tactique de leur camp en réalisant les actions suivantes&lt;var 1D /var&gt;:
+1. Vaincre des joueurs des équipes adverses
+2. Prendre le contrôle des points névralgiques
+
+Si aucun camp n'a remporté la victoire avant la fin du temps imparti, le classement se fait en fonction du score tactique de chacun.</target>
+      </trans-unit>
+      <trans-unit id="1606" xml:space="preserve" approved="yes">
+        <source>1606</source>
+        <target state="final">Points névralgiques</target>
+      </trans-unit>
+      <trans-unit id="1607" xml:space="preserve" approved="yes">
+        <source>1607</source>
+        <target state="final">Plusieurs zones appelées “points névralgiques” sont placées sur le terrain de jeu, et les joueurs doivent s'affronter pour tenter d'en prendre le contrôle. Réussir cette action octroie un gain de points de façon régulière.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ États&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Un point névralgique peut se trouver dans un des quatre états suivants&lt;var 1D /var&gt;:
+
+1.　Inactif
+Les points névralgiques sont tous inactifs au début de la bataille, mais s'activent de manière aléatoire au bout d'un certain temps.</target>
+      </trans-unit>
+      <trans-unit id="1608" xml:space="preserve" approved="yes">
+        <source>1608</source>
+        <target state="final">2.　En transition
+Lorsqu'un point névralgique passe en état de transition, un indicateur de temps restant avant qu'il ne soit disponible s'affiche. Lorsque ce compteur atteint zéro, le point névralgique peut être contrôlé.</target>
+      </trans-unit>
+      <trans-unit id="1609" xml:space="preserve" approved="yes">
+        <source>1609</source>
+        <target state="final">3.　Contrôle possible
+Lorsqu'un point névralgique est disponible et peut être contrôlé, plusieurs “cercles de contrôle” ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent dans la zone autour de lui.
+Si l'une des équipes parvient à contrôler tous les cercles présents dans la zone, le point névralgique tombe sous son contrôle.</target>
+      </trans-unit>
+      <trans-unit id="1610" xml:space="preserve" approved="yes">
+        <source>1610</source>
+        <target state="final">4.　Contrôlé
+Si une équipe parvient à prendre le contrôle d'un point névralgique, elle reçoit un gain de score stratégique tant que ce contrôle est effectif. Un point névralgique contrôlé ne peut pas être contesté par une équipe adverse. Après un certain temps, le point contrôlé redeviendra inactif. Toutefois, un autre point passera au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment en état de transition.</target>
+      </trans-unit>
+      <trans-unit id="1611" xml:space="preserve" approved="yes">
+        <source>1611</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Rangs de contrôle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Lorsqu'ils passent en état de transition, les points névralgiques reçoivent un rang au hasard&lt;var 1D /var&gt;: B, A ou S, comme indiqué par leur forme. Plus ce rang est élevé, plus le score tactique obtenu lors de la prise de contrôle augmente. Les points de rang élevé ont un taux d'apparition moindre que ceux de rang inférieur.</target>
+      </trans-unit>
+      <trans-unit id="1612" xml:space="preserve" approved="yes">
+        <source>1612</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Changements en cours de bataille&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Au fur et à mesure que la bataille progresse, le nombre de points actifs en même temps se réduit. En contrepartie, les chances pour que les points restants s'activent à un rang élevé augmentent.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Changements dûs à la météo&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Certaines conditions météorologiques augmentent les chances d'activation des points à un rang élevé.</target>
+      </trans-unit>
+      <trans-unit id="1613" xml:space="preserve" approved="yes">
+        <source>1613</source>
+        <target state="final">Cercles de contrôle</target>
+      </trans-unit>
+      <trans-unit id="1614" xml:space="preserve" approved="yes">
+        <source>1614</source>
+        <target state="final">Lorsqu'un point névralgique est disponible et peut être contrôlé, plusieurs “cercles de contrôle” ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent dans la zone autour de lui.
+Les joueurs d'une équipe peuvent prendre le contrôle de ce cercle en restant à l'intérieur pendant un certain temps. La progression de la jauge de contrôle s'effectue à vitesse constante, peu importe le nombre de joueur présents dans le cercle.
+
+Plus le rang du point névralgique est élevé, plus le nombre de cercles de contrôle qui ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent autour de lui sont nombreux.
+
+Si une équipe parvient à conquérir un cercle, les autres peuvent tenter d'en reprendre le contrôle. Alors n'abandonnez pas trop vite si vos adversaires prennent le contrôle d'un cercle que vous convoitez !</target>
+      </trans-unit>
+      <trans-unit id="1615" xml:space="preserve" approved="yes">
+        <source>1615</source>
+        <target state="final">Neige</target>
+      </trans-unit>
+      <trans-unit id="1616" xml:space="preserve" approved="yes">
+        <source>1616</source>
+        <target state="final">Au cours de l'af&lt;var 16 /var&gt;fron&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment, la neige peut se mettre à tomber au bout d'un certain temps. Des “esprits des neiges” ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent alors sur le champ de bataille et jouent des tours aux joueurs.</target>
+      </trans-unit>
+      <trans-unit id="1617" xml:space="preserve" approved="yes">
+        <source>1617</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Bonhommes de neige&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Lorsqu'ils ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent, les esprits des neiges vont lancer “Copains des neiges” et créer des bonhommes de neige de différentes tailles sur le terrain.
+Ces derniers forment des obsctacles qui peuvent être utilisés à votre avantage.</target>
+      </trans-unit>
+      <trans-unit id="1618" xml:space="preserve" approved="yes">
+        <source>1618</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Bénédiction des neiges&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Tant qu'ils sont présents, les esprits des neiges vont lancer “Bénédiction des neiges” en continu.
+Les joueurs qui reçoivent cette bénédiction se voient octroyer une barrière qui absorbe une partie des dégâts reçus.</target>
+      </trans-unit>
+      <trans-unit id="1619" xml:space="preserve" approved="yes">
+        <source>1619</source>
+        <target state="final">Aurores</target>
+      </trans-unit>
+      <trans-unit id="1620" xml:space="preserve" approved="yes">
+        <source>1620</source>
+        <target state="final">Au cours de l'af&lt;var 16 /var&gt;fron&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment, des aurores boréales peuvent apparaître au bout d'un certain temps, et le champ de bataille bénéficie alors des deux effets suivants :
+1.　Plus de chances de voir apparaître des points névralgiques de rang élevé.
+2.　La jauge de Transcendance de chaque joueur se remplit progressivement.</target>
+      </trans-unit>
+      <trans-unit id="1621" xml:space="preserve" approved="yes">
+        <source>1621</source>
+        <target state="final">Emporter des substrats hors du donjon</target>
+      </trans-unit>
+      <trans-unit id="1622" xml:space="preserve" approved="yes">
+        <source>1622</source>
+        <target state="final">Après avoir conquis la zone 30 et terminé la quête qui s'ensuit, il devient possible de convertir les substrats magiques en pièces d'équipement utilisables à l'extérieur du donjon.
+
+Pour commencer, parlez à Ose Wyd, à Wolekdorf, et choisissez l'option “Créer une poignée de l'Aurore”.
+Une “poignée de l'Aurore” sera créée, et les deux substrats perdront chacun 10 degrés d'amélioration.
+Répétez l'opération jusqu'à obtenir suf&lt;var 16 /var&gt;fi&lt;var 16 /var&gt;sam&lt;var 16 /var&gt;ment de poignées de l'Aurore, puis reparlez à Ose Wyd et choisissez l'option “Emporter des substrats magiques”.
+
+Au départ, vous pourrez uniquement emporter des pièces d'équipement “de la Lumière originelle”. Mais avoir conquis la zone 100 et amélioré ne serait-ce qu'une fois le substrat d'arme magique au degré 60 ou plus, vous pourrez également emporter des pièces d'équipement “sacramentelles”.</target>
       </trans-unit>
     </body>
   </file>

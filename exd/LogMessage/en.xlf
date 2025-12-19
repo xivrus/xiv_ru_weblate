@@ -6410,7 +6410,7 @@ Speak with the battlewarden immediately, or risk losing your reward.</target>
       </trans-unit>
       <trans-unit id="1637" xml:space="preserve" approved="yes">
         <source>1637</source>
-        <target state="final">You have completed the quest “&lt;var 28 ((QuestRedoChapterUI)) E80209 /var&gt;.” Exiting New Game+ mode.</target>
+        <target state="final">You have completed the chapter “&lt;var 28 ((QuestRedoChapterUI)) E80209 /var&gt;.” Exiting New Game+ mode.</target>
       </trans-unit>
       <trans-unit id="1638" xml:space="preserve" approved="yes">
         <source>1638</source>
@@ -14754,7 +14754,7 @@ Not Ready: &lt;var 20 E803 /var&gt;/&lt;var 20 E804 /var&gt;&lt;var 08 E4E80301 
       </trans-unit>
       <trans-unit id="3883" xml:space="preserve" approved="yes">
         <source>3883</source>
-        <target state="final">Display name setting for &lt;var 09 E802 ((all PCs)) ((self)) ((party members)) ((alliance members)) ((others)) ((friends)) ((opponents in Crystalline Conflict)) /var&gt; has been changed to “&lt;var 09 E803 ((Always)) ((During Battle)) ((When Targeted)) ((Never)) /var&gt;.”</target>
+        <target state="final">Display name setting for &lt;var 09 E802 ((all PCs)) ((self)) ((party members)) ((alliance members)) ((others)) ((friends)) ((opponents in Crystalline Conflict)) /var&gt; has been changed to “&lt;var 09 E803 ((Always)) ((During Battle)) ((When Targeted)) ((Never)) ((Out of Battle)) /var&gt;.”</target>
       </trans-unit>
       <trans-unit id="3884" xml:space="preserve" approved="yes">
         <source>3884</source>
@@ -16716,7 +16716,7 @@ Group photographs can be taken at this time.</target>
       <trans-unit id="4378" xml:space="preserve" approved="yes">
         <source>4378</source>
         <target state="final">Unable to fully apply glamour plate &lt;var 20 E802 /var&gt;.
-Please ensure all items are compatible with character level, class, race, and gender.</target>
+Some items may be of an incompatible category, or contradictory to character race and gender.</target>
       </trans-unit>
       <trans-unit id="4379" xml:space="preserve" approved="yes">
         <source>4379</source>
@@ -18951,6 +18951,10 @@ size requirements or is an unrestricted party, and if duty allows.</target>
         <source>5290</source>
         <target state="final">Unable to open Medallium without a Yo-kai watch.</target>
       </trans-unit>
+      <trans-unit id="5291" xml:space="preserve" approved="yes">
+        <source>5291</source>
+        <target state="final">Insufficient inventory space. &lt;var 08 E4E80302 ((&lt;var 2B ((&lt;var 31 ((Item)) 02E8020202 /var&gt;)) /var&gt; has)) ((&lt;var 20 E803 /var&gt; &lt;var 31 ((Item)) 04E8020302 /var&gt; have)) /var&gt; been added to the loot list.</target>
+      </trans-unit>
       <trans-unit id="5295" xml:space="preserve" approved="yes">
         <source>5295</source>
         <target state="final">Profile updated.</target>
@@ -20428,6 +20432,42 @@ Please leave any in which you are not active to make space on the list.
         <source>5758</source>
         <target state="final">&lt;var 2B ((&lt;var 31 ((Item)) 04E8020202 /var&gt;)) /var&gt; has been removed from your market board favorites. (&lt;var 20 E803 /var&gt;/&lt;var 20 E804 /var&gt;)</target>
       </trans-unit>
+      <trans-unit id="5760" xml:space="preserve" approved="yes">
+        <source>5760</source>
+        <target state="final">Strategy board “&lt;var 29 EA02 /var&gt;” deleted.</target>
+      </trans-unit>
+      <trans-unit id="5761" xml:space="preserve" approved="yes">
+        <source>5761</source>
+        <target state="final">&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt; shares the strategy board “&lt;var 29 EA03 /var&gt;” with you.</target>
+      </trans-unit>
+      <trans-unit id="5762" xml:space="preserve" approved="yes">
+        <source>5762</source>
+        <target state="final">You shared strategy board &lt;var 20 E802 /var&gt; “&lt;var 29 EA03 /var&gt;” with the party.</target>
+      </trans-unit>
+      <trans-unit id="5763" xml:space="preserve" approved="yes">
+        <source>5763</source>
+        <target state="final">Unable to share strategy board &lt;var 20 E802 /var&gt; “&lt;var 29 EA03 /var&gt;.”</target>
+      </trans-unit>
+      <trans-unit id="5764" xml:space="preserve" approved="yes">
+        <source>5764</source>
+        <target state="final">Unable to share strategy board &lt;var 20 E802 /var&gt; “&lt;var 29 EA03 /var&gt;.” Settings are invalid.</target>
+      </trans-unit>
+      <trans-unit id="5765" xml:space="preserve" approved="yes">
+        <source>5765</source>
+        <target state="final">Unable to display &lt;var 20 E802 /var&gt; “&lt;var 29 EA03 /var&gt;.”</target>
+      </trans-unit>
+      <trans-unit id="5766" xml:space="preserve" approved="yes">
+        <source>5766</source>
+        <target state="final">Unable to display strategy board &lt;var 20 E802 /var&gt; “&lt;var 29 EA03 /var&gt;.” Settings are invalid.</target>
+      </trans-unit>
+      <trans-unit id="5767" xml:space="preserve" approved="yes">
+        <source>5767</source>
+        <target state="final">Unable to save the strategy board “&lt;var 29 EA02 /var&gt;.”</target>
+      </trans-unit>
+      <trans-unit id="5768" xml:space="preserve" approved="yes">
+        <source>5768</source>
+        <target state="final">Unable to delete the strategy board “&lt;var 29 EA02 /var&gt;.”</target>
+      </trans-unit>
       <trans-unit id="5769" xml:space="preserve" approved="yes">
         <source>5769</source>
         <target state="final">&lt;var 2B ((&lt;var 31 ((Item)) 04E8020202 /var&gt;)) /var&gt; has been added to your market board wish list. (&lt;var 20 E803 /var&gt;/&lt;var 20 E804 /var&gt;)</target>
@@ -20439,6 +20479,18 @@ Please leave any in which you are not active to make space on the list.
       <trans-unit id="5771" xml:space="preserve" approved="yes">
         <source>5771</source>
         <target state="final">The FFXIV Online Store has been updated. Restart Dreamfitting to view all available products.</target>
+      </trans-unit>
+      <trans-unit id="5772" xml:space="preserve" approved="yes">
+        <source>5772</source>
+        <target state="final">Unable to add more objects.</target>
+      </trans-unit>
+      <trans-unit id="5773" xml:space="preserve" approved="yes">
+        <source>5773</source>
+        <target state="final">ストラテジーボードを保存することができませんでした。</target>
+      </trans-unit>
+      <trans-unit id="5774" xml:space="preserve" approved="yes">
+        <source>5774</source>
+        <target state="final">Unable to use this strategy board.</target>
       </trans-unit>
       <trans-unit id="5775" xml:space="preserve" approved="yes">
         <source>5775</source>
@@ -20865,6 +20917,10 @@ Update settings from the Portraits menu.</target>
       <trans-unit id="5920" xml:space="preserve" approved="yes">
         <source>5920</source>
         <target state="final">Unable to begin crafting.</target>
+      </trans-unit>
+      <trans-unit id="5921" xml:space="preserve" approved="yes">
+        <source>5921</source>
+        <target state="final">&lt;var 2B ((&lt;var 31 ((Item)) 02E8020202 /var&gt;)) /var&gt; is successfully extracted!</target>
       </trans-unit>
       <trans-unit id="6000" xml:space="preserve" approved="yes">
         <source>6000</source>
@@ -23814,6 +23870,14 @@ Aetherpool armor: &lt;var 20 E803 /var&gt;</target>
         <source>7800</source>
         <target state="final">Cannot execute at this time.</target>
       </trans-unit>
+      <trans-unit id="7801" xml:space="preserve" approved="yes">
+        <source>7801</source>
+        <target state="final">Unable to execute command while undertaking a duty.</target>
+      </trans-unit>
+      <trans-unit id="7802" xml:space="preserve" approved="yes">
+        <source>7802</source>
+        <target state="final">Unable to execute command while editing a strategy board.</target>
+      </trans-unit>
       <trans-unit id="7900" xml:space="preserve" approved="yes">
         <source>7900</source>
         <target state="final">Please wait until all opponents have arrived.</target>
@@ -25478,6 +25542,94 @@ Aetherpool armor: &lt;var 20 E803 /var&gt;</target>
         <source>8347</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((scrawl)) ((scrawls)) /var&gt; down some notes before &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
       </trans-unit>
+      <trans-unit id="8352" xml:space="preserve" approved="yes">
+        <source>8352</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8353" xml:space="preserve" approved="yes">
+        <source>8353</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
+      <trans-unit id="8354" xml:space="preserve" approved="yes">
+        <source>8354</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8355" xml:space="preserve" approved="yes">
+        <source>8355</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
+      <trans-unit id="8356" xml:space="preserve" approved="yes">
+        <source>8356</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8357" xml:space="preserve" approved="yes">
+        <source>8357</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
+      <trans-unit id="8358" xml:space="preserve" approved="yes">
+        <source>8358</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8359" xml:space="preserve" approved="yes">
+        <source>8359</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
+      <trans-unit id="8360" xml:space="preserve" approved="yes">
+        <source>8360</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8361" xml:space="preserve" approved="yes">
+        <source>8361</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
+      <trans-unit id="8362" xml:space="preserve" approved="yes">
+        <source>8362</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8363" xml:space="preserve" approved="yes">
+        <source>8363</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
+      <trans-unit id="8366" xml:space="preserve" approved="yes">
+        <source>8366</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((strut)) ((struts)) /var&gt; confidently, as though all eyes are on &lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((him)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((him)) /var&gt;)) /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="8367" xml:space="preserve" approved="yes">
+        <source>8367</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((strut)) ((struts)) /var&gt; confidently before &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;, as though all eyes are on &lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((him)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((him)) /var&gt;)) /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="8374" xml:space="preserve" approved="yes">
+        <source>8374</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((clutch)) ((clutches)) /var&gt; a book to &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((his)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((his)) /var&gt;)) /var&gt;)) /var&gt; chest.</target>
+      </trans-unit>
+      <trans-unit id="8375" xml:space="preserve" approved="yes">
+        <source>8375</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((clutch)) ((clutches)) /var&gt; a book to &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((his)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((his)) /var&gt;)) /var&gt;)) /var&gt; chest in front of &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="8376" xml:space="preserve" approved="yes">
+        <source>8376</source>
+        <target state="final">A brilliant light emanates from &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;'s)) /var&gt; gauntlet.</target>
+      </trans-unit>
+      <trans-unit id="8377" xml:space="preserve" approved="yes">
+        <source>8377</source>
+        <target state="final">A brilliant light emanates from &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;'s)) /var&gt; gauntlet, falling upon &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="8378" xml:space="preserve" approved="yes">
+        <source>8378</source>
+        <target state="final">A brilliant light emanates from &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;'s)) /var&gt; necklace.</target>
+      </trans-unit>
+      <trans-unit id="8379" xml:space="preserve" approved="yes">
+        <source>8379</source>
+        <target state="final">A brilliant light emanates from &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;'s)) /var&gt; necklace, falling upon &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="8380" xml:space="preserve" approved="yes">
+        <source>8380</source>
+        <target state="final">A brilliant light emanates from &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;'s)) /var&gt; tiara.</target>
+      </trans-unit>
+      <trans-unit id="8381" xml:space="preserve" approved="yes">
+        <source>8381</source>
+        <target state="final">A brilliant light emanates from &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;'s)) /var&gt; tiara, falling upon &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
       <trans-unit id="9001" xml:space="preserve" approved="yes">
         <source>9001</source>
         <target state="final">Unable to receive reward. You do not carry &lt;var 31 ((Item)) 02E8020202 /var&gt;.</target>
@@ -26582,6 +26734,10 @@ If you are unsure why you have received this message, visit the support desk.</t
       <trans-unit id="9465" xml:space="preserve" approved="yes">
         <source>9465</source>
         <target state="final">The Duty Support option will become available in a future update.</target>
+      </trans-unit>
+      <trans-unit id="9466" xml:space="preserve" approved="yes">
+        <source>9466</source>
+        <target state="final">If all party members are incapacitated, they will be revived automatically and granted a buff. This buff will expire when the boss is defeated.</target>
       </trans-unit>
       <trans-unit id="9468" xml:space="preserve" approved="yes">
         <source>9468</source>
@@ -30197,6 +30353,10 @@ Access the guide via the islekeep's index for more information.</target>
         <source>10450</source>
         <target state="final">The enemy is weak─use &lt;var 31 ((EventItem)) 03E8020202 /var&gt;!</target>
       </trans-unit>
+      <trans-unit id="10451" xml:space="preserve" approved="yes">
+        <source>10451</source>
+        <target state="final">The uma-no-unicolt leads the way! Learn more about this quest objective via the &lt;var 12 B7 /var&gt; icon in the &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Duty List&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
       <trans-unit id="10452" xml:space="preserve" approved="yes">
         <source>10452</source>
         <target state="final">As your reputation has greatly improved, you may now undertake a new allied society main quest.</target>
@@ -30220,6 +30380,10 @@ Access the guide via the islekeep's index for more information.</target>
       <trans-unit id="10457" xml:space="preserve" approved="yes">
         <source>10457</source>
         <target state="final">&lt;var 12 40 /var&gt;You have lost sight of Jihli. Speak with her again to reform your party.</target>
+      </trans-unit>
+      <trans-unit id="10458" xml:space="preserve" approved="yes">
+        <source>10458</source>
+        <target state="final">&lt;var 12 40 /var&gt;You have lost sight of the uma-no-unicolt. Speak with it again to reform your party.</target>
       </trans-unit>
       <trans-unit id="10459" xml:space="preserve" approved="yes">
         <source>10459</source>
@@ -30295,13 +30459,29 @@ Learn more about these quest objectives via the &lt;var 12 B7 /var&gt; icon in t
         <source>10476</source>
         <target state="final">&lt;var 12 40 /var&gt;You have lost sight of the stray Felyne. Speak with them again to reform your party.</target>
       </trans-unit>
+      <trans-unit id="10478" xml:space="preserve" approved="yes">
+        <source>10478</source>
+        <target state="final">&lt;var 12 40 /var&gt;You have lost sight of Yaana. Speak with her again to reform your party.</target>
+      </trans-unit>
+      <trans-unit id="10479" xml:space="preserve" approved="yes">
+        <source>10479</source>
+        <target state="final">&lt;var 12 40 /var&gt;You have lost sight of Pomb. Speak with her again to reform your party.</target>
+      </trans-unit>
       <trans-unit id="10480" xml:space="preserve" approved="yes">
         <source>10480</source>
         <target state="final">Unable to play cutscene. You must progress further in the quest “&lt;var 28 ((Quest)) E80201 /var&gt;.”</target>
       </trans-unit>
+      <trans-unit id="10481" xml:space="preserve" approved="yes">
+        <source>10481</source>
+        <target state="final">&lt;var 12 40 /var&gt;You have lost sight of Dural Tharal. Speak with him again to reform your party.</target>
+      </trans-unit>
       <trans-unit id="10483" xml:space="preserve" approved="yes">
         <source>10483</source>
         <target state="final">Unable to execute command.</target>
+      </trans-unit>
+      <trans-unit id="10484" xml:space="preserve" approved="yes">
+        <source>10484</source>
+        <target state="final">Unable to execute command. This enemy has been spawned by another player.</target>
       </trans-unit>
       <trans-unit id="10500" xml:space="preserve" approved="yes">
         <source>10500</source>
@@ -31012,7 +31192,7 @@ Fashion accessories can be exchanged for facewear by speaking with Calamity salv
       </trans-unit>
       <trans-unit id="10681" xml:space="preserve" approved="yes">
         <source>10681</source>
-        <target state="final">A mystical presence has withdrawn from the south horn...</target>
+        <target state="final">A mystical presence has withdrawn from the South Horn...</target>
       </trans-unit>
       <trans-unit id="10682" xml:space="preserve" approved="yes">
         <source>10682</source>
@@ -31086,6 +31266,114 @@ Fashion accessories can be exchanged for facewear by speaking with Calamity salv
         <source>10699</source>
         <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Mega potions&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; can be used to restore your HP.
 Their usage is limited, however, so use them sparingly.</target>
+      </trans-unit>
+      <trans-unit id="10700" xml:space="preserve" approved="yes">
+        <source>10700</source>
+        <target state="final">Unable to share. Another party member is currently sharing a strategy board in real time.</target>
+      </trans-unit>
+      <trans-unit id="10701" xml:space="preserve" approved="yes">
+        <source>10701</source>
+        <target state="final">Unable to use with no party members.</target>
+      </trans-unit>
+      <trans-unit id="10702" xml:space="preserve" approved="yes">
+        <source>10702</source>
+        <target state="final">Unable to use during battle.</target>
+      </trans-unit>
+      <trans-unit id="10703" xml:space="preserve" approved="yes">
+        <source>10703</source>
+        <target state="final">&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt; has started sharing a strategy board in real time.</target>
+      </trans-unit>
+      <trans-unit id="10704" xml:space="preserve" approved="yes">
+        <source>10704</source>
+        <target state="final">新規ストラテジーボード&lt;var 20 E802 /var&gt;を保存しました。</target>
+      </trans-unit>
+      <trans-unit id="10705" xml:space="preserve" approved="yes">
+        <source>10705</source>
+        <target state="final">リアルタイム共同編集では、リンクを使用することはできません。</target>
+      </trans-unit>
+      <trans-unit id="10706" xml:space="preserve" approved="yes">
+        <source>10706</source>
+        <target state="final">No more &lt;var 29 EA02 /var&gt; objects can be added.</target>
+      </trans-unit>
+      <trans-unit id="10707" xml:space="preserve" approved="yes">
+        <source>10707</source>
+        <target state="final">このストラテジーボードは現在廃止されたオブジェクトが含まれています。</target>
+      </trans-unit>
+      <trans-unit id="10708" xml:space="preserve" approved="yes">
+        <source>10708</source>
+        <target state="final">The strategy board could not be read.</target>
+      </trans-unit>
+      <trans-unit id="10709" xml:space="preserve" approved="yes">
+        <source>10709</source>
+        <target state="final">Unable to select objects from a different layer.</target>
+      </trans-unit>
+      <trans-unit id="10710" xml:space="preserve" approved="yes">
+        <source>10710</source>
+        <target state="final">Unable to create additional folders. Please select an existing one.</target>
+      </trans-unit>
+      <trans-unit id="10711" xml:space="preserve" approved="yes">
+        <source>10711</source>
+        <target state="final">&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt; has shared a strategy board.</target>
+      </trans-unit>
+      <trans-unit id="10712" xml:space="preserve" approved="yes">
+        <source>10712</source>
+        <target state="final">&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt; has shared the strategy board “&lt;var 29 EA02 /var&gt;.”</target>
+      </trans-unit>
+      <trans-unit id="10713" xml:space="preserve" approved="yes">
+        <source>10713</source>
+        <target state="final">Unable to save. The folder “&lt;var 29 EA02 /var&gt;” cannot contain any more strategy boards.</target>
+      </trans-unit>
+      <trans-unit id="10714" xml:space="preserve" approved="yes">
+        <source>10714</source>
+        <target state="final">Unable to move. The folder “&lt;var 29 EA02 /var&gt;” cannot contain any more strategy boards.</target>
+      </trans-unit>
+      <trans-unit id="10715" xml:space="preserve" approved="yes">
+        <source>10715</source>
+        <target state="final">You cannot save any more strategy boards. Please delete one and try again.</target>
+      </trans-unit>
+      <trans-unit id="10716" xml:space="preserve" approved="yes">
+        <source>10716</source>
+        <target state="final">Unable to execute command. The selected object is locked.</target>
+      </trans-unit>
+      <trans-unit id="10717" xml:space="preserve" approved="yes">
+        <source>10717</source>
+        <target state="final">グループ化には&lt;var 20 E802 /var&gt;個以上のオブジェクトが必要なため、設定できません。</target>
+      </trans-unit>
+      <trans-unit id="10718" xml:space="preserve" approved="yes">
+        <source>10718</source>
+        <target state="final">グループ化できるオブジェクト数は&lt;var 20 E802 /var&gt;個までのため、これ以上設定できません。</target>
+      </trans-unit>
+      <trans-unit id="10719" xml:space="preserve" approved="yes">
+        <source>10719</source>
+        <target state="final">Unable to create share code.</target>
+      </trans-unit>
+      <trans-unit id="10720" xml:space="preserve" approved="yes">
+        <source>10720</source>
+        <target state="final">Unable to be read. Please confirm the share code and try again.</target>
+      </trans-unit>
+      <trans-unit id="10721" xml:space="preserve" approved="yes">
+        <source>10721</source>
+        <target state="final">An error occurred while moving the folder.</target>
+      </trans-unit>
+      <trans-unit id="10722" xml:space="preserve" approved="yes">
+        <source>10722</source>
+        <target state="final">Unable to save. You cannot create any more folders.</target>
+      </trans-unit>
+      <trans-unit id="10723" xml:space="preserve" approved="yes">
+        <source>10723</source>
+        <target state="final">Unable to save. You cannot create any more strategy boards.</target>
+      </trans-unit>
+      <trans-unit id="10724" xml:space="preserve" approved="yes">
+        <source>10724</source>
+        <target state="final">テキストオブジェクトはグループ化することができません。</target>
+      </trans-unit>
+      <trans-unit id="10725" xml:space="preserve" approved="yes">
+        <source>10725</source>
+        <target state="final">Unable to execute command. You cannot save any more strategy boards.</target>
+      </trans-unit>
+      <trans-unit id="10726" xml:space="preserve" approved="yes">
+        <source>10726</source>
+        <target state="final">Unable to execute command. You cannot create any more folders.</target>
       </trans-unit>
       <trans-unit id="10750" xml:space="preserve" approved="yes">
         <source>10750</source>
@@ -31768,11 +32056,11 @@ Upon completion, a bonus may be awarded based on the number of new party members
       </trans-unit>
       <trans-unit id="10924" xml:space="preserve" approved="yes">
         <source>10924</source>
-        <target state="final">_rsv_10924_-1_1_0_0_SF15185AF_EF15185AF</target>
+        <target state="final">The Howling Blade has overcharged the teleporters, limiting their availability...</target>
       </trans-unit>
       <trans-unit id="10925" xml:space="preserve" approved="yes">
         <source>10925</source>
-        <target state="final">_rsv_10925_-1_1_0_0_SF15185AF_EF15185AF</target>
+        <target state="final">The teleporters have returned to normal!</target>
       </trans-unit>
       <trans-unit id="10926" xml:space="preserve" approved="yes">
         <source>10926</source>
@@ -31920,11 +32208,11 @@ Upon completion, a bonus may be awarded based on the number of new party members
       </trans-unit>
       <trans-unit id="10964" xml:space="preserve" approved="yes">
         <source>10964</source>
-        <target state="final">A mystical presence has withdrawn from the south horn, leaving behind a treasure coffer!</target>
+        <target state="final">A mystical presence has withdrawn from the South Horn, leaving behind a treasure coffer!</target>
       </trans-unit>
       <trans-unit id="10965" xml:space="preserve" approved="yes">
         <source>10965</source>
-        <target state="final">You sense the presence of &lt;var 20 E802 /var&gt; silver coffers and &lt;var 20 E803 /var&gt; bronze coffers in the area!</target>
+        <target state="final">You sense the presence of &lt;var 20 E802 /var&gt; silver &lt;var 08 E4E80202 ((coffer)) ((coffers)) /var&gt; and &lt;var 20 E803 /var&gt; bronze &lt;var 08 E4E80302 ((coffer)) ((coffers)) /var&gt; in the area!</target>
       </trans-unit>
       <trans-unit id="10966" xml:space="preserve" approved="yes">
         <source>10966</source>
@@ -32161,6 +32449,42 @@ All participants must take to the field and make ready for battle!</target>
         <source>11132</source>
         <target state="final">A scale on Guardian Arkveld's crown appears loose.</target>
       </trans-unit>
+      <trans-unit id="11133" xml:space="preserve" approved="yes">
+        <source>11133</source>
+        <target state="final">Carry the ingredient to the central cake stand!</target>
+      </trans-unit>
+      <trans-unit id="11134" xml:space="preserve" approved="yes">
+        <source>11134</source>
+        <target state="final">If you pick up the wrong ingredient, simply pick up the correct ingredient to replace it!</target>
+      </trans-unit>
+      <trans-unit id="11135" xml:space="preserve" approved="yes">
+        <source>11135</source>
+        <target state="final">Collect and carry the decorations and ingredients specified by the recipe!</target>
+      </trans-unit>
+      <trans-unit id="11136" xml:space="preserve" approved="yes">
+        <source>11136</source>
+        <target state="final">The recipe doesn't call for this ingredient.</target>
+      </trans-unit>
+      <trans-unit id="11137" xml:space="preserve" approved="yes">
+        <source>11137</source>
+        <target state="final">You don't need any more of this ingredient.</target>
+      </trans-unit>
+      <trans-unit id="11138" xml:space="preserve" approved="yes">
+        <source>11138</source>
+        <target state="final">You artfully decorate the cake with &lt;var 28 ((ValentionSweetsMaterial)) E80201 /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="11139" xml:space="preserve" approved="yes">
+        <source>11139</source>
+        <target state="final">Half your time has elapsed.</target>
+      </trans-unit>
+      <trans-unit id="11140" xml:space="preserve" approved="yes">
+        <source>11140</source>
+        <target state="final">Less than one minute remaining!</target>
+      </trans-unit>
+      <trans-unit id="11141" xml:space="preserve" approved="yes">
+        <source>11141</source>
+        <target state="final">If you are discovered by a mammet pâtissier, use Bake: Off to temporarily disable it.</target>
+      </trans-unit>
       <trans-unit id="11142" xml:space="preserve" approved="yes">
         <source>11142</source>
         <target state="final">The &lt;var 2F ((&lt;var 28 ((Addon)) E80201 /var&gt;)) /var&gt; has been filled with a bonus &lt;var 22 E803 ((,)) /var&gt; &lt;var 08 E4E80302 ((unit)) ((units)) /var&gt; of aether.</target>
@@ -32188,6 +32512,10 @@ All participants must take to the field and make ready for battle!</target>
       <trans-unit id="11148" xml:space="preserve" approved="yes">
         <source>11148</source>
         <target state="final">Guardian Arkveld brings its full might to bear!</target>
+      </trans-unit>
+      <trans-unit id="11149" xml:space="preserve" approved="yes">
+        <source>11149</source>
+        <target state="final">The ingredients and decorations needed for the cake in progress are displayed in the duty list.</target>
       </trans-unit>
       <trans-unit id="11150" xml:space="preserve" approved="yes">
         <source>11150</source>
@@ -32327,7 +32655,7 @@ All participants must take to the field and make ready for battle!</target>
       </trans-unit>
       <trans-unit id="11187" xml:space="preserve" approved="yes">
         <source>11187</source>
-        <target state="final">&lt;var 08 E1E80201 ((The entry “&lt;var 41 ((WKSPioneeringTrail)) E803E80404 ((WKSPioneeringTrailString)) 02 /var&gt;” and &lt;var 20 E802 /var&gt; others have been added to the Infrastructure Index.)) ((The entry “&lt;var 41 ((WKSPioneeringTrail)) E803E80404 ((WKSPioneeringTrailString)) 02 /var&gt;” has been added to the Infrastructure Index.)) /var&gt;</target>
+        <target state="final">&lt;var 08 E1E80201 ((The entry “&lt;var 41 ((WKSPioneeringTrail)) E803E80404 ((WKSPioneeringTrailString)) 02 /var&gt;” and &lt;var 20 E802 /var&gt; &lt;var 08 E4E80202 ((other)) ((others)) /var&gt; have been added to the Infrastructure Index.)) ((The entry “&lt;var 41 ((WKSPioneeringTrail)) E803E80404 ((WKSPioneeringTrailString)) 02 /var&gt;” has been added to the Infrastructure Index.)) /var&gt;</target>
       </trans-unit>
       <trans-unit id="11188" xml:space="preserve" approved="yes">
         <source>11188</source>
@@ -32348,6 +32676,30 @@ All participants must take to the field and make ready for battle!</target>
       <trans-unit id="11192" xml:space="preserve" approved="yes">
         <source>11192</source>
         <target state="final">You must return to your Home World to travel to cosmic exploration areas.</target>
+      </trans-unit>
+      <trans-unit id="11195" xml:space="preserve" approved="yes">
+        <source>11195</source>
+        <target state="final">You've started a gold count streak.</target>
+      </trans-unit>
+      <trans-unit id="11196" xml:space="preserve" approved="yes">
+        <source>11196</source>
+        <target state="final">You've started a gold count streak. Further details can be found under “&lt;var 28 ((DescriptionString)) F206320119 /var&gt;” in your exotablet.</target>
+      </trans-unit>
+      <trans-unit id="11197" xml:space="preserve" approved="yes">
+        <source>11197</source>
+        <target state="final">Your gold count streak has reached &lt;var 20 E802 /var&gt;! &lt;var 08 E1E80301 ((Reward bonuses have increased by &lt;var 20 E803 /var&gt;%!)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11198" xml:space="preserve" approved="yes">
+        <source>11198</source>
+        <target state="final">You've reached the maximum gold count streak! Reward bonuses have increased by &lt;var 20 E802 /var&gt;%, and the count has been reset.</target>
+      </trans-unit>
+      <trans-unit id="11199" xml:space="preserve" approved="yes">
+        <source>11199</source>
+        <target state="final">You failed to earn a Gold Star. Your gold count has been reset.</target>
+      </trans-unit>
+      <trans-unit id="11200" xml:space="preserve" approved="yes">
+        <source>11200</source>
+        <target state="final">A mission below class A has been undertaken. Your gold count has been reset.</target>
       </trans-unit>
       <trans-unit id="11201" xml:space="preserve" approved="yes">
         <source>11201</source>
@@ -32587,13 +32939,260 @@ Sacramental offerings will be expended upon opening this coffer.</target>
         <source>11274</source>
         <target state="final">You collected &lt;var 08 E4E80202 ((&lt;var 20 E802 /var&gt; shining sack)) ((&lt;var 20 E802 /var&gt; shining sacks)) /var&gt; and receive a &lt;var 09 E803 ((gold treasure coffer)) ((silver treasure coffer)) ((bronze treasure coffer)) /var&gt; as your reward!</target>
       </trans-unit>
+      <trans-unit id="11280" xml:space="preserve" approved="yes">
+        <source>11280</source>
+        <target state="final">Energy crackles between the Doomtrain's jaws...</target>
+      </trans-unit>
+      <trans-unit id="11281" xml:space="preserve" approved="yes">
+        <source>11281</source>
+        <target state="final">The Doomtrain's headlamp glows ominously...</target>
+      </trans-unit>
+      <trans-unit id="11282" xml:space="preserve" approved="yes">
+        <source>11282</source>
+        <target state="final">Aether condenses between the Doomtrain's hands...</target>
+      </trans-unit>
+      <trans-unit id="11283" xml:space="preserve" approved="yes">
+        <source>11283</source>
+        <target state="final">You are transported...</target>
+      </trans-unit>
       <trans-unit id="11284" xml:space="preserve" approved="yes">
         <source>11284</source>
         <target state="final">Unable to convert. Current save data includes record of a failed attempt.</target>
       </trans-unit>
+      <trans-unit id="11285" xml:space="preserve" approved="yes">
+        <source>11285</source>
+        <target state="final">You hear the scream of metal...and it's coming closer!</target>
+      </trans-unit>
+      <trans-unit id="11288" xml:space="preserve" approved="yes">
+        <source>11288</source>
+        <target state="final">You cannot eat the morbol fruit...</target>
+      </trans-unit>
+      <trans-unit id="11289" xml:space="preserve" approved="yes">
+        <source>11289</source>
+        <target state="final">Unable to set as an icon.</target>
+      </trans-unit>
+      <trans-unit id="11290" xml:space="preserve" approved="yes">
+        <source>11290</source>
+        <target state="final">There is no gear that can be repaired.</target>
+      </trans-unit>
+      <trans-unit id="11291" xml:space="preserve" approved="yes">
+        <source>11291</source>
+        <target state="final">Repairs canceled.</target>
+      </trans-unit>
+      <trans-unit id="11300" xml:space="preserve" approved="yes">
+        <source>11300</source>
+        <target state="final">The fallen rocks crumble...</target>
+      </trans-unit>
+      <trans-unit id="11301" xml:space="preserve" approved="yes">
+        <source>11301</source>
+        <target state="final">The &lt;var 09 E802 ((rank B)) ((rank A)) ((rank S)) /var&gt; &lt;var 28 ((PlaceName)) E80403 /var&gt; will become unclaimed in &lt;var 20 E803 /var&gt; &lt;var 08 E4E80302 ((second)) ((seconds)) /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="11302" xml:space="preserve" approved="yes">
+        <source>11302</source>
+        <target state="final">The &lt;var 09 E802 ((rank B)) ((rank A)) ((rank S)) /var&gt; &lt;var 28 ((PlaceName)) E80303 /var&gt; is now unclaimed!</target>
+      </trans-unit>
+      <trans-unit id="11303" xml:space="preserve" approved="yes">
+        <source>11303</source>
+        <target state="final">The &lt;var 09 E803 ((rank B)) ((rank A)) ((rank S)) /var&gt; &lt;var 28 ((PlaceName)) E80403 /var&gt; has been claimed by the &lt;var 09 E802 ((&lt;var 48 F20215 /var&gt;&lt;var 49 F20216 /var&gt;Maelstrom&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 48 F20217 /var&gt;&lt;var 49 F20218 /var&gt;Order of the Twin Adder&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 48 F20219 /var&gt;&lt;var 49 F2021A /var&gt;Immortal Flames&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="11304" xml:space="preserve" approved="yes">
+        <source>11304</source>
+        <target state="final">&lt;var 28 ((PlaceName)) E80201 /var&gt; is now inactive.</target>
+      </trans-unit>
+      <trans-unit id="11307" xml:space="preserve" approved="yes">
+        <source>11307</source>
+        <target state="final">5 minutes have elapsed. The number of simultaneously active triumphs has been reduced.</target>
+      </trans-unit>
+      <trans-unit id="11308" xml:space="preserve" approved="yes">
+        <source>11308</source>
+        <target state="final">10 minutes have elapsed. The number of simultaneously active triumphs has been reduced.</target>
+      </trans-unit>
+      <trans-unit id="11309" xml:space="preserve" approved="yes">
+        <source>11309</source>
+        <target state="final">15 minutes have elapsed. The number of simultaneously active triumphs has been reduced.</target>
+      </trans-unit>
+      <trans-unit id="11310" xml:space="preserve" approved="yes">
+        <source>11310</source>
+        <target state="final">Snow is threatening to fall...</target>
+      </trans-unit>
+      <trans-unit id="11311" xml:space="preserve" approved="yes">
+        <source>11311</source>
+        <target state="final">The limit gauge has begun to fill!</target>
+      </trans-unit>
+      <trans-unit id="11312" xml:space="preserve" approved="yes">
+        <source>11312</source>
+        <target state="final">Auroras are beginning to form...</target>
+      </trans-unit>
+      <trans-unit id="11313" xml:space="preserve" approved="yes">
+        <source>11313</source>
+        <target state="final">High rank triumphs are now more likely to manifest!</target>
+      </trans-unit>
+      <trans-unit id="11314" xml:space="preserve" approved="yes">
+        <source>11314</source>
+        <target state="final">You lack the cleaning spirit required for the Spriganator...</target>
+      </trans-unit>
+      <trans-unit id="11315" xml:space="preserve" approved="yes">
+        <source>11315</source>
+        <target state="final">Your cleaning spirit rises! The Spriganator calls! &lt;var 60 014F /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11316" xml:space="preserve" approved="yes">
+        <source>11316</source>
+        <target state="final">フシギナ・トラップが出現した。
+刈ると何かいいことが起こりそうな気がする……！</target>
+      </trans-unit>
+      <trans-unit id="11317" xml:space="preserve" approved="yes">
+        <source>11317</source>
+        <target state="final">Your eyes are drawn to the glimmer of Archon eggs!</target>
+      </trans-unit>
+      <trans-unit id="11318" xml:space="preserve" approved="yes">
+        <source>11318</source>
+        <target state="final">Your eyes are drawn to the glimmer of gold Archon eggs!</target>
+      </trans-unit>
+      <trans-unit id="11319" xml:space="preserve" approved="yes">
+        <source>11319</source>
+        <target state="final">Your cleaning Spirit has peaked! &lt;var 60 014F /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11320" xml:space="preserve" approved="yes">
+        <source>11320</source>
+        <target state="final">Striking down the transcendental trap has bolstered your cleaning spirit!</target>
+      </trans-unit>
+      <trans-unit id="11321" xml:space="preserve" approved="yes">
+        <source>11321</source>
+        <target state="final">The shrubbery thins, granting a way forward!</target>
+      </trans-unit>
+      <trans-unit id="11322" xml:space="preserve" approved="yes">
+        <source>11322</source>
+        <target state="final">&lt;var 08 E1E80201 ((&lt;var 08 E4E80202 ((&lt;var 20 E802 /var&gt; minute)) ((&lt;var 20 E802 /var&gt; minutes)) /var&gt;)) (()) /var&gt;&lt;var 08 E1E80301 ((&lt;var 20 E803 /var&gt; seconds)) (()) /var&gt; remaining...</target>
+      </trans-unit>
+      <trans-unit id="11323" xml:space="preserve" approved="yes">
+        <source>11323</source>
+        <target state="final">Unable to obtain any more &lt;var 31 ((Item)) 04E8020302 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="11325" xml:space="preserve" approved="yes">
+        <source>11325</source>
+        <target state="final">Search for stragglers!</target>
+      </trans-unit>
+      <trans-unit id="11326" xml:space="preserve" approved="yes">
+        <source>11326</source>
+        <target state="final">Find the source of the screams!</target>
+      </trans-unit>
+      <trans-unit id="11327" xml:space="preserve" approved="yes">
+        <source>11327</source>
+        <target state="final">Disperse the balls of lightning!</target>
+      </trans-unit>
+      <trans-unit id="11328" xml:space="preserve" approved="yes">
+        <source>11328</source>
+        <target state="final">Destroy the coffinmaker!</target>
+      </trans-unit>
+      <trans-unit id="11329" xml:space="preserve" approved="yes">
+        <source>11329</source>
+        <target state="final">Destroy the tools of torment!</target>
+      </trans-unit>
+      <trans-unit id="11330" xml:space="preserve" approved="yes">
+        <source>11330</source>
+        <target state="final">Mission abandoned. Your gold count on this star has been reset.</target>
+      </trans-unit>
       <trans-unit id="11332" xml:space="preserve" approved="yes">
         <source>11332</source>
         <target state="final">Unable to apply bait to your line while mounted.</target>
+      </trans-unit>
+      <trans-unit id="11334" xml:space="preserve" approved="yes">
+        <source>11334</source>
+        <target state="final">A red alert has been issued, and critical missions are now available.
+You may undertake these missions via the Stellar Missions section of the exotablet.</target>
+      </trans-unit>
+      <trans-unit id="11335" xml:space="preserve" approved="yes">
+        <source>11335</source>
+        <target state="final">A red alert is in effect, and critical missions are currently available.
+You may undertake these missions via the Stellar Missions section of the exotablet.</target>
+      </trans-unit>
+      <trans-unit id="11357" xml:space="preserve" approved="yes">
+        <source>11357</source>
+        <target state="final">&lt;var 28 ((Item)) E80201 /var&gt;は所持数の上限に達したため、すべては受け取れませんでした。</target>
+      </trans-unit>
+      <trans-unit id="11363" xml:space="preserve" approved="yes">
+        <source>11363</source>
+        <target state="final">You now have access to the Aethernet shard for &lt;var 31 ((PlaceName)) 03E8020302 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="11364" xml:space="preserve" approved="yes">
+        <source>11364</source>
+        <target state="final">Unable to teleport. You have not attuned to other Aethernet shards.</target>
+      </trans-unit>
+      <trans-unit id="11367" xml:space="preserve" approved="yes">
+        <source>11367</source>
+        <target state="final">The snow spirits have created snowmen!</target>
+      </trans-unit>
+      <trans-unit id="11368" xml:space="preserve" approved="yes">
+        <source>11368</source>
+        <target state="final">The snow has stopped falling...</target>
+      </trans-unit>
+      <trans-unit id="11369" xml:space="preserve" approved="yes">
+        <source>11369</source>
+        <target state="final">The auroras have faded...</target>
+      </trans-unit>
+      <trans-unit id="11371" xml:space="preserve" approved="yes">
+        <source>11371</source>
+        <target state="final">Feasting on the audience has strengthened Vamp Fatale's attacks!</target>
+      </trans-unit>
+      <trans-unit id="11372" xml:space="preserve" approved="yes">
+        <source>11372</source>
+        <target state="final">_rsv_11372_-1_1_0_0_SF15185AF_EF15185AF</target>
+      </trans-unit>
+      <trans-unit id="11387" xml:space="preserve" approved="yes">
+        <source>11387</source>
+        <target state="final">Share code copied to clipboard.</target>
+      </trans-unit>
+      <trans-unit id="11390" xml:space="preserve" approved="yes">
+        <source>11390</source>
+        <target state="final">The folder “&lt;var 29 EA02 /var&gt;” has been saved.</target>
+      </trans-unit>
+      <trans-unit id="11391" xml:space="preserve" approved="yes">
+        <source>11391</source>
+        <target state="final">The strategy board “&lt;var 29 EA02 /var&gt;” has been moved&lt;var 08 E4E80401 (()) (( to the folder “&lt;var 29 EA03 /var&gt;”)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="11392" xml:space="preserve" approved="yes">
+        <source>11392</source>
+        <target state="final">The strategy board “&lt;var 29 EA02 /var&gt;” has been saved&lt;var 08 E4E80401 (()) (( to the folder “&lt;var 29 EA03 /var&gt;”)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="11393" xml:space="preserve" approved="yes">
+        <source>11393</source>
+        <target state="final">Unable to execute command while real-time sharing.</target>
+      </trans-unit>
+      <trans-unit id="11394" xml:space="preserve" approved="yes">
+        <source>11394</source>
+        <target state="final">Unable to execute command. A strategy board is already being shared.</target>
+      </trans-unit>
+      <trans-unit id="11395" xml:space="preserve" approved="yes">
+        <source>11395</source>
+        <target state="final">&lt;var 31 ((Item)) 02E8020202 /var&gt; x&lt;var 20 E803 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="11506" xml:space="preserve" approved="yes">
+        <source>11506</source>
+        <target state="final">There are one or more unattuned Aethernet shards in the area.</target>
+      </trans-unit>
+      <trans-unit id="11507" xml:space="preserve" approved="yes">
+        <source>11507</source>
+        <target state="final">New Aethernet shards can be found across this region. These points have also been indicated on your map.</target>
+      </trans-unit>
+      <trans-unit id="11508" xml:space="preserve" approved="yes">
+        <source>11508</source>
+        <target state="final">制限時間に達したため、コンテンツを終了しました。</target>
+      </trans-unit>
+      <trans-unit id="11524" xml:space="preserve" approved="yes">
+        <source>11524</source>
+        <target state="final">Real-time sharing canceled. Party size has changed.</target>
+      </trans-unit>
+      <trans-unit id="11525" xml:space="preserve" approved="yes">
+        <source>11525</source>
+        <target state="final">Real-time sharing canceled. Party has engaged in combat.</target>
+      </trans-unit>
+      <trans-unit id="11526" xml:space="preserve" approved="yes">
+        <source>11526</source>
+        <target state="final">Real-time sharing canceled. You have changed areas.</target>
+      </trans-unit>
+      <trans-unit id="11532" xml:space="preserve" approved="yes">
+        <source>11532</source>
+        <target state="final">Strategy board folder “&lt;var 29 EA02 /var&gt;” deleted.</target>
       </trans-unit>
     </body>
   </file>

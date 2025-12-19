@@ -1950,8 +1950,8 @@
       </trans-unit>
       <trans-unit id="427" xml:space="preserve" approved="yes">
         <source>427</source>
-        <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;「ソイル」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;の最大スタック数が3に増加する。
-さらに、ブラッドソイル実行時に3スタックのソイルが付与されるようになる。</target>
+        <target state="final">&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;「ソイル」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;の最大スタック数が3に増加し、ブラッドソイルの効果中は最大スタック数が6に増加する。
+さらに、ブラッドソイルの実行時に付与されるソイルが3に増加する</target>
       </trans-unit>
       <trans-unit id="428" xml:space="preserve" approved="yes">
         <source>428</source>
@@ -3030,7 +3030,7 @@
         <source>622</source>
         <target state="final">自身に&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;「プリフルジェンス実行可」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;が付与される。
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;効果時間：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;30秒
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;発動条件：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;マナフィケーションの効果を全て消費したとき
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;発動条件：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;マナフィケーション実行時
 効果中はマナフィケーションがプリフルジェンスに変化する。</target>
       </trans-unit>
       <trans-unit id="623" xml:space="preserve" approved="yes">
@@ -3179,8 +3179,8 @@
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ディアの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;85
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ディアの継続ダメージの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;85
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ハート・オブ・ミゼリの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;1360
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;グレアガの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;340</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ハート・オブ・ミゼリの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;1400
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;グレアガの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;350</target>
       </trans-unit>
       <trans-unit id="652" xml:space="preserve" approved="yes">
         <source>652</source>
@@ -3246,7 +3246,7 @@
         <source>656</source>
         <target state="final">特定のアクションの威力を上昇させる。
 
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;蠱毒法の継続ダメージの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;80
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;蠱毒法の継続ダメージの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;85
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;極炎法の威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;320</target>
       </trans-unit>
       <trans-unit id="657" xml:space="preserve" approved="yes">
@@ -3272,9 +3272,12 @@
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;オートボウガンの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;180
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ヒートスプリットショットの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;220
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ドリルの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;660
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ヒートスラッグショットの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;140
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ヒートクリーンショットの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;160
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ブレイズショットの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;240</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ブレイズショットの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;240
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;エアアンカーの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;660
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;回転のこぎりの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;660</target>
       </trans-unit>
       <trans-unit id="659" xml:space="preserve" approved="yes">
         <source>659</source>
@@ -3318,8 +3321,8 @@
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ファウンテンフォールの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;340
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;扇の舞い【急】の威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;220
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;クワッド・テクニカルフィニッシュの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;1300
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;剣の舞いの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;520
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;扇の舞い【終】の威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;420</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;剣の舞いの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;540
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;扇の舞い【終】の威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;460</target>
       </trans-unit>
       <trans-unit id="663" xml:space="preserve" approved="yes">
         <source>663</source>
@@ -3371,15 +3374,15 @@
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;キーンエッジの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;300
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ブルータルシェルの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;240
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ソリッドバレルの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;240
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;バーストストライクの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;460
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ビートファングの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;500
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;サベッジクロウの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;560
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ウィケッドタロンの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;620
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ジャギュラーリップの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;240
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;アブドメンテアーの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;280
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;アイガウジの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;320
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;バーストストライクの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;420
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ビートファングの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;440
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;サベッジクロウの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;500
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ウィケッドタロンの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;560
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ジャギュラーリップの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;220
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;アブドメンテアーの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;260
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;アイガウジの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;300
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ブラスティングゾーンの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;800
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ハイパーヴェロシティの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;200</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ハイパーヴェロシティの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;180</target>
       </trans-unit>
       <trans-unit id="668" xml:space="preserve" approved="yes">
         <source>668</source>
@@ -3389,13 +3392,14 @@
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;サイドワインダーの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;400
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;リフルジェントアローの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;280
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;バーストショットの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;220
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;エイペックスアローの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;120～600</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;エイペックスアローの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;140～700</target>
       </trans-unit>
       <trans-unit id="669" xml:space="preserve" approved="yes">
         <source>669</source>
         <target state="final">特定のアクションの威力を上昇させる。
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;ドシスIIIの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;380
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;エウクラシア・ドシスIIIの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;85
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;トキシコンIIの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;380
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;プネウマの威力：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;380</target>
       </trans-unit>

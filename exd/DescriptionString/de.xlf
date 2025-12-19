@@ -1162,7 +1162,7 @@ Gebäude, die seit 30 Tagen (Erdenzeit) nicht von ihrem Besitzer betreten wurden
         <source>197</source>
         <target state="final">Die Beleuchtung in den Unterkünften kann in fünf Stufen geregelt werden.
 
-Die Einstellung erfolgt über „Beleuchtung anpassen“ im Hauptmenü der Unterkunft.
+Die Einstellung erfolgt über „Innenraum anpassen“ im Hauptmenü der Unterkunft.
 
 </target>
       </trans-unit>
@@ -1624,7 +1624,7 @@ In den folgenden Situationen kann kein Neues Spiel+ begonnen oder pausiert werde
 - Alle Aufträge stehen in ihrer aktuellen Version zur Verfügung.
 - Die Schwierigkeit von Auftragskämpfen kann bei Beginn neu gewählt werden.
 - Wenn in der Charakter&lt;var 16 /var&gt;konfiguration die Option „Bereits gesehene Videosequenzen für Inhalte überspringen“ aktiviert ist, werden entsprechende Videosequenzen übersprungen.
-- Hergestellte Gegenstände bleiben auch nach dem Abliefern erhalten.
+- Für Aufträge der Handwerker und Sammler müssen keine Gegenstände mehr hergestellt werden.
 
 ■ Abschließen von Aufträgen
 - Für das Abschließen von Aufträgen gibt es keine Vergütungen.
@@ -1756,6 +1756,7 @@ Jedes Match ist auf 20 Minuten Spielzeit ausgelegt.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Schneller Wiedereinstieg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Sollte man in einem Match kampfunfähig werden, so wird man nach kurzer Wartezeit automatisch am Startpunkt des eigenen Teams wiederbelebt. Solange man sich nach dem Wiedereinstieg am Startpunkt aufhält, wird man durch den Status „Unverwundbar“ geschützt. Erst wenn man den Startpunkt verlässt, wird man wieder verwundbar.
+Befindet man sich im Gebiet des Startpunkts eines gegnerischen Teams, so wird der Status „Unter Feinden“ erhalten, durch den stetig LP verloren werden.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Reittiere&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 An der Carteneauer Front kann der Spieler wie auch im offenen Gelände sein Reittier besteigen. Dies ist selbst im Kampf möglich.
@@ -6184,21 +6185,20 @@ Gegenstand A - Ausrüstung, dessen Aussehen verändert werden soll
 Gegenstand B - Ausrüstung, dessen Aussehen projiziert werden soll
 
 
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fall 1: Die Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;stufe von Gegenstand A ist niedriger als die von Gegenstand B&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fall 1: Die Art von Waffe/Werkzeug A unterscheidet sich von der Art von Waffe/Werkzeug B&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Beispiel: 
-Ein Gegenstand mit Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;stufe 100 kann nicht auf einen Gegenstand mit Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;stufe 99 oder niedriger projiziert werden.
-※ Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe ist hiervon nicht betroffen.
+Ein Beschwörer-Grimoire kann nicht auf ein Paladin-Schwert projiziert werden.
 
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fall 2: Gegenstand A und B können nicht von der gleichen Klasse bzw. dem gleichen Job ausgerüstet werden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fall 2: Das benötigte Volk oder Geschlecht für Gegenstand A unterscheidet sich von den Voraus&lt;var 16 /var&gt;setzungen von Gegenstand B&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Beispiel:
-Jobspezifische Ausrüstung kann nicht auf jobspezifische Ausrüstung eines anderen Jobs projiziert werden.</target>
+Elezen-spezifische Ausrüstung kann nicht auf Hyuran-spezifische Ausrüstung projiziert werden. Ausrüstung nur für männliche Charaktere kann nicht auf Ausrüstung nur für weibliche Charaktere projiziert werden.</target>
       </trans-unit>
       <trans-unit id="1060" xml:space="preserve" approved="yes">
         <source>1060</source>
         <target state="final">Auch nach einer erfolgreichen Projektion gibt es bestimmte Situationen, in denen der projizierte Gegenstand nicht angezeigt werden kann und stattdessen der ursprüngliche Gegenstand unverändert erscheint.
 
 Beispiel:
-Wird ein jobspezifischer Gegenstand auf einen Gegenstand projiziert, der auch von anderen Jobs getragen werden kann, so wird das projizierte Aussehen nur dann angezeigt, wenn auch der Job ausgewählt wird, der dem jobspezifischen Gegenstand entspricht.</target>
+Wenn ein Gegenstand, den nur ein männlicher Charakter tragen kann, auf einen Gegenstand nur für weibliche Charaktere projiziert wird oder ein für ein bestimmtes Volk bestimmter Gegenstand projiziert wird und das Volk des eigenen Charakters dem Gegenstand nicht entspricht.</target>
       </trans-unit>
       <trans-unit id="1061" xml:space="preserve" approved="yes">
         <source>1061</source>
@@ -6822,14 +6822,7 @@ Bei Ausführung einer Setprojektion werden mehrere Gegenstände als Set gespeich
         <source>1169</source>
         <target state="final">Nicht nur können in diesem Reiter die jeweiligen Setprojektionen, sondern auch die einzelnen Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände, aus denen sie sich zusammensetzen, überprüft werden.
 
-Dabei hilft das Untermenü „Zugehörige Setprojektion einsehen“, das mit einem Klick alle interessanten Einzelheiten auflistet. Dies kann auch über die Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;beschrei&lt;var 16 /var&gt;bung des projizierten Gegenstandes erfolgen.
-
-Gegenstände eines bereits projizierten Ausrüstungssets werden beim Durchschalten der Reiter jeweiliger Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände Seite an Seite mit normalen Projektionen angezeigt.
-
-Zur leichteren Unterscheidung werden als Set projizierte Gegenstände in der Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;beschrei&lt;var 16 /var&gt;bung mit „Als Set projiziert“ gekennzeichnet.
-
-Als Set projizierte Gegenstände werden bei der Entnahme aus der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode als ganzes Set in Ausrüstung zurückverwandelt.
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※ Die Entnahme und Zurückverwandlung von einzelnen Gegenständen eines Projektionssets ist nicht möglich.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+Dabei hilft das Untermenü „Zugehörige Setprojektion einsehen“, das mit einem Klick alle interessanten Einzelheiten auflistet. Dies kann auch über die Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;beschrei&lt;var 16 /var&gt;bung des projizierten Gegenstandes erfolgen.</target>
       </trans-unit>
       <trans-unit id="1170" xml:space="preserve" approved="yes">
         <source>1170</source>
@@ -7412,7 +7405,7 @@ Sobald sich die Waffentransportvorrichtung inaktiv schaltet. Zu Beginn eines Mat
       </trans-unit>
       <trans-unit id="1320" xml:space="preserve" approved="yes">
         <source>1320</source>
-        <target state="final">Arealspezifische Moneten</target>
+        <target state="final">Arealspezifische Währung</target>
       </trans-unit>
       <trans-unit id="1321" xml:space="preserve" approved="yes">
         <source>1321</source>
@@ -7545,7 +7538,7 @@ Sobald ein Mecha-Einsatz angefordert wurde, sind willige Projektteilnehmer dazu 
       <trans-unit id="1340" xml:space="preserve" approved="yes">
         <source>1340</source>
         <target state="final">■ Antragstickets
-Um sich als Pilot zu bewerben und einen Antrag auf Einsteigeerlaubnis zu stellen, wird ein Antragsticket benötigt. Antragstickets können bei Alerot im Tausch gegen arealspezifische Moneten erstanden werden.</target>
+Um sich als Pilot zu bewerben und einen Antrag auf Einsteigeerlaubnis zu stellen, wird ein Antragsticket benötigt. Antragstickets können bei Alerot im Tausch gegen arealspezifische Währung erstanden werden.</target>
       </trans-unit>
       <trans-unit id="1341" xml:space="preserve" approved="yes">
         <source>1341</source>
@@ -7860,14 +7853,14 @@ Die genaue Punktzahl, die pro Gegenstand erhalten werden kann, ist in der jeweil
       </trans-unit>
       <trans-unit id="1389" xml:space="preserve" approved="yes">
         <source>1389</source>
-        <target state="final">Für gewisse Beiträge zur Kosmo-Erkundung können arealspezifische Moneten erhalten werden, wie beispielsweise die Mond-Moneten in Sinus Ardorum.
+        <target state="final">Für gewisse Beiträge zur Kosmo-Erkundung kann arealspezifische Währung erhalten werden, wie beispielsweise die Mond-Moneten in Sinus Ardorum.
 
-Mit diesen Moneten kann sich am Kosmo-Glück versucht oder Antragstickets für die Pilotenbewerbung eines Mecha-Einsatzes erstanden werden.
+Mit dieser Währung kann sich am Kosmo-Glück versucht oder Antragstickets für die Pilotenbewerbung eines Mecha-Einsatzes erstanden werden.
 
-■ Moneten erhalten
-Moneten können über verschiedene Wege erhalten werden, wobei das Abschließen von Stellarmissionen und Projekterrungenschaften wohl die gängigsten sind.
+■ Arealspezifische Währung erhalten
+„Areal-Währung“ kann über verschiedene Wege erhalten werden, wobei das Abschließen von Stellarmissionen und Projekterrungenschaften wohl die gängigsten sind.
 
-Darüber hinaus lockt das Abschließen von Notfallmissionen während einer Alarmstufe Rot mit einer ver&lt;var 16 /var&gt;gleichs&lt;var 16 /var&gt;we&lt;var 16 /var&gt;ise großen Menge an Moneten.</target>
+Darüber hinaus lockt das Abschließen von Notfallmissionen während einer Alarmstufe Rot mit einer ver&lt;var 16 /var&gt;gleichs&lt;var 16 /var&gt;we&lt;var 16 /var&gt;ise großen Menge an Areal-Währung.</target>
       </trans-unit>
       <trans-unit id="1390" xml:space="preserve" approved="yes">
         <source>1390</source>
@@ -7933,7 +7926,7 @@ Die verschiedenen Anwendungen des Exotablets werden als Menüpunkte auf der Bedi
 ■ Kosmo-Kohle
 Eine der Währungen, die vom Projektkomitee an alle fleißigen Teilnehmer verteilt wird. Die aktuelle Besitzmenge wird ebenfalls auf der Bedienungsoberfläche angezeigt.
 
-■ Arealspezifische Moneten
+■ Arealspezifische Währung
 Diese Währung kann jeweils nur innerhalb des jeweiligen Planeten erhalten und verwendet werden. Genau wie Kosmo-Kohle wird die aktuelle Besitzmenge auf der Bedienungsoberfläche des Exotablets angezeigt.</target>
       </trans-unit>
       <trans-unit id="1401" xml:space="preserve" approved="yes">
@@ -7971,21 +7964,11 @@ Nach dem Abschluss einer Stellarmission für Sammler werden die während der Mis
 
 Darüber hinaus wird auch der Reaktivierungs-Timer für Gegenstände wie „Kräutertränke“, die SP regenerieren, zurückgesetzt.
 
-■ Routine beim Synthetisieren und Sammeln
-Während Stellarmissionen gibt es keine Routine für die Synthese und das Sammeln von Gegenständen. Und auch die Bindung von Gegenständen unterliegt anderen Gegebenheiten als sonst.
 
-■ Statuszurücksetzung von Fischern
-Alle Stapel des Status „Fischversessen“ für Fischer werden am Ende einer Mission abgelegt und der Status wird zurückgesetzt.
+■ Besondere Kommandos
+In einigen Stellarmissionen können besondere Kommandos verwendet werden, die speziell für diesen Zweck vom Projektkomitee bereitgestellt worden sind.
 
-■ Vergütungsbonus durch Bodenunterstützung in Mecha-Einsätzen
-Für abgeschlossene Mecha-Einsätze als Bodenunterstützung erhalten Projektteilnehmer ab einem bestimmten Einsatzbeitrag für eine gewisse Anzahl an Stellarmissionen einen Vergütungsbonus.
-
-Der Vergütungsbonus sieht unabhängig vom Inhalt der Stellarmission wie folgt aus:
-
-Kosmo-Kohle: +20
-Arealspezifische Moneten: +10
-
-Solange der Bonus aktiv ist, wird das mit einem entsprechenden Symbol auf „Beginnen“ im Missionsbildschirm dargestellt.</target>
+Ob ein solches Kommando für eine Stellarmission verfügbar ist, kann im Missionsbildschirm eingesehen werden.</target>
       </trans-unit>
       <trans-unit id="1404" xml:space="preserve" approved="yes">
         <source>1404</source>
@@ -8139,8 +8122,9 @@ Wenn du dich als Pilot bewerben möchtest, kannst du den entsprechenden Antrag �
       </trans-unit>
       <trans-unit id="1430" xml:space="preserve" approved="yes">
         <source>1430</source>
-        <target state="final">■ Bodenunterstützung bei Mecha-Einsätzen
-Gegenstände, die während Mecha-Einsätzen als Bodenunterstützung gesammelt werden, können bei dem im Einsatzgebiet platzierten Feldsucher abgegeben werden.
+        <target state="final">■ Feldsucher
+In den meisten Mecha-Einsätzen findet man sogenannte Feldsucher im Einsatzgebiet vor.
+Gegenstände, die während Mecha-Einsätzen als Bodenunterstützung gesammelt werden, können bei diesen abgegeben werden.
 
 Wurde eine gewisse Gesamtanzahl an Gegenständen abgegeben, so aktiviert sich die Suchfunktion des Feldsuchers wodurch mehr Ziele für Piloten erscheinen.
 
@@ -8409,6 +8393,175 @@ Die Höhe der Belohnung hängt von der Anzahl der Opfergaben ab, und der Spieler
         <source>1485</source>
         <target state="final">Wie funktionieren Leuchter?</target>
       </trans-unit>
+      <trans-unit id="1486" xml:space="preserve" approved="yes">
+        <source>1486</source>
+        <target state="final">Strategiebretter</target>
+      </trans-unit>
+      <trans-unit id="1487" xml:space="preserve" approved="yes">
+        <source>1487</source>
+        <target state="final">Was sind Strategiebretter?</target>
+      </trans-unit>
+      <trans-unit id="1488" xml:space="preserve" approved="yes">
+        <source>1488</source>
+        <target state="final">Strategiebretter sind ein Kommunikationswerkzeug für Kampfinhalte. Mithilfe der verschiedenen Brettformen und Symbole lassen sich frei Strategieskizzen zu&lt;var 16 /var&gt;sammen&lt;var 16 /var&gt;stellen und anschließend mit anderen Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern teilen.</target>
+      </trans-unit>
+      <trans-unit id="1489" xml:space="preserve" approved="yes">
+        <source>1489</source>
+        <target state="final">Strategiebrett-Liste</target>
+      </trans-unit>
+      <trans-unit id="1490" xml:space="preserve" approved="yes">
+        <source>1490</source>
+        <target state="final">Gespeicherte Bretter</target>
+      </trans-unit>
+      <trans-unit id="1491" xml:space="preserve" approved="yes">
+        <source>1491</source>
+        <target state="final">In diesem Fenster können erstellte Strategiebretter verwaltet werden. Maximal können hier 50 frei benennbare Bretter erstellt werden, die sich anschließend auch zur gemeinsamen Verwaltung in bis zu 55 Ordnern zusammenfassen lassen. Einem Ordner können höchstens 10 Bretter zugeordnet werden.</target>
+      </trans-unit>
+      <trans-unit id="1492" xml:space="preserve" approved="yes">
+        <source>1492</source>
+        <target state="final">Geteilte Bretter</target>
+      </trans-unit>
+      <trans-unit id="1493" xml:space="preserve" approved="yes">
+        <source>1493</source>
+        <target state="final">Strategiebretter, die von anderen Spielern erhalten worden sind, können zeitweise über den Reiter „Geteilte Bretter“ aufgerufen werden. Wird jedoch das Maximum von 20 Brettern überschritten, so werden die erhaltenen Strategiebretter dem Alter nach automatisch gelöscht. Es wird daher empfohlen, häufig verwendete Bretter im Reiter „Gespeicherte Bretter“ abzuspeichern.</target>
+      </trans-unit>
+      <trans-unit id="1494" xml:space="preserve" approved="yes">
+        <source>1494</source>
+        <target state="final">Strategiebretter ansehen</target>
+      </trans-unit>
+      <trans-unit id="1495" xml:space="preserve" approved="yes">
+        <source>1495</source>
+        <target state="final">Strategien verwenden</target>
+      </trans-unit>
+      <trans-unit id="1496" xml:space="preserve" approved="yes">
+        <source>1496</source>
+        <target state="final">Über diesen Modus können Strategiebretter angezeigt werden. Die Größe des entsprechenden Fensters kann angepasst und das Fenster festgestellt werden, damit es während Inhalten durchgehend sichtbar bleibt. Darüber hinaus kann über die Anzeigeeinstellungen die Art der verwendeten Angreifer-Symbole geändert sowie eine bestimmte Position hervorgehoben werden.</target>
+      </trans-unit>
+      <trans-unit id="1497" xml:space="preserve" approved="yes">
+        <source>1497</source>
+        <target state="final">Allgemeine Nutzung</target>
+      </trans-unit>
+      <trans-unit id="1498" xml:space="preserve" approved="yes">
+        <source>1498</source>
+        <target state="final">Strategiebretter können nach Auswahl des gewünschten Bretts über die Option „Ansehen“ in dessen Untermenü angezeigt werden. Bei Brettern, die über einen Ordner zusammengefasst worden sind, lässt sich über die Pfeilknöpfe am unteren rechten Rand des Fensters oder mithilfe der allgemeinen Kommandos „Nächste Strategie“ und „Vorherige Strategie“ zwischen den Brettern wechseln.</target>
+      </trans-unit>
+      <trans-unit id="1499" xml:space="preserve" approved="yes">
+        <source>1499</source>
+        <target state="final">Strategiebretter bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="1500" xml:space="preserve" approved="yes">
+        <source>1500</source>
+        <target state="final">Anpassungen vornehmen</target>
+      </trans-unit>
+      <trans-unit id="1501" xml:space="preserve" approved="yes">
+        <source>1501</source>
+        <target state="final">In diesem Fenster können erstellte Strategiebretter angepasst werden. Neben dem Hauptfenster, in dem das ausgewählte Brett angezeigt wird, existieren noch drei Unterfenster, die verschiedene Bearbeitungsfunktionen ermöglichen.
+
+In der „Objektliste“ findet sich eine Reihe unter&lt;var 16 /var&gt;schied&lt;var 16 /var&gt;licher Symbole, die auf dem Brett platziert werden können. Über das Fenster „Objekt-Ebenen“ lässt sich anschließend anpassen, in welcher Reihenfolge diese Objekte übereinander angezeigt werden sollen. Letztlich können die verschiedenen Eigenschaften der Symbole über die Regler im Fenster „Objekt-Parameter“ geändert werden.
+※ Werden die Fenster festgestellt, bleiben sie geöffnet, wenn du in den Bearbeitungsmodus wechselst.
+
+Das Hauptfenster verfügt darüber hinaus noch über Funktionen bezüglich Rasterlinien und dem Einrasten von Symbolen.</target>
+      </trans-unit>
+      <trans-unit id="1502" xml:space="preserve" approved="yes">
+        <source>1502</source>
+        <target state="final">Mehrfachauswahl</target>
+      </trans-unit>
+      <trans-unit id="1503" xml:space="preserve" approved="yes">
+        <source>1503</source>
+        <target state="final">Mehrere Symbole können gleichzeitig ausgewählt und angepasst werden.</target>
+      </trans-unit>
+      <trans-unit id="1504" xml:space="preserve" approved="yes">
+        <source>1504</source>
+        <target state="final">Voreingestellte Bretter</target>
+      </trans-unit>
+      <trans-unit id="1505" xml:space="preserve" approved="yes">
+        <source>1505</source>
+        <target state="final">Über die Option „Voreingestelltes Brett“ beim Erstellen eines neuen Strategiebretts kann ein Brett mit gewissen Voreinstellungen erstellt werden. Die gewünschten Voreinstellungen wie Bodenmarkierungen oder Rollensymbole können über Aufklappmenüs ausgewählt und so das Erstellen eines neuen Bretts erleichtert werden.</target>
+      </trans-unit>
+      <trans-unit id="1506" xml:space="preserve" approved="yes">
+        <source>1506</source>
+        <target state="final">Weitere Funktionen</target>
+      </trans-unit>
+      <trans-unit id="1507" xml:space="preserve" approved="yes">
+        <source>1507</source>
+        <target state="final">■ Symbol-Feststellung und Anzeige
+Um zu verhindern, dass platzierte Symbole versehentlich verschoben werden, können diese individuell festgestellt und ausgeblendet werden.</target>
+      </trans-unit>
+      <trans-unit id="1508" xml:space="preserve" approved="yes">
+        <source>1508</source>
+        <target state="final">■ Einrasten auf Linien
+Werden Rasterlinien angezeigt, so kann diese Funktion aktiviert werden, um ausgewählte Symbole beim Verschieben automatisch an den Linien einrasten zu lassen.</target>
+      </trans-unit>
+      <trans-unit id="1509" xml:space="preserve" approved="yes">
+        <source>1509</source>
+        <target state="final">Anzeigeeinstellungen</target>
+      </trans-unit>
+      <trans-unit id="1510" xml:space="preserve" approved="yes">
+        <source>1510</source>
+        <target state="final">In den Anzeigeeinstellungen für Strategiebretter können die folgenden Anpassungen vorgenommen werden:
+
+■ Stil für Angreifer-Icons
+Bei der Darstellung von Angreifer-Icons kann aus zwei Stilen gewählt werden: „Einheitlich“ oder „Nah und Fern“.
+
+■ Hervorhebung
+Über dieses Aufklappmenü kann ausgewählt werden, welches Klassen- bzw. Job-Symbol auf dem Brett hervorgehoben werden soll.
+Alle Anzeigeeinstellungen werden auf sämtliche Strategiebretter angewandt.
+※ Die Einstellungen haben nur dann einen Effekt, wenn sich ein betroffenes Symbol auf dem jeweiligen Strategiebrett befindet.</target>
+      </trans-unit>
+      <trans-unit id="1513" xml:space="preserve" approved="yes">
+        <source>1513</source>
+        <target state="final">Neben Bodenmarkierungen und Klassen- bzw. Job-Icons lassen sich unter anderem auch Symbole für Boss-Gegner und deren Angriffe platzieren.</target>
+      </trans-unit>
+      <trans-unit id="1514" xml:space="preserve" approved="yes">
+        <source>1514</source>
+        <target state="final">■ Mehrere Symbole auswählen
+Maus/Tastatur: STRG + Linksklick
+&lt;var 08 E1E94C01 ((Controller)) ((Gamepad)) /var&gt;: &lt;var 1E 0C /var&gt;-Taste</target>
+      </trans-unit>
+      <trans-unit id="1515" xml:space="preserve" approved="yes">
+        <source>1515</source>
+        <target state="final">■ Einrasten auf Objekte
+Ist diese Funktion aktiviert, so rasten Symbole automatisch an der gleichen Stelle wie bereits platzierte Symbole ein, wenn sie in deren Nähe abgelegt werden.</target>
+      </trans-unit>
+      <trans-unit id="1516" xml:space="preserve" approved="yes">
+        <source>1516</source>
+        <target state="final">■ Objekte aufreihen
+Wurden mehrere Symbole ausgewählt, so können diese über die Option „Objekte aufreihen“ im Untermenü entweder vertikal oder horizontal in einer geraden Linie aufgereiht werden.</target>
+      </trans-unit>
+      <trans-unit id="1517" xml:space="preserve" approved="yes">
+        <source>1517</source>
+        <target state="final">Per Code teilen</target>
+      </trans-unit>
+      <trans-unit id="1518" xml:space="preserve" approved="yes">
+        <source>1518</source>
+        <target state="final">Über die Option „Code generieren“ des Untermenüs kann ein Textcode zum Teilen eines Strategiebretts erstellt werden. Andere Spieler haben nun die Möglichkeit, beim Erstellen eines neuen Strategiebretts die Option „Per Code generieren“ auszuwählen. Wird der Textcode in das dortige Feld eingefügt, kann das betroffene Strategiebrett erhalten und wie gewohnt bearbeitet werden.
+
+※ Es wird nicht empfohlen, Codes für Strategiebretter über die Chatfunktion zu teilen, da sich die generierte Zeichenfolge durch den Einfluss von Chatfiltern ändern kann. Darüber hinaus können die Codes, je nach Komplexität des Strategiebretts, das Zeichenlimit überschreiten.</target>
+      </trans-unit>
+      <trans-unit id="1519" xml:space="preserve" approved="yes">
+        <source>1519</source>
+        <target state="final">In Echtzeit teilen</target>
+      </trans-unit>
+      <trans-unit id="1520" xml:space="preserve" approved="yes">
+        <source>1520</source>
+        <target state="final">Über die Option „In Echtzeit teilen“ des Untermenüs kann der Bearbeitungsprozess eines Strategiebretts in Echtzeit mit den restlichen Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern geteilt werden. Diese können jegliche Anpassungen in Echtzeit verfolgen, während der teilende Spieler allein das entsprechende Brett bearbeiten kann.
+
+Die Echtzeit-Teilung wird automatisch unterbrochen, wenn ein Kampf begonnen wird oder ein Mitglied der Gruppe beitritt bzw. diese verlässt, jedoch wird in diesem Fall das betroffene Strategiebrett unter „Geteilte Bretter“ gespeichert, wodurch die Bearbeitung anschließend nahtlos fortgesetzt werden kann.
+
+Während der Echtzeit-Teilung werden die Änderungen des betroffenen Strategiebretts in regelmäßigen Abständen automatisch gespeichert. Es wird daher empfohlen, vor der Teilung eine Kopie des originalen Bretts anzulegen, um dieses nicht versehentlich zu überschreiben.</target>
+      </trans-unit>
+      <trans-unit id="1521" xml:space="preserve" approved="yes">
+        <source>1521</source>
+        <target state="final">Strategiebretter teilen</target>
+      </trans-unit>
+      <trans-unit id="1522" xml:space="preserve" approved="yes">
+        <source>1522</source>
+        <target state="final">Mit der Gruppe teilen</target>
+      </trans-unit>
+      <trans-unit id="1523" xml:space="preserve" approved="yes">
+        <source>1523</source>
+        <target state="final">Über die Option „Mit Gruppe teilen“ des Untermenüs können Strategiebretter und Ordner mit den restlichen Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern geteilt werden. Geteilte Bretter und Ordner werden zeitweise unter „Geteilte Bretter“ gespeichert und können von dort aus angezeigt werden. </target>
+      </trans-unit>
       <trans-unit id="1550" xml:space="preserve" approved="yes">
         <source>1550</source>
         <target state="final">In der Missionsauswahl werden Informationen zu allen Arten an Stellarmissionen aufgeführt.</target>
@@ -8438,7 +8591,7 @@ Stellarmissionen sind basierend auf ihrer Verfügbarkeit in drei Kategorien eing
         <source>1554</source>
         <target state="final">Die für Notfallmissionen benötigten Gegenstände müssen innerhalb des jeweiligen Einsatzortes hergestellt bzw. gesammelt werden.
 
-Auf Phaenna können sich Spieler, solange Alarmstufe Rot ausgerufen ist, von Lefleda in der Glasbläser-Basis direkt zu den Einsatzorten von Notfallmissionen befördern lassen.</target>
+Solange Alarmstufe Rot ausgerufen ist, kannst du dich von Lefleda in der Stationsbasis direkt zu den Einsatzorten von Notfallmissionen befördern lassen.</target>
       </trans-unit>
       <trans-unit id="1555" xml:space="preserve" approved="yes">
         <source>1555</source>
@@ -8531,6 +8684,302 @@ Der Aktuellen Agenda wurde eine neue Rubrik für Pilgers Pfad hinzugefügt. Schl
 
 &lt;var 48 F20224 /var&gt;■ Kleinode des Gesegneten Horts&lt;var 48 01 /var&gt;
 Die Kleinode des Gesegneten Horts sind ein besonderer verborgener Schatz. Erfülle die Aufgaben in der Aktuelle Agenda unter „Pilgers Pfad“ oder schließe die Kampfinhalte von Pilgers Pfad ab, um sie zu erhalten.</target>
+      </trans-unit>
+      <trans-unit id="1573" xml:space="preserve" approved="yes">
+        <source>1573</source>
+        <target state="final">Das große Jäten</target>
+      </trans-unit>
+      <trans-unit id="1574" xml:space="preserve" approved="yes">
+        <source>1574</source>
+        <target state="final">Übersicht</target>
+      </trans-unit>
+      <trans-unit id="1575" xml:space="preserve" approved="yes">
+        <source>1575</source>
+        <target state="final">Sonderkommandos</target>
+      </trans-unit>
+      <trans-unit id="1576" xml:space="preserve" approved="yes">
+        <source>1576</source>
+        <target state="final">Punkte</target>
+      </trans-unit>
+      <trans-unit id="1577" xml:space="preserve" approved="yes">
+        <source>1577</source>
+        <target state="final">Ungewöhnliche Pflanzenwesen</target>
+      </trans-unit>
+      <trans-unit id="1578" xml:space="preserve" approved="yes">
+        <source>1578</source>
+        <target state="final">Durch die Teilnahme an „Das große Jäten“ hilfst du bei der Beseitigung einer Plage, die den Feierlichkeiten zur Wundereiersuche im Weg steht.</target>
+      </trans-unit>
+      <trans-unit id="1579" xml:space="preserve" approved="yes">
+        <source>1579</source>
+        <target state="final">■基本情報
+スプリグ・クリーニングは、ソロでのみ遊べるコンテンツです。
+コンテンツの制限時間は3分です。
+
+ゲーム中は、専用アクションを駆使して魔物を刈り、
+より多くのスコアを獲得することが目的となります。
+
+■報酬
+ゲーム中に獲得したスコアの量に応じて、
+「スペシャル・トリコエッグ」を入手することできます。
+
+スペシャル・トリコエッグは、
+ミィ・ケット野外音楽堂の「エッグドリーマー」に渡すことで、
+装備品やアイテムと交換できます。</target>
+      </trans-unit>
+      <trans-unit id="1580" xml:space="preserve" approved="yes">
+        <source>1580</source>
+        <target state="final">コンテンツ参加中は、
+3種類の専用アクションが使用可能になります。</target>
+      </trans-unit>
+      <trans-unit id="1581" xml:space="preserve" approved="yes">
+        <source>1581</source>
+        <target state="final">①回転刈り
+自身を中心とした円形範囲内の魔物を刈り取ります。
+
+②突進刈り
+自身の前方に素早く移動しながら、
+移動範囲内の魔物を刈り取ります。
+
+③大回転刈り
+ゲーム中に表示される「草刈り魂」が一定以上になることで、
+実行可能になる特別なアクションです。
+自身を中心とした円形広範囲内の魔物を刈り取ります。</target>
+      </trans-unit>
+      <trans-unit id="1582" xml:space="preserve" approved="yes">
+        <source>1582</source>
+        <target state="final">スプリグ・クリーニングでは、
+以下の方法でスコアを獲得することができます。
+
+■草木綱の魔物「ツヨツヨ・トラップ」を刈る
+ツヨツヨ・トラップを刈ることで、
+刈った数に応じてスコアを獲得することができます。
+
+■飾りタマゴを取り戻す
+ツヨツヨ・トラップを刈ると、
+エッグハントの飾りタマゴ「アルコンエッグ」を発見できることがあります。
+アルコンエッグには金、銀、銅の3種類が存在し、
+それぞれ獲得できるスコアが異なります。
+獲得したスコアは目的リストより確認できます。</target>
+      </trans-unit>
+      <trans-unit id="1583" xml:space="preserve" approved="yes">
+        <source>1583</source>
+        <target state="final">ゲーム中、特殊な魔物「フシギナ・トラップ」が出現することがあります。</target>
+      </trans-unit>
+      <trans-unit id="1584" xml:space="preserve" approved="yes">
+        <source>1584</source>
+        <target state="final">このフシギナ・トラップを刈ると、
+以下の特殊な効果がランダムで発生します。
+
+・草刈り魂上昇
+「草刈り魂」が大幅に上昇します。
+
+・アルコンエッグ発見率上昇
+アルコンエッグを見つけやすくなります。
+
+・アルコンエッグ【金】率上昇
+見つけたアルコンエッグが、必ずアルコンエッグ【金】になります。</target>
+      </trans-unit>
+      <trans-unit id="1585" xml:space="preserve" approved="yes">
+        <source>1585</source>
+        <target state="final">■ Routine beim Synthetisieren und Sammeln
+Während Stellarmissionen gibt es keine Routine für die Synthese und das Sammeln von Gegenständen. Und auch die Bindung von Gegenständen unterliegt anderen Gegebenheiten als sonst.
+
+■ Statuszurücksetzung von Fischern
+Alle Stapel des Status „Fischversessen“ für Fischer werden am Ende einer Mission abgelegt und der Status wird zurückgesetzt.
+
+■ Vergütungsbonus durch Bodenunterstützung in Mecha-Einsätzen
+Für abgeschlossene Mecha-Einsätze als Bodenunterstützung erhalten Projektteilnehmer ab einem bestimmten Einsatzbeitrag für eine gewisse Anzahl an Stellarmissionen einen Vergütungsbonus.
+
+Der Vergütungsbonus sieht unabhängig vom Inhalt der Stellarmission wie folgt aus:
+
+Kosmo-Kohle: +20
+Arealspezifische Währung: +10
+
+Solange der Bonus aktiv ist, wird dies mit einem entsprechenden Symbol auf „Beginnen“ im Missionsbildschirm dargestellt.</target>
+      </trans-unit>
+      <trans-unit id="1586" xml:space="preserve" approved="yes">
+        <source>1586</source>
+        <target state="final">Goldzähler</target>
+      </trans-unit>
+      <trans-unit id="1587" xml:space="preserve" approved="yes">
+        <source>1587</source>
+        <target state="final">Schließt du besonders herausfordernde Missionen hintereinander ab, aktiviert sich der &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Goldzähler&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und erhöht die Menge an Missionsvergütungen.
+
+
+■ Aktivierungsbedingungen
+Der Goldzähler wird aktiviert, sobald Missionen der Klasse A und höher hintereinander mit Goldwertung abgeschlossen wurden.
+Dabei spielt es keine Rolle, ob zwischen den Missionen die Klasse gewechselt wurde.
+
+Sobald der Zähler auf „5“ steht und noch eine Mission unter den korrekten Bedingungen abgeschlossen wird, ist der sogenannte „Goldstern“ erreicht und der Zähler wird auf „0“ zurückgesetzt.
+
+Der Goldzähler wird für jedes Erkundungsareal separat gespeichert und setzt sich auch nach Verlassen dieses nicht zurück.
+
+
+■ Vergütungsbonus
+Ein aktiver Goldzähler erhöht die Menge an Missionsvergütungen, wobei der größte Bonus bei erreichtem Goldstern winkt. Um wie viel sich die Vergütungen erhöhen, kann der Missionsauswahl entnommen werden.
+
+Betroffene Missionsvergütungen:
+・Alle Währungen
+・Drohnenchips
+・Projektbeitrag</target>
+      </trans-unit>
+      <trans-unit id="1588" xml:space="preserve" approved="yes">
+        <source>1588</source>
+        <target state="final">
+■ Zurücksetzen und Aufrechterhalten des Zählers
+
+Unter den folgenden Bedingungen setzt sich der Goldzähler zurück:
+・ Mission der Klasse B/C/D wurde gestartet
+・ Mission wurde mit Silberwertung oder niedriger abgeschlossen
+・ Mission wurde aufgegeben (Auserkorene Piloten eines Mecha-Einsatzes sind hiervon ausgenommen.)
+
+Unter den folgenden Bedingungen wird der Zähler aufrechterhalten:
+・ Teilnahme an Mecha-Einsatz
+・ Teilnahme an Gemeinschaftsprojekt
+・ Annahme/Abschluss einer Notfallmission</target>
+      </trans-unit>
+      <trans-unit id="1596" xml:space="preserve" approved="yes">
+        <source>1596</source>
+        <target state="final">Auf dem Icon einer Setprojektion wird auch eine Zahl angezeigt. Ist sie orange, hast du alle Gegenstände eines Sets vollständig projiziert. Ist sie weiß, fehlen dir noch Gegenstände zur Vervollständigung.
+
+Über „Zugehörige Setprojektion einsehen“ im Untermenü eines Gegenstands kann geprüft werden, zu welchem Set ein Gegenstand gehört. Auch im Hilfstext ist eine Zeile zu finden, die einen Gegenstand als Teil eines Sets kennzeichnet.
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※Bitte beachte jedoch, dass als Teil eines Sets projizierte Gegenstände nicht einzeln in Ausrüstung zurückverwandelt werden können.</target>
+      </trans-unit>
+      <trans-unit id="1597" xml:space="preserve" approved="yes">
+        <source>1597</source>
+        <target state="final">Ausrüstung zu einem Set hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="1598" xml:space="preserve" approved="yes">
+        <source>1598</source>
+        <target state="final">Es ist möglich, zu einem in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode unfertigen Set im Nachhinein fehlende Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände hinzuzufügen. Dazu sind in erster Linie die entsprechende Anzahl an Projektionsprismen nötig.
+
+Öffne den Reiter „Sets“ in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode, während du die fehlenden Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände in deinem Inventar oder im Arsenal bei dir hast. Wähle „Fehlende Ausrüstung hinzufügen“ aus dem Untermenü des Sets, das du vervollständigen möchtest.
+
+Auch kann Ausrüstung direkt das Setprojektions-Icon im Projektionsfenster selbst hinzugefügt werden.</target>
+      </trans-unit>
+      <trans-unit id="1599" xml:space="preserve" approved="yes">
+        <source>1599</source>
+        <target state="final">Wurde das entsprechende Set in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode hinterlegt, wird es mit diesem Icon automatisch ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="1601" xml:space="preserve" approved="yes">
+        <source>1601</source>
+        <target state="final">Worqor Chirteh (Triumph)</target>
+      </trans-unit>
+      <trans-unit id="1602" xml:space="preserve" approved="yes">
+        <source>1602</source>
+        <target state="final">Kartenbeschreibung</target>
+      </trans-unit>
+      <trans-unit id="1603" xml:space="preserve" approved="yes">
+        <source>1603</source>
+        <target state="final">Westlich von Eorzea, hinter den unzähligen Wellen der Indigotiefen, erstreckt sich der Kontinent Tural. In den dortigen Gebirgen von Worqor Chirteh soll einst eine große Schlacht unter den Yok Huy stattgefunden haben. Auch die drei Staatlichen Ge&lt;var 16 /var&gt;sell&lt;var 16 /var&gt;schaften möchten ihre Kampfkunst auf diesem antiken Schlachtfeld unter Beweis stellen, und so, unter den wachsamen Augen der Schneegeister, hallen die Klänge des Konflikts erneut durch die dünne Bergluft.</target>
+      </trans-unit>
+      <trans-unit id="1604" xml:space="preserve" approved="yes">
+        <source>1604</source>
+        <target state="final">Siegbedingungen</target>
+      </trans-unit>
+      <trans-unit id="1605" xml:space="preserve" approved="yes">
+        <source>1605</source>
+        <target state="final">In Worqor Chirteh (Triumph) gewinnt jenes Team, das als erstes eine bestimmte Menge an Siegpunkten gesammelt hat. Diese können auf zwei Arten erhalten werden:
+　1. Durch das Besiegen von gegnerischen Spielern
+　2. Durch das Besetzen von Triumphpunkten
+
+Sollte kein Team innerhalb des Zeitlimits die benötigte Menge an Siegpunkten erreichen, gewinnt das Team mit den meisten Siegpunkten.</target>
+      </trans-unit>
+      <trans-unit id="1606" xml:space="preserve" approved="yes">
+        <source>1606</source>
+        <target state="final">Triumphpunkte</target>
+      </trans-unit>
+      <trans-unit id="1607" xml:space="preserve" approved="yes">
+        <source>1607</source>
+        <target state="final">Auf dem Schlachtfeld existieren mehrere sogenannte „Triumphpunkte“, die von Spieler besetzt werden können. Wurde ein Triumphpunkt besetzt, so erhält das entsprechende Team stetig eine gewisse Anzahl an Siegpunkten.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Zustände von Triumphpunkten&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Im Laufe des Kampfes durchlaufen Triumphpunkte die folgenden vier Zustände in der angegebenen Reihenfolge:
+
+1. Inaktiv
+Zu Kampfbeginn sind sämtliche Triumphpunkte inaktiv und können nicht besetzt werden. Nach einer gewissen Zeit aktivieren sie sich jedoch zufällig.</target>
+      </trans-unit>
+      <trans-unit id="1608" xml:space="preserve" approved="yes">
+        <source>1608</source>
+        <target state="final">2. Übergang
+Bevor sich ein Triumphpunkt vollständig aktiviert, befindet er sich in einem Übergangszustand. In diesem erscheint ein Symbol über dem Punkt, welches die verbleibende Zeit bis zur Aktivierung angibt. Dieses Symbol nimmt langsam Form an, bis bei Vollendung des Symbols der Triumphpunkt aktiviert wird.</target>
+      </trans-unit>
+      <trans-unit id="1609" xml:space="preserve" approved="yes">
+        <source>1609</source>
+        <target state="final">3. Besetzbar
+In diesem Zustand können Triumphpunkte von Teams besetzt werden. Dem Team, dem es gelingt, sämtliche der sogenannten „Besetzungszirkel“, die in dieser Phase in der Nähe des Triumphpunktes erscheinen, zu sichern, erhält Kontrolle über den Punkt.</target>
+      </trans-unit>
+      <trans-unit id="1610" xml:space="preserve" approved="yes">
+        <source>1610</source>
+        <target state="final">4. Besetzt
+Wurde ein Triumphpunkt von einem Team besetzt, so erhält dieses Team schrittweise Siegpunkte. Ein besetzter Triumphpunkt kann nicht von einem anderen Team gestohlen werden, kehrt jedoch nach einer gewissen Zeit automatisch in den inaktiven Zustand zurück, woraufhin sich ein anderer Triumphpunkt aktiviert.</target>
+      </trans-unit>
+      <trans-unit id="1611" xml:space="preserve" approved="yes">
+        <source>1611</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Ränge von Triumphpunkten&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Bei der Aktivierung eines Triumphpunkts wird diesem zufällig der Rang B, A oder S zugewiesen, der durch das Symbol über dem Punkt angezeigt wird. Höhere Ränge erscheinen seltener, gewähren bei erfolgreicher Besetzung allerdings mehr Siegpunkte.</target>
+      </trans-unit>
+      <trans-unit id="1612" xml:space="preserve" approved="yes">
+        <source>1612</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Änderungen im Laufe des Kampfes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Im Laufe des Kampfes nimmt die Anzahl an Triumphpunkten, die gleichzeitig aktiv sein können, allmählich ab. Gleichzeitig erhöht sich jedoch die Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit, dass höhere Ränge an Triumphpunkten erscheinen.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Änderungen durch Wetter&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Während bestimmten Wetterverhältnissen ist die Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit für seltenere Ränge an Triumphpunkten erhöht.</target>
+      </trans-unit>
+      <trans-unit id="1613" xml:space="preserve" approved="yes">
+        <source>1613</source>
+        <target state="final">Besetzungszirkel</target>
+      </trans-unit>
+      <trans-unit id="1614" xml:space="preserve" approved="yes">
+        <source>1614</source>
+        <target state="final">Nimmt ein Triumphpunkt den Zustand „Besetzbar“ an, so erscheinen mehrere Besetzungszirkel in dessen Nähe. Befindet sich ein Spieler für eine gewisse Zeit innerhalb eines Zirkels, so wird dieser am Ende der Zeit vom entsprechenden Team erobert.
+
+Die Eroberung eines Zirkels benötigt stets dieselbe Zeit, unabhängig von der Anzahl an Spielern, die sich in ihm befinden. Je höher der Rang des betroffenen Triumphpunktes, desto mehr Besetzungszirkel erscheinen um ihn herum.
+
+Im Gegensatz zu Triumphpunkten können Besetzungszirkel auch nach ihrer Eroberung von anderen Teams gestohlen werden. Es lohnt sich also, bis zum letzten Zirkel nicht aufzugeben!</target>
+      </trans-unit>
+      <trans-unit id="1615" xml:space="preserve" approved="yes">
+        <source>1615</source>
+        <target state="final">Schnee</target>
+      </trans-unit>
+      <trans-unit id="1616" xml:space="preserve" approved="yes">
+        <source>1616</source>
+        <target state="final">Im Laufe des Kampfes kann es anfangen, zu schneien. Die weiße Pracht lockt dann Schneegeister an, die die Spieler mit ihren Streichen auf Trab halten.</target>
+      </trans-unit>
+      <trans-unit id="1617" xml:space="preserve" approved="yes">
+        <source>1617</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Schneestatuen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Wenn Schneegeister erscheinen, erschaffen sie mit dem Angriff „Schneespaß“ eine Reihe an Schneestatuen auf dem Schlachtfeld. Diese unter&lt;var 16 /var&gt;schied&lt;var 16 /var&gt;lich großen Statuen bilden Hindernis und Deckung zugleich, wodurch sie das Blatt im Kampf schnell wenden können.</target>
+      </trans-unit>
+      <trans-unit id="1618" xml:space="preserve" approved="yes">
+        <source>1618</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Frostiger Segen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Während sich Schneegeister auf dem Schlachtfeld befinden, wenden sie mehrmals das Kommando „Frostiger Segen“ an. Spieler, die von diesem Angriff getroffen werden, erhalten eine Barriere, die eine gewisse Menge an Schaden absorbiert.</target>
+      </trans-unit>
+      <trans-unit id="1619" xml:space="preserve" approved="yes">
+        <source>1619</source>
+        <target state="final">Aurora</target>
+      </trans-unit>
+      <trans-unit id="1620" xml:space="preserve" approved="yes">
+        <source>1620</source>
+        <target state="final">Im Laufe des Kampfes kann sich das Wetter zu „Aurora“ ändern, was die folgenden Effekte auf das Schlachtfeld hat:
+1. Erhöhte Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit für seltene Ränge von Triumphpunkten.
+2. Füllt schrittweise den Limitrausch-Balken aller Spieler.</target>
+      </trans-unit>
+      <trans-unit id="1621" xml:space="preserve" approved="yes">
+        <source>1621</source>
+        <target state="final">Tragen von Pilger-Ausrüstung außerhalb des Tiefen Gewölbes</target>
+      </trans-unit>
+      <trans-unit id="1622" xml:space="preserve" approved="yes">
+        <source>1622</source>
+        <target state="final">Wenn du den Auftrag auf Stufe 30 von Pilgers Pfad abschließt, kannst du Pilger-Ausrüstung auch außerhalb des Tiefen Gewölbes tragen.
+
+Sprich zunächst mit Ose Wyd in Wolekdorf und wähle „Pilger-Waffengriff herstellen lassen“. Bei der Herstellung des Pilger-Waffengriffs wird die Verstärkung deiner Pilger-Ausrüstung (Waffe und Rüstung) um 10 reduziert.
+
+Wenn du genug Pilger-Waffengriffe hast, kannst du Ose Wyd darum bitten, Schwerter und Schide auch außerhalb des Tiefen Gewölbes tragen zu dürfen.
+
+Anfangs gilt dies nur für Ausrüstung des Strahlenden Lichts. Mit Abschluss von Ebene 100 und einer Verstärkung deiner Pilger-Ausrüstung (Waffen und Schilde) auf 60 kann dann auch Ausrüstung der Sakramente mitgenommen werden.</target>
       </trans-unit>
     </body>
   </file>

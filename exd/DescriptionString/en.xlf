@@ -1052,7 +1052,7 @@ Yellow: Access denied
       </trans-unit>
       <trans-unit id="197" xml:space="preserve" approved="yes">
         <source>197</source>
-        <target state="final">The brightness of lighting in free company estates, private estates, and private chambers can be adjusted. Use the “Adjust Lighting” option in the Housing menu to choose from one of five levels of brightness.
+        <target state="final">The brightness of lighting in free company estates, private estates, and private chambers can be adjusted. Use the “Interior Settings” option in the Housing menu to choose from one of five levels of brightness.
 </target>
       </trans-unit>
       <trans-unit id="198" xml:space="preserve" approved="yes">
@@ -1495,6 +1495,7 @@ You may not commence or suspend a New Game+ chapter if you are currently:
 ・You will be allowed to select the difficulty of quest battles from your first time undertaking the quest.
 ・If you have enabled “Skip playback of previously viewed scenario cutscenes” under General in the Character Configuration menu, some cutscenes may not be displayed.
 ・Items submitted to complete quest objectives will not be removed from your inventory.
+・Certain delivery objectives will be completed automatically.
 
 ■ Quest Completion
 ・You will not receive rewards for completing quests in New Game+ mode.
@@ -1621,7 +1622,8 @@ A match lasts for 20 minutes.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Retaliation■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Incapacitated players will be returned to their Grand Company's landing, where they will be allowed to rejoin combat after a short delay. This will not incur a weakness penalty.
-Furthermore, players will be temporarily invulnerable when leaving their Grand Company's landing.
+Players will be granted invulnerability within their Grand Company's landing and for a short while after leaving.
+When infiltrating another team's Grand Company landing, players will be afflicted with the Outsider status effect which inflicts damage over time.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Mounts■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Players are free to use mounts during Frontline campaigns. However, players taking damage while mounted will be forced off and afflicted with the Hoofing It status effect for five seconds.
@@ -6153,17 +6155,17 @@ From the Cast Glamour window, select the glamoured item on the left, then select
         <source>1059</source>
         <target state="final">You will not be able to cast a glamour if:
 
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;1. The base item's job level requirement is lower than that of the glamour cast.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Example: Level 100 gear cannot be glamoured onto gear equippable at levels 1 through 99.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;1. The base item is of a different type than that of the glamour to be cast.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Example: A gladiator's arm cannot be glamoured onto an arcanist's grimoire.
 ※Unaffected by item level (IL).
 
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;2. The base item's class or role requirement is not compatible with that of the glamour cast.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Example: Tank-specific gear cannot be glamoured onto healer-specific gear.</target>
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;2. The base item's race or gender requirement is not compatible with that of the glamour cast.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Example: Elezen-specific gear cannot be glamoured onto Hyur-specific gear.</target>
       </trans-unit>
       <trans-unit id="1060" xml:space="preserve" approved="yes">
         <source>1060</source>
-        <target state="final">Some glamours will only display as long as the character's level, class, race, and gender meet the requirements.
-Example: If a job-specific glamour is applied, the effect will no longer display when the character switches to a different job.</target>
+        <target state="final">Some glamours will only display as long as the character's race, gender, and Grand Company meet the requirements.
+Example: If a race-specific glamour is applied, the effect will not be displayed.</target>
       </trans-unit>
       <trans-unit id="1061" xml:space="preserve" approved="yes">
         <source>1061</source>
@@ -6740,13 +6742,7 @@ When creating an outfit glamour, several items are combined as an ensemble and s
       </trans-unit>
       <trans-unit id="1169" xml:space="preserve" approved="yes">
         <source>1169</source>
-        <target state="final">In addition to viewing currently saved outfits under this tab, you can also inspect the individual items that form an outfit by selecting the “Inspect Outfit” subcommand. This subcommand is also accessible via each individual item.
-
-As with standard glamours, individual items that form part of an outfit glamour are displayed under their corresponding tab in the glamour dresser. These items are identified as such in the corresponding item details window.
-
-Restoring an outfit glamour will return each included item to its original form.
-
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※Specific items from an outfit glamour cannot be restored individually.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+        <target state="final">In addition to viewing currently saved outfits under this tab, you can also inspect the individual items that form an outfit by selecting the “Inspect Outfit” subcommand. This subcommand is also accessible via each individual item.</target>
       </trans-unit>
       <trans-unit id="1170" xml:space="preserve" approved="yes">
         <source>1170</source>
@@ -7810,19 +7806,8 @@ The difficulty of crafting and gathering missions, as well as the amount of expe
 ■GP Recovery
 Upon completing gathering missions, you will recover GP equal to the total amount spent during the mission. Furthermore, the recast timer of recovery items such as cordials will be reset.
 
-■Crafting and Gathering Restrictions
-During a stellar mission, crafting and gathering will not award experience, and spiritbond will accrue at a different rate.
-
-■Fishing Restrictions
-At the end of each stellar mission, your Angler's Art stacks will be reset, regardless of how many you have accrued.
-
-■Ground Support Bonuses
-Ground supporters who make sufficient contributions to a mech op will receive bonus credits for a certain number of subsequent missions, regardless of objective. These bonuses are as follows:
-
-Cosmocredits: +20
-Sector Credits: +10
-
-For the duration of the effect, an arrow symbol will be displayed on the Initiate button on the mission selection window.</target>
+■Duty Actions
+Some stellar missions allow for the use of a unique duty action. This information is listed in the mission selection window.</target>
       </trans-unit>
       <trans-unit id="1404" xml:space="preserve" approved="yes">
         <source>1404</source>
@@ -7961,13 +7946,13 @@ Once a mech op has been issued, those seeking to serve as pilots may do so by ac
       </trans-unit>
       <trans-unit id="1430" xml:space="preserve" approved="yes">
         <source>1430</source>
-        <target state="final">■Ground Supporter's Duty
-Resources gathered during mech ops must be fed into nearby field scanners. When sufficient resources have been gathered, the field scanners will activate, revealing targets for mech pilots to strike.
+        <target state="final">■Field Scanners
+Resources gathered during mech ops must be fed into a nearby field scanner. When sufficient resources have been gathered, the scanner will activate, revealing targets for mech pilots to strike.
 
 ■Special Rewards
-As thanks for completion of missions as ground support, players who make sufficient contributions will receive a buff that increases the number of credits received when completing stellar missions.
+Ground supporters who make sufficient contributions will receive a buff that increases the number of credits received for a limited number of subsequent stellar missions.
 
-Further details can be found under “Stellar Mission Rules.”</target>
+Further details can be found under Stellar Mission Rules.</target>
       </trans-unit>
       <trans-unit id="1431" xml:space="preserve" approved="yes">
         <source>1431</source>
@@ -8234,6 +8219,186 @@ Rewards are proportionate to the number of offerings used. Additionally, the pla
         <source>1485</source>
         <target state="final">Votive Candelabras</target>
       </trans-unit>
+      <trans-unit id="1486" xml:space="preserve" approved="yes">
+        <source>1486</source>
+        <target state="final">Strategy Board</target>
+      </trans-unit>
+      <trans-unit id="1487" xml:space="preserve" approved="yes">
+        <source>1487</source>
+        <target state="final">Overview</target>
+      </trans-unit>
+      <trans-unit id="1488" xml:space="preserve" approved="yes">
+        <source>1488</source>
+        <target state="final">Strategy boards are created using a combination of icons, symbols, and markers to better coordinate with party members and overcome challenging duties.</target>
+      </trans-unit>
+      <trans-unit id="1489" xml:space="preserve" approved="yes">
+        <source>1489</source>
+        <target state="final">Strategy Board List</target>
+      </trans-unit>
+      <trans-unit id="1490" xml:space="preserve" approved="yes">
+        <source>1490</source>
+        <target state="final">Saved List</target>
+      </trans-unit>
+      <trans-unit id="1491" xml:space="preserve" approved="yes">
+        <source>1491</source>
+        <target state="final">Up to fifty strategy boards can be saved at a time, and they can be grouped and separated into folders for ease of organization.
+
+You may create up to fifty-five folders, each of which can hold up to ten strategy boards.</target>
+      </trans-unit>
+      <trans-unit id="1492" xml:space="preserve" approved="yes">
+        <source>1492</source>
+        <target state="final">Shared List</target>
+      </trans-unit>
+      <trans-unit id="1493" xml:space="preserve" approved="yes">
+        <source>1493</source>
+        <target state="final">Strategy boards shared by other players may also be stored temporarily in a separate list.
+
+Up to twenty such strategy boards shared may be saved at a time, with the oldest being overwritten should this limit be exceeded. Please note, however, that shared strategy boards may be moved to the Saved List at any time.</target>
+      </trans-unit>
+      <trans-unit id="1494" xml:space="preserve" approved="yes">
+        <source>1494</source>
+        <target state="final">Strategy Board Interface</target>
+      </trans-unit>
+      <trans-unit id="1495" xml:space="preserve" approved="yes">
+        <source>1495</source>
+        <target state="final">Reviewing Strategies</target>
+      </trans-unit>
+      <trans-unit id="1496" xml:space="preserve" approved="yes">
+        <source>1496</source>
+        <target state="final">When reviewing strategies, you can freely adjust the size of the board and lock it to prevent it from being closed. The board can also be displayed while undertaking duties.
+
+The settings menu can be used to adjust the display of DPS icons, or highlight roles that are particularly important to your strategy.</target>
+      </trans-unit>
+      <trans-unit id="1497" xml:space="preserve" approved="yes">
+        <source>1497</source>
+        <target state="final">Using the Strategy Board</target>
+      </trans-unit>
+      <trans-unit id="1498" xml:space="preserve" approved="yes">
+        <source>1498</source>
+        <target state="final">Select your desired strategy board from the list or its folder, then select Review Strategy Board from the subcommand menu to begin reviewing it.
+
+When reviewing strategy boards in a folder, the arrow buttons at the bottom right of the window can be used to cycle through them. There are also actions available under General in the Actions &amp; Traits menu that can also be used to cycle through strategy boards.</target>
+      </trans-unit>
+      <trans-unit id="1499" xml:space="preserve" approved="yes">
+        <source>1499</source>
+        <target state="final">Customizing Strategy Boards</target>
+      </trans-unit>
+      <trans-unit id="1500" xml:space="preserve" approved="yes">
+        <source>1500</source>
+        <target state="final">Editing</target>
+      </trans-unit>
+      <trans-unit id="1501" xml:space="preserve" approved="yes">
+        <source>1501</source>
+        <target state="final">The editing of strategy boards is carried out primarily through the use of three menus:
+
+The Objects List window, where you can choose icons and symbols to add to the strategy board.
+The Object Layers window, where you can perform various functions such as hiding, locking, and copying objects.
+The Object Parameters window, where you can make finer adjustments such as changing the size, rotation, and transparency of objects.
+※By locking these windows, they will remain open when viewing the main editing window.
+
+When viewing the main window, you can also toggle gridlines, gridline snapping, and object snapping.</target>
+      </trans-unit>
+      <trans-unit id="1502" xml:space="preserve" approved="yes">
+        <source>1502</source>
+        <target state="final">Selecting Objects</target>
+      </trans-unit>
+      <trans-unit id="1503" xml:space="preserve" approved="yes">
+        <source>1503</source>
+        <target state="final">When editing, you can freely select and move objects on the strategy board. You may also select multiple objects at once.</target>
+      </trans-unit>
+      <trans-unit id="1504" xml:space="preserve" approved="yes">
+        <source>1504</source>
+        <target state="final">Presets</target>
+      </trans-unit>
+      <trans-unit id="1505" xml:space="preserve" approved="yes">
+        <source>1505</source>
+        <target state="final">When creating a new strategy board, you may choose from several preset configurations.
+
+Strategy boards created using these options can be used as they are, or serve as a starting point for further customization.</target>
+      </trans-unit>
+      <trans-unit id="1506" xml:space="preserve" approved="yes">
+        <source>1506</source>
+        <target state="final">Miscellaneous</target>
+      </trans-unit>
+      <trans-unit id="1507" xml:space="preserve" approved="yes">
+        <source>1507</source>
+        <target state="final">■Lock and Hide Objects
+Any object placed onto the strategy board can be locked in place. You may also toggle their display on or off.</target>
+      </trans-unit>
+      <trans-unit id="1508" xml:space="preserve" approved="yes">
+        <source>1508</source>
+        <target state="final">■Grid Snap
+When gridlines are enabled, objects will automatically snap to these lines for easier positioning.</target>
+      </trans-unit>
+      <trans-unit id="1509" xml:space="preserve" approved="yes">
+        <source>1509</source>
+        <target state="final">Strategy Board Settings</target>
+      </trans-unit>
+      <trans-unit id="1510" xml:space="preserve" approved="yes">
+        <source>1510</source>
+        <target state="final">The settings menu allows you to adjust the display of certain icons. Please note these options affect all strategy boards.
+
+■DPS Icon Display Type
+Choose to represent DPS jobs with a unified icon or those that distinguish between melee and ranged roles.
+
+■Icon Highlight
+Highlight a specified class or job icon.
+※This option only applies if the specified job icon appears on the strategy board.</target>
+      </trans-unit>
+      <trans-unit id="1514" xml:space="preserve" approved="yes">
+        <source>1514</source>
+        <target state="final">■Multiple Object Selection
+When using a mouse, hold Ctrl and left-click the icons you wish to select together.
+When using a &lt;var 08 E1E94C01 ((controller)) ((gamepad)) /var&gt;, press &lt;var 1E 0C /var&gt; to select multiple objects. </target>
+      </trans-unit>
+      <trans-unit id="1515" xml:space="preserve" approved="yes">
+        <source>1515</source>
+        <target state="final">■Object Snap
+When enabled, objects will automatically snap to other nearby objects.</target>
+      </trans-unit>
+      <trans-unit id="1516" xml:space="preserve" approved="yes">
+        <source>1516</source>
+        <target state="final">■Align Objects
+When multiple objects have been selected, the Align Objects subcommand can be used to align them either vertically or horizontally.</target>
+      </trans-unit>
+      <trans-unit id="1517" xml:space="preserve" approved="yes">
+        <source>1517</source>
+        <target state="final">Share Code</target>
+      </trans-unit>
+      <trans-unit id="1518" xml:space="preserve" approved="yes">
+        <source>1518</source>
+        <target state="final">Using the Create Share Code subcommand on a selected strategy board, you can generate text-based codes to share with other players, which they can then enter when creating their own strategy board.
+
+※Exchanging codes via chat is not advised, as they may be affected by player chat filters. Furthermore, depending on the contents of a strategy board, the resulting share code may exceed the character limit for chat messages.</target>
+      </trans-unit>
+      <trans-unit id="1519" xml:space="preserve" approved="yes">
+        <source>1519</source>
+        <target state="final">Real-time Sharing</target>
+      </trans-unit>
+      <trans-unit id="1520" xml:space="preserve" approved="yes">
+        <source>1520</source>
+        <target state="final">Real-time sharing allows you to modify a strategy board together with party members.
+
+While all players will be able to view the strategy board, only the player who initiated real-time sharing can make direct edits.
+
+Please note that real-time sharing will be suspended during combat or when players leave or join your party. However, any changes made to the strategy board will be saved automatically to the Shared List, where you can resume editing at a later time.
+
+Because real-time edits are overwritten periodically, you may wish to create a copy to preserve the original strategy board.</target>
+      </trans-unit>
+      <trans-unit id="1521" xml:space="preserve" approved="yes">
+        <source>1521</source>
+        <target state="final">Sharing Strategy Boards</target>
+      </trans-unit>
+      <trans-unit id="1522" xml:space="preserve" approved="yes">
+        <source>1522</source>
+        <target state="final">Party Sharing</target>
+      </trans-unit>
+      <trans-unit id="1523" xml:space="preserve" approved="yes">
+        <source>1523</source>
+        <target state="final">Single strategy boards or entire folders can be shared with party members via the Share with Party subcommand.
+
+Any strategy boards shared in this manner will be saved temporarily in the Shared List.</target>
+      </trans-unit>
       <trans-unit id="1550" xml:space="preserve" approved="yes">
         <source>1550</source>
         <target state="final">The mission selection list provides detailed information on the stellar missions available to you.</target>
@@ -8262,7 +8427,7 @@ Missions are divided into three categories based on conditions of availability. 
       </trans-unit>
       <trans-unit id="1554" xml:space="preserve" approved="yes">
         <source>1554</source>
-        <target state="final">Critical missions require you to craft or procure materials at a designated location. On Phaenna, you may speak with Lefleda at Glassblowers' Beacon to travel directly to the mission site while a red alert is active.</target>
+        <target state="final">Critical missions require you to craft or procure materials at a designated location. Speak with Lefleda while a red alert is active to travel directly to the mission site.</target>
       </trans-unit>
       <trans-unit id="1555" xml:space="preserve" approved="yes">
         <source>1555</source>
@@ -8365,6 +8530,282 @@ The challenge log may be checked via the main menu or by speaking with Vanthau.
 
 &lt;var 48 F20224 /var&gt;■The Blessed Hoard&lt;var 48 01 /var&gt;
 Players can collect pieces of the Blessed Hoard by completing challenge log objectives or clearing related duties. Check the Blessed Hoard tab for more information.</target>
+      </trans-unit>
+      <trans-unit id="1573" xml:space="preserve" approved="yes">
+        <source>1573</source>
+        <target state="final">Sprig Cleaning</target>
+      </trans-unit>
+      <trans-unit id="1574" xml:space="preserve" approved="yes">
+        <source>1574</source>
+        <target state="final">Overview</target>
+      </trans-unit>
+      <trans-unit id="1575" xml:space="preserve" approved="yes">
+        <source>1575</source>
+        <target state="final">Special Actions</target>
+      </trans-unit>
+      <trans-unit id="1576" xml:space="preserve" approved="yes">
+        <source>1576</source>
+        <target state="final">Scores</target>
+      </trans-unit>
+      <trans-unit id="1577" xml:space="preserve" approved="yes">
+        <source>1577</source>
+        <target state="final">Unusual Leafkin</target>
+      </trans-unit>
+      <trans-unit id="1578" xml:space="preserve" approved="yes">
+        <source>1578</source>
+        <target state="final">By participating in Sprig Cleaning, you will help clear away pests that are impeding Hatching-tide festivities.</target>
+      </trans-unit>
+      <trans-unit id="1579" xml:space="preserve" approved="yes">
+        <source>1579</source>
+        <target state="final">■基本情報
+スプリグ・クリーニングは、ソロでのみ遊べるコンテンツです。
+コンテンツの制限時間は3分です。
+
+ゲーム中は、専用アクションを駆使して魔物を刈り、
+より多くのスコアを獲得することが目的となります。
+
+■報酬
+ゲーム中に獲得したスコアの量に応じて、
+「スペシャル・トリコエッグ」を入手することできます。
+
+スペシャル・トリコエッグは、
+ミィ・ケット野外音楽堂の「エッグドリーマー」に渡すことで、
+装備品やアイテムと交換できます。</target>
+      </trans-unit>
+      <trans-unit id="1580" xml:space="preserve" approved="yes">
+        <source>1580</source>
+        <target state="final">Three unique actions are available to you during Sprig Cleaning.</target>
+      </trans-unit>
+      <trans-unit id="1581" xml:space="preserve" approved="yes">
+        <source>1581</source>
+        <target state="final">■Pruning Pirouette
+A circular area of effect attack.
+
+■Roaring Eggscapade
+An attack that moves you swiftly forward, slicing down foes in your path.
+
+■The Spriganator
+A large circular area of effect attack that can only be executed upon attaining sufficient cleaning spirit, displayed in an instance-specific gauge.</target>
+      </trans-unit>
+      <trans-unit id="1582" xml:space="preserve" approved="yes">
+        <source>1582</source>
+        <target state="final">You may increase your score in the following ways:
+
+■Trimming Troublesome Traps
+You will earn points for each pesky leafkin that you cut down to size.
+
+■Reclaiming Archon Eggs
+Hidden amongst the troublesome traps are Archon eggs meant for egg hunt participants. Collecting gold, silver, and bronze Archon eggs will earn you a different number of points for each type.
+
+Your current score and high score will be displayed in the duty list.</target>
+      </trans-unit>
+      <trans-unit id="1583" xml:space="preserve" approved="yes">
+        <source>1583</source>
+        <target state="final">ゲーム中、特殊な魔物「フシギナ・トラップ」が出現することがあります。</target>
+      </trans-unit>
+      <trans-unit id="1584" xml:space="preserve" approved="yes">
+        <source>1584</source>
+        <target state="final">このフシギナ・トラップを刈ると、
+以下の特殊な効果がランダムで発生します。
+
+・草刈り魂上昇
+「草刈り魂」が大幅に上昇します。
+
+・アルコンエッグ発見率上昇
+アルコンエッグを見つけやすくなります。
+
+・アルコンエッグ【金】率上昇
+見つけたアルコンエッグが、必ずアルコンエッグ【金】になります。</target>
+      </trans-unit>
+      <trans-unit id="1585" xml:space="preserve" approved="yes">
+        <source>1585</source>
+        <target state="final">■Crafting and Gathering Restrictions
+During a stellar mission, crafting and gathering will not award experience, and spiritbond will accrue at a different rate.
+
+■Fishing Restrictions
+At the end of each stellar mission, your Angler's Art stacks will be reset, regardless of how many you have accrued.
+
+■Ground Support Bonuses
+Ground supporters who make sufficient contributions to a mech op will receive bonus credits for a set number of subsequent missions, regardless of objective. These bonuses are as follows:
+
+Cosmocredits: +20
+Sector Credits: +10
+
+For the duration of the effect, an arrow symbol will be displayed on the Initiate button on the mission selection window.</target>
+      </trans-unit>
+      <trans-unit id="1586" xml:space="preserve" approved="yes">
+        <source>1586</source>
+        <target state="final">Gold Count</target>
+      </trans-unit>
+      <trans-unit id="1587" xml:space="preserve" approved="yes">
+        <source>1587</source>
+        <target state="final">Your &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;gold count&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; refers to a special bonus that accrues as high-level missions are completed in succession.
+
+■Activation Conditions
+To start a gold count, consecutively attain gold stars in provisional or basic missions of class A or higher. Changing classes will not break this streak.
+
+Upon attaining another gold star after accruing 5 golds, you will achieve Super Star status and your gold count will reset to zero.
+
+Each cosmic exploration field has a separate gold count which will be retained even if you leave the area.
+
+■Bonus Effect
+An active gold count will yield increased rewards for stellar missions, with Super Star status offering the highest bonus. Gold count and Super Star bonuses affect all credit types, dronebits, and contributions to the Starward Standings. You can confirm your current gold count via the mission selection list.</target>
+      </trans-unit>
+      <trans-unit id="1588" xml:space="preserve" approved="yes">
+        <source>1588</source>
+        <target state="final">
+■Reset Conditions
+The following actions will break a gold count streak:
+・Initiating a class B, C, or D mission.
+・Completing a mission with a rating below Gold Star.
+・Abandoning a mission (unless the mission was automatically abandoned due to your mech ops pilot application having been selected).
+
+Conversely, the following actions will not break a gold count streak:
+・Taking part in mech ops.
+・Taking part in cosmic exploration projects.
+・Initiating and/or completing critical missions.</target>
+      </trans-unit>
+      <trans-unit id="1596" xml:space="preserve" approved="yes">
+        <source>1596</source>
+        <target state="final">The icon representing saved outfits will also indicate the number of individual items presently being used as part of the outfit glamour. An orange number indicates all parts have been stored together.
+
+As with standard glamours, outfit glamours will appear in each tab of the glamour dresser. Their item descriptions will also indicate they are part of an outfit glamour. It is worth noting that, when removing outfit glamours from the glamour dresser, they cannot be removed as individual pieces.</target>
+      </trans-unit>
+      <trans-unit id="1597" xml:space="preserve" approved="yes">
+        <source>1597</source>
+        <target state="final">Adding Outfit Gear</target>
+      </trans-unit>
+      <trans-unit id="1598" xml:space="preserve" approved="yes">
+        <source>1598</source>
+        <target state="final">It is possible to add gear to incomplete outfit glamours stored in the glamour dresser, requiring the equivalent number of glamour prisms to do so.
+
+With the missing gear in your inventory or Armoury Chest, open the Outfits tab of the glamour dresser, choose an outfit glamour you wish to add gear to, then select “Add Missing Outfit Gear” from the subcommand menu.
+
+Gear can also be added via the Outfit Glamour button in the Glamour Creation window.</target>
+      </trans-unit>
+      <trans-unit id="1599" xml:space="preserve" approved="yes">
+        <source>1599</source>
+        <target state="final">If an outfit glamour matching the selected gear is available in the glamour dresser, pressing this button will automatically select that outfit for gear additions.</target>
+      </trans-unit>
+      <trans-unit id="1601" xml:space="preserve" approved="yes">
+        <source>1601</source>
+        <target state="final">Worqor Chirteh (Triumph)</target>
+      </trans-unit>
+      <trans-unit id="1602" xml:space="preserve" approved="yes">
+        <source>1602</source>
+        <target state="final">Map Overview</target>
+      </trans-unit>
+      <trans-unit id="1603" xml:space="preserve" approved="yes">
+        <source>1603</source>
+        <target state="final">Far to the west of Eorzea, across the Indigo Deep, lies the continent of Tural. Here, in the mountainous region of Worqor Chirteh, a great battle is said to have been waged by the Yok Huy of ancient times. The Grand Companies would borrow this battlefield of eld to test their mettle, and, under the watchful gaze of the snow spirits, the sounds of conflicts past and present echo through the mountainside once more.</target>
+      </trans-unit>
+      <trans-unit id="1604" xml:space="preserve" approved="yes">
+        <source>1604</source>
+        <target state="final">Victory Conditions</target>
+      </trans-unit>
+      <trans-unit id="1605" xml:space="preserve" approved="yes">
+        <source>1605</source>
+        <target state="final">In Worqor Chirteh (Triumph), victory goes to the first alliance to reach the specified tactical rating, which is accumulated by:
+　1. Defeating enemy players
+　2. Claiming triumphs
+
+In the event that none of the three alliances reaches the specified tactical rating within the time limit, victory will be awarded to the alliance with the highest tactical rating.</target>
+      </trans-unit>
+      <trans-unit id="1606" xml:space="preserve" approved="yes">
+        <source>1606</source>
+        <target state="final">Triumphs</target>
+      </trans-unit>
+      <trans-unit id="1607" xml:space="preserve" approved="yes">
+        <source>1607</source>
+        <target state="final">Across the field of battle, there are points of tactical importance known as triumphs. By laying claim to these locations, players can increase their team's tactical rating over time.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Triumph States■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+In the course of battle, triumphs will assume one of four states, in the following order:
+
+1. Inactive
+When inactive, a triumph cannot be claimed. All triumphs are inactive at the onset of battle, but as time passes, they will randomly begin activating.</target>
+      </trans-unit>
+      <trans-unit id="1608" xml:space="preserve" approved="yes">
+        <source>1608</source>
+        <target state="final">2. Activating
+When a triumph begins activating, a symbol will appear above it indicating the time remaining before it becomes unclaimed. The symbol will gradually take shape until it becomes complete, rendering the triumph unclaimed.</target>
+      </trans-unit>
+      <trans-unit id="1609" xml:space="preserve" approved="yes">
+        <source>1609</source>
+        <target state="final">3. Unclaimed
+When a triumph is unclaimed, several fields of triumph will appear around it. Once a single team secures all fields, they will claim the triumph for themselves.</target>
+      </trans-unit>
+      <trans-unit id="1610" xml:space="preserve" approved="yes">
+        <source>1610</source>
+        <target state="final">4. Claimed
+When claimed, a triumph gradually increases a team's tactical rating. A triumph that has been claimed cannot be seized by the opposition; however, after a certain amount of time has elapsed, it will revert to being inactive. When it does so, a triumph in a different location will become unclaimed.</target>
+      </trans-unit>
+      <trans-unit id="1611" xml:space="preserve" approved="yes">
+        <source>1611</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Triumph Rank■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+When a triumph begins activating, it will randomly be assigned a rank: B, A, or S, as indicated by the corresponding shape. While higher-ranked triumphs are rarer, they increase a team's tactical rating at a faster rate.</target>
+      </trans-unit>
+      <trans-unit id="1612" xml:space="preserve" approved="yes">
+        <source>1612</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Changes during Battle■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+As the battle progresses, the number of triumphs that can be simultaneously active will decrease. At the same time, the likelihood that they will activate at a higher rank will increase.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Changes Due to Weather■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Certain weather conditions increase the likelihood that triumphs will activate at a higher rank.</target>
+      </trans-unit>
+      <trans-unit id="1613" xml:space="preserve" approved="yes">
+        <source>1613</source>
+        <target state="final">Fields of Triumph</target>
+      </trans-unit>
+      <trans-unit id="1614" xml:space="preserve" approved="yes">
+        <source>1614</source>
+        <target state="final">Several fields of triumph will appear around an unclaimed triumph. Players can secure a field of triumph by remaining within the area for a set period of time. The number of players within the field does not affect the time required.
+
+The higher the rank of the triumph, the more fields will appear.
+
+Once a field of triumph has been secured, the opposition may attempt to seize it for themselves. Even though another team may have secured the field, the battle is far from over!</target>
+      </trans-unit>
+      <trans-unit id="1615" xml:space="preserve" approved="yes">
+        <source>1615</source>
+        <target state="final">Snow</target>
+      </trans-unit>
+      <trans-unit id="1616" xml:space="preserve" approved="yes">
+        <source>1616</source>
+        <target state="final">As time passes in a match, snow may begin to fall on Worqor Chirteh. While snow is falling, snow spirits will appear around the arena to engage in a bout of mischief-making.</target>
+      </trans-unit>
+      <trans-unit id="1617" xml:space="preserve" approved="yes">
+        <source>1617</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Snow Soldiers&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+When snow spirits appear, they will cast Soldiers of 'Fridgeration to create snow troops of various sizes around the arena. These snow soldiers form obstacles that can be used to turn the tide of battle in your favor.</target>
+      </trans-unit>
+      <trans-unit id="1618" xml:space="preserve" approved="yes">
+        <source>1618</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Blessed Blast■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+When snow spirits are present, they will repeatedly cast Blessed Blast. Players caught in this blast will be protected by a barrier that nullifies damage.</target>
+      </trans-unit>
+      <trans-unit id="1619" xml:space="preserve" approved="yes">
+        <source>1619</source>
+        <target state="final">Auroras</target>
+      </trans-unit>
+      <trans-unit id="1620" xml:space="preserve" approved="yes">
+        <source>1620</source>
+        <target state="final">As time passes in a match, auroras may appear in the skies over Worqor Chirteh. This weather condition causes the following two effects:
+1. Increases the likelihood that triumphs will activate as a higher rank.
+2. Gradually fills the limit gauge of all players.</target>
+      </trans-unit>
+      <trans-unit id="1621" xml:space="preserve" approved="yes">
+        <source>1621</source>
+        <target state="final">Obtaining Aetherpool Weapons</target>
+      </trans-unit>
+      <trans-unit id="1622" xml:space="preserve" approved="yes">
+        <source>1622</source>
+        <target state="final">You may use your illumed aetherpool weapon outside of Pilgrim's Traverse after clearing the area marked by stone 30 and completing the subsequent quest.
+
+However, you must first forge a sufficient number of illumed aetherpool grips by speaking with Ose Wyd in Wolekdorf. Forging one grip will reduce the strength of your illumed aetherpool arm and armor by 10.
+
+Once you have acquired enough illumed aetherpool grips, you may obtain a weapon of the First Light by speaking with Ose Wyd and selecting “Request to keep your aetherpool gear.”
+
+Once you clear the area marked by stone 100 and enhance your illumed aetherpool arm to +60 or above, sacramental weapons will also become available.</target>
       </trans-unit>
     </body>
   </file>

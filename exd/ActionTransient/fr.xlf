@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="ActionTransient" datatype="plaintext" source-language="en" target-language="fr">
     <body>
@@ -3553,11 +3553,11 @@ L'effet prend fin en relançant l'action.</target>
         <target state="final">Crée un dôme protecteur d'une portée de 8 yalms autour du lanceur.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 18s
 Réduit de 10% les dégâts subis par vous et les équipiers dans un rayon de 30 yalms.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 Octroie également un effet de restauration périodique de PV à vous et aux équipiers sous le dôme.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
-Ces effets continuent de s'appliquer tant que vous ou vos alliés se trouvent dans le dôme.
-Celui-ci prend fin si vous effectuez une action, un déplacement ou une rotation.
+Ces effets continuent de s'appliquer tant que vous ou vos alliés vous trouvez dans le dôme.
+Le dôme disparaît si vous effectuez une action, un déplacement ou une rotation.
 Interrompt vos attaques automatiques.</target>
       </trans-unit>
       <trans-unit id="3614" xml:space="preserve" approved="yes">
@@ -5090,7 +5090,7 @@ La puissance est réduite de 50% au-delà du premier ennemi touché.
       </trans-unit>
       <trans-unit id="7433" xml:space="preserve" approved="yes">
         <source>7433</source>
-        <target state="final">Vous octroie ainsi qu'aux équipiers alentour l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Indulgence plénière&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+        <target state="final">Réduit de 10% les dégâts reçus par vous et les équipiers alentour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 Pendant la durée de l'effet, les PV des personnes en bénéficiant sont restaurés à chaque fois que vous utilisez Médica, Méga Soin&lt;var 08 E4E94519 ((&lt;var 08 E0E9494D ((&lt;var 08 E4E94519 ((&lt;var 08 E0E94961 ((, Méga Médica)) ((, Extra Médica)) /var&gt;)) ((, Extra Médica)) /var&gt; ou Offrande de ravissement)) (( ou &lt;var 08 E4E94519 ((&lt;var 08 E0E94961 ((Méga Médica)) ((Extra Médica)) /var&gt;)) ((Extra Médica)) /var&gt;)) /var&gt;)) (( ou &lt;var 08 E4E94519 ((&lt;var 08 E0E94961 ((Méga Médica)) ((Extra Médica)) /var&gt;)) ((Extra Médica)) /var&gt;)) /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 200</target>
@@ -5562,7 +5562,7 @@ Partage le même temps de recharge qu'&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F
       </trans-unit>
       <trans-unit id="7520" xml:space="preserve" approved="yes">
         <source>7520</source>
-        <target state="final">Augmente de 5% vos dégâts magiques infligés.
+        <target state="final">Augmente de 10% vos dégâts magiques infligés.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 5% les dégâts infligés par les équipiers alentour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s&lt;var 08 E4E94524 ((&lt;var 08 E0E9495D ((
@@ -5571,13 +5571,12 @@ Partage le même temps de recharge qu'&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F
       </trans-unit>
       <trans-unit id="7521" xml:space="preserve" approved="yes">
         <source>7521</source>
-        <target state="final">Vous octroie 3 degrés de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Combo Magilame préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+        <target state="final">Allonge de 25 yalms la portée de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Riposte enchantée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Zwerchhau enchanté&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Redoublement enchanté&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie 3 degrés de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Combo Magilame préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Combo Magilame préparé&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; permet d'utiliser Riposte enchantée, Zwerchhau enchanté, Redoublement enchanté, Moulinet enchanté, Deuxième moulinet et Troisième moulinet sans consommer de &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mana noire&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ni de &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mana blanche&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-&lt;var 08 E4E94524 ((&lt;var 08 E0E9494F ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 08 E4E94524 ((&lt;var 08 E0E9495B0706 /var&gt;)) 06 /var&gt; degrés de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Manafication&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manafication&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 5% vos dégâts magiques infligés.
-)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E94524 ((&lt;var 08 E0E94965 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsque les 6 degrés de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Manafication&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; sont consommés, vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Syncristallisation préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 08 E4E94524 ((&lt;var 08 E0E94965 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Syncristallisation préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
 )) (()) /var&gt;)) (()) /var&gt;Interrompt les combos.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; en combat.</target>
@@ -8868,7 +8867,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Pas technique&lt;va
       <trans-unit id="16005" xml:space="preserve" approved="yes">
         <source>16005</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94527 ((&lt;var 08 E0E9495FF20208F201F4 /var&gt;)) F201F4 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94527 ((&lt;var 08 E0E9495FF2021CF201F4 /var&gt;)) F201F4 /var&gt;
 La puissance est réduite de 60% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Coût Jauge de fascination&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 50</target>
       </trans-unit>
@@ -9005,17 +9004,18 @@ L'effet prend fin en relançant l'action.</target>
       <trans-unit id="16146" xml:space="preserve" approved="yes">
         <source>16146</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201F4F2017C /var&gt;)) F2017C /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201B8F2014A /var&gt;)) F2014A /var&gt;
 &lt;var 08 E4E94526 ((&lt;var 08 E0E94947 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Arrachage de la jugulaire préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 Cet effet disparaît si une technique d'arme est utilisée.
-)) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; consomme une &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cartouche d'éther&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+)) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Maximum de charges&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 2
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; consomme une &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cartouche d'éther&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Cette action a un temps de recharge indépendant.</target>
       </trans-unit>
       <trans-unit id="16147" xml:space="preserve" approved="yes">
         <source>16147</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20230F201CC /var&gt;)) F201CC /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201F4F2019A /var&gt;)) F2019A /var&gt;
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Croc pugnace&lt;var 08 E4E94526 ((&lt;var 08 E0E94947 ((
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Lacération de l'abdomen préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s)) (()) /var&gt;)) (()) /var&gt;
@@ -9041,7 +9041,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Croc pugnace&lt;var
       <trans-unit id="16150" xml:space="preserve" approved="yes">
         <source>16150</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF2026CF2021C /var&gt;)) F2021C /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20230F201EA /var&gt;)) F201EA /var&gt;
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Griffe sauvage&lt;var 08 E4E94526 ((&lt;var 08 E0E94947 ((
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Perforation des yeux préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s)) (()) /var&gt;)) (()) /var&gt;
@@ -9064,9 +9064,9 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Griffe sauvage&lt;v
       <trans-unit id="16153" xml:space="preserve" approved="yes">
         <source>16153</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 300
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 340
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; dégâts périodiques.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Rupture sonique préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="16154" xml:space="preserve" approved="yes">
@@ -9088,7 +9088,7 @@ Devient &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Insigne fatidique&lt
       <trans-unit id="16156" xml:space="preserve" approved="yes">
         <source>16156</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF0F0C9 /var&gt;)) C9 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF0DCB5 /var&gt;)) B5 /var&gt;
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Arrachage de la jugulaire préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -9097,7 +9097,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Consécution&lt;var
       <trans-unit id="16157" xml:space="preserve" approved="yes">
         <source>16157</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20118F0F0 /var&gt;)) F0F0 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20104F0DC /var&gt;)) F0DC /var&gt;
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Lacération de l'abdomen préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -9106,7 +9106,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Consécution&lt;var
       <trans-unit id="16158" xml:space="preserve" approved="yes">
         <source>16158</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20140F20118 /var&gt;)) F20118 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF2012CF20104 /var&gt;)) F20104 /var&gt;
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Perforation des yeux préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -9134,7 +9134,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Consécution&lt;var
       <trans-unit id="16162" xml:space="preserve" approved="yes">
         <source>16162</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201CCF2017C /var&gt;)) F2017C /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201A4F20154 /var&gt;)) F20154 /var&gt;
 &lt;var 08 E4E94526 ((&lt;var 08 E0E94957 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Hypervitesse préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 Cet effet disparaît si une technique d'arme est utilisée.
@@ -9152,7 +9152,8 @@ Cet effet disparaît si une technique d'arme est utilisée.
       <trans-unit id="16164" xml:space="preserve" approved="yes">
         <source>16164</source>
         <target state="final">Cible un ennemi pour en extraire de l'éther.
-Vous octroie &lt;var 08 E4E94526 ((&lt;var 08 E0E94959 ((trois)) ((deux)) /var&gt;)) ((deux)) /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cartouches d'éther&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.&lt;var 08 E4E94526 ((&lt;var 08 E0E94965 ((
+Augmente le nombre maximum de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cartouches d'éther&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; à &lt;var 08 E4E94526 ((&lt;var 08 E0E949590705 /var&gt;)) 05 /var&gt; et vous octroie &lt;var 08 E4E94526 ((&lt;var 08 E0E949590403 /var&gt;)) 03 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cartouches d'éther&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s&lt;var 08 E4E94526 ((&lt;var 08 E0E94965 ((
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Combo du cœur préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s)) (()) /var&gt;)) (()) /var&gt;</target>
       </trans-unit>
@@ -9487,7 +9488,7 @@ Partage le même temps de recharge que &lt;var 48 F201F4 /var&gt;&lt;var 49 F201
       <trans-unit id="16472" xml:space="preserve" approved="yes">
         <source>16472</source>
         <target state="final">Matérialise la part obscure de votre âme pour qu'elle se batte à vos côtés.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 22s
 &lt;var 08 E4E94521 ((&lt;var 08 E0E94965 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Sillon de morgue préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
 )) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance des coups de l'estime&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94521 ((&lt;var 08 E0E94959F201A4F20154 /var&gt;)) F20154 /var&gt;&lt;var 08 E4E94521 ((&lt;var 08 E0E9495B ((
@@ -9647,7 +9648,7 @@ Utiliser les actions &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Mokusô
       <trans-unit id="16491" xml:space="preserve" approved="yes">
         <source>16491</source>
         <target state="final">Effectue un ninjutsu d'attaque magique de feu sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 600
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 850
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Kassatsu&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Mudrâ requises&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Chi&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;→&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ten&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ou &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Jin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;→&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ten&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -9699,7 +9700,7 @@ Les attaques de votre ombre ne génèrent aucun bonus de combo, mais votre &lt;v
       <trans-unit id="16496" xml:space="preserve" approved="yes">
         <source>16496</source>
         <target state="final">Effectue une attaque physique en ligne droite sur les ennemis devant vous.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94518 ((&lt;var 08 E0E9495F ((de 120 à 600)) ((de 100 à 500)) /var&gt;)) ((de 100 à 500)) /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94518 ((&lt;var 08 E0E9495F ((de 140 à 700)) ((de 100 à 500)) /var&gt;)) ((de 100 à 500)) /var&gt;
 Vide entièrement la &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Jauge de voix de l'âme&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 La puissance de l'attaque augmente avec la quantité de jauge consommée.
 &lt;var 08 E4E94518 ((&lt;var 08 E0E94957 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Jauge de voix de l'âme ≧ 80&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Flèche explosive préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -9716,7 +9717,7 @@ Cette technique d'arme a un temps de recharge indépendant qui est appliqué aux
       <trans-unit id="16498" xml:space="preserve" approved="yes">
         <source>16498</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 620
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94520 ((&lt;var 08 E0E9495FF20294F2026C /var&gt;)) F2026C /var&gt;
 &lt;var 08 E4E94520 ((&lt;var 08 E0E9495F ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Maximum de charges&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 2
 )) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E94520 ((&lt;var 08 E0E94949 ((Cette technique d'arme a un temps de recharge indépendant partagé avec celui de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Lance-toxine&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.)) ((Cette technique d'arme a un temps de recharge indépendant.)) /var&gt;)) ((Cette technique d'arme a un temps de recharge indépendant.)) /var&gt;</target>
       </trans-unit>
@@ -9732,7 +9733,7 @@ Cette technique d'arme a un temps de recharge indépendant qui est appliqué aux
       <trans-unit id="16500" xml:space="preserve" approved="yes">
         <source>16500</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 620
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94520 ((&lt;var 08 E0E9495FF20294F2026C /var&gt;)) F2026C /var&gt;
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; remplit la &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Jauge de batterie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de 20.
 Cette technique d'arme a un temps de recharge indépendant.</target>
       </trans-unit>
@@ -10023,7 +10024,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;&lt;var 08 E4E94524
       <trans-unit id="16535" xml:space="preserve" approved="yes">
         <source>16535</source>
         <target state="final">Effectue une attaque magique neutre sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94519 ((&lt;var 08 E0E9495FF20550F204D8 /var&gt;)) F204D8 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94519 ((&lt;var 08 E0E9495FF20578F204D8 /var&gt;)) F204D8 /var&gt;
 La puissance est réduite de 50% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; consomme un &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Lys de sang&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
@@ -10057,7 +10058,7 @@ Ne peut être cumulé avec l'effet Illumination séraphique.</target>
       <trans-unit id="16540" xml:space="preserve" approved="yes">
         <source>16540</source>
         <target state="final">Inflige des dégâts magiques périodiques neutres à la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E9451D ((&lt;var 08 E0E9495F5147 /var&gt;)) 47 /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt; Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s</target>
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E9451D ((&lt;var 08 E0E9495F5647 /var&gt;)) 47 /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt; Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s</target>
       </trans-unit>
       <trans-unit id="16541" xml:space="preserve" approved="yes">
         <source>16541</source>
@@ -14207,7 +14208,7 @@ Ce sort a un temps de recharge indépendant qui ne peut pas être modifié par d
       <trans-unit id="24314" xml:space="preserve" approved="yes">
         <source>24314</source>
         <target state="final">Inflige des dégâts magiques périodiques neutres à la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 80 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94529 ((&lt;var 08 E0E9495F5651 /var&gt;)) 51 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; restaure les PV de la cible de votre Kardion.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94529 ((&lt;var 08 E0E94956AB83 /var&gt;)) 83 /var&gt;
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Eukrasia&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -14745,7 +14746,7 @@ La puissance est réduite de 25% au-delà du premier ennemi touché.
       <trans-unit id="25759" xml:space="preserve" approved="yes">
         <source>25759</source>
         <target state="final">Effectue une attaque physique sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FC9A1 /var&gt;)) A1 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FB58D /var&gt;)) 8D /var&gt;
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Hypervitesse préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -14754,9 +14755,9 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Consécution&lt;var
       <trans-unit id="25760" xml:space="preserve" approved="yes">
         <source>25760</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1200
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1000
 La puissance est réduite de 15% au-delà du premier ennemi touché.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; consomme une &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cartouche d'éther&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; consomme deux &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cartouche d'éther&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Cette action a un temps de recharge indépendant.</target>
       </trans-unit>
       <trans-unit id="25761" xml:space="preserve" approved="yes">
@@ -14951,7 +14952,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ôgi&lt;var 1D /var
       <trans-unit id="25784" xml:space="preserve" approved="yes">
         <source>25784</source>
         <target state="final">Effectue une attaque physique en ligne droite sur les ennemis devant vous.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 600
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 700
 La puissance est réduite de 50% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Flèche explosive préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
@@ -14990,7 +14991,7 @@ tombe à 0.
       <trans-unit id="25788" xml:space="preserve" approved="yes">
         <source>25788</source>
         <target state="final">Effectue une attaque physique en ligne droite sur les ennemis devant vous.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 620
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94520 ((&lt;var 08 E0E9495FF20294F2026C /var&gt;)) F2026C /var&gt;
 La puissance est réduite de 25% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; remplit la &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Jauge de batterie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de 20.
 &lt;var 08 E4E94520 ((&lt;var 08 E0E94961 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Excavation préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -15026,7 +15027,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Final technique&lt;
       <trans-unit id="25791" xml:space="preserve" approved="yes">
         <source>25791</source>
         <target state="final">Effectue une attaque physique dans une zone en éventail vers la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E4E94527 ((&lt;var 08 E0E9495FF201A4F2012C /var&gt;)) F2012C /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E4E94527 ((&lt;var 08 E0E9495FF201CCF2012C /var&gt;)) F2012C /var&gt;
 La puissance est réduite de 60% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Danse de l'éventail IV préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
@@ -15560,7 +15561,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Calcination&lt;var 
       <trans-unit id="25859" xml:space="preserve" approved="yes">
         <source>25859</source>
         <target state="final">Effectue une attaque magique neutre sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94519 ((&lt;var 08 E0E9495FF20154F20136 /var&gt;)) F20136 /var&gt;</target>
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94519 ((&lt;var 08 E0E9495FF2015EF20136 /var&gt;)) F20136 /var&gt;</target>
       </trans-unit>
       <trans-unit id="25860" xml:space="preserve" approved="yes">
         <source>25860</source>
@@ -16391,6 +16392,7 @@ Vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Serment du bouc
       <trans-unit id="29069" xml:space="preserve" approved="yes">
         <source>29069</source>
         <target state="final">Vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Invincible&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, et octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Phalanx&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aux équipiers alentour.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Invincible&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; annule les dégâts de la plupart des attaques.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Phalanx&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 33% les dégâts subis.
@@ -16603,7 +16605,7 @@ Ne peut être utilisé que si les PV sont supérieurs à 12 000 ou sous l'effet 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 2000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; inflige l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Seul survivant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; à la cible.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12s
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seul survivant&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 20% la puissance des effets curatifs que reçoit la cible. Si elle tombe in&lt;var 16 /var&gt;cons&lt;var 16 /var&gt;cien&lt;var 16 /var&gt;te sous cet effet, restaure 20% de vos PV et PM maximums et réinitialise le temps de recharge de Coupe plongeante.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seul survivant&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 15% la puissance des effets curatifs que reçoit la cible. Si elle tombe in&lt;var 16 /var&gt;cons&lt;var 16 /var&gt;cien&lt;var 16 /var&gt;te sous cet effet, restaure 15% de vos PV et PM maximums et réinitialise le temps de recharge de Coupe plongeante.
 Ne peut pas être utilisé sous l'effet Entrave.</target>
       </trans-unit>
       <trans-unit id="29093" xml:space="preserve" approved="yes">
@@ -16620,9 +16622,9 @@ Vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Arts ténébreu
         <target state="final">Attire près de vous les ennemis dans un rayon de 10 yalms et fait apparaître à vos pieds un cercle de Terre salée d'une portée de 5 yalms.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet de Terre salée sur vous&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; restaure périodiquement vos PV et réduit de 20% vos dégâts subis dans l'aire d'effet.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 6000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet de Terre salée sur vos ennemis&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; inflige des dégâts périodiques dans l'aire d'effet.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 6000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5000
 Cette action devient Sel et Ténèbres après utilisation.</target>
       </trans-unit>
       <trans-unit id="29095" xml:space="preserve" approved="yes">
@@ -16981,7 +16983,7 @@ Partage le même temps de recharge que &lt;var 48 F201F4 /var&gt;&lt;var 49 F201
       <trans-unit id="29130" xml:space="preserve" approved="yes">
         <source>29130</source>
         <target state="final">Effectue périodiquement des attaques physiques sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4500 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4s
 Réduit de 25% vos dégâts subis pendant la durée de l'effet.
 Une fois la durée écoulée, exécute &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Gâchette terminale&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Vous pouvez vous déplacer durant l'exécution de l'action.
@@ -17043,7 +17045,7 @@ Sans effet si la cible bénéficie d'un effet annulant les altérations d'état 
         <target state="final">Saute sur la cible et porte une attaque magique sur elle et les ennemis alentour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 6000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie ainsi qu'aux équipiers alentour l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bouclier&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bouclier&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 8% les dégâts reçus.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bouclier&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 10% les dégâts reçus.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie 3 degrés de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Giga Chatoiement préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s
@@ -17061,6 +17063,7 @@ Ne peut pas être utilisé sous l'effet Entrave.</target>
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 2s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tempérance&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tempérance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; restaure périodiquement vos PV et ceux des équipiers dans un rayon de 30 yalms autour de vous.
+Cet effet additionnel n'est pas entravé par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;jauge de Transcendance&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pleine.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Temps de charge&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s</target>
@@ -17089,7 +17092,7 @@ Ce sort a un temps de recharge indépendant.</target>
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Loi de l'infection&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; inflige des dégâts périodiques à la cible.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 3000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12s
 La puissance est augmentée de 50% si vous êtes sous l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Récitation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Intoxication&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 20% la puissance des effets curatifs que reçoit la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Intoxication&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 15% la puissance des effets curatifs que reçoit la cible.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12s
 Ce sort a un temps de recharge indépendant.</target>
       </trans-unit>
@@ -17111,6 +17114,7 @@ Sans effet si aucun des deux effets n'est appliqué par vous-même, ou si la cib
       <trans-unit id="29236" xml:space="preserve" approved="yes">
         <source>29236</source>
         <target state="final">Vous octroie ainsi qu'aux équipiers alentour les effets &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Thèse des rafales hurlantes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Thèse des flots impétueux&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Thèse des rafales hurlantes&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 25% la vitesse de déplacement.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Thèse des flots impétueux&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 10% vos dégâts infligés.
@@ -17272,6 +17276,7 @@ Ce sort a un temps de recharge indépendant.</target>
       <trans-unit id="29254" xml:space="preserve" approved="yes">
         <source>29254</source>
         <target state="final">Met fin à votre &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Macrocosme&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et restaure avec une puissance de 4000 + 20% des dégâts encaissés pendant la durée de l'effet.
+Cette action n'est pas entravée par les obstacles.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
@@ -17327,6 +17332,7 @@ Ce sort a un temps de recharge indépendant.</target>
         <target state="final">Effectue une attaque magique en ligne droite vers la cible.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12 000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Haima&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, une barrière sur vous et vos équipiers dans un rayon de 20 yalms, absorbant un certain montant de dégâts, et octroie 3 degrés de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Haimatinon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Cet effet additionnel n'est pas entravé par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 Quand la barrière a absorbé son montant de dégâts, elle est réappliquée en échange d'un degré de Haimatinon.
 Haimatinon restaure des PV à la cible lorsque l'effet prend fin.
@@ -17455,6 +17461,7 @@ La puissance est réduite à 4500 au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 8000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Marche conquérante&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Marche conquérante&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 15% les temps de lancement et de recharge des techniques d'arme et augmente de 5% les dégâts infligés par vous et vos équipiers dans un rayon de 30 yalms autour de vous.
+Cet effet additionnel n'est pas entravé par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Flèche explosive préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s
@@ -17528,6 +17535,7 @@ Si une altération d'état est soignée directement ou grâce à la barrière, l
         <target state="final">Vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Fantaisie héroïque&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fantaisie héroïque&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 15% les temps de lancement et de recharge des techniques d'arme, augmente de 10% les dégâts infligés par vous et vos équipiers dans un rayon de 30 yalms autour de vous et augmente de 25% la vitesse de déplacement.
 Remplit périodiquement votre jauge de Transcendance tant que la cible est en combat.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Rappel héroïque&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
@@ -17726,7 +17734,7 @@ Cette action a un temps de recharge indépendant.</target>
       <trans-unit id="29422" xml:space="preserve" approved="yes">
         <source>29422</source>
         <target state="final">Effectue périodiquement des attaques physiques sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 3s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4500 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 3s
 Réduit de 25% vos dégâts subis et augmente de 50% votre vitesse de déplacement pendant la durée de l'effet.
 Une fois la durée écoulée, exécute &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Final tranchant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Vous pouvez vous déplacer durant l'exécution de l'action.
@@ -17821,9 +17829,9 @@ Met fin à l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Danse tra
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
-      <trans-unit id="29428" xml:space="preserve" approved="no">
+      <trans-unit id="29428" xml:space="preserve" approved="yes">
         <source>29428</source>
-        <target state="needs-translation">Effectue une attaque physique dans une zone en éventail vers la cible.
+        <target state="final">Effectue une attaque physique dans une zone en éventail vers la cible.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 6000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; diminue de 20% les dégâts subis par vous et par votre &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Partenaire de position rapprochée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5s</target>
@@ -17831,6 +17839,7 @@ Met fin à l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Danse tra
       <trans-unit id="29429" xml:space="preserve" approved="yes">
         <source>29429</source>
         <target state="final">Restaure vos PV et ceux des équipiers alentour.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 8000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; votre &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Partenaire de position rapprochée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; restaure lui aussi ses propres PV ainsi que ceux des équipiers proches.</target>
       </trans-unit>
@@ -18073,7 +18082,7 @@ Cette technique d'arme a un temps de recharge indépendant.</target>
       <trans-unit id="29491" xml:space="preserve" approved="yes">
         <source>29491</source>
         <target state="final">Effectue une attaque physique en ligne droite sur les ennemis devant vous.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vie du dragon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vie du dragon&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; les dégâts que vous infligez augmentent de 25%, et ceux que vous recevez de 15%.
@@ -18088,7 +18097,7 @@ Cet effet disparaît lorsque &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt
       <trans-unit id="29492" xml:space="preserve" approved="yes">
         <source>29492</source>
         <target state="final">Effectue une attaque physique en ligne droite sur les ennemis devant vous.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de 4000 à 8000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de 5000 à 10 000
 La puissance augmente d'autant plus que les PV restants de la cible sont bas. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.
 Met fin à &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vie du dragon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt; Naströnd préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -18188,9 +18197,9 @@ La défense de la cible n'a aucune influence sur les dégâts infligés par cett
       <trans-unit id="29504" xml:space="preserve" approved="yes">
         <source>29504</source>
         <target state="final">Effectue un ninjutsu d'attaque magique sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; dégâts périodiques.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Trimudrâ&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
@@ -18206,7 +18215,7 @@ Devient &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Hyôshô Ranryû&lt;
       <trans-unit id="29506" xml:space="preserve" approved="yes">
         <source>29506</source>
         <target state="final">Effectue un ninjutsu d'attaque physique à distance sur la cible.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 16 000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 18 000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Trimudrâ&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
@@ -18396,7 +18405,7 @@ Ne peut pas être utilisé sous l'effet Entrave.</target>
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12 000
 La puissance est réduite à 8000 en cas de cibles multiples.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie une barrière absorbant un certain montant de dégâts en cas de cibles multiples.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 9000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10 000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 Cette action devient &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Kaeshi Namikiri&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après utilisation.
 Cette technique d'arme a un temps de recharge indépendant.</target>
       </trans-unit>
@@ -18407,7 +18416,7 @@ Cette technique d'arme a un temps de recharge indépendant.</target>
 La puissance est réduite à 8000 en cas de cibles multiples.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Ôgi&lt;var 1D /var&gt;: Namikiri
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie une barrière absorbant un certain montant de dégâts en cas de cibles multiples.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 9000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10 000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
@@ -18595,6 +18604,7 @@ Ne peut pas être utilisé sous l'effet Entrave.
         <target state="final">Vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Blason protecteur&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, une barrière absorbant un certain montant de dégâts.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12 000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Blason revigorant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; à vous et à vos équipiers dans un rayon de 15 yalms quand la barrière a absorbé son montant de dégâts.
+Cet effet additionnel n'est pas entravé par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blason revigorant&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; restaure périodiquement les PV.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 6000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 6s</target>
       </trans-unit>
@@ -18896,6 +18906,7 @@ Effectue une attaque magique sur la cible et les ennemis autour.
       <trans-unit id="29675" xml:space="preserve" approved="yes">
         <source>29675</source>
         <target state="final">Effectue une attaque magique sur les ennemis alentour.
+L'aire d'effet de cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20 000
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
@@ -18938,6 +18949,7 @@ Effectue une attaque magique sur la cible et les ennemis autour.
       <trans-unit id="29680" xml:space="preserve" approved="yes">
         <source>29680</source>
         <target state="final">Restaure périodiquement les PV des équipiers alentour.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 18s
 Restaure des PV aux équipiers lorsque ceux-ci tombent sous 25% ou à la fin de l'effet.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 16 000
@@ -19218,7 +19230,7 @@ Ne peut pas être utilisé sous l'effet Entrave.
         <source>29716</source>
         <target state="final">Augmente de 10% les dégâts subis par la cible.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
-Si la cible est sous l'effet de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Garde&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, réduit de moitié l'effet de réduction des dégâts dont elle bénéficie.</target>
+Si la cible est sous l'effet de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Garde&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, au lieu de l'effet ci-dessus, réduit de moitié l'effet de réduction des dégâts dont elle bénéficie.</target>
       </trans-unit>
       <trans-unit id="29718" xml:space="preserve" approved="yes">
         <source>29718</source>
@@ -19797,8 +19809,8 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ponction véloce&lt
       <trans-unit id="34614" xml:space="preserve" approved="yes">
         <source>34614</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Lacération d'acier&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Lacération d'acier&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 140
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Lacération mortelle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lacération mortelle&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente la puissance de Crochets mortels de 100 et de Mâchoire mortelle de 20.
@@ -19807,8 +19819,8 @@ Ne peut être cumulé avec l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /
       <trans-unit id="34615" xml:space="preserve" approved="yes">
         <source>34615</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Lacération mortelle&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Lacération mortelle&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 140
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Lacération d'acier&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lacération d'acier&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente la puissance de Crochets d'acier de 100 et de Mâchoire d'acier de 20.
@@ -19817,7 +19829,7 @@ Ne peut être cumulé avec l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /
       <trans-unit id="34616" xml:space="preserve" approved="yes">
         <source>34616</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 130
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 180
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Prédation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 40s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Prédation&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 10% vos dégâts infligés.
@@ -19829,7 +19841,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Mâchoire d'acier&l
       <trans-unit id="34617" xml:space="preserve" approved="yes">
         <source>34617</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 130
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 180
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vélocité&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 40s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vélocité&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 15% le délai des attaques automatiques et les temps de lancement et de recharge des techniques d'arme et des sorts de magie.
@@ -19841,11 +19853,11 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Mâchoire mortelle&
       <trans-unit id="34618" xml:space="preserve" approved="yes">
         <source>34618</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 140
-Si vous êtes sous l'effet de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiqueteur vorace&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente la puissance de 20.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 180
+Si vous êtes sous l'effet de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiqueteur vorace&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente la puissance de 40.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiqueteur sanglant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Déchiqueteur sanglant&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 20 la puissance de Déchiquetage sanglant.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Déchiqueteur sanglant&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 40 la puissance de Déchiquetage sanglant.
 Ne peut être cumulé avec &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Saigneur du flanc&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchireur du flanc&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Saigneur de l'échine&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchireur de l'échine&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ou &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiqueteur vorace&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 08 E4E9452A ((&lt;var 08 E0E9495B ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; remplit la &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Jauge ophidienne&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de 10.
 )) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Morsure prédatrice&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ou &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Morsure véloce&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
@@ -19856,11 +19868,11 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Morsure prédatrice
       <trans-unit id="34619" xml:space="preserve" approved="yes">
         <source>34619</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 140
-Si vous êtes sous l'effet de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiqueteur sanglant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente la puissance de 20.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 180
+Si vous êtes sous l'effet de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiqueteur sanglant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente la puissance de 40.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiqueteur vorace&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Déchiqueteur vorace&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 20 la puissance de Déchiquetage vorace.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Déchiqueteur vorace&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 40 la puissance de Déchiquetage vorace.
 Ne peut être cumulé avec &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Saigneur du flanc&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchireur du flanc&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Saigneur de l'échine&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchireur de l'échine&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ou &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiqueteur sanglant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 08 E4E9452A ((&lt;var 08 E0E9495B ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; remplit la &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Jauge ophidienne&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de 10.
 )) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Morsure prédatrice&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ou &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Morsure véloce&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
@@ -19911,7 +19923,7 @@ Cette technique d'arme a un temps de recharge indépendant.</target>
       <trans-unit id="34623" xml:space="preserve" approved="yes">
         <source>34623</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 220
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 250
 &lt;var 08 E4E9452A ((&lt;var 08 E0E94953 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie une &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Âme ophidienne&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (maximum &lt;var 08 E4E9452A ((&lt;var 08 E0E949590403 /var&gt;)) 03 /var&gt;).
 )) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Maximum de charges&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 2
 Cette technique d'arme a un temps de recharge indépendant partagé avec celui d'&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Anneaux de l'effroi&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
@@ -19919,7 +19931,7 @@ Cette technique d'arme a un temps de recharge indépendant partagé avec celui d
       <trans-unit id="34624" xml:space="preserve" approved="yes">
         <source>34624</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 280
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 300
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Prédation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 40s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Prédation&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 10% vos dégâts infligés.
@@ -19934,7 +19946,7 @@ Cette technique d'arme a un temps de recharge indépendant.</target>
       <trans-unit id="34625" xml:space="preserve" approved="yes">
         <source>34625</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 280
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 300
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vélocité&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 40s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vélocité&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 15% le délai des attaques automatiques et les temps de lancement et de recharge des techniques d'arme et des sorts de magie.
@@ -19950,7 +19962,7 @@ Cette technique d'arme a un temps de recharge indépendant.</target>
         <source>34626</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 750
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 08 E4E9452A ((&lt;var 08 E0E949610605 /var&gt;)) 05 /var&gt; degrés d'&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Esprit ophidien&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Coût Jauge ophidienne&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 50
@@ -19961,7 +19973,7 @@ Cette technique d'arme a un temps de recharge indépendant.</target>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 480
 Si utilisée après &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Réminiscence&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente la puissance à 680.
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Esprit ophidien&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Cette technique d'arme a un temps de recharge indépendant.
 
@@ -19973,7 +19985,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Crochets d'acier&lt
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 480
 Si utilisée après &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Première ère&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente la puissance à 680.
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Esprit ophidien&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Cette technique d'arme a un temps de recharge indépendant.
 
@@ -19985,7 +19997,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Crochets mortels&lt
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 480
 Si utilisée après &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Deuxième ère&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente la puissance à 680.
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Esprit ophidien&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Cette technique d'arme a un temps de recharge indépendant.
 
@@ -19997,7 +20009,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Anneaux du prédate
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 480
 Si utilisée après &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Troisième ère&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente la puissance à 680.
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Esprit ophidien&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Cette technique d'arme a un temps de recharge indépendant.
 
@@ -20008,7 +20020,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Anneaux de l'écorc
         <source>34631</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1150
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 Met fin à l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Réminiscence&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Esprit ophidien&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Cette technique d'arme a un temps de recharge indépendant.
@@ -20025,7 +20037,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Réminiscence&lt;va
         <source>34633</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 680
-La puissance est réduite de 60% au-delà du premier ennemi touché.
+La puissance est réduite de 75% au-delà du premier ennemi touché.
 &lt;var 08 E4E9452A ((&lt;var 08 E0E9495D ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Impulsion vicieuse&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Impulsion vicieuse&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 50 la puissance d'Assaut vicieux.
@@ -20045,7 +20057,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Queue serpentine&lt
       <trans-unit id="34635" xml:space="preserve" approved="yes">
         <source>34635</source>
         <target state="final">Effectue une attaque physique sur les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiquetage vorace&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ou &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déchiquetage sanglant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -20103,7 +20115,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Crochets frénétiq
         <source>34640</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 320
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Première ère&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -20113,7 +20125,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Queue serpentine&lt
         <source>34641</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 320
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Deuxième ère&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -20123,7 +20135,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Queue serpentine&lt
         <source>34642</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 320
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Troisième ère&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -20133,7 +20145,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Queue serpentine&lt
         <source>34643</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 320
-La puissance est réduite de 65% au-delà du premier ennemi touché.
+La puissance est réduite de 80% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Quatrième ère&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -20144,7 +20156,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Queue serpentine&lt
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Impulsion vicieuse&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 170
-La puissance est réduite de 60% au-delà du premier ennemi touché.
+La puissance est réduite de 75% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Impulsion frénétique&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Assaut ophidien&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
@@ -20157,7 +20169,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Crochets vicieux&lt
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Impulsion frénétique&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 170
-La puissance est réduite de 60% au-delà du premier ennemi touché.
+La puissance est réduite de 75% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après avoir utilisé &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Assaut ophidien&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avec succès.
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
@@ -20821,14 +20833,14 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Consécution&lt;var
       <trans-unit id="36937" xml:space="preserve" approved="yes">
         <source>36937</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 800
 La puissance est réduite de 60% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Combo du cœur préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="36938" xml:space="preserve" approved="yes">
         <source>36938</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1100
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 900
 La puissance est réduite de 60% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Règne animal
 
@@ -20838,7 +20850,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Règne animal&lt;va
       <trans-unit id="36939" xml:space="preserve" approved="yes">
         <source>36939</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1200
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1000
 La puissance est réduite de 60% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Sang noble
 
@@ -21201,9 +21213,9 @@ La puissance est réduite de 50% au-delà du premier ennemi touché.
         <source>36977</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
 La puissance de l'attaque dépend du nombre de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Codas&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; utilisées en amont avec &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Final radieux&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec 1 Coda&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 600
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec 2 Codas&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 700
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec 3 Codas&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec 1 Coda&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 700
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec 2 Codas&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 800
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec 3 Codas&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1100
 La puissance est réduite de 50% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Rappel radieux préparé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
@@ -21232,7 +21244,7 @@ La puissance est réduite de 30% au-delà du premier ennemi touché.
       <trans-unit id="36981" xml:space="preserve" approved="yes">
         <source>36981</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 620
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 660
 La puissance est réduite de 25% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; remplit la &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Jauge de batterie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de 20.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Excavation préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -21253,7 +21265,7 @@ Cette action n'est pas affectée par l'effet de &lt;var 48 F201F4 /var&gt;&lt;va
       <trans-unit id="36983" xml:space="preserve" approved="yes">
         <source>36983</source>
         <target state="final">Effectue une attaque physique sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 520
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 540
 La puissance est réduite de 60% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ultime danse préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
@@ -21442,7 +21454,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Deuxième Moulinet&
       <trans-unit id="37005" xml:space="preserve" approved="yes">
         <source>37005</source>
         <target state="final">Effectue une attaque magique neutre sur la cible et les ennemis autour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 900
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 950
 La puissance est réduite de 55% au-delà du premier ennemi touché.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Épine croisée préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
@@ -21462,10 +21474,7 @@ Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Méga À-coup&lt;va
         <target state="final">Effectue une attaque magique neutre sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1200
 La puissance est réduite de 55% au-delà du premier ennemi touché.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Syncristallisation préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
-Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Manafication&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsque les conditions sont réunies.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Syncristallisation préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="37008" xml:space="preserve" approved="yes">
         <source>37008</source>
@@ -22066,7 +22075,7 @@ Le temps de recharge est réduit de 15s si vous comptabilisez une proie ou un so
       <trans-unit id="39190" xml:space="preserve" approved="yes">
         <source>39190</source>
         <target state="final">Saute sur la cible et porte une attaque physique sur elle et les ennemis alentour.
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12 000
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15 000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Réminiscence&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Augmente aussi de 50% votre vitesse de déplacement.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s
@@ -22236,7 +22245,7 @@ Les effets n'ont aucune influence sur les temps de lancement et de recharge de c
         <source>39207</source>
         <target state="final">Matérialise l'esquisse de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Griffes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et effectue une attaque magique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 8000
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 10% les dégâts subis par la cible et réduit de 20% les effets de récupération de PV sur elle.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 10% les dégâts subis par la cible et réduit de 15% les effets de récupération de PV sur elle.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ébauche de Crocs&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Picto Griffes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -22287,6 +22296,7 @@ Cette action devient &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tempera
       <trans-unit id="39212" xml:space="preserve" approved="yes">
         <source>39212</source>
         <target state="final">Met fin à votre &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Enduit a tempera&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et vous octroie ainsi qu'aux équipiers alentour l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tempera grassa&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tempera grassa&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; crée une barrière absorbant un certain montant de dégâts.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 8000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Enduit a tempera&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -22319,8 +22329,10 @@ Cette action devient &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Prisme 
         <target state="final">Effectue une attaque magique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 16 000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; restaure vos PV et ceux des équipiers dans un rayon de 30 yalms autour de la cible.
+Cet effet additionnel n'est pas entravé par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 16 000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 15% vos dégâts infligés et ceux des équipiers dans un rayon de 30 yalms autour de la cible.
+Cet effet additionnel n'est pas entravé par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
 
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
@@ -22425,7 +22437,7 @@ Cette action devient &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Sépulc
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 8000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 10% les dégâts subis par la cible.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
-Si la cible est sous l'effet de &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;Garde&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, réduit de moitié l'effet de réduction des dégâts dont elle bénéficie.
+Si la cible est sous l'effet de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Garde&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, au lieu de l'effet ci-dessus, réduit de moitié l'effet de réduction des dégâts dont elle bénéficie.
 Cette technique d'arme a un temps de recharge indépendant.</target>
       </trans-unit>
       <trans-unit id="41431" xml:space="preserve" approved="yes">
@@ -22916,6 +22928,7 @@ Ce sort a un temps de recharge indépendant.</target>
       <trans-unit id="41494" xml:space="preserve" approved="yes">
         <source>41494</source>
         <target state="final">Augmente de 8% les dégâts infligés et réduit de 8% les dégâts subis par vous et les équipiers alentour.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 8s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Syncristallisation préparée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
@@ -22969,6 +22982,7 @@ Les cibles se trouvant au centre de la croix reçoivent ces effets deux fois.
       <trans-unit id="41501" xml:space="preserve" approved="yes">
         <source>41501</source>
         <target state="final">Restaure vos PV et ceux des équipiers alentour.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 8000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Dictame&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; à la cible.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Dictame&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; crée une barrière annulant un certain montant de dégâts.
@@ -22985,6 +22999,7 @@ Les cibles se trouvant au centre de la croix reçoivent ces effets deux fois.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Récitation&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente la puissance du prochain &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Traité du réconfort&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ou de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Loi de l'infection&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; soigne une altération d'état soignable avec Dépuration pour vous et vos équipiers alentour. Sinon, crée une barrière qui protège de la prochaine altération d'état.
+Cet effet additionnel n'est pas entravé par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;jauge de Transcendance&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pleine.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Temps de charge&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
@@ -23352,7 +23367,8 @@ Partage le même temps de recharge que &lt;var 48 F201F4 /var&gt;&lt;var 49 F201
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 210 (varie selon le niveau d'objet)
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; inflige &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déclin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 70s
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Déclin&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; les dégâts infligés sont réduits de 10% et les dégâts subis sont augmentés de 5%.&lt;var 08 E0E96D05 ((
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Déclin&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit les dégâts infligés de 10% et augmente les dégâts subis de 5%.
+Ne peut être cumulé avec l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Envoûtement&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; du danseur fantôme.&lt;var 08 E0E96D05 ((
 Partage le même temps de recharge que &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Canon sacré&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.)) (()) /var&gt;</target>
       </trans-unit>
       <trans-unit id="41631" xml:space="preserve" approved="yes">
@@ -23525,6 +23541,15 @@ La sélection de la cible se fait au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&l
         <target state="final">Effectue un puissant tir de particules de carotte en ligne droite vers l'avant capable de détruire d'un seul coup tous les grands cristaux corrompus sur la trajectoire.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Gain de puissance&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
+      <trans-unit id="42038" xml:space="preserve" approved="yes">
+        <source>42038</source>
+        <target state="final">Effectue une coupe rotative dans une vaste zone autour de vous pour trancher les plantes alentour.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Âme d'élagueur&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; remplie à 50 ou plus</target>
+      </trans-unit>
+      <trans-unit id="42039" xml:space="preserve" approved="yes">
+        <source>42039</source>
+        <target state="final">Permet de se déplacer rapidement de 14 yalms vers l'avant tout en arrachant les mauvaises herbes sur le chemin.</target>
+      </trans-unit>
       <trans-unit id="42057" xml:space="preserve" approved="yes">
         <source>42057</source>
         <target state="final">Prend une pose musclée.
@@ -23613,11 +23638,12 @@ Le temps de recharge est réinitialisé si vous comptabilisez une proie ou un so
       <trans-unit id="43249" xml:space="preserve" approved="yes">
         <source>43249</source>
         <target state="final">Augmente de 33% la vitesse de déplacement et réduit de 10% les temps de lancement et de recharge des techniques d'arme et des sorts de magie, pour vous et les équipiers alentour.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12s</target>
       </trans-unit>
       <trans-unit id="43250" xml:space="preserve" approved="yes">
         <source>43250</source>
-        <target state="final">Augmente de 25% les dégâts infligés et réduit de 25% les dégâts subis par la cible.
+        <target state="final">Augmente de 25% les dégâts infligés et réduit de 25% les dégâts subis, pour vous ou l'équipier ciblé.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s</target>
       </trans-unit>
       <trans-unit id="43251" xml:space="preserve" approved="yes">
@@ -23629,6 +23655,7 @@ La défense de la cible n'a aucune influence sur les dégâts infligés par cett
       <trans-unit id="43252" xml:space="preserve" approved="yes">
         <source>43252</source>
         <target state="final">Effectue une attaque magique sur les ennemis dans l'aire d'effet ciblée.
+L'aire d'effet de cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;20 000
 Pendant l'incantation, il est impossible de se déplacer ou d'interrompre le lancement de cette action.</target>
       </trans-unit>
@@ -23651,6 +23678,7 @@ Pendant l'incantation, il est impossible de se déplacer ou d'interrompre le lan
       <trans-unit id="43256" xml:space="preserve" approved="yes">
         <source>43256</source>
         <target state="final">Crée une barrière sur vous et les équipiers alentour, absorbant un certain montant de dégâts.
+Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 12 000 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s</target>
       </trans-unit>
       <trans-unit id="43257" xml:space="preserve" approved="yes">
@@ -23693,27 +23721,43 @@ Dure indéfiniment.</target>
         <source>44492</source>
         <target state="final">Retire le déguisement.</target>
       </trans-unit>
+      <trans-unit id="44501" xml:space="preserve" approved="yes">
+        <source>44501</source>
+        <target state="final">Ulala&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="44502" xml:space="preserve" approved="yes">
+        <source>44502</source>
+        <target state="final">Narumi&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="44503" xml:space="preserve" approved="yes">
+        <source>44503</source>
+        <target state="final">Masha&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="44504" xml:space="preserve" approved="yes">
+        <source>44504</source>
+        <target state="final">Picot&lt;var 1D /var&gt;!</target>
+      </trans-unit>
       <trans-unit id="44516" xml:space="preserve" approved="yes">
         <source>44516</source>
         <target state="final">Crée des fleurs de neige.
 * Effet spécial. N'inflige aucun dégât.</target>
       </trans-unit>
-      <trans-unit id="44517" xml:space="preserve" approved="no">
+      <trans-unit id="44517" xml:space="preserve" approved="yes">
         <source>44517</source>
-        <target state="needs-translation">Projette l'illusion d'une pluie de sucreries.</target>
+        <target state="final">Projette l'illusion d'une pluie de sucreries.</target>
       </trans-unit>
-      <trans-unit id="44518" xml:space="preserve" approved="no">
+      <trans-unit id="44518" xml:space="preserve" approved="yes">
         <source>44518</source>
-        <target state="needs-translation">Projette l'illusion d'un déluge de citrouilles.</target>
+        <target state="final">Projette l'illusion d'un déluge de citrouilles.</target>
       </trans-unit>
-      <trans-unit id="44519" xml:space="preserve" approved="no">
+      <trans-unit id="44519" xml:space="preserve" approved="yes">
         <source>44519</source>
-        <target state="needs-translation">Projette l'illusion d'une pluie de sucreries.
+        <target state="final">Projette l'illusion d'une pluie de sucreries.
 * Effet spécial. N'inflige aucun dégât.</target>
       </trans-unit>
-      <trans-unit id="44520" xml:space="preserve" approved="no">
+      <trans-unit id="44520" xml:space="preserve" approved="yes">
         <source>44520</source>
-        <target state="needs-translation">Projette l'illusion d'un déluge de citrouilles.
+        <target state="final">Projette l'illusion d'un déluge de citrouilles.
 * Effet spécial. N'inflige aucun dégât.</target>
       </trans-unit>
       <trans-unit id="44628" xml:space="preserve" approved="yes">
@@ -23762,6 +23806,10 @@ Dure indéfiniment.</target>
         <target state="final">Aspire les éclats de verre dans une zone en éventail devant vous grâce à la magie du vent.
 Ne fonctionne pas sur les amas de verre.</target>
       </trans-unit>
+      <trans-unit id="45127" xml:space="preserve" approved="yes">
+        <source>45127</source>
+        <target state="final">Effectue une coupe rotative autour de vous pour trancher les plantes alentour.</target>
+      </trans-unit>
       <trans-unit id="45193" xml:space="preserve" approved="yes">
         <source>45193</source>
         <target state="final">S'étire pour s'assouplir.
@@ -23777,27 +23825,212 @@ Ne fonctionne pas sur les amas de verre.</target>
         <target state="final">Feule pour apeurer.
 * Effet spécial. N'inflige aucun dégât.</target>
       </trans-unit>
-      <trans-unit id="858" xml:space="preserve" approved="no">
-        <source>858</source>
-        <target state="needs-translation">Delivers an attack with a potency of 170.
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Damage over time
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 18s</target>
-      </trans-unit>
-      <trans-unit id="6844" xml:space="preserve" approved="no">
-        <source>6844</source>
-        <target state="needs-translation">Restores all of a target's HP.</target>
-      </trans-unit>
-      <trans-unit id="8" xml:space="preserve" approved="no">
-        <source>8</source>
-        <target state="needs-translation">Delivers a ranged attack. Recast time varies with delay value of main hand weapon.</target>
-      </trans-unit>
-      <trans-unit id="9098" xml:space="preserve" approved="no">
-        <source>9098</source>
-        <target state="needs-translation">Rushes target and delivers an attack with a potency of 400.
-Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Riddle of Wind&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Cannot be executed while bound.
+      <trans-unit id="45960" xml:space="preserve" approved="yes">
+        <source>45960</source>
+        <target state="final">Effectue une attaque magique neutre sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FF20154 ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F20118F0DC /var&gt;)) F0DC /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F20118F0DC /var&gt;)) F0DC /var&gt;)) /var&gt;
+&lt;var 08 E4E94524 ((&lt;var 08 E0E94945 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie un &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cristal de mana&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+)) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Coût Jauge d'équilibre&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mana noire&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20 et
+&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mana blanche&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20
 
-※This action cannot be assigned to a hotbar.</target>
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
+Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Riposte&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsque les conditions sont réunies.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="45961" xml:space="preserve" approved="yes">
+        <source>45961</source>
+        <target state="final">Effectue une attaque magique neutre sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FBF ((&lt;var 08 E4E94524 ((&lt;var 08 E0E949559765 /var&gt;)) 65 /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E949559765 /var&gt;)) 65 /var&gt;)) /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Riposte/Riposte enchantée
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance du combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FF2017C ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F20154F20122 /var&gt;)) F20122 /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F20154F20122 /var&gt;)) F20122 /var&gt;)) /var&gt;
+&lt;var 08 E4E94524 ((&lt;var 08 E0E94945 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie un &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cristal de mana&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+)) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Coût Jauge d'équilibre&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mana noire&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15 et
+&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mana blanche&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15
+
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
+Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Zwerchhau&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsque les conditions sont réunies.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="45962" xml:space="preserve" approved="yes">
+        <source>45962</source>
+        <target state="final">Effectue une attaque magique neutre sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FBF ((&lt;var 08 E4E94524 ((&lt;var 08 E0E949558365 /var&gt;)) 65 /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E949558365 /var&gt;)) 65 /var&gt;)) /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Zwerchhau enchanté
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance du combo&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FF20230 ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F201F4F201D6 /var&gt;)) F201D6 /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F201F4F201D6 /var&gt;)) F201D6 /var&gt;)) /var&gt;
+&lt;var 08 E4E94524 ((&lt;var 08 E0E94945 ((&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie un &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cristal de mana&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+)) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Coût Jauge d'équilibre&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mana noire&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15 et
+&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Mana blanche&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15
+
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;* Cette action ne peut pas être ajoutée aux barres de raccourcis.
+Remplace &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Redoublement&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsque les conditions sont réunies.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46590" xml:space="preserve" approved="yes">
+        <source>46590</source>
+        <target state="final">Crée sur vous ou l'équipier ciblé une barrière absorbant un montant de dégâts égal à 20% de vos PV maximums.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+Lorsque la barrière disparaît, vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame renforcée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.&lt;var 08 E0E96D03 ((
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Magi Lame renforcée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; la puissance de la prochaine Magi Lame est augmentée.)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46591" xml:space="preserve" approved="yes">
+        <source>46591</source>
+        <target state="final">Effectue une attaque physique sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 200 (varie selon le niveau d'objet)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20% de chances d'infliger &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Piège de pierre&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; à certains ennemis.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Piège de pierre&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; la prochaine attaque subie provoque le KO.&lt;var 08 E0E96D03 ((
+Avec &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame renforcée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, la puissance est augmentée.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Magi Lame renforcée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 300 (varie selon le niveau d'objet))) (()) /var&gt;&lt;var 08 E0E96D04 ((
+Partage le même temps de recharge que &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame Miracle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E0E96D05 (( et &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame Brasier&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;.)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46592" xml:space="preserve" approved="yes">
+        <source>46592</source>
+        <target state="final">Effectue une attaque physique sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 300 (varie selon le niveau d'objet)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance contre les morts-vivants&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 500 (varie selon le niveau d'objet)
+Avec &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame renforcée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, la puissance est augmentée.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Magi Lame renforcée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 400 (varie selon le niveau d'objet)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance contre les morts-vivants avec Magi Lame renforcée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 600 (varie selon le niveau d'objet)
+Partage le même temps de recharge que &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame Mégalithe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E0E96D05 (( et &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame Brasier&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="46593" xml:space="preserve" approved="yes">
+        <source>46593</source>
+        <target state="final">Effectue une attaque physique sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 200 (varie selon le niveau d'objet)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 5% les dégâts subis par la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 70s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 5% vos dégâts infligés.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 70s
+Avec &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame renforcée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, la puissance est augmentée.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance avec Magi Lame renforcée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 300 (varie selon le niveau d'objet)
+Partage le même temps de recharge que &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame Mégalithe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Magi Lame Miracle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="46594" xml:space="preserve" approved="yes">
+        <source>46594</source>
+        <target state="final">Effectue une attaque physique sur la cible. Les propriétés de cette action varient selon son niveau de réussite.
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Grande réussite&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (20% de chances)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1000 (varie selon le niveau d'objet)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 25% de chances d'infliger Mort à certains ennemis.
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Réussite&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (60% de chances)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 600 (varie selon le niveau d'objet)
+&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Échec&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (20% de chances)
+L'attaque manque la cible.&lt;var 08 E0E96D03 ((
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pour chaque degré de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Coup fatal renforcé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, augmente les chances de grande réussite de 20% et réduit les chances de réussite de 15% et les chances d'échec de 5%.)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46595" xml:space="preserve" approved="yes">
+        <source>46595</source>
+        <target state="final">Réduit de 50% les dégâts subis.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Coup fatal renforcé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsqu'une attaque est subie pendant la durée de l'effet. Cumulable jusqu'au 4e degré.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120s
+Si une attaque est subie quand cette action n'est pas en cours de recharge, un degré de &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Coup fatal renforcé&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; est perdu.</target>
+      </trans-unit>
+      <trans-unit id="46596" xml:space="preserve" approved="yes">
+        <source>46596</source>
+        <target state="final">Effectue une attaque physique sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 400 (varie selon le niveau d'objet)</target>
+      </trans-unit>
+      <trans-unit id="46597" xml:space="preserve" approved="yes">
+        <source>46597</source>
+        <target state="final">Effectue une attaque physique sur les ennemis alentour.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 600 (varie selon le niveau d'objet)</target>
+      </trans-unit>
+      <trans-unit id="46598" xml:space="preserve" approved="yes">
+        <source>46598</source>
+        <target state="final">Vous octroie &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Danse du sabre&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tango enchanteur&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Boogie-woogie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ou &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Valse mystérieuse&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Les actions suivantes peuvent être utilisées pendant la durée de l'effet correspondant&lt;var 1D /var&gt;:
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Danse du sabre&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; effectue une attaque physique sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tango enchanteur&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; effectue une attaque magique neutre sur la cible et arrête le temps pour elle.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Boogie-woogie&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; effectue une attaque magique neutre sur la cible, lui inflige Paralysie et absorbe en PV une partie des dégâts infligés.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Valse mystérieuse&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; effectue une attaque magique neutre sur la cible, lui inflige Cécité et restaure l'intégralité de vos PM.</target>
+      </trans-unit>
+      <trans-unit id="46599" xml:space="preserve" approved="yes">
+        <source>46599</source>
+        <target state="final">Effectue une attaque physique sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 600 (varie selon le niveau d'objet)</target>
+      </trans-unit>
+      <trans-unit id="46600" xml:space="preserve" approved="yes">
+        <source>46600</source>
+        <target state="final">Effectue une attaque magique neutre sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 400 (varie selon le niveau d'objet)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; arrête le temps pour la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 8s</target>
+      </trans-unit>
+      <trans-unit id="46601" xml:space="preserve" approved="yes">
+        <source>46601</source>
+        <target state="final">Effectue une attaque magique neutre sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 400 (varie selon le niveau d'objet)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; absorbe en PV une partie des dégâts infligés.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; inflige Paralysie à la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s</target>
+      </trans-unit>
+      <trans-unit id="46602" xml:space="preserve" approved="yes">
+        <source>46602</source>
+        <target state="final">Effectue une attaque magique neutre sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 400 (varie selon le niveau d'objet)
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; restaure l'intégralité de vos PM.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; inflige Cécité à la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s</target>
+      </trans-unit>
+      <trans-unit id="46603" xml:space="preserve" approved="yes">
+        <source>46603</source>
+        <target state="final">Augmente de 20% votre esquive.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsque l'action est utilisée à proximité d'un cristal de savoir, vous octroie ainsi qu'à vos équipiers &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Pas leste offensif&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30m
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Pas leste offensif&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 2% les dégâts infligés.</target>
+      </trans-unit>
+      <trans-unit id="46604" xml:space="preserve" approved="yes">
+        <source>46604</source>
+        <target state="final">Vous octroie l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Position fermée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Si un équipier est ciblé, vous déplace rapidement vers lui et lui octroie aussi l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Position fermée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Position fermée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; absorbe les dégâts pour un total de 10% de vos PV maximums.</target>
+      </trans-unit>
+      <trans-unit id="46605" xml:space="preserve" approved="yes">
+        <source>46605</source>
+        <target state="final">Inflige à l'ennemi ciblé les effets &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Envoûtement&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Envoûtement intense&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Envoûtement&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 10% les dégâts infligés et augmente de 5% les dégâts subis.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100s
+Ne peut être cumulé avec l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Déclin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de l'artilleur fantôme.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Envoûtement intense&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 40% les dégâts infligés.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 4s</target>
+      </trans-unit>
+      <trans-unit id="46606" xml:space="preserve" approved="yes">
+        <source>46606</source>
+        <target state="final">Lorsque l'action est utilisée à proximité d'un cristal de savoir, vous octroie ainsi qu'à vos équipiers un ou plusieurs effets selon le niveau de vos jobs de soutien.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paladin fantôme Nv 2 ou plus&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; octroie l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Prière protectrice&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30m
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Prière protectrice&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; réduit de 10% les dégâts subis.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moine fantôme Nv 3 ou plus&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; octroie l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Posture athlétique&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30m
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Posture athlétique&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente la vitesse de déplacement.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Barde fantôme Nv 2 ou plus&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; octroie l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Lied arrêté&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30m
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lied arrêté&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 10% les points d'expérience de soutien gagnés en éliminant des ennemis.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Danseur fantôme Nv 2 ou plus&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; octroie l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Pas leste offensif&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30m
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Pas leste offensif&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmente de 2% les dégâts infligés.</target>
+      </trans-unit>
+      <trans-unit id="46762" xml:space="preserve" approved="yes">
+        <source>46762</source>
+        <target state="final">Restaure vos PV.</target>
+      </trans-unit>
+      <trans-unit id="46763" xml:space="preserve" approved="yes">
+        <source>46763</source>
+        <target state="final">Effectue trois attaques magiques à la suite sur les ennemis autour de vous.
+La puissance de l'attaque et son aire d'effet augmentent graduellement.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance et aire d'effet de la première attaque&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 490/3y
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance et aire d'effet de la deuxième attaque&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 630/5y
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance et aire d'effet de la troisième attaque&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 740/8y</target>
+      </trans-unit>
+      <trans-unit id="46942" xml:space="preserve" approved="yes">
+        <source>46942</source>
+        <target state="final">Effectue une attaque physique à distance sur la cible.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 150 (varie selon le niveau d'objet)</target>
+      </trans-unit>
+      <trans-unit id="47246" xml:space="preserve" approved="yes">
+        <source>47246</source>
+        <target state="final">Fait rebondir sur place la voiture.
+* Effet spécial. N'inflige aucun dégât.</target>
       </trans-unit>
     </body>
   </file>

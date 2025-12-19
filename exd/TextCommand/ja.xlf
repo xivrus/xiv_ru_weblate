@@ -334,9 +334,10 @@ friend
 feast
 　…クリスタルコンフリクトの敵
 
-&gt;&gt;設定番号(1-4)
+&gt;&gt;設定番号(1-5)
 1:常に表示
 2:戦闘時
+5:非戦闘時
 3:ターゲット時
 4:表示しない
 
@@ -526,7 +527,6 @@ off
         <source>46</source>
         <target state="final">/visualalerts サブコマンド
 システムコンフィグ「サウンドの視覚表現」を設定する。
-※Windows／Mac版のみ有効。
 &gt;&gt;サブコマンド
 on
 　…視覚表現を有効にする。
@@ -539,7 +539,6 @@ off
         <source>47</source>
         <target state="final">/colorfiltering サブコマンド
 システムコンフィグ「色覚多様性設定：色補正」を設定する。
-※Windows／Mac版のみ有効。
 &gt;&gt;サブコマンド
 on
 　…色補正を有効にする。
@@ -572,6 +571,16 @@ off
 　…非表示にする。
 ※サブコマンド省略
 　…表示／非表示のスイッチ切り替え&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/vieraears&lt;tab&gt;/vears</target>
+      </trans-unit>
+      <trans-unit id="50" xml:space="preserve" approved="yes">
+        <source>50</source>
+        <target state="final">/quickpanel
+クイックパネルを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/quickpanel&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="51" xml:space="preserve" approved="yes">
+        <source>51</source>
+        <target state="final">/strategyboard
+ストラテジーボードのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/strategyboard&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
@@ -917,7 +926,7 @@ familyname(姓) PC姓
       <trans-unit id="156" xml:space="preserve" approved="yes">
         <source>156</source>
         <target state="final">/marking(/mk) タイプ 代名詞
-指定したキャラクターに指定したタイプのマーカーを設定する。代名詞を省略した場合は、現在ターゲット中のキャラクターを指定する。
+指定したキャラクターやオブジェクトに指定したタイプのターゲットマーカーを設定する。代名詞を省略した場合は、現在ターゲット選択中のキャラクターやオブジェクトにターゲットマーカーを設定する。
 &gt;&gt;タイプ
 攻撃1～8(attack1～8)
 　…攻撃1～8を設定。単に“攻撃”は未使用の一番小さい番号で攻撃を設定する。
@@ -934,13 +943,13 @@ familyname(姓) PC姓
 汎用サンカク(triangle)
 　…汎用サンカクを設定する。
 clear(off) 
-　…設定されたマーカーを解除する。
+　…設定されたターゲットマーカーを解除する。
 ※サブコマンド省略
-　…マーカーメニューを開く。
+　…ターゲットマーカーのメニューを開く。
 
 実行例
 /marking 攻撃3 &lt;t&gt;
-　…選択した対象に「攻撃3」のマーカーを設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/marking&lt;tab&gt;/mk</target>
+　…選択した対象に「攻撃3」のターゲットマーカーを設定する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/marking&lt;tab&gt;/mk</target>
       </trans-unit>
       <trans-unit id="157" xml:space="preserve" approved="yes">
         <source>157</source>
@@ -1797,7 +1806,7 @@ off
       <trans-unit id="265" xml:space="preserve" approved="yes">
         <source>265</source>
         <target state="final">/focustarget 代名詞
-指定したキャラクターをフォーカスターゲットする。代名詞を省略した場合は、ターゲットしたキャラクターをフォーカスターゲットにする。
+指定したキャラクターやオブジェクトをフォーカスターゲットする。代名詞を省略した場合は、ターゲット選択中のキャラクターやオブジェクトをフォーカスターゲットにする。
 
 実行例
 /focustarget &lt;t&gt;
@@ -2157,10 +2166,10 @@ EXホットバー(HotbarEx)
 メインクエストガイド(ScenarioGuide)
 高圧エーテル(CompressedAether)
 コスモエクスプローラー：惑星情報(CosmoExplorer:Info)
+PvP：バトルログ(PvP:Log)
 クリスタルコンフリクト：プログレスゲージ(CConflict:Progress)
 クリスタルコンフリクト：味方チーム情報(CConflict:Ally)
 クリスタルコンフリクト：敵チーム情報(CConflict:Enemy)
-クリスタルコンフリクト：バトルログ(CConflict:Log)
 クリスタルコンフリクト：マップ(CConflict:Map)
 フロントライン：戦意ゲージ(Frontline:BattleGauge)
 フロントライン：スコア情報(Frontline:Score)
@@ -3217,33 +3226,33 @@ motion
       </trans-unit>
       <trans-unit id="466" xml:space="preserve" approved="yes">
         <source>466</source>
-        <target state="final">/cheeron サブコマンド
-声援（青）を送る。
+        <target state="final">/cheeronblue(/cheerob) サブコマンド
+声援フロント：青を送る。
 &gt;&gt;サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeron&lt;tab&gt;</target>
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronblue&lt;tab&gt;/cheerob</target>
       </trans-unit>
       <trans-unit id="467" xml:space="preserve" approved="yes">
         <source>467</source>
-        <target state="final">/cheerwave サブコマンド
-声援（黄）を送る。
+        <target state="final">/cheerwaveyellow(/cheerwy) サブコマンド
+声援ウェーブ：黄を送る。
 &gt;&gt;サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwave&lt;tab&gt;</target>
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwaveyellow&lt;tab&gt;/cheerwy</target>
       </trans-unit>
       <trans-unit id="468" xml:space="preserve" approved="yes">
         <source>468</source>
-        <target state="final">/cheerjump サブコマンド
-声援（赤）を送る。
+        <target state="final">/cheerjumpred(/cheerjr) サブコマンド
+声援ジャンプ：赤を送る。
 &gt;&gt;サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjump&lt;tab&gt;</target>
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjumpred&lt;tab&gt;/cheerjr</target>
       </trans-unit>
       <trans-unit id="469" xml:space="preserve" approved="yes">
         <source>469</source>
@@ -4901,33 +4910,33 @@ motion
       </trans-unit>
       <trans-unit id="665" xml:space="preserve" approved="yes">
         <source>665</source>
-        <target state="final">/cheeronbright(/cheerbright) サブコマンド
-声援（白）を送る。
+        <target state="final">/cheeronbright(/cheerow) サブコマンド
+声援フロント：白を送る。
 &gt;&gt;サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerbright</target>
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerow</target>
       </trans-unit>
       <trans-unit id="666" xml:space="preserve" approved="yes">
         <source>666</source>
-        <target state="final">/cheerwaveviolet(/cheerviolet) サブコマンド
-声援（紫）を送る。
+        <target state="final">/cheerwaveviolet(/cheerwv) サブコマンド
+声援ウェーブ：紫を送る。
 &gt;&gt;サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerviolet</target>
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerwv</target>
       </trans-unit>
       <trans-unit id="667" xml:space="preserve" approved="yes">
         <source>667</source>
-        <target state="final">/cheerjumpgreen(/cheergreen) サブコマンド
-声援（緑）を送る。
+        <target state="final">/cheerjumpgreen(/cheerjg) サブコマンド
+声援ジャンプ：緑を送る。
 &gt;&gt;サブコマンド
 motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
-　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheergreen</target>
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheerjg</target>
       </trans-unit>
       <trans-unit id="668" xml:space="preserve" approved="yes">
         <source>668</source>
@@ -5288,6 +5297,116 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pen&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="711" xml:space="preserve" approved="yes">
+        <source>711</source>
+        <target state="final">/cheerrhythmred(/cheerrr) サブコマンド
+声援リズム：赤を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerrhythmred&lt;tab&gt;/cheerrr</target>
+      </trans-unit>
+      <trans-unit id="712" xml:space="preserve" approved="yes">
+        <source>712</source>
+        <target state="final">/cheerlightyellow(/cheerly) サブコマンド
+声援スロウ：黄を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightyellow&lt;tab&gt;/cheerly</target>
+      </trans-unit>
+      <trans-unit id="714" xml:space="preserve" approved="yes">
+        <source>714</source>
+        <target state="final">/runwaywalk(/runway) サブコマンド
+モデルウォークで歩く。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/runwaywalk&lt;tab&gt;/runway</target>
+      </trans-unit>
+      <trans-unit id="718" xml:space="preserve" approved="yes">
+        <source>718</source>
+        <target state="final">/carrybook サブコマンド
+本を抱える。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/carrybook&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="719" xml:space="preserve" approved="yes">
+        <source>719</source>
+        <target state="final">/divinearm サブコマンド
+神機のガントレットを輝かせる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/divinearm&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="720" xml:space="preserve" approved="yes">
+        <source>720</source>
+        <target state="final">/divinedisk サブコマンド
+神機のチョーカーを輝かせる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/divinedisk&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="721" xml:space="preserve" approved="yes">
+        <source>721</source>
+        <target state="final">/divinetiara サブコマンド
+神機のティアラを輝かせる。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/divinetiara&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="722" xml:space="preserve" approved="yes">
+        <source>722</source>
+        <target state="final">/cheerrhythmviolet(/cheerrv) サブコマンド
+声援リズム：紫を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerrhythmviolet&lt;tab&gt;/cheerrv</target>
+      </trans-unit>
+      <trans-unit id="723" xml:space="preserve" approved="yes">
+        <source>723</source>
+        <target state="final">/cheerrhythmbright(/cheerrw) サブコマンド
+声援リズム：白を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerrhythmbright&lt;tab&gt;/cheerrw</target>
+      </trans-unit>
+      <trans-unit id="724" xml:space="preserve" approved="yes">
+        <source>724</source>
+        <target state="final">/cheerlightblue(/cheerlb) サブコマンド
+声援スロウ：青を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightblue&lt;tab&gt;/cheerlb</target>
+      </trans-unit>
+      <trans-unit id="725" xml:space="preserve" approved="yes">
+        <source>725</source>
+        <target state="final">/cheerlightgreen(/cheerlg) サブコマンド
+声援スロウ：緑を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
       </trans-unit>
     </body>
   </file>

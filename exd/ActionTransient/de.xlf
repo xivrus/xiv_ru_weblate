@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="ActionTransient" datatype="plaintext" source-language="en" target-language="de">
     <body>
@@ -1053,8 +1053,8 @@ Zusatzeffekt: Gewährt dir die Ma&lt;var 16 /var&gt;xi&lt;var 16 /var&gt;mal&lt;
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schwarze Funken&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 &lt;var 08 E4E9451A ((&lt;var 08 E0E9493B ((Zusatzeffekt: Gewährt dir 3 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schattenherz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schattenherz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Verhindert die Erhöhung der MP-Kosten für Feuer-Zauber bei &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lichtfeuer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Außerdem werden bei Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flare&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; alle &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schattenherzen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; verbraucht, dafür aber die MP-Kosten um 1/3 reduziert.)) (()) /var&gt;)) (()) /var&gt;
-&lt;var 08 E4E9451A ((&lt;var 08 E0E9495B ((Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paradoxie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Außerdem werden bei Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flare&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; alle &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schattenherzen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; verbraucht, dafür aber die MP-Kosten um 1/3 reduziert.
+)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E9451A ((&lt;var 08 E0E9495B ((Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paradoxie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 )) (()) /var&gt;)) (()) /var&gt;Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lichtfeuer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv</target>
       </trans-unit>
       <trans-unit id="159" xml:space="preserve" approved="yes">
@@ -1309,17 +1309,17 @@ Attacke-Wert: 9.000</target>
       </trans-unit>
       <trans-unit id="203" xml:space="preserve" approved="yes">
         <source>203</source>
-        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagort aus.
+        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagsort aus.
 Attacke-Wert: 1.650</target>
       </trans-unit>
       <trans-unit id="204" xml:space="preserve" approved="yes">
         <source>204</source>
-        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagort aus.
+        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagsort aus.
 Attacke-Wert: 3.600</target>
       </trans-unit>
       <trans-unit id="205" xml:space="preserve" approved="yes">
         <source>205</source>
-        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagort aus.
+        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagsort aus.
 Attacke-Wert: 6.150</target>
       </trans-unit>
       <trans-unit id="206" xml:space="preserve" approved="yes">
@@ -2929,7 +2929,7 @@ Bedingung: Adrenalinbalken ist voll.</target>
       </trans-unit>
       <trans-unit id="3361" xml:space="preserve" approved="yes">
         <source>3361</source>
-        <target state="final">Du führst eine magische Attacke auf alle Gegner um den Einschlagort aus.
+        <target state="final">Du führst eine magische Attacke auf alle Gegner um den Einschlagsort aus.
 Attacke-Wert: 4.000
 Zusatzeffekt: Ziele erleiden 25 % mehr Schaden.
 Dauer: 10 Sekunden
@@ -3501,8 +3501,9 @@ Dauer: 20 Sekunden</target>
         <target state="final">Du schaffst eine Kraftzone mit einem Radius von 8y um dich.
 Dauer: 18 Sekunden
 Die Kraftzone verringert den erlittenen Schaden aller Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder innerhalb von 30y um 10&lt;var 1D /var&gt;%.
-Dauer: 5 Sekunden
-Weiterhin regenerieren Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder innerhalb der Kraftzone stetig LP.
+Dauer: 10 Sekunden
+Verleiht weiterhin Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder innerhalb der Kraftzone durchgehend &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Numinosum&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Numinosum&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Regeneriert stetig LP.
 Heilpotenzial: 100
 Dauer: 15 Sekunden
 Unterbindet Auto-Attacke.
@@ -4971,6 +4972,7 @@ Maximale Aufladungen: 2)) (()) /var&gt;)) (()) /var&gt;</target>
       <trans-unit id="7433" xml:space="preserve" approved="yes">
         <source>7433</source>
         <target state="final">Du gewährst dir und den umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vollkommener Ablass&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vollkommener Ablass&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Verringert erlittenen Schaden um 10&lt;var 1D /var&gt;%.
 Dauer: 10 Sekunden
 Erfolgreich ausgeführtes &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Reseda&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Vitaga&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E4E94519 ((&lt;var 08 E0E9494D ((, &lt;var 08 E4E94519 ((&lt;var 08 E0E94961 ((&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resega&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resedra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;)) ((&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resedra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt; oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Afflatus laetitiae&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((&lt;var 08 E4E94519 ((&lt;var 08 E0E94961 (( oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resega&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (( oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resedra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;)) (( oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resedra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94519 ((&lt;var 08 E0E94961 (( oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resega&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (( oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resedra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;)) (( oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Resedra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) /var&gt;)) /var&gt; gewähren Zielen mit &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vollkommener Ablass&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; einen zusätzlichen Heileffekt.
 Heilpotenzial: 200</target>
@@ -5433,20 +5435,19 @@ Attacke-Wert: &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FF201A4F2017C /var&gt;)) F
       </trans-unit>
       <trans-unit id="7520" xml:space="preserve" approved="yes">
         <source>7520</source>
-        <target state="final">Du erhöhst deinen ausgeteilten magischen Schaden um 5&lt;var 1D /var&gt;% und den ausgeteilten Schaden der umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder um 5&lt;var 1D /var&gt;%.
+        <target state="final">Du erhöhst deinen ausgeteilten magischen Schaden um 10&lt;var 1D /var&gt;% und den ausgeteilten Schaden der umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder um 5&lt;var 1D /var&gt;%.
 Dauer: 20 Sekunden&lt;var 08 E4E94524 ((&lt;var 08 E0E9495D ((
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blüte des Mutes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 30 Sekunden)) (()) /var&gt;)) (()) /var&gt;</target>
       </trans-unit>
       <trans-unit id="7521" xml:space="preserve" approved="yes">
         <source>7521</source>
-        <target state="final">Verleiht dir 3 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manafizierte Klinge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+        <target state="final">Erhöht kurzzeitig die Reichweite von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magische Riposte&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magischer Zwerchhau&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magisches Redoublement&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf 25y.
+Dauer: 30 Sekunden
+Zusatzeffekt: Verleiht dir 3 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manafizierte Klinge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 30 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manafizierte Klinge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Erlaubt die Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magische Riposte&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magischer Zwerchhau&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magisches Redoublement&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magischer Moulinet Un&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magischer Moulinet Deux&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magischer Moulinet Trois&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, ohne Schwarzes Mana oder Weißes Mana zu verwenden.
-&lt;var 08 E4E94524 ((&lt;var 08 E0E9494F ((Zusatzeffekt: Gewährt &lt;var 08 E4E94524 ((&lt;var 08 E0E9495B0706 /var&gt;)) 06 /var&gt; Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manafizierung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Dauer: 30 Sekunden
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manafizierung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ausgeteilter Schaden ist um 5&lt;var 1D /var&gt;% erhöht.
-)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E94524 ((&lt;var 08 E0E94965 ((Zusatzeffekt: Verleiht &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kristallglanz-bereit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, wenn 6 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manafizierung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aufgebraucht worden sind.
+&lt;var 08 E4E94524 ((&lt;var 08 E0E94965 ((Zusatzeffekt: Verleiht &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kristallglanz-bereit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 30 Sekunden
 )) (()) /var&gt;)) (()) /var&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Manafizierung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; unterbricht Kombos.
 Nur im Kampf wirksam.</target>
@@ -7479,7 +7480,7 @@ Attacke-Wert gegen Objekte und Marionetten: 5.000</target>
         <target state="final">Du feuerst ein Geschoss auf den anvisierten Bereich ab.
 Attacke-Wert gegen PCs, Kriegsmaschinen und Marionetten: 20.000
 Attacke-Wert gegen Objekte: 1.000.000
-Attacke-Wert nimmt mit der Entfernung zum Einschlagort ab. Maximale Entfernung: 30y</target>
+Attacke-Wert nimmt mit der Entfernung zum Einschlagsort ab. Maximale Entfernung: 30y</target>
       </trans-unit>
       <trans-unit id="9977" xml:space="preserve" approved="yes">
         <source>9977</source>
@@ -7674,7 +7675,7 @@ Heilpotenzial: 400</target>
       </trans-unit>
       <trans-unit id="11193" xml:space="preserve" approved="yes">
         <source>11193</source>
-        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagort aus.
+        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagsort aus.
 Attacke-Wert: 3.600</target>
       </trans-unit>
       <trans-unit id="11383" xml:space="preserve" approved="yes">
@@ -8639,7 +8640,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="16005" xml:space="preserve" approved="yes">
         <source>16005</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.
-Attacke-Wert: &lt;var 08 E4E94527 ((&lt;var 08 E0E9495FF20208F201F4 /var&gt;)) F201F4 /var&gt;
+Attacke-Wert: &lt;var 08 E4E94527 ((&lt;var 08 E0E9495FF2021CF201F4 /var&gt;)) F201F4 /var&gt;
 Tanzfieberkosten: 50</target>
       </trans-unit>
       <trans-unit id="16006" xml:space="preserve" approved="yes">
@@ -8773,17 +8774,18 @@ Bonus: Du erhältst eine Erda-Patrone.)) (()) /var&gt;)) (()) /var&gt;</target>
       <trans-unit id="16146" xml:space="preserve" approved="yes">
         <source>16146</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201F4F2017C /var&gt;)) F2017C /var&gt;
+Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201B8F2014A /var&gt;)) F2014A /var&gt;
 &lt;var 08 E4E94526 ((&lt;var 08 E0E94947 ((Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Hungernde Fänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Dauer: 10 Sekunden
 Effekt endet bei Ausführung einer Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;keit.
 )) (()) /var&gt;)) (()) /var&gt;Erda-Patronen-Kosten: 1
+Maximale Aufladungen: 2
 Eigener Reaktivierungs-Timer</target>
       </trans-unit>
       <trans-unit id="16147" xml:space="preserve" approved="yes">
         <source>16147</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20230F201CC /var&gt;)) F201CC /var&gt;
+Attacke-Wert: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201F4F2019A /var&gt;)) F2019A /var&gt;
 Kombo-Bedingung: &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schlagfänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 &lt;var 08 E4E94526 ((&lt;var 08 E0E94947 ((Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Geschärfte Klauen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Dauer: 10 Sekunden
@@ -8809,7 +8811,7 @@ Bonus: Du erhältst eine Erda-Patrone.</target>
       <trans-unit id="16150" xml:space="preserve" approved="yes">
         <source>16150</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF2026CF2021C /var&gt;)) F2021C /var&gt;
+Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20230F201EA /var&gt;)) F201EA /var&gt;
 Kombo-Bedingung: &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Wilde Klauen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 &lt;var 08 E4E94526 ((&lt;var 08 E0E94947 ((Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blutige Krallen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Dauer: 10 Sekunden
@@ -8833,10 +8835,10 @@ Dauer: 10 Sekunden</target>
       <trans-unit id="16153" xml:space="preserve" approved="yes">
         <source>16153</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: 300
+Attacke-Wert: 340
 Zusatzeffekt: Schaden über Zeit
-Attacke-Wert: 60
-Dauer: 30 Sekunden
+Attacke-Wert: 120
+Dauer: 15 Sekunden
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schallschnell&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv</target>
       </trans-unit>
       <trans-unit id="16154" xml:space="preserve" approved="yes">
@@ -8866,7 +8868,7 @@ auf &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tückische Kralle&lt;var
       <trans-unit id="16156" xml:space="preserve" approved="yes">
         <source>16156</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF0F0C9 /var&gt;)) C9 /var&gt;
+Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF0DCB5 /var&gt;)) B5 /var&gt;
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Hungernde Fänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Triggerfolge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -8874,7 +8876,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="16157" xml:space="preserve" approved="yes">
         <source>16157</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20118F0F0 /var&gt;)) F0F0 /var&gt;
+Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20104F0DC /var&gt;)) F0DC /var&gt;
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Geschärfte Klauen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Triggerfolge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -8882,7 +8884,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="16158" xml:space="preserve" approved="yes">
         <source>16158</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF20140F20118 /var&gt;)) F20118 /var&gt;
+Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF2012CF20104 /var&gt;)) F20104 /var&gt;
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blutige Krallen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Triggerfolge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -8910,7 +8912,7 @@ Dauer: 30 Sekunden</target>
       <trans-unit id="16162" xml:space="preserve" approved="yes">
         <source>16162</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201CCF2017C /var&gt;)) F2017C /var&gt;
+Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FF201A4F20154 /var&gt;)) F20154 /var&gt;
 &lt;var 08 E4E94526 ((&lt;var 08 E0E94957 ((Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Knallender Stoß&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Dauer: 10 Sekunden
 Effekt endet bei Ausführung einer Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;keit.
@@ -8927,7 +8929,8 @@ Effekt endet bei Ausführung einer Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;f
       </trans-unit>
       <trans-unit id="16164" xml:space="preserve" approved="yes">
         <source>16164</source>
-        <target state="final">Du ziehst Magie aus einem Gegner und erhältst dafür &lt;var 08 E4E94526 ((&lt;var 08 E0E949590403 /var&gt;)) 03 /var&gt; Erda-Patronen.&lt;var 08 E4E94526 ((&lt;var 08 E0E94965 ((
+        <target state="final">Du ziehst Magie aus einem Gegner, wodurch du &lt;var 08 E4E94526 ((&lt;var 08 E0E949590403 /var&gt;)) 03 /var&gt; Erda-Patronen erhältst und sich deine maximale Anzahl an Erda-Patronen auf &lt;var 08 E4E94526 ((&lt;var 08 E0E949590705 /var&gt;)) 05 /var&gt; erhöht.
+Dauer: 30 Sekunden&lt;var 08 E4E94526 ((&lt;var 08 E0E94965 ((
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Löwenherz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 30 Sekunden)) (()) /var&gt;)) (()) /var&gt;</target>
       </trans-unit>
@@ -9275,13 +9278,12 @@ Dauer: 15 Sekunden</target>
         <source>16472</source>
         <target state="final">Du lässt ein Abbild deiner selbst erscheinen, das an deiner Seite kämpft.
 Attacke-Wert des Heldenschemens: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E4E94521 ((&lt;var 08 E0E94959F201A4F20154 /var&gt;)) F20154 /var&gt;
-Dauer: 20 Sekunden
+Dauer: 22 Sekunden
 &lt;var 08 E4E94521 ((&lt;var 08 E0E94965 ((Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lied des Antihelden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 30 Sekunden
 )) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E94521 ((&lt;var 08 E0E9495B ((Attacke-Wert von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schattenbringer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 570
 &lt;var 08 E4E94521 ((&lt;var 08 E0E94965 ((Attacke-Wert von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Antiheld&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 620
-)) (()) /var&gt;)) (()) /var&gt;Attacke-Wert verringert sich ab dem zweiten Gegner um 25&lt;var 1D /var&gt;%.
-Beide haben einen eigenen Reaktivierungs-Timer.)) (()) /var&gt;)) (()) /var&gt;</target>
+)) (()) /var&gt;)) (()) /var&gt;Attacke-Wert verringert sich ab dem zweiten Gegner um 25&lt;var 1D /var&gt;%.)) (()) /var&gt;)) (()) /var&gt;</target>
       </trans-unit>
       <trans-unit id="16473" xml:space="preserve" approved="yes">
         <source>16473</source>
@@ -9429,7 +9431,7 @@ Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Meisui&lt;var 49 
       <trans-unit id="16491" xml:space="preserve" approved="yes">
         <source>16491</source>
         <target state="final">Du fügst dem Ziel und den Gegnern in seiner Nähe feuerbasierten magischen Schaden zu.
-Attacke-Wert: 600
+Attacke-Wert: 850
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kassatsu&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Ninjutsu&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; nach Handgestenfolge &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Chi→Ten&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Jin→Ten&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Bei Ausführung wird der Reaktivierungs-Timer von Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten, Magie, anderen Mudras und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Ninjutsu&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ausgelöst.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Ninjutsu&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -9474,7 +9476,7 @@ Dauer: 30 Sekunden</target>
       <trans-unit id="16496" xml:space="preserve" approved="yes">
         <source>16496</source>
         <target state="final">Du leerst den Seelenstimmen-Balken und führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert: &lt;var 08 E4E94518 ((&lt;var 08 E0E9495F ((120 bis 600)) ((100 bis 500)) /var&gt;)) ((100 bis 500)) /var&gt;
+Attacke-Wert: &lt;var 08 E4E94518 ((&lt;var 08 E0E9495F ((140 bis 700)) ((100 bis 500)) /var&gt;)) ((100 bis 500)) /var&gt;
 Attacke-Wert steigt, je voller der Seelenstimmen-Balken ist.
 &lt;var 08 E4E94518 ((&lt;var 08 E0E94957 ((Zusatzeffekt bei Seelenstimmen-Balken min. 80: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Stoßpfeilbereit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Dauer: 10 Sekunden
@@ -9491,7 +9493,7 @@ Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen 
       <trans-unit id="16498" xml:space="preserve" approved="yes">
         <source>16498</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: 620
+Attacke-Wert: &lt;var 08 E4E94520 ((&lt;var 08 E0E9495FF20294F2026C /var&gt;)) F2026C /var&gt;
 Maximale Aufladungen: 2&lt;var 08 E4E94520 ((&lt;var 08 E0E94949 ((
 Gemeinsamer Reaktivierungs-Timer mit &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Bioblaster&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;)) (()) /var&gt;</target>
       </trans-unit>
@@ -9508,7 +9510,7 @@ Gemeinsamer Reaktivierungs-Timer mit &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7
       <trans-unit id="16500" xml:space="preserve" approved="yes">
         <source>16500</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: 620
+Attacke-Wert: &lt;var 08 E4E94520 ((&lt;var 08 E0E9495FF20294F2026C /var&gt;)) F2026C /var&gt;
 Zusatzeffekt: Batteriebalken füllt sich um 20.
 Eigener Reaktivierungs-Timer</target>
       </trans-unit>
@@ -9785,7 +9787,7 @@ Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lilie&lt;var 49 0
       <trans-unit id="16535" xml:space="preserve" approved="yes">
         <source>16535</source>
         <target state="final">Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: &lt;var 08 E4E94519 ((&lt;var 08 E0E9495F ((1.360)) ((1.240)) /var&gt;)) ((1.240)) /var&gt;
+Attacke-Wert: &lt;var 08 E4E94519 ((&lt;var 08 E0E9495F ((1.400)) ((1.240)) /var&gt;)) ((1.240)) /var&gt;
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50&lt;var 1D /var&gt;%.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blutlilie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; vollständig geöffnet</target>
       </trans-unit>
@@ -9822,7 +9824,7 @@ Attacke-Wert: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E4E9451D ((
       <trans-unit id="16540" xml:space="preserve" approved="yes">
         <source>16540</source>
         <target state="final">Du fügst dem Ziel elementneutralen Schaden über Zeit zu.
-Attacke-Wert: &lt;var 08 E4E9451D ((&lt;var 08 E0E9495F5147 /var&gt;)) 47 /var&gt;
+Attacke-Wert: &lt;var 08 E4E9451D ((&lt;var 08 E0E9495F5647 /var&gt;)) 47 /var&gt;
 Dauer: 30 Sekunden</target>
       </trans-unit>
       <trans-unit id="16541" xml:space="preserve" approved="yes">
@@ -10002,7 +10004,7 @@ Attacke-Wert: 460</target>
       </trans-unit>
       <trans-unit id="16578" xml:space="preserve" approved="yes">
         <source>16578</source>
-        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagort aus.
+        <target state="final">Du führst eine elementneutrale magische Attacke auf alle Gegner um den Einschlagsort aus.
 Attacke-Wert: 1.500</target>
       </trans-unit>
       <trans-unit id="16766" xml:space="preserve" approved="yes">
@@ -13900,7 +13902,7 @@ Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beei
       <trans-unit id="24314" xml:space="preserve" approved="yes">
         <source>24314</source>
         <target state="final">Du fügst dem Ziel elementneutralen magischen Schaden über Zeit zu.
-Attacke-Wert: 80
+Attacke-Wert: &lt;var 08 E4E94529 ((&lt;var 08 E0E9495F5651 /var&gt;)) 51 /var&gt;
 Dauer: 30 Sekunden
 Kann nicht zugleich mit &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Eukratische Dyskrasie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv sein.
 Zusatzeffekt: Regeneriert LP bei dem Ziel mit von dir gewährtem &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kardion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -14433,7 +14435,7 @@ Heilpotenzial: 900</target>
       <trans-unit id="25759" xml:space="preserve" approved="yes">
         <source>25759</source>
         <target state="final">Du führst eine physische Attacke aus.
-Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FC9A1 /var&gt;)) A1 /var&gt;
+Attacke-Wert: &lt;var 08 E4E94526 ((&lt;var 08 E0E9495FB58D /var&gt;)) 8D /var&gt;
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Knallender Stoß&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Triggerfolge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -14441,7 +14443,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="25760" xml:space="preserve" approved="yes">
         <source>25760</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 1.200
+Attacke-Wert: 1.000
 Attacke-Wert verringert sich ab dem zweiten Gegner um 15&lt;var 1D /var&gt;%.
 Erda-Patronen-Kosten: 1
 Eigener Reaktivierungs-Timer</target>
@@ -14636,7 +14638,7 @@ Dauer: 30 Sekunden</target>
       <trans-unit id="25784" xml:space="preserve" approved="yes">
         <source>25784</source>
         <target state="final">Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert: 600
+Attacke-Wert: 700
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50&lt;var 1D /var&gt;%.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Stoßpfeilbereit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Apex-Pfeil&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -14671,7 +14673,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="25788" xml:space="preserve" approved="yes">
         <source>25788</source>
         <target state="final">Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert: 620
+Attacke-Wert: &lt;var 08 E4E94520 ((&lt;var 08 E0E9495FF20294F2026C /var&gt;)) F2026C /var&gt;
 Attacke-Wert verringert sich ab dem zweiten Gegner um 25&lt;var 1D /var&gt;%.
 Zusatzeffekt: Batteriebalken füllt sich um 20.
 &lt;var 08 E4E94520 ((&lt;var 08 E0E94961 ((Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Exkavator&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -14704,7 +14706,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="25791" xml:space="preserve" approved="yes">
         <source>25791</source>
         <target state="final">Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
-Attacke-Wert: &lt;var 08 E4E94527 ((&lt;var 08 E0E9495FF201A4F2012C /var&gt;)) F2012C /var&gt;
+Attacke-Wert: &lt;var 08 E4E94527 ((&lt;var 08 E0E9495FF201CCF2012C /var&gt;)) F2012C /var&gt;
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60&lt;var 1D /var&gt;%.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fächertanz IV&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv</target>
       </trans-unit>
@@ -15192,7 +15194,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="25859" xml:space="preserve" approved="yes">
         <source>25859</source>
         <target state="final">Du führst eine elementneutrale magische Attacke aus.
-Attacke-Wert: &lt;var 08 E4E94519 ((&lt;var 08 E0E9495FF20154F20136 /var&gt;)) F20136 /var&gt;</target>
+Attacke-Wert: &lt;var 08 E4E94519 ((&lt;var 08 E0E9495FF2015EF20136 /var&gt;)) F20136 /var&gt;</target>
       </trans-unit>
       <trans-unit id="25860" xml:space="preserve" approved="yes">
         <source>25860</source>
@@ -15982,7 +15984,7 @@ Dauer: 8 Sekunden</target>
       </trans-unit>
       <trans-unit id="29069" xml:space="preserve" approved="yes">
         <source>29069</source>
-        <target state="final">Du gewährst dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Heiliger Boden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Phalanx&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+        <target state="final">Du gewährst dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Heiliger Boden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Phalanx&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Ignoriert Deckung.
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Heiliger Boden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Unverwundbar gegen fast alle Attacken.
 Dauer: 10 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Phalanx&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Erlittener Schaden ist um 33&lt;var 1D /var&gt;% verringert.
@@ -16187,8 +16189,8 @@ Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Dunkle Künste&lt
 Attacke-Wert: 2.000
 Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Einziger Überlebender&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Dauer: 12 Sekunden
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Einziger Überlebender&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Heileffekte auf das Ziel sind um 20&lt;var 1D /var&gt;% verringert.
-Geht das Ziel während der Wirkungsdauer k. o., regenerierst du 20&lt;var 1D /var&gt;% deiner Maximal-LP und Maximal-MP, und der Reaktivierungs-Timer wird entfernt.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Einziger Überlebender&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Heileffekte auf das Ziel sind um 15&lt;var 1D /var&gt;% verringert.
+Geht das Ziel während der Wirkungsdauer k. o., regenerierst du 15&lt;var 1D /var&gt;% deiner Maximal-LP und Maximal-MP, und der Reaktivierungs-Timer wird entfernt.
 Kann nicht während &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Fessel&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ausgeführt werden.</target>
       </trans-unit>
       <trans-unit id="29093" xml:space="preserve" approved="yes">
@@ -16205,9 +16207,9 @@ Maximale Aufladungen: 2</target>
         <target state="final">Du ziehst alle umstehenden Gegner innerhalb von 10y blitzschnell zu dir hin und wirkst &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Salzige Erde&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; mit einem Radius von 5y zu deinen Füßen.
 Dauer: 10 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Salzige Erde&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf dich: Regeneriert innerhalb der Zone stetig eigene LP und verringert erlittenen Schaden um 20&lt;var 1D /var&gt;%.
-Heilpotenzial: 6.000
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Salzige Erde&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf Gegner: Ziele erleiden innerhalb Schaden über Zeit.
-Attacke-Wert: 6.000
+Heilpotenzial: 5.000
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Salzige Erde&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf Gegner: Ziele erleiden innerhalb der Zone Schaden über Zeit.
+Attacke-Wert: 5.000
 Kommando ändert sich bei Ausführung zu &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Salz und Schwärze&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="29095" xml:space="preserve" approved="yes">
@@ -16547,7 +16549,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="29130" xml:space="preserve" approved="yes">
         <source>29130</source>
         <target state="final">Du führst kontinuierlich physische Attacken auf alle umstehenden Gegner aus. Während dieser Multiattacke kannst du dich bewegen, dein erlittener Schaden ist um 25&lt;var 1D /var&gt;% verringert und am Ende führst du &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Finaler Trigger&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aus.
-Attacke-Wert: 4.000
+Attacke-Wert: 4.500
 Dauer: 4 Sekunden
 Zusatzeffekt: Ziele erleiden 5&lt;var 1D /var&gt;% mehr Schaden.
 Ma&lt;var 16 /var&gt;xi&lt;var 16 /var&gt;mal&lt;var 16 /var&gt;sta&lt;var 16 /var&gt;pel&lt;var 16 /var&gt;zahl: 5
@@ -16606,7 +16608,7 @@ Unwirksam gegen Spieler mit aktivem Status, der vor durch &lt;var 48 F201F6 /var
         <target state="final">Du führst eine Sprung-Attacke aus und fügst dem Ziel und den Gegnern in seiner Nähe magischen Schaden zu.
 Attacke-Wert: 6.000
 Zusatzeffekt: Gewährt dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Protes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Protes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Erlittener Schaden von dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern ist um 8&lt;var 1D /var&gt;% verringert.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Protes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Erlittener Schaden von dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern ist um 10&lt;var 1D /var&gt;% verringert.
 Dauer: 10 Sekunden
 Zusatzeffekt: Gewährt dir 3 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Maximaler Fokus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Maximaler Fokus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Blendga&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Blendka&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -16624,7 +16626,7 @@ Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Betäubung&lt;
 Dauer: 2 Sekunden
 Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Linderung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Dauer: 15 Sekunden
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Linderung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Regeneriert stetig eigene LP sowie die von Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern im Umkreis von 30y.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Linderung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Regeneriert stetig eigene LP sowie die von Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern im Umkreis von 30y. Ignoriert Deckung.
 Heilpotenzial: 4.000
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Limitrausch-Balken&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; voll
 Aufladedauer: 60 Sekunden</target>
@@ -16654,7 +16656,7 @@ Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Causae et Curae&l
 Attacke-Wert: 3.000
 Dauer: 12 Sekunden
 Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Raffinesse&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf dir aktiv, erhöht sich der Attacke-Wert um 50&lt;var 1D /var&gt;%.
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Causae&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Heileffekte auf das Ziel sind um 20&lt;var 1D /var&gt;% verringert.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Causae&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Heileffekte auf das Ziel sind um 15&lt;var 1D /var&gt;% verringert.
 Dauer: 12 Sekunden
 Eigener Reaktivierungs-Timer</target>
       </trans-unit>
@@ -16674,7 +16676,7 @@ Dauer: 10 Sekunden</target>
       </trans-unit>
       <trans-unit id="29236" xml:space="preserve" approved="yes">
         <source>29236</source>
-        <target state="final">Du gewährst dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sturm&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Drang&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+        <target state="final">Du gewährst dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sturm&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Drang&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Ignoriert Deckung.
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sturm&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit ist um 25&lt;var 1D /var&gt;% erhöht.
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Drang&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ausgeteilter Schaden ist um 10&lt;var 1D /var&gt;% erhöht.
 Dauer: 10 Sekunden
@@ -16828,7 +16830,7 @@ Eigener Reaktivierungs-Timer</target>
       </trans-unit>
       <trans-unit id="29254" xml:space="preserve" approved="yes">
         <source>29254</source>
-        <target state="final">Du beendest den Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Makrokosmos&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf den Zielen und regenerierst ihre LP.
+        <target state="final">Du beendest den Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Makrokosmos&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf den Zielen und regenerierst ihre LP. Ignoriert Deckung.
 Heilpotenzial: 4.000 plus 20&lt;var 1D /var&gt;% des angesammelten Schadens
 Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
@@ -16882,7 +16884,7 @@ Eigener Reaktivierungs-Timer</target>
         <source>29260</source>
         <target state="final">Du führst eine magische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 12.000
-Zusatzeffekt: Gewährt dir und Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern im Umkreis von 20y &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Haima&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und errichtet damit eine Barriere, die Schaden entsprechend eines Heilpotenzials von 4.000 absorbiert. Außerdem werden allen Zielen 3 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Haimatinon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; gewährt.
+Zusatzeffekt: Gewährt dir und Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern im Umkreis von 20y &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Haima&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und errichtet damit eine Barriere, die Schaden entsprechend eines Heilpotenzials von 4.000 absorbiert. Außerdem werden allen Zielen 3 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Haimatinon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; gewährt. Ignoriert Deckung.
 Dauer: 10 Sekunden
 Falls die Barriere den vollen Schaden absorbiert, wird 1 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Haimatinon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; verbraucht und die Barriere erneuert. Bei Ablauf der Wirkungsdauer werden alle &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Haimatinon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; verbraucht und das Ziel geheilt.
 Heilpotenzial: 4.000 pro übrigem Stapel
@@ -17000,7 +17002,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <target state="final">Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
 Attacke-Wert: 8.000
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Frontenmarsch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Frontenmarsch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: (Re-)Ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zeit von eigenen Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten ist um 15 % reduziert und der eigene ausgeteilte Schaden sowie der von Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern im Umkreis von 30y ist um 5&lt;var 1D /var&gt;% erhöht.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Frontenmarsch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: (Re-)Ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zeit von eigenen Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten ist um 15 % reduziert und der eigene ausgeteilte Schaden sowie der von Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern im Umkreis von 30y ist um 5&lt;var 1D /var&gt;% erhöht. Ignoriert Deckung.
 Dauer: 30 Sekunden
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Stoßpfeilbereit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 20 Sekunden
@@ -17062,7 +17064,7 @@ Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gunst des Hüters
       </trans-unit>
       <trans-unit id="29401" xml:space="preserve" approved="yes">
         <source>29401</source>
-        <target state="final">Du gewährst dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fantasie des Helden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und reduzierst damit die (Re-)Ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zeit deiner eigenen Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten um 15&lt;var 1D /var&gt;%, erhöhst deine Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit um 25&lt;var 1D /var&gt;% und erhöhst deinen ausgeteilten Schaden und den umstehender Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder im Umkreis von 30y um 10&lt;var 1D /var&gt;%. Zusätzlich füllst du damit den Limitrausch-Balken stetig, falls sich das Ziel im Kampf befindet.
+        <target state="final">Du gewährst dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fantasie des Helden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und reduzierst damit die (Re-)Ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zeit deiner eigenen Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten um 15&lt;var 1D /var&gt;%, erhöhst deine Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit um 25&lt;var 1D /var&gt;% und erhöhst deinen ausgeteilten Schaden und den umstehender Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder im Umkreis von 30y um 10&lt;var 1D /var&gt;%. Zusätzlich füllst du damit den Limitrausch-Balken stetig, falls sich das Ziel im Kampf befindet. Ignoriert Deckung.
 Dauer: 30 Sekunden
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Zugabe des Helden&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 30 Sekunden
@@ -17250,7 +17252,7 @@ Eigener Reaktivierungs-Timer</target>
       <trans-unit id="29422" xml:space="preserve" approved="yes">
         <source>29422</source>
         <target state="final">Du führst kontinuierlich physische Attacken auf alle umstehenden Gegner aus. Während dieser Multiattacke kannst du dich bewegen, dein erlittener Schaden ist um 25&lt;var 1D /var&gt;% verringert, deine Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit ist um 50&lt;var 1D /var&gt;% erhöht und am Ende führst du &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Scharfes Finale&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aus.
-Attacke-Wert: 4.000
+Attacke-Wert: 4.500
 Dauer: 3 Sekunden
 Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Beifall&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Ma&lt;var 16 /var&gt;xi&lt;var 16 /var&gt;mal&lt;var 16 /var&gt;sta&lt;var 16 /var&gt;pel&lt;var 16 /var&gt;zahl: 4
@@ -17363,16 +17365,16 @@ Bei Ausführung wird &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Klingen
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Klingentanz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
-      <trans-unit id="29428" xml:space="preserve" approved="no">
+      <trans-unit id="29428" xml:space="preserve" approved="yes">
         <source>29428</source>
-        <target state="needs-translation">Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
+        <target state="final">Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 6.000
 Zusatzeffekt: Eigener erlittener Schaden und der erlittene Schaden des von dir bestimmten Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieds mit dem Status &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Auserwählter Tanzpartner&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ist um 20&lt;var 1D /var&gt;% verringert.
 Dauer: 5 Sekunden</target>
       </trans-unit>
       <trans-unit id="29429" xml:space="preserve" approved="yes">
         <source>29429</source>
-        <target state="final">Du regenerierst eigene LP und die von umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern.
+        <target state="final">Du regenerierst eigene LP und die von umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern. Ignoriert Deckung.
 Heilpotenzial: 8.000
 Zusatzeffekt: Das von dir bestimmte Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glied mit dem Status &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Auserwählter Tanzpartner&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; regeneriert ebenfalls eigene LP und die von umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern.</target>
       </trans-unit>
@@ -17613,7 +17615,7 @@ Eigener Reaktivierungs-Timer</target>
       <trans-unit id="29491" xml:space="preserve" approved="yes">
         <source>29491</source>
         <target state="final">Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert: 4.000
+Attacke-Wert: 5.000
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Drachengeist&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 10 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Drachengeist&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ausgeteilter Schaden ist um 25&lt;var 1D /var&gt;% und erlittener Schaden um 15&lt;var 1D /var&gt;% erhöht.
@@ -17628,7 +17630,7 @@ Während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sternenkreuz&lt;var
       <trans-unit id="29492" xml:space="preserve" approved="yes">
         <source>29492</source>
         <target state="final">Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.
-Attacke-Wert: 4.000 bis 8.000
+Attacke-Wert: 5.000 bis 10.000
 Attacke-Wert umso höher, je niedriger die LP des Ziels sind. Maximalen Wert erreicht er ab 50&lt;var 1D /var&gt;% Maximal-LP des Ziels.
 Bei Ausführung wird &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Drachengeist&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; verbraucht.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Zielgerichtet&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
@@ -17721,9 +17723,9 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="29504" xml:space="preserve" approved="yes">
         <source>29504</source>
         <target state="final">Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 4.000
+Attacke-Wert: 5.000
 Zusatzeffekt: Schaden über Zeit
-Attacke-Wert: 4.000
+Attacke-Wert: 5.000
 Dauer: 12 Sekunden
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tri-Mudra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -17739,7 +17741,7 @@ Eigener Reaktivierungs-Timer</target>
       <trans-unit id="29506" xml:space="preserve" approved="yes">
         <source>29506</source>
         <target state="final">Du führst eine magische Attacke aus.
-Attacke-Wert: 16.000
+Attacke-Wert: 18.000
 Bedindung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tri-Mudra&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
@@ -17920,7 +17922,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <target state="final">Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 12.000
 Attacke-Wert verringert sich ab dem zweiten Gegner auf 8.000.
-Zusatzeffekt: Werden mindestens zwei Ziele getroffen, errichtest du eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 9.000 absorbiert.
+Zusatzeffekt: Werden mindestens zwei Ziele getroffen, errichtest du eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 10.000 absorbiert.
 Dauer: 10 Sekunden
 Ändert sich bei Ausführung zu &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Kaeshi Namikiri&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Eigener Reaktivierungs-Timer</target>
@@ -17931,7 +17933,7 @@ Eigener Reaktivierungs-Timer</target>
 Attacke-Wert: 12.000
 Attacke-Wert verringert sich ab dem zweiten Gegner auf 8.000.
 Kombo-Bedingung: &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Ogi Namikiri&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Zusatzeffekt: Werden mindestens zwei Ziele getroffen, errichtest du eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 9.000 absorbiert.
+Zusatzeffekt: Werden mindestens zwei Ziele getroffen, errichtest du eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 10.000 absorbiert.
 Dauer: 10 Sekunden
 Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
@@ -18110,7 +18112,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <source>29552</source>
         <target state="final">Du erzeugst ein &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schutzwappen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, das eine Barriere um dich errichtet, die Schaden entsprechend einem Heilpotenzial von 12.000 absorbiert.
 Dauer: 10 Sekunden
-Falls die Barriere den vollen Schaden absorbiert, wird dir und Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern im Umkreis von 15y &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vitalisierendes Wappen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; gewährt.
+Falls die Barriere den vollen Schaden absorbiert, wird dir und Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern im Umkreis von 15y &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vitalisierendes Wappen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; gewährt. Ignoriert Deckung.
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vitalisierendes Wappen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Regeneriert stetig LP.
 Heilpotenzial: 6.000
 Dauer: 6 Sekunden</target>
@@ -18406,7 +18408,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
       <trans-unit id="29675" xml:space="preserve" approved="yes">
         <source>29675</source>
-        <target state="final">Demi-Bahamut führt eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
+        <target state="final">Demi-Bahamut führt eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus. Ignoriert Deckung.
 Attacke-Wert: 20.000
 Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
@@ -18442,7 +18444,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
       <trans-unit id="29680" xml:space="preserve" approved="yes">
         <source>29680</source>
-        <target state="final">Demi-Phönix regeneriert bei dir und den umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern stetig LP.
+        <target state="final">Demi-Phönix regeneriert bei dir und den umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern stetig LP. Ignoriert Deckung.
 Heilpotenzial: 4.000
 Dauer: 18 Sekunden
 Sobald die LP eines Ziels unter 25&lt;var 1D /var&gt;% sinken oder die Wirkungsdauer endet, werden LP zusätzlich regeneriert.
@@ -18710,7 +18712,7 @@ Heilpotenzial: 15.000</target>
       </trans-unit>
       <trans-unit id="29716" xml:space="preserve" approved="yes">
         <source>29716</source>
-        <target state="final">Du erhöhst den erlittenen Schaden des Ziels um 10&lt;var 1D /var&gt;%. Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wehr&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf dem Ziel aktiv, verringert sich der Effekt dieses Kommandos um 50&lt;var 1D /var&gt;%.
+        <target state="final">Du erhöhst den erlittenen Schaden des Ziels um 10&lt;var 1D /var&gt;%. Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wehr&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf dem Ziel aktiv, verringert sich stattdessen der defensive Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wehr&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; um 50&lt;var 1D /var&gt;%.
 Dauer: 10 Sekunden</target>
       </trans-unit>
       <trans-unit id="29718" xml:space="preserve" approved="yes">
@@ -19281,8 +19283,8 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="34614" xml:space="preserve" approved="yes">
         <source>34614</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 100
-Bei &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tödliche Haltung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 120
+Attacke-Wert: 120
+Bei &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tödliche Haltung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 140
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tückische Haltung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 60 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tückische Haltung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Der Attacke-Wert von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tückische Fänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ist um 100 und von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tückische Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; um 20 erhöht.
@@ -19291,8 +19293,8 @@ Kann nicht gleichzeitig mit &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;
       <trans-unit id="34615" xml:space="preserve" approved="yes">
         <source>34615</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 100
-Bei &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tückische Haltung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 120
+Attacke-Wert: 120
+Bei &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tückische Haltung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 140
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tödliche Haltung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 60 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tödliche Haltung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Der Attacke-Wert von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tödliche Fänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ist um 100 und von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tödliche Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; um 20 erhöht.
@@ -19301,7 +19303,7 @@ Kann nicht gleichzeitig mit &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;
       <trans-unit id="34616" xml:space="preserve" approved="yes">
         <source>34616</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 130
+Attacke-Wert: 180
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vipernblut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 40 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vipernblut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Eigener ausgeteilter Schaden ist um 10&lt;var 1D /var&gt;% erhöht.
@@ -19312,7 +19314,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="34617" xml:space="preserve" approved="yes">
         <source>34617</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 130
+Attacke-Wert: 180
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vipernhatz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 40 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vipernhatz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Auto-Attacke-Intervall und
@@ -19324,11 +19326,11 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="34618" xml:space="preserve" approved="yes">
         <source>34618</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 140
-Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Nagender Hunger&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv, ist der Attacke-Wert um 20 erhöht.
+Attacke-Wert: 180
+Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Nagender Hunger&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv, ist der Attacke-Wert um 40 erhöht.
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gieriges Schlingen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 60 Sekunden
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gieriges Schlingen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Erhöht die Attacke-Werte von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schlingende Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; um 20.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gieriges Schlingen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Erhöht die Attacke-Werte von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schlingende Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; um 40.
 &lt;var 08 E4E9452A ((&lt;var 08 E0E9495B ((Zusatzeffekt: Erhöht den Geistbalken um 10.
 )) (()) /var&gt;)) (()) /var&gt;Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Blutige Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flinke Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Blutige Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -19337,11 +19339,11 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="34619" xml:space="preserve" approved="yes">
         <source>34619</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 140
-Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gieriges Schlingen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv, ist der Attacke-Wert um 20 erhöht.
+Attacke-Wert: 180
+Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gieriges Schlingen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv, ist der Attacke-Wert um 40 erhöht.
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Nagender Hunger&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 60 Sekunden
-Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Nagender Hunger&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Erhöht die Attacke-Werte von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Hungernde Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; um 20.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Nagender Hunger&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Erhöht die Attacke-Werte von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Hungernde Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; um 40.
 &lt;var 08 E4E9452A ((&lt;var 08 E0E9495B ((Zusatzeffekt: Erhöht den Geistbalken um 10.
 )) (()) /var&gt;)) (()) /var&gt;Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Blutige Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flinke Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flinke Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -19392,7 +19394,7 @@ Eigener Reaktivierungs-Timer</target>
       <trans-unit id="34623" xml:space="preserve" approved="yes">
         <source>34623</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 220
+Attacke-Wert: 250
 &lt;var 08 E4E9452A ((&lt;var 08 E0E94953 ((Zusatzeffekt: Gewährt dir eine &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schlangenseele&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Ma&lt;var 16 /var&gt;xi&lt;var 16 /var&gt;mal&lt;var 16 /var&gt;sta&lt;var 16 /var&gt;pel&lt;var 16 /var&gt;zahl: &lt;var 08 E4E9452A ((&lt;var 08 E0E949590403 /var&gt;)) 03 /var&gt;
 )) (()) /var&gt;)) (()) /var&gt;Maximale Aufladungen: 2
@@ -19401,7 +19403,7 @@ Gemeinsamer Reaktivierungs-Timer mit &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7
       <trans-unit id="34624" xml:space="preserve" approved="yes">
         <source>34624</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 280
+Attacke-Wert: 300
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vipernblut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 40 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vipernblut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Eigener ausgeteilter Schaden ist um 10&lt;var 1D /var&gt;% erhöht.
@@ -19416,7 +19418,7 @@ Eigener Reaktivierungs-Timer</target>
       <trans-unit id="34625" xml:space="preserve" approved="yes">
         <source>34625</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 280
+Attacke-Wert: 300
 Bonus: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vipernhatz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 40 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vipernhatz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Auto-Attacke-Intervall und
@@ -19433,7 +19435,7 @@ Eigener Reaktivierungs-Timer</target>
         <source>34626</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 750
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80&lt;var 1D /var&gt;%.
 Zusatzeffekt: Gewährt &lt;var 08 E4E9452A ((&lt;var 08 E0E949610605 /var&gt;)) 05 /var&gt; Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wissen der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 30 Sekunden
 Geistbalken-Kosten: 50
@@ -19444,7 +19446,7 @@ Eigener Reaktivierungs-Timer</target>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 480
 Bei direkter Ausführung nach &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Ruf der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; erhöht sich der Attacke-Wert auf 680.
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wissen der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;-Kosten: 1
 Eigener Reaktivierungs-Timer
 Bei erfüllter Bedingung ändern sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tödliche Fänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tödliche Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -19455,7 +19457,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 480
 Bei direkter Ausführung nach &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Erstes Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; erhöht sich der Attacke-Wert auf 680.
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wissen der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;-Kosten: 1
 Eigener Reaktivierungs-Timer
 Bei erfüllter Bedingung ändern sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tückische Fänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Tückische Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -19466,7 +19468,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 480
 Bei direkter Ausführung nach &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Zweites Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; erhöht sich der Attacke-Wert auf 680.
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wissen der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;-Kosten: 1
 Eigener Reaktivierungs-Timer
 Bei erfüllter Bedingung ändern sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Blutiger Otterngriff&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Blutige Otterngrube&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -19477,7 +19479,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 480
 Bei direkter Ausführung nach &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Drittes Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; erhöht sich der Attacke-Wert auf 680.
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wissen der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;-Kosten: 1
 Eigener Reaktivierungs-Timer
 Bei erfüllter Bedingung ändern sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flinker Otterngriff&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flinke Otterngrube&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -19487,7 +19489,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <source>34631</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
 Attacke-Wert: 1.150
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 Bei Ausführung wird &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Ruf der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; beendet.
 Bedingung: mind. 1 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wissen der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Eigener Reaktivierungs-Timer
@@ -19503,7 +19505,7 @@ Attacke-Wert: 200</target>
         <source>34633</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 680
-Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 75 %.
 &lt;var 08 E4E9452A ((&lt;var 08 E0E9495D ((Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fiederfänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 60 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fiederfänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Attacke-Wert von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Flug der Zwillingsfänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ist um 50 erhöht.
@@ -19522,7 +19524,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="34635" xml:space="preserve" approved="yes">
         <source>34635</source>
         <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
-Attacke-Wert: 100
+Attacke-Wert: 120
 Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Hungernde Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schlingende Kiefer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Serpentiner Schwanz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -19575,7 +19577,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <source>34640</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 320
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Erstes Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Serpentiner Schwanz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -19584,7 +19586,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <source>34641</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 320
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Zweites Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Serpentiner Schwanz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -19593,7 +19595,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <source>34642</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 320
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Drittes Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Serpentiner Schwanz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -19602,7 +19604,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <source>34643</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 320
-Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 80 %.
 Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Viertes Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Serpentiner Schwanz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -19612,7 +19614,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 120
 Attacke-Wert bei &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fiederfänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 170
-Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 75 %.
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fiederschuppen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 60 Sekunden
 Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schlangenschwinge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -19624,7 +19626,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 120
 Attacke-Wert bei &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fiederschuppen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 170
-Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.
+Attacke-Wert verringert sich ab dem zweiten Gegner um 75 %.
 Bedingung: Erfolgreiche Ausführung von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Schlangenschwinge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Zwillingsschuppen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -20252,14 +20254,14 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="36937" xml:space="preserve" approved="yes">
         <source>36937</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 1.000
+Attacke-Wert: 800
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60&lt;var 1D /var&gt;%.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Löwenherz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv</target>
       </trans-unit>
       <trans-unit id="36938" xml:space="preserve" approved="yes">
         <source>36938</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 1.100
+Attacke-Wert: 900
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60&lt;var 1D /var&gt;%.
 Kombo-Bedingung: &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Lautere Wut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Lautere Wut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -20268,7 +20270,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="36939" xml:space="preserve" approved="yes">
         <source>36939</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 1.200
+Attacke-Wert: 1.000
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60&lt;var 1D /var&gt;%.
 Kombo-Bedingung: &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Nobles Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Nobles Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
@@ -20617,9 +20619,9 @@ Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Resonanzpfeilbere
         <source>36977</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Der Attacke-Wert richtet sich danach, wie viele &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Codas&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; im direkt davor ausgeführten &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Luminösen Finale&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; verbraucht worden sind.
-1 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Coda&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 600
-2 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Codas&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 700
-3 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Codas&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 1.000
+1 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Coda&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 700
+2 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Codas&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 800
+3 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Codas&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 1.100
 Attacke-Wert verringert sich ab dem zweiten Gegner um 50&lt;var 1D /var&gt;%.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Luminöse Zugabe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv</target>
       </trans-unit>
@@ -20649,7 +20651,7 @@ Maximale Aufladungen: 3</target>
       <trans-unit id="36981" xml:space="preserve" approved="yes">
         <source>36981</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 620
+Attacke-Wert: 660
 Attacke-Wert verringert sich ab dem zweiten Gegner um 25&lt;var 1D /var&gt;%.
 Zusatzeffekt: Batteriebalken füllt sich um 20.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Exkavator&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
@@ -20667,7 +20669,7 @@ Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Aus allen Rohren&
       <trans-unit id="36983" xml:space="preserve" approved="yes">
         <source>36983</source>
         <target state="final">Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 520
+Attacke-Wert: 540
 Attacke-Wert verringert sich ab dem zweiten Gegner um 60&lt;var 1D /var&gt;%.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bühneneuphorie&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv</target>
       </trans-unit>
@@ -20845,7 +20847,7 @@ Zusatzeffekt: Je +2 Schwarzes Mana und Weißes Mana</target>
       <trans-unit id="37005" xml:space="preserve" approved="yes">
         <source>37005</source>
         <target state="final">Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
-Attacke-Wert: 900
+Attacke-Wert: 950
 Attacke-Wert verringert sich ab dem zweiten Gegner um 55 %.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blüte des Mutes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv</target>
       </trans-unit>
@@ -20864,9 +20866,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <target state="final">Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 1.200
 Attacke-Wert verringert sich ab dem zweiten Gegner um 55 %.
-Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kristallglanz-bereit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
-Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Manafizierung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
-Kann nicht im Kommandomenü angelegt werden.</target>
+Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kristallglanz-bereit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv</target>
       </trans-unit>
       <trans-unit id="37008" xml:space="preserve" approved="yes">
         <source>37008</source>
@@ -21424,7 +21424,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       <trans-unit id="39190" xml:space="preserve" approved="yes">
         <source>39190</source>
         <target state="final">Du schnellst zum Ziel und fügst ihm und den Gegnern in seiner Nähe physischen Schaden zu.
-Attacke-Wert: 12.000
+Attacke-Wert: 15.000
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Ruf der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und erhöht deine Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit um 50&lt;var 1D /var&gt;%.
 Dauer: 20 Sekunden
 Während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Ruf der Ahnen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv ist, ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Kombo Gebleckte Fänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Erstes Blut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Labender Otterngriff&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Ouroboros&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
@@ -21586,7 +21586,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <source>39207</source>
         <target state="final">Du materialisierst deine piktomantische &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Klaue&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 8.000
-Zusatzeffekt: Erlittener Schaden der Ziele um 10&lt;var 1D /var&gt;% erhöht und Heileffekte auf die Ziele sind um 20&lt;var 1D /var&gt;% verringert.
+Zusatzeffekt: Erlittener Schaden der Ziele um 10&lt;var 1D /var&gt;% erhöht und Heileffekte auf die Ziele sind um 15&lt;var 1D /var&gt;% verringert.
 Dauer: 10 Sekunden
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Skizzierte Hauer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: Fortdauernd
@@ -21637,7 +21637,7 @@ Kommando ändert sich während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&
       </trans-unit>
       <trans-unit id="39212" xml:space="preserve" approved="yes">
         <source>39212</source>
-        <target state="final">Du beendest &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tempera-Schicht&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und gewährst dir und den umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fette Tempera&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Damit errichtest du eine Barriere um die Ziele, die Schaden entsprechend einem Heilpotenzial von 8.000 absorbiert.
+        <target state="final">Du beendest &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tempera-Schicht&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und gewährst dir und den umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Fette Tempera&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Damit errichtest du eine Barriere um die Ziele, die Schaden entsprechend einem Heilpotenzial von 8.000 absorbiert. Ignoriert Deckung.
 Dauer: 10 Sekunden
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Tempera-Schicht&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Kann nicht im Kommandomenü angelegt werden.</target>
@@ -21666,10 +21666,11 @@ Aufladedauer: 105 Sekunden
         <source>39216</source>
         <target state="final">Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.
 Attacke-Wert: 16.000
-Zusatzeffekt: Regeneriert LP der Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder in einem Umkreis von 30y des Ziels.
+Zusatzeffekt: Regeneriert LP der Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder in einem Umkreis von 30y des Ziels. Ignoriert Deckung.
 Heilpotenzial: 16.000
-Zusatzeffekt: Erhöht den verursachten Schaden der Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder in einem Umkreis von 30y um 15&lt;var 1D /var&gt;%.
+Zusatzeffekt: Erhöht den verursachten Schaden der Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder in einem Umkreis von 30y um 15&lt;var 1D /var&gt;%. Ignoriert Deckung.
 Dauer: 15 Sekunden
+Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sternenfunkeln&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv
 Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
       <trans-unit id="39505" xml:space="preserve" approved="yes">
@@ -21766,7 +21767,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
         <source>41430</source>
         <target state="final">Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.
 Attacke-Wert: 8.000
-Zusatzeffekt: Erlittener Schaden des Ziels um 10 % erhöht. Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wehr&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf dem Ziel aktiv, verringert sich der Effekt dieses Kommandos um 50&lt;var 1D /var&gt;%.
+Zusatzeffekt: Erlittener Schaden des Ziels um 10 % erhöht. Ist &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wehr&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; auf dem Ziel aktiv, verringert sich stattdessen der defensive Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wehr&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; um 50&lt;var 1D /var&gt;%.
 Dauer: 10 Sekunden
 Eigener Reaktivierungs-Timer</target>
       </trans-unit>
@@ -22217,7 +22218,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
       <trans-unit id="41494" xml:space="preserve" approved="yes">
         <source>41494</source>
-        <target state="final">Du erhöhst den ausgeteilten Schaden von dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern um 8&lt;var 1D /var&gt;% und verringerst erlittenen Schaden um 8&lt;var 1D /var&gt;%.
+        <target state="final">Du erhöhst den ausgeteilten Schaden von dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern um 8&lt;var 1D /var&gt;% und verringerst erlittenen Schaden um 8&lt;var 1D /var&gt;%. Ignoriert Deckung.
 Dauer: 8 Sekunden
 Zusatzeffekt: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kristallglanz-bereit&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Dauer: 15 Sekunden
@@ -22269,7 +22270,7 @@ Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
       <trans-unit id="41501" xml:space="preserve" approved="yes">
         <source>41501</source>
-        <target state="final">Regeneriert eigene LP und die von umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern.
+        <target state="final">Regeneriert eigene LP und die von umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern. Ignoriert Deckung.
 Heilpotenzial: 8.000
 Zusatzeffekt: Gewährt dem Ziel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seelentrost&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seelentrost&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Errichtet eine Barriere um das Ziel, die Schaden entsprechend einem Heilpotenzial von 8.000 absorbiert.
@@ -22284,7 +22285,7 @@ Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seraphenlehre&lt;
 Dauer: 20 Sekunden
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Raffinesse&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Die Effekte von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Adloquium&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Causae et Curae&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; werden verstärkt.
 Dauer: 20 Sekunden
-Zusatzeffekt: Entfernt einen negativen Status von dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern, der von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Purifikation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; entfernt werden kann. Tritt dieser Effekt nicht auf, wird stattdessen eine Barriere um das Ziel errichtet, die den nächsten von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Purifikation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aufhebbaren negativen Status verhindert.
+Zusatzeffekt: Entfernt einen negativen Status von dir und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern, der von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Purifikation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; entfernt werden kann. Tritt dieser Effekt nicht auf, wird stattdessen eine Barriere um das Ziel errichtet, die den nächsten von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Purifikation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aufhebbaren negativen Status verhindert. Ignoriert Deckung.
 Dauer: 20 Sekunden
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Limitrausch-Balken&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; voll
 Aufladedauer: 90 Sekunden
@@ -22648,6 +22649,7 @@ Attacke-Wert: 210 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt
 Zusatzeffekt: Belegt das Ziel mit &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Silber&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Silber&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Verringert den ausgeteilten Schaden um 10&lt;var 1D /var&gt;% und erhöht den erlittenen Schaden um 5&lt;var 1D /var&gt;%.
 Dauer: 70 Sekunden
+Kann nicht zugleich mit &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Betörung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; des Phantom-Tänzers aktiv sein.
 Gemeinsamer Reaktivierungs-Timer mit &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Heilige Kanone&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
       </trans-unit>
       <trans-unit id="41631" xml:space="preserve" approved="yes">
@@ -22810,6 +22812,15 @@ Zusatzeffekt: 10 % Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 1
         <target state="final">Feuert ein Karottengeschoss ab, das durchschlagskräftig genug ist, einen korrumpierten Riesenkristall mit einem Schlag zu zersplittern.
 Bedingung: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Aufgerüstet&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aktiv </target>
       </trans-unit>
+      <trans-unit id="42038" xml:space="preserve" approved="yes">
+        <source>42038</source>
+        <target state="final">自身を中心に広範囲の草を刈る。
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;発動条件：&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;草刈り魂50以上</target>
+      </trans-unit>
+      <trans-unit id="42039" xml:space="preserve" approved="yes">
+        <source>42039</source>
+        <target state="final">自身の前方に向かって素早く移動しながら草を刈る。</target>
+      </trans-unit>
       <trans-unit id="42057" xml:space="preserve" approved="yes">
         <source>42057</source>
         <target state="final">Präsentiert sich in seiner besten Form. (Nur visueller Effekt, keine Wirkung.)</target>
@@ -22894,12 +22905,12 @@ Reaktivierungs-Timer wird entfernt, wenn du ein K. o. bewirkst oder dabei unters
       </trans-unit>
       <trans-unit id="43249" xml:space="preserve" approved="yes">
         <source>43249</source>
-        <target state="final">Du verkürzt die (Re-)Ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zei&lt;var 16 /var&gt;ten von Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten und Magie bei dir selbst und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern um 10&lt;var 1D /var&gt;%. Dazu erhöhst du deine und die Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit umstehender Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder um 33&lt;var 1D /var&gt;%.
+        <target state="final">Du verkürzt die (Re-)Ak&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;vie&lt;var 16 /var&gt;rungs&lt;var 16 /var&gt;zei&lt;var 16 /var&gt;ten von Waf&lt;var 16 /var&gt;fen&lt;var 16 /var&gt;fer&lt;var 16 /var&gt;tig&lt;var 16 /var&gt;kei&lt;var 16 /var&gt;ten und Magie bei dir selbst und umstehenden Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern um 10&lt;var 1D /var&gt;%. Dazu erhöhst du deine und die Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit umstehender Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder um 33&lt;var 1D /var&gt;%. Ignoriert Deckung.
 Dauer: 12 Sekunden</target>
       </trans-unit>
       <trans-unit id="43250" xml:space="preserve" approved="yes">
         <source>43250</source>
-        <target state="final">Du erhöhst den ausgeteilten Schaden und verringerst den erhaltenen Schaden des Ziels um jeweils 25 %.
+        <target state="final">Du erhöhst den ausgeteilten Schaden und verringerst den erhaltenen Schaden von dir oder einem Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glied um jeweils 25&lt;var 1D /var&gt;%.
 Dauer: 15 Sekunden</target>
       </trans-unit>
       <trans-unit id="43251" xml:space="preserve" approved="yes">
@@ -22909,7 +22920,7 @@ Attacke-Wert: 12.000</target>
       </trans-unit>
       <trans-unit id="43252" xml:space="preserve" approved="yes">
         <source>43252</source>
-        <target state="final">Du führst eine magische Attacke auf alle Gegner um den Einschlagort aus.
+        <target state="final">Du führst eine magische Attacke auf alle Gegner um den Einschlagsort aus. Ignoriert Deckung.
 Attacke-Wert: 20.000
 Während dieses Kommando gewirkt wird, kannst du dich nicht bewegen oder das Kommando unterbrechen.</target>
       </trans-unit>
@@ -22931,7 +22942,7 @@ Heilpotenzial: 15.000</target>
       </trans-unit>
       <trans-unit id="43256" xml:space="preserve" approved="yes">
         <source>43256</source>
-        <target state="final">Du errichtest eine Barriere um dich und umstehende Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder, die Schaden entsprechend einem Heilpotenzial von 12.000 absorbiert.
+        <target state="final">Du errichtest eine Barriere um dich und umstehende Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glieder, die Schaden entsprechend einem Heilpotenzial von 12.000 absorbiert. Ignoriert Deckung.
 Dauer: 10 Sekunden</target>
       </trans-unit>
       <trans-unit id="43257" xml:space="preserve" approved="yes">
@@ -22973,27 +22984,43 @@ Effekt endet bei erneuter Ausführung oder nächstem Kommando.</target>
         <source>44492</source>
         <target state="final">Macht die Ver&lt;var 16 /var&gt;wand&lt;var 16 /var&gt;lung rückgängig.</target>
       </trans-unit>
+      <trans-unit id="44501" xml:space="preserve" approved="yes">
+        <source>44501</source>
+        <target state="final">Ulala!</target>
+      </trans-unit>
+      <trans-unit id="44502" xml:space="preserve" approved="yes">
+        <source>44502</source>
+        <target state="final">Narumi!</target>
+      </trans-unit>
+      <trans-unit id="44503" xml:space="preserve" approved="yes">
+        <source>44503</source>
+        <target state="final">Masha!</target>
+      </trans-unit>
+      <trans-unit id="44504" xml:space="preserve" approved="yes">
+        <source>44504</source>
+        <target state="final">Pico!</target>
+      </trans-unit>
       <trans-unit id="44516" xml:space="preserve" approved="yes">
         <source>44516</source>
         <target state="final">Erzeugt Blumen aus Schnee.
 (Nur visueller Effekt, keine Wirkung.)</target>
       </trans-unit>
-      <trans-unit id="44517" xml:space="preserve" approved="no">
+      <trans-unit id="44517" xml:space="preserve" approved="yes">
         <source>44517</source>
-        <target state="needs-translation">Lässt zauberhafte Süßigkeiten regnen.</target>
+        <target state="final">Lässt zauberhafte Süßigkeiten regnen.</target>
       </trans-unit>
-      <trans-unit id="44518" xml:space="preserve" approved="no">
+      <trans-unit id="44518" xml:space="preserve" approved="yes">
         <source>44518</source>
-        <target state="needs-translation">Ein Gruß vom angesauerten Impresario an seine Imps.</target>
+        <target state="final">Ein Gruß vom angesauerten Impresario an seine Imps.</target>
       </trans-unit>
-      <trans-unit id="44519" xml:space="preserve" approved="no">
+      <trans-unit id="44519" xml:space="preserve" approved="yes">
         <source>44519</source>
-        <target state="needs-translation">Lässt zauberhafte Süßigkeiten regnen.
+        <target state="final">Lässt zauberhafte Süßigkeiten regnen.
 (Nur visueller Effekt, keine Wirkung.)</target>
       </trans-unit>
-      <trans-unit id="44520" xml:space="preserve" approved="no">
+      <trans-unit id="44520" xml:space="preserve" approved="yes">
         <source>44520</source>
-        <target state="needs-translation">Ein Gruß vom angesauerten Impresario an seine Imps.
+        <target state="final">Ein Gruß vom angesauerten Impresario an seine Imps.
 (Nur visueller Effekt, keine Wirkung.)</target>
       </trans-unit>
       <trans-unit id="44628" xml:space="preserve" approved="yes">
@@ -23043,6 +23070,10 @@ Bedingung: 3 Stapel von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gela
         <target state="final">Saugt mit einem windbasierten Gerät Anhäufungen an Glassplittern in einem fächerförmigen Wir&lt;var 16 /var&gt;kungs&lt;var 16 /var&gt;be&lt;var 16 /var&gt;reich vor dir ein.
 Hat keinen Effekt auf große Glaskristalle.</target>
       </trans-unit>
+      <trans-unit id="45127" xml:space="preserve" approved="yes">
+        <source>45127</source>
+        <target state="final">自身の周囲の草を刈る。</target>
+      </trans-unit>
       <trans-unit id="45193" xml:space="preserve" approved="yes">
         <source>45193</source>
         <target state="final">Macht den Rücken laaang.
@@ -23058,15 +23089,200 @@ Hat keinen Effekt auf große Glaskristalle.</target>
         <target state="final">Faucht fremde Bösewichte an.
 (Nur visueller Effekt, keine Wirkung.)</target>
       </trans-unit>
-      <trans-unit id="858" xml:space="preserve" approved="no">
-        <source>858</source>
-        <target state="needs-translation">Delivers an attack with a potency of 170.
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Damage over time
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 18s</target>
+      <trans-unit id="45960" xml:space="preserve" approved="yes">
+        <source>45960</source>
+        <target state="final">Du führst eine elementneutrale magische Attacke aus.
+Attacke-Wert: &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FF20154 ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F20118F0DC /var&gt;)) F0DC /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F20118F0DC /var&gt;)) F0DC /var&gt;)) /var&gt;
+&lt;var 08 E4E94524 ((&lt;var 08 E0E94945 ((Zusatzeffekt: 1 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manasplitter&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+)) (()) /var&gt;)) (()) /var&gt;Balancebalken-Kosten: 20 Weißes Mana und 20 Schwarzes Mana
+Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Riposte&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
+Kann nicht im Kommandomenü angelegt werden.</target>
       </trans-unit>
-      <trans-unit id="6844" xml:space="preserve" approved="no">
-        <source>6844</source>
-        <target state="needs-translation">Restores all of a target's HP.</target>
+      <trans-unit id="45961" xml:space="preserve" approved="yes">
+        <source>45961</source>
+        <target state="final">Du führst eine elementneutrale magische Attacke aus.
+Attacke-Wert: &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FBF ((&lt;var 08 E4E94524 ((&lt;var 08 E0E949559765 /var&gt;)) 65 /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E949559765 /var&gt;)) 65 /var&gt;)) /var&gt;
+Kombo-Bedingung: &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Riposte&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; oder &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magische Riposte&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Attacke-Wert: &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FF2017C ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F20154F20122 /var&gt;)) F20122 /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F20154F20122 /var&gt;)) F20122 /var&gt;)) /var&gt;
+&lt;var 08 E4E94524 ((&lt;var 08 E0E94945 ((Zusatzeffekt: 1 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manasplitter&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+)) (()) /var&gt;)) (()) /var&gt;Balancebalken-Kosten: 15 Weißes Mana und 15 Schwarzes Mana
+Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Zwerchhau&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
+Kann nicht im Kommandomenü angelegt werden.</target>
+      </trans-unit>
+      <trans-unit id="45962" xml:space="preserve" approved="yes">
+        <source>45962</source>
+        <target state="final">Du führst eine elementneutrale magische Attacke aus.
+Attacke-Wert: &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FBF ((&lt;var 08 E4E94524 ((&lt;var 08 E0E949558365 /var&gt;)) 65 /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E949558365 /var&gt;)) 65 /var&gt;)) /var&gt;
+Kombo-Bedingung: &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magischer Zwerchhau&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Attacke-Wert: &lt;var 08 E4E94524 ((&lt;var 08 E0E9495FF20230 ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F201F4F201D6 /var&gt;)) F201D6 /var&gt;)) /var&gt;)) ((&lt;var 08 E4E94524 ((&lt;var 08 E0E94955F201F4F201D6 /var&gt;)) F201D6 /var&gt;)) /var&gt;
+&lt;var 08 E4E94524 ((&lt;var 08 E0E94945 ((Zusatzeffekt: 1 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Manasplitter&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+)) (()) /var&gt;)) (()) /var&gt;Balancebalken-Kosten: 15 Weißes Mana und 15 Schwarzes Mana
+Bei erfüllter Bedingung ändert sich &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Redoublement&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu diesem Kommando.
+Kann nicht im Kommandomenü angelegt werden.</target>
+      </trans-unit>
+      <trans-unit id="46590" xml:space="preserve" approved="yes">
+        <source>46590</source>
+        <target state="final">Du errichtest eine Barriere um dich oder das ausgewählte Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glied, die ein bestimmtes Maß an Schaden absorbiert (20 % der Maximal-LP des Anwenders).
+Dauer: 60 Sekunden
+Bei Erlöschen der Barriere erhält der Anwender &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Magieklingen-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.&lt;var 08 E0E96D03 ((
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Magieklingen-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Der Attacke-Wert der nächsten &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magieklinge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ist erhöht.
+Dauer: 30 Sekunden)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46591" xml:space="preserve" approved="yes">
+        <source>46591</source>
+        <target state="final">Du führst eine physische Attacke aus.
+Attacke-Wert: 200 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Zusatzeffekt: 20&lt;var 1D /var&gt;% Chance, fast alle Ziele zu versteinern. Versteinerte Ziele werden nach Angriffen kampfunfähig.
+Dauer: 10 Sekunden&lt;var 08 E0E96D03 ((
+Attacke-Wert während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Magieklingen-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 300 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe))) (()) /var&gt;&lt;var 08 E0E96D04 ((
+Gemeinsamer Reaktivierungs-Timer mit &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magieklingen-Sanctus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E0E96D05 (( und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magieklingen-Flare&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46592" xml:space="preserve" approved="yes">
+        <source>46592</source>
+        <target state="final">Du führst eine physische Attacke aus, die untoten Zielen erhöhten Schaden zufügt.
+Attacke-Wert: 300 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Attacke-Wert auf untote Ziele: 500 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Attacke-Wert während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Magieklingen-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 400 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Attacke-Wert auf untote Zielen während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Magieklingen-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 600 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Gemeinsamer Reaktivierungs-Timer mit &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magieklingen-Versteinerung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;var 08 E0E96D05 (( und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magieklingen-Flare&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46593" xml:space="preserve" approved="yes">
+        <source>46593</source>
+        <target state="final">Du führst eine physische Attacke aus.
+Attacke-Wert: 200 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Zusatzeffekt: Erhöht den eigenen ausgeteilten Schaden sowie den erlittenen Schaden des Ziels um jeweils 5&lt;var 1D /var&gt;%.
+Dauer: 70 Sekunden
+Attacke-Wert während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Magieklingen-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: 300 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Gemeinsamer Reaktivierungs-Timer mit &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magieklingen-Versteinerung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Magieklingen-Sanctus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46594" xml:space="preserve" approved="yes">
+        <source>46594</source>
+        <target state="final">Du führst eine physische Attacke aus, deren Effekt je nach Erfolgsstufe variiert.
+Attacke-Wert bei großem Erfolg: 1.000 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Zusatzeffekt: 25&lt;var 1D /var&gt;% Chance auf sofortigen Tod fast aller Ziele
+Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit: 20&lt;var 1D /var&gt;%
+Attacke-Wert bei normalem Erfolg: 600 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit: 60&lt;var 1D /var&gt;%
+Bei Fehlschlag verfehlt der Angriff sein Ziel.
+Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit: 20&lt;var 1D /var&gt;%&lt;var 08 E0E96D03 ((
+Zusatzeffekt während &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Finaler Stoß-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit für einen großen Erfolg ist pro Stapel um 20&lt;var 1D /var&gt;% erhöht. Darüber hinaus ist die Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit eines normalen Erfolgs um 15&lt;var 1D /var&gt;% und die eines Fehlschlags um 5&lt;var 1D /var&gt;% verringert.)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46595" xml:space="preserve" approved="yes">
+        <source>46595</source>
+        <target state="final">Du verringerst erlittenen Schaden um 50&lt;var 1D /var&gt;%.
+Dauer: 5 Sekunden
+Zusatzeffekt bei erfolgreich verringertem Schaden: Gewährt dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Finaler Stoß-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Ma&lt;var 16 /var&gt;xi&lt;var 16 /var&gt;mal&lt;var 16 /var&gt;sta&lt;var 16 /var&gt;pel&lt;var 16 /var&gt;zahl: 4
+Dauer: 120 Sekunden
+Ist der Reaktivierungstimer dieses Kommandos nicht aktiv, wird 1 Stapel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Finaler Stoß-Verstärkung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pro erlittenem Angriff entfernt.</target>
+      </trans-unit>
+      <trans-unit id="46596" xml:space="preserve" approved="yes">
+        <source>46596</source>
+        <target state="final">Du führst eine physische Attacke aus.
+Attacke-Wert: 400 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)</target>
+      </trans-unit>
+      <trans-unit id="46597" xml:space="preserve" approved="yes">
+        <source>46597</source>
+        <target state="final">Du führst eine physische Attacke auf alle umstehenden Gegner aus.
+Attacke-Wert: 600 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)</target>
+      </trans-unit>
+      <trans-unit id="46598" xml:space="preserve" approved="yes">
+        <source>46598</source>
+        <target state="final">Du gewährst dir zufällig einen der vier Status &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schwerttanz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Verführerischer Tango&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Jitterbug&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; und &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bizarrer Walzer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, unter dessen Einfluss das entsprechende Kommando ausgeführt werden kann.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schwerttanz&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ermöglicht eine starke physische Attacke auf ein Ziel.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Verführerischer Tango&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ermöglicht eine elementneutrale magische Attacke auf ein Ziel, die dessen Zeit anhält.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Jitterbug&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ermöglicht eine elementneutrale magische Attacke auf ein Ziel, die dieses paralysiert und einen Teil des Schadens als LP absorbiert.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bizarrer Walzer&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ermöglicht eine elementneutrale magische Attacke auf ein Ziel, die dieses blendet und die eigenen MP regeneriert.</target>
+      </trans-unit>
+      <trans-unit id="46599" xml:space="preserve" approved="yes">
+        <source>46599</source>
+        <target state="final">Du führst eine physische Attacke aus.
+Attacke-Wert: 600 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)</target>
+      </trans-unit>
+      <trans-unit id="46600" xml:space="preserve" approved="yes">
+        <source>46600</source>
+        <target state="final">Du führst eine elementneutrale magische Attacke aus.
+Attacke-Wert: 400 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Zusatzeffekt: Hält für das Ziel die Zeit an.
+Dauer: 8 Sekunden</target>
+      </trans-unit>
+      <trans-unit id="46601" xml:space="preserve" approved="yes">
+        <source>46601</source>
+        <target state="final">Du führst eine elementneutrale magische Attacke aus.
+Attacke-Wert: 400 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Zusatzeffekt: Absorbiert einen Teil des zugefügten Schadens als LP.
+Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paralyse&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Dauer: 30 Sekunden</target>
+      </trans-unit>
+      <trans-unit id="46602" xml:space="preserve" approved="yes">
+        <source>46602</source>
+        <target state="final">Du führst eine elementneutrale magische Attacke aus.
+Attacke-Wert: 400 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)
+Zusatzeffekt: Du regenerierst alle deiner Maximal-MP.
+Zusatzeffekt: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blind&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Dauer: 30 Sekunden</target>
+      </trans-unit>
+      <trans-unit id="46603" xml:space="preserve" approved="yes">
+        <source>46603</source>
+        <target state="final">Du erhöhst deine Ausweichrate um 20&lt;var 1D /var&gt;%.
+Dauer: 90 Sekunden
+Zusatzeffekt: In der Nähe eines Wissenskristalls gewährst du dir und Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Aggressiver Schritt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Dauer: 30 Minuten
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Aggressiver Schritt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ausgeteilter Schaden ist um 2&lt;var 1D /var&gt;% erhöht.</target>
+      </trans-unit>
+      <trans-unit id="46604" xml:space="preserve" approved="yes">
+        <source>46604</source>
+        <target state="final">Du gewährst dir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Halteposition&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Wurde ein Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;glied als Ziel anvisiert, bewegst du dich augenblicklich zu diesem hin und verleihst dem Ziel ebenfalls &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Halteposition&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Halteposition&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Absorbiert ein bestimmtes Maß an Schaden (10&lt;var 1D /var&gt;% der Maximal-LP des Ausführers).
+Dauer: 30 Sekunden</target>
+      </trans-unit>
+      <trans-unit id="46605" xml:space="preserve" approved="yes">
+        <source>46605</source>
+        <target state="final">Du fügst dem Ziel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Starke Betörung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Starke Betörung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ausgeteilter Schaden ist um 40&lt;var 1D /var&gt;% verringert.
+Dauer: 4 Sekunden
+Zusatzeffekt: Fügt dem Ziel &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Betörung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; zu.
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Betörung&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ausgeteilter Schaden ist um 10&lt;var 1D /var&gt;% verringert und erlittener Schaden um 5&lt;var 1D /var&gt;% erhöht.
+Dauer: 100 Sekunden
+Kann nicht zugleich mit &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Silber&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; des Phantom-Grenadiers aktiv sein.</target>
+      </trans-unit>
+      <trans-unit id="46606" xml:space="preserve" approved="yes">
+        <source>46606</source>
+        <target state="final">In der Nähe eines Wissenskristalls gewährst du dir und Grup&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;mit&lt;var 16 /var&gt;gliedern verschiedene Effekte basierend auf den Stufen deiner Phantomjobs.
+Mit Phantom-Ritter auf Stufe 2: Gewährt allen Zielen &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schutzgebet&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Dauer: 30 Minuten
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Schutzgebet&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Verringert den erlittenen Schaden des Ziels um 10&lt;var 1D /var&gt;%.
+Mit Phantom-Mönch auf Stufe 3: Gewährt allen Zielen &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gegenwind&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Dauer: 30 Minuten
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gegenwind&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit wird erhöht.
+Mit Phantom-Barde auf Stufe 2: Gewährt allen Zielen &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Liebliche Klänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Dauer: 30 Minuten
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Liebliche Klänge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Die Routine für Phantomjobs ist beim Besiegen von Monstern um 10&lt;var 1D /var&gt;% erhöht.
+Mit Phantom-Tänzer auf Stufe 2: Gewährt allen Zielen &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Aggressiver Schritt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Dauer: 30 Minuten
+Effekt von &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Aggressiver Schritt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;: Ausgeteilter Schaden ist um 2&lt;var 1D /var&gt;% erhöht.</target>
+      </trans-unit>
+      <trans-unit id="46762" xml:space="preserve" approved="yes">
+        <source>46762</source>
+        <target state="final">Du regenerierst eigene LP.</target>
+      </trans-unit>
+      <trans-unit id="46763" xml:space="preserve" approved="yes">
+        <source>46763</source>
+        <target state="final">Der Pikto-Schmetterling führt dreimal hintereinander eine magische Attacke auf umstehende Gegner aus. Attacke-Wert und Reichweite erhöhen sich mit jedem Mal.
+Erste Attacke: Attacke-Wert von 490, Reichweite von 3y
+Zweite Attacke: Attacke-Wert von 630, Reichweite von 5y
+Dritte Attacke: Attacke-Wert von 740, Reichweite von 8y
+</target>
+      </trans-unit>
+      <trans-unit id="46942" xml:space="preserve" approved="yes">
+        <source>46942</source>
+        <target state="final">Du führst eine physische Fernkampfattacke aus.
+Attacke-Wert: 150 (skaliert mit Gegen&lt;var 16 /var&gt;stands&lt;var 16 /var&gt;stufe)</target>
+      </trans-unit>
+      <trans-unit id="47246" xml:space="preserve" approved="yes">
+        <source>47246</source>
+        <target state="final">Lässt dein Gefährt wild auf- und abhüpfen.
+(Nur visueller Effekt, keine Wirkung.)</target>
       </trans-unit>
     </body>
   </file>

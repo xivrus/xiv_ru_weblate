@@ -408,6 +408,7 @@ USAGE:
 　2: During Battle
 　3: When Targeted
 　4: Never
+　5: Outside Battle
 
 &gt;&gt;Example:
 　/nameplatedisp all 4
@@ -658,7 +659,6 @@ Toggles between on and off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt
 　/colorfiltering [subcommand]
 
 →Change color filtering settings.
-　※Windows and Mac only.
 
 &gt;&gt;Subcommands:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -701,6 +701,22 @@ Display ears.
 Hide ears.
 
 Toggles between on and off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/vieraears&lt;tab&gt;/vears</target>
+      </trans-unit>
+      <trans-unit id="50" xml:space="preserve" approved="yes">
+        <source>50</source>
+        <target state="final">ALIASES:
+　/commandpanel, /cmdpanel
+USAGE:
+　/commandpanel
+
+→Opens and closes your Command Panel.&lt;tab&gt;/commandpanel&lt;tab&gt;/cmdpanel&lt;tab&gt;/quickpanel&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="51" xml:space="preserve" approved="yes">
+        <source>51</source>
+        <target state="final">USAGE:
+　/strategyboard
+
+→Opens and closes the Strategy Board menu.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/strategyboard&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
@@ -2617,7 +2633,7 @@ Toggle between on/off when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;
         <target state="final">USAGE:
 　/focustarget [placeholder]
 
-→Makes the specified PC your focus target. Makes current target your focus target when none specified.
+→Makes the specified target your focus target. Makes current target your focus target when none specified.
 
 &gt;&gt;Common Placeholders:
 　&lt;t&gt;, &lt;target&gt;, &lt;1&gt;-&lt;8&gt;
@@ -3107,6 +3123,8 @@ Toggles between all and off when no setting is specified.&lt;tab&gt;/battleeffec
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CompressedAether&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Cosmic Exploration Info
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CosmicExplorationInfo&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;csmex&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　PvP Battle Log
+　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PvPLog&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;cclog&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Crystalline Conflict Progress
 　Gauge
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CConflictProgress&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ccprog&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -3114,8 +3132,6 @@ Toggles between all and off when no setting is specified.&lt;tab&gt;/battleeffec
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CConflictAlly&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ccally&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Crystalline Conflict Enemy Info
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CConflictEnemy&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ccenemy&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　Crystalline Conflict Battle Log
-　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CConflictLog&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;cclog&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Crystalline Conflict Map
 　　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CConflictMap&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ccmap&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　Battle High Gauge
@@ -3247,12 +3263,6 @@ USAGE:
 　　Copy the contents of [class 1] cross hotbar [number 1] to the [class 2] cross hotbar [number 2].
 　　The subcommand "current" can be used to specify your current class.
 　　The subcommand "share" can be used instead of a class to specify your shared hotbar.
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;display [number] on&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Display cross hotbar [number].
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;display [number] off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Hide cross hotbar [number].
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;display [number]&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Toggle on/off cross hotbar [number].
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;share [number] on&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　Make cross hotbar [number] shared.
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;share [number] off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -3476,12 +3486,6 @@ USAGE:
 　　Copy the contents of [job 1] cross hotbar [number 1] to the [job 2] cross hotbar [number 2].
 　　The subcommand "current" can be used to specify your current job.
 　　The subcommand "share" can be used instead of a job to specify your shared cross hotbar.
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;display [number] on&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Display cross hotbar [number].
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;display [number] off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Hide cross hotbar [number].
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;display [number]&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　　Toggle on/off cross hotbar [number].
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;share [number] on&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　　Make cross hotbar [number] shared.
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;share [number] off&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -4444,39 +4448,45 @@ Both text and motion will be displayed when no subcommand is specified.&lt;tab&g
       </trans-unit>
       <trans-unit id="466" xml:space="preserve" approved="yes">
         <source>466</source>
-        <target state="final">USAGE:
-　/cheeron [subcommand]
+        <target state="final">ALIASES:
+　/cheeronblue, /cheerob
+USAGE:
+　/cheeronblue [subcommand]
 
-→Wave your hands enthusiastically.
+→Wave your hands enthusiastically with blue illuminated rods.
 
 &gt;&gt;Subcommands:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeron&lt;tab&gt;</target>
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronblue&lt;tab&gt;/cheerob</target>
       </trans-unit>
       <trans-unit id="467" xml:space="preserve" approved="yes">
         <source>467</source>
-        <target state="final">USAGE:
-　/cheerwave [subcommand]
+        <target state="final">ALIASES:
+　/cheerwaveyellow, /cheerwy
+USAGE:
+　/cheerwaveyellow [subcommand]
 
-→Wave your hand in the air like you just don't care.
+→Wave your hand in the air with a yellow illuminated rod.
 
 &gt;&gt;Subcommands:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;/cheerwave&lt;tab&gt;/hiphophurray&lt;tab&gt;/cheerwave&lt;tab&gt;</target>
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;/cheerwave&lt;tab&gt;/hiphophurray&lt;tab&gt;/cheerwaveyellow&lt;tab&gt;/cheerwy</target>
       </trans-unit>
       <trans-unit id="468" xml:space="preserve" approved="yes">
         <source>468</source>
-        <target state="final">USAGE:
-　/cheerjump [subcommand]
+        <target state="final">ALIASES:
+　/cheerjumpred, /cheerjr
+USAGE:
+　/cheerjumpred [subcommand]
 
-→Jump and cheer enthusiastically.
+→Jump and cheer enthusiastically with red illuminated rods.
 
 &gt;&gt;Subcommands:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;/cheerjump&lt;tab&gt;/jumparound&lt;tab&gt;/cheerjump&lt;tab&gt;</target>
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;/cheerjump&lt;tab&gt;/jumparound&lt;tab&gt;/cheerjumpred&lt;tab&gt;/cheerjr</target>
       </trans-unit>
       <trans-unit id="469" xml:space="preserve" approved="yes">
         <source>469</source>
@@ -6595,39 +6605,45 @@ Both text and motion will be displayed when no subcommand is specified.&lt;tab&g
       </trans-unit>
       <trans-unit id="665" xml:space="preserve" approved="yes">
         <source>665</source>
-        <target state="final">USAGE:
-　/cheeronbright, /cheerbright [subcommand]
+        <target state="final">ALIASES:
+　/cheeronbright, /cheerow
+USAGE:
+　/cheeronbright [subcommand]
 
 →Wave your hands enthusiastically with white illuminated rods.
 
 &gt;&gt;Subcommands:
  　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerbright</target>
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerow</target>
       </trans-unit>
       <trans-unit id="666" xml:space="preserve" approved="yes">
         <source>666</source>
-        <target state="final">USAGE:
-　/cheerwaveviolet, /cheerviolet [subcommand]
+        <target state="final">ALIASES:
+　/cheerwaveviolet, /cheerwv
+USAGE:
+　/cheerwaveviolet [subcommand]
 
 →Wave your hand in the air with a violet illuminated rod.
 
 &gt;&gt;Subcommands:
  　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerviolet</target>
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerwv</target>
       </trans-unit>
       <trans-unit id="667" xml:space="preserve" approved="yes">
         <source>667</source>
-        <target state="final">USAGE:
-　/cheerjumpgreen, /cheergreen [subcommand]
+        <target state="final">ALIASES:
+　/cheerjumpgreen, /cheerjg
+USAGE:
+　/cheerjumpgreen [subcommand]
 
 →Jump and cheer enthusiastically with green illuminated rods.
 
 &gt;&gt;Subcommands:
  　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
-Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheergreen</target>
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheerjg</target>
       </trans-unit>
       <trans-unit id="668" xml:space="preserve" approved="yes">
         <source>668</source>
@@ -6898,7 +6914,7 @@ Both text and motion will be displayed when no subcommand is specified.&lt;tab&g
         <target state="final">USAGE:
 　/twirl [subcommand]
 
-→Merrily spin around to flaunt your presently equipped attire.
+→Merrily spin around to flaunt your currently equipped attire.
 
 &gt;&gt;Subcommands:
  　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
@@ -7076,6 +7092,152 @@ Both text and motion will be displayed when no subcommand is specified.&lt;tab&g
  　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pen&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="711" xml:space="preserve" approved="yes">
+        <source>711</source>
+        <target state="final">ALIASES:
+　/cheerrhythmred, /cheerrr
+USAGE:
+　/cheerrhythmred [subcommand]
+
+→Keep the beat enthusiastically with red illuminated rods.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerrhythmred&lt;tab&gt;/cheerrr</target>
+      </trans-unit>
+      <trans-unit id="712" xml:space="preserve" approved="yes">
+        <source>712</source>
+        <target state="final">ALIASES:
+　/cheerlightyellow, /cheerly
+USAGE:
+　/cheerlightyellow [subcommand]
+
+→Sway gently from side to side with yellow illuminated rods.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightyellow&lt;tab&gt;/cheerly</target>
+      </trans-unit>
+      <trans-unit id="714" xml:space="preserve" approved="yes">
+        <source>714</source>
+        <target state="final">ALIASES:
+　/runwaywalk, /runway
+USAGE:
+　/runwaywalk [subcommand]
+
+→Confidently strut your stuff.
+
+&gt;&gt;Subcommands:
+ 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/runwaywalk&lt;tab&gt;/runway</target>
+      </trans-unit>
+      <trans-unit id="718" xml:space="preserve" approved="yes">
+        <source>718</source>
+        <target state="final">USAGE:
+　/carrybook [subcommand]
+
+→Clasp a tome tight to your bosom.
+
+&gt;&gt;Subcommands:
+ 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/carrybook&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="719" xml:space="preserve" approved="yes">
+        <source>719</source>
+        <target state="final">USAGE:
+　/divinearm [subcommand]
+
+→Send forth radiant light from the Divine Artifact upon your arm.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/divinearm&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="720" xml:space="preserve" approved="yes">
+        <source>720</source>
+        <target state="final">USAGE:
+　/divinedisk [subcommand]
+
+→Send forth radiant light from the Divine Artifact around your neck.
+
+&gt;&gt;Subcommands:
+ 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/divinedisk&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="721" xml:space="preserve" approved="yes">
+        <source>721</source>
+        <target state="final">USAGE:
+　/divinetiara [subcommand]
+
+→Send forth radiant light from the Divine Artifact atop your head.
+
+&gt;&gt;Subcommands:
+ 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/divinetiara&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="722" xml:space="preserve" approved="yes">
+        <source>722</source>
+        <target state="final">ALIASES:
+　/cheerrhythmviolet, /cheerrv
+USAGE:
+　/cheerrhythmviolet [subcommand]
+
+→Keep the beat enthusiastically with violet illuminated rods.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerrhythmviolet&lt;tab&gt;/cheerrv</target>
+      </trans-unit>
+      <trans-unit id="723" xml:space="preserve" approved="yes">
+        <source>723</source>
+        <target state="final">ALIASES:
+　/cheerrhythmbright, /cheerrw
+USAGE:
+　/cheerrhythmbright [subcommand]
+
+→Keep the beat enthusiastically with white illuminated rods.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerrhythmbright&lt;tab&gt;/cheerrw</target>
+      </trans-unit>
+      <trans-unit id="724" xml:space="preserve" approved="yes">
+        <source>724</source>
+        <target state="final">ALIASES:
+　/cheerlightblue, /cheerlb
+USAGE:
+　/cheerlightblue [subcommand]
+
+→Sway gently from side to side with blue illuminated rods.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightblue&lt;tab&gt;/cheerlb</target>
+      </trans-unit>
+      <trans-unit id="725" xml:space="preserve" approved="yes">
+        <source>725</source>
+        <target state="final">ALIASES:
+　/cheerlightgreen, /cheerlg
+USAGE:
+　/cheerlightgreen [subcommand]
+
+→Sway gently from side to side with green illuminated rods.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
       </trans-unit>
     </body>
   </file>

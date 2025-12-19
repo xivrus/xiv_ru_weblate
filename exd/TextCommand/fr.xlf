@@ -326,6 +326,7 @@ Change le mode d'affichage des plaques de noms pour la catégorie de joueur spé
  2&lt;var 1D /var&gt;: en combat
  3&lt;var 1D /var&gt;: en ciblage
  4&lt;var 1D /var&gt;: jamais
+ 5&lt;var 1D /var&gt;: hors-combat
 
 &gt;&gt; Exemples&lt;var 1D /var&gt;:
 /affichageplaquedenom tous 4
@@ -500,7 +501,6 @@ Ouvre la fenêtre des accessoires de visage.&lt;tab&gt;/listeaccvisage&lt;tab&gt
         <target state="final">/rvisuelle, /visualalerts
 Utilisation&lt;var 1D /var&gt;: /rvisuelle [sous-commande]
 Permet de régler la repré&lt;var 16 /var&gt;sen&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;tion visuelle des sons (configuration système).
-* Uniquement pour les versions Windows/Mac.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on) Active la repré&lt;var 16 /var&gt;sen&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;tion visuelle des sons.
 désactivé (off) Désactive la repré&lt;var 16 /var&gt;sen&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;tion visuelle des sons.
@@ -511,7 +511,6 @@ désactivé (off) Désactive la repré&lt;var 16 /var&gt;sen&lt;var 16 /var&gt;t
         <target state="final">/perceptioncouleurs, /pcouleurs, /colorfiltering
 Utilisation&lt;var 1D /var&gt;: /perceptioncouleurs [sous-commande]
 Permet d'effectuer les réglages de perception des couleurs (configuration système).
-* Uniquement pour les versions Windows/Mac.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on) Active les réglages de perception des couleurs.
 désactivé (off) Désactive les réglages de perception des couleurs.
@@ -529,13 +528,23 @@ désactivé (off) Désactive le ciblage automatique d'un ennemi en effectuant un
       </trans-unit>
       <trans-unit id="49" xml:space="preserve" approved="yes">
         <source>49</source>
-        <target state="final">/oreillesviera,/oviera,/vears
+        <target state="final">/oreillesviera, /oviera, /vears
 Permet d'activer/désactiver l'affichage des oreilles des Viéras.
 * Les oreilles ne peuvent être affichées qu'avec des pièces d'équipement de tête compatibles.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on) Affiche les oreilles à travers l'équipement de tête
 désactivé (off) Masque les oreilles sous l'équipement de tête.
 * Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/oreillesviera&lt;tab&gt;/oviera&lt;tab&gt;/vieraears&lt;tab&gt;/vears</target>
+      </trans-unit>
+      <trans-unit id="50" xml:space="preserve" approved="yes">
+        <source>50</source>
+        <target state="final">/accesrapide, /accrap, /quickpanel
+Ouvre la fenêtre d'accès rapide.&lt;tab&gt;/accesrapide&lt;tab&gt;/accrap&lt;tab&gt;/quickpanel&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="51" xml:space="preserve" approved="yes">
+        <source>51</source>
+        <target state="final">/tableauxstrategiques, /tabstrat
+Ouvre la fenêtre des tableaux stratégiques.&lt;tab&gt;/tableauxstrategiques&lt;tab&gt;/tabstrat&lt;tab&gt;/strategyboard&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
@@ -883,7 +892,7 @@ Ouvre le menu Téléportation.&lt;tab&gt;/téléportation&lt;tab&gt;/télép&lt;
         <source>156</source>
         <target state="final">/marquer, /signe, /marking, /mk
 Utilisation&lt;var 1D /var&gt;: /marquer [type]  [argument de ciblage]
-Permet de placer un signe sur la cible spécifiée ou le personnage ciblé si aucun argument n'est saisi.
+Permet de placer un signe sur la cible spécifiée ou le personnage/objet ciblé si aucun argument n'est saisi.
 &gt;&gt; Signes&lt;var 1D /var&gt;:
 "attaque1" jusqu'à "attaque8" (attack1 à 8)
 "entrave1" jusqu'à "entrave3" (bind1 à 3) 
@@ -899,7 +908,7 @@ désactivé (off)&lt;var 1D /var&gt;: retirer le signe
 /marquer ignore2 &lt;t&gt;
   La cible reçoit le signe "2e cible à ignorer".
 /marquer entrave1
-  Le personnage ou ennemi ciblé reçoit le signe "1re cible à entraver".
+  Le personnage/objet ciblé reçoit le signe "1re cible à entraver".
 Une fois marquées, les cibles peuvent être désignées par les arguments &lt;stop1&gt;, &lt;ignore1&gt;, etc.&lt;tab&gt;/marquer&lt;tab&gt;/signe&lt;tab&gt;/marking&lt;tab&gt;/mk</target>
       </trans-unit>
       <trans-unit id="157" xml:space="preserve" approved="yes">
@@ -1974,10 +1983,10 @@ Croix de raccourcis (cxracc)
 Guide de l'épopée (Guideépopée)
 Éther compressé (Éthcomp)
 Exploration cosmique&lt;var 1D /var&gt;: planètes (ECplanètes)
+JcJ - log de combat&lt;var 1D /var&gt;: JcJLog (PvP:Log)
 Crystalline Conflict - jauge de progression&lt;var 1D /var&gt;: CConflictProgress (CrystallineConflict:ProgressGauge)
 Crystalline Conflict - alliés&lt;var 1D /var&gt;: CConflictEqu (CrystallineConflict:AllyInfo)
 Crystalline Conflict - adversaires&lt;var 1D /var&gt;: CConflictAdv (CrystallineConflict:EnemyInfo)
-Crystalline Conflict - log de combat&lt;var 1D /var&gt;: CConflictLog (CrystallineConflict:BattleLog)
 Crystalline Conflict - carte&lt;var 1D /var&gt;: CConflictCarte (CrystallineConflict:Map)
 Le Front - jauge de combat&lt;var 1D /var&gt;: JaugeCombat (Frontline:BattleGauge)
 Le Front - score&lt;var 1D /var&gt;: FrontScore (Frontline:Score)
@@ -2898,30 +2907,30 @@ Si aucune sous-commande n'est spécifiée, le message apparaît en même temps q
       </trans-unit>
       <trans-unit id="466" xml:space="preserve" approved="yes">
         <source>466</source>
-        <target state="final">/encouragerbleu, /cheeron
-Utilisation&lt;var 1D /var&gt;: /encouragerbleu [sous-commande]
-Encourage avec des bâtons lumineux bleus.
+        <target state="final">/encouragerdevantbleu, /bâtonsdvble, /cheeronblue, /cheerob
+Utilisation&lt;var 1D /var&gt;: /encouragerdevantbleu [sous-commande]
+Encourage vers l'avant avec des bâtons lumineux bleus.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerbleu&lt;tab&gt;&lt;tab&gt;/cheeron&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerdevantbleu&lt;tab&gt;/bâtonsdvble&lt;tab&gt;/cheeronblue&lt;tab&gt;/cheerob</target>
       </trans-unit>
       <trans-unit id="467" xml:space="preserve" approved="yes">
         <source>467</source>
-        <target state="final">/encouragerjaune, /cheerwave
-Utilisation&lt;var 1D /var&gt;: /encouragerjaune [sous-commande]
-Encourage avec des bâtons lumineux jaunes.
+        <target state="final">/encouragerarcjaune, /bâtonsarcjau, /cheerwaveyellow, /cheerwy
+Utilisation&lt;var 1D /var&gt;: /encouragerarcjaune [sous-commande]
+Encourage en agitant le bras en arc-de-cercle avec des bâtons lumineux jaunes.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerjaune&lt;tab&gt;&lt;tab&gt;/cheerwave&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerarcjaune&lt;tab&gt;/bâtonsarcjau&lt;tab&gt;/cheerwaveyellow&lt;tab&gt;/cheerwy</target>
       </trans-unit>
       <trans-unit id="468" xml:space="preserve" approved="yes">
         <source>468</source>
-        <target state="final">/encouragerrouge, /cheerjump
-Utilisation&lt;var 1D /var&gt;: /encouragerrouge [sous-commande]
-Encourage avec des bâtons lumineux rouges.
+        <target state="final">/encouragersautrouge, /bâtonssautrou, /cheerjumpred, /cheerjr
+Utilisation&lt;var 1D /var&gt;: /encouragersautrouge [sous-commande]
+Encourage en sautillant avec des bâtons lumineux rouges.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerrouge&lt;tab&gt;&lt;tab&gt;/cheerjump&lt;tab&gt;</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragersautrouge&lt;tab&gt;/bâtonssautrou&lt;tab&gt;/cheerjumpred&lt;tab&gt;/cheerjr</target>
       </trans-unit>
       <trans-unit id="469" xml:space="preserve" approved="yes">
         <source>469</source>
@@ -4416,30 +4425,30 @@ animation (motion)   Exécute uniquement l'animation.
       </trans-unit>
       <trans-unit id="665" xml:space="preserve" approved="yes">
         <source>665</source>
-        <target state="final">/encouragerblanc, /cheerbright, /cheeronbright
-Utilisation&lt;var 1D /var&gt;: /encouragerblanc [sous-commande]
-Encourage avec des bâtons lumineux blancs.
+        <target state="final">/encouragerdevantblanc, /bâtonsdvbla, /cheeronbright, /cheerow
+Utilisation&lt;var 1D /var&gt;: /encouragerdevantblanc [sous-commande]
+Encourage vers l'avant avec des bâtons lumineux blancs.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerblanc&lt;tab&gt;&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerbright</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerdevantblanc&lt;tab&gt;/bâtonsdvbla&lt;tab&gt;/cheeronbright&lt;tab&gt;/cheerow</target>
       </trans-unit>
       <trans-unit id="666" xml:space="preserve" approved="yes">
         <source>666</source>
-        <target state="final">/encouragerviolet, /cheerviolet, /cheerwaveviolet
-Utilisation&lt;var 1D /var&gt;: /encouragerviolet [sous-commande]
-Encourage avec des bâtons lumineux violets.
+        <target state="final">/encouragerarcviolet, /bâtonsarcsvio, /cheerwaveviolet, /cheerwv
+Utilisation&lt;var 1D /var&gt;: /encouragerarcviolet [sous-commande]
+Encourage en agitant le bras en arc-de-cercle avec des bâtons lumineux violets.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerviolet&lt;tab&gt;&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerviolet</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerarcviolet&lt;tab&gt;/bâtonsarcvio&lt;tab&gt;/cheerwaveviolet&lt;tab&gt;/cheerwv</target>
       </trans-unit>
       <trans-unit id="667" xml:space="preserve" approved="yes">
         <source>667</source>
-        <target state="final">/encouragervert, /cheergreen, /cheerjumpgreen
-Utilisation&lt;var 1D /var&gt;: /encouragervert [sous-commande]
-Encourage avec des bâtons lumineux verts.
+        <target state="final">/encouragersautvert, /bâtonssautver, /cheerjumpgreen, /cheerjg
+Utilisation&lt;var 1D /var&gt;: /encouragersautvert [sous-commande]
+Encourage en sautillant avec des bâtons lumineux verts.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
-* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragervert&lt;tab&gt;&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheergreen</target>
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragersautvert&lt;tab&gt;/bâtonssautver&lt;tab&gt;/cheerjumpgreen&lt;tab&gt;/cheerjg</target>
       </trans-unit>
       <trans-unit id="668" xml:space="preserve" approved="yes">
         <source>668</source>
@@ -4764,6 +4773,105 @@ Utilisation&lt;var 1D /var&gt;: /écrireplume [sous-commande]
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/écrireplume&lt;tab&gt;/plume&lt;tab&gt;/pen&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="711" xml:space="preserve" approved="yes">
+        <source>711</source>
+        <target state="final">/encouragerrapiderouge, /bâtonsraprou, /cheerrythmred, /cheerrr
+Utilisation&lt;var 1D /var&gt;: /encouragerrapiderouge [sous-commande]
+Encourage en battant la cadence avec des bâtons lumineux rouges.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerrapiderouge&lt;tab&gt;/bâtonsraprou&lt;tab&gt;/cheerrhythmred&lt;tab&gt;/cheerrr</target>
+      </trans-unit>
+      <trans-unit id="712" xml:space="preserve" approved="yes">
+        <source>712</source>
+        <target state="final">/encouragerlentjaune, /bâtonslenjau, /cheerlightyellow, /cheerly
+Utilisation&lt;var 1D /var&gt;: /encouragerlentjaune [sous-commande]
+Encourage d'un rythme lent avec des bâtons lumineux jaunes.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerlentjaune&lt;tab&gt;/bâtonslenjau&lt;tab&gt;/cheerlightyellow&lt;tab&gt;/cheerly</target>
+      </trans-unit>
+      <trans-unit id="714" xml:space="preserve" approved="yes">
+        <source>714</source>
+        <target state="final">/démarchemannequin, /démarchem, /runwaywalk, /runway
+Utilisation&lt;var 1D /var&gt;: /démarchemannequin [sous-commande]
+Effectue une démarche de mannequin.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/démarchemannequin&lt;tab&gt;/démarchem&lt;tab&gt;/runwaywalk&lt;tab&gt;/runway</target>
+      </trans-unit>
+      <trans-unit id="718" xml:space="preserve" approved="yes">
+        <source>718</source>
+        <target state="final">/serrerlivre, /carrybook
+Utilisation&lt;var 1D /var&gt;: /serrerlivre [sous-commande]
+Serre un livre contre sa poitrine.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/serrerlivre&lt;tab&gt;&lt;tab&gt;/carrybook&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="719" xml:space="preserve" approved="yes">
+        <source>719</source>
+        <target state="final">/gantdivin, /divinearm
+Utilisation&lt;var 1D /var&gt;: /gantdivin [sous-commande]
+Fait briller son gant divin.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/gantdivin&lt;tab&gt;&lt;tab&gt;/divinearm&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="720" xml:space="preserve" approved="yes">
+        <source>720</source>
+        <target state="final">/rasdecoudivin, /coudivin, /divinedisk
+Utilisation&lt;var 1D /var&gt;: /rasdecoudivin [sous-commande]
+Fait briller son ras de cou divin.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/rasdecoudivin&lt;tab&gt;/coudivin&lt;tab&gt;/divinedisk&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="721" xml:space="preserve" approved="yes">
+        <source>721</source>
+        <target state="final">/tiaredivine, /divinetiara
+Utilisation&lt;var 1D /var&gt;: /tiaredivine [sous-commande]
+Fait briller sa tiare divine.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/tiaredivine&lt;tab&gt;&lt;tab&gt;/divinetiara&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="722" xml:space="preserve" approved="yes">
+        <source>722</source>
+        <target state="final">/encouragerrapideviolet, /bâtonsrapvio, /cheerrythmviolet, /cheerrv
+Utilisation&lt;var 1D /var&gt;: /encouragerrapideviolet [sous-commande]
+Encourage en battant la cadence avec des bâtons lumineux violets.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerrapideviolet&lt;tab&gt;/bâtonsrapvio&lt;tab&gt;/cheerrhythmviolet&lt;tab&gt;/cheerrv</target>
+      </trans-unit>
+      <trans-unit id="723" xml:space="preserve" approved="yes">
+        <source>723</source>
+        <target state="final">/encouragerrapideblanc, /bâtonsrapbla, /cheerrythmbright, /cheerw
+Utilisation&lt;var 1D /var&gt;: /encouragerrapideblanc [sous-commande]
+Encourage en battant la cadence avec des bâtons lumineux blancs.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerrapideblanc&lt;tab&gt;/bâtonsrapbla&lt;tab&gt;/cheerrhythmbright&lt;tab&gt;/cheerrw</target>
+      </trans-unit>
+      <trans-unit id="724" xml:space="preserve" approved="yes">
+        <source>724</source>
+        <target state="final">/encouragerlentbleu, /bâtonslenble, /cheerlightblue, /cheerlb
+Utilisation&lt;var 1D /var&gt;: /encouragerlentbleu [sous-commande]
+Encourage d'un rythme lent avec des bâtons lumineux bleus.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerlentbleu&lt;tab&gt;/bâtonslenble&lt;tab&gt;/cheerlightblue&lt;tab&gt;/cheerlb</target>
+      </trans-unit>
+      <trans-unit id="725" xml:space="preserve" approved="yes">
+        <source>725</source>
+        <target state="final">/encouragerlentvert, /bâtonslenver, /cheerlightgreen, /cheerlg
+Utilisation&lt;var 1D /var&gt;: /encouragerlentvert [sous-commande]
+Encourage d'un rythme lent avec des bâtons lumineux verts.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerlentvert&lt;tab&gt;/bâtonslenver&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
       </trans-unit>
     </body>
   </file>
