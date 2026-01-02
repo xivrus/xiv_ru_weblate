@@ -87,7 +87,7 @@
       </trans-unit>
       <trans-unit id="15" xml:space="preserve" approved="no">
         <source>15</source>
-        <target state="translated">Вход в специальные подземелья&lt;tab&gt;Вы можете войти в них через окно, доступ к которому можно получить, поговорив с NPC у входа в такое подземелье или выбрав опцию &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Специальные подземелья&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; в меню &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Задачи&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+        <target state="translated">Вход в специальные подземелья&lt;tab&gt;Вы можете войти в них через окно, доступ к которому можно получить, поговорив с НИП у входа в такое подземелье или выбрав опцию &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Специальные подземелья&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; в меню &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Задачи&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 В этом окне содержится вся необходимая информация о входе в подземелье, а также специфические настройки к нему.</target>
       </trans-unit>
@@ -109,13 +109,15 @@
 
 По завершении каждого пути, в журнал, связанный с этим подземельем, будет добавлена новая запись. Просто откройте окно «Специальные подземелья» и выберите портрет персонажа, чтобы просмотреть занесённые записи.</target>
       </trans-unit>
-      <trans-unit id="19" xml:space="preserve">
+      <trans-unit id="19" xml:space="preserve" approved="no">
         <source>19</source>
-        <target/>
+        <target state="translated">Альтернативные подземелья&lt;tab&gt;Вы разблокировали уровень сложности &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;альтернативных подземельев&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, доступный при переключении вкладки в верхней части окна «Специальные подземелья».
+
+В альтернативных подземельях нет сопровождающих вас НИП или разветвлённых путей для исследования. Вместо новых сюжетных элементов на вкладке отображается список доступных подземелий, а также количество &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;особой валюты&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, полученной за прохождение этих более сложных испытаний.</target>
       </trans-unit>
-      <trans-unit id="20" xml:space="preserve">
+      <trans-unit id="20" xml:space="preserve" approved="no">
         <source>20</source>
-        <target/>
+        <target state="translated">Ограничения альтернативных подземелий&lt;tab&gt;В отличие от вариативных подземелий, альтернативные &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;не позволяют менять профессию&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Воскрешение с помощью «Raise» или других способностей также ограничено, оно разрешено только при использовании специального действия «Variant Raise II».</target>
       </trans-unit>
       <trans-unit id="21" xml:space="preserve" approved="no">
         <source>21</source>
@@ -146,6 +148,40 @@
       <trans-unit id="27" xml:space="preserve" approved="no">
         <source>27</source>
         <target state="translated">Быстрый доступ&lt;tab&gt;Быстрый доступ позволяет вам хранить различные действия и команды: транспорт, миньонов, эмоции и комплекты снаряжения для лёгкого доступа.</target>
+      </trans-unit>
+      <trans-unit id="28" xml:space="preserve" approved="no">
+        <source>28</source>
+        <target state="translated">Назначение команд&lt;tab&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Использование  &lt;var 08 E1E94C01 ((контроллера)) ((геймпада)) /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Откройте Панель команд, затем выберите «Назначить в Быстрый доступ».
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Использование мыши и клавиатуры&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Нужную команду или действие можно свободно перетащить и поместить в желаемый слот на панели быстрого доступа.</target>
+      </trans-unit>
+      <trans-unit id="29" xml:space="preserve" approved="no">
+        <source>29</source>
+        <target state="translated">Настройки&lt;tab&gt;Выбор значка шестерёнки в правом верхнем углу панели откроет меню настроек.
+Здесь вы можете тонко настроить функциональность панели, включая её поведение после выполнения команд, положение курсора и прозрачность панели.</target>
+      </trans-unit>
+      <trans-unit id="30" xml:space="preserve" approved="no">
+        <source>30</source>
+        <target state="translated">Использование Быстрого доступа&lt;tab&gt;&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 08 E1E94C01 ((Контроллер)) ((Геймпад)) /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+При открытии Быстрого доступа курсор по умолчанию устанавливается на центральный слот. Это позволяет легко добраться до всех слотов панели не более чем за два шага.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Мышь и клавиатура&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Действия и команды, назначенные на панель, можно нажимать напрямую с помощью мыши. Колесо мыши также можно использовать для быстрого переключения между вкладками панели.</target>
+      </trans-unit>
+      <trans-unit id="31" xml:space="preserve" approved="no">
+        <source>31</source>
+        <target state="translated">Ограничения альтернативных подземелий (Кошмар)&lt;tab&gt;Альтернативные подземелья на сложности &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Кошмар&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; полностью запрещают использование вариативных действий и должны быть пройдены заранее сформированными группами из четырёх игроков, отвечающими всеми требованиям для входа.</target>
+      </trans-unit>
+      <trans-unit id="34" xml:space="preserve" approved="no">
+        <source>34</source>
+        <target state="translated">Доступ к «Быстрому доступу»&lt;tab&gt;Быстрый доступ можно найти во вкладке «Дополнительно» меню «Действия и навыки».
+
+К ней также можно получить доступ следующими способами:
+・Назначенные на панель команд сочетания клавиш
+・Настроенные назначения клавиш:
+　Настройка системы  → &lt;var 42 16 /var&gt; Параметры
+・Назначения клавиш
+・Текстовые команды</target>
       </trans-unit>
     </body>
   </file>
