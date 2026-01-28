@@ -1755,7 +1755,7 @@ Jedes Team besteht aus 24 Spielern, die in drei Gruppen in die Schlacht ziehen.
 Jedes Match ist auf 20 Minuten Spielzeit ausgelegt.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Schneller Wiedereinstieg&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Sollte man in einem Match kampfunfähig werden, so wird man nach kurzer Wartezeit automatisch am Startpunkt des eigenen Teams wiederbelebt. Solange man sich nach dem Wiedereinstieg am Startpunkt aufhält, wird man durch den Status „Unverwundbar“ geschützt. Erst wenn man den Startpunkt verlässt, wird man wieder verwundbar.
+Sollte man in einem Match kampfunfähig werden, so wird man automatisch am Startpunkt des eigenen Teams wiederbelebt. Solange man sich nach dem Wiedereinstieg am Startpunkt aufhält, wird man durch den Status „Unverwundbar“ geschützt. Erst wenn man den Startpunkt verlässt, wird man wieder verwundbar.
 Befindet man sich im Gebiet des Startpunkts eines gegnerischen Teams, so wird der Status „Unter Feinden“ erhalten, durch den stetig LP verloren werden.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■ Reittiere&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -8807,7 +8807,7 @@ Solange der Bonus aktiv ist, wird dies mit einem entsprechenden Symbol auf „Be
 
 
 ■ Aktivierungsbedingungen
-Der Goldzähler wird aktiviert, sobald Missionen der Klasse A und höher hintereinander mit Goldwertung abgeschlossen wurden.
+Der Goldzähler wird aktiviert, sobald Missionen der Klasse A, einschließlich EX- und EX+-Missionen, sowie Temporärmissionen hintereinander mit Goldwertung abgeschlossen wurden.
 Dabei spielt es keine Rolle, ob zwischen den Missionen die Klasse gewechselt wurde.
 
 Sobald der Zähler auf „5“ steht und noch eine Mission unter den korrekten Bedingungen abgeschlossen wird, ist der sogenannte „Goldstern“ erreicht und der Zähler wird auf „0“ zurückgesetzt.
@@ -8838,6 +8838,46 @@ Unter den folgenden Bedingungen wird der Zähler aufrechterhalten:
 ・ Teilnahme an Gemeinschaftsprojekt
 ・ Annahme/Abschluss einer Notfallmission</target>
       </trans-unit>
+      <trans-unit id="1589" xml:space="preserve" approved="yes">
+        <source>1589</source>
+        <target state="final">Artefaktsuchen</target>
+      </trans-unit>
+      <trans-unit id="1590" xml:space="preserve" approved="yes">
+        <source>1590</source>
+        <target state="final">Übersicht</target>
+      </trans-unit>
+      <trans-unit id="1591" xml:space="preserve" approved="yes">
+        <source>1591</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Artefaktsuchen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; verfolgen das Ziel, Überreste der unbekannten Zivilisation aufzudecken, die auf dem Planeten zugegen gewesen ist.
+
+Dazu werden sogenannte Kundschafterdrohnen eingesetzt, die mit einem Kosmo-Akku betrieben werden. Jeder Planet, auf dem Artefakte zu finden sind, benötigt aufgrund unter&lt;var 16 /var&gt;schied&lt;var 16 /var&gt;licher Anforderungen andere Akkus.
+
+
+■ Kosmo-Akkus erhalten
+Indem man auf Planeten mit Artefaktaufkommen (wie z. B. Oizys) durch das aufeinanderfolgende Abschließen von Klasse-A-Missionen, einschließlich EX- und EX+-Missionen, sowie Temporärmissionen mit Goldwertung den Goldzähler aktiviert, kann man an „Drohnenchips“ als Vergütung gelangen.
+Drohnenchips wiederum können bei Kaede auf der Station gegen die jeweiligen Kosmo-Akkus eingetauscht werden.
+
+Einzelheiten zum Goldzähler lassen sich im Abschnitt „Goldzähler“ nachlesen.</target>
+      </trans-unit>
+      <trans-unit id="1592" xml:space="preserve" approved="yes">
+        <source>1592</source>
+        <target state="final">Die Suche beginnen</target>
+      </trans-unit>
+      <trans-unit id="1593" xml:space="preserve" approved="yes">
+        <source>1593</source>
+        <target state="final">Verwendet man einen Kosmo-Akku, macht sich eine Kundschafterdrohne auf die Suche nach Artefakten.
+Die Fundstätte wird dann auf der Karte markiert.</target>
+      </trans-unit>
+      <trans-unit id="1594" xml:space="preserve" approved="yes">
+        <source>1594</source>
+        <target state="final">
+Ist die Fundstätte erreicht, kann das gefundene Artefakt durch Anwählen analysiert werden.</target>
+      </trans-unit>
+      <trans-unit id="1595" xml:space="preserve" approved="yes">
+        <source>1595</source>
+        <target state="final">
+Eine abgeschlossene Analyse wird mit einer „Aufzeichnung des Vergangenen“ belohnt, welche bei Kaede am Zentralkristall gegen allerlei tolle Vergütungen eingetauscht werden kann.</target>
+      </trans-unit>
       <trans-unit id="1596" xml:space="preserve" approved="yes">
         <source>1596</source>
         <target state="final">Auf dem Icon einer Setprojektion wird auch eine Zahl angezeigt. Ist sie orange, hast du alle Gegenstände eines Sets vollständig projiziert. Ist sie weiß, fehlen dir noch Gegenstände zur Vervollständigung.
@@ -8851,7 +8891,7 @@ Unter den folgenden Bedingungen wird der Zähler aufrechterhalten:
       </trans-unit>
       <trans-unit id="1598" xml:space="preserve" approved="yes">
         <source>1598</source>
-        <target state="final">Es ist möglich, zu einem in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode unfertigen Set im Nachhinein fehlende Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände hinzuzufügen. Dazu sind in erster Linie die entsprechende Anzahl an Projektionsprismen nötig.
+        <target state="final">Es ist möglich, zu einem in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode unfertigen Set im Nachhinein fehlende Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände hinzuzufügen. Dazu ist in erster Linie die entsprechende Anzahl an Projektionsprismen nötig.
 
 Öffne den Reiter „Sets“ in der Pro&lt;var 16 /var&gt;jektions&lt;var 16 /var&gt;kommode, während du die fehlenden Aus&lt;var 16 /var&gt;rüstungs&lt;var 16 /var&gt;gegen&lt;var 16 /var&gt;stände in deinem Inventar oder im Arsenal bei dir hast. Wähle „Fehlende Ausrüstung hinzufügen“ aus dem Untermenü des Sets, das du vervollständigen möchtest.
 

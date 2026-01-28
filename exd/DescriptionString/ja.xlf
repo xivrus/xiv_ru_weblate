@@ -2095,7 +2095,7 @@ BGMを変更するには、楽譜アイテム「オーケストリオン譜」�
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■再出撃■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 他プレイヤーとの戦闘によって戦闘不能となってしまった場合でも、
-一定時間経過後に何度でもスタート地点から再出撃することができます。
+何度でもスタート地点から再出撃することができます。
 また、スタート地点内にいる間は、「無敵」ステータスが付与され続けます。
 このステータスは、スタート地点外に出たあとも一定時間継続します。
 他部隊のスタート地点内に侵入している場合、「無敵」ステータスは付与されず、
@@ -12356,11 +12356,11 @@ DPSロールの表示アイコンを、「共通スタイル」と「近接・�
 
 
 ■ゴールドカウントの発生
-ゴールドカウントは、Aクラス以上のコスモミッションや臨時ミッションを、
+ゴールドカウントは、EX/EX+を含むAクラスのコスモミッションや臨時ミッションを、
 連続してゴールドグレードでコンプリートすると発生します。
 
 この際、受注クラスが異なるコスモミッションであっても、
-Aクラス以上のミッションであれば、カウントは上昇します。
+Aクラスのミッションであれば、カウントは上昇します。
 
 カウントが5の状態で、さらにゴールドカウントが上昇すると、
 「GOLD STAR」達成となり、カウントは「0回」の状態に戻ります。
@@ -12395,6 +12395,67 @@ Aクラス以上のミッションであれば、カウントは上昇します�
 ・メカオペレーションに参加する
 ・共同施工作業に参加する
 ・緊急ミッションを受注/コンプリートする</target>
+      </trans-unit>
+      <trans-unit id="1589" xml:space="preserve" approved="yes">
+        <source>1589</source>
+        <target state="final">遺物探索</target>
+      </trans-unit>
+      <trans-unit id="1590" xml:space="preserve" approved="yes">
+        <source>1590</source>
+        <target state="final">遺物探索とは</target>
+      </trans-unit>
+      <trans-unit id="1591" xml:space="preserve" approved="yes">
+        <source>1591</source>
+        <target state="final">「&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;遺物探索&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;」とは、
+惑星に遺された異文明の痕跡を探し出す任務です。
+
+遺物探索を開始するためには、
+探索ドローン用の「エネルギーパック」が必要となります。
+エネルギーパックは、遺物探索を行うことができる惑星ごとに、種類が異なります。
+
+
+■探索ドローンのエネルギーパックの入手方法
+惑星オイジュスなど、遺物が存在する探索フィールドにて、
+EX/EX+を含むAクラスのコスモミッションや臨時ミッションを連続でコンプリートし、
+ゴールドカウントを発生させると、
+報酬として、「ドローンチップ」を獲得できます。
+
+ゴールドカウントの詳しい発生条件については
+「ゴールドカウントについて」の項目をご覧ください。
+
+ドローンチップを一定数集め、
+基地のセントラルクリスタル付近にいるNPC「カエデ」に渡すと、
+各惑星用のエネルギーパックと交換することができます。</target>
+      </trans-unit>
+      <trans-unit id="1592" xml:space="preserve" approved="yes">
+        <source>1592</source>
+        <target state="final">遺物探索の進め方</target>
+      </trans-unit>
+      <trans-unit id="1593" xml:space="preserve" approved="yes">
+        <source>1593</source>
+        <target state="final">エネルギーパックを使用すると、
+探索ドローンが「惑星の遺物」の位置を探知し、
+飛び立っていきます。
+
+すると、探索ドローンが発見した遺物の位置が、
+マップ上にマーカーで示されます。
+まずは、マーカーの位置まで向かってみましょう。</target>
+      </trans-unit>
+      <trans-unit id="1594" xml:space="preserve" approved="yes">
+        <source>1594</source>
+        <target state="final">
+発見された遺物に近付き、アクセスすると、
+遺物の「解析」を行うことができます。</target>
+      </trans-unit>
+      <trans-unit id="1595" xml:space="preserve" approved="yes">
+        <source>1595</source>
+        <target state="final">
+解析が完了すると、報酬として「古代の記録」を獲得し、
+遺物探索はコンプリートとなります。
+
+獲得した古代の記録は、
+セントラルクリスタル付近にいるNPC「カエデ」に提出することで、
+様々な報酬と交換できます。</target>
       </trans-unit>
       <trans-unit id="1596" xml:space="preserve" approved="yes">
         <source>1596</source>

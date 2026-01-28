@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="TextCommand" datatype="plaintext" source-language="en" target-language="fr">
     <body>
@@ -1671,9 +1671,9 @@ activé (on)    Verrouille la cible.
 désactivé (off)    Déverrouille la cible.
 * Si aucune sous-commande n'est spécifiée, alterne entre les deux options.&lt;tab&gt;/verrouillercible&lt;tab&gt;/verrcib&lt;tab&gt;/lockon&lt;tab&gt;/lo</target>
       </trans-unit>
-      <trans-unit id="265" xml:space="preserve" approved="no">
+      <trans-unit id="265" xml:space="preserve" approved="yes">
         <source>265</source>
-        <target state="needs-translation">/focalisercible, /foccib, /focustarget
+        <target state="final">/focalisercible, /foccib, /focustarget
 Utilisation&lt;var 1D /var&gt;: /focalisercible [argument de ciblage]
 Fait de la cible spécifiée la cible focalisée. Si aucun argument n'est saisi, c'est la cible actuelle qui est désignée.
 &gt;&gt; Exemple&lt;var 1D /var&gt;:
@@ -2039,9 +2039,9 @@ supprimer (remove) [chiffre1] [chiffre2]    Retire l'action/macro de la case [ch
 /barracc changer 2
   Affiche la barre de raccourcis 2 à la place de la barre de raccourcis 1.&lt;tab&gt;/barracc&lt;tab&gt;/bracc&lt;tab&gt;/hotbar&lt;tab&gt;</target>
       </trans-unit>
-      <trans-unit id="316" xml:space="preserve" approved="no">
+      <trans-unit id="316" xml:space="preserve" approved="yes">
         <source>316</source>
-        <target state="needs-translation">/croixracc, /cxracc, /crosshotbar, /chotbar
+        <target state="final">/croixracc, /cxracc, /crosshotbar, /chotbar
 Utilisation&lt;var 1D /var&gt;: /croixracc [sous-commande]
 Permet de faire des réglages dans les croix de raccourcis. Utilisables uniquement dans les zones JcE.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
@@ -2181,9 +2181,9 @@ supprimer (remove) [chiffre1] [chiffre2]    Retire l'action/macro de la case [ch
 /barraccjcj changer 2
   Affiche la barre de raccourcis 2 à la place de la barre de raccourcis 1.&lt;tab&gt;/barraccjcj&lt;tab&gt;/braccjcj&lt;tab&gt;/pvphotbar&lt;tab&gt;</target>
       </trans-unit>
-      <trans-unit id="326" xml:space="preserve" approved="no">
+      <trans-unit id="326" xml:space="preserve" approved="yes">
         <source>326</source>
-        <target state="needs-translation">/croixraccjcj, /cxraccjcj, /pvpchotbar, /pvpxhb
+        <target state="final">/croixraccjcj, /cxraccjcj, /pvpchotbar, /pvpxhb
 Utilisation&lt;var 1D /var&gt;: /croixraccjcj [sous-commande]
 Permet de faire des réglages dans les croix de raccourcis JcJ. Utilisables uniquement dans les zones JcJ.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
@@ -4639,9 +4639,9 @@ Exprime sa stupeur de façon exagérée.
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/stupeurexagérée&lt;tab&gt;/stupeurex&lt;tab&gt;/overreact&lt;tab&gt;</target>
       </trans-unit>
-      <trans-unit id="693" xml:space="preserve" approved="no">
+      <trans-unit id="693" xml:space="preserve" approved="yes">
         <source>693</source>
-        <target state="needs-translation">/pirouette, /twirl
+        <target state="final">/pirouette, /twirl
 Utilisation&lt;var 1D /var&gt;: /pirouette [sous-commande]
 Fait une pirouette.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
@@ -4773,6 +4773,15 @@ Utilisation&lt;var 1D /var&gt;: /écrireplume [sous-commande]
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/écrireplume&lt;tab&gt;/plume&lt;tab&gt;/pen&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="710" xml:space="preserve" approved="yes">
+        <source>710</source>
+        <target state="final">/trépigner, /stomp
+Utilisation&lt;var 1D /var&gt;: /trépigner [sous-commande]
+Martèle le sol du pied en signe d'impatience ou de colère.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/trépigner&lt;tab&gt;&lt;tab&gt;/stomp&lt;tab&gt;</target>
       </trans-unit>
       <trans-unit id="711" xml:space="preserve" approved="yes">
         <source>711</source>
