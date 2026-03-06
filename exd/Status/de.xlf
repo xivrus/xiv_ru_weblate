@@ -5171,7 +5171,7 @@ Der Attacke-Wert von &lt;var 08 E4E94524 ((&lt;var 08 E0E94943 ((&lt;var 48 F201
       </trans-unit>
       <trans-unit id="1320" xml:space="preserve" approved="yes">
         <source>1320</source>
-        <target state="final">Meikyo Shisui&lt;tab&gt;Immun gegen alle Statuseffekte, die von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Purifikation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aufgehoben werden können, sowie Rückstoß- und Heranzieheffekte.</target>
+        <target state="final">Meikyo Shisui&lt;tab&gt;Immun gegen alle Statuseffekte, die von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Purifikation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; aufgehoben werden können, sowie Rückstoß- und Heranzieheffekte. Darüber hinaus werden erhaltene Heileffekte erhöht.</target>
       </trans-unit>
       <trans-unit id="1321" xml:space="preserve" approved="yes">
         <source>1321</source>
@@ -11979,7 +11979,7 @@ Ignoriert den meisten Schaden, der kampfunfähig machen würde und gewährt &lt;
       </trans-unit>
       <trans-unit id="3085" xml:space="preserve" approved="yes">
         <source>3085</source>
-        <target state="final">Wunder der Natur&lt;tab&gt;Verwandelt. Kann keine Kommandos ausführen.</target>
+        <target state="final">Wunder der Natur&lt;tab&gt;Verwandelt. Kann keine Kommandos ausführen und erlittener Schaden ist erhöht.</target>
       </trans-unit>
       <trans-unit id="3086" xml:space="preserve" approved="yes">
         <source>3086</source>
@@ -16802,11 +16802,11 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       </trans-unit>
       <trans-unit id="4412" xml:space="preserve" approved="yes">
         <source>4412</source>
-        <target state="final">アルコンエッグ発見率上昇&lt;tab&gt;アルコンエッグを見つけやすくなっている状態。</target>
+        <target state="final">Verbesserte Eiersuche&lt;tab&gt;Die Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit, Saliah-Eier zu finden, ist erhöht.</target>
       </trans-unit>
       <trans-unit id="4413" xml:space="preserve" approved="yes">
         <source>4413</source>
-        <target state="final">アルコンエッグ【金】率上昇&lt;tab&gt;見つけたアルコンエッグが必ずアルコンエッグ【金】になる状態。</target>
+        <target state="final">Goldenes Auge&lt;tab&gt;Alle gefundenen Saliah-Eier sind garantiert golden.</target>
       </trans-unit>
       <trans-unit id="4414" xml:space="preserve" approved="yes">
         <source>4414</source>
@@ -16850,7 +16850,7 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       </trans-unit>
       <trans-unit id="4424" xml:space="preserve" approved="yes">
         <source>4424</source>
-        <target state="final">アルコンエッグ発見率上昇＋&lt;tab&gt;アルコンエッグを見つけやすくなり、かつ見つけたアルコンエッグが必ずアルコンエッグ【金】になる状態。</target>
+        <target state="final">Extremes Eiergespür&lt;tab&gt;Die Wahr&lt;var 16 /var&gt;schein&lt;var 16 /var&gt;lich&lt;var 16 /var&gt;keit, Saliah-Eier zu finden, ist erhöht und alle gefundenen Eier sind golden.</target>
       </trans-unit>
       <trans-unit id="4425" xml:space="preserve" approved="yes">
         <source>4425</source>
@@ -17420,6 +17420,18 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4613</source>
         <target state="final">Geladene Klinge&lt;tab&gt;Durch den Einsatz von &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Modifizierter Klingenlauf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wird Energie abgespeichert.</target>
       </trans-unit>
+      <trans-unit id="4615" xml:space="preserve" approved="yes">
+        <source>4615</source>
+        <target state="final">Fluch des Sprengpulvers: Streuung&lt;tab&gt;Mit einem Fluch belegt. Beim Ende des Effekts wird eine Explosion ausgelöst.</target>
+      </trans-unit>
+      <trans-unit id="4616" xml:space="preserve" approved="yes">
+        <source>4616</source>
+        <target state="final">Fluch des Sprengpulvers: Ansammlung&lt;tab&gt;Mit einem Fluch belegt. Beim Ende des Effekts wird eine starke Explosion ausgelöst.</target>
+      </trans-unit>
+      <trans-unit id="4617" xml:space="preserve" approved="yes">
+        <source>4617</source>
+        <target state="final">Fluch der Verkohlung&lt;tab&gt;Erleidet bei Ablauf der Wirkungsdauer Feuerschaden. Ein Eis-Angriff hebt den Effekt auf.</target>
+      </trans-unit>
       <trans-unit id="4618" xml:space="preserve" approved="yes">
         <source>4618</source>
         <target state="final">Starkes Standbein&lt;tab&gt;Kann einem heftigen Angriff standhalten.</target>
@@ -17428,9 +17440,13 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4625</source>
         <target state="final">Windfestes Standbein&lt;tab&gt;Steckt im Sand und kann nicht von starken Böen oder heftigen Winden zurückgestoßen werden.</target>
       </trans-unit>
+      <trans-unit id="4627" xml:space="preserve" approved="yes">
+        <source>4627</source>
+        <target state="final">Tobsucht&lt;tab&gt;Der verursachte Schaden wird durch Wut erhöht.</target>
+      </trans-unit>
       <trans-unit id="4628" xml:space="preserve" approved="yes">
         <source>4628</source>
-        <target state="final">草刈り参加&lt;tab&gt;草刈りに参加している状態。</target>
+        <target state="final">Im Dickicht&lt;tab&gt;Bereit, mit einer maßgefertigten Gartensense Unkraut zu vernichten.</target>
       </trans-unit>
       <trans-unit id="4652" xml:space="preserve" approved="yes">
         <source>4652</source>
@@ -17471,6 +17487,18 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       <trans-unit id="4723" xml:space="preserve" approved="yes">
         <source>4723</source>
         <target state="final">Segen des Feenkönigs&lt;tab&gt;Erleidet vor&lt;var 16 /var&gt;über&lt;var 16 /var&gt;gehend keinen Schaden.</target>
+      </trans-unit>
+      <trans-unit id="4724" xml:space="preserve" approved="yes">
+        <source>4724</source>
+        <target state="final">Fluide Ketten (nah)&lt;tab&gt;Erleidet bei Annäherung an einen durch Fluide Ketten verbundenen Mitstreiter erhöhten Schaden.</target>
+      </trans-unit>
+      <trans-unit id="4725" xml:space="preserve" approved="yes">
+        <source>4725</source>
+        <target state="final">Fluide Ketten (fern)&lt;tab&gt;Erleidet bei Entfernung von einem durch Fluide Ketten verbundenen Mitstreiter erhöhten Schaden.</target>
+      </trans-unit>
+      <trans-unit id="4726" xml:space="preserve" approved="yes">
+        <source>4726</source>
+        <target state="final">Ziel von Wassersturm&lt;tab&gt;Ins Visier genommen. Bei Ende dieses Effekts wird &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Wassersturm&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ausgelöst.</target>
       </trans-unit>
       <trans-unit id="4727" xml:space="preserve" approved="yes">
         <source>4727</source>
@@ -17656,6 +17684,66 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4772</source>
         <target state="final">Schlangenfluch&lt;tab&gt;Von der Macht des Lindwurms an den Boden gebunden. Springen ist nicht möglich.</target>
       </trans-unit>
+      <trans-unit id="4773" xml:space="preserve" approved="yes">
+        <source>4773</source>
+        <target state="final">Omen: Osten&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus der angegebenen Richtung.</target>
+      </trans-unit>
+      <trans-unit id="4774" xml:space="preserve" approved="yes">
+        <source>4774</source>
+        <target state="final">Omen: Westen&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus der angegebenen Richtung.</target>
+      </trans-unit>
+      <trans-unit id="4775" xml:space="preserve" approved="yes">
+        <source>4775</source>
+        <target state="final">Omen: Osten, Westen&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4776" xml:space="preserve" approved="yes">
+        <source>4776</source>
+        <target state="final">Omen: Süden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus der angegebenen Richtung.</target>
+      </trans-unit>
+      <trans-unit id="4777" xml:space="preserve" approved="yes">
+        <source>4777</source>
+        <target state="final">Omen: Osten, Süden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4778" xml:space="preserve" approved="yes">
+        <source>4778</source>
+        <target state="final">Omen: Westen, Süden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4779" xml:space="preserve" approved="yes">
+        <source>4779</source>
+        <target state="final">Omen: Osten, Westen, Süden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4780" xml:space="preserve" approved="yes">
+        <source>4780</source>
+        <target state="final">Omen: Norden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus der angegebenen Richtung.</target>
+      </trans-unit>
+      <trans-unit id="4781" xml:space="preserve" approved="yes">
+        <source>4781</source>
+        <target state="final">Omen: Osten, Norden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4782" xml:space="preserve" approved="yes">
+        <source>4782</source>
+        <target state="final">Omen: Westen, Norden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4783" xml:space="preserve" approved="yes">
+        <source>4783</source>
+        <target state="final">Omen: Osten, Westen, Norden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4784" xml:space="preserve" approved="yes">
+        <source>4784</source>
+        <target state="final">Omen: Süden, Norden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4785" xml:space="preserve" approved="yes">
+        <source>4785</source>
+        <target state="final">Omen: Osten, Süden, Norden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4786" xml:space="preserve" approved="yes">
+        <source>4786</source>
+        <target state="final">Omen: Westen, Süden, Norden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
+      <trans-unit id="4787" xml:space="preserve" approved="yes">
+        <source>4787</source>
+        <target state="final">Omen: Osten, Westen, Süden, Norden&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus den angegebenen Richtungen.</target>
+      </trans-unit>
       <trans-unit id="4788" xml:space="preserve" approved="yes">
         <source>4788</source>
         <target state="final">Magie-Barriere&lt;tab&gt;Erlittener Schaden ist um einen bestimmten Betrag verringert.</target>
@@ -17728,6 +17816,22 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4805</source>
         <target state="final">Phantom-Tänzer&lt;tab&gt;Kämpft mit dem Wissen der alten Tänzer und hat Zugriff auf bestimmte Phantom-Kommandos.</target>
       </trans-unit>
+      <trans-unit id="4821" xml:space="preserve" approved="yes">
+        <source>4821</source>
+        <target state="final">Positive Ladung&lt;tab&gt;Positiv magnetisch aufgeladen.</target>
+      </trans-unit>
+      <trans-unit id="4822" xml:space="preserve" approved="yes">
+        <source>4822</source>
+        <target state="final">Negative Ladung&lt;tab&gt;Negativ magnetisch aufgeladen.</target>
+      </trans-unit>
+      <trans-unit id="4823" xml:space="preserve" approved="yes">
+        <source>4823</source>
+        <target state="final">Positive Ladung&lt;tab&gt;Positiv magnetisch aufgeladen.</target>
+      </trans-unit>
+      <trans-unit id="4824" xml:space="preserve" approved="yes">
+        <source>4824</source>
+        <target state="final">Negative Ladung&lt;tab&gt;Negativ magnetisch aufgeladen.</target>
+      </trans-unit>
       <trans-unit id="4825" xml:space="preserve" approved="yes">
         <source>4825</source>
         <target state="final">_rsv_4825_-1_2_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4825_-1_2_1_0_S74CFC3B0_E74CFC3B0</target>
@@ -17764,6 +17868,14 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4836</source>
         <target state="final">Pikto-Schmetterling&lt;tab&gt;Konzentriert sich auf die Aufrechterhaltung des Pikto-Schmetterlings.</target>
       </trans-unit>
+      <trans-unit id="4837" xml:space="preserve" approved="yes">
+        <source>4837</source>
+        <target state="final">Magnetschwebe&lt;tab&gt;Schwebt durch den Einfluss eines Magnetfeldes in der Luft.</target>
+      </trans-unit>
+      <trans-unit id="4838" xml:space="preserve" approved="yes">
+        <source>4838</source>
+        <target state="final">Magnetanziehung&lt;tab&gt;Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit ist durch den Einfluss eines Magnetfeldes verringert.</target>
+      </trans-unit>
       <trans-unit id="4839" xml:space="preserve" approved="yes">
         <source>4839</source>
         <target state="final">Kosmo-Ruhige Hand&lt;tab&gt;Garantiert das Gelingen der nächsten Kommandos.</target>
@@ -17784,6 +17896,14 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4843</source>
         <target state="final">Alexandria-Hast&lt;tab&gt;Be&lt;var 16 /var&gt;we&lt;var 16 /var&gt;gungs&lt;var 16 /var&gt;ge&lt;var 16 /var&gt;schwin&lt;var 16 /var&gt;dig&lt;var 16 /var&gt;keit ist erhöht.</target>
       </trans-unit>
+      <trans-unit id="4844" xml:space="preserve" approved="yes">
+        <source>4844</source>
+        <target state="final">Fluch der Flammenkette α&lt;tab&gt;Wird bei Ende dieses Effekts mit flammenden Ketten an jemanden gefesselt, der unter demselben Fluch steht.</target>
+      </trans-unit>
+      <trans-unit id="4845" xml:space="preserve" approved="yes">
+        <source>4845</source>
+        <target state="final">Fluch der Flammenkette β&lt;tab&gt;Wird bei Ende dieses Effekts mit flammenden Ketten an jemanden gefesselt, der unter demselben Fluch steht.</target>
+      </trans-unit>
       <trans-unit id="4892" xml:space="preserve" approved="yes">
         <source>4892</source>
         <target state="final">Flüchtige Macht: Unstetes Adlerauge&lt;tab&gt;&lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Unstetes Adlerauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; wurde temporär erlernt und kann ausgeführt werden.</target>
@@ -17796,9 +17916,25 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>4965</source>
         <target state="final">Frostiger Segen&lt;tab&gt;Erlittener Schaden ist um einen bestimmten Betrag verringert.</target>
       </trans-unit>
+      <trans-unit id="4966" xml:space="preserve" approved="yes">
+        <source>4966</source>
+        <target state="final">Omen: Osten&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus der angegebenen Richtung.</target>
+      </trans-unit>
+      <trans-unit id="4967" xml:space="preserve" approved="yes">
+        <source>4967</source>
+        <target state="final">Omen: Westen&lt;tab&gt;Erleidet erhöhten Schaden durch bestimmte Angriffe aus der angegebenen Richtung.</target>
+      </trans-unit>
+      <trans-unit id="4968" xml:space="preserve" approved="yes">
+        <source>4968</source>
+        <target state="final">Ziel von Hydro-Kugel&lt;tab&gt;Ins Visier genommen. Bei Ende dieses Effekts wird &lt;var 48 F201F6 /var&gt;&lt;var 49 F201F7 /var&gt;Hydro-Kugel&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ausgelöst.</target>
+      </trans-unit>
       <trans-unit id="4972" xml:space="preserve" approved="yes">
         <source>4972</source>
         <target state="final">Brüderliche Bande&lt;tab&gt;Mit einem gegenseitigen Brüderschwur verbunden. Schwebt einer in Gefahr, wird jeglicher weiterer Schaden vom anderen abgefangen.</target>
+      </trans-unit>
+      <trans-unit id="4973" xml:space="preserve" approved="yes">
+        <source>4973</source>
+        <target state="final">In Ereignis&lt;tab&gt;Nimmt an einem Spielereignis teil.</target>
       </trans-unit>
       <trans-unit id="4974" xml:space="preserve" approved="yes">
         <source>4974</source>
@@ -17832,6 +17968,10 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
         <source>5046</source>
         <target state="final">Dunkelresistenz - (stark)&lt;tab&gt;Resistenz gegen Dunkelheit ist stark verringert.</target>
       </trans-unit>
+      <trans-unit id="5047" xml:space="preserve" approved="yes">
+        <source>5047</source>
+        <target state="final">Blasenkerker&lt;tab&gt;In magischen Blasen eingekerkert, die jegliche Handlung verhindern.</target>
+      </trans-unit>
       <trans-unit id="5051" xml:space="preserve" approved="yes">
         <source>5051</source>
         <target state="final">Blutpatronen&lt;tab&gt;Die Maximalanzahl an Erda-Patronen ist kurzzeitig erhöht.</target>
@@ -17839,6 +17979,10 @@ Darüber hinaus werden stetig LP regeneriert, wenn Schaden genommen wird oder de
       <trans-unit id="5058" xml:space="preserve" approved="yes">
         <source>5058</source>
         <target state="final">Steinfluch&lt;tab&gt;Versteinert. Erlittener Schaden führt zu Kampfunfähigkeit.</target>
+      </trans-unit>
+      <trans-unit id="5152" xml:space="preserve" approved="yes">
+        <source>5152</source>
+        <target state="final">Schwer beladen&lt;tab&gt;Schwer beladen. Wird nach einer gewissen Zeit müde und lässt das Getragene fallen.</target>
       </trans-unit>
       <trans-unit id="5174" xml:space="preserve" approved="yes">
         <source>5174</source>

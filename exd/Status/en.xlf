@@ -5165,7 +5165,7 @@ Potency of &lt;var 08 E4E94524 ((&lt;var 08 E0E94943 ((&lt;var 48 F201F4 /var&gt
       </trans-unit>
       <trans-unit id="1320" xml:space="preserve" approved="yes">
         <source>1320</source>
-        <target state="final">Meikyo Shisui&lt;tab&gt;Nullifying status afflictions that can be removed by &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Purify&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, as well as knockback and draw-in effects.</target>
+        <target state="final">Meikyo Shisui&lt;tab&gt;HP recovery via healing actions is increased. Status afflictions that can be removed by &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Purify&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, as well as knockback and draw-in effects, are nullified.</target>
       </trans-unit>
       <trans-unit id="1321" xml:space="preserve" approved="yes">
         <source>1321</source>
@@ -11947,7 +11947,7 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
       </trans-unit>
       <trans-unit id="3085" xml:space="preserve" approved="yes">
         <source>3085</source>
-        <target state="final">Miracle of Nature&lt;tab&gt;Transfiguration magicks have changed your form. Unable to execute actions.</target>
+        <target state="final">Miracle of Nature&lt;tab&gt;Transfiguration magicks have changed your form. Unable to execute actions and damage taken is increased.</target>
       </trans-unit>
       <trans-unit id="3086" xml:space="preserve" approved="yes">
         <source>3086</source>
@@ -16763,7 +16763,7 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
       </trans-unit>
       <trans-unit id="4412" xml:space="preserve" approved="yes">
         <source>4412</source>
-        <target state="final">Enhanced Egg Acuity&lt;tab&gt;Highly sensitive to the plentiful glimmer of Archon eggs.</target>
+        <target state="final">Enhanced Egg Acuity&lt;tab&gt;Probability of gleaning Archon eggs is increased.</target>
       </trans-unit>
       <trans-unit id="4413" xml:space="preserve" approved="yes">
         <source>4413</source>
@@ -16811,7 +16811,7 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
       </trans-unit>
       <trans-unit id="4424" xml:space="preserve" approved="yes">
         <source>4424</source>
-        <target state="final">Eggstreme Egg Acuity&lt;tab&gt;Highly sensitive to the plentiful glimmer of gold Archon eggs.</target>
+        <target state="final">Eggstreme Egg Acuity&lt;tab&gt;Probability of gleaning Archon eggs is increased, and all eggs gleaned will be gold.</target>
       </trans-unit>
       <trans-unit id="4425" xml:space="preserve" approved="yes">
         <source>4425</source>
@@ -17381,6 +17381,18 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
         <source>4613</source>
         <target state="final">Energy Load&lt;tab&gt;Storing energy gathered via the use of Fuller Throttle.</target>
       </trans-unit>
+      <trans-unit id="4615" xml:space="preserve" approved="yes">
+        <source>4615</source>
+        <target state="final">Curse of Solitude&lt;tab&gt;Covered in accursed fire powder, resulting in an explosion when this effect expires.</target>
+      </trans-unit>
+      <trans-unit id="4616" xml:space="preserve" approved="yes">
+        <source>4616</source>
+        <target state="final">Curse of Companionship&lt;tab&gt;Covered in accursed fire powder, resulting in an intense explosion when this effect expires.</target>
+      </trans-unit>
+      <trans-unit id="4617" xml:space="preserve" approved="yes">
+        <source>4617</source>
+        <target state="final">Curse of Immolation&lt;tab&gt;Beset by rising heat, resulting in fire damage when this effect expires. Contact with ice-aspected attacks will remove this effect.</target>
+      </trans-unit>
       <trans-unit id="4618" xml:space="preserve" approved="yes">
         <source>4618</source>
         <target state="final">Standing Firm&lt;tab&gt;Unbowed even by relentless onslaught.</target>
@@ -17389,9 +17401,13 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
         <source>4625</source>
         <target state="final">Breaker of Wind&lt;tab&gt;Mired in quicksand and impervious to knockback by even the most powerful winds.</target>
       </trans-unit>
+      <trans-unit id="4627" xml:space="preserve" approved="yes">
+        <source>4627</source>
+        <target state="final">Fury&lt;tab&gt;Empowered by righteous fury.</target>
+      </trans-unit>
       <trans-unit id="4628" xml:space="preserve" approved="yes">
         <source>4628</source>
-        <target state="final">草刈り参加&lt;tab&gt;草刈りに参加している状態。</target>
+        <target state="final">In the Weeds&lt;tab&gt;Ready to slay leafkin with a bespoke garden scythe.</target>
       </trans-unit>
       <trans-unit id="4652" xml:space="preserve" approved="yes">
         <source>4652</source>
@@ -17432,6 +17448,18 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
       <trans-unit id="4723" xml:space="preserve" approved="yes">
         <source>4723</source>
         <target state="final">Sapling's Crown&lt;tab&gt;Warded by the pixie king and invulnerable to all damage.</target>
+      </trans-unit>
+      <trans-unit id="4724" xml:space="preserve" approved="yes">
+        <source>4724</source>
+        <target state="final">Near Shore Shackles&lt;tab&gt;Chained to an ally. Drawing too near to this partner will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4725" xml:space="preserve" approved="yes">
+        <source>4725</source>
+        <target state="final">Far Shore Shackles&lt;tab&gt;Chained to an ally. Drawing too far from this partner will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4726" xml:space="preserve" approved="yes">
+        <source>4726</source>
+        <target state="final">Tidalspout Target&lt;tab&gt;Designated target of Tidalspout, which will activate when this effect expires.</target>
       </trans-unit>
       <trans-unit id="4727" xml:space="preserve" approved="yes">
         <source>4727</source>
@@ -17617,6 +17645,66 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
         <source>4772</source>
         <target state="final">Fate of the Wurm&lt;tab&gt;Bound to the earth and unable to jump.</target>
       </trans-unit>
+      <trans-unit id="4773" xml:space="preserve" approved="yes">
+        <source>4773</source>
+        <target state="final">Malefic E&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4774" xml:space="preserve" approved="yes">
+        <source>4774</source>
+        <target state="final">Malefic W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4775" xml:space="preserve" approved="yes">
+        <source>4775</source>
+        <target state="final">Malefic E-W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4776" xml:space="preserve" approved="yes">
+        <source>4776</source>
+        <target state="final">Malefic S&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4777" xml:space="preserve" approved="yes">
+        <source>4777</source>
+        <target state="final">Malefic S-E&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4778" xml:space="preserve" approved="yes">
+        <source>4778</source>
+        <target state="final">Malefic S-W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4779" xml:space="preserve" approved="yes">
+        <source>4779</source>
+        <target state="final">Malefic S-E-W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4780" xml:space="preserve" approved="yes">
+        <source>4780</source>
+        <target state="final">Malefic N&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4781" xml:space="preserve" approved="yes">
+        <source>4781</source>
+        <target state="final">Malefic N-E&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4782" xml:space="preserve" approved="yes">
+        <source>4782</source>
+        <target state="final">Malefic N-W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4783" xml:space="preserve" approved="yes">
+        <source>4783</source>
+        <target state="final">Malefic N-E-W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4784" xml:space="preserve" approved="yes">
+        <source>4784</source>
+        <target state="final">Malefic N-S&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4785" xml:space="preserve" approved="yes">
+        <source>4785</source>
+        <target state="final">Malefic N-S-E&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4786" xml:space="preserve" approved="yes">
+        <source>4786</source>
+        <target state="final">Malefic N-S-W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4787" xml:space="preserve" approved="yes">
+        <source>4787</source>
+        <target state="final">Malefic N-S-E-W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
       <trans-unit id="4788" xml:space="preserve" approved="yes">
         <source>4788</source>
         <target state="final">Magic Shell&lt;tab&gt;A magicked barrier is nullifying damage.</target>
@@ -17689,6 +17777,22 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
         <source>4805</source>
         <target state="final">Phantom Dancer&lt;tab&gt;Ruminating on the knowledge of a dancer of eld. Ready to use select phantom actions.</target>
       </trans-unit>
+      <trans-unit id="4821" xml:space="preserve" approved="yes">
+        <source>4821</source>
+        <target state="final">Positive Charge&lt;tab&gt;Exhibiting a positive magnetic charge.</target>
+      </trans-unit>
+      <trans-unit id="4822" xml:space="preserve" approved="yes">
+        <source>4822</source>
+        <target state="final">Negative Charge&lt;tab&gt;Exhibiting a negative magnetic charge.</target>
+      </trans-unit>
+      <trans-unit id="4823" xml:space="preserve" approved="yes">
+        <source>4823</source>
+        <target state="final">Positive Charge&lt;tab&gt;Exhibiting a positive magnetic charge.</target>
+      </trans-unit>
+      <trans-unit id="4824" xml:space="preserve" approved="yes">
+        <source>4824</source>
+        <target state="final">Negative Charge&lt;tab&gt;Exhibiting a negative magnetic charge.</target>
+      </trans-unit>
       <trans-unit id="4825" xml:space="preserve" approved="yes">
         <source>4825</source>
         <target state="final">_rsv_4825_-1_1_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4825_-1_1_1_0_S74CFC3B0_E74CFC3B0</target>
@@ -17725,6 +17829,14 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
         <source>4836</source>
         <target state="final">Butterfly Motif&lt;tab&gt;Concentrating on a mental picture of colorful vilekin.</target>
       </trans-unit>
+      <trans-unit id="4837" xml:space="preserve" approved="yes">
+        <source>4837</source>
+        <target state="final">Magnetic Levitation&lt;tab&gt;Suspended in midair by magnetic forces.</target>
+      </trans-unit>
+      <trans-unit id="4838" xml:space="preserve" approved="yes">
+        <source>4838</source>
+        <target state="final">Magnetic Pull&lt;tab&gt;Movement speed is decreased due to magnetic forces.</target>
+      </trans-unit>
       <trans-unit id="4839" xml:space="preserve" approved="yes">
         <source>4839</source>
         <target state="final">Stellar Steady Hand&lt;tab&gt;Actions are guaranteed to succeed.</target>
@@ -17745,6 +17857,14 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
         <source>4843</source>
         <target state="final">Alexandrian Swiftstep&lt;tab&gt;Movement speed is increased.</target>
       </trans-unit>
+      <trans-unit id="4844" xml:space="preserve" approved="yes">
+        <source>4844</source>
+        <target state="final">Chains of Passion α&lt;tab&gt;Fated to be bound by burning chains to a partner with a matching mark when this effect expires.</target>
+      </trans-unit>
+      <trans-unit id="4845" xml:space="preserve" approved="yes">
+        <source>4845</source>
+        <target state="final">Chains of Passion β&lt;tab&gt;Fated to be bound by burning chains to a partner with a matching mark when this effect expires.</target>
+      </trans-unit>
       <trans-unit id="4892" xml:space="preserve" approved="yes">
         <source>4892</source>
         <target state="final">Variant Eagle Eye Shot Set&lt;tab&gt;Possessed of the ability to use Variant Eagle Eye Shot for the duration of the duty.</target>
@@ -17757,9 +17877,25 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
         <source>4965</source>
         <target state="final">Snow Fort&lt;tab&gt;The snow spirits' blessing is nullifying damage.</target>
       </trans-unit>
+      <trans-unit id="4966" xml:space="preserve" approved="yes">
+        <source>4966</source>
+        <target state="final">Malefic E&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4967" xml:space="preserve" approved="yes">
+        <source>4967</source>
+        <target state="final">Malefic W&lt;tab&gt;Being hit by certain attacks from an ill-favored cardinal direction will result in increased damage taken.</target>
+      </trans-unit>
+      <trans-unit id="4968" xml:space="preserve" approved="yes">
+        <source>4968</source>
+        <target state="final">Hydrobullet Target&lt;tab&gt;Designated target of Hydrobullet, which will activate when this effect expires.</target>
+      </trans-unit>
       <trans-unit id="4972" xml:space="preserve" approved="yes">
         <source>4972</source>
         <target state="final">Brotherly Love&lt;tab&gt;Determined to protect a brother-in-arms, and will take a blow for said brother should he be in a tight spot.</target>
+      </trans-unit>
+      <trans-unit id="4973" xml:space="preserve" approved="yes">
+        <source>4973</source>
+        <target state="final">In Event&lt;tab&gt;Participating in an in-game event.</target>
       </trans-unit>
       <trans-unit id="4974" xml:space="preserve" approved="yes">
         <source>4974</source>
@@ -17793,6 +17929,10 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
         <source>5046</source>
         <target state="final">Dark Resistance Down II&lt;tab&gt;Dark resistance is significantly reduced.</target>
       </trans-unit>
+      <trans-unit id="5047" xml:space="preserve" approved="yes">
+        <source>5047</source>
+        <target state="final">Bubble Gaol&lt;tab&gt;Ensnared by aetherial seafoam and unable to move.</target>
+      </trans-unit>
       <trans-unit id="5051" xml:space="preserve" approved="yes">
         <source>5051</source>
         <target state="final">Bloodfest&lt;tab&gt;Maximum number of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Powder Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; cartridges is increased.</target>
@@ -17800,6 +17940,10 @@ Will grant the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Str
       <trans-unit id="5058" xml:space="preserve" approved="yes">
         <source>5058</source>
         <target state="final">Stone Curse&lt;tab&gt;Turned into stone. Taking damage results in instant death.</target>
+      </trans-unit>
+      <trans-unit id="5152" xml:space="preserve" approved="yes">
+        <source>5152</source>
+        <target state="final">Load-bearing&lt;tab&gt;Carrying a weighty burden and growing wearier with each passing second.</target>
       </trans-unit>
       <trans-unit id="5174" xml:space="preserve" approved="yes">
         <source>5174</source>

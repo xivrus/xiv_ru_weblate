@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="Status" datatype="plaintext" source-language="en" target-language="ja">
     <body>
@@ -5193,7 +5193,7 @@
       </trans-unit>
       <trans-unit id="1320" xml:space="preserve" approved="yes">
         <source>1320</source>
-        <target state="final">明鏡止水&lt;tab&gt;「浄化」で解除することができる状態異常効果と、ノックバック、引き寄せの効果を無効化する状態。</target>
+        <target state="final">明鏡止水&lt;tab&gt;「浄化」で解除することができる状態異常効果と、ノックバック、引き寄せの効果を無効化し、さらに自身に対するＨＰ回復効果が上昇した状態。</target>
       </trans-unit>
       <trans-unit id="1321" xml:space="preserve" approved="yes">
         <source>1321</source>
@@ -12036,7 +12036,7 @@
       </trans-unit>
       <trans-unit id="3085" xml:space="preserve" approved="yes">
         <source>3085</source>
-        <target state="final">ミラクル・オブ・ネイチャー&lt;tab&gt;変身させられた状態。アクション実行不可。</target>
+        <target state="final">ミラクル・オブ・ネイチャー&lt;tab&gt;変身させられた状態。アクションが実行できず、さらに受けるダメージが増加する。</target>
       </trans-unit>
       <trans-unit id="3086" xml:space="preserve" approved="yes">
         <source>3086</source>
@@ -17496,6 +17496,18 @@
         <source>4613</source>
         <target state="final">ブレードチャージ&lt;tab&gt;ブレードダッシュ改の使用で、機体内部に蓄積したエネルギー</target>
       </trans-unit>
+      <trans-unit id="4615" xml:space="preserve" approved="yes">
+        <source>4615</source>
+        <target state="final">爆粉の呪い：散&lt;tab&gt;爆粉の呪いを受けた状態。効果時間が終了すると爆発を起こす。</target>
+      </trans-unit>
+      <trans-unit id="4616" xml:space="preserve" approved="yes">
+        <source>4616</source>
+        <target state="final">爆粉の呪い：集&lt;tab&gt;爆粉の呪いを受けた状態。効果時間が終了すると重爆発を起こす。</target>
+      </trans-unit>
+      <trans-unit id="4617" xml:space="preserve" approved="yes">
+        <source>4617</source>
+        <target state="final">焼尽の呪い&lt;tab&gt;焼尽の呪いを受け、効果時間終了時に火属性ダメージを受ける状態。氷属性の攻撃を受けると効果が解除される。</target>
+      </trans-unit>
       <trans-unit id="4618" xml:space="preserve" approved="yes">
         <source>4618</source>
         <target state="final">ふんばる&lt;tab&gt;強烈な衝撃に備えて、踏ん張った状態。</target>
@@ -17503,6 +17515,10 @@
       <trans-unit id="4625" xml:space="preserve" approved="yes">
         <source>4625</source>
         <target state="final">強風無効&lt;tab&gt;流砂にはまった影響で、強風によるノックバックが無効になった状態。</target>
+      </trans-unit>
+      <trans-unit id="4627" xml:space="preserve" approved="yes">
+        <source>4627</source>
+        <target state="final">激怒&lt;tab&gt;怒りにまかせ本気の攻撃を繰り出している状態。</target>
       </trans-unit>
       <trans-unit id="4628" xml:space="preserve" approved="yes">
         <source>4628</source>
@@ -17547,6 +17563,18 @@
       <trans-unit id="4723" xml:space="preserve" approved="yes">
         <source>4723</source>
         <target state="final">妖精王の加護&lt;tab&gt;妖精王の加護を受けた状態。一時的に無敵になる。</target>
+      </trans-unit>
+      <trans-unit id="4724" xml:space="preserve" approved="yes">
+        <source>4724</source>
+        <target state="final">水の鎖［近］&lt;tab&gt;水の鎖で繋がれた仲間に近づくと、被害が増大する状態。</target>
+      </trans-unit>
+      <trans-unit id="4725" xml:space="preserve" approved="yes">
+        <source>4725</source>
+        <target state="final">水の鎖［遠］&lt;tab&gt;水の鎖で繋がれた仲間から離れると、被害が増大する状態。</target>
+      </trans-unit>
+      <trans-unit id="4726" xml:space="preserve" approved="yes">
+        <source>4726</source>
+        <target state="final">ターゲッティング：バーストフラッド&lt;tab&gt;標的となっている状態。効果時間終了時に、バーストフラッドが発動する。</target>
       </trans-unit>
       <trans-unit id="4727" xml:space="preserve" approved="yes">
         <source>4727</source>
@@ -17732,6 +17760,66 @@
         <source>4772</source>
         <target state="final">大蛇の呪縛&lt;tab&gt;呪縛によって地面に縛り付けられ、ジャンプが実行不可となった状態。</target>
       </trans-unit>
+      <trans-unit id="4773" xml:space="preserve" approved="yes">
+        <source>4773</source>
+        <target state="final">凶兆：東&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4774" xml:space="preserve" approved="yes">
+        <source>4774</source>
+        <target state="final">凶兆：西&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4775" xml:space="preserve" approved="yes">
+        <source>4775</source>
+        <target state="final">凶兆：東西&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4776" xml:space="preserve" approved="yes">
+        <source>4776</source>
+        <target state="final">凶兆：南&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4777" xml:space="preserve" approved="yes">
+        <source>4777</source>
+        <target state="final">凶兆：東南&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4778" xml:space="preserve" approved="yes">
+        <source>4778</source>
+        <target state="final">凶兆：西南&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4779" xml:space="preserve" approved="yes">
+        <source>4779</source>
+        <target state="final">凶兆：東西南&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4780" xml:space="preserve" approved="yes">
+        <source>4780</source>
+        <target state="final">凶兆：北&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4781" xml:space="preserve" approved="yes">
+        <source>4781</source>
+        <target state="final">凶兆：東北&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4782" xml:space="preserve" approved="yes">
+        <source>4782</source>
+        <target state="final">凶兆：西北&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4783" xml:space="preserve" approved="yes">
+        <source>4783</source>
+        <target state="final">凶兆：東西北&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4784" xml:space="preserve" approved="yes">
+        <source>4784</source>
+        <target state="final">凶兆：南北&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4785" xml:space="preserve" approved="yes">
+        <source>4785</source>
+        <target state="final">凶兆：東南北&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4786" xml:space="preserve" approved="yes">
+        <source>4786</source>
+        <target state="final">凶兆：西南北&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4787" xml:space="preserve" approved="yes">
+        <source>4787</source>
+        <target state="final">凶兆：東西南北&lt;tab&gt;一部の攻撃を受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
       <trans-unit id="4788" xml:space="preserve" approved="yes">
         <source>4788</source>
         <target state="final">まほうバリア&lt;tab&gt;一定量のダメージを軽減する状態。</target>
@@ -17804,6 +17892,22 @@
         <source>4805</source>
         <target state="final">サポート踊り子&lt;tab&gt;一時的に古き踊り子の記憶を継承した状態。特定のサポートアクションが使用可能になる。</target>
       </trans-unit>
+      <trans-unit id="4821" xml:space="preserve" approved="yes">
+        <source>4821</source>
+        <target state="final">磁力【＋】&lt;tab&gt;【＋】の磁力を帯びた状態。</target>
+      </trans-unit>
+      <trans-unit id="4822" xml:space="preserve" approved="yes">
+        <source>4822</source>
+        <target state="final">磁力【－】&lt;tab&gt;【－】の磁力を帯びた状態。</target>
+      </trans-unit>
+      <trans-unit id="4823" xml:space="preserve" approved="yes">
+        <source>4823</source>
+        <target state="final">磁力【＋】&lt;tab&gt;【＋】の磁力を帯びた状態。</target>
+      </trans-unit>
+      <trans-unit id="4824" xml:space="preserve" approved="yes">
+        <source>4824</source>
+        <target state="final">磁力【－】&lt;tab&gt;【－】の磁力を帯びた状態。</target>
+      </trans-unit>
       <trans-unit id="4825" xml:space="preserve" approved="yes">
         <source>4825</source>
         <target state="final">_rsv_4825_-1_0_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4825_-1_0_1_0_S74CFC3B0_E74CFC3B0</target>
@@ -17840,6 +17944,14 @@
         <source>4836</source>
         <target state="final">ピクトバタフライ&lt;tab&gt;絵画魔法「ピクトバタフライ」に集中している状態。</target>
       </trans-unit>
+      <trans-unit id="4837" xml:space="preserve" approved="yes">
+        <source>4837</source>
+        <target state="final">磁気浮上&lt;tab&gt;磁力により、宙に浮いた状態。</target>
+      </trans-unit>
+      <trans-unit id="4838" xml:space="preserve" approved="yes">
+        <source>4838</source>
+        <target state="final">磁気重圧&lt;tab&gt;磁力により、移動速度が低下した状態。</target>
+      </trans-unit>
       <trans-unit id="4839" xml:space="preserve" approved="yes">
         <source>4839</source>
         <target state="final">コスモステディハンド&lt;tab&gt;アクションが確実に成功する状態</target>
@@ -17860,6 +17972,14 @@
         <source>4843</source>
         <target state="final">キングダム・スウィフト［走］&lt;tab&gt;移動速度が上昇した状態。</target>
       </trans-unit>
+      <trans-unit id="4844" xml:space="preserve" approved="yes">
+        <source>4844</source>
+        <target state="final">炎鎖の呪いα&lt;tab&gt;炎鎖の呪いを受けた状態。効果終了時に、同じ呪いを受けた他者と炎の鎖で繋がれてしまう。</target>
+      </trans-unit>
+      <trans-unit id="4845" xml:space="preserve" approved="yes">
+        <source>4845</source>
+        <target state="final">炎鎖の呪いβ&lt;tab&gt;炎鎖の呪いを受けた状態。効果終了時に、同じ呪いを受けた他者と炎の鎖で繋がれてしまう。</target>
+      </trans-unit>
       <trans-unit id="4892" xml:space="preserve" approved="yes">
         <source>4892</source>
         <target state="final">ヴァリアント・イーグルアイ設定&lt;tab&gt;ヴァリアント・イーグルアイをセットし、一時的に使用可能になった状態。</target>
@@ -17872,9 +17992,25 @@
         <source>4965</source>
         <target state="final">雪精の祝福&lt;tab&gt;一定量のダメージを軽減する状態。</target>
       </trans-unit>
+      <trans-unit id="4966" xml:space="preserve" approved="yes">
+        <source>4966</source>
+        <target state="final">凶兆：東&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4967" xml:space="preserve" approved="yes">
+        <source>4967</source>
+        <target state="final">凶兆：西&lt;tab&gt;一部の攻撃を特定方角から受けた際、ダメージが増加する状態。</target>
+      </trans-unit>
+      <trans-unit id="4968" xml:space="preserve" approved="yes">
+        <source>4968</source>
+        <target state="final">ターゲッティング：ハイドロバレット&lt;tab&gt;標的となっている状態。効果時間終了時に、ハイドロバレットが発動する。</target>
+      </trans-unit>
       <trans-unit id="4972" xml:space="preserve" approved="yes">
         <source>4972</source>
         <target state="final">兄弟の絆&lt;tab&gt;互いが互いを護るという誓いを立てた状態。一方が追い詰められたとき、攻撃をもう一方が肩代わりする。</target>
+      </trans-unit>
+      <trans-unit id="4973" xml:space="preserve" approved="yes">
+        <source>4973</source>
+        <target state="final">イベント中&lt;tab&gt;イベントが発生している状態。</target>
       </trans-unit>
       <trans-unit id="4974" xml:space="preserve" approved="yes">
         <source>4974</source>
@@ -17908,6 +18044,10 @@
         <source>5046</source>
         <target state="final">闇属性耐性低下［強］&lt;tab&gt;闇属性に対する耐性が著しく低下した状態。</target>
       </trans-unit>
+      <trans-unit id="5047" xml:space="preserve" approved="yes">
+        <source>5047</source>
+        <target state="final">バブルプリズン&lt;tab&gt;魔力の泡に閉じ込められ、行動できなくなった状態。</target>
+      </trans-unit>
       <trans-unit id="5051" xml:space="preserve" approved="yes">
         <source>5051</source>
         <target state="final">ブラッドソイル&lt;tab&gt;一時的にソイルの最大スタック数が増加する状態。</target>
@@ -17915,6 +18055,10 @@
       <trans-unit id="5058" xml:space="preserve" approved="yes">
         <source>5058</source>
         <target state="final">石化の呪い&lt;tab&gt;石化した状態。攻撃を受けると戦闘不能になる。</target>
+      </trans-unit>
+      <trans-unit id="5152" xml:space="preserve" approved="yes">
+        <source>5152</source>
+        <target state="final">重運搬&lt;tab&gt;かなり重たい荷を運搬している状態。一定時間が経過すると、疲れて荷を落としてしまう。</target>
       </trans-unit>
       <trans-unit id="5174" xml:space="preserve" approved="yes">
         <source>5174</source>
@@ -17931,10 +18075,6 @@
       <trans-unit id="5187" xml:space="preserve" approved="yes">
         <source>5187</source>
         <target state="final">死の宣告&lt;tab&gt;カウント0で戦闘不能に陥る状態。</target>
-      </trans-unit>
-      <trans-unit id="3795" xml:space="preserve" approved="no">
-        <source>3795</source>
-        <target state="needs-translation" state-qualifier="leveraged-mt">Sustained Damage&lt;tab&gt;Sustaining damage over time.</target>
       </trans-unit>
     </body>
   </file>

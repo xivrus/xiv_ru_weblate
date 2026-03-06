@@ -5174,7 +5174,7 @@ Sous un effet augmentant les chances de coups nets et critiques, les dégâts in
       </trans-unit>
       <trans-unit id="1320" xml:space="preserve" approved="yes">
         <source>1320</source>
-        <target state="final">Meikyô Shisui&lt;tab&gt;Insensible aux altérations d'état soignables avec Dépuration, aux projections et aux attractions.</target>
+        <target state="final">Meikyô Shisui&lt;tab&gt;Insensible aux altérations d'état soignables avec Dépuration, aux projections et aux attractions. De plus, les effets de récupération de PV sont augmentés.</target>
       </trans-unit>
       <trans-unit id="1321" xml:space="preserve" approved="yes">
         <source>1321</source>
@@ -11959,7 +11959,7 @@ Recevoir certaines attaques permet d'annuler l'effet sans subir lesdits dégâts
       </trans-unit>
       <trans-unit id="3085" xml:space="preserve" approved="yes">
         <source>3085</source>
-        <target state="final">Miracle de la nature&lt;tab&gt;La transformation en faible créature empêche toute action.</target>
+        <target state="final">Miracle de la nature&lt;tab&gt;La transformation en faible créature empêche toute action et augmente les dégâts subis.</target>
       </trans-unit>
       <trans-unit id="3086" xml:space="preserve" approved="yes">
         <source>3086</source>
@@ -17403,6 +17403,18 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4613</source>
         <target state="final">Lame chargée&lt;tab&gt;De l'énergie a été accumulée grâce à l'utilisation de la Super ruée tranchante.</target>
       </trans-unit>
+      <trans-unit id="4615" xml:space="preserve" approved="yes">
+        <source>4615</source>
+        <target state="final">Cendres déflagrantes&lt;var 1D /var&gt;: dispersion&lt;tab&gt;La malédiction des cendres déflagrantes provoque une explosion à la fin de l'effet.</target>
+      </trans-unit>
+      <trans-unit id="4616" xml:space="preserve" approved="yes">
+        <source>4616</source>
+        <target state="final">Cendres détonantes&lt;var 1D /var&gt;: congrégation&lt;tab&gt;La malédiction des cendres détonantes provoque une grande explosion à la fin de l'effet.</target>
+      </trans-unit>
+      <trans-unit id="4617" xml:space="preserve" approved="yes">
+        <source>4617</source>
+        <target state="final">Cendres calcinantes&lt;tab&gt;La malédiction des cendres calcinantes infligera des dégâts de feu à la fin de l'effet. Subir une attaque de glace dissipera l'effet.</target>
+      </trans-unit>
       <trans-unit id="4618" xml:space="preserve" approved="yes">
         <source>4618</source>
         <target state="final">Tenir bon&lt;tab&gt;Les pré&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;ra&lt;var 16 /var&gt;tions nécessaires ont été faites pour subir un assaut dévastateur.</target>
@@ -17410,6 +17422,10 @@ Ne s'applique pas aux actions curatives.</target>
       <trans-unit id="4625" xml:space="preserve" approved="yes">
         <source>4625</source>
         <target state="final">Immunisé aux rafales&lt;tab&gt;Les pieds sont pris dans les sables mouvants, empêchant d'être projeté par les rafales de vent.</target>
+      </trans-unit>
+      <trans-unit id="4627" xml:space="preserve" approved="yes">
+        <source>4627</source>
+        <target state="final">Furie&lt;tab&gt;Les dégâts infligés sont augmentés par la colère.</target>
       </trans-unit>
       <trans-unit id="4628" xml:space="preserve" approved="yes">
         <source>4628</source>
@@ -17454,6 +17470,18 @@ Ne s'applique pas aux actions curatives.</target>
       <trans-unit id="4723" xml:space="preserve" approved="yes">
         <source>4723</source>
         <target state="final">Protection du Monarque&lt;tab&gt;Invulnérable temporairement grâce à la protection du Monarque féérique.</target>
+      </trans-unit>
+      <trans-unit id="4724" xml:space="preserve" approved="yes">
+        <source>4724</source>
+        <target state="final">Chaînes aqueuses proches&lt;tab&gt;Se rapprocher de l'autre victime reliée par ces chaînes provoque une grosse explosion.</target>
+      </trans-unit>
+      <trans-unit id="4725" xml:space="preserve" approved="yes">
+        <source>4725</source>
+        <target state="final">Chaînes aqueuses éloignées&lt;tab&gt;S'éloigner l'autre victime reliée par ces chaînes provoque une grosse explosion.</target>
+      </trans-unit>
+      <trans-unit id="4726" xml:space="preserve" approved="yes">
+        <source>4726</source>
+        <target state="final">Cible de déferlement soudain&lt;tab&gt;Déferlement soudain est retardé et sera lancé sur cette cible à la fin de cet effet.</target>
       </trans-unit>
       <trans-unit id="4727" xml:space="preserve" approved="yes">
         <source>4727</source>
@@ -17639,6 +17667,66 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4772</source>
         <target state="final">Malédiction du grand serpent&lt;tab&gt;L'âme est clouée au sol par un puissant sortilège. L'utilisation du saut est impossible.</target>
       </trans-unit>
+      <trans-unit id="4773" xml:space="preserve" approved="yes">
+        <source>4773</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est&lt;tab&gt;Certains dégâts subis par la direction indiquée sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4774" xml:space="preserve" approved="yes">
+        <source>4774</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: ouest&lt;tab&gt;Certains dégâts subis par la direction indiquée sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4775" xml:space="preserve" approved="yes">
+        <source>4775</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est, ouest&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4776" xml:space="preserve" approved="yes">
+        <source>4776</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: sud&lt;tab&gt;Certains dégâts subis par la direction indiquée sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4777" xml:space="preserve" approved="yes">
+        <source>4777</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est, sud&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4778" xml:space="preserve" approved="yes">
+        <source>4778</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: ouest, sud&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4779" xml:space="preserve" approved="yes">
+        <source>4779</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est, ouest, sud&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4780" xml:space="preserve" approved="yes">
+        <source>4780</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: nord&lt;tab&gt;Certains dégâts subis par la direction indiquée sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4781" xml:space="preserve" approved="yes">
+        <source>4781</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est, nord&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4782" xml:space="preserve" approved="yes">
+        <source>4782</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: ouest, nord&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4783" xml:space="preserve" approved="yes">
+        <source>4783</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est, ouest, nord&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4784" xml:space="preserve" approved="yes">
+        <source>4784</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: sud, nord&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4785" xml:space="preserve" approved="yes">
+        <source>4785</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est, sud, nord&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4786" xml:space="preserve" approved="yes">
+        <source>4786</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: ouest, sud, nord&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4787" xml:space="preserve" approved="yes">
+        <source>4787</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est, ouest, sud, nord&lt;tab&gt;Certains dégâts subis par les directions indiquées sont augmentés.</target>
+      </trans-unit>
       <trans-unit id="4788" xml:space="preserve" approved="yes">
         <source>4788</source>
         <target state="final">Magi Blindage&lt;tab&gt;Insensible à un certain montant de dégâts.</target>
@@ -17711,6 +17799,22 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4805</source>
         <target state="final">Danseur fantôme&lt;tab&gt;Les souvenirs d'un ancien danseur permettent l'utilisation d'actions de soutien.</target>
       </trans-unit>
+      <trans-unit id="4821" xml:space="preserve" approved="yes">
+        <source>4821</source>
+        <target state="final">Charge positive&lt;tab&gt;La force du champ électromagnétique est positive.</target>
+      </trans-unit>
+      <trans-unit id="4822" xml:space="preserve" approved="yes">
+        <source>4822</source>
+        <target state="final">Charge négative&lt;tab&gt;La force du champ électromagnétique est négative.</target>
+      </trans-unit>
+      <trans-unit id="4823" xml:space="preserve" approved="yes">
+        <source>4823</source>
+        <target state="final">Charge positive&lt;tab&gt;La force du champ électromagnétique est positive.</target>
+      </trans-unit>
+      <trans-unit id="4824" xml:space="preserve" approved="yes">
+        <source>4824</source>
+        <target state="final">Charge négative&lt;tab&gt;La force du champ électromagnétique est négative.</target>
+      </trans-unit>
       <trans-unit id="4825" xml:space="preserve" approved="yes">
         <source>4825</source>
         <target state="final">_rsv_4825_-1_3_0_0_S74CFC3B0_E74CFC3B0&lt;tab&gt;_rsv_4825_-1_3_1_0_S74CFC3B0_E74CFC3B0</target>
@@ -17747,6 +17851,14 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4836</source>
         <target state="final">Picto Papillons&lt;tab&gt;Focalisée sur le sort de magie picturale Picto Papillons.</target>
       </trans-unit>
+      <trans-unit id="4837" xml:space="preserve" approved="yes">
+        <source>4837</source>
+        <target state="final">Lévitation magnétique&lt;tab&gt;Un champ de force magnétique permet de flotter dans l'air.</target>
+      </trans-unit>
+      <trans-unit id="4838" xml:space="preserve" approved="yes">
+        <source>4838</source>
+        <target state="final">Pesanteur magnétique&lt;tab&gt;Un champ de force magnétique réduit la vitesse de déplacement.</target>
+      </trans-unit>
       <trans-unit id="4839" xml:space="preserve" approved="yes">
         <source>4839</source>
         <target state="final">Cosmomain sûre&lt;tab&gt;Les actions réussissent à coup sûr.</target>
@@ -17767,6 +17879,14 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4843</source>
         <target state="final">Vélocité chevaleresque athlétique&lt;tab&gt;La vitesse de déplacement est augmentée.</target>
       </trans-unit>
+      <trans-unit id="4844" xml:space="preserve" approved="yes">
+        <source>4844</source>
+        <target state="final">Malédiction des flammes enchaînées α&lt;tab&gt;Une chaîne de flammes relie les victimes de ce même effet lorsque la durée s'est écoulée.</target>
+      </trans-unit>
+      <trans-unit id="4845" xml:space="preserve" approved="yes">
+        <source>4845</source>
+        <target state="final">Malédiction des flammes enchaînées β&lt;tab&gt;Une chaîne de flammes relie les victimes de ce même effet lorsque la durée s'est écoulée.</target>
+      </trans-unit>
       <trans-unit id="4892" xml:space="preserve" approved="yes">
         <source>4892</source>
         <target state="final">Œil d'aigle embranché&lt;tab&gt;Œil d'aigle embranché a été choisi et peut être utilisé.</target>
@@ -17779,9 +17899,25 @@ Ne s'applique pas aux actions curatives.</target>
         <source>4965</source>
         <target state="final">Bénédiction des neiges&lt;tab&gt;Insensible à un certain montant de dégâts.</target>
       </trans-unit>
+      <trans-unit id="4966" xml:space="preserve" approved="yes">
+        <source>4966</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: est&lt;tab&gt;Certains dégâts subis par la direction indiquée sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4967" xml:space="preserve" approved="yes">
+        <source>4967</source>
+        <target state="final">Augure&lt;var 1D /var&gt;: ouest&lt;tab&gt;Certains dégâts subis par la direction indiquée sont augmentés.</target>
+      </trans-unit>
+      <trans-unit id="4968" xml:space="preserve" approved="yes">
+        <source>4968</source>
+        <target state="final">Cible de barillet hydrique&lt;tab&gt;Barillet hydrique est retardé et sera lancé sur cette cible à la fin de cet effet.</target>
+      </trans-unit>
       <trans-unit id="4972" xml:space="preserve" approved="yes">
         <source>4972</source>
         <target state="final">Amour fraternel&lt;tab&gt;Un serment de protection mutuelle a été prononcé. Lorsqu'une personne est acculée, l'autre se charge de la défendre.</target>
+      </trans-unit>
+      <trans-unit id="4973" xml:space="preserve" approved="yes">
+        <source>4973</source>
+        <target state="final">Événement&lt;tab&gt;Participe à un événement.</target>
       </trans-unit>
       <trans-unit id="4974" xml:space="preserve" approved="yes">
         <source>4974</source>
@@ -17815,6 +17951,10 @@ Ne s'applique pas aux actions curatives.</target>
         <source>5046</source>
         <target state="final">Résistance aux Ténèbres réduite&lt;tab&gt;La résistance à l'élément Ténèbres est considérablement réduite.</target>
       </trans-unit>
+      <trans-unit id="5047" xml:space="preserve" approved="yes">
+        <source>5047</source>
+        <target state="final">Prison de bulle&lt;tab&gt;Une bulle d'eau magique emprisonne le corps, empêchant toute action.</target>
+      </trans-unit>
       <trans-unit id="5051" xml:space="preserve" approved="yes">
         <source>5051</source>
         <target state="final">Cartouche de sang&lt;tab&gt;Le nombre maximum de cartouches d'éther est augmenté.</target>
@@ -17822,6 +17962,10 @@ Ne s'applique pas aux actions curatives.</target>
       <trans-unit id="5058" xml:space="preserve" approved="yes">
         <source>5058</source>
         <target state="final">Piège de pierre&lt;tab&gt;État de pétrification. Une attaque provoque le KO.</target>
+      </trans-unit>
+      <trans-unit id="5152" xml:space="preserve" approved="yes">
+        <source>5152</source>
+        <target state="final">Charge lourde&lt;tab&gt;Transporte une charge lourde jusqu'à ce que la fatigue oblige à la laisser tomber.</target>
       </trans-unit>
       <trans-unit id="5174" xml:space="preserve" approved="yes">
         <source>5174</source>
