@@ -777,10 +777,11 @@ The properties available to you are not affected by your choice of Grand Company
       <trans-unit id="166" xml:space="preserve" approved="yes">
         <source>166</source>
         <target state="final">A plot of land is required to build an estate. In addition, the size of the estate must match the size of the plot on which it is built.
+
 ■Estate Size and Maximum Number of Furnishings
-　・Small: 200 indoor, 20 outdoor
-　・Medium: 300 indoor, 30 outdoor
-　・Large: 400 indoor, 40 outdoor
+　・Small: 300 indoor, 40 outdoor
+　・Medium: 450 indoor, 60 outdoor
+　・Large: 600 indoor, 80 outdoor
 
 </target>
       </trans-unit>
@@ -997,11 +998,11 @@ Estate halls which have not been entered by their owner for thirty days (Earth t
         <source>189</source>
         <target state="final">All types of housing come with a storeroom for keeping one's furnishings. The larger the residence, the bigger the storeroom. The maximum number of furnishings that can be stored is as follows:
 
-　・Private chamber: 100 indoor
-　・Apartment: 100 indoor
-　・Small: 200 indoor, 20 outdoor
-　・Medium: 300 indoor, 30 outdoor
-　・Large: 400 indoor, 40 outdoor
+　・Private chamber: 150 indoor
+　・Apartment: 150 indoor
+　・Small: 300 indoor, 40 outdoor
+　・Medium: 450 indoor, 60 outdoor
+　・Large: 600 indoor, 80 outdoor
 
 Chocobo stables and miniature aetherytes cannot be placed in the storeroom.
 
@@ -1647,7 +1648,7 @@ Damage dealt and damage taken in Frontline campaigns are adjusted based on your 
       </trans-unit>
       <trans-unit id="276" xml:space="preserve" approved="yes">
         <source>276</source>
-        <target state="final">Battle High is a status that increases damage dealt and HP restored by healing actions according to a player's knockouts and assists. The maximum Battle High value is 100, and for every increment of 20, the status increases in strength. Being incapacitated will reduce the Battle High value by half.</target>
+        <target state="final">Battle High is a status that increases damage dealt and HP restored by healing actions according to a player's knockouts and assists. The maximum Battle High value is 100, and for every increment of 20, the status increases in strength. The amount the value increases is determined by the Battle High level of the incapacitated player.</target>
       </trans-unit>
       <trans-unit id="277" xml:space="preserve" approved="yes">
         <source>277</source>
@@ -3004,14 +3005,14 @@ Settings in this category affect the positioning, brightness, and color values o
 ・Lens (Zoom)
 
 ■Tilt (Tumble)
-This setting affects the camera angle with respect to the focal point (your character). It can be adjusted using the right stick on a &lt;var 08 E4E94C01 ((gamepad)) ((controller)) /var&gt; or by left-clicking and dragging the mouse.
+This setting affects the camera angle with respect to the focal point (your character). It can be adjusted using the right stick on a &lt;var 2F ((&lt;var 42 02 /var&gt;)) /var&gt; or by left-clicking and dragging the mouse.
 ※Use of the positioning (track) settings may change the portrait's focal point.
 
 ■Distance (Dolly)
-Camera distance functions similarly to the zoom function in the overworld. It can be adjusted by pressing &lt;var 1E 0D /var&gt; and tilting the right stick on a &lt;var 08 E4E94C01 ((gamepad)) ((controller)) /var&gt;, or by scrolling with the mouse wheel while the cursor is over your portrait.
+Camera distance functions similarly to the zoom function in the overworld. It can be adjusted by pressing &lt;var 1E 0D /var&gt; and tilting the right stick on a &lt;var 2F ((&lt;var 42 02 /var&gt;)) /var&gt;, or by scrolling with the mouse wheel while the cursor is over your portrait.
 
 ■Positioning (Track)
-Positioning moves the focal point both horizontally and vertically, and can be adjusted via the left stick on a &lt;var 08 E4E94C01 ((gamepad)) ((controller)) /var&gt;, or by right-clicking and dragging the mouse while the cursor is over your portrait.
+Positioning moves the focal point both horizontally and vertically, and can be adjusted via the left stick on a &lt;var 2F ((&lt;var 42 02 /var&gt;)) /var&gt;, or by right-clicking and dragging the mouse while the cursor is over your portrait.
 
 ■Rotation (Roll)
 This slider, found below the portrait currently being edited, rotates the camera itself to adjust the direction of its focus.
@@ -3191,6 +3192,7 @@ During the results period, you may confirm lottery results for a plot of land by
 &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 ※Regardless of lottery results, any and all refunds for a given lottery period expire 90 days (Earth time) after the results period.
 Please be sure to access the same placard by which you entered the lottery within the allotted time. Failure to do so will result in a loss of any potential refunds.
+※Regardless of lottery results, changing your Home World after entering a lottery will result in the forfeiture of any refunds.
 </target>
       </trans-unit>
       <trans-unit id="554" xml:space="preserve" approved="yes">
@@ -4556,14 +4558,14 @@ Settings in this category affect the positioning, brightness, and color values o
 ・Lens (Zoom)
 
 ■Tilt (Tumble)
-This setting affects the camera angle with respect to the focal point (your character). It can be adjusted using the right stick on a &lt;var 08 E4E94C01 ((gamepad)) ((controller)) /var&gt; or by left-clicking and dragging the mouse.
+This setting affects the camera angle with respect to the focal point (your character). It can be adjusted using the right stick on a &lt;var 2F ((&lt;var 42 02 /var&gt;)) /var&gt; or by left-clicking and dragging the mouse.
 ※Use of the positioning (track) settings may change the portrait's focal point.
 
 ■Distance (Dolly)
-Camera distance functions similarly to the zoom function in the overworld. It can be adjusted by pressing &lt;var 1E 0D /var&gt; and tilting the right stick on a &lt;var 08 E4E94C01 ((gamepad)) ((controller)) /var&gt;, or by scrolling with the mouse wheel while the cursor is over your portrait.
+Camera distance functions similarly to the zoom function in the overworld. It can be adjusted by pressing &lt;var 1E 0D /var&gt; and tilting the right stick on a &lt;var 2F ((&lt;var 42 02 /var&gt;)) /var&gt;, or by scrolling with the mouse wheel while the cursor is over your portrait.
 
 ■Positioning (Track)
-Positioning moves the focal point both horizontally and vertically, and can be adjusted via the left stick on a &lt;var 08 E4E94C01 ((gamepad)) ((controller)) /var&gt;, or by right-clicking and dragging the mouse while the cursor is over your portrait.
+Positioning moves the focal point both horizontally and vertically, and can be adjusted via the left stick on a &lt;var 2F ((&lt;var 42 02 /var&gt;)) /var&gt;, or by right-clicking and dragging the mouse while the cursor is over your portrait.
 
 ■Rotation (Roll)
 This slider, found below the portrait currently being edited, rotates the camera itself to adjust the direction of its focus.
@@ -4893,7 +4895,7 @@ Any role actions acquired prior to entering the Palace of the Dead will be avail
         <source>804</source>
         <target state="final">It is possible to receive a score for your performance in the Palace of the Dead. In order to do so, you must enter with a fixed party.
 
-A fixed party is also required to challenge floor 100 and beyond. Moreover, your Party KO count must be zero. Please note that the Party KO count will also increase in the event your party abandons the duty.</target>
+A fixed party is also required to challenge floor 101 and beyond. Please note that should your party KO in the process, your save data will become inaccessible. Abandoning the duty will also count as a party KO.</target>
       </trans-unit>
       <trans-unit id="805" xml:space="preserve" approved="yes">
         <source>805</source>
@@ -5073,7 +5075,7 @@ While an independent leveling system is in place within the dungeon, experience 
         <source>843</source>
         <target state="final">It is possible to receive a score for your performance in Heaven&lt;var 1F /var&gt;on&lt;var 1F /var&gt;High. In order to do so, you must enter with a fixed party.
 
-A fixed party is also required to challenge floor 31 and beyond. Moreover, your Party KO count must be zero. Please note that the Party KO count will also increase in the event your party abandons the duty.</target>
+A fixed party is also required to challenge floor 31 and beyond. Please note that should your party KO in the process, your save data will become inaccessible. Abandoning the duty will also count as a party KO.</target>
       </trans-unit>
       <trans-unit id="844" xml:space="preserve" approved="yes">
         <source>844</source>
@@ -5181,7 +5183,7 @@ While an independent leveling system is in place within the dungeon, experience 
         <source>865</source>
         <target state="final">It is possible to receive a score for your performance in Eureka Orthos. In order to do so, you must enter with a fixed party.
 
-A fixed party is also required to challenge floor 31 and beyond. Moreover, your Party KO count must be zero. Please note that the Party KO count will also increase in the event your party abandons the duty.</target>
+A fixed party is also required to challenge floor 31 and beyond. Please note that should your party KO in the process, your save data will become inaccessible. Abandoning the duty will also count as a party KO.</target>
       </trans-unit>
       <trans-unit id="866" xml:space="preserve" approved="yes">
         <source>866</source>
@@ -6206,7 +6208,7 @@ If you wish to equip a stored item directly, you may retrieve it from the glamou
         <source>1067</source>
         <target state="final">Open the glamour dresser to access the &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Glamour Creation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; window, browse different gear categories, and select an item from your inventory or Armoury Chest. Gear with condition below 100% cannot be stored.
 
-Placing an item into the glamour dresser will reset its spiritbond to 0%, as well as remove customization including glamours, crests, signatures, materia, and most aetherial bonuses. The item will also be bound to you upon removal.
+Placing an item into the glamour dresser will reset its spiritbond to 0%, as well as remove customization including glamours, dyes associated with existing glamours, crests, signatures, materia, and most aetherial bonuses. The item will also be bound to you upon removal.
 ※Each item stored will cost one glamour prism.
 ※Dyes applied to the item will not be reset.</target>
       </trans-unit>
@@ -6319,7 +6321,7 @@ Facewear is acquired by using the corresponding item. Once acquired, facewear ca
       </trans-unit>
       <trans-unit id="1085" xml:space="preserve" approved="yes">
         <source>1085</source>
-        <target state="final">You can change the color of gear and furnishing items through the use of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;dyes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, with one pot of dye consumed for each distinct section of an item.
+        <target state="final">You can change the color of gear and furnishing items through the use of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;dyes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. As well as single-color varieties, there are also multicolor dyes that provide a choice from a range of hues. With either variety, one pot of dye is consumed for each distinct section of an item.
 ※Some items allow for two dye slots.
 
 Dyed items can be redyed and undyed any number of times.</target>
@@ -6342,7 +6344,7 @@ If there are no circles, as shown on the right, the item cannot be dyed.</target
       </trans-unit>
       <trans-unit id="1089" xml:space="preserve" approved="yes">
         <source>1089</source>
-        <target state="final">There are many different colors of dyes. If you wish to apply the same color to both sections or multiple items, you will need to ensure you have enough dye for each.
+        <target state="final">When it comes to dyes, there are single-color varieties, as well as multicolor dyes that provide a choice from a range of hues. With either variety, one pot of dye is consumed for each distinct section of an item. If you wish to apply the same color to both sections or multiple items, you will need to ensure you have enough dye for each.
 
 Both dyes and terebinth are available from vendors and the market boards, and can also be crafted by Disciples of the Hand from level 30 onwards.</target>
       </trans-unit>
@@ -6362,7 +6364,7 @@ From the Item Dyeing window, select the desired item from the list, then select 
       </trans-unit>
       <trans-unit id="1093" xml:space="preserve" approved="yes">
         <source>1093</source>
-        <target state="final">Use the colored circles near the top to switch between color categories, then choose your desired dye from the colored squares beneath. Any colors not currently in your possession will be marked with an “X” icon.
+        <target state="final">Use the colored circles near the top to switch between color categories, then choose your desired hue from the colored squares beneath. Any colors for which you do not possess the required dye will be marked with an “X” icon.
 
 You may also use the subcommand menu to set &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;favored dyes&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, enabling you to apply your preferred color scheme to multiple items with ease.
 
@@ -6756,6 +6758,34 @@ When creating an outfit glamour, several items are combined as an ensemble and s
         <source>1172</source>
         <target state="final">Note that attacks with no cast time will not display a cast bar.</target>
       </trans-unit>
+      <trans-unit id="1173" xml:space="preserve" approved="yes">
+        <source>1173</source>
+        <target state="final">Sightseeing Log</target>
+      </trans-unit>
+      <trans-unit id="1174" xml:space="preserve" approved="yes">
+        <source>1174</source>
+        <target state="final">Overview</target>
+      </trans-unit>
+      <trans-unit id="1175" xml:space="preserve" approved="yes">
+        <source>1175</source>
+        <target state="final">Vista Markers</target>
+      </trans-unit>
+      <trans-unit id="1176" xml:space="preserve" approved="yes">
+        <source>1176</source>
+        <target state="final">The &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;sightseeing log&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; is a comprehensive record of breathtaking landscapes and stunning vistas you have discovered across Eorzea.
+
+Each category in the log contains hints on vista locations as well as their conditions, such as weather, time of day, and the emote you must perform. Fulfilling the conditions completes an entry, and a rough sketch and information on the location's history will be added to your log.
+
+Once a vista has been recorded, it is possible to bring up its location on the map via the subcommand menu.</target>
+      </trans-unit>
+      <trans-unit id="1177" xml:space="preserve" approved="yes">
+        <source>1177</source>
+        <target state="final">Vistas found in Heavensward areas and onwards are identifiable by an orb of light, and reaching one and fulfilling the conditions completes the entry.</target>
+      </trans-unit>
+      <trans-unit id="1178" xml:space="preserve" approved="yes">
+        <source>1178</source>
+        <target state="final">Should you chance to spot an orb on your travels, why not take a moment to record the vista?</target>
+      </trans-unit>
       <trans-unit id="1199" xml:space="preserve" approved="yes">
         <source>1199</source>
         <target state="final">Overview</target>
@@ -6940,11 +6970,11 @@ Although only one phantom job may be selected, under most circumstances you are 
 &lt;var 08 E4E95101 ((■Keyboard and Mouse
 By clicking phantom action icons displayed on the HUD.
 
-■&lt;var 08 E1E94C01 ((Controller)) ((Gamepad)) /var&gt;
+■&lt;var 42 02 /var&gt;
 By pressing &lt;var 12 12 /var&gt; with the cross hotbar active.
 &lt;var 1E 0F /var&gt;＋&lt;var 12 12 /var&gt;: Select Phantom Action
 &lt;var 1E 10 /var&gt;＋&lt;var 12 12 /var&gt;: Execute Phantom Action
-)) ((■&lt;var 08 E1E94C01 ((Controller)) ((Gamepad)) /var&gt;
+)) ((■&lt;var 42 02 /var&gt;
 By pressing &lt;var 12 12 /var&gt; with the cross hotbar active.
 &lt;var 1E 0F /var&gt;＋&lt;var 12 12 /var&gt;: Select Phantom Action
 &lt;var 1E 10 /var&gt;＋&lt;var 12 12 /var&gt;: Execute Phantom Action
@@ -7996,9 +8026,9 @@ While an independent leveling system is in place within the dungeon, experience 
       </trans-unit>
       <trans-unit id="1439" xml:space="preserve" approved="yes">
         <source>1439</source>
-        <target state="final">Your Party KO count must be zero to challenge areas beyond traverse stone 31. Please note that the Party KO count will also increase in the event your party abandons the duty.
+        <target state="final">It is possible to receive a score for your performance in Pilgrim's Traverse. In order to do so, you must enter with a fixed party.
 
-It is also possible to receive a score for your performance in Pilgrim's Traverse. In order to do so, you must enter with a fixed party.</target>
+Please note that should your party KO while challenging areas marked by stones 31 and beyond, your save data will become inaccessible. Abandoning the duty will also count as a party KO.</target>
       </trans-unit>
       <trans-unit id="1440" xml:space="preserve" approved="yes">
         <source>1440</source>
@@ -8349,7 +8379,8 @@ Highlight a specified class or job icon.
         <source>1514</source>
         <target state="final">■Multiple Object Selection
 When using a mouse, hold Ctrl and left-click the icons you wish to select together.
-When using a &lt;var 08 E1E94C01 ((controller)) ((gamepad)) /var&gt;, press &lt;var 1E 0C /var&gt; to select multiple objects. </target>
+When using a &lt;var 2F ((&lt;var 42 02 /var&gt;)) /var&gt;, press &lt;var 1E 0C /var&gt; to select multiple objects.
+※Multiple objects cannot be selected when real-time sharing.</target>
       </trans-unit>
       <trans-unit id="1515" xml:space="preserve" approved="yes">
         <source>1515</source>
@@ -8380,6 +8411,7 @@ When multiple objects have been selected, the Align Objects subcommand can be us
         <target state="final">Real-time sharing allows you to modify a strategy board together with party members.
 
 While all players will be able to view the strategy board, only the player who initiated real-time sharing can make direct edits.
+Moreover, the Undo and Redo functions, as well as the selection of multiple objects, are not available when real-time sharing.
 
 Please note that real-time sharing will be suspended during combat or when players leave or join your party. However, any changes made to the strategy board will be saved automatically to the Shared List, where you can resume editing at a later time.
 
@@ -8654,7 +8686,8 @@ The following actions will break a gold count streak:
 Conversely, the following actions will not break a gold count streak:
 ・Taking part in mech ops.
 ・Taking part in cosmic exploration projects.
-・Initiating and/or completing critical missions.</target>
+・Initiating and/or completing other types of missions, such as critical missions.
+</target>
       </trans-unit>
       <trans-unit id="1589" xml:space="preserve" approved="yes">
         <source>1589</source>
@@ -8695,7 +8728,7 @@ Dronebits may be traded to Kaede at the local rainbow crystal in exchange for dr
         <source>1596</source>
         <target state="final">The icon representing saved outfits will also indicate the number of individual items presently being used as part of the outfit glamour. An orange number indicates all parts have been stored together.
 
-As with standard glamours, outfit glamours will appear in each tab of the glamour dresser. Their item descriptions will also indicate they are part of an outfit glamour. It is worth noting that, when removing outfit glamours from the glamour dresser, they cannot be removed as individual pieces.</target>
+As with standard glamours, outfit glamours will appear in each tab of the glamour dresser. Their item descriptions will also indicate they are part of an outfit glamour.</target>
       </trans-unit>
       <trans-unit id="1597" xml:space="preserve" approved="yes">
         <source>1597</source>
@@ -8832,6 +8865,190 @@ However, you must first forge a sufficient number of illumed aetherpool grips by
 Once you have acquired enough illumed aetherpool grips, you may obtain a weapon of the First Light by speaking with Ose Wyd and selecting “Request to keep your aetherpool gear.”
 
 Once you clear the area marked by stone 100 and enhance your illumed aetherpool arm to +60 or above, sacramental weapons will also become available.</target>
+      </trans-unit>
+      <trans-unit id="1623" xml:space="preserve" approved="yes">
+        <source>1623</source>
+        <target state="final">Archeia Harmonias</target>
+      </trans-unit>
+      <trans-unit id="1624" xml:space="preserve" approved="yes">
+        <source>1624</source>
+        <target state="final">An arena that assumes the form of a vast war library. On this battlefield, how each side overcomes the obstacle of the aetherometer will draw the line between victory and defeat.</target>
+      </trans-unit>
+      <trans-unit id="1625" xml:space="preserve" approved="yes">
+        <source>1625</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Aetherometer■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Aetherometers can be found halfway between the centerpoint and each team's checkpoint. Upon reaching an aetherometer, the tactical crystal's progress will be halted temporarily. During this time, the advancing team must remain in the crystal's ring to charge the aetherometer.
+
+When the aether index reaches 100%, an aetherial bridge will manifest, and the crystal can once again be moved. The aether index will revert to 0 if any of the following occurs during charging:
+ - All members of the advancing team leave the crystal's ring.
+ - A member of the opposing team enters the crystal's ring.
+
+Once an aetherometer is fully charged, its aether index will no longer revert to 0.</target>
+      </trans-unit>
+      <trans-unit id="1626" xml:space="preserve" approved="yes">
+        <source>1626</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Aetherial Bridge■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+When an aetherometer is fully charged, an aetherial bridge will manifest and remain in place for the remainder of the match.</target>
+      </trans-unit>
+      <trans-unit id="1627" xml:space="preserve" approved="yes">
+        <source>1627</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Healing Glyph■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Each team has a healing glyph situated to the front of its starting point. While standing on the glyph, players will sustain 50% less damage and recover HP over time. Please note that these benefits are not granted by the opposing team's glyph.</target>
+      </trans-unit>
+      <trans-unit id="1628" xml:space="preserve" approved="yes">
+        <source>1628</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Jump Glyph■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Each team has a jump glyph situated at its base, which can be activated by fully charging their aetherometer. By stepping on the glyph, players can travel swiftly to the opposite platform.</target>
+      </trans-unit>
+      <trans-unit id="1629" xml:space="preserve" approved="yes">
+        <source>1629</source>
+        <target state="final">Custom Deliveries</target>
+      </trans-unit>
+      <trans-unit id="1630" xml:space="preserve" approved="yes">
+        <source>1630</source>
+        <target state="final">Satisfaction Level</target>
+      </trans-unit>
+      <trans-unit id="1631" xml:space="preserve" approved="yes">
+        <source>1631</source>
+        <target state="final">Deliveries</target>
+      </trans-unit>
+      <trans-unit id="1632" xml:space="preserve" approved="yes">
+        <source>1632</source>
+        <target state="final">Increasing the Value of Collectables</target>
+      </trans-unit>
+      <trans-unit id="1633" xml:space="preserve" approved="yes">
+        <source>1633</source>
+        <target state="final">Overview</target>
+      </trans-unit>
+      <trans-unit id="1634" xml:space="preserve" approved="yes">
+        <source>1634</source>
+        <target state="final">Custom deliveries are opportunities for Disciples of the Hand and Land to procure items for a client in need. By completing these deliveries, players will receive experience points and scrips, and deepen their relationship with the client in question. Clients may be unlocked by completing the main scenario and other sidequests.
+
+■Basic Information
+You may view the satisfaction level, delivery list, and delivery allowances for every unlocked client by selecting Custom Deliveries on the Timers interface located under Duty in the main menu.
+
+Delivering desired items to your clients will increase their &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;satisfaction level&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="1635" xml:space="preserve" approved="yes">
+        <source>1635</source>
+        <target state="final">Overview</target>
+      </trans-unit>
+      <trans-unit id="1636" xml:space="preserve" approved="yes">
+        <source>1636</source>
+        <target state="final">With each successful delivery, your client will come to trust you more and more, leading them to task you with assignments of greater importance.
+
+Your progress will be displayed in the form of a gauge atop the delivery list. Fill this gauge to the maximum, and your client's &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;satisfaction level&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;─as represented by little golden hearts─will increase.</target>
+      </trans-unit>
+      <trans-unit id="1637" xml:space="preserve" approved="yes">
+        <source>1637</source>
+        <target state="final">Upon reaching a new satisfaction level, you will have the opportunity to learn more about your client and their story.</target>
+      </trans-unit>
+      <trans-unit id="1638" xml:space="preserve" approved="yes">
+        <source>1638</source>
+        <target state="final">Custom Delivery Makeovers</target>
+      </trans-unit>
+      <trans-unit id="1639" xml:space="preserve" approved="yes">
+        <source>1639</source>
+        <target state="final">Upon attaining the highest satisfaction level possible, certain clients will allow you to glamour their clothing according to your tastes. The presence of a gear icon beside the hearts indicates one such client.</target>
+      </trans-unit>
+      <trans-unit id="1640" xml:space="preserve" approved="yes">
+        <source>1640</source>
+        <target state="final">■How to Perform a Makeover
+Speak with your client and select “Cast glamour” to change their attire. You may cast glamours using gear for the head, body, hands, legs, and feet, as well as the requisite number of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;glamour prisms&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;※Please note that some glamours cannot be applied to certain characters due to incompatibility with race or gender.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+Glamour prisms may be obtained from the market board, Grand Company quartermasters, or crafted after obtaining the applicable master recipe.</target>
+      </trans-unit>
+      <trans-unit id="1641" xml:space="preserve" approved="yes">
+        <source>1641</source>
+        <target state="final">■How to Reverse a Makeover
+Should you wish to revert a client's appearance, you will need a requisite number of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;glamour dispellers&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. These items may be obtained from the market board, Grand Company quartermasters, and other shops.
+
+For more information on glamours and how to dispel them, select the question mark icon on the Glamour Plate window.</target>
+      </trans-unit>
+      <trans-unit id="1642" xml:space="preserve" approved="yes">
+        <source>1642</source>
+        <target state="final">Requirements and Rewards</target>
+      </trans-unit>
+      <trans-unit id="1643" xml:space="preserve" approved="yes">
+        <source>1643</source>
+        <target state="final">Custom deliveries become available after completing their unlock quest. In order to deliver an item, you must be its corresponding class and a certain level or above. You may check whether or not you meet these requirements via the delivery list.
+
+Rewards will differ depending on your level at the time of delivery. Players who have not reached the level cap will be awarded experience points, and those who have will receive scrips. You may confirm what rewards you will receive given your current class by checking the bottom of the delivery list.
+
+■Item Types
+Your clients deal only in collectables, which fall into three categories: &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;crafted items&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;gathered items&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, and &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;fish&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Items can only be delivered when you are their corresponding class.
+
+The collectability of items will earn you proportional rewards. Furthermore, delivering items marked with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BONUS&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will earn you particularly handsome rewards. Whenever they make an appearance, the effort to procure them will be worth your while.
+
+■Delivery Allowances
+Each week, you can make up to six deliveries to any given client and up to twelve deliveries across all clients. Allowances will be reset every week on &lt;var 06 1203 /var&gt;&lt;var 09 DD ((Sunday)) ((Monday)) ((Tuesday)) ((Wednesday)) ((Thursday)) ((Friday)) ((Saturday)) /var&gt; at &lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0D02030405060708090A0B0C /var&gt;)) 0D /var&gt; &lt;var 08 E0DB0D ((p.m.)) ((a.m.)) /var&gt; (Earth time).</target>
+      </trans-unit>
+      <trans-unit id="1644" xml:space="preserve" approved="yes">
+        <source>1644</source>
+        <target state="final">Obtaining Items</target>
+      </trans-unit>
+      <trans-unit id="1645" xml:space="preserve" approved="yes">
+        <source>1645</source>
+        <target state="final">Information on how to acquire individual items may be found via the relevant subcommand.</target>
+      </trans-unit>
+      <trans-unit id="1646" xml:space="preserve" approved="yes">
+        <source>1646</source>
+        <target state="final">■Disciple of the Hand Items
+Choose the &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Search for Item by Crafting Method&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; subcommand with the delivery list selected to open the crafting log and relevant recipes. Materials necessary to craft the collectables your client seeks may be purchased from a nearby NPC vendor.
+
+■Miner and Botanist Items
+Choose the &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Search for Item by Gathering Method&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; subcommand to open the gathering log and relevant maps.
+
+■Fisher Items
+Choose the &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Display Location&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; subcommand to open a map of the relevant fishing hole or teeming waters. Furthermore, you may discover that using a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;metal spinner&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; as a lure will expedite your fishing endeavors.</target>
+      </trans-unit>
+      <trans-unit id="1647" xml:space="preserve" approved="yes">
+        <source>1647</source>
+        <target state="final">Disciples of the Hand</target>
+      </trans-unit>
+      <trans-unit id="1648" xml:space="preserve" approved="yes">
+        <source>1648</source>
+        <target state="final">The collectability of crafted items is directly related to their quality. Spare no effort in ensuring that the items you craft are of the highest possible quality, and you will be rewarded accordingly.
+
+The &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Inner Quiet&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; status, granted each time you successfully increase quality, will serve you particularly well.
+
+Accumulate as many stacks of the status as you can, then put the final flourish on your masterpiece with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Byregot's Blessing&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+There are a host of other actions that can serve to further enhance the quality of items you craft. Once you've mastered the fundamentals, you are encouraged to experiment with varied approaches until you find your preferred crafting method.</target>
+      </trans-unit>
+      <trans-unit id="1649" xml:space="preserve" approved="yes">
+        <source>1649</source>
+        <target state="final">Miners and Botanists</target>
+      </trans-unit>
+      <trans-unit id="1650" xml:space="preserve" approved="yes">
+        <source>1650</source>
+        <target state="final">Before gathering a collectable item, you must increase its collectability.
+
+One technique miners and botanists may employ to raise collectability is the use of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Scrutiny&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; followed by &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Scour&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Try executing this combination a few times before gathering the item.
+
+Gatherers seeking to procure items with higher collectability must be certain to equip gear with higher &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;gathering&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; and &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;perception&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; ratings, as these attributes influence the effectiveness of actions that raise collectability.
+
+Of course, these actions cannot be used to their full potential without sufficient &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GP&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. A healthy balance of all three attributes is essential to make the most of your gathering.
+
+For more information, select the question mark icon on the window that opens upon choosing to gather a collectable item.</target>
+      </trans-unit>
+      <trans-unit id="1651" xml:space="preserve" approved="yes">
+        <source>1651</source>
+        <target state="final">Fishers</target>
+      </trans-unit>
+      <trans-unit id="1652" xml:space="preserve" approved="yes">
+        <source>1652</source>
+        <target state="final">The collectability value of fish follows a simple rule─the bigger, the better.
+
+Upon arriving at the fishing hole or teeming waters where your desired quarry resides, use the &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Collect&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; action, then begin fishing or spearfishing.</target>
+      </trans-unit>
+      <trans-unit id="1653" xml:space="preserve" approved="yes">
+        <source>1653</source>
+        <target state="final">When fishing, using &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Patience&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; or &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Patience II&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; followed by effective hooking actions will increase your chances of reeling in a big one.
+
+Should you still find yourself catching only small fry, try outfitting yourself with better equipment to raise your &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;perception&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
     </body>
   </file>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="DescriptionString" datatype="plaintext" source-language="en" target-language="fr">
     <body>
@@ -738,9 +738,9 @@ Les terrains existent en trois tailles différentes, sur lesquels seule une mais
 La taille de la maison détermine le nombre maximum de meubles (intérieur/jardin) qui pourront y être placés.
 
 ■ Nombre de meubles maximum
-  - Maisonnette&lt;var 1D /var&gt;: 200 meubles d'intérieur/20 meubles de jardin
-  - Pavillon&lt;var 1D /var&gt;: 300 meubles d'intérieur/30 meubles de jardin
-  - Villa&lt;var 1D /var&gt;: 400 meubles d'intérieur/40 meubles de jardin
+  - Maisonnette&lt;var 1D /var&gt;: 300 meubles d'intérieur/40 meubles de jardin
+  - Pavillon&lt;var 1D /var&gt;: 450 meubles d'intérieur/60 meubles de jardin
+  - Villa&lt;var 1D /var&gt;: 600 meubles d'intérieur/80 meubles de jardin
 
 </target>
       </trans-unit>
@@ -1029,11 +1029,11 @@ Transférer un logement vers un nouveau terrain a pour effet de réinitialiser l
         <target state="final">Tous les logements, c'est-à-dire les maisons, chambres individuelles et appartements, sont pourvus d'un entrepôt permettant de ranger du mobilier.
 
 ■ Nombre maximum de meubles pouvant être rangés
-  - Chambre individuelle&lt;var 1D /var&gt;: 100 meubles
-  - Appartement&lt;var 1D /var&gt;: 100 meubles
-  - Maisonnette&lt;var 1D /var&gt;: 200 meubles d'intérieur/20 meubles de jardin
-  - Pavillon&lt;var 1D /var&gt;: 300 meubles d'intérieur/30 meubles de jardin
-  - Villa&lt;var 1D /var&gt;: 400 meubles d'intérieur/40 meubles de jardin
+  - Chambre individuelle&lt;var 1D /var&gt;: 150 meubles
+  - Appartement&lt;var 1D /var&gt;: 150 meubles
+  - Maisonnette&lt;var 1D /var&gt;: 300 meubles d'intérieur/40 meubles de jardin
+  - Pavillon&lt;var 1D /var&gt;: 450 meubles d'intérieur/60 meubles de jardin
+  - Villa&lt;var 1D /var&gt;: 600 meubles d'intérieur/80 meubles de jardin
 
 ■ Meubles ne pouvant être rangés
   - Écurie à chocobos
@@ -1707,7 +1707,7 @@ Au Front, les dégâts infligés par chaque job ont été ajustés spécifiqueme
       </trans-unit>
       <trans-unit id="276" xml:space="preserve" approved="yes">
         <source>276</source>
-        <target state="final">Ivresse du combat est un effet bénéfique obtenu en mettant K.O. ou en aidant à mettre K.O. plusieurs joueurs des camps adverses à la suite. Chaque K.O. ou Soutien vous octroie des points et contribue à faire monter votre jauge d'ivresse, pour un maximum de 100 points. Tous les 20 points obtenus, les dégâts que vous infligez et le potentiel curatif des soins sont augmentés. Votre jauge d'ivresse est réduite de moitié si votre personnage est mis K.O. par un adversaire.</target>
+        <target state="final">Ivresse du combat est un effet bénéfique obtenu en mettant K.O. ou en aidant à mettre K.O. plusieurs joueurs des camps adverses à la suite. Chaque K.O. ou Soutien vous octroie des points et contribue à faire monter votre jauge d'ivresse, pour un maximum de 100 points. Tous les 20 points obtenus, les dégâts que vous infligez et le potentiel curatif des soins sont augmentés. De plus, chaque K.O. ou Soutien fait monter votre jauge d'ivresse en fonction du niveau de celle de l'adversaire vaincu.</target>
       </trans-unit>
       <trans-unit id="277" xml:space="preserve" approved="yes">
         <source>277</source>
@@ -3096,12 +3096,12 @@ La puissance et la couleur de ces deux types d'éclairage peuvent être modifié
 4. La rotation
 5. L'angle de champ
 
-■ L'angle de prise vue permet de faire tourner l'objectif autour du point qu'il cible avec le &lt;var 08 E4E94C01 ((joystick droit)) ((&lt;var 08 E4E94F64 ((joystick droit)) ((stick analogique droit)) /var&gt;)) /var&gt; &lt;var 1E 18 /var&gt; à la &lt;var 08 E4E94C01 ((manette)) ((&lt;var 08 E4E94F64 ((manette sans fil)) ((manette sans fil Xbox)) /var&gt;)) /var&gt; ou en maintenant le bouton  de la souris tout en la déplaçant.
+■ L'angle de prise vue permet de faire tourner l'objectif autour du point qu'il cible avec le &lt;var 42 F0DD /var&gt; &lt;var 1E 18 /var&gt; à la &lt;var 42 02 /var&gt; ou en maintenant le bouton  de la souris tout en la déplaçant.
 * Ce point ciblé (le sujet) peut changer en fonction des autres réglages.
 
-■ Le zoom permet de rapprocher ou d'éloigner la caméra du sujet avec &lt;var 1E 0D /var&gt;＋&lt;var 1E 18 /var&gt; à la &lt;var 08 E4E94C01 ((manette)) ((&lt;var 08 E4E94F64 ((manette sans fil)) ((manette sans fil Xbox)) /var&gt;)) /var&gt; ou grâce à la molette de la souris.
+■ Le zoom permet de rapprocher ou d'éloigner la caméra du sujet avec &lt;var 1E 0D /var&gt;＋&lt;var 1E 18 /var&gt; à la &lt;var 42 02 /var&gt; ou grâce à la molette de la souris.
 
-■ La position permet de déplacer l'objectif, et donc le point qu'il cible, avec le &lt;var 08 E4E94C01 ((joystick gauche)) ((&lt;var 08 E4E94F64 ((joystick gauche)) ((stick analogique gauche)) /var&gt;)) /var&gt; &lt;var 1E 15 /var&gt; à la &lt;var 08 E4E94C01 ((manette)) ((&lt;var 08 E4E94F64 ((manette sans fil)) ((manette sans fil Xbox)) /var&gt;)) /var&gt; ou en maintenant le bouton  de la souris tout en la déplaçant.
+■ La position permet de déplacer l'objectif, et donc le point qu'il cible, avec le &lt;var 42 CA /var&gt; &lt;var 1E 15 /var&gt; à la &lt;var 42 02 /var&gt; ou en maintenant le bouton  de la souris tout en la déplaçant.
 
 ■ La rotation permet de faire tourner l'objectif autour de lui-même. L'angle peut être défini grâce à la deuxième jauge sous le portrait.
 
@@ -3268,7 +3268,8 @@ Si l'achat n'est pas finalisé durant la période de publication des résultats,
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;En outre, en guise de mesure visant à empêcher divers abus, seule la moitié des frais de par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion est remboursée.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 * La période de remboursement des frais de par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion, quel que soit leur montant, est de 90 jours après la fin de la publication des résultats. Le remboursement n'étant pas effectué au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment, il est in&lt;var 16 /var&gt;dis&lt;var 16 /var&gt;pen&lt;var 16 /var&gt;sa&lt;var 16 /var&gt;ble de consulter le panneau d'affichage du terrain concerné.
-</target>
+
+* En cas de changement de Monde d'origine, les frais de par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion ne pourront pas être remboursés.</target>
       </trans-unit>
       <trans-unit id="554" xml:space="preserve" approved="yes">
         <source>554</source>
@@ -4715,12 +4716,12 @@ La puissance et la couleur de ces deux types d'éclairage peuvent être modifié
 4. La rotation
 5. L'angle de champ
 
-■ L'angle de prise vue permet de faire tourner l'objectif autour du point qu'il cible avec le &lt;var 08 E4E94C01 ((joystick droit)) ((&lt;var 08 E4E94F64 ((joystick droit)) ((stick analogique droit)) /var&gt;)) /var&gt; &lt;var 1E 18 /var&gt; à la &lt;var 08 E4E94C01 ((manette)) ((&lt;var 08 E4E94F64 ((manette sans fil)) ((manette sans fil Xbox)) /var&gt;)) /var&gt; ou en maintenant le bouton  de la souris tout en la déplaçant.
+■ L'angle de prise vue permet de faire tourner l'objectif autour du point qu'il cible avec le &lt;var 42 F0DD /var&gt; &lt;var 1E 18 /var&gt; à la &lt;var 42 02 /var&gt; ou en maintenant le bouton  de la souris tout en la déplaçant.
 * Ce point ciblé (le sujet) peut changer en fonction des autres réglages.
 
-■ Le zoom permet de rapprocher ou d'éloigner la caméra du sujet avec &lt;var 1E 0D /var&gt;＋&lt;var 1E 18 /var&gt; à la &lt;var 08 E4E94C01 ((manette)) ((&lt;var 08 E4E94F64 ((manette sans fil)) ((manette sans fil Xbox)) /var&gt;)) /var&gt; ou grâce à la molette de la souris.
+■ Le zoom permet de rapprocher ou d'éloigner la caméra du sujet avec &lt;var 1E 0D /var&gt;＋&lt;var 1E 18 /var&gt; à la &lt;var 42 02 /var&gt; ou grâce à la molette de la souris.
 
-■ La position permet de déplacer l'objectif, et donc le point qu'il cible, avec le &lt;var 08 E4E94C01 ((joystick gauche)) ((&lt;var 08 E4E94F64 ((joystick gauche)) ((stick analogique gauche)) /var&gt;)) /var&gt; &lt;var 1E 15 /var&gt; à la &lt;var 08 E4E94C01 ((manette)) ((&lt;var 08 E4E94F64 ((manette sans fil)) ((manette sans fil Xbox)) /var&gt;)) /var&gt; ou en maintenant le bouton  de la souris tout en la déplaçant.
+■ La position permet de déplacer l'objectif, et donc le point qu'il cible, avec le &lt;var 42 CA /var&gt; &lt;var 1E 15 /var&gt; à la &lt;var 42 02 /var&gt; ou en maintenant le bouton  de la souris tout en la déplaçant.
 
 ■ La rotation permet de faire tourner l'objectif autour de lui-même. L'angle peut être défini grâce à la deuxième jauge sous le portrait.
 
@@ -5062,9 +5063,9 @@ En ce qui concerne les actions de rôle, seules celles acquises avant de pénét
       </trans-unit>
       <trans-unit id="804" xml:space="preserve" approved="yes">
         <source>804</source>
-        <target state="final">À partir du sous-sol 101, la progression dans le Palais des morts a vocation de défi et n'est possible qu'en équipe fixe. Par ailleurs, il est nécessaire que le nombre de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;défaites&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; indiqué dans la fenêtre de sélection des sauvegardes soit “0”.
+        <target state="final">À partir du sous-sol 101, la progression dans le Palais des morts a vocation de défi et n'est possible qu'en équipe fixe.
 
-Le cas où tous les joueurs tombent inconscients ou le fait de quitter l'instance en cours d'incursion comptent chacun comme une défaite.
+Le cas où tous les joueurs tombent inconscients ou le fait de quitter l'instance en cours d'incursion comptent chacun comme une défaite, ce qui rend l'utilisation de la sauvegarde impossible.
 
 Le calcul d'un score lors des incursions est lui aussi réservé à la par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion en équipe fixe.</target>
       </trans-unit>
@@ -5273,9 +5274,9 @@ Le niveau augmentera en vainquant des monstres au fur et à mesure de l'explorat
       </trans-unit>
       <trans-unit id="843" xml:space="preserve" approved="yes">
         <source>843</source>
-        <target state="final">À partir de l'étage 31, la progression dans le Pilier des Cieux a vocation de défi et n'est possible qu'en équipe fixe. Par ailleurs, il est nécessaire que le nombre de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;défaites&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; indiqué dans la fenêtre de sélection des sauvegardes soit “0”.
+        <target state="final">À partir de l'étage 31, la progression dans le Pilier des Cieux a vocation de défi et n'est possible qu'en équipe fixe.
 
-Le cas où tous les joueurs tombent inconscients ou le fait de quitter l'instance en cours d'incursion comptent chacun comme une défaite.
+Le cas où tous les joueurs tombent inconscients ou le fait de quitter l'instance en cours d'incursion comptent chacun comme une défaite, ce qui rend l'utilisation de la sauvegarde impossible.
 
 Le calcul d'un score lors des incursions est lui aussi réservé à la par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion en équipe fixe.</target>
       </trans-unit>
@@ -5410,9 +5411,9 @@ Le niveau augmentera en vainquant des monstres au fur et à mesure de l'explorat
       </trans-unit>
       <trans-unit id="865" xml:space="preserve" approved="yes">
         <source>865</source>
-        <target state="final">À partir du sous-sol 31, la progression dans Eurêka Orthos a vocation de défi et n'est possible qu'en équipe fixe. Par ailleurs, il est nécessaire que le nombre de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;défaites&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; indiqué dans la fenêtre de sélection des sauvegardes soit “0”.
+        <target state="final">À partir du sous-sol 31, la progression dans Eurêka Orthos a vocation de défi et n'est possible qu'en équipe fixe.
 
-Le cas où tous les joueurs tombent inconscients ou le fait de quitter l'instance en cours d'incursion comptent chacun comme une défaite.
+Le cas où tous les joueurs tombent inconscients ou le fait de quitter l'instance en cours d'incursion comptent chacun comme une défaite, ce qui rend l'utilisation de la sauvegarde impossible.
 
 Le calcul d'un score lors des incursions est lui aussi réservé à la par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion en équipe fixe.</target>
       </trans-unit>
@@ -6530,12 +6531,12 @@ L'objet ne pouvant plus être équipé tant qu'il se trouve dans la coiffeuse mi
         <source>1067</source>
         <target state="final">Pour transformer un objet en mirage, sa condition ne doit pas être inférieure à 100%.
 
-Après avoir ouvert la &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;fenêtre des mirages&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, les objets de votre inventaire et de votre arsenal peuvent être filtrés par catégorie puis sélectionnés pour la transformation en mirage.
+Après avoir ouvert la &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;coiffeuse mirage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, les objets de votre inventaire et de votre arsenal peuvent être filtrés par catégorie puis sélectionnés pour la transformation en mirage.
 
 Les mo&lt;var 16 /var&gt;di&lt;var 16 /var&gt;fi&lt;var 16 /var&gt;ca&lt;var 16 /var&gt;tions suivantes s'appliquent aux objets transformés&lt;var 1D /var&gt;:
 &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;  - Le taux de symbiose est réinitialisé à 0% et la condition à 100%.
   - Les signatures, les matérias serties et certains bonus des équipements éthéréens sont supprimés.
-  - Les mirages et les blasons sont supprimés.
+  - Les mirages, leurs teintures associées, ainsi que les blasons sont supprimés.
   - L'objet devient lié au personnage.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 Après transformation, l'objet devenu mirage est placé dans la coiffeuse mirage.
@@ -6678,7 +6679,7 @@ Ce dernier peut être affiché soit à partir de la rubrique Accessoires de visa
         <source>1085</source>
         <target state="final">Il est possible de modifier les couleurs de pièces d'équipement et de meubles selon vos désirs en utilisant des &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;teintures&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
-De nombreuses couleurs sont disponibles, et certains objets possèdent deux parties teignables dif&lt;var 16 /var&gt;fé&lt;var 16 /var&gt;rem&lt;var 16 /var&gt;ment. Un pot de teinture est nécessaire par partie à teindre, et le processus peut être répété indéfiniment pour changer de couleur à loisir.</target>
+Il existe différents types de teintures&lt;var 1D /var&gt;: certaines offrent plusieurs couleurs, et d'autres une seule. Dans tous les cas, un pot de teinture est nécessaire par partie à teindre (certains objets possèdent deux parties teignables dif&lt;var 16 /var&gt;fé&lt;var 16 /var&gt;rem&lt;var 16 /var&gt;ment), et le processus peut être répété indéfiniment pour changer de couleur à loisir.</target>
       </trans-unit>
       <trans-unit id="1086" xml:space="preserve" approved="yes">
         <source>1086</source>
@@ -6698,7 +6699,7 @@ Si aucun cercle n'est présent, comme sur l'exemple à droite, l'objet n'est pas
       </trans-unit>
       <trans-unit id="1089" xml:space="preserve" approved="yes">
         <source>1089</source>
-        <target state="final">Il existe de nombreuses couleurs de teintures disponibles. Un pot de teinture étant nécessaire par partie teignable, vous aurez besoin de plusieurs pots de la même couleur si vous souhaitez teindre uniformément l'ensemble de votre équipement, par exemple.
+        <target state="final">Il existe différents types de teintures&lt;var 1D /var&gt;: certaines offrent plusieurs couleurs, et d'autres une seule. Un pot de teinture étant nécessaire par partie teignable, vous aurez besoin de plusieurs pots si vous souhaitez teindre uniformément l'ensemble de votre équipement, par exemple.
 
 Les pots de teinture peuvent être achetés sur les tableaux des ventes et dans les échoppes de PNJ, ou encore fabriqués par les artisans à partir du niveau 30.</target>
       </trans-unit>
@@ -7138,6 +7139,34 @@ La progression de l'incantation peut être visualisée sur la “barre de progre
       <trans-unit id="1172" xml:space="preserve" approved="yes">
         <source>1172</source>
         <target state="final">Pour les attaques instantanées, aucune barre de progression ne s'affiche.</target>
+      </trans-unit>
+      <trans-unit id="1173" xml:space="preserve" approved="yes">
+        <source>1173</source>
+        <target state="final">Le carnet d'exploration</target>
+      </trans-unit>
+      <trans-unit id="1174" xml:space="preserve" approved="yes">
+        <source>1174</source>
+        <target state="final">Présentation</target>
+      </trans-unit>
+      <trans-unit id="1175" xml:space="preserve" approved="yes">
+        <source>1175</source>
+        <target state="final">Lieux notoires</target>
+      </trans-unit>
+      <trans-unit id="1176" xml:space="preserve" approved="yes">
+        <source>1176</source>
+        <target state="final">Le &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;carnet d'exploration&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; est un registre des lieux notoires d'Éorzéa.
+
+Chaque entrée contient des bribes d'information sur l'endroit à découvrir ainsi que les conditions requises, comme la météo, l'heure de la journée ou l'emote par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;cu&lt;var 16 /var&gt;liè&lt;var 16 /var&gt;re à effectuer pour remplir le carnet. Lorsque vous découvrez un lieu notoire, vous obtiendrez une peinture du paysage, ainsi qu'une description plus détaillée sur l'histoire de cet endroit.
+
+Après avoir découvert un endroit, vous pouvez également indiquer sa position sur la carte en utilisant le sous-menu.</target>
+      </trans-unit>
+      <trans-unit id="1177" xml:space="preserve" approved="yes">
+        <source>1177</source>
+        <target state="final">Les lieux notoires découverts dans les régions de Heavensward et ultérieures seront signalés par une sphère de lumière.</target>
+      </trans-unit>
+      <trans-unit id="1178" xml:space="preserve" approved="yes">
+        <source>1178</source>
+        <target state="final">Si vous en croisez une lors de vos aventures et que les conditions sont réunies, vous pourrez remplir votre carnet.</target>
       </trans-unit>
       <trans-unit id="1199" xml:space="preserve" approved="yes">
         <source>1199</source>
@@ -8267,7 +8296,7 @@ Vous pourrez utiliser des actions spéciales lors de certaines missions cosmique
 
 Lorsque vous accomplissez des missions cosmiques, vous engrangez des points cosmiques pour votre classe actuelle. Atteindre certaines valeurs seuils vous permettra d'obtenir des titres et des hauts faits.
 
-Vous pouvez consulter vos points cosmiques en sélectionnant le menu idoine depuis la tablette cosmique.</target>
+Vous pouvez consulter vos points cosmiques en sélectionnant le menu “Progrès des classes” depuis la tablette cosmique.</target>
       </trans-unit>
       <trans-unit id="1405" xml:space="preserve" approved="yes">
         <source>1405</source>
@@ -8471,9 +8500,9 @@ Le niveau augmentera en vainquant des monstres au fur et à mesure de l'explorat
       </trans-unit>
       <trans-unit id="1439" xml:space="preserve" approved="yes">
         <source>1439</source>
-        <target state="final">À partir de la zone 31, la progression dans le Sanctuaire des pèlerins a vocation de défi et nécessite que le nombre de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;défaites&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; indiqué dans la fenêtre de sélection des sauvegardes soit “0”.
+        <target state="final">À partir de la zone 31, la progression dans le Sanctuaire des pèlerins a vocation de défi.
 
-Le cas où tous les joueurs tombent inconscients ou le fait de quitter l'instance en cours d'incursion comptent chacun comme une défaite.
+Le cas où tous les joueurs tombent inconscients ou le fait de quitter l'instance en cours d'incursion comptent chacun comme une défaite, ce qui rend l'utilisation de la sauvegarde impossible.
 
 Le calcul d'un score lors des incursions est réservé à la par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion en équipe fixe.</target>
       </trans-unit>
@@ -8867,7 +8896,9 @@ Cette option permet de mettre en évidence un icone de classe/job spécifique.
         <source>1514</source>
         <target state="final">■ Sélectionner plusieurs objets
 Clavier et souris&lt;var 1D /var&gt;: Ctrl + Clic gauche
-Manette&lt;var 1D /var&gt;: &lt;var 08 E1E94C01 ((Touche)) ((Bouton)) /var&gt; &lt;var 1E 0C /var&gt;</target>
+&lt;var 2B ((&lt;var 42 02 /var&gt;)) /var&gt;&lt;var 1D /var&gt;: &lt;var 1E 0C /var&gt;
+
+* Il est impossible de sélectionner plusieurs objets lors du partage en temps réel.</target>
       </trans-unit>
       <trans-unit id="1515" xml:space="preserve" approved="yes">
         <source>1515</source>
@@ -8903,7 +8934,9 @@ Ainsi, le joueur qui a initié le partage peut modifier le tableau librement et 
 
 Le partage en temps réel est au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment interrompu lors du début d'un combat ou de modification du nombre d'équipiers. Le tableau est sauvegardé dans la liste des “Tableaux partagés” où il est possible de reprendre sa modification.
 
-Un tableau partagé en temps réel étant sauvegardé à intervalles réguliers, il est recommandé d'en faire une copie afin de conserver l'original.</target>
+Un tableau partagé en temps réel étant sauvegardé à intervalles réguliers, il est recommandé d'en faire une copie afin de conserver l'original.
+
+Il est impossible d'utiliser les fonctions “Annuler”, “Rétablir” et de sélectionner plusieurs objets lors du partage en temps réel.</target>
       </trans-unit>
       <trans-unit id="1521" xml:space="preserve" approved="yes">
         <source>1521</source>
@@ -9086,9 +9119,9 @@ Les joueurs peuvent obtenir des &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var
         <source>1577</source>
         <target state="final">Monstres spéciaux</target>
       </trans-unit>
-      <trans-unit id="1578" xml:space="preserve" approved="no">
+      <trans-unit id="1578" xml:space="preserve" approved="yes">
         <source>1578</source>
-        <target state="needs-translation">Votre mission, si vous l'acceptez, est d'utiliser une série d'actions spécifiques afin d'endiguer la prolifération de monstres végétaux qui ont envahi le terrain de la chasse aux Prœufs.</target>
+        <target state="final">Votre mission, si vous l'acceptez, est d'utiliser une série d'actions spécifiques afin d'endiguer la prolifération de monstres végétaux qui ont envahi le terrain de la chasse aux Prœufs.</target>
       </trans-unit>
       <trans-unit id="1579" xml:space="preserve" approved="yes">
         <source>1579</source>
@@ -9126,9 +9159,9 @@ Plus le nombre de monstres tranchés est important, plus le score final sera él
 Les monstres laissent parfois tomber des Prœufs d'or, d'argent ou de bronze qu'ils avaient gobés. Pensez à les ramasser, car ils octroient un nombre de points variable selon leur rareté.
 Le score actuel peut être consulté dans la liste des objectifs.</target>
       </trans-unit>
-      <trans-unit id="1583" xml:space="preserve" approved="no">
+      <trans-unit id="1583" xml:space="preserve" approved="yes">
         <source>1583</source>
-        <target state="needs-translation">Gardez l'œil ouvert, car des piège-mouches insolites font parfois leur apparition.</target>
+        <target state="final">Gardez l'œil ouvert, car des piège-mouches insolites font parfois leur apparition.</target>
       </trans-unit>
       <trans-unit id="1584" xml:space="preserve" approved="yes">
         <source>1584</source>
@@ -9197,7 +9230,8 @@ Une exception existe toutefois pour les missions cosmiques au&lt;var 16 /var&gt;
 À l'inverse, la série d'or se poursuivra si vous&lt;var 1D /var&gt;:
   - Participez à une in&lt;var 16 /var&gt;ter&lt;var 16 /var&gt;ven&lt;var 16 /var&gt;tion mécanique
   - Participez à un ouvrage collectif
-  - Acceptez ou terminez une mission critique</target>
+  - Acceptez ou terminez une mission autre que normale ou temporaire (une mission critique, par exemple)
+</target>
       </trans-unit>
       <trans-unit id="1589" xml:space="preserve" approved="yes">
         <source>1589</source>
@@ -9246,10 +9280,7 @@ Faites apprécier vos reliques archéologiques auprès du PNJ “Kaede”, près
 
 Vous pouvez également vérifier les pièces d'équipement individuelles qui composent chaque ensemble transformé en mirage. Pour cela, sélectionnez “Vérifier l'ensemble complet” dans le sous-menu d'un mirage pour connaître le détail des pièces d'équipement qui le composent. Vous pouvez aussi obtenir cette information à partir des détails de l'objet transformé en mirage.
 
-Chaque pièce d'équipement qui appartient à un mirage d'ensemble est affichée individuellement, comme les mirages classiques, lorsque vous sélectionnez l'onglet d'un type d'équipement. Vous pourrez alors voir dans les détails de l'équipement la mention “Objet transformé en mirage d'ensemble”.
-
-Lorsque vous retirez un ensemble de la coiffeuse mirage, vous reconvertissez chacun des objets qui le composent en pièces d'équipement individuelles.
-&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;* Il n'est pas possible de retirer une pièce spécifique d'un ensemble.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+Chaque pièce d'équipement qui appartient à un mirage d'ensemble est affichée individuellement, comme les mirages classiques, lorsque vous sélectionnez l'onglet d'un type d'équipement. Vous pourrez alors voir dans les détails de l'équipement la mention “Objet transformé en mirage d'ensemble”.</target>
       </trans-unit>
       <trans-unit id="1597" xml:space="preserve" approved="yes">
         <source>1597</source>
@@ -9394,6 +9425,186 @@ Une “poignée de l'Aurore” sera créée, et les deux substrats perdront chac
 Répétez l'opération jusqu'à obtenir suf&lt;var 16 /var&gt;fi&lt;var 16 /var&gt;sam&lt;var 16 /var&gt;ment de poignées de l'Aurore, puis reparlez à Ose Wyd et choisissez l'option “Emporter des substrats magiques”.
 
 Au départ, vous pourrez uniquement emporter des pièces d'équipement “de la Lumière originelle”. Mais avoir conquis la zone 100 et amélioré ne serait-ce qu'une fois le substrat d'arme magique au degré 60 ou plus, vous pourrez également emporter des pièces d'équipement “sacramentelles”.</target>
+      </trans-unit>
+      <trans-unit id="1623" xml:space="preserve" approved="yes">
+        <source>1623</source>
+        <target state="final">La Bibliothèque Harmonia</target>
+      </trans-unit>
+      <trans-unit id="1624" xml:space="preserve" approved="yes">
+        <source>1624</source>
+        <target state="final">Une immense bibliothèque façonnée grâce au pouvoir de la magie pour servir de champ de bataille.
+Chargez les manactivateurs pour vous frayer un chemin parmi les nombreuses étagères remplies de livres anciens et prouvez ainsi une bonne fois pour toutes que la plume est plus forte que l'épée&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="1625" xml:space="preserve" approved="yes">
+        <source>1625</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Manactivateur■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Entre les points de contrôle de chaque équipe et le point central se trouvent des points intermédiaires additionnels appelés “manactivateurs” où le cristal tactique s'immobilise temporairement.
+
+Afin de faire progresser davantage le cristal tactique, les joueurs à l'offensive doivent alors se tenir dans le cercle du manactivateur pour le charger en énergie magique, jusqu'à ce que des plates-formes appelées “passerelles éthérées” soient matérialisées.
+
+Le niveau de charge d'un manactivateur retombe à zéro dans les cas suivants&lt;var 1D /var&gt;:
+- Aucun joueur à l'offensive n'est présent dans son cercle
+- Un ou plusieurs joueurs adverses entrent dans son cercle
+
+Une fois qu'un manactivateur a été com&lt;var 16 /var&gt;plè&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment chargé en énergie magique, il reste activé jusqu'à la fin de la partie.</target>
+      </trans-unit>
+      <trans-unit id="1626" xml:space="preserve" approved="yes">
+        <source>1626</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Passerelles éthérées■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Ces plates-formes magiques ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent une fois que le manactivateur correspondant a été com&lt;var 16 /var&gt;plè&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment chargé. Elles restent matérialisées jusqu'à la fin de la partie.</target>
+      </trans-unit>
+      <trans-unit id="1627" xml:space="preserve" approved="yes">
+        <source>1627</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Cercles de soin■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Les cercles de soin placés devant chaque point de départ octroient aux joueurs du camp correspondant qui se tiennent à l'intérieur une réduction des dégâts reçus de 50% et une récupération périodique de leurs PV.
+
+Veuillez noter qu'ils n'octroient aucun de leurs effets bénéfiques aux joueurs de l'équipe adverse.</target>
+      </trans-unit>
+      <trans-unit id="1628" xml:space="preserve" approved="yes">
+        <source>1628</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Cercles de saut■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Vous pouvez vous déplacer rapidement entre deux points donnés de l'arène en marchant sur les cercles de saut qui ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;rais&lt;var 16 /var&gt;sent une fois que le manactivateur correspondant a été com&lt;var 16 /var&gt;plè&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment chargé.</target>
+      </trans-unit>
+      <trans-unit id="1629" xml:space="preserve" approved="yes">
+        <source>1629</source>
+        <target state="final">Commandes spéciales</target>
+      </trans-unit>
+      <trans-unit id="1630" xml:space="preserve" approved="yes">
+        <source>1630</source>
+        <target state="final">Jauge de sa&lt;var 16 /var&gt;tis&lt;var 16 /var&gt;fac&lt;var 16 /var&gt;tion</target>
+      </trans-unit>
+      <trans-unit id="1631" xml:space="preserve" approved="yes">
+        <source>1631</source>
+        <target state="final">Livraisons</target>
+      </trans-unit>
+      <trans-unit id="1632" xml:space="preserve" approved="yes">
+        <source>1632</source>
+        <target state="final">Augmenter la valeur de collection</target>
+      </trans-unit>
+      <trans-unit id="1633" xml:space="preserve" approved="yes">
+        <source>1633</source>
+        <target state="final">Présentation</target>
+      </trans-unit>
+      <trans-unit id="1634" xml:space="preserve" approved="yes">
+        <source>1634</source>
+        <target state="final">Les commandes spéciales sont des quêtes réservées aux artisans et récolteurs dont le but est de livrer des objets, poissons ou fruits de mer spécifiques à un même client. Chaque livraison sera récompensée par des points d'expérience et des assignats et permet de renforcer vos liens avec l'acquéreur. Terminer certaines quêtes de l'épopée ainsi que certaines sous-quêtes permet de rencontrer de nouveaux partenaires d'affaires.
+
+ ■ Informations générales
+Le but des quêtes de commandes spéciales consiste à augmenter le niveau de sa&lt;var 16 /var&gt;tis&lt;var 16 /var&gt;fac&lt;var 16 /var&gt;tion de vos clients en leur livrant ce dont ils ont besoin.
+
+Vous pourrez retrouver les in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tions relatives aux commandes spéciales en cours, telles que la liste de vos clients, leur rang de sa&lt;var 16 /var&gt;tis&lt;var 16 /var&gt;fac&lt;var 16 /var&gt;tion ainsi que les objets à livrer en consultant le sous-menu Calendrier du menu Missions, rubrique Commandes spéciales.</target>
+      </trans-unit>
+      <trans-unit id="1635" xml:space="preserve" approved="yes">
+        <source>1635</source>
+        <target state="final">Présentation</target>
+      </trans-unit>
+      <trans-unit id="1636" xml:space="preserve" approved="yes">
+        <source>1636</source>
+        <target state="final">Plus vous livrerez d'objets à votre client, plus celui-ci sera satisfait de vos services. Son &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;niveau de sa&lt;var 16 /var&gt;tis&lt;var 16 /var&gt;fac&lt;var 16 /var&gt;tion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; s'exprime à travers une jauge en haut de la fenêtre des livraisons. Lorsque cette jauge est pleine, vous gagnez un rang. Le rang que vous avez atteint est symbolisé par des icones en forme de cœur sous la jauge de sa&lt;var 16 /var&gt;tis&lt;var 16 /var&gt;fac&lt;var 16 /var&gt;tion.</target>
+      </trans-unit>
+      <trans-unit id="1637" xml:space="preserve" approved="yes">
+        <source>1637</source>
+        <target state="final">Votre client vous proposera de vivre de nouvelles aventures au fur et à mesure que votre niveau augmentera.</target>
+      </trans-unit>
+      <trans-unit id="1638" xml:space="preserve" approved="yes">
+        <source>1638</source>
+        <target state="final">Changer la tenue du client</target>
+      </trans-unit>
+      <trans-unit id="1639" xml:space="preserve" approved="yes">
+        <source>1639</source>
+        <target state="final">Une fois le rang de sa&lt;var 16 /var&gt;tis&lt;var 16 /var&gt;fac&lt;var 16 /var&gt;tion maximum atteint, certains clients vous laisseront utiliser des mirages pour modifier leur tenue selon vos goûts. Un icone spécifique apparaît alors à côté des cœurs re&lt;var 16 /var&gt;pré&lt;var 16 /var&gt;sen&lt;var 16 /var&gt;tant le rang de sa&lt;var 16 /var&gt;tis&lt;var 16 /var&gt;fac&lt;var 16 /var&gt;tion chez les clients concernés.</target>
+      </trans-unit>
+      <trans-unit id="1640" xml:space="preserve" approved="yes">
+        <source>1640</source>
+        <target state="final">■ Comment changer la tenue de votre partenaire d'affaires
+Parlez-lui, puis choisissez l'option “Appliquer un mirage”.  Les parties personnalisables sont la tête, le torse, les mains, les jambes et les pieds. Un &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;prisme mirage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; sera consommé par mirage appliqué.
+* Certaines pièces d'équipement possèdent des restrictions selon la race et le sexe et ne pourront pas être projetées.
+
+Les prismes mirage peuvent être achetés sur les tableaux des ventes et auprès des officiers de la logistique des grandes compagnies, ou fabriqués par des artisans. Les recettes nécessaires pour fabriquer des prismes mirage peuvent être apprises en achetant des livres d'artisanat avancé. </target>
+      </trans-unit>
+      <trans-unit id="1641" xml:space="preserve" approved="yes">
+        <source>1641</source>
+        <target state="final">■ Comment restaurer la tenue de votre partenaire d'affaires
+Si vous souhaitez rendre son apparence d'origine à votre client, vous devrez utiliser des &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;dissipateurs de mirage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Vous pouvez vous en procurer, entre autres, sur les tableaux des ventes ou auprès de certains marchands.
+
+Pour plus d'in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tions sur les mirages, veuillez consulter le menu d'aide en sélectionnant l'icone en forme de point d'interrogation dans la planche mirage.</target>
+      </trans-unit>
+      <trans-unit id="1642" xml:space="preserve" approved="yes">
+        <source>1642</source>
+        <target state="final">Les conditions à remplir et les récompenses</target>
+      </trans-unit>
+      <trans-unit id="1643" xml:space="preserve" approved="yes">
+        <source>1643</source>
+        <target state="final">Pour pouvoir confier des livraisons à un client, vous devez avoir rempli les conditions suivantes&lt;var 1D /var&gt;:
+- Avoir terminé la quête d'accès au client en question
+- Être de la classe ainsi que du niveau requis
+Vous pouvez vérifier les conditions de livraison dans le menu Objets à livrer.
+
+Les récompenses reçues dépendent de votre niveau au moment de la livraison&lt;var 1D /var&gt;: si vous n'avez pas atteint de niveau maximum pour votre classe, vous recevrez des points d'expérience, sinon vous recevrez des assignats.
+
+■ Objets à livrer
+Tous les objets, poissons et fruits de mer remis à votre client doivent être collectionnables, qu'ils aient été fabriqués par un artisan, récoltés par un mineur ou un botaniste, ou ferrés par un pêcheur. Plus la valeur de collection des livraisons est élevée, plus la récompense obtenue sera importante.
+
+En outre, la mention “Bonus” peut parfois apparaître à côté d'un objet dans la liste. Livrer ce dernier vous permettra d'obtenir une récompense plus conséquente, alors gardez un œil dessus&lt;var 1D /var&gt;!
+
+■ Limitations
+Vous pouvez livrer un même client jusqu'à 6 fois par semaine, et 12 fois maximum pour tous vos partenaires en affaires nécessitant des commandes spéciales.
+La limite hebdomadaire est réinitialisée tous les &lt;var 06 1203 /var&gt;&lt;var 09 DD ((dimanches)) ((lundis)) ((mardis)) ((mercredis)) ((jeudis)) ((vendredis)) ((samedis)) /var&gt; à &lt;var 08 DB ((&lt;var 09 DB02030405060708090A0B0C0D0E0F101112131415161718 /var&gt;)) 01 /var&gt;h (temps réel).</target>
+      </trans-unit>
+      <trans-unit id="1644" xml:space="preserve" approved="yes">
+        <source>1644</source>
+        <target state="final">Obtenir des objets</target>
+      </trans-unit>
+      <trans-unit id="1645" xml:space="preserve" approved="yes">
+        <source>1645</source>
+        <target state="final">Les in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tions concernant les objets à livrer se trouvent dans le sous-menu correspondant.</target>
+      </trans-unit>
+      <trans-unit id="1646" xml:space="preserve" approved="yes">
+        <source>1646</source>
+        <target state="final">■ Artisans
+Choisissez l'option &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;“Chercher la recette”&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pour ouvrir le carnet d'artisanat à la page de l'objet qui vous intéresse et savoir de quels matériaux vous aurez besoin. Ces derniers peuvent être achetés auprès d'un marchand dans les alentours de votre client.
+
+■ Mineurs et botanistes
+Vous devrez choisir &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;“Chercher le mode de récolte”&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pour accéder au carnet de récolte et savoir où commencer vos recherches.
+
+■ Pêcheurs
+Vous pourrez consulter la &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;description&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; de la créature recherchée ou choisir l'option &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;“Lieu de pêche”&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pour savoir dans quelles eaux jeter votre ligne. Il vous est recommandé d'utiliser un &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;leurre métallique&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsque vous pêchez.</target>
+      </trans-unit>
+      <trans-unit id="1647" xml:space="preserve" approved="yes">
+        <source>1647</source>
+        <target state="final">Artisans</target>
+      </trans-unit>
+      <trans-unit id="1648" xml:space="preserve" approved="yes">
+        <source>1648</source>
+        <target state="final">La valeur de collection d'un objet augmente lorsque l'artisan qui le fabrique veille à améliorer sa qualité au moment de sa confection. Vous obtenez &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Calme intérieur&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; lorsque vous parvenez à améliorer la qualité d'un objet. Cet effet accroît l'efficacité des actions qui augmentent la qualité. Accumulez-le autant que possible et apportez la touche finale grâce à la &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bénédiction de Byregot&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pour voir la qualité monter en flèche avant de terminer l'objet.
+
+De multiples actions permettent d'améliorer la qualité de vos fa&lt;var 16 /var&gt;bri&lt;var 16 /var&gt;ca&lt;var 16 /var&gt;tions. Testez différentes méthodes pour trouver celle qui vous convient le mieux.</target>
+      </trans-unit>
+      <trans-unit id="1649" xml:space="preserve" approved="yes">
+        <source>1649</source>
+        <target state="final">Mineurs et botanistes</target>
+      </trans-unit>
+      <trans-unit id="1650" xml:space="preserve" approved="yes">
+        <source>1650</source>
+        <target state="final">Lorsque vous tentez de récolter un objet collectionnable, une fenêtre spéciale s'affiche. Vous pouvez alors augmenter sa valeur de collection avant de le récolter en utilisant des actions spécifiques. Les mineurs et les botanistes peuvent utiliser &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Inspection rigoureuse&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, suivie de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sélection&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Essayez d'enchaîner cette combinaison lorsque vous tentez de récolter un objet collectionnable.
+
+En outre, vos ca&lt;var 16 /var&gt;rac&lt;var 16 /var&gt;té&lt;var 16 /var&gt;ris&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ques de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Collecte&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Savoir-faire&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; augmentent l'effet de ces actions. Maximisez-les donc afin d'obtenir des objets à valeur de collection plus élevée.
+
+Enfin, si votre méthode n'est pas en faute, mais que vous manquez de points de récolte (PR), munissez-vous de pièces d'équipement qui vous en procurent.
+
+Pour plus d'in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tions, veuillez consulter l'aide disponible dans le menu de récolte.</target>
+      </trans-unit>
+      <trans-unit id="1651" xml:space="preserve" approved="yes">
+        <source>1651</source>
+        <target state="final">Pêcheurs</target>
+      </trans-unit>
+      <trans-unit id="1652" xml:space="preserve" approved="yes">
+        <source>1652</source>
+        <target state="final">La valeur de collection dépend directement de la taille du poisson livré. Seuls les poissons pêchés après avoir activé l'action &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Gant de col&lt;var 16 /var&gt;lec&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;neur&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; seront acceptés.</target>
+      </trans-unit>
+      <trans-unit id="1653" xml:space="preserve" approved="yes">
+        <source>1653</source>
+        <target state="final">Avoir recours aux actions &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Patience&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Patience II&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avant d'utiliser les actions de pêche adéquates devrait vous permettre de ferrer de grosses prises. Si vous considérez encore que c'est du menu fretin, munissez-vous de pièces d'équipement qui améliorent votre &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Savoir-faire&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
     </body>
   </file>

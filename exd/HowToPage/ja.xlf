@@ -891,7 +891,7 @@ EXPバー上に黄色か青の
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「パーティリスト」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;が表示されます。
 パーティリストには仲間の状態が表示され
 パーティメンバーの状況を確認できます。
-また、&lt;var 08 E4E96B64 ((方向パッド)) ((方向キー)) /var&gt;の上下を押すことで、
+また、&lt;var 42 3E /var&gt;の上下を押すことで、
 パーティメンバーを直接選択できます。
 仲間を回復したい時など、とっさの操作が
 必要な場合に利用してみましょう。
@@ -927,7 +927,7 @@ EXPバー上に黄色か青の
       <trans-unit id="192" xml:space="preserve" approved="yes">
         <source>192</source>
         <target state="final">クロスホットバーは&lt;var 12 0F /var&gt;&lt;var 12 10 /var&gt;ボタンの
-どちらかを押しながら、各&lt;var 08 E4E96B64 ((方向パッド)) ((方向キー)) /var&gt;、
+どちらかを押しながら、各&lt;var 42 3E /var&gt;、
 または&lt;var 12 0C /var&gt;&lt;var 12 09 /var&gt;&lt;var 12 0A /var&gt;&lt;var 12 0B /var&gt;のいずれかのボタンを押すことで、アクションを実行できます。
 
 &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;※新たに修得したアクションは、自動で
@@ -3017,7 +3017,7 @@ Lv35の弓術士が装備できる
 アクションリストの「染色」を
 実行します。
 
-染める色はカララントの種類で変わり、
+染める色によって必要なカララントは違い
 カララントさえあれば、同じアイテムを
 何度でも染色することができます。
 
@@ -3829,7 +3829,7 @@ EXホットバーにセットされた
 
 敵をターゲットした状態で、
 &lt;var 1E 14 /var&gt;で目的リストをフォーカスします。
-&lt;var 08 E4E96B64 ((方向パッド)) ((方向キー)) /var&gt;でアイコンを選び、
+&lt;var 42 3E /var&gt;でアイコンを選び、
 &lt;var 1E 09 /var&gt;を押せば、
 イベントアイテムを使用できます。&lt;tab&gt;&lt;tab&gt;</target>
       </trans-unit>
@@ -3875,7 +3875,7 @@ EXホットバーにセットされた
         <target state="final">このクエストは、イベントアイテムを
 指定された&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;範囲&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;に使うことで進行します。
 
-&lt;var 1E 14 /var&gt;で&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;目的リスト&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;をフォーカスします。&lt;var 08 E4E96B64 ((方向パッド)) ((方向キー)) /var&gt;でアイコンを選び、
+&lt;var 1E 14 /var&gt;で&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;目的リスト&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;をフォーカスします。&lt;var 42 3E /var&gt;でアイコンを選び、
 &lt;var 1E 09 /var&gt;を押せば、アイテムを使用する
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;範囲を示すターゲット&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;が表示されます。
 
@@ -7323,9 +7323,9 @@ HUD上に表示されたアクションを
       <trans-unit id="2485" xml:space="preserve" approved="yes">
         <source>2485</source>
         <target state="final">お得意様との信頼度が上がり、
-「着せ替え」ができるようになりました。
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「着せ替え」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;ができるようになりました。
 
-「着せ替えさせる」を選択すると
+「武具投影を行う」を選択すると
 お得意様の服装を変更できます。
 
 変更できるのは、
@@ -7335,11 +7335,7 @@ HUD上に表示されたアクションを
       </trans-unit>
       <trans-unit id="2486" xml:space="preserve" approved="yes">
         <source>2486</source>
-        <target state="final">お得意様に着せることができる装備は、
-全種族・全クラスが
-装備可能なものだけです。
-
-また、着せ替えや、染色を行う際には、
+        <target state="final">着せ替えや染色を行う際には、
 それぞれの触媒を消費します。
 
 あなた好みの装備を選んで、

@@ -860,7 +860,7 @@ nomfamille (familyname) [nom]    Spécifie le nom de famille.
 - État en ligne&lt;var 1D /var&gt;:
 chef (chef d'équipe), absent (absent(e)), occupé (occupé(e)), mission (en mission), scène (regarde une scène cinématique), chéq (cherche une équipe), sertmat (propose le sertissage de matérias), novice (joueur novice), mentor (mentor), mentorcombat (mentor pour le combat), mentorartisanatrécolte (mentor pour l'artisanat et la récolte), mentorjcj (mentor pour le JcJ), jeuderôle (en train de jouer un rôle), rappelé (joueur rappelé).
 - Classes/jobs&lt;var 1D /var&gt;:
-PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;lis&lt;var 16 /var&gt;te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
+PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;lis&lt;var 16 /var&gt;te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), DRE (dresseur), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
 * Si aucun nom de classe ou de job n'est spécifié, la recherche les couvre tous.
 - Niveaux&lt;var 1D /var&gt;:
 Il est possible de spécifier un niveau avec le nombre correspondant, ou une fourchette de niveaux avec deux nombres séparés par le signe "-".
@@ -1623,7 +1623,7 @@ Cible l'ennemi le plus proche dans un certain rayon.&lt;tab&gt;/ciblerenn&lt;tab
       <trans-unit id="257" xml:space="preserve" approved="yes">
         <source>257</source>
         <target state="final">/ciblecombat, /battletarget, /bt
-Cible l'ennemi le plus proche ayant de l'inimitié dans un certain rayon.&lt;tab&gt;/ciblecombat&lt;tab&gt;&lt;tab&gt;/battletarget&lt;tab&gt;/bt</target>
+Cible l'ennemi le plus proche affiché à l'écran et ayant de l'inimitié dans un certain rayon.&lt;tab&gt;/ciblecombat&lt;tab&gt;&lt;tab&gt;/battletarget&lt;tab&gt;/bt</target>
       </trans-unit>
       <trans-unit id="258" xml:space="preserve" approved="yes">
         <source>258</source>
@@ -2063,6 +2063,8 @@ commun (share) [chiffre] off    Rend la croix de raccourcis spécifiée exclusiv
 * Si on/off n'est pas spécifié, alterne entre ces deux options.
 supprimer (remove) [chiffre] [code de case]    Retire l'action/macro de la case spécifiée de la croix de raccourcis n°[chiffre]. Si "all" est saisi à la place du code de la case, toutes les cases sont libérées.
 &gt;&gt; Codes de case&lt;var 1D /var&gt;:
+(Les codes de case peuvent être omis durant la configuration.
+Dans ce cas, les actions sont au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment attribuées à un emplacement vide selon l'ordre par défaut du système.)
 &lt;var 12 0F /var&gt; + &lt;var 12 04 /var&gt; =&gt; LDL (LD1)
 &lt;var 12 10 /var&gt; + &lt;var 12 04 /var&gt; =&gt; RDL (RD1)
 &lt;var 12 0F /var&gt; + &lt;var 12 02 /var&gt; =&gt; LDU (LD2)
@@ -2204,6 +2206,8 @@ commun (share) [chiffre] off    Rend la croix de raccourcis spécifiée exclusiv
 * Si on/off n'est pas spécifié, alterne entre ces deux options.
 supprimer (remove) [chiffre] [code de case]    Retire l'action/macro de la case spécifiée de la croix de raccourcis n°[chiffre]. Si "all" est saisi à la place du code de la case, toutes les cases sont libérées.
 &gt;&gt; Codes de case&lt;var 1D /var&gt;:
+(Les codes de case peuvent être omis durant la configuration.
+Dans ce cas, les actions sont au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment attribuées à un emplacement vide selon l'ordre par défaut du système.)
 &lt;var 12 0F /var&gt; + &lt;var 12 04 /var&gt; =&gt; LDL (LD1)
 &lt;var 12 10 /var&gt; + &lt;var 12 04 /var&gt; =&gt; RDL (RD1)
 &lt;var 12 0F /var&gt; + &lt;var 12 02 /var&gt; =&gt; LDU (LD2)
@@ -4684,6 +4688,15 @@ Lit un livre en continu.
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/lireunlivrecontinu&lt;tab&gt;/lirecont&lt;tab&gt;/study&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="698" xml:space="preserve" approved="yes">
+        <source>698</source>
+        <target state="final">/dansebreak, /breakdance, /breaking
+Utilisation&lt;var 1D /var&gt;: /dansebreak [sous-commande]
+Danse le break.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dansebreak&lt;tab&gt;&lt;tab&gt;/breakdance&lt;tab&gt;/breaking</target>
+      </trans-unit>
       <trans-unit id="699" xml:space="preserve" approved="yes">
         <source>699</source>
         <target state="final">/tassegridania, /gridaniansip
@@ -4774,6 +4787,15 @@ Utilisation&lt;var 1D /var&gt;: /écrireplume [sous-commande]
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/écrireplume&lt;tab&gt;/plume&lt;tab&gt;/pen&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="709" xml:space="preserve" approved="yes">
+        <source>709</source>
+        <target state="final">/sefaireéjecter,/éjecter,/blownaway
+Utilisation&lt;var 1D /var&gt;: /sefaireéjecter [sous-commande]
+Se fait projeter au sol par un puissant coup.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/sefaireéjecter&lt;tab&gt;/éjecter&lt;tab&gt;/blownaway&lt;tab&gt;</target>
+      </trans-unit>
       <trans-unit id="710" xml:space="preserve" approved="yes">
         <source>710</source>
         <target state="final">/trépigner, /stomp
@@ -4818,6 +4840,33 @@ Effectue une démarche de mannequin.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/démarchemannequin&lt;tab&gt;/démarchem&lt;tab&gt;/runwaywalk&lt;tab&gt;/runway</target>
+      </trans-unit>
+      <trans-unit id="715" xml:space="preserve" approved="yes">
+        <source>715</source>
+        <target state="final">/encouragerdevantorange, /bâtonsdvor, /cheeronorange, /cheeroo
+Utilisation&lt;var 1D /var&gt;: /encouragerdevantorange [sous-commande]
+Encourage vers l'avant avec des bâtons lumineux orange.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerdevantorange&lt;tab&gt;/bâtonsdvor&lt;tab&gt;/cheeronorange&lt;tab&gt;/cheeroo</target>
+      </trans-unit>
+      <trans-unit id="716" xml:space="preserve" approved="yes">
+        <source>716</source>
+        <target state="final">/encouragerarcrose, /bâtonsarcsrose, /cheerwavepink, /cheerwp
+Utilisation&lt;var 1D /var&gt;: /encouragerarcrose [sous-commande]
+Encourage en agitant le bras en arc-de-cercle avec des bâtons lumineux roses.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerarcrose&lt;tab&gt; /bâtonsarcsrose&lt;tab&gt;/cheerwavepink&lt;tab&gt;/cheerwp</target>
+      </trans-unit>
+      <trans-unit id="717" xml:space="preserve" approved="yes">
+        <source>717</source>
+        <target state="final">/encouragersautindigo, /bâtonssautind, /cheerjumpindigo, /cheerji
+Utilisation&lt;var 1D /var&gt;: /encouragersautindigo [sous-commande]
+Encourage en sautillant avec des bâtons lumineux indigo.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragersautindigo&lt;tab&gt;/bâtonssautind&lt;tab&gt;/cheerjumpindigo&lt;tab&gt;/cheerji</target>
       </trans-unit>
       <trans-unit id="718" xml:space="preserve" approved="yes">
         <source>718</source>
@@ -4890,6 +4939,24 @@ Encourage d'un rythme lent avec des bâtons lumineux verts.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerlentvert&lt;tab&gt;/bâtonslenver&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
+      </trans-unit>
+      <trans-unit id="729" xml:space="preserve" approved="yes">
+        <source>729</source>
+        <target state="final">/ricaner, /cackle
+Utilisation&lt;var 1D /var&gt;: /ricaner [sous-commande]
+Ricane avec un air narquois.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/ricaner&lt;tab&gt;&lt;tab&gt;/cackle&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="730" xml:space="preserve" approved="yes">
+        <source>730</source>
+        <target state="final">/chefdorchestre, /chefdorc, /conduct
+Utilisation&lt;var 1D /var&gt;: /chefdorchestre [sous-commande]
+Agite une baguette pour battre la mesure.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/chefdorchestre&lt;tab&gt;/chefdorc&lt;tab&gt;/conduct&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

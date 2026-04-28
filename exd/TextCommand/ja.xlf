@@ -892,7 +892,7 @@ familyname(姓) PC姓
 【オンラインステータスの指定】
 　…パーティリーダー(leader)　離席(away)　取り込み中(busy)　コンテンツ中(contents)　イベント中(event)　パーティ希望(lookingforparty)　マテリア装着請負中(lookingformeld)　パーティ募集中(recruitingparty)　ビギナー(beginner)　メンター(mentor)　バトルメンター(pvementor)　製作採集メンター(tradementor)　PvPメンター(pvpmentor)　ロールプレイ中(roleplay)　リターナー(returner)
 【クラス・ジョブ指定】
-　…ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　ヴァイパー(VPR)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　ピクトマンサー(PCT)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
+　…ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　ヴァイパー(VPR)　魔獣使い(BST)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　ピクトマンサー(PCT)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
 　※省略した場合は全クラス・ジョブを対象。
 【レベル指定】
 　…数字　指定するとそのレベルを検索する。
@@ -1753,7 +1753,7 @@ off
       <trans-unit id="257" xml:space="preserve" approved="yes">
         <source>257</source>
         <target state="final">/battletarget(/bt)
-自分を敵視している敵で、一番近い位置にいるキャラクターをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/battletarget&lt;tab&gt;/bt</target>
+自分を敵視している敵で、画面内にいる一番近い位置にいるキャラクターをターゲットする。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/battletarget&lt;tab&gt;/bt</target>
       </trans-unit>
       <trans-unit id="258" xml:space="preserve" approved="yes">
         <source>258</source>
@@ -2287,6 +2287,8 @@ share セット番号
 remove セット番号 スロット名
 　…指定したセット番号のクロスホットバーの指定したスロットにセットされたアクションやマクロなどを解除して、空のスロットにする。スロット名に“all”で指定した場合、すべてのスロットを解除する。
 &gt;&gt;スロット名の指定
+セットする場合のスロット名は省略可能。
+省略した場合はシステム的な並び順に沿って、未設定のスロットに対し自動的に登録される。
 &lt;var 12 0F /var&gt;＋&lt;var 12 04 /var&gt; … LDL(LD1)　&lt;var 12 10 /var&gt;＋&lt;var 12 04 /var&gt; … RDL(RD1)
 &lt;var 12 0F /var&gt;＋&lt;var 12 02 /var&gt; … LDU(LD2)　&lt;var 12 10 /var&gt;＋&lt;var 12 02 /var&gt; … RDU(RD2)
 &lt;var 12 0F /var&gt;＋&lt;var 12 05 /var&gt; … LDR(LD3)　&lt;var 12 10 /var&gt;＋&lt;var 12 05 /var&gt; … RDR(RD3)
@@ -2464,6 +2466,8 @@ share セット番号
 remove セット番号 スロット名
 　…指定したセット番号のクロスホットバーの指定したスロットにセットされたアクションやマクロなどを解除して、空のスロットにする。スロット名に“all”で指定した場合、すべてのスロットを解除する。
 &gt;&gt;スロット名の指定
+セットする場合のスロット名は省略可能。
+省略した場合はシステム的な並び順に沿って、未設定のスロットに対し自動的に登録される。
 &lt;var 12 0F /var&gt;＋&lt;var 12 04 /var&gt; … LDL(LD1)　&lt;var 12 10 /var&gt;＋&lt;var 12 04 /var&gt; … RDL(RD1)
 &lt;var 12 0F /var&gt;＋&lt;var 12 02 /var&gt; … LDU(LD2)　&lt;var 12 10 /var&gt;＋&lt;var 12 02 /var&gt; … RDU(RD2)
 &lt;var 12 0F /var&gt;＋&lt;var 12 05 /var&gt; … LDR(LD3)　&lt;var 12 10 /var&gt;＋&lt;var 12 05 /var&gt; … RDR(RD3)
@@ -5198,6 +5202,16 @@ motion
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/study&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="698" xml:space="preserve" approved="yes">
+        <source>698</source>
+        <target state="final">/breakdance(/breaking) サブコマンド
+ブレイキンを踊る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/breakdance&lt;tab&gt;/breaking</target>
+      </trans-unit>
       <trans-unit id="699" xml:space="preserve" approved="yes">
         <source>699</source>
         <target state="final">/gridaniansip サブコマンド
@@ -5298,6 +5312,16 @@ motion
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pen&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="709" xml:space="preserve" approved="yes">
+        <source>709</source>
+        <target state="final">/blownaway サブコマンド
+ふっとぶ。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/blownaway&lt;tab&gt;</target>
+      </trans-unit>
       <trans-unit id="710" xml:space="preserve" approved="yes">
         <source>710</source>
         <target state="final">/stomp サブコマンド
@@ -5347,6 +5371,36 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/runwaywalk&lt;tab&gt;/runway</target>
+      </trans-unit>
+      <trans-unit id="715" xml:space="preserve" approved="yes">
+        <source>715</source>
+        <target state="final">/cheeronorange(/cheeroo) サブコマンド
+声援フロント：橙を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronorange&lt;tab&gt;/cheeroo</target>
+      </trans-unit>
+      <trans-unit id="716" xml:space="preserve" approved="yes">
+        <source>716</source>
+        <target state="final">/cheerwavepink(/cheerwp) サブコマンド
+声援ウェーブ：桃を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwavepink&lt;tab&gt;/cheerwp</target>
+      </trans-unit>
+      <trans-unit id="717" xml:space="preserve" approved="yes">
+        <source>717</source>
+        <target state="final">/cheerjumpindigo(/cheerji) サブコマンド
+声援ジャンプ：紺を送る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjumpindigo&lt;tab&gt;/cheerji</target>
       </trans-unit>
       <trans-unit id="718" xml:space="preserve" approved="yes">
         <source>718</source>
@@ -5427,6 +5481,26 @@ motion
 　…モーションのみ、感情表現テキストは表示しない。
 ※サブコマンド省略
 　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
+      </trans-unit>
+      <trans-unit id="729" xml:space="preserve" approved="yes">
+        <source>729</source>
+        <target state="final">/cackle サブコマンド
+高笑いをする。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cackle&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="730" xml:space="preserve" approved="yes">
+        <source>730</source>
+        <target state="final">/conduct サブコマンド
+指揮棒を振る。
+&gt;&gt;サブコマンド
+motion
+　…モーションのみ、感情表現テキストは表示しない。
+※サブコマンド省略
+　…モーションと感情表現テキストを表示する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/conduct&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

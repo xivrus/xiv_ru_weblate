@@ -1241,7 +1241,7 @@ USAGE:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WHM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SMN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SCH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;NIN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DRK&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MCH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;AST&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SAM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RDM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLU&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GNB&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DNC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SGE&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;VPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PCT&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;VPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PCT&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BST&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Searches all jobs and classes if none specified.
 【Level】
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;[number]&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -2554,7 +2554,7 @@ USAGE:
 USAGE:
 　/battletarget
 
-→Targets the closest enemy within a certain radius that is attacking you.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/battletarget&lt;tab&gt;/bt</target>
+→Targets the closest enemy within a certain radius on screen that is attacking you.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/battletarget&lt;tab&gt;/bt</target>
       </trans-unit>
       <trans-unit id="258" xml:space="preserve" approved="yes">
         <source>258</source>
@@ -3288,7 +3288,10 @@ USAGE:
 　&lt;var 12 0F /var&gt;＋&lt;var 12 09 /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;LAR (LA3) &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　&lt;var 12 10 /var&gt;＋&lt;var 12 09 /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RAR (RA3)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　&lt;var 12 0F /var&gt;＋&lt;var 12 0A /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;LAD (LA4) &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　&lt;var 12 10 /var&gt;＋&lt;var 12 0A /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RAD (RA4)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;tab&gt;&lt;tab&gt;/chotbar&lt;tab&gt;/crosshotbar&lt;tab&gt;/chotbar</target>
+　&lt;var 12 10 /var&gt;＋&lt;var 12 0A /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RAD (RA4)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+　　Slot names are not required for setting.
+　　Omitting slot names will automatically set actions to an unassigned slot according to the system's default order.&lt;tab&gt;&lt;tab&gt;/chotbar&lt;tab&gt;/crosshotbar&lt;tab&gt;/chotbar</target>
       </trans-unit>
       <trans-unit id="317" xml:space="preserve" approved="yes">
         <source>317</source>
@@ -3511,7 +3514,10 @@ USAGE:
 　&lt;var 12 0F /var&gt;＋&lt;var 12 09 /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;LAR (LA3) &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　&lt;var 12 10 /var&gt;＋&lt;var 12 09 /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RAR (RA3)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 　&lt;var 12 0F /var&gt;＋&lt;var 12 0A /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;LAD (LA4) &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-　&lt;var 12 10 /var&gt;＋&lt;var 12 0A /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RAD (RA4)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;&lt;tab&gt;&lt;tab&gt;/pvpchotbar&lt;tab&gt;/pvpcrosshotbar&lt;tab&gt;/pvpchotbar</target>
+　&lt;var 12 10 /var&gt;＋&lt;var 12 0A /var&gt;  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RAD (RA4)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+　　Slot names are not required for setting.
+　　Omitting slot names will automatically set actions to an unassigned slot according to the system's default order.&lt;tab&gt;&lt;tab&gt;/pvpchotbar&lt;tab&gt;/pvpcrosshotbar&lt;tab&gt;/pvpchotbar</target>
       </trans-unit>
       <trans-unit id="327" xml:space="preserve" approved="yes">
         <source>327</source>
@@ -6969,6 +6975,20 @@ Both text and motion will be displayed when no subcommand is specified.&lt;tab&g
 
 Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/study&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="698" xml:space="preserve" approved="yes">
+        <source>698</source>
+        <target state="final">ALIASES:
+　/breakdance, /breaking
+USAGE:
+　/breakdance [subcommand]
+
+→Perform a stylish and powerful dance.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/breakdance&lt;tab&gt;/breaking</target>
+      </trans-unit>
       <trans-unit id="699" xml:space="preserve" approved="yes">
         <source>699</source>
         <target state="final">USAGE:
@@ -7093,6 +7113,18 @@ Both text and motion will be displayed when no subcommand is specified.&lt;tab&g
 
 Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/pen&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="709" xml:space="preserve" approved="yes">
+        <source>709</source>
+        <target state="final">USAGE:
+　/blownaway [subcommand]
+
+→Be hurled backwards by a great force.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/blownaway&lt;tab&gt;</target>
+      </trans-unit>
       <trans-unit id="710" xml:space="preserve" approved="yes">
         <source>710</source>
         <target state="final">USAGE:
@@ -7160,6 +7192,48 @@ USAGE:
  　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/runwaywalk&lt;tab&gt;/runway</target>
+      </trans-unit>
+      <trans-unit id="715" xml:space="preserve" approved="yes">
+        <source>715</source>
+        <target state="final">ALIASES:
+　/cheeronorange, /cheeroo
+USAGE:
+　/cheeronorange [subcommand]
+
+→Wave your hands enthusiastically with orange illuminated rods.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheeronorange&lt;tab&gt;/cheeroo</target>
+      </trans-unit>
+      <trans-unit id="716" xml:space="preserve" approved="yes">
+        <source>716</source>
+        <target state="final">ALIASES:
+　/cheerwavepink, /cheerwp
+USAGE:
+　/cheerwavepink [subcommand]
+
+→Wave your hand in the air with a pink illuminated rod.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerwavepink&lt;tab&gt;/cheerwp</target>
+      </trans-unit>
+      <trans-unit id="717" xml:space="preserve" approved="yes">
+        <source>717</source>
+        <target state="final">ALIASES:
+　/cheerjumpindigo, /cheerji
+USAGE:
+　/cheerjumpindigo [subcommand]
+
+→Jump and cheer enthusiastically with indigo illuminated rods.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerjumpindigo&lt;tab&gt;/cheerji</target>
       </trans-unit>
       <trans-unit id="718" xml:space="preserve" approved="yes">
         <source>718</source>
@@ -7264,6 +7338,30 @@ USAGE:
 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
+      </trans-unit>
+      <trans-unit id="729" xml:space="preserve" approved="yes">
+        <source>729</source>
+        <target state="final">USAGE:
+　/cackle [subcommand]
+
+→Erupt into a haughty cackle that will put all who hear it in their place.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cackle&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="730" xml:space="preserve" approved="yes">
+        <source>730</source>
+        <target state="final">USAGE:
+　/conduct [subcommand]
+
+→Confidently conduct whatever may be unfolding before you.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/conduct&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

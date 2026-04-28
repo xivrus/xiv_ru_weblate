@@ -3134,7 +3134,7 @@ the command from your pet hotbar.</target>
       </trans-unit>
       <trans-unit id="800" xml:space="preserve" approved="yes">
         <source>800</source>
-        <target state="final">Text pasting is currently disabled. To enable this feature, go to &lt;var 08 E1E94C01 ((Controller)) ((Gamepad)) /var&gt; Settings in System Configuration.</target>
+        <target state="final">Text pasting is currently disabled. To enable this feature, go to &lt;var 42 02 /var&gt; Settings in System Configuration.</target>
       </trans-unit>
       <trans-unit id="801" xml:space="preserve" approved="yes">
         <source>801</source>
@@ -4982,7 +4982,7 @@ Select Pass to waive your roll.</target>
       </trans-unit>
       <trans-unit id="1272" xml:space="preserve" approved="yes">
         <source>1272</source>
-        <target state="final">You have arrived at a vista!</target>
+        <target state="final">You have arrived at a vista! Record it in your sightseeing log by using the emote “&lt;var 28 ((Emote)) E80201 /var&gt;.”</target>
       </trans-unit>
       <trans-unit id="1273" xml:space="preserve" approved="yes">
         <source>1273</source>
@@ -5871,7 +5871,7 @@ Continue and you will suffer an experience point penalty.</target>
       </trans-unit>
       <trans-unit id="1494" xml:space="preserve" approved="yes">
         <source>1494</source>
-        <target state="final">Insufficient inventory space. Unable to obtain irregular tomestones.</target>
+        <target state="final">Insufficient inventory space. Unable to obtain Moogle Treasure Trove rewards.</target>
       </trans-unit>
       <trans-unit id="1495" xml:space="preserve" approved="yes">
         <source>1495</source>
@@ -5883,15 +5883,15 @@ Continue and you will suffer an experience point penalty.</target>
       </trans-unit>
       <trans-unit id="1497" xml:space="preserve" approved="yes">
         <source>1497</source>
-        <target state="final">Unable to obtain irregular tomestones.</target>
+        <target state="final">Unable to obtain Moogle Treasure Trove rewards.</target>
       </trans-unit>
       <trans-unit id="1498" xml:space="preserve" approved="yes">
         <source>1498</source>
-        <target state="final">Moogle Treasure Trove objective accomplished. Claim your tomestones from the Mogpendium.</target>
+        <target state="final">Moogle Treasure Trove objective accomplished. Claim your rewards from the Mogpendium.</target>
       </trans-unit>
       <trans-unit id="1499" xml:space="preserve" approved="yes">
         <source>1499</source>
-        <target state="final">Unable to obtain irregular tomestones.</target>
+        <target state="final">Unable to obtain Moogle Treasure Trove rewards.</target>
       </trans-unit>
       <trans-unit id="1501" xml:space="preserve" approved="yes">
         <source>1501</source>
@@ -12495,6 +12495,10 @@ The duty is failed when the party records its third individual player KO.</targe
         <source>3298</source>
         <target state="final">Interaction canceled. The event has ended.</target>
       </trans-unit>
+      <trans-unit id="3299" xml:space="preserve" approved="yes">
+        <source>3299</source>
+        <target state="final">Unable to participate in this duty. The related seasonal event is not currently being held.</target>
+      </trans-unit>
       <trans-unit id="3300" xml:space="preserve" approved="yes">
         <source>3300</source>
         <target state="final">Unable to execute command. You are not a member of a free company.</target>
@@ -14412,6 +14416,10 @@ Not Ready: &lt;var 20 E803 /var&gt;/&lt;var 20 E804 /var&gt;&lt;var 08 E4E80301 
         <source>3795</source>
         <target state="final">Unable to initiate ready check while engaged in battle.</target>
       </trans-unit>
+      <trans-unit id="3796" xml:space="preserve" approved="yes">
+        <source>3796</source>
+        <target state="final">Unable to record vista in sightseeing log. Conditions such as weather and time of day not met.</target>
+      </trans-unit>
       <trans-unit id="3797" xml:space="preserve" approved="yes">
         <source>3797</source>
         <target state="final">Unable to display this achievement.</target>
@@ -15705,9 +15713,17 @@ Only &lt;var 20 E806 /var&gt; &lt;var 08 E4E80602 ((was)) ((were)) /var&gt; adde
         <source>4120</source>
         <target state="final">中毒防止制限中のため工程の進捗を実行できません。</target>
       </trans-unit>
+      <trans-unit id="4121" xml:space="preserve" approved="yes">
+        <source>4121</source>
+        <target state="final">Unable to execute command. You have not learned that emote.</target>
+      </trans-unit>
       <trans-unit id="4122" xml:space="preserve" approved="yes">
         <source>4122</source>
         <target state="final">Unable to execute command. You must be a Disciple of the Hand.</target>
+      </trans-unit>
+      <trans-unit id="4123" xml:space="preserve" approved="yes">
+        <source>4123</source>
+        <target state="final">You have arrived at a vista, but it can only be recorded during certain weather and times of day.</target>
       </trans-unit>
       <trans-unit id="4126" xml:space="preserve" approved="yes">
         <source>4126</source>
@@ -17343,6 +17359,10 @@ confirm the status of your community authorizations.</target>
       <trans-unit id="4534" xml:space="preserve" approved="yes">
         <source>4534</source>
         <target state="final">A projection of &lt;var 31 ((Item)) 03E8020202 /var&gt; is added to your glamour dresser.</target>
+      </trans-unit>
+      <trans-unit id="4535" xml:space="preserve" approved="yes">
+        <source>4535</source>
+        <target state="final">Part of &lt;var 31 ((Item)) 03E8020202 /var&gt; is restored to your inventory.</target>
       </trans-unit>
       <trans-unit id="4539" xml:space="preserve" approved="yes">
         <source>4539</source>
@@ -20105,6 +20125,10 @@ will be automatically updated to their PvP counterparts.</target>
         <source>5588</source>
         <target state="final">&lt;var 28 ((ENpcResident)) E80201 /var&gt; now considers you &lt;var 09 E803 ((a “Marriage Mediator)) ((a “Customer Caretaker)) ((an “Engineering Advocate)) ((a “Savior of the Railing)) /var&gt;.“</target>
       </trans-unit>
+      <trans-unit id="5589" xml:space="preserve" approved="yes">
+        <source>5589</source>
+        <target state="final">You were unable to receive &lt;var 31 ((Item)) 03E8020202 /var&gt; and released your catch.</target>
+      </trans-unit>
       <trans-unit id="5601" xml:space="preserve" approved="yes">
         <source>5601</source>
         <target state="final">Unable to invite to fellowship. That player is on your blacklist.</target>
@@ -20335,7 +20359,7 @@ will be automatically updated to their PvP counterparts.</target>
       </trans-unit>
       <trans-unit id="5658" xml:space="preserve" approved="yes">
         <source>5658</source>
-        <target state="final">You may only join fellowships within your Home Data Center.</target>
+        <target state="final">You cannot join fellowships within your current Data Center.</target>
       </trans-unit>
       <trans-unit id="5659" xml:space="preserve" approved="yes">
         <source>5659</source>
@@ -20345,8 +20369,11 @@ Please leave any in which you are not active to make space on the list.</target>
       <trans-unit id="5660" xml:space="preserve" approved="yes">
         <source>5660</source>
         <target state="final">You belong to more cross-world linkshells than can be displayed.
-Please leave any in which you are not active to make space on the list.
-(Chat will be enabled for newly displayed linkshells after changing areas once.)</target>
+Select “Cross-world Linkshells” from the Social menu to organize them.</target>
+      </trans-unit>
+      <trans-unit id="5661" xml:space="preserve" approved="yes">
+        <source>5661</source>
+        <target state="final">The Cross-world Linkshells window has been updated. The number of active cross-world linkshells has changed.</target>
       </trans-unit>
       <trans-unit id="5670" xml:space="preserve" approved="yes">
         <source>5670</source>
@@ -20502,7 +20529,7 @@ Please leave any in which you are not active to make space on the list.
       </trans-unit>
       <trans-unit id="5776" xml:space="preserve" approved="yes">
         <source>5776</source>
-        <target state="final">You receive &lt;var 20 E803 /var&gt; &lt;var 31 ((Item)) 02E802E80302 /var&gt;. Your minimog challenge rewards for the week have been claimed.</target>
+        <target state="final">You receive &lt;var 20 E803 /var&gt; &lt;var 31 ((Item)) 02E802E80302 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="5777" xml:space="preserve" approved="yes">
         <source>5777</source>
@@ -20598,7 +20625,7 @@ Please leave any in which you are not active to make space on the list.
       </trans-unit>
       <trans-unit id="5805" xml:space="preserve" approved="yes">
         <source>5805</source>
-        <target state="final">Unable to execute this command while outside of your Home Data Center.</target>
+        <target state="final">Unable to execute this command within your current Data Center.</target>
       </trans-unit>
       <trans-unit id="5806" xml:space="preserve" approved="yes">
         <source>5806</source>
@@ -20661,6 +20688,24 @@ You may remove favored destinations from the teleportation menu, which can be ac
       <trans-unit id="5825" xml:space="preserve" approved="yes">
         <source>5825</source>
         <target state="final">Destination has been removed.</target>
+      </trans-unit>
+      <trans-unit id="5826" xml:space="preserve" approved="yes">
+        <source>5826</source>
+        <target state="final">Aetheryte registered as a Nintendo Switch Online free destination.</target>
+      </trans-unit>
+      <trans-unit id="5827" xml:space="preserve" approved="yes">
+        <source>5827</source>
+        <target state="final">Unable to register free destination. You are either not subscribed to Nintendo Switch Online or your Nintendo Switch Online Reward has expired.
+(Locations registered as Nintendo Switch Online free destinations allow teleportation at no cost.)</target>
+      </trans-unit>
+      <trans-unit id="5828" xml:space="preserve" approved="yes">
+        <source>5828</source>
+        <target state="final">This location is already registered as a Nintendo Switch Online free destination.</target>
+      </trans-unit>
+      <trans-unit id="5829" xml:space="preserve" approved="yes">
+        <source>5829</source>
+        <target state="final">Your Nintendo Switch Online Reward has expired. Teleporting will incur a gil fee.
+You may remove favored destinations from the teleportation menu, which can be accessed by selecting Teleport under Travel in the main menu.</target>
       </trans-unit>
       <trans-unit id="5840" xml:space="preserve" approved="yes">
         <source>5840</source>
@@ -23882,6 +23927,14 @@ Aetherpool armor: &lt;var 20 E803 /var&gt;</target>
         <source>7802</source>
         <target state="final">Unable to execute command while editing a strategy board.</target>
       </trans-unit>
+      <trans-unit id="7803" xml:space="preserve" approved="yes">
+        <source>7803</source>
+        <target state="final">Unable to execute command while using configuration sharing.</target>
+      </trans-unit>
+      <trans-unit id="7804" xml:space="preserve" approved="yes">
+        <source>7804</source>
+        <target state="final">Unable to execute command while crafting.</target>
+      </trans-unit>
       <trans-unit id="7900" xml:space="preserve" approved="yes">
         <source>7900</source>
         <target state="final">Please wait until all opponents have arrived.</target>
@@ -24088,7 +24141,7 @@ Aetherpool armor: &lt;var 20 E803 /var&gt;</target>
       </trans-unit>
       <trans-unit id="7978" xml:space="preserve" approved="yes">
         <source>7978</source>
-        <target state="final">&lt;var 20 E802 /var&gt; Second Chance &lt;var 08 E4E80202 ((point)) ((points)) /var&gt; obtained.</target>
+        <target state="final">&lt;var 20 E802 /var&gt; Second Chance &lt;var 08 E4E80202 ((point)) ((points)) /var&gt; obtained for completing a bonus point duty.</target>
       </trans-unit>
       <trans-unit id="7979" xml:space="preserve" approved="yes">
         <source>7979</source>
@@ -25466,6 +25519,14 @@ Aetherpool armor: &lt;var 20 E803 /var&gt;</target>
         <source>8325</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((study)) ((studies)) /var&gt; intently with &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
       </trans-unit>
+      <trans-unit id="8326" xml:space="preserve" approved="yes">
+        <source>8326</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((break)) ((breaks)) /var&gt; into a spontaneous dance.</target>
+      </trans-unit>
+      <trans-unit id="8327" xml:space="preserve" approved="yes">
+        <source>8327</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((break)) ((breaks)) /var&gt; into a spontaneous dance for &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
       <trans-unit id="8328" xml:space="preserve" approved="yes">
         <source>8328</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((sip)) ((sips)) /var&gt; at a mug of mulled Gridanian punch.</target>
@@ -25546,6 +25607,14 @@ Aetherpool armor: &lt;var 20 E803 /var&gt;</target>
         <source>8347</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((scrawl)) ((scrawls)) /var&gt; down some notes before &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
       </trans-unit>
+      <trans-unit id="8348" xml:space="preserve" approved="yes">
+        <source>8348</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((are)) ((is)) /var&gt; knocked off &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((his)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((his)) /var&gt;)) /var&gt;)) /var&gt; feet.</target>
+      </trans-unit>
+      <trans-unit id="8349" xml:space="preserve" approved="yes">
+        <source>8349</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((are)) ((is)) /var&gt; knocked off &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((his)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((his)) /var&gt;)) /var&gt;)) /var&gt; feet by &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
       <trans-unit id="8350" xml:space="preserve" approved="yes">
         <source>8350</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((stomp)) ((stomps)) /var&gt; the ground.</target>
@@ -25618,6 +25687,30 @@ Aetherpool armor: &lt;var 20 E803 /var&gt;</target>
         <source>8367</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((strut)) ((struts)) /var&gt; confidently before &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;, as though all eyes are on &lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((him)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((him)) /var&gt;)) /var&gt;)) /var&gt;.</target>
       </trans-unit>
+      <trans-unit id="8368" xml:space="preserve" approved="yes">
+        <source>8368</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8369" xml:space="preserve" approved="yes">
+        <source>8369</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
+      <trans-unit id="8370" xml:space="preserve" approved="yes">
+        <source>8370</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8371" xml:space="preserve" approved="yes">
+        <source>8371</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
+      <trans-unit id="8372" xml:space="preserve" approved="yes">
+        <source>8372</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; to the rhythm.</target>
+      </trans-unit>
+      <trans-unit id="8373" xml:space="preserve" approved="yes">
+        <source>8373</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cheer)) ((cheers)) /var&gt; &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt; on.</target>
+      </trans-unit>
       <trans-unit id="8374" xml:space="preserve" approved="yes">
         <source>8374</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((clutch)) ((clutches)) /var&gt; a book to &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((his)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((his)) /var&gt;)) /var&gt;)) /var&gt; chest.</target>
@@ -25649,6 +25742,22 @@ Aetherpool armor: &lt;var 20 E803 /var&gt;</target>
       <trans-unit id="8381" xml:space="preserve" approved="yes">
         <source>8381</source>
         <target state="final">A brilliant light emanates from &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;'s)) /var&gt; tiara, falling upon &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="8386" xml:space="preserve" approved="yes">
+        <source>8386</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((burst)) ((bursts)) /var&gt; into a bout of irrepressible cackling.</target>
+      </trans-unit>
+      <trans-unit id="8387" xml:space="preserve" approved="yes">
+        <source>8387</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((cackle)) ((cackles)) /var&gt; irrepressibly at the sight of &lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="8388" xml:space="preserve" approved="yes">
+        <source>8388</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((keep)) ((keeps)) /var&gt; time by swishing &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((his)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((his)) /var&gt;)) /var&gt;)) /var&gt; baton authoritatively.</target>
+      </trans-unit>
+      <trans-unit id="8389" xml:space="preserve" approved="yes">
+        <source>8389</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB03 ((you)) ((&lt;var 08 E908 ((&lt;var 31 ((ObjStr)) 03E9080202 /var&gt;)) EB03 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB03 ((use)) ((uses)) /var&gt; &lt;var 08 E4EB02EB03 ((your)) ((&lt;var 08 E908 ((&lt;var 08 ((&lt;var 28 ((BNpcName)) E90807 /var&gt;)) ((her)) ((his)) /var&gt;)) ((&lt;var 08 E906 ((her)) ((his)) /var&gt;)) /var&gt;)) /var&gt; baton to conduct &lt;var 08 E4EB02EB04 ((your)) ((&lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;'s)) /var&gt; performance.</target>
       </trans-unit>
       <trans-unit id="9001" xml:space="preserve" approved="yes">
         <source>9001</source>
@@ -25904,10 +26013,34 @@ You will be prompted to transfer settings again when changing jobs to &lt;var 28
         <source>9113</source>
         <target state="final">You are teleported to a different place...</target>
       </trans-unit>
+      <trans-unit id="9120" xml:space="preserve" approved="yes">
+        <source>9120</source>
+        <target state="final">Copied code to clipboard.</target>
+      </trans-unit>
+      <trans-unit id="9121" xml:space="preserve" approved="yes">
+        <source>9121</source>
+        <target state="final">Entered code is incorrect.</target>
+      </trans-unit>
+      <trans-unit id="9122" xml:space="preserve" approved="yes">
+        <source>9122</source>
+        <target state="final">No settings are selected.</target>
+      </trans-unit>
+      <trans-unit id="9123" xml:space="preserve" approved="yes">
+        <source>9123</source>
+        <target state="final">Configuration sharing can only be used on your Home World.</target>
+      </trans-unit>
+      <trans-unit id="9124" xml:space="preserve" approved="yes">
+        <source>9124</source>
+        <target state="final">Configuration sharing can only be used in a sanctuary.</target>
+      </trans-unit>
+      <trans-unit id="9125" xml:space="preserve" approved="yes">
+        <source>9125</source>
+        <target state="final">Unable to upload shared data due to inappropriate content. Please revise your entered comment and try again.</target>
+      </trans-unit>
       <trans-unit id="9199" xml:space="preserve" approved="yes">
         <source>9199</source>
         <target state="final">No members eligible to become the new master.
-You must either disband this cross-world linkshell, or invite a new member from your current data center before choosing to quit.</target>
+You must either disband this cross-world linkshell, or invite a new member before choosing to quit.</target>
       </trans-unit>
       <trans-unit id="9200" xml:space="preserve" approved="yes">
         <source>9200</source>
@@ -26091,7 +26224,7 @@ You must either disband this cross-world linkshell, or invite a new member from 
       </trans-unit>
       <trans-unit id="9245" xml:space="preserve" approved="yes">
         <source>9245</source>
-        <target state="final">Unable to invite to cross-world linkshell. That player is offline.</target>
+        <target state="final">Unable to invite to cross-world linkshell.</target>
       </trans-unit>
       <trans-unit id="9246" xml:space="preserve" approved="yes">
         <source>9246</source>
@@ -26423,6 +26556,10 @@ Completion will count towards blue mage log progress.</target>
         <source>9348</source>
         <target state="final">Gwyddrud begins harnessing lightning once more!</target>
       </trans-unit>
+      <trans-unit id="9349" xml:space="preserve" approved="yes">
+        <source>9349</source>
+        <target state="final">The void's power ravages your corporeal form...</target>
+      </trans-unit>
       <trans-unit id="9350" xml:space="preserve" approved="yes">
         <source>9350</source>
         <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;)) /var&gt; &lt;var 08 E4EB02EB04 ((begin)) ((begins)) /var&gt; the invocation.</target>
@@ -26487,6 +26624,14 @@ Completion will count towards blue mage log progress.</target>
       <trans-unit id="9366" xml:space="preserve" approved="yes">
         <source>9366</source>
         <target state="final">&lt;var 08 E4E80201 ((The trial is passed.)) ((The ephemeral observer retreats into the shadows.)) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="9370" xml:space="preserve" approved="yes">
+        <source>9370</source>
+        <target state="final">Enuo's power is waning!</target>
+      </trans-unit>
+      <trans-unit id="9371" xml:space="preserve" approved="yes">
+        <source>9371</source>
+        <target state="final">The vacuums grow in number...</target>
       </trans-unit>
       <trans-unit id="9372" xml:space="preserve" approved="yes">
         <source>9372</source>
@@ -26694,6 +26839,22 @@ If you are unsure why you have received this message, visit the support desk.</t
       <trans-unit id="9423" xml:space="preserve" approved="yes">
         <source>9423</source>
         <target state="final">Your Home World is currently experiencing server difficulties.</target>
+      </trans-unit>
+      <trans-unit id="9424" xml:space="preserve" approved="yes">
+        <source>9424</source>
+        <target state="final">Unable to visit World. Character movement has been restricted at this time.</target>
+      </trans-unit>
+      <trans-unit id="9425" xml:space="preserve" approved="yes">
+        <source>9425</source>
+        <target state="final">Due to movement restrictions, characters from other Worlds cannot visit at this time.</target>
+      </trans-unit>
+      <trans-unit id="9426" xml:space="preserve" approved="yes">
+        <source>9426</source>
+        <target state="final">This World is experiencing congestion. All character movement has been restricted at this time.</target>
+      </trans-unit>
+      <trans-unit id="9427" xml:space="preserve" approved="yes">
+        <source>9427</source>
+        <target state="final">This World is experiencing congestion. Character movement is limited at this time.</target>
       </trans-unit>
       <trans-unit id="9451" xml:space="preserve" approved="yes">
         <source>9451</source>
@@ -30503,6 +30664,10 @@ Learn more about these quest objectives via the &lt;var 12 B7 /var&gt; icon in t
         <source>10484</source>
         <target state="final">Unable to execute command. This enemy has been spawned by another player.</target>
       </trans-unit>
+      <trans-unit id="10487" xml:space="preserve" approved="yes">
+        <source>10487</source>
+        <target state="final">&lt;var 12 40 /var&gt;You have lost sight of Bathu Molkoh. Speak with her again to reform your party.</target>
+      </trans-unit>
       <trans-unit id="10500" xml:space="preserve" approved="yes">
         <source>10500</source>
         <target state="final">The animals are worked up into a frenzy!</target>
@@ -30537,7 +30702,7 @@ Learn more about these quest objectives via the &lt;var 12 B7 /var&gt; icon in t
       </trans-unit>
       <trans-unit id="10508" xml:space="preserve" approved="yes">
         <source>10508</source>
-        <target state="final">You dye &lt;var 31 ((Item)) 03E8020202 /var&gt; with &lt;var 31 ((Item)) 02E8040202 /var&gt; as Dye &lt;var 20 E803 /var&gt;.</target>
+        <target state="final">You use &lt;var 31 ((Item)) 02E8040202 /var&gt; to change Dye &lt;var 20 E803 /var&gt; of your &lt;var 31 ((Item)) 04E8020202 /var&gt; to &lt;var 28 ((Stain)) E80507 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="10509" xml:space="preserve" approved="yes">
         <source>10509</source>
@@ -32615,15 +32780,15 @@ All participants must take to the field and make ready for battle!</target>
       </trans-unit>
       <trans-unit id="11171" xml:space="preserve" approved="yes">
         <source>11171</source>
-        <target state="final">You earn a score of &lt;var 20 E802 /var&gt; for achieving &lt;var 20 E803 /var&gt; successive chain&lt;var 08 E2E80302 (()) ((s)) /var&gt;.</target>
+        <target state="final">You earn a score of &lt;var 20 E802 /var&gt;&lt;var 08 E1E80401 (((+&lt;var 20 E804 /var&gt;%))) (()) /var&gt; for achieving &lt;var 20 E803 /var&gt; successive chain&lt;var 08 E2E80302 (()) ((s)) /var&gt;.</target>
       </trans-unit>
       <trans-unit id="11172" xml:space="preserve" approved="yes">
         <source>11172</source>
-        <target state="final">You earn a score of &lt;var 20 E802 /var&gt; from Gatherer's Boon.</target>
+        <target state="final">You earn a score of &lt;var 20 E802 /var&gt;&lt;var 08 E1E80301 (((+&lt;var 20 E803 /var&gt;%))) (()) /var&gt; from Gatherer's Boon.</target>
       </trans-unit>
       <trans-unit id="11173" xml:space="preserve" approved="yes">
         <source>11173</source>
-        <target state="final">You earn a score of &lt;var 20 E802 /var&gt; for achieving &lt;var 20 E804 /var&gt; successive chain&lt;var 08 E2E80402 (()) ((s)) /var&gt; and a score of &lt;var 20 E803 /var&gt; from Gatherer's Boon.</target>
+        <target state="final">You earn a score of &lt;var 20 E802 /var&gt;&lt;var 08 E1E80501 (((+&lt;var 20 E805 /var&gt;%))) (()) /var&gt; for achieving &lt;var 20 E804 /var&gt; successive chain&lt;var 08 E2E80402 (()) ((s)) /var&gt; and a score of &lt;var 20 E803 /var&gt;&lt;var 08 E1E80501 (((+&lt;var 20 E805 /var&gt;%))) (()) /var&gt; from Gatherer's Boon.</target>
       </trans-unit>
       <trans-unit id="11174" xml:space="preserve" approved="yes">
         <source>11174</source>
@@ -33087,11 +33252,6 @@ Sacramental offerings will be expended upon opening this coffer.</target>
         <source>11315</source>
         <target state="final">Your cleaning spirit rises! The Spriganator calls! &lt;var 60 014F /var&gt;</target>
       </trans-unit>
-      <trans-unit id="11316" xml:space="preserve" approved="yes">
-        <source>11316</source>
-        <target state="final">フシギナ・トラップが出現した。
-刈ると何かいいことが起こりそうな気がする……！</target>
-      </trans-unit>
       <trans-unit id="11317" xml:space="preserve" approved="yes">
         <source>11317</source>
         <target state="final">Your eyes are drawn to the glimmer of Archon eggs!</target>
@@ -33316,7 +33476,7 @@ You may undertake these missions via the Stellar Missions section of the exotabl
       </trans-unit>
       <trans-unit id="11372" xml:space="preserve" approved="yes">
         <source>11372</source>
-        <target state="final">_rsv_11372_-1_1_0_0_SF15185AF_EF15185AF</target>
+        <target state="final">Gorging on the audience has pushed Vamp Fatale beyond her limits!</target>
       </trans-unit>
       <trans-unit id="11373" xml:space="preserve" approved="yes">
         <source>11373</source>
@@ -33498,9 +33658,93 @@ You may undertake these missions via the Stellar Missions section of the exotabl
         <source>11526</source>
         <target state="final">Real-time sharing canceled. You have changed areas.</target>
       </trans-unit>
+      <trans-unit id="11531" xml:space="preserve" approved="yes">
+        <source>11531</source>
+        <target state="final">Your foe is scanning for moving targets!</target>
+      </trans-unit>
       <trans-unit id="11532" xml:space="preserve" approved="yes">
         <source>11532</source>
         <target state="final">Strategy board folder “&lt;var 29 EA02 /var&gt;” deleted.</target>
+      </trans-unit>
+      <trans-unit id="11539" xml:space="preserve" approved="yes">
+        <source>11539</source>
+        <target state="final">&lt;var 08 E4E80201 ((Team Astra)) ((Team Umbra)) /var&gt; has created a bridge!</target>
+      </trans-unit>
+      <trans-unit id="11540" xml:space="preserve" approved="yes">
+        <source>11540</source>
+        <target state="final">&lt;var 08 E4E80201 ((Team Astra)) ((Team Umbra)) /var&gt; has created a bridge!</target>
+      </trans-unit>
+      <trans-unit id="11541" xml:space="preserve" approved="yes">
+        <source>11541</source>
+        <target state="final">“&lt;var 28 ((DescriptionString)) F20497011B /var&gt;” has been added to the Sightseeing Log guide.</target>
+      </trans-unit>
+      <trans-unit id="11569" xml:space="preserve" approved="yes">
+        <source>11569</source>
+        <target state="final">Logout canceled. Failed to cancel duty registration.</target>
+      </trans-unit>
+      <trans-unit id="11580" xml:space="preserve" approved="yes">
+        <source>11580</source>
+        <target state="final">Exchanged &lt;var 20 E803 /var&gt; &lt;var 08 E4E80302 ((&lt;var 31 ((Item)) 04E8020202 /var&gt;)) ((&lt;var 31 ((Item)) 04E8020302 /var&gt;)) /var&gt; for &lt;var 20 E803 /var&gt; &lt;var 08 E4E80302 ((&lt;var 31 ((Item)) 04E8040202 /var&gt;)) ((&lt;var 31 ((Item)) 04E8040302 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="11581" xml:space="preserve" approved="yes">
+        <source>11581</source>
+        <target state="final">Duty conditions have changed. Finding new member.</target>
+      </trans-unit>
+      <trans-unit id="11583" xml:space="preserve" approved="yes">
+        <source>11583</source>
+        <target state="final">You receive &lt;var 08 E4E80302 ((&lt;var 31 ((Item)) 02E8020202 /var&gt;)) ((&lt;var 20 E803 /var&gt; &lt;var 31 ((Item)) 02E802E80302 /var&gt;)) /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="11586" xml:space="preserve" approved="yes">
+        <source>11586</source>
+        <target state="final">You are ensnared by Malphas's tendrils...</target>
+      </trans-unit>
+      <trans-unit id="11590" xml:space="preserve" approved="yes">
+        <source>11590</source>
+        <target state="final">Your dark resistance has been reduced...</target>
+      </trans-unit>
+      <trans-unit id="11591" xml:space="preserve" approved="yes">
+        <source>11591</source>
+        <target state="final">Aether running through the floor threatens to explode!</target>
+      </trans-unit>
+      <trans-unit id="11592" xml:space="preserve" approved="yes">
+        <source>11592</source>
+        <target state="final">You sense a powerful gale approaches...</target>
+      </trans-unit>
+      <trans-unit id="11609" xml:space="preserve" approved="yes">
+        <source>11609</source>
+        <target state="final">Unable to continue this quest with your current class/job due to changes made to quest requirements. Please abandon and accept the quest again.</target>
+      </trans-unit>
+      <trans-unit id="11610" xml:space="preserve" approved="yes">
+        <source>11610</source>
+        <target state="final">Unable to complete this quest with your current class/job due to changes made to quest requirements. Please abandon and accept the quest again.</target>
+      </trans-unit>
+      <trans-unit id="11612" xml:space="preserve" approved="yes">
+        <source>11612</source>
+        <target state="final">Your light resistance has been reduced...</target>
+      </trans-unit>
+      <trans-unit id="11613" xml:space="preserve" approved="yes">
+        <source>11613</source>
+        <target state="final">Job distributions recommended for high-end duties selected.</target>
+      </trans-unit>
+      <trans-unit id="11614" xml:space="preserve" approved="yes">
+        <source>11614</source>
+        <target state="final">Feature unavailable with current job distribution.</target>
+      </trans-unit>
+      <trans-unit id="11616" xml:space="preserve" approved="yes">
+        <source>11616</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;)) /var&gt; closes their eyes and gives a contented kweh.</target>
+      </trans-unit>
+      <trans-unit id="11617" xml:space="preserve" approved="yes">
+        <source>11617</source>
+        <target state="final">&lt;var 2B ((&lt;var 08 E4EB02EB04 ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) ((you)) /var&gt;)) ((&lt;var 08 E909 ((&lt;var 31 ((ObjStr)) 03E9090202 /var&gt;)) EB04 /var&gt;)) /var&gt;)) /var&gt; ruffles their feathers indignantly.</target>
+      </trans-unit>
+      <trans-unit id="11624" xml:space="preserve" approved="yes">
+        <source>11624</source>
+        <target state="final">&lt;var 08 E908 ((&lt;var 28 ((ObjStr)) E90801 /var&gt;)) EB03 /var&gt;の攻撃  &lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;はブロックした！&lt;var 20 E803 /var&gt;&lt;var 08 E4E80401 (()) ((&lt;var 08 E1E80401 (((+&lt;var 20 E804 /var&gt;%))) (((&lt;var 20 E804 /var&gt;%))) /var&gt;)) /var&gt;ＨＰ吸収。</target>
+      </trans-unit>
+      <trans-unit id="11625" xml:space="preserve" approved="yes">
+        <source>11625</source>
+        <target state="final"> &lt;var 08 E909 ((&lt;var 28 ((ObjStr)) E90901 /var&gt;)) EB04 /var&gt;はブロックした！&lt;var 20 E803 /var&gt;&lt;var 08 E4E80401 (()) ((&lt;var 08 E1E80401 (((+&lt;var 20 E804 /var&gt;%))) (((&lt;var 20 E804 /var&gt;%))) /var&gt;)) /var&gt;ＨＰ吸収。</target>
       </trans-unit>
     </body>
   </file>
