@@ -2345,18 +2345,19 @@ Macht Menü Nummer X zu einem geteilten Menü.
 Macht Menü Nummer X zu einem geteilten/exklusiven Menü.
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;entf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; [Nummer X] [Slot-Name]
 Entfernt, was in Menü Nummer X im angegebenen Slot angelegt war.
-  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;entf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;[Nummer X] &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;alle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;entf&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; [Nummer X] &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;alle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Leert alle Slots von Menü Nummer X.
 &gt;&gt;Slot-Namen:
 
-&lt;var 12 0F /var&gt;＋&lt;var 12 04 /var&gt; ... LDL (LD1)  &lt;var 12 10 /var&gt;＋&lt;var 12 04 /var&gt; ... RDL (RD1)
-&lt;var 12 0F /var&gt;＋&lt;var 12 02 /var&gt; ... LDU (LD2)  &lt;var 12 10 /var&gt;＋&lt;var 12 02 /var&gt; ... RDU (RD2)
-&lt;var 12 0F /var&gt;＋&lt;var 12 05 /var&gt; ... LDR (LD3)  &lt;var 12 10 /var&gt;＋&lt;var 12 05 /var&gt; ... RDR (RD3)
-&lt;var 12 0F /var&gt;＋&lt;var 12 03 /var&gt; ... LDD (LD4)  &lt;var 12 10 /var&gt;＋&lt;var 12 03 /var&gt; ... RDD (RD4)
-&lt;var 12 0F /var&gt;＋&lt;var 12 0B /var&gt; ... LAL (LA1)  &lt;var 12 10 /var&gt;＋&lt;var 12 0B /var&gt; ... RAL (RA1)
-&lt;var 12 0F /var&gt;＋&lt;var 12 0C /var&gt; ... LAU (LA2)  &lt;var 12 10 /var&gt;＋&lt;var 12 0C /var&gt; ... RAU (RA2)
-&lt;var 12 0F /var&gt;＋&lt;var 12 09 /var&gt; ... LAR (LA3)  &lt;var 12 10 /var&gt;＋&lt;var 12 09 /var&gt; ... RAR (RA3)
-&lt;var 12 0F /var&gt;＋&lt;var 12 0A /var&gt; ... LAD (LA4)  &lt;var 12 10 /var&gt;＋&lt;var 12 0A /var&gt; ... RAD (RA4)&lt;tab&gt;/pvpkreuzkommandomenü&lt;tab&gt;/pvpkreuzmenü&lt;tab&gt;/pvpcrosshotbar&lt;tab&gt;/pvpchotbar</target>
+Slots können ohne Namen erstellt werden. In diesem Fall wird der automatisch einem nicht benutzten Slot zugewiesen.
+&lt;var 12 0F /var&gt;＋&lt;var 12 04 /var&gt; ... LDL (LD1) &lt;var 12 10 /var&gt;＋&lt;var 12 04 /var&gt; ... RDL (RD1)
+&lt;var 12 0F /var&gt;＋&lt;var 12 02 /var&gt; ... LDU (LD2) &lt;var 12 10 /var&gt;＋&lt;var 12 02 /var&gt; ... RDU (RD2)
+&lt;var 12 0F /var&gt;＋&lt;var 12 05 /var&gt; ... LDR (LD3) &lt;var 12 10 /var&gt;＋&lt;var 12 05 /var&gt; ... RDR (RD3)
+&lt;var 12 0F /var&gt;＋&lt;var 12 03 /var&gt; ... LDD (LD4) &lt;var 12 10 /var&gt;＋&lt;var 12 03 /var&gt; ... RDD (RD4)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0B /var&gt; ... LAL (LA1) &lt;var 12 10 /var&gt;＋&lt;var 12 0B /var&gt; ... RAL (RA1)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0C /var&gt; ... LAU (LA2) &lt;var 12 10 /var&gt;＋&lt;var 12 0C /var&gt; ... RAU (RA2)
+&lt;var 12 0F /var&gt;＋&lt;var 12 09 /var&gt; ... LAR (LA3) &lt;var 12 10 /var&gt;＋&lt;var 12 09 /var&gt; ... RAR (RA3)
+&lt;var 12 0F /var&gt;＋&lt;var 12 0A /var&gt; ... LAD (LA4) &lt;var 12 10 /var&gt;＋&lt;var 12 0A /var&gt; ... RAD (RA4)&lt;tab&gt;/pvpkreuzkommandomenü&lt;tab&gt;/pvpkreuzmenü&lt;tab&gt;/pvpcrosshotbar&lt;tab&gt;/pvpchotbar</target>
       </trans-unit>
       <trans-unit id="327" xml:space="preserve" approved="yes">
         <source>327</source>
@@ -5001,7 +5002,7 @@ VERWENDUNG:
         <target state="final">/anwipporange, /wipporange, /cheeroo
 VERWENDUNG:
 /anwipporange [Unterbefehl]
-→ Du feuerst wippend mit blau schimmernden Leuchtstäben an.
+→ Du feuerst wippend mit orange schimmernden Leuchtstäben an.
 &gt;&gt;Unterbefehl:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anwipporange&lt;tab&gt;/wipporange&lt;tab&gt;/cheeronorange&lt;tab&gt;/cheeroo</target>
       </trans-unit>
@@ -5018,7 +5019,7 @@ VERWENDUNG:
         <source>717</source>
         <target state="final">/anhüpfdunkelblau, /hüpfdunkelblau, /cheerji
 VERWENDUNG:
-/anhüpfrot [Unterbefehl]
+/anhüpfdunkelblau [Unterbefehl]
 → Du feuerst hüpfend mit dunkelblau schimmernden Leuchtstäben an.
 &gt;&gt;Unterbefehl:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anhüpfdunkelblau&lt;tab&gt;/hüpfdunkelblau&lt;tab&gt;/cheerjumpindigo&lt;tab&gt;/cheerji</target>
@@ -5112,6 +5113,24 @@ VERWENDUNG:
 → Du gibst begeistert den Takt an.
 &gt;&gt;Unterbefehl:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/dirigieren&lt;tab&gt;&lt;tab&gt;/conduct&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="731" xml:space="preserve" approved="yes">
+        <source>731</source>
+        <target state="final">/tacoessen, /eattaco
+VERWENDUNG:
+/tacoessen [Unterbefehl]
+→ Du isst genüsslich einen Taco.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/tacoessen&lt;tab&gt;&lt;tab&gt;/eattaco&lt;tab&gt;/taco</target>
+      </trans-unit>
+      <trans-unit id="732" xml:space="preserve" approved="yes">
+        <source>732</source>
+        <target state="final">/tacomampfen, /devourtaco
+VERWENDUNG:
+/tacomampfen [Unterbefehl]
+→ Du mampfst unaufhörlich einen Taco.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/tacomampfen&lt;tab&gt;&lt;tab&gt;/devourtaco&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>
