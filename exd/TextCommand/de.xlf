@@ -414,6 +414,7 @@ Ruft das Menü „Momentanes Aussehen deiner Familiare“ auf.&lt;tab&gt;/famili
         <target state="final">/familiargröße, /petsize
 VERWENDUNG: /familiargröße [Familiarname] [Größe]
 → Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.
+※Die Größe von Begleitern des Bestienbändigers kann mit /bestiengröße geändert werden.
 &gt;&gt;Familiarname:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Demi-Bahamut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Demi-Phönix&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -1578,7 +1579,7 @@ VERWENDUNG:
 /sgr [Klasse/Job]
 → Setzt deinen Online-Status für die spezifizierte Klasse (Job) auf „Sucht Gruppe“.
 &gt;&gt;Klassen/Jobs (mehrere möglich):
-&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paladin (PLD), Gladiator (GLA), Krieger (KRG), Marodeur (MAR), Dunkelritter (DKR), Revolver&lt;var 16 /var&gt;klinge (REV), Weißmagier (WMA), Druide (DRU), Gelehrter (GLT), Astrologe (AST), Weiser (WEI), Mönch (MÖN), Faustkämpfer (FST), Dragoon (DRG), Pikenier (PIK), Ninja (NIN), Schurke (SCH), Samurai (SAM), Schnitter (SNT), Viper (VPR), Barde (BRD), Waldläufer (WDL), Maschinist (MCH), Tänzer (TÄN), Schwarzmagier (SMA), Thaumaturg (THM), Beschwörer (BSW), Hermetiker (HRT), Rotmagier (RMA), Piktomant (PKT), Blaumagier (BMA), Zimmerer (ZIM), Grobschmied (GRS), Plattner (PLA), Goldschmied (GLD), Gerber (GER), Weber (WEB), Alchemist (ALC), Gourmet (GRM), Minenarbeiter (MIN), Gärtner (GÄR), Fischer (FIS)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paladin (PLD), Gladiator (GLA), Krieger (KRG), Marodeur (MAR), Dunkelritter (DKR), Revolver&lt;var 16 /var&gt;klinge (REV), Weißmagier (WMA), Druide (DRU), Gelehrter (GLT), Astrologe (AST), Weiser (WEI), Mönch (MÖN), Faustkämpfer (FST), Dragoon (DRG), Pikenier (PIK), Ninja (NIN), Schurke (SCH), Samurai (SAM), Schnitter (SNT), Viper (VPR), Bestienbändiger (BST), Barde (BRD), Waldläufer (WDL), Maschinist (MCH), Tänzer (TÄN), Schwarzmagier (SMA), Thaumaturg (THM), Beschwörer (BSW), Hermetiker (HRT), Rotmagier (RMA), Piktomant (PKT), Blaumagier (BMA), Zimmerer (ZIM), Grobschmied (GRS), Plattner (PLA), Goldschmied (GLD), Gerber (GER), Weber (WEB), Alchemist (ALC), Gourmet (GRM), Minenarbeiter (MIN), Gärtner (GÄR), Fischer (FIS)&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Bei fehlender Klasse wird die momentane gewählt.
 &gt;&gt;Unterbefehle:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ein&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;on&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Setzt den Status auf „Sucht Gruppe“.
@@ -5096,6 +5097,24 @@ VERWENDUNG:
 &gt;&gt;Unterbefehl:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/anschwofgrün&lt;tab&gt;/schwofgrün&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
       </trans-unit>
+      <trans-unit id="727" xml:space="preserve" approved="yes">
+        <source>727</source>
+        <target state="final">/kartelesen, /navigate, /checkmap
+VERWENDUNG:
+/kartelesen [Unterbefehl]
+→ Du liest eine Karte.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/kartelesen&lt;tab&gt;&lt;tab&gt;/navigate&lt;tab&gt;/checkmap</target>
+      </trans-unit>
+      <trans-unit id="728" xml:space="preserve" approved="yes">
+        <source>728</source>
+        <target state="final">/magitipp, /magitype
+VERWENDUNG:
+/magitipp [Unterbefehl]
+→ Eine Magitipp-Tastatur erscheint und du hämmerst drauf los.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/magitipp&lt;tab&gt;&lt;tab&gt;/magitype&lt;tab&gt;</target>
+      </trans-unit>
       <trans-unit id="729" xml:space="preserve" approved="yes">
         <source>729</source>
         <target state="final">/spitz, /cackle
@@ -5116,7 +5135,7 @@ VERWENDUNG:
       </trans-unit>
       <trans-unit id="731" xml:space="preserve" approved="yes">
         <source>731</source>
-        <target state="final">/tacoessen, /eattaco
+        <target state="final">/tacoessen, /taco, /eattaco
 VERWENDUNG:
 /tacoessen [Unterbefehl]
 → Du isst genüsslich einen Taco.
@@ -5131,6 +5150,15 @@ VERWENDUNG:
 → Du mampfst unaufhörlich einen Taco.
 &gt;&gt;Unterbefehl:
   &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/tacomampfen&lt;tab&gt;&lt;tab&gt;/devourtaco&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="733" xml:space="preserve" approved="yes">
+        <source>733</source>
+        <target state="final">/zurückblicken, /lookback
+VERWENDUNG:
+/zurückblicken [Unterbefehl]
+→ Du blickst zurück.
+&gt;&gt;Unterbefehl:
+  &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;bw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; (&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. &lt;tab&gt;/zurückblicken&lt;tab&gt;&lt;tab&gt;/lookback&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

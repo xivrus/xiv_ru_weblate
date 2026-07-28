@@ -490,7 +490,7 @@ Displays pet glamour settings in chat log when no subcommand is specified.
         <target state="final">USAGE:
 　/petsize [summon] [size]
 
-→Alter the size of select summons. Command not applicable in PvP instances. These settings will not apply to other players.
+→Alter the size of select summons. (Use /beastsize to alter the size of beastmaster summons.) Command not applicable in PvP instances. These settings will not apply to other players.
 
 &gt;&gt;Egi Name:
 　Demi-Bahamut
@@ -2367,15 +2367,7 @@ USAGE:
 Toggle between Looking for Party and Online when no subcommand is specified.
 
 &gt;&gt;Classes/Jobs:
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PLD&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GLA&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WAR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MRD&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DRK&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
- &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GNB&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WHM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CNJ&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SCH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;AST&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
- &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SGE&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MNK&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PGL&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DRG&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;LNC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
- &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;NIN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ROG&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SAM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;VPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
- &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BRD&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ARC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MCH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DNC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
- &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;THM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SMN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ACN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RDM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PCT&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
-　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLU&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CRP&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BSM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ARM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GSM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
- &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;LTW&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WVR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ALC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CUL&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MIN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;,
- &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BTN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;FSH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PLD&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GLA&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WAR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MRD&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DRK&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GNB&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WHM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CNJ&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SCH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;AST&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SGE&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MNK&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PGL&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DRG&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;LNC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;NIN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ROG&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SAM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;VPR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BST&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BRD&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ARC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MCH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;DNC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;THM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;SMN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ACN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;RDM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;PCT&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BLU&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CRP&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BSM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ARM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;GSM&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;LTW&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;WVR&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;ALC&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;CUL&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;MIN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;BTN&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;FSH&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 
 Multiple classes/jobs─or none at all─may be specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lookingforparty&lt;tab&gt;/lfp</target>
       </trans-unit>
@@ -7339,6 +7331,32 @@ USAGE:
 
 Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
       </trans-unit>
+      <trans-unit id="727" xml:space="preserve" approved="yes">
+        <source>727</source>
+        <target state="final">ALIASES:
+　/navigate, /checkmap
+USAGE:
+　/navigate [subcommand]
+
+→Get your bearings by consulting a map.
+
+&gt;&gt;Subcommands:
+ 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/navigate&lt;tab&gt;/checkmap</target>
+      </trans-unit>
+      <trans-unit id="728" xml:space="preserve" approved="yes">
+        <source>728</source>
+        <target state="final">USAGE:
+　/magitype [subcommand]
+
+→Conjure a convenient terminal for all your recordkeeping needs.
+
+&gt;&gt;Subcommands:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/magitype&lt;tab&gt;</target>
+      </trans-unit>
       <trans-unit id="729" xml:space="preserve" approved="yes">
         <source>729</source>
         <target state="final">USAGE:
@@ -7388,6 +7406,18 @@ Both text and motion will be displayed when no subcommand is specified.&lt;tab&g
  　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/devourtaco&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="733" xml:space="preserve" approved="yes">
+        <source>733</source>
+        <target state="final">USAGE:
+　/lookback [subcommand]
+
+→Cast a glance over your shoulder.
+
+&gt;&gt;Subcommands:
+ 　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;motion&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lookback&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

@@ -396,6 +396,7 @@ Affiche la liste des apparences actuelles.&lt;tab&gt;/miragefamilier&lt;tab&gt;/
 Utilisation&lt;var 1D /var&gt;: /taillefamilier "[nom du familier]" "[taille]"
 Change la taille d'affichage du familier spécifié.
 Sans effet dans les zones JcJ ou sur l'affichage des autres joueurs.
+* Pour les bêtes du dresseur, veuillez utiliser la commande /taillebête.
 &gt;&gt; Noms des familiers&lt;var 1D /var&gt;:
 Demi-Bahamut
 Demi-Phénix
@@ -1505,7 +1506,7 @@ désactivé (off)    Passe en état "En ligne".
 Utilisation&lt;var 1D /var&gt;: /cherchéquipe [classes/jobs] [sous-commande]
 Change l'état en ligne du personnage en "Cherche une équipe" et spécifie les classes/jobs désirés.
 &gt;&gt; Classes/jobs&lt;var 1D /var&gt;:
-PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;lis&lt;var 16 /var&gt;te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
+PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé&lt;var 16 /var&gt;men&lt;var 16 /var&gt;ta&lt;var 16 /var&gt;lis&lt;var 16 /var&gt;te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), DRE (dresseur), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
 Si aucun nom de classe ou de job n'est spécifié, la recherche les couvre tous.
 &gt;&gt; Sous-commandes&lt;var 1D /var&gt;:
 activé (on)         Passe en état "Cherche une équipe".
@@ -4940,6 +4941,24 @@ Encourage d'un rythme lent avec des bâtons lumineux verts.
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/encouragerlentvert&lt;tab&gt;/bâtonslenver&lt;tab&gt;/cheerlightgreen&lt;tab&gt;/cheerlg</target>
       </trans-unit>
+      <trans-unit id="727" xml:space="preserve" approved="yes">
+        <source>727</source>
+        <target state="final">/consulterlacarte, /conscarte, /navigate
+Utilisation&lt;var 1D /var&gt;: /consulterlacarte [sous-commande]
+Sort une carte et une boussole pour se répérer.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/consulterlacarte&lt;tab&gt;/conscarte&lt;tab&gt;/navigate&lt;tab&gt;/checkmap</target>
+      </trans-unit>
+      <trans-unit id="728" xml:space="preserve" approved="yes">
+        <source>728</source>
+        <target state="final">/taperauclavier, /tapclav, /magitype
+Utilisation&lt;var 1D /var&gt;: /taperauclavier [sous-commande]
+Invoque un clavier magique et se met à pianoter sur les touches.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/taperauclavier&lt;tab&gt;/tapclav&lt;tab&gt;/magitype&lt;tab&gt;</target>
+      </trans-unit>
       <trans-unit id="729" xml:space="preserve" approved="yes">
         <source>729</source>
         <target state="final">/ricaner, /cackle
@@ -4975,6 +4994,15 @@ Déguste un taco en continu.
 &gt;&gt; Sous-commande&lt;var 1D /var&gt;:
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/dégusteruntaco&lt;tab&gt;/dégtaco&lt;tab&gt;/devourtaco&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="733" xml:space="preserve" approved="yes">
+        <source>733</source>
+        <target state="final">/regarderenarrière, /regarr, /lookback
+Utilisation&lt;var 1D /var&gt;: /regarderenarrière [sous-commande]
+Se retourne avant de regarder par-dessus son épaule.
+&gt;&gt; Sous-commande&lt;var 1D /var&gt;:
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.&lt;tab&gt;/regarderenarrière&lt;tab&gt;/regarr&lt;tab&gt;/lookback&lt;tab&gt;</target>
       </trans-unit>
     </body>
   </file>

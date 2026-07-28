@@ -3605,9 +3605,7 @@ Le cristal tactique n'avancera que si les joueurs présents dans son cercle appa
 Il ne bougera pas si des membres des deux équipes s'y tiennent.
 
 Le cristal tactique se déplace le long de lignes prédéfinies, propres à chaque carte.
-Sa vitesse de déplacement sera accrue dans les cas suivants&lt;var 1D /var&gt;:
-  - S'il reparcourt (dans le même sens) une zone déjà parcourue au cours de la partie
-  - S'il progresse à l'avantage de l'équipe qui a le pourcentage de progression le plus faible
+Sa vitesse de déplacement sera accrue s'il reparcourt (dans le même sens) une zone déjà parcourue au cours de la partie.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Points de contrôle■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 Entre les points d'arrivées de chaque équipe et le point central se trouvent des points intermédiaires appelés “points de contrôle”.</target>
@@ -3711,7 +3709,8 @@ En revanche, la sphère de vent augmente significativement la vitesse de déplac
       <trans-unit id="613" xml:space="preserve" approved="yes">
         <source>613</source>
         <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Conditions de par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-Pour participer, vous devez être seul(e), et de niveau 30 ou plus.
+Pour participer à une partie non classée, vous devez être seul(e) ou en équipe de deux maximum, et de niveau 30 ou plus.
+Idem pour les parties classées, mais vous ne pouvez prendre part à l'une d'elles qu'en étant seul(e).
 La par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;tion se fait via l'outil de mission.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Composition des équipes■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -7278,7 +7277,7 @@ Après avoir découvert un endroit, vous pouvez également indiquer sa position 
       </trans-unit>
       <trans-unit id="1226" xml:space="preserve" approved="yes">
         <source>1226</source>
-        <target state="final">Généralités</target>
+        <target state="final">Île de Lunule méridionale</target>
       </trans-unit>
       <trans-unit id="1227" xml:space="preserve" approved="yes">
         <source>1227</source>
@@ -7439,7 +7438,7 @@ Tirez la quintessence de vos jobs de soutien pour franchir les mécaniques déli
       </trans-unit>
       <trans-unit id="1252" xml:space="preserve" approved="yes">
         <source>1252</source>
-        <target state="final">Pour entrer dans la Tour fourchue de la Force, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;un niveau de savoir de 20 ou plus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; est nécessaire.
+        <target state="final">Pour entrer dans la Tour fourchue de la Force, le défi le plus relevé de l'île de Lunule, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;un niveau de savoir de 20 ou plus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; est nécessaire.
 
 De plus, la téléportation sur place nécessite un certain nombre de &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;sceaux arcaniques de la Force&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, des objets qui peuvent être acquis auprès de la &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;numismate de l'expédition&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, au camp de base.</target>
       </trans-unit>
@@ -7451,7 +7450,7 @@ Dans le cas où le nombre de joueurs présents dépasse la capacité de télépo
       </trans-unit>
       <trans-unit id="1254" xml:space="preserve" approved="yes">
         <source>1254</source>
-        <target state="final">On peut trouver deux types de devises sur l'île de Lunule&lt;var 1D /var&gt;: les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;pièces d'argent des douze cités&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, et les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;pièces d'or des douze cités&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+        <target state="final">On peut trouver deux types de devises dans l'île de Lunule méridionale&lt;var 1D /var&gt;: les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;pièces d'argent des douze cités&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, et les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;pièces d'or des douze cités&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="1255" xml:space="preserve" approved="yes">
         <source>1255</source>
@@ -9606,6 +9605,72 @@ Pour plus d'in&lt;var 16 /var&gt;for&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;tion
         <source>1653</source>
         <target state="final">Avoir recours aux actions &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Patience&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; et &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Patience II&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; avant d'utiliser les actions de pêche adéquates devrait vous permettre de ferrer de grosses prises. Si vous considérez encore que c'est du menu fretin, munissez-vous de pièces d'équipement qui améliorent votre &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Savoir-faire&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
+      <trans-unit id="1654" xml:space="preserve" approved="yes">
+        <source>1654</source>
+        <target state="final">Mage bleu fantôme</target>
+      </trans-unit>
+      <trans-unit id="1655" xml:space="preserve" approved="yes">
+        <source>1655</source>
+        <target state="final">Le mage bleu fantôme peut &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;apprendre&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; les actions de ses ennemis pour les utiliser lui-même ensuite.
+
+Pour apprendre une action, vous devez d'abord voir un ennemi l'utiliser, puis vaincre celui-ci.
+
+Attention, seul le joueur ayant attaqué le monstre en premier et ses équipiers peuvent apprendre l'action. Dans le cas d'une confrontation critique, tous les joueurs conscients au moment de la victoire sont éligibles.
+
+Les actions apprenables peuvent être consultées dans la fenêtre des détails du mage bleu fantôme.</target>
+      </trans-unit>
+      <trans-unit id="1656" xml:space="preserve" approved="yes">
+        <source>1656</source>
+        <target state="final">Ennemis</target>
+      </trans-unit>
+      <trans-unit id="1657" xml:space="preserve" approved="yes">
+        <source>1657</source>
+        <target state="final">Faiblesses élémentaires</target>
+      </trans-unit>
+      <trans-unit id="1658" xml:space="preserve" approved="yes">
+        <source>1658</source>
+        <target state="final">Les créatures peuplant l'île de Lunule possèdent des &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;faiblesses élémentaires&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lorsqu'un ennemi subit une attaque de l'élément auquel il est sensible, il perd davantage de PV.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+L'action Magi Acuité du mage rouge fantôme permet de révéler la faiblesse élémentaire d'un ennemi. Utilisez-la pour infliger des dégâts encore plus importants&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="1659" xml:space="preserve" approved="yes">
+        <source>1659</source>
+        <target state="final">Tour fourchue de la Magie</target>
+      </trans-unit>
+      <trans-unit id="1660" xml:space="preserve" approved="yes">
+        <source>1660</source>
+        <target state="final">La Tour fourchue de la Magie propose aux joueurs deux niveaux de difficulté&lt;var 1D /var&gt;: normal et extrême. Dans les deux cas, l'incursion requiert &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;un niveau de savoir de 40 ou plus&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+Pour s'y téléporter, vous devez vous tenir sur le signe magique qui apparaît au pavillon solitaire, lorsque les conditions nécessaires sont remplies. &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Après un moment, jusqu'à 48 joueurs sont au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment transportés à l'entrée de la tour&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+Si plus de 48 joueurs sont présents sur le signe magique, un tirage au sort est effectué pour les départager. &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Les joueurs non sélectionnés reçoivent un score de priorité pour la Tour Fourchue, grâce auquel ils seront privilégiés lors de leur prochain tirage au sort&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+Le score de priorité est réinitialisé lors d'une incursion dans la Tour Fourchue au niveau de difficulté normal.</target>
+      </trans-unit>
+      <trans-unit id="1661" xml:space="preserve" approved="yes">
+        <source>1661</source>
+        <target state="final">La Tour fourchue de la Magie (extrême) requiert également &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;un minimum de 12 joueurs, répartis dans au moins trois alliances&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;. Une fois les groupes nécessaires formés, adressez-vous à Jeffroy pour tenter de relever le défi.</target>
+      </trans-unit>
+      <trans-unit id="1662" xml:space="preserve" approved="yes">
+        <source>1662</source>
+        <target state="final">Île de Lunule septentrionale</target>
+      </trans-unit>
+      <trans-unit id="1663" xml:space="preserve" approved="yes">
+        <source>1663</source>
+        <target state="final">On peut trouver deux types de devises dans l'île de Lunule septentrionale&lt;var 1D /var&gt;: les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;pièces de nickel des douze cités&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, et les &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;pièces de platine des douze cités&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="1664" xml:space="preserve" approved="yes">
+        <source>1664</source>
+        <target state="final">■ Pièces de nickel des douze cités
+Ces pièces sont prin&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;le&lt;var 16 /var&gt;ment obtenues en réussissant des ALÉA et en remportant des confrontations critiques.
+
+■ Pièces de platine des douze cités
+Ces pièces sont prin&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;le&lt;var 16 /var&gt;ment obtenues en vainquant les monstres rencontrés dans les zones de l'île.
+
+Ces devises peuvent être remises à la &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;numismate de l'expédition&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; en échange de divers objets.</target>
+      </trans-unit>
       <trans-unit id="1665" xml:space="preserve" approved="yes">
         <source>1665</source>
         <target state="final">Missions de maîtrise</target>
@@ -9635,6 +9700,161 @@ La liste des missions disponibles se trouve dans la section “Missions de maît
 L'ensemble des points de maîtrise accumulés peut être consulté à tout moment depuis la liste des missions disponibles et la section “Points de Maîtrise” dans le menu “Progrès des classes” de la tablette cosmique.
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;De plus, débloquer les hauts faits de toutes les classes permet d'obtenir une récompense spéciale.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="1669" xml:space="preserve" approved="yes">
+        <source>1669</source>
+        <target state="final">Frappe fatale</target>
+      </trans-unit>
+      <trans-unit id="1670" xml:space="preserve" approved="yes">
+        <source>1670</source>
+        <target state="final">Informations générales</target>
+      </trans-unit>
+      <trans-unit id="1671" xml:space="preserve" approved="yes">
+        <source>1671</source>
+        <target state="final">Frappe fatale est un jeu d'adresse au clavier pouvant accueillir jusqu'à 4 par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pants au maximum.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;* Cette attraction requiert l'utilisation d'un clavier compatible. Veuillez vous assurer de son bon fonc&lt;var 16 /var&gt;tion&lt;var 16 /var&gt;ne&lt;var 16 /var&gt;ment avant d'entamer la mission.&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+Des groupes d'ennemis vont se rapprocher de votre position pour vous attaquer lors de trois vagues successives. Votre objectif consiste à saisir au clavier les mots affichés au-dessus de leur tête afin de les neutraliser avant qu'ils ne parviennent à détruire la barrière qui vous protège.
+
+Saisissez les mots cor&lt;var 16 /var&gt;rec&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment et détruisez les vagues d'ennemis pour augmenter votre score. Plus ce dernier est élevé, plus vous recevrez de récompenses. Mettez donc à profit vos talents de dactylo acquis grâce aux modes de discussion pour atteindre le score maximal&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="1672" xml:space="preserve" approved="yes">
+        <source>1672</source>
+        <target state="final">Participation</target>
+      </trans-unit>
+      <trans-unit id="1673" xml:space="preserve" approved="yes">
+        <source>1673</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Inscription■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Pour commencer une partie de Frappe fatale, adressez-vous à la préposée aux ins&lt;var 16 /var&gt;crip&lt;var 16 /var&gt;tions au square des clavistes.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Conditions requises■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Toutes les classes et jobs, y compris les jobs restreints, peuvent participer.
+* Lorsque vous souhaitez vous inscrire en tant qu'équipe, tous les membres qui la composent doivent avoir accès à Frappe fatale pour participer.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Nombre de par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pants■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Vous pouvez vous lancer dans cette attraction en solo ou en groupe, jusqu'à un maximum de 4 personnes. En cas d'enregistrement seul&lt;var 08 E905 ((e)) (()) /var&gt; ou en équipe de 2 ou 3, des personnages seront ajoutés par groupement.
+Si aucun autre participant n'a pu être trouvé dans un délai imparti, les joueurs déjà inscrits participeront à la mission sous forme d'équipe réduite.
+* Dans le cas des groupes de 3 ou moins, les PV des ennemis seront ajustés en fonction du nombre de joueurs.</target>
+      </trans-unit>
+      <trans-unit id="1674" xml:space="preserve" approved="yes">
+        <source>1674</source>
+        <target state="final">Interface du jeu</target>
+      </trans-unit>
+      <trans-unit id="1675" xml:space="preserve" approved="yes">
+        <source>1675</source>
+        <target state="final">Frappe fatale possède son interface propre.
+
+1. Fenêtre de texte
+C'est dans cette zone que vous verrez les caractères que vous taperez sur votre clavier.</target>
+      </trans-unit>
+      <trans-unit id="1676" xml:space="preserve" approved="yes">
+        <source>1676</source>
+        <target state="final">2. Mots
+Pour attaquer les adversaires, tapez simplement les mêmes mots que ceux qui sont au-dessus de leur tête. Une fois que leur barre de vie sera épuisée, ils cesseront de vous attaquer. Le nombre d'attaques requises pour vaincre un ennemi dépendra de son type et du nombre de par&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;ci&lt;var 16 /var&gt;pants.</target>
+      </trans-unit>
+      <trans-unit id="1677" xml:space="preserve" approved="yes">
+        <source>1677</source>
+        <target state="final">3. Objectif par vague
+Vous trouverez ici les conditions requises pour terminer la vague en cours.</target>
+      </trans-unit>
+      <trans-unit id="1678" xml:space="preserve" approved="yes">
+        <source>1678</source>
+        <target state="final">4. Score et jauge de bonus
+Votre score est calculé en fonction de vos talents au clavier. Saisir des mots cor&lt;var 16 /var&gt;rec&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment vous octroie des points et fait augmenter votre jauge de bonus. Plus celle-ci augmente, plus vous obtenez de points par mot saisi.</target>
+      </trans-unit>
+      <trans-unit id="1679" xml:space="preserve" approved="yes">
+        <source>1679</source>
+        <target state="final">5. Jauge de PV
+Cette jauge représente la capacité de votre barrière à absorber les assauts ennemis. Les attaques la fragilisent et, si la barre d'énergie est épuisée, vous perdrez la partie.</target>
+      </trans-unit>
+      <trans-unit id="1680" xml:space="preserve" approved="yes">
+        <source>1680</source>
+        <target state="final">Commandes de base</target>
+      </trans-unit>
+      <trans-unit id="1681" xml:space="preserve" approved="yes">
+        <source>1681</source>
+        <target state="final">Frappe fatale ne peut être jouée qu'au clavier.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Bases de la saisie■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Pour vaincre un ennemi, vous devez taper au clavier le mot, ou le groupe de mots, qui est affiché au-dessus de sa tête, puis appuyer sur [Entrée] pour lancer votre attaque. La saisie de caractères s'effectue de la même manière que dans les modes de discussion de la fenêtre de log.
+En outre, le mode de discussion directe sera activé durant Frappe fatale, et ce, même s'il est désactivé dans les paramètres de votre Configuration personnage.
+
+Vous pouvez également appuyer sur la flèche du haut de votre clavier pour afficher votre historique de saisie.</target>
+      </trans-unit>
+      <trans-unit id="1682" xml:space="preserve" approved="yes">
+        <source>1682</source>
+        <target state="final">Règles de saisie</target>
+      </trans-unit>
+      <trans-unit id="1683" xml:space="preserve" approved="yes">
+        <source>1683</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Usage des majuscules■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Les mots affichés peuvent être saisis en lettres majuscules comme en minuscules, ou en combinant les deux. Seule l'orthographe exacte du mot doit être respectée.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Accents, symboles et signes de ponctuation■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Les accents aigus, graves, circonflexes et trémas ne sont pas obligatoires. Par exemple, le mot “matéria” peut être écrit tel quel, ou simplement “materia” pour être considéré comme correct.
+Certains adversaires exigent la saisie de phrases complètes pour pouvoir être attaqués. Dans ce cas de figure, les signes de ponctuation suivants doivent être respectés pour valider la saisie&lt;var 1D /var&gt;:
+
+Virgules (,)
+Espaces ( )
+Points (.)
+
+En revanche, les points d'interrogation (?), points d'exclamation (!), traits d'union (-) et apostrophes (') sont optionnels. Par exemple, le mot “Méga-feu” peut s'écrire de plusieurs manières&lt;var 1D /var&gt;: 
+
+“Méga-feu” / “Mégafeu” / “Megafeu”
+“méga-feu” / “mega-feu” / “mégafeu” / “megafeu”
+
+Toutefois, les graphies suivantes ne sont pas valides&lt;var 1D /var&gt;:
+
+“Méga feu” / “Mega feu” / “méga feu” / “mega feu”</target>
+      </trans-unit>
+      <trans-unit id="1684" xml:space="preserve" approved="yes">
+        <source>1684</source>
+        <target state="final">Comment obtenir un score élevé&lt;var 1D /var&gt;?</target>
+      </trans-unit>
+      <trans-unit id="1685" xml:space="preserve" approved="yes">
+        <source>1685</source>
+        <target state="final">Chaque fois que vous tapez cor&lt;var 16 /var&gt;rec&lt;var 16 /var&gt;te&lt;var 16 /var&gt;ment un mot, votre jauge de bonus augmente. Un multiplicateur est alors appliqué à votre score initial. Attention, car la jauge de bonus diminuera au&lt;var 16 /var&gt;to&lt;var 16 /var&gt;ma&lt;var 16 /var&gt;ti&lt;var 16 /var&gt;que&lt;var 16 /var&gt;ment si vous restez &lt;var 08 E905 ((inactive)) ((inactif)) /var&gt;. Pour maximiser votre score, il est recommandé de maintenir une frappe régulière et avec précision.
+
+Lorsque vous atteignez la fin d'une vague d'ennemis, un bonus de points vous sera attribué en fonction du nombre de PV restants de votre barrière. Veillez donc à éliminer les ennemis avant qu'ils ne causent trop de dégâts&lt;var 1D /var&gt;!
+
+Enfin, restez bien &lt;var 08 E905 ((attentive)) ((attentif)) /var&gt;, car un pot magique peut surgir à tout moment&lt;var 1D /var&gt;! Si vous parvenez à l'attaquer avant qu'il ne s'enfuie, vous bénéficierez de l'effet &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Frappes frénétiques&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; qui multiplie considérablement votre score de base&lt;var 1D /var&gt;!</target>
+      </trans-unit>
+      <trans-unit id="1686" xml:space="preserve" approved="yes">
+        <source>1686</source>
+        <target state="final">Attaques ennemies spéciales</target>
+      </trans-unit>
+      <trans-unit id="1687" xml:space="preserve" approved="yes">
+        <source>1687</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Sorts pouvant être interrompus■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Certains sorts ennemis peuvent être stoppés avant même d'être lancés si vous arrivez à décocher un nombre suffisant d'attaques à temps. Le nombre exact d'attaques nécessaires est indiqué sous la barre de progression du sort.</target>
+      </trans-unit>
+      <trans-unit id="1688" xml:space="preserve" approved="yes">
+        <source>1688</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Saisie entravée■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Lorsqu'une attaque ennemie est en cours d'incantation et qu'un icone spécifique comme celui ci-dessous est affiché, vous devez suspendre toute saisie jusqu'à ce que l'ennemi se mette à briller intensément. Si vous échouez, vous subirez un effet néfaste qui vous paralysera pendant un long moment.</target>
+      </trans-unit>
+      <trans-unit id="1689" xml:space="preserve" approved="yes">
+        <source>1689</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Texte brouillé■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Lorsque vous êtes victime de cet effet, les mots affichés au-dessus des ennemis deviennent illisibles. Ils peuvent réapparaître brièvement, alors profitez de cette chance pour les mémoriser et continuer d'attaquer.</target>
+      </trans-unit>
+      <trans-unit id="1690" xml:space="preserve" approved="yes">
+        <source>1690</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Renforcement de la barrière■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Certaines attaques ennemies ne peuvent être encaissées que si votre barrière est renforcée. Au moment où l'incantation de l'attaque ennemie commence, des mots ap&lt;var 16 /var&gt;pa&lt;var 16 /var&gt;raî&lt;var 16 /var&gt;tront sur votre barrière. Saisissez-les rapidement pour la renforcer. Une fois la jauge de renforcement pleine, votre barrière neutralisera toutes les attaques ennemies.</target>
+      </trans-unit>
+      <trans-unit id="1691" xml:space="preserve" approved="yes">
+        <source>1691</source>
+        <target state="final">Récompenses</target>
+      </trans-unit>
+      <trans-unit id="1692" xml:space="preserve" approved="yes">
+        <source>1692</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Devises du Gold Saucer (DGS)■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Ces devises vous sont attribuées lorsque vous participez à Frappe fatale. Plus votre score est élevé, et plus vous obtiendrez de DGS&lt;var 1D /var&gt;! Vous pouvez consulter le montant de DGS en votre possession en vous adressant au préposé aux lots ou à la préposée aux ins&lt;var 16 /var&gt;crip&lt;var 16 /var&gt;tions du square des clavistes.
+* Veuillez noter que vous ne pouvez pas posséder plus de 10 000 DGS à la fois.
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Dépenser ses DGS■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Allez parler au préposé aux lots du square des clavistes pour échanger vos DGS contre une sélection de prix exclusifs et très variés.</target>
       </trans-unit>
       <trans-unit id="1756" xml:space="preserve" approved="yes">
         <source>1756</source>
@@ -9671,6 +9891,16 @@ Les missions de maîtrise possédant un icone de bonus octroient 20% de points d
         <target state="final">■ Série d'or
 La série d'or n'est pas affectée par les missions de maîtrise, peu importe leur issue.</target>
       </trans-unit>
+      <trans-unit id="1758" xml:space="preserve" approved="yes">
+        <source>1758</source>
+        <target state="final">Talismans de la Magie</target>
+      </trans-unit>
+      <trans-unit id="1759" xml:space="preserve" approved="yes">
+        <source>1759</source>
+        <target state="final">Ces objets peuvent être obtenus en ouvrant des coffres dans la Tour fourchue de la Magie.
+
+Apportez-les à la &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;numismate de l'expédition&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; pour obtenir divers objets en échange.</target>
+      </trans-unit>
       <trans-unit id="1760" xml:space="preserve" approved="yes">
         <source>1760</source>
         <target state="final">■ Conditions
@@ -9689,6 +9919,17 @@ Chaque mission de maîtrise comporte &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB
 De plus, chaque palier améliore les futurs gains de score respectivement de +50％ et +100％, ce qui augmente les chances d'atteindre un nouveau record.
 
 Exemple de bonus d'objectif&lt;var 1D /var&gt;:</target>
+      </trans-unit>
+      <trans-unit id="1761" xml:space="preserve" approved="yes">
+        <source>1761</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Restrictions■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Lors d'une partie de Frappe fatale, les fonctionnalités suivantes ne seront plus accessibles&lt;var 1D /var&gt;:
+・Fenêtre de log
+・Traduction automatique
+・Raccourcis clavier
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■Quitter une partie■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Il est possible de quitter une partie de Frappe fatale à tout moment en appuyant sur la touche &lt;var 08 E4E94F04 ((esc)) ((Échap)) /var&gt;. Attention, vous ne recevrez aucune récompense et risquez une pénalité d'abandon. En outre, si vous restez &lt;var 08 E905 ((inactive)) ((inactif)) /var&gt; pendant une certaine période de temps, vous serez expulsé&lt;var 08 E905 ((e)) (()) /var&gt; de la mission et recevrez une pénalité d'abandon.</target>
       </trans-unit>
     </body>
   </file>

@@ -4860,10 +4860,8 @@ PvPの毎シーズン終了時に、すべてのプレイヤーの階級と階�
 
 タクティカルクリスタルは「クリスタルライン」という、
 ステージごとに決められたルートに沿って移動します。
-タクティカルクリスタルの移動速度は、以下の条件で上昇します。
-
-　・一度到達した区画を再び移送するとき
-　・相手チームの進行度未満の区画を移送するとき
+一度到達した区画を再び移送するときは、
+タクティカルクリスタルの移動速度が上昇します。
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■チェックポイント■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 セントラルポイントと各チームのゴールポイントの中間地点には、
@@ -4994,7 +4992,10 @@ HPが100％のプレイヤーはメディカルキットに触れることがで
       <trans-unit id="613" xml:space="preserve" approved="yes">
         <source>613</source>
         <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■参加条件■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
-レベル30以上のジョブかつ、ソロの状態で、
+カジュアルマッチは、レベル30以上のジョブかつ、ソロ、
+または最大2人のパーティでの申請が可能です。
+ランクマッチは、レベル30以上のジョブかつ、
+ソロでの申請が可能です。
 コンテンツファインダーから参加申請を行えます。
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■チーム内のロール構成■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
@@ -10057,18 +10058,21 @@ HUDに表示されたサポートアクションをそれぞれ直接クリッ�
       </trans-unit>
       <trans-unit id="1251" xml:space="preserve" approved="yes">
         <source>1251</source>
-        <target state="final">「フォークタワー」とは、
-「蜃気楼の島 クレセントアイル」における最高難易度のレイドコンテンツです。
+        <target state="final">「フォークタワー」とは、多人数のプレイヤーで挑む、
+「蜃気楼の島 クレセントアイル」におけるレイドコンテンツです。
 
 参加人数は最大48人で、
-コンテンツ内には、強力なモンスターやギミックが待ち構えています。
+コンテンツ内には多彩なギミックやモンスターが待ち構えています。
 
-参加者同士で協力のうえ、サポートジョブの力も存分に発揮して、
+参加者同士で協力のうえ、サポートジョブの力も存分に発揮し、
 是非、クリアを目指してみてください！</target>
       </trans-unit>
       <trans-unit id="1252" xml:space="preserve" approved="yes">
         <source>1252</source>
-        <target state="final">「フォークタワー：力の塔」の挑戦には、
+        <target state="final">「フォークタワー：力の塔」は、
+「蜃気楼の島 クレセントアイル」における最高難易度のレイドコンテンツです。
+
+フォークタワー：力の塔に挑戦するには、
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「ナレッジレベル」が「20」以上&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;必要です。
 
 加えて、フォークタワー：力の塔への転送魔紋を起動する必要があり、
@@ -12851,7 +12855,7 @@ HPの回復効果は受けられません。</target>
         <target state="final">一部のお得意様キャラクターは、信頼ランクが最大になると、
 任意の装備品を投影して、見た目を変えることができます。
 武具投影による着せ替えが可能なお得意様には、
-信頼度ランクのハートマークの隣に、装備品のマークが表示されます。</target>
+信頼ランクのハートマークの隣に、装備品のマークが表示されます。</target>
       </trans-unit>
       <trans-unit id="1640" xml:space="preserve" approved="yes">
         <source>1640</source>
@@ -13001,6 +13005,96 @@ HPの回復効果は受けられません。</target>
 サイズが思ったように上がらない場合は、
 装備を整えて「技術力」を高めてみましょう。</target>
       </trans-unit>
+      <trans-unit id="1654" xml:space="preserve" approved="yes">
+        <source>1654</source>
+        <target state="final">サポート青魔道士のラーニングについて</target>
+      </trans-unit>
+      <trans-unit id="1655" xml:space="preserve" approved="yes">
+        <source>1655</source>
+        <target state="final">サポート青魔道士は、モンスターのアクションを「ラーニング」することで、
+自身の能力として行使できるサポートジョブです。
+
+ラーニングは、
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;対象となるアクションをモンスターが実行してから倒すことで、成功します。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+ただし、ラーニングに成功するのは
+対象モンスターの「ラーニング権利」を持つプレイヤーのみとなります。
+ラーニング権利は、フィールドのモンスターの場合は最初に攻撃したプレイヤーと
+そのパーティメンバーに発生します。
+クリティカルエンカウントの場合は、
+コンプリート時に戦闘不能状態でなかった参加者全員に発生します。
+
+ラーニング可能なアクションはサポートジョブウィンドウのサポート特性から
+確認することができます。</target>
+      </trans-unit>
+      <trans-unit id="1656" xml:space="preserve" approved="yes">
+        <source>1656</source>
+        <target state="final">モンスター</target>
+      </trans-unit>
+      <trans-unit id="1657" xml:space="preserve" approved="yes">
+        <source>1657</source>
+        <target state="final">弱点属性について</target>
+      </trans-unit>
+      <trans-unit id="1658" xml:space="preserve" approved="yes">
+        <source>1658</source>
+        <target state="final">「蜃気楼の島 クレセントアイル」に登場するモンスターには、
+それぞれ弱点となる属性が存在します。
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;弱点属性で攻撃すると、通常より多くのダメージを与えることができます。
+また、「サポート赤魔道士」のアクション「ライブラ」を使用することで、
+モンスターの弱点属性を見抜くことが可能です。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+弱点を把握したうえで攻撃すると、より多くのダメージを与えることができます。</target>
+      </trans-unit>
+      <trans-unit id="1659" xml:space="preserve" approved="yes">
+        <source>1659</source>
+        <target state="final">フォークタワー：魔の塔への参加について</target>
+      </trans-unit>
+      <trans-unit id="1660" xml:space="preserve" approved="yes">
+        <source>1660</source>
+        <target state="final">「フォークタワー：魔の塔」は
+通常難易度と「極」という2種類の難易度が存在します。
+
+フォークタワー：魔の塔に挑戦するには、
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「ナレッジレベル」が「40」以上&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;必要です。
+
+加えて、特定条件下で発生するフォークタワー：魔の塔への転送魔紋を通じて
+コンテンツに突入する必要があります。
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;転送魔紋は出現から一定時間経過すると、転送魔紋が活性化し転送魔紋の上にいる最大48名のプレイヤーがフォークタワー：魔の塔に転送されます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+48名を超えるプレイヤーが転送魔紋の上にいた場合は、
+抽選で選ばれたプレイヤーが転送されます。
+なお、&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;抽選に漏れた場合は「フォークタワー参加優先点」が加算され、
+優先点が高いプレイヤーほど次回の抽選時に当選しやすくなります。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+なお、「フォークタワー参加優先点」は、
+「フォークタワー：魔の塔」の通常難易度に突入するとリセットされます。</target>
+      </trans-unit>
+      <trans-unit id="1661" xml:space="preserve" approved="yes">
+        <source>1661</source>
+        <target state="final">「極フォークタワー：魔の塔」の挑戦には、ナレッジレベルの条件に加えて
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;最低3アライアンスを組んだ12名以上&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;のプレイヤーが必要となります。
+必要なメンバーをそろえて、「蜃気楼の町」のジェッフロイに話しかけ
+「極フォークタワー：魔の塔」に挑戦しましょう。</target>
+      </trans-unit>
+      <trans-unit id="1662" xml:space="preserve" approved="yes">
+        <source>1662</source>
+        <target state="final">北征編の特殊な通貨について</target>
+      </trans-unit>
+      <trans-unit id="1663" xml:space="preserve" approved="yes">
+        <source>1663</source>
+        <target state="final">「蜃気楼の島 クレセントアイル：北征編」には、
+「十二都市白銀貨」 と 「十二都市白金貨」 という2種類の通貨が存在します。</target>
+      </trans-unit>
+      <trans-unit id="1664" xml:space="preserve" approved="yes">
+        <source>1664</source>
+        <target state="final">■十二都市白銀貨
+主にクリティカルエンカウントやF.A.T.E.などの攻略時に入手できます。
+
+■十二都市白金貨
+主にフィールドのモンスターの討伐時に入手できます。
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;いずれも拠点にいる「探索隊の古銭鑑定士」に渡すことで様々なアイテムと交換することができます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
       <trans-unit id="1665" xml:space="preserve" approved="yes">
         <source>1665</source>
         <target state="final">マスターシップミッション</target>
@@ -13056,6 +13150,243 @@ HPの回復効果は受けられません。</target>
 
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;更に、全てのクラスでアチーブメントを獲得すると、特別な報酬が入手できます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
 </target>
+      </trans-unit>
+      <trans-unit id="1669" xml:space="preserve" approved="yes">
+        <source>1669</source>
+        <target state="final">キーバウンド・ブロウラーってどんなゲーム？</target>
+      </trans-unit>
+      <trans-unit id="1670" xml:space="preserve" approved="yes">
+        <source>1670</source>
+        <target state="final">概要</target>
+      </trans-unit>
+      <trans-unit id="1671" xml:space="preserve" approved="yes">
+        <source>1671</source>
+        <target state="final">「キーバウンド・ブロウラー」は、最大4人で遊ぶタイピングゲームです。
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;※本コンテンツは、キーボードを使用します。
+　キーボードによる文字入力が行えるか事前に確認の上で参加申請してください。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+
+敵は3つの大きな集団（WAVE）に分かれて登場し、
+バトルフィールドの奥から攻め寄せてきます。
+敵の頭上に表示されたワードを正しく入力することで攻撃が可能です。
+自陣のバリアが破壊される前に各WAVEのクリア条件を達成しましょう。
+
+なおコンテンツ中は、文字入力を成功させたり、
+1つのWAVEをクリアしたりするごとにスコアを獲得でき、
+最終スコアが高いほど多くの報酬を得られます。
+
+チャットで培ったタイピング力を存分に発揮して高スコアを狙いましょう！</target>
+      </trans-unit>
+      <trans-unit id="1672" xml:space="preserve" approved="yes">
+        <source>1672</source>
+        <target state="final">参加方法</target>
+      </trans-unit>
+      <trans-unit id="1673" xml:space="preserve" approved="yes">
+        <source>1673</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■申請方法■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+「キーバウンドスクウェア」の「参加受付」から参加申請を行えます。
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■申請条件■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+リミテッドジョブを含む、すべてのクラス・ジョブで参加可能です。
+※申請するパーティメンバー全員がコンテンツを解放している必要があります。
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■申請人数■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+ソロ、または最大4人のパーティでの申請が可能です。
+4人に満たない申請の場合、空き枠をマッチングで補充します。
+
+また参加申請後、一定時間が経過しても4人のプレイヤーが集まらなかった場合、
+その時点で集まった人数でコンテンツに突入します。
+※突入人数が3人以下の場合、参加人数に応じて敵のHPに補正が掛かります。</target>
+      </trans-unit>
+      <trans-unit id="1674" xml:space="preserve" approved="yes">
+        <source>1674</source>
+        <target state="final">画面の見方</target>
+      </trans-unit>
+      <trans-unit id="1675" xml:space="preserve" approved="yes">
+        <source>1675</source>
+        <target state="final">「キーバウンド・ブロウラー」では、専用のUIが表示されます。
+
+①テキストフィールド
+キーボードで入力した文字列がここに表示されます。</target>
+      </trans-unit>
+      <trans-unit id="1676" xml:space="preserve" approved="yes">
+        <source>1676</source>
+        <target state="final">②ワード
+ワードをテキストフィールドに入力することで、敵に攻撃できます。
+敵のHPゲージ分だけ攻撃を成功させると倒すことができます。
+敵を倒すために必要な攻撃回数は、敵の種類やプレイヤー人数により異なります。</target>
+      </trans-unit>
+      <trans-unit id="1677" xml:space="preserve" approved="yes">
+        <source>1677</source>
+        <target state="final">③WAVEクリア条件
+各WAVEをクリアするための条件が表示されます。</target>
+      </trans-unit>
+      <trans-unit id="1678" xml:space="preserve" approved="yes">
+        <source>1678</source>
+        <target state="final">④スコア／ボーナスゲージ
+スコアはタイピングの腕前を示す数値です。
+入力に成功すると獲得でき、同時に下部のボーナスゲージが上昇します。
+ボーナスゲージの上昇量に応じて入力成功時のスコアにボーナスが付加されます。</target>
+      </trans-unit>
+      <trans-unit id="1679" xml:space="preserve" approved="yes">
+        <source>1679</source>
+        <target state="final">⑤HPゲージ
+プレイヤーの目の前に表示されるバリアのHPを示すゲージです。
+敵に攻撃されると減っていき、ゲージがなくなるとゲームオーバーとなります。</target>
+      </trans-unit>
+      <trans-unit id="1680" xml:space="preserve" approved="yes">
+        <source>1680</source>
+        <target state="final">操作方法</target>
+      </trans-unit>
+      <trans-unit id="1681" xml:space="preserve" approved="yes">
+        <source>1681</source>
+        <target state="final">「キーバウンド・ブロウラー」では、キーボード操作のみを使用します。
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■入力操作■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+敵の頭上に表示されたワードを入力してEnterキーで入力文字列を確定すると、
+その敵へ攻撃することができます。
+入力したワードがどの敵のワードとも一致しない場合は、攻撃失敗となります。
+
+文字入力については、チャット入力と同じく、
+各プラットフォーム標準の入力システムが適用されます。
+また、コンテンツ中はキャラクターコンフィグの設定にかかわらず、
+ダイレクトチャットモードが有効となります。
+
+なお、文字入力中に矢印キー（↑）を入力することで、
+入力履歴を呼び出すことができます。</target>
+      </trans-unit>
+      <trans-unit id="1682" xml:space="preserve" approved="yes">
+        <source>1682</source>
+        <target state="final">入力判定</target>
+      </trans-unit>
+      <trans-unit id="1683" xml:space="preserve" approved="yes">
+        <source>1683</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■本文とよみがなの入力■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+本文とよみがなのどちらかを正しく入力すれば、成功とみなされます。
+ただし、本文とよみがなのテキストが混ざっている場合、失敗とみなされます。
+
+（例）
+限界を超える（げんかいをこえる）
+
+以下のような入力は失敗とみなされます。
+限界をこえる
+げんかいを超える
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■カタカナの入力■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+カタカナを含むワードは、カタカナをひらがなで入力しても成功とみなされます。
+
+（例）
+ヴィンセント（ゔぃんせんと）
+
+以下のような入力は成功とみなされます。
+ヴぃんせんと
+ゔぃんせんと
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■英数字／記号の入力■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+ワードに含まれる英数字や記号は、全角半角どちらで入力しても構いません。
+また、英字については大文字小文字の区別はありません。
+
+（例）
+レッドXIII（れっどXIII）
+
+以下のような入力も成功とみなされます。
+れっどxiii
+れっどＸＩＩＩ
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■記号の入力省略■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+ワードに以下の記号が含まれる場合、入力を省略しても構いません。
+「、（読点）」
+「・（中黒）」
+「！（感嘆符）」
+「？（疑問符）」
+
+（例）
+じゃあね、デート1回！（じゃあねでーと1かい）
+
+以下のような入力も成功とみなされます。
+じゃあねデート1回
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■～（チルダ）の代用入力■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+ワードに「～（チルダ）」が含まれる場合、
+「～」のかわりに「ー（長音符）」を入力しても成功とみなされます。
+
+（例）
+ほひ～ほひ～！（ほひ～ほひ～）
+
+以下のような入力も成功とみなされます。
+ほひーほひー</target>
+      </trans-unit>
+      <trans-unit id="1684" xml:space="preserve" approved="yes">
+        <source>1684</source>
+        <target state="final">高スコア獲得のコツ</target>
+      </trans-unit>
+      <trans-unit id="1685" xml:space="preserve" approved="yes">
+        <source>1685</source>
+        <target state="final">ワード入力を成功させるとボーナスゲージが上昇し、
+その倍率が獲得スコアに付加されます。
+何もしないとボーナスゲージは徐々に減少していくため、
+一定時間内に素早く、正確にタイピングして、
+ボーナスゲージを高い状態で維持することが高スコア獲得のコツです。
+
+また、WAVEクリア時に獲得できるスコアはHPの残量に応じて変化するため、
+敵からのダメージをなるべく受けないように立ち回ることも重要となります。
+
+さらに攻略中、マジックポットが出現したら大チャンス！
+逃げる前に倒すことができれば、一定時間&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;「バーストタイム」&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;状態となり、
+大量のスコア獲得が期待できます。</target>
+      </trans-unit>
+      <trans-unit id="1686" xml:space="preserve" approved="yes">
+        <source>1686</source>
+        <target state="final">敵の特殊な攻撃</target>
+      </trans-unit>
+      <trans-unit id="1687" xml:space="preserve" approved="yes">
+        <source>1687</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■中断可能な敵の詠唱■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+特定の敵の詠唱は、決まった回数分の攻撃を当てることで中断できます。
+詠唱ゲージの下に表示された数字が、詠唱中断に必要な攻撃回数となります。</target>
+      </trans-unit>
+      <trans-unit id="1688" xml:space="preserve" approved="yes">
+        <source>1688</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■タイピング不可■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+詠唱中の敵に以下のような特殊なアイコンが表示されている場合、
+詠唱完了後から一定時間（敵の攻撃演出が強く光るまで）、
+入力操作を行わないようにしましょう。
+さもなければ、より長い時間動けなくなるペナルティを受けてしまいます。</target>
+      </trans-unit>
+      <trans-unit id="1689" xml:space="preserve" approved="yes">
+        <source>1689</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■視覚妨害■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+ワードが隠れて見えなくなる状態異常です。
+隠されたワードは一定間隔でもとに戻ります。
+隠されている間も入力は有効なため、もとに戻った瞬間を見逃さず、
+どのようなワードが表示されていたかを覚えておくようにしましょう。</target>
+      </trans-unit>
+      <trans-unit id="1690" xml:space="preserve" approved="yes">
+        <source>1690</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■バリア強化が必要な強攻撃■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+敵の一部の攻撃は、バリアを強化することで防ぐことができます。
+敵の詠唱開始とともに、バリアの上にワードが表示されたら、
+そのワードを入力して強化ゲージを貯めましょう。
+強化ゲージを最大まで貯めるとバリアが強化され、一定時間無敵状態となります。</target>
+      </trans-unit>
+      <trans-unit id="1691" xml:space="preserve" approved="yes">
+        <source>1691</source>
+        <target state="final">報酬</target>
+      </trans-unit>
+      <trans-unit id="1692" xml:space="preserve" approved="yes">
+        <source>1692</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■マンダヴィル・ゴールドソーサークレジット（MGC）■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+「キーバウンド・ブロウラー」に参加すると、
+「マンダヴィル・ゴールドソーサークレジット」を獲得できます。
+スコアが高いほど獲得できる量は増えていくため、高スコアを目指しましょう！
+
+また、「マンダヴィル・ゴールドソーサークレジット」の所持数は、
+「キーバウンドスクウェア」の「MGC交換窓口」、
+または、「参加受付」の参加申請ウィンドウから確認できます。
+※所持上限は10000となります。
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■アイテムとの交換■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+獲得した「マンダヴィル・ゴールドソーサークレジット」は、
+「キーバウンドスクウェア」の「MGC交換窓口」から各アイテムと交換できます。</target>
       </trans-unit>
       <trans-unit id="1756" xml:space="preserve" approved="yes">
         <source>1756</source>
@@ -13121,6 +13452,15 @@ GP：350/900 → 850/900　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;�
 ゴールドカウントに影響しません。
 </target>
       </trans-unit>
+      <trans-unit id="1758" xml:space="preserve" approved="yes">
+        <source>1758</source>
+        <target state="final">魔の護符について</target>
+      </trans-unit>
+      <trans-unit id="1759" xml:space="preserve" approved="yes">
+        <source>1759</source>
+        <target state="final">「魔の護符」は「フォークタワー：魔の塔」の宝箱から入手できるアイテムです。
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;拠点にいる「探索隊の古銭鑑定士」に渡すことで、様々なアイテムと交換できます。&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
       <trans-unit id="1760" xml:space="preserve" approved="yes">
         <source>1760</source>
         <target state="final">■受注条件
@@ -13152,6 +13492,22 @@ GP：350/900 → 850/900　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;�
 
 例：目標達成ボーナスが以下の場合
 </target>
+      </trans-unit>
+      <trans-unit id="1761" xml:space="preserve" approved="yes">
+        <source>1761</source>
+        <target state="final">&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■利用できない機能■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+コンテンツ中、以下の機能は利用できません。
+・チャット
+・定型文
+・ショートカットキー
+
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;■途中退出■&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+エスケープ（&lt;var 08 E4E94F04 ((esc)) ((Esc)) /var&gt;）を実行することで退出できますが、
+報酬は獲得することができません。
+また、途中退出による参加申請ペナルティが付与される可能性がありますので、
+ご注意ください。
+なお、一定時間操作が行われない状態が続くとコンテンツから強制退出となり、
+途中退出と同様のペナルティが付与される場合があります。</target>
       </trans-unit>
     </body>
   </file>
