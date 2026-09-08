@@ -547,6 +547,28 @@ Ouvre la fenêtre d'accès rapide.&lt;tab&gt;/accesrapide&lt;tab&gt;/accrap&lt;t
         <target state="final">/tableauxstrategiques, /tabstrat
 Ouvre la fenêtre des tableaux stratégiques.&lt;tab&gt;/tableauxstrategiques&lt;tab&gt;/tabstrat&lt;tab&gt;/strategyboard&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="52" xml:space="preserve" approved="yes">
+        <source>52</source>
+        <target state="final">/taillebête, /tbête, /beastsize
+Utilisation&lt;var 1D /var&gt;: /taillebête "[nom de la bête]" "[taille]"
+Change la taille d'affichage de la bête spécifiée.
+Sans effet sur l'affichage des autres joueurs.
+&gt;&gt; Tailles&lt;var 1D /var&gt;:
+grand (large)  Change la taille d'affichage en "grand".
+moyen (medium)  Change la taille d'affichage en "moyen".
+petit (small)  Change la taille d'affichage en "petit".
+* Si aucune taille n'est spécifiée, change la taille dans l'ordre petit/moyen/grand. Renvoie une erreur si l'argument “tous” est utilisé.
+&gt;&gt;Exemple&lt;var 1D /var&gt;:
+/taillebête "cu sith" moyen
+  Change la taille d'affichage du cu sith en "moyen".
+/taillebête tous petit
+  Change la taille de toutes les bêtes en "petit".&lt;tab&gt;/taillebête&lt;tab&gt;/tbête&lt;tab&gt;/beastsize&lt;tab&gt;/beastpetsize</target>
+      </trans-unit>
+      <trans-unit id="54" xml:space="preserve" approved="yes">
+        <source>54</source>
+        <target state="final">/bestiairedresseur, /bstdre, /bestiary
+Ouvre le bestiaire de dresseur.&lt;tab&gt;/bestiairedresseur&lt;tab&gt;/bstdre&lt;tab&gt;/bestiary&lt;tab&gt;/bstbook</target>
+      </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
         <target state="final">/équipejcj, /éj, /pvpteam, /pt

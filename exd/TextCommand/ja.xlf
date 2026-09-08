@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="TextCommand" datatype="plaintext" source-language="en" target-language="ja">
     <body>
@@ -403,12 +403,13 @@ feast
 /petmirage
 　…ペットの見た目の設定リストを出力する。&lt;tab&gt;/petmirage&lt;tab&gt;&lt;tab&gt;/petmirage&lt;tab&gt;</target>
       </trans-unit>
-      <trans-unit id="34" xml:space="preserve" approved="no">
+      <trans-unit id="34" xml:space="preserve" approved="yes">
         <source>34</source>
-        <target state="needs-translation">/petsize ペットの名前 サイズ
+        <target state="final">/petsize ペットの名前 サイズ
 特定のペットの表示サイズを変更する。
 ただし、PvPコンテンツ内では無効。
 また、自分のみ対象で他人には反映されない。
+※魔獣使いのペットの変更は/beastsizeをご利用ください。
 
 &gt;&gt;ペットの名前
 デミ・バハムート
@@ -581,6 +582,33 @@ off
         <source>51</source>
         <target state="final">/strategyboard
 ストラテジーボードのメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/strategyboard&lt;tab&gt;</target>
+      </trans-unit>
+      <trans-unit id="52" xml:space="preserve" approved="yes">
+        <source>52</source>
+        <target state="final">/beastsize(/beastpetsize) ペットの名前 サイズ
+魔獣使いのペット（使役獣）の表示サイズを変更する。
+また、自分のみ対象で他人には反映されない。
+
+&gt;&gt;サイズ
+large
+　…表示サイズを『大』に変更する。
+medium
+　…表示サイズを『中』に変更する。
+small
+　…表示サイズを『小』に変更する。
+※サイズ省略
+　…設定を『小・中・大』の順に切り替える。対象がallの場合はエラーを返す。
+
+実行例
+/beastsize クーシー medium
+　…クーシーの表示サイズを『中』に変更する。
+/beastsize all small
+　…すべてのペットの表示サイズを『小』に変更する。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/beastsize&lt;tab&gt;/beastpetsize</target>
+      </trans-unit>
+      <trans-unit id="54" xml:space="preserve" approved="yes">
+        <source>54</source>
+        <target state="final">/bestiary(/bstbook)
+魔獣図鑑のメニューを開く。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bestiary&lt;tab&gt;/bstbook</target>
       </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
@@ -1609,9 +1637,9 @@ off
 ※サブコマンド省略
 　…「離席」と「オンライン」のスイッチ切り替え。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/away&lt;tab&gt;/afk</target>
       </trans-unit>
-      <trans-unit id="233" xml:space="preserve" approved="no">
+      <trans-unit id="233" xml:space="preserve" approved="yes">
         <source>233</source>
-        <target state="needs-translation">/lookingforparty(/lfp) サブコマンド クラス・ジョブ
+        <target state="final">/lookingforparty(/lfp) サブコマンド クラス・ジョブ
 指定したクラス・ジョブで、オンラインステータスを「パーティ希望」に設定する。
 &gt;&gt;サブコマンド
 on 
@@ -1621,7 +1649,7 @@ off
 ※サブコマンド省略
 　…「パーティ希望」と「オンライン」のスイッチ切り替え。
 &gt;&gt;クラス・ジョブ（※順不同で複数指定可能）
-ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　ヴァイパー(VPR)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　ピクトマンサー(PCT)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
+ナイト(PLD)　剣術士(GLA)　戦士(WAR)　斧術士(MRD)　暗黒騎士(DRK)　ガンブレイカー(GNB)　白魔道士(WHM)　幻術士(CNJ)　学者(SCH)　占星術師(AST)　賢者(SGE)　モンク(MNK)　格闘士(PGL)　竜騎士(DRG)　槍術士(LNC)　忍者(NIN)　双剣士(ROG)　侍(SAM)　リーパー(RPR)　ヴァイパー(VPR)　魔獣使い(BST)　吟遊詩人(BRD)　弓術士(ARC)　機工士(MCH)　踊り子(DNC)　黒魔道士(BLM)　呪術士(THM)　召喚士(SMN)　巴術士(ACN)　赤魔道士(RDM)　ピクトマンサー(PCT)　青魔道士(BLU)　木工師(CRP)　鍛冶師(BSM)　甲冑師(ARM)　彫金師(GSM)　革細工師(LTW)　裁縫師(WVR)　錬金術師(ALC)　調理師(CUL)　採掘師(MIN)　園芸師(BTN)　漁師(FSH)
 ※省略した場合は、現在のクラス・ジョブを指定。&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/lookingforparty&lt;tab&gt;/lfp</target>
       </trans-unit>
       <trans-unit id="234" xml:space="preserve" approved="yes">

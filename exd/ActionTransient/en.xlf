@@ -21247,7 +21247,9 @@ This action's effects extend through obstructions.
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Cure Potency: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;10,000
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;Restores HP of party members near target
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Cure Potency: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;10,000
-Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Prefulgence&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Prefulgence Ready&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+※This action cannot be assigned to a hotbar.</target>
       </trans-unit>
       <trans-unit id="41496" xml:space="preserve" approved="yes">
         <source>41496</source>
@@ -22119,6 +22121,259 @@ Can only be used in Frontlines and Rival Wings.</target>
         <target state="final">Raise your torch aloft to illuminate your immediate surrounds.
 ※Has no effect in battle.</target>
       </trans-unit>
+      <trans-unit id="44879" xml:space="preserve" approved="yes">
+        <source>44879</source>
+        <target state="final">Delivers an attack with a potency of &lt;var 08 E4E9452C ((&lt;var 08 E0E94927A165 /var&gt;)) 65 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44880" xml:space="preserve" approved="yes">
+        <source>44880</source>
+        <target state="final">Delivers an attack with a potency of 100.
+Target cannot be incapacitated by this attack.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Marks target with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Interest Captured&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 120s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Interest Captured Effect: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;Forges a pact with the targeted beast should you succeed in their subdual
+Success is determined upon defeating targets under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Interest Captured&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+An entry in the &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Master's Bestiary&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will be added upon successful subdual, allowing the beast to be summoned as a familiar.
+Success rate is inversely proportional to the target's HP at the time of execution. Furthermore, success rate increases if the target is a lower level than you.
+Ineffective against targets whose level is higher than your own.</target>
+      </trans-unit>
+      <trans-unit id="44881" xml:space="preserve" approved="yes">
+        <source>44881</source>
+        <target state="final">Summons &lt;var 08 E1E96F01 ((your &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 28 ((Pet)) ((&lt;var 28 ((XBMPet)) E96F01 /var&gt;)) 01 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((a familiar)) /var&gt; to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.&lt;var 08 E4E9452C ((&lt;var 08 E0E94913 ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E9452C ((&lt;var 08 E0E9491F ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Resets &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tempered Release&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; recast timer)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E9452C ((&lt;var 08 E0E94923 ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Resets &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Borrow&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; recast timer)) (()) /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="44882" xml:space="preserve" approved="yes">
+        <source>44882</source>
+        <target state="final">Investigates a targeted beast's probability of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Capture&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Can be executed while mounted, but only when grounded.</target>
+      </trans-unit>
+      <trans-unit id="44883" xml:space="preserve" approved="yes">
+        <source>44883</source>
+        <target state="final">Delivers an attack with a potency of 260.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Combo Action:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Smash Axe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Combo Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 500&lt;var 08 E4E9452C ((&lt;var 08 E0E94905 ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Combo Bonus:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 13)) (()) /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="44884" xml:space="preserve" approved="yes">
+        <source>44884</source>
+        <target state="final">Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; skill while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will complete a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions.</target>
+      </trans-unit>
+      <trans-unit id="44885" xml:space="preserve" approved="yes">
+        <source>44885</source>
+        <target state="final">Delivers an attack with a potency of 280.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Combo Action:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Axeblade Bite&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Combo Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 600
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Combo Bonus:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 15</target>
+      </trans-unit>
+      <trans-unit id="44886" xml:space="preserve" approved="yes">
+        <source>44886</source>
+        <target state="final">Upon using &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Borrow&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, changes to an action dependent on &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Beast Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Action reduces physical vulnerability
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Vile Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Action increases block rate
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Cloud Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Action bolsters movement
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Seed Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Action inflicts poison and weakening effects
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Wave Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Action deals ranged magic damage to a single target
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Scale Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Action absorbs magic damage
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Soul Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Action delivers an attack that interrupts a single target
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Ash Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Action removes a detrimental effect</target>
+      </trans-unit>
+      <trans-unit id="44887" xml:space="preserve" approved="yes">
+        <source>44887</source>
+        <target state="final">Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; skill while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will complete a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions.</target>
+      </trans-unit>
+      <trans-unit id="44888" xml:space="preserve" approved="yes">
+        <source>44888</source>
+        <target state="final">Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing an &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; skill while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will complete a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions.</target>
+      </trans-unit>
+      <trans-unit id="44889" xml:space="preserve" approved="yes">
+        <source>44889</source>
+        <target state="final">Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; skill while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will complete a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions.</target>
+      </trans-unit>
+      <trans-unit id="44890" xml:space="preserve" approved="yes">
+        <source>44890</source>
+        <target state="final">Orders your familiar to execute a controlled ability.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44891" xml:space="preserve" approved="yes">
+        <source>44891</source>
+        <target state="final">Orders your familiar to execute &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Aetheric Burst&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Aetheric Burst Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Deals unaspected damage to target and all enemies nearby it with a potency of 1,000
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Lingering Vantage Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 1,500
+)) (()) /var&gt;)) (()) /var&gt;Familiar retreats from combat upon execution.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E94909 ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Familiar TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 24
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat.</target>
+      </trans-unit>
+      <trans-unit id="44892" xml:space="preserve" approved="yes">
+        <source>44892</source>
+        <target state="final">Summons &lt;var 08 E1E97001 ((your &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 28 ((Pet)) ((&lt;var 28 ((XBMPet)) E97001 /var&gt;)) 01 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((a familiar)) /var&gt; to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.&lt;var 08 E4E9452C ((&lt;var 08 E0E94913 ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E9452C ((&lt;var 08 E0E9491F ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Resets &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tempered Release&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; recast timer)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E9452C ((&lt;var 08 E0E94923 ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Resets &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Borrow&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; recast timer)) (()) /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="44893" xml:space="preserve" approved="yes">
+        <source>44893</source>
+        <target state="final">Rushes forward and delivers an attack to target and all enemies nearby it with a potency of &lt;var 08 E4E9452C ((&lt;var 08 E0E94927F2012CF0DC /var&gt;)) F0DC /var&gt;
+&lt;var 08 E4E9452C ((&lt;var 08 E0E94925 ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Maximum Charges:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 3
+)) (()) /var&gt;)) (()) /var&gt;Cannot be executed while bound.</target>
+      </trans-unit>
+      <trans-unit id="44894" xml:space="preserve" approved="yes">
+        <source>44894</source>
+        <target state="final">Summons &lt;var 08 E1E97101 ((your &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;&lt;var 28 ((Pet)) ((&lt;var 28 ((XBMPet)) E97101 /var&gt;)) 01 /var&gt;&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) ((a familiar)) /var&gt; to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.&lt;var 08 E4E9452C ((&lt;var 08 E0E94913 ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E9452C ((&lt;var 08 E0E9491F ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Resets &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tempered Release&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; recast timer)) (()) /var&gt;)) (()) /var&gt;&lt;var 08 E4E9452C ((&lt;var 08 E0E94923 ((
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Resets &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Borrow&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; recast timer)) (()) /var&gt;)) (()) /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="44895" xml:space="preserve" approved="yes">
+        <source>44895</source>
+        <target state="final">Borrows aether from your summoned familiar to gain &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; according to its classification.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Beastkin Familiar Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Beast Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Vilekin Familiar Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vile Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Cloudkin Familiar Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Cloud Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Seedkin Familiar Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seed Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Wavekin Familiar Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wave Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Scalekin Familiar Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Scale Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Soulkin Familiar Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Soul Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Ashkin Familiar Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Ash Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+Changes &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; into an action according to your familiar's classification.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44896" xml:space="preserve" approved="yes">
+        <source>44896</source>
+        <target state="final">Reduces physical damage taken by 25% and increases critical hit rate by 5%.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Beast Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beastskin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44897" xml:space="preserve" approved="yes">
+        <source>44897</source>
+        <target state="final">Nullifies most knockback and draw-in effects and increases block rate to 100%.
+Increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 12 for each block.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vile Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vileskin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44898" xml:space="preserve" approved="yes">
+        <source>44898</source>
+        <target state="final">Move quickly in the selected direction.
+Increases evasion by 5%.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Cloud Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cloud Skim&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44899" xml:space="preserve" approved="yes">
+        <source>44899</source>
+        <target state="final">Afflicts nearby enemies with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seeds Sown&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Seeds Sown Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces damage dealt by 10% and inflicts toxins that cause damage over time
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 25
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seed Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Seedsower&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44900" xml:space="preserve" approved="yes">
+        <source>44900</source>
+        <target state="final">Deals water damage with a potency of 350.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 10
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Removes one beneficial status from target, thereby increasing &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 50
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wave Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Quelling Wave&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44901" xml:space="preserve" approved="yes">
+        <source>44901</source>
+        <target state="final">Creates a barrier around self that absorbs magic damage totaling 8% of maximum HP.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
+Increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 85 when barrier is completely absorbed.
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Scale Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Scaleskin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44902" xml:space="preserve" approved="yes">
+        <source>44902</source>
+        <target state="final">Delivers a close-quarter attack with a potency of 300.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Interrupts the use of a target's action
+Potency increases to 1,000 and &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; increases by 100 upon interruption.
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Soul Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Soul Crush&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44903" xml:space="preserve" approved="yes">
+        <source>44903</source>
+        <target state="final">Removes a single detrimental effect from self or targeted party member.
+Recovers 10% of maximum HP and increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 100 upon removal.
+Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Ash Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beast Mode&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Scouring Ash&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44904" xml:space="preserve" approved="yes">
+        <source>44904</source>
+        <target state="final">Spends all stacks of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Natural Instinct&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; to increase &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Familiar TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Standard Familiar TP Gauge Increase:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30
+Each stack of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Natural Instinct&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Familiar TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 70.
+Can only be executed while in combat.</target>
+      </trans-unit>
+      <trans-unit id="44905" xml:space="preserve" approved="yes">
+        <source>44905</source>
+        <target state="final">Spends all stacks of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Mastered Instinct&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; to increase &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Standard TP Gauge Increase:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 40
+Each stack of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Mastered Instinct&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 70.
+Can only be executed while in combat.</target>
+      </trans-unit>
       <trans-unit id="44920" xml:space="preserve" approved="yes">
         <source>44920</source>
         <target state="final">Siphons ionic energy from a cone-shaped area before you to replenish suit energy stores.</target>
@@ -22150,6 +22405,939 @@ Can only be used in Frontlines and Rival Wings.</target>
       <trans-unit id="44926" xml:space="preserve" approved="yes">
         <source>44926</source>
         <target state="final">Siphons glass shards from a cone-shaped area before you. Has no effect on larger clusters.</target>
+      </trans-unit>
+      <trans-unit id="44930" xml:space="preserve" approved="yes">
+        <source>44930</source>
+        <target state="final">Rushes forward and delivers an attack with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 250
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; skill while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will complete the infinitive combo &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Universality&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing greater additional damage.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Avalanche Axe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Brutal Rage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44931" xml:space="preserve" approved="yes">
+        <source>44931</source>
+        <target state="final">Rushes forward and delivers an attack with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 250
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; skill while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will complete the infinitive combo &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Universality&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing greater additional damage.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Mistral Axe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Hawkish Talons&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44932" xml:space="preserve" approved="yes">
+        <source>44932</source>
+        <target state="final">Deals unaspected damage with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 250
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; skill while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will complete the infinitive combo &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Universality&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing greater additional damage.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Spinning Axe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Risen Fall&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44933" xml:space="preserve" approved="yes">
+        <source>44933</source>
+        <target state="final">Deals unaspected damage with a potency of 1,200 to all enemies in a straight line.
+All TP will be expended upon execution.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 250
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Moonstalker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; skill while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sunstrider&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; will complete the infinitive combo &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Universality&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing greater additional damage.
+
+※This action cannot be assigned to a hotbar.
+※&lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Gale Axe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; changes to &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Calamity&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; when requirements for execution are met.</target>
+      </trans-unit>
+      <trans-unit id="44935" xml:space="preserve" approved="yes">
+        <source>44935</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Rake&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a slashing physical attack with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44936" xml:space="preserve" approved="yes">
+        <source>44936</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Relentless Rake&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a sixfold slashing physical attack with a potency of 150.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44937" xml:space="preserve" approved="yes">
+        <source>44937</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Somersault Slash&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing fire damage with a potency of 500 to all enemies in a straight line before and behind it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44938" xml:space="preserve" approved="yes">
+        <source>44938</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Scamper&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, reducing weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 15% for nearby party members.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44939" xml:space="preserve" approved="yes">
+        <source>44939</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Fleece Butt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a blunt physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44940" xml:space="preserve" approved="yes">
+        <source>44940</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Lullaby&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, afflicting all nearby enemies with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Sleep&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases sleep resistance of all nearby party members, and reduces the duration of sleep-related status afflictions by 80%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44941" xml:space="preserve" approved="yes">
+        <source>44941</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Screwdriver&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing water damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44942" xml:space="preserve" approved="yes">
+        <source>44942</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Water Wall&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, reducing nearby party members' magic vulnerability by 20%.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 48s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases paralysis resistance of all nearby party members, and reduces the duration of paralysis-related status afflictions by 80%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44943" xml:space="preserve" approved="yes">
+        <source>44943</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Stone Throw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a blunt physical attack with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44944" xml:space="preserve" approved="yes">
+        <source>44944</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Pins and Nails&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 750.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts target with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paralysis&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 45s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44945" xml:space="preserve" approved="yes">
+        <source>44945</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Fowl Stench&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blind&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44946" xml:space="preserve" approved="yes">
+        <source>44946</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Strut&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, reducing earth damage taken by 15% for nearby party members, and occasionally nullifying it entirely.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases blind resistance of all nearby party members, and reduces the duration of blind-related status afflictions by 80%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44947" xml:space="preserve" approved="yes">
+        <source>44947</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bestial Thunder&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing ranged lightning damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44948" xml:space="preserve" approved="yes">
+        <source>44948</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vulcanize&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, reducing nearby party members' physical vulnerability by 20%.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 48s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases poison resistance of all nearby party members, and reduces the duration of poison-related status afflictions by 80%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44949" xml:space="preserve" approved="yes">
+        <source>44949</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Deadly Thrust&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts target with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Poison&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 75
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44950" xml:space="preserve" approved="yes">
+        <source>44950</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Silkscreen&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all enemies in a straight line before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15-yalm knockback and &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bind+&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; that cannot be nullified by suffering damage
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44951" xml:space="preserve" approved="yes">
+        <source>44951</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Drenching Blow&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing water damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44952" xml:space="preserve" approved="yes">
+        <source>44952</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bubble Shower&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing water damage with a potency of 450 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces targets' water resistance by 20%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44953" xml:space="preserve" approved="yes">
+        <source>44953</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Sharp Sting&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts target with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Poison&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 75
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44954" xml:space="preserve" approved="yes">
+        <source>44954</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Final Sting&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 2,000.
+Potency increases up to 3,000 as the target's HP decreases.
+Familiar retreats from combat upon execution.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44955" xml:space="preserve" approved="yes">
+        <source>44955</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Wing Cutter&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44956" xml:space="preserve" approved="yes">
+        <source>44956</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bloodcurdling Caw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing wind damage with a potency of 450 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Removes one beneficial status from targets and increases &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Familiar TP Gauge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; by 100 per status removed
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44957" xml:space="preserve" approved="yes">
+        <source>44957</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Budbutt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a blunt physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44958" xml:space="preserve" approved="yes">
+        <source>44958</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Heirloom Scream&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Heavy&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44959" xml:space="preserve" approved="yes">
+        <source>44959</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Dark Thunder&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing lightning damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44960" xml:space="preserve" approved="yes">
+        <source>44960</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Odium&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, granting &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Life Siphon&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; to nearby party members.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Life Siphon Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Converts a portion of damage dealt into HP
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 21s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44961" xml:space="preserve" approved="yes">
+        <source>44961</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Fireball&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing fire damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44962" xml:space="preserve" approved="yes">
+        <source>44962</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tail Chase&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a slashing physical attack with a potency of 750 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15-yalm knockback
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44963" xml:space="preserve" approved="yes">
+        <source>44963</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bubble Shower&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing water damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44964" xml:space="preserve" approved="yes">
+        <source>44964</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Hundred Fists&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, reducing its auto-attack delay by 75%.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 6s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44965" xml:space="preserve" approved="yes">
+        <source>44965</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Standing Chine&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a slashing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44966" xml:space="preserve" approved="yes">
+        <source>44966</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Eerie Soundwave&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases targets' physical vulnerability by 10%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44967" xml:space="preserve" approved="yes">
+        <source>44967</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Digest&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Damage dealt is partially absorbed as beastmaster HP
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44968" xml:space="preserve" approved="yes">
+        <source>44968</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Syrup&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 550 to target and all enemies nearby it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Bind+&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; that cannot be nullified by suffering damage
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44969" xml:space="preserve" approved="yes">
+        <source>44969</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Iron Justice&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a slashing physical attack with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44970" xml:space="preserve" approved="yes">
+        <source>44970</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;King's Will&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, increasing nearby party members' physical damage dealt by 10%.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44971" xml:space="preserve" approved="yes">
+        <source>44971</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Blood Drain&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Damage dealt is partially absorbed as beastmaster HP
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44972" xml:space="preserve" approved="yes">
+        <source>44972</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ultrasonics&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces targets' accuracy by 10%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 21s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Removes a single detrimental effect from all nearby party members
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44973" xml:space="preserve" approved="yes">
+        <source>44973</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Sour Sough&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15-yalm knockback and &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Poison&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 75
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44974" xml:space="preserve" approved="yes">
+        <source>44974</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Necrotic Nectar&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 550 to target and all enemies nearby it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases targets' magic vulnerability by 10%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44975" xml:space="preserve" approved="yes">
+        <source>44975</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ice Breath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44976" xml:space="preserve" approved="yes">
+        <source>44976</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Petribreath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Petrification&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 21s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44977" xml:space="preserve" approved="yes">
+        <source>44977</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Natural Needles&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44978" xml:space="preserve" approved="yes">
+        <source>44978</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Hypodermic Hustle&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, granting &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Keen Edge&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; to nearby party members, excluding familiars.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Keen Edge Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases damage dealt by 20% but inflicts damage over time
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 21s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44979" xml:space="preserve" approved="yes">
+        <source>44979</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Boulder Clap&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44980" xml:space="preserve" approved="yes">
+        <source>44980</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Rockslide&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing earth damage with a potency of 450 to all enemies in a straight line before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces targets' earth resistance by 20%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44981" xml:space="preserve" approved="yes">
+        <source>44981</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Flying Sardine&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing water damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44982" xml:space="preserve" approved="yes">
+        <source>44982</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Regurgitate&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing water damage with a potency of 750.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts target with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Slow&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 45s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44983" xml:space="preserve" approved="yes">
+        <source>44983</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bestial Thunder II&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing lightning damage with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44984" xml:space="preserve" approved="yes">
+        <source>44984</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Harden Shell&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, reducing nearby party members' physical vulnerability by 20%.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 48s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases petrification resistance of all nearby party members, and reduces the duration of petrification-related status afflictions by 80%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44985" xml:space="preserve" approved="yes">
+        <source>44985</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Heave&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a blunt physical attack with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44986" xml:space="preserve" approved="yes">
+        <source>44986</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;War Cry&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 750 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Stun&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44987" xml:space="preserve" approved="yes">
+        <source>44987</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Frost Breath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44988" xml:space="preserve" approved="yes">
+        <source>44988</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Gas Shell&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 300 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Poison&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 150
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44989" xml:space="preserve" approved="yes">
+        <source>44989</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Sand Breath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blind&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44990" xml:space="preserve" approved="yes">
+        <source>44990</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bottomless Desert&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing earth damage with a potency of 800 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Heavy&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44991" xml:space="preserve" approved="yes">
+        <source>44991</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Romp&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing fire damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44992" xml:space="preserve" approved="yes">
+        <source>44992</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Frenetic Flurry&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a sevenfold blunt physical attack with a potency of 125.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44993" xml:space="preserve" approved="yes">
+        <source>44993</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beatdown&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a blunt physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44994" xml:space="preserve" approved="yes">
+        <source>44994</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Moldy Sneeze&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Disease&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Disease Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces movement speed by 80% and HP recovered via healing magic by 95%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44995" xml:space="preserve" approved="yes">
+        <source>44995</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bestial Blizzard II&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing ice damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44996" xml:space="preserve" approved="yes">
+        <source>44996</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Sticky Tongue&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a ranged blunt physical attack with a potency of 750.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Draws target to familiar
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces target's accuracy by 10%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 21s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44997" xml:space="preserve" approved="yes">
+        <source>44997</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Loop&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="44998" xml:space="preserve" approved="yes">
+        <source>44998</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Pecking Flurry&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a fivefold piercing physical attack with a potency of 200.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="44999" xml:space="preserve" approved="yes">
+        <source>44999</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Blaster&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing lightning damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45000" xml:space="preserve" approved="yes">
+        <source>45000</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Charged Whisker&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing lightning damage with a potency of 450 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paralysis&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces targets' lightning resistance by 20%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45001" xml:space="preserve" approved="yes">
+        <source>45001</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Frost Breath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45002" xml:space="preserve" approved="yes">
+        <source>45002</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Foul Breath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing fire damage with a potency of 1,000 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces targets' fire resistance by 20%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45003" xml:space="preserve" approved="yes">
+        <source>45003</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Burning Cyclone&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing fire damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45004" xml:space="preserve" approved="yes">
+        <source>45004</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Smoldering Scales&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, reducing nearby party members' magic vulnerability by 20% and fire damage taken by 15%, occasionally nullifying it entirely.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 48s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45005" xml:space="preserve" approved="yes">
+        <source>45005</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Acorn Bomb&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing earth damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Nightmare&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45006" xml:space="preserve" approved="yes">
+        <source>45006</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Arboreal Storm&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing wind damage with a potency of 450 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15-yalm knockback
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45007" xml:space="preserve" approved="yes">
+        <source>45007</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Mandible Bite&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45008" xml:space="preserve" approved="yes">
+        <source>45008</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Formic Pheromones&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, afflicting all nearby enemies with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Slow&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces water, earth, and ice damage taken by 15% for nearby party members, and occasionally nullifies it entirely
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45009" xml:space="preserve" approved="yes">
+        <source>45009</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;The Lion's Breath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing fire damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Deals additional damage with a potency of 1,000 to targets suffering from &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Deep Freeze&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45010" xml:space="preserve" approved="yes">
+        <source>45010</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;The Ram's Voice&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing ice damage with a potency of 450 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Deep Freeze&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 20s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces targets' ice resistance by 20%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45011" xml:space="preserve" approved="yes">
+        <source>45011</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vine Probe&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 450 to all enemies in a straight line before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45012" xml:space="preserve" approved="yes">
+        <source>45012</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bad Breath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Slow&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Blind&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, and &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Paralysis&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45013" xml:space="preserve" approved="yes">
+        <source>45013</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Fell Gale&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Small chance to afflict targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Doom&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Doom Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5s
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45014" xml:space="preserve" approved="yes">
+        <source>45014</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Curse&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 300 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Deals additional damage with a potency of 1,500 to targets suffering from &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Disease&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Small chance to afflict targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Doom&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Doom Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45015" xml:space="preserve" approved="yes">
+        <source>45015</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Brackish Rain&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing water damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45016" xml:space="preserve" approved="yes">
+        <source>45016</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Peculiar Light&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Increases targets' magic vulnerability by 10%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45017" xml:space="preserve" approved="yes">
+        <source>45017</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Dripping Fang&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts target with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Poison&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 75
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45018" xml:space="preserve" approved="yes">
+        <source>45018</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Stone Gaze&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 750.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts target with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Petrification&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 42s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45019" xml:space="preserve" approved="yes">
+        <source>45019</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Main Trap&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45020" xml:space="preserve" approved="yes">
+        <source>45020</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;White Breath&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Disease&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Disease Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces movement speed by 80% and HP recovered via healing magic by 95%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45021" xml:space="preserve" approved="yes">
+        <source>45021</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cursed Sphere&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing wind damage with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45022" xml:space="preserve" approved="yes">
+        <source>45022</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Venom&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 300 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Afflicts targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Poison&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Potency:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 150
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45023" xml:space="preserve" approved="yes">
+        <source>45023</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Dirty Sneeze&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing ranged earth damage with a potency of 450.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45024" xml:space="preserve" approved="yes">
+        <source>45024</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Inhale&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Draws targets to familiar
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45025" xml:space="preserve" approved="yes">
+        <source>45025</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Flying Frenzy&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, rushing target and delivering a blunt physical attack with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45026" xml:space="preserve" approved="yes">
+        <source>45026</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Breath Wing&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing wind damage with a potency of 800 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Reduces targets' wind resistance by 20%
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45027" xml:space="preserve" approved="yes">
+        <source>45027</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Ice Guillotine&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing ice damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45028" xml:space="preserve" approved="yes">
+        <source>45028</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Frozen Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, increasing nearby party members' magic damage dealt by 25%.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45029" xml:space="preserve" approved="yes">
+        <source>45029</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Impale&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45030" xml:space="preserve" approved="yes">
+        <source>45030</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Tail Screw&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing water damage with a potency of 800 to target and all enemies nearby it.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Small chance to reduce enemy HP to a single digit. Has no effect on enemies whose level is higher than your own.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45031" xml:space="preserve" approved="yes">
+        <source>45031</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Bloody Caress&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing wind damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45032" xml:space="preserve" approved="yes">
+        <source>45032</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Blighted Bouquet&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing unaspected damage with a potency of 800 to all nearby enemies.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Small chance to afflict targets with &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Doom&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Doom Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 5s
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="45033" xml:space="preserve" approved="yes">
+        <source>45033</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Thunderbolt&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing lightning damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum Familiar TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Instinctual Affinity:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+May be used alongside beastmaster instinctual skills to initiate or complete combos.</target>
+      </trans-unit>
+      <trans-unit id="45034" xml:space="preserve" approved="yes">
+        <source>45034</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Meteor&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, dealing fire damage with a potency of 1,000 to target and all enemies nearby it.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="45127" xml:space="preserve" approved="yes">
         <source>45127</source>
@@ -22380,6 +23568,18 @@ Effect cannot be stacked with Phantom Cannoneer's &lt;var 48 F201FA /var&gt;&lt;
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Quicker Step Effect: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;Increases damage dealt by 2%
 &lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration: &lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;30m</target>
       </trans-unit>
+      <trans-unit id="46750" xml:space="preserve" approved="yes">
+        <source>46750</source>
+        <target state="final">Gesture threateningly, placing yourself at the top of a target's enmity list and increasing enmity generation.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 30s
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Nullifies familiar's &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Cover&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;</target>
+      </trans-unit>
+      <trans-unit id="46751" xml:space="preserve" approved="yes">
+        <source>46751</source>
+        <target state="final">Orders your familiar to use &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Threaten&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, placing it at the top of a target's enmity list and increasing its enmity generation.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Takes all damage intended for the beastmaster
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 45s </target>
+      </trans-unit>
       <trans-unit id="46762" xml:space="preserve" approved="yes">
         <source>46762</source>
         <target state="final">Restores own HP.</target>
@@ -22425,6 +23625,101 @@ This action is not affected by attributes or enhancing effects.</target>
         <source>46942</source>
         <target state="final">Delivers a ranged attack with a potency of 150.
 Potency scales with item level.</target>
+      </trans-unit>
+      <trans-unit id="47092" xml:space="preserve" approved="yes">
+        <source>47092</source>
+        <target state="final">Orders your familiar to execute a controlled technique.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492D ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while in combat and under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="47093" xml:space="preserve" approved="yes">
+        <source>47093</source>
+        <target state="final">Orders your familiar to execute an instinctual skill.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Minimum TP Gauge Cost:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 100
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Volant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Rampant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durant Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;, or &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Eldritch Heart&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 7s
+Effects granted by this action may be paired with beastmaster instinctual skills to create combos.</target>
+      </trans-unit>
+      <trans-unit id="47238" xml:space="preserve" approved="yes">
+        <source>47238</source>
+        <target state="final">Borrows aether from your familiar to grant &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Beast Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Beast Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Enables execution of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Beastskin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="47239" xml:space="preserve" approved="yes">
+        <source>47239</source>
+        <target state="final">Borrows aether from your familiar to grant &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Vile Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Vile Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Enables execution of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Vileskin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="47240" xml:space="preserve" approved="yes">
+        <source>47240</source>
+        <target state="final">Borrows aether from your familiar to grant &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Cloud Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Cloud Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Enables execution of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Cloud Skim&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="47241" xml:space="preserve" approved="yes">
+        <source>47241</source>
+        <target state="final">Borrows aether from your familiar to grant &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Seed Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Seed Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Enables execution of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Seedsower&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="47242" xml:space="preserve" approved="yes">
+        <source>47242</source>
+        <target state="final">Borrows aether from your familiar to grant &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Wave Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Wave Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Enables execution of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Quelling Wave&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="47243" xml:space="preserve" approved="yes">
+        <source>47243</source>
+        <target state="final">Borrows aether from your familiar to grant &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Scale Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Scale Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Enables execution of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Scaleskin&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="47244" xml:space="preserve" approved="yes">
+        <source>47244</source>
+        <target state="final">Borrows aether from your familiar to grant &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Soul Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Soul Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Enables execution of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Soul Crush&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
+      </trans-unit>
+      <trans-unit id="47245" xml:space="preserve" approved="yes">
+        <source>47245</source>
+        <target state="final">Borrows aether from your familiar to grant &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Ash Kinship&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Ash Kinship Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Enables execution of &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Scouring Ash&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 90s
+Expiration timer is halted while your familiar is summoned.
+&lt;var 08 E4E9452C ((&lt;var 08 E0E9492F ((&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Grants &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Lingering Vantage&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 60s
+)) (()) /var&gt;)) (()) /var&gt;Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;One with Nature&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.</target>
       </trans-unit>
       <trans-unit id="47246" xml:space="preserve" approved="yes">
         <source>47246</source>
@@ -22725,6 +24020,11 @@ Effect is dispelled when HP is restored to full.</target>
       <trans-unit id="50083" xml:space="preserve" approved="yes">
         <source>50083</source>
         <target state="final">Fire an explosive flurry of bullets.
+※Has no effect in battle.</target>
+      </trans-unit>
+      <trans-unit id="50731" xml:space="preserve" approved="yes">
+        <source>50731</source>
+        <target state="final">Rake the ground with your pitchfork.
 ※Has no effect in battle.</target>
       </trans-unit>
       <trans-unit id="50732" xml:space="preserve" approved="yes">

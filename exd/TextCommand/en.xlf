@@ -718,6 +718,40 @@ USAGE:
 
 →Opens and closes the Strategy Board menu.&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/strategyboard&lt;tab&gt;</target>
       </trans-unit>
+      <trans-unit id="52" xml:space="preserve" approved="yes">
+        <source>52</source>
+        <target state="final">ALIASES:
+　/beastsize, /beastpetsize
+USAGE:
+　/beastsize [summon] [size]
+
+→Alter the size of select beastmaster familiars (summons). These settings will not apply to other players.
+
+&gt;&gt;Size:
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;large&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　　Set summon size to large.
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;medium&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　　Set summon size to medium.
+　&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;small&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;
+　　Set summon size to small.
+
+Toggles between small, medium, and large when no size is specified. Returns an error when attempting to toggle using “all.”
+
+&gt;&gt;Example:
+　/beastsize "Cu Sith" "medium"
+　(Set your Cu Sith's size to medium.)
+　/beastsize "all" "small"
+　(Set all familiars' size to small.)&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/beastsize&lt;tab&gt;/beastpetsize</target>
+      </trans-unit>
+      <trans-unit id="54" xml:space="preserve" approved="yes">
+        <source>54</source>
+        <target state="final">ALIASES:
+　/bestiary, /bstbook
+USAGE:
+　/bestiary
+
+→Opens and closes the Master's Bestiary&lt;tab&gt;&lt;tab&gt;&lt;tab&gt;/bestiary&lt;tab&gt;/bstbook</target>
+      </trans-unit>
       <trans-unit id="91" xml:space="preserve" approved="yes">
         <source>91</source>
         <target state="final">ALIASES:
