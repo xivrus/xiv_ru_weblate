@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
   <file original="ActionTransient" datatype="plaintext" source-language="en" target-language="fr">
     <body>
@@ -22939,9 +22939,9 @@ Cette action n'est pas entravée par les obstacles.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
 Cette action devient &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Syncristallisation&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; après utilisation.</target>
       </trans-unit>
-      <trans-unit id="41495" xml:space="preserve" approved="no">
+      <trans-unit id="41495" xml:space="preserve" approved="yes">
         <source>41495</source>
-        <target state="needs-translation">Effectue une attaque magique sur la cible et les ennemis autour.
+        <target state="final">Effectue une attaque magique sur la cible et les ennemis autour.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10 000
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; restaure vos PV.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Puissance&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 10 000
@@ -25619,8 +25619,10 @@ Ne peut être cumulé avec l'effet &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /
         <target state="final">Ordonne à la bête d'exécuter &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Menace&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
 
 La place en tête de la liste d'inimitié de la cible et augmente sa génération d'inimitié.
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 15s
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; détourne vers la bête les attaques dirigées vers vous.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Durée&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 45s
+&lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Effet additionnel&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; dissipe &lt;var 48 F201F4 /var&gt;&lt;var 49 F201F5 /var&gt;Inimitié augmentée&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; si actif.
 &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Condition&lt;var 1D /var&gt;:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; bête appelée.</target>
       </trans-unit>
       <trans-unit id="46762" xml:space="preserve" approved="yes">
@@ -26072,28 +26074,6 @@ Cet effet disparaît si l'intégralité des PV est restaurée.</target>
         <source>51026</source>
         <target state="final">Lève une lanterne allumée.
 * Effet spécial. N'inflige aucun dégât.</target>
-      </trans-unit>
-      <trans-unit id="8" xml:space="preserve" approved="no">
-        <source>8</source>
-        <target state="needs-translation" state-qualifier="leveraged-mt">Delivers a ranged attack. Recast time varies with delay value of main hand weapon.</target>
-      </trans-unit>
-      <trans-unit id="6844" xml:space="preserve" approved="no">
-        <source>6844</source>
-        <target state="needs-translation" state-qualifier="leveraged-mt">Restores all of a target's HP.</target>
-      </trans-unit>
-      <trans-unit id="858" xml:space="preserve" approved="no">
-        <source>858</source>
-        <target state="needs-translation" state-qualifier="leveraged-mt">Delivers an attack with a potency of 170.
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Additional Effect:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; Damage over time
-&lt;var 48 F201F8 /var&gt;&lt;var 49 F201F9 /var&gt;Duration:&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt; 18s</target>
-      </trans-unit>
-      <trans-unit id="9098" xml:space="preserve" approved="no">
-        <source>9098</source>
-        <target state="needs-translation" state-qualifier="leveraged-mt">Rushes target and delivers an attack with a potency of 400.
-Can only be executed while under the effect of &lt;var 48 F201FA /var&gt;&lt;var 49 F201FB /var&gt;Riddle of Wind&lt;var 49 01 /var&gt;&lt;var 48 01 /var&gt;.
-Cannot be executed while bound.
-
-※This action cannot be assigned to a hotbar.</target>
       </trans-unit>
     </body>
   </file>
